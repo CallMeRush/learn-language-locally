@@ -1,0 +1,6 @@
+const nonVerbVocabulary = [vocabularyHouse, vocabularyGreetings, vocabularyPeople, vocabularyFood, vocabularyCity, vocabularyAdjectives, vocabularyTime, vocabularyTravel, vocabularyHealth, vocabularyShopping, vocabularyNature, vocabularyWork, vocabularyFeelings, vocabularyClothing, vocabularyEducation, vocabularyTechnology, vocabularyCommunication, vocabularyDaily, vocabularyEnvironment, vocabularyCulture].flat();
+const verbIds = new Set(verbVocabulary.map(word => word.id));
+const vocab = [...nonVerbVocabulary.filter(word => !verbIds.has(word.id)), ...verbVocabulary];
+const vocabularyLevels={house:'A1',greetings:'A1',people:'A1',food:'A1',city:'A1',time:'A1',daily:'A1',adjectives:'A1',travel:'A2',health:'A2',shopping:'A2',nature:'A2',feelings:'A2',clothing:'A2',education:'A2',communication:'A2',work:'B1',technology:'B1',environment:'B1',culture:'B1'};
+const verbLevels={core:'A1',daily:'A1',travel:'A2',health:'A2',shopping:'A2',nature:'A2',feelings:'A2',clothing:'A2',separable:'A2',modal:'A2',work:'B1',education:'B1',technology:'B1',communication:'B1',environment:'B1',culture:'B1'};
+vocab.forEach(word=>{word.level=word.level||word.verbCategory&&verbLevels[word.verbCategory]||vocabularyLevels[word.category]||'A2'});

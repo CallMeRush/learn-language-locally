@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wortwerk — German, one useful word at a time</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand"><span class="brand-mark">W</span><span>wortwerk</span></div>
+        <div class="side-label">YOUR DESK</div>
+        <nav>
+          <button class="nav-item active" data-view="dashboard"><span>⌂</span> Overview</button>
+          <button class="nav-item" data-view="grammar"><span>§</span> Grammar</button>
+          <button class="nav-item" data-view="vocabulary"><span>✦</span> Vocabulary</button>
+          <button class="nav-item" data-view="verbs" data-category="verbs"><span>↻</span> Verbs</button>
+          <button class="nav-item" data-view="phrases"><span>↗</span> Phrases</button>
+          <button class="nav-item" data-view="mixed"><span>✧</span> Mixed practice</button>
+          <button class="nav-item" data-view="lessons"><span>◆</span> Lessons</button>
+          <button class="nav-item" data-view="issues"><span>⚑</span> Issues <b id="issue-count">0</b></button>
+        </nav>
+        <div class="side-bottom">
+          <div class="side-label">YOUR STREAK</div>
+          <div class="streak-card"><span class="flame">✦</span><div><strong id="streak-value">0 days</strong><small>Keep the chain alive</small></div></div>
+          <p class="side-note">A little every day beats a lot once a week.</p>
+        </div>
+      </aside>
+
+      <main class="main-content">
+<header class="topbar"><div class="crumb">GERMAN · A1 → B1</div><div class="top-actions"><div class="vocab-global-controls"><div class="global-levels"><button class="global-vocab-level active" data-global-vocab-level="all" aria-pressed="true">All levels</button><button class="global-vocab-level" data-global-vocab-level="A1" aria-pressed="false">A1</button><button class="global-vocab-level" data-global-vocab-level="A2" aria-pressed="false">A2</button><button class="global-vocab-level" data-global-vocab-level="B1" aria-pressed="false">B1</button></div><label class="toggle-label"><input type="checkbox" id="global-random-mode" checked /><span class="toggle-switch"></span> Random</label></div><button class="reset-btn" id="reset-progress" title="Reset all progress and start from the beginning">Reset session</button><div class="avatar">A</div></div></header>
+
+        <section id="dashboard-view" class="view active-view">
+          <div class="hero-grid">
+            <div class="hero-copy"><p class="eyebrow">MONDAY, 17 AUGUST 2026</p><h1>Guten Morgen,<br /><em>Student.</em></h1><p class="hero-intro">Your next useful German word is closer than you think. Pick up where you left off.</p><button class="primary-btn" data-action="start-session">Start a 10 min session <span>→</span></button></div>
+            <div class="hero-art"><div class="sun"></div><div class="arch"><span>Guten<br />Tag!</span></div><div class="plant">♧</div></div>
+          </div>
+          <div class="section-heading"><div><p class="eyebrow">AT A GLANCE</p><h2>Your learning pulse</h2></div><span class="micro-label">SAVED ON THIS DEVICE</span></div>
+          <div class="stats-grid"><div class="stat-card"><span class="stat-icon green">✦</span><strong id="learned-stat">0</strong><span>words learned</span><div class="progress-track"><i id="word-progress"></i></div></div><div class="stat-card"><span class="stat-icon peach">↗</span><strong id="phrase-stat">0</strong><span>phrases translated</span><div class="progress-track"><i id="phrase-progress"></i></div></div><div class="stat-card"><span class="stat-icon lilac">⌁</span><strong id="accuracy-stat">—</strong><span>session accuracy</span><div class="accuracy-dots" id="accuracy-dots"></div></div></div>
+          <div class="lower-grid"><div class="continue-card"><div class="card-title"><div><p class="eyebrow">CONTINUE LEARNING</p><h3>Articles matter</h3></div><span class="round-icon">der</span></div><p>German nouns come with a tiny label. Learn the word and its article together.</p><div class="lesson-row"><span class="lesson-number">01</span><div><strong>House objects</strong><small>10 words · A1</small></div><button class="text-btn" data-action="open-vocab" data-category="house">Open →</button></div><div class="lesson-row"><span class="lesson-number">02</span><div><strong>Everyday verbs</strong><small>12 words · A1</small></div><button class="text-btn" data-action="open-vocab" data-category="verbs">Open →</button></div></div><div class="tip-card"><span class="tip-star">✦</span><p class="eyebrow">A SMALL TIP</p><h3>Say it out loud.</h3><p>German spelling is wonderfully honest. Let your mouth learn alongside your memory.</p><span class="tip-german">Sprich laut.</span></div></div>
+        </section>
+
+<section id="vocabulary-view" class="view"><div class="page-heading"><div><p class="eyebrow">THE WORD SHELF</p><h1>Vocabulary</h1><p>Words worth knowing, grouped by where they live in your life.</p></div><div class="heading-actions"><select id="vocab-status-filter" class="vocab-status-filter" aria-label="Vocabulary progress filter"><option value="all">All words</option><option value="unseen" selected>Not done</option><option value="correct">Correct</option><option value="wrong">Wrong</option></select><button class="secondary-btn small-action" id="random-vocab">New word <span>↻</span></button></div></div><div class="category-tabs" id="category-tabs"></div><div class="vocab-layout"><div class="word-list" id="word-list"></div><div class="practice-panel" id="vocab-practice"><div class="practice-kicker">QUICK PRACTICE</div><div class="practice-word" id="practice-word">Haus</div><div class="practice-prompt" id="practice-prompt">What does this mean?</div><div class="article-choices" id="article-choices"><span>Choose the article</span><button data-article="der">der</button><button data-article="die">die</button><button data-article="das">das</button></div><input id="vocab-answer" placeholder="Type the English meaning…" autocomplete="off" /><div class="practice-actions"><button class="primary-btn" id="check-vocab">Check answer <span>↵</span></button><button class="subtle-btn" id="vocab-hint">Hint</button></div><div id="vocab-feedback" class="feedback"></div></div></div></section>
+
+<section id="phrases-view" class="view"><div class="page-heading"><div><p class="eyebrow">FROM HELLO TO REAL LIFE</p><h1>Translation practice</h1><p>Build a sentence muscle. Start with the essentials, then stretch.</p></div><div class="phrase-controls"><div class="mode-switch"><button class="practice-mode active" data-practice="translate">English → German</button><button class="practice-mode" data-practice="reverse">German → English</button><button class="practice-mode" data-practice="cloze">Fill the blank</button><button class="practice-mode" data-practice="choice">Multiple choice</button></div><div class="mode-switch"><button class="mode active" data-level="all">All levels</button><button class="mode" data-level="easy">A1</button><button class="mode" data-level="medium">A2</button><button class="mode" data-level="hard">B1</button></div></div></div><div class="phrase-layout"><div class="phrase-card"><div class="phrase-meta"><span id="phrase-level">A1 · ESSENTIAL</span><span id="phrase-number">01 / 175</span></div><h2 id="phrase-question">How are you?</h2><p class="phrase-hint" id="phrase-hint">Translate this into German.</p><div id="cloze-sentence" class="cloze-sentence"></div><div id="phrase-choice-options" class="choice-options"></div><input id="phrase-answer" placeholder="Your German translation…" autocomplete="off" /><div class="phrase-actions"><button class="primary-btn" id="check-phrase">Check translation <span>↵</span></button><button class="subtle-btn" id="show-answer">Hint</button></div><div id="phrase-feedback" class="feedback"></div><button class="next-link" id="next-phrase">Next phrase <span>→</span></button></div><div class="ladder"><p class="eyebrow">THE LADDER</p><h3>One step at a time.</h3><div class="ladder-track"><div class="ladder-line"></div><div class="ladder-step done"><span>✓</span><div><strong>Essentials</strong><small>Greetings & basics</small></div></div><div class="ladder-step current"><span>02</span><div><strong>Daily life</strong><small>Routines & requests</small></div></div><div class="ladder-step"><span>03</span><div><strong>More nuanced</strong><small>Opinions & stories</small></div></div></div><div class="ladder-note">You don’t need to know every word to make a sentence.</div></div></div></section>
+
+        <section id="grammar-view" class="view"><div class="page-heading"><div><p class="eyebrow">THE SENTENCE MACHINE</p><h1>Grammar</h1><p>German grammar in useful layers: build a sentence, understand the case, then make it more precise.</p></div><span class="grammar-mark">§</span></div><div id="grammar-list" class="grammar-list"></div></section>
+
+<section id="mixed-view" class="view"><div class="page-heading"><div><p class="eyebrow">THE MIXED DESK</p><h1>Mixed practice</h1><p>One randomized stream of vocabulary, verbs, phrases, cloze questions, multiple choice, and grammar.</p></div><div><div class="mixed-filters"><label><input type="checkbox" class="mixed-part" data-mixed-part="vocabulary" checked /> Vocabulary</label><label><input type="checkbox" class="mixed-part" data-mixed-part="verbs" checked /> Verbs</label><label><input type="checkbox" class="mixed-part" data-mixed-part="phrases" checked /> Phrases</label><label><input type="checkbox" class="mixed-part" data-mixed-part="grammar" checked /> Grammar</label></div><div class="mode-switch mixed-levels"><button class="mixed-level active" data-mixed-level="all">All levels</button><button class="mixed-level" data-mixed-level="A1">A1</button><button class="mixed-level" data-mixed-level="A2">A2</button><button class="mixed-level" data-mixed-level="B1">B1</button></div></div></div><div class="mixed-layout"><div class="mixed-card"><div class="phrase-meta"><span id="mixed-type">MIXED PRACTICE</span><span id="mixed-level-label">A1–B1</span></div><h2 id="mixed-prompt">Ready for a varied round?</h2><p id="mixed-hint" class="phrase-hint">Choose an answer, type it, or fill the blank.</p><div id="mixed-cloze" class="cloze-sentence"></div><div id="mixed-article" class="article-choices"><span>Choose article</span><button data-mixed-article="der">der</button><button data-mixed-article="die">die</button><button data-mixed-article="das">das</button></div><div id="mixed-options" class="choice-options"></div><input id="mixed-answer" placeholder="Your answer…" autocomplete="off" /><div class="phrase-actions"><button class="primary-btn" id="check-mixed">Check answer <span>↵</span></button><button class="subtle-btn" id="mixed-hint-button">Hint</button><button class="subtle-btn" id="next-mixed">New random question ↻</button></div><div id="mixed-feedback" class="feedback"></div></div></div></section>
+
+        <section id="lessons-view" class="view"><div class="page-heading"><div><p class="eyebrow">THE LEARNING PATH</p><h1>Lessons</h1><p>Choose a lesson, practise its focused mix, then repair every mistake at the end.</p></div><span class="grammar-mark">◆</span></div><div id="lesson-list" class="lesson-path"></div></section>
+
+        <section id="issues-view" class="view"><div class="page-heading"><div><p class="eyebrow">YOUR PERSONAL REVIEW QUEUE</p><h1>Issues to revisit</h1><p>These are the words and phrases that asked for a second look.</p></div><span class="issue-big" id="issue-big">0</span></div><div id="issues-list" class="issues-list"></div></section>
+      </main>
+    </div>
+    <div id="toast" class="toast"></div>
+    <script src="data/vocabulary/house.js"></script>
+    <script src="data/verbs/core.js"></script>
+    <script src="data/verbs/daily.js"></script>
+    <script src="data/verbs/travel.js"></script>
+    <script src="data/verbs/health.js"></script>
+    <script src="data/verbs/shopping.js"></script>
+    <script src="data/verbs/nature.js"></script>
+    <script src="data/verbs/work.js"></script>
+    <script src="data/verbs/feelings.js"></script>
+    <script src="data/verbs/clothing.js"></script>
+    <script src="data/verbs/education.js"></script>
+    <script src="data/verbs/technology.js"></script>
+    <script src="data/verbs/communication.js"></script>
+    <script src="data/verbs/environment.js"></script>
+    <script src="data/verbs/culture.js"></script>
+    <script src="data/verbs/separable.js"></script>
+    <script src="data/verbs/modal.js"></script>
+    <script src="data/verbs.js"></script>
+    <script src="data/vocabulary/greetings.js"></script>
+    <script src="data/vocabulary/people.js"></script>
+    <script src="data/vocabulary/food.js"></script>
+    <script src="data/vocabulary/city.js"></script>
+    <script src="data/vocabulary/adjectives.js"></script>
+    <script src="data/vocabulary/time.js"></script>
+    <script src="data/vocabulary/travel.js"></script>
+    <script src="data/vocabulary/health.js"></script>
+    <script src="data/vocabulary/shopping.js"></script>
+    <script src="data/vocabulary/nature.js"></script>
+    <script src="data/vocabulary/work.js"></script>
+    <script src="data/vocabulary/feelings.js"></script>
+    <script src="data/vocabulary/clothing.js"></script>
+    <script src="data/vocabulary/education.js"></script>
+    <script src="data/vocabulary/technology.js"></script>
+    <script src="data/vocabulary/communication.js"></script>
+    <script src="data/vocabulary/daily.js"></script>
+    <script src="data/vocabulary/environment.js"></script>
+    <script src="data/vocabulary/culture.js"></script>
+    <script src="data/vocabulary.js"></script>
+    <script src="data/phrases.js"></script>
+    <script src="data/categories.js"></script>
+    <script src="data/grammar.js"></script>
+    <script src="data/lessons.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
