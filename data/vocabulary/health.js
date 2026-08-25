@@ -1,165 +1,496 @@
 const vocabularyHealth = [
   {
-    "id": "w116",
-    "category": "health",
-    "de": "der Kopf",
-    "en": "head"
+    "id": "308",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "head"
+      },
+      "de": {
+        "text": "der Kopf",
+        "article": "der"
+      },
+      "it": {
+        "text": "testa"
+      }
+    }
   },
   {
-    "id": "w117",
-    "category": "health",
-    "de": "der Bauch",
-    "en": "stomach"
+    "id": "309",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "stomach"
+      },
+      "de": {
+        "text": "der Bauch",
+        "article": "der"
+      },
+      "it": {
+        "text": "stomaco"
+      }
+    }
   },
   {
-    "id": "w118",
-    "category": "health",
-    "de": "der Rücken",
-    "en": "back"
+    "id": "310",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "back"
+      },
+      "de": {
+        "text": "der Rücken",
+        "article": "der"
+      },
+      "it": {
+        "text": "retro"
+      }
+    }
   },
   {
-    "id": "w119",
-    "category": "health",
-    "de": "die Hand",
-    "en": "hand"
+    "id": "311",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "hand"
+      },
+      "de": {
+        "text": "die Hand",
+        "article": "die"
+      },
+      "it": {
+        "text": "mano"
+      }
+    }
   },
   {
-    "id": "w120",
-    "category": "health",
-    "de": "der Fuß",
-    "en": "foot"
+    "id": "312",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "foot"
+      },
+      "de": {
+        "text": "der Fuß",
+        "article": "der"
+      },
+      "it": {
+        "text": "piede"
+      }
+    }
   },
   {
-    "id": "w121",
-    "category": "health",
-    "de": "der Arzt",
-    "en": "doctor"
+    "id": "313",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "doctor"
+      },
+      "de": {
+        "text": "der Arzt",
+        "article": "der"
+      },
+      "it": {
+        "text": "il medico"
+      }
+    }
   },
   {
-    "id": "w122",
-    "category": "health",
-    "de": "die Ärztin",
-    "en": "female doctor"
+    "id": "314",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "female doctor"
+      },
+      "de": {
+        "text": "die Ärztin",
+        "article": "die"
+      },
+      "it": {
+        "text": "LA DOTTORESSSA"
+      }
+    }
   },
   {
-    "id": "w123",
-    "category": "health",
-    "de": "die Apotheke",
-    "en": "pharmacy"
+    "id": "315",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "pharmacy"
+      },
+      "de": {
+        "text": "die Apotheke",
+        "article": "die"
+      },
+      "it": {
+        "text": "farmacia"
+      }
+    }
   },
   {
-    "id": "w124",
-    "category": "health",
-    "de": "das Krankenhaus",
-    "en": "hospital"
+    "id": "316",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "hospital"
+      },
+      "de": {
+        "text": "das Krankenhaus",
+        "article": "das"
+      },
+      "it": {
+        "text": "ospedale"
+      }
+    }
   },
   {
-    "id": "w125",
-    "category": "health",
-    "de": "die Medizin",
-    "en": "medicine"
+    "id": "317",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "medicine"
+      },
+      "de": {
+        "text": "die Medizin",
+        "article": "die"
+      },
+      "it": {
+        "text": "medicina"
+      }
+    }
   },
   {
-    "id": "w126",
-    "category": "health",
-    "de": "der Schmerz",
-    "en": "pain"
+    "id": "318",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "pain"
+      },
+      "de": {
+        "text": "der Schmerz",
+        "article": "der"
+      },
+      "it": {
+        "text": "dolore"
+      }
+    }
   },
   {
-    "id": "w127",
-    "category": "health",
-    "de": "krank",
-    "en": "sick"
+    "id": "319",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "sick"
+      },
+      "de": {
+        "text": "krank"
+      },
+      "it": {
+        "text": "malato"
+      }
+    }
   },
   {
-    "id": "w128",
-    "category": "health",
-    "de": "gesund",
-    "en": "healthy"
+    "id": "320",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "healthy"
+      },
+      "de": {
+        "text": "gesund"
+      },
+      "it": {
+        "text": "Normopeso"
+      }
+    }
   },
   {
-    "id": "w129",
-    "category": "health",
-    "de": "weh tun",
-    "en": "to hurt"
+    "id": "321",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "fever"
+      },
+      "de": {
+        "text": "das Fieber",
+        "article": "das"
+      },
+      "it": {
+        "text": "febbre"
+      }
+    }
   },
   {
-    "id": "w130",
-    "category": "health",
-    "de": "sich fühlen",
-    "en": "to feel"
+    "id": "322",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "cough"
+      },
+      "de": {
+        "text": "der Husten",
+        "article": "der"
+      },
+      "it": {
+        "text": "tosse"
+      }
+    }
   },
   {
-    "id": "w290",
-    "category": "health",
-    "de": "das Fieber",
-    "en": "fever"
+    "id": "323",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "cold / runny nose"
+      },
+      "de": {
+        "text": "der Schnupfen",
+        "article": "der"
+      },
+      "it": {
+        "text": "naso freddo / che cola"
+      }
+    }
   },
   {
-    "id": "w291",
-    "category": "health",
-    "de": "der Husten",
-    "en": "cough"
+    "id": "324",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "throat / neck"
+      },
+      "de": {
+        "text": "der Hals",
+        "article": "der"
+      },
+      "it": {
+        "text": "gola / collo"
+      }
+    }
   },
   {
-    "id": "w292",
-    "category": "health",
-    "de": "der Schnupfen",
-    "en": "cold / runny nose"
+    "id": "325",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "eye"
+      },
+      "de": {
+        "text": "das Auge",
+        "article": "das"
+      },
+      "it": {
+        "text": "occhio"
+      }
+    }
   },
   {
-    "id": "w293",
-    "category": "health",
-    "de": "der Hals",
-    "en": "throat / neck"
+    "id": "326",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "ear"
+      },
+      "de": {
+        "text": "das Ohr",
+        "article": "das"
+      },
+      "it": {
+        "text": "protezione"
+      }
+    }
   },
   {
-    "id": "w294",
-    "category": "health",
-    "de": "das Auge",
-    "en": "eye"
+    "id": "327",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "tooth"
+      },
+      "de": {
+        "text": "der Zahn",
+        "article": "der"
+      },
+      "it": {
+        "text": "dente"
+      }
+    }
   },
   {
-    "id": "w295",
-    "category": "health",
-    "de": "das Ohr",
-    "en": "ear"
+    "id": "328",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "tablet / pill"
+      },
+      "de": {
+        "text": "die Tablette",
+        "article": "die"
+      },
+      "it": {
+        "text": "compressa / pillola"
+      }
+    }
   },
   {
-    "id": "w296",
-    "category": "health",
-    "de": "der Zahn",
-    "en": "tooth"
+    "id": "329",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "health"
+      },
+      "de": {
+        "text": "die Gesundheit",
+        "article": "die"
+      },
+      "it": {
+        "text": "salute"
+      }
+    }
   },
   {
-    "id": "w297",
-    "category": "health",
-    "de": "die Tablette",
-    "en": "tablet / pill"
+    "id": "330",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "examination"
+      },
+      "de": {
+        "text": "die Untersuchung",
+        "article": "die"
+      },
+      "it": {
+        "text": "Visita clinica"
+      }
+    }
   },
   {
-    "id": "w298",
-    "category": "health",
-    "de": "die Gesundheit",
-    "en": "health"
+    "id": "331",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "cough"
+      },
+      "de": {
+        "text": "der Husten",
+        "article": "der"
+      },
+      "it": {
+        "text": "tosse"
+      }
+    }
   },
   {
-    "id": "w299",
-    "category": "health",
-    "de": "die Untersuchung",
-    "en": "examination"
+    "id": "332",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "throat"
+      },
+      "de": {
+        "text": "der Hals",
+        "article": "der"
+      },
+      "it": {
+        "text": "gola"
+      }
+    }
   },
   {
-    "id": "w300",
-    "category": "health",
-    "de": "atmen",
-    "en": "to breathe"
+    "id": "333",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "fever"
+      },
+      "de": {
+        "text": "das Fieber",
+        "article": "das"
+      },
+      "it": {
+        "text": "febbre"
+      }
+    }
   },
   {
-    "id": "w301",
-    "category": "health",
-    "de": "sich ausruhen",
-    "en": "to rest"
+    "id": "334",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "tablet"
+      },
+      "de": {
+        "text": "die Tablette",
+        "article": "die"
+      },
+      "it": {
+        "text": "tablet"
+      }
+    }
   },
-  {"id":"w655","category":"health","de":"der Husten","en":"cough"},{"id":"w656","category":"health","de":"der Hals","en":"throat"},{"id":"w657","category":"health","de":"das Fieber","en":"fever"},{"id":"w658","category":"health","de":"die Tablette","en":"tablet"},{"id":"w659","category":"health","de":"die Untersuchung","en":"examination"},{"id":"w660","category":"health","de":"die Apotheke","en":"pharmacy"},{"id":"w661","category":"health","de":"der Rücken","en":"back"},{"id":"w662","category":"health","de":"die Erholung","en":"recovery / rest"}
+  {
+    "id": "335",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "examination"
+      },
+      "de": {
+        "text": "die Untersuchung",
+        "article": "die"
+      },
+      "it": {
+        "text": "Visita clinica"
+      }
+    }
+  },
+  {
+    "id": "336",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "pharmacy"
+      },
+      "de": {
+        "text": "die Apotheke",
+        "article": "die"
+      },
+      "it": {
+        "text": "farmacia"
+      }
+    }
+  },
+  {
+    "id": "337",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "back"
+      },
+      "de": {
+        "text": "der Rücken",
+        "article": "der"
+      },
+      "it": {
+        "text": "retro"
+      }
+    }
+  },
+  {
+    "id": "338",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "recovery / rest"
+      },
+      "de": {
+        "text": "die Erholung",
+        "article": "die"
+      },
+      "it": {
+        "text": "recupero / riposo"
+      }
+    }
+  }
 ];

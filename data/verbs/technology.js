@@ -1,37 +1,82 @@
 const verbTechnology = [
   {
-    "id": "w393",
-    "category": "verbs",
-    "de": "herunterladen",
-    "en": "to download",
+    "id": "683",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "to download"
+      },
+      "de": {
+        "text": "herunterladen"
+      },
+      "it": {
+        "text": "per scaricare"
+      }
+    },
     "verbCategory": "technology"
   },
   {
-    "id": "w394",
-    "category": "verbs",
-    "de": "hochladen",
-    "en": "to upload",
+    "id": "684",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "to upload"
+      },
+      "de": {
+        "text": "hochladen"
+      },
+      "it": {
+        "text": "caricare"
+      }
+    },
     "verbCategory": "technology"
   },
   {
-    "id": "w395",
-    "category": "verbs",
-    "de": "speichern",
-    "en": "to save",
+    "id": "685",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "to save"
+      },
+      "de": {
+        "text": "speichern"
+      },
+      "it": {
+        "text": "salvare"
+      }
+    },
     "verbCategory": "technology"
   },
   {
-    "id": "w396",
-    "category": "verbs",
-    "de": "klicken",
-    "en": "to click",
+    "id": "686",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "to click"
+      },
+      "de": {
+        "text": "klicken"
+      },
+      "it": {
+        "text": "cliccare"
+      }
+    },
     "verbCategory": "technology"
   },
   {
-    "id": "w397",
-    "category": "verbs",
-    "de": "funktionieren",
-    "en": "to work / function",
+    "id": "687",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "to work / function"
+      },
+      "de": {
+        "text": "funktionieren"
+      },
+      "it": {
+        "text": "lavorare / funzionare"
+      }
+    },
     "verbCategory": "technology"
   }
 ];

@@ -1,165 +1,431 @@
 const vocabularyShopping = [
   {
-    "id": "w131",
-    "category": "shopping",
-    "de": "das Geld",
-    "en": "money"
+    "id": "339",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "money"
+      },
+      "de": {
+        "text": "das Geld",
+        "article": "das"
+      },
+      "it": {
+        "text": "soldi"
+      }
+    }
   },
   {
-    "id": "w132",
-    "category": "shopping",
-    "de": "der Preis",
-    "en": "price"
+    "id": "340",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "price"
+      },
+      "de": {
+        "text": "der Preis",
+        "article": "der"
+      },
+      "it": {
+        "text": "prezzo"
+      }
+    }
   },
   {
-    "id": "w133",
-    "category": "shopping",
-    "de": "die Rechnung",
-    "en": "bill"
+    "id": "341",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "bill"
+      },
+      "de": {
+        "text": "die Rechnung",
+        "article": "die"
+      },
+      "it": {
+        "text": "conto"
+      }
+    }
   },
   {
-    "id": "w134",
-    "category": "shopping",
-    "de": "die Größe",
-    "en": "size"
+    "id": "342",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "size"
+      },
+      "de": {
+        "text": "die Größe",
+        "article": "die"
+      },
+      "it": {
+        "text": "taglia"
+      }
+    }
   },
   {
-    "id": "w135",
-    "category": "shopping",
-    "de": "die Farbe",
-    "en": "color"
+    "id": "343",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "color"
+      },
+      "de": {
+        "text": "die Farbe",
+        "article": "die"
+      },
+      "it": {
+        "text": "colore"
+      }
+    }
   },
   {
-    "id": "w136",
-    "category": "shopping",
-    "de": "das Geschäft",
-    "en": "store / business"
+    "id": "344",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "store / business"
+      },
+      "de": {
+        "text": "das Geschäft",
+        "article": "das"
+      },
+      "it": {
+        "text": "negozio / azienda"
+      }
+    }
   },
   {
-    "id": "w137",
-    "category": "shopping",
-    "de": "der Euro",
-    "en": "euro"
+    "id": "345",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "euro"
+      },
+      "de": {
+        "text": "der Euro",
+        "article": "der"
+      },
+      "it": {
+        "text": "L'euro"
+      }
+    }
   },
   {
-    "id": "w138",
-    "category": "shopping",
-    "de": "bar",
-    "en": "in cash"
+    "id": "346",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "in cash"
+      },
+      "de": {
+        "text": "bar"
+      },
+      "it": {
+        "text": "in denaro"
+      }
+    }
   },
   {
-    "id": "w139",
-    "category": "shopping",
-    "de": "teuer",
-    "en": "expensive"
+    "id": "347",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "expensive"
+      },
+      "de": {
+        "text": "teuer"
+      },
+      "it": {
+        "text": "costosi"
+      }
+    }
   },
   {
-    "id": "w140",
-    "category": "shopping",
-    "de": "billig",
-    "en": "cheap"
+    "id": "348",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "cheap"
+      },
+      "de": {
+        "text": "billig"
+      },
+      "it": {
+        "text": "economico"
+      }
+    }
   },
   {
-    "id": "w141",
-    "category": "shopping",
-    "de": "bezahlen",
-    "en": "to pay"
+    "id": "349",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "shopping cart"
+      },
+      "de": {
+        "text": "der Einkaufswagen",
+        "article": "der"
+      },
+      "it": {
+        "text": "Carrello"
+      }
+    }
   },
   {
-    "id": "w142",
-    "category": "shopping",
-    "de": "ausprobieren",
-    "en": "to try on / try out"
+    "id": "350",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "receipt"
+      },
+      "de": {
+        "text": "der Kassenzettel",
+        "article": "der"
+      },
+      "it": {
+        "text": "lo scontrino di cassa"
+      }
+    }
   },
   {
-    "id": "w143",
-    "category": "shopping",
-    "de": "zurückgeben",
-    "en": "to return"
+    "id": "351",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "offer / special"
+      },
+      "de": {
+        "text": "das Angebot",
+        "article": "das"
+      },
+      "it": {
+        "text": "offerta / speciale"
+      }
+    }
   },
   {
-    "id": "w144",
-    "category": "shopping",
-    "de": "öffnen",
-    "en": "to open"
+    "id": "352",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "clothing"
+      },
+      "de": {
+        "text": "die Kleidung",
+        "article": "die"
+      },
+      "it": {
+        "text": "abbigliamento"
+      }
+    }
   },
   {
-    "id": "w145",
-    "category": "shopping",
-    "de": "schließen",
-    "en": "to close"
+    "id": "353",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "jacket"
+      },
+      "de": {
+        "text": "die Jacke",
+        "article": "die"
+      },
+      "it": {
+        "text": "ear jacket"
+      }
+    }
   },
   {
-    "id": "w302",
-    "category": "shopping",
-    "de": "der Einkaufswagen",
-    "en": "shopping cart"
+    "id": "354",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "jumper / sweater"
+      },
+      "de": {
+        "text": "der Pullover",
+        "article": "der"
+      },
+      "it": {
+        "text": "maglione / maglione"
+      }
+    }
   },
   {
-    "id": "w303",
-    "category": "shopping",
-    "de": "der Kassenzettel",
-    "en": "receipt"
+    "id": "355",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "changing room"
+      },
+      "de": {
+        "text": "die Umkleidekabine",
+        "article": "die"
+      },
+      "it": {
+        "text": "cabina spogliatoio"
+      }
+    }
   },
   {
-    "id": "w304",
-    "category": "shopping",
-    "de": "das Angebot",
-    "en": "offer / special"
+    "id": "356",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "discount"
+      },
+      "de": {
+        "text": "der Rabatt",
+        "article": "der"
+      },
+      "it": {
+        "text": "lo sconto"
+      }
+    }
   },
   {
-    "id": "w305",
-    "category": "shopping",
-    "de": "die Kleidung",
-    "en": "clothing"
+    "id": "357",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "checkout / cash desk"
+      },
+      "de": {
+        "text": "die Kasse",
+        "article": "die"
+      },
+      "it": {
+        "text": "cassa"
+      }
+    }
   },
   {
-    "id": "w306",
-    "category": "shopping",
-    "de": "die Jacke",
-    "en": "jacket"
+    "id": "358",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "discount"
+      },
+      "de": {
+        "text": "der Rabatt",
+        "article": "der"
+      },
+      "it": {
+        "text": "lo sconto"
+      }
+    }
   },
   {
-    "id": "w307",
-    "category": "shopping",
-    "de": "der Pullover",
-    "en": "jumper / sweater"
+    "id": "359",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "offer"
+      },
+      "de": {
+        "text": "das Angebot",
+        "article": "das"
+      },
+      "it": {
+        "text": "(La mia offerta"
+      }
+    }
   },
   {
-    "id": "w308",
-    "category": "shopping",
-    "de": "die Umkleidekabine",
-    "en": "changing room"
+    "id": "360",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "size"
+      },
+      "de": {
+        "text": "die Größe",
+        "article": "die"
+      },
+      "it": {
+        "text": "taglia"
+      }
+    }
   },
   {
-    "id": "w309",
-    "category": "shopping",
-    "de": "der Rabatt",
-    "en": "discount"
+    "id": "361",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "changing room"
+      },
+      "de": {
+        "text": "die Umkleidekabine",
+        "article": "die"
+      },
+      "it": {
+        "text": "cabina spogliatoio"
+      }
+    }
   },
   {
-    "id": "w310",
-    "category": "shopping",
-    "de": "die Kasse",
-    "en": "checkout / cash desk"
+    "id": "362",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "checkout / cash desk"
+      },
+      "de": {
+        "text": "die Kasse",
+        "article": "die"
+      },
+      "it": {
+        "text": "cassa"
+      }
+    }
   },
   {
-    "id": "w311",
-    "category": "shopping",
-    "de": "wechseln",
-    "en": "to change / exchange"
+    "id": "363",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "receipt"
+      },
+      "de": {
+        "text": "die Quittung",
+        "article": "die"
+      },
+      "it": {
+        "text": "lo scontrino di cassa"
+      }
+    }
   },
   {
-    "id": "w312",
-    "category": "shopping",
-    "de": "kosten",
-    "en": "to cost"
+    "id": "364",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "exchange"
+      },
+      "de": {
+        "text": "der Umtausch",
+        "article": "der"
+      },
+      "it": {
+        "text": "cambio"
+      }
+    }
   },
   {
-    "id": "w313",
-    "category": "shopping",
-    "de": "sparen",
-    "en": "to save"
-  },
-  {"id":"w663","category":"shopping","de":"der Rabatt","en":"discount"},{"id":"w664","category":"shopping","de":"das Angebot","en":"offer"},{"id":"w665","category":"shopping","de":"die Größe","en":"size"},{"id":"w666","category":"shopping","de":"die Umkleidekabine","en":"changing room"},{"id":"w667","category":"shopping","de":"die Kasse","en":"checkout / cash desk"},{"id":"w668","category":"shopping","de":"die Quittung","en":"receipt"},{"id":"w669","category":"shopping","de":"der Umtausch","en":"exchange"},{"id":"w670","category":"shopping","de":"die Hose","en":"trousers"}
+    "id": "365",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "trousers"
+      },
+      "de": {
+        "text": "die Hose",
+        "article": "die"
+      },
+      "it": {
+        "text": "pantaloni"
+      }
+    }
+  }
 ];

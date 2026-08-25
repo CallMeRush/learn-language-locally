@@ -1,147 +1,514 @@
 const vocabularyCity = [
   {
-    "id": "w66",
-    "category": "city",
-    "de": "die Stadt",
-    "en": "city"
+    "id": "120",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "city"
+      },
+      "de": {
+        "text": "die Stadt",
+        "article": "die"
+      },
+      "it": {
+        "text": "città"
+      }
+    }
   },
   {
-    "id": "w67",
-    "category": "city",
-    "de": "der Bahnhof",
-    "en": "train station"
+    "id": "121",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "train station"
+      },
+      "de": {
+        "text": "der Bahnhof",
+        "article": "der"
+      },
+      "it": {
+        "text": "stazione ferroviaria"
+      }
+    }
   },
   {
-    "id": "w68",
-    "category": "city",
-    "de": "die Straße",
-    "en": "street"
+    "id": "122",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "street"
+      },
+      "de": {
+        "text": "die Straße",
+        "article": "die"
+      },
+      "it": {
+        "text": "Via"
+      }
+    }
   },
   {
-    "id": "w69",
-    "category": "city",
-    "de": "der Laden",
-    "en": "shop"
+    "id": "123",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "shop"
+      },
+      "de": {
+        "text": "der Laden",
+        "article": "der"
+      },
+      "it": {
+        "text": "negozio"
+      }
+    }
   },
   {
-    "id": "w70",
-    "category": "city",
-    "de": "der Markt",
-    "en": "market"
+    "id": "124",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "market"
+      },
+      "de": {
+        "text": "der Markt",
+        "article": "der"
+      },
+      "it": {
+        "text": "mercato"
+      }
+    }
   },
   {
-    "id": "w71",
-    "category": "city",
-    "de": "die Schule",
-    "en": "school"
+    "id": "125",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "school"
+      },
+      "de": {
+        "text": "die Schule",
+        "article": "die"
+      },
+      "it": {
+        "text": "di secondo grado"
+      }
+    }
   },
   {
-    "id": "w72",
-    "category": "city",
-    "de": "das Büro",
-    "en": "office"
+    "id": "126",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "office"
+      },
+      "de": {
+        "text": "das Büro",
+        "article": "das"
+      },
+      "it": {
+        "text": "carica"
+      }
+    }
   },
   {
-    "id": "w73",
-    "category": "city",
-    "de": "die Arbeit",
-    "en": "work"
+    "id": "127",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "work"
+      },
+      "de": {
+        "text": "die Arbeit",
+        "article": "die"
+      },
+      "it": {
+        "text": "lavoro"
+      }
+    }
   },
   {
-    "id": "w74",
-    "category": "city",
-    "de": "der Bus",
-    "en": "bus"
+    "id": "128",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "bus"
+      },
+      "de": {
+        "text": "der Bus",
+        "article": "der"
+      },
+      "it": {
+        "text": "il bus"
+      }
+    }
   },
   {
-    "id": "w75",
-    "category": "city",
-    "de": "der Zug",
-    "en": "train"
+    "id": "129",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "train"
+      },
+      "de": {
+        "text": "der Zug",
+        "article": "der"
+      },
+      "it": {
+        "text": "Il treno"
+      }
+    }
   },
   {
-    "id": "w76",
-    "category": "city",
-    "de": "die Haltestelle",
-    "en": "stop / station"
+    "id": "130",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "stop / station"
+      },
+      "de": {
+        "text": "die Haltestelle",
+        "article": "die"
+      },
+      "it": {
+        "text": "fermata / stazione"
+      }
+    }
   },
   {
-    "id": "w77",
-    "category": "city",
-    "de": "das Ticket",
-    "en": "ticket"
+    "id": "131",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "ticket"
+      },
+      "de": {
+        "text": "das Ticket",
+        "article": "das"
+      },
+      "it": {
+        "text": "biglietto"
+      }
+    }
   },
   {
-    "id": "w266",
-    "category": "city",
-    "de": "die Brücke",
-    "en": "bridge"
+    "id": "132",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "bridge"
+      },
+      "de": {
+        "text": "die Brücke",
+        "article": "die"
+      },
+      "it": {
+        "text": "ponte"
+      }
+    }
   },
   {
-    "id": "w267",
-    "category": "city",
-    "de": "der Platz",
-    "en": "square / place"
+    "id": "133",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "square / place"
+      },
+      "de": {
+        "text": "der Platz",
+        "article": "der"
+      },
+      "it": {
+        "text": "piazza / luogo"
+      }
+    }
   },
   {
-    "id": "w268",
-    "category": "city",
-    "de": "das Zentrum",
-    "en": "center"
+    "id": "134",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "center"
+      },
+      "de": {
+        "text": "das Zentrum",
+        "article": "das"
+      },
+      "it": {
+        "text": "centrato"
+      }
+    }
   },
   {
-    "id": "w269",
-    "category": "city",
-    "de": "das Museum",
-    "en": "museum"
+    "id": "135",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "museum"
+      },
+      "de": {
+        "text": "das Museum",
+        "article": "das"
+      },
+      "it": {
+        "text": "museo"
+      }
+    }
   },
   {
-    "id": "w270",
-    "category": "city",
-    "de": "das Kino",
-    "en": "cinema"
+    "id": "136",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "cinema"
+      },
+      "de": {
+        "text": "das Kino",
+        "article": "das"
+      },
+      "it": {
+        "text": "cinema"
+      }
+    }
   },
   {
-    "id": "w271",
-    "category": "city",
-    "de": "das Restaurant",
-    "en": "restaurant"
+    "id": "137",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "restaurant"
+      },
+      "de": {
+        "text": "das Restaurant",
+        "article": "das"
+      },
+      "it": {
+        "text": "Michelin"
+      }
+    }
   },
   {
-    "id": "w272",
-    "category": "city",
-    "de": "die Bibliothek",
-    "en": "library"
+    "id": "138",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "library"
+      },
+      "de": {
+        "text": "die Bibliothek",
+        "article": "die"
+      },
+      "it": {
+        "text": "la biblioteca"
+      }
+    }
   },
   {
-    "id": "w273",
-    "category": "city",
-    "de": "die Polizei",
-    "en": "police"
+    "id": "139",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "police"
+      },
+      "de": {
+        "text": "die Polizei",
+        "article": "die"
+      },
+      "it": {
+        "text": "polizia"
+      }
+    }
   },
   {
-    "id": "w274",
-    "category": "city",
-    "de": "die Post",
-    "en": "post office"
+    "id": "140",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "post office"
+      },
+      "de": {
+        "text": "die Post",
+        "article": "die"
+      },
+      "it": {
+        "text": "posta"
+      }
+    }
   },
   {
-    "id": "w275",
-    "category": "city",
-    "de": "die Ampel",
-    "en": "traffic light"
+    "id": "141",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "traffic light"
+      },
+      "de": {
+        "text": "die Ampel",
+        "article": "die"
+      },
+      "it": {
+        "text": "semaforo"
+      }
+    }
   },
   {
-    "id": "w276",
-    "category": "city",
-    "de": "die Ecke",
-    "en": "corner"
+    "id": "142",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "corner"
+      },
+      "de": {
+        "text": "die Ecke",
+        "article": "die"
+      },
+      "it": {
+        "text": "Angolo"
+      }
+    }
   },
   {
-    "id": "w277",
-    "category": "city",
-    "de": "der Eingang",
-    "en": "entrance"
+    "id": "143",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "entrance"
+      },
+      "de": {
+        "text": "der Eingang",
+        "article": "der"
+      },
+      "it": {
+        "text": "giostra"
+      }
+    }
   },
-  {"id":"w631","category":"city","de":"die Brücke","en":"bridge"},{"id":"w632","category":"city","de":"die Kreuzung","en":"intersection"},{"id":"w633","category":"city","de":"der Bürgersteig","en":"pavement / sidewalk"},{"id":"w634","category":"city","de":"die Haltestelle","en":"stop"},{"id":"w635","category":"city","de":"das Rathaus","en":"town hall"},{"id":"w636","category":"city","de":"die Bäckerei","en":"bakery"},{"id":"w637","category":"city","de":"die Bibliothek","en":"library"},{"id":"w638","category":"city","de":"der Spielplatz","en":"playground"}
+  {
+    "id": "144",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "bridge"
+      },
+      "de": {
+        "text": "die Brücke",
+        "article": "die"
+      },
+      "it": {
+        "text": "ponte"
+      }
+    }
+  },
+  {
+    "id": "145",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "intersection"
+      },
+      "de": {
+        "text": "die Kreuzung",
+        "article": "die"
+      },
+      "it": {
+        "text": "incrocio"
+      }
+    }
+  },
+  {
+    "id": "146",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "pavement / sidewalk"
+      },
+      "de": {
+        "text": "der Bürgersteig",
+        "article": "der"
+      },
+      "it": {
+        "text": "marciapiede / marciapiede"
+      }
+    }
+  },
+  {
+    "id": "147",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "stop"
+      },
+      "de": {
+        "text": "die Haltestelle",
+        "article": "die"
+      },
+      "it": {
+        "text": "la fermata dell'autobus"
+      }
+    }
+  },
+  {
+    "id": "148",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "town hall"
+      },
+      "de": {
+        "text": "das Rathaus",
+        "article": "das"
+      },
+      "it": {
+        "text": "municipio"
+      }
+    }
+  },
+  {
+    "id": "149",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "bakery"
+      },
+      "de": {
+        "text": "die Bäckerei",
+        "article": "die"
+      },
+      "it": {
+        "text": "Sugo al baccalà e cipolla"
+      }
+    }
+  },
+  {
+    "id": "150",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "library"
+      },
+      "de": {
+        "text": "die Bibliothek",
+        "article": "die"
+      },
+      "it": {
+        "text": "la biblioteca"
+      }
+    }
+  },
+  {
+    "id": "151",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "playground"
+      },
+      "de": {
+        "text": "der Spielplatz",
+        "article": "der"
+      },
+      "it": {
+        "text": "parco giochi"
+      }
+    }
+  }
 ];

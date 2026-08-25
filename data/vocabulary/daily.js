@@ -1,111 +1,322 @@
 const vocabularyDaily = [
   {
-    "id": "w416",
-    "category": "daily",
-    "de": "der Morgen",
-    "en": "morning"
+    "id": "548",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "morning"
+      },
+      "de": {
+        "text": "der Morgen",
+        "article": "der"
+      },
+      "it": {
+        "text": "mattina"
+      }
+    }
   },
   {
-    "id": "w417",
-    "category": "daily",
-    "de": "der Abend",
-    "en": "evening"
+    "id": "549",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "evening"
+      },
+      "de": {
+        "text": "der Abend",
+        "article": "der"
+      },
+      "it": {
+        "text": "sera"
+      }
+    }
   },
   {
-    "id": "w418",
-    "category": "daily",
-    "de": "die Routine",
-    "en": "routine"
+    "id": "550",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "routine"
+      },
+      "de": {
+        "text": "die Routine",
+        "article": "die"
+      },
+      "it": {
+        "text": "routine"
+      }
+    }
   },
   {
-    "id": "w419",
-    "category": "daily",
-    "de": "der Wecker",
-    "en": "alarm clock"
+    "id": "551",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "alarm clock"
+      },
+      "de": {
+        "text": "der Wecker",
+        "article": "der"
+      },
+      "it": {
+        "text": "sveglia"
+      }
+    }
   },
   {
-    "id": "w420",
-    "category": "daily",
-    "de": "die Zahnbürste",
-    "en": "toothbrush"
+    "id": "552",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "toothbrush"
+      },
+      "de": {
+        "text": "die Zahnbürste",
+        "article": "die"
+      },
+      "it": {
+        "text": "SPAZZOLINO DA DENTI"
+      }
+    }
   },
   {
-    "id": "w421",
-    "category": "daily",
-    "de": "die Seife",
-    "en": "soap"
+    "id": "553",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "soap"
+      },
+      "de": {
+        "text": "die Seife",
+        "article": "die"
+      },
+      "it": {
+        "text": "sapone"
+      }
+    }
   },
   {
-    "id": "w422",
-    "category": "daily",
-    "de": "der Müll",
-    "en": "rubbish / trash"
+    "id": "554",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "rubbish / trash"
+      },
+      "de": {
+        "text": "der Müll",
+        "article": "der"
+      },
+      "it": {
+        "text": "spazzatura / spazzatura"
+      }
+    }
   },
   {
-    "id": "w423",
-    "category": "daily",
-    "de": "der Einkauf",
-    "en": "shopping"
+    "id": "555",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "shopping"
+      },
+      "de": {
+        "text": "der Einkauf",
+        "article": "der"
+      },
+      "it": {
+        "text": "fare acquisti"
+      }
+    }
   },
   {
-    "id": "w424",
-    "category": "daily",
-    "de": "die Rechnung",
-    "en": "bill"
+    "id": "556",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "bill"
+      },
+      "de": {
+        "text": "die Rechnung",
+        "article": "die"
+      },
+      "it": {
+        "text": "conto"
+      }
+    }
   },
   {
-    "id": "w425",
-    "category": "daily",
-    "de": "die Wäsche",
-    "en": "laundry"
+    "id": "557",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "laundry"
+      },
+      "de": {
+        "text": "die Wäsche",
+        "article": "die"
+      },
+      "it": {
+        "text": "lavanderia"
+      }
+    }
   },
   {
-    "id": "w426",
-    "category": "daily",
-    "de": "der Haushalt",
-    "en": "household"
+    "id": "558",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "household"
+      },
+      "de": {
+        "text": "der Haushalt",
+        "article": "der"
+      },
+      "it": {
+        "text": "cingolato subgenuale"
+      }
+    }
   },
   {
-    "id": "w427",
-    "category": "daily",
-    "de": "die Nachbarschaft",
-    "en": "neighborhood"
+    "id": "559",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "neighborhood"
+      },
+      "de": {
+        "text": "die Nachbarschaft",
+        "article": "die"
+      },
+      "it": {
+        "text": "quartiere"
+      }
+    }
   },
   {
-    "id": "w428",
-    "category": "daily",
-    "de": "aufstehen",
-    "en": "to get up"
+    "id": "560",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "everyday life"
+      },
+      "de": {
+        "text": "der Alltag",
+        "article": "der"
+      },
+      "it": {
+        "text": "vita di tutti i giorni"
+      }
+    }
   },
   {
-    "id": "w429",
-    "category": "daily",
-    "de": "sich duschen",
-    "en": "to shower"
+    "id": "561",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "habit"
+      },
+      "de": {
+        "text": "die Gewohnheit",
+        "article": "die"
+      },
+      "it": {
+        "text": "abitudine"
+      }
+    }
   },
   {
-    "id": "w430",
-    "category": "daily",
-    "de": "sich beeilen",
-    "en": "to hurry"
+    "id": "562",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "breakfast"
+      },
+      "de": {
+        "text": "das Frühstück",
+        "article": "das"
+      },
+      "it": {
+        "text": "BREACKFAST"
+      }
+    }
   },
   {
-    "id": "w431",
-    "category": "daily",
-    "de": "aufräumen",
-    "en": "to tidy up"
+    "id": "563",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "toothbrush"
+      },
+      "de": {
+        "text": "die Zahnbürste",
+        "article": "die"
+      },
+      "it": {
+        "text": "SPAZZOLINO DA DENTI"
+      }
+    }
   },
   {
-    "id": "w432",
-    "category": "daily",
-    "de": "wegwerfen",
-    "en": "to throw away"
+    "id": "564",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "alarm clock"
+      },
+      "de": {
+        "text": "der Wecker",
+        "article": "der"
+      },
+      "it": {
+        "text": "sveglia"
+      }
+    }
   },
   {
-    "id": "w433",
-    "category": "daily",
-    "de": "einschalten",
-    "en": "to switch on"
+    "id": "565",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "break"
+      },
+      "de": {
+        "text": "die Pause",
+        "article": "die"
+      },
+      "it": {
+        "text": "di pausa"
+      }
+    }
   },
-  {"id":"w719","category":"daily","de":"der Alltag","en":"everyday life"},{"id":"w720","category":"daily","de":"die Gewohnheit","en":"habit"},{"id":"w721","category":"daily","de":"das Frühstück","en":"breakfast"},{"id":"w722","category":"daily","de":"die Zahnbürste","en":"toothbrush"},{"id":"w723","category":"daily","de":"der Wecker","en":"alarm clock"},{"id":"w724","category":"daily","de":"die Pause","en":"break"},{"id":"w725","category":"daily","de":"der Feierabend","en":"end of the working day"},{"id":"w726","category":"daily","de":"der Haushalt","en":"household chores"}
+  {
+    "id": "566",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "end of the working day"
+      },
+      "de": {
+        "text": "der Feierabend",
+        "article": "der"
+      },
+      "it": {
+        "text": "fine della giornata lavorativa"
+      }
+    }
+  },
+  {
+    "id": "567",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "household chores"
+      },
+      "de": {
+        "text": "der Haushalt",
+        "article": "der"
+      },
+      "it": {
+        "text": "faccende domestiche"
+      }
+    }
+  }
 ];

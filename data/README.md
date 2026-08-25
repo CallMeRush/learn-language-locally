@@ -1,14 +1,38 @@
 # Wortwerk content
 
+## Canonical format
+
+New content uses language-neutral records. Translations are stored on the
+record, and language-specific metadata belongs inside that translation.
+
+```js
+{
+  id: 'vocab.house.table',
+  type: 'vocabulary',
+  category: 'house',
+  level: 'A1',
+  translations: {
+    en: { text: 'table' },
+    de: { text: 'Tisch', article: 'der' },
+    it: { text: 'tavolo', article: 'il' }
+  }
+}
+```
+
+The example above shows the intended shape: translation values are objects,
+not plain strings, so languages with articles, classifiers, gender, or other
+language-specific data can store those properties without affecting English.
+
 The learning content is intentionally kept separate from the interface logic.
 
-- `vocabulary/<category>.js` contains one category of vocabulary, such as `vocabulary/house.js` or `vocabulary/travel.js`. Each item is an object with `id`, `category`, `de`, and `en`. Nouns include their article in the German field, for example `{ "category": "house", "de": "der Tisch", "en": "table" }`.
-- `vocabulary.js` is the small aggregator that combines all category files. Add a new category by creating its file, adding its variable to the aggregator, and adding its script tag in `index.html`.
-- `verbs/<family>.js` contains the dedicated verb bank. Verb records stay in the main vocabulary through `verbs.js`, but also carry `verbCategory` so the UI can filter core, daily-life, separable, modal, travel, health, shopping, work, communication, and other verb families.
-- Adjectives live in `vocabulary/adjectives.js` and carry `adjectiveCategory` for description, colors, weather, condition, personality, amount, evaluation, and taste.
-- `grammar.js` contains the grammar lessons, examples, and tables rendered by the Grammar section.
-- Phrases can carry a `category` and an optional `blank` field. `blank` tells fill-the-blank practice exactly which German word to test, so new examples can target a specific vocabulary item instead of relying on an automatic position.
-- `phrases.js` contains the sentence records. Each item is `[level, English, German, label]`, where `level` is `easy`, `medium`, or `hard`.
-- `categories.js` controls the category names shown in the vocabulary filters.
+- `vocabulary/<category>.js` contains one concise canonical list for that category. The category is provided by the file/aggregator, not duplicated in each record.
+- `vocabulary.js` combines those category lists and derives their category metadata.
+- `verbs/<family>.js` contains one concise list for that verb family. Verb metadata such as `verbCategory` remains on the record when it affects filtering.
+- Vocabulary and verb records use stable numeric string IDs without zero padding. Existing IDs must not be renumbered after publication.
+- `phrases.js` contains one concise canonical list. Phrases retain their category because they are not split into category files.
+- Every vocabulary, verb, and phrase record stores language content under `translations`. Language-specific metadata, such as an article, belongs inside that language's translation object.
+- `grammar.js`, `lessons.js`, and `categories.js` are separate structured registries used by their respective views. Grammar records are canonical objects with a target language and localized content; there is no runtime grammar translation overlay.
+- `lessons.js` contains canonical lesson records. Lesson presentation text is under `localized`; each lesson's `activities` list declares the vocabulary, verb, phrase, grammar, or mixed practice sources.
+- `categories.js` contains one canonical record per category. Labels are stored under `localized` and selected from the current source language; category IDs remain stable keys used by content records.
 
-To add content, append records to the relevant array and keep IDs generated from the existing array length. The app automatically includes new records in random practice, sequential practice, article checks, progress totals, translation practice, and the issue queue.
+To add vocabulary, put it in the appropriate category file and assign the next unused numeric ID. Do not derive IDs from the current array position. The app automatically includes new records in practice and progress tracking.

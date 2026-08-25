@@ -1,171 +1,575 @@
 const vocabularyFood = [
   {
-    "id": "w54",
-    "category": "food",
-    "de": "das Brot",
-    "en": "bread"
+    "id": "84",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "bread"
+      },
+      "de": {
+        "text": "das Brot",
+        "article": "das"
+      },
+      "it": {
+        "text": "pane"
+      }
+    }
   },
   {
-    "id": "w55",
-    "category": "food",
-    "de": "der Käse",
-    "en": "cheese"
+    "id": "85",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "cheese"
+      },
+      "de": {
+        "text": "der Käse",
+        "article": "der"
+      },
+      "it": {
+        "text": "formaggio"
+      }
+    }
   },
   {
-    "id": "w56",
-    "category": "food",
-    "de": "der Apfel",
-    "en": "apple"
+    "id": "86",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "apple"
+      },
+      "de": {
+        "text": "der Apfel",
+        "article": "der"
+      },
+      "it": {
+        "text": "mela"
+      }
+    }
   },
   {
-    "id": "w57",
-    "category": "food",
-    "de": "die Banane",
-    "en": "banana"
+    "id": "87",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "banana"
+      },
+      "de": {
+        "text": "die Banane",
+        "article": "die"
+      },
+      "it": {
+        "text": "la banana"
+      }
+    }
   },
   {
-    "id": "w58",
-    "category": "food",
-    "de": "das Wasser",
-    "en": "water"
+    "id": "88",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "water"
+      },
+      "de": {
+        "text": "das Wasser",
+        "article": "das"
+      },
+      "it": {
+        "text": "calda sanitaria"
+      }
+    }
   },
   {
-    "id": "w59",
-    "category": "food",
-    "de": "der Kaffee",
-    "en": "coffee"
+    "id": "89",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "coffee"
+      },
+      "de": {
+        "text": "der Kaffee",
+        "article": "der"
+      },
+      "it": {
+        "text": "caffè"
+      }
+    }
   },
   {
-    "id": "w60",
-    "category": "food",
-    "de": "die Milch",
-    "en": "milk"
+    "id": "90",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "milk"
+      },
+      "de": {
+        "text": "die Milch",
+        "article": "die"
+      },
+      "it": {
+        "text": "latte"
+      }
+    }
   },
   {
-    "id": "w61",
-    "category": "food",
-    "de": "das Frühstück",
-    "en": "breakfast"
+    "id": "91",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "breakfast"
+      },
+      "de": {
+        "text": "das Frühstück",
+        "article": "das"
+      },
+      "it": {
+        "text": "BREACKFAST"
+      }
+    }
   },
   {
-    "id": "w62",
-    "category": "food",
-    "de": "das Mittagessen",
-    "en": "lunch"
+    "id": "92",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "lunch"
+      },
+      "de": {
+        "text": "das Mittagessen",
+        "article": "das"
+      },
+      "it": {
+        "text": "pranzo"
+      }
+    }
   },
   {
-    "id": "w63",
-    "category": "food",
-    "de": "das Abendessen",
-    "en": "dinner"
+    "id": "93",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "dinner"
+      },
+      "de": {
+        "text": "das Abendessen",
+        "article": "das"
+      },
+      "it": {
+        "text": "cena"
+      }
+    }
   },
   {
-    "id": "w64",
-    "category": "food",
-    "de": "der Hunger",
-    "en": "hunger"
+    "id": "94",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "hunger"
+      },
+      "de": {
+        "text": "der Hunger",
+        "article": "der"
+      },
+      "it": {
+        "text": "fame"
+      }
+    }
   },
   {
-    "id": "w65",
-    "category": "food",
-    "de": "der Durst",
-    "en": "thirst"
+    "id": "95",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "thirst"
+      },
+      "de": {
+        "text": "der Durst",
+        "article": "der"
+      },
+      "it": {
+        "text": "ete"
+      }
+    }
   },
   {
-    "id": "w238",
-    "category": "food",
-    "de": "das Gemüse",
-    "en": "vegetables"
+    "id": "96",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "vegetables"
+      },
+      "de": {
+        "text": "das Gemüse",
+        "article": "das"
+      },
+      "it": {
+        "text": "verdure"
+      }
+    }
   },
   {
-    "id": "w239",
-    "category": "food",
-    "de": "das Fleisch",
-    "en": "meat"
+    "id": "97",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "meat"
+      },
+      "de": {
+        "text": "das Fleisch",
+        "article": "das"
+      },
+      "it": {
+        "text": "carne"
+      }
+    }
   },
   {
-    "id": "w240",
-    "category": "food",
-    "de": "der Fisch",
-    "en": "fish"
+    "id": "98",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "fish"
+      },
+      "de": {
+        "text": "der Fisch",
+        "article": "der"
+      },
+      "it": {
+        "text": "pesce"
+      }
+    }
   },
   {
-    "id": "w241",
-    "category": "food",
-    "de": "die Suppe",
-    "en": "soup"
+    "id": "99",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "soup"
+      },
+      "de": {
+        "text": "die Suppe",
+        "article": "die"
+      },
+      "it": {
+        "text": "zuppa"
+      }
+    }
   },
   {
-    "id": "w242",
-    "category": "food",
-    "de": "der Reis",
-    "en": "rice"
+    "id": "100",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "rice"
+      },
+      "de": {
+        "text": "der Reis",
+        "article": "der"
+      },
+      "it": {
+        "text": "riso"
+      }
+    }
   },
   {
-    "id": "w243",
-    "category": "food",
-    "de": "die Kartoffel",
-    "en": "potato"
+    "id": "101",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "potato"
+      },
+      "de": {
+        "text": "die Kartoffel",
+        "article": "die"
+      },
+      "it": {
+        "text": "patata"
+      }
+    }
   },
   {
-    "id": "w244",
-    "category": "food",
-    "de": "das Ei",
-    "en": "egg"
+    "id": "102",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "egg"
+      },
+      "de": {
+        "text": "das Ei",
+        "article": "das"
+      },
+      "it": {
+        "text": "uovo"
+      }
+    }
   },
   {
-    "id": "w245",
-    "category": "food",
-    "de": "der Kuchen",
-    "en": "cake"
+    "id": "103",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "cake"
+      },
+      "de": {
+        "text": "der Kuchen",
+        "article": "der"
+      },
+      "it": {
+        "text": "torta"
+      }
+    }
   },
   {
-    "id": "w246",
-    "category": "food",
-    "de": "die Schokolade",
-    "en": "chocolate"
+    "id": "104",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "chocolate"
+      },
+      "de": {
+        "text": "die Schokolade",
+        "article": "die"
+      },
+      "it": {
+        "text": "cioccolato"
+      }
+    }
   },
   {
-    "id": "w247",
-    "category": "food",
-    "de": "das Salz",
-    "en": "salt"
+    "id": "105",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "salt"
+      },
+      "de": {
+        "text": "das Salz",
+        "article": "das"
+      },
+      "it": {
+        "text": "sale"
+      }
+    }
   },
   {
-    "id": "w248",
-    "category": "food",
-    "de": "der Zucker",
-    "en": "sugar"
+    "id": "106",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "sugar"
+      },
+      "de": {
+        "text": "der Zucker",
+        "article": "der"
+      },
+      "it": {
+        "text": "zucchero"
+      }
+    }
   },
   {
-    "id": "w249",
-    "category": "food",
-    "de": "das Restaurant",
-    "en": "restaurant"
+    "id": "107",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "restaurant"
+      },
+      "de": {
+        "text": "das Restaurant",
+        "article": "das"
+      },
+      "it": {
+        "text": "Michelin"
+      }
+    }
   },
   {
-    "id": "w250",
-    "category": "food",
-    "de": "die Speisekarte",
-    "en": "menu"
+    "id": "108",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "menu"
+      },
+      "de": {
+        "text": "die Speisekarte",
+        "article": "die"
+      },
+      "it": {
+        "text": "Il Menù"
+      }
+    }
   },
   {
-    "id": "w251",
-    "category": "food",
-    "de": "lecker",
-    "en": "delicious"
+    "id": "109",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "delicious"
+      },
+      "de": {
+        "text": "lecker"
+      },
+      "it": {
+        "text": "delizioso"
+      }
+    }
   },
   {
-    "id": "w252",
-    "category": "food",
-    "de": "süß",
-    "en": "sweet"
+    "id": "110",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "sweet"
+      },
+      "de": {
+        "text": "süß"
+      },
+      "it": {
+        "text": "caramella, dolce"
+      }
+    }
   },
   {
-    "id": "w253",
-    "category": "food",
-    "de": "scharf",
-    "en": "spicy"
+    "id": "111",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "spicy"
+      },
+      "de": {
+        "text": "scharf"
+      },
+      "it": {
+        "text": "piccante"
+      }
+    }
   },
-  {"id":"w623","category":"food","de":"der Reis","en":"rice"},{"id":"w624","category":"food","de":"die Nudel","en":"noodle"},{"id":"w625","category":"food","de":"das Gemüse","en":"vegetables"},{"id":"w626","category":"food","de":"die Zwiebel","en":"onion"},{"id":"w627","category":"food","de":"der Knoblauch","en":"garlic"},{"id":"w628","category":"food","de":"der Kuchen","en":"cake"},{"id":"w629","category":"food","de":"die Speisekarte","en":"menu"},{"id":"w630","category":"food","de":"die Rechnung","en":"bill"}
+  {
+    "id": "112",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "rice"
+      },
+      "de": {
+        "text": "der Reis",
+        "article": "der"
+      },
+      "it": {
+        "text": "riso"
+      }
+    }
+  },
+  {
+    "id": "113",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "noodle"
+      },
+      "de": {
+        "text": "die Nudel",
+        "article": "die"
+      },
+      "it": {
+        "text": "la pasta"
+      }
+    }
+  },
+  {
+    "id": "114",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "vegetables"
+      },
+      "de": {
+        "text": "das Gemüse",
+        "article": "das"
+      },
+      "it": {
+        "text": "verdure"
+      }
+    }
+  },
+  {
+    "id": "115",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "onion"
+      },
+      "de": {
+        "text": "die Zwiebel",
+        "article": "die"
+      },
+      "it": {
+        "text": "cipolla"
+      }
+    }
+  },
+  {
+    "id": "116",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "garlic"
+      },
+      "de": {
+        "text": "der Knoblauch",
+        "article": "der"
+      },
+      "it": {
+        "text": "aglio"
+      }
+    }
+  },
+  {
+    "id": "117",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "cake"
+      },
+      "de": {
+        "text": "der Kuchen",
+        "article": "der"
+      },
+      "it": {
+        "text": "torta"
+      }
+    }
+  },
+  {
+    "id": "118",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "menu"
+      },
+      "de": {
+        "text": "die Speisekarte",
+        "article": "die"
+      },
+      "it": {
+        "text": "Il Menù"
+      }
+    }
+  },
+  {
+    "id": "119",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "bill"
+      },
+      "de": {
+        "text": "die Rechnung",
+        "article": "die"
+      },
+      "it": {
+        "text": "conto"
+      }
+    }
+  }
 ];

@@ -1,171 +1,493 @@
 const vocabularyTravel = [
   {
-    "id": "w100",
-    "category": "travel",
-    "de": "der Flughafen",
-    "en": "airport"
+    "id": "277",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "airport"
+      },
+      "de": {
+        "text": "der Flughafen",
+        "article": "der"
+      },
+      "it": {
+        "text": "aeroporto"
+      }
+    }
   },
   {
-    "id": "w101",
-    "category": "travel",
-    "de": "das Flugzeug",
-    "en": "airplane"
+    "id": "278",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "airplane"
+      },
+      "de": {
+        "text": "das Flugzeug",
+        "article": "das"
+      },
+      "it": {
+        "text": "aereo"
+      }
+    }
   },
   {
-    "id": "w102",
-    "category": "travel",
-    "de": "der Koffer",
-    "en": "suitcase"
+    "id": "279",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "suitcase"
+      },
+      "de": {
+        "text": "der Koffer",
+        "article": "der"
+      },
+      "it": {
+        "text": "valigia"
+      }
+    }
   },
   {
-    "id": "w103",
-    "category": "travel",
-    "de": "der Pass",
-    "en": "passport"
+    "id": "280",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "passport"
+      },
+      "de": {
+        "text": "der Pass",
+        "article": "der"
+      },
+      "it": {
+        "text": "il passaporto"
+      }
+    }
   },
   {
-    "id": "w104",
-    "category": "travel",
-    "de": "das Hotel",
-    "en": "hotel"
+    "id": "281",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "hotel"
+      },
+      "de": {
+        "text": "das Hotel",
+        "article": "das"
+      },
+      "it": {
+        "text": "l'hotel"
+      }
+    }
   },
   {
-    "id": "w105",
-    "category": "travel",
-    "de": "das Zimmer",
-    "en": "room"
+    "id": "282",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "room"
+      },
+      "de": {
+        "text": "das Zimmer",
+        "article": "das"
+      },
+      "it": {
+        "text": "la camera"
+      }
+    }
   },
   {
-    "id": "w106",
-    "category": "travel",
-    "de": "die Reservierung",
-    "en": "reservation"
+    "id": "283",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "reservation"
+      },
+      "de": {
+        "text": "die Reservierung",
+        "article": "die"
+      },
+      "it": {
+        "text": "prenotazione"
+      }
+    }
   },
   {
-    "id": "w107",
-    "category": "travel",
-    "de": "die Reise",
-    "en": "trip / journey"
+    "id": "284",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "trip / journey"
+      },
+      "de": {
+        "text": "die Reise",
+        "article": "die"
+      },
+      "it": {
+        "text": "il viaggio"
+      }
+    }
   },
   {
-    "id": "w108",
-    "category": "travel",
-    "de": "die Karte",
-    "en": "map / card"
+    "id": "285",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "map / card"
+      },
+      "de": {
+        "text": "die Karte",
+        "article": "die"
+      },
+      "it": {
+        "text": "mappa / scheda"
+      }
+    }
   },
   {
-    "id": "w109",
-    "category": "travel",
-    "de": "links",
-    "en": "left"
+    "id": "286",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "left"
+      },
+      "de": {
+        "text": "links"
+      },
+      "it": {
+        "text": "SX"
+      }
+    }
   },
   {
-    "id": "w110",
-    "category": "travel",
-    "de": "rechts",
-    "en": "right"
+    "id": "287",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "right"
+      },
+      "de": {
+        "text": "rechts"
+      },
+      "it": {
+        "text": "destra"
+      }
+    }
   },
   {
-    "id": "w111",
-    "category": "travel",
-    "de": "geradeaus",
-    "en": "straight ahead"
+    "id": "288",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "straight ahead"
+      },
+      "de": {
+        "text": "geradeaus"
+      },
+      "it": {
+        "text": "dritto"
+      }
+    }
   },
   {
-    "id": "w112",
-    "category": "travel",
-    "de": "nah",
-    "en": "near"
+    "id": "289",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "near"
+      },
+      "de": {
+        "text": "nah"
+      },
+      "it": {
+        "text": "quasi"
+      }
+    }
   },
   {
-    "id": "w113",
-    "category": "travel",
-    "de": "weit",
-    "en": "far"
+    "id": "290",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "far"
+      },
+      "de": {
+        "text": "weit"
+      },
+      "it": {
+        "text": "lontano"
+      }
+    }
   },
   {
-    "id": "w114",
-    "category": "travel",
-    "de": "ankommen",
-    "en": "to arrive"
+    "id": "291",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "train station"
+      },
+      "de": {
+        "text": "der Bahnhof",
+        "article": "der"
+      },
+      "it": {
+        "text": "stazione ferroviaria"
+      }
+    }
   },
   {
-    "id": "w115",
-    "category": "travel",
-    "de": "abfahren",
-    "en": "to depart"
+    "id": "292",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "timetable"
+      },
+      "de": {
+        "text": "der Fahrplan",
+        "article": "der"
+      },
+      "it": {
+        "text": "orario"
+      }
+    }
   },
   {
-    "id": "w278",
-    "category": "travel",
-    "de": "der Bahnhof",
-    "en": "train station"
+    "id": "293",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "seat"
+      },
+      "de": {
+        "text": "der Sitzplatz",
+        "article": "der"
+      },
+      "it": {
+        "text": "sede"
+      }
+    }
   },
   {
-    "id": "w279",
-    "category": "travel",
-    "de": "der Fahrplan",
-    "en": "timetable"
+    "id": "294",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "exit"
+      },
+      "de": {
+        "text": "der Ausgang",
+        "article": "der"
+      },
+      "it": {
+        "text": "l'uscita"
+      }
+    }
   },
   {
-    "id": "w280",
-    "category": "travel",
-    "de": "der Sitzplatz",
-    "en": "seat"
+    "id": "295",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "border"
+      },
+      "de": {
+        "text": "die Grenze",
+        "article": "die"
+      },
+      "it": {
+        "text": "la frontiera"
+      }
+    }
   },
   {
-    "id": "w281",
-    "category": "travel",
-    "de": "der Ausgang",
-    "en": "exit"
+    "id": "296",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "hostel"
+      },
+      "de": {
+        "text": "die Jugendherberge",
+        "article": "die"
+      },
+      "it": {
+        "text": "pensione"
+      }
+    }
   },
   {
-    "id": "w282",
-    "category": "travel",
-    "de": "die Grenze",
-    "en": "border"
+    "id": "297",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "accommodation"
+      },
+      "de": {
+        "text": "die Unterkunft",
+        "article": "die"
+      },
+      "it": {
+        "text": "soggiornare"
+      }
+    }
   },
   {
-    "id": "w283",
-    "category": "travel",
-    "de": "die Jugendherberge",
-    "en": "hostel"
+    "id": "298",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "travel guide"
+      },
+      "de": {
+        "text": "der Reiseführer",
+        "article": "der"
+      },
+      "it": {
+        "text": "Guida turistica"
+      }
+    }
   },
   {
-    "id": "w284",
-    "category": "travel",
-    "de": "die Unterkunft",
-    "en": "accommodation"
+    "id": "299",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "direction"
+      },
+      "de": {
+        "text": "die Richtung",
+        "article": "die"
+      },
+      "it": {
+        "text": "direzione"
+      }
+    }
   },
   {
-    "id": "w285",
-    "category": "travel",
-    "de": "der Reiseführer",
-    "en": "travel guide"
+    "id": "300",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "timetable"
+      },
+      "de": {
+        "text": "der Fahrplan",
+        "article": "der"
+      },
+      "it": {
+        "text": "orario"
+      }
+    }
   },
   {
-    "id": "w286",
-    "category": "travel",
-    "de": "die Richtung",
-    "en": "direction"
+    "id": "301",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "platform"
+      },
+      "de": {
+        "text": "der Bahnsteig",
+        "article": "der"
+      },
+      "it": {
+        "text": "piattaforma"
+      }
+    }
   },
   {
-    "id": "w287",
-    "category": "travel",
-    "de": "verpassen",
-    "en": "to miss"
+    "id": "302",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "accommodation"
+      },
+      "de": {
+        "text": "die Unterkunft",
+        "article": "die"
+      },
+      "it": {
+        "text": "soggiornare"
+      }
+    }
   },
   {
-    "id": "w288",
-    "category": "travel",
-    "de": "umsteigen",
-    "en": "to change trains"
+    "id": "303",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "travel guide"
+      },
+      "de": {
+        "text": "der Reiseführer",
+        "article": "der"
+      },
+      "it": {
+        "text": "Guida turistica"
+      }
+    }
   },
   {
-    "id": "w289",
-    "category": "travel",
-    "de": "buchen",
-    "en": "to book"
+    "id": "304",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "suitcase"
+      },
+      "de": {
+        "text": "der Koffer",
+        "article": "der"
+      },
+      "it": {
+        "text": "valigia"
+      }
+    }
   },
-  {"id":"w647","category":"travel","de":"der Fahrplan","en":"timetable"},{"id":"w648","category":"travel","de":"der Bahnsteig","en":"platform"},{"id":"w649","category":"travel","de":"die Unterkunft","en":"accommodation"},{"id":"w650","category":"travel","de":"der Reiseführer","en":"travel guide"},{"id":"w651","category":"travel","de":"der Koffer","en":"suitcase"},{"id":"w652","category":"travel","de":"die Jugendherberge","en":"hostel"},{"id":"w653","category":"travel","de":"die Grenze","en":"border"},{"id":"w654","category":"travel","de":"die Insel","en":"island"}
+  {
+    "id": "305",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "hostel"
+      },
+      "de": {
+        "text": "die Jugendherberge",
+        "article": "die"
+      },
+      "it": {
+        "text": "pensione"
+      }
+    }
+  },
+  {
+    "id": "306",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "border"
+      },
+      "de": {
+        "text": "die Grenze",
+        "article": "die"
+      },
+      "it": {
+        "text": "la frontiera"
+      }
+    }
+  },
+  {
+    "id": "307",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "island"
+      },
+      "de": {
+        "text": "die Insel",
+        "article": "die"
+      },
+      "it": {
+        "text": "L'ISOLA"
+      }
+    }
+  }
 ];

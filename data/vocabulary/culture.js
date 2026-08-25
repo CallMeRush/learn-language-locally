@@ -1,111 +1,338 @@
 const vocabularyCulture = [
   {
-    "id": "w452",
-    "category": "culture",
-    "de": "die Musik",
-    "en": "music"
+    "id": "588",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "music"
+      },
+      "de": {
+        "text": "die Musik",
+        "article": "die"
+      },
+      "it": {
+        "text": "musicali"
+      }
+    }
   },
   {
-    "id": "w453",
-    "category": "culture",
-    "de": "der Film",
-    "en": "film"
+    "id": "589",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "film"
+      },
+      "de": {
+        "text": "der Film",
+        "article": "der"
+      },
+      "it": {
+        "text": "pellicola"
+      }
+    }
   },
   {
-    "id": "w454",
-    "category": "culture",
-    "de": "das Theater",
-    "en": "theatre"
+    "id": "590",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "theatre"
+      },
+      "de": {
+        "text": "das Theater",
+        "article": "das"
+      },
+      "it": {
+        "text": "teatro"
+      }
+    }
   },
   {
-    "id": "w455",
-    "category": "culture",
-    "de": "das Konzert",
-    "en": "concert"
+    "id": "591",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "concert"
+      },
+      "de": {
+        "text": "das Konzert",
+        "article": "das"
+      },
+      "it": {
+        "text": "concerto"
+      }
+    }
   },
   {
-    "id": "w456",
-    "category": "culture",
-    "de": "die Ausstellung",
-    "en": "exhibition"
+    "id": "592",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "exhibition"
+      },
+      "de": {
+        "text": "die Ausstellung",
+        "article": "die"
+      },
+      "it": {
+        "text": "esposizione"
+      }
+    }
   },
   {
-    "id": "w457",
-    "category": "culture",
-    "de": "das Bild",
-    "en": "picture / painting"
+    "id": "593",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "picture / painting"
+      },
+      "de": {
+        "text": "das Bild",
+        "article": "das"
+      },
+      "it": {
+        "text": "Immagine/Pittura"
+      }
+    }
   },
   {
-    "id": "w458",
-    "category": "culture",
-    "de": "der Roman",
-    "en": "novel"
+    "id": "594",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "novel"
+      },
+      "de": {
+        "text": "der Roman",
+        "article": "der"
+      },
+      "it": {
+        "text": "romanzo"
+      }
+    }
   },
   {
-    "id": "w459",
-    "category": "culture",
-    "de": "das Gedicht",
-    "en": "poem"
+    "id": "595",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "poem"
+      },
+      "de": {
+        "text": "das Gedicht",
+        "article": "das"
+      },
+      "it": {
+        "text": "poesia"
+      }
+    }
   },
   {
-    "id": "w460",
-    "category": "culture",
-    "de": "die Geschichte",
-    "en": "history / story"
+    "id": "596",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "history / story"
+      },
+      "de": {
+        "text": "die Geschichte",
+        "article": "die"
+      },
+      "it": {
+        "text": "storia / storia"
+      }
+    }
   },
   {
-    "id": "w461",
-    "category": "culture",
-    "de": "die Kunst",
-    "en": "art"
+    "id": "597",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "art"
+      },
+      "de": {
+        "text": "die Kunst",
+        "article": "die"
+      },
+      "it": {
+        "text": "grafica"
+      }
+    }
   },
   {
-    "id": "w462",
-    "category": "culture",
-    "de": "der Sport",
-    "en": "sport"
+    "id": "598",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "sport"
+      },
+      "de": {
+        "text": "der Sport",
+        "article": "der"
+      },
+      "it": {
+        "text": "sport"
+      }
+    }
   },
   {
-    "id": "w463",
-    "category": "culture",
-    "de": "das Spiel",
-    "en": "game"
+    "id": "599",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "game"
+      },
+      "de": {
+        "text": "das Spiel",
+        "article": "das"
+      },
+      "it": {
+        "text": "partita"
+      }
+    }
   },
   {
-    "id": "w464",
-    "category": "culture",
-    "de": "der Verein",
-    "en": "club / association"
+    "id": "600",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "club / association"
+      },
+      "de": {
+        "text": "der Verein",
+        "article": "der"
+      },
+      "it": {
+        "text": "Associazione di club"
+      }
+    }
   },
   {
-    "id": "w465",
-    "category": "culture",
-    "de": "tanzen",
-    "en": "to dance"
+    "id": "601",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "exhibition"
+      },
+      "de": {
+        "text": "die Ausstellung",
+        "article": "die"
+      },
+      "it": {
+        "text": "esposizione"
+      }
+    }
   },
   {
-    "id": "w466",
-    "category": "culture",
-    "de": "singen",
-    "en": "to sing"
+    "id": "602",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "theatre"
+      },
+      "de": {
+        "text": "das Theater",
+        "article": "das"
+      },
+      "it": {
+        "text": "teatro"
+      }
+    }
   },
   {
-    "id": "w467",
-    "category": "culture",
-    "de": "zeichnen",
-    "en": "to draw"
+    "id": "603",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "concert"
+      },
+      "de": {
+        "text": "das Konzert",
+        "article": "das"
+      },
+      "it": {
+        "text": "concerto"
+      }
+    }
   },
   {
-    "id": "w468",
-    "category": "culture",
-    "de": "besuchen",
-    "en": "to visit"
+    "id": "604",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "film"
+      },
+      "de": {
+        "text": "der Film",
+        "article": "der"
+      },
+      "it": {
+        "text": "pellicola"
+      }
+    }
   },
   {
-    "id": "w469",
-    "category": "culture",
-    "de": "gewinnen",
-    "en": "to win"
+    "id": "605",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "song"
+      },
+      "de": {
+        "text": "das Lied",
+        "article": "das"
+      },
+      "it": {
+        "text": "bài hát"
+      }
+    }
   },
-  {"id":"w735","category":"culture","de":"die Ausstellung","en":"exhibition"},{"id":"w736","category":"culture","de":"das Theater","en":"theatre"},{"id":"w737","category":"culture","de":"das Konzert","en":"concert"},{"id":"w738","category":"culture","de":"der Film","en":"film"},{"id":"w739","category":"culture","de":"das Lied","en":"song"},{"id":"w740","category":"culture","de":"die Mannschaft","en":"team"},{"id":"w741","category":"culture","de":"das Spiel","en":"game / match"},{"id":"w742","category":"culture","de":"die Veranstaltung","en":"event"}
+  {
+    "id": "606",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "team"
+      },
+      "de": {
+        "text": "die Mannschaft",
+        "article": "die"
+      },
+      "it": {
+        "text": "esistente"
+      }
+    }
+  },
+  {
+    "id": "607",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "game / match"
+      },
+      "de": {
+        "text": "das Spiel",
+        "article": "das"
+      },
+      "it": {
+        "text": "gioco / partita"
+      }
+    }
+  },
+  {
+    "id": "608",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "event"
+      },
+      "de": {
+        "text": "die Veranstaltung",
+        "article": "die"
+      },
+      "it": {
+        "text": "evento"
+      }
+    }
+  }
 ];

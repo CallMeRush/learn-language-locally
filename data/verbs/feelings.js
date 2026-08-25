@@ -1,51 +1,114 @@
 const verbFeelings = [
   {
-    "id": "w190",
-    "category": "verbs",
-    "de": "hoffen",
-    "en": "to hope",
+    "id": "670",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to hope"
+      },
+      "de": {
+        "text": "hoffen"
+      },
+      "it": {
+        "text": "sperare"
+      }
+    },
     "verbCategory": "feelings"
   },
   {
-    "id": "w191",
-    "category": "verbs",
-    "de": "glauben",
-    "en": "to believe",
+    "id": "671",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to believe"
+      },
+      "de": {
+        "text": "glauben"
+      },
+      "it": {
+        "text": "credere"
+      }
+    },
     "verbCategory": "feelings"
   },
   {
-    "id": "w192",
-    "category": "verbs",
-    "de": "lachen",
-    "en": "to laugh",
+    "id": "672",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to laugh"
+      },
+      "de": {
+        "text": "lachen"
+      },
+      "it": {
+        "text": "ridere"
+      }
+    },
     "verbCategory": "feelings"
   },
   {
-    "id": "w193",
-    "category": "verbs",
-    "de": "weinen",
-    "en": "to cry",
+    "id": "673",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to cry"
+      },
+      "de": {
+        "text": "weinen"
+      },
+      "it": {
+        "text": "piangere"
+      }
+    },
     "verbCategory": "feelings"
   },
   {
-    "id": "w347",
-    "category": "verbs",
-    "de": "sich freuen",
-    "en": "to look forward to / be happy",
+    "id": "674",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to look forward to / be happy"
+      },
+      "de": {
+        "text": "sich freuen"
+      },
+      "it": {
+        "text": "non vedo l'ora di / essere felice"
+      }
+    },
     "verbCategory": "feelings"
   },
   {
-    "id": "w348",
-    "category": "verbs",
-    "de": "vermissen",
-    "en": "to miss someone",
+    "id": "675",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to miss someone"
+      },
+      "de": {
+        "text": "vermissen"
+      },
+      "it": {
+        "text": "sentire la mancanza di qualcuno"
+      }
+    },
     "verbCategory": "feelings"
   },
   {
-    "id": "w349",
-    "category": "verbs",
-    "de": "vertrauen",
-    "en": "to trust",
+    "id": "676",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to trust"
+      },
+      "de": {
+        "text": "vertrauen"
+      },
+      "it": {
+        "text": "fidarsi"
+      }
+    },
     "verbCategory": "feelings"
   }
 ];

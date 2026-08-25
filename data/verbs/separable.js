@@ -1,128 +1,290 @@
 const verbSeparable = [
   {
-    "id": "w114",
-    "category": "verbs",
-    "de": "ankommen",
-    "en": "to arrive",
+    "id": "703",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to arrive"
+      },
+      "de": {
+        "text": "ankommen"
+      },
+      "it": {
+        "text": "arrivare"
+      }
+    },
     "verbCategory": "separable"
   },
   {
-    "id": "w115",
-    "category": "verbs",
-    "de": "abfahren",
-    "en": "to depart",
+    "id": "704",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to depart"
+      },
+      "de": {
+        "text": "abfahren"
+      },
+      "it": {
+        "text": "partire"
+      }
+    },
     "verbCategory": "separable"
   },
   {
-    "id": "w288",
-    "category": "verbs",
-    "de": "umsteigen",
-    "en": "to change trains",
+    "id": "705",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to change trains"
+      },
+      "de": {
+        "text": "umsteigen"
+      },
+      "it": {
+        "text": "per cambiare treno"
+      }
+    },
     "verbCategory": "separable"
   },
   {
-    "id": "w428",
-    "category": "verbs",
-    "de": "aufstehen",
-    "en": "to get up",
+    "id": "706",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to get up"
+      },
+      "de": {
+        "text": "aufstehen"
+      },
+      "it": {
+        "text": "per rialzarti"
+      }
+    },
     "verbCategory": "separable"
   },
   {
-    "id": "w431",
-    "category": "verbs",
-    "de": "aufräumen",
-    "en": "to tidy up",
+    "id": "707",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to tidy up"
+      },
+      "de": {
+        "text": "aufräumen"
+      },
+      "it": {
+        "text": "riordinare"
+      }
+    },
     "verbCategory": "separable"
   },
   {
-    "id": "w432",
-    "category": "verbs",
-    "de": "wegwerfen",
-    "en": "to throw away",
+    "id": "708",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to throw away"
+      },
+      "de": {
+        "text": "wegwerfen"
+      },
+      "it": {
+        "text": "Data di eliminazione"
+      }
+    },
     "verbCategory": "separable"
   },
   {
-    "id": "w433",
-    "category": "verbs",
-    "de": "einschalten",
-    "en": "to switch on",
+    "id": "709",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to switch on"
+      },
+      "de": {
+        "text": "einschalten"
+      },
+      "it": {
+        "text": "accendere"
+      }
+    },
     "verbCategory": "separable"
   },
   {
-    "id": "w470",
-    "category": "verbs",
-    "de": "anrufen",
-    "en": "to call",
+    "id": "710",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to call"
+      },
+      "de": {
+        "text": "anrufen"
+      },
+      "it": {
+        "text": "chiamare"
+      }
+    },
     "verbCategory": "separable"
   },
   {
-    "id": "w471",
-    "category": "verbs",
-    "de": "mitkommen",
-    "en": "to come along",
+    "id": "711",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to come along"
+      },
+      "de": {
+        "text": "mitkommen"
+      },
+      "it": {
+        "text": "venire con"
+      }
+    },
     "verbCategory": "separable"
   },
   {
-    "id": "w472",
-    "category": "verbs",
-    "de": "ausgehen",
-    "en": "to go out",
+    "id": "712",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to go out"
+      },
+      "de": {
+        "text": "ausgehen"
+      },
+      "it": {
+        "text": "per uscire"
+      }
+    },
     "verbCategory": "separable"
   },
   {
-    "id": "w473",
-    "category": "verbs",
-    "de": "einladen",
-    "en": "to invite",
+    "id": "713",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to invite"
+      },
+      "de": {
+        "text": "einladen"
+      },
+      "it": {
+        "text": "Invitare"
+      }
+    },
     "verbCategory": "separable"
   },
   {
-    "id": "w474",
-    "category": "verbs",
-    "de": "vorbereiten",
-    "en": "to prepare",
+    "id": "714",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to prepare"
+      },
+      "de": {
+        "text": "vorbereiten"
+      },
+      "it": {
+        "text": "Per preparare"
+      }
+    },
     "verbCategory": "separable"
   },
   {
-    "id": "w475",
-    "category": "verbs",
-    "de": "einkaufen",
-    "en": "to shop",
+    "id": "715",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to shop"
+      },
+      "de": {
+        "text": "einkaufen"
+      },
+      "it": {
+        "text": "Al negozio"
+      }
+    },
     "verbCategory": "separable"
   },
   {
-    "id": "w476",
-    "category": "verbs",
-    "de": "zurückkommen",
-    "en": "to come back",
+    "id": "716",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to come back"
+      },
+      "de": {
+        "text": "zurückkommen"
+      },
+      "it": {
+        "text": "PER RITORNARE"
+      }
+    },
     "verbCategory": "separable"
   },
   {
-    "id": "w477",
-    "category": "verbs",
-    "de": "aufmachen",
-    "en": "to open up",
+    "id": "717",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to open up"
+      },
+      "de": {
+        "text": "aufmachen"
+      },
+      "it": {
+        "text": "aprire"
+      }
+    },
     "verbCategory": "separable"
   },
   {
-    "id": "w478",
-    "category": "verbs",
-    "de": "zumachen",
-    "en": "to close up",
+    "id": "718",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to close up"
+      },
+      "de": {
+        "text": "zumachen"
+      },
+      "it": {
+        "text": "Chiudere"
+      }
+    },
     "verbCategory": "separable"
   },
   {
-    "id": "w479",
-    "category": "verbs",
-    "de": "weitermachen",
-    "en": "to continue",
+    "id": "719",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to continue"
+      },
+      "de": {
+        "text": "weitermachen"
+      },
+      "it": {
+        "text": "continuare"
+      }
+    },
     "verbCategory": "separable"
   },
   {
-    "id": "w481",
-    "category": "verbs",
-    "de": "stattfinden",
-    "en": "to take place",
+    "id": "720",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to take place"
+      },
+      "de": {
+        "text": "stattfinden"
+      },
+      "it": {
+        "text": "avere luogo"
+      }
+    },
     "verbCategory": "separable"
   }
 ];

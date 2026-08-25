@@ -1,111 +1,320 @@
 const vocabularyEnvironment = [
   {
-    "id": "w434",
-    "category": "environment",
-    "de": "die Umwelt",
-    "en": "environment"
+    "id": "568",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "environment"
+      },
+      "de": {
+        "text": "die Umwelt",
+        "article": "die"
+      },
+      "it": {
+        "text": "ambiente"
+      }
+    }
   },
   {
-    "id": "w435",
-    "category": "environment",
-    "de": "der Abfall",
-    "en": "waste"
+    "id": "569",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "waste"
+      },
+      "de": {
+        "text": "der Abfall",
+        "article": "der"
+      },
+      "it": {
+        "text": "alimentare"
+      }
+    }
   },
   {
-    "id": "w436",
-    "category": "environment",
-    "de": "das Recycling",
-    "en": "recycling"
+    "id": "570",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "recycling"
+      },
+      "de": {
+        "text": "das Recycling",
+        "article": "das"
+      },
+      "it": {
+        "text": "riciclaggio"
+      }
+    }
   },
   {
-    "id": "w437",
-    "category": "environment",
-    "de": "die Energie",
-    "en": "energy"
+    "id": "571",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "energy"
+      },
+      "de": {
+        "text": "die Energie",
+        "article": "die"
+      },
+      "it": {
+        "text": "energia"
+      }
+    }
   },
   {
-    "id": "w438",
-    "category": "environment",
-    "de": "die Luft",
-    "en": "air"
+    "id": "572",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "air"
+      },
+      "de": {
+        "text": "die Luft",
+        "article": "die"
+      },
+      "it": {
+        "text": "compressa"
+      }
+    }
   },
   {
-    "id": "w439",
-    "category": "environment",
-    "de": "das Klima",
-    "en": "climate"
+    "id": "573",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "climate"
+      },
+      "de": {
+        "text": "das Klima",
+        "article": "das"
+      },
+      "it": {
+        "text": "il clima"
+      }
+    }
   },
   {
-    "id": "w440",
-    "category": "environment",
-    "de": "die Erde",
-    "en": "earth"
+    "id": "574",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "earth"
+      },
+      "de": {
+        "text": "die Erde",
+        "article": "die"
+      },
+      "it": {
+        "text": "terra"
+      }
+    }
   },
   {
-    "id": "w441",
-    "category": "environment",
-    "de": "der Strom",
-    "en": "electricity"
+    "id": "575",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "electricity"
+      },
+      "de": {
+        "text": "der Strom",
+        "article": "der"
+      },
+      "it": {
+        "text": "elettricità"
+      }
+    }
   },
   {
-    "id": "w442",
-    "category": "environment",
-    "de": "die Heizung",
-    "en": "heating"
+    "id": "576",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "heating"
+      },
+      "de": {
+        "text": "die Heizung",
+        "article": "die"
+      },
+      "it": {
+        "text": "riscaldamento"
+      }
+    }
   },
   {
-    "id": "w443",
-    "category": "environment",
-    "de": "die Verschmutzung",
-    "en": "pollution"
+    "id": "577",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "pollution"
+      },
+      "de": {
+        "text": "die Verschmutzung",
+        "article": "die"
+      },
+      "it": {
+        "text": "inquinamento"
+      }
+    }
   },
   {
-    "id": "w444",
-    "category": "environment",
-    "de": "umweltfreundlich",
-    "en": "environmentally friendly"
+    "id": "578",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "environmentally friendly"
+      },
+      "de": {
+        "text": "umweltfreundlich"
+      },
+      "it": {
+        "text": "ecologico"
+      }
+    }
   },
   {
-    "id": "w445",
-    "category": "environment",
-    "de": "nachhaltig",
-    "en": "sustainable"
+    "id": "579",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "sustainable"
+      },
+      "de": {
+        "text": "nachhaltig"
+      },
+      "it": {
+        "text": "sostenibile"
+      }
+    }
   },
   {
-    "id": "w446",
-    "category": "environment",
-    "de": "recyceln",
-    "en": "to recycle"
+    "id": "580",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "environment"
+      },
+      "de": {
+        "text": "die Umwelt",
+        "article": "die"
+      },
+      "it": {
+        "text": "ambiente"
+      }
+    }
   },
   {
-    "id": "w447",
-    "category": "environment",
-    "de": "schützen",
-    "en": "to protect"
+    "id": "581",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "waste"
+      },
+      "de": {
+        "text": "der Abfall",
+        "article": "der"
+      },
+      "it": {
+        "text": "alimentare"
+      }
+    }
   },
   {
-    "id": "w448",
-    "category": "environment",
-    "de": "reduzieren",
-    "en": "to reduce"
+    "id": "582",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "heating"
+      },
+      "de": {
+        "text": "die Heizung",
+        "article": "die"
+      },
+      "it": {
+        "text": "riscaldamento"
+      }
+    }
   },
   {
-    "id": "w449",
-    "category": "environment",
-    "de": "sparen",
-    "en": "to save"
+    "id": "583",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "energy"
+      },
+      "de": {
+        "text": "die Energie",
+        "article": "die"
+      },
+      "it": {
+        "text": "energia"
+      }
+    }
   },
   {
-    "id": "w450",
-    "category": "environment",
-    "de": "trennen",
-    "en": "to separate"
+    "id": "584",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "recycling"
+      },
+      "de": {
+        "text": "das Recycling",
+        "article": "das"
+      },
+      "it": {
+        "text": "riciclaggio"
+      }
+    }
   },
   {
-    "id": "w451",
-    "category": "environment",
-    "de": "heizen",
-    "en": "to heat"
+    "id": "585",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "nature"
+      },
+      "de": {
+        "text": "die Natur",
+        "article": "die"
+      },
+      "it": {
+        "text": "la natura"
+      }
+    }
   },
-  {"id":"w727","category":"environment","de":"die Umwelt","en":"environment"},{"id":"w728","category":"environment","de":"der Abfall","en":"waste"},{"id":"w729","category":"environment","de":"die Heizung","en":"heating"},{"id":"w730","category":"environment","de":"die Energie","en":"energy"},{"id":"w731","category":"environment","de":"das Recycling","en":"recycling"},{"id":"w732","category":"environment","de":"die Natur","en":"nature"},{"id":"w733","category":"environment","de":"der Strom","en":"electricity"},{"id":"w734","category":"environment","de":"die Luft","en":"air"}
+  {
+    "id": "586",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "electricity"
+      },
+      "de": {
+        "text": "der Strom",
+        "article": "der"
+      },
+      "it": {
+        "text": "elettricità"
+      }
+    }
+  },
+  {
+    "id": "587",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "air"
+      },
+      "de": {
+        "text": "die Luft",
+        "article": "die"
+      },
+      "it": {
+        "text": "compressa"
+      }
+    }
+  }
 ];

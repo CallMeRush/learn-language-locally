@@ -1,171 +1,578 @@
 const vocabularyHouse = [
   {
-    "id": "w0",
-    "category": "house",
-    "de": "der Tisch",
-    "en": "table"
+    "id": "1",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "table"
+      },
+      "de": {
+        "text": "der Tisch",
+        "article": "der"
+      },
+      "it": {
+        "text": "il tavolo"
+      }
+    }
   },
   {
-    "id": "w1",
-    "category": "house",
-    "de": "der Stuhl",
-    "en": "chair"
+    "id": "2",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "chair"
+      },
+      "de": {
+        "text": "der Stuhl",
+        "article": "der"
+      },
+      "it": {
+        "text": "sedia"
+      }
+    }
   },
   {
-    "id": "w2",
-    "category": "house",
-    "de": "die Tür",
-    "en": "door"
+    "id": "3",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "door"
+      },
+      "de": {
+        "text": "die Tür",
+        "article": "die"
+      },
+      "it": {
+        "text": "porta"
+      }
+    }
   },
   {
-    "id": "w3",
-    "category": "house",
-    "de": "das Fenster",
-    "en": "window"
+    "id": "4",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "window"
+      },
+      "de": {
+        "text": "das Fenster",
+        "article": "das"
+      },
+      "it": {
+        "text": "finestra"
+      }
+    }
   },
   {
-    "id": "w4",
-    "category": "house",
-    "de": "die Lampe",
-    "en": "lamp"
+    "id": "5",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "lamp"
+      },
+      "de": {
+        "text": "die Lampe",
+        "article": "die"
+      },
+      "it": {
+        "text": "luce"
+      }
+    }
   },
   {
-    "id": "w5",
-    "category": "house",
-    "de": "das Bett",
-    "en": "bed"
+    "id": "6",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "bed"
+      },
+      "de": {
+        "text": "das Bett",
+        "article": "das"
+      },
+      "it": {
+        "text": "letto"
+      }
+    }
   },
   {
-    "id": "w6",
-    "category": "house",
-    "de": "der Schrank",
-    "en": "cupboard"
+    "id": "7",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "cupboard"
+      },
+      "de": {
+        "text": "der Schrank",
+        "article": "der"
+      },
+      "it": {
+        "text": "armadietto"
+      }
+    }
   },
   {
-    "id": "w7",
-    "category": "house",
-    "de": "der Spiegel",
-    "en": "mirror"
+    "id": "8",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "mirror"
+      },
+      "de": {
+        "text": "der Spiegel",
+        "article": "der"
+      },
+      "it": {
+        "text": "specchio"
+      }
+    }
   },
   {
-    "id": "w8",
-    "category": "house",
-    "de": "das Sofa",
-    "en": "sofa"
+    "id": "9",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "sofa"
+      },
+      "de": {
+        "text": "das Sofa",
+        "article": "das"
+      },
+      "it": {
+        "text": "divano"
+      }
+    }
   },
   {
-    "id": "w9",
-    "category": "house",
-    "de": "die Küche",
-    "en": "kitchen"
+    "id": "10",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "kitchen"
+      },
+      "de": {
+        "text": "die Küche",
+        "article": "die"
+      },
+      "it": {
+        "text": "cucina"
+      }
+    }
   },
   {
-    "id": "w10",
-    "category": "house",
-    "de": "das Bad",
-    "en": "bathroom"
+    "id": "11",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "bathroom"
+      },
+      "de": {
+        "text": "das Bad",
+        "article": "das"
+      },
+      "it": {
+        "text": "stanza da bagno"
+      }
+    }
   },
   {
-    "id": "w11",
-    "category": "house",
-    "de": "der Schlüssel",
-    "en": "key"
+    "id": "12",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "key"
+      },
+      "de": {
+        "text": "der Schlüssel",
+        "article": "der"
+      },
+      "it": {
+        "text": "la chiave"
+      }
+    }
   },
   {
-    "id": "w12",
-    "category": "house",
-    "de": "die Wand",
-    "en": "wall"
+    "id": "13",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "wall"
+      },
+      "de": {
+        "text": "die Wand",
+        "article": "die"
+      },
+      "it": {
+        "text": "parete"
+      }
+    }
   },
   {
-    "id": "w13",
-    "category": "house",
-    "de": "der Boden",
-    "en": "floor"
+    "id": "14",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "floor"
+      },
+      "de": {
+        "text": "der Boden",
+        "article": "der"
+      },
+      "it": {
+        "text": "Terra"
+      }
+    }
   },
   {
-    "id": "w14",
-    "category": "house",
-    "de": "das Zimmer",
-    "en": "room"
+    "id": "15",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "room"
+      },
+      "de": {
+        "text": "das Zimmer",
+        "article": "das"
+      },
+      "it": {
+        "text": "la camera"
+      }
+    }
   },
   {
-    "id": "w15",
-    "category": "house",
-    "de": "die Wohnung",
-    "en": "apartment"
+    "id": "16",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "apartment"
+      },
+      "de": {
+        "text": "die Wohnung",
+        "article": "die"
+      },
+      "it": {
+        "text": "Appartamento"
+      }
+    }
   },
   {
-    "id": "w210",
-    "category": "house",
-    "de": "der Kühlschrank",
-    "en": "fridge"
+    "id": "17",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "fridge"
+      },
+      "de": {
+        "text": "der Kühlschrank",
+        "article": "der"
+      },
+      "it": {
+        "text": "frigo"
+      }
+    }
   },
   {
-    "id": "w211",
-    "category": "house",
-    "de": "der Herd",
-    "en": "stove"
+    "id": "18",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "stove"
+      },
+      "de": {
+        "text": "der Herd",
+        "article": "der"
+      },
+      "it": {
+        "text": "stufa"
+      }
+    }
   },
   {
-    "id": "w212",
-    "category": "house",
-    "de": "die Waschmaschine",
-    "en": "washing machine"
+    "id": "19",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "washing machine"
+      },
+      "de": {
+        "text": "die Waschmaschine",
+        "article": "die"
+      },
+      "it": {
+        "text": "lavatrice"
+      }
+    }
   },
   {
-    "id": "w213",
-    "category": "house",
-    "de": "die Dusche",
-    "en": "shower"
+    "id": "20",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "shower"
+      },
+      "de": {
+        "text": "die Dusche",
+        "article": "die"
+      },
+      "it": {
+        "text": "doccia"
+      }
+    }
   },
   {
-    "id": "w214",
-    "category": "house",
-    "de": "die Treppe",
-    "en": "stairs"
+    "id": "21",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "stairs"
+      },
+      "de": {
+        "text": "die Treppe",
+        "article": "die"
+      },
+      "it": {
+        "text": "scale"
+      }
+    }
   },
   {
-    "id": "w215",
-    "category": "house",
-    "de": "der Balkon",
-    "en": "balcony"
+    "id": "22",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "balcony"
+      },
+      "de": {
+        "text": "der Balkon",
+        "article": "der"
+      },
+      "it": {
+        "text": "balconi"
+      }
+    }
   },
   {
-    "id": "w216",
-    "category": "house",
-    "de": "der Garten",
-    "en": "garden"
+    "id": "23",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "garden"
+      },
+      "de": {
+        "text": "der Garten",
+        "article": "der"
+      },
+      "it": {
+        "text": "giardino"
+      }
+    }
   },
   {
-    "id": "w217",
-    "category": "house",
-    "de": "die Pflanze",
-    "en": "plant"
+    "id": "24",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "plant"
+      },
+      "de": {
+        "text": "die Pflanze",
+        "article": "die"
+      },
+      "it": {
+        "text": "vegetale"
+      }
+    }
   },
   {
-    "id": "w218",
-    "category": "house",
-    "de": "das Kissen",
-    "en": "pillow"
+    "id": "25",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "pillow"
+      },
+      "de": {
+        "text": "das Kissen",
+        "article": "das"
+      },
+      "it": {
+        "text": "cuscino"
+      }
+    }
   },
   {
-    "id": "w219",
-    "category": "house",
-    "de": "die Decke",
-    "en": "blanket"
+    "id": "26",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "blanket"
+      },
+      "de": {
+        "text": "die Decke",
+        "article": "die"
+      },
+      "it": {
+        "text": "coperta"
+      }
+    }
   },
   {
-    "id": "w220",
-    "category": "house",
-    "de": "das Handtuch",
-    "en": "towel"
+    "id": "27",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "towel"
+      },
+      "de": {
+        "text": "das Handtuch",
+        "article": "das"
+      },
+      "it": {
+        "text": "asciugamano"
+      }
+    }
   },
   {
-    "id": "w221",
-    "category": "house",
-    "de": "der Mülleimer",
-    "en": "bin / trash can"
+    "id": "28",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "bin / trash can"
+      },
+      "de": {
+        "text": "der Mülleimer",
+        "article": "der"
+      },
+      "it": {
+        "text": "bidone / bidone della spazzatura"
+      }
+    }
   },
-  {"id":"w600","category":"house","de":"der Kühlschrank","en":"fridge"},{"id":"w601","category":"house","de":"der Herd","en":"stove"},{"id":"w602","category":"house","de":"die Waschmaschine","en":"washing machine"},{"id":"w603","category":"house","de":"der Staubsauger","en":"vacuum cleaner"},{"id":"w604","category":"house","de":"das Regal","en":"shelf"},{"id":"w605","category":"house","de":"der Vorhang","en":"curtain"},{"id":"w606","category":"house","de":"die Schublade","en":"drawer"},{"id":"w607","category":"house","de":"der Balkon","en":"balcony"}
+  {
+    "id": "29",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "fridge"
+      },
+      "de": {
+        "text": "der Kühlschrank",
+        "article": "der"
+      },
+      "it": {
+        "text": "frigo"
+      }
+    }
+  },
+  {
+    "id": "30",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "stove"
+      },
+      "de": {
+        "text": "der Herd",
+        "article": "der"
+      },
+      "it": {
+        "text": "stufa"
+      }
+    }
+  },
+  {
+    "id": "31",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "washing machine"
+      },
+      "de": {
+        "text": "die Waschmaschine",
+        "article": "die"
+      },
+      "it": {
+        "text": "lavatrice"
+      }
+    }
+  },
+  {
+    "id": "32",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "vacuum cleaner"
+      },
+      "de": {
+        "text": "der Staubsauger",
+        "article": "der"
+      },
+      "it": {
+        "text": "aspiratutto"
+      }
+    }
+  },
+  {
+    "id": "33",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "shelf"
+      },
+      "de": {
+        "text": "das Regal",
+        "article": "das"
+      },
+      "it": {
+        "text": "scafale"
+      }
+    }
+  },
+  {
+    "id": "34",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "curtain"
+      },
+      "de": {
+        "text": "der Vorhang",
+        "article": "der"
+      },
+      "it": {
+        "text": "tenda"
+      }
+    }
+  },
+  {
+    "id": "35",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "drawer"
+      },
+      "de": {
+        "text": "die Schublade",
+        "article": "die"
+      },
+      "it": {
+        "text": "cassetto"
+      }
+    }
+  },
+  {
+    "id": "36",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "balcony"
+      },
+      "de": {
+        "text": "der Balkon",
+        "article": "der"
+      },
+      "it": {
+        "text": "balconi"
+      }
+    }
+  }
 ];

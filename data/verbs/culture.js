@@ -1,37 +1,82 @@
 const verbCulture = [
   {
-    "id": "w465",
-    "category": "verbs",
-    "de": "tanzen",
-    "en": "to dance",
+    "id": "698",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "to dance"
+      },
+      "de": {
+        "text": "tanzen"
+      },
+      "it": {
+        "text": "ballare"
+      }
+    },
     "verbCategory": "culture"
   },
   {
-    "id": "w466",
-    "category": "verbs",
-    "de": "singen",
-    "en": "to sing",
+    "id": "699",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "to sing"
+      },
+      "de": {
+        "text": "singen"
+      },
+      "it": {
+        "text": "per cantare"
+      }
+    },
     "verbCategory": "culture"
   },
   {
-    "id": "w467",
-    "category": "verbs",
-    "de": "zeichnen",
-    "en": "to draw",
+    "id": "700",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "to draw"
+      },
+      "de": {
+        "text": "zeichnen"
+      },
+      "it": {
+        "text": "disegnare"
+      }
+    },
     "verbCategory": "culture"
   },
   {
-    "id": "w468",
-    "category": "verbs",
-    "de": "besuchen",
-    "en": "to visit",
+    "id": "701",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "to visit"
+      },
+      "de": {
+        "text": "besuchen"
+      },
+      "it": {
+        "text": "da visitare"
+      }
+    },
     "verbCategory": "culture"
   },
   {
-    "id": "w469",
-    "category": "verbs",
-    "de": "gewinnen",
-    "en": "to win",
+    "id": "702",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "to win"
+      },
+      "de": {
+        "text": "gewinnen"
+      },
+      "it": {
+        "text": "vincere"
+      }
+    },
     "verbCategory": "culture"
   }
 ];

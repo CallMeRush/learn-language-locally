@@ -1,111 +1,386 @@
 const vocabularyEducation = [
   {
-    "id": "w362",
-    "category": "education",
-    "de": "die Universität",
-    "en": "university"
+    "id": "491",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "university"
+      },
+      "de": {
+        "text": "die Universität",
+        "article": "die"
+      },
+      "it": {
+        "text": "ateneo"
+      }
+    }
   },
   {
-    "id": "w363",
-    "category": "education",
-    "de": "die Klasse",
-    "en": "class"
+    "id": "492",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "class"
+      },
+      "de": {
+        "text": "die Klasse",
+        "article": "die"
+      },
+      "it": {
+        "text": "classe"
+      }
+    }
   },
   {
-    "id": "w364",
-    "category": "education",
-    "de": "der Kurs",
-    "en": "course"
+    "id": "493",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "course"
+      },
+      "de": {
+        "text": "der Kurs",
+        "article": "der"
+      },
+      "it": {
+        "text": "corso"
+      }
+    }
   },
   {
-    "id": "w365",
-    "category": "education",
-    "de": "die Prüfung",
-    "en": "exam"
+    "id": "494",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "exam"
+      },
+      "de": {
+        "text": "die Prüfung",
+        "article": "die"
+      },
+      "it": {
+        "text": "esame"
+      }
+    }
   },
   {
-    "id": "w366",
-    "category": "education",
-    "de": "die Frage",
-    "en": "question"
+    "id": "495",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "question"
+      },
+      "de": {
+        "text": "die Frage",
+        "article": "die"
+      },
+      "it": {
+        "text": "domanda"
+      }
+    }
   },
   {
-    "id": "w367",
-    "category": "education",
-    "de": "die Antwort",
-    "en": "answer"
+    "id": "496",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "answer"
+      },
+      "de": {
+        "text": "die Antwort",
+        "article": "die"
+      },
+      "it": {
+        "text": "risposta"
+      }
+    }
   },
   {
-    "id": "w368",
-    "category": "education",
-    "de": "das Beispiel",
-    "en": "example"
+    "id": "497",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "example"
+      },
+      "de": {
+        "text": "das Beispiel",
+        "article": "das"
+      },
+      "it": {
+        "text": "ad esempio"
+      }
+    }
   },
   {
-    "id": "w369",
-    "category": "education",
-    "de": "die Sprache",
-    "en": "language"
+    "id": "498",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "language"
+      },
+      "de": {
+        "text": "die Sprache",
+        "article": "die"
+      },
+      "it": {
+        "text": "lingua"
+      }
+    }
   },
   {
-    "id": "w370",
-    "category": "education",
-    "de": "das Wort",
-    "en": "word"
+    "id": "499",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "word"
+      },
+      "de": {
+        "text": "das Wort",
+        "article": "das"
+      },
+      "it": {
+        "text": "termine"
+      }
+    }
   },
   {
-    "id": "w371",
-    "category": "education",
-    "de": "der Satz",
-    "en": "sentence"
+    "id": "500",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "sentence"
+      },
+      "de": {
+        "text": "der Satz",
+        "article": "der"
+      },
+      "it": {
+        "text": "frase"
+      }
+    }
   },
   {
-    "id": "w372",
-    "category": "education",
-    "de": "die Grammatik",
-    "en": "grammar"
+    "id": "501",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "grammar"
+      },
+      "de": {
+        "text": "die Grammatik",
+        "article": "die"
+      },
+      "it": {
+        "text": "grammatica"
+      }
+    }
   },
   {
-    "id": "w373",
-    "category": "education",
-    "de": "die Aussprache",
-    "en": "pronunciation"
+    "id": "502",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "pronunciation"
+      },
+      "de": {
+        "text": "die Aussprache",
+        "article": "die"
+      },
+      "it": {
+        "text": "pronuncia"
+      }
+    }
   },
   {
-    "id": "w374",
-    "category": "education",
-    "de": "die Übung",
-    "en": "exercise"
+    "id": "503",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "exercise"
+      },
+      "de": {
+        "text": "die Übung",
+        "article": "die"
+      },
+      "it": {
+        "text": "esercizio"
+      }
+    }
   },
   {
-    "id": "w375",
-    "category": "education",
-    "de": "das Wörterbuch",
-    "en": "dictionary"
+    "id": "504",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "dictionary"
+      },
+      "de": {
+        "text": "das Wörterbuch",
+        "article": "das"
+      },
+      "it": {
+        "text": "dizionario"
+      }
+    }
   },
   {
-    "id": "w376",
-    "category": "education",
-    "de": "der Lehrer",
-    "en": "teacher (male)"
+    "id": "505",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "teacher (male)"
+      },
+      "de": {
+        "text": "der Lehrer",
+        "article": "der"
+      },
+      "it": {
+        "text": "insegnante (uomo)"
+      }
+    }
   },
   {
-    "id": "w377",
-    "category": "education",
-    "de": "die Lehrerin",
-    "en": "teacher (female)"
+    "id": "506",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "teacher (female)"
+      },
+      "de": {
+        "text": "die Lehrerin",
+        "article": "die"
+      },
+      "it": {
+        "text": "insegnante (donna)"
+      }
+    }
   },
   {
-    "id": "w378",
-    "category": "education",
-    "de": "bestehen",
-    "en": "to pass"
+    "id": "507",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "exam"
+      },
+      "de": {
+        "text": "die Prüfung",
+        "article": "die"
+      },
+      "it": {
+        "text": "esame"
+      }
+    }
   },
   {
-    "id": "w379",
-    "category": "education",
-    "de": "wiederholen",
-    "en": "to repeat"
+    "id": "508",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "pronunciation"
+      },
+      "de": {
+        "text": "die Aussprache",
+        "article": "die"
+      },
+      "it": {
+        "text": "pronuncia"
+      }
+    }
   },
-  {"id":"w703","category":"education","de":"die Prüfung","en":"exam"},{"id":"w704","category":"education","de":"die Aussprache","en":"pronunciation"},{"id":"w705","category":"education","de":"die Übung","en":"exercise"},{"id":"w706","category":"education","de":"das Wörterbuch","en":"dictionary"},{"id":"w707","category":"education","de":"die Erklärung","en":"explanation"},{"id":"w708","category":"education","de":"die Grammatik","en":"grammar"},{"id":"w709","category":"education","de":"die Note","en":"grade"},{"id":"w710","category":"education","de":"der Kurs","en":"course"}
+  {
+    "id": "509",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "exercise"
+      },
+      "de": {
+        "text": "die Übung",
+        "article": "die"
+      },
+      "it": {
+        "text": "esercizio"
+      }
+    }
+  },
+  {
+    "id": "510",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "dictionary"
+      },
+      "de": {
+        "text": "das Wörterbuch",
+        "article": "das"
+      },
+      "it": {
+        "text": "dizionario"
+      }
+    }
+  },
+  {
+    "id": "511",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "explanation"
+      },
+      "de": {
+        "text": "die Erklärung",
+        "article": "die"
+      },
+      "it": {
+        "text": "spiegazione"
+      }
+    }
+  },
+  {
+    "id": "512",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "grammar"
+      },
+      "de": {
+        "text": "die Grammatik",
+        "article": "die"
+      },
+      "it": {
+        "text": "grammatica"
+      }
+    }
+  },
+  {
+    "id": "513",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "grade"
+      },
+      "de": {
+        "text": "die Note",
+        "article": "die"
+      },
+      "it": {
+        "text": "il voto"
+      }
+    }
+  },
+  {
+    "id": "514",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "course"
+      },
+      "de": {
+        "text": "der Kurs",
+        "article": "der"
+      },
+      "it": {
+        "text": "corso"
+      }
+    }
+  }
 ];

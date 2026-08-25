@@ -1,171 +1,542 @@
 const vocabularyNature = [
   {
-    "id": "w146",
-    "category": "nature",
-    "de": "die Sonne",
-    "en": "sun"
+    "id": "366",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "sun"
+      },
+      "de": {
+        "text": "die Sonne",
+        "article": "die"
+      },
+      "it": {
+        "text": "dom"
+      }
+    }
   },
   {
-    "id": "w147",
-    "category": "nature",
-    "de": "der Regen",
-    "en": "rain"
+    "id": "367",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "rain"
+      },
+      "de": {
+        "text": "der Regen",
+        "article": "der"
+      },
+      "it": {
+        "text": "pioggia"
+      }
+    }
   },
   {
-    "id": "w148",
-    "category": "nature",
-    "de": "der Schnee",
-    "en": "snow"
+    "id": "368",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "snow"
+      },
+      "de": {
+        "text": "der Schnee",
+        "article": "der"
+      },
+      "it": {
+        "text": "bamba"
+      }
+    }
   },
   {
-    "id": "w149",
-    "category": "nature",
-    "de": "der Wind",
-    "en": "wind"
+    "id": "369",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "wind"
+      },
+      "de": {
+        "text": "der Wind",
+        "article": "der"
+      },
+      "it": {
+        "text": "aria"
+      }
+    }
   },
   {
-    "id": "w150",
-    "category": "nature",
-    "de": "das Wetter",
-    "en": "weather"
+    "id": "370",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "weather"
+      },
+      "de": {
+        "text": "das Wetter",
+        "article": "das"
+      },
+      "it": {
+        "text": "CONDIZIONI METEOROLOGICHE"
+      }
+    }
   },
   {
-    "id": "w151",
-    "category": "nature",
-    "de": "der Himmel",
-    "en": "sky"
+    "id": "371",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "sky"
+      },
+      "de": {
+        "text": "der Himmel",
+        "article": "der"
+      },
+      "it": {
+        "text": "il cielo"
+      }
+    }
   },
   {
-    "id": "w152",
-    "category": "nature",
-    "de": "der Baum",
-    "en": "tree"
+    "id": "372",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "tree"
+      },
+      "de": {
+        "text": "der Baum",
+        "article": "der"
+      },
+      "it": {
+        "text": "albero"
+      }
+    }
   },
   {
-    "id": "w153",
-    "category": "nature",
-    "de": "die Blume",
-    "en": "flower"
+    "id": "373",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "flower"
+      },
+      "de": {
+        "text": "die Blume",
+        "article": "die"
+      },
+      "it": {
+        "text": "fiore"
+      }
+    }
   },
   {
-    "id": "w154",
-    "category": "nature",
-    "de": "der Berg",
-    "en": "mountain"
+    "id": "374",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "mountain"
+      },
+      "de": {
+        "text": "der Berg",
+        "article": "der"
+      },
+      "it": {
+        "text": "in montagna"
+      }
+    }
   },
   {
-    "id": "w155",
-    "category": "nature",
-    "de": "der See",
-    "en": "lake"
+    "id": "375",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "lake"
+      },
+      "de": {
+        "text": "der See",
+        "article": "der"
+      },
+      "it": {
+        "text": "il lago"
+      }
+    }
   },
   {
-    "id": "w156",
-    "category": "nature",
-    "de": "der Park",
-    "en": "park"
+    "id": "376",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "park"
+      },
+      "de": {
+        "text": "der Park",
+        "article": "der"
+      },
+      "it": {
+        "text": "parco"
+      }
+    }
   },
   {
-    "id": "w157",
-    "category": "nature",
-    "de": "der Strand",
-    "en": "beach"
+    "id": "377",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "beach"
+      },
+      "de": {
+        "text": "der Strand",
+        "article": "der"
+      },
+      "it": {
+        "text": "spiaggia"
+      }
+    }
   },
   {
-    "id": "w158",
-    "category": "nature",
-    "de": "warm",
-    "en": "warm"
+    "id": "378",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "warm"
+      },
+      "de": {
+        "text": "warm"
+      },
+      "it": {
+        "text": "Caldo"
+      }
+    }
   },
   {
-    "id": "w159",
-    "category": "nature",
-    "de": "kalt",
-    "en": "cold"
+    "id": "379",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "cold"
+      },
+      "de": {
+        "text": "kalt"
+      },
+      "it": {
+        "text": "freddo"
+      }
+    }
   },
   {
-    "id": "w160",
-    "category": "nature",
-    "de": "regnen",
-    "en": "to rain"
+    "id": "380",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "forest"
+      },
+      "de": {
+        "text": "der Wald",
+        "article": "der"
+      },
+      "it": {
+        "text": "foresta"
+      }
+    }
   },
   {
-    "id": "w161",
-    "category": "nature",
-    "de": "scheinen",
-    "en": "to shine"
+    "id": "381",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "river"
+      },
+      "de": {
+        "text": "der Fluss",
+        "article": "der"
+      },
+      "it": {
+        "text": "il fiume"
+      }
+    }
   },
   {
-    "id": "w314",
-    "category": "nature",
-    "de": "der Wald",
-    "en": "forest"
+    "id": "382",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "island"
+      },
+      "de": {
+        "text": "die Insel",
+        "article": "die"
+      },
+      "it": {
+        "text": "L'ISOLA"
+      }
+    }
   },
   {
-    "id": "w315",
-    "category": "nature",
-    "de": "der Fluss",
-    "en": "river"
+    "id": "383",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "sea"
+      },
+      "de": {
+        "text": "das Meer",
+        "article": "das"
+      },
+      "it": {
+        "text": "mare"
+      }
+    }
   },
   {
-    "id": "w316",
-    "category": "nature",
-    "de": "die Insel",
-    "en": "island"
+    "id": "384",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "cloud"
+      },
+      "de": {
+        "text": "die Wolke",
+        "article": "die"
+      },
+      "it": {
+        "text": "la nuvola"
+      }
+    }
   },
   {
-    "id": "w317",
-    "category": "nature",
-    "de": "das Meer",
-    "en": "sea"
+    "id": "385",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "thunderstorm"
+      },
+      "de": {
+        "text": "das Gewitter",
+        "article": "das"
+      },
+      "it": {
+        "text": "temporale"
+      }
+    }
   },
   {
-    "id": "w318",
-    "category": "nature",
-    "de": "die Wolke",
-    "en": "cloud"
+    "id": "386",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "spring"
+      },
+      "de": {
+        "text": "der Frühling",
+        "article": "der"
+      },
+      "it": {
+        "text": "molla"
+      }
+    }
   },
   {
-    "id": "w319",
-    "category": "nature",
-    "de": "das Gewitter",
-    "en": "thunderstorm"
+    "id": "387",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "summer"
+      },
+      "de": {
+        "text": "der Sommer",
+        "article": "der"
+      },
+      "it": {
+        "text": "estiva"
+      }
+    }
   },
   {
-    "id": "w320",
-    "category": "nature",
-    "de": "der Frühling",
-    "en": "spring"
+    "id": "388",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "autumn"
+      },
+      "de": {
+        "text": "der Herbst",
+        "article": "der"
+      },
+      "it": {
+        "text": "autunno"
+      }
+    }
   },
   {
-    "id": "w321",
-    "category": "nature",
-    "de": "der Sommer",
-    "en": "summer"
+    "id": "389",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "winter"
+      },
+      "de": {
+        "text": "der Winter",
+        "article": "der"
+      },
+      "it": {
+        "text": "inverno"
+      }
+    }
   },
   {
-    "id": "w322",
-    "category": "nature",
-    "de": "der Herbst",
-    "en": "autumn"
+    "id": "390",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "dry"
+      },
+      "de": {
+        "text": "trocken"
+      },
+      "it": {
+        "text": "Seco"
+      }
+    }
   },
   {
-    "id": "w323",
-    "category": "nature",
-    "de": "der Winter",
-    "en": "winter"
+    "id": "391",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "wet"
+      },
+      "de": {
+        "text": "nass"
+      },
+      "it": {
+        "text": "umidificare"
+      }
+    }
   },
   {
-    "id": "w324",
-    "category": "nature",
-    "de": "trocken",
-    "en": "dry"
+    "id": "392",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "forest"
+      },
+      "de": {
+        "text": "der Wald",
+        "article": "der"
+      },
+      "it": {
+        "text": "foresta"
+      }
+    }
   },
   {
-    "id": "w325",
-    "category": "nature",
-    "de": "nass",
-    "en": "wet"
+    "id": "393",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "lake"
+      },
+      "de": {
+        "text": "der See",
+        "article": "der"
+      },
+      "it": {
+        "text": "il lago"
+      }
+    }
   },
-  {"id":"w671","category":"nature","de":"der Wald","en":"forest"},{"id":"w672","category":"nature","de":"der See","en":"lake"},{"id":"w673","category":"nature","de":"der Himmel","en":"sky"},{"id":"w674","category":"nature","de":"der Wind","en":"wind"},{"id":"w675","category":"nature","de":"das Gewitter","en":"thunderstorm"},{"id":"w676","category":"nature","de":"die Wolke","en":"cloud"},{"id":"w677","category":"nature","de":"der Strand","en":"beach"},{"id":"w678","category":"nature","de":"die Landschaft","en":"landscape"}
+  {
+    "id": "394",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "sky"
+      },
+      "de": {
+        "text": "der Himmel",
+        "article": "der"
+      },
+      "it": {
+        "text": "il cielo"
+      }
+    }
+  },
+  {
+    "id": "395",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "wind"
+      },
+      "de": {
+        "text": "der Wind",
+        "article": "der"
+      },
+      "it": {
+        "text": "aria"
+      }
+    }
+  },
+  {
+    "id": "396",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "thunderstorm"
+      },
+      "de": {
+        "text": "das Gewitter",
+        "article": "das"
+      },
+      "it": {
+        "text": "temporale"
+      }
+    }
+  },
+  {
+    "id": "397",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "cloud"
+      },
+      "de": {
+        "text": "die Wolke",
+        "article": "die"
+      },
+      "it": {
+        "text": "la nuvola"
+      }
+    }
+  },
+  {
+    "id": "398",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "beach"
+      },
+      "de": {
+        "text": "der Strand",
+        "article": "der"
+      },
+      "it": {
+        "text": "spiaggia"
+      }
+    }
+  },
+  {
+    "id": "399",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "landscape"
+      },
+      "de": {
+        "text": "die Landschaft",
+        "article": "die"
+      },
+      "it": {
+        "text": "paesaggio"
+      }
+    }
+  }
 ];

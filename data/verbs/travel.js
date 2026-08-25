@@ -1,16 +1,34 @@
 const verbTravel = [
   {
-    "id": "w287",
-    "category": "verbs",
-    "de": "verpassen",
-    "en": "to miss",
+    "id": "646",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to miss"
+      },
+      "de": {
+        "text": "verpassen"
+      },
+      "it": {
+        "text": "mancare"
+      }
+    },
     "verbCategory": "travel"
   },
   {
-    "id": "w289",
-    "category": "verbs",
-    "de": "buchen",
-    "en": "to book",
+    "id": "647",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to book"
+      },
+      "de": {
+        "text": "buchen"
+      },
+      "it": {
+        "text": "Al libro"
+      }
+    },
     "verbCategory": "travel"
   }
 ];

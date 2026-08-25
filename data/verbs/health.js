@@ -1,30 +1,66 @@
 const verbHealth = [
   {
-    "id": "w129",
-    "category": "verbs",
-    "de": "weh tun",
-    "en": "to hurt",
+    "id": "648",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to hurt"
+      },
+      "de": {
+        "text": "weh tun"
+      },
+      "it": {
+        "text": "ferire"
+      }
+    },
     "verbCategory": "health"
   },
   {
-    "id": "w130",
-    "category": "verbs",
-    "de": "sich fühlen",
-    "en": "to feel",
+    "id": "649",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to feel"
+      },
+      "de": {
+        "text": "sich fühlen"
+      },
+      "it": {
+        "text": "Sentire la terra"
+      }
+    },
     "verbCategory": "health"
   },
   {
-    "id": "w300",
-    "category": "verbs",
-    "de": "atmen",
-    "en": "to breathe",
+    "id": "650",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to breathe"
+      },
+      "de": {
+        "text": "atmen"
+      },
+      "it": {
+        "text": "Di respirare"
+      }
+    },
     "verbCategory": "health"
   },
   {
-    "id": "w301",
-    "category": "verbs",
-    "de": "sich ausruhen",
-    "en": "to rest",
+    "id": "651",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to rest"
+      },
+      "de": {
+        "text": "sich ausruhen"
+      },
+      "it": {
+        "text": "Per Riposo"
+      }
+    },
     "verbCategory": "health"
   }
 ];

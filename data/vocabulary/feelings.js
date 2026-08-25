@@ -1,171 +1,451 @@
 const vocabularyFeelings = [
   {
-    "id": "w178",
-    "category": "feelings",
-    "de": "glücklich",
-    "en": "happy"
+    "id": "429",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "happy"
+      },
+      "de": {
+        "text": "glücklich"
+      },
+      "it": {
+        "text": "Soddisfatto"
+      }
+    }
   },
   {
-    "id": "w179",
-    "category": "feelings",
-    "de": "traurig",
-    "en": "sad"
+    "id": "430",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "sad"
+      },
+      "de": {
+        "text": "traurig"
+      },
+      "it": {
+        "text": "Triste"
+      }
+    }
   },
   {
-    "id": "w180",
-    "category": "feelings",
-    "de": "wütend",
-    "en": "angry"
+    "id": "431",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "angry"
+      },
+      "de": {
+        "text": "wütend"
+      },
+      "it": {
+        "text": "Arrabbiato"
+      }
+    }
   },
   {
-    "id": "w181",
-    "category": "feelings",
-    "de": "nervös",
-    "en": "nervous"
+    "id": "432",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "nervous"
+      },
+      "de": {
+        "text": "nervös"
+      },
+      "it": {
+        "text": "del tessuto"
+      }
+    }
   },
   {
-    "id": "w182",
-    "category": "feelings",
-    "de": "ruhig",
-    "en": "calm"
+    "id": "433",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "calm"
+      },
+      "de": {
+        "text": "ruhig"
+      },
+      "it": {
+        "text": "calma"
+      }
+    }
   },
   {
-    "id": "w183",
-    "category": "feelings",
-    "de": "aufgeregt",
-    "en": "excited"
+    "id": "434",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "excited"
+      },
+      "de": {
+        "text": "aufgeregt"
+      },
+      "it": {
+        "text": "emozionato"
+      }
+    }
   },
   {
-    "id": "w184",
-    "category": "feelings",
-    "de": "stolz",
-    "en": "proud"
+    "id": "435",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "proud"
+      },
+      "de": {
+        "text": "stolz"
+      },
+      "it": {
+        "text": "fiero"
+      }
+    }
   },
   {
-    "id": "w185",
-    "category": "feelings",
-    "de": "sicher",
-    "en": "sure / safe"
+    "id": "436",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "sure / safe"
+      },
+      "de": {
+        "text": "sicher"
+      },
+      "it": {
+        "text": "sicuro / sicuro"
+      }
+    }
   },
   {
-    "id": "w186",
-    "category": "feelings",
-    "de": "unsicher",
-    "en": "uncertain"
+    "id": "437",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "uncertain"
+      },
+      "de": {
+        "text": "unsicher"
+      },
+      "it": {
+        "text": "incerto"
+      }
+    }
   },
   {
-    "id": "w187",
-    "category": "feelings",
-    "de": "die Angst",
-    "en": "fear"
+    "id": "438",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "fear"
+      },
+      "de": {
+        "text": "die Angst",
+        "article": "die"
+      },
+      "it": {
+        "text": "paura"
+      }
+    }
   },
   {
-    "id": "w188",
-    "category": "feelings",
-    "de": "die Freude",
-    "en": "joy"
+    "id": "439",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "joy"
+      },
+      "de": {
+        "text": "die Freude",
+        "article": "die"
+      },
+      "it": {
+        "text": "gioia"
+      }
+    }
   },
   {
-    "id": "w189",
-    "category": "feelings",
-    "de": "die Liebe",
-    "en": "love"
+    "id": "440",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "love"
+      },
+      "de": {
+        "text": "die Liebe",
+        "article": "die"
+      },
+      "it": {
+        "text": "amore"
+      }
+    }
   },
   {
-    "id": "w190",
-    "category": "feelings",
-    "de": "hoffen",
-    "en": "to hope"
+    "id": "441",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "satisfied"
+      },
+      "de": {
+        "text": "zufrieden"
+      },
+      "it": {
+        "text": "desiderio soddisfatto"
+      }
+    }
   },
   {
-    "id": "w191",
-    "category": "feelings",
-    "de": "glauben",
-    "en": "to believe"
+    "id": "442",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "disappointed"
+      },
+      "de": {
+        "text": "enttäuscht"
+      },
+      "it": {
+        "text": "insoddisfatto"
+      }
+    }
   },
   {
-    "id": "w192",
-    "category": "feelings",
-    "de": "lachen",
-    "en": "to laugh"
+    "id": "443",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "surprised"
+      },
+      "de": {
+        "text": "überrascht"
+      },
+      "it": {
+        "text": "sorpreso"
+      }
+    }
   },
   {
-    "id": "w193",
-    "category": "feelings",
-    "de": "weinen",
-    "en": "to cry"
+    "id": "444",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "bored"
+      },
+      "de": {
+        "text": "gelangweilt"
+      },
+      "it": {
+        "text": "boried"
+      }
+    }
   },
   {
-    "id": "w338",
-    "category": "feelings",
-    "de": "zufrieden",
-    "en": "satisfied"
+    "id": "445",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "in love"
+      },
+      "de": {
+        "text": "verliebt"
+      },
+      "it": {
+        "text": "innamorato"
+      }
+    }
   },
   {
-    "id": "w339",
-    "category": "feelings",
-    "de": "enttäuscht",
-    "en": "disappointed"
+    "id": "446",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "worried"
+      },
+      "de": {
+        "text": "besorgt"
+      },
+      "it": {
+        "text": "Preoccupato"
+      }
+    }
   },
   {
-    "id": "w340",
-    "category": "feelings",
-    "de": "überrascht",
-    "en": "surprised"
+    "id": "447",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "hope"
+      },
+      "de": {
+        "text": "die Hoffnung",
+        "article": "die"
+      },
+      "it": {
+        "text": "la speranza"
+      }
+    }
   },
   {
-    "id": "w341",
-    "category": "feelings",
-    "de": "gelangweilt",
-    "en": "bored"
+    "id": "448",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "wish"
+      },
+      "de": {
+        "text": "der Wunsch",
+        "article": "der"
+      },
+      "it": {
+        "text": "desiderio"
+      }
+    }
   },
   {
-    "id": "w342",
-    "category": "feelings",
-    "de": "verliebt",
-    "en": "in love"
+    "id": "449",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "fun"
+      },
+      "de": {
+        "text": "der Spaß",
+        "article": "der"
+      },
+      "it": {
+        "text": "divertente"
+      }
+    }
   },
   {
-    "id": "w343",
-    "category": "feelings",
-    "de": "besorgt",
-    "en": "worried"
+    "id": "450",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "worry"
+      },
+      "de": {
+        "text": "die Sorge",
+        "article": "die"
+      },
+      "it": {
+        "text": "Preoccupato"
+      }
+    }
   },
   {
-    "id": "w344",
-    "category": "feelings",
-    "de": "die Hoffnung",
-    "en": "hope"
+    "id": "451",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "surprise"
+      },
+      "de": {
+        "text": "die Überraschung",
+        "article": "die"
+      },
+      "it": {
+        "text": "sorpresa"
+      }
+    }
   },
   {
-    "id": "w345",
-    "category": "feelings",
-    "de": "der Wunsch",
-    "en": "wish"
+    "id": "452",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "disappointment"
+      },
+      "de": {
+        "text": "die Enttäuschung",
+        "article": "die"
+      },
+      "it": {
+        "text": "Delusione"
+      }
+    }
   },
   {
-    "id": "w346",
-    "category": "feelings",
-    "de": "der Spaß",
-    "en": "fun"
+    "id": "453",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "trust"
+      },
+      "de": {
+        "text": "das Vertrauen",
+        "article": "das"
+      },
+      "it": {
+        "text": "di cui ci fidiamo"
+      }
+    }
   },
   {
-    "id": "w347",
-    "category": "feelings",
-    "de": "sich freuen",
-    "en": "to look forward to / be happy"
+    "id": "454",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "hope"
+      },
+      "de": {
+        "text": "die Hoffnung",
+        "article": "die"
+      },
+      "it": {
+        "text": "la speranza"
+      }
+    }
   },
   {
-    "id": "w348",
-    "category": "feelings",
-    "de": "vermissen",
-    "en": "to miss someone"
+    "id": "455",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "joy"
+      },
+      "de": {
+        "text": "die Freude",
+        "article": "die"
+      },
+      "it": {
+        "text": "gioia"
+      }
+    }
   },
   {
-    "id": "w349",
-    "category": "feelings",
-    "de": "vertrauen",
-    "en": "to trust"
+    "id": "456",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "fear"
+      },
+      "de": {
+        "text": "die Angst",
+        "article": "die"
+      },
+      "it": {
+        "text": "paura"
+      }
+    }
   },
-  {"id":"w687","category":"feelings","de":"die Sorge","en":"worry"},{"id":"w688","category":"feelings","de":"die Überraschung","en":"surprise"},{"id":"w689","category":"feelings","de":"die Enttäuschung","en":"disappointment"},{"id":"w690","category":"feelings","de":"das Vertrauen","en":"trust"},{"id":"w691","category":"feelings","de":"die Hoffnung","en":"hope"},{"id":"w692","category":"feelings","de":"die Freude","en":"joy"},{"id":"w693","category":"feelings","de":"die Angst","en":"fear"},{"id":"w694","category":"feelings","de":"die Geduld","en":"patience"}
+  {
+    "id": "457",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "patience"
+      },
+      "de": {
+        "text": "die Geduld",
+        "article": "die"
+      },
+      "it": {
+        "text": "pazienza"
+      }
+    }
+  }
 ];

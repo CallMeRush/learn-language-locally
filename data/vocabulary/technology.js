@@ -1,111 +1,338 @@
 const vocabularyTechnology = [
   {
-    "id": "w380",
-    "category": "technology",
-    "de": "das Handy",
-    "en": "mobile phone"
+    "id": "515",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "mobile phone"
+      },
+      "de": {
+        "text": "das Handy",
+        "article": "das"
+      },
+      "it": {
+        "text": "telefonino"
+      }
+    }
   },
   {
-    "id": "w381",
-    "category": "technology",
-    "de": "der Bildschirm",
-    "en": "screen"
+    "id": "516",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "screen"
+      },
+      "de": {
+        "text": "der Bildschirm",
+        "article": "der"
+      },
+      "it": {
+        "text": "schermata"
+      }
+    }
   },
   {
-    "id": "w382",
-    "category": "technology",
-    "de": "die Tastatur",
-    "en": "keyboard"
+    "id": "517",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "keyboard"
+      },
+      "de": {
+        "text": "die Tastatur",
+        "article": "die"
+      },
+      "it": {
+        "text": "tastiera"
+      }
+    }
   },
   {
-    "id": "w383",
-    "category": "technology",
-    "de": "die Maus",
-    "en": "mouse"
+    "id": "518",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "mouse"
+      },
+      "de": {
+        "text": "die Maus",
+        "article": "die"
+      },
+      "it": {
+        "text": "topo"
+      }
+    }
   },
   {
-    "id": "w384",
-    "category": "technology",
-    "de": "das Passwort",
-    "en": "password"
+    "id": "519",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "password"
+      },
+      "de": {
+        "text": "das Passwort",
+        "article": "das"
+      },
+      "it": {
+        "text": "password"
+      }
+    }
   },
   {
-    "id": "w385",
-    "category": "technology",
-    "de": "die Datei",
-    "en": "file"
+    "id": "520",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "file"
+      },
+      "de": {
+        "text": "die Datei",
+        "article": "die"
+      },
+      "it": {
+        "text": "file"
+      }
+    }
   },
   {
-    "id": "w386",
-    "category": "technology",
-    "de": "der Link",
-    "en": "link"
+    "id": "521",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "link"
+      },
+      "de": {
+        "text": "der Link",
+        "article": "der"
+      },
+      "it": {
+        "text": "link"
+      }
+    }
   },
   {
-    "id": "w387",
-    "category": "technology",
-    "de": "die Webseite",
-    "en": "website"
+    "id": "522",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "website"
+      },
+      "de": {
+        "text": "die Webseite",
+        "article": "die"
+      },
+      "it": {
+        "text": "web"
+      }
+    }
   },
   {
-    "id": "w388",
-    "category": "technology",
-    "de": "das Internet",
-    "en": "internet"
+    "id": "523",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "internet"
+      },
+      "de": {
+        "text": "das Internet",
+        "article": "das"
+      },
+      "it": {
+        "text": "accesso ad internet"
+      }
+    }
   },
   {
-    "id": "w389",
-    "category": "technology",
-    "de": "die Nachricht",
-    "en": "message"
+    "id": "524",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "message"
+      },
+      "de": {
+        "text": "die Nachricht",
+        "article": "die"
+      },
+      "it": {
+        "text": "messaggio"
+      }
+    }
   },
   {
-    "id": "w390",
-    "category": "technology",
-    "de": "der Akku",
-    "en": "battery"
+    "id": "525",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "battery"
+      },
+      "de": {
+        "text": "der Akku",
+        "article": "der"
+      },
+      "it": {
+        "text": "batteria"
+      }
+    }
   },
   {
-    "id": "w391",
-    "category": "technology",
-    "de": "das Ladegerät",
-    "en": "charger"
+    "id": "526",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "charger"
+      },
+      "de": {
+        "text": "das Ladegerät",
+        "article": "das"
+      },
+      "it": {
+        "text": "caricabatterie"
+      }
+    }
   },
   {
-    "id": "w392",
-    "category": "technology",
-    "de": "die App",
-    "en": "app"
+    "id": "527",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "app"
+      },
+      "de": {
+        "text": "die App",
+        "article": "die"
+      },
+      "it": {
+        "text": "app"
+      }
+    }
   },
   {
-    "id": "w393",
-    "category": "technology",
-    "de": "herunterladen",
-    "en": "to download"
+    "id": "528",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "battery"
+      },
+      "de": {
+        "text": "der Akku",
+        "article": "der"
+      },
+      "it": {
+        "text": "batteria"
+      }
+    }
   },
   {
-    "id": "w394",
-    "category": "technology",
-    "de": "hochladen",
-    "en": "to upload"
+    "id": "529",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "file"
+      },
+      "de": {
+        "text": "die Datei",
+        "article": "die"
+      },
+      "it": {
+        "text": "file"
+      }
+    }
   },
   {
-    "id": "w395",
-    "category": "technology",
-    "de": "speichern",
-    "en": "to save"
+    "id": "530",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "password"
+      },
+      "de": {
+        "text": "das Passwort",
+        "article": "das"
+      },
+      "it": {
+        "text": "password"
+      }
+    }
   },
   {
-    "id": "w396",
-    "category": "technology",
-    "de": "klicken",
-    "en": "to click"
+    "id": "531",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "website"
+      },
+      "de": {
+        "text": "die Webseite",
+        "article": "die"
+      },
+      "it": {
+        "text": "web"
+      }
+    }
   },
   {
-    "id": "w397",
-    "category": "technology",
-    "de": "funktionieren",
-    "en": "to work / function"
+    "id": "532",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "link"
+      },
+      "de": {
+        "text": "der Link",
+        "article": "der"
+      },
+      "it": {
+        "text": "link"
+      }
+    }
   },
-  {"id":"w711","category":"technology","de":"der Akku","en":"battery"},{"id":"w712","category":"technology","de":"die Datei","en":"file"},{"id":"w713","category":"technology","de":"das Passwort","en":"password"},{"id":"w714","category":"technology","de":"die Webseite","en":"website"},{"id":"w715","category":"technology","de":"der Link","en":"link"},{"id":"w716","category":"technology","de":"das Dokument","en":"document"},{"id":"w717","category":"technology","de":"die Nachricht","en":"message"},{"id":"w718","category":"technology","de":"die Tastatur","en":"keyboard"}
+  {
+    "id": "533",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "document"
+      },
+      "de": {
+        "text": "das Dokument",
+        "article": "das"
+      },
+      "it": {
+        "text": "documento"
+      }
+    }
+  },
+  {
+    "id": "534",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "message"
+      },
+      "de": {
+        "text": "die Nachricht",
+        "article": "die"
+      },
+      "it": {
+        "text": "messaggio"
+      }
+    }
+  },
+  {
+    "id": "535",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "keyboard"
+      },
+      "de": {
+        "text": "die Tastatur",
+        "article": "die"
+      },
+      "it": {
+        "text": "tastiera"
+      }
+    }
+  }
 ];

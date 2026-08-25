@@ -1,171 +1,524 @@
 const vocabularyClothing = [
   {
-    "id": "w194",
-    "category": "clothing",
-    "de": "das Hemd",
-    "en": "shirt"
+    "id": "458",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "shirt"
+      },
+      "de": {
+        "text": "das Hemd",
+        "article": "das"
+      },
+      "it": {
+        "text": "camicia"
+      }
+    }
   },
   {
-    "id": "w195",
-    "category": "clothing",
-    "de": "die Hose",
-    "en": "trousers"
+    "id": "459",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "trousers"
+      },
+      "de": {
+        "text": "die Hose",
+        "article": "die"
+      },
+      "it": {
+        "text": "pantaloni"
+      }
+    }
   },
   {
-    "id": "w196",
-    "category": "clothing",
-    "de": "das Kleid",
-    "en": "dress"
+    "id": "460",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "dress"
+      },
+      "de": {
+        "text": "das Kleid",
+        "article": "das"
+      },
+      "it": {
+        "text": "vesti"
+      }
+    }
   },
   {
-    "id": "w197",
-    "category": "clothing",
-    "de": "der Schuh",
-    "en": "shoe"
+    "id": "461",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "shoe"
+      },
+      "de": {
+        "text": "der Schuh",
+        "article": "der"
+      },
+      "it": {
+        "text": "scarpa"
+      }
+    }
   },
   {
-    "id": "w198",
-    "category": "clothing",
-    "de": "die Jacke",
-    "en": "jacket"
+    "id": "462",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "jacket"
+      },
+      "de": {
+        "text": "die Jacke",
+        "article": "die"
+      },
+      "it": {
+        "text": "ear jacket"
+      }
+    }
   },
   {
-    "id": "w199",
-    "category": "clothing",
-    "de": "der Mantel",
-    "en": "coat"
+    "id": "463",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "coat"
+      },
+      "de": {
+        "text": "der Mantel",
+        "article": "der"
+      },
+      "it": {
+        "text": "cappotto"
+      }
+    }
   },
   {
-    "id": "w200",
-    "category": "clothing",
-    "de": "die Tasche",
-    "en": "bag"
+    "id": "464",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "bag"
+      },
+      "de": {
+        "text": "die Tasche",
+        "article": "die"
+      },
+      "it": {
+        "text": "busta"
+      }
+    }
   },
   {
-    "id": "w201",
-    "category": "clothing",
-    "de": "die Brille",
-    "en": "glasses"
+    "id": "465",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "glasses"
+      },
+      "de": {
+        "text": "die Brille",
+        "article": "die"
+      },
+      "it": {
+        "text": "vetri"
+      }
+    }
   },
   {
-    "id": "w202",
-    "category": "clothing",
-    "de": "die Mütze",
-    "en": "hat / cap"
+    "id": "466",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "hat / cap"
+      },
+      "de": {
+        "text": "die Mütze",
+        "article": "die"
+      },
+      "it": {
+        "text": "cappello berretto"
+      }
+    }
   },
   {
-    "id": "w203",
-    "category": "clothing",
-    "de": "der Gürtel",
-    "en": "belt"
+    "id": "467",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "belt"
+      },
+      "de": {
+        "text": "der Gürtel",
+        "article": "der"
+      },
+      "it": {
+        "text": "cintura"
+      }
+    }
   },
   {
-    "id": "w204",
-    "category": "clothing",
-    "de": "tragen",
-    "en": "to wear / carry"
+    "id": "468",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "clean"
+      },
+      "de": {
+        "text": "sauber"
+      },
+      "it": {
+        "text": "pulito"
+      }
+    }
   },
   {
-    "id": "w205",
-    "category": "clothing",
-    "de": "anziehen",
-    "en": "to put on"
+    "id": "469",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "dirty"
+      },
+      "de": {
+        "text": "schmutzig"
+      },
+      "it": {
+        "text": "sporco"
+      }
+    }
   },
   {
-    "id": "w206",
-    "category": "clothing",
-    "de": "passen",
-    "en": "to fit / suit"
+    "id": "470",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "comfortable"
+      },
+      "de": {
+        "text": "bequem"
+      },
+      "it": {
+        "text": "agiato"
+      }
+    }
   },
   {
-    "id": "w207",
-    "category": "clothing",
-    "de": "sauber",
-    "en": "clean"
+    "id": "471",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "sock"
+      },
+      "de": {
+        "text": "die Socke",
+        "article": "die"
+      },
+      "it": {
+        "text": "calzino"
+      }
+    }
   },
   {
-    "id": "w208",
-    "category": "clothing",
-    "de": "schmutzig",
-    "en": "dirty"
+    "id": "472",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "glove"
+      },
+      "de": {
+        "text": "der Handschuh",
+        "article": "der"
+      },
+      "it": {
+        "text": "guanto"
+      }
+    }
   },
   {
-    "id": "w209",
-    "category": "clothing",
-    "de": "bequem",
-    "en": "comfortable"
+    "id": "473",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "scarf"
+      },
+      "de": {
+        "text": "der Schal",
+        "article": "der"
+      },
+      "it": {
+        "text": "sciarpa"
+      }
+    }
   },
   {
-    "id": "w350",
-    "category": "clothing",
-    "de": "die Socke",
-    "en": "sock"
+    "id": "474",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "cap / beanie"
+      },
+      "de": {
+        "text": "die Mütze",
+        "article": "die"
+      },
+      "it": {
+        "text": "berretto / berretto"
+      }
+    }
   },
   {
-    "id": "w351",
-    "category": "clothing",
-    "de": "der Handschuh",
-    "en": "glove"
+    "id": "475",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "skirt"
+      },
+      "de": {
+        "text": "der Rock",
+        "article": "der"
+      },
+      "it": {
+        "text": "gonna"
+      }
+    }
   },
   {
-    "id": "w352",
-    "category": "clothing",
-    "de": "der Schal",
-    "en": "scarf"
+    "id": "476",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "underwear"
+      },
+      "de": {
+        "text": "die Unterwäsche",
+        "article": "die"
+      },
+      "it": {
+        "text": "intimo"
+      }
+    }
   },
   {
-    "id": "w353",
-    "category": "clothing",
-    "de": "die Mütze",
-    "en": "cap / beanie"
+    "id": "477",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "button"
+      },
+      "de": {
+        "text": "der Knopf",
+        "article": "der"
+      },
+      "it": {
+        "text": "Il pulsante CDDB"
+      }
+    }
   },
   {
-    "id": "w354",
-    "category": "clothing",
-    "de": "der Rock",
-    "en": "skirt"
+    "id": "478",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "zipper"
+      },
+      "de": {
+        "text": "der Reißverschluss",
+        "article": "der"
+      },
+      "it": {
+        "text": "Cerniera"
+      }
+    }
   },
   {
-    "id": "w355",
-    "category": "clothing",
-    "de": "die Unterwäsche",
-    "en": "underwear"
+    "id": "479",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "uniform"
+      },
+      "de": {
+        "text": "die Uniform",
+        "article": "die"
+      },
+      "it": {
+        "text": "uniforme"
+      }
+    }
   },
   {
-    "id": "w356",
-    "category": "clothing",
-    "de": "der Knopf",
-    "en": "button"
+    "id": "480",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "wet"
+      },
+      "de": {
+        "text": "nass"
+      },
+      "it": {
+        "text": "umidificare"
+      }
+    }
   },
   {
-    "id": "w357",
-    "category": "clothing",
-    "de": "der Reißverschluss",
-    "en": "zipper"
+    "id": "481",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "elegant"
+      },
+      "de": {
+        "text": "elegant"
+      },
+      "it": {
+        "text": "elegante"
+      }
+    }
   },
   {
-    "id": "w358",
-    "category": "clothing",
-    "de": "die Uniform",
-    "en": "uniform"
+    "id": "482",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "modern"
+      },
+      "de": {
+        "text": "modern"
+      },
+      "it": {
+        "text": "moderno"
+      }
+    }
   },
   {
-    "id": "w359",
-    "category": "clothing",
-    "de": "nass",
-    "en": "wet"
+    "id": "483",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "sweater"
+      },
+      "de": {
+        "text": "der Pullover",
+        "article": "der"
+      },
+      "it": {
+        "text": "maglia"
+      }
+    }
   },
   {
-    "id": "w360",
-    "category": "clothing",
-    "de": "elegant",
-    "en": "elegant"
+    "id": "484",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "shirt"
+      },
+      "de": {
+        "text": "das Hemd",
+        "article": "das"
+      },
+      "it": {
+        "text": "camicia"
+      }
+    }
   },
   {
-    "id": "w361",
-    "category": "clothing",
-    "de": "modern",
-    "en": "modern"
+    "id": "485",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "cap / beanie"
+      },
+      "de": {
+        "text": "die Mütze",
+        "article": "die"
+      },
+      "it": {
+        "text": "berretto / berretto"
+      }
+    }
   },
-  {"id":"w695","category":"clothing","de":"der Pullover","en":"sweater"},{"id":"w696","category":"clothing","de":"das Hemd","en":"shirt"},{"id":"w697","category":"clothing","de":"die Mütze","en":"cap / beanie"},{"id":"w698","category":"clothing","de":"der Schal","en":"scarf"},{"id":"w699","category":"clothing","de":"der Handschuh","en":"glove"},{"id":"w700","category":"clothing","de":"der Gürtel","en":"belt"},{"id":"w701","category":"clothing","de":"die Tasche","en":"bag"},{"id":"w702","category":"clothing","de":"der Knopf","en":"button"}
+  {
+    "id": "486",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "scarf"
+      },
+      "de": {
+        "text": "der Schal",
+        "article": "der"
+      },
+      "it": {
+        "text": "sciarpa"
+      }
+    }
+  },
+  {
+    "id": "487",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "glove"
+      },
+      "de": {
+        "text": "der Handschuh",
+        "article": "der"
+      },
+      "it": {
+        "text": "guanto"
+      }
+    }
+  },
+  {
+    "id": "488",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "belt"
+      },
+      "de": {
+        "text": "der Gürtel",
+        "article": "der"
+      },
+      "it": {
+        "text": "cintura"
+      }
+    }
+  },
+  {
+    "id": "489",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "bag"
+      },
+      "de": {
+        "text": "die Tasche",
+        "article": "die"
+      },
+      "it": {
+        "text": "busta"
+      }
+    }
+  },
+  {
+    "id": "490",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "button"
+      },
+      "de": {
+        "text": "der Knopf",
+        "article": "der"
+      },
+      "it": {
+        "text": "Il pulsante CDDB"
+      }
+    }
+  }
 ];

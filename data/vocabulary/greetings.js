@@ -1,63 +1,257 @@
 const vocabularyGreetings = [
   {
-    "id": "w34",
-    "category": "greetings",
-    "de": "Hallo",
-    "en": "hello"
+    "id": "37",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "hello"
+      },
+      "de": {
+        "text": "Hallo"
+      },
+      "it": {
+        "text": "ciao"
+      }
+    }
   },
   {
-    "id": "w35",
-    "category": "greetings",
-    "de": "Guten Morgen",
-    "en": "good morning"
+    "id": "38",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "good morning"
+      },
+      "de": {
+        "text": "Guten Morgen"
+      },
+      "it": {
+        "text": "Buongiorno"
+      }
+    }
   },
   {
-    "id": "w36",
-    "category": "greetings",
-    "de": "Guten Abend",
-    "en": "good evening"
+    "id": "39",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "good evening"
+      },
+      "de": {
+        "text": "Guten Abend"
+      },
+      "it": {
+        "text": "buona serata"
+      }
+    }
   },
   {
-    "id": "w37",
-    "category": "greetings",
-    "de": "Tschüss",
-    "en": "bye"
+    "id": "40",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "bye"
+      },
+      "de": {
+        "text": "Tschüss"
+      },
+      "it": {
+        "text": "ciao ciao"
+      }
+    }
   },
   {
-    "id": "w38",
-    "category": "greetings",
-    "de": "Danke",
-    "en": "thank you"
+    "id": "41",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "thank you"
+      },
+      "de": {
+        "text": "Danke"
+      },
+      "it": {
+        "text": "grazie"
+      }
+    }
   },
   {
-    "id": "w39",
-    "category": "greetings",
-    "de": "Bitte",
-    "en": "please / you’re welcome"
+    "id": "42",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "please / you’re welcome"
+      },
+      "de": {
+        "text": "Bitte"
+      },
+      "it": {
+        "text": "prego /prego"
+      }
+    }
   },
   {
-    "id": "w40",
-    "category": "greetings",
-    "de": "Entschuldigung",
-    "en": "excuse me / sorry"
+    "id": "43",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "excuse me / sorry"
+      },
+      "de": {
+        "text": "Entschuldigung"
+      },
+      "it": {
+        "text": "scusa/mi scusi"
+      }
+    }
   },
   {
-    "id": "w41",
-    "category": "greetings",
-    "de": "Willkommen",
-    "en": "welcome"
+    "id": "44",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "welcome"
+      },
+      "de": {
+        "text": "Willkommen"
+      },
+      "it": {
+        "text": "BENVENUTO"
+      }
+    }
   },
   {
-    "id": "w42",
-    "category": "greetings",
-    "de": "Bis bald",
-    "en": "see you soon"
+    "id": "45",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "see you soon"
+      },
+      "de": {
+        "text": "Bis bald"
+      },
+      "it": {
+        "text": "a presto"
+      }
+    }
   },
   {
-    "id": "w43",
-    "category": "greetings",
-    "de": "Gute Nacht",
-    "en": "good night"
+    "id": "46",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "good night"
+      },
+      "de": {
+        "text": "Gute Nacht"
+      },
+      "it": {
+        "text": "buonanotte"
+      }
+    }
   },
-  {"id":"w608","category":"greetings","de":"Guten Morgen!","en":"Good morning!"},{"id":"w609","category":"greetings","de":"Guten Abend!","en":"Good evening!"},{"id":"w610","category":"greetings","de":"Herzlich willkommen!","en":"Welcome!"},{"id":"w611","category":"greetings","de":"Bis später!","en":"See you later!"},{"id":"w612","category":"greetings","de":"Viel Glück!","en":"Good luck!"},{"id":"w613","category":"greetings","de":"Gesundheit!","en":"Bless you!"},{"id":"w614","category":"greetings","de":"Gute Reise!","en":"Have a good trip!"}
+  {
+    "id": "47",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "Good morning!"
+      },
+      "de": {
+        "text": "Guten Morgen!"
+      },
+      "it": {
+        "text": "Buongiorno!"
+      }
+    }
+  },
+  {
+    "id": "48",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "Good evening!"
+      },
+      "de": {
+        "text": "Guten Abend!"
+      },
+      "it": {
+        "text": "buonasera"
+      }
+    }
+  },
+  {
+    "id": "49",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "Welcome!"
+      },
+      "de": {
+        "text": "Herzlich willkommen!"
+      },
+      "it": {
+        "text": "Benvenuto!"
+      }
+    }
+  },
+  {
+    "id": "50",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "See you later!"
+      },
+      "de": {
+        "text": "Bis später!"
+      },
+      "it": {
+        "text": "a dopo"
+      }
+    }
+  },
+  {
+    "id": "51",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "Good luck!"
+      },
+      "de": {
+        "text": "Viel Glück!"
+      },
+      "it": {
+        "text": "Buona fortuna!"
+      }
+    }
+  },
+  {
+    "id": "52",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "Bless you!"
+      },
+      "de": {
+        "text": "Gesundheit!"
+      },
+      "it": {
+        "text": "Salute!"
+      }
+    }
+  },
+  {
+    "id": "53",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "Have a good trip!"
+      },
+      "de": {
+        "text": "Gute Reise!"
+      },
+      "it": {
+        "text": "Buon viaggio!"
+      }
+    }
+  }
 ];

@@ -1,37 +1,82 @@
 const verbEnvironment = [
   {
-    "id": "w446",
-    "category": "verbs",
-    "de": "recyceln",
-    "en": "to recycle",
+    "id": "693",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "to recycle"
+      },
+      "de": {
+        "text": "recyceln"
+      },
+      "it": {
+        "text": "riciclare"
+      }
+    },
     "verbCategory": "environment"
   },
   {
-    "id": "w447",
-    "category": "verbs",
-    "de": "schützen",
-    "en": "to protect",
+    "id": "694",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "to protect"
+      },
+      "de": {
+        "text": "schützen"
+      },
+      "it": {
+        "text": "tutela dei trattamenti"
+      }
+    },
     "verbCategory": "environment"
   },
   {
-    "id": "w448",
-    "category": "verbs",
-    "de": "reduzieren",
-    "en": "to reduce",
+    "id": "695",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "to reduce"
+      },
+      "de": {
+        "text": "reduzieren"
+      },
+      "it": {
+        "text": "per diminuire"
+      }
+    },
     "verbCategory": "environment"
   },
   {
-    "id": "w450",
-    "category": "verbs",
-    "de": "trennen",
-    "en": "to separate",
+    "id": "696",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "to separate"
+      },
+      "de": {
+        "text": "trennen"
+      },
+      "it": {
+        "text": "separare"
+      }
+    },
     "verbCategory": "environment"
   },
   {
-    "id": "w451",
-    "category": "verbs",
-    "de": "heizen",
-    "en": "to heat",
+    "id": "697",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "to heat"
+      },
+      "de": {
+        "text": "heizen"
+      },
+      "it": {
+        "text": "AL CALORE"
+      }
+    },
     "verbCategory": "environment"
   }
 ];

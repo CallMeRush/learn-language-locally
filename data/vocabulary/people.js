@@ -1,135 +1,482 @@
 const vocabularyPeople = [
   {
-    "id": "w44",
-    "category": "people",
-    "de": "der Mann",
-    "en": "man"
+    "id": "54",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "man"
+      },
+      "de": {
+        "text": "der Mann",
+        "article": "der"
+      },
+      "it": {
+        "text": "l'uomo"
+      }
+    }
   },
   {
-    "id": "w45",
-    "category": "people",
-    "de": "die Frau",
-    "en": "woman"
+    "id": "55",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "woman"
+      },
+      "de": {
+        "text": "die Frau",
+        "article": "die"
+      },
+      "it": {
+        "text": "donna"
+      }
+    }
   },
   {
-    "id": "w46",
-    "category": "people",
-    "de": "das Kind",
-    "en": "child"
+    "id": "56",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "child"
+      },
+      "de": {
+        "text": "das Kind",
+        "article": "das"
+      },
+      "it": {
+        "text": "bambino"
+      }
+    }
   },
   {
-    "id": "w47",
-    "category": "people",
-    "de": "der Freund",
-    "en": "friend (male)"
+    "id": "57",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "friend (male)"
+      },
+      "de": {
+        "text": "der Freund",
+        "article": "der"
+      },
+      "it": {
+        "text": "amico (maschio)"
+      }
+    }
   },
   {
-    "id": "w48",
-    "category": "people",
-    "de": "die Freundin",
-    "en": "friend (female)"
+    "id": "58",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "friend (female)"
+      },
+      "de": {
+        "text": "die Freundin",
+        "article": "die"
+      },
+      "it": {
+        "text": "Very cool"
+      }
+    }
   },
   {
-    "id": "w49",
-    "category": "people",
-    "de": "die Familie",
-    "en": "family"
+    "id": "59",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "family"
+      },
+      "de": {
+        "text": "die Familie",
+        "article": "die"
+      },
+      "it": {
+        "text": "famiglia"
+      }
+    }
   },
   {
-    "id": "w50",
-    "category": "people",
-    "de": "der Name",
-    "en": "name"
+    "id": "60",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "name"
+      },
+      "de": {
+        "text": "der Name",
+        "article": "der"
+      },
+      "it": {
+        "text": "nome"
+      }
+    }
   },
   {
-    "id": "w51",
-    "category": "people",
-    "de": "die Person",
-    "en": "person"
+    "id": "61",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "person"
+      },
+      "de": {
+        "text": "die Person",
+        "article": "die"
+      },
+      "it": {
+        "text": "simile"
+      }
+    }
   },
   {
-    "id": "w52",
-    "category": "people",
-    "de": "der Mensch",
-    "en": "human / person"
+    "id": "62",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "human / person"
+      },
+      "de": {
+        "text": "der Mensch",
+        "article": "der"
+      },
+      "it": {
+        "text": "La persona umana"
+      }
+    }
   },
   {
-    "id": "w53",
-    "category": "people",
-    "de": "die Leute",
-    "en": "people"
+    "id": "63",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "people"
+      },
+      "de": {
+        "text": "die Leute",
+        "article": "die"
+      },
+      "it": {
+        "text": "persone"
+      }
+    }
   },
   {
-    "id": "w254",
-    "category": "people",
-    "de": "die Mutter",
-    "en": "mother"
+    "id": "64",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "mother"
+      },
+      "de": {
+        "text": "die Mutter",
+        "article": "die"
+      },
+      "it": {
+        "text": "madre"
+      }
+    }
   },
   {
-    "id": "w255",
-    "category": "people",
-    "de": "der Vater",
-    "en": "father"
+    "id": "65",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "father"
+      },
+      "de": {
+        "text": "der Vater",
+        "article": "der"
+      },
+      "it": {
+        "text": "padre"
+      }
+    }
   },
   {
-    "id": "w256",
-    "category": "people",
-    "de": "der Bruder",
-    "en": "brother"
+    "id": "66",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "brother"
+      },
+      "de": {
+        "text": "der Bruder",
+        "article": "der"
+      },
+      "it": {
+        "text": "fratello"
+      }
+    }
   },
   {
-    "id": "w257",
-    "category": "people",
-    "de": "die Schwester",
-    "en": "sister"
+    "id": "67",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "sister"
+      },
+      "de": {
+        "text": "die Schwester",
+        "article": "die"
+      },
+      "it": {
+        "text": "sorella"
+      }
+    }
   },
   {
-    "id": "w258",
-    "category": "people",
-    "de": "die Tochter",
-    "en": "daughter"
+    "id": "68",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "daughter"
+      },
+      "de": {
+        "text": "die Tochter",
+        "article": "die"
+      },
+      "it": {
+        "text": "figlia"
+      }
+    }
   },
   {
-    "id": "w259",
-    "category": "people",
-    "de": "der Sohn",
-    "en": "son"
+    "id": "69",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "son"
+      },
+      "de": {
+        "text": "der Sohn",
+        "article": "der"
+      },
+      "it": {
+        "text": "figlio"
+      }
+    }
   },
   {
-    "id": "w260",
-    "category": "people",
-    "de": "die Nachbarin",
-    "en": "female neighbor"
+    "id": "70",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "female neighbor"
+      },
+      "de": {
+        "text": "die Nachbarin",
+        "article": "die"
+      },
+      "it": {
+        "text": "vicina di casa donna"
+      }
+    }
   },
   {
-    "id": "w261",
-    "category": "people",
-    "de": "der Nachbar",
-    "en": "male neighbor"
+    "id": "71",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "male neighbor"
+      },
+      "de": {
+        "text": "der Nachbar",
+        "article": "der"
+      },
+      "it": {
+        "text": "vicino di casa maschio"
+      }
+    }
   },
   {
-    "id": "w262",
-    "category": "people",
-    "de": "das Paar",
-    "en": "couple"
+    "id": "72",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "couple"
+      },
+      "de": {
+        "text": "das Paar",
+        "article": "das"
+      },
+      "it": {
+        "text": "coppia"
+      }
+    }
   },
   {
-    "id": "w263",
-    "category": "people",
-    "de": "der Gast",
-    "en": "guest"
+    "id": "73",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "guest"
+      },
+      "de": {
+        "text": "der Gast",
+        "article": "der"
+      },
+      "it": {
+        "text": "ospite"
+      }
+    }
   },
   {
-    "id": "w264",
-    "category": "people",
-    "de": "der Kunde",
-    "en": "customer"
+    "id": "74",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "customer"
+      },
+      "de": {
+        "text": "der Kunde",
+        "article": "der"
+      },
+      "it": {
+        "text": "cliente"
+      }
+    }
   },
   {
-    "id": "w265",
-    "category": "people",
-    "de": "die Kundin",
-    "en": "female customer"
+    "id": "75",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "female customer"
+      },
+      "de": {
+        "text": "die Kundin",
+        "article": "die"
+      },
+      "it": {
+        "text": "cliente di sesso femminile"
+      }
+    }
   },
-  {"id":"w615","category":"people","de":"der Nachbar","en":"neighbor (male)"},{"id":"w616","category":"people","de":"die Nachbarin","en":"neighbor (female)"},{"id":"w617","category":"people","de":"der Kollege","en":"colleague (male)"},{"id":"w618","category":"people","de":"die Kollegin","en":"colleague (female)"},{"id":"w619","category":"people","de":"das Kind","en":"child"},{"id":"w620","category":"people","de":"der Erwachsene","en":"adult"},{"id":"w621","category":"people","de":"die Familie","en":"family"},{"id":"w622","category":"people","de":"der Gast","en":"guest"}
+  {
+    "id": "76",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "neighbor (male)"
+      },
+      "de": {
+        "text": "der Nachbar",
+        "article": "der"
+      },
+      "it": {
+        "text": "vicino (maschio)"
+      }
+    }
+  },
+  {
+    "id": "77",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "neighbor (female)"
+      },
+      "de": {
+        "text": "die Nachbarin",
+        "article": "die"
+      },
+      "it": {
+        "text": "vicino (femmina)"
+      }
+    }
+  },
+  {
+    "id": "78",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "colleague (male)"
+      },
+      "de": {
+        "text": "der Kollege",
+        "article": "der"
+      },
+      "it": {
+        "text": "collega (uomo)"
+      }
+    }
+  },
+  {
+    "id": "79",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "colleague (female)"
+      },
+      "de": {
+        "text": "die Kollegin",
+        "article": "die"
+      },
+      "it": {
+        "text": "collega (donna)"
+      }
+    }
+  },
+  {
+    "id": "80",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "child"
+      },
+      "de": {
+        "text": "das Kind",
+        "article": "das"
+      },
+      "it": {
+        "text": "bambino"
+      }
+    }
+  },
+  {
+    "id": "81",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "adult"
+      },
+      "de": {
+        "text": "der Erwachsene",
+        "article": "der"
+      },
+      "it": {
+        "text": "adulte"
+      }
+    }
+  },
+  {
+    "id": "82",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "family"
+      },
+      "de": {
+        "text": "die Familie",
+        "article": "die"
+      },
+      "it": {
+        "text": "famiglia"
+      }
+    }
+  },
+  {
+    "id": "83",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "guest"
+      },
+      "de": {
+        "text": "der Gast",
+        "article": "der"
+      },
+      "it": {
+        "text": "ospite"
+      }
+    }
+  }
 ];

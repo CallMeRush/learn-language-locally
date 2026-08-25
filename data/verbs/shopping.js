@@ -1,65 +1,146 @@
 const verbShopping = [
   {
-    "id": "w141",
-    "category": "verbs",
-    "de": "bezahlen",
-    "en": "to pay",
+    "id": "652",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to pay"
+      },
+      "de": {
+        "text": "bezahlen"
+      },
+      "it": {
+        "text": "Acconto"
+      }
+    },
     "verbCategory": "shopping"
   },
   {
-    "id": "w142",
-    "category": "verbs",
-    "de": "ausprobieren",
-    "en": "to try on / try out",
+    "id": "653",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to try on / try out"
+      },
+      "de": {
+        "text": "ausprobieren"
+      },
+      "it": {
+        "text": "da provare/ provare"
+      }
+    },
     "verbCategory": "shopping"
   },
   {
-    "id": "w143",
-    "category": "verbs",
-    "de": "zurückgeben",
-    "en": "to return",
+    "id": "654",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to return"
+      },
+      "de": {
+        "text": "zurückgeben"
+      },
+      "it": {
+        "text": "Per tornare"
+      }
+    },
     "verbCategory": "shopping"
   },
   {
-    "id": "w144",
-    "category": "verbs",
-    "de": "öffnen",
-    "en": "to open",
+    "id": "655",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to open"
+      },
+      "de": {
+        "text": "öffnen"
+      },
+      "it": {
+        "text": "aprirsi"
+      }
+    },
     "verbCategory": "shopping"
   },
   {
-    "id": "w145",
-    "category": "verbs",
-    "de": "schließen",
-    "en": "to close",
+    "id": "656",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to close"
+      },
+      "de": {
+        "text": "schließen"
+      },
+      "it": {
+        "text": "Chiudere"
+      }
+    },
     "verbCategory": "shopping"
   },
   {
-    "id": "w311",
-    "category": "verbs",
-    "de": "wechseln",
-    "en": "to change / exchange",
+    "id": "657",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to change / exchange"
+      },
+      "de": {
+        "text": "wechseln"
+      },
+      "it": {
+        "text": "cambiare / scambiare"
+      }
+    },
     "verbCategory": "shopping"
   },
   {
-    "id": "w312",
-    "category": "verbs",
-    "de": "kosten",
-    "en": "to cost",
+    "id": "658",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to cost"
+      },
+      "de": {
+        "text": "kosten"
+      },
+      "it": {
+        "text": "Al costo"
+      }
+    },
     "verbCategory": "shopping"
   },
   {
-    "id": "w313",
-    "category": "verbs",
-    "de": "sparen",
-    "en": "to save",
+    "id": "659",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to save"
+      },
+      "de": {
+        "text": "sparen"
+      },
+      "it": {
+        "text": "salvare"
+      }
+    },
     "verbCategory": "shopping"
   },
   {
-    "id": "w449",
-    "category": "verbs",
-    "de": "sparen",
-    "en": "to save",
+    "id": "660",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to save"
+      },
+      "de": {
+        "text": "sparen"
+      },
+      "it": {
+        "text": "salvare"
+      }
+    },
     "verbCategory": "shopping"
   }
 ];

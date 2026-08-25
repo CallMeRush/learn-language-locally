@@ -1,23 +1,50 @@
 const verbClothing = [
   {
-    "id": "w204",
-    "category": "verbs",
-    "de": "tragen",
-    "en": "to wear / carry",
+    "id": "677",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to wear / carry"
+      },
+      "de": {
+        "text": "tragen"
+      },
+      "it": {
+        "text": "da indossare / trasportare"
+      }
+    },
     "verbCategory": "clothing"
   },
   {
-    "id": "w205",
-    "category": "verbs",
-    "de": "anziehen",
-    "en": "to put on",
+    "id": "678",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to put on"
+      },
+      "de": {
+        "text": "anziehen"
+      },
+      "it": {
+        "text": "indossare"
+      }
+    },
     "verbCategory": "clothing"
   },
   {
-    "id": "w206",
-    "category": "verbs",
-    "de": "passen",
-    "en": "to fit / suit",
+    "id": "679",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "to fit / suit"
+      },
+      "de": {
+        "text": "passen"
+      },
+      "it": {
+        "text": "adattarsi / adattarsi"
+      }
+    },
     "verbCategory": "clothing"
   }
 ];

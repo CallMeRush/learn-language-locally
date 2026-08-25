@@ -1,135 +1,306 @@
 const verbDaily = [
   {
-    "id": "w222",
-    "category": "verbs",
-    "de": "fahren",
-    "en": "to drive / ride",
+    "id": "627",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "to drive / ride"
+      },
+      "de": {
+        "text": "fahren"
+      },
+      "it": {
+        "text": "guidare / guidare"
+      }
+    },
     "verbCategory": "daily"
   },
   {
-    "id": "w223",
-    "category": "verbs",
-    "de": "laufen",
-    "en": "to run / walk",
+    "id": "628",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "to run / walk"
+      },
+      "de": {
+        "text": "laufen"
+      },
+      "it": {
+        "text": "per correre / camminare"
+      }
+    },
     "verbCategory": "daily"
   },
   {
-    "id": "w224",
-    "category": "verbs",
-    "de": "schlafen",
-    "en": "to sleep",
+    "id": "629",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "to sleep"
+      },
+      "de": {
+        "text": "schlafen"
+      },
+      "it": {
+        "text": "dormire"
+      }
+    },
     "verbCategory": "daily"
   },
   {
-    "id": "w225",
-    "category": "verbs",
-    "de": "wachen",
-    "en": "to wake up",
+    "id": "630",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "to wake up"
+      },
+      "de": {
+        "text": "wachen"
+      },
+      "it": {
+        "text": "svegliarsi"
+      }
+    },
     "verbCategory": "daily"
   },
   {
-    "id": "w226",
-    "category": "verbs",
-    "de": "kochen",
-    "en": "to cook",
+    "id": "631",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "to cook"
+      },
+      "de": {
+        "text": "kochen"
+      },
+      "it": {
+        "text": "cucinare"
+      }
+    },
     "verbCategory": "daily"
   },
   {
-    "id": "w227",
-    "category": "verbs",
-    "de": "waschen",
-    "en": "to wash",
+    "id": "632",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "to wash"
+      },
+      "de": {
+        "text": "waschen"
+      },
+      "it": {
+        "text": "lavare"
+      }
+    },
     "verbCategory": "daily"
   },
   {
-    "id": "w228",
-    "category": "verbs",
-    "de": "putzen",
-    "en": "to clean",
+    "id": "633",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "to clean"
+      },
+      "de": {
+        "text": "putzen"
+      },
+      "it": {
+        "text": "pulire"
+      }
+    },
     "verbCategory": "daily"
   },
   {
-    "id": "w229",
-    "category": "verbs",
-    "de": "warten",
-    "en": "to wait",
+    "id": "634",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "to wait"
+      },
+      "de": {
+        "text": "warten"
+      },
+      "it": {
+        "text": "di lasciar passare"
+      }
+    },
     "verbCategory": "daily"
   },
   {
-    "id": "w230",
-    "category": "verbs",
-    "de": "fragen",
-    "en": "to ask",
+    "id": "635",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "to ask"
+      },
+      "de": {
+        "text": "fragen"
+      },
+      "it": {
+        "text": "chiedere"
+      }
+    },
     "verbCategory": "daily"
   },
   {
-    "id": "w231",
-    "category": "verbs",
-    "de": "antworten",
-    "en": "to answer",
+    "id": "636",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "to answer"
+      },
+      "de": {
+        "text": "antworten"
+      },
+      "it": {
+        "text": "rispondere"
+      }
+    },
     "verbCategory": "daily"
   },
   {
-    "id": "w232",
-    "category": "verbs",
-    "de": "vergessen",
-    "en": "to forget",
+    "id": "637",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "to forget"
+      },
+      "de": {
+        "text": "vergessen"
+      },
+      "it": {
+        "text": "Dimenticare"
+      }
+    },
     "verbCategory": "daily"
   },
   {
-    "id": "w233",
-    "category": "verbs",
-    "de": "merken",
-    "en": "to remember / notice",
+    "id": "638",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "to remember / notice"
+      },
+      "de": {
+        "text": "merken"
+      },
+      "it": {
+        "text": "ricordare / avvisare"
+      }
+    },
     "verbCategory": "daily"
   },
   {
-    "id": "w234",
-    "category": "verbs",
-    "de": "bringen",
-    "en": "to bring",
+    "id": "639",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "to bring"
+      },
+      "de": {
+        "text": "bringen"
+      },
+      "it": {
+        "text": "None arrabbiata"
+      }
+    },
     "verbCategory": "daily"
   },
   {
-    "id": "w235",
-    "category": "verbs",
-    "de": "holen",
-    "en": "to fetch / get",
+    "id": "640",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "to fetch / get"
+      },
+      "de": {
+        "text": "holen"
+      },
+      "it": {
+        "text": "recuperare / ottenere"
+      }
+    },
     "verbCategory": "daily"
   },
   {
-    "id": "w236",
-    "category": "verbs",
-    "de": "geben",
-    "en": "to give",
+    "id": "641",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "to give"
+      },
+      "de": {
+        "text": "geben"
+      },
+      "it": {
+        "text": "dare"
+      }
+    },
     "verbCategory": "daily"
   },
   {
-    "id": "w237",
-    "category": "verbs",
-    "de": "nehmen",
-    "en": "to take",
+    "id": "642",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "to take"
+      },
+      "de": {
+        "text": "nehmen"
+      },
+      "it": {
+        "text": "Sconto da applicare"
+      }
+    },
     "verbCategory": "daily"
   },
   {
-    "id": "w415",
-    "category": "verbs",
-    "de": "antworten",
-    "en": "to answer",
+    "id": "643",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "to answer"
+      },
+      "de": {
+        "text": "antworten"
+      },
+      "it": {
+        "text": "rispondere"
+      }
+    },
     "verbCategory": "daily"
   },
   {
-    "id": "w429",
-    "category": "verbs",
-    "de": "sich duschen",
-    "en": "to shower",
+    "id": "644",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "to shower"
+      },
+      "de": {
+        "text": "sich duschen"
+      },
+      "it": {
+        "text": "fare la doccia"
+      }
+    },
     "verbCategory": "daily"
   },
   {
-    "id": "w430",
-    "category": "verbs",
-    "de": "sich beeilen",
-    "en": "to hurry",
+    "id": "645",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "to hurry"
+      },
+      "de": {
+        "text": "sich beeilen"
+      },
+      "it": {
+        "text": "sbrigarsi"
+      }
+    },
     "verbCategory": "daily"
   }
 ];

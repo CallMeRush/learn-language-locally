@@ -1,23 +1,50 @@
 const verbEducation = [
   {
-    "id": "w378",
-    "category": "verbs",
-    "de": "bestehen",
-    "en": "to pass",
+    "id": "680",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "to pass"
+      },
+      "de": {
+        "text": "bestehen"
+      },
+      "it": {
+        "text": "passare"
+      }
+    },
     "verbCategory": "education"
   },
   {
-    "id": "w379",
-    "category": "verbs",
-    "de": "wiederholen",
-    "en": "to repeat",
+    "id": "681",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "to repeat"
+      },
+      "de": {
+        "text": "wiederholen"
+      },
+      "it": {
+        "text": "ripetizione"
+      }
+    },
     "verbCategory": "education"
   },
   {
-    "id": "w480",
-    "category": "verbs",
-    "de": "teilnehmen",
-    "en": "to participate",
+    "id": "682",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "to participate"
+      },
+      "de": {
+        "text": "teilnehmen"
+      },
+      "it": {
+        "text": "Per partecipare"
+      }
+    },
     "verbCategory": "education"
   }
 ];

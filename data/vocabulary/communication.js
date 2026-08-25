@@ -1,110 +1,194 @@
 const vocabularyCommunication = [
   {
-    "id": "w398",
-    "category": "communication",
-    "de": "die Nachricht",
-    "en": "message / news"
+    "id": "536",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "message / news"
+      },
+      "de": {
+        "text": "die Nachricht",
+        "article": "die"
+      },
+      "it": {
+        "text": "messaggio / news"
+      }
+    }
   },
   {
-    "id": "w399",
-    "category": "communication",
-    "de": "der Brief",
-    "en": "letter"
+    "id": "537",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "letter"
+      },
+      "de": {
+        "text": "der Brief",
+        "article": "der"
+      },
+      "it": {
+        "text": "lettera"
+      }
+    }
   },
   {
-    "id": "w400",
-    "category": "communication",
-    "de": "das Gespräch",
-    "en": "conversation"
+    "id": "538",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "conversation"
+      },
+      "de": {
+        "text": "das Gespräch",
+        "article": "das"
+      },
+      "it": {
+        "text": "espressione orale"
+      }
+    }
   },
   {
-    "id": "w401",
-    "category": "communication",
-    "de": "die Stimme",
-    "en": "voice"
+    "id": "539",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "voice"
+      },
+      "de": {
+        "text": "die Stimme",
+        "article": "die"
+      },
+      "it": {
+        "text": "voce"
+      }
+    }
   },
   {
-    "id": "w402",
-    "category": "communication",
-    "de": "der Anruf",
-    "en": "call"
+    "id": "540",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "call"
+      },
+      "de": {
+        "text": "der Anruf",
+        "article": "der"
+      },
+      "it": {
+        "text": "chiamata"
+      }
+    }
   },
   {
-    "id": "w403",
-    "category": "communication",
-    "de": "die Adresse",
-    "en": "address"
+    "id": "541",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "address"
+      },
+      "de": {
+        "text": "die Adresse",
+        "article": "die"
+      },
+      "it": {
+        "text": "via …………………………………………………………………………………………………………………………………………………………………"
+      }
+    }
   },
   {
-    "id": "w404",
-    "category": "communication",
-    "de": "die Einladung",
-    "en": "invitation"
+    "id": "542",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "invitation"
+      },
+      "de": {
+        "text": "die Einladung",
+        "article": "die"
+      },
+      "it": {
+        "text": "invito"
+      }
+    }
   },
   {
-    "id": "w405",
-    "category": "communication",
-    "de": "der Vorschlag",
-    "en": "suggestion"
+    "id": "543",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "suggestion"
+      },
+      "de": {
+        "text": "der Vorschlag",
+        "article": "der"
+      },
+      "it": {
+        "text": "suggestione"
+      }
+    }
   },
   {
-    "id": "w406",
-    "category": "communication",
-    "de": "die Meinung",
-    "en": "opinion"
+    "id": "544",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "opinion"
+      },
+      "de": {
+        "text": "die Meinung",
+        "article": "die"
+      },
+      "it": {
+        "text": "punto di vista/opinione"
+      }
+    }
   },
   {
-    "id": "w407",
-    "category": "communication",
-    "de": "die Erklärung",
-    "en": "explanation"
+    "id": "545",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "explanation"
+      },
+      "de": {
+        "text": "die Erklärung",
+        "article": "die"
+      },
+      "it": {
+        "text": "spiegazione"
+      }
+    }
   },
   {
-    "id": "w408",
-    "category": "communication",
-    "de": "die Wahrheit",
-    "en": "truth"
+    "id": "546",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "truth"
+      },
+      "de": {
+        "text": "die Wahrheit",
+        "article": "die"
+      },
+      "it": {
+        "text": "la verita"
+      }
+    }
   },
   {
-    "id": "w409",
-    "category": "communication",
-    "de": "der Witz",
-    "en": "joke"
-  },
-  {
-    "id": "w410",
-    "category": "communication",
-    "de": "erzählen",
-    "en": "to tell"
-  },
-  {
-    "id": "w411",
-    "category": "communication",
-    "de": "zuhören",
-    "en": "to listen"
-  },
-  {
-    "id": "w412",
-    "category": "communication",
-    "de": "meinen",
-    "en": "to mean / think"
-  },
-  {
-    "id": "w413",
-    "category": "communication",
-    "de": "vereinbaren",
-    "en": "to arrange / agree"
-  },
-  {
-    "id": "w414",
-    "category": "communication",
-    "de": "erreichen",
-    "en": "to reach / contact"
-  },
-  {
-    "id": "w415",
-    "category": "communication",
-    "de": "antworten",
-    "en": "to answer"
+    "id": "547",
+    "level": "A2",
+    "translations": {
+      "en": {
+        "text": "joke"
+      },
+      "de": {
+        "text": "der Witz",
+        "article": "der"
+      },
+      "it": {
+        "text": "barzelletta"
+      }
+    }
   }
 ];

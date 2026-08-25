@@ -1,154 +1,1702 @@
 const vocabularyAdjectives = [
   {
-    "id": "w78",
-    "category": "adjectives",
-    "de": "gut",
-    "en": "good"
+    "id": "152",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "good"
+      },
+      "de": {
+        "text": "gut"
+      },
+      "it": {
+        "text": "buono"
+      }
+    }
   },
   {
-    "id": "w79",
-    "category": "adjectives",
-    "de": "schlecht",
-    "en": "bad"
+    "id": "153",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "bad"
+      },
+      "de": {
+        "text": "schlecht"
+      },
+      "it": {
+        "text": "cattivo"
+      }
+    }
   },
   {
-    "id": "w80",
-    "category": "adjectives",
-    "de": "groß",
-    "en": "big / tall"
+    "id": "154",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "big / tall"
+      },
+      "de": {
+        "text": "groß"
+      },
+      "it": {
+        "text": "grande / alto"
+      }
+    }
   },
   {
-    "id": "w81",
-    "category": "adjectives",
-    "de": "klein",
-    "en": "small / short"
+    "id": "155",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "small / short"
+      },
+      "de": {
+        "text": "klein"
+      },
+      "it": {
+        "text": "piccolo / corto"
+      }
+    }
   },
   {
-    "id": "w82",
-    "category": "adjectives",
-    "de": "neu",
-    "en": "new"
+    "id": "156",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "new"
+      },
+      "de": {
+        "text": "neu"
+      },
+      "it": {
+        "text": "nuovo"
+      }
+    }
   },
   {
-    "id": "w83",
-    "category": "adjectives",
-    "de": "alt",
-    "en": "old"
+    "id": "157",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "old"
+      },
+      "de": {
+        "text": "alt"
+      },
+      "it": {
+        "text": "vecchio"
+      }
+    }
   },
   {
-    "id": "w84",
-    "category": "adjectives",
-    "de": "schnell",
-    "en": "fast"
+    "id": "158",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "fast"
+      },
+      "de": {
+        "text": "schnell"
+      },
+      "it": {
+        "text": "veloce"
+      }
+    }
   },
   {
-    "id": "w85",
-    "category": "adjectives",
-    "de": "langsam",
-    "en": "slow"
+    "id": "159",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "slow"
+      },
+      "de": {
+        "text": "langsam"
+      },
+      "it": {
+        "text": "lentezza"
+      }
+    }
   },
   {
-    "id": "w86",
-    "category": "adjectives",
-    "de": "wichtig",
-    "en": "important"
+    "id": "160",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "important"
+      },
+      "de": {
+        "text": "wichtig"
+      },
+      "it": {
+        "text": "importante"
+      }
+    }
   },
   {
-    "id": "w87",
-    "category": "adjectives",
-    "de": "leicht",
-    "en": "easy / light"
+    "id": "161",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "easy / light"
+      },
+      "de": {
+        "text": "leicht"
+      },
+      "it": {
+        "text": "Luce facile"
+      }
+    }
   },
   {
-    "id": "w88",
-    "category": "adjectives",
-    "de": "schwer",
-    "en": "difficult / heavy"
+    "id": "162",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "difficult / heavy"
+      },
+      "de": {
+        "text": "schwer"
+      },
+      "it": {
+        "text": "difficile / pesante"
+      }
+    }
   },
   {
-    "id": "w89",
-    "category": "adjectives",
-    "de": "müde",
-    "en": "tired"
+    "id": "163",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "tired"
+      },
+      "de": {
+        "text": "müde"
+      },
+      "it": {
+        "text": "affaticato, stanco"
+      }
+    }
   },
-  {"id":"w743","category":"adjectives","adjectiveCategory":"description","de":"lang","en":"long"},{"id":"w744","category":"adjectives","adjectiveCategory":"description","de":"kurz","en":"short"},{"id":"w745","category":"adjectives","adjectiveCategory":"description","de":"breit","en":"wide"},{"id":"w746","category":"adjectives","adjectiveCategory":"description","de":"schmal","en":"narrow"},{"id":"w747","category":"adjectives","adjectiveCategory":"description","de":"tief","en":"deep"},{"id":"w748","category":"adjectives","adjectiveCategory":"description","de":"flach","en":"shallow / flat"},{"id":"w749","category":"adjectives","adjectiveCategory":"condition","de":"kaputt","en":"broken"},{"id":"w750","category":"adjectives","adjectiveCategory":"condition","de":"geöffnet","en":"open"},{"id":"w751","category":"adjectives","adjectiveCategory":"condition","de":"geschlossen","en":"closed"},{"id":"w752","category":"adjectives","adjectiveCategory":"personality","de":"freundlich","en":"friendly"},{"id":"w753","category":"adjectives","adjectiveCategory":"personality","de":"höflich","en":"polite"},{"id":"w754","category":"adjectives","adjectiveCategory":"personality","de":"geduldig","en":"patient"},{"id":"w755","category":"adjectives","adjectiveCategory":"evaluation","de":"wichtig","en":"important"},{"id":"w756","category":"adjectives","adjectiveCategory":"evaluation","de":"möglich","en":"possible"},{"id":"w757","category":"adjectives","adjectiveCategory":"evaluation","de":"verfügbar","en":"available"},{"id":"w758","category":"adjectives","adjectiveCategory":"taste","de":"scharf","en":"spicy / hot"},{"id":"w759","category":"adjectives","adjectiveCategory":"taste","de":"süß","en":"sweet"},{"id":"w760","category":"adjectives","adjectiveCategory":"temperature","de":"kühl","en":"cool"},{"id":"w761","category":"adjectives","adjectiveCategory":"temperature","de":"trocken","en":"dry"},{"id":"w762","category":"adjectives","adjectiveCategory":"amount","de":"voll","en":"full"}
+  {
+    "id": "164",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "long"
+      },
+      "de": {
+        "text": "lang"
+      },
+      "it": {
+        "text": "lungo"
+      }
+    },
+    "adjectiveCategory": "description"
+  },
+  {
+    "id": "165",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "short"
+      },
+      "de": {
+        "text": "kurz"
+      },
+      "it": {
+        "text": "corto"
+      }
+    },
+    "adjectiveCategory": "description"
+  },
+  {
+    "id": "166",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "wide"
+      },
+      "de": {
+        "text": "breit"
+      },
+      "it": {
+        "text": "largo"
+      }
+    },
+    "adjectiveCategory": "description"
+  },
+  {
+    "id": "167",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "narrow"
+      },
+      "de": {
+        "text": "schmal"
+      },
+      "it": {
+        "text": "stretta"
+      }
+    },
+    "adjectiveCategory": "description"
+  },
+  {
+    "id": "168",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "deep"
+      },
+      "de": {
+        "text": "tief"
+      },
+      "it": {
+        "text": "profonda"
+      }
+    },
+    "adjectiveCategory": "description"
+  },
+  {
+    "id": "169",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "shallow / flat"
+      },
+      "de": {
+        "text": "flach"
+      },
+      "it": {
+        "text": "poco profondo / piatto"
+      }
+    },
+    "adjectiveCategory": "description"
+  },
+  {
+    "id": "170",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "broken"
+      },
+      "de": {
+        "text": "kaputt"
+      },
+      "it": {
+        "text": "riparare un cuore spezzato"
+      }
+    },
+    "adjectiveCategory": "condition"
+  },
+  {
+    "id": "171",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "open"
+      },
+      "de": {
+        "text": "geöffnet"
+      },
+      "it": {
+        "text": "aperta"
+      }
+    },
+    "adjectiveCategory": "condition"
+  },
+  {
+    "id": "172",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "closed"
+      },
+      "de": {
+        "text": "geschlossen"
+      },
+      "it": {
+        "text": "chiuso"
+      }
+    },
+    "adjectiveCategory": "condition"
+  },
+  {
+    "id": "173",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "friendly"
+      },
+      "de": {
+        "text": "freundlich"
+      },
+      "it": {
+        "text": "amichevole"
+      }
+    },
+    "adjectiveCategory": "personality"
+  },
+  {
+    "id": "174",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "polite"
+      },
+      "de": {
+        "text": "höflich"
+      },
+      "it": {
+        "text": "educato"
+      }
+    },
+    "adjectiveCategory": "personality"
+  },
+  {
+    "id": "175",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "patient"
+      },
+      "de": {
+        "text": "geduldig"
+      },
+      "it": {
+        "text": "paziente"
+      }
+    },
+    "adjectiveCategory": "personality"
+  },
+  {
+    "id": "176",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "important"
+      },
+      "de": {
+        "text": "wichtig"
+      },
+      "it": {
+        "text": "importante"
+      }
+    },
+    "adjectiveCategory": "evaluation"
+  },
+  {
+    "id": "177",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "possible"
+      },
+      "de": {
+        "text": "möglich"
+      },
+      "it": {
+        "text": "possibile"
+      }
+    },
+    "adjectiveCategory": "evaluation"
+  },
+  {
+    "id": "178",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "available"
+      },
+      "de": {
+        "text": "verfügbar"
+      },
+      "it": {
+        "text": "disponibile/i"
+      }
+    },
+    "adjectiveCategory": "evaluation"
+  },
+  {
+    "id": "179",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "spicy / hot"
+      },
+      "de": {
+        "text": "scharf"
+      },
+      "it": {
+        "text": "piccante / piccante"
+      }
+    },
+    "adjectiveCategory": "taste"
+  },
+  {
+    "id": "180",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "sweet"
+      },
+      "de": {
+        "text": "süß"
+      },
+      "it": {
+        "text": "caramella, dolce"
+      }
+    },
+    "adjectiveCategory": "taste"
+  },
+  {
+    "id": "181",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "cool"
+      },
+      "de": {
+        "text": "kühl"
+      },
+      "it": {
+        "text": "freddo"
+      }
+    },
+    "adjectiveCategory": "temperature"
+  },
+  {
+    "id": "182",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "dry"
+      },
+      "de": {
+        "text": "trocken"
+      },
+      "it": {
+        "text": "Seco"
+      }
+    },
+    "adjectiveCategory": "temperature"
+  },
+  {
+    "id": "183",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "full"
+      },
+      "de": {
+        "text": "voll"
+      },
+      "it": {
+        "text": "pieno"
+      }
+    },
+    "adjectiveCategory": "amount"
+  },
+  {
+    "id": "184",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "beautiful / nice"
+      },
+      "de": {
+        "text": "schön"
+      },
+      "it": {
+        "text": "bello / simpatico"
+      }
+    },
+    "adjectiveCategory": "description"
+  },
+  {
+    "id": "185",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "ugly"
+      },
+      "de": {
+        "text": "hässlich"
+      },
+      "it": {
+        "text": "brutto"
+      }
+    },
+    "adjectiveCategory": "description"
+  },
+  {
+    "id": "186",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "young"
+      },
+      "de": {
+        "text": "jung"
+      },
+      "it": {
+        "text": "giovane"
+      }
+    },
+    "adjectiveCategory": "description"
+  },
+  {
+    "id": "187",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "friendly"
+      },
+      "de": {
+        "text": "freundlich"
+      },
+      "it": {
+        "text": "amichevole"
+      }
+    },
+    "adjectiveCategory": "description"
+  },
+  {
+    "id": "188",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "polite"
+      },
+      "de": {
+        "text": "höflich"
+      },
+      "it": {
+        "text": "educato"
+      }
+    },
+    "adjectiveCategory": "description"
+  },
+  {
+    "id": "189",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "strong"
+      },
+      "de": {
+        "text": "stark"
+      },
+      "it": {
+        "text": "forte"
+      }
+    },
+    "adjectiveCategory": "description"
+  },
+  {
+    "id": "190",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "weak"
+      },
+      "de": {
+        "text": "schwach"
+      },
+      "it": {
+        "text": "Scarsa"
+      }
+    },
+    "adjectiveCategory": "description"
+  },
+  {
+    "id": "191",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "round"
+      },
+      "de": {
+        "text": "rund"
+      },
+      "it": {
+        "text": "tondo"
+      }
+    },
+    "adjectiveCategory": "description"
+  },
+  {
+    "id": "192",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "red"
+      },
+      "de": {
+        "text": "rot"
+      },
+      "it": {
+        "text": "rosso"
+      }
+    },
+    "adjectiveCategory": "color"
+  },
+  {
+    "id": "193",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "blue"
+      },
+      "de": {
+        "text": "blau"
+      },
+      "it": {
+        "text": "blu"
+      }
+    },
+    "adjectiveCategory": "color"
+  },
+  {
+    "id": "194",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "green"
+      },
+      "de": {
+        "text": "grün"
+      },
+      "it": {
+        "text": "verde"
+      }
+    },
+    "adjectiveCategory": "color"
+  },
+  {
+    "id": "195",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "yellow"
+      },
+      "de": {
+        "text": "gelb"
+      },
+      "it": {
+        "text": "giallo"
+      }
+    },
+    "adjectiveCategory": "color"
+  },
+  {
+    "id": "196",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "black"
+      },
+      "de": {
+        "text": "schwarz"
+      },
+      "it": {
+        "text": "nero"
+      }
+    },
+    "adjectiveCategory": "color"
+  },
+  {
+    "id": "197",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "white"
+      },
+      "de": {
+        "text": "weiß"
+      },
+      "it": {
+        "text": "bianco"
+      }
+    },
+    "adjectiveCategory": "color"
+  },
+  {
+    "id": "198",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "brown"
+      },
+      "de": {
+        "text": "braun"
+      },
+      "it": {
+        "text": "castana"
+      }
+    },
+    "adjectiveCategory": "color"
+  },
+  {
+    "id": "199",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "grey"
+      },
+      "de": {
+        "text": "grau"
+      },
+      "it": {
+        "text": "colore grigio"
+      }
+    },
+    "adjectiveCategory": "color"
+  },
+  {
+    "id": "200",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "hot"
+      },
+      "de": {
+        "text": "heiß"
+      },
+      "it": {
+        "text": "caldo"
+      }
+    },
+    "adjectiveCategory": "temperature"
+  },
+  {
+    "id": "201",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "cool"
+      },
+      "de": {
+        "text": "kühl"
+      },
+      "it": {
+        "text": "freddo"
+      }
+    },
+    "adjectiveCategory": "temperature"
+  },
+  {
+    "id": "202",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "sunny"
+      },
+      "de": {
+        "text": "sonnig"
+      },
+      "it": {
+        "text": "soleggiato"
+      }
+    },
+    "adjectiveCategory": "temperature"
+  },
+  {
+    "id": "203",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "windy"
+      },
+      "de": {
+        "text": "windig"
+      },
+      "it": {
+        "text": "Ventoso"
+      }
+    },
+    "adjectiveCategory": "temperature"
+  },
+  {
+    "id": "204",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "open"
+      },
+      "de": {
+        "text": "offen"
+      },
+      "it": {
+        "text": "aperta"
+      }
+    },
+    "adjectiveCategory": "condition"
+  },
+  {
+    "id": "205",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "closed"
+      },
+      "de": {
+        "text": "geschlossen"
+      },
+      "it": {
+        "text": "chiuso"
+      }
+    },
+    "adjectiveCategory": "condition"
+  },
+  {
+    "id": "206",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "broken"
+      },
+      "de": {
+        "text": "kaputt"
+      },
+      "it": {
+        "text": "riparare un cuore spezzato"
+      }
+    },
+    "adjectiveCategory": "condition"
+  },
+  {
+    "id": "207",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "finished / ready"
+      },
+      "de": {
+        "text": "fertig"
+      },
+      "it": {
+        "text": "finito / pronto"
+      }
+    },
+    "adjectiveCategory": "condition"
+  },
+  {
+    "id": "208",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "free / available"
+      },
+      "de": {
+        "text": "frei"
+      },
+      "it": {
+        "text": "libero / disponibile"
+      }
+    },
+    "adjectiveCategory": "condition"
+  },
+  {
+    "id": "209",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "occupied / busy"
+      },
+      "de": {
+        "text": "besetzt"
+      },
+      "it": {
+        "text": "occupato / occupato"
+      }
+    },
+    "adjectiveCategory": "condition"
+  },
+  {
+    "id": "210",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "funny"
+      },
+      "de": {
+        "text": "lustig"
+      },
+      "it": {
+        "text": "Divertito"
+      }
+    },
+    "adjectiveCategory": "personality"
+  },
+  {
+    "id": "211",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "serious"
+      },
+      "de": {
+        "text": "ernst"
+      },
+      "it": {
+        "text": "gravi"
+      }
+    },
+    "adjectiveCategory": "personality"
+  },
+  {
+    "id": "212",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "clever"
+      },
+      "de": {
+        "text": "clever"
+      },
+      "it": {
+        "text": "intelligente"
+      }
+    },
+    "adjectiveCategory": "personality"
+  },
+  {
+    "id": "213",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "hard-working"
+      },
+      "de": {
+        "text": "fleißig"
+      },
+      "it": {
+        "text": "operoso"
+      }
+    },
+    "adjectiveCategory": "personality"
+  },
+  {
+    "id": "214",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "lazy"
+      },
+      "de": {
+        "text": "faul"
+      },
+      "it": {
+        "text": "Pertoj"
+      }
+    },
+    "adjectiveCategory": "personality"
+  },
+  {
+    "id": "215",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "brave"
+      },
+      "de": {
+        "text": "mutig"
+      },
+      "it": {
+        "text": "coraggioso"
+      }
+    },
+    "adjectiveCategory": "personality"
+  },
+  {
+    "id": "216",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "afraid / anxious"
+      },
+      "de": {
+        "text": "ängstlich"
+      },
+      "it": {
+        "text": "impaurito / ansioso"
+      }
+    },
+    "adjectiveCategory": "personality"
+  },
+  {
+    "id": "217",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "curious"
+      },
+      "de": {
+        "text": "neugierig"
+      },
+      "it": {
+        "text": "curioso"
+      }
+    },
+    "adjectiveCategory": "personality"
+  },
+  {
+    "id": "218",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "much / many"
+      },
+      "de": {
+        "text": "viel"
+      },
+      "it": {
+        "text": "molto"
+      }
+    },
+    "adjectiveCategory": "amount"
+  },
+  {
+    "id": "219",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "little / few"
+      },
+      "de": {
+        "text": "wenig"
+      },
+      "it": {
+        "text": "Po’ / Pochi"
+      }
+    },
+    "adjectiveCategory": "amount"
+  },
+  {
+    "id": "220",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "enough"
+      },
+      "de": {
+        "text": "genug"
+      },
+      "it": {
+        "text": "Abbastanza"
+      }
+    },
+    "adjectiveCategory": "amount"
+  },
+  {
+    "id": "221",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "full"
+      },
+      "de": {
+        "text": "voll"
+      },
+      "it": {
+        "text": "pieno"
+      }
+    },
+    "adjectiveCategory": "amount"
+  },
+  {
+    "id": "222",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "empty"
+      },
+      "de": {
+        "text": "leer"
+      },
+      "it": {
+        "text": "vuoto"
+      }
+    },
+    "adjectiveCategory": "amount"
+  },
+  {
+    "id": "223",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "correct / right"
+      },
+      "de": {
+        "text": "richtig"
+      },
+      "it": {
+        "text": "corretto / giusto"
+      }
+    },
+    "adjectiveCategory": "evaluation"
+  },
+  {
+    "id": "224",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "wrong / false"
+      },
+      "de": {
+        "text": "falsch"
+      },
+      "it": {
+        "text": "sbagliato / falso"
+      }
+    },
+    "adjectiveCategory": "evaluation"
+  },
+  {
+    "id": "225",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "interesting"
+      },
+      "de": {
+        "text": "interessant"
+      },
+      "it": {
+        "text": "Illuminato"
+      }
+    },
+    "adjectiveCategory": "evaluation"
+  },
+  {
+    "id": "226",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "boring"
+      },
+      "de": {
+        "text": "langweilig"
+      },
+      "it": {
+        "text": "Noioso"
+      }
+    },
+    "adjectiveCategory": "evaluation"
+  },
+  {
+    "id": "227",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "possible"
+      },
+      "de": {
+        "text": "möglich"
+      },
+      "it": {
+        "text": "possibile"
+      }
+    },
+    "adjectiveCategory": "evaluation"
+  },
+  {
+    "id": "228",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "impossible"
+      },
+      "de": {
+        "text": "unmöglich"
+      },
+      "it": {
+        "text": "impossibile"
+      }
+    },
+    "adjectiveCategory": "evaluation"
+  },
+  {
+    "id": "229",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "necessary"
+      },
+      "de": {
+        "text": "notwendig"
+      },
+      "it": {
+        "text": "necessari"
+      }
+    },
+    "adjectiveCategory": "evaluation"
+  },
+  {
+    "id": "230",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "known / famous"
+      },
+      "de": {
+        "text": "bekannt"
+      },
+      "it": {
+        "text": "conosciuto / famoso"
+      }
+    },
+    "adjectiveCategory": "evaluation"
+  },
+  {
+    "id": "231",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "sour"
+      },
+      "de": {
+        "text": "sauer"
+      },
+      "it": {
+        "text": "aspro"
+      }
+    },
+    "adjectiveCategory": "taste"
+  },
+  {
+    "id": "232",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "bitter"
+      },
+      "de": {
+        "text": "bitter"
+      },
+      "it": {
+        "text": "amaro,aspro"
+      }
+    },
+    "adjectiveCategory": "taste"
+  },
+  {
+    "id": "233",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "fresh"
+      },
+      "de": {
+        "text": "frisch"
+      },
+      "it": {
+        "text": "fresco"
+      }
+    },
+    "adjectiveCategory": "taste"
+  },
+  {
+    "id": "234",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "tasty"
+      },
+      "de": {
+        "text": "lecker"
+      },
+      "it": {
+        "text": "gustoso"
+      }
+    },
+    "adjectiveCategory": "taste"
+  },
+  {
+    "id": "235",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "better"
+      },
+      "de": {
+        "text": "besser"
+      },
+      "it": {
+        "text": "di forma migliore"
+      }
+    },
+    "adjectiveCategory": "comparison"
+  },
+  {
+    "id": "236",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "the best / best"
+      },
+      "de": {
+        "text": "am besten"
+      },
+      "it": {
+        "text": "Per risultati ottimali"
+      }
+    },
+    "adjectiveCategory": "comparison"
+  },
+  {
+    "id": "237",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "worse"
+      },
+      "de": {
+        "text": "schlechter"
+      },
+      "it": {
+        "text": "peggiore"
+      }
+    },
+    "adjectiveCategory": "comparison"
+  },
+  {
+    "id": "238",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "the worst / worst"
+      },
+      "de": {
+        "text": "am schlechtesten"
+      },
+      "it": {
+        "text": "il peggio / il peggio"
+      }
+    },
+    "adjectiveCategory": "comparison"
+  },
+  {
+    "id": "239",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "bigger / taller"
+      },
+      "de": {
+        "text": "größer"
+      },
+      "it": {
+        "text": "più grande/più alto"
+      }
+    },
+    "adjectiveCategory": "comparison"
+  },
+  {
+    "id": "240",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "the biggest / tallest"
+      },
+      "de": {
+        "text": "am größten"
+      },
+      "it": {
+        "text": "il più grande / alto"
+      }
+    },
+    "adjectiveCategory": "comparison"
+  },
+  {
+    "id": "241",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "smaller / shorter"
+      },
+      "de": {
+        "text": "kleiner"
+      },
+      "it": {
+        "text": "più piccolo / più corto"
+      }
+    },
+    "adjectiveCategory": "comparison"
+  },
+  {
+    "id": "242",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "the smallest / shortest"
+      },
+      "de": {
+        "text": "am kleinsten"
+      },
+      "it": {
+        "text": "il più piccolo /il più corto"
+      }
+    },
+    "adjectiveCategory": "comparison"
+  },
+  {
+    "id": "243",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "faster"
+      },
+      "de": {
+        "text": "schneller"
+      },
+      "it": {
+        "text": "PIÙ VELOCE"
+      }
+    },
+    "adjectiveCategory": "comparison"
+  },
+  {
+    "id": "244",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "the fastest"
+      },
+      "de": {
+        "text": "am schnellsten"
+      },
+      "it": {
+        "text": "Il più veloce"
+      }
+    },
+    "adjectiveCategory": "comparison"
+  },
+  {
+    "id": "245",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "older"
+      },
+      "de": {
+        "text": "älter"
+      },
+      "it": {
+        "text": "più vecchio"
+      }
+    },
+    "adjectiveCategory": "comparison"
+  },
+  {
+    "id": "246",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "the oldest"
+      },
+      "de": {
+        "text": "am ältesten"
+      },
+      "it": {
+        "text": "La più antica"
+      }
+    },
+    "adjectiveCategory": "comparison"
+  },
+  {
+    "id": "247",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "younger"
+      },
+      "de": {
+        "text": "jünger"
+      },
+      "it": {
+        "text": "più giovane"
+      }
+    },
+    "adjectiveCategory": "comparison"
+  },
+  {
+    "id": "248",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "the youngest"
+      },
+      "de": {
+        "text": "am jüngsten"
+      },
+      "it": {
+        "text": "I più giovani"
+      }
+    },
+    "adjectiveCategory": "comparison"
+  },
+  {
+    "id": "249",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "more"
+      },
+      "de": {
+        "text": "mehr"
+      },
+      "it": {
+        "text": "di più"
+      }
+    },
+    "adjectiveCategory": "comparison"
+  },
+  {
+    "id": "250",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "the most"
+      },
+      "de": {
+        "text": "am meisten"
+      },
+      "it": {
+        "text": "maggiore"
+      }
+    },
+    "adjectiveCategory": "comparison"
+  },
+  {
+    "id": "251",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "less"
+      },
+      "de": {
+        "text": "weniger"
+      },
+      "it": {
+        "text": "meno"
+      }
+    },
+    "adjectiveCategory": "comparison"
+  },
+  {
+    "id": "252",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "the least"
+      },
+      "de": {
+        "text": "am wenigsten"
+      },
+      "it": {
+        "text": "Il minimo"
+      }
+    },
+    "adjectiveCategory": "comparison"
+  },
+  {
+    "id": "253",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "rather / preferably"
+      },
+      "de": {
+        "text": "lieber"
+      },
+      "it": {
+        "text": "piuttosto / preferibilmente"
+      }
+    },
+    "adjectiveCategory": "comparison"
+  },
+  {
+    "id": "254",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "most preferably"
+      },
+      "de": {
+        "text": "am liebsten"
+      },
+      "it": {
+        "text": "più preferibilmente"
+      }
+    },
+    "adjectiveCategory": "comparison"
+  },
+  {
+    "id": "255",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "higher"
+      },
+      "de": {
+        "text": "höher"
+      },
+      "it": {
+        "text": "superiore"
+      }
+    },
+    "adjectiveCategory": "comparison"
+  },
+  {
+    "id": "256",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "the highest"
+      },
+      "de": {
+        "text": "am höchsten"
+      },
+      "it": {
+        "text": "la più alta"
+      }
+    },
+    "adjectiveCategory": "comparison"
+  },
+  {
+    "id": "257",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "closer"
+      },
+      "de": {
+        "text": "näher"
+      },
+      "it": {
+        "text": "più vicini"
+      }
+    },
+    "adjectiveCategory": "comparison"
+  },
+  {
+    "id": "258",
+    "level": "A1",
+    "translations": {
+      "en": {
+        "text": "the closest / next"
+      },
+      "de": {
+        "text": "am nächsten"
+      },
+      "it": {
+        "text": "il più vicino / successivo"
+      }
+    },
+    "adjectiveCategory": "comparison"
+  }
 ];
-vocabularyAdjectives.push(
-  {id:'w488',category:'adjectives',adjectiveCategory:'description',de:'schön',en:'beautiful / nice'},
-  {id:'w489',category:'adjectives',adjectiveCategory:'description',de:'hässlich',en:'ugly'},
-  {id:'w490',category:'adjectives',adjectiveCategory:'description',de:'jung',en:'young'},
-  {id:'w491',category:'adjectives',adjectiveCategory:'description',de:'freundlich',en:'friendly'},
-  {id:'w492',category:'adjectives',adjectiveCategory:'description',de:'höflich',en:'polite'},
-  {id:'w493',category:'adjectives',adjectiveCategory:'description',de:'stark',en:'strong'},
-  {id:'w494',category:'adjectives',adjectiveCategory:'description',de:'schwach',en:'weak'},
-  {id:'w495',category:'adjectives',adjectiveCategory:'description',de:'rund',en:'round'},
-  {id:'w496',category:'adjectives',adjectiveCategory:'color',de:'rot',en:'red'},
-  {id:'w497',category:'adjectives',adjectiveCategory:'color',de:'blau',en:'blue'},
-  {id:'w498',category:'adjectives',adjectiveCategory:'color',de:'grün',en:'green'},
-  {id:'w499',category:'adjectives',adjectiveCategory:'color',de:'gelb',en:'yellow'},
-  {id:'w500',category:'adjectives',adjectiveCategory:'color',de:'schwarz',en:'black'},
-  {id:'w501',category:'adjectives',adjectiveCategory:'color',de:'weiß',en:'white'},
-  {id:'w502',category:'adjectives',adjectiveCategory:'color',de:'braun',en:'brown'},
-  {id:'w503',category:'adjectives',adjectiveCategory:'color',de:'grau',en:'grey'},
-  {id:'w504',category:'adjectives',adjectiveCategory:'temperature',de:'heiß',en:'hot'},
-  {id:'w505',category:'adjectives',adjectiveCategory:'temperature',de:'kühl',en:'cool'},
-  {id:'w506',category:'adjectives',adjectiveCategory:'temperature',de:'sonnig',en:'sunny'},
-  {id:'w507',category:'adjectives',adjectiveCategory:'temperature',de:'windig',en:'windy'},
-  {id:'w508',category:'adjectives',adjectiveCategory:'condition',de:'offen',en:'open'},
-  {id:'w509',category:'adjectives',adjectiveCategory:'condition',de:'geschlossen',en:'closed'},
-  {id:'w510',category:'adjectives',adjectiveCategory:'condition',de:'kaputt',en:'broken'},
-  {id:'w511',category:'adjectives',adjectiveCategory:'condition',de:'fertig',en:'finished / ready'},
-  {id:'w512',category:'adjectives',adjectiveCategory:'condition',de:'frei',en:'free / available'},
-  {id:'w513',category:'adjectives',adjectiveCategory:'condition',de:'besetzt',en:'occupied / busy'},
-  {id:'w514',category:'adjectives',adjectiveCategory:'personality',de:'lustig',en:'funny'},
-  {id:'w515',category:'adjectives',adjectiveCategory:'personality',de:'ernst',en:'serious'},
-  {id:'w516',category:'adjectives',adjectiveCategory:'personality',de:'clever',en:'clever'},
-  {id:'w517',category:'adjectives',adjectiveCategory:'personality',de:'fleißig',en:'hard-working'},
-  {id:'w518',category:'adjectives',adjectiveCategory:'personality',de:'faul',en:'lazy'},
-  {id:'w519',category:'adjectives',adjectiveCategory:'personality',de:'mutig',en:'brave'},
-  {id:'w520',category:'adjectives',adjectiveCategory:'personality',de:'ängstlich',en:'afraid / anxious'},
-  {id:'w521',category:'adjectives',adjectiveCategory:'personality',de:'neugierig',en:'curious'},
-  {id:'w522',category:'adjectives',adjectiveCategory:'amount',de:'viel',en:'much / many'},
-  {id:'w523',category:'adjectives',adjectiveCategory:'amount',de:'wenig',en:'little / few'},
-  {id:'w524',category:'adjectives',adjectiveCategory:'amount',de:'genug',en:'enough'},
-  {id:'w525',category:'adjectives',adjectiveCategory:'amount',de:'voll',en:'full'},
-  {id:'w526',category:'adjectives',adjectiveCategory:'amount',de:'leer',en:'empty'},
-  {id:'w527',category:'adjectives',adjectiveCategory:'evaluation',de:'richtig',en:'correct / right'},
-  {id:'w528',category:'adjectives',adjectiveCategory:'evaluation',de:'falsch',en:'wrong / false'},
-  {id:'w529',category:'adjectives',adjectiveCategory:'evaluation',de:'interessant',en:'interesting'},
-  {id:'w530',category:'adjectives',adjectiveCategory:'evaluation',de:'langweilig',en:'boring'},
-  {id:'w531',category:'adjectives',adjectiveCategory:'evaluation',de:'möglich',en:'possible'},
-  {id:'w532',category:'adjectives',adjectiveCategory:'evaluation',de:'unmöglich',en:'impossible'},
-  {id:'w533',category:'adjectives',adjectiveCategory:'evaluation',de:'notwendig',en:'necessary'},
-  {id:'w534',category:'adjectives',adjectiveCategory:'evaluation',de:'bekannt',en:'known / famous'},
-  {id:'w535',category:'adjectives',adjectiveCategory:'taste',de:'sauer',en:'sour'},
-  {id:'w536',category:'adjectives',adjectiveCategory:'taste',de:'bitter',en:'bitter'},
-  {id:'w537',category:'adjectives',adjectiveCategory:'taste',de:'frisch',en:'fresh'},
-  {id:'w538',category:'adjectives',adjectiveCategory:'taste',de:'lecker',en:'tasty'}
-);
-vocabularyAdjectives.push(
-  {id:'w539',category:'adjectives',adjectiveCategory:'comparison',de:'besser',en:'better'},
-  {id:'w540',category:'adjectives',adjectiveCategory:'comparison',de:'am besten',en:'the best / best'},
-  {id:'w541',category:'adjectives',adjectiveCategory:'comparison',de:'schlechter',en:'worse'},
-  {id:'w542',category:'adjectives',adjectiveCategory:'comparison',de:'am schlechtesten',en:'the worst / worst'},
-  {id:'w543',category:'adjectives',adjectiveCategory:'comparison',de:'größer',en:'bigger / taller'},
-  {id:'w544',category:'adjectives',adjectiveCategory:'comparison',de:'am größten',en:'the biggest / tallest'},
-  {id:'w545',category:'adjectives',adjectiveCategory:'comparison',de:'kleiner',en:'smaller / shorter'},
-  {id:'w546',category:'adjectives',adjectiveCategory:'comparison',de:'am kleinsten',en:'the smallest / shortest'},
-  {id:'w547',category:'adjectives',adjectiveCategory:'comparison',de:'schneller',en:'faster'},
-  {id:'w548',category:'adjectives',adjectiveCategory:'comparison',de:'am schnellsten',en:'the fastest'},
-  {id:'w549',category:'adjectives',adjectiveCategory:'comparison',de:'älter',en:'older'},
-  {id:'w550',category:'adjectives',adjectiveCategory:'comparison',de:'am ältesten',en:'the oldest'},
-  {id:'w551',category:'adjectives',adjectiveCategory:'comparison',de:'jünger',en:'younger'},
-  {id:'w552',category:'adjectives',adjectiveCategory:'comparison',de:'am jüngsten',en:'the youngest'},
-  {id:'w553',category:'adjectives',adjectiveCategory:'comparison',de:'mehr',en:'more'},
-  {id:'w554',category:'adjectives',adjectiveCategory:'comparison',de:'am meisten',en:'the most'},
-  {id:'w555',category:'adjectives',adjectiveCategory:'comparison',de:'weniger',en:'less'},
-  {id:'w556',category:'adjectives',adjectiveCategory:'comparison',de:'am wenigsten',en:'the least'},
-  {id:'w557',category:'adjectives',adjectiveCategory:'comparison',de:'lieber',en:'rather / preferably'},
-  {id:'w558',category:'adjectives',adjectiveCategory:'comparison',de:'am liebsten',en:'most preferably'},
-  {id:'w559',category:'adjectives',adjectiveCategory:'comparison',de:'höher',en:'higher'},
-  {id:'w560',category:'adjectives',adjectiveCategory:'comparison',de:'am höchsten',en:'the highest'},
-  {id:'w561',category:'adjectives',adjectiveCategory:'comparison',de:'näher',en:'closer'},
-  {id:'w562',category:'adjectives',adjectiveCategory:'comparison',de:'am nächsten',en:'the closest / next'}
-);

@@ -1,171 +1,466 @@
 const vocabularyWork = [
   {
-    "id": "w162",
-    "category": "work",
-    "de": "der Beruf",
-    "en": "profession"
+    "id": "400",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "profession"
+      },
+      "de": {
+        "text": "der Beruf",
+        "article": "der"
+      },
+      "it": {
+        "text": "professione"
+      }
+    }
   },
   {
-    "id": "w163",
-    "category": "work",
-    "de": "der Kollege",
-    "en": "colleague (male)"
+    "id": "401",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "colleague (male)"
+      },
+      "de": {
+        "text": "der Kollege",
+        "article": "der"
+      },
+      "it": {
+        "text": "collega (uomo)"
+      }
+    }
   },
   {
-    "id": "w164",
-    "category": "work",
-    "de": "die Kollegin",
-    "en": "colleague (female)"
+    "id": "402",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "colleague (female)"
+      },
+      "de": {
+        "text": "die Kollegin",
+        "article": "die"
+      },
+      "it": {
+        "text": "collega (donna)"
+      }
+    }
   },
   {
-    "id": "w165",
-    "category": "work",
-    "de": "der Chef",
-    "en": "boss (male)"
+    "id": "403",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "boss (male)"
+      },
+      "de": {
+        "text": "der Chef",
+        "article": "der"
+      },
+      "it": {
+        "text": "boss (uomo)"
+      }
+    }
   },
   {
-    "id": "w166",
-    "category": "work",
-    "de": "die Chefin",
-    "en": "boss (female)"
+    "id": "404",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "boss (female)"
+      },
+      "de": {
+        "text": "die Chefin",
+        "article": "die"
+      },
+      "it": {
+        "text": "boss (femmina)"
+      }
+    }
   },
   {
-    "id": "w167",
-    "category": "work",
-    "de": "die Besprechung",
-    "en": "meeting"
+    "id": "405",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "meeting"
+      },
+      "de": {
+        "text": "die Besprechung",
+        "article": "die"
+      },
+      "it": {
+        "text": "della riunione della &#09;&#09;&#09;&#09;&#09;&#09;&#09;Consulta dei Dottorandi"
+      }
+    }
   },
   {
-    "id": "w168",
-    "category": "work",
-    "de": "der Termin",
-    "en": "appointment"
+    "id": "406",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "appointment"
+      },
+      "de": {
+        "text": "der Termin",
+        "article": "der"
+      },
+      "it": {
+        "text": "appuntamento"
+      }
+    }
   },
   {
-    "id": "w169",
-    "category": "work",
-    "de": "die E-Mail",
-    "en": "email"
+    "id": "407",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "email"
+      },
+      "de": {
+        "text": "die E-Mail",
+        "article": "die"
+      },
+      "it": {
+        "text": "la mail"
+      }
+    }
   },
   {
-    "id": "w170",
-    "category": "work",
-    "de": "der Computer",
-    "en": "computer"
+    "id": "408",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "computer"
+      },
+      "de": {
+        "text": "der Computer",
+        "article": "der"
+      },
+      "it": {
+        "text": "il computer"
+      }
+    }
   },
   {
-    "id": "w171",
-    "category": "work",
-    "de": "das Telefon",
-    "en": "telephone"
+    "id": "409",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "telephone"
+      },
+      "de": {
+        "text": "das Telefon",
+        "article": "das"
+      },
+      "it": {
+        "text": "telefono"
+      }
+    }
   },
   {
-    "id": "w172",
-    "category": "work",
-    "de": "die Pause",
-    "en": "break"
+    "id": "410",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "break"
+      },
+      "de": {
+        "text": "die Pause",
+        "article": "die"
+      },
+      "it": {
+        "text": "di pausa"
+      }
+    }
   },
   {
-    "id": "w173",
-    "category": "work",
-    "de": "das Problem",
-    "en": "problem"
+    "id": "411",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "problem"
+      },
+      "de": {
+        "text": "das Problem",
+        "article": "das"
+      },
+      "it": {
+        "text": "al ventilatore"
+      }
+    }
   },
   {
-    "id": "w174",
-    "category": "work",
-    "de": "die Lösung",
-    "en": "solution"
+    "id": "412",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "solution"
+      },
+      "de": {
+        "text": "die Lösung",
+        "article": "die"
+      },
+      "it": {
+        "text": "ammoniacali"
+      }
+    }
   },
   {
-    "id": "w175",
-    "category": "work",
-    "de": "beginnen",
-    "en": "to begin"
+    "id": "413",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "workplace"
+      },
+      "de": {
+        "text": "der Arbeitsplatz",
+        "article": "der"
+      },
+      "it": {
+        "text": "luogo di lavoro"
+      }
+    }
   },
   {
-    "id": "w176",
-    "category": "work",
-    "de": "enden",
-    "en": "to end"
+    "id": "414",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "task"
+      },
+      "de": {
+        "text": "die Aufgabe",
+        "article": "die"
+      },
+      "it": {
+        "text": "compito"
+      }
+    }
   },
   {
-    "id": "w177",
-    "category": "work",
-    "de": "erklären",
-    "en": "to explain"
+    "id": "415",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "project"
+      },
+      "de": {
+        "text": "das Projekt",
+        "article": "das"
+      },
+      "it": {
+        "text": "progetto"
+      }
+    }
   },
   {
-    "id": "w326",
-    "category": "work",
-    "de": "der Arbeitsplatz",
-    "en": "workplace"
+    "id": "416",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "plan"
+      },
+      "de": {
+        "text": "der Plan",
+        "article": "der"
+      },
+      "it": {
+        "text": "pianifica"
+      }
+    }
   },
   {
-    "id": "w327",
-    "category": "work",
-    "de": "die Aufgabe",
-    "en": "task"
+    "id": "417",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "experience"
+      },
+      "de": {
+        "text": "die Erfahrung",
+        "article": "die"
+      },
+      "it": {
+        "text": "esperienza"
+      }
+    }
   },
   {
-    "id": "w328",
-    "category": "work",
-    "de": "das Projekt",
-    "en": "project"
+    "id": "418",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "company"
+      },
+      "de": {
+        "text": "die Firma",
+        "article": "die"
+      },
+      "it": {
+        "text": "società"
+      }
+    }
   },
   {
-    "id": "w329",
-    "category": "work",
-    "de": "der Plan",
-    "en": "plan"
+    "id": "419",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "holiday / vacation"
+      },
+      "de": {
+        "text": "der Urlaub",
+        "article": "der"
+      },
+      "it": {
+        "text": "Vacanza"
+      }
+    }
   },
   {
-    "id": "w330",
-    "category": "work",
-    "de": "die Erfahrung",
-    "en": "experience"
+    "id": "420",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "wage"
+      },
+      "de": {
+        "text": "der Lohn",
+        "article": "der"
+      },
+      "it": {
+        "text": "salario"
+      }
+    }
   },
   {
-    "id": "w331",
-    "category": "work",
-    "de": "die Firma",
-    "en": "company"
+    "id": "421",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "project"
+      },
+      "de": {
+        "text": "das Projekt",
+        "article": "das"
+      },
+      "it": {
+        "text": "progetto"
+      }
+    }
   },
   {
-    "id": "w332",
-    "category": "work",
-    "de": "der Urlaub",
-    "en": "holiday / vacation"
+    "id": "422",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "task"
+      },
+      "de": {
+        "text": "die Aufgabe",
+        "article": "die"
+      },
+      "it": {
+        "text": "compito"
+      }
+    }
   },
   {
-    "id": "w333",
-    "category": "work",
-    "de": "der Lohn",
-    "en": "wage"
+    "id": "423",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "workplace"
+      },
+      "de": {
+        "text": "der Arbeitsplatz",
+        "article": "der"
+      },
+      "it": {
+        "text": "luogo di lavoro"
+      }
+    }
   },
   {
-    "id": "w334",
-    "category": "work",
-    "de": "verdienen",
-    "en": "to earn"
+    "id": "424",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "contract"
+      },
+      "de": {
+        "text": "der Vertrag",
+        "article": "der"
+      },
+      "it": {
+        "text": "contratto"
+      }
+    }
   },
   {
-    "id": "w335",
-    "category": "work",
-    "de": "besprechen",
-    "en": "to discuss"
+    "id": "425",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "report"
+      },
+      "de": {
+        "text": "der Bericht",
+        "article": "der"
+      },
+      "it": {
+        "text": "La relazione"
+      }
+    }
   },
   {
-    "id": "w336",
-    "category": "work",
-    "de": "unterschreiben",
-    "en": "to sign"
+    "id": "426",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "meeting"
+      },
+      "de": {
+        "text": "die Besprechung",
+        "article": "die"
+      },
+      "it": {
+        "text": "della riunione della &#09;&#09;&#09;&#09;&#09;&#09;&#09;Consulta dei Dottorandi"
+      }
+    }
   },
   {
-    "id": "w337",
-    "category": "work",
-    "de": "suchen",
-    "en": "to look for"
+    "id": "427",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "solution"
+      },
+      "de": {
+        "text": "die Lösung",
+        "article": "die"
+      },
+      "it": {
+        "text": "ammoniacali"
+      }
+    }
   },
-  {"id":"w679","category":"work","de":"das Projekt","en":"project"},{"id":"w680","category":"work","de":"die Aufgabe","en":"task"},{"id":"w681","category":"work","de":"der Arbeitsplatz","en":"workplace"},{"id":"w682","category":"work","de":"der Vertrag","en":"contract"},{"id":"w683","category":"work","de":"der Bericht","en":"report"},{"id":"w684","category":"work","de":"die Besprechung","en":"meeting"},{"id":"w685","category":"work","de":"die Lösung","en":"solution"},{"id":"w686","category":"work","de":"das Detail","en":"detail"}
+  {
+    "id": "428",
+    "level": "B1",
+    "translations": {
+      "en": {
+        "text": "detail"
+      },
+      "de": {
+        "text": "das Detail",
+        "article": "das"
+      },
+      "it": {
+        "text": "particolare"
+      }
+    }
+  }
 ];
