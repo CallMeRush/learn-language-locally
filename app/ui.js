@@ -60,6 +60,7 @@ function renderGrammar() {
     })
     .join("");
   bindGrammarQuestionList();
+  bindGrammarInteractions();
 }
 function renderGrammarTest(index) {
   var lesson = grammarLessons[index],
@@ -92,4 +93,73 @@ function grammarTestHtmlCanonical(lesson, index) {
       .join("");
   return `<div class="grammar-test" data-grammar-index="${index}"><p class="grammar-test-prompt" data-grammar-prompt>${prompt(test)}</p><input data-grammar-answer placeholder="Type your answer…" autocomplete="off" /><button class="secondary-btn" data-grammar-check>Check answer <span>↵</span></button><button class="subtle-btn" data-grammar-hint>Hint</button><button class="subtle-btn" data-grammar-next>New question ↻</button><div class="grammar-test-feedback" data-grammar-feedback></div><aside class="grammar-question-list">${questions}</aside></div>`;
 }
+
+function bindGrammarInteractions() {
+  $$("[data-grammar-check]").forEach((button) => {
+    button.onclick = () => {
+      var card = button.closest("[data-grammar-index]"),
+        index = Number(card.dataset.grammarIndex),
+        test = grammarLessons[index].tests[grammarTestState[index]],
+        answer = card.querySelector("[data-grammar-answer]").value,
+        ok = test.answers.some(
+          (expected) => grammarNormalize(answer) === grammarNormalize(expected),
+        ),
+        feedback = card.querySelector("[data-grammar-feedback]"),
+        mark = card.querySelector(
+          `[data-grammar-mark="${grammarTestState[index]}"]`,
+        );
+      grammarAnswered[index] = true;
+      grammarCorrect[index] = ok;
+      feedback.textContent = ok
+        ? "Richtig! Press Enter again for the next question."
+        : "The grammar answer is wrong. Use Hint if needed.";
+      feedback.className = "grammar-test-feedback " + (ok ? "good" : "bad");
+      if (mark) {
+        mark.textContent = ok ? "✓" : "✕";
+        mark.className = ok ? "correct" : "wrong";
+      }
+    };
+  });
+  $$('[data-grammar-answer]').forEach((input) => {
+    input.onkeydown = (event) => {
+      if (event.key !== "Enter") return;
+      event.preventDefault();
+      var card = input.closest("[data-grammar-index]"),
+        index = Number(card.dataset.grammarIndex);
+      if (grammarAnswered[index] && grammarCorrect[index])
+        card.querySelector("[data-grammar-next]").click();
+      else card.querySelector("[data-grammar-check]").click();
+    };
+  });
+  $$('[data-grammar-hint]').forEach((button) => {
+    button.onclick = () => {
+      var card = button.closest("[data-grammar-index]"),
+        index = Number(card.dataset.grammarIndex),
+        test = grammarLessons[index].tests[grammarTestState[index]],
+        feedback = card.querySelector("[data-grammar-feedback]");
+      feedback.textContent = "Hint · Answer: " + test.answers.join(" / ");
+      feedback.className = "grammar-test-feedback hint";
+    };
+  });
+  $$('[data-grammar-next]').forEach((button) => {
+    button.onclick = () => {
+      var card = button.closest("[data-grammar-index]"),
+        index = Number(card.dataset.grammarIndex),
+        tests = grammarLessons[index].tests;
+      grammarTestState[index] =
+        (grammarTestState[index] + 1) % tests.length;
+      renderGrammarTest(index);
+      card
+        .querySelectorAll("[data-grammar-question]")
+        .forEach((link) =>
+          link.classList.toggle(
+            "active",
+            Number(link.dataset.grammarQuestion) === grammarTestState[index],
+          ),
+        );
+      bindGrammarInteractions();
+    };
+  });
+}
+
 renderGrammar();

@@ -7,21 +7,19 @@ record, and language-specific metadata belongs inside that translation.
 
 ```js
 {
-  id: 'vocab.house.table',
-  type: 'vocabulary',
-  category: 'house',
+  id: '1',
   level: 'A1',
   translations: {
     en: { text: 'table' },
-    de: { text: 'Tisch', article: 'der' },
-    it: { text: 'tavolo', article: 'il' }
+    de: { text: 'der Tisch', article: 'der' },
+    it: { text: 'tavolo' }
   }
 }
 ```
 
-The example above shows the intended shape: translation values are objects,
-not plain strings, so languages with articles, classifiers, gender, or other
-language-specific data can store those properties without affecting English.
+Translation values are objects, not plain strings. Languages with articles,
+classifiers, gender, or other language-specific data can store those
+properties without affecting languages that do not need them.
 
 The learning content is intentionally kept separate from the interface logic.
 

@@ -61,7 +61,13 @@ function mixedSetOptions(items, correct, property) {
     .slice(0, 3);
   return [correct, ...distractors]
     .sort(() => Math.random() - 0.5)
-    .map((item) => (property ? item[property] : item));
+    .map((item) =>
+      typeof property === "function"
+        ? property(item)
+        : property
+          ? item[property]
+          : item,
+    );
 }
 function nextMixed() {
   refreshArticleChoices();
@@ -129,7 +135,7 @@ function nextMixed() {
       mixedSetOptions(
         vocab.filter((word) => word.level === q.level),
         item,
-        selectedSourceLanguage,
+        sourceText,
       ).forEach((option) => {
         var button = document.createElement("button");
         button.className = "choice-option";
@@ -162,7 +168,7 @@ function nextMixed() {
       mixedSetOptions(
         phrases.filter((phrase) => mixedLevelOfPhrase(phrase) === q.level),
         item,
-        selectedTargetLanguage,
+        targetText,
       ).forEach((option) => {
         var button = document.createElement("button");
         button.className = "choice-option";

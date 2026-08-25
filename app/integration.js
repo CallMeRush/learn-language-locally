@@ -57,7 +57,7 @@ $("#next-mixed").onclick = nextMixed;
 $("#mixed-answer").onkeydown = (e) => {
   if (e.key !== "Enter") return;
   e.preventDefault();
-  if (mixedAnswered) nextMixed();
+  if (mixedAnswered && mixedCorrect) nextMixed();
   else checkMixed();
 };
 $$("[data-mixed-level]").forEach(

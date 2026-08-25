@@ -339,7 +339,7 @@ document.addEventListener("keydown", (e) => {
 $$(".heading-actions").forEach((el) =>
   el.insertAdjacentHTML(
     "afterbegin",
-    '<div class="mode-switch vocab-direction"><button class="vocab-mode active" data-vocab-mode="meaning"></button><button class="vocab-mode" data-vocab-mode="translate"></button></div>',
+    '<div class="mode-switch vocab-direction"><button class="vocab-mode" data-vocab-mode="meaning"></button><button class="vocab-mode active" data-vocab-mode="translate"></button></div>',
   ),
 );
 $$('[data-practice="translate"]').forEach(
@@ -373,7 +373,6 @@ $(".phrase-layout").insertAdjacentHTML(
   '<div id="phrase-categories" class="phrase-category-tabs"></div>',
 );
 renderPhraseCategories();
-renderGrammar();
 $$(".nav-item[data-category]").forEach(
   (button) =>
     (button.onclick = () => {
@@ -434,37 +433,6 @@ function grammarNormalize(value) {
     .replace(/[.,!?;:]/g, "")
     .replace(/\s+/g, " ");
 }
-$$("[data-grammar-check]").forEach(
-  (button) =>
-    (button.onclick = () => {
-      var card = button.closest("[data-grammar-index]"),
-        index = Number(card.dataset.grammarIndex),
-        test = grammarLessons[index].tests[grammarTestState[index]],
-        answer = card.querySelector("[data-grammar-answer]").value,
-        ok = test.answers.some(
-          (expected) => grammarNormalize(answer) === grammarNormalize(expected),
-        ),
-        feedback = card.querySelector("[data-grammar-feedback]");
-      grammarAnswered[index] = true;
-      grammarCorrect[index] = ok;
-      feedback.textContent = ok
-        ? "Richtig! Press Enter again for the next question."
-        : "The grammar answer is wrong. Use Hint if needed.";
-      feedback.className = "grammar-test-feedback " + (ok ? "good" : "bad");
-    }),
-);
-$$("[data-grammar-answer]").forEach(
-  (input) =>
-    (input.onkeydown = (e) => {
-      if (e.key !== "Enter") return;
-      e.preventDefault();
-      var card = input.closest("[data-grammar-index]"),
-        index = Number(card.dataset.grammarIndex);
-      if (grammarAnswered[index] && grammarCorrect[index])
-        card.querySelector("[data-grammar-next]").click();
-      else card.querySelector("[data-grammar-check]").click();
-    }),
-);
 var bindGrammarQuestionList = () => {
   $$("[data-grammar-question]").forEach(
     (button) =>

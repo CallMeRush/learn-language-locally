@@ -28,3 +28,5 @@
 @media(max-width:850px){.vocab-layout .practice-panel,.vocab-layout .word-list{grid-column:auto;grid-row:auto}.vocab-layout .practice-panel{min-height:0}.vocab-layout .word-list{max-height:400px}}
  .language-pair-controls{display:flex;align-items:center;gap:8px;margin-right:12px;font-size:11px;color:var(--muted,#68706b);white-space:nowrap}.language-pair-controls label{display:flex;align-items:center;gap:5px}.language-pair-controls select{border:1px solid var(--line,#d8ddd8);border-radius:7px;background:var(--paper,#fff);padding:7px 24px 7px 8px;color:var(--ink,#202521);font:inherit}.language-pair-controls button{width:30px;height:30px;border:1px solid var(--line,#d8ddd8);border-radius:50%;background:var(--paper,#fff);color:var(--ink,#202521);cursor:pointer;font-size:16px}.language-pair-controls button:hover{background:var(--green-pale,#eef4e9)}
 .topbar{justify-content:flex-end}
+/* Project logo */
+.brand-mark{object-fit:contain;border-radius:7px}

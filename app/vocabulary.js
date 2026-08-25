@@ -301,7 +301,9 @@ var genericClozeStopwords = new Set([
 function refreshArticleChoices() {
   var articles = [
     ...new Set(vocab.map((item) => targetArticle(item)).filter(Boolean)),
-  ];
+  ].sort((a, b) =>
+    ["der", "die", "das"].indexOf(a) - ["der", "die", "das"].indexOf(b),
+  );
   [
     ["#article-choices", "[data-article]"],
     ["#mixed-article", "[data-mixed-article]"],
@@ -359,7 +361,9 @@ function checkVocab() {
         ? answerMatches(raw, german)
         : answerIncludes(raw, target),
     ok = articleCorrect && wordCorrect;
-  vocabAnswered = true;
+  // A wrong answer is a retry, not completion of this card. This keeps the
+  // current word active until the learner actually answers it correctly.
+  vocabAnswered = !!ok;
   vocabCorrect = !!ok;
   state.attempts++;
   if (ok) {
