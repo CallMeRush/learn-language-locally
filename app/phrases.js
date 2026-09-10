@@ -49,11 +49,11 @@ function phraseChoiceOptions(p, cloze) {
     target = clean(cloze.word),
     targetPool = phrases
       .flatMap((phrase) =>
-        phrase.translations?.[selectedTargetLanguage]?.text?.split(" ")[
+        phrase.translations?.["de"]?.text?.split(" ")[
           cloze.index
         ]
           ? [
-              phrase.translations[selectedTargetLanguage].text.split(" ")[
+              phrase.translations["de"].text.split(" ")[
                 cloze.index
               ],
             ]
@@ -83,13 +83,7 @@ function renderPhraseCategories() {
   el.innerHTML = categories
     .map((category) => {
       var label =
-        category === "all"
-          ? selectedSourceLanguage === "de"
-            ? "Alle Sätze"
-            : selectedSourceLanguage === "it"
-              ? "Tutte le frasi"
-              : "All phrases"
-          : categoryLabel(category);
+        category === "all" ? "All phrases" : categoryLabel(category);
       return `<button class="${phraseCategory === category ? "active" : ""}" data-phrase-category="${category}">${label}</button>`;
     })
     .join("");
@@ -191,7 +185,7 @@ function checkPhrase(reveal = false) {
     state.correct++;
     if (!state.phrases.includes(p.id)) state.phrases.push(p.id);
     $("#phrase-feedback").textContent =
-      "Sehr gut! Press Enter again for the next phrase.";
+      "Very good! Press Enter again for the next phrase.";
     $("#phrase-feedback").className = "feedback good";
   } else {
     if (!state.issues.includes(p.id)) state.issues.push(p.id);

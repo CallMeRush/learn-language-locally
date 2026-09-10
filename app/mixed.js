@@ -28,6 +28,7 @@ function mixedPool() {
           level: mixedLevelOfPhrase(phrase),
           item: phrase,
         });
+        pool.push({ kind: "phrase-reverse", level: mixedLevelOfPhrase(phrase), item: phrase });
         pool.push({
           kind: "phrase-cloze",
           level: mixedLevelOfPhrase(phrase),
@@ -85,6 +86,7 @@ function nextMixed() {
       "vocab-translate": "VOCABULARY · TRANSLATE",
       "vocab-choice": "VOCABULARY · MULTIPLE CHOICE",
       "phrase-translate": "PHRASE · TRANSLATE",
+      "phrase-reverse": "PHRASE · GERMAN → ENGLISH",
       "phrase-cloze": "PHRASE · FILL THE BLANK",
       "phrase-choice": "PHRASE · MULTIPLE CHOICE",
       grammar: "GRAMMAR",
@@ -152,10 +154,12 @@ function nextMixed() {
       });
     }
   } else if (q.kind.startsWith("phrase")) {
-    $("#mixed-prompt").textContent = sourceText(item);
+    $("#mixed-prompt").textContent = q.kind === "phrase-reverse" ? targetText(item) : sourceText(item);
     $("#mixed-hint").textContent =
       q.kind === "phrase-cloze"
         ? "Complete the missing word."
+        : q.kind === "phrase-reverse"
+          ? "Translate this into English."
         : q.kind === "phrase-choice"
           ? translatePrompt()
           : translatePrompt();
@@ -201,14 +205,17 @@ function checkMixed() {
     article = targetArticle(item),
     word = targetText(item)
       ? article
-        ? normalizeAnswer(targetText(item).replace(/^(der|die|das) /))
-        : normalizeAnswer(targetText(item))
+        ? targetText(item).replace(/^(der|die|das) /, "")
+        : targetText(item)
       : "",
     articleCorrect = !article || mixedArticle === article;
   var wordCorrect = false;
-  if (q.kind === "vocab-translate") wordCorrect = answerMatches(raw, word);
+  if (q.kind === "vocab-translate") wordCorrect = answerMatches(raw, word,
+    targetMeta(item).caseSensitive ? value => String(value).trim().replace(/\s+/g, " ") : normalizeAnswer);
   else if (q.kind === "vocab-meaning" || q.kind === "vocab-choice")
     wordCorrect = answerIncludes(raw, sourceText(item));
+  else if (q.kind === "phrase-reverse")
+    wordCorrect = answerMatches(raw, sourceText(item), grammarNormalize);
   else if (q.kind === "phrase-cloze")
     wordCorrect = answerMatches(raw, clozeFor(item).word);
   else if (q.kind === "phrase-translate" || q.kind === "phrase-choice")
@@ -230,7 +237,7 @@ function checkMixed() {
     if (q.kind.startsWith("phrase") && !state.phrases.includes(item.id))
       state.phrases.push(item.id);
     $("#mixed-feedback").textContent =
-      "Richtig! Press Enter again for the next question.";
+      "Correct! Press Enter again for the next question.";
     $("#mixed-feedback").className = "feedback good";
     registerStudy();
     save();
@@ -299,12 +306,7 @@ $$(".vocab-mode").forEach(
     }),
 );
 function lessonLocale(lesson) {
-  return (
-    lesson.localized?.[selectedSourceLanguage] ||
-    lesson.localized?.en ||
-    Object.values(lesson.localized || {})[0] ||
-    {}
-  );
+  return lesson.localized.en;
 }
 function lessonPool(lesson) {
   var activities = lesson.activities || [],
@@ -323,8 +325,8 @@ function lessonPool(lesson) {
       .filter((a) => a.type === "grammar")
       .flatMap((a) => a.topics || []);
   var categoryMatch = (word) =>
-    vocabCategories.includes(word.category) ||
-    verbCategories.includes(word.verbCategory);
+    word.level === lesson.level && (vocabCategories.includes(word.category) ||
+    verbCategories.includes(word.verbCategory));
   vocab.filter(categoryMatch).forEach((word) => {
     pool.push({ kind: "vocab-meaning", level: word.level, item: word });
     pool.push({ kind: "vocab-translate", level: word.level, item: word });
@@ -332,10 +334,11 @@ function lessonPool(lesson) {
   });
   phrases
 
-    .filter((phrase) => phraseCategories.includes(phrase.category))
+    .filter((phrase) => mixedLevelOfPhrase(phrase) === lesson.level && phraseCategories.includes(phrase.category))
     .forEach((phrase) => {
       var level = mixedLevelOfPhrase(phrase);
       pool.push({ kind: "phrase-translate", level, item: phrase });
+      pool.push({ kind: "phrase-reverse", level, item: phrase });
       pool.push({ kind: "phrase-cloze", level, item: phrase });
       pool.push({ kind: "phrase-choice", level, item: phrase });
     });

@@ -1,82 +1,98 @@
 const verbEnvironment = [
   {
-    "id": "693",
+    "id": "10838",
     "level": "B1",
-    "translations": {
-      "en": {
-        "text": "to recycle"
-      },
-      "de": {
-        "text": "recyceln"
-      },
-      "it": {
-        "text": "riciclare"
-      }
-    },
-    "verbCategory": "environment"
-  },
-  {
-    "id": "694",
-    "level": "B1",
+    "pos": "verb",
+    "topic": "environment",
     "translations": {
       "en": {
         "text": "to protect"
       },
       "de": {
-        "text": "schützen"
-      },
-      "it": {
-        "text": "tutela dei trattamenti"
+        "text": "schützen",
+        "separable": false
       }
     },
-    "verbCategory": "environment"
+    "sourceIndex": 838
   },
   {
-    "id": "695",
+    "id": "16463",
     "level": "B1",
+    "pos": "verb",
+    "topic": "environment",
     "translations": {
       "en": {
-        "text": "to reduce"
+        "text": "to waste"
       },
       "de": {
-        "text": "reduzieren"
-      },
-      "it": {
-        "text": "per diminuire"
+        "text": "verschwenden",
+        "separable": false
       }
     },
-    "verbCategory": "environment"
+    "sourceIndex": 6463
   },
   {
-    "id": "696",
+    "id": "16488",
     "level": "B1",
+    "pos": "verb",
+    "topic": "environment",
     "translations": {
       "en": {
-        "text": "to separate"
+        "text": "to protect"
       },
       "de": {
-        "text": "trennen"
-      },
-      "it": {
-        "text": "separare"
+        "text": "beschützen",
+        "separable": false
       }
     },
-    "verbCategory": "environment"
+    "sourceIndex": 6488
   },
   {
-    "id": "697",
+    "id": "22774",
     "level": "B1",
+    "pos": "verb",
+    "topic": "environment",
     "translations": {
       "en": {
-        "text": "to heat"
+        "text": "to flood / to inundate"
       },
       "de": {
-        "text": "heizen"
-      },
-      "it": {
-        "text": "AL CALORE"
+        "text": "überschwemmen",
+        "separable": false
       }
     },
-    "verbCategory": "environment"
+    "sourceIndex": 12774
+  },
+  {
+    "id": "26790",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "environment",
+    "translations": {
+      "en": {
+        "text": "to pollute"
+      },
+      "de": {
+        "text": "verschmutzen",
+        "separable": false
+      }
+    },
+    "sourceIndex": 16790
+  },
+  {
+    "id": "29141",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "environment",
+    "translations": {
+      "en": {
+        "text": "to waste / to squander"
+      },
+      "de": {
+        "text": "vergeuden",
+        "separable": false
+      }
+    },
+    "sourceIndex": 19141
   }
 ];

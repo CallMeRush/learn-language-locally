@@ -1,0 +1,7 @@
+[
+  {"id":"40001","word":"müssen","english":"must / to have to","level":"A1","topic":"modal","sentenceGerman":"Ich muss heute arbeiten.","sentenceEnglish":"I have to work today."},
+  {"id":"40002","word":"dürfen","english":"may / to be allowed to","level":"A1","topic":"modal","sentenceGerman":"Darf ich das Fenster öffnen?","sentenceEnglish":"May I open the window?"},
+  {"id":"40003","word":"sollen","english":"should / to be supposed to","level":"A1","topic":"modal","sentenceGerman":"Du sollst mehr Wasser trinken.","sentenceEnglish":"You should drink more water."},
+  {"id":"40004","word":"wollen","english":"to want to","level":"A1","topic":"modal","sentenceGerman":"Wir wollen Deutsch lernen.","sentenceEnglish":"We want to learn German."},
+  {"id":"40005","word":"mögen","english":"to like","level":"A1","topic":"modal","sentenceGerman":"Ich mag diesen Film.","sentenceEnglish":"I like this film."}
+]

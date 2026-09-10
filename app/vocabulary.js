@@ -91,7 +91,7 @@ function categoryCount(key) {
 function categoryLabel(key) {
   var record = categoryRecords.find((item) => item.id === key),
     localized =
-      record?.localized?.[selectedSourceLanguage] || record?.localized?.en;
+      record?.localized?.en;
   return localized?.label || key;
 }
 function renderCategories() {
@@ -188,6 +188,7 @@ function renderVocabulary() {
 function showVocabCard() {
   refreshArticleChoices();
   var words = currentWords();
+  activeVocabWord = words[vocabIndex % words.length] || null;
   if (!words.length) {
     $("#practice-word").textContent = "—";
     $("#practice-prompt").textContent =
@@ -228,6 +229,7 @@ function showVocabCard() {
   $$("[data-article]").forEach((b) => b.classList.remove("selected"));
   $("#vocab-answer").style.display = vocabMode === "choice" ? "none" : "";
   var choices = $("#vocab-choice-options");
+  choices.innerHTML = "";
   choices.style.display = vocabMode === "choice" ? "grid" : "none";
   if (vocabMode === "choice") {
     var distractors = words
@@ -255,14 +257,14 @@ function showVocabCard() {
   $("#vocab-feedback").textContent = "";
   $("#vocab-feedback").className = "feedback";
 }
-var targetLanguageName = () => languagePairs[selectedTargetLanguage].name;
-var sourceLanguageName = () => languagePairs[selectedSourceLanguage].name;
+var targetLanguageName = () => "German";
+var sourceLanguageName = () => "English";
 var translatePrompt = () =>
-  interfaceText[selectedSourceLanguage].translate +
+  "Translate this into" +
   " " +
   targetLanguageName() +
   ".";
-var meaningPrompt = () => interfaceText[selectedSourceLanguage].meaning;
+var meaningPrompt = () => "What does this mean?";
 var genericClozeStopwords = new Set([
   "a",
   "an",
@@ -290,13 +292,6 @@ var genericClozeStopwords = new Set([
   "wir",
   "ihr",
   "Sie",
-  "io",
-  "tu",
-  "lui",
-  "lei",
-  "noi",
-  "voi",
-  "loro",
 ]);
 function refreshArticleChoices() {
   var articles = [
@@ -318,8 +313,8 @@ function refreshArticleChoices() {
       var article = articles[index];
       button.style.display = article ? "" : "none";
       if (article) {
-        button.dataset.article = article;
-        button.dataset.mixedArticle = article;
+        if (selector === "[data-article]") button.dataset.article = article;
+        else button.dataset.mixedArticle = article;
         button.textContent = article;
       }
     });
@@ -333,21 +328,30 @@ function normalizeAnswer(value) {
 }
 function answerMatches(answer, expected, normalizer = normalizeAnswer) {
   var actual = normalizer(answer);
-  return String(expected ?? "")
-    .split("/")
+  if (!actual) return false;
+  if (actual === normalizer(expected)) return true;
+  return splitAnswerAlternatives(expected)
     .some((option) => actual === normalizer(option));
 }
+function splitAnswerAlternatives(value) {
+  var depth = 0, part = "", alternatives = [];
+  for (var character of String(value ?? "")) {
+    if (character === "(") depth++;
+    if (character === ")") depth--;
+    if ((character === "/" || character === ";") && depth === 0) {
+      alternatives.push(part.trim());
+      part = "";
+    } else part += character;
+  }
+  alternatives.push(part.trim());
+  return alternatives.filter(Boolean);
+}
 function answerIncludes(answer, expected, normalizer = normalizeAnswer) {
-  var actual = normalizer(answer);
-  return String(expected ?? "")
-    .split("/")
-    .some((option) => {
-      var value = normalizer(option);
-      return value.includes(actual) || actual.includes(value);
-    });
+  return answerMatches(answer, expected, normalizer);
 }
 function checkVocab() {
-  var w = currentWords()[vocabIndex % currentWords().length],
+  if (!activeVocabWord || vocabCorrect) return;
+  var w = activeVocabWord,
     raw =
       vocabMode === "choice" ? selectedVocabChoice : $("#vocab-answer").value,
     article = targetArticle(w),
@@ -358,7 +362,7 @@ function checkVocab() {
     articleCorrect = !article || selectedArticle === article,
     wordCorrect =
       vocabMode === "translate"
-        ? answerMatches(raw, german)
+        ? answerMatches(raw, german, targetMeta(w).caseSensitive ? value => String(value).trim().replace(/\s+/g, " ") : normalizeAnswer)
         : answerIncludes(raw, target),
     ok = articleCorrect && wordCorrect;
   // A wrong answer is a retry, not completion of this card. This keeps the
@@ -370,7 +374,7 @@ function checkVocab() {
     state.correct++;
     if (!state.learned.includes(w.id)) state.learned.push(w.id);
     $("#vocab-feedback").textContent =
-      "Richtig! Press Enter again for the next word.";
+      "Correct! Press Enter again for the next word.";
     $("#vocab-feedback").className = "feedback good";
     registerStudy();
     save();
@@ -392,8 +396,10 @@ function checkVocab() {
 }
 function nextVocab() {
   var words = currentWords();
+  if (!words.length) { vocabIndex = 0; showVocabCard(); return; }
+  var currentIndex = words.indexOf(activeVocabWord);
   vocabIndex = randomMode
     ? Math.floor(Math.random() * words.length)
-    : (vocabIndex + 1) % words.length;
+    : currentIndex >= 0 ? (currentIndex + 1) % words.length : vocabIndex % words.length;
   showVocabCard();
 }

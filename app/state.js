@@ -8,7 +8,9 @@ var emptyProgress = () => ({
   lastStudy: null,
   lessons: [],
 });
-var progressKey = () => selectedSourceLanguage + "-" + selectedTargetLanguage;
+// A new corpus must not interpret old IDs as learned words or completed lessons.
+// Previous progress remains stored under its own key, but is not loaded here.
+var progressKey = () => "en-de-deck-efd235e6-v1";
 function loadProgress() {
   var all = JSON.parse(localStorage.getItem("wortwerk-progress") || "{}"),
     value = all[progressKey()] || emptyProgress();
@@ -18,136 +20,20 @@ function loadProgress() {
 var state = loadProgress();
 var translationText = (item, language) =>
   item?.translations?.[language]?.text || "";
-var targetText = (item) => translationText(item, selectedTargetLanguage);
-var sourceText = (item) => translationText(item, selectedSourceLanguage);
-var targetMeta = (item) => item?.translations?.[selectedTargetLanguage] || {};
+var targetText = (item) => translationText(item, "de");
+var sourceText = (item) => translationText(item, "en");
+var targetMeta = (item) => item?.translations?.["de"] || {};
 var targetArticle = (item) => targetMeta(item).article || "";
-var languageControls = document.querySelector(".top-actions");
-languageControls.insertAdjacentHTML(
-  "afterbegin",
-  '<div class="language-pair-controls"><label>From <select id="source-language"><option value="en">English</option><option value="de">German</option><option value="it">Italian</option></select></label><button type="button" id="swap-languages" title="Swap source and target">⇄</button><label>To <select id="target-language"><option value="de">German</option><option value="it">Italian</option><option value="en">English</option></select></label></div>',
-);
-document.querySelector("#source-language").value = selectedSourceLanguage;
-document.querySelector("#target-language").value = selectedTargetLanguage;
-function localizeInterface() {
-  var t = interfaceText[selectedSourceLanguage];
-  var nav = {
-    dashboard: t.overview,
-    grammar: t.grammar,
-    vocabulary: t.vocabulary,
-    verbs: t.verbs,
-    phrases: t.phrases,
-    mixed: t.mixed,
-    lessons: t.lessons,
-    issues: t.issues,
-  };
-  $$(".nav-item").forEach((button) => {
-    var label = nav[button.dataset.view];
-    if (label) {
-      var badge = button.querySelector("b");
-      button.textContent = "";
-      button.append(document.createTextNode(label));
-      if (badge) button.append(badge);
-    }
-  });
-  $("#reset-progress").textContent = t.reset;
-  $("#random-vocab").innerHTML = t.newWord + " <span>↻</span>";
-  $$(".toggle-label").forEach((label) => {
-    if (label.querySelector("#global-random-mode"))
-      label.lastChild.textContent = " " + t.random;
-  });
-  var pair = document.querySelector(".language-pair-controls");
-  if (pair) {
-    pair.querySelector("label:first-child").firstChild.textContent =
-      t.from + " ";
-    pair.querySelector("label:last-child").firstChild.textContent = t.to + " ";
-  }
-  document.title = "Wortwerk — " + t.vocabulary;
-  document.documentElement.lang = selectedSourceLanguage;
-}
 function updateDirectionLabels() {
-  localizeInterface();
-  var source = languagePairs[selectedSourceLanguage].name,
-    target = languagePairs[selectedTargetLanguage].name;
-  $$('.vocab-mode[data-vocab-mode="meaning"]').forEach(
-    (b) => (b.textContent = target + " → " + source),
-  );
-  $$('.vocab-mode[data-vocab-mode="translate"]').forEach(
-    (b) => (b.textContent = source + " → " + target),
-  );
-  $$('[data-practice="translate"]').forEach(
-    (b) => (b.textContent = source + " → " + target),
-  );
-  $$('[data-practice="reverse"]').forEach(
-    (b) => (b.textContent = target + " → " + source),
-  );
-  if (phraseMode === "reverse")
-    $("#phrase-hint").textContent =
-      interfaceText[selectedSourceLanguage].translate + " " + source + ".";
-  else if (phraseMode === "translate")
-    $("#phrase-hint").textContent =
-      interfaceText[selectedSourceLanguage].translate + " " + target + ".";
-  if (mixedQuestion) {
-    var kind = mixedQuestion.kind;
-    if (kind === "vocab-translate" || kind === "phrase-translate")
-      $("#mixed-hint").textContent =
-        interfaceText[selectedSourceLanguage].translate + " " + target + ".";
-    else if (kind === "vocab-meaning" || kind === "vocab-choice")
-      $("#mixed-hint").textContent =
-        interfaceText[selectedSourceLanguage].meaning;
-    else if (kind === "phrase-choice")
-      $("#mixed-hint").textContent =
-        interfaceText[selectedSourceLanguage].translate + " " + target + ".";
-    if (kind.startsWith("vocab"))
-      $("#mixed-answer").placeholder =
-        interfaceText[selectedSourceLanguage].meaning;
-    else if (kind.startsWith("phrase"))
-      $("#mixed-answer").placeholder =
-        interfaceText[selectedSourceLanguage].translate + " " + target + "…";
-  }
+  $$('.vocab-mode').forEach(button => {
+    button.textContent = {meaning: 'German → English', translate: 'English → German', choice: 'Multiple choice'}[button.dataset.vocabMode];
+  });
+  $$('[data-practice="translate"]').forEach(b => b.textContent = 'English → German');
+  $$('[data-practice="reverse"]').forEach(b => b.textContent = 'German → English');
 }
-function switchLanguagePair() {
-  selectedSourceLanguage = document.querySelector("#source-language").value;
-  selectedTargetLanguage = document.querySelector("#target-language").value;
-  if (selectedSourceLanguage === selectedTargetLanguage) {
-    toast("Choose two different languages.");
-    document.querySelector("#target-language").value =
-      selectedTargetLanguage === "en" ? "de" : "en";
-    selectedTargetLanguage = document.querySelector("#target-language").value;
-  }
-  var content = applyLanguagePair();
-  vocab = content.vocabulary;
-  phrases = content.phrases;
-  lessons = content.lessons;
-  grammarLessons =
-    grammarByTarget[selectedTargetLanguage] || grammarByTarget.en;
-  state = loadProgress();
-  localStorage.setItem("wortwerk-source-language", selectedSourceLanguage);
-  localStorage.setItem("wortwerk-target-language", selectedTargetLanguage);
-  selectedCategory = "all";
-  vocabIndex = 0;
-  phraseIndex = 0;
-  activeLesson = null;
-  updateDirectionLabels();
-  updateStats();
-  renderCategories();
-  renderVocabulary();
-  renderPhraseCategories();
-  showPhrase();
-  renderGrammar();
-  renderLessons();
-  nextMixed();
-}
-document.querySelector("#source-language").onchange = switchLanguagePair;
-document.querySelector("#target-language").onchange = switchLanguagePair;
-document.querySelector("#swap-languages").onclick = () => {
-  var source = document.querySelector("#source-language"),
-    target = document.querySelector("#target-language");
-  [source.value, target.value] = [target.value, source.value];
-  switchLanguagePair();
-};
-document.querySelector(".crumb")?.remove();
+document.querySelector('.crumb')?.remove();
 var selectedCategory = "all",
+  activeVocabWord = null,
   vocabIndex = 0,
   vocabLevel = "all",
   vocabStatus = "unseen",

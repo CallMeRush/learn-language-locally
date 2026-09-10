@@ -1,19 +1,8 @@
 function grammarLocaleFor(lesson) {
-  return (
-    lesson.localized?.[selectedSourceLanguage] ||
-    lesson.localized?.en ||
-    lesson.localized?.[lesson.targetLanguage] ||
-    Object.values(lesson.localized || {})[0] ||
-    {}
-  );
+  return lesson.localized.en;
 }
 function grammarLocalizedValue(value) {
-  return typeof value === "string"
-    ? value
-    : value?.[selectedSourceLanguage] ||
-        value?.en ||
-        Object.values(value || {})[0] ||
-        "";
+  return typeof value === "string" ? value : "";
 }
 function renderGrammar() {
   var el = $("#grammar-list");
@@ -61,6 +50,12 @@ function renderGrammar() {
     .join("");
   bindGrammarQuestionList();
   bindGrammarInteractions();
+}
+function grammarTableHtml(table) {
+  return '<div class="grammar-table-wrap"><h3>' + (table.caption || '') +
+    '</h3><table><thead><tr>' + table.headers.map(cell => '<th>' + cell + '</th>').join('') +
+    '</tr></thead><tbody>' + table.rows.map(row => '<tr>' + row.map(cell => '<td>' + cell + '</td>').join('') + '</tr>').join('') +
+    '</tbody></table></div>';
 }
 function renderGrammarTest(index) {
   var lesson = grammarLessons[index],
@@ -111,7 +106,7 @@ function bindGrammarInteractions() {
       grammarAnswered[index] = true;
       grammarCorrect[index] = ok;
       feedback.textContent = ok
-        ? "Richtig! Press Enter again for the next question."
+        ? "Correct! Press Enter again for the next question."
         : "The grammar answer is wrong. Use Hint if needed.";
       feedback.className = "grammar-test-feedback " + (ok ? "good" : "bad");
       if (mark) {

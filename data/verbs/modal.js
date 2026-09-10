@@ -1,114 +1,98 @@
 const verbModal = [
   {
-    "id": "624",
-    "level": "A2",
+    "id": "10006",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "modal",
     "translations": {
       "en": {
-        "text": "to want"
+        "text": "to be able to / can"
       },
       "de": {
-        "text": "möchten"
-      },
-      "it": {
-        "text": "volere"
+        "text": "können",
+        "separable": false
       }
     },
-    "verbCategory": "modal"
+    "sourceIndex": 6
   },
   {
-    "id": "721",
-    "level": "A2",
-    "translations": {
-      "en": {
-        "text": "can / to be able to"
-      },
-      "de": {
-        "text": "können"
-      },
-      "it": {
-        "text": "per poter eseguire"
-      }
-    },
-    "verbCategory": "modal"
-  },
-  {
-    "id": "722",
-    "level": "A2",
+    "id": "40001",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "modal",
     "translations": {
       "en": {
         "text": "must / to have to"
       },
       "de": {
-        "text": "müssen"
-      },
-      "it": {
-        "text": "dovere"
+        "text": "müssen",
+        "separable": false
       }
     },
-    "verbCategory": "modal"
+    "source": "editorial"
   },
   {
-    "id": "723",
-    "level": "A2",
-    "translations": {
-      "en": {
-        "text": "to want to"
-      },
-      "de": {
-        "text": "wollen"
-      },
-      "it": {
-        "text": "volerlo"
-      }
-    },
-    "verbCategory": "modal"
-  },
-  {
-    "id": "724",
-    "level": "A2",
+    "id": "40002",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "modal",
     "translations": {
       "en": {
         "text": "may / to be allowed to"
       },
       "de": {
-        "text": "dürfen"
-      },
-      "it": {
-        "text": "potere/essere autorizzato a"
+        "text": "dürfen",
+        "separable": false
       }
     },
-    "verbCategory": "modal"
+    "source": "editorial"
   },
   {
-    "id": "725",
-    "level": "A2",
+    "id": "40003",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "modal",
     "translations": {
       "en": {
         "text": "should / to be supposed to"
       },
       "de": {
-        "text": "sollen"
-      },
-      "it": {
-        "text": "dovrebbe / si suppone che debba"
+        "text": "sollen",
+        "separable": false
       }
     },
-    "verbCategory": "modal"
+    "source": "editorial"
   },
   {
-    "id": "726",
-    "level": "A2",
+    "id": "40004",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "modal",
+    "translations": {
+      "en": {
+        "text": "to want to"
+      },
+      "de": {
+        "text": "wollen",
+        "separable": false
+      }
+    },
+    "source": "editorial"
+  },
+  {
+    "id": "40005",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "modal",
     "translations": {
       "en": {
         "text": "to like"
       },
       "de": {
-        "text": "mögen"
-      },
-      "it": {
-        "text": "gradire"
+        "text": "mögen",
+        "separable": false
       }
     },
-    "verbCategory": "modal"
+    "source": "editorial"
   }
 ];

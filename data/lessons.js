@@ -1,4 +1,4 @@
-const lessonRecords = [
+const lessons = [
   {
     "id": "1",
     "type": "lesson",
@@ -21,7 +21,8 @@ const lessonRecords = [
       {
         "type": "phrases",
         "categories": [
-          "basics"
+          "greetings",
+          "people"
         ]
       }
     ]
@@ -140,7 +141,8 @@ const lessonRecords = [
         "type": "verbs",
         "categories": [
           "travel",
-          "separable"
+          "daily",
+          "travel"
         ]
       },
       {
@@ -208,7 +210,8 @@ const lessonRecords = [
       {
         "type": "phrases",
         "categories": [
-          "house"
+          "house",
+          "city"
         ]
       },
       {
@@ -252,8 +255,7 @@ const lessonRecords = [
         "type": "phrases",
         "categories": [
           "daily",
-          "travel",
-          "feelings"
+          "travel"
         ]
       },
       {
@@ -296,7 +298,7 @@ const lessonRecords = [
         "type": "phrases",
         "categories": [
           "work",
-          "technology"
+          "communication"
         ]
       },
       {
@@ -331,9 +333,8 @@ const lessonRecords = [
       {
         "type": "phrases",
         "categories": [
-          "adjectives",
           "feelings",
-          "culture"
+          "people"
         ]
       },
       {
@@ -375,8 +376,8 @@ const lessonRecords = [
       {
         "type": "phrases",
         "categories": [
-          "travel",
-          "work"
+          "time",
+          "travel"
         ]
       },
       {
@@ -406,4 +407,3 @@ const lessonRecords = [
     ]
   }
 ];
-const lessons = lessonRecords;

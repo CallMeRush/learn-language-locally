@@ -105,7 +105,7 @@ showPhrase = () => {
     if (p) {
       $("#phrase-question").textContent = targetText(p);
       $("#phrase-hint").textContent =
-        interfaceText[selectedSourceLanguage].translate +
+        "Translate this into" +
         " " +
         sourceLanguageName() +
         ".";
@@ -321,9 +321,8 @@ $$(".phrase-controls > .mode-switch:nth-child(2),.mixed-levels").forEach(
   (element) => element.remove(),
 );
 function showVocabHint() {
-  var words = currentWords();
-  if (!words.length) return;
-  var w = words[vocabIndex % words.length],
+  if (!activeVocabWord) return;
+  var w = activeVocabWord,
     article = targetArticle(w),
     german = targetText(w),
     english = sourceText(w);
@@ -352,6 +351,7 @@ function showMixedHint() {
       clozeFor(item).word +
       " · Full sentence: " +
       targetText(item);
+  else if (q.kind === "phrase-reverse") answer = "Answer: " + sourceText(item);
   else if (q.kind.startsWith("phrase")) answer = "Answer: " + targetText(item);
   else if (q.kind === "vocab-translate") answer = "Answer: " + targetText(item);
   else
