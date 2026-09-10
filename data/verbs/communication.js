@@ -48,6 +48,38 @@ const verbCommunication = [
     "sourceIndex": 118
   },
   {
+    "id": "10120",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "people",
+    "translations": {
+      "en": {
+        "text": "to belong to"
+      },
+      "de": {
+        "text": "gehören",
+        "separable": false
+      }
+    },
+    "sourceIndex": 120
+  },
+  {
+    "id": "10277",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "people",
+    "translations": {
+      "en": {
+        "text": "to help"
+      },
+      "de": {
+        "text": "helfen",
+        "separable": false
+      }
+    },
+    "sourceIndex": 277
+  },
+  {
     "id": "10289",
     "level": "A1",
     "pos": "verb",
@@ -144,6 +176,22 @@ const verbCommunication = [
     "sourceIndex": 360
   },
   {
+    "id": "10379",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "communication",
+    "translations": {
+      "en": {
+        "text": "to explain"
+      },
+      "de": {
+        "text": "erklären",
+        "separable": false
+      }
+    },
+    "sourceIndex": 379
+  },
+  {
     "id": "10492",
     "level": "A2",
     "pos": "verb",
@@ -222,6 +270,38 @@ const verbCommunication = [
       }
     },
     "sourceIndex": 785
+  },
+  {
+    "id": "10851",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "communication",
+    "translations": {
+      "en": {
+        "text": "to confirm / to affirm"
+      },
+      "de": {
+        "text": "bestätigen",
+        "separable": false
+      }
+    },
+    "sourceIndex": 851
+  },
+  {
+    "id": "10947",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "communication",
+    "translations": {
+      "en": {
+        "text": "to send"
+      },
+      "de": {
+        "text": "schicken",
+        "separable": false
+      }
+    },
+    "sourceIndex": 947
   },
   {
     "id": "11008",
@@ -336,6 +416,22 @@ const verbCommunication = [
       }
     },
     "sourceIndex": 1359
+  },
+  {
+    "id": "11416",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "communication",
+    "translations": {
+      "en": {
+        "text": "to claim / to assert"
+      },
+      "de": {
+        "text": "behaupten",
+        "separable": false
+      }
+    },
+    "sourceIndex": 1416
   },
   {
     "id": "11418",
@@ -668,6 +764,22 @@ const verbCommunication = [
     "sourceIndex": 2522
   },
   {
+    "id": "12629",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "communication",
+    "translations": {
+      "en": {
+        "text": "to thank"
+      },
+      "de": {
+        "text": "danken",
+        "separable": false
+      }
+    },
+    "sourceIndex": 2629
+  },
+  {
     "id": "12657",
     "level": "B1",
     "pos": "verb",
@@ -716,6 +828,22 @@ const verbCommunication = [
       }
     },
     "sourceIndex": 2971
+  },
+  {
+    "id": "13135",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "communication",
+    "translations": {
+      "en": {
+        "text": "to say goodbye / to pass (a law)"
+      },
+      "de": {
+        "text": "verabschieden",
+        "separable": false
+      }
+    },
+    "sourceIndex": 3135
   },
   {
     "id": "13211",

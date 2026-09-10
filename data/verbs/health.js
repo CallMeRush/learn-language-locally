@@ -1,5 +1,37 @@
 const verbHealth = [
   {
+    "id": "10037",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "health",
+    "translations": {
+      "en": {
+        "text": "to live"
+      },
+      "de": {
+        "text": "leben",
+        "separable": false
+      }
+    },
+    "sourceIndex": 37
+  },
+  {
+    "id": "10689",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "health",
+    "translations": {
+      "en": {
+        "text": "to injure"
+      },
+      "de": {
+        "text": "verletzen",
+        "separable": false
+      }
+    },
+    "sourceIndex": 689
+  },
+  {
     "id": "10723",
     "level": "B1",
     "pos": "verb",
@@ -14,6 +46,22 @@ const verbHealth = [
       }
     },
     "sourceIndex": 723
+  },
+  {
+    "id": "10988",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "health",
+    "translations": {
+      "en": {
+        "text": "to suffer"
+      },
+      "de": {
+        "text": "leiden",
+        "separable": false
+      }
+    },
+    "sourceIndex": 988
   },
   {
     "id": "11337",

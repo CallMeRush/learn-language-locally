@@ -17,6 +17,23 @@ const vocabularyCommunication = [
     "sourceIndex": 91
   },
   {
+    "id": "10163",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "communication",
+    "translations": {
+      "en": {
+        "text": "topic / theme"
+      },
+      "de": {
+        "text": "das Thema",
+        "article": "das",
+        "gender": "neuter"
+      }
+    },
+    "sourceIndex": 163
+  },
+  {
     "id": "10253",
     "level": "A1",
     "pos": "noun",
@@ -49,6 +66,40 @@ const vocabularyCommunication = [
       }
     },
     "sourceIndex": 313
+  },
+  {
+    "id": "10355",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "communication",
+    "translations": {
+      "en": {
+        "text": "title"
+      },
+      "de": {
+        "text": "der Titel",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 355
+  },
+  {
+    "id": "10382",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "communication",
+    "translations": {
+      "en": {
+        "text": "medium"
+      },
+      "de": {
+        "text": "das Medium",
+        "article": "das",
+        "gender": "neuter"
+      }
+    },
+    "sourceIndex": 382
   },
   {
     "id": "10388",
@@ -117,6 +168,23 @@ const vocabularyCommunication = [
       }
     },
     "sourceIndex": 426
+  },
+  {
+    "id": "10427",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "communication",
+    "translations": {
+      "en": {
+        "text": "criticism / review"
+      },
+      "de": {
+        "text": "die Kritik",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 427
   },
   {
     "id": "10449",
@@ -255,6 +323,23 @@ const vocabularyCommunication = [
     "sourceIndex": 867
   },
   {
+    "id": "10925",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "communication",
+    "translations": {
+      "en": {
+        "text": "comment"
+      },
+      "de": {
+        "text": "der Kommentar",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 925
+  },
+  {
     "id": "10956",
     "level": "A2",
     "pos": "noun",
@@ -270,6 +355,57 @@ const vocabularyCommunication = [
       }
     },
     "sourceIndex": 956
+  },
+  {
+    "id": "10978",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "communication",
+    "translations": {
+      "en": {
+        "text": "statement / assertion"
+      },
+      "de": {
+        "text": "die Aussage",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 978
+  },
+  {
+    "id": "11015",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "communication",
+    "translations": {
+      "en": {
+        "text": "mail"
+      },
+      "de": {
+        "text": "die Mail",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 1015
+  },
+  {
+    "id": "11058",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "communication",
+    "translations": {
+      "en": {
+        "text": "hint / clue / reference"
+      },
+      "de": {
+        "text": "der Hinweis",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 1058
   },
   {
     "id": "11174",
@@ -304,6 +440,23 @@ const vocabularyCommunication = [
       }
     },
     "sourceIndex": 1178
+  },
+  {
+    "id": "11195",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "communication",
+    "translations": {
+      "en": {
+        "text": "tip / hint"
+      },
+      "de": {
+        "text": "der Tipp",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 1195
   },
   {
     "id": "11221",
@@ -355,6 +508,23 @@ const vocabularyCommunication = [
       }
     },
     "sourceIndex": 1271
+  },
+  {
+    "id": "11277",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "communication",
+    "translations": {
+      "en": {
+        "text": "address"
+      },
+      "de": {
+        "text": "die Adresse",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 1277
   },
   {
     "id": "11286",
@@ -440,6 +610,40 @@ const vocabularyCommunication = [
       }
     },
     "sourceIndex": 1354
+  },
+  {
+    "id": "11360",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "communication",
+    "translations": {
+      "en": {
+        "text": "forum"
+      },
+      "de": {
+        "text": "das Forum",
+        "article": "das",
+        "gender": "neuter"
+      }
+    },
+    "sourceIndex": 1360
+  },
+  {
+    "id": "11484",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "communication",
+    "translations": {
+      "en": {
+        "text": "blog"
+      },
+      "de": {
+        "text": "der Blog",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 1484
   },
   {
     "id": "11619",

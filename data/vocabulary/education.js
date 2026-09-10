@@ -35,6 +35,23 @@ const vocabularyEducation = [
     "sourceIndex": 100
   },
   {
+    "id": "10164",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "education",
+    "translations": {
+      "en": {
+        "text": "example"
+      },
+      "de": {
+        "text": "das Beispiel",
+        "article": "das",
+        "gender": "neuter"
+      }
+    },
+    "sourceIndex": 164
+  },
+  {
     "id": "10170",
     "level": "A1",
     "pos": "noun",
@@ -84,6 +101,40 @@ const vocabularyEducation = [
       }
     },
     "sourceIndex": 235
+  },
+  {
+    "id": "10246",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "education",
+    "translations": {
+      "en": {
+        "text": "book"
+      },
+      "de": {
+        "text": "das Buch",
+        "article": "das",
+        "gender": "neuter"
+      }
+    },
+    "sourceIndex": 246
+  },
+  {
+    "id": "10265",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "education",
+    "translations": {
+      "en": {
+        "text": "idea"
+      },
+      "de": {
+        "text": "die Idee",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 265
   },
   {
     "id": "10284",
@@ -167,6 +218,40 @@ const vocabularyEducation = [
       }
     },
     "sourceIndex": 370
+  },
+  {
+    "id": "10397",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "education",
+    "translations": {
+      "en": {
+        "text": "comparison"
+      },
+      "de": {
+        "text": "der Vergleich",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 397
+  },
+  {
+    "id": "10398",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "education",
+    "translations": {
+      "en": {
+        "text": "decision"
+      },
+      "de": {
+        "text": "die Entscheidung",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 398
   },
   {
     "id": "10418",
@@ -254,6 +339,40 @@ const vocabularyEducation = [
     "sourceIndex": 481
   },
   {
+    "id": "10488",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "education",
+    "translations": {
+      "en": {
+        "text": "idea / clue / inkling"
+      },
+      "de": {
+        "text": "die Ahnung",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 488
+  },
+  {
+    "id": "10491",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "education",
+    "translations": {
+      "en": {
+        "text": "experience"
+      },
+      "de": {
+        "text": "die Erfahrung",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 491
+  },
+  {
     "id": "10494",
     "level": "A2",
     "pos": "noun",
@@ -269,6 +388,40 @@ const vocabularyEducation = [
       }
     },
     "sourceIndex": 494
+  },
+  {
+    "id": "10507",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "education",
+    "translations": {
+      "en": {
+        "text": "list"
+      },
+      "de": {
+        "text": "die Liste",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 507
+  },
+  {
+    "id": "10536",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "education",
+    "translations": {
+      "en": {
+        "text": "truth"
+      },
+      "de": {
+        "text": "die Wahrheit",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 536
   },
   {
     "id": "10556",
@@ -644,6 +797,23 @@ const vocabularyEducation = [
     "sourceIndex": 1171
   },
   {
+    "id": "11211",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "education",
+    "translations": {
+      "en": {
+        "text": "category"
+      },
+      "de": {
+        "text": "die Kategorie",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 1211
+  },
+  {
     "id": "11218",
     "level": "A1",
     "pos": "noun",
@@ -778,6 +948,57 @@ const vocabularyEducation = [
       }
     },
     "sourceIndex": 1426
+  },
+  {
+    "id": "11442",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "education",
+    "translations": {
+      "en": {
+        "text": "section / paragraph"
+      },
+      "de": {
+        "text": "der Abschnitt",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 1442
+  },
+  {
+    "id": "11478",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "education",
+    "translations": {
+      "en": {
+        "text": "overview"
+      },
+      "de": {
+        "text": "die Übersicht",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 1478
+  },
+  {
+    "id": "11488",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "education",
+    "translations": {
+      "en": {
+        "text": "fact"
+      },
+      "de": {
+        "text": "der Fakt",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 1488
   },
   {
     "id": "11491",

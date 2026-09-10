@@ -145,6 +145,23 @@ const vocabularyTime = [
     "sourceIndex": 57
   },
   {
+    "id": "10064",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "time",
+    "translations": {
+      "en": {
+        "text": "end"
+      },
+      "de": {
+        "text": "das Ende",
+        "article": "das",
+        "gender": "neuter"
+      }
+    },
+    "sourceIndex": 64
+  },
+  {
     "id": "10065",
     "level": "A1",
     "pos": "adverb",
@@ -387,6 +404,23 @@ const vocabularyTime = [
     "sourceIndex": 207
   },
   {
+    "id": "10208",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "time",
+    "translations": {
+      "en": {
+        "text": "beginning"
+      },
+      "de": {
+        "text": "der Anfang",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 208
+  },
+  {
     "id": "10222",
     "level": "A2",
     "pos": "noun",
@@ -402,6 +436,23 @@ const vocabularyTime = [
       }
     },
     "sourceIndex": 222
+  },
+  {
+    "id": "10249",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "time",
+    "translations": {
+      "en": {
+        "text": "percent"
+      },
+      "de": {
+        "text": "das Prozent",
+        "article": "das",
+        "gender": "neuter"
+      }
+    },
+    "sourceIndex": 249
   },
   {
     "id": "10259",
@@ -598,6 +649,23 @@ const vocabularyTime = [
     "sourceIndex": 343
   },
   {
+    "id": "10351",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "time",
+    "translations": {
+      "en": {
+        "text": "height / altitude"
+      },
+      "de": {
+        "text": "die Höhe",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 351
+  },
+  {
     "id": "10354",
     "level": "A1",
     "pos": "noun",
@@ -628,6 +696,23 @@ const vocabularyTime = [
       }
     },
     "sourceIndex": 358
+  },
+  {
+    "id": "10373",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "time",
+    "translations": {
+      "en": {
+        "text": "quantity / amount / crowd"
+      },
+      "de": {
+        "text": "die Menge",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 373
   },
   {
     "id": "10383",
@@ -781,6 +866,23 @@ const vocabularyTime = [
     "sourceIndex": 448
   },
   {
+    "id": "10454",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "time",
+    "translations": {
+      "en": {
+        "text": "beginning / start"
+      },
+      "de": {
+        "text": "der Beginn",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 454
+  },
+  {
     "id": "10470",
     "level": "A1",
     "pos": "numeral",
@@ -794,6 +896,23 @@ const vocabularyTime = [
       }
     },
     "sourceIndex": 470
+  },
+  {
+    "id": "10475",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "time",
+    "translations": {
+      "en": {
+        "text": "half"
+      },
+      "de": {
+        "text": "die Hälfte",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 475
   },
   {
     "id": "10480",
@@ -875,6 +994,40 @@ const vocabularyTime = [
     "sourceIndex": 545
   },
   {
+    "id": "10558",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "time",
+    "translations": {
+      "en": {
+        "text": "end"
+      },
+      "de": {
+        "text": "der Schluss",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 558
+  },
+  {
+    "id": "10565",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "time",
+    "translations": {
+      "en": {
+        "text": "centimeter"
+      },
+      "de": {
+        "text": "der Cm",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 565
+  },
+  {
     "id": "10568",
     "level": "A1",
     "pos": "noun",
@@ -907,6 +1060,23 @@ const vocabularyTime = [
       }
     },
     "sourceIndex": 585
+  },
+  {
+    "id": "10589",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "time",
+    "translations": {
+      "en": {
+        "text": "start"
+      },
+      "de": {
+        "text": "der Start",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 589
   },
   {
     "id": "10628",
@@ -1126,6 +1296,23 @@ const vocabularyTime = [
     "sourceIndex": 862
   },
   {
+    "id": "10890",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "time",
+    "translations": {
+      "en": {
+        "text": "kilogram"
+      },
+      "de": {
+        "text": "das Kg",
+        "article": "das",
+        "gender": "neuter"
+      }
+    },
+    "sourceIndex": 890
+  },
+  {
     "id": "10910",
     "level": "A1",
     "pos": "numeral",
@@ -1241,6 +1428,23 @@ const vocabularyTime = [
     "sourceIndex": 1073
   },
   {
+    "id": "11079",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "time",
+    "translations": {
+      "en": {
+        "text": "length"
+      },
+      "de": {
+        "text": "die Länge",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 1079
+  },
+  {
     "id": "11080",
     "level": "A2",
     "pos": "adverb",
@@ -1254,6 +1458,23 @@ const vocabularyTime = [
       }
     },
     "sourceIndex": 1080
+  },
+  {
+    "id": "11108",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "time",
+    "translations": {
+      "en": {
+        "text": "break / pause"
+      },
+      "de": {
+        "text": "die Pause",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 1108
   },
   {
     "id": "11145",
@@ -1348,6 +1569,40 @@ const vocabularyTime = [
     "sourceIndex": 1252
   },
   {
+    "id": "11254",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "time",
+    "translations": {
+      "en": {
+        "text": "unit"
+      },
+      "de": {
+        "text": "die Einheit",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 1254
+  },
+  {
+    "id": "11256",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "time",
+    "translations": {
+      "en": {
+        "text": "weight"
+      },
+      "de": {
+        "text": "das Gewicht",
+        "article": "das",
+        "gender": "neuter"
+      }
+    },
+    "sourceIndex": 1256
+  },
+  {
     "id": "11290",
     "level": "A1",
     "pos": "noun",
@@ -1380,6 +1635,23 @@ const vocabularyTime = [
       }
     },
     "sourceIndex": 1302
+  },
+  {
+    "id": "11341",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "time",
+    "translations": {
+      "en": {
+        "text": "phase"
+      },
+      "de": {
+        "text": "die Phase",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 1341
   },
   {
     "id": "11364",

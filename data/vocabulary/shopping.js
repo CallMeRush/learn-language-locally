@@ -51,6 +51,23 @@ const vocabularyShopping = [
     "sourceIndex": 271
   },
   {
+    "id": "10295",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "shopping",
+    "translations": {
+      "en": {
+        "text": "price / prize"
+      },
+      "de": {
+        "text": "der Preis",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 295
+  },
+  {
     "id": "10461",
     "level": "A1",
     "pos": "noun",
@@ -168,6 +185,23 @@ const vocabularyShopping = [
       }
     },
     "sourceIndex": 748
+  },
+  {
+    "id": "10917",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "shopping",
+    "translations": {
+      "en": {
+        "text": "expense / edition / output"
+      },
+      "de": {
+        "text": "die Ausgabe",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 917
   },
   {
     "id": "10924",

@@ -17,6 +17,57 @@ const vocabularyTravel = [
     "sourceIndex": 189
   },
   {
+    "id": "10243",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "travel",
+    "translations": {
+      "en": {
+        "text": "direction"
+      },
+      "de": {
+        "text": "die Richtung",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 243
+  },
+  {
+    "id": "10374",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "travel",
+    "translations": {
+      "en": {
+        "text": "meter"
+      },
+      "de": {
+        "text": "der Meter",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 374
+  },
+  {
+    "id": "10381",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "travel",
+    "translations": {
+      "en": {
+        "text": "kilometer(s)"
+      },
+      "de": {
+        "text": "der Km",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 381
+  },
+  {
     "id": "10389",
     "level": "A1",
     "pos": "noun",
@@ -47,6 +98,23 @@ const vocabularyTravel = [
       }
     },
     "sourceIndex": 483
+  },
+  {
+    "id": "10521",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "travel",
+    "translations": {
+      "en": {
+        "text": "step"
+      },
+      "de": {
+        "text": "der Schritt",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 521
   },
   {
     "id": "10571",
@@ -81,6 +149,23 @@ const vocabularyTravel = [
       }
     },
     "sourceIndex": 574
+  },
+  {
+    "id": "10576",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "travel",
+    "translations": {
+      "en": {
+        "text": "movement"
+      },
+      "de": {
+        "text": "die Bewegung",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 576
   },
   {
     "id": "10586",
@@ -151,6 +236,23 @@ const vocabularyTravel = [
     "sourceIndex": 688
   },
   {
+    "id": "10719",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "travel",
+    "translations": {
+      "en": {
+        "text": "kilometer"
+      },
+      "de": {
+        "text": "der Kilometer",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 719
+  },
+  {
     "id": "10830",
     "level": "A1",
     "pos": "noun",
@@ -166,6 +268,23 @@ const vocabularyTravel = [
       }
     },
     "sourceIndex": 830
+  },
+  {
+    "id": "10836",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "travel",
+    "translations": {
+      "en": {
+        "text": "east"
+      },
+      "de": {
+        "text": "der Osten",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 836
   },
   {
     "id": "10849",
@@ -200,6 +319,23 @@ const vocabularyTravel = [
       }
     },
     "sourceIndex": 872
+  },
+  {
+    "id": "10900",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "travel",
+    "translations": {
+      "en": {
+        "text": "west"
+      },
+      "de": {
+        "text": "der Westen",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 900
   },
   {
     "id": "10904",
@@ -304,6 +440,57 @@ const vocabularyTravel = [
     "sourceIndex": 1063
   },
   {
+    "id": "11124",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "travel",
+    "translations": {
+      "en": {
+        "text": "distance / gap"
+      },
+      "de": {
+        "text": "der Abstand",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 1124
+  },
+  {
+    "id": "11152",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "travel",
+    "translations": {
+      "en": {
+        "text": "bridge"
+      },
+      "de": {
+        "text": "die Brücke",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 1152
+  },
+  {
+    "id": "11177",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "travel",
+    "translations": {
+      "en": {
+        "text": "west"
+      },
+      "de": {
+        "text": "der West",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 1177
+  },
+  {
     "id": "11220",
     "level": "A2",
     "pos": "noun",
@@ -353,6 +540,57 @@ const vocabularyTravel = [
       }
     },
     "sourceIndex": 1291
+  },
+  {
+    "id": "11309",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "travel",
+    "translations": {
+      "en": {
+        "text": "North"
+      },
+      "de": {
+        "text": "der Nord",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 1309
+  },
+  {
+    "id": "11310",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "travel",
+    "translations": {
+      "en": {
+        "text": "East"
+      },
+      "de": {
+        "text": "der Ost",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 1310
+  },
+  {
+    "id": "11330",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "travel",
+    "translations": {
+      "en": {
+        "text": "vehicle"
+      },
+      "de": {
+        "text": "das Fahrzeug",
+        "article": "das",
+        "gender": "neuter"
+      }
+    },
+    "sourceIndex": 1330
   },
   {
     "id": "11332",

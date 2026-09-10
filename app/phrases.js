@@ -41,13 +41,13 @@ function clozeFor(p) {
   };
   return p._activeCloze;
 }
-function phraseChoiceOptions(p, cloze) {
+function phraseChoiceOptions(p, cloze, candidates = phrases) {
   var clean = (s) =>
       normalizeAnswer(s)
         .replace(/[.,!?;:]/g, "")
         .trim(),
     target = clean(cloze.word),
-    targetPool = phrases
+    targetPool = candidates
       .flatMap((phrase) =>
         phrase.translations?.["de"]?.text?.split(" ")[
           cloze.index
@@ -84,7 +84,8 @@ function renderPhraseCategories() {
     .map((category) => {
       var label =
         category === "all" ? "All phrases" : categoryLabel(category);
-      return `<button class="${phraseCategory === category ? "active" : ""}" data-phrase-category="${category}">${label}</button>`;
+      var count = phrases.filter(p => (phraseLevel === "all" || p.level === phraseLevel) && (category === "all" || p.category === category)).length;
+      return `<button class="${phraseCategory === category ? "active" : ""}" data-phrase-category="${category}">${label} <small>${count}</small></button>`;
     })
     .join("");
   $$("[data-phrase-category]").forEach(
@@ -109,6 +110,7 @@ function showPhrase() {
   phraseAnswered = false;
   phraseCorrect = false;
   if (!list.length) {
+    renderPhraseLists();
     $("#phrase-level").textContent = "NO MATCHING PHRASES";
     $("#phrase-number").textContent = "—";
     $("#phrase-question").textContent = "No phrases at this level yet.";
@@ -146,6 +148,27 @@ function showPhrase() {
   $("#phrase-answer").value = "";
   $("#phrase-feedback").textContent = "";
   $("#phrase-feedback").className = "feedback";
+  renderPhraseLists();
+}
+function renderPhraseLists() {
+  var container = document.getElementById("phrase-study-lists");
+  if (!container) {
+    container = document.createElement("div");
+    container.id = "phrase-study-lists";
+    document.querySelector("#phrases-view .phrase-layout").after(container);
+  }
+  var list = filteredPhrases(), active = list[phraseIndex % list.length];
+  renderStudyLists(container, list, state.phrases, active, p => {
+    var text = phraseMode === "reverse" ? targetText(p) : sourceText(p);
+    return `<button type="button" class="word-row ${p === active ? "current" : ""}" data-phrase-id="${p.id}">${text}</button>`;
+  }, p => {
+    phraseIndex = filteredPhrases().indexOf(p);
+    var random = phraseRandom;
+    phraseRandom = false;
+    showPhrase();
+    phraseRandom = random;
+  });
+  renderPhraseCategories();
 }
 function nextPhrase() {
   var list = filteredPhrases();
@@ -319,7 +342,8 @@ document.addEventListener("keydown", (e) => {
 document.addEventListener("keydown", (e) => {
   var keyArticles = { 1: "der", 2: "die", 3: "das" };
   if (
-    !document.querySelector("#mixed-view.active-view") ||
+    !document.querySelector(".active-view .mixed-layout") ||
+    document.getElementById("mixed-article").offsetParent === null ||
     !keyArticles[e.key] ||
     document.querySelector("#mixed-article").style.display === "none"
   )
@@ -463,9 +487,11 @@ var decorateVocabularyResults = () =>
     if (state.learned.includes(id)) {
       mark.textContent = "✓";
       mark.className = "word-check correct";
+      mark.setAttribute("aria-label", "Correct");
     } else if (state.issues.includes(id)) {
       mark.textContent = "✕";
       mark.className = "word-check wrong";
+      mark.setAttribute("aria-label", "Incorrect");
     }
   });
 var baseRenderVocabulary = renderVocabulary;

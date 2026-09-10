@@ -12,7 +12,8 @@ const vocabularyAdjectives = [
         "text": "mehr"
       }
     },
-    "sourceIndex": 10
+    "sourceIndex": 10,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "10018",
@@ -27,7 +28,8 @@ const vocabularyAdjectives = [
         "text": "kein"
       }
     },
-    "sourceIndex": 18
+    "sourceIndex": 18,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "10019",
@@ -42,7 +44,8 @@ const vocabularyAdjectives = [
         "text": "all"
       }
     },
-    "sourceIndex": 19
+    "sourceIndex": 19,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "10021",
@@ -57,7 +60,8 @@ const vocabularyAdjectives = [
         "text": "gut"
       }
     },
-    "sourceIndex": 21
+    "sourceIndex": 21,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "10025",
@@ -72,7 +76,8 @@ const vocabularyAdjectives = [
         "text": "viel"
       }
     },
-    "sourceIndex": 25
+    "sourceIndex": 25,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "10027",
@@ -87,7 +92,8 @@ const vocabularyAdjectives = [
         "text": "ganz"
       }
     },
-    "sourceIndex": 27
+    "sourceIndex": 27,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "10029",
@@ -102,7 +108,8 @@ const vocabularyAdjectives = [
         "text": "einfach"
       }
     },
-    "sourceIndex": 29
+    "sourceIndex": 29,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "10038",
@@ -117,7 +124,8 @@ const vocabularyAdjectives = [
         "text": "ander"
       }
     },
-    "sourceIndex": 38
+    "sourceIndex": 38,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "10042",
@@ -132,7 +140,8 @@ const vocabularyAdjectives = [
         "text": "gerade"
       }
     },
-    "sourceIndex": 42
+    "sourceIndex": 42,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "10043",
@@ -147,7 +156,8 @@ const vocabularyAdjectives = [
         "text": "neu"
       }
     },
-    "sourceIndex": 43
+    "sourceIndex": 43,
+    "adjectiveCategory": "time"
   },
   {
     "id": "10048",
@@ -162,7 +172,8 @@ const vocabularyAdjectives = [
         "text": "weit"
       }
     },
-    "sourceIndex": 48
+    "sourceIndex": 48,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "10062",
@@ -178,7 +189,8 @@ const vocabularyAdjectives = [
         "caseSensitive": true
       }
     },
-    "sourceIndex": 62
+    "sourceIndex": 62,
+    "adjectiveCategory": "places"
   },
   {
     "id": "10071",
@@ -193,7 +205,8 @@ const vocabularyAdjectives = [
         "text": "genau"
       }
     },
-    "sourceIndex": 71
+    "sourceIndex": 71,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "10075",
@@ -208,7 +221,8 @@ const vocabularyAdjectives = [
         "text": "natürlich"
       }
     },
-    "sourceIndex": 75
+    "sourceIndex": 75,
+    "adjectiveCategory": "general"
   },
   {
     "id": "10076",
@@ -224,7 +238,8 @@ const vocabularyAdjectives = [
         "caseSensitive": true
       }
     },
-    "sourceIndex": 76
+    "sourceIndex": 76,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "10081",
@@ -239,7 +254,8 @@ const vocabularyAdjectives = [
         "text": "gleich"
       }
     },
-    "sourceIndex": 81
+    "sourceIndex": 81,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "10082",
@@ -254,7 +270,8 @@ const vocabularyAdjectives = [
         "text": "lang"
       }
     },
-    "sourceIndex": 82
+    "sourceIndex": 82,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "10088",
@@ -269,7 +286,8 @@ const vocabularyAdjectives = [
         "text": "richtig"
       }
     },
-    "sourceIndex": 88
+    "sourceIndex": 88,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "10093",
@@ -284,7 +302,8 @@ const vocabularyAdjectives = [
         "text": "klar"
       }
     },
-    "sourceIndex": 93
+    "sourceIndex": 93,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "10096",
@@ -299,7 +318,8 @@ const vocabularyAdjectives = [
         "text": "gross"
       }
     },
-    "sourceIndex": 96
+    "sourceIndex": 96,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "10099",
@@ -314,7 +334,8 @@ const vocabularyAdjectives = [
         "text": "einige"
       }
     },
-    "sourceIndex": 99
+    "sourceIndex": 99,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "10101",
@@ -329,7 +350,8 @@ const vocabularyAdjectives = [
         "text": "sicher"
       }
     },
-    "sourceIndex": 101
+    "sourceIndex": 101,
+    "adjectiveCategory": "certainty"
   },
   {
     "id": "10102",
@@ -344,7 +366,8 @@ const vocabularyAdjectives = [
         "text": "letzt"
       }
     },
-    "sourceIndex": 102
+    "sourceIndex": 102,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "10104",
@@ -359,7 +382,8 @@ const vocabularyAdjectives = [
         "text": "schön"
       }
     },
-    "sourceIndex": 104
+    "sourceIndex": 104,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "10109",
@@ -374,7 +398,8 @@ const vocabularyAdjectives = [
         "text": "schnell"
       }
     },
-    "sourceIndex": 109
+    "sourceIndex": 109,
+    "adjectiveCategory": "movement"
   },
   {
     "id": "10110",
@@ -389,7 +414,8 @@ const vocabularyAdjectives = [
         "text": "spät"
       }
     },
-    "sourceIndex": 110
+    "sourceIndex": 110,
+    "adjectiveCategory": "time"
   },
   {
     "id": "10114",
@@ -404,7 +430,8 @@ const vocabularyAdjectives = [
         "text": "wenig"
       }
     },
-    "sourceIndex": 114
+    "sourceIndex": 114,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "10122",
@@ -419,7 +446,8 @@ const vocabularyAdjectives = [
         "text": "besonders"
       }
     },
-    "sourceIndex": 122
+    "sourceIndex": 122,
+    "adjectiveCategory": "general"
   },
   {
     "id": "10128",
@@ -434,7 +462,8 @@ const vocabularyAdjectives = [
         "text": "kurz"
       }
     },
-    "sourceIndex": 128
+    "sourceIndex": 128,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "10134",
@@ -449,7 +478,8 @@ const vocabularyAdjectives = [
         "text": "klein"
       }
     },
-    "sourceIndex": 134
+    "sourceIndex": 134,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "10141",
@@ -464,7 +494,8 @@ const vocabularyAdjectives = [
         "text": "eigen"
       }
     },
-    "sourceIndex": 141
+    "sourceIndex": 141,
+    "adjectiveCategory": "general"
   },
   {
     "id": "10143",
@@ -479,7 +510,8 @@ const vocabularyAdjectives = [
         "text": "möglich"
       }
     },
-    "sourceIndex": 143
+    "sourceIndex": 143,
+    "adjectiveCategory": "certainty"
   },
   {
     "id": "10150",
@@ -494,7 +526,8 @@ const vocabularyAdjectives = [
         "text": "online"
       }
     },
-    "sourceIndex": 150
+    "sourceIndex": 150,
+    "adjectiveCategory": "society"
   },
   {
     "id": "10166",
@@ -509,7 +542,8 @@ const vocabularyAdjectives = [
         "text": "allein"
       }
     },
-    "sourceIndex": 166
+    "sourceIndex": 166,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "10167",
@@ -524,7 +558,8 @@ const vocabularyAdjectives = [
         "text": "direkt"
       }
     },
-    "sourceIndex": 167
+    "sourceIndex": 167,
+    "adjectiveCategory": "general"
   },
   {
     "id": "10168",
@@ -539,7 +574,8 @@ const vocabularyAdjectives = [
         "text": "echt"
       }
     },
-    "sourceIndex": 168
+    "sourceIndex": 168,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "10171",
@@ -554,7 +590,8 @@ const vocabularyAdjectives = [
         "text": "solche"
       }
     },
-    "sourceIndex": 171
+    "sourceIndex": 171,
+    "adjectiveCategory": "general"
   },
   {
     "id": "10174",
@@ -569,7 +606,8 @@ const vocabularyAdjectives = [
         "text": "anders"
       }
     },
-    "sourceIndex": 174
+    "sourceIndex": 174,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "10182",
@@ -584,7 +622,8 @@ const vocabularyAdjectives = [
         "text": "alt"
       }
     },
-    "sourceIndex": 182
+    "sourceIndex": 182,
+    "adjectiveCategory": "time"
   },
   {
     "id": "10185",
@@ -599,7 +638,8 @@ const vocabularyAdjectives = [
         "text": "lieb"
       }
     },
-    "sourceIndex": 185
+    "sourceIndex": 185,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "10188",
@@ -614,7 +654,8 @@ const vocabularyAdjectives = [
         "text": "zweit"
       }
     },
-    "sourceIndex": 188
+    "sourceIndex": 188,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "10192",
@@ -629,7 +670,8 @@ const vocabularyAdjectives = [
         "text": "deutlich"
       }
     },
-    "sourceIndex": 192
+    "sourceIndex": 192,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "10195",
@@ -644,7 +686,8 @@ const vocabularyAdjectives = [
         "text": "nächst"
       }
     },
-    "sourceIndex": 195
+    "sourceIndex": 195,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "10201",
@@ -659,7 +702,8 @@ const vocabularyAdjectives = [
         "text": "schwer"
       }
     },
-    "sourceIndex": 201
+    "sourceIndex": 201,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "10202",
@@ -674,7 +718,8 @@ const vocabularyAdjectives = [
         "text": "wichtig"
       }
     },
-    "sourceIndex": 202
+    "sourceIndex": 202,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "10203",
@@ -689,7 +734,8 @@ const vocabularyAdjectives = [
         "text": "egal"
       }
     },
-    "sourceIndex": 203
+    "sourceIndex": 203,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "10205",
@@ -704,7 +750,8 @@ const vocabularyAdjectives = [
         "text": "hoch"
       }
     },
-    "sourceIndex": 205
+    "sourceIndex": 205,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "10206",
@@ -719,7 +766,8 @@ const vocabularyAdjectives = [
         "text": "stark"
       }
     },
-    "sourceIndex": 206
+    "sourceIndex": 206,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "10210",
@@ -734,7 +782,8 @@ const vocabularyAdjectives = [
         "text": "rund"
       }
     },
-    "sourceIndex": 210
+    "sourceIndex": 210,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "10211",
@@ -749,7 +798,8 @@ const vocabularyAdjectives = [
         "text": "bekannt"
       }
     },
-    "sourceIndex": 211
+    "sourceIndex": 211,
+    "adjectiveCategory": "general"
   },
   {
     "id": "10214",
@@ -764,7 +814,8 @@ const vocabularyAdjectives = [
         "text": "los"
       }
     },
-    "sourceIndex": 214
+    "sourceIndex": 214,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "10221",
@@ -779,7 +830,8 @@ const vocabularyAdjectives = [
         "text": "meist"
       }
     },
-    "sourceIndex": 221
+    "sourceIndex": 221,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "10227",
@@ -794,7 +846,8 @@ const vocabularyAdjectives = [
         "text": "bestimmt"
       }
     },
-    "sourceIndex": 227
+    "sourceIndex": 227,
+    "adjectiveCategory": "certainty"
   },
   {
     "id": "10232",
@@ -809,7 +862,8 @@ const vocabularyAdjectives = [
         "text": "leicht"
       }
     },
-    "sourceIndex": 232
+    "sourceIndex": 232,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "10233",
@@ -824,7 +878,8 @@ const vocabularyAdjectives = [
         "text": "mehrere"
       }
     },
-    "sourceIndex": 233
+    "sourceIndex": 233,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "10240",
@@ -839,7 +894,8 @@ const vocabularyAdjectives = [
         "text": "laut"
       }
     },
-    "sourceIndex": 240
+    "sourceIndex": 240,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "10248",
@@ -854,7 +910,8 @@ const vocabularyAdjectives = [
         "text": "früh"
       }
     },
-    "sourceIndex": 248
+    "sourceIndex": 248,
+    "adjectiveCategory": "time"
   },
   {
     "id": "10256",
@@ -869,7 +926,8 @@ const vocabularyAdjectives = [
         "text": "ernst"
       }
     },
-    "sourceIndex": 256
+    "sourceIndex": 256,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "10262",
@@ -884,7 +942,8 @@ const vocabularyAdjectives = [
         "text": "fest"
       }
     },
-    "sourceIndex": 262
+    "sourceIndex": 262,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "10264",
@@ -899,7 +958,8 @@ const vocabularyAdjectives = [
         "text": "frei"
       }
     },
-    "sourceIndex": 264
+    "sourceIndex": 264,
+    "adjectiveCategory": "general"
   },
   {
     "id": "10269",
@@ -914,7 +974,8 @@ const vocabularyAdjectives = [
         "text": "super"
       }
     },
-    "sourceIndex": 269
+    "sourceIndex": 269,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "10272",
@@ -929,7 +990,8 @@ const vocabularyAdjectives = [
         "text": "einzig"
       }
     },
-    "sourceIndex": 272
+    "sourceIndex": 272,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "10290",
@@ -944,7 +1006,8 @@ const vocabularyAdjectives = [
         "text": "voll"
       }
     },
-    "sourceIndex": 290
+    "sourceIndex": 290,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "10296",
@@ -959,7 +1022,8 @@ const vocabularyAdjectives = [
         "text": "rein"
       }
     },
-    "sourceIndex": 296
+    "sourceIndex": 296,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "10306",
@@ -974,7 +1038,8 @@ const vocabularyAdjectives = [
         "text": "verschieden"
       }
     },
-    "sourceIndex": 306
+    "sourceIndex": 306,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "10318",
@@ -989,7 +1054,8 @@ const vocabularyAdjectives = [
         "text": "schlecht"
       }
     },
-    "sourceIndex": 318
+    "sourceIndex": 318,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "10323",
@@ -1004,7 +1070,8 @@ const vocabularyAdjectives = [
         "text": "wahrscheinlich"
       }
     },
-    "sourceIndex": 323
+    "sourceIndex": 323,
+    "adjectiveCategory": "certainty"
   },
   {
     "id": "10330",
@@ -1019,7 +1086,8 @@ const vocabularyAdjectives = [
         "text": "gemeinsam"
       }
     },
-    "sourceIndex": 330
+    "sourceIndex": 330,
+    "adjectiveCategory": "general"
   },
   {
     "id": "10372",
@@ -1034,7 +1102,8 @@ const vocabularyAdjectives = [
         "text": "langsam"
       }
     },
-    "sourceIndex": 372
+    "sourceIndex": 372,
+    "adjectiveCategory": "movement"
   },
   {
     "id": "10395",
@@ -1049,7 +1118,8 @@ const vocabularyAdjectives = [
         "text": "toll"
       }
     },
-    "sourceIndex": 395
+    "sourceIndex": 395,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "10408",
@@ -1064,7 +1134,8 @@ const vocabularyAdjectives = [
         "text": "bereit"
       }
     },
-    "sourceIndex": 408
+    "sourceIndex": 408,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "10410",
@@ -1079,7 +1150,8 @@ const vocabularyAdjectives = [
         "text": "falsch"
       }
     },
-    "sourceIndex": 410
+    "sourceIndex": 410,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "10411",
@@ -1094,7 +1166,8 @@ const vocabularyAdjectives = [
         "text": "fertig"
       }
     },
-    "sourceIndex": 411
+    "sourceIndex": 411,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "10413",
@@ -1109,7 +1182,8 @@ const vocabularyAdjectives = [
         "text": "häufig"
       }
     },
-    "sourceIndex": 413
+    "sourceIndex": 413,
+    "adjectiveCategory": "time"
   },
   {
     "id": "10428",
@@ -1124,7 +1198,8 @@ const vocabularyAdjectives = [
         "text": "manch"
       }
     },
-    "sourceIndex": 428
+    "sourceIndex": 428,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "10434",
@@ -1139,7 +1214,8 @@ const vocabularyAdjectives = [
         "text": "schwarz"
       }
     },
-    "sourceIndex": 434
+    "sourceIndex": 434,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "10459",
@@ -1154,7 +1230,8 @@ const vocabularyAdjectives = [
         "text": "grün"
       }
     },
-    "sourceIndex": 459
+    "sourceIndex": 459,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "10463",
@@ -1169,7 +1246,8 @@ const vocabularyAdjectives = [
         "text": "offen"
       }
     },
-    "sourceIndex": 463
+    "sourceIndex": 463,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "10465",
@@ -1184,7 +1262,8 @@ const vocabularyAdjectives = [
         "text": "politisch"
       }
     },
-    "sourceIndex": 465
+    "sourceIndex": 465,
+    "adjectiveCategory": "society"
   },
   {
     "id": "10467",
@@ -1199,7 +1278,8 @@ const vocabularyAdjectives = [
         "text": "solch"
       }
     },
-    "sourceIndex": 467
+    "sourceIndex": 467,
+    "adjectiveCategory": "general"
   },
   {
     "id": "10472",
@@ -1214,7 +1294,8 @@ const vocabularyAdjectives = [
         "text": "europäisch"
       }
     },
-    "sourceIndex": 472
+    "sourceIndex": 472,
+    "adjectiveCategory": "places"
   },
   {
     "id": "10479",
@@ -1229,7 +1310,8 @@ const vocabularyAdjectives = [
         "text": "selten"
       }
     },
-    "sourceIndex": 479
+    "sourceIndex": 479,
+    "adjectiveCategory": "time"
   },
   {
     "id": "10514",
@@ -1244,7 +1326,8 @@ const vocabularyAdjectives = [
         "text": "dritt"
       }
     },
-    "sourceIndex": 514
+    "sourceIndex": 514,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "10518",
@@ -1259,7 +1342,8 @@ const vocabularyAdjectives = [
         "text": "komplett"
       }
     },
-    "sourceIndex": 518
+    "sourceIndex": 518,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "10528",
@@ -1274,7 +1358,8 @@ const vocabularyAdjectives = [
         "text": "einzeln"
       }
     },
-    "sourceIndex": 528
+    "sourceIndex": 528,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "10537",
@@ -1289,7 +1374,8 @@ const vocabularyAdjectives = [
         "text": "öffentlich"
       }
     },
-    "sourceIndex": 537
+    "sourceIndex": 537,
+    "adjectiveCategory": "society"
   },
   {
     "id": "10539",
@@ -1304,7 +1390,8 @@ const vocabularyAdjectives = [
         "text": "knapp"
       }
     },
-    "sourceIndex": 539
+    "sourceIndex": 539,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "10543",
@@ -1319,7 +1406,8 @@ const vocabularyAdjectives = [
         "text": "reich"
       }
     },
-    "sourceIndex": 543
+    "sourceIndex": 543,
+    "adjectiveCategory": "general"
   },
   {
     "id": "10544",
@@ -1334,7 +1422,8 @@ const vocabularyAdjectives = [
         "text": "rot"
       }
     },
-    "sourceIndex": 544
+    "sourceIndex": 544,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "10560",
@@ -1349,7 +1438,8 @@ const vocabularyAdjectives = [
         "text": "total"
       }
     },
-    "sourceIndex": 560
+    "sourceIndex": 560,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "10562",
@@ -1364,7 +1454,8 @@ const vocabularyAdjectives = [
         "text": "ähnlich"
       }
     },
-    "sourceIndex": 562
+    "sourceIndex": 562,
+    "adjectiveCategory": "general"
   },
   {
     "id": "10573",
@@ -1379,7 +1470,8 @@ const vocabularyAdjectives = [
         "text": "nahe"
       }
     },
-    "sourceIndex": 573
+    "sourceIndex": 573,
+    "adjectiveCategory": "places"
   },
   {
     "id": "10575",
@@ -1394,7 +1486,8 @@ const vocabularyAdjectives = [
         "text": "aktuell"
       }
     },
-    "sourceIndex": 575
+    "sourceIndex": 575,
+    "adjectiveCategory": "time"
   },
   {
     "id": "10578",
@@ -1409,7 +1502,8 @@ const vocabularyAdjectives = [
         "text": "ehrlich"
       }
     },
-    "sourceIndex": 578
+    "sourceIndex": 578,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "10593",
@@ -1424,7 +1518,8 @@ const vocabularyAdjectives = [
         "text": "aktiv"
       }
     },
-    "sourceIndex": 593
+    "sourceIndex": 593,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "10597",
@@ -1439,7 +1534,8 @@ const vocabularyAdjectives = [
         "text": "englisch"
       }
     },
-    "sourceIndex": 597
+    "sourceIndex": 597,
+    "adjectiveCategory": "places"
   },
   {
     "id": "10598",
@@ -1454,7 +1550,8 @@ const vocabularyAdjectives = [
         "text": "glücklich"
       }
     },
-    "sourceIndex": 598
+    "sourceIndex": 598,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "10599",
@@ -1469,7 +1566,8 @@ const vocabularyAdjectives = [
         "text": "hart"
       }
     },
-    "sourceIndex": 599
+    "sourceIndex": 599,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "10613",
@@ -1484,7 +1582,8 @@ const vocabularyAdjectives = [
         "text": "stolz"
       }
     },
-    "sourceIndex": 613
+    "sourceIndex": 613,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "10616",
@@ -1499,7 +1598,8 @@ const vocabularyAdjectives = [
         "text": "zahlreich"
       }
     },
-    "sourceIndex": 616
+    "sourceIndex": 616,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "10619",
@@ -1514,7 +1614,8 @@ const vocabularyAdjectives = [
         "text": "absolut"
       }
     },
-    "sourceIndex": 619
+    "sourceIndex": 619,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "10622",
@@ -1529,7 +1630,8 @@ const vocabularyAdjectives = [
         "text": "erfolgreich"
       }
     },
-    "sourceIndex": 622
+    "sourceIndex": 622,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "10630",
@@ -1544,7 +1646,8 @@ const vocabularyAdjectives = [
         "text": "regelmässig"
       }
     },
-    "sourceIndex": 630
+    "sourceIndex": 630,
+    "adjectiveCategory": "time"
   },
   {
     "id": "10649",
@@ -1559,7 +1662,8 @@ const vocabularyAdjectives = [
         "text": "heutig"
       }
     },
-    "sourceIndex": 649
+    "sourceIndex": 649,
+    "adjectiveCategory": "time"
   },
   {
     "id": "10662",
@@ -1574,7 +1678,8 @@ const vocabularyAdjectives = [
         "text": "gesamt"
       }
     },
-    "sourceIndex": 662
+    "sourceIndex": 662,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "10664",
@@ -1589,7 +1694,8 @@ const vocabularyAdjectives = [
         "text": "international"
       }
     },
-    "sourceIndex": 664
+    "sourceIndex": 664,
+    "adjectiveCategory": "places"
   },
   {
     "id": "10667",
@@ -1604,7 +1710,8 @@ const vocabularyAdjectives = [
         "text": "lustig"
       }
     },
-    "sourceIndex": 667
+    "sourceIndex": 667,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "10669",
@@ -1619,7 +1726,8 @@ const vocabularyAdjectives = [
         "text": "perfekt"
       }
     },
-    "sourceIndex": 669
+    "sourceIndex": 669,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "10674",
@@ -1634,7 +1742,8 @@ const vocabularyAdjectives = [
         "text": "ständig"
       }
     },
-    "sourceIndex": 674
+    "sourceIndex": 674,
+    "adjectiveCategory": "general"
   },
   {
     "id": "10677",
@@ -1649,7 +1758,8 @@ const vocabularyAdjectives = [
         "text": "zusätzlich"
       }
     },
-    "sourceIndex": 677
+    "sourceIndex": 677,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "10705",
@@ -1664,7 +1774,8 @@ const vocabularyAdjectives = [
         "text": "persönlich"
       }
     },
-    "sourceIndex": 705
+    "sourceIndex": 705,
+    "adjectiveCategory": "society"
   },
   {
     "id": "10708",
@@ -1679,7 +1790,8 @@ const vocabularyAdjectives = [
         "text": "tief"
       }
     },
-    "sourceIndex": 708
+    "sourceIndex": 708,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "10710",
@@ -1694,7 +1806,8 @@ const vocabularyAdjectives = [
         "text": "willkommen"
       }
     },
-    "sourceIndex": 710
+    "sourceIndex": 710,
+    "adjectiveCategory": "general"
   },
   {
     "id": "10720",
@@ -1709,7 +1822,8 @@ const vocabularyAdjectives = [
         "text": "relativ"
       }
     },
-    "sourceIndex": 720
+    "sourceIndex": 720,
+    "adjectiveCategory": "general"
   },
   {
     "id": "10721",
@@ -1724,7 +1838,8 @@ const vocabularyAdjectives = [
         "text": "schweizer"
       }
     },
-    "sourceIndex": 721
+    "sourceIndex": 721,
+    "adjectiveCategory": "places"
   },
   {
     "id": "10734",
@@ -1739,7 +1854,8 @@ const vocabularyAdjectives = [
         "text": "interessant"
       }
     },
-    "sourceIndex": 734
+    "sourceIndex": 734,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "10736",
@@ -1754,7 +1870,8 @@ const vocabularyAdjectives = [
         "text": "nötig"
       }
     },
-    "sourceIndex": 736
+    "sourceIndex": 736,
+    "adjectiveCategory": "certainty"
   },
   {
     "id": "10745",
@@ -1769,7 +1886,8 @@ const vocabularyAdjectives = [
         "text": "täglich"
       }
     },
-    "sourceIndex": 745
+    "sourceIndex": 745,
+    "adjectiveCategory": "time"
   },
   {
     "id": "10746",
@@ -1784,7 +1902,8 @@ const vocabularyAdjectives = [
         "text": "wahr"
       }
     },
-    "sourceIndex": 746
+    "sourceIndex": 746,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "10752",
@@ -1799,7 +1918,8 @@ const vocabularyAdjectives = [
         "text": "cool"
       }
     },
-    "sourceIndex": 752
+    "sourceIndex": 752,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "10753",
@@ -1814,7 +1934,8 @@ const vocabularyAdjectives = [
         "text": "froh"
       }
     },
-    "sourceIndex": 753
+    "sourceIndex": 753,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "10762",
@@ -1829,7 +1950,8 @@ const vocabularyAdjectives = [
         "text": "sozial"
       }
     },
-    "sourceIndex": 762
+    "sourceIndex": 762,
+    "adjectiveCategory": "society"
   },
   {
     "id": "10767",
@@ -1844,7 +1966,8 @@ const vocabularyAdjectives = [
         "text": "bewusst"
       }
     },
-    "sourceIndex": 767
+    "sourceIndex": 767,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "10776",
@@ -1859,7 +1982,8 @@ const vocabularyAdjectives = [
         "text": "schade"
       }
     },
-    "sourceIndex": 776
+    "sourceIndex": 776,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "10777",
@@ -1874,7 +1998,8 @@ const vocabularyAdjectives = [
         "text": "schlimm"
       }
     },
-    "sourceIndex": 777
+    "sourceIndex": 777,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "10780",
@@ -1889,7 +2014,8 @@ const vocabularyAdjectives = [
         "text": "verantwortlich"
       }
     },
-    "sourceIndex": 780
+    "sourceIndex": 780,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "10783",
@@ -1904,7 +2030,8 @@ const vocabularyAdjectives = [
         "text": "zufrieden"
       }
     },
-    "sourceIndex": 783
+    "sourceIndex": 783,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "10791",
@@ -1919,7 +2046,8 @@ const vocabularyAdjectives = [
         "text": "normal"
       }
     },
-    "sourceIndex": 791
+    "sourceIndex": 791,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "10801",
@@ -1934,7 +2062,8 @@ const vocabularyAdjectives = [
         "text": "dumm"
       }
     },
-    "sourceIndex": 801
+    "sourceIndex": 801,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "10814",
@@ -1949,7 +2078,8 @@ const vocabularyAdjectives = [
         "text": "ruhig"
       }
     },
-    "sourceIndex": 814
+    "sourceIndex": 814,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "10819",
@@ -1964,7 +2094,8 @@ const vocabularyAdjectives = [
         "text": "weiss"
       }
     },
-    "sourceIndex": 819
+    "sourceIndex": 819,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "10825",
@@ -1979,7 +2110,8 @@ const vocabularyAdjectives = [
         "text": "allgemein"
       }
     },
-    "sourceIndex": 825
+    "sourceIndex": 825,
+    "adjectiveCategory": "general"
   },
   {
     "id": "10829",
@@ -1994,7 +2126,8 @@ const vocabularyAdjectives = [
         "text": "extrem"
       }
     },
-    "sourceIndex": 829
+    "sourceIndex": 829,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "10832",
@@ -2009,7 +2142,8 @@ const vocabularyAdjectives = [
         "text": "kostenlos"
       }
     },
-    "sourceIndex": 832
+    "sourceIndex": 832,
+    "adjectiveCategory": "general"
   },
   {
     "id": "10837",
@@ -2024,7 +2158,8 @@ const vocabularyAdjectives = [
         "text": "positiv"
       }
     },
-    "sourceIndex": 837
+    "sourceIndex": 837,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "10839",
@@ -2039,7 +2174,8 @@ const vocabularyAdjectives = [
         "text": "tot"
       }
     },
-    "sourceIndex": 839
+    "sourceIndex": 839,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "10842",
@@ -2054,7 +2190,8 @@ const vocabularyAdjectives = [
         "text": "wiener"
       }
     },
-    "sourceIndex": 842
+    "sourceIndex": 842,
+    "adjectiveCategory": "places"
   },
   {
     "id": "10845",
@@ -2070,7 +2207,8 @@ const vocabularyAdjectives = [
         "caseSensitive": true
       }
     },
-    "sourceIndex": 845
+    "sourceIndex": 845,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "10852",
@@ -2085,7 +2223,8 @@ const vocabularyAdjectives = [
         "text": "böse"
       }
     },
-    "sourceIndex": 852
+    "sourceIndex": 852,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "10863",
@@ -2100,7 +2239,8 @@ const vocabularyAdjectives = [
         "text": "notwendig"
       }
     },
-    "sourceIndex": 863
+    "sourceIndex": 863,
+    "adjectiveCategory": "certainty"
   },
   {
     "id": "10864",
@@ -2115,7 +2255,8 @@ const vocabularyAdjectives = [
         "text": "nah"
       }
     },
-    "sourceIndex": 864
+    "sourceIndex": 864,
+    "adjectiveCategory": "places"
   },
   {
     "id": "10874",
@@ -2130,7 +2271,8 @@ const vocabularyAdjectives = [
         "text": "wesentlich"
       }
     },
-    "sourceIndex": 874
+    "sourceIndex": 874,
+    "adjectiveCategory": "certainty"
   },
   {
     "id": "10895",
@@ -2145,7 +2287,8 @@ const vocabularyAdjectives = [
         "text": "offensichtlich"
       }
     },
-    "sourceIndex": 895
+    "sourceIndex": 895,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "10896",
@@ -2160,7 +2303,8 @@ const vocabularyAdjectives = [
         "text": "unglaublich"
       }
     },
-    "sourceIndex": 896
+    "sourceIndex": 896,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "10938",
@@ -2175,7 +2319,8 @@ const vocabularyAdjectives = [
         "text": "einig"
       }
     },
-    "sourceIndex": 938
+    "sourceIndex": 938,
+    "adjectiveCategory": "general"
   },
   {
     "id": "10945",
@@ -2190,7 +2335,8 @@ const vocabularyAdjectives = [
         "text": "nett"
       }
     },
-    "sourceIndex": 945
+    "sourceIndex": 945,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "10964",
@@ -2205,7 +2351,8 @@ const vocabularyAdjectives = [
         "text": "krank"
       }
     },
-    "sourceIndex": 964
+    "sourceIndex": 964,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "10968",
@@ -2220,7 +2367,8 @@ const vocabularyAdjectives = [
         "text": "modern"
       }
     },
-    "sourceIndex": 968
+    "sourceIndex": 968,
+    "adjectiveCategory": "time"
   },
   {
     "id": "10971",
@@ -2235,7 +2383,8 @@ const vocabularyAdjectives = [
         "text": "schwierig"
       }
     },
-    "sourceIndex": 971
+    "sourceIndex": 971,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "10981",
@@ -2250,7 +2399,8 @@ const vocabularyAdjectives = [
         "text": "extra"
       }
     },
-    "sourceIndex": 981
+    "sourceIndex": 981,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "10983",
@@ -2266,7 +2416,8 @@ const vocabularyAdjectives = [
         "caseSensitive": true
       }
     },
-    "sourceIndex": 983
+    "sourceIndex": 983,
+    "adjectiveCategory": "places"
   },
   {
     "id": "10985",
@@ -2281,7 +2432,8 @@ const vocabularyAdjectives = [
         "text": "genannt"
       }
     },
-    "sourceIndex": 985
+    "sourceIndex": 985,
+    "adjectiveCategory": "general"
   },
   {
     "id": "10996",
@@ -2296,7 +2448,8 @@ const vocabularyAdjectives = [
         "text": "selbstverständlich"
       }
     },
-    "sourceIndex": 996
+    "sourceIndex": 996,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "11024",
@@ -2311,7 +2464,8 @@ const vocabularyAdjectives = [
         "text": "unmöglich"
       }
     },
-    "sourceIndex": 1024
+    "sourceIndex": 1024,
+    "adjectiveCategory": "certainty"
   },
   {
     "id": "11026",
@@ -2326,7 +2480,8 @@ const vocabularyAdjectives = [
         "text": "vergangen"
       }
     },
-    "sourceIndex": 1026
+    "sourceIndex": 1026,
+    "adjectiveCategory": "time"
   },
   {
     "id": "11027",
@@ -2341,7 +2496,8 @@ const vocabularyAdjectives = [
         "text": "vollständig"
       }
     },
-    "sourceIndex": 1027
+    "sourceIndex": 1027,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "11038",
@@ -2356,7 +2512,8 @@ const vocabularyAdjectives = [
         "text": "halb"
       }
     },
-    "sourceIndex": 1038
+    "sourceIndex": 1038,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "11040",
@@ -2371,7 +2528,8 @@ const vocabularyAdjectives = [
         "text": "offiziell"
       }
     },
-    "sourceIndex": 1040
+    "sourceIndex": 1040,
+    "adjectiveCategory": "society"
   },
   {
     "id": "11044",
@@ -2386,7 +2544,8 @@ const vocabularyAdjectives = [
         "text": "technisch"
       }
     },
-    "sourceIndex": 1044
+    "sourceIndex": 1044,
+    "adjectiveCategory": "society"
   },
   {
     "id": "11049",
@@ -2401,7 +2560,8 @@ const vocabularyAdjectives = [
         "text": "blau"
       }
     },
-    "sourceIndex": 1049
+    "sourceIndex": 1049,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "11069",
@@ -2416,7 +2576,8 @@ const vocabularyAdjectives = [
         "text": "amerikanisch"
       }
     },
-    "sourceIndex": 1069
+    "sourceIndex": 1069,
+    "adjectiveCategory": "places"
   },
   {
     "id": "11083",
@@ -2431,7 +2592,8 @@ const vocabularyAdjectives = [
         "text": "russisch"
       }
     },
-    "sourceIndex": 1083
+    "sourceIndex": 1083,
+    "adjectiveCategory": "places"
   },
   {
     "id": "11088",
@@ -2446,7 +2608,8 @@ const vocabularyAdjectives = [
         "text": "traurig"
       }
     },
-    "sourceIndex": 1088
+    "sourceIndex": 1088,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "11103",
@@ -2461,7 +2624,8 @@ const vocabularyAdjectives = [
         "text": "heilig"
       }
     },
-    "sourceIndex": 1103
+    "sourceIndex": 1103,
+    "adjectiveCategory": "society"
   },
   {
     "id": "11107",
@@ -2476,7 +2640,8 @@ const vocabularyAdjectives = [
         "text": "original"
       }
     },
-    "sourceIndex": 1107
+    "sourceIndex": 1107,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "11137",
@@ -2491,7 +2656,8 @@ const vocabularyAdjectives = [
         "text": "komisch"
       }
     },
-    "sourceIndex": 1137
+    "sourceIndex": 1137,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "11140",
@@ -2506,7 +2672,8 @@ const vocabularyAdjectives = [
         "text": "praktisch"
       }
     },
-    "sourceIndex": 1140
+    "sourceIndex": 1140,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "11141",
@@ -2521,7 +2688,8 @@ const vocabularyAdjectives = [
         "text": "privat"
       }
     },
-    "sourceIndex": 1141
+    "sourceIndex": 1141,
+    "adjectiveCategory": "society"
   },
   {
     "id": "11159",
@@ -2536,7 +2704,8 @@ const vocabularyAdjectives = [
         "text": "heiss"
       }
     },
-    "sourceIndex": 1159
+    "sourceIndex": 1159,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "11165",
@@ -2551,7 +2720,8 @@ const vocabularyAdjectives = [
         "text": "real"
       }
     },
-    "sourceIndex": 1165
+    "sourceIndex": 1165,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "11182",
@@ -2566,7 +2736,8 @@ const vocabularyAdjectives = [
         "text": "dringend"
       }
     },
-    "sourceIndex": 1182
+    "sourceIndex": 1182,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "11185",
@@ -2581,7 +2752,8 @@ const vocabularyAdjectives = [
         "text": "gefährlich"
       }
     },
-    "sourceIndex": 1185
+    "sourceIndex": 1185,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "11189",
@@ -2596,7 +2768,8 @@ const vocabularyAdjectives = [
         "text": "leer"
       }
     },
-    "sourceIndex": 1189
+    "sourceIndex": 1189,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "11200",
@@ -2611,7 +2784,8 @@ const vocabularyAdjectives = [
         "text": "übrig"
       }
     },
-    "sourceIndex": 1200
+    "sourceIndex": 1200,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "11210",
@@ -2626,7 +2800,8 @@ const vocabularyAdjectives = [
         "text": "jährlich"
       }
     },
-    "sourceIndex": 1210
+    "sourceIndex": 1210,
+    "adjectiveCategory": "time"
   },
   {
     "id": "11212",
@@ -2641,7 +2816,8 @@ const vocabularyAdjectives = [
         "text": "kommend"
       }
     },
-    "sourceIndex": 1212
+    "sourceIndex": 1212,
+    "adjectiveCategory": "time"
   },
   {
     "id": "11222",
@@ -2656,7 +2832,8 @@ const vocabularyAdjectives = [
         "text": "tätig"
       }
     },
-    "sourceIndex": 1222
+    "sourceIndex": 1222,
+    "adjectiveCategory": "society"
   },
   {
     "id": "11223",
@@ -2671,7 +2848,8 @@ const vocabularyAdjectives = [
         "text": "unterschiedlich"
       }
     },
-    "sourceIndex": 1223
+    "sourceIndex": 1223,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "11229",
@@ -2686,7 +2864,8 @@ const vocabularyAdjectives = [
         "text": "automatisch"
       }
     },
-    "sourceIndex": 1229
+    "sourceIndex": 1229,
+    "adjectiveCategory": "society"
   },
   {
     "id": "11235",
@@ -2701,7 +2880,8 @@ const vocabularyAdjectives = [
         "text": "frisch"
       }
     },
-    "sourceIndex": 1235
+    "sourceIndex": 1235,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "11255",
@@ -2716,7 +2896,8 @@ const vocabularyAdjectives = [
         "text": "eng"
       }
     },
-    "sourceIndex": 1255
+    "sourceIndex": 1255,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "11259",
@@ -2731,7 +2912,8 @@ const vocabularyAdjectives = [
         "text": "kaputt"
       }
     },
-    "sourceIndex": 1259
+    "sourceIndex": 1259,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "11267",
@@ -2746,7 +2928,8 @@ const vocabularyAdjectives = [
         "text": "teuer"
       }
     },
-    "sourceIndex": 1267
+    "sourceIndex": 1267,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "11275",
@@ -2761,7 +2944,8 @@ const vocabularyAdjectives = [
         "text": "zentral"
       }
     },
-    "sourceIndex": 1275
+    "sourceIndex": 1275,
+    "adjectiveCategory": "places"
   },
   {
     "id": "11284",
@@ -2776,7 +2960,8 @@ const vocabularyAdjectives = [
         "text": "gesund"
       }
     },
-    "sourceIndex": 1284
+    "sourceIndex": 1284,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "11287",
@@ -2791,7 +2976,8 @@ const vocabularyAdjectives = [
         "text": "kalt"
       }
     },
-    "sourceIndex": 1287
+    "sourceIndex": 1287,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "11321",
@@ -2806,7 +2992,8 @@ const vocabularyAdjectives = [
         "text": "österreichisch"
       }
     },
-    "sourceIndex": 1321
+    "sourceIndex": 1321,
+    "adjectiveCategory": "places"
   },
   {
     "id": "11355",
@@ -2821,7 +3008,8 @@ const vocabularyAdjectives = [
         "text": "definitiv"
       }
     },
-    "sourceIndex": 1355
+    "sourceIndex": 1355,
+    "adjectiveCategory": "certainty"
   },
   {
     "id": "11363",
@@ -2836,7 +3024,8 @@ const vocabularyAdjectives = [
         "text": "gratis"
       }
     },
-    "sourceIndex": 1363
+    "sourceIndex": 1363,
+    "adjectiveCategory": "general"
   },
   {
     "id": "11369",
@@ -2851,7 +3040,8 @@ const vocabularyAdjectives = [
         "text": "ober"
       }
     },
-    "sourceIndex": 1369
+    "sourceIndex": 1369,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "11379",
@@ -2866,7 +3056,8 @@ const vocabularyAdjectives = [
         "text": "weh"
       }
     },
-    "sourceIndex": 1379
+    "sourceIndex": 1379,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "11380",
@@ -2881,7 +3072,8 @@ const vocabularyAdjectives = [
         "text": "witzig"
       }
     },
-    "sourceIndex": 1380
+    "sourceIndex": 1380,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "11385",
@@ -2896,7 +3088,8 @@ const vocabularyAdjectives = [
         "text": "aufmerksam"
       }
     },
-    "sourceIndex": 1385
+    "sourceIndex": 1385,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "11391",
@@ -2911,7 +3104,8 @@ const vocabularyAdjectives = [
         "text": "erforderlich"
       }
     },
-    "sourceIndex": 1391
+    "sourceIndex": 1391,
+    "adjectiveCategory": "certainty"
   },
   {
     "id": "11392",
@@ -2926,7 +3120,8 @@ const vocabularyAdjectives = [
         "text": "ewig"
       }
     },
-    "sourceIndex": 1392
+    "sourceIndex": 1392,
+    "adjectiveCategory": "time"
   },
   {
     "id": "11393",
@@ -2941,7 +3136,8 @@ const vocabularyAdjectives = [
         "text": "geeignet"
       }
     },
-    "sourceIndex": 1393
+    "sourceIndex": 1393,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "11396",
@@ -2956,7 +3152,8 @@ const vocabularyAdjectives = [
         "text": "inner"
       }
     },
-    "sourceIndex": 1396
+    "sourceIndex": 1396,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "11410",
@@ -2971,7 +3168,8 @@ const vocabularyAdjectives = [
         "text": "zufällig"
       }
     },
-    "sourceIndex": 1410
+    "sourceIndex": 1410,
+    "adjectiveCategory": "general"
   },
   {
     "id": "11411",
@@ -2986,7 +3184,8 @@ const vocabularyAdjectives = [
         "text": "abhängig"
       }
     },
-    "sourceIndex": 1411
+    "sourceIndex": 1411,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "11419",
@@ -3001,7 +3200,8 @@ const vocabularyAdjectives = [
         "text": "braun"
       }
     },
-    "sourceIndex": 1419
+    "sourceIndex": 1419,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "11430",
@@ -3016,7 +3216,8 @@ const vocabularyAdjectives = [
         "text": "speziell"
       }
     },
-    "sourceIndex": 1430
+    "sourceIndex": 1430,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "11438",
@@ -3031,7 +3232,8 @@ const vocabularyAdjectives = [
         "text": "warm"
       }
     },
-    "sourceIndex": 1438
+    "sourceIndex": 1438,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "11446",
@@ -3046,7 +3248,8 @@ const vocabularyAdjectives = [
         "text": "ausreichend"
       }
     },
-    "sourceIndex": 1446
+    "sourceIndex": 1446,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "11450",
@@ -3061,7 +3264,8 @@ const vocabularyAdjectives = [
         "text": "ernsthaft"
       }
     },
-    "sourceIndex": 1450
+    "sourceIndex": 1450,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "11459",
@@ -3076,7 +3280,8 @@ const vocabularyAdjectives = [
         "text": "müde"
       }
     },
-    "sourceIndex": 1459
+    "sourceIndex": 1459,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "11460",
@@ -3091,7 +3296,8 @@ const vocabularyAdjectives = [
         "text": "open"
       }
     },
-    "sourceIndex": 1460
+    "sourceIndex": 1460,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "11474",
@@ -3106,7 +3312,8 @@ const vocabularyAdjectives = [
         "text": "wild"
       }
     },
-    "sourceIndex": 1474
+    "sourceIndex": 1474,
+    "adjectiveCategory": "general"
   },
   {
     "id": "11505",
@@ -3121,7 +3328,8 @@ const vocabularyAdjectives = [
         "text": "sinnvoll"
       }
     },
-    "sourceIndex": 1505
+    "sourceIndex": 1505,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "11552",
@@ -3136,7 +3344,8 @@ const vocabularyAdjectives = [
         "text": "genügend"
       }
     },
-    "sourceIndex": 1552
+    "sourceIndex": 1552,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "11558",
@@ -3151,7 +3360,8 @@ const vocabularyAdjectives = [
         "text": "national"
       }
     },
-    "sourceIndex": 1558
+    "sourceIndex": 1558,
+    "adjectiveCategory": "places"
   },
   {
     "id": "11577",
@@ -3166,7 +3376,8 @@ const vocabularyAdjectives = [
         "text": "best"
       }
     },
-    "sourceIndex": 1577
+    "sourceIndex": 1577,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "11580",
@@ -3181,7 +3392,8 @@ const vocabularyAdjectives = [
         "text": "blöd"
       }
     },
-    "sourceIndex": 1580
+    "sourceIndex": 1580,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "11590",
@@ -3196,7 +3408,8 @@ const vocabularyAdjectives = [
         "text": "gelb"
       }
     },
-    "sourceIndex": 1590
+    "sourceIndex": 1590,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "11593",
@@ -3211,7 +3424,8 @@ const vocabularyAdjectives = [
         "text": "klassisch"
       }
     },
-    "sourceIndex": 1593
+    "sourceIndex": 1593,
+    "adjectiveCategory": "general"
   },
   {
     "id": "11603",
@@ -3226,7 +3440,8 @@ const vocabularyAdjectives = [
         "text": "ordentlich"
       }
     },
-    "sourceIndex": 1603
+    "sourceIndex": 1603,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "11605",
@@ -3241,7 +3456,8 @@ const vocabularyAdjectives = [
         "text": "sauber"
       }
     },
-    "sourceIndex": 1605
+    "sourceIndex": 1605,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "11614",
@@ -3256,7 +3472,8 @@ const vocabularyAdjectives = [
         "text": "wach"
       }
     },
-    "sourceIndex": 1614
+    "sourceIndex": 1614,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "11615",
@@ -3271,7 +3488,8 @@ const vocabularyAdjectives = [
         "text": "wunderbar"
       }
     },
-    "sourceIndex": 1615
+    "sourceIndex": 1615,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "11634",
@@ -3286,7 +3504,8 @@ const vocabularyAdjectives = [
         "text": "leise"
       }
     },
-    "sourceIndex": 1634
+    "sourceIndex": 1634,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "11635",
@@ -3301,7 +3520,8 @@ const vocabularyAdjectives = [
         "text": "locker"
       }
     },
-    "sourceIndex": 1635
+    "sourceIndex": 1635,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "11638",
@@ -3316,7 +3536,8 @@ const vocabularyAdjectives = [
         "text": "sichtbar"
       }
     },
-    "sourceIndex": 1638
+    "sourceIndex": 1638,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "11655",
@@ -3331,7 +3552,8 @@ const vocabularyAdjectives = [
         "text": "bayerisch"
       }
     },
-    "sourceIndex": 1655
+    "sourceIndex": 1655,
+    "adjectiveCategory": "places"
   },
   {
     "id": "11658",
@@ -3346,7 +3568,8 @@ const vocabularyAdjectives = [
         "text": "dankbar"
       }
     },
-    "sourceIndex": 1658
+    "sourceIndex": 1658,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "11659",
@@ -3361,7 +3584,8 @@ const vocabularyAdjectives = [
         "text": "dicht"
       }
     },
-    "sourceIndex": 1659
+    "sourceIndex": 1659,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "11660",
@@ -3376,7 +3600,8 @@ const vocabularyAdjectives = [
         "text": "doppelt"
       }
     },
-    "sourceIndex": 1660
+    "sourceIndex": 1660,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "11663",
@@ -3391,7 +3616,8 @@ const vocabularyAdjectives = [
         "text": "freundlich"
       }
     },
-    "sourceIndex": 1663
+    "sourceIndex": 1663,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "11667",
@@ -3406,7 +3632,8 @@ const vocabularyAdjectives = [
         "text": "günstig"
       }
     },
-    "sourceIndex": 1667
+    "sourceIndex": 1667,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "11671",
@@ -3421,7 +3648,8 @@ const vocabularyAdjectives = [
         "text": "inklusive"
       }
     },
-    "sourceIndex": 1671
+    "sourceIndex": 1671,
+    "adjectiveCategory": "general"
   },
   {
     "id": "11683",
@@ -3436,7 +3664,8 @@ const vocabularyAdjectives = [
         "text": "still"
       }
     },
-    "sourceIndex": 1683
+    "sourceIndex": 1683,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "11696",
@@ -3451,7 +3680,8 @@ const vocabularyAdjectives = [
         "text": "vorsichtig"
       }
     },
-    "sourceIndex": 1696
+    "sourceIndex": 1696,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "11697",
@@ -3466,7 +3696,8 @@ const vocabularyAdjectives = [
         "text": "zuständig"
       }
     },
-    "sourceIndex": 1697
+    "sourceIndex": 1697,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "11708",
@@ -3481,7 +3712,8 @@ const vocabularyAdjectives = [
         "text": "dunkel"
       }
     },
-    "sourceIndex": 1708
+    "sourceIndex": 1708,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "11710",
@@ -3496,7 +3728,8 @@ const vocabularyAdjectives = [
         "text": "fett"
       }
     },
-    "sourceIndex": 1710
+    "sourceIndex": 1710,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "11721",
@@ -3511,7 +3744,8 @@ const vocabularyAdjectives = [
         "text": "herzlich"
       }
     },
-    "sourceIndex": 1721
+    "sourceIndex": 1721,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "11723",
@@ -3526,7 +3760,8 @@ const vocabularyAdjectives = [
         "text": "kölner"
       }
     },
-    "sourceIndex": 1723
+    "sourceIndex": 1723,
+    "adjectiveCategory": "places"
   },
   {
     "id": "11729",
@@ -3541,7 +3776,8 @@ const vocabularyAdjectives = [
         "text": "parallel"
       }
     },
-    "sourceIndex": 1729
+    "sourceIndex": 1729,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "11732",
@@ -3556,7 +3792,8 @@ const vocabularyAdjectives = [
         "text": "scharf"
       }
     },
-    "sourceIndex": 1732
+    "sourceIndex": 1732,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "11734",
@@ -3571,7 +3808,8 @@ const vocabularyAdjectives = [
         "text": "schwach"
       }
     },
-    "sourceIndex": 1734
+    "sourceIndex": 1734,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "11736",
@@ -3586,7 +3824,8 @@ const vocabularyAdjectives = [
         "text": "spannend"
       }
     },
-    "sourceIndex": 1736
+    "sourceIndex": 1736,
+    "adjectiveCategory": "general"
   },
   {
     "id": "11761",
@@ -3601,7 +3840,8 @@ const vocabularyAdjectives = [
         "text": "katholisch"
       }
     },
-    "sourceIndex": 1761
+    "sourceIndex": 1761,
+    "adjectiveCategory": "society"
   },
   {
     "id": "11763",
@@ -3616,7 +3856,8 @@ const vocabularyAdjectives = [
         "text": "langweilig"
       }
     },
-    "sourceIndex": 1763
+    "sourceIndex": 1763,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "11775",
@@ -3631,7 +3872,8 @@ const vocabularyAdjectives = [
         "text": "staatlich"
       }
     },
-    "sourceIndex": 1775
+    "sourceIndex": 1775,
+    "adjectiveCategory": "society"
   },
   {
     "id": "11798",
@@ -3646,7 +3888,8 @@ const vocabularyAdjectives = [
         "text": "münchner"
       }
     },
-    "sourceIndex": 1798
+    "sourceIndex": 1798,
+    "adjectiveCategory": "places"
   },
   {
     "id": "11805",
@@ -3661,7 +3904,8 @@ const vocabularyAdjectives = [
         "text": "türkisch"
       }
     },
-    "sourceIndex": 1805
+    "sourceIndex": 1805,
+    "adjectiveCategory": "places"
   },
   {
     "id": "11809",
@@ -3676,7 +3920,8 @@ const vocabularyAdjectives = [
         "text": "verfügbar"
       }
     },
-    "sourceIndex": 1809
+    "sourceIndex": 1809,
+    "adjectiveCategory": "general"
   },
   {
     "id": "11812",
@@ -3691,7 +3936,8 @@ const vocabularyAdjectives = [
         "text": "wirtschaftlich"
       }
     },
-    "sourceIndex": 1812
+    "sourceIndex": 1812,
+    "adjectiveCategory": "society"
   },
   {
     "id": "11813",
@@ -3706,7 +3952,8 @@ const vocabularyAdjectives = [
         "text": "übel"
       }
     },
-    "sourceIndex": 1813
+    "sourceIndex": 1813,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "11826",
@@ -3721,7 +3968,8 @@ const vocabularyAdjectives = [
         "text": "freiwillig"
       }
     },
-    "sourceIndex": 1826
+    "sourceIndex": 1826,
+    "adjectiveCategory": "general"
   },
   {
     "id": "11835",
@@ -3736,7 +3984,8 @@ const vocabularyAdjectives = [
         "text": "lächerlich"
       }
     },
-    "sourceIndex": 1835
+    "sourceIndex": 1835,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "11837",
@@ -3751,7 +4000,8 @@ const vocabularyAdjectives = [
         "text": "negativ"
       }
     },
-    "sourceIndex": 1837
+    "sourceIndex": 1837,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "11855",
@@ -3766,7 +4016,8 @@ const vocabularyAdjectives = [
         "text": "fair"
       }
     },
-    "sourceIndex": 1855
+    "sourceIndex": 1855,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "11858",
@@ -3781,7 +4032,8 @@ const vocabularyAdjectives = [
         "text": "gering"
       }
     },
-    "sourceIndex": 1858
+    "sourceIndex": 1858,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "11909",
@@ -3796,7 +4048,8 @@ const vocabularyAdjectives = [
         "text": "westlich"
       }
     },
-    "sourceIndex": 1909
+    "sourceIndex": 1909,
+    "adjectiveCategory": "places"
   },
   {
     "id": "11912",
@@ -3811,7 +4064,8 @@ const vocabularyAdjectives = [
         "text": "üblich"
       }
     },
-    "sourceIndex": 1912
+    "sourceIndex": 1912,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "11928",
@@ -3826,7 +4080,8 @@ const vocabularyAdjectives = [
         "text": "gerecht"
       }
     },
-    "sourceIndex": 1928
+    "sourceIndex": 1928,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "11935",
@@ -3841,7 +4096,8 @@ const vocabularyAdjectives = [
         "text": "kritisch"
       }
     },
-    "sourceIndex": 1935
+    "sourceIndex": 1935,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "11937",
@@ -3856,7 +4112,8 @@ const vocabularyAdjectives = [
         "text": "menschlich"
       }
     },
-    "sourceIndex": 1937
+    "sourceIndex": 1937,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "11943",
@@ -3871,7 +4128,8 @@ const vocabularyAdjectives = [
         "text": "rosa"
       }
     },
-    "sourceIndex": 1943
+    "sourceIndex": 1943,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "11954",
@@ -3886,7 +4144,8 @@ const vocabularyAdjectives = [
         "text": "verrückt"
       }
     },
-    "sourceIndex": 1954
+    "sourceIndex": 1954,
+    "adjectiveCategory": "general"
   },
   {
     "id": "11957",
@@ -3901,7 +4160,8 @@ const vocabularyAdjectives = [
         "text": "überraschend"
       }
     },
-    "sourceIndex": 1957
+    "sourceIndex": 1957,
+    "adjectiveCategory": "general"
   },
   {
     "id": "11960",
@@ -3916,7 +4176,8 @@ const vocabularyAdjectives = [
         "text": "beliebt"
       }
     },
-    "sourceIndex": 1960
+    "sourceIndex": 1960,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "11964",
@@ -3931,7 +4192,8 @@ const vocabularyAdjectives = [
         "text": "britisch"
       }
     },
-    "sourceIndex": 1964
+    "sourceIndex": 1964,
+    "adjectiveCategory": "places"
   },
   {
     "id": "11980",
@@ -3946,7 +4208,8 @@ const vocabularyAdjectives = [
         "text": "typisch"
       }
     },
-    "sourceIndex": 1980
+    "sourceIndex": 1980,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "12013",
@@ -3961,7 +4224,8 @@ const vocabularyAdjectives = [
         "text": "lokal"
       }
     },
-    "sourceIndex": 2013
+    "sourceIndex": 2013,
+    "adjectiveCategory": "places"
   },
   {
     "id": "12017",
@@ -3976,7 +4240,8 @@ const vocabularyAdjectives = [
         "text": "mobil"
       }
     },
-    "sourceIndex": 2017
+    "sourceIndex": 2017,
+    "adjectiveCategory": "movement"
   },
   {
     "id": "12020",
@@ -3991,7 +4256,8 @@ const vocabularyAdjectives = [
         "text": "peinlich"
       }
     },
-    "sourceIndex": 2020
+    "sourceIndex": 2020,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "12038",
@@ -4006,7 +4272,8 @@ const vocabularyAdjectives = [
         "text": "fein"
       }
     },
-    "sourceIndex": 2038
+    "sourceIndex": 2038,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "12041",
@@ -4021,7 +4288,8 @@ const vocabularyAdjectives = [
         "text": "fit"
       }
     },
-    "sourceIndex": 2041
+    "sourceIndex": 2041,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "12048",
@@ -4036,7 +4304,8 @@ const vocabularyAdjectives = [
         "text": "konkret"
       }
     },
-    "sourceIndex": 2048
+    "sourceIndex": 2048,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "12049",
@@ -4051,7 +4320,8 @@ const vocabularyAdjectives = [
         "text": "korrekt"
       }
     },
-    "sourceIndex": 2049
+    "sourceIndex": 2049,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "12078",
@@ -4066,7 +4336,8 @@ const vocabularyAdjectives = [
         "text": "demokratisch"
       }
     },
-    "sourceIndex": 2078
+    "sourceIndex": 2078,
+    "adjectiveCategory": "society"
   },
   {
     "id": "12090",
@@ -4081,7 +4352,8 @@ const vocabularyAdjectives = [
         "text": "italienisch"
       }
     },
-    "sourceIndex": 2090
+    "sourceIndex": 2090,
+    "adjectiveCategory": "places"
   },
   {
     "id": "12100",
@@ -4096,7 +4368,8 @@ const vocabularyAdjectives = [
         "text": "sauer"
       }
     },
-    "sourceIndex": 2100
+    "sourceIndex": 2100,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "12102",
@@ -4111,7 +4384,8 @@ const vocabularyAdjectives = [
         "text": "streng"
       }
     },
-    "sourceIndex": 2102
+    "sourceIndex": 2102,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "12121",
@@ -4126,7 +4400,8 @@ const vocabularyAdjectives = [
         "text": "erstaunlich"
       }
     },
-    "sourceIndex": 2121
+    "sourceIndex": 2121,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12122",
@@ -4141,7 +4416,8 @@ const vocabularyAdjectives = [
         "text": "finanziell"
       }
     },
-    "sourceIndex": 2122
+    "sourceIndex": 2122,
+    "adjectiveCategory": "society"
   },
   {
     "id": "12125",
@@ -4156,7 +4432,8 @@ const vocabularyAdjectives = [
         "text": "intensiv"
       }
     },
-    "sourceIndex": 2125
+    "sourceIndex": 2125,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12127",
@@ -4171,7 +4448,8 @@ const vocabularyAdjectives = [
         "text": "lecker"
       }
     },
-    "sourceIndex": 2127
+    "sourceIndex": 2127,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "12137",
@@ -4186,7 +4464,8 @@ const vocabularyAdjectives = [
         "text": "römisch"
       }
     },
-    "sourceIndex": 2137
+    "sourceIndex": 2137,
+    "adjectiveCategory": "places"
   },
   {
     "id": "12158",
@@ -4201,7 +4480,8 @@ const vocabularyAdjectives = [
         "text": "evangelisch"
       }
     },
-    "sourceIndex": 2158
+    "sourceIndex": 2158,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12173",
@@ -4216,7 +4496,8 @@ const vocabularyAdjectives = [
         "text": "spontan"
       }
     },
-    "sourceIndex": 2173
+    "sourceIndex": 2173,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12177",
@@ -4231,7 +4512,8 @@ const vocabularyAdjectives = [
         "text": "verständlich"
       }
     },
-    "sourceIndex": 2177
+    "sourceIndex": 2177,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12191",
@@ -4246,7 +4528,8 @@ const vocabularyAdjectives = [
         "text": "erhältlich"
       }
     },
-    "sourceIndex": 2191
+    "sourceIndex": 2191,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12196",
@@ -4261,7 +4544,8 @@ const vocabularyAdjectives = [
         "text": "hell"
       }
     },
-    "sourceIndex": 2196
+    "sourceIndex": 2196,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "12197",
@@ -4276,7 +4560,8 @@ const vocabularyAdjectives = [
         "text": "hübsch"
       }
     },
-    "sourceIndex": 2197
+    "sourceIndex": 2197,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "12205",
@@ -4291,7 +4576,8 @@ const vocabularyAdjectives = [
         "text": "mega"
       }
     },
-    "sourceIndex": 2205
+    "sourceIndex": 2205,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "12212",
@@ -4306,7 +4592,8 @@ const vocabularyAdjectives = [
         "text": "seltsam"
       }
     },
-    "sourceIndex": 2212
+    "sourceIndex": 2212,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12218",
@@ -4321,7 +4608,8 @@ const vocabularyAdjectives = [
         "text": "traditionell"
       }
     },
-    "sourceIndex": 2218
+    "sourceIndex": 2218,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12219",
@@ -4336,7 +4624,8 @@ const vocabularyAdjectives = [
         "text": "trocken"
       }
     },
-    "sourceIndex": 2219
+    "sourceIndex": 2219,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "12237",
@@ -4351,7 +4640,8 @@ const vocabularyAdjectives = [
         "text": "christlich"
       }
     },
-    "sourceIndex": 2237
+    "sourceIndex": 2237,
+    "adjectiveCategory": "society"
   },
   {
     "id": "12238",
@@ -4366,7 +4656,8 @@ const vocabularyAdjectives = [
         "text": "digital"
       }
     },
-    "sourceIndex": 2238
+    "sourceIndex": 2238,
+    "adjectiveCategory": "society"
   },
   {
     "id": "12243",
@@ -4381,7 +4672,8 @@ const vocabularyAdjectives = [
         "text": "griechisch"
       }
     },
-    "sourceIndex": 2243
+    "sourceIndex": 2243,
+    "adjectiveCategory": "places"
   },
   {
     "id": "12257",
@@ -4396,7 +4688,8 @@ const vocabularyAdjectives = [
         "text": "riesig"
       }
     },
-    "sourceIndex": 2257
+    "sourceIndex": 2257,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "12261",
@@ -4411,7 +4704,8 @@ const vocabularyAdjectives = [
         "text": "unbekannt"
       }
     },
-    "sourceIndex": 2261
+    "sourceIndex": 2261,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12268",
@@ -4426,7 +4720,8 @@ const vocabularyAdjectives = [
         "text": "zugänglich"
       }
     },
-    "sourceIndex": 2268
+    "sourceIndex": 2268,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12272",
@@ -4441,7 +4736,8 @@ const vocabularyAdjectives = [
         "text": "angenehm"
       }
     },
-    "sourceIndex": 2272
+    "sourceIndex": 2272,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "12281",
@@ -4456,7 +4752,8 @@ const vocabularyAdjectives = [
         "text": "golden"
       }
     },
-    "sourceIndex": 2281
+    "sourceIndex": 2281,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "12310",
@@ -4471,7 +4768,8 @@ const vocabularyAdjectives = [
         "text": "weiblich"
       }
     },
-    "sourceIndex": 2310
+    "sourceIndex": 2310,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12322",
@@ -4486,7 +4784,8 @@ const vocabularyAdjectives = [
         "text": "einverstanden"
       }
     },
-    "sourceIndex": 2322
+    "sourceIndex": 2322,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12323",
@@ -4501,7 +4800,8 @@ const vocabularyAdjectives = [
         "text": "entspannt"
       }
     },
-    "sourceIndex": 2323
+    "sourceIndex": 2323,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "12325",
@@ -4516,7 +4816,8 @@ const vocabularyAdjectives = [
         "text": "fern"
       }
     },
-    "sourceIndex": 2325
+    "sourceIndex": 2325,
+    "adjectiveCategory": "places"
   },
   {
     "id": "12328",
@@ -4531,7 +4832,8 @@ const vocabularyAdjectives = [
         "text": "heil"
       }
     },
-    "sourceIndex": 2328
+    "sourceIndex": 2328,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "12343",
@@ -4546,7 +4848,8 @@ const vocabularyAdjectives = [
         "text": "wunderschön"
       }
     },
-    "sourceIndex": 2343
+    "sourceIndex": 2343,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "12348",
@@ -4561,7 +4864,8 @@ const vocabularyAdjectives = [
         "text": "billig"
       }
     },
-    "sourceIndex": 2348
+    "sourceIndex": 2348,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "12349",
@@ -4576,7 +4880,8 @@ const vocabularyAdjectives = [
         "text": "blind"
       }
     },
-    "sourceIndex": 2349
+    "sourceIndex": 2349,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "12351",
@@ -4591,7 +4896,8 @@ const vocabularyAdjectives = [
         "text": "chinesisch"
       }
     },
-    "sourceIndex": 2351
+    "sourceIndex": 2351,
+    "adjectiveCategory": "places"
   },
   {
     "id": "12369",
@@ -4606,7 +4912,8 @@ const vocabularyAdjectives = [
         "text": "passend"
       }
     },
-    "sourceIndex": 2369
+    "sourceIndex": 2369,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "12373",
@@ -4621,7 +4928,8 @@ const vocabularyAdjectives = [
         "text": "schief"
       }
     },
-    "sourceIndex": 2373
+    "sourceIndex": 2373,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "12379",
@@ -4636,7 +4944,8 @@ const vocabularyAdjectives = [
         "text": "städtisch"
       }
     },
-    "sourceIndex": 2379
+    "sourceIndex": 2379,
+    "adjectiveCategory": "places"
   },
   {
     "id": "12406",
@@ -4651,7 +4960,8 @@ const vocabularyAdjectives = [
         "text": "hilfreich"
       }
     },
-    "sourceIndex": 2406
+    "sourceIndex": 2406,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12433",
@@ -4666,7 +4976,8 @@ const vocabularyAdjectives = [
         "text": "doof"
       }
     },
-    "sourceIndex": 2433
+    "sourceIndex": 2433,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "12443",
@@ -4681,7 +4992,8 @@ const vocabularyAdjectives = [
         "text": "glatt"
       }
     },
-    "sourceIndex": 2443
+    "sourceIndex": 2443,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "12444",
@@ -4696,7 +5008,8 @@ const vocabularyAdjectives = [
         "text": "groß"
       }
     },
-    "sourceIndex": 2444
+    "sourceIndex": 2444,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "12445",
@@ -4711,7 +5024,8 @@ const vocabularyAdjectives = [
         "text": "happy"
       }
     },
-    "sourceIndex": 2445
+    "sourceIndex": 2445,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "12448",
@@ -4726,7 +5040,8 @@ const vocabularyAdjectives = [
         "text": "kulturell"
       }
     },
-    "sourceIndex": 2448
+    "sourceIndex": 2448,
+    "adjectiveCategory": "society"
   },
   {
     "id": "12457",
@@ -4741,7 +5056,8 @@ const vocabularyAdjectives = [
         "text": "pünktlich"
       }
     },
-    "sourceIndex": 2457
+    "sourceIndex": 2457,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12459",
@@ -4756,7 +5072,8 @@ const vocabularyAdjectives = [
         "text": "restlich"
       }
     },
-    "sourceIndex": 2459
+    "sourceIndex": 2459,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "12486",
@@ -4771,7 +5088,8 @@ const vocabularyAdjectives = [
         "text": "geplant"
       }
     },
-    "sourceIndex": 2486
+    "sourceIndex": 2486,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12488",
@@ -4786,7 +5104,8 @@ const vocabularyAdjectives = [
         "text": "grau"
       }
     },
-    "sourceIndex": 2488
+    "sourceIndex": 2488,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "12494",
@@ -4801,7 +5120,8 @@ const vocabularyAdjectives = [
         "text": "lebend"
       }
     },
-    "sourceIndex": 2494
+    "sourceIndex": 2494,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "12505",
@@ -4816,7 +5136,8 @@ const vocabularyAdjectives = [
         "text": "regional"
       }
     },
-    "sourceIndex": 2505
+    "sourceIndex": 2505,
+    "adjectiveCategory": "places"
   },
   {
     "id": "12506",
@@ -4831,7 +5152,8 @@ const vocabularyAdjectives = [
         "text": "schuldig"
       }
     },
-    "sourceIndex": 2506
+    "sourceIndex": 2506,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12509",
@@ -4847,7 +5169,8 @@ const vocabularyAdjectives = [
         "caseSensitive": true
       }
     },
-    "sourceIndex": 2509
+    "sourceIndex": 2509,
+    "adjectiveCategory": "places"
   },
   {
     "id": "12511",
@@ -4862,7 +5185,8 @@ const vocabularyAdjectives = [
         "text": "stehend"
       }
     },
-    "sourceIndex": 2511
+    "sourceIndex": 2511,
+    "adjectiveCategory": "movement"
   },
   {
     "id": "12530",
@@ -4877,7 +5201,8 @@ const vocabularyAdjectives = [
         "text": "bequem"
       }
     },
-    "sourceIndex": 2530
+    "sourceIndex": 2530,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "12537",
@@ -4892,7 +5217,8 @@ const vocabularyAdjectives = [
         "text": "exakt"
       }
     },
-    "sourceIndex": 2537
+    "sourceIndex": 2537,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "12554",
@@ -4907,7 +5233,8 @@ const vocabularyAdjectives = [
         "text": "schick"
       }
     },
-    "sourceIndex": 2554
+    "sourceIndex": 2554,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12555",
@@ -4922,7 +5249,8 @@ const vocabularyAdjectives = [
         "text": "schrecklich"
       }
     },
-    "sourceIndex": 2555
+    "sourceIndex": 2555,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12564",
@@ -4937,7 +5265,8 @@ const vocabularyAdjectives = [
         "text": "unklar"
       }
     },
-    "sourceIndex": 2564
+    "sourceIndex": 2564,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "12590",
@@ -4952,7 +5281,8 @@ const vocabularyAdjectives = [
         "text": "ideal"
       }
     },
-    "sourceIndex": 2590
+    "sourceIndex": 2590,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12594",
@@ -4967,7 +5297,8 @@ const vocabularyAdjectives = [
         "text": "kompliziert"
       }
     },
-    "sourceIndex": 2594
+    "sourceIndex": 2594,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "12609",
@@ -4982,7 +5313,8 @@ const vocabularyAdjectives = [
         "text": "ungewöhnlich"
       }
     },
-    "sourceIndex": 2609
+    "sourceIndex": 2609,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "12615",
@@ -4997,7 +5329,8 @@ const vocabularyAdjectives = [
         "text": "örtlich"
       }
     },
-    "sourceIndex": 2615
+    "sourceIndex": 2615,
+    "adjectiveCategory": "places"
   },
   {
     "id": "12619",
@@ -5012,7 +5345,8 @@ const vocabularyAdjectives = [
         "text": "arabisch"
       }
     },
-    "sourceIndex": 2619
+    "sourceIndex": 2619,
+    "adjectiveCategory": "places"
   },
   {
     "id": "12624",
@@ -5027,7 +5361,8 @@ const vocabularyAdjectives = [
         "text": "berühmt"
       }
     },
-    "sourceIndex": 2624
+    "sourceIndex": 2624,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12647",
@@ -5042,7 +5377,8 @@ const vocabularyAdjectives = [
         "text": "kräftig"
       }
     },
-    "sourceIndex": 2647
+    "sourceIndex": 2647,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "12651",
@@ -5057,7 +5393,8 @@ const vocabularyAdjectives = [
         "text": "männlich"
       }
     },
-    "sourceIndex": 2651
+    "sourceIndex": 2651,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12652",
@@ -5072,7 +5409,8 @@ const vocabularyAdjectives = [
         "text": "niedrig"
       }
     },
-    "sourceIndex": 2652
+    "sourceIndex": 2652,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12655",
@@ -5087,7 +5425,8 @@ const vocabularyAdjectives = [
         "text": "prima"
       }
     },
-    "sourceIndex": 2655
+    "sourceIndex": 2655,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "12698",
@@ -5102,7 +5441,8 @@ const vocabularyAdjectives = [
         "text": "kurzfristig"
       }
     },
-    "sourceIndex": 2698
+    "sourceIndex": 2698,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "12703",
@@ -5117,7 +5457,8 @@ const vocabularyAdjectives = [
         "text": "mächtig"
       }
     },
-    "sourceIndex": 2703
+    "sourceIndex": 2703,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12742",
@@ -5132,7 +5473,8 @@ const vocabularyAdjectives = [
         "text": "japanisch"
       }
     },
-    "sourceIndex": 2742
+    "sourceIndex": 2742,
+    "adjectiveCategory": "places"
   },
   {
     "id": "12752",
@@ -5147,7 +5489,8 @@ const vocabularyAdjectives = [
         "text": "stabil"
       }
     },
-    "sourceIndex": 2752
+    "sourceIndex": 2752,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12755",
@@ -5162,7 +5505,8 @@ const vocabularyAdjectives = [
         "text": "theoretisch"
       }
     },
-    "sourceIndex": 2755
+    "sourceIndex": 2755,
+    "adjectiveCategory": "society"
   },
   {
     "id": "12760",
@@ -5177,7 +5521,8 @@ const vocabularyAdjectives = [
         "text": "wahnsinnig"
       }
     },
-    "sourceIndex": 2760
+    "sourceIndex": 2760,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12780",
@@ -5192,7 +5537,8 @@ const vocabularyAdjectives = [
         "text": "erreichbar"
       }
     },
-    "sourceIndex": 2780
+    "sourceIndex": 2780,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12813",
@@ -5207,7 +5553,8 @@ const vocabularyAdjectives = [
         "text": "wütend"
       }
     },
-    "sourceIndex": 2813
+    "sourceIndex": 2813,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "12840",
@@ -5222,7 +5569,8 @@ const vocabularyAdjectives = [
         "text": "herrlich"
       }
     },
-    "sourceIndex": 2840
+    "sourceIndex": 2840,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "12861",
@@ -5237,7 +5585,8 @@ const vocabularyAdjectives = [
         "text": "solo"
       }
     },
-    "sourceIndex": 2861
+    "sourceIndex": 2861,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12864",
@@ -5252,7 +5601,8 @@ const vocabularyAdjectives = [
         "text": "unsicher"
       }
     },
-    "sourceIndex": 2864
+    "sourceIndex": 2864,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "12868",
@@ -5267,7 +5617,8 @@ const vocabularyAdjectives = [
         "text": "ausführlich"
       }
     },
-    "sourceIndex": 2868
+    "sourceIndex": 2868,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12871",
@@ -5282,7 +5633,8 @@ const vocabularyAdjectives = [
         "text": "ausländisch"
       }
     },
-    "sourceIndex": 2871
+    "sourceIndex": 2871,
+    "adjectiveCategory": "places"
   },
   {
     "id": "12880",
@@ -5297,7 +5649,8 @@ const vocabularyAdjectives = [
         "text": "gemein"
       }
     },
-    "sourceIndex": 2880
+    "sourceIndex": 2880,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12881",
@@ -5312,7 +5665,8 @@ const vocabularyAdjectives = [
         "text": "genial"
       }
     },
-    "sourceIndex": 2881
+    "sourceIndex": 2881,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12890",
@@ -5327,7 +5681,8 @@ const vocabularyAdjectives = [
         "text": "matt"
       }
     },
-    "sourceIndex": 2890
+    "sourceIndex": 2890,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "12892",
@@ -5342,7 +5697,8 @@ const vocabularyAdjectives = [
         "text": "monatlich"
       }
     },
-    "sourceIndex": 2892
+    "sourceIndex": 2892,
+    "adjectiveCategory": "time"
   },
   {
     "id": "12893",
@@ -5357,7 +5713,8 @@ const vocabularyAdjectives = [
         "text": "neugierig"
       }
     },
-    "sourceIndex": 2893
+    "sourceIndex": 2893,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "12894",
@@ -5372,7 +5729,8 @@ const vocabularyAdjectives = [
         "text": "orange"
       }
     },
-    "sourceIndex": 2894
+    "sourceIndex": 2894,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12898",
@@ -5388,7 +5746,8 @@ const vocabularyAdjectives = [
         "caseSensitive": true
       }
     },
-    "sourceIndex": 2898
+    "sourceIndex": 2898,
+    "adjectiveCategory": "places"
   },
   {
     "id": "12902",
@@ -5403,7 +5762,8 @@ const vocabularyAdjectives = [
         "text": "schlau"
       }
     },
-    "sourceIndex": 2902
+    "sourceIndex": 2902,
+    "adjectiveCategory": "ability"
   },
   {
     "id": "12904",
@@ -5418,7 +5778,8 @@ const vocabularyAdjectives = [
         "text": "schwanger"
       }
     },
-    "sourceIndex": 2904
+    "sourceIndex": 2904,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "12911",
@@ -5433,7 +5794,8 @@ const vocabularyAdjectives = [
         "text": "treu"
       }
     },
-    "sourceIndex": 2911
+    "sourceIndex": 2911,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "12937",
@@ -5448,7 +5810,8 @@ const vocabularyAdjectives = [
         "text": "heimlich"
       }
     },
-    "sourceIndex": 2937
+    "sourceIndex": 2937,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12941",
@@ -5463,7 +5826,8 @@ const vocabularyAdjectives = [
         "text": "konservativ"
       }
     },
-    "sourceIndex": 2941
+    "sourceIndex": 2941,
+    "adjectiveCategory": "society"
   },
   {
     "id": "12943",
@@ -5478,7 +5842,8 @@ const vocabularyAdjectives = [
         "text": "militärisch"
       }
     },
-    "sourceIndex": 2943
+    "sourceIndex": 2943,
+    "adjectiveCategory": "society"
   },
   {
     "id": "12946",
@@ -5493,7 +5858,8 @@ const vocabularyAdjectives = [
         "text": "musikalisch"
       }
     },
-    "sourceIndex": 2946
+    "sourceIndex": 2946,
+    "adjectiveCategory": "society"
   },
   {
     "id": "12974",
@@ -5508,7 +5874,8 @@ const vocabularyAdjectives = [
         "text": "attraktiv"
       }
     },
-    "sourceIndex": 2974
+    "sourceIndex": 2974,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12985",
@@ -5523,7 +5890,8 @@ const vocabularyAdjectives = [
         "text": "elektrisch"
       }
     },
-    "sourceIndex": 2985
+    "sourceIndex": 2985,
+    "adjectiveCategory": "society"
   },
   {
     "id": "12988",
@@ -5538,7 +5906,8 @@ const vocabularyAdjectives = [
         "text": "fleissig"
       }
     },
-    "sourceIndex": 2988
+    "sourceIndex": 2988,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "12991",
@@ -5553,7 +5922,8 @@ const vocabularyAdjectives = [
         "text": "furchtbar"
       }
     },
-    "sourceIndex": 2991
+    "sourceIndex": 2991,
+    "adjectiveCategory": "general"
   },
   {
     "id": "12995",
@@ -5568,7 +5938,8 @@ const vocabularyAdjectives = [
         "text": "gewöhnlich"
       }
     },
-    "sourceIndex": 2995
+    "sourceIndex": 2995,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "12998",
@@ -5583,7 +5954,8 @@ const vocabularyAdjectives = [
         "text": "illegal"
       }
     },
-    "sourceIndex": 2998
+    "sourceIndex": 2998,
+    "adjectiveCategory": "society"
   },
   {
     "id": "13001",
@@ -5598,7 +5970,8 @@ const vocabularyAdjectives = [
         "text": "islamisch"
       }
     },
-    "sourceIndex": 3001
+    "sourceIndex": 3001,
+    "adjectiveCategory": "society"
   },
   {
     "id": "13003",
@@ -5613,7 +5986,8 @@ const vocabularyAdjectives = [
         "text": "körperlich"
       }
     },
-    "sourceIndex": 3003
+    "sourceIndex": 3003,
+    "adjectiveCategory": "general"
   },
   {
     "id": "13007",
@@ -5628,7 +6002,8 @@ const vocabularyAdjectives = [
         "text": "nass"
       }
     },
-    "sourceIndex": 3007
+    "sourceIndex": 3007,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "13010",
@@ -5643,7 +6018,8 @@ const vocabularyAdjectives = [
         "text": "problemlos"
       }
     },
-    "sourceIndex": 3010
+    "sourceIndex": 3010,
+    "adjectiveCategory": "general"
   },
   {
     "id": "13018",
@@ -5658,7 +6034,8 @@ const vocabularyAdjectives = [
         "text": "südlich"
       }
     },
-    "sourceIndex": 3018
+    "sourceIndex": 3018,
+    "adjectiveCategory": "places"
   },
   {
     "id": "13038",
@@ -5673,7 +6050,8 @@ const vocabularyAdjectives = [
         "text": "bremer"
       }
     },
-    "sourceIndex": 3038
+    "sourceIndex": 3038,
+    "adjectiveCategory": "places"
   },
   {
     "id": "13046",
@@ -5688,7 +6066,8 @@ const vocabularyAdjectives = [
         "text": "friedlich"
       }
     },
-    "sourceIndex": 3046
+    "sourceIndex": 3046,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "13048",
@@ -5703,7 +6082,8 @@ const vocabularyAdjectives = [
         "text": "gemütlich"
       }
     },
-    "sourceIndex": 3048
+    "sourceIndex": 3048,
+    "adjectiveCategory": "general"
   },
   {
     "id": "13056",
@@ -5718,7 +6098,8 @@ const vocabularyAdjectives = [
         "text": "lebendig"
       }
     },
-    "sourceIndex": 3056
+    "sourceIndex": 3056,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "13060",
@@ -5733,7 +6114,8 @@ const vocabularyAdjectives = [
         "text": "mehrer"
       }
     },
-    "sourceIndex": 3060
+    "sourceIndex": 3060,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "13063",
@@ -5748,7 +6130,8 @@ const vocabularyAdjectives = [
         "text": "nördlich"
       }
     },
-    "sourceIndex": 3063
+    "sourceIndex": 3063,
+    "adjectiveCategory": "places"
   },
   {
     "id": "13064",
@@ -5763,7 +6146,8 @@ const vocabularyAdjectives = [
         "text": "nützlich"
       }
     },
-    "sourceIndex": 3064
+    "sourceIndex": 3064,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "13082",
@@ -5778,7 +6162,8 @@ const vocabularyAdjectives = [
         "text": "vernünftig"
       }
     },
-    "sourceIndex": 3082
+    "sourceIndex": 3082,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "13104",
@@ -5793,7 +6178,8 @@ const vocabularyAdjectives = [
         "text": "gelegen"
       }
     },
-    "sourceIndex": 3104
+    "sourceIndex": 3104,
+    "adjectiveCategory": "general"
   },
   {
     "id": "13105",
@@ -5808,7 +6194,8 @@ const vocabularyAdjectives = [
         "text": "geschlossen"
       }
     },
-    "sourceIndex": 3105
+    "sourceIndex": 3105,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "13109",
@@ -5823,7 +6210,8 @@ const vocabularyAdjectives = [
         "text": "klug"
       }
     },
-    "sourceIndex": 3109
+    "sourceIndex": 3109,
+    "adjectiveCategory": "ability"
   },
   {
     "id": "13134",
@@ -5838,7 +6226,8 @@ const vocabularyAdjectives = [
         "text": "unangenehm"
       }
     },
-    "sourceIndex": 3134
+    "sourceIndex": 3134,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "13140",
@@ -5853,7 +6242,8 @@ const vocabularyAdjectives = [
         "text": "verzweifelt"
       }
     },
-    "sourceIndex": 3140
+    "sourceIndex": 3140,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "13153",
@@ -5868,7 +6258,8 @@ const vocabularyAdjectives = [
         "text": "betrunken"
       }
     },
-    "sourceIndex": 3153
+    "sourceIndex": 3153,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "13164",
@@ -5883,7 +6274,8 @@ const vocabularyAdjectives = [
         "text": "faul"
       }
     },
-    "sourceIndex": 3164
+    "sourceIndex": 3164,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "13167",
@@ -5898,7 +6290,8 @@ const vocabularyAdjectives = [
         "text": "flach"
       }
     },
-    "sourceIndex": 3167
+    "sourceIndex": 3167,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "13174",
@@ -5913,7 +6306,8 @@ const vocabularyAdjectives = [
         "text": "grob"
       }
     },
-    "sourceIndex": 3174
+    "sourceIndex": 3174,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "13204",
@@ -5928,7 +6322,8 @@ const vocabularyAdjectives = [
         "text": "verbunden"
       }
     },
-    "sourceIndex": 3204
+    "sourceIndex": 3204,
+    "adjectiveCategory": "general"
   },
   {
     "id": "13215",
@@ -5943,7 +6338,8 @@ const vocabularyAdjectives = [
         "text": "bedeutend"
       }
     },
-    "sourceIndex": 3215
+    "sourceIndex": 3215,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "13227",
@@ -5958,7 +6354,8 @@ const vocabularyAdjectives = [
         "text": "dünn"
       }
     },
-    "sourceIndex": 3227
+    "sourceIndex": 3227,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "13236",
@@ -5973,7 +6370,8 @@ const vocabularyAdjectives = [
         "text": "fröhlich"
       }
     },
-    "sourceIndex": 3236
+    "sourceIndex": 3236,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "13239",
@@ -5988,7 +6386,8 @@ const vocabularyAdjectives = [
         "text": "geheim"
       }
     },
-    "sourceIndex": 3239
+    "sourceIndex": 3239,
+    "adjectiveCategory": "general"
   },
   {
     "id": "13250",
@@ -6003,7 +6402,8 @@ const vocabularyAdjectives = [
         "text": "logisch"
       }
     },
-    "sourceIndex": 3250
+    "sourceIndex": 3250,
+    "adjectiveCategory": "general"
   },
   {
     "id": "13255",
@@ -6018,7 +6418,8 @@ const vocabularyAdjectives = [
         "text": "nice"
       }
     },
-    "sourceIndex": 3255
+    "sourceIndex": 3255,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "13269",
@@ -6033,7 +6434,8 @@ const vocabularyAdjectives = [
         "text": "vorübergehend"
       }
     },
-    "sourceIndex": 3269
+    "sourceIndex": 3269,
+    "adjectiveCategory": "time"
   },
   {
     "id": "13272",
@@ -6048,7 +6450,8 @@ const vocabularyAdjectives = [
         "text": "anstrengend"
       }
     },
-    "sourceIndex": 3272
+    "sourceIndex": 3272,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "13296",
@@ -6063,7 +6466,8 @@ const vocabularyAdjectives = [
         "text": "merkwürdig"
       }
     },
-    "sourceIndex": 3296
+    "sourceIndex": 3296,
+    "adjectiveCategory": "general"
   },
   {
     "id": "13301",
@@ -6078,7 +6482,8 @@ const vocabularyAdjectives = [
         "text": "pariser"
       }
     },
-    "sourceIndex": 3301
+    "sourceIndex": 3301,
+    "adjectiveCategory": "places"
   },
   {
     "id": "13304",
@@ -6093,7 +6498,8 @@ const vocabularyAdjectives = [
         "text": "schriftlich"
       }
     },
-    "sourceIndex": 3304
+    "sourceIndex": 3304,
+    "adjectiveCategory": "general"
   },
   {
     "id": "13323",
@@ -6108,7 +6514,8 @@ const vocabularyAdjectives = [
         "text": "alternativ"
       }
     },
-    "sourceIndex": 3323
+    "sourceIndex": 3323,
+    "adjectiveCategory": "general"
   },
   {
     "id": "13328",
@@ -6123,7 +6530,8 @@ const vocabularyAdjectives = [
         "text": "anwesend"
       }
     },
-    "sourceIndex": 3328
+    "sourceIndex": 3328,
+    "adjectiveCategory": "general"
   },
   {
     "id": "13337",
@@ -6138,7 +6546,8 @@ const vocabularyAdjectives = [
         "text": "beruflich"
       }
     },
-    "sourceIndex": 3337
+    "sourceIndex": 3337,
+    "adjectiveCategory": "society"
   },
   {
     "id": "13345",
@@ -6153,7 +6562,8 @@ const vocabularyAdjectives = [
         "text": "einheimisch"
       }
     },
-    "sourceIndex": 3345
+    "sourceIndex": 3345,
+    "adjectiveCategory": "places"
   },
   {
     "id": "13363",
@@ -6168,7 +6578,8 @@ const vocabularyAdjectives = [
         "text": "königlich"
       }
     },
-    "sourceIndex": 3363
+    "sourceIndex": 3363,
+    "adjectiveCategory": "society"
   },
   {
     "id": "13377",
@@ -6183,7 +6594,8 @@ const vocabularyAdjectives = [
         "text": "sportlich"
       }
     },
-    "sourceIndex": 3377
+    "sourceIndex": 3377,
+    "adjectiveCategory": "general"
   },
   {
     "id": "13385",
@@ -6198,7 +6610,8 @@ const vocabularyAdjectives = [
         "text": "wertvoll"
       }
     },
-    "sourceIndex": 3385
+    "sourceIndex": 3385,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "13400",
@@ -6213,7 +6626,8 @@ const vocabularyAdjectives = [
         "text": "bitter"
       }
     },
-    "sourceIndex": 3400
+    "sourceIndex": 3400,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "13401",
@@ -6228,7 +6642,8 @@ const vocabularyAdjectives = [
         "text": "bunt"
       }
     },
-    "sourceIndex": 3401
+    "sourceIndex": 3401,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "13407",
@@ -6243,7 +6658,8 @@ const vocabularyAdjectives = [
         "text": "fähig"
       }
     },
-    "sourceIndex": 3407
+    "sourceIndex": 3407,
+    "adjectiveCategory": "ability"
   },
   {
     "id": "13412",
@@ -6258,7 +6674,8 @@ const vocabularyAdjectives = [
         "text": "intern"
       }
     },
-    "sourceIndex": 3412
+    "sourceIndex": 3412,
+    "adjectiveCategory": "general"
   },
   {
     "id": "13423",
@@ -6273,7 +6690,8 @@ const vocabularyAdjectives = [
         "text": "ländlich"
       }
     },
-    "sourceIndex": 3423
+    "sourceIndex": 3423,
+    "adjectiveCategory": "places"
   },
   {
     "id": "13427",
@@ -6288,7 +6706,8 @@ const vocabularyAdjectives = [
         "text": "nervös"
       }
     },
-    "sourceIndex": 3427
+    "sourceIndex": 3427,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "13431",
@@ -6303,7 +6722,8 @@ const vocabularyAdjectives = [
         "text": "regelmäßig"
       }
     },
-    "sourceIndex": 3431
+    "sourceIndex": 3431,
+    "adjectiveCategory": "time"
   },
   {
     "id": "13434",
@@ -6318,7 +6738,8 @@ const vocabularyAdjectives = [
         "text": "satt"
       }
     },
-    "sourceIndex": 3434
+    "sourceIndex": 3434,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "13436",
@@ -6333,7 +6754,8 @@ const vocabularyAdjectives = [
         "text": "smart"
       }
     },
-    "sourceIndex": 3436
+    "sourceIndex": 3436,
+    "adjectiveCategory": "ability"
   },
   {
     "id": "13441",
@@ -6348,7 +6770,8 @@ const vocabularyAdjectives = [
         "text": "stuttgarter"
       }
     },
-    "sourceIndex": 3441
+    "sourceIndex": 3441,
+    "adjectiveCategory": "places"
   },
   {
     "id": "13446",
@@ -6363,7 +6786,8 @@ const vocabularyAdjectives = [
         "text": "unwahrscheinlich"
       }
     },
-    "sourceIndex": 3446
+    "sourceIndex": 3446,
+    "adjectiveCategory": "certainty"
   },
   {
     "id": "13462",
@@ -6378,7 +6802,8 @@ const vocabularyAdjectives = [
         "text": "deutschsprachig"
       }
     },
-    "sourceIndex": 3462
+    "sourceIndex": 3462,
+    "adjectiveCategory": "places"
   },
   {
     "id": "13465",
@@ -6393,7 +6818,8 @@ const vocabularyAdjectives = [
         "text": "effektiv"
       }
     },
-    "sourceIndex": 3465
+    "sourceIndex": 3465,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "13476",
@@ -6408,7 +6834,8 @@ const vocabularyAdjectives = [
         "text": "gültig"
       }
     },
-    "sourceIndex": 3476
+    "sourceIndex": 3476,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "13485",
@@ -6423,7 +6850,8 @@ const vocabularyAdjectives = [
         "text": "legal"
       }
     },
-    "sourceIndex": 3485
+    "sourceIndex": 3485,
+    "adjectiveCategory": "society"
   },
   {
     "id": "13497",
@@ -6438,7 +6866,8 @@ const vocabularyAdjectives = [
         "text": "unglücklich"
       }
     },
-    "sourceIndex": 3497
+    "sourceIndex": 3497,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "13502",
@@ -6453,7 +6882,8 @@ const vocabularyAdjectives = [
         "text": "weich"
       }
     },
-    "sourceIndex": 3502
+    "sourceIndex": 3502,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "13534",
@@ -6468,7 +6898,8 @@ const vocabularyAdjectives = [
         "text": "gewählt"
       }
     },
-    "sourceIndex": 3534
+    "sourceIndex": 3534,
+    "adjectiveCategory": "general"
   },
   {
     "id": "13535",
@@ -6483,7 +6914,8 @@ const vocabularyAdjectives = [
         "text": "hessisch"
       }
     },
-    "sourceIndex": 3535
+    "sourceIndex": 3535,
+    "adjectiveCategory": "places"
   },
   {
     "id": "13536",
@@ -6498,7 +6930,8 @@ const vocabularyAdjectives = [
         "text": "identisch"
       }
     },
-    "sourceIndex": 3536
+    "sourceIndex": 3536,
+    "adjectiveCategory": "general"
   },
   {
     "id": "13546",
@@ -6513,7 +6946,8 @@ const vocabularyAdjectives = [
         "text": "objektiv"
       }
     },
-    "sourceIndex": 3546
+    "sourceIndex": 3546,
+    "adjectiveCategory": "general"
   },
   {
     "id": "13553",
@@ -6528,7 +6962,8 @@ const vocabularyAdjectives = [
         "text": "sinnlos"
       }
     },
-    "sourceIndex": 3553
+    "sourceIndex": 3553,
+    "adjectiveCategory": "general"
   },
   {
     "id": "13577",
@@ -6543,7 +6978,8 @@ const vocabularyAdjectives = [
         "text": "aufrecht"
       }
     },
-    "sourceIndex": 3577
+    "sourceIndex": 3577,
+    "adjectiveCategory": "general"
   },
   {
     "id": "13589",
@@ -6558,7 +6994,8 @@ const vocabularyAdjectives = [
         "text": "emotional"
       }
     },
-    "sourceIndex": 3589
+    "sourceIndex": 3589,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "13594",
@@ -6573,7 +7010,8 @@ const vocabularyAdjectives = [
         "text": "indirekt"
       }
     },
-    "sourceIndex": 3594
+    "sourceIndex": 3594,
+    "adjectiveCategory": "general"
   },
   {
     "id": "13599",
@@ -6588,7 +7026,8 @@ const vocabularyAdjectives = [
         "text": "kreativ"
       }
     },
-    "sourceIndex": 3599
+    "sourceIndex": 3599,
+    "adjectiveCategory": "ability"
   },
   {
     "id": "13608",
@@ -6603,7 +7042,8 @@ const vocabularyAdjectives = [
         "text": "professionell"
       }
     },
-    "sourceIndex": 3608
+    "sourceIndex": 3608,
+    "adjectiveCategory": "society"
   },
   {
     "id": "13611",
@@ -6618,7 +7058,8 @@ const vocabularyAdjectives = [
         "text": "qualifiziert"
       }
     },
-    "sourceIndex": 3611
+    "sourceIndex": 3611,
+    "adjectiveCategory": "ability"
   },
   {
     "id": "13639",
@@ -6633,7 +7074,8 @@ const vocabularyAdjectives = [
         "text": "brav"
       }
     },
-    "sourceIndex": 3639
+    "sourceIndex": 3639,
+    "adjectiveCategory": "general"
   },
   {
     "id": "13643",
@@ -6648,7 +7090,8 @@ const vocabularyAdjectives = [
         "text": "dresdner"
       }
     },
-    "sourceIndex": 3643
+    "sourceIndex": 3643,
+    "adjectiveCategory": "places"
   },
   {
     "id": "13644",
@@ -6663,7 +7106,8 @@ const vocabularyAdjectives = [
         "text": "elektronisch"
       }
     },
-    "sourceIndex": 3644
+    "sourceIndex": 3644,
+    "adjectiveCategory": "society"
   },
   {
     "id": "13648",
@@ -6678,7 +7122,8 @@ const vocabularyAdjectives = [
         "text": "fix"
       }
     },
-    "sourceIndex": 3648
+    "sourceIndex": 3648,
+    "adjectiveCategory": "movement"
   },
   {
     "id": "13656",
@@ -6693,7 +7138,8 @@ const vocabularyAdjectives = [
         "text": "hässlich"
       }
     },
-    "sourceIndex": 3656
+    "sourceIndex": 3656,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "13664",
@@ -6708,7 +7154,8 @@ const vocabularyAdjectives = [
         "text": "künstlich"
       }
     },
-    "sourceIndex": 3664
+    "sourceIndex": 3664,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "13675",
@@ -6723,7 +7170,8 @@ const vocabularyAdjectives = [
         "text": "safe"
       }
     },
-    "sourceIndex": 3675
+    "sourceIndex": 3675,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "13681",
@@ -6738,7 +7186,8 @@ const vocabularyAdjectives = [
         "text": "unheimlich"
       }
     },
-    "sourceIndex": 3681
+    "sourceIndex": 3681,
+    "adjectiveCategory": "general"
   },
   {
     "id": "13713",
@@ -6753,7 +7202,8 @@ const vocabularyAdjectives = [
         "text": "gründlich"
       }
     },
-    "sourceIndex": 3713
+    "sourceIndex": 3713,
+    "adjectiveCategory": "general"
   },
   {
     "id": "13718",
@@ -6768,7 +7218,8 @@ const vocabularyAdjectives = [
         "text": "hip"
       }
     },
-    "sourceIndex": 3718
+    "sourceIndex": 3718,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "13724",
@@ -6783,7 +7234,8 @@ const vocabularyAdjectives = [
         "text": "künstlerisch"
       }
     },
-    "sourceIndex": 3724
+    "sourceIndex": 3724,
+    "adjectiveCategory": "society"
   },
   {
     "id": "13731",
@@ -6798,7 +7250,8 @@ const vocabularyAdjectives = [
         "text": "sanft"
       }
     },
-    "sourceIndex": 3731
+    "sourceIndex": 3731,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "13740",
@@ -6813,7 +7266,8 @@ const vocabularyAdjectives = [
         "text": "unentschieden"
       }
     },
-    "sourceIndex": 3740
+    "sourceIndex": 3740,
+    "adjectiveCategory": "certainty"
   },
   {
     "id": "13748",
@@ -6828,7 +7282,8 @@ const vocabularyAdjectives = [
         "text": "östlich"
       }
     },
-    "sourceIndex": 3748
+    "sourceIndex": 3748,
+    "adjectiveCategory": "places"
   },
   {
     "id": "13750",
@@ -6843,7 +7298,8 @@ const vocabularyAdjectives = [
         "text": "aggressiv"
       }
     },
-    "sourceIndex": 3750
+    "sourceIndex": 3750,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "13765",
@@ -6858,7 +7314,8 @@ const vocabularyAdjectives = [
         "text": "brutal"
       }
     },
-    "sourceIndex": 3765
+    "sourceIndex": 3765,
+    "adjectiveCategory": "general"
   },
   {
     "id": "13767",
@@ -6873,7 +7330,8 @@ const vocabularyAdjectives = [
         "text": "chemisch"
       }
     },
-    "sourceIndex": 3767
+    "sourceIndex": 3767,
+    "adjectiveCategory": "society"
   },
   {
     "id": "13778",
@@ -6888,7 +7346,8 @@ const vocabularyAdjectives = [
         "text": "frühzeitig"
       }
     },
-    "sourceIndex": 3778
+    "sourceIndex": 3778,
+    "adjectiveCategory": "time"
   },
   {
     "id": "13793",
@@ -6903,7 +7362,8 @@ const vocabularyAdjectives = [
         "text": "problematisch"
       }
     },
-    "sourceIndex": 3793
+    "sourceIndex": 3793,
+    "adjectiveCategory": "general"
   },
   {
     "id": "13798",
@@ -6918,7 +7378,8 @@ const vocabularyAdjectives = [
         "text": "selbstständig"
       }
     },
-    "sourceIndex": 3798
+    "sourceIndex": 3798,
+    "adjectiveCategory": "society"
   },
   {
     "id": "13823",
@@ -6933,7 +7394,8 @@ const vocabularyAdjectives = [
         "text": "einzel"
       }
     },
-    "sourceIndex": 3823
+    "sourceIndex": 3823,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "13849",
@@ -6948,7 +7410,8 @@ const vocabularyAdjectives = [
         "text": "mutig"
       }
     },
-    "sourceIndex": 3849
+    "sourceIndex": 3849,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "13851",
@@ -6963,7 +7426,8 @@ const vocabularyAdjectives = [
         "text": "nürnberger"
       }
     },
-    "sourceIndex": 3851
+    "sourceIndex": 3851,
+    "adjectiveCategory": "places"
   },
   {
     "id": "13860",
@@ -6978,7 +7442,8 @@ const vocabularyAdjectives = [
         "text": "salzburger"
       }
     },
-    "sourceIndex": 3860
+    "sourceIndex": 3860,
+    "adjectiveCategory": "places"
   },
   {
     "id": "13891",
@@ -6993,7 +7458,8 @@ const vocabularyAdjectives = [
         "text": "düsseldorfer"
       }
     },
-    "sourceIndex": 3891
+    "sourceIndex": 3891,
+    "adjectiveCategory": "places"
   },
   {
     "id": "13902",
@@ -7008,7 +7474,8 @@ const vocabularyAdjectives = [
         "text": "indisch"
       }
     },
-    "sourceIndex": 3902
+    "sourceIndex": 3902,
+    "adjectiveCategory": "places"
   },
   {
     "id": "13912",
@@ -7023,7 +7490,8 @@ const vocabularyAdjectives = [
         "text": "kriminell"
       }
     },
-    "sourceIndex": 3912
+    "sourceIndex": 3912,
+    "adjectiveCategory": "society"
   },
   {
     "id": "13920",
@@ -7038,7 +7506,8 @@ const vocabularyAdjectives = [
         "text": "optimal"
       }
     },
-    "sourceIndex": 3920
+    "sourceIndex": 3920,
+    "adjectiveCategory": "general"
   },
   {
     "id": "13925",
@@ -7053,7 +7522,8 @@ const vocabularyAdjectives = [
         "text": "pur"
       }
     },
-    "sourceIndex": 3925
+    "sourceIndex": 3925,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "13933",
@@ -7069,7 +7539,8 @@ const vocabularyAdjectives = [
         "caseSensitive": true
       }
     },
-    "sourceIndex": 3933
+    "sourceIndex": 3933,
+    "adjectiveCategory": "places"
   },
   {
     "id": "13949",
@@ -7084,7 +7555,8 @@ const vocabularyAdjectives = [
         "text": "verwandt"
       }
     },
-    "sourceIndex": 3949
+    "sourceIndex": 3949,
+    "adjectiveCategory": "general"
   },
   {
     "id": "13950",
@@ -7099,7 +7571,8 @@ const vocabularyAdjectives = [
         "text": "vorder"
       }
     },
-    "sourceIndex": 3950
+    "sourceIndex": 3950,
+    "adjectiveCategory": "general"
   },
   {
     "id": "13958",
@@ -7114,7 +7587,8 @@ const vocabularyAdjectives = [
         "text": "afrikanisch"
       }
     },
-    "sourceIndex": 3958
+    "sourceIndex": 3958,
+    "adjectiveCategory": "places"
   },
   {
     "id": "13967",
@@ -7129,7 +7603,8 @@ const vocabularyAdjectives = [
         "text": "einsam"
       }
     },
-    "sourceIndex": 3967
+    "sourceIndex": 3967,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "13972",
@@ -7144,7 +7619,8 @@ const vocabularyAdjectives = [
         "text": "feucht"
       }
     },
-    "sourceIndex": 3972
+    "sourceIndex": 3972,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "13992",
@@ -7159,7 +7635,8 @@ const vocabularyAdjectives = [
         "text": "pink"
       }
     },
-    "sourceIndex": 3992
+    "sourceIndex": 3992,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "14064",
@@ -7174,7 +7651,8 @@ const vocabularyAdjectives = [
         "text": "realistisch"
       }
     },
-    "sourceIndex": 4064
+    "sourceIndex": 4064,
+    "adjectiveCategory": "general"
   },
   {
     "id": "14081",
@@ -7189,7 +7667,8 @@ const vocabularyAdjectives = [
         "text": "wirksam"
       }
     },
-    "sourceIndex": 4081
+    "sourceIndex": 4081,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "14090",
@@ -7204,7 +7683,8 @@ const vocabularyAdjectives = [
         "text": "angegeben"
       }
     },
-    "sourceIndex": 4090
+    "sourceIndex": 4090,
+    "adjectiveCategory": "general"
   },
   {
     "id": "14123",
@@ -7219,7 +7699,8 @@ const vocabularyAdjectives = [
         "text": "Londoner"
       }
     },
-    "sourceIndex": 4123
+    "sourceIndex": 4123,
+    "adjectiveCategory": "places"
   },
   {
     "id": "14149",
@@ -7234,7 +7715,8 @@ const vocabularyAdjectives = [
         "text": "urban"
       }
     },
-    "sourceIndex": 4149
+    "sourceIndex": 4149,
+    "adjectiveCategory": "places"
   },
   {
     "id": "14167",
@@ -7249,7 +7731,8 @@ const vocabularyAdjectives = [
         "text": "classic"
       }
     },
-    "sourceIndex": 4167
+    "sourceIndex": 4167,
+    "adjectiveCategory": "general"
   },
   {
     "id": "14209",
@@ -7264,7 +7747,8 @@ const vocabularyAdjectives = [
         "text": "reif"
       }
     },
-    "sourceIndex": 4209
+    "sourceIndex": 4209,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "14214",
@@ -7279,7 +7763,8 @@ const vocabularyAdjectives = [
         "text": "vegan"
       }
     },
-    "sourceIndex": 4214
+    "sourceIndex": 4214,
+    "adjectiveCategory": "general"
   },
   {
     "id": "14231",
@@ -7294,7 +7779,8 @@ const vocabularyAdjectives = [
         "text": "bescheuert"
       }
     },
-    "sourceIndex": 4231
+    "sourceIndex": 4231,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "14237",
@@ -7309,7 +7795,8 @@ const vocabularyAdjectives = [
         "text": "erweitert"
       }
     },
-    "sourceIndex": 4237
+    "sourceIndex": 4237,
+    "adjectiveCategory": "general"
   },
   {
     "id": "14238",
@@ -7324,7 +7811,8 @@ const vocabularyAdjectives = [
         "text": "fantastisch"
       }
     },
-    "sourceIndex": 4238
+    "sourceIndex": 4238,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "14241",
@@ -7339,7 +7827,8 @@ const vocabularyAdjectives = [
         "text": "fällig"
       }
     },
-    "sourceIndex": 4241
+    "sourceIndex": 4241,
+    "adjectiveCategory": "general"
   },
   {
     "id": "14248",
@@ -7354,7 +7843,8 @@ const vocabularyAdjectives = [
         "text": "heiß"
       }
     },
-    "sourceIndex": 4248
+    "sourceIndex": 4248,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "14255",
@@ -7369,7 +7859,8 @@ const vocabularyAdjectives = [
         "text": "kühl"
       }
     },
-    "sourceIndex": 4255
+    "sourceIndex": 4255,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "14260",
@@ -7384,7 +7875,8 @@ const vocabularyAdjectives = [
         "text": "organisiert"
       }
     },
-    "sourceIndex": 4260
+    "sourceIndex": 4260,
+    "adjectiveCategory": "general"
   },
   {
     "id": "14267",
@@ -7399,7 +7891,8 @@ const vocabularyAdjectives = [
         "text": "steigend"
       }
     },
-    "sourceIndex": 4267
+    "sourceIndex": 4267,
+    "adjectiveCategory": "movement"
   },
   {
     "id": "14270",
@@ -7414,7 +7907,8 @@ const vocabularyAdjectives = [
         "text": "Studierend"
       }
     },
-    "sourceIndex": 4270
+    "sourceIndex": 4270,
+    "adjectiveCategory": "general"
   },
   {
     "id": "14271",
@@ -7429,7 +7923,8 @@ const vocabularyAdjectives = [
         "text": "sympathisch"
       }
     },
-    "sourceIndex": 4271
+    "sourceIndex": 4271,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "14272",
@@ -7444,7 +7939,8 @@ const vocabularyAdjectives = [
         "text": "süß"
       }
     },
-    "sourceIndex": 4272
+    "sourceIndex": 4272,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "14277",
@@ -7459,7 +7955,8 @@ const vocabularyAdjectives = [
         "text": "unerwartet"
       }
     },
-    "sourceIndex": 4277
+    "sourceIndex": 4277,
+    "adjectiveCategory": "certainty"
   },
   {
     "id": "14279",
@@ -7474,7 +7971,8 @@ const vocabularyAdjectives = [
         "text": "verbessert"
       }
     },
-    "sourceIndex": 4279
+    "sourceIndex": 4279,
+    "adjectiveCategory": "general"
   },
   {
     "id": "14296",
@@ -7489,7 +7987,8 @@ const vocabularyAdjectives = [
         "text": "behindert"
       }
     },
-    "sourceIndex": 4296
+    "sourceIndex": 4296,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "14311",
@@ -7504,7 +8003,8 @@ const vocabularyAdjectives = [
         "text": "erwartet"
       }
     },
-    "sourceIndex": 4311
+    "sourceIndex": 4311,
+    "adjectiveCategory": "certainty"
   },
   {
     "id": "14312",
@@ -7519,7 +8019,8 @@ const vocabularyAdjectives = [
         "text": "erwähnt"
       }
     },
-    "sourceIndex": 4312
+    "sourceIndex": 4312,
+    "adjectiveCategory": "general"
   },
   {
     "id": "14320",
@@ -7534,7 +8035,8 @@ const vocabularyAdjectives = [
         "text": "human"
       }
     },
-    "sourceIndex": 4320
+    "sourceIndex": 4320,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "14327",
@@ -7549,7 +8051,8 @@ const vocabularyAdjectives = [
         "text": "lose"
       }
     },
-    "sourceIndex": 4327
+    "sourceIndex": 4327,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "14332",
@@ -7564,7 +8067,8 @@ const vocabularyAdjectives = [
         "text": "naiv"
       }
     },
-    "sourceIndex": 4332
+    "sourceIndex": 4332,
+    "adjectiveCategory": "general"
   },
   {
     "id": "14334",
@@ -7579,7 +8083,8 @@ const vocabularyAdjectives = [
         "text": "netto"
       }
     },
-    "sourceIndex": 4334
+    "sourceIndex": 4334,
+    "adjectiveCategory": "general"
   },
   {
     "id": "14339",
@@ -7594,7 +8099,8 @@ const vocabularyAdjectives = [
         "text": "relevant"
       }
     },
-    "sourceIndex": 4339
+    "sourceIndex": 4339,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "14353",
@@ -7609,7 +8115,8 @@ const vocabularyAdjectives = [
         "text": "unschuldig"
       }
     },
-    "sourceIndex": 4353
+    "sourceIndex": 4353,
+    "adjectiveCategory": "general"
   },
   {
     "id": "14360",
@@ -7624,7 +8131,8 @@ const vocabularyAdjectives = [
         "text": "zuverlässig"
       }
     },
-    "sourceIndex": 4360
+    "sourceIndex": 4360,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "14391",
@@ -7639,7 +8147,8 @@ const vocabularyAdjectives = [
         "text": "harmlos"
       }
     },
-    "sourceIndex": 4391
+    "sourceIndex": 4391,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "14396",
@@ -7654,7 +8163,8 @@ const vocabularyAdjectives = [
         "text": "intelligent"
       }
     },
-    "sourceIndex": 4396
+    "sourceIndex": 4396,
+    "adjectiveCategory": "ability"
   },
   {
     "id": "14409",
@@ -7670,7 +8180,8 @@ const vocabularyAdjectives = [
         "caseSensitive": true
       }
     },
-    "sourceIndex": 4409
+    "sourceIndex": 4409,
+    "adjectiveCategory": "places"
   },
   {
     "id": "14423",
@@ -7685,7 +8196,8 @@ const vocabularyAdjectives = [
         "text": "solide"
       }
     },
-    "sourceIndex": 4423
+    "sourceIndex": 4423,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "14432",
@@ -7700,7 +8212,8 @@ const vocabularyAdjectives = [
         "text": "ungarisch"
       }
     },
-    "sourceIndex": 4432
+    "sourceIndex": 4432,
+    "adjectiveCategory": "places"
   },
   {
     "id": "14435",
@@ -7715,7 +8228,8 @@ const vocabularyAdjectives = [
         "text": "verbreitet"
       }
     },
-    "sourceIndex": 4435
+    "sourceIndex": 4435,
+    "adjectiveCategory": "general"
   },
   {
     "id": "14439",
@@ -7730,7 +8244,8 @@ const vocabularyAdjectives = [
         "text": "verändert"
       }
     },
-    "sourceIndex": 4439
+    "sourceIndex": 4439,
+    "adjectiveCategory": "general"
   },
   {
     "id": "14440",
@@ -7745,7 +8260,8 @@ const vocabularyAdjectives = [
         "text": "vollzeit"
       }
     },
-    "sourceIndex": 4440
+    "sourceIndex": 4440,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "14443",
@@ -7760,7 +8276,8 @@ const vocabularyAdjectives = [
         "text": "wörtlich"
       }
     },
-    "sourceIndex": 4443
+    "sourceIndex": 4443,
+    "adjectiveCategory": "general"
   },
   {
     "id": "14458",
@@ -7775,7 +8292,8 @@ const vocabularyAdjectives = [
         "text": "blond"
       }
     },
-    "sourceIndex": 4458
+    "sourceIndex": 4458,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "14471",
@@ -7790,7 +8308,8 @@ const vocabularyAdjectives = [
         "text": "entfernt"
       }
     },
-    "sourceIndex": 4471
+    "sourceIndex": 4471,
+    "adjectiveCategory": "places"
   },
   {
     "id": "14475",
@@ -7805,7 +8324,8 @@ const vocabularyAdjectives = [
         "text": "extern"
       }
     },
-    "sourceIndex": 4475
+    "sourceIndex": 4475,
+    "adjectiveCategory": "general"
   },
   {
     "id": "14485",
@@ -7820,7 +8340,8 @@ const vocabularyAdjectives = [
         "text": "liebevoll"
       }
     },
-    "sourceIndex": 4485
+    "sourceIndex": 4485,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "14486",
@@ -7835,7 +8356,8 @@ const vocabularyAdjectives = [
         "text": "lila"
       }
     },
-    "sourceIndex": 4486
+    "sourceIndex": 4486,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "14489",
@@ -7850,7 +8372,8 @@ const vocabularyAdjectives = [
         "text": "mies"
       }
     },
-    "sourceIndex": 4489
+    "sourceIndex": 4489,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "14496",
@@ -7865,7 +8388,8 @@ const vocabularyAdjectives = [
         "text": "regulär"
       }
     },
-    "sourceIndex": 4496
+    "sourceIndex": 4496,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "14502",
@@ -7880,7 +8404,8 @@ const vocabularyAdjectives = [
         "text": "syrisch"
       }
     },
-    "sourceIndex": 4502
+    "sourceIndex": 4502,
+    "adjectiveCategory": "places"
   },
   {
     "id": "14523",
@@ -7895,7 +8420,8 @@ const vocabularyAdjectives = [
         "text": "ausverkauft"
       }
     },
-    "sourceIndex": 4523
+    "sourceIndex": 4523,
+    "adjectiveCategory": "general"
   },
   {
     "id": "14532",
@@ -7910,7 +8436,8 @@ const vocabularyAdjectives = [
         "text": "erwünscht"
       }
     },
-    "sourceIndex": 4532
+    "sourceIndex": 4532,
+    "adjectiveCategory": "general"
   },
   {
     "id": "14541",
@@ -7925,7 +8452,8 @@ const vocabularyAdjectives = [
         "text": "höflich"
       }
     },
-    "sourceIndex": 4541
+    "sourceIndex": 4541,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "14551",
@@ -7940,7 +8468,8 @@ const vocabularyAdjectives = [
         "text": "neutral"
       }
     },
-    "sourceIndex": 4551
+    "sourceIndex": 4551,
+    "adjectiveCategory": "general"
   },
   {
     "id": "14556",
@@ -7955,7 +8484,8 @@ const vocabularyAdjectives = [
         "text": "platt"
       }
     },
-    "sourceIndex": 4556
+    "sourceIndex": 4556,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "14563",
@@ -7970,7 +8500,8 @@ const vocabularyAdjectives = [
         "text": "schwäbisch"
       }
     },
-    "sourceIndex": 4563
+    "sourceIndex": 4563,
+    "adjectiveCategory": "places"
   },
   {
     "id": "14584",
@@ -7985,7 +8516,8 @@ const vocabularyAdjectives = [
         "text": "asiatisch"
       }
     },
-    "sourceIndex": 4584
+    "sourceIndex": 4584,
+    "adjectiveCategory": "places"
   },
   {
     "id": "14594",
@@ -8000,7 +8532,8 @@ const vocabularyAdjectives = [
         "text": "defekt"
       }
     },
-    "sourceIndex": 4594
+    "sourceIndex": 4594,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "14630",
@@ -8015,7 +8548,8 @@ const vocabularyAdjectives = [
         "text": "schräg"
       }
     },
-    "sourceIndex": 4630
+    "sourceIndex": 4630,
+    "adjectiveCategory": "general"
   },
   {
     "id": "14641",
@@ -8030,7 +8564,8 @@ const vocabularyAdjectives = [
         "text": "unzufrieden"
       }
     },
-    "sourceIndex": 4641
+    "sourceIndex": 4641,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "14663",
@@ -8045,7 +8580,8 @@ const vocabularyAdjectives = [
         "text": "einheitlich"
       }
     },
-    "sourceIndex": 4663
+    "sourceIndex": 4663,
+    "adjectiveCategory": "general"
   },
   {
     "id": "14673",
@@ -8060,7 +8596,8 @@ const vocabularyAdjectives = [
         "text": "gestrig"
       }
     },
-    "sourceIndex": 4673
+    "sourceIndex": 4673,
+    "adjectiveCategory": "time"
   },
   {
     "id": "14699",
@@ -8075,7 +8612,8 @@ const vocabularyAdjectives = [
         "text": "schmal"
       }
     },
-    "sourceIndex": 4699
+    "sourceIndex": 4699,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "14701",
@@ -8090,7 +8628,8 @@ const vocabularyAdjectives = [
         "text": "schweizerisch"
       }
     },
-    "sourceIndex": 4701
+    "sourceIndex": 4701,
+    "adjectiveCategory": "places"
   },
   {
     "id": "14734",
@@ -8105,7 +8644,8 @@ const vocabularyAdjectives = [
         "text": "beschrieben"
       }
     },
-    "sourceIndex": 4734
+    "sourceIndex": 4734,
+    "adjectiveCategory": "general"
   },
   {
     "id": "14745",
@@ -8120,7 +8660,8 @@ const vocabularyAdjectives = [
         "text": "faszinierend"
       }
     },
-    "sourceIndex": 4745
+    "sourceIndex": 4745,
+    "adjectiveCategory": "general"
   },
   {
     "id": "14772",
@@ -8135,7 +8676,8 @@ const vocabularyAdjectives = [
         "text": "lateinisch"
       }
     },
-    "sourceIndex": 4772
+    "sourceIndex": 4772,
+    "adjectiveCategory": "society"
   },
   {
     "id": "14776",
@@ -8150,7 +8692,8 @@ const vocabularyAdjectives = [
         "text": "muslimisch"
       }
     },
-    "sourceIndex": 4776
+    "sourceIndex": 4776,
+    "adjectiveCategory": "society"
   },
   {
     "id": "14778",
@@ -8165,7 +8708,8 @@ const vocabularyAdjectives = [
         "text": "nervig"
       }
     },
-    "sourceIndex": 4778
+    "sourceIndex": 4778,
+    "adjectiveCategory": "general"
   },
   {
     "id": "14786",
@@ -8180,7 +8724,8 @@ const vocabularyAdjectives = [
         "text": "seitlich"
       }
     },
-    "sourceIndex": 4786
+    "sourceIndex": 4786,
+    "adjectiveCategory": "movement"
   },
   {
     "id": "14788",
@@ -8195,7 +8740,8 @@ const vocabularyAdjectives = [
         "text": "siebt"
       }
     },
-    "sourceIndex": 4788
+    "sourceIndex": 4788,
+    "adjectiveCategory": "general"
   },
   {
     "id": "14808",
@@ -8210,7 +8756,8 @@ const vocabularyAdjectives = [
         "text": "zehnt"
       }
     },
-    "sourceIndex": 4808
+    "sourceIndex": 4808,
+    "adjectiveCategory": "general"
   },
   {
     "id": "14819",
@@ -8225,7 +8772,8 @@ const vocabularyAdjectives = [
         "text": "arbeitslos"
       }
     },
-    "sourceIndex": 4819
+    "sourceIndex": 4819,
+    "adjectiveCategory": "society"
   },
   {
     "id": "14829",
@@ -8240,7 +8788,8 @@ const vocabularyAdjectives = [
         "text": "biologisch"
       }
     },
-    "sourceIndex": 4829
+    "sourceIndex": 4829,
+    "adjectiveCategory": "society"
   },
   {
     "id": "14844",
@@ -8255,7 +8804,8 @@ const vocabularyAdjectives = [
         "text": "gay"
       }
     },
-    "sourceIndex": 4844
+    "sourceIndex": 4844,
+    "adjectiveCategory": "general"
   },
   {
     "id": "14889",
@@ -8270,7 +8820,8 @@ const vocabularyAdjectives = [
         "text": "unfair"
       }
     },
-    "sourceIndex": 4889
+    "sourceIndex": 4889,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "14895",
@@ -8285,7 +8836,8 @@ const vocabularyAdjectives = [
         "text": "vorig"
       }
     },
-    "sourceIndex": 4895
+    "sourceIndex": 4895,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "14897",
@@ -8300,7 +8852,8 @@ const vocabularyAdjectives = [
         "text": "ärgerlich"
       }
     },
-    "sourceIndex": 4897
+    "sourceIndex": 4897,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "14918",
@@ -8315,7 +8868,8 @@ const vocabularyAdjectives = [
         "text": "erschienen"
       }
     },
-    "sourceIndex": 4918
+    "sourceIndex": 4918,
+    "adjectiveCategory": "general"
   },
   {
     "id": "14923",
@@ -8330,7 +8884,8 @@ const vocabularyAdjectives = [
         "text": "frech"
       }
     },
-    "sourceIndex": 4923
+    "sourceIndex": 4923,
+    "adjectiveCategory": "general"
   },
   {
     "id": "14956",
@@ -8345,7 +8900,8 @@ const vocabularyAdjectives = [
         "text": "schlank"
       }
     },
-    "sourceIndex": 4956
+    "sourceIndex": 4956,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "14957",
@@ -8360,7 +8916,8 @@ const vocabularyAdjectives = [
         "text": "solar"
       }
     },
-    "sourceIndex": 4957
+    "sourceIndex": 4957,
+    "adjectiveCategory": "society"
   },
   {
     "id": "14960",
@@ -8375,7 +8932,8 @@ const vocabularyAdjectives = [
         "text": "steil"
       }
     },
-    "sourceIndex": 4960
+    "sourceIndex": 4960,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "14966",
@@ -8390,7 +8948,8 @@ const vocabularyAdjectives = [
         "text": "unverständlich"
       }
     },
-    "sourceIndex": 4966
+    "sourceIndex": 4966,
+    "adjectiveCategory": "general"
   },
   {
     "id": "14969",
@@ -8405,7 +8964,8 @@ const vocabularyAdjectives = [
         "text": "verkürzt"
       }
     },
-    "sourceIndex": 4969
+    "sourceIndex": 4969,
+    "adjectiveCategory": "general"
   },
   {
     "id": "14970",
@@ -8420,7 +8980,8 @@ const vocabularyAdjectives = [
         "text": "versteckt"
       }
     },
-    "sourceIndex": 4970
+    "sourceIndex": 4970,
+    "adjectiveCategory": "general"
   },
   {
     "id": "14988",
@@ -8435,7 +8996,8 @@ const vocabularyAdjectives = [
         "text": "bescheiden"
       }
     },
-    "sourceIndex": 4988
+    "sourceIndex": 4988,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "15007",
@@ -8450,7 +9012,8 @@ const vocabularyAdjectives = [
         "text": "gewünscht"
       }
     },
-    "sourceIndex": 5007
+    "sourceIndex": 5007,
+    "adjectiveCategory": "general"
   },
   {
     "id": "15027",
@@ -8465,7 +9028,8 @@ const vocabularyAdjectives = [
         "text": "mild"
       }
     },
-    "sourceIndex": 5027
+    "sourceIndex": 5027,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "15039",
@@ -8480,7 +9044,8 @@ const vocabularyAdjectives = [
         "text": "romantisch"
       }
     },
-    "sourceIndex": 5039
+    "sourceIndex": 5039,
+    "adjectiveCategory": "general"
   },
   {
     "id": "15055",
@@ -8495,7 +9060,8 @@ const vocabularyAdjectives = [
         "text": "verloren"
       }
     },
-    "sourceIndex": 5055
+    "sourceIndex": 5055,
+    "adjectiveCategory": "general"
   },
   {
     "id": "15091",
@@ -8510,7 +9076,8 @@ const vocabularyAdjectives = [
         "text": "formal"
       }
     },
-    "sourceIndex": 5091
+    "sourceIndex": 5091,
+    "adjectiveCategory": "general"
   },
   {
     "id": "15114",
@@ -8525,7 +9092,8 @@ const vocabularyAdjectives = [
         "text": "offline"
       }
     },
-    "sourceIndex": 5114
+    "sourceIndex": 5114,
+    "adjectiveCategory": "society"
   },
   {
     "id": "15134",
@@ -8540,7 +9108,8 @@ const vocabularyAdjectives = [
         "text": "ukrainisch"
       }
     },
-    "sourceIndex": 5134
+    "sourceIndex": 5134,
+    "adjectiveCategory": "places"
   },
   {
     "id": "15135",
@@ -8555,7 +9124,8 @@ const vocabularyAdjectives = [
         "text": "umliegend"
       }
     },
-    "sourceIndex": 5135
+    "sourceIndex": 5135,
+    "adjectiveCategory": "places"
   },
   {
     "id": "15163",
@@ -8570,7 +9140,8 @@ const vocabularyAdjectives = [
         "text": "ausgezeichnet"
       }
     },
-    "sourceIndex": 5163
+    "sourceIndex": 5163,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "15169",
@@ -8585,7 +9156,8 @@ const vocabularyAdjectives = [
         "text": "clever"
       }
     },
-    "sourceIndex": 5169
+    "sourceIndex": 5169,
+    "adjectiveCategory": "ability"
   },
   {
     "id": "15176",
@@ -8600,7 +9172,8 @@ const vocabularyAdjectives = [
         "text": "ekelhaft"
       }
     },
-    "sourceIndex": 5176
+    "sourceIndex": 5176,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "15211",
@@ -8615,7 +9188,8 @@ const vocabularyAdjectives = [
         "text": "outdoor"
       }
     },
-    "sourceIndex": 5211
+    "sourceIndex": 5211,
+    "adjectiveCategory": "places"
   },
   {
     "id": "15225",
@@ -8630,7 +9204,8 @@ const vocabularyAdjectives = [
         "text": "selbständig"
       }
     },
-    "sourceIndex": 5225
+    "sourceIndex": 5225,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "15243",
@@ -8645,7 +9220,8 @@ const vocabularyAdjectives = [
         "text": "ärztlich"
       }
     },
-    "sourceIndex": 5243
+    "sourceIndex": 5243,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "15268",
@@ -8660,7 +9236,8 @@ const vocabularyAdjectives = [
         "text": "empfehlenswert"
       }
     },
-    "sourceIndex": 5268
+    "sourceIndex": 5268,
+    "adjectiveCategory": "general"
   },
   {
     "id": "15295",
@@ -8675,7 +9252,8 @@ const vocabularyAdjectives = [
         "text": "munter"
       }
     },
-    "sourceIndex": 5295
+    "sourceIndex": 5295,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "15308",
@@ -8690,7 +9268,8 @@ const vocabularyAdjectives = [
         "text": "schmerzhaft"
       }
     },
-    "sourceIndex": 5308
+    "sourceIndex": 5308,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "15311",
@@ -8705,7 +9284,8 @@ const vocabularyAdjectives = [
         "text": "schüchtern"
       }
     },
-    "sourceIndex": 5311
+    "sourceIndex": 5311,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "15320",
@@ -8720,7 +9300,8 @@ const vocabularyAdjectives = [
         "text": "ungerecht"
       }
     },
-    "sourceIndex": 5320
+    "sourceIndex": 5320,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "15361",
@@ -8735,7 +9316,8 @@ const vocabularyAdjectives = [
         "text": "geführt"
       }
     },
-    "sourceIndex": 5361
+    "sourceIndex": 5361,
+    "adjectiveCategory": "general"
   },
   {
     "id": "15363",
@@ -8750,7 +9332,8 @@ const vocabularyAdjectives = [
         "text": "gegründet"
       }
     },
-    "sourceIndex": 5363
+    "sourceIndex": 5363,
+    "adjectiveCategory": "general"
   },
   {
     "id": "15383",
@@ -8765,7 +9348,8 @@ const vocabularyAdjectives = [
         "text": "magisch"
       }
     },
-    "sourceIndex": 5383
+    "sourceIndex": 5383,
+    "adjectiveCategory": "general"
   },
   {
     "id": "15385",
@@ -8780,7 +9364,8 @@ const vocabularyAdjectives = [
         "text": "minimal"
       }
     },
-    "sourceIndex": 5385
+    "sourceIndex": 5385,
+    "adjectiveCategory": "general"
   },
   {
     "id": "15390",
@@ -8795,7 +9380,8 @@ const vocabularyAdjectives = [
         "text": "nutzlos"
       }
     },
-    "sourceIndex": 5390
+    "sourceIndex": 5390,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "15392",
@@ -8810,7 +9396,8 @@ const vocabularyAdjectives = [
         "text": "optimistisch"
       }
     },
-    "sourceIndex": 5392
+    "sourceIndex": 5392,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "15400",
@@ -8825,7 +9412,8 @@ const vocabularyAdjectives = [
         "text": "reserviert"
       }
     },
-    "sourceIndex": 5400
+    "sourceIndex": 5400,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "15417",
@@ -8840,7 +9428,8 @@ const vocabularyAdjectives = [
         "text": "verdient"
       }
     },
-    "sourceIndex": 5417
+    "sourceIndex": 5417,
+    "adjectiveCategory": "general"
   },
   {
     "id": "15418",
@@ -8855,7 +9444,8 @@ const vocabularyAdjectives = [
         "text": "verkleidet"
       }
     },
-    "sourceIndex": 5418
+    "sourceIndex": 5418,
+    "adjectiveCategory": "general"
   },
   {
     "id": "15437",
@@ -8870,7 +9460,8 @@ const vocabularyAdjectives = [
         "text": "bezahlt"
       }
     },
-    "sourceIndex": 5437
+    "sourceIndex": 5437,
+    "adjectiveCategory": "general"
   },
   {
     "id": "15444",
@@ -8885,7 +9476,8 @@ const vocabularyAdjectives = [
         "text": "elegant"
       }
     },
-    "sourceIndex": 5444
+    "sourceIndex": 5444,
+    "adjectiveCategory": "general"
   },
   {
     "id": "15455",
@@ -8900,7 +9492,8 @@ const vocabularyAdjectives = [
         "text": "flexibel"
       }
     },
-    "sourceIndex": 5455
+    "sourceIndex": 5455,
+    "adjectiveCategory": "general"
   },
   {
     "id": "15496",
@@ -8915,7 +9508,8 @@ const vocabularyAdjectives = [
         "text": "süddeutsch"
       }
     },
-    "sourceIndex": 5496
+    "sourceIndex": 5496,
+    "adjectiveCategory": "places"
   },
   {
     "id": "15499",
@@ -8930,7 +9524,8 @@ const vocabularyAdjectives = [
         "text": "telefonisch"
       }
     },
-    "sourceIndex": 5499
+    "sourceIndex": 5499,
+    "adjectiveCategory": "general"
   },
   {
     "id": "15530",
@@ -8945,7 +9540,8 @@ const vocabularyAdjectives = [
         "text": "dänisch"
       }
     },
-    "sourceIndex": 5530
+    "sourceIndex": 5530,
+    "adjectiveCategory": "places"
   },
   {
     "id": "15532",
@@ -8960,7 +9556,8 @@ const vocabularyAdjectives = [
         "text": "effizient"
       }
     },
-    "sourceIndex": 5532
+    "sourceIndex": 5532,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "15540",
@@ -8975,7 +9572,8 @@ const vocabularyAdjectives = [
         "text": "gelungen"
       }
     },
-    "sourceIndex": 5540
+    "sourceIndex": 5540,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "15550",
@@ -8990,7 +9588,8 @@ const vocabularyAdjectives = [
         "text": "hungrig"
       }
     },
-    "sourceIndex": 5550
+    "sourceIndex": 5550,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "15564",
@@ -9005,7 +9604,8 @@ const vocabularyAdjectives = [
         "text": "neidisch"
       }
     },
-    "sourceIndex": 5564
+    "sourceIndex": 5564,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "15614",
@@ -9020,7 +9620,8 @@ const vocabularyAdjectives = [
         "text": "begrenzt"
       }
     },
-    "sourceIndex": 5614
+    "sourceIndex": 5614,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "15617",
@@ -9035,7 +9636,8 @@ const vocabularyAdjectives = [
         "text": "beschleunigt"
       }
     },
-    "sourceIndex": 5617
+    "sourceIndex": 5617,
+    "adjectiveCategory": "movement"
   },
   {
     "id": "15657",
@@ -9050,7 +9652,8 @@ const vocabularyAdjectives = [
         "text": "passiv"
       }
     },
-    "sourceIndex": 5657
+    "sourceIndex": 5657,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "15675",
@@ -9065,7 +9668,8 @@ const vocabularyAdjectives = [
         "text": "unsichtbar"
       }
     },
-    "sourceIndex": 5675
+    "sourceIndex": 5675,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "15710",
@@ -9080,7 +9684,8 @@ const vocabularyAdjectives = [
         "text": "eiskalt"
       }
     },
-    "sourceIndex": 5710
+    "sourceIndex": 5710,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "15719",
@@ -9095,7 +9700,8 @@ const vocabularyAdjectives = [
         "text": "gruselig"
       }
     },
-    "sourceIndex": 5719
+    "sourceIndex": 5719,
+    "adjectiveCategory": "general"
   },
   {
     "id": "15725",
@@ -9110,7 +9716,8 @@ const vocabularyAdjectives = [
         "text": "hilflos"
       }
     },
-    "sourceIndex": 5725
+    "sourceIndex": 5725,
+    "adjectiveCategory": "general"
   },
   {
     "id": "15752",
@@ -9125,7 +9732,8 @@ const vocabularyAdjectives = [
         "text": "populär"
       }
     },
-    "sourceIndex": 5752
+    "sourceIndex": 5752,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "15762",
@@ -9140,7 +9748,8 @@ const vocabularyAdjectives = [
         "text": "spezial"
       }
     },
-    "sourceIndex": 5762
+    "sourceIndex": 5762,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "15796",
@@ -9155,7 +9764,8 @@ const vocabularyAdjectives = [
         "text": "detailliert"
       }
     },
-    "sourceIndex": 5796
+    "sourceIndex": 5796,
+    "adjectiveCategory": "general"
   },
   {
     "id": "15801",
@@ -9170,7 +9780,8 @@ const vocabularyAdjectives = [
         "text": "ehrenamtlich"
       }
     },
-    "sourceIndex": 5801
+    "sourceIndex": 5801,
+    "adjectiveCategory": "general"
   },
   {
     "id": "15804",
@@ -9185,7 +9796,8 @@ const vocabularyAdjectives = [
         "text": "eklig"
       }
     },
-    "sourceIndex": 5804
+    "sourceIndex": 5804,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "15806",
@@ -9200,7 +9812,8 @@ const vocabularyAdjectives = [
         "text": "feige"
       }
     },
-    "sourceIndex": 5806
+    "sourceIndex": 5806,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "15851",
@@ -9215,7 +9828,8 @@ const vocabularyAdjectives = [
         "text": "simple"
       }
     },
-    "sourceIndex": 5851
+    "sourceIndex": 5851,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "15864",
@@ -9230,7 +9844,8 @@ const vocabularyAdjectives = [
         "text": "tschechisch"
       }
     },
-    "sourceIndex": 5864
+    "sourceIndex": 5864,
+    "adjectiveCategory": "places"
   },
   {
     "id": "15886",
@@ -9245,7 +9860,8 @@ const vocabularyAdjectives = [
         "text": "ökologisch"
       }
     },
-    "sourceIndex": 5886
+    "sourceIndex": 5886,
+    "adjectiveCategory": "society"
   },
   {
     "id": "15889",
@@ -9260,7 +9876,8 @@ const vocabularyAdjectives = [
         "text": "albern"
       }
     },
-    "sourceIndex": 5889
+    "sourceIndex": 5889,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "15921",
@@ -9275,7 +9892,8 @@ const vocabularyAdjectives = [
         "text": "geduldig"
       }
     },
-    "sourceIndex": 5921
+    "sourceIndex": 5921,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "15978",
@@ -9290,7 +9908,8 @@ const vocabularyAdjectives = [
         "text": "wundervoll"
       }
     },
-    "sourceIndex": 5978
+    "sourceIndex": 5978,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "16005",
@@ -9305,7 +9924,8 @@ const vocabularyAdjectives = [
         "text": "british"
       }
     },
-    "sourceIndex": 6005
+    "sourceIndex": 6005,
+    "adjectiveCategory": "places"
   },
   {
     "id": "16031",
@@ -9320,7 +9940,8 @@ const vocabularyAdjectives = [
         "text": "getrennt"
       }
     },
-    "sourceIndex": 6031
+    "sourceIndex": 6031,
+    "adjectiveCategory": "general"
   },
   {
     "id": "16033",
@@ -9335,7 +9956,8 @@ const vocabularyAdjectives = [
         "text": "gewonnen"
       }
     },
-    "sourceIndex": 6033
+    "sourceIndex": 6033,
+    "adjectiveCategory": "general"
   },
   {
     "id": "16041",
@@ -9350,7 +9972,8 @@ const vocabularyAdjectives = [
         "text": "lachend"
       }
     },
-    "sourceIndex": 6041
+    "sourceIndex": 6041,
+    "adjectiveCategory": "general"
   },
   {
     "id": "16086",
@@ -9365,7 +9988,8 @@ const vocabularyAdjectives = [
         "text": "alltäglich"
       }
     },
-    "sourceIndex": 6086
+    "sourceIndex": 6086,
+    "adjectiveCategory": "general"
   },
   {
     "id": "16091",
@@ -9380,7 +10004,8 @@ const vocabularyAdjectives = [
         "text": "belgisch"
       }
     },
-    "sourceIndex": 6091
+    "sourceIndex": 6091,
+    "adjectiveCategory": "places"
   },
   {
     "id": "16094",
@@ -9395,7 +10020,8 @@ const vocabularyAdjectives = [
         "text": "brasilianisch"
       }
     },
-    "sourceIndex": 6094
+    "sourceIndex": 6094,
+    "adjectiveCategory": "places"
   },
   {
     "id": "16123",
@@ -9410,7 +10036,8 @@ const vocabularyAdjectives = [
         "text": "niedlich"
       }
     },
-    "sourceIndex": 6123
+    "sourceIndex": 6123,
+    "adjectiveCategory": "general"
   },
   {
     "id": "16137",
@@ -9425,7 +10052,8 @@ const vocabularyAdjectives = [
         "text": "schädlich"
       }
     },
-    "sourceIndex": 6137
+    "sourceIndex": 6137,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "16163",
@@ -9440,7 +10068,8 @@ const vocabularyAdjectives = [
         "text": "ägyptisch"
       }
     },
-    "sourceIndex": 6163
+    "sourceIndex": 6163,
+    "adjectiveCategory": "places"
   },
   {
     "id": "16188",
@@ -9455,7 +10084,8 @@ const vocabularyAdjectives = [
         "text": "brutto"
       }
     },
-    "sourceIndex": 6188
+    "sourceIndex": 6188,
+    "adjectiveCategory": "general"
   },
   {
     "id": "16191",
@@ -9470,7 +10100,8 @@ const vocabularyAdjectives = [
         "text": "dreckig"
       }
     },
-    "sourceIndex": 6191
+    "sourceIndex": 6191,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "16211",
@@ -9485,7 +10116,8 @@ const vocabularyAdjectives = [
         "text": "glänzend"
       }
     },
-    "sourceIndex": 6211
+    "sourceIndex": 6211,
+    "adjectiveCategory": "general"
   },
   {
     "id": "16230",
@@ -9500,7 +10132,8 @@ const vocabularyAdjectives = [
         "text": "kostenfrei"
       }
     },
-    "sourceIndex": 6230
+    "sourceIndex": 6230,
+    "adjectiveCategory": "general"
   },
   {
     "id": "16239",
@@ -9515,7 +10148,8 @@ const vocabularyAdjectives = [
         "text": "nutzbar"
       }
     },
-    "sourceIndex": 6239
+    "sourceIndex": 6239,
+    "adjectiveCategory": "general"
   },
   {
     "id": "16248",
@@ -9530,7 +10164,8 @@ const vocabularyAdjectives = [
         "text": "schmutzig"
       }
     },
-    "sourceIndex": 6248
+    "sourceIndex": 6248,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "16307",
@@ -9545,7 +10180,8 @@ const vocabularyAdjectives = [
         "text": "eilig"
       }
     },
-    "sourceIndex": 6307
+    "sourceIndex": 6307,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "16314",
@@ -9560,7 +10196,8 @@ const vocabularyAdjectives = [
         "text": "gemischt"
       }
     },
-    "sourceIndex": 6314
+    "sourceIndex": 6314,
+    "adjectiveCategory": "general"
   },
   {
     "id": "16316",
@@ -9575,7 +10212,8 @@ const vocabularyAdjectives = [
         "text": "geschützt"
       }
     },
-    "sourceIndex": 6316
+    "sourceIndex": 6316,
+    "adjectiveCategory": "general"
   },
   {
     "id": "16325",
@@ -9590,7 +10228,8 @@ const vocabularyAdjectives = [
         "text": "kompetent"
       }
     },
-    "sourceIndex": 6325
+    "sourceIndex": 6325,
+    "adjectiveCategory": "ability"
   },
   {
     "id": "16353",
@@ -9605,7 +10244,8 @@ const vocabularyAdjectives = [
         "text": "sehenswert"
       }
     },
-    "sourceIndex": 6353
+    "sourceIndex": 6353,
+    "adjectiveCategory": "general"
   },
   {
     "id": "16359",
@@ -9620,7 +10260,8 @@ const vocabularyAdjectives = [
         "text": "sweet"
       }
     },
-    "sourceIndex": 6359
+    "sourceIndex": 6359,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "16362",
@@ -9635,7 +10276,8 @@ const vocabularyAdjectives = [
         "text": "tragisch"
       }
     },
-    "sourceIndex": 6362
+    "sourceIndex": 6362,
+    "adjectiveCategory": "general"
   },
   {
     "id": "16378",
@@ -9650,7 +10292,8 @@ const vocabularyAdjectives = [
         "text": "alljährlich"
       }
     },
-    "sourceIndex": 6378
+    "sourceIndex": 6378,
+    "adjectiveCategory": "time"
   },
   {
     "id": "16380",
@@ -9665,7 +10308,8 @@ const vocabularyAdjectives = [
         "text": "amtlich"
       }
     },
-    "sourceIndex": 6380
+    "sourceIndex": 6380,
+    "adjectiveCategory": "society"
   },
   {
     "id": "16386",
@@ -9680,7 +10324,8 @@ const vocabularyAdjectives = [
         "text": "australisch"
       }
     },
-    "sourceIndex": 6386
+    "sourceIndex": 6386,
+    "adjectiveCategory": "places"
   },
   {
     "id": "16398",
@@ -9695,7 +10340,8 @@ const vocabularyAdjectives = [
         "text": "durchgeführt"
       }
     },
-    "sourceIndex": 6398
+    "sourceIndex": 6398,
+    "adjectiveCategory": "general"
   },
   {
     "id": "16408",
@@ -9710,7 +10356,8 @@ const vocabularyAdjectives = [
         "text": "gebraucht"
       }
     },
-    "sourceIndex": 6408
+    "sourceIndex": 6408,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "16410",
@@ -9725,7 +10372,8 @@ const vocabularyAdjectives = [
         "text": "geordnet"
       }
     },
-    "sourceIndex": 6410
+    "sourceIndex": 6410,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "16435",
@@ -9740,7 +10388,8 @@ const vocabularyAdjectives = [
         "text": "potsdamer"
       }
     },
-    "sourceIndex": 6435
+    "sourceIndex": 6435,
+    "adjectiveCategory": "places"
   },
   {
     "id": "16457",
@@ -9755,7 +10404,8 @@ const vocabularyAdjectives = [
         "text": "unwichtig"
       }
     },
-    "sourceIndex": 6457
+    "sourceIndex": 6457,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "16498",
@@ -9770,7 +10420,8 @@ const vocabularyAdjectives = [
         "text": "erkrankt"
       }
     },
-    "sourceIndex": 6498
+    "sourceIndex": 6498,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "16506",
@@ -9785,7 +10436,8 @@ const vocabularyAdjectives = [
         "text": "flüssig"
       }
     },
-    "sourceIndex": 6506
+    "sourceIndex": 6506,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "16528",
@@ -9800,7 +10452,8 @@ const vocabularyAdjectives = [
         "text": "kompakt"
       }
     },
-    "sourceIndex": 6528
+    "sourceIndex": 6528,
+    "adjectiveCategory": "general"
   },
   {
     "id": "16541",
@@ -9815,7 +10468,8 @@ const vocabularyAdjectives = [
         "text": "norddeutsch"
       }
     },
-    "sourceIndex": 6541
+    "sourceIndex": 6541,
+    "adjectiveCategory": "places"
   },
   {
     "id": "16558",
@@ -9830,7 +10484,8 @@ const vocabularyAdjectives = [
         "text": "silbern"
       }
     },
-    "sourceIndex": 6558
+    "sourceIndex": 6558,
+    "adjectiveCategory": "general"
   },
   {
     "id": "16559",
@@ -9845,7 +10500,8 @@ const vocabularyAdjectives = [
         "text": "simpel"
       }
     },
-    "sourceIndex": 6559
+    "sourceIndex": 6559,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "16568",
@@ -9860,7 +10516,8 @@ const vocabularyAdjectives = [
         "text": "ungleich"
       }
     },
-    "sourceIndex": 6568
+    "sourceIndex": 6568,
+    "adjectiveCategory": "general"
   },
   {
     "id": "16570",
@@ -9875,7 +10532,8 @@ const vocabularyAdjectives = [
         "text": "ungültig"
       }
     },
-    "sourceIndex": 6570
+    "sourceIndex": 6570,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "16587",
@@ -9890,7 +10548,8 @@ const vocabularyAdjectives = [
         "text": "wiederholt"
       }
     },
-    "sourceIndex": 6587
+    "sourceIndex": 6587,
+    "adjectiveCategory": "time"
   },
   {
     "id": "16592",
@@ -9905,7 +10564,8 @@ const vocabularyAdjectives = [
         "text": "zerstört"
       }
     },
-    "sourceIndex": 6592
+    "sourceIndex": 6592,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "16677",
@@ -9920,7 +10580,8 @@ const vocabularyAdjectives = [
         "text": "westdeutsch"
       }
     },
-    "sourceIndex": 6677
+    "sourceIndex": 6677,
+    "adjectiveCategory": "places"
   },
   {
     "id": "16679",
@@ -9935,7 +10596,8 @@ const vocabularyAdjectives = [
         "text": "zart"
       }
     },
-    "sourceIndex": 6679
+    "sourceIndex": 6679,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "16683",
@@ -9950,7 +10612,8 @@ const vocabularyAdjectives = [
         "text": "zugehörig"
       }
     },
-    "sourceIndex": 6683
+    "sourceIndex": 6683,
+    "adjectiveCategory": "general"
   },
   {
     "id": "16694",
@@ -9965,7 +10628,8 @@ const vocabularyAdjectives = [
         "text": "arrogant"
       }
     },
-    "sourceIndex": 6694
+    "sourceIndex": 6694,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "16703",
@@ -9980,7 +10644,8 @@ const vocabularyAdjectives = [
         "text": "blass"
       }
     },
-    "sourceIndex": 6703
+    "sourceIndex": 6703,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "16711",
@@ -9995,7 +10660,8 @@ const vocabularyAdjectives = [
         "text": "doll"
       }
     },
-    "sourceIndex": 6711
+    "sourceIndex": 6711,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "16748",
@@ -10010,7 +10676,8 @@ const vocabularyAdjectives = [
         "text": "manuell"
       }
     },
-    "sourceIndex": 6748
+    "sourceIndex": 6748,
+    "adjectiveCategory": "general"
   },
   {
     "id": "16764",
@@ -10025,7 +10692,8 @@ const vocabularyAdjectives = [
         "text": "rau"
       }
     },
-    "sourceIndex": 6764
+    "sourceIndex": 6764,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "16799",
@@ -10040,7 +10708,8 @@ const vocabularyAdjectives = [
         "text": "aufgeführt"
       }
     },
-    "sourceIndex": 6799
+    "sourceIndex": 6799,
+    "adjectiveCategory": "general"
   },
   {
     "id": "16803",
@@ -10055,7 +10724,8 @@ const vocabularyAdjectives = [
         "text": "belegt"
       }
     },
-    "sourceIndex": 6803
+    "sourceIndex": 6803,
+    "adjectiveCategory": "general"
   },
   {
     "id": "16805",
@@ -10070,7 +10740,8 @@ const vocabularyAdjectives = [
         "text": "besetzt"
       }
     },
-    "sourceIndex": 6805
+    "sourceIndex": 6805,
+    "adjectiveCategory": "general"
   },
   {
     "id": "16822",
@@ -10085,7 +10756,8 @@ const vocabularyAdjectives = [
         "text": "farbig"
       }
     },
-    "sourceIndex": 6822
+    "sourceIndex": 6822,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "16828",
@@ -10100,7 +10772,8 @@ const vocabularyAdjectives = [
         "text": "gefordert"
       }
     },
-    "sourceIndex": 6828
+    "sourceIndex": 6828,
+    "adjectiveCategory": "general"
   },
   {
     "id": "16881",
@@ -10115,7 +10788,8 @@ const vocabularyAdjectives = [
         "text": "zuversichtlich"
       }
     },
-    "sourceIndex": 6881
+    "sourceIndex": 6881,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "16885",
@@ -10130,7 +10804,8 @@ const vocabularyAdjectives = [
         "text": "abgeschlossen"
       }
     },
-    "sourceIndex": 6885
+    "sourceIndex": 6885,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "16890",
@@ -10145,7 +10820,8 @@ const vocabularyAdjectives = [
         "text": "aufregend"
       }
     },
-    "sourceIndex": 6890
+    "sourceIndex": 6890,
+    "adjectiveCategory": "general"
   },
   {
     "id": "16897",
@@ -10160,7 +10836,8 @@ const vocabularyAdjectives = [
         "text": "brennend"
       }
     },
-    "sourceIndex": 6897
+    "sourceIndex": 6897,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "16907",
@@ -10175,7 +10852,8 @@ const vocabularyAdjectives = [
         "text": "enttäuschend"
       }
     },
-    "sourceIndex": 6907
+    "sourceIndex": 6907,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "16914",
@@ -10190,7 +10868,8 @@ const vocabularyAdjectives = [
         "text": "fliessend"
       }
     },
-    "sourceIndex": 6914
+    "sourceIndex": 6914,
+    "adjectiveCategory": "ability"
   },
   {
     "id": "16965",
@@ -10205,7 +10884,8 @@ const vocabularyAdjectives = [
         "text": "steif"
       }
     },
-    "sourceIndex": 6965
+    "sourceIndex": 6965,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "16983",
@@ -10220,7 +10900,8 @@ const vocabularyAdjectives = [
         "text": "amüsant"
       }
     },
-    "sourceIndex": 6983
+    "sourceIndex": 6983,
+    "adjectiveCategory": "general"
   },
   {
     "id": "16998",
@@ -10235,7 +10916,8 @@ const vocabularyAdjectives = [
         "text": "blutig"
       }
     },
-    "sourceIndex": 6998
+    "sourceIndex": 6998,
+    "adjectiveCategory": "general"
   },
   {
     "id": "16999",
@@ -10250,7 +10932,8 @@ const vocabularyAdjectives = [
         "text": "charmant"
       }
     },
-    "sourceIndex": 6999
+    "sourceIndex": 6999,
+    "adjectiveCategory": "general"
   },
   {
     "id": "17017",
@@ -10265,7 +10948,8 @@ const vocabularyAdjectives = [
         "text": "gedruckt"
       }
     },
-    "sourceIndex": 7017
+    "sourceIndex": 7017,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "17059",
@@ -10280,7 +10964,8 @@ const vocabularyAdjectives = [
         "text": "rezeptfrei"
       }
     },
-    "sourceIndex": 7059
+    "sourceIndex": 7059,
+    "adjectiveCategory": "general"
   },
   {
     "id": "17065",
@@ -10295,7 +10980,8 @@ const vocabularyAdjectives = [
         "text": "selbstbewusst"
       }
     },
-    "sourceIndex": 7065
+    "sourceIndex": 7065,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "17100",
@@ -10310,7 +10996,8 @@ const vocabularyAdjectives = [
         "text": "bergisch"
       }
     },
-    "sourceIndex": 7100
+    "sourceIndex": 7100,
+    "adjectiveCategory": "places"
   },
   {
     "id": "17123",
@@ -10325,7 +11012,8 @@ const vocabularyAdjectives = [
         "text": "gewohnt"
       }
     },
-    "sourceIndex": 7123
+    "sourceIndex": 7123,
+    "adjectiveCategory": "general"
   },
   {
     "id": "17127",
@@ -10340,7 +11028,8 @@ const vocabularyAdjectives = [
         "text": "haltbar"
       }
     },
-    "sourceIndex": 7127
+    "sourceIndex": 7127,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "17133",
@@ -10355,7 +11044,8 @@ const vocabularyAdjectives = [
         "text": "kanadisch"
       }
     },
-    "sourceIndex": 7133
+    "sourceIndex": 7133,
+    "adjectiveCategory": "places"
   },
   {
     "id": "17144",
@@ -10370,7 +11060,8 @@ const vocabularyAdjectives = [
         "text": "mündlich"
       }
     },
-    "sourceIndex": 7144
+    "sourceIndex": 7144,
+    "adjectiveCategory": "general"
   },
   {
     "id": "17190",
@@ -10385,7 +11076,8 @@ const vocabularyAdjectives = [
         "text": "vorletzt"
       }
     },
-    "sourceIndex": 7190
+    "sourceIndex": 7190,
+    "adjectiveCategory": "time"
   },
   {
     "id": "17206",
@@ -10400,7 +11092,8 @@ const vocabularyAdjectives = [
         "text": "akut"
       }
     },
-    "sourceIndex": 7206
+    "sourceIndex": 7206,
+    "adjectiveCategory": "general"
   },
   {
     "id": "17238",
@@ -10415,7 +11108,8 @@ const vocabularyAdjectives = [
         "text": "iranisch"
       }
     },
-    "sourceIndex": 7238
+    "sourceIndex": 7238,
+    "adjectiveCategory": "places"
   },
   {
     "id": "17258",
@@ -10430,7 +11124,8 @@ const vocabularyAdjectives = [
         "text": "organisch"
       }
     },
-    "sourceIndex": 7258
+    "sourceIndex": 7258,
+    "adjectiveCategory": "society"
   },
   {
     "id": "17259",
@@ -10445,7 +11140,8 @@ const vocabularyAdjectives = [
         "text": "ostdeutsch"
       }
     },
-    "sourceIndex": 7259
+    "sourceIndex": 7259,
+    "adjectiveCategory": "places"
   },
   {
     "id": "17281",
@@ -10460,7 +11156,8 @@ const vocabularyAdjectives = [
         "text": "ungeeignet"
       }
     },
-    "sourceIndex": 7281
+    "sourceIndex": 7281,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "17289",
@@ -10475,7 +11172,8 @@ const vocabularyAdjectives = [
         "text": "verspätet"
       }
     },
-    "sourceIndex": 7289
+    "sourceIndex": 7289,
+    "adjectiveCategory": "time"
   },
   {
     "id": "17298",
@@ -10490,7 +11188,8 @@ const vocabularyAdjectives = [
         "text": "winzig"
       }
     },
-    "sourceIndex": 7298
+    "sourceIndex": 7298,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "17308",
@@ -10505,7 +11204,8 @@ const vocabularyAdjectives = [
         "text": "alleinerziehend"
       }
     },
-    "sourceIndex": 7308
+    "sourceIndex": 7308,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "17329",
@@ -10520,7 +11220,8 @@ const vocabularyAdjectives = [
         "text": "düster"
       }
     },
-    "sourceIndex": 7329
+    "sourceIndex": 7329,
+    "adjectiveCategory": "general"
   },
   {
     "id": "17330",
@@ -10535,7 +11236,8 @@ const vocabularyAdjectives = [
         "text": "eifersüchtig"
       }
     },
-    "sourceIndex": 7330
+    "sourceIndex": 7330,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "17338",
@@ -10550,7 +11252,8 @@ const vocabularyAdjectives = [
         "text": "flott"
       }
     },
-    "sourceIndex": 7338
+    "sourceIndex": 7338,
+    "adjectiveCategory": "movement"
   },
   {
     "id": "17393",
@@ -10565,7 +11268,8 @@ const vocabularyAdjectives = [
         "text": "taub"
       }
     },
-    "sourceIndex": 7393
+    "sourceIndex": 7393,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "17400",
@@ -10580,7 +11284,8 @@ const vocabularyAdjectives = [
         "text": "unregelmäßig"
       }
     },
-    "sourceIndex": 7400
+    "sourceIndex": 7400,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "17404",
@@ -10595,7 +11300,8 @@ const vocabularyAdjectives = [
         "text": "verboten"
       }
     },
-    "sourceIndex": 7404
+    "sourceIndex": 7404,
+    "adjectiveCategory": "general"
   },
   {
     "id": "17424",
@@ -10610,7 +11316,8 @@ const vocabularyAdjectives = [
         "text": "ängstlich"
       }
     },
-    "sourceIndex": 7424
+    "sourceIndex": 7424,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "17427",
@@ -10625,7 +11332,8 @@ const vocabularyAdjectives = [
         "text": "akzeptabel"
       }
     },
-    "sourceIndex": 7427
+    "sourceIndex": 7427,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "17432",
@@ -10640,7 +11348,8 @@ const vocabularyAdjectives = [
         "text": "beginnend"
       }
     },
-    "sourceIndex": 7432
+    "sourceIndex": 7432,
+    "adjectiveCategory": "general"
   },
   {
     "id": "17437",
@@ -10655,7 +11364,8 @@ const vocabularyAdjectives = [
         "text": "beruhigend"
       }
     },
-    "sourceIndex": 7437
+    "sourceIndex": 7437,
+    "adjectiveCategory": "general"
   },
   {
     "id": "17444",
@@ -10670,7 +11380,8 @@ const vocabularyAdjectives = [
         "text": "clean"
       }
     },
-    "sourceIndex": 7444
+    "sourceIndex": 7444,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "17459",
@@ -10685,7 +11396,8 @@ const vocabularyAdjectives = [
         "text": "frustriert"
       }
     },
-    "sourceIndex": 7459
+    "sourceIndex": 7459,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "17491",
@@ -10700,7 +11412,8 @@ const vocabularyAdjectives = [
         "text": "nächtlich"
       }
     },
-    "sourceIndex": 7491
+    "sourceIndex": 7491,
+    "adjectiveCategory": "time"
   },
   {
     "id": "17495",
@@ -10715,7 +11428,8 @@ const vocabularyAdjectives = [
         "text": "orientiert"
       }
     },
-    "sourceIndex": 7495
+    "sourceIndex": 7495,
+    "adjectiveCategory": "general"
   },
   {
     "id": "17504",
@@ -10730,7 +11444,8 @@ const vocabularyAdjectives = [
         "text": "scheu"
       }
     },
-    "sourceIndex": 7504
+    "sourceIndex": 7504,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "17536",
@@ -10745,7 +11460,8 @@ const vocabularyAdjectives = [
         "text": "vorstellbar"
       }
     },
-    "sourceIndex": 7536
+    "sourceIndex": 7536,
+    "adjectiveCategory": "certainty"
   },
   {
     "id": "17588",
@@ -10760,7 +11476,8 @@ const vocabularyAdjectives = [
         "text": "geehrt"
       }
     },
-    "sourceIndex": 7588
+    "sourceIndex": 7588,
+    "adjectiveCategory": "general"
   },
   {
     "id": "17589",
@@ -10775,7 +11492,8 @@ const vocabularyAdjectives = [
         "text": "gemacht"
       }
     },
-    "sourceIndex": 7589
+    "sourceIndex": 7589,
+    "adjectiveCategory": "general"
   },
   {
     "id": "17590",
@@ -10790,7 +11508,8 @@ const vocabularyAdjectives = [
         "text": "geographisch"
       }
     },
-    "sourceIndex": 7590
+    "sourceIndex": 7590,
+    "adjectiveCategory": "places"
   },
   {
     "id": "17598",
@@ -10805,7 +11524,8 @@ const vocabularyAdjectives = [
         "text": "grundlos"
       }
     },
-    "sourceIndex": 7598
+    "sourceIndex": 7598,
+    "adjectiveCategory": "general"
   },
   {
     "id": "17606",
@@ -10820,7 +11540,8 @@ const vocabularyAdjectives = [
         "text": "irisch"
       }
     },
-    "sourceIndex": 7606
+    "sourceIndex": 7606,
+    "adjectiveCategory": "places"
   },
   {
     "id": "17617",
@@ -10835,7 +11556,8 @@ const vocabularyAdjectives = [
         "text": "lässig"
       }
     },
-    "sourceIndex": 7617
+    "sourceIndex": 7617,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "17625",
@@ -10850,7 +11572,8 @@ const vocabularyAdjectives = [
         "text": "nordisch"
       }
     },
-    "sourceIndex": 7625
+    "sourceIndex": 7625,
+    "adjectiveCategory": "places"
   },
   {
     "id": "17629",
@@ -10865,7 +11588,8 @@ const vocabularyAdjectives = [
         "text": "optional"
       }
     },
-    "sourceIndex": 7629
+    "sourceIndex": 7629,
+    "adjectiveCategory": "certainty"
   },
   {
     "id": "17645",
@@ -10880,7 +11604,8 @@ const vocabularyAdjectives = [
         "text": "sonnig"
       }
     },
-    "sourceIndex": 7645
+    "sourceIndex": 7645,
+    "adjectiveCategory": "general"
   },
   {
     "id": "17662",
@@ -10895,7 +11620,8 @@ const vocabularyAdjectives = [
         "text": "verstärkt"
       }
     },
-    "sourceIndex": 7662
+    "sourceIndex": 7662,
+    "adjectiveCategory": "general"
   },
   {
     "id": "17670",
@@ -10910,7 +11636,8 @@ const vocabularyAdjectives = [
         "text": "wertlos"
       }
     },
-    "sourceIndex": 7670
+    "sourceIndex": 7670,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "17693",
@@ -10925,7 +11652,8 @@ const vocabularyAdjectives = [
         "text": "bayrisch"
       }
     },
-    "sourceIndex": 7693
+    "sourceIndex": 7693,
+    "adjectiveCategory": "places"
   },
   {
     "id": "17713",
@@ -10940,7 +11668,8 @@ const vocabularyAdjectives = [
         "text": "erfrischend"
       }
     },
-    "sourceIndex": 7713
+    "sourceIndex": 7713,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "17722",
@@ -10955,7 +11684,8 @@ const vocabularyAdjectives = [
         "text": "gefühlt"
       }
     },
-    "sourceIndex": 7722
+    "sourceIndex": 7722,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "17724",
@@ -10970,7 +11700,8 @@ const vocabularyAdjectives = [
         "text": "geheimnisvoll"
       }
     },
-    "sourceIndex": 7724
+    "sourceIndex": 7724,
+    "adjectiveCategory": "general"
   },
   {
     "id": "17731",
@@ -10985,7 +11716,8 @@ const vocabularyAdjectives = [
         "text": "hoffnungslos"
       }
     },
-    "sourceIndex": 7731
+    "sourceIndex": 7731,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "17735",
@@ -11000,7 +11732,8 @@ const vocabularyAdjectives = [
         "text": "instant"
       }
     },
-    "sourceIndex": 7735
+    "sourceIndex": 7735,
+    "adjectiveCategory": "time"
   },
   {
     "id": "17740",
@@ -11015,7 +11748,8 @@ const vocabularyAdjectives = [
         "text": "koordiniert"
       }
     },
-    "sourceIndex": 7740
+    "sourceIndex": 7740,
+    "adjectiveCategory": "general"
   },
   {
     "id": "17774",
@@ -11030,7 +11764,8 @@ const vocabularyAdjectives = [
         "text": "separat"
       }
     },
-    "sourceIndex": 7774
+    "sourceIndex": 7774,
+    "adjectiveCategory": "general"
   },
   {
     "id": "17787",
@@ -11045,7 +11780,8 @@ const vocabularyAdjectives = [
         "text": "vertraglich"
       }
     },
-    "sourceIndex": 7787
+    "sourceIndex": 7787,
+    "adjectiveCategory": "society"
   },
   {
     "id": "17789",
@@ -11060,7 +11796,8 @@ const vocabularyAdjectives = [
         "text": "verwirrend"
       }
     },
-    "sourceIndex": 7789
+    "sourceIndex": 7789,
+    "adjectiveCategory": "general"
   },
   {
     "id": "17802",
@@ -11075,7 +11812,8 @@ const vocabularyAdjectives = [
         "text": "angeboten"
       }
     },
-    "sourceIndex": 7802
+    "sourceIndex": 7802,
+    "adjectiveCategory": "general"
   },
   {
     "id": "17819",
@@ -11090,7 +11828,8 @@ const vocabularyAdjectives = [
         "text": "dreifach"
       }
     },
-    "sourceIndex": 7819
+    "sourceIndex": 7819,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "17825",
@@ -11105,7 +11844,8 @@ const vocabularyAdjectives = [
         "text": "erhöht"
       }
     },
-    "sourceIndex": 7825
+    "sourceIndex": 7825,
+    "adjectiveCategory": "general"
   },
   {
     "id": "17828",
@@ -11120,7 +11860,8 @@ const vocabularyAdjectives = [
         "text": "familiär"
       }
     },
-    "sourceIndex": 7828
+    "sourceIndex": 7828,
+    "adjectiveCategory": "society"
   },
   {
     "id": "17832",
@@ -11135,7 +11876,8 @@ const vocabularyAdjectives = [
         "text": "funktionierend"
       }
     },
-    "sourceIndex": 7832
+    "sourceIndex": 7832,
+    "adjectiveCategory": "general"
   },
   {
     "id": "17834",
@@ -11150,7 +11892,8 @@ const vocabularyAdjectives = [
         "text": "gefüllt"
       }
     },
-    "sourceIndex": 7834
+    "sourceIndex": 7834,
+    "adjectiveCategory": "general"
   },
   {
     "id": "17839",
@@ -11165,7 +11908,8 @@ const vocabularyAdjectives = [
         "text": "geschaffen"
       }
     },
-    "sourceIndex": 7839
+    "sourceIndex": 7839,
+    "adjectiveCategory": "general"
   },
   {
     "id": "17851",
@@ -11180,7 +11924,8 @@ const vocabularyAdjectives = [
         "text": "kontrolliert"
       }
     },
-    "sourceIndex": 7851
+    "sourceIndex": 7851,
+    "adjectiveCategory": "general"
   },
   {
     "id": "17865",
@@ -11195,7 +11940,8 @@ const vocabularyAdjectives = [
         "text": "produktiv"
       }
     },
-    "sourceIndex": 7865
+    "sourceIndex": 7865,
+    "adjectiveCategory": "general"
   },
   {
     "id": "17921",
@@ -11210,7 +11956,8 @@ const vocabularyAdjectives = [
         "text": "bestehend"
       }
     },
-    "sourceIndex": 7921
+    "sourceIndex": 7921,
+    "adjectiveCategory": "time"
   },
   {
     "id": "17936",
@@ -11225,7 +11972,8 @@ const vocabularyAdjectives = [
         "text": "fliegend"
       }
     },
-    "sourceIndex": 7936
+    "sourceIndex": 7936,
+    "adjectiveCategory": "movement"
   },
   {
     "id": "17970",
@@ -11240,7 +11988,8 @@ const vocabularyAdjectives = [
         "text": "misstrauisch"
       }
     },
-    "sourceIndex": 7970
+    "sourceIndex": 7970,
+    "adjectiveCategory": "general"
   },
   {
     "id": "17997",
@@ -11255,7 +12004,8 @@ const vocabularyAdjectives = [
         "text": "sparsam"
       }
     },
-    "sourceIndex": 7997
+    "sourceIndex": 7997,
+    "adjectiveCategory": "society"
   },
   {
     "id": "18006",
@@ -11270,7 +12020,8 @@ const vocabularyAdjectives = [
         "text": "ungeduldig"
       }
     },
-    "sourceIndex": 8006
+    "sourceIndex": 8006,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "18007",
@@ -11285,7 +12036,8 @@ const vocabularyAdjectives = [
         "text": "unruhig"
       }
     },
-    "sourceIndex": 8007
+    "sourceIndex": 8007,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "18032",
@@ -11300,7 +12052,8 @@ const vocabularyAdjectives = [
         "text": "badisch"
       }
     },
-    "sourceIndex": 8032
+    "sourceIndex": 8032,
+    "adjectiveCategory": "places"
   },
   {
     "id": "18060",
@@ -11315,7 +12068,8 @@ const vocabularyAdjectives = [
         "text": "fürchterlich"
       }
     },
-    "sourceIndex": 8060
+    "sourceIndex": 8060,
+    "adjectiveCategory": "general"
   },
   {
     "id": "18063",
@@ -11330,7 +12084,8 @@ const vocabularyAdjectives = [
         "text": "gleichgültig"
       }
     },
-    "sourceIndex": 8063
+    "sourceIndex": 8063,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "18080",
@@ -11345,7 +12100,8 @@ const vocabularyAdjectives = [
         "text": "lästig"
       }
     },
-    "sourceIndex": 8080
+    "sourceIndex": 8080,
+    "adjectiveCategory": "general"
   },
   {
     "id": "18083",
@@ -11360,7 +12116,8 @@ const vocabularyAdjectives = [
         "text": "mexikanisch"
       }
     },
-    "sourceIndex": 8083
+    "sourceIndex": 8083,
+    "adjectiveCategory": "places"
   },
   {
     "id": "18088",
@@ -11375,7 +12132,8 @@ const vocabularyAdjectives = [
         "text": "norwegisch"
       }
     },
-    "sourceIndex": 8088
+    "sourceIndex": 8088,
+    "adjectiveCategory": "places"
   },
   {
     "id": "18116",
@@ -11390,7 +12148,8 @@ const vocabularyAdjectives = [
         "text": "strange"
       }
     },
-    "sourceIndex": 8116
+    "sourceIndex": 8116,
+    "adjectiveCategory": "general"
   },
   {
     "id": "18140",
@@ -11405,7 +12164,8 @@ const vocabularyAdjectives = [
         "text": "vorteilhaft"
       }
     },
-    "sourceIndex": 8140
+    "sourceIndex": 8140,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "18157",
@@ -11420,7 +12180,8 @@ const vocabularyAdjectives = [
         "text": "behilflich"
       }
     },
-    "sourceIndex": 8157
+    "sourceIndex": 8157,
+    "adjectiveCategory": "general"
   },
   {
     "id": "18169",
@@ -11435,7 +12196,8 @@ const vocabularyAdjectives = [
         "text": "depressiv"
       }
     },
-    "sourceIndex": 8169
+    "sourceIndex": 8169,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "18173",
@@ -11450,7 +12212,8 @@ const vocabularyAdjectives = [
         "text": "englischsprachig"
       }
     },
-    "sourceIndex": 8173
+    "sourceIndex": 8173,
+    "adjectiveCategory": "places"
   },
   {
     "id": "18211",
@@ -11465,7 +12228,8 @@ const vocabularyAdjectives = [
         "text": "multiple"
       }
     },
-    "sourceIndex": 8211
+    "sourceIndex": 8211,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "18230",
@@ -11480,7 +12244,8 @@ const vocabularyAdjectives = [
         "text": "sensibel"
       }
     },
-    "sourceIndex": 8230
+    "sourceIndex": 8230,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "18306",
@@ -11495,7 +12260,8 @@ const vocabularyAdjectives = [
         "text": "gegenüberliegend"
       }
     },
-    "sourceIndex": 8306
+    "sourceIndex": 8306,
+    "adjectiveCategory": "movement"
   },
   {
     "id": "18356",
@@ -11510,7 +12276,8 @@ const vocabularyAdjectives = [
         "text": "roh"
       }
     },
-    "sourceIndex": 8356
+    "sourceIndex": 8356,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "18425",
@@ -11525,7 +12292,8 @@ const vocabularyAdjectives = [
         "text": "fies"
       }
     },
-    "sourceIndex": 8425
+    "sourceIndex": 8425,
+    "adjectiveCategory": "general"
   },
   {
     "id": "18431",
@@ -11540,7 +12308,8 @@ const vocabularyAdjectives = [
         "text": "heiter"
       }
     },
-    "sourceIndex": 8431
+    "sourceIndex": 8431,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "18476",
@@ -11555,7 +12324,8 @@ const vocabularyAdjectives = [
         "text": "sprachlos"
       }
     },
-    "sourceIndex": 8476
+    "sourceIndex": 8476,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "18483",
@@ -11570,7 +12340,8 @@ const vocabularyAdjectives = [
         "text": "tropisch"
       }
     },
-    "sourceIndex": 8483
+    "sourceIndex": 8483,
+    "adjectiveCategory": "places"
   },
   {
     "id": "18488",
@@ -11585,7 +12356,8 @@ const vocabularyAdjectives = [
         "text": "unhöflich"
       }
     },
-    "sourceIndex": 8488
+    "sourceIndex": 8488,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "18491",
@@ -11600,7 +12372,8 @@ const vocabularyAdjectives = [
         "text": "unwohl"
       }
     },
-    "sourceIndex": 8491
+    "sourceIndex": 8491,
+    "adjectiveCategory": "general"
   },
   {
     "id": "18557",
@@ -11615,7 +12388,8 @@ const vocabularyAdjectives = [
         "text": "finnisch"
       }
     },
-    "sourceIndex": 8557
+    "sourceIndex": 8557,
+    "adjectiveCategory": "places"
   },
   {
     "id": "18568",
@@ -11630,7 +12404,8 @@ const vocabularyAdjectives = [
         "text": "giftig"
       }
     },
-    "sourceIndex": 8568
+    "sourceIndex": 8568,
+    "adjectiveCategory": "general"
   },
   {
     "id": "18607",
@@ -11645,7 +12420,8 @@ const vocabularyAdjectives = [
         "text": "riskant"
       }
     },
-    "sourceIndex": 8607
+    "sourceIndex": 8607,
+    "adjectiveCategory": "general"
   },
   {
     "id": "18608",
@@ -11660,7 +12436,8 @@ const vocabularyAdjectives = [
         "text": "rumänisch"
       }
     },
-    "sourceIndex": 8608
+    "sourceIndex": 8608,
+    "adjectiveCategory": "places"
   },
   {
     "id": "18629",
@@ -11675,7 +12452,8 @@ const vocabularyAdjectives = [
         "text": "ungewohnt"
       }
     },
-    "sourceIndex": 8629
+    "sourceIndex": 8629,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "18638",
@@ -11690,7 +12468,8 @@ const vocabularyAdjectives = [
         "text": "vintage"
       }
     },
-    "sourceIndex": 8638
+    "sourceIndex": 8638,
+    "adjectiveCategory": "time"
   },
   {
     "id": "18672",
@@ -11705,7 +12484,8 @@ const vocabularyAdjectives = [
         "text": "bewusstlos"
       }
     },
-    "sourceIndex": 8672
+    "sourceIndex": 8672,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "18679",
@@ -11720,7 +12500,8 @@ const vocabularyAdjectives = [
         "text": "egoistisch"
       }
     },
-    "sourceIndex": 8679
+    "sourceIndex": 8679,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "18703",
@@ -11735,7 +12516,8 @@ const vocabularyAdjectives = [
         "text": "harmonisch"
       }
     },
-    "sourceIndex": 8703
+    "sourceIndex": 8703,
+    "adjectiveCategory": "general"
   },
   {
     "id": "18710",
@@ -11750,7 +12532,8 @@ const vocabularyAdjectives = [
         "text": "kindisch"
       }
     },
-    "sourceIndex": 8710
+    "sourceIndex": 8710,
+    "adjectiveCategory": "general"
   },
   {
     "id": "18751",
@@ -11765,7 +12548,8 @@ const vocabularyAdjectives = [
         "text": "registriert"
       }
     },
-    "sourceIndex": 8751
+    "sourceIndex": 8751,
+    "adjectiveCategory": "general"
   },
   {
     "id": "18762",
@@ -11780,7 +12564,8 @@ const vocabularyAdjectives = [
         "text": "slim"
       }
     },
-    "sourceIndex": 8762
+    "sourceIndex": 8762,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "18779",
@@ -11795,7 +12580,8 @@ const vocabularyAdjectives = [
         "text": "unbrauchbar"
       }
     },
-    "sourceIndex": 8779
+    "sourceIndex": 8779,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "18782",
@@ -11810,7 +12596,8 @@ const vocabularyAdjectives = [
         "text": "unvollständig"
       }
     },
-    "sourceIndex": 8782
+    "sourceIndex": 8782,
+    "adjectiveCategory": "general"
   },
   {
     "id": "18812",
@@ -11825,7 +12612,8 @@ const vocabularyAdjectives = [
         "text": "arbeitend"
       }
     },
-    "sourceIndex": 8812
+    "sourceIndex": 8812,
+    "adjectiveCategory": "general"
   },
   {
     "id": "18836",
@@ -11840,7 +12628,8 @@ const vocabularyAdjectives = [
         "text": "erfurter"
       }
     },
-    "sourceIndex": 8836
+    "sourceIndex": 8836,
+    "adjectiveCategory": "places"
   },
   {
     "id": "18838",
@@ -11855,7 +12644,8 @@ const vocabularyAdjectives = [
         "text": "exotisch"
       }
     },
-    "sourceIndex": 8838
+    "sourceIndex": 8838,
+    "adjectiveCategory": "general"
   },
   {
     "id": "18854",
@@ -11870,7 +12660,8 @@ const vocabularyAdjectives = [
         "text": "geschichtlich"
       }
     },
-    "sourceIndex": 8854
+    "sourceIndex": 8854,
+    "adjectiveCategory": "time"
   },
   {
     "id": "18862",
@@ -11885,7 +12676,8 @@ const vocabularyAdjectives = [
         "text": "hohl"
       }
     },
-    "sourceIndex": 8862
+    "sourceIndex": 8862,
+    "adjectiveCategory": "general"
   },
   {
     "id": "18863",
@@ -11900,7 +12692,8 @@ const vocabularyAdjectives = [
         "text": "holländisch"
       }
     },
-    "sourceIndex": 8863
+    "sourceIndex": 8863,
+    "adjectiveCategory": "places"
   },
   {
     "id": "18910",
@@ -11915,7 +12708,8 @@ const vocabularyAdjectives = [
         "text": "schottisch"
       }
     },
-    "sourceIndex": 8910
+    "sourceIndex": 8910,
+    "adjectiveCategory": "places"
   },
   {
     "id": "18921",
@@ -11930,7 +12724,8 @@ const vocabularyAdjectives = [
         "text": "stressig"
       }
     },
-    "sourceIndex": 8921
+    "sourceIndex": 8921,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "18923",
@@ -11945,7 +12740,8 @@ const vocabularyAdjectives = [
         "text": "ungefährlich"
       }
     },
-    "sourceIndex": 8923
+    "sourceIndex": 8923,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "18925",
@@ -11960,7 +12756,8 @@ const vocabularyAdjectives = [
         "text": "uralt"
       }
     },
-    "sourceIndex": 8925
+    "sourceIndex": 8925,
+    "adjectiveCategory": "time"
   },
   {
     "id": "18932",
@@ -11975,7 +12772,8 @@ const vocabularyAdjectives = [
         "text": "violett"
       }
     },
-    "sourceIndex": 8932
+    "sourceIndex": 8932,
+    "adjectiveCategory": "general"
   },
   {
     "id": "18943",
@@ -11990,7 +12788,8 @@ const vocabularyAdjectives = [
         "text": "zärtlich"
       }
     },
-    "sourceIndex": 8943
+    "sourceIndex": 8943,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "18964",
@@ -12005,7 +12804,8 @@ const vocabularyAdjectives = [
         "text": "befreundet"
       }
     },
-    "sourceIndex": 8964
+    "sourceIndex": 8964,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "18975",
@@ -12020,7 +12820,8 @@ const vocabularyAdjectives = [
         "text": "ermutigt"
       }
     },
-    "sourceIndex": 8975
+    "sourceIndex": 8975,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "18979",
@@ -12035,7 +12836,8 @@ const vocabularyAdjectives = [
         "text": "fahrend"
       }
     },
-    "sourceIndex": 8979
+    "sourceIndex": 8979,
+    "adjectiveCategory": "movement"
   },
   {
     "id": "18984",
@@ -12050,7 +12852,8 @@ const vocabularyAdjectives = [
         "text": "formell"
       }
     },
-    "sourceIndex": 8984
+    "sourceIndex": 8984,
+    "adjectiveCategory": "general"
   },
   {
     "id": "18994",
@@ -12065,7 +12868,8 @@ const vocabularyAdjectives = [
         "text": "gelangweilt"
       }
     },
-    "sourceIndex": 8994
+    "sourceIndex": 8994,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "19005",
@@ -12080,7 +12884,8 @@ const vocabularyAdjectives = [
         "text": "hergestellt"
       }
     },
-    "sourceIndex": 9005
+    "sourceIndex": 9005,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "19008",
@@ -12095,7 +12900,8 @@ const vocabularyAdjectives = [
         "text": "horizontal"
       }
     },
-    "sourceIndex": 9008
+    "sourceIndex": 9008,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "19044",
@@ -12110,7 +12916,8 @@ const vocabularyAdjectives = [
         "text": "polizeilich"
       }
     },
-    "sourceIndex": 9044
+    "sourceIndex": 9044,
+    "adjectiveCategory": "society"
   },
   {
     "id": "19048",
@@ -12125,7 +12932,8 @@ const vocabularyAdjectives = [
         "text": "reduziert"
       }
     },
-    "sourceIndex": 9048
+    "sourceIndex": 9048,
+    "adjectiveCategory": "general"
   },
   {
     "id": "19069",
@@ -12140,7 +12948,8 @@ const vocabularyAdjectives = [
         "text": "straight"
       }
     },
-    "sourceIndex": 9069
+    "sourceIndex": 9069,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "19077",
@@ -12155,7 +12964,8 @@ const vocabularyAdjectives = [
         "text": "unkompliziert"
       }
     },
-    "sourceIndex": 9077
+    "sourceIndex": 9077,
+    "adjectiveCategory": "general"
   },
   {
     "id": "19083",
@@ -12170,7 +12980,8 @@ const vocabularyAdjectives = [
         "text": "verlässlich"
       }
     },
-    "sourceIndex": 9083
+    "sourceIndex": 9083,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "19088",
@@ -12185,7 +12996,8 @@ const vocabularyAdjectives = [
         "text": "vorgeschlagen"
       }
     },
-    "sourceIndex": 9088
+    "sourceIndex": 9088,
+    "adjectiveCategory": "general"
   },
   {
     "id": "19089",
@@ -12200,7 +13012,8 @@ const vocabularyAdjectives = [
         "text": "vorgestellt"
       }
     },
-    "sourceIndex": 9089
+    "sourceIndex": 9089,
+    "adjectiveCategory": "general"
   },
   {
     "id": "19100",
@@ -12215,7 +13028,8 @@ const vocabularyAdjectives = [
         "text": "zäh"
       }
     },
-    "sourceIndex": 9100
+    "sourceIndex": 9100,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "19101",
@@ -12230,7 +13044,8 @@ const vocabularyAdjectives = [
         "text": "öde"
       }
     },
-    "sourceIndex": 9101
+    "sourceIndex": 9101,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "19119",
@@ -12245,7 +13060,8 @@ const vocabularyAdjectives = [
         "text": "barfuss"
       }
     },
-    "sourceIndex": 9119
+    "sourceIndex": 9119,
+    "adjectiveCategory": "general"
   },
   {
     "id": "19155",
@@ -12260,7 +13076,8 @@ const vocabularyAdjectives = [
         "text": "getötet"
       }
     },
-    "sourceIndex": 9155
+    "sourceIndex": 9155,
+    "adjectiveCategory": "general"
   },
   {
     "id": "19183",
@@ -12275,7 +13092,8 @@ const vocabularyAdjectives = [
         "text": "kurdisch"
       }
     },
-    "sourceIndex": 9183
+    "sourceIndex": 9183,
+    "adjectiveCategory": "places"
   },
   {
     "id": "19199",
@@ -12290,7 +13108,8 @@ const vocabularyAdjectives = [
         "text": "persisch"
       }
     },
-    "sourceIndex": 9199
+    "sourceIndex": 9199,
+    "adjectiveCategory": "places"
   },
   {
     "id": "19238",
@@ -12305,7 +13124,8 @@ const vocabularyAdjectives = [
         "text": "überfüllt"
       }
     },
-    "sourceIndex": 9238
+    "sourceIndex": 9238,
+    "adjectiveCategory": "general"
   },
   {
     "id": "19303",
@@ -12320,7 +13140,8 @@ const vocabularyAdjectives = [
         "text": "hörbar"
       }
     },
-    "sourceIndex": 9303
+    "sourceIndex": 9303,
+    "adjectiveCategory": "general"
   },
   {
     "id": "19304",
@@ -12335,7 +13156,8 @@ const vocabularyAdjectives = [
         "text": "informativ"
       }
     },
-    "sourceIndex": 9304
+    "sourceIndex": 9304,
+    "adjectiveCategory": "general"
   },
   {
     "id": "19308",
@@ -12350,7 +13172,8 @@ const vocabularyAdjectives = [
         "text": "kahl"
       }
     },
-    "sourceIndex": 9308
+    "sourceIndex": 9308,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "19321",
@@ -12365,7 +13188,8 @@ const vocabularyAdjectives = [
         "text": "mittig"
       }
     },
-    "sourceIndex": 9321
+    "sourceIndex": 9321,
+    "adjectiveCategory": "places"
   },
   {
     "id": "19330",
@@ -12380,7 +13204,8 @@ const vocabularyAdjectives = [
         "text": "oval"
       }
     },
-    "sourceIndex": 9330
+    "sourceIndex": 9330,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "19337",
@@ -12396,7 +13221,8 @@ const vocabularyAdjectives = [
         "caseSensitive": true
       }
     },
-    "sourceIndex": 9337
+    "sourceIndex": 9337,
+    "adjectiveCategory": "places"
   },
   {
     "id": "19369",
@@ -12411,7 +13237,8 @@ const vocabularyAdjectives = [
         "text": "stur"
       }
     },
-    "sourceIndex": 9369
+    "sourceIndex": 9369,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "19378",
@@ -12426,7 +13253,8 @@ const vocabularyAdjectives = [
         "text": "ungesund"
       }
     },
-    "sourceIndex": 9378
+    "sourceIndex": 9378,
+    "adjectiveCategory": "general"
   },
   {
     "id": "19379",
@@ -12441,7 +13269,8 @@ const vocabularyAdjectives = [
         "text": "unrealistisch"
       }
     },
-    "sourceIndex": 9379
+    "sourceIndex": 9379,
+    "adjectiveCategory": "general"
   },
   {
     "id": "19381",
@@ -12456,7 +13285,8 @@ const vocabularyAdjectives = [
         "text": "unterst"
       }
     },
-    "sourceIndex": 9381
+    "sourceIndex": 9381,
+    "adjectiveCategory": "general"
   },
   {
     "id": "19382",
@@ -12471,7 +13301,8 @@ const vocabularyAdjectives = [
         "text": "vegetarisch"
       }
     },
-    "sourceIndex": 9382
+    "sourceIndex": 9382,
+    "adjectiveCategory": "general"
   },
   {
     "id": "19390",
@@ -12486,7 +13317,8 @@ const vocabularyAdjectives = [
         "text": "weltlich"
       }
     },
-    "sourceIndex": 9390
+    "sourceIndex": 9390,
+    "adjectiveCategory": "general"
   },
   {
     "id": "19415",
@@ -12501,7 +13333,8 @@ const vocabularyAdjectives = [
         "text": "befristet"
       }
     },
-    "sourceIndex": 9415
+    "sourceIndex": 9415,
+    "adjectiveCategory": "time"
   },
   {
     "id": "19455",
@@ -12516,7 +13349,8 @@ const vocabularyAdjectives = [
         "text": "häuslich"
       }
     },
-    "sourceIndex": 9455
+    "sourceIndex": 9455,
+    "adjectiveCategory": "places"
   },
   {
     "id": "19456",
@@ -12531,7 +13365,8 @@ const vocabularyAdjectives = [
         "text": "hölzern"
       }
     },
-    "sourceIndex": 9456
+    "sourceIndex": 9456,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "19468",
@@ -12546,7 +13381,8 @@ const vocabularyAdjectives = [
         "text": "lesbar"
       }
     },
-    "sourceIndex": 9468
+    "sourceIndex": 9468,
+    "adjectiveCategory": "general"
   },
   {
     "id": "19515",
@@ -12561,7 +13397,8 @@ const vocabularyAdjectives = [
         "text": "unbequem"
       }
     },
-    "sourceIndex": 9515
+    "sourceIndex": 9515,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "19570",
@@ -12576,7 +13413,8 @@ const vocabularyAdjectives = [
         "text": "chaotisch"
       }
     },
-    "sourceIndex": 9570
+    "sourceIndex": 9570,
+    "adjectiveCategory": "general"
   },
   {
     "id": "19596",
@@ -12591,7 +13429,8 @@ const vocabularyAdjectives = [
         "text": "gesucht"
       }
     },
-    "sourceIndex": 9596
+    "sourceIndex": 9596,
+    "adjectiveCategory": "general"
   },
   {
     "id": "19620",
@@ -12606,7 +13445,8 @@ const vocabularyAdjectives = [
         "text": "leuchtend"
       }
     },
-    "sourceIndex": 9620
+    "sourceIndex": 9620,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "19639",
@@ -12621,7 +13461,8 @@ const vocabularyAdjectives = [
         "text": "preiswert"
       }
     },
-    "sourceIndex": 9639
+    "sourceIndex": 9639,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "19655",
@@ -12636,7 +13477,8 @@ const vocabularyAdjectives = [
         "text": "sensationell"
       }
     },
-    "sourceIndex": 9655
+    "sourceIndex": 9655,
+    "adjectiveCategory": "general"
   },
   {
     "id": "19665",
@@ -12651,7 +13493,8 @@ const vocabularyAdjectives = [
         "text": "störend"
       }
     },
-    "sourceIndex": 9665
+    "sourceIndex": 9665,
+    "adjectiveCategory": "general"
   },
   {
     "id": "19679",
@@ -12666,7 +13509,8 @@ const vocabularyAdjectives = [
         "text": "uninteressant"
       }
     },
-    "sourceIndex": 9679
+    "sourceIndex": 9679,
+    "adjectiveCategory": "general"
   },
   {
     "id": "19681",
@@ -12681,7 +13525,8 @@ const vocabularyAdjectives = [
         "text": "unpassend"
       }
     },
-    "sourceIndex": 9681
+    "sourceIndex": 9681,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "19687",
@@ -12696,7 +13541,8 @@ const vocabularyAdjectives = [
         "text": "verliebt"
       }
     },
-    "sourceIndex": 9687
+    "sourceIndex": 9687,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "19723",
@@ -12711,7 +13557,8 @@ const vocabularyAdjectives = [
         "text": "bewölkt"
       }
     },
-    "sourceIndex": 9723
+    "sourceIndex": 9723,
+    "adjectiveCategory": "general"
   },
   {
     "id": "19805",
@@ -12726,7 +13573,8 @@ const vocabularyAdjectives = [
         "text": "serbisch"
       }
     },
-    "sourceIndex": 9805
+    "sourceIndex": 9805,
+    "adjectiveCategory": "places"
   },
   {
     "id": "19815",
@@ -12741,7 +13589,8 @@ const vocabularyAdjectives = [
         "text": "strahlend"
       }
     },
-    "sourceIndex": 9815
+    "sourceIndex": 9815,
+    "adjectiveCategory": "general"
   },
   {
     "id": "19825",
@@ -12756,7 +13605,8 @@ const vocabularyAdjectives = [
         "text": "unfreundlich"
       }
     },
-    "sourceIndex": 9825
+    "sourceIndex": 9825,
+    "adjectiveCategory": "general"
   },
   {
     "id": "19846",
@@ -12771,7 +13621,8 @@ const vocabularyAdjectives = [
         "text": "allergisch"
       }
     },
-    "sourceIndex": 9846
+    "sourceIndex": 9846,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "19848",
@@ -12786,7 +13637,8 @@ const vocabularyAdjectives = [
         "text": "alpin"
       }
     },
-    "sourceIndex": 9848
+    "sourceIndex": 9848,
+    "adjectiveCategory": "places"
   },
   {
     "id": "19853",
@@ -12801,7 +13653,8 @@ const vocabularyAdjectives = [
         "text": "artig"
       }
     },
-    "sourceIndex": 9853
+    "sourceIndex": 9853,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "19858",
@@ -12816,7 +13669,8 @@ const vocabularyAdjectives = [
         "text": "beige"
       }
     },
-    "sourceIndex": 9858
+    "sourceIndex": 9858,
+    "adjectiveCategory": "general"
   },
   {
     "id": "19860",
@@ -12831,7 +13685,8 @@ const vocabularyAdjectives = [
         "text": "besorgt"
       }
     },
-    "sourceIndex": 9860
+    "sourceIndex": 9860,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "19881",
@@ -12846,7 +13701,8 @@ const vocabularyAdjectives = [
         "text": "gebürtig"
       }
     },
-    "sourceIndex": 9881
+    "sourceIndex": 9881,
+    "adjectiveCategory": "places"
   },
   {
     "id": "19893",
@@ -12861,7 +13717,8 @@ const vocabularyAdjectives = [
         "text": "hektisch"
       }
     },
-    "sourceIndex": 9893
+    "sourceIndex": 9893,
+    "adjectiveCategory": "general"
   },
   {
     "id": "19929",
@@ -12876,7 +13733,8 @@ const vocabularyAdjectives = [
         "text": "official"
       }
     },
-    "sourceIndex": 9929
+    "sourceIndex": 9929,
+    "adjectiveCategory": "society"
   },
   {
     "id": "19957",
@@ -12891,7 +13749,8 @@ const vocabularyAdjectives = [
         "text": "stündlich"
       }
     },
-    "sourceIndex": 9957
+    "sourceIndex": 9957,
+    "adjectiveCategory": "time"
   },
   {
     "id": "19962",
@@ -12906,7 +13765,8 @@ const vocabularyAdjectives = [
         "text": "türkis"
       }
     },
-    "sourceIndex": 9962
+    "sourceIndex": 9962,
+    "adjectiveCategory": "general"
   },
   {
     "id": "19973",
@@ -12921,7 +13781,8 @@ const vocabularyAdjectives = [
         "text": "vertikal"
       }
     },
-    "sourceIndex": 9973
+    "sourceIndex": 9973,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "19996",
@@ -12936,7 +13797,8 @@ const vocabularyAdjectives = [
         "text": "angekündigt"
       }
     },
-    "sourceIndex": 9996
+    "sourceIndex": 9996,
+    "adjectiveCategory": "general"
   },
   {
     "id": "19997",
@@ -12951,7 +13813,8 @@ const vocabularyAdjectives = [
         "text": "ansteckend"
       }
     },
-    "sourceIndex": 9997
+    "sourceIndex": 9997,
+    "adjectiveCategory": "general"
   },
   {
     "id": "20043",
@@ -12966,7 +13829,8 @@ const vocabularyAdjectives = [
         "text": "fehlerfrei"
       }
     },
-    "sourceIndex": 10043
+    "sourceIndex": 10043,
+    "adjectiveCategory": "general"
   },
   {
     "id": "20051",
@@ -12981,7 +13845,8 @@ const vocabularyAdjectives = [
         "text": "geregelt"
       }
     },
-    "sourceIndex": 10051
+    "sourceIndex": 10051,
+    "adjectiveCategory": "general"
   },
   {
     "id": "20076",
@@ -12996,7 +13861,8 @@ const vocabularyAdjectives = [
         "text": "osteuropäisch"
       }
     },
-    "sourceIndex": 10076
+    "sourceIndex": 10076,
+    "adjectiveCategory": "places"
   },
   {
     "id": "20098",
@@ -13011,7 +13877,8 @@ const vocabularyAdjectives = [
         "text": "sinkend"
       }
     },
-    "sourceIndex": 10098
+    "sourceIndex": 10098,
+    "adjectiveCategory": "movement"
   },
   {
     "id": "20111",
@@ -13026,7 +13893,8 @@ const vocabularyAdjectives = [
         "text": "ungenau"
       }
     },
-    "sourceIndex": 10111
+    "sourceIndex": 10111,
+    "adjectiveCategory": "general"
   },
   {
     "id": "20140",
@@ -13041,7 +13909,8 @@ const vocabularyAdjectives = [
         "text": "angesprochen"
       }
     },
-    "sourceIndex": 10140
+    "sourceIndex": 10140,
+    "adjectiveCategory": "general"
   },
   {
     "id": "20155",
@@ -13056,7 +13925,8 @@ const vocabularyAdjectives = [
         "text": "beleidigend"
       }
     },
-    "sourceIndex": 10155
+    "sourceIndex": 10155,
+    "adjectiveCategory": "general"
   },
   {
     "id": "20190",
@@ -13071,7 +13941,8 @@ const vocabularyAdjectives = [
         "text": "gebrochen"
       }
     },
-    "sourceIndex": 10190
+    "sourceIndex": 10190,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "20218",
@@ -13086,7 +13957,8 @@ const vocabularyAdjectives = [
         "text": "lebhaft"
       }
     },
-    "sourceIndex": 10218
+    "sourceIndex": 10218,
+    "adjectiveCategory": "general"
   },
   {
     "id": "20225",
@@ -13101,7 +13973,8 @@ const vocabularyAdjectives = [
         "text": "mager"
       }
     },
-    "sourceIndex": 10225
+    "sourceIndex": 10225,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "20265",
@@ -13116,7 +13989,8 @@ const vocabularyAdjectives = [
         "text": "tragbar"
       }
     },
-    "sourceIndex": 10265
+    "sourceIndex": 10265,
+    "adjectiveCategory": "general"
   },
   {
     "id": "20287",
@@ -13131,7 +14005,8 @@ const vocabularyAdjectives = [
         "text": "abgebildet"
       }
     },
-    "sourceIndex": 10287
+    "sourceIndex": 10287,
+    "adjectiveCategory": "general"
   },
   {
     "id": "20311",
@@ -13146,7 +14021,8 @@ const vocabularyAdjectives = [
         "text": "brauchbar"
       }
     },
-    "sourceIndex": 10311
+    "sourceIndex": 10311,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "20321",
@@ -13161,7 +14037,8 @@ const vocabularyAdjectives = [
         "text": "elterlich"
       }
     },
-    "sourceIndex": 10321
+    "sourceIndex": 10321,
+    "adjectiveCategory": "society"
   },
   {
     "id": "20343",
@@ -13176,7 +14053,8 @@ const vocabularyAdjectives = [
         "text": "geöffnet"
       }
     },
-    "sourceIndex": 10343
+    "sourceIndex": 10343,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "20369",
@@ -13191,7 +14069,8 @@ const vocabularyAdjectives = [
         "text": "kostbar"
       }
     },
-    "sourceIndex": 10369
+    "sourceIndex": 10369,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "20385",
@@ -13206,7 +14085,8 @@ const vocabularyAdjectives = [
         "text": "nordamerikanisch"
       }
     },
-    "sourceIndex": 10385
+    "sourceIndex": 10385,
+    "adjectiveCategory": "places"
   },
   {
     "id": "20409",
@@ -13221,7 +14101,8 @@ const vocabularyAdjectives = [
         "text": "spezialisiert"
       }
     },
-    "sourceIndex": 10409
+    "sourceIndex": 10409,
+    "adjectiveCategory": "general"
   },
   {
     "id": "20418",
@@ -13236,7 +14117,8 @@ const vocabularyAdjectives = [
         "text": "touristisch"
       }
     },
-    "sourceIndex": 10418
+    "sourceIndex": 10418,
+    "adjectiveCategory": "general"
   },
   {
     "id": "20424",
@@ -13251,7 +14133,8 @@ const vocabularyAdjectives = [
         "text": "unverletzt"
       }
     },
-    "sourceIndex": 10424
+    "sourceIndex": 10424,
+    "adjectiveCategory": "general"
   },
   {
     "id": "20434",
@@ -13266,7 +14149,8 @@ const vocabularyAdjectives = [
         "text": "vorgelegt"
       }
     },
-    "sourceIndex": 10434
+    "sourceIndex": 10434,
+    "adjectiveCategory": "general"
   },
   {
     "id": "20441",
@@ -13281,7 +14165,8 @@ const vocabularyAdjectives = [
         "text": "zugelassen"
       }
     },
-    "sourceIndex": 10441
+    "sourceIndex": 10441,
+    "adjectiveCategory": "general"
   },
   {
     "id": "20454",
@@ -13296,7 +14181,8 @@ const vocabularyAdjectives = [
         "text": "angeschlossen"
       }
     },
-    "sourceIndex": 10454
+    "sourceIndex": 10454,
+    "adjectiveCategory": "general"
   },
   {
     "id": "20459",
@@ -13311,7 +14197,8 @@ const vocabularyAdjectives = [
         "text": "barrierefrei"
       }
     },
-    "sourceIndex": 10459
+    "sourceIndex": 10459,
+    "adjectiveCategory": "general"
   },
   {
     "id": "20461",
@@ -13326,7 +14213,8 @@ const vocabularyAdjectives = [
         "text": "bedeutungslos"
       }
     },
-    "sourceIndex": 10461
+    "sourceIndex": 10461,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "20478",
@@ -13341,7 +14229,8 @@ const vocabularyAdjectives = [
         "text": "eingestellt"
       }
     },
-    "sourceIndex": 10478
+    "sourceIndex": 10478,
+    "adjectiveCategory": "general"
   },
   {
     "id": "20479",
@@ -13356,7 +14245,8 @@ const vocabularyAdjectives = [
         "text": "eingetragen"
       }
     },
-    "sourceIndex": 10479
+    "sourceIndex": 10479,
+    "adjectiveCategory": "general"
   },
   {
     "id": "20489",
@@ -13371,7 +14261,8 @@ const vocabularyAdjectives = [
         "text": "fruchtbar"
       }
     },
-    "sourceIndex": 10489
+    "sourceIndex": 10489,
+    "adjectiveCategory": "general"
   },
   {
     "id": "20492",
@@ -13386,7 +14277,8 @@ const vocabularyAdjectives = [
         "text": "gebunden"
       }
     },
-    "sourceIndex": 10492
+    "sourceIndex": 10492,
+    "adjectiveCategory": "general"
   },
   {
     "id": "20496",
@@ -13401,7 +14293,8 @@ const vocabularyAdjectives = [
         "text": "geometrisch"
       }
     },
-    "sourceIndex": 10496
+    "sourceIndex": 10496,
+    "adjectiveCategory": "society"
   },
   {
     "id": "20503",
@@ -13416,7 +14309,8 @@ const vocabularyAdjectives = [
         "text": "hebräisch"
       }
     },
-    "sourceIndex": 10503
+    "sourceIndex": 10503,
+    "adjectiveCategory": "society"
   },
   {
     "id": "20510",
@@ -13431,7 +14325,8 @@ const vocabularyAdjectives = [
         "text": "hilfsbereit"
       }
     },
-    "sourceIndex": 10510
+    "sourceIndex": 10510,
+    "adjectiveCategory": "general"
   },
   {
     "id": "20560",
@@ -13446,7 +14341,8 @@ const vocabularyAdjectives = [
         "text": "skandinavisch"
       }
     },
-    "sourceIndex": 10560
+    "sourceIndex": 10560,
+    "adjectiveCategory": "places"
   },
   {
     "id": "20566",
@@ -13461,7 +14357,8 @@ const vocabularyAdjectives = [
         "text": "studentisch"
       }
     },
-    "sourceIndex": 10566
+    "sourceIndex": 10566,
+    "adjectiveCategory": "society"
   },
   {
     "id": "20570",
@@ -13476,7 +14373,8 @@ const vocabularyAdjectives = [
         "text": "tolerant"
       }
     },
-    "sourceIndex": 10570
+    "sourceIndex": 10570,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "20576",
@@ -13491,7 +14389,8 @@ const vocabularyAdjectives = [
         "text": "unregelmässig"
       }
     },
-    "sourceIndex": 10576
+    "sourceIndex": 10576,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "20600",
@@ -13506,7 +14405,8 @@ const vocabularyAdjectives = [
         "text": "abgelegen"
       }
     },
-    "sourceIndex": 10600
+    "sourceIndex": 10600,
+    "adjectiveCategory": "places"
   },
   {
     "id": "20656",
@@ -13521,7 +14421,8 @@ const vocabularyAdjectives = [
         "text": "geschäftlich"
       }
     },
-    "sourceIndex": 10656
+    "sourceIndex": 10656,
+    "adjectiveCategory": "society"
   },
   {
     "id": "20681",
@@ -13536,7 +14437,8 @@ const vocabularyAdjectives = [
         "text": "lautlos"
       }
     },
-    "sourceIndex": 10681
+    "sourceIndex": 10681,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "20736",
@@ -13551,7 +14453,8 @@ const vocabularyAdjectives = [
         "text": "strahlenden"
       }
     },
-    "sourceIndex": 10736
+    "sourceIndex": 10736,
+    "adjectiveCategory": "general"
   },
   {
     "id": "20770",
@@ -13566,7 +14469,8 @@ const vocabularyAdjectives = [
         "text": "allgäuer"
       }
     },
-    "sourceIndex": 10770
+    "sourceIndex": 10770,
+    "adjectiveCategory": "general"
   },
   {
     "id": "20784",
@@ -13581,7 +14485,8 @@ const vocabularyAdjectives = [
         "text": "baldig"
       }
     },
-    "sourceIndex": 10784
+    "sourceIndex": 10784,
+    "adjectiveCategory": "time"
   },
   {
     "id": "20786",
@@ -13596,7 +14501,8 @@ const vocabularyAdjectives = [
         "text": "begeistert"
       }
     },
-    "sourceIndex": 10786
+    "sourceIndex": 10786,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "20833",
@@ -13611,7 +14517,8 @@ const vocabularyAdjectives = [
         "text": "herb"
       }
     },
-    "sourceIndex": 10833
+    "sourceIndex": 10833,
+    "adjectiveCategory": "general"
   },
   {
     "id": "20873",
@@ -13626,7 +14533,8 @@ const vocabularyAdjectives = [
         "text": "orientalisch"
       }
     },
-    "sourceIndex": 10873
+    "sourceIndex": 10873,
+    "adjectiveCategory": "general"
   },
   {
     "id": "20890",
@@ -13641,7 +14549,8 @@ const vocabularyAdjectives = [
         "text": "schmackhaft"
       }
     },
-    "sourceIndex": 10890
+    "sourceIndex": 10890,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "20903",
@@ -13656,7 +14565,8 @@ const vocabularyAdjectives = [
         "text": "steirisch"
       }
     },
-    "sourceIndex": 10903
+    "sourceIndex": 10903,
+    "adjectiveCategory": "places"
   },
   {
     "id": "20918",
@@ -13671,7 +14581,8 @@ const vocabularyAdjectives = [
         "text": "unbeliebt"
       }
     },
-    "sourceIndex": 10918
+    "sourceIndex": 10918,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "20919",
@@ -13686,7 +14597,8 @@ const vocabularyAdjectives = [
         "text": "ungeschickt"
       }
     },
-    "sourceIndex": 10919
+    "sourceIndex": 10919,
+    "adjectiveCategory": "ability"
   },
   {
     "id": "20921",
@@ -13701,7 +14613,8 @@ const vocabularyAdjectives = [
         "text": "unsympathisch"
       }
     },
-    "sourceIndex": 10921
+    "sourceIndex": 10921,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "20969",
@@ -13716,7 +14629,8 @@ const vocabularyAdjectives = [
         "text": "bearbeitet"
       }
     },
-    "sourceIndex": 10969
+    "sourceIndex": 10969,
+    "adjectiveCategory": "general"
   },
   {
     "id": "20970",
@@ -13731,7 +14645,8 @@ const vocabularyAdjectives = [
         "text": "beendet"
       }
     },
-    "sourceIndex": 10970
+    "sourceIndex": 10970,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "20973",
@@ -13746,7 +14661,8 @@ const vocabularyAdjectives = [
         "text": "beschlossen"
       }
     },
-    "sourceIndex": 10973
+    "sourceIndex": 10973,
+    "adjectiveCategory": "general"
   },
   {
     "id": "20978",
@@ -13761,7 +14677,8 @@ const vocabularyAdjectives = [
         "text": "blühend"
       }
     },
-    "sourceIndex": 10978
+    "sourceIndex": 10978,
+    "adjectiveCategory": "general"
   },
   {
     "id": "21011",
@@ -13776,7 +14693,8 @@ const vocabularyAdjectives = [
         "text": "frustrierend"
       }
     },
-    "sourceIndex": 11011
+    "sourceIndex": 11011,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "21016",
@@ -13791,7 +14709,8 @@ const vocabularyAdjectives = [
         "text": "gekauft"
       }
     },
-    "sourceIndex": 11016
+    "sourceIndex": 11016,
+    "adjectiveCategory": "general"
   },
   {
     "id": "21018",
@@ -13806,7 +14725,8 @@ const vocabularyAdjectives = [
         "text": "gelebt"
       }
     },
-    "sourceIndex": 11018
+    "sourceIndex": 11018,
+    "adjectiveCategory": "general"
   },
   {
     "id": "21019",
@@ -13821,7 +14741,8 @@ const vocabularyAdjectives = [
         "text": "genehmigt"
       }
     },
-    "sourceIndex": 11019
+    "sourceIndex": 11019,
+    "adjectiveCategory": "general"
   },
   {
     "id": "21022",
@@ -13836,7 +14757,8 @@ const vocabularyAdjectives = [
         "text": "gestohlen"
       }
     },
-    "sourceIndex": 11022
+    "sourceIndex": 11022,
+    "adjectiveCategory": "general"
   },
   {
     "id": "21042",
@@ -13851,7 +14773,8 @@ const vocabularyAdjectives = [
         "text": "irakisch"
       }
     },
-    "sourceIndex": 11042
+    "sourceIndex": 11042,
+    "adjectiveCategory": "places"
   },
   {
     "id": "21054",
@@ -13866,7 +14789,8 @@ const vocabularyAdjectives = [
         "text": "lesenswert"
       }
     },
-    "sourceIndex": 11054
+    "sourceIndex": 11054,
+    "adjectiveCategory": "general"
   },
   {
     "id": "21076",
@@ -13881,7 +14805,8 @@ const vocabularyAdjectives = [
         "text": "prepaid"
       }
     },
-    "sourceIndex": 11076
+    "sourceIndex": 11076,
+    "adjectiveCategory": "general"
   },
   {
     "id": "21111",
@@ -13896,7 +14821,8 @@ const vocabularyAdjectives = [
         "text": "verheiratet"
       }
     },
-    "sourceIndex": 11111
+    "sourceIndex": 11111,
+    "adjectiveCategory": "society"
   },
   {
     "id": "21118",
@@ -13911,7 +14837,8 @@ const vocabularyAdjectives = [
         "text": "vorletzte"
       }
     },
-    "sourceIndex": 11118
+    "sourceIndex": 11118,
+    "adjectiveCategory": "time"
   },
   {
     "id": "21142",
@@ -13926,7 +14853,8 @@ const vocabularyAdjectives = [
         "text": "argentinisch"
       }
     },
-    "sourceIndex": 11142
+    "sourceIndex": 11142,
+    "adjectiveCategory": "places"
   },
   {
     "id": "21143",
@@ -13941,7 +14869,8 @@ const vocabularyAdjectives = [
         "text": "aufgenommen"
       }
     },
-    "sourceIndex": 11143
+    "sourceIndex": 11143,
+    "adjectiveCategory": "general"
   },
   {
     "id": "21150",
@@ -13956,7 +14885,8 @@ const vocabularyAdjectives = [
         "text": "begabt"
       }
     },
-    "sourceIndex": 11150
+    "sourceIndex": 11150,
+    "adjectiveCategory": "ability"
   },
   {
     "id": "21162",
@@ -13971,7 +14901,8 @@ const vocabularyAdjectives = [
         "text": "deprimierend"
       }
     },
-    "sourceIndex": 11162
+    "sourceIndex": 11162,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "21183",
@@ -13986,7 +14917,8 @@ const vocabularyAdjectives = [
         "text": "false"
       }
     },
-    "sourceIndex": 11183
+    "sourceIndex": 11183,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "21223",
@@ -14001,7 +14933,8 @@ const vocabularyAdjectives = [
         "text": "loyal"
       }
     },
-    "sourceIndex": 11223
+    "sourceIndex": 11223,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "21229",
@@ -14016,7 +14949,8 @@ const vocabularyAdjectives = [
         "text": "moderat"
       }
     },
-    "sourceIndex": 11229
+    "sourceIndex": 11229,
+    "adjectiveCategory": "general"
   },
   {
     "id": "21284",
@@ -14031,7 +14965,8 @@ const vocabularyAdjectives = [
         "text": "unschön"
       }
     },
-    "sourceIndex": 11284
+    "sourceIndex": 11284,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "21307",
@@ -14046,7 +14981,8 @@ const vocabularyAdjectives = [
         "text": "zauberhaft"
       }
     },
-    "sourceIndex": 11307
+    "sourceIndex": 11307,
+    "adjectiveCategory": "general"
   },
   {
     "id": "21320",
@@ -14061,7 +14997,8 @@ const vocabularyAdjectives = [
         "text": "altmodisch"
       }
     },
-    "sourceIndex": 11320
+    "sourceIndex": 11320,
+    "adjectiveCategory": "time"
   },
   {
     "id": "21332",
@@ -14076,7 +15013,8 @@ const vocabularyAdjectives = [
         "text": "behaart"
       }
     },
-    "sourceIndex": 11332
+    "sourceIndex": 11332,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "21337",
@@ -14091,7 +15029,8 @@ const vocabularyAdjectives = [
         "text": "bewegend"
       }
     },
-    "sourceIndex": 11337
+    "sourceIndex": 11337,
+    "adjectiveCategory": "general"
   },
   {
     "id": "21338",
@@ -14106,7 +15045,8 @@ const vocabularyAdjectives = [
         "text": "beweglich"
       }
     },
-    "sourceIndex": 11338
+    "sourceIndex": 11338,
+    "adjectiveCategory": "movement"
   },
   {
     "id": "21379",
@@ -14121,7 +15061,8 @@ const vocabularyAdjectives = [
         "text": "finster"
       }
     },
-    "sourceIndex": 11379
+    "sourceIndex": 11379,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "21386",
@@ -14136,7 +15077,8 @@ const vocabularyAdjectives = [
         "text": "gelblich"
       }
     },
-    "sourceIndex": 11386
+    "sourceIndex": 11386,
+    "adjectiveCategory": "general"
   },
   {
     "id": "21388",
@@ -14151,7 +15093,8 @@ const vocabularyAdjectives = [
         "text": "geschmacklos"
       }
     },
-    "sourceIndex": 11388
+    "sourceIndex": 11388,
+    "adjectiveCategory": "general"
   },
   {
     "id": "21390",
@@ -14166,7 +15109,8 @@ const vocabularyAdjectives = [
         "text": "gläsern"
       }
     },
-    "sourceIndex": 11390
+    "sourceIndex": 11390,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "21391",
@@ -14181,7 +15125,8 @@ const vocabularyAdjectives = [
         "text": "grenzenlos"
       }
     },
-    "sourceIndex": 11391
+    "sourceIndex": 11391,
+    "adjectiveCategory": "general"
   },
   {
     "id": "21463",
@@ -14196,7 +15141,8 @@ const vocabularyAdjectives = [
         "text": "schlapp"
       }
     },
-    "sourceIndex": 11463
+    "sourceIndex": 11463,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "21507",
@@ -14211,7 +15157,8 @@ const vocabularyAdjectives = [
         "text": "weinend"
       }
     },
-    "sourceIndex": 11507
+    "sourceIndex": 11507,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "21522",
@@ -14226,7 +15173,8 @@ const vocabularyAdjectives = [
         "text": "angepasst"
       }
     },
-    "sourceIndex": 11522
+    "sourceIndex": 11522,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "21528",
@@ -14241,7 +15189,8 @@ const vocabularyAdjectives = [
         "text": "ausgestellt"
       }
     },
-    "sourceIndex": 11528
+    "sourceIndex": 11528,
+    "adjectiveCategory": "general"
   },
   {
     "id": "21542",
@@ -14256,7 +15205,8 @@ const vocabularyAdjectives = [
         "text": "einjährig"
       }
     },
-    "sourceIndex": 11542
+    "sourceIndex": 11542,
+    "adjectiveCategory": "time"
   },
   {
     "id": "21558",
@@ -14271,7 +15221,8 @@ const vocabularyAdjectives = [
         "text": "gemeldet"
       }
     },
-    "sourceIndex": 11558
+    "sourceIndex": 11558,
+    "adjectiveCategory": "general"
   },
   {
     "id": "21564",
@@ -14286,7 +15237,8 @@ const vocabularyAdjectives = [
         "text": "gestiegen"
       }
     },
-    "sourceIndex": 11564
+    "sourceIndex": 11564,
+    "adjectiveCategory": "general"
   },
   {
     "id": "21577",
@@ -14301,7 +15253,8 @@ const vocabularyAdjectives = [
         "text": "inbegriffen"
       }
     },
-    "sourceIndex": 11577
+    "sourceIndex": 11577,
+    "adjectiveCategory": "general"
   },
   {
     "id": "21584",
@@ -14316,7 +15269,8 @@ const vocabularyAdjectives = [
         "text": "komfortabel"
       }
     },
-    "sourceIndex": 11584
+    "sourceIndex": 11584,
+    "adjectiveCategory": "general"
   },
   {
     "id": "21588",
@@ -14331,7 +15285,8 @@ const vocabularyAdjectives = [
         "text": "kraftvoll"
       }
     },
-    "sourceIndex": 11588
+    "sourceIndex": 11588,
+    "adjectiveCategory": "general"
   },
   {
     "id": "21592",
@@ -14346,7 +15301,8 @@ const vocabularyAdjectives = [
         "text": "krumm"
       }
     },
-    "sourceIndex": 11592
+    "sourceIndex": 11592,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "21596",
@@ -14361,7 +15317,8 @@ const vocabularyAdjectives = [
         "text": "lieferbar"
       }
     },
-    "sourceIndex": 11596
+    "sourceIndex": 11596,
+    "adjectiveCategory": "general"
   },
   {
     "id": "21599",
@@ -14376,7 +15333,8 @@ const vocabularyAdjectives = [
         "text": "mailänder"
       }
     },
-    "sourceIndex": 11599
+    "sourceIndex": 11599,
+    "adjectiveCategory": "places"
   },
   {
     "id": "21600",
@@ -14391,7 +15349,8 @@ const vocabularyAdjectives = [
         "text": "mindest"
       }
     },
-    "sourceIndex": 11600
+    "sourceIndex": 11600,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "21618",
@@ -14406,7 +15365,8 @@ const vocabularyAdjectives = [
         "text": "rostocker"
       }
     },
-    "sourceIndex": 11618
+    "sourceIndex": 11618,
+    "adjectiveCategory": "places"
   },
   {
     "id": "21619",
@@ -14421,7 +15381,8 @@ const vocabularyAdjectives = [
         "text": "saftig"
       }
     },
-    "sourceIndex": 11619
+    "sourceIndex": 11619,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "21632",
@@ -14436,7 +15397,8 @@ const vocabularyAdjectives = [
         "text": "solid"
       }
     },
-    "sourceIndex": 11632
+    "sourceIndex": 11632,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "21668",
@@ -14451,7 +15413,8 @@ const vocabularyAdjectives = [
         "text": "zweijährig"
       }
     },
-    "sourceIndex": 11668
+    "sourceIndex": 11668,
+    "adjectiveCategory": "time"
   },
   {
     "id": "21697",
@@ -14466,7 +15429,8 @@ const vocabularyAdjectives = [
         "text": "bulgarisch"
       }
     },
-    "sourceIndex": 11697
+    "sourceIndex": 11697,
+    "adjectiveCategory": "places"
   },
   {
     "id": "21701",
@@ -14481,7 +15445,8 @@ const vocabularyAdjectives = [
         "text": "casual"
       }
     },
-    "sourceIndex": 11701
+    "sourceIndex": 11701,
+    "adjectiveCategory": "general"
   },
   {
     "id": "21754",
@@ -14496,7 +15461,8 @@ const vocabularyAdjectives = [
         "text": "knackig"
       }
     },
-    "sourceIndex": 11754
+    "sourceIndex": 11754,
+    "adjectiveCategory": "general"
   },
   {
     "id": "21756",
@@ -14511,7 +15477,8 @@ const vocabularyAdjectives = [
         "text": "kroatisch"
       }
     },
-    "sourceIndex": 11756
+    "sourceIndex": 11756,
+    "adjectiveCategory": "places"
   },
   {
     "id": "21758",
@@ -14526,7 +15493,8 @@ const vocabularyAdjectives = [
         "text": "käuflich"
       }
     },
-    "sourceIndex": 11758
+    "sourceIndex": 11758,
+    "adjectiveCategory": "general"
   },
   {
     "id": "21812",
@@ -14541,7 +15509,8 @@ const vocabularyAdjectives = [
         "text": "stürmisch"
       }
     },
-    "sourceIndex": 11812
+    "sourceIndex": 11812,
+    "adjectiveCategory": "general"
   },
   {
     "id": "21873",
@@ -14556,7 +15525,8 @@ const vocabularyAdjectives = [
         "text": "chic"
       }
     },
-    "sourceIndex": 11873
+    "sourceIndex": 11873,
+    "adjectiveCategory": "general"
   },
   {
     "id": "21913",
@@ -14571,7 +15541,8 @@ const vocabularyAdjectives = [
         "text": "ill"
       }
     },
-    "sourceIndex": 11913
+    "sourceIndex": 11913,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "21931",
@@ -14586,7 +15557,8 @@ const vocabularyAdjectives = [
         "text": "magnetisch"
       }
     },
-    "sourceIndex": 11931
+    "sourceIndex": 11931,
+    "adjectiveCategory": "society"
   },
   {
     "id": "21967",
@@ -14601,7 +15573,8 @@ const vocabularyAdjectives = [
         "text": "rothaarig"
       }
     },
-    "sourceIndex": 11967
+    "sourceIndex": 11967,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "21976",
@@ -14616,7 +15589,8 @@ const vocabularyAdjectives = [
         "text": "sitzend"
       }
     },
-    "sourceIndex": 11976
+    "sourceIndex": 11976,
+    "adjectiveCategory": "movement"
   },
   {
     "id": "21978",
@@ -14631,7 +15605,8 @@ const vocabularyAdjectives = [
         "text": "spassig"
       }
     },
-    "sourceIndex": 11978
+    "sourceIndex": 11978,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "21989",
@@ -14646,7 +15621,8 @@ const vocabularyAdjectives = [
         "text": "südafrikanisch"
       }
     },
-    "sourceIndex": 11989
+    "sourceIndex": 11989,
+    "adjectiveCategory": "places"
   },
   {
     "id": "22001",
@@ -14661,7 +15637,8 @@ const vocabularyAdjectives = [
         "text": "uncool"
       }
     },
-    "sourceIndex": 12001
+    "sourceIndex": 12001,
+    "adjectiveCategory": "general"
   },
   {
     "id": "22003",
@@ -14676,7 +15653,8 @@ const vocabularyAdjectives = [
         "text": "ungemütlich"
       }
     },
-    "sourceIndex": 12003
+    "sourceIndex": 12003,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "22038",
@@ -14691,7 +15669,8 @@ const vocabularyAdjectives = [
         "text": "afghanisch"
       }
     },
-    "sourceIndex": 12038
+    "sourceIndex": 12038,
+    "adjectiveCategory": "places"
   },
   {
     "id": "22060",
@@ -14706,7 +15685,8 @@ const vocabularyAdjectives = [
         "text": "bloß"
       }
     },
-    "sourceIndex": 12060
+    "sourceIndex": 12060,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "22195",
@@ -14721,7 +15701,8 @@ const vocabularyAdjectives = [
         "text": "vergnügt"
       }
     },
-    "sourceIndex": 12195
+    "sourceIndex": 12195,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "22207",
@@ -14736,7 +15717,8 @@ const vocabularyAdjectives = [
         "text": "wachsam"
       }
     },
-    "sourceIndex": 12207
+    "sourceIndex": 12207,
+    "adjectiveCategory": "general"
   },
   {
     "id": "22234",
@@ -14751,7 +15733,8 @@ const vocabularyAdjectives = [
         "text": "atemlos"
       }
     },
-    "sourceIndex": 12234
+    "sourceIndex": 12234,
+    "adjectiveCategory": "general"
   },
   {
     "id": "22263",
@@ -14766,7 +15749,8 @@ const vocabularyAdjectives = [
         "text": "ehrgeizig"
       }
     },
-    "sourceIndex": 12263
+    "sourceIndex": 12263,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "22265",
@@ -14781,7 +15765,8 @@ const vocabularyAdjectives = [
         "text": "eingeschränkt"
       }
     },
-    "sourceIndex": 12265
+    "sourceIndex": 12265,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "22283",
@@ -14796,7 +15781,8 @@ const vocabularyAdjectives = [
         "text": "geteilt"
       }
     },
-    "sourceIndex": 12283
+    "sourceIndex": 12283,
+    "adjectiveCategory": "general"
   },
   {
     "id": "22288",
@@ -14811,7 +15797,8 @@ const vocabularyAdjectives = [
         "text": "hausgemacht"
       }
     },
-    "sourceIndex": 12288
+    "sourceIndex": 12288,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "22290",
@@ -14826,7 +15813,8 @@ const vocabularyAdjectives = [
         "text": "herausgekommen"
       }
     },
-    "sourceIndex": 12290
+    "sourceIndex": 12290,
+    "adjectiveCategory": "general"
   },
   {
     "id": "22324",
@@ -14841,7 +15829,8 @@ const vocabularyAdjectives = [
         "text": "nordöstlich"
       }
     },
-    "sourceIndex": 12324
+    "sourceIndex": 12324,
+    "adjectiveCategory": "places"
   },
   {
     "id": "22327",
@@ -14856,7 +15845,8 @@ const vocabularyAdjectives = [
         "text": "pflanzlich"
       }
     },
-    "sourceIndex": 12327
+    "sourceIndex": 12327,
+    "adjectiveCategory": "general"
   },
   {
     "id": "22330",
@@ -14871,7 +15861,8 @@ const vocabularyAdjectives = [
         "text": "preislich"
       }
     },
-    "sourceIndex": 12330
+    "sourceIndex": 12330,
+    "adjectiveCategory": "general"
   },
   {
     "id": "22344",
@@ -14886,7 +15877,8 @@ const vocabularyAdjectives = [
         "text": "schwarzwälder"
       }
     },
-    "sourceIndex": 12344
+    "sourceIndex": 12344,
+    "adjectiveCategory": "places"
   },
   {
     "id": "22357",
@@ -14901,7 +15893,8 @@ const vocabularyAdjectives = [
         "text": "talentiert"
       }
     },
-    "sourceIndex": 12357
+    "sourceIndex": 12357,
+    "adjectiveCategory": "ability"
   },
   {
     "id": "22360",
@@ -14916,7 +15909,8 @@ const vocabularyAdjectives = [
         "text": "thüringisch"
       }
     },
-    "sourceIndex": 12360
+    "sourceIndex": 12360,
+    "adjectiveCategory": "places"
   },
   {
     "id": "22391",
@@ -14931,7 +15925,8 @@ const vocabularyAdjectives = [
         "text": "zwecklos"
       }
     },
-    "sourceIndex": 12391
+    "sourceIndex": 12391,
+    "adjectiveCategory": "general"
   },
   {
     "id": "22394",
@@ -14946,7 +15941,8 @@ const vocabularyAdjectives = [
         "text": "abgelaufen"
       }
     },
-    "sourceIndex": 12394
+    "sourceIndex": 12394,
+    "adjectiveCategory": "general"
   },
   {
     "id": "22434",
@@ -14961,7 +15957,8 @@ const vocabularyAdjectives = [
         "text": "dreijährig"
       }
     },
-    "sourceIndex": 12434
+    "sourceIndex": 12434,
+    "adjectiveCategory": "time"
   },
   {
     "id": "22435",
@@ -14976,7 +15973,8 @@ const vocabularyAdjectives = [
         "text": "dreissigjährig"
       }
     },
-    "sourceIndex": 12435
+    "sourceIndex": 12435,
+    "adjectiveCategory": "time"
   },
   {
     "id": "22479",
@@ -14991,7 +15989,8 @@ const vocabularyAdjectives = [
         "text": "indoor"
       }
     },
-    "sourceIndex": 12479
+    "sourceIndex": 12479,
+    "adjectiveCategory": "places"
   },
   {
     "id": "22490",
@@ -15006,7 +16005,8 @@ const vocabularyAdjectives = [
         "text": "koreanisch"
       }
     },
-    "sourceIndex": 12490
+    "sourceIndex": 12490,
+    "adjectiveCategory": "places"
   },
   {
     "id": "22519",
@@ -15021,7 +16021,8 @@ const vocabularyAdjectives = [
         "text": "nordwestlich"
       }
     },
-    "sourceIndex": 12519
+    "sourceIndex": 12519,
+    "adjectiveCategory": "places"
   },
   {
     "id": "22526",
@@ -15036,7 +16037,8 @@ const vocabularyAdjectives = [
         "text": "phantastisch"
       }
     },
-    "sourceIndex": 12526
+    "sourceIndex": 12526,
+    "adjectiveCategory": "general"
   },
   {
     "id": "22527",
@@ -15051,7 +16053,8 @@ const vocabularyAdjectives = [
         "text": "platziert"
       }
     },
-    "sourceIndex": 12527
+    "sourceIndex": 12527,
+    "adjectiveCategory": "general"
   },
   {
     "id": "22538",
@@ -15066,7 +16069,8 @@ const vocabularyAdjectives = [
         "text": "schlafend"
       }
     },
-    "sourceIndex": 12538
+    "sourceIndex": 12538,
+    "adjectiveCategory": "general"
   },
   {
     "id": "22562",
@@ -15081,7 +16085,8 @@ const vocabularyAdjectives = [
         "text": "unübersichtlich"
       }
     },
-    "sourceIndex": 12562
+    "sourceIndex": 12562,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "22564",
@@ -15096,7 +16101,8 @@ const vocabularyAdjectives = [
         "text": "verschwunden"
       }
     },
-    "sourceIndex": 12564
+    "sourceIndex": 12564,
+    "adjectiveCategory": "general"
   },
   {
     "id": "22582",
@@ -15111,7 +16117,8 @@ const vocabularyAdjectives = [
         "text": "zeitig"
       }
     },
-    "sourceIndex": 12582
+    "sourceIndex": 12582,
+    "adjectiveCategory": "time"
   },
   {
     "id": "22609",
@@ -15126,7 +16133,8 @@ const vocabularyAdjectives = [
         "text": "ausgebildet"
       }
     },
-    "sourceIndex": 12609
+    "sourceIndex": 12609,
+    "adjectiveCategory": "ability"
   },
   {
     "id": "22617",
@@ -15141,7 +16149,8 @@ const vocabularyAdjectives = [
         "text": "befestigt"
       }
     },
-    "sourceIndex": 12617
+    "sourceIndex": 12617,
+    "adjectiveCategory": "general"
   },
   {
     "id": "22629",
@@ -15156,7 +16165,8 @@ const vocabularyAdjectives = [
         "text": "complete"
       }
     },
-    "sourceIndex": 12629
+    "sourceIndex": 12629,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "22637",
@@ -15171,7 +16181,8 @@ const vocabularyAdjectives = [
         "text": "dunkelbraun"
       }
     },
-    "sourceIndex": 12637
+    "sourceIndex": 12637,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "22650",
@@ -15186,7 +16197,8 @@ const vocabularyAdjectives = [
         "text": "entspannend"
       }
     },
-    "sourceIndex": 12650
+    "sourceIndex": 12650,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "22660",
@@ -15201,7 +16213,8 @@ const vocabularyAdjectives = [
         "text": "geschickt"
       }
     },
-    "sourceIndex": 12660
+    "sourceIndex": 12660,
+    "adjectiveCategory": "ability"
   },
   {
     "id": "22694",
@@ -15216,7 +16229,8 @@ const vocabularyAdjectives = [
         "text": "obdachlos"
       }
     },
-    "sourceIndex": 12694
+    "sourceIndex": 12694,
+    "adjectiveCategory": "general"
   },
   {
     "id": "22706",
@@ -15231,7 +16245,8 @@ const vocabularyAdjectives = [
         "text": "rauh"
       }
     },
-    "sourceIndex": 12706
+    "sourceIndex": 12706,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "22734",
@@ -15246,7 +16261,8 @@ const vocabularyAdjectives = [
         "text": "steinern"
       }
     },
-    "sourceIndex": 12734
+    "sourceIndex": 12734,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "22741",
@@ -15261,7 +16277,8 @@ const vocabularyAdjectives = [
         "text": "südwestlich"
       }
     },
-    "sourceIndex": 12741
+    "sourceIndex": 12741,
+    "adjectiveCategory": "places"
   },
   {
     "id": "22760",
@@ -15276,7 +16293,8 @@ const vocabularyAdjectives = [
         "text": "volljährig"
       }
     },
-    "sourceIndex": 12760
+    "sourceIndex": 12760,
+    "adjectiveCategory": "society"
   },
   {
     "id": "22802",
@@ -15291,7 +16309,8 @@ const vocabularyAdjectives = [
         "text": "bezahlbar"
       }
     },
-    "sourceIndex": 12802
+    "sourceIndex": 12802,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "22810",
@@ -15306,7 +16325,8 @@ const vocabularyAdjectives = [
         "text": "clear"
       }
     },
-    "sourceIndex": 12810
+    "sourceIndex": 12810,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "22818",
@@ -15321,7 +16341,8 @@ const vocabularyAdjectives = [
         "text": "eingebaut"
       }
     },
-    "sourceIndex": 12818
+    "sourceIndex": 12818,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "22828",
@@ -15336,7 +16357,8 @@ const vocabularyAdjectives = [
         "text": "fabelhaft"
       }
     },
-    "sourceIndex": 12828
+    "sourceIndex": 12828,
+    "adjectiveCategory": "general"
   },
   {
     "id": "22847",
@@ -15351,7 +16373,8 @@ const vocabularyAdjectives = [
         "text": "geändert"
       }
     },
-    "sourceIndex": 12847
+    "sourceIndex": 12847,
+    "adjectiveCategory": "general"
   },
   {
     "id": "22869",
@@ -15366,7 +16389,8 @@ const vocabularyAdjectives = [
         "text": "ledig"
       }
     },
-    "sourceIndex": 12869
+    "sourceIndex": 12869,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "22872",
@@ -15381,7 +16405,8 @@ const vocabularyAdjectives = [
         "text": "limitiert"
       }
     },
-    "sourceIndex": 12872
+    "sourceIndex": 12872,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "22889",
@@ -15396,7 +16421,8 @@ const vocabularyAdjectives = [
         "text": "nahegelegen"
       }
     },
-    "sourceIndex": 12889
+    "sourceIndex": 12889,
+    "adjectiveCategory": "places"
   },
   {
     "id": "22940",
@@ -15411,7 +16437,8 @@ const vocabularyAdjectives = [
         "text": "unnatürlich"
       }
     },
-    "sourceIndex": 12940
+    "sourceIndex": 12940,
+    "adjectiveCategory": "general"
   },
   {
     "id": "22941",
@@ -15426,7 +16453,8 @@ const vocabularyAdjectives = [
         "text": "unscharf"
       }
     },
-    "sourceIndex": 12941
+    "sourceIndex": 12941,
+    "adjectiveCategory": "general"
   },
   {
     "id": "22961",
@@ -15441,7 +16469,8 @@ const vocabularyAdjectives = [
         "text": "wund"
       }
     },
-    "sourceIndex": 12961
+    "sourceIndex": 12961,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "22969",
@@ -15456,7 +16485,8 @@ const vocabularyAdjectives = [
         "text": "überglücklich"
       }
     },
-    "sourceIndex": 12969
+    "sourceIndex": 12969,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "22970",
@@ -15471,7 +16501,8 @@ const vocabularyAdjectives = [
         "text": "abwesend"
       }
     },
-    "sourceIndex": 12970
+    "sourceIndex": 12970,
+    "adjectiveCategory": "general"
   },
   {
     "id": "22997",
@@ -15486,7 +16517,8 @@ const vocabularyAdjectives = [
         "text": "beunruhigend"
       }
     },
-    "sourceIndex": 12997
+    "sourceIndex": 12997,
+    "adjectiveCategory": "general"
   },
   {
     "id": "23012",
@@ -15501,7 +16533,8 @@ const vocabularyAdjectives = [
         "text": "durchsichtig"
       }
     },
-    "sourceIndex": 13012
+    "sourceIndex": 13012,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "23032",
@@ -15516,7 +16549,8 @@ const vocabularyAdjectives = [
         "text": "gescheit"
       }
     },
-    "sourceIndex": 13032
+    "sourceIndex": 13032,
+    "adjectiveCategory": "ability"
   },
   {
     "id": "23042",
@@ -15531,7 +16565,8 @@ const vocabularyAdjectives = [
         "text": "hipp"
       }
     },
-    "sourceIndex": 13042
+    "sourceIndex": 13042,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "23065",
@@ -15546,7 +16581,8 @@ const vocabularyAdjectives = [
         "text": "libysch"
       }
     },
-    "sourceIndex": 13065
+    "sourceIndex": 13065,
+    "adjectiveCategory": "places"
   },
   {
     "id": "23074",
@@ -15561,7 +16597,8 @@ const vocabularyAdjectives = [
         "text": "nachteilig"
       }
     },
-    "sourceIndex": 13074
+    "sourceIndex": 13074,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "23098",
@@ -15576,7 +16613,8 @@ const vocabularyAdjectives = [
         "text": "schlesisch"
       }
     },
-    "sourceIndex": 13098
+    "sourceIndex": 13098,
+    "adjectiveCategory": "places"
   },
   {
     "id": "23121",
@@ -15591,7 +16629,8 @@ const vocabularyAdjectives = [
         "text": "südamerikanisch"
       }
     },
-    "sourceIndex": 13121
+    "sourceIndex": 13121,
+    "adjectiveCategory": "places"
   },
   {
     "id": "23127",
@@ -15606,7 +16645,8 @@ const vocabularyAdjectives = [
         "text": "undeutlich"
       }
     },
-    "sourceIndex": 13127
+    "sourceIndex": 13127,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "23214",
@@ -15621,7 +16661,8 @@ const vocabularyAdjectives = [
         "text": "festlich"
       }
     },
-    "sourceIndex": 13214
+    "sourceIndex": 13214,
+    "adjectiveCategory": "general"
   },
   {
     "id": "23228",
@@ -15636,7 +16677,8 @@ const vocabularyAdjectives = [
         "text": "getrocknet"
       }
     },
-    "sourceIndex": 13228
+    "sourceIndex": 13228,
+    "adjectiveCategory": "general"
   },
   {
     "id": "23301",
@@ -15651,7 +16693,8 @@ const vocabularyAdjectives = [
         "text": "schwarzweiss"
       }
     },
-    "sourceIndex": 13301
+    "sourceIndex": 13301,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "23314",
@@ -15666,7 +16709,8 @@ const vocabularyAdjectives = [
         "text": "südöstlich"
       }
     },
-    "sourceIndex": 13314
+    "sourceIndex": 13314,
+    "adjectiveCategory": "places"
   },
   {
     "id": "23329",
@@ -15681,7 +16725,8 @@ const vocabularyAdjectives = [
         "text": "vereinfacht"
       }
     },
-    "sourceIndex": 13329
+    "sourceIndex": 13329,
+    "adjectiveCategory": "general"
   },
   {
     "id": "23343",
@@ -15696,7 +16741,8 @@ const vocabularyAdjectives = [
         "text": "voreilig"
       }
     },
-    "sourceIndex": 13343
+    "sourceIndex": 13343,
+    "adjectiveCategory": "time"
   },
   {
     "id": "23356",
@@ -15711,7 +16757,8 @@ const vocabularyAdjectives = [
         "text": "zweifach"
       }
     },
-    "sourceIndex": 13356
+    "sourceIndex": 13356,
+    "adjectiveCategory": "general"
   },
   {
     "id": "23376",
@@ -15726,7 +16773,8 @@ const vocabularyAdjectives = [
         "text": "aussehend"
       }
     },
-    "sourceIndex": 13376
+    "sourceIndex": 13376,
+    "adjectiveCategory": "general"
   },
   {
     "id": "23419",
@@ -15741,7 +16789,8 @@ const vocabularyAdjectives = [
         "text": "erkältet"
       }
     },
-    "sourceIndex": 13419
+    "sourceIndex": 13419,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "23422",
@@ -15756,7 +16805,8 @@ const vocabularyAdjectives = [
         "text": "fallend"
       }
     },
-    "sourceIndex": 13422
+    "sourceIndex": 13422,
+    "adjectiveCategory": "movement"
   },
   {
     "id": "23434",
@@ -15771,7 +16821,8 @@ const vocabularyAdjectives = [
         "text": "gekommen"
       }
     },
-    "sourceIndex": 13434
+    "sourceIndex": 13434,
+    "adjectiveCategory": "general"
   },
   {
     "id": "23445",
@@ -15786,7 +16837,8 @@ const vocabularyAdjectives = [
         "text": "haarig"
       }
     },
-    "sourceIndex": 13445
+    "sourceIndex": 13445,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "23451",
@@ -15801,7 +16853,8 @@ const vocabularyAdjectives = [
         "text": "instand"
       }
     },
-    "sourceIndex": 13451
+    "sourceIndex": 13451,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "23532",
@@ -15816,7 +16869,8 @@ const vocabularyAdjectives = [
         "text": "ungenügend"
       }
     },
-    "sourceIndex": 13532
+    "sourceIndex": 13532,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "23567",
@@ -15831,7 +16885,8 @@ const vocabularyAdjectives = [
         "text": "abenteuerlich"
       }
     },
-    "sourceIndex": 13567
+    "sourceIndex": 13567,
+    "adjectiveCategory": "general"
   },
   {
     "id": "23574",
@@ -15846,7 +16901,8 @@ const vocabularyAdjectives = [
         "text": "alphabetisch"
       }
     },
-    "sourceIndex": 13574
+    "sourceIndex": 13574,
+    "adjectiveCategory": "society"
   },
   {
     "id": "23614",
@@ -15861,7 +16917,8 @@ const vocabularyAdjectives = [
         "text": "diszipliniert"
       }
     },
-    "sourceIndex": 13614
+    "sourceIndex": 13614,
+    "adjectiveCategory": "general"
   },
   {
     "id": "23640",
@@ -15876,7 +16933,8 @@ const vocabularyAdjectives = [
         "text": "gefärbt"
       }
     },
-    "sourceIndex": 13640
+    "sourceIndex": 13640,
+    "adjectiveCategory": "general"
   },
   {
     "id": "23642",
@@ -15891,7 +16949,8 @@ const vocabularyAdjectives = [
         "text": "gehend"
       }
     },
-    "sourceIndex": 13642
+    "sourceIndex": 13642,
+    "adjectiveCategory": "movement"
   },
   {
     "id": "23646",
@@ -15906,7 +16965,8 @@ const vocabularyAdjectives = [
         "text": "geprüft"
       }
     },
-    "sourceIndex": 13646
+    "sourceIndex": 13646,
+    "adjectiveCategory": "general"
   },
   {
     "id": "23656",
@@ -15921,7 +16981,8 @@ const vocabularyAdjectives = [
         "text": "hellblau"
       }
     },
-    "sourceIndex": 13656
+    "sourceIndex": 13656,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "23680",
@@ -15936,7 +16997,8 @@ const vocabularyAdjectives = [
         "text": "lernend"
       }
     },
-    "sourceIndex": 13680
+    "sourceIndex": 13680,
+    "adjectiveCategory": "general"
   },
   {
     "id": "23707",
@@ -15951,7 +17013,8 @@ const vocabularyAdjectives = [
         "text": "profitabel"
       }
     },
-    "sourceIndex": 13707
+    "sourceIndex": 13707,
+    "adjectiveCategory": "general"
   },
   {
     "id": "23727",
@@ -15966,7 +17029,8 @@ const vocabularyAdjectives = [
         "text": "sonderbar"
       }
     },
-    "sourceIndex": 13727
+    "sourceIndex": 13727,
+    "adjectiveCategory": "general"
   },
   {
     "id": "23763",
@@ -15981,7 +17045,8 @@ const vocabularyAdjectives = [
         "text": "väterlich"
       }
     },
-    "sourceIndex": 13763
+    "sourceIndex": 13763,
+    "adjectiveCategory": "society"
   },
   {
     "id": "23788",
@@ -15996,7 +17061,8 @@ const vocabularyAdjectives = [
         "text": "aufgebaut"
       }
     },
-    "sourceIndex": 13788
+    "sourceIndex": 13788,
+    "adjectiveCategory": "general"
   },
   {
     "id": "23804",
@@ -16011,7 +17077,8 @@ const vocabularyAdjectives = [
         "text": "berufstätig"
       }
     },
-    "sourceIndex": 13804
+    "sourceIndex": 13804,
+    "adjectiveCategory": "society"
   },
   {
     "id": "23807",
@@ -16026,7 +17093,8 @@ const vocabularyAdjectives = [
         "text": "bewohnt"
       }
     },
-    "sourceIndex": 13807
+    "sourceIndex": 13807,
+    "adjectiveCategory": "general"
   },
   {
     "id": "23847",
@@ -16041,7 +17109,8 @@ const vocabularyAdjectives = [
         "text": "inaktiv"
       }
     },
-    "sourceIndex": 13847
+    "sourceIndex": 13847,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "23869",
@@ -16056,7 +17125,8 @@ const vocabularyAdjectives = [
         "text": "liebenswert"
       }
     },
-    "sourceIndex": 13869
+    "sourceIndex": 13869,
+    "adjectiveCategory": "places"
   },
   {
     "id": "23904",
@@ -16071,7 +17141,8 @@ const vocabularyAdjectives = [
         "text": "schwindelig"
       }
     },
-    "sourceIndex": 13904
+    "sourceIndex": 13904,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "23930",
@@ -16086,7 +17157,8 @@ const vocabularyAdjectives = [
         "text": "unlogisch"
       }
     },
-    "sourceIndex": 13930
+    "sourceIndex": 13930,
+    "adjectiveCategory": "general"
   },
   {
     "id": "23945",
@@ -16101,7 +17173,8 @@ const vocabularyAdjectives = [
         "text": "wasserdicht"
       }
     },
-    "sourceIndex": 13945
+    "sourceIndex": 13945,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "23974",
@@ -16116,7 +17189,8 @@ const vocabularyAdjectives = [
         "text": "anziehend"
       }
     },
-    "sourceIndex": 13974
+    "sourceIndex": 13974,
+    "adjectiveCategory": "general"
   },
   {
     "id": "23991",
@@ -16131,7 +17205,8 @@ const vocabularyAdjectives = [
         "text": "bezaubernd"
       }
     },
-    "sourceIndex": 13991
+    "sourceIndex": 13991,
+    "adjectiveCategory": "general"
   },
   {
     "id": "24011",
@@ -16146,7 +17221,8 @@ const vocabularyAdjectives = [
         "text": "elastisch"
       }
     },
-    "sourceIndex": 14011
+    "sourceIndex": 14011,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "24018",
@@ -16161,7 +17237,8 @@ const vocabularyAdjectives = [
         "text": "erholsam"
       }
     },
-    "sourceIndex": 14018
+    "sourceIndex": 14018,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "24027",
@@ -16176,7 +17253,8 @@ const vocabularyAdjectives = [
         "text": "freundschaftlich"
       }
     },
-    "sourceIndex": 14027
+    "sourceIndex": 14027,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "24033",
@@ -16191,7 +17269,8 @@ const vocabularyAdjectives = [
         "text": "geizig"
       }
     },
-    "sourceIndex": 14033
+    "sourceIndex": 14033,
+    "adjectiveCategory": "general"
   },
   {
     "id": "24034",
@@ -16206,7 +17285,8 @@ const vocabularyAdjectives = [
         "text": "gelernt"
       }
     },
-    "sourceIndex": 14034
+    "sourceIndex": 14034,
+    "adjectiveCategory": "ability"
   },
   {
     "id": "24050",
@@ -16221,7 +17301,8 @@ const vocabularyAdjectives = [
         "text": "hängend"
       }
     },
-    "sourceIndex": 14050
+    "sourceIndex": 14050,
+    "adjectiveCategory": "movement"
   },
   {
     "id": "24100",
@@ -16236,7 +17317,8 @@ const vocabularyAdjectives = [
         "text": "quadratisch"
       }
     },
-    "sourceIndex": 14100
+    "sourceIndex": 14100,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "24108",
@@ -16251,7 +17333,8 @@ const vocabularyAdjectives = [
         "text": "rührend"
       }
     },
-    "sourceIndex": 14108
+    "sourceIndex": 14108,
+    "adjectiveCategory": "general"
   },
   {
     "id": "24136",
@@ -16266,7 +17349,8 @@ const vocabularyAdjectives = [
         "text": "unnütz"
       }
     },
-    "sourceIndex": 14136
+    "sourceIndex": 14136,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "24138",
@@ -16281,7 +17365,8 @@ const vocabularyAdjectives = [
         "text": "unvorbereitet"
       }
     },
-    "sourceIndex": 14138
+    "sourceIndex": 14138,
+    "adjectiveCategory": "general"
   },
   {
     "id": "24139",
@@ -16296,7 +17381,8 @@ const vocabularyAdjectives = [
         "text": "unzuverlässig"
       }
     },
-    "sourceIndex": 14139
+    "sourceIndex": 14139,
+    "adjectiveCategory": "general"
   },
   {
     "id": "24182",
@@ -16311,7 +17397,8 @@ const vocabularyAdjectives = [
         "text": "auffindbar"
       }
     },
-    "sourceIndex": 14182
+    "sourceIndex": 14182,
+    "adjectiveCategory": "general"
   },
   {
     "id": "24238",
@@ -16326,7 +17413,8 @@ const vocabularyAdjectives = [
         "text": "hellwach"
       }
     },
-    "sourceIndex": 14238
+    "sourceIndex": 14238,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "24252",
@@ -16341,7 +17429,8 @@ const vocabularyAdjectives = [
         "text": "kindlich"
       }
     },
-    "sourceIndex": 14252
+    "sourceIndex": 14252,
+    "adjectiveCategory": "general"
   },
   {
     "id": "24255",
@@ -16356,7 +17445,8 @@ const vocabularyAdjectives = [
         "text": "knusprig"
       }
     },
-    "sourceIndex": 14255
+    "sourceIndex": 14255,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "24301",
@@ -16371,7 +17461,8 @@ const vocabularyAdjectives = [
         "text": "siebent"
       }
     },
-    "sourceIndex": 14301
+    "sourceIndex": 14301,
+    "adjectiveCategory": "general"
   },
   {
     "id": "24336",
@@ -16386,7 +17477,8 @@ const vocabularyAdjectives = [
         "text": "versprochen"
       }
     },
-    "sourceIndex": 14336
+    "sourceIndex": 14336,
+    "adjectiveCategory": "general"
   },
   {
     "id": "24386",
@@ -16401,7 +17493,8 @@ const vocabularyAdjectives = [
         "text": "dolle"
       }
     },
-    "sourceIndex": 14386
+    "sourceIndex": 14386,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "24389",
@@ -16416,7 +17509,8 @@ const vocabularyAdjectives = [
         "text": "einfarbig"
       }
     },
-    "sourceIndex": 14389
+    "sourceIndex": 14389,
+    "adjectiveCategory": "general"
   },
   {
     "id": "24416",
@@ -16431,7 +17525,8 @@ const vocabularyAdjectives = [
         "text": "gespielt"
       }
     },
-    "sourceIndex": 14416
+    "sourceIndex": 14416,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "24450",
@@ -16446,7 +17541,8 @@ const vocabularyAdjectives = [
         "text": "lehrreich"
       }
     },
-    "sourceIndex": 14450
+    "sourceIndex": 14450,
+    "adjectiveCategory": "general"
   },
   {
     "id": "24520",
@@ -16461,7 +17557,8 @@ const vocabularyAdjectives = [
         "text": "unerfahren"
       }
     },
-    "sourceIndex": 14520
+    "sourceIndex": 14520,
+    "adjectiveCategory": "ability"
   },
   {
     "id": "24548",
@@ -16476,7 +17573,8 @@ const vocabularyAdjectives = [
         "text": "zehnjährig"
       }
     },
-    "sourceIndex": 14548
+    "sourceIndex": 14548,
+    "adjectiveCategory": "time"
   },
   {
     "id": "24597",
@@ -16491,7 +17589,8 @@ const vocabularyAdjectives = [
         "text": "closed"
       }
     },
-    "sourceIndex": 14597
+    "sourceIndex": 14597,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "24639",
@@ -16506,7 +17605,8 @@ const vocabularyAdjectives = [
         "text": "hastig"
       }
     },
-    "sourceIndex": 14639
+    "sourceIndex": 14639,
+    "adjectiveCategory": "general"
   },
   {
     "id": "24676",
@@ -16521,7 +17621,8 @@ const vocabularyAdjectives = [
         "text": "miserabel"
       }
     },
-    "sourceIndex": 14676
+    "sourceIndex": 14676,
+    "adjectiveCategory": "general"
   },
   {
     "id": "24680",
@@ -16536,7 +17637,8 @@ const vocabularyAdjectives = [
         "text": "mässig"
       }
     },
-    "sourceIndex": 14680
+    "sourceIndex": 14680,
+    "adjectiveCategory": "general"
   },
   {
     "id": "24703",
@@ -16551,7 +17653,8 @@ const vocabularyAdjectives = [
         "text": "rosig"
       }
     },
-    "sourceIndex": 14703
+    "sourceIndex": 14703,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "24721",
@@ -16566,7 +17669,8 @@ const vocabularyAdjectives = [
         "text": "sorglos"
       }
     },
-    "sourceIndex": 14721
+    "sourceIndex": 14721,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "24843",
@@ -16581,7 +17685,8 @@ const vocabularyAdjectives = [
         "text": "herzhaft"
       }
     },
-    "sourceIndex": 14843
+    "sourceIndex": 14843,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "24870",
@@ -16596,7 +17701,8 @@ const vocabularyAdjectives = [
         "text": "langzeit"
       }
     },
-    "sourceIndex": 14870
+    "sourceIndex": 14870,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "24884",
@@ -16611,7 +17717,8 @@ const vocabularyAdjectives = [
         "text": "mittelmässig"
       }
     },
-    "sourceIndex": 14884
+    "sourceIndex": 14884,
+    "adjectiveCategory": "general"
   },
   {
     "id": "24924",
@@ -16626,7 +17733,8 @@ const vocabularyAdjectives = [
         "text": "schlampig"
       }
     },
-    "sourceIndex": 14924
+    "sourceIndex": 14924,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "24930",
@@ -16641,7 +17749,8 @@ const vocabularyAdjectives = [
         "text": "siebenjährig"
       }
     },
-    "sourceIndex": 14930
+    "sourceIndex": 14930,
+    "adjectiveCategory": "time"
   },
   {
     "id": "24933",
@@ -16656,7 +17765,8 @@ const vocabularyAdjectives = [
         "text": "sommerlich"
       }
     },
-    "sourceIndex": 14933
+    "sourceIndex": 14933,
+    "adjectiveCategory": "time"
   },
   {
     "id": "24947",
@@ -16671,7 +17781,8 @@ const vocabularyAdjectives = [
         "text": "tatenlos"
       }
     },
-    "sourceIndex": 14947
+    "sourceIndex": 14947,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "24951",
@@ -16686,7 +17797,8 @@ const vocabularyAdjectives = [
         "text": "umweltfreundlich"
       }
     },
-    "sourceIndex": 14951
+    "sourceIndex": 14951,
+    "adjectiveCategory": "personality"
   },
   {
     "id": "24984",
@@ -16701,7 +17813,8 @@ const vocabularyAdjectives = [
         "text": "abendlich"
       }
     },
-    "sourceIndex": 14984
+    "sourceIndex": 14984,
+    "adjectiveCategory": "time"
   },
   {
     "id": "25042",
@@ -16716,7 +17829,8 @@ const vocabularyAdjectives = [
         "text": "geblieben"
       }
     },
-    "sourceIndex": 15042
+    "sourceIndex": 15042,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "25047",
@@ -16731,7 +17845,8 @@ const vocabularyAdjectives = [
         "text": "gelobt"
       }
     },
-    "sourceIndex": 15047
+    "sourceIndex": 15047,
+    "adjectiveCategory": "general"
   },
   {
     "id": "25051",
@@ -16746,7 +17861,8 @@ const vocabularyAdjectives = [
         "text": "geschmacklich"
       }
     },
-    "sourceIndex": 15051
+    "sourceIndex": 15051,
+    "adjectiveCategory": "general"
   },
   {
     "id": "25054",
@@ -16761,7 +17877,8 @@ const vocabularyAdjectives = [
         "text": "gesehen"
       }
     },
-    "sourceIndex": 15054
+    "sourceIndex": 15054,
+    "adjectiveCategory": "general"
   },
   {
     "id": "25057",
@@ -16776,7 +17893,8 @@ const vocabularyAdjectives = [
         "text": "gezogen"
       }
     },
-    "sourceIndex": 15057
+    "sourceIndex": 15057,
+    "adjectiveCategory": "general"
   },
   {
     "id": "25082",
@@ -16791,7 +17909,8 @@ const vocabularyAdjectives = [
         "text": "kämpfend"
       }
     },
-    "sourceIndex": 15082
+    "sourceIndex": 15082,
+    "adjectiveCategory": "general"
   },
   {
     "id": "25168",
@@ -16806,7 +17925,8 @@ const vocabularyAdjectives = [
         "text": "unterwasser"
       }
     },
-    "sourceIndex": 15168
+    "sourceIndex": 15168,
+    "adjectiveCategory": "places"
   },
   {
     "id": "25169",
@@ -16821,7 +17941,8 @@ const vocabularyAdjectives = [
         "text": "untypisch"
       }
     },
-    "sourceIndex": 15169
+    "sourceIndex": 15169,
+    "adjectiveCategory": "general"
   },
   {
     "id": "25188",
@@ -16836,7 +17957,8 @@ const vocabularyAdjectives = [
         "text": "windig"
       }
     },
-    "sourceIndex": 15188
+    "sourceIndex": 15188,
+    "adjectiveCategory": "general"
   },
   {
     "id": "25197",
@@ -16851,7 +17973,8 @@ const vocabularyAdjectives = [
         "text": "überzeugt"
       }
     },
-    "sourceIndex": 15197
+    "sourceIndex": 15197,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "25231",
@@ -16866,7 +17989,8 @@ const vocabularyAdjectives = [
         "text": "bös"
       }
     },
-    "sourceIndex": 15231
+    "sourceIndex": 15231,
+    "adjectiveCategory": "general"
   },
   {
     "id": "25262",
@@ -16881,7 +18005,8 @@ const vocabularyAdjectives = [
         "text": "futsch"
       }
     },
-    "sourceIndex": 15262
+    "sourceIndex": 15262,
+    "adjectiveCategory": "general"
   },
   {
     "id": "25272",
@@ -16896,7 +18021,8 @@ const vocabularyAdjectives = [
         "text": "geografisch"
       }
     },
-    "sourceIndex": 15272
+    "sourceIndex": 15272,
+    "adjectiveCategory": "places"
   },
   {
     "id": "25273",
@@ -16911,7 +18037,8 @@ const vocabularyAdjectives = [
         "text": "geschieden"
       }
     },
-    "sourceIndex": 15273
+    "sourceIndex": 15273,
+    "adjectiveCategory": "society"
   },
   {
     "id": "25278",
@@ -16926,7 +18053,8 @@ const vocabularyAdjectives = [
         "text": "gestorben"
       }
     },
-    "sourceIndex": 15278
+    "sourceIndex": 15278,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "25340",
@@ -16941,7 +18069,8 @@ const vocabularyAdjectives = [
         "text": "salzig"
       }
     },
-    "sourceIndex": 15340
+    "sourceIndex": 15340,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "25350",
@@ -16956,7 +18085,8 @@ const vocabularyAdjectives = [
         "text": "selbstgemacht"
       }
     },
-    "sourceIndex": 15350
+    "sourceIndex": 15350,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "25366",
@@ -16971,7 +18101,8 @@ const vocabularyAdjectives = [
         "text": "startklar"
       }
     },
-    "sourceIndex": 15366
+    "sourceIndex": 15366,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "25394",
@@ -16986,7 +18117,8 @@ const vocabularyAdjectives = [
         "text": "zweistellig"
       }
     },
-    "sourceIndex": 15394
+    "sourceIndex": 15394,
+    "adjectiveCategory": "general"
   },
   {
     "id": "25406",
@@ -17001,7 +18133,8 @@ const vocabularyAdjectives = [
         "text": "alkoholisch"
       }
     },
-    "sourceIndex": 15406
+    "sourceIndex": 15406,
+    "adjectiveCategory": "general"
   },
   {
     "id": "25470",
@@ -17016,7 +18149,8 @@ const vocabularyAdjectives = [
         "text": "entgegengesetzt"
       }
     },
-    "sourceIndex": 15470
+    "sourceIndex": 15470,
+    "adjectiveCategory": "movement"
   },
   {
     "id": "25480",
@@ -17031,7 +18165,8 @@ const vocabularyAdjectives = [
         "text": "flink"
       }
     },
-    "sourceIndex": 15480
+    "sourceIndex": 15480,
+    "adjectiveCategory": "movement"
   },
   {
     "id": "25488",
@@ -17046,7 +18181,8 @@ const vocabularyAdjectives = [
         "text": "gedeckt"
       }
     },
-    "sourceIndex": 15488
+    "sourceIndex": 15488,
+    "adjectiveCategory": "general"
   },
   {
     "id": "25530",
@@ -17061,7 +18197,8 @@ const vocabularyAdjectives = [
         "text": "lateinamerikanisch"
       }
     },
-    "sourceIndex": 15530
+    "sourceIndex": 15530,
+    "adjectiveCategory": "places"
   },
   {
     "id": "25537",
@@ -17076,7 +18213,8 @@ const vocabularyAdjectives = [
         "text": "maskulin"
       }
     },
-    "sourceIndex": 15537
+    "sourceIndex": 15537,
+    "adjectiveCategory": "general"
   },
   {
     "id": "25595",
@@ -17091,7 +18229,8 @@ const vocabularyAdjectives = [
         "text": "südkoreanisch"
       }
     },
-    "sourceIndex": 15595
+    "sourceIndex": 15595,
+    "adjectiveCategory": "places"
   },
   {
     "id": "25597",
@@ -17106,7 +18245,8 @@ const vocabularyAdjectives = [
         "text": "unattraktiv"
       }
     },
-    "sourceIndex": 15597
+    "sourceIndex": 15597,
+    "adjectiveCategory": "general"
   },
   {
     "id": "25604",
@@ -17121,7 +18261,8 @@ const vocabularyAdjectives = [
         "text": "verhaftet"
       }
     },
-    "sourceIndex": 15604
+    "sourceIndex": 15604,
+    "adjectiveCategory": "general"
   },
   {
     "id": "25627",
@@ -17136,7 +18277,8 @@ const vocabularyAdjectives = [
         "text": "zweckmässig"
       }
     },
-    "sourceIndex": 15627
+    "sourceIndex": 15627,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "25648",
@@ -17151,7 +18293,8 @@ const vocabularyAdjectives = [
         "text": "austauschbar"
       }
     },
-    "sourceIndex": 15648
+    "sourceIndex": 15648,
+    "adjectiveCategory": "general"
   },
   {
     "id": "25731",
@@ -17166,7 +18309,8 @@ const vocabularyAdjectives = [
         "text": "kubanisch"
       }
     },
-    "sourceIndex": 15731
+    "sourceIndex": 15731,
+    "adjectiveCategory": "places"
   },
   {
     "id": "25756",
@@ -17181,7 +18325,8 @@ const vocabularyAdjectives = [
         "text": "oberösterreichisch"
       }
     },
-    "sourceIndex": 15756
+    "sourceIndex": 15756,
+    "adjectiveCategory": "places"
   },
   {
     "id": "25776",
@@ -17196,7 +18341,8 @@ const vocabularyAdjectives = [
         "text": "rötlich"
       }
     },
-    "sourceIndex": 15776
+    "sourceIndex": 15776,
+    "adjectiveCategory": "general"
   },
   {
     "id": "25795",
@@ -17211,7 +18357,8 @@ const vocabularyAdjectives = [
         "text": "stinkend"
       }
     },
-    "sourceIndex": 15795
+    "sourceIndex": 15795,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "25802",
@@ -17226,7 +18373,8 @@ const vocabularyAdjectives = [
         "text": "trüb"
       }
     },
-    "sourceIndex": 15802
+    "sourceIndex": 15802,
+    "adjectiveCategory": "general"
   },
   {
     "id": "25876",
@@ -17241,7 +18389,8 @@ const vocabularyAdjectives = [
         "text": "dekorativ"
       }
     },
-    "sourceIndex": 15876
+    "sourceIndex": 15876,
+    "adjectiveCategory": "general"
   },
   {
     "id": "25879",
@@ -17256,7 +18405,8 @@ const vocabularyAdjectives = [
         "text": "dunkelblau"
       }
     },
-    "sourceIndex": 15879
+    "sourceIndex": 15879,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "25909",
@@ -17271,7 +18421,8 @@ const vocabularyAdjectives = [
         "text": "fünfjährig"
       }
     },
-    "sourceIndex": 15909
+    "sourceIndex": 15909,
+    "adjectiveCategory": "time"
   },
   {
     "id": "25941",
@@ -17286,7 +18437,8 @@ const vocabularyAdjectives = [
         "text": "informell"
       }
     },
-    "sourceIndex": 15941
+    "sourceIndex": 15941,
+    "adjectiveCategory": "general"
   },
   {
     "id": "25952",
@@ -17301,7 +18453,8 @@ const vocabularyAdjectives = [
         "text": "konzentriert"
       }
     },
-    "sourceIndex": 15952
+    "sourceIndex": 15952,
+    "adjectiveCategory": "general"
   },
   {
     "id": "25954",
@@ -17316,7 +18469,8 @@ const vocabularyAdjectives = [
         "text": "kuschelig"
       }
     },
-    "sourceIndex": 15954
+    "sourceIndex": 15954,
+    "adjectiveCategory": "general"
   },
   {
     "id": "25974",
@@ -17331,7 +18485,8 @@ const vocabularyAdjectives = [
         "text": "mollig"
       }
     },
-    "sourceIndex": 15974
+    "sourceIndex": 15974,
+    "adjectiveCategory": "general"
   },
   {
     "id": "25995",
@@ -17346,7 +18501,8 @@ const vocabularyAdjectives = [
         "text": "reizend"
       }
     },
-    "sourceIndex": 15995
+    "sourceIndex": 15995,
+    "adjectiveCategory": "general"
   },
   {
     "id": "26024",
@@ -17361,7 +18517,8 @@ const vocabularyAdjectives = [
         "text": "unbezahlt"
       }
     },
-    "sourceIndex": 16024
+    "sourceIndex": 16024,
+    "adjectiveCategory": "general"
   },
   {
     "id": "26027",
@@ -17376,7 +18533,8 @@ const vocabularyAdjectives = [
         "text": "unlustig"
       }
     },
-    "sourceIndex": 16027
+    "sourceIndex": 16027,
+    "adjectiveCategory": "general"
   },
   {
     "id": "26028",
@@ -17391,7 +18549,8 @@ const vocabularyAdjectives = [
         "text": "unplugged"
       }
     },
-    "sourceIndex": 16028
+    "sourceIndex": 16028,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "26052",
@@ -17406,7 +18565,8 @@ const vocabularyAdjectives = [
         "text": "zweitgross"
       }
     },
-    "sourceIndex": 16052
+    "sourceIndex": 16052,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "26066",
@@ -17421,7 +18581,8 @@ const vocabularyAdjectives = [
         "text": "angezeigt"
       }
     },
-    "sourceIndex": 16066
+    "sourceIndex": 16066,
+    "adjectiveCategory": "general"
   },
   {
     "id": "26069",
@@ -17436,7 +18597,8 @@ const vocabularyAdjectives = [
         "text": "armenisch"
       }
     },
-    "sourceIndex": 16069
+    "sourceIndex": 16069,
+    "adjectiveCategory": "places"
   },
   {
     "id": "26132",
@@ -17451,7 +18613,8 @@ const vocabularyAdjectives = [
         "text": "geschmückt"
       }
     },
-    "sourceIndex": 16132
+    "sourceIndex": 16132,
+    "adjectiveCategory": "general"
   },
   {
     "id": "26159",
@@ -17466,7 +18629,8 @@ const vocabularyAdjectives = [
         "text": "kommunikativ"
       }
     },
-    "sourceIndex": 16159
+    "sourceIndex": 16159,
+    "adjectiveCategory": "general"
   },
   {
     "id": "26177",
@@ -17481,7 +18645,8 @@ const vocabularyAdjectives = [
         "text": "länglich"
       }
     },
-    "sourceIndex": 16177
+    "sourceIndex": 16177,
+    "adjectiveCategory": "general"
   },
   {
     "id": "26233",
@@ -17496,7 +18661,8 @@ const vocabularyAdjectives = [
         "text": "singend"
       }
     },
-    "sourceIndex": 16233
+    "sourceIndex": 16233,
+    "adjectiveCategory": "general"
   },
   {
     "id": "26268",
@@ -17511,7 +18677,8 @@ const vocabularyAdjectives = [
         "text": "ungerade"
       }
     },
-    "sourceIndex": 16268
+    "sourceIndex": 16268,
+    "adjectiveCategory": "general"
   },
   {
     "id": "26278",
@@ -17526,7 +18693,8 @@ const vocabularyAdjectives = [
         "text": "vierfach"
       }
     },
-    "sourceIndex": 16278
+    "sourceIndex": 16278,
+    "adjectiveCategory": "general"
   },
   {
     "id": "26286",
@@ -17541,7 +18709,8 @@ const vocabularyAdjectives = [
         "text": "wartend"
       }
     },
-    "sourceIndex": 16286
+    "sourceIndex": 16286,
+    "adjectiveCategory": "general"
   },
   {
     "id": "26305",
@@ -17556,7 +18725,8 @@ const vocabularyAdjectives = [
         "text": "zweitbest"
       }
     },
-    "sourceIndex": 16305
+    "sourceIndex": 16305,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "26362",
@@ -17571,7 +18741,8 @@ const vocabularyAdjectives = [
         "text": "durstig"
       }
     },
-    "sourceIndex": 16362
+    "sourceIndex": 16362,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "26396",
@@ -17586,7 +18757,8 @@ const vocabularyAdjectives = [
         "text": "gemeint"
       }
     },
-    "sourceIndex": 16396
+    "sourceIndex": 16396,
+    "adjectiveCategory": "general"
   },
   {
     "id": "26400",
@@ -17601,7 +18773,8 @@ const vocabularyAdjectives = [
         "text": "gerettet"
       }
     },
-    "sourceIndex": 16400
+    "sourceIndex": 16400,
+    "adjectiveCategory": "general"
   },
   {
     "id": "26488",
@@ -17616,7 +18789,8 @@ const vocabularyAdjectives = [
         "text": "schwimmend"
       }
     },
-    "sourceIndex": 16488
+    "sourceIndex": 16488,
+    "adjectiveCategory": "movement"
   },
   {
     "id": "26494",
@@ -17631,7 +18805,8 @@ const vocabularyAdjectives = [
         "text": "slowenisch"
       }
     },
-    "sourceIndex": 16494
+    "sourceIndex": 16494,
+    "adjectiveCategory": "places"
   },
   {
     "id": "26497",
@@ -17646,7 +18821,8 @@ const vocabularyAdjectives = [
         "text": "spielbar"
       }
     },
-    "sourceIndex": 16497
+    "sourceIndex": 16497,
+    "adjectiveCategory": "general"
   },
   {
     "id": "26502",
@@ -17661,7 +18837,8 @@ const vocabularyAdjectives = [
         "text": "späteres"
       }
     },
-    "sourceIndex": 16502
+    "sourceIndex": 16502,
+    "adjectiveCategory": "time"
   },
   {
     "id": "26511",
@@ -17676,7 +18853,8 @@ const vocabularyAdjectives = [
         "text": "supi"
       }
     },
-    "sourceIndex": 16511
+    "sourceIndex": 16511,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "26523",
@@ -17691,7 +18869,8 @@ const vocabularyAdjectives = [
         "text": "unisex"
       }
     },
-    "sourceIndex": 16523
+    "sourceIndex": 16523,
+    "adjectiveCategory": "general"
   },
   {
     "id": "26535",
@@ -17706,7 +18885,8 @@ const vocabularyAdjectives = [
         "text": "vergrössert"
       }
     },
-    "sourceIndex": 16535
+    "sourceIndex": 16535,
+    "adjectiveCategory": "general"
   },
   {
     "id": "26553",
@@ -17721,7 +18901,8 @@ const vocabularyAdjectives = [
         "text": "weihnachtlich"
       }
     },
-    "sourceIndex": 16553
+    "sourceIndex": 16553,
+    "adjectiveCategory": "general"
   },
   {
     "id": "26566",
@@ -17736,7 +18917,8 @@ const vocabularyAdjectives = [
         "text": "adlig"
       }
     },
-    "sourceIndex": 16566
+    "sourceIndex": 16566,
+    "adjectiveCategory": "society"
   },
   {
     "id": "26596",
@@ -17751,7 +18933,8 @@ const vocabularyAdjectives = [
         "text": "chilenisch"
       }
     },
-    "sourceIndex": 16596
+    "sourceIndex": 16596,
+    "adjectiveCategory": "places"
   },
   {
     "id": "26609",
@@ -17766,7 +18949,8 @@ const vocabularyAdjectives = [
         "text": "einladend"
       }
     },
-    "sourceIndex": 16609
+    "sourceIndex": 16609,
+    "adjectiveCategory": "general"
   },
   {
     "id": "26621",
@@ -17781,7 +18965,8 @@ const vocabularyAdjectives = [
         "text": "fad"
       }
     },
-    "sourceIndex": 16621
+    "sourceIndex": 16621,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "26649",
@@ -17796,7 +18981,8 @@ const vocabularyAdjectives = [
         "text": "hellbraun"
       }
     },
-    "sourceIndex": 16649
+    "sourceIndex": 16649,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "26699",
@@ -17811,7 +18997,8 @@ const vocabularyAdjectives = [
         "text": "motiviert"
       }
     },
-    "sourceIndex": 16699
+    "sourceIndex": 16699,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "26783",
@@ -17826,7 +19013,8 @@ const vocabularyAdjectives = [
         "text": "unvernünftig"
       }
     },
-    "sourceIndex": 16783
+    "sourceIndex": 16783,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "26793",
@@ -17841,7 +19029,8 @@ const vocabularyAdjectives = [
         "text": "vierjährig"
       }
     },
-    "sourceIndex": 16793
+    "sourceIndex": 16793,
+    "adjectiveCategory": "time"
   },
   {
     "id": "26796",
@@ -17856,7 +19045,8 @@ const vocabularyAdjectives = [
         "text": "vorrätig"
       }
     },
-    "sourceIndex": 16796
+    "sourceIndex": 16796,
+    "adjectiveCategory": "general"
   },
   {
     "id": "26804",
@@ -17871,7 +19061,8 @@ const vocabularyAdjectives = [
         "text": "zivilisiert"
       }
     },
-    "sourceIndex": 16804
+    "sourceIndex": 16804,
+    "adjectiveCategory": "general"
   },
   {
     "id": "26808",
@@ -17886,7 +19077,8 @@ const vocabularyAdjectives = [
         "text": "abgegeben"
       }
     },
-    "sourceIndex": 16808
+    "sourceIndex": 16808,
+    "adjectiveCategory": "general"
   },
   {
     "id": "26824",
@@ -17901,7 +19093,8 @@ const vocabularyAdjectives = [
         "text": "ausgewachsen"
       }
     },
-    "sourceIndex": 16824
+    "sourceIndex": 16824,
+    "adjectiveCategory": "time"
   },
   {
     "id": "26857",
@@ -17916,7 +19109,8 @@ const vocabularyAdjectives = [
         "text": "essbar"
       }
     },
-    "sourceIndex": 16857
+    "sourceIndex": 16857,
+    "adjectiveCategory": "general"
   },
   {
     "id": "26893",
@@ -17931,7 +19125,8 @@ const vocabularyAdjectives = [
         "text": "kinderleicht"
       }
     },
-    "sourceIndex": 16893
+    "sourceIndex": 16893,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "26922",
@@ -17947,7 +19142,8 @@ const vocabularyAdjectives = [
         "caseSensitive": true
       }
     },
-    "sourceIndex": 16922
+    "sourceIndex": 16922,
+    "adjectiveCategory": "places"
   },
   {
     "id": "26933",
@@ -17962,7 +19158,8 @@ const vocabularyAdjectives = [
         "text": "minutenlang"
       }
     },
-    "sourceIndex": 16933
+    "sourceIndex": 16933,
+    "adjectiveCategory": "time"
   },
   {
     "id": "26938",
@@ -17977,7 +19174,8 @@ const vocabularyAdjectives = [
         "text": "monoton"
       }
     },
-    "sourceIndex": 16938
+    "sourceIndex": 16938,
+    "adjectiveCategory": "general"
   },
   {
     "id": "26955",
@@ -17992,7 +19190,8 @@ const vocabularyAdjectives = [
         "text": "pakistanisch"
       }
     },
-    "sourceIndex": 16955
+    "sourceIndex": 16955,
+    "adjectiveCategory": "places"
   },
   {
     "id": "26962",
@@ -18007,7 +19206,8 @@ const vocabularyAdjectives = [
         "text": "planlos"
       }
     },
-    "sourceIndex": 16962
+    "sourceIndex": 16962,
+    "adjectiveCategory": "general"
   },
   {
     "id": "26972",
@@ -18022,7 +19222,8 @@ const vocabularyAdjectives = [
         "text": "regular"
       }
     },
-    "sourceIndex": 16972
+    "sourceIndex": 16972,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "26992",
@@ -18038,7 +19239,8 @@ const vocabularyAdjectives = [
         "caseSensitive": true
       }
     },
-    "sourceIndex": 16992
+    "sourceIndex": 16992,
+    "adjectiveCategory": "places"
   },
   {
     "id": "27018",
@@ -18053,7 +19255,8 @@ const vocabularyAdjectives = [
         "text": "unbesetzt"
       }
     },
-    "sourceIndex": 17018
+    "sourceIndex": 17018,
+    "adjectiveCategory": "general"
   },
   {
     "id": "27021",
@@ -18068,7 +19271,8 @@ const vocabularyAdjectives = [
         "text": "unpraktisch"
       }
     },
-    "sourceIndex": 17021
+    "sourceIndex": 17021,
+    "adjectiveCategory": "general"
   },
   {
     "id": "27050",
@@ -18083,7 +19287,8 @@ const vocabularyAdjectives = [
         "text": "wortlos"
       }
     },
-    "sourceIndex": 17050
+    "sourceIndex": 17050,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "27065",
@@ -18098,7 +19303,8 @@ const vocabularyAdjectives = [
         "text": "albanisch"
       }
     },
-    "sourceIndex": 17065
+    "sourceIndex": 17065,
+    "adjectiveCategory": "places"
   },
   {
     "id": "27104",
@@ -18113,7 +19319,8 @@ const vocabularyAdjectives = [
         "text": "bräunlich"
       }
     },
-    "sourceIndex": 17104
+    "sourceIndex": 17104,
+    "adjectiveCategory": "general"
   },
   {
     "id": "27119",
@@ -18128,7 +19335,8 @@ const vocabularyAdjectives = [
         "text": "eckig"
       }
     },
-    "sourceIndex": 17119
+    "sourceIndex": 17119,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "27129",
@@ -18143,7 +19351,8 @@ const vocabularyAdjectives = [
         "text": "eisig"
       }
     },
-    "sourceIndex": 17129
+    "sourceIndex": 17129,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "27133",
@@ -18158,7 +19367,8 @@ const vocabularyAdjectives = [
         "text": "enttäuscht"
       }
     },
-    "sourceIndex": 17133
+    "sourceIndex": 17133,
+    "adjectiveCategory": "emotions"
   },
   {
     "id": "27142",
@@ -18173,7 +19383,8 @@ const vocabularyAdjectives = [
         "text": "fade"
       }
     },
-    "sourceIndex": 17142
+    "sourceIndex": 17142,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "27153",
@@ -18188,7 +19399,8 @@ const vocabularyAdjectives = [
         "text": "gefiltert"
       }
     },
-    "sourceIndex": 17153
+    "sourceIndex": 17153,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "27165",
@@ -18203,7 +19415,8 @@ const vocabularyAdjectives = [
         "text": "heiser"
       }
     },
-    "sourceIndex": 17165
+    "sourceIndex": 17165,
+    "adjectiveCategory": "general"
   },
   {
     "id": "27215",
@@ -18218,7 +19431,8 @@ const vocabularyAdjectives = [
         "text": "motorisiert"
       }
     },
-    "sourceIndex": 17215
+    "sourceIndex": 17215,
+    "adjectiveCategory": "general"
   },
   {
     "id": "27388",
@@ -18233,7 +19447,8 @@ const vocabularyAdjectives = [
         "text": "entwickelt"
       }
     },
-    "sourceIndex": 17388
+    "sourceIndex": 17388,
+    "adjectiveCategory": "general"
   },
   {
     "id": "27448",
@@ -18248,7 +19463,8 @@ const vocabularyAdjectives = [
         "text": "importiert"
       }
     },
-    "sourceIndex": 17448
+    "sourceIndex": 17448,
+    "adjectiveCategory": "general"
   },
   {
     "id": "27476",
@@ -18263,7 +19479,8 @@ const vocabularyAdjectives = [
         "text": "liebenswürdig"
       }
     },
-    "sourceIndex": 17476
+    "sourceIndex": 17476,
+    "adjectiveCategory": "general"
   },
   {
     "id": "27479",
@@ -18278,7 +19495,8 @@ const vocabularyAdjectives = [
         "text": "lösbar"
       }
     },
-    "sourceIndex": 17479
+    "sourceIndex": 17479,
+    "adjectiveCategory": "general"
   },
   {
     "id": "27490",
@@ -18293,7 +19511,8 @@ const vocabularyAdjectives = [
         "text": "mitgebracht"
       }
     },
-    "sourceIndex": 17490
+    "sourceIndex": 17490,
+    "adjectiveCategory": "general"
   },
   {
     "id": "27495",
@@ -18308,7 +19527,8 @@ const vocabularyAdjectives = [
         "text": "modisch"
       }
     },
-    "sourceIndex": 17495
+    "sourceIndex": 17495,
+    "adjectiveCategory": "general"
   },
   {
     "id": "27563",
@@ -18323,7 +19543,8 @@ const vocabularyAdjectives = [
         "text": "turbulent"
       }
     },
-    "sourceIndex": 17563
+    "sourceIndex": 17563,
+    "adjectiveCategory": "general"
   },
   {
     "id": "27592",
@@ -18338,7 +19559,8 @@ const vocabularyAdjectives = [
         "text": "westeuropäisch"
       }
     },
-    "sourceIndex": 17592
+    "sourceIndex": 17592,
+    "adjectiveCategory": "places"
   },
   {
     "id": "27619",
@@ -18353,7 +19575,8 @@ const vocabularyAdjectives = [
         "text": "ansteigend"
       }
     },
-    "sourceIndex": 17619
+    "sourceIndex": 17619,
+    "adjectiveCategory": "movement"
   },
   {
     "id": "27646",
@@ -18368,7 +19591,8 @@ const vocabularyAdjectives = [
         "text": "bleich"
       }
     },
-    "sourceIndex": 17646
+    "sourceIndex": 17646,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "27654",
@@ -18383,7 +19607,8 @@ const vocabularyAdjectives = [
         "text": "diagonal"
       }
     },
-    "sourceIndex": 17654
+    "sourceIndex": 17654,
+    "adjectiveCategory": "general"
   },
   {
     "id": "27674",
@@ -18398,7 +19623,8 @@ const vocabularyAdjectives = [
         "text": "ermüdend"
       }
     },
-    "sourceIndex": 17674
+    "sourceIndex": 17674,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "27677",
@@ -18413,7 +19639,8 @@ const vocabularyAdjectives = [
         "text": "feminin"
       }
     },
-    "sourceIndex": 17677
+    "sourceIndex": 17677,
+    "adjectiveCategory": "general"
   },
   {
     "id": "27692",
@@ -18428,7 +19655,8 @@ const vocabularyAdjectives = [
         "text": "gekleidet"
       }
     },
-    "sourceIndex": 17692
+    "sourceIndex": 17692,
+    "adjectiveCategory": "general"
   },
   {
     "id": "27723",
@@ -18443,7 +19671,8 @@ const vocabularyAdjectives = [
         "text": "klebrig"
       }
     },
-    "sourceIndex": 17723
+    "sourceIndex": 17723,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "27809",
@@ -18458,7 +19687,8 @@ const vocabularyAdjectives = [
         "text": "tanzend"
       }
     },
-    "sourceIndex": 17809
+    "sourceIndex": 17809,
+    "adjectiveCategory": "movement"
   },
   {
     "id": "27811",
@@ -18473,7 +19703,8 @@ const vocabularyAdjectives = [
         "text": "thailändisch"
       }
     },
-    "sourceIndex": 17811
+    "sourceIndex": 17811,
+    "adjectiveCategory": "places"
   },
   {
     "id": "27862",
@@ -18488,7 +19719,8 @@ const vocabularyAdjectives = [
         "text": "abgerundet"
       }
     },
-    "sourceIndex": 17862
+    "sourceIndex": 17862,
+    "adjectiveCategory": "general"
   },
   {
     "id": "27903",
@@ -18503,7 +19735,8 @@ const vocabularyAdjectives = [
         "text": "dreidimensional"
       }
     },
-    "sourceIndex": 17903
+    "sourceIndex": 17903,
+    "adjectiveCategory": "general"
   },
   {
     "id": "27925",
@@ -18518,7 +19751,8 @@ const vocabularyAdjectives = [
         "text": "gefroren"
       }
     },
-    "sourceIndex": 17925
+    "sourceIndex": 17925,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "27964",
@@ -18533,7 +19767,8 @@ const vocabularyAdjectives = [
         "text": "kinderlos"
       }
     },
-    "sourceIndex": 17964
+    "sourceIndex": 17964,
+    "adjectiveCategory": "society"
   },
   {
     "id": "28021",
@@ -18548,7 +19783,8 @@ const vocabularyAdjectives = [
         "text": "saisonal"
       }
     },
-    "sourceIndex": 18021
+    "sourceIndex": 18021,
+    "adjectiveCategory": "time"
   },
   {
     "id": "28022",
@@ -18563,7 +19799,8 @@ const vocabularyAdjectives = [
         "text": "sandig"
       }
     },
-    "sourceIndex": 18022
+    "sourceIndex": 18022,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "28061",
@@ -18578,7 +19815,8 @@ const vocabularyAdjectives = [
         "text": "verschwitzt"
       }
     },
-    "sourceIndex": 18061
+    "sourceIndex": 18061,
+    "adjectiveCategory": "general"
   },
   {
     "id": "28084",
@@ -18593,7 +19831,8 @@ const vocabularyAdjectives = [
         "text": "übergewichtig"
       }
     },
-    "sourceIndex": 18084
+    "sourceIndex": 18084,
+    "adjectiveCategory": "general"
   },
   {
     "id": "28105",
@@ -18608,7 +19847,8 @@ const vocabularyAdjectives = [
         "text": "ausgeruht"
       }
     },
-    "sourceIndex": 18105
+    "sourceIndex": 18105,
+    "adjectiveCategory": "general"
   },
   {
     "id": "28121",
@@ -18623,7 +19863,8 @@ const vocabularyAdjectives = [
         "text": "bosnisch"
       }
     },
-    "sourceIndex": 18121
+    "sourceIndex": 18121,
+    "adjectiveCategory": "places"
   },
   {
     "id": "28171",
@@ -18638,7 +19879,8 @@ const vocabularyAdjectives = [
         "text": "grell"
       }
     },
-    "sourceIndex": 18171
+    "sourceIndex": 18171,
+    "adjectiveCategory": "general"
   },
   {
     "id": "28173",
@@ -18653,7 +19895,8 @@ const vocabularyAdjectives = [
         "text": "grünlich"
       }
     },
-    "sourceIndex": 18173
+    "sourceIndex": 18173,
+    "adjectiveCategory": "general"
   },
   {
     "id": "28181",
@@ -18668,7 +19911,8 @@ const vocabularyAdjectives = [
         "text": "hoffnungsvoll"
       }
     },
-    "sourceIndex": 18181
+    "sourceIndex": 18181,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "28189",
@@ -18683,7 +19927,8 @@ const vocabularyAdjectives = [
         "text": "isländisch"
       }
     },
-    "sourceIndex": 18189
+    "sourceIndex": 18189,
+    "adjectiveCategory": "places"
   },
   {
     "id": "28265",
@@ -18698,7 +19943,8 @@ const vocabularyAdjectives = [
         "text": "schwül"
       }
     },
-    "sourceIndex": 18265
+    "sourceIndex": 18265,
+    "adjectiveCategory": "general"
   },
   {
     "id": "28294",
@@ -18713,7 +19959,8 @@ const vocabularyAdjectives = [
         "text": "umgebaut"
       }
     },
-    "sourceIndex": 18294
+    "sourceIndex": 18294,
+    "adjectiveCategory": "general"
   },
   {
     "id": "28299",
@@ -18728,7 +19975,8 @@ const vocabularyAdjectives = [
         "text": "unreif"
       }
     },
-    "sourceIndex": 18299
+    "sourceIndex": 18299,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "28337",
@@ -18743,7 +19991,8 @@ const vocabularyAdjectives = [
         "text": "zerbrechlich"
       }
     },
-    "sourceIndex": 18337
+    "sourceIndex": 18337,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "28353",
@@ -18758,7 +20007,8 @@ const vocabularyAdjectives = [
         "text": "angeführt"
       }
     },
-    "sourceIndex": 18353
+    "sourceIndex": 18353,
+    "adjectiveCategory": "general"
   },
   {
     "id": "28396",
@@ -18773,7 +20023,8 @@ const vocabularyAdjectives = [
         "text": "eingegangen"
       }
     },
-    "sourceIndex": 18396
+    "sourceIndex": 18396,
+    "adjectiveCategory": "general"
   },
   {
     "id": "28397",
@@ -18788,7 +20039,8 @@ const vocabularyAdjectives = [
         "text": "eingeschlossen"
       }
     },
-    "sourceIndex": 18397
+    "sourceIndex": 18397,
+    "adjectiveCategory": "general"
   },
   {
     "id": "28399",
@@ -18803,7 +20055,8 @@ const vocabularyAdjectives = [
         "text": "ekelig"
       }
     },
-    "sourceIndex": 18399
+    "sourceIndex": 18399,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "28465",
@@ -18818,7 +20071,8 @@ const vocabularyAdjectives = [
         "text": "katalanisch"
       }
     },
-    "sourceIndex": 18465
+    "sourceIndex": 18465,
+    "adjectiveCategory": "places"
   },
   {
     "id": "28482",
@@ -18833,7 +20087,8 @@ const vocabularyAdjectives = [
         "text": "libanesisch"
       }
     },
-    "sourceIndex": 18482
+    "sourceIndex": 18482,
+    "adjectiveCategory": "places"
   },
   {
     "id": "28537",
@@ -18848,7 +20103,8 @@ const vocabularyAdjectives = [
         "text": "rechteckig"
       }
     },
-    "sourceIndex": 18537
+    "sourceIndex": 18537,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "28647",
@@ -18863,7 +20119,8 @@ const vocabularyAdjectives = [
         "text": "bedruckt"
       }
     },
-    "sourceIndex": 18647
+    "sourceIndex": 18647,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "28670",
@@ -18878,7 +20135,8 @@ const vocabularyAdjectives = [
         "text": "eingewickelt"
       }
     },
-    "sourceIndex": 18670
+    "sourceIndex": 18670,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "28673",
@@ -18893,7 +20151,8 @@ const vocabularyAdjectives = [
         "text": "ermässigt"
       }
     },
-    "sourceIndex": 18673
+    "sourceIndex": 18673,
+    "adjectiveCategory": "general"
   },
   {
     "id": "28695",
@@ -18908,7 +20167,8 @@ const vocabularyAdjectives = [
         "text": "gekocht"
       }
     },
-    "sourceIndex": 18695
+    "sourceIndex": 18695,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "28698",
@@ -18923,7 +20183,8 @@ const vocabularyAdjectives = [
         "text": "geschlagen"
       }
     },
-    "sourceIndex": 18698
+    "sourceIndex": 18698,
+    "adjectiveCategory": "general"
   },
   {
     "id": "28720",
@@ -18938,7 +20199,8 @@ const vocabularyAdjectives = [
         "text": "indonesisch"
       }
     },
-    "sourceIndex": 18720
+    "sourceIndex": 18720,
+    "adjectiveCategory": "places"
   },
   {
     "id": "28732",
@@ -18953,7 +20215,8 @@ const vocabularyAdjectives = [
         "text": "kolumbianisch"
       }
     },
-    "sourceIndex": 18732
+    "sourceIndex": 18732,
+    "adjectiveCategory": "places"
   },
   {
     "id": "28752",
@@ -18968,7 +20231,8 @@ const vocabularyAdjectives = [
         "text": "marokkanisch"
       }
     },
-    "sourceIndex": 18752
+    "sourceIndex": 18752,
+    "adjectiveCategory": "places"
   },
   {
     "id": "28798",
@@ -18983,7 +20247,8 @@ const vocabularyAdjectives = [
         "text": "schlaflos"
       }
     },
-    "sourceIndex": 18798
+    "sourceIndex": 18798,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "28843",
@@ -18998,7 +20263,8 @@ const vocabularyAdjectives = [
         "text": "verletzend"
       }
     },
-    "sourceIndex": 18843
+    "sourceIndex": 18843,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "28867",
@@ -19013,7 +20279,8 @@ const vocabularyAdjectives = [
         "text": "übernächst"
       }
     },
-    "sourceIndex": 18867
+    "sourceIndex": 18867,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "28919",
@@ -19028,7 +20295,8 @@ const vocabularyAdjectives = [
         "text": "bold"
       }
     },
-    "sourceIndex": 18919
+    "sourceIndex": 18919,
+    "adjectiveCategory": "general"
   },
   {
     "id": "28920",
@@ -19043,7 +20311,8 @@ const vocabularyAdjectives = [
         "text": "Budapester"
       }
     },
-    "sourceIndex": 18920
+    "sourceIndex": 18920,
+    "adjectiveCategory": "general"
   },
   {
     "id": "28957",
@@ -19058,7 +20327,8 @@ const vocabularyAdjectives = [
         "text": "farblos"
       }
     },
-    "sourceIndex": 18957
+    "sourceIndex": 18957,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "28981",
@@ -19073,7 +20343,8 @@ const vocabularyAdjectives = [
         "text": "gestreift"
       }
     },
-    "sourceIndex": 18981
+    "sourceIndex": 18981,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "28984",
@@ -19088,7 +20359,8 @@ const vocabularyAdjectives = [
         "text": "geübt"
       }
     },
-    "sourceIndex": 18984
+    "sourceIndex": 18984,
+    "adjectiveCategory": "ability"
   },
   {
     "id": "29042",
@@ -19103,7 +20375,8 @@ const vocabularyAdjectives = [
         "text": "metallic"
       }
     },
-    "sourceIndex": 19042
+    "sourceIndex": 19042,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "29054",
@@ -19118,7 +20391,8 @@ const vocabularyAdjectives = [
         "text": "Mülheimer"
       }
     },
-    "sourceIndex": 19054
+    "sourceIndex": 19054,
+    "adjectiveCategory": "places"
   },
   {
     "id": "29116",
@@ -19133,7 +20407,8 @@ const vocabularyAdjectives = [
         "text": "suchend"
       }
     },
-    "sourceIndex": 19116
+    "sourceIndex": 19116,
+    "adjectiveCategory": "general"
   },
   {
     "id": "29133",
@@ -19148,7 +20423,8 @@ const vocabularyAdjectives = [
         "text": "unbenutzt"
       }
     },
-    "sourceIndex": 19133
+    "sourceIndex": 19133,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "29161",
@@ -19163,7 +20439,8 @@ const vocabularyAdjectives = [
         "text": "winterlich"
       }
     },
-    "sourceIndex": 19161
+    "sourceIndex": 19161,
+    "adjectiveCategory": "time"
   },
   {
     "id": "29168",
@@ -19178,7 +20455,8 @@ const vocabularyAdjectives = [
         "text": "zwanzigst"
       }
     },
-    "sourceIndex": 19168
+    "sourceIndex": 19168,
+    "adjectiveCategory": "general"
   },
   {
     "id": "29170",
@@ -19193,7 +20471,8 @@ const vocabularyAdjectives = [
         "text": "zweisprachig"
       }
     },
-    "sourceIndex": 19170
+    "sourceIndex": 19170,
+    "adjectiveCategory": "ability"
   },
   {
     "id": "29186",
@@ -19208,7 +20487,8 @@ const vocabularyAdjectives = [
         "text": "angenommen"
       }
     },
-    "sourceIndex": 19186
+    "sourceIndex": 19186,
+    "adjectiveCategory": "certainty"
   },
   {
     "id": "29222",
@@ -19223,7 +20503,8 @@ const vocabularyAdjectives = [
         "text": "dienstlich"
       }
     },
-    "sourceIndex": 19222
+    "sourceIndex": 19222,
+    "adjectiveCategory": "society"
   },
   {
     "id": "29236",
@@ -19238,7 +20519,8 @@ const vocabularyAdjectives = [
         "text": "einweg"
       }
     },
-    "sourceIndex": 19236
+    "sourceIndex": 19236,
+    "adjectiveCategory": "quantity"
   },
   {
     "id": "29242",
@@ -19253,7 +20535,8 @@ const vocabularyAdjectives = [
         "text": "erschwinglich"
       }
     },
-    "sourceIndex": 19242
+    "sourceIndex": 19242,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "29246",
@@ -19268,7 +20551,8 @@ const vocabularyAdjectives = [
         "text": "farbenfroh"
       }
     },
-    "sourceIndex": 19246
+    "sourceIndex": 19246,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "29251",
@@ -19283,7 +20567,8 @@ const vocabularyAdjectives = [
         "text": "fragend"
       }
     },
-    "sourceIndex": 19251
+    "sourceIndex": 19251,
+    "adjectiveCategory": "general"
   },
   {
     "id": "29253",
@@ -19298,7 +20583,8 @@ const vocabularyAdjectives = [
         "text": "freistehend"
       }
     },
-    "sourceIndex": 19253
+    "sourceIndex": 19253,
+    "adjectiveCategory": "general"
   },
   {
     "id": "29260",
@@ -19313,7 +20599,8 @@ const vocabularyAdjectives = [
         "text": "gegenteilig"
       }
     },
-    "sourceIndex": 19260
+    "sourceIndex": 19260,
+    "adjectiveCategory": "movement"
   },
   {
     "id": "29264",
@@ -19328,7 +20615,8 @@ const vocabularyAdjectives = [
         "text": "gelistet"
       }
     },
-    "sourceIndex": 19264
+    "sourceIndex": 19264,
+    "adjectiveCategory": "general"
   },
   {
     "id": "29370",
@@ -19343,7 +20631,8 @@ const vocabularyAdjectives = [
         "text": "renoviert"
       }
     },
-    "sourceIndex": 19370
+    "sourceIndex": 19370,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "29374",
@@ -19358,7 +20647,8 @@ const vocabularyAdjectives = [
         "text": "riesengross"
       }
     },
-    "sourceIndex": 19374
+    "sourceIndex": 19374,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "29442",
@@ -19373,7 +20663,8 @@ const vocabularyAdjectives = [
         "text": "verfrüht"
       }
     },
-    "sourceIndex": 19442
+    "sourceIndex": 19442,
+    "adjectiveCategory": "time"
   },
   {
     "id": "29487",
@@ -19388,7 +20679,8 @@ const vocabularyAdjectives = [
         "text": "aufgeschnitten"
       }
     },
-    "sourceIndex": 19487
+    "sourceIndex": 19487,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "29506",
@@ -19403,7 +20695,8 @@ const vocabularyAdjectives = [
         "text": "bläulich"
       }
     },
-    "sourceIndex": 19506
+    "sourceIndex": 19506,
+    "adjectiveCategory": "general"
   },
   {
     "id": "29545",
@@ -19418,7 +20711,8 @@ const vocabularyAdjectives = [
         "text": "fettig"
       }
     },
-    "sourceIndex": 19545
+    "sourceIndex": 19545,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "29549",
@@ -19433,7 +20727,8 @@ const vocabularyAdjectives = [
         "text": "flauschig"
       }
     },
-    "sourceIndex": 19549
+    "sourceIndex": 19549,
+    "adjectiveCategory": "sensory"
   },
   {
     "id": "29556",
@@ -19448,7 +20743,8 @@ const vocabularyAdjectives = [
         "text": "fruchtig"
       }
     },
-    "sourceIndex": 19556
+    "sourceIndex": 19556,
+    "adjectiveCategory": "general"
   },
   {
     "id": "29568",
@@ -19463,7 +20759,8 @@ const vocabularyAdjectives = [
         "text": "geschrieben"
       }
     },
-    "sourceIndex": 19568
+    "sourceIndex": 19568,
+    "adjectiveCategory": "general"
   },
   {
     "id": "29620",
@@ -19478,7 +20775,8 @@ const vocabularyAdjectives = [
         "text": "mediterran"
       }
     },
-    "sourceIndex": 19620
+    "sourceIndex": 19620,
+    "adjectiveCategory": "places"
   },
   {
     "id": "29632",
@@ -19493,7 +20791,8 @@ const vocabularyAdjectives = [
         "text": "nordkoreanisch"
       }
     },
-    "sourceIndex": 19632
+    "sourceIndex": 19632,
+    "adjectiveCategory": "places"
   },
   {
     "id": "29663",
@@ -19508,7 +20807,8 @@ const vocabularyAdjectives = [
         "text": "schattig"
       }
     },
-    "sourceIndex": 19663
+    "sourceIndex": 19663,
+    "adjectiveCategory": "general"
   },
   {
     "id": "29668",
@@ -19523,7 +20823,8 @@ const vocabularyAdjectives = [
         "text": "schläfrig"
       }
     },
-    "sourceIndex": 19668
+    "sourceIndex": 19668,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "29707",
@@ -19538,7 +20839,8 @@ const vocabularyAdjectives = [
         "text": "unordentlich"
       }
     },
-    "sourceIndex": 19707
+    "sourceIndex": 19707,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "29732",
@@ -19553,7 +20855,8 @@ const vocabularyAdjectives = [
         "text": "vietnamesisch"
       }
     },
-    "sourceIndex": 19732
+    "sourceIndex": 19732,
+    "adjectiveCategory": "places"
   },
   {
     "id": "29747",
@@ -19568,7 +20871,8 @@ const vocabularyAdjectives = [
         "text": "weltberühmt"
       }
     },
-    "sourceIndex": 19747
+    "sourceIndex": 19747,
+    "adjectiveCategory": "general"
   },
   {
     "id": "29750",
@@ -19583,7 +20887,8 @@ const vocabularyAdjectives = [
         "text": "wohlauf"
       }
     },
-    "sourceIndex": 19750
+    "sourceIndex": 19750,
+    "adjectiveCategory": "evaluation"
   },
   {
     "id": "29752",
@@ -19598,7 +20903,8 @@ const vocabularyAdjectives = [
         "text": "zahm"
       }
     },
-    "sourceIndex": 19752
+    "sourceIndex": 19752,
+    "adjectiveCategory": "general"
   },
   {
     "id": "29801",
@@ -19613,7 +20919,8 @@ const vocabularyAdjectives = [
         "text": "dunkelgrün"
       }
     },
-    "sourceIndex": 19801
+    "sourceIndex": 19801,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "29802",
@@ -19628,7 +20935,8 @@ const vocabularyAdjectives = [
         "text": "dunkelrot"
       }
     },
-    "sourceIndex": 19802
+    "sourceIndex": 19802,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "29804",
@@ -19643,7 +20951,8 @@ const vocabularyAdjectives = [
         "text": "dörflich"
       }
     },
-    "sourceIndex": 19804
+    "sourceIndex": 19804,
+    "adjectiveCategory": "places"
   },
   {
     "id": "29810",
@@ -19658,7 +20967,8 @@ const vocabularyAdjectives = [
         "text": "eintönig"
       }
     },
-    "sourceIndex": 19810
+    "sourceIndex": 19810,
+    "adjectiveCategory": "appearance"
   },
   {
     "id": "29842",
@@ -19673,7 +20983,8 @@ const vocabularyAdjectives = [
         "text": "geschmackvoll"
       }
     },
-    "sourceIndex": 19842
+    "sourceIndex": 19842,
+    "adjectiveCategory": "general"
   },
   {
     "id": "29972",
@@ -19688,7 +20999,8 @@ const vocabularyAdjectives = [
         "text": "signiert"
       }
     },
-    "sourceIndex": 19972
+    "sourceIndex": 19972,
+    "adjectiveCategory": "general"
   },
   {
     "id": "29981",
@@ -19703,7 +21015,8 @@ const vocabularyAdjectives = [
         "text": "springend"
       }
     },
-    "sourceIndex": 19981
+    "sourceIndex": 19981,
+    "adjectiveCategory": "movement"
   },
   {
     "id": "30063",
@@ -19718,7 +21031,8 @@ const vocabularyAdjectives = [
         "text": "abgebrochen"
       }
     },
-    "sourceIndex": 20063
+    "sourceIndex": 20063,
+    "adjectiveCategory": "objects"
   },
   {
     "id": "30116",
@@ -19733,7 +21047,8 @@ const vocabularyAdjectives = [
         "text": "ermutigend"
       }
     },
-    "sourceIndex": 20116
+    "sourceIndex": 20116,
+    "adjectiveCategory": "condition"
   },
   {
     "id": "30134",
@@ -19748,7 +21063,8 @@ const vocabularyAdjectives = [
         "text": "fotografisch"
       }
     },
-    "sourceIndex": 20134
+    "sourceIndex": 20134,
+    "adjectiveCategory": "society"
   },
   {
     "id": "30147",
@@ -19763,7 +21079,8 @@ const vocabularyAdjectives = [
         "text": "geräumig"
       }
     },
-    "sourceIndex": 20147
+    "sourceIndex": 20147,
+    "adjectiveCategory": "general"
   },
   {
     "id": "30193",
@@ -19778,7 +21095,8 @@ const vocabularyAdjectives = [
         "text": "lettisch"
       }
     },
-    "sourceIndex": 20193
+    "sourceIndex": 20193,
+    "adjectiveCategory": "places"
   },
   {
     "id": "30207",
@@ -19793,7 +21111,8 @@ const vocabularyAdjectives = [
         "text": "multikulturell"
       }
     },
-    "sourceIndex": 20207
+    "sourceIndex": 20207,
+    "adjectiveCategory": "society"
   },
   {
     "id": "30229",
@@ -19808,6 +21127,7 @@ const vocabularyAdjectives = [
         "text": "philippinisch"
       }
     },
-    "sourceIndex": 20229
+    "sourceIndex": 20229,
+    "adjectiveCategory": "places"
   }
 ];

@@ -48,6 +48,22 @@ const verbTechnology = [
     "sourceIndex": 279
   },
   {
+    "id": "10493",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "technology",
+    "translations": {
+      "en": {
+        "text": "to function / to work"
+      },
+      "de": {
+        "text": "funktionieren",
+        "separable": false
+      }
+    },
+    "sourceIndex": 493
+  },
+  {
     "id": "10709",
     "level": "B1",
     "pos": "verb",
@@ -62,6 +78,24 @@ const verbTechnology = [
       }
     },
     "sourceIndex": 709
+  },
+  {
+    "id": "10729",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "technology",
+    "translations": {
+      "en": {
+        "text": "to record / to take up / to absorb"
+      },
+      "de": {
+        "text": "aufnehmen",
+        "separable": true,
+        "prefix": "auf",
+        "baseVerb": "nehmen"
+      }
+    },
+    "sourceIndex": 729
   },
   {
     "id": "11078",

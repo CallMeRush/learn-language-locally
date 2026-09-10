@@ -220,6 +220,23 @@ const vocabularyPeople = [
     "sourceIndex": 230
   },
   {
+    "id": "10231",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "people",
+    "translations": {
+      "en": {
+        "text": "help / aid"
+      },
+      "de": {
+        "text": "die Hilfe",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 231
+  },
+  {
     "id": "10250",
     "level": "A1",
     "pos": "noun",
@@ -424,6 +441,23 @@ const vocabularyPeople = [
     "sourceIndex": 458
   },
   {
+    "id": "10522",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "people",
+    "translations": {
+      "en": {
+        "text": "support"
+      },
+      "de": {
+        "text": "die Unterstützung",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 522
+  },
+  {
     "id": "10577",
     "level": "B1",
     "pos": "noun",
@@ -541,6 +575,23 @@ const vocabularyPeople = [
       }
     },
     "sourceIndex": 751
+  },
+  {
+    "id": "10768",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "people",
+    "translations": {
+      "en": {
+        "text": "lady / queen (in chess;cards)"
+      },
+      "de": {
+        "text": "die Dame",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 768
   },
   {
     "id": "10773",
@@ -745,6 +796,23 @@ const vocabularyPeople = [
     "sourceIndex": 1248
   },
   {
+    "id": "11278",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "people",
+    "translations": {
+      "en": {
+        "text": "American (male)"
+      },
+      "de": {
+        "text": "der Amerikaner",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 1278
+  },
+  {
     "id": "11331",
     "level": "B1",
     "pos": "noun",
@@ -794,6 +862,23 @@ const vocabularyPeople = [
       }
     },
     "sourceIndex": 1394
+  },
+  {
+    "id": "11497",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "people",
+    "translations": {
+      "en": {
+        "text": "grandma"
+      },
+      "de": {
+        "text": "die Oma",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 1497
   },
   {
     "id": "11530",

@@ -1,3 +1,34 @@
+function showLessonSession() {
+  var session = document.getElementById("lesson-session");
+  if (!session) {
+    session = document.createElement("div");
+    session.id = "lesson-session";
+    session.innerHTML = '<div class="lesson-session-heading"><button class="secondary-btn" id="lesson-back">← Lesson list</button><h2 id="lesson-title"></h2><p id="lesson-description"></p></div>';
+    document.getElementById("lessons-view").append(session);
+    document.getElementById("lesson-back").onclick = () => {
+      session.hidden = true;
+      document.getElementById("lesson-list").hidden = false;
+      renderLessons();
+    };
+  }
+  session.hidden = false;
+  document.getElementById("lesson-list").hidden = true;
+  session.append(document.querySelector(".mixed-layout"));
+  var locale = lessonLocale(activeLesson);
+  document.getElementById("lesson-title").textContent = locale.title;
+  document.getElementById("lesson-description").textContent = locale.description + " Errors return at the end for a repair round.";
+}
+function restoreMixedDesk() {
+  activeLesson = null;
+  lessonComplete = false;
+  mixedQuestion = null;
+  document.getElementById("mixed-view").append(document.querySelector(".mixed-layout"));
+  var session = document.getElementById("lesson-session");
+  if (session) session.hidden = true;
+  document.getElementById("lesson-list").hidden = false;
+  $("#check-mixed").style.display = "";
+  $("#next-mixed").textContent = "New random question ↻";
+}
 function renderLessons() {
   var el = $("#lesson-list");
   if (!el) return;
@@ -16,16 +47,27 @@ function renderLessons() {
   );
 }
 function startLesson(lesson) {
+  if (activeLesson === lesson) {
+    setView("lessons");
+    showLessonSession();
+    return;
+  }
   activeLesson = lesson;
   lessonPhase = "practice";
   lessonErrors = [];
   lessonReviewErrors = [];
   lessonComplete = false;
 
-  lessonRemaining = lessonPool(lesson)
+  mixedQuestion = null;
+  var pool = lessonPool(lesson);
+  lessonRemaining = pool
     .sort(() => Math.random() - 0.5)
-    .slice(0, Math.min(16, lessonPool(lesson).length));
-  setView("mixed");
+    .slice(0, Math.min(16, pool.length));
+  setView("lessons");
+  showLessonSession();
+  $("#check-mixed").style.display = "";
+  $("#next-mixed").textContent = "Next question →";
+  nextMixed();
 }
 function finishLesson() {
   lessonComplete = true;

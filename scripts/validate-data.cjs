@@ -15,7 +15,10 @@ for(const item of [...vocab,...phrases]){
 for(const w of vocab){
   assert(levels.has(w.level));assert(w.pos==='verb'||w.category!=='verbs');
   if(w.pos==='verb')assert.equal(w.category,'verbs');
-  if(w.pos==='adjective')assert.equal(w.category,'adjectives');
+  if(w.pos==='adjective'){
+    assert.equal(w.category,'adjectives');
+    assert(categories.has('adjective-'+w.adjectiveCategory),'Unknown adjective group');
+  }
   if(w.pos==='noun'){const de=w.translations.de;assert(['der','die','das'].includes(de.article));assert(de.text.startsWith(de.article+' '));}
 }
 for(const p of phrases){assert(phraseLevel(p));assert(p.wordIds.length);for(const id of p.wordIds)assert(wordIds.has(id),'Broken sentence→word reference '+id);}

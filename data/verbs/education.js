@@ -1,5 +1,21 @@
 const verbEducation = [
   {
+    "id": "10047",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "education",
+    "translations": {
+      "en": {
+        "text": "to know (facts)"
+      },
+      "de": {
+        "text": "wissen",
+        "separable": false
+      }
+    },
+    "sourceIndex": 47
+  },
+  {
     "id": "10223",
     "level": "A1",
     "pos": "verb",
@@ -80,6 +96,54 @@ const verbEducation = [
     "sourceIndex": 312
   },
   {
+    "id": "10525",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "education",
+    "translations": {
+      "en": {
+        "text": "to choose"
+      },
+      "de": {
+        "text": "wählen",
+        "separable": false
+      }
+    },
+    "sourceIndex": 525
+  },
+  {
+    "id": "10566",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "education",
+    "translations": {
+      "en": {
+        "text": "to decide"
+      },
+      "de": {
+        "text": "entscheiden",
+        "separable": false
+      }
+    },
+    "sourceIndex": 566
+  },
+  {
+    "id": "10567",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "education",
+    "translations": {
+      "en": {
+        "text": "to recognize"
+      },
+      "de": {
+        "text": "erkennen",
+        "separable": false
+      }
+    },
+    "sourceIndex": 567
+  },
+  {
     "id": "10580",
     "level": "B1",
     "pos": "verb",
@@ -94,6 +158,54 @@ const verbEducation = [
       }
     },
     "sourceIndex": 580
+  },
+  {
+    "id": "10823",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "education",
+    "translations": {
+      "en": {
+        "text": "to count"
+      },
+      "de": {
+        "text": "zählen",
+        "separable": false
+      }
+    },
+    "sourceIndex": 823
+  },
+  {
+    "id": "10828",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "education",
+    "translations": {
+      "en": {
+        "text": "to discover"
+      },
+      "de": {
+        "text": "entdecken",
+        "separable": false
+      }
+    },
+    "sourceIndex": 828
+  },
+  {
+    "id": "11105",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "education",
+    "translations": {
+      "en": {
+        "text": "to solve / to loosen"
+      },
+      "de": {
+        "text": "lösen",
+        "separable": false
+      }
+    },
+    "sourceIndex": 1105
   },
   {
     "id": "11264",
@@ -158,6 +270,22 @@ const verbEducation = [
       }
     },
     "sourceIndex": 1666
+  },
+  {
+    "id": "11691",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "education",
+    "translations": {
+      "en": {
+        "text": "to compare"
+      },
+      "de": {
+        "text": "vergleichen",
+        "separable": false
+      }
+    },
+    "sourceIndex": 1691
   },
   {
     "id": "11875",
@@ -238,6 +366,22 @@ const verbEducation = [
       }
     },
     "sourceIndex": 2862
+  },
+  {
+    "id": "13421",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "education",
+    "translations": {
+      "en": {
+        "text": "to teach"
+      },
+      "de": {
+        "text": "lehren",
+        "separable": false
+      }
+    },
+    "sourceIndex": 3421
   },
   {
     "id": "14201",

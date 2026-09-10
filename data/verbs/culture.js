@@ -112,6 +112,22 @@ const verbCulture = [
     "sourceIndex": 775
   },
   {
+    "id": "10805",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "culture",
+    "translations": {
+      "en": {
+        "text": "to celebrate"
+      },
+      "de": {
+        "text": "feiern",
+        "separable": false
+      }
+    },
+    "sourceIndex": 805
+  },
+  {
     "id": "11065",
     "level": "A2",
     "pos": "verb",

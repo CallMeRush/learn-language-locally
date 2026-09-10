@@ -80,6 +80,22 @@ const verbWork = [
     "sourceIndex": 359
   },
   {
+    "id": "10584",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "work",
+    "translations": {
+      "en": {
+        "text": "to found / to establish"
+      },
+      "de": {
+        "text": "gründen",
+        "separable": false
+      }
+    },
+    "sourceIndex": 584
+  },
+  {
     "id": "10592",
     "level": "A2",
     "pos": "verb",
@@ -94,6 +110,22 @@ const verbWork = [
       }
     },
     "sourceIndex": 592
+  },
+  {
+    "id": "10657",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "work",
+    "translations": {
+      "en": {
+        "text": "to support"
+      },
+      "de": {
+        "text": "unterstützen",
+        "separable": false
+      }
+    },
+    "sourceIndex": 657
   },
   {
     "id": "10731",
@@ -112,6 +144,22 @@ const verbWork = [
     "sourceIndex": 731
   },
   {
+    "id": "10759",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "work",
+    "translations": {
+      "en": {
+        "text": "to achieve / to afford / to perform"
+      },
+      "de": {
+        "text": "leisten",
+        "separable": false
+      }
+    },
+    "sourceIndex": 759
+  },
+  {
     "id": "10940",
     "level": "A2",
     "pos": "verb",
@@ -126,6 +174,40 @@ const verbWork = [
       }
     },
     "sourceIndex": 940
+  },
+  {
+    "id": "11012",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "work",
+    "translations": {
+      "en": {
+        "text": "to open (a business;an event;etc.)"
+      },
+      "de": {
+        "text": "eröffnen",
+        "separable": false
+      }
+    },
+    "sourceIndex": 1012
+  },
+  {
+    "id": "11052",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "work",
+    "translations": {
+      "en": {
+        "text": "to carry out / to conduct"
+      },
+      "de": {
+        "text": "durchführen",
+        "separable": true,
+        "prefix": "durch",
+        "baseVerb": "führen"
+      }
+    },
+    "sourceIndex": 1052
   },
   {
     "id": "11153",
@@ -260,6 +342,22 @@ const verbWork = [
     "sourceIndex": 1768
   },
   {
+    "id": "11827",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "work",
+    "translations": {
+      "en": {
+        "text": "to promote / to foster"
+      },
+      "de": {
+        "text": "fördern",
+        "separable": false
+      }
+    },
+    "sourceIndex": 1827
+  },
+  {
     "id": "11921",
     "level": "B1",
     "pos": "verb",
@@ -290,6 +388,22 @@ const verbWork = [
       }
     },
     "sourceIndex": 2080
+  },
+  {
+    "id": "12290",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "work",
+    "translations": {
+      "en": {
+        "text": "to lead"
+      },
+      "de": {
+        "text": "leiten",
+        "separable": false
+      }
+    },
+    "sourceIndex": 2290
   },
   {
     "id": "12473",
@@ -644,6 +758,22 @@ const verbWork = [
       }
     },
     "sourceIndex": 4720
+  },
+  {
+    "id": "15420",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "work",
+    "translations": {
+      "en": {
+        "text": "to manage / to administer"
+      },
+      "de": {
+        "text": "verwalten",
+        "separable": false
+      }
+    },
+    "sourceIndex": 5420
   },
   {
     "id": "15742",

@@ -3,6 +3,7 @@
    Run --check to assert generated files match the checked-in sources. */
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),crypto=require('node:crypto');
 const {classify,overrides}=require('./deck-topics.cjs');
+const {groups:adjectiveGroups,adjectiveGroup}=require('./adjective-groups.cjs');
 const root=path.resolve(__dirname,'..');
 const read=p=>fs.readFileSync(path.join(root,p),'utf8');
 const raw=read('dictionaries/sources/german-deck.json'),deck=JSON.parse(raw);
@@ -65,6 +66,9 @@ for(const a of assignments.entries){
   if(row.capitalization_sensitive)de.caseSensitive=true;
   if(a.pos==='verb'){de.separable=Boolean(row.is_separable_verb);if(de.separable){de.prefix=clean(row.separable_prefix);de.baseVerb=clean(row.base_verb);}}
   const record={id:a.id,level:row.cefr_level,pos:a.pos,topic,translations:{en:{text:en},de},sourceIndex:a.sourceIndex};
+  if(a.pos==='adjective') {
+    record.adjectiveCategory=a.adjectiveGroup||adjectiveGroup(en,topic);
+  }
   const file=a.pos==='verb'?`data/verbs/${verbFileTopic(topic)}.js`:`data/vocabulary/${a.pos==='adjective'?'adjectives':topic}.js`;
   if(!files[file])throw Error('Missing category file '+file);
   files[file].records.push(record);topicCounts[topic]=(topicCounts[topic]||0)+1;
@@ -84,7 +88,17 @@ for(const s of supplements){
 for(const [p,{name,records}] of Object.entries(files))write(p,`const ${name} = ${JSON.stringify(records,null,2)};\n`);
 write('data/phrases.js',`const phrases = ${JSON.stringify(phrases,null,2)};\n`);
 const labels={all:'All words',verbs:'All verbs',adjectives:'Adjectives',house:'Home & household',greetings:'Greetings',people:'People & relationships',food:'Food & drink',city:'Places & public life',time:'Time & numbers',travel:'Travel & transport',health:'Health & body',shopping:'Shopping & money',nature:'Nature & weather',work:'Work & business',feelings:'Feelings & thoughts',clothing:'Clothes & fashion',education:'Learning & knowledge',technology:'Technology & media',communication:'Communication',daily:'General & everyday life',environment:'Environment',culture:'Culture & leisure',core:'Core',modal:'Modal'};
-const categories=['all','verbs',...topics,...Object.entries(files).filter(([p,x])=>p.startsWith('data/verbs')&&x.records.length).map(([p])=>'verb-'+path.basename(p,'.js'))].map(id=>({id,type:'category',localized:{en:{label:id.startsWith('verb-')?'Verbs · '+labels[id.slice(5)]:labels[id]}}}));
+const categories=['all','verbs',...topics,...Object.entries(files).filter(([p,x])=>p.startsWith('data/verbs')&&x.records.length).map(([p])=>'verb-'+path.basename(p,'.js'))].map(id=>({id,type:'category',localized:{en:{label:id.startsWith('verb-')?labels[id.slice(5)]:labels[id]}}}));
+// Lower CEFR mean first, then median source frequency rank; aggregate tabs last.
+for (const category of categories) {
+  const file = category.id.startsWith('verb-') ? 'data/verbs/'+category.id.slice(5)+'.js' : 'data/vocabulary/'+category.id+'.js';
+  const rows = files[file]?.records || [];
+  if (!rows.length) { category.studyOrder = 9999999; continue; }
+  const difficulty = rows.reduce((sum,row)=>sum+({A1:1,A2:2,B1:3}[row.level]),0)/rows.length;
+  const ranks = rows.map(row=>Number(deck[row.sourceIndex]?.word_frequency)||100000).sort((a,b)=>a-b);
+  category.studyOrder = Math.round(difficulty * 1000000 + ranks[Math.floor(ranks.length/2)]);
+}
+for(const [group,label] of Object.entries(adjectiveGroups))categories.push({id:'adjective-'+group,type:'category',localized:{en:{label}}});
 write('data/categories.js',`const categoryRecords = ${JSON.stringify(categories,null,2)};\n`);
 const totals={vocabulary:Object.entries(files).filter(([p])=>p.startsWith('data/vocabulary')).reduce((n,[,x])=>n+x.records.length,0),verbs:Object.entries(files).filter(([p])=>p.startsWith('data/verbs')).reduce((n,[,x])=>n+x.records.length,0),phrases:phrases.length};
 write(folder+'/report.json',JSON.stringify({revision,sha256,candidates:candidates.length,totals,topicCounts,duplicates,held,topicReview:assignments.entries.filter(a=>a.status==='include'&&(a.topicMethod==='general'||a.topicMethod==='ambiguous')).map(a=>a.id)},null,2)+'\n');

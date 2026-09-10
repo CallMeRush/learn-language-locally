@@ -48,6 +48,38 @@ const verbFeelings = [
     "sourceIndex": 350
   },
   {
+    "id": "10474",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "feelings",
+    "translations": {
+      "en": {
+        "text": "to please / to like"
+      },
+      "de": {
+        "text": "gefallen",
+        "separable": false
+      }
+    },
+    "sourceIndex": 474
+  },
+  {
+    "id": "10516",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "feelings",
+    "translations": {
+      "en": {
+        "text": "to expect"
+      },
+      "de": {
+        "text": "erwarten",
+        "separable": false
+      }
+    },
+    "sourceIndex": 516
+  },
+  {
     "id": "10555",
     "level": "A2",
     "pos": "verb",
@@ -80,6 +112,22 @@ const verbFeelings = [
       }
     },
     "sourceIndex": 615
+  },
+  {
+    "id": "10624",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "feelings",
+    "translations": {
+      "en": {
+        "text": "to interest"
+      },
+      "de": {
+        "text": "interessieren",
+        "separable": false
+      }
+    },
+    "sourceIndex": 624
   },
   {
     "id": "10626",

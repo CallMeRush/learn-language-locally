@@ -16,22 +16,6 @@ const verbDaily = [
     "sourceIndex": 22
   },
   {
-    "id": "10024",
-    "level": "A1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to go"
-      },
-      "de": {
-        "text": "gehen",
-        "separable": false
-      }
-    },
-    "sourceIndex": 24
-  },
-  {
     "id": "10028",
     "level": "A1",
     "pos": "verb",
@@ -48,38 +32,6 @@ const verbDaily = [
     "sourceIndex": 28
   },
   {
-    "id": "10035",
-    "level": "A1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to come"
-      },
-      "de": {
-        "text": "kommen",
-        "separable": false
-      }
-    },
-    "sourceIndex": 35
-  },
-  {
-    "id": "10037",
-    "level": "A1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to live"
-      },
-      "de": {
-        "text": "leben",
-        "separable": false
-      }
-    },
-    "sourceIndex": 37
-  },
-  {
     "id": "10045",
     "level": "A2",
     "pos": "verb",
@@ -94,22 +46,6 @@ const verbDaily = [
       }
     },
     "sourceIndex": 45
-  },
-  {
-    "id": "10047",
-    "level": "A1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to know (facts)"
-      },
-      "de": {
-        "text": "wissen",
-        "separable": false
-      }
-    },
-    "sourceIndex": 47
   },
   {
     "id": "10056",
@@ -192,22 +128,6 @@ const verbDaily = [
     "sourceIndex": 97
   },
   {
-    "id": "10120",
-    "level": "A2",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to belong to"
-      },
-      "de": {
-        "text": "gehören",
-        "separable": false
-      }
-    },
-    "sourceIndex": 120
-  },
-  {
     "id": "10124",
     "level": "A1",
     "pos": "verb",
@@ -254,22 +174,6 @@ const verbDaily = [
       }
     },
     "sourceIndex": 175
-  },
-  {
-    "id": "10190",
-    "level": "A1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to bring"
-      },
-      "de": {
-        "text": "bringen",
-        "separable": false
-      }
-    },
-    "sourceIndex": 190
   },
   {
     "id": "10199",
@@ -336,102 +240,6 @@ const verbDaily = [
     "sourceIndex": 266
   },
   {
-    "id": "10274",
-    "level": "A2",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to follow"
-      },
-      "de": {
-        "text": "folgen",
-        "separable": false
-      }
-    },
-    "sourceIndex": 274
-  },
-  {
-    "id": "10277",
-    "level": "A1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to help"
-      },
-      "de": {
-        "text": "helfen",
-        "separable": false
-      }
-    },
-    "sourceIndex": 277
-  },
-  {
-    "id": "10329",
-    "level": "A2",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to reach / to achieve"
-      },
-      "de": {
-        "text": "erreichen",
-        "separable": false
-      }
-    },
-    "sourceIndex": 329
-  },
-  {
-    "id": "10349",
-    "level": "A1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to fall"
-      },
-      "de": {
-        "text": "fallen",
-        "separable": false
-      }
-    },
-    "sourceIndex": 349
-  },
-  {
-    "id": "10379",
-    "level": "A2",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to explain"
-      },
-      "de": {
-        "text": "erklären",
-        "separable": false
-      }
-    },
-    "sourceIndex": 379
-  },
-  {
-    "id": "10386",
-    "level": "A1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to pull / to move"
-      },
-      "de": {
-        "text": "ziehen",
-        "separable": false
-      }
-    },
-    "sourceIndex": 386
-  },
-  {
     "id": "10404",
     "level": "A2",
     "pos": "verb",
@@ -451,7 +259,7 @@ const verbDaily = [
     "id": "10438",
     "level": "A1",
     "pos": "verb",
-    "topic": "daily",
+    "topic": "time",
     "translations": {
       "en": {
         "text": "to wait"
@@ -480,22 +288,6 @@ const verbDaily = [
     "sourceIndex": 452
   },
   {
-    "id": "10474",
-    "level": "B1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to please / to like"
-      },
-      "de": {
-        "text": "gefallen",
-        "separable": false
-      }
-    },
-    "sourceIndex": 474
-  },
-  {
     "id": "10477",
     "level": "B1",
     "pos": "verb",
@@ -510,22 +302,6 @@ const verbDaily = [
       }
     },
     "sourceIndex": 477
-  },
-  {
-    "id": "10493",
-    "level": "B1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to function / to work"
-      },
-      "de": {
-        "text": "funktionieren",
-        "separable": false
-      }
-    },
-    "sourceIndex": 493
   },
   {
     "id": "10503",
@@ -579,7 +355,7 @@ const verbDaily = [
     "id": "10511",
     "level": "A1",
     "pos": "verb",
-    "topic": "daily",
+    "topic": "time",
     "translations": {
       "en": {
         "text": "to begin / to start"
@@ -590,54 +366,6 @@ const verbDaily = [
       }
     },
     "sourceIndex": 511
-  },
-  {
-    "id": "10516",
-    "level": "B1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to expect"
-      },
-      "de": {
-        "text": "erwarten",
-        "separable": false
-      }
-    },
-    "sourceIndex": 516
-  },
-  {
-    "id": "10524",
-    "level": "B1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to leave"
-      },
-      "de": {
-        "text": "verlassen",
-        "separable": false
-      }
-    },
-    "sourceIndex": 524
-  },
-  {
-    "id": "10525",
-    "level": "A2",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to choose"
-      },
-      "de": {
-        "text": "wählen",
-        "separable": false
-      }
-    },
-    "sourceIndex": 525
   },
   {
     "id": "10538",
@@ -688,54 +416,6 @@ const verbDaily = [
     "sourceIndex": 554
   },
   {
-    "id": "10566",
-    "level": "A2",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to decide"
-      },
-      "de": {
-        "text": "entscheiden",
-        "separable": false
-      }
-    },
-    "sourceIndex": 566
-  },
-  {
-    "id": "10567",
-    "level": "B1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to recognize"
-      },
-      "de": {
-        "text": "erkennen",
-        "separable": false
-      }
-    },
-    "sourceIndex": 567
-  },
-  {
-    "id": "10584",
-    "level": "B1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to found / to establish"
-      },
-      "de": {
-        "text": "gründen",
-        "separable": false
-      }
-    },
-    "sourceIndex": 584
-  },
-  {
     "id": "10588",
     "level": "A1",
     "pos": "verb",
@@ -752,22 +432,6 @@ const verbDaily = [
     "sourceIndex": 588
   },
   {
-    "id": "10624",
-    "level": "A1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to interest"
-      },
-      "de": {
-        "text": "interessieren",
-        "separable": false
-      }
-    },
-    "sourceIndex": 624
-  },
-  {
     "id": "10636",
     "level": "B1",
     "pos": "verb",
@@ -782,22 +446,6 @@ const verbDaily = [
       }
     },
     "sourceIndex": 636
-  },
-  {
-    "id": "10657",
-    "level": "B1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to support"
-      },
-      "de": {
-        "text": "unterstützen",
-        "separable": false
-      }
-    },
-    "sourceIndex": 657
   },
   {
     "id": "10679",
@@ -819,7 +467,7 @@ const verbDaily = [
     "id": "10681",
     "level": "A1",
     "pos": "verb",
-    "topic": "daily",
+    "topic": "house",
     "translations": {
       "en": {
         "text": "to lay / to put"
@@ -830,22 +478,6 @@ const verbDaily = [
       }
     },
     "sourceIndex": 681
-  },
-  {
-    "id": "10689",
-    "level": "B1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to injure"
-      },
-      "de": {
-        "text": "verletzen",
-        "separable": false
-      }
-    },
-    "sourceIndex": 689
   },
   {
     "id": "10711",
@@ -878,56 +510,6 @@ const verbDaily = [
       }
     },
     "sourceIndex": 716
-  },
-  {
-    "id": "10718",
-    "level": "A1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to fetch"
-      },
-      "de": {
-        "text": "holen",
-        "separable": false
-      }
-    },
-    "sourceIndex": 718
-  },
-  {
-    "id": "10729",
-    "level": "B1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to record / to take up / to absorb"
-      },
-      "de": {
-        "text": "aufnehmen",
-        "separable": true,
-        "prefix": "auf",
-        "baseVerb": "nehmen"
-      }
-    },
-    "sourceIndex": 729
-  },
-  {
-    "id": "10759",
-    "level": "B1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to achieve / to afford / to perform"
-      },
-      "de": {
-        "text": "leisten",
-        "separable": false
-      }
-    },
-    "sourceIndex": 759
   },
   {
     "id": "10764",
@@ -996,22 +578,6 @@ const verbDaily = [
     "sourceIndex": 804
   },
   {
-    "id": "10805",
-    "level": "A1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to celebrate"
-      },
-      "de": {
-        "text": "feiern",
-        "separable": false
-      }
-    },
-    "sourceIndex": 805
-  },
-  {
     "id": "10807",
     "level": "B1",
     "pos": "verb",
@@ -1060,22 +626,6 @@ const verbDaily = [
     "sourceIndex": 818
   },
   {
-    "id": "10823",
-    "level": "A2",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to count"
-      },
-      "de": {
-        "text": "zählen",
-        "separable": false
-      }
-    },
-    "sourceIndex": 823
-  },
-  {
     "id": "10827",
     "level": "B1",
     "pos": "verb",
@@ -1092,38 +642,6 @@ const verbDaily = [
       }
     },
     "sourceIndex": 827
-  },
-  {
-    "id": "10828",
-    "level": "A2",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to discover"
-      },
-      "de": {
-        "text": "entdecken",
-        "separable": false
-      }
-    },
-    "sourceIndex": 828
-  },
-  {
-    "id": "10851",
-    "level": "B1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to confirm / to affirm"
-      },
-      "de": {
-        "text": "bestätigen",
-        "separable": false
-      }
-    },
-    "sourceIndex": 851
   },
   {
     "id": "10856",
@@ -1145,7 +663,7 @@ const verbDaily = [
     "id": "10859",
     "level": "A2",
     "pos": "verb",
-    "topic": "daily",
+    "topic": "house",
     "translations": {
       "en": {
         "text": "to hang (intransitive)"
@@ -1270,38 +788,6 @@ const verbDaily = [
     "sourceIndex": 936
   },
   {
-    "id": "10947",
-    "level": "A2",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to send"
-      },
-      "de": {
-        "text": "schicken",
-        "separable": false
-      }
-    },
-    "sourceIndex": 947
-  },
-  {
-    "id": "10950",
-    "level": "B1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to step / to kick"
-      },
-      "de": {
-        "text": "treten",
-        "separable": false
-      }
-    },
-    "sourceIndex": 950
-  },
-  {
     "id": "10954",
     "level": "B1",
     "pos": "verb",
@@ -1354,42 +840,10 @@ const verbDaily = [
     "sourceIndex": 979
   },
   {
-    "id": "10988",
-    "level": "B1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to suffer"
-      },
-      "de": {
-        "text": "leiden",
-        "separable": false
-      }
-    },
-    "sourceIndex": 988
-  },
-  {
-    "id": "11012",
-    "level": "B1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to open (a business;an event;etc.)"
-      },
-      "de": {
-        "text": "eröffnen",
-        "separable": false
-      }
-    },
-    "sourceIndex": 1012
-  },
-  {
     "id": "11029",
     "level": "A1",
     "pos": "verb",
-    "topic": "daily",
+    "topic": "time",
     "translations": {
       "en": {
         "text": "to begin / to start"
@@ -1402,22 +856,6 @@ const verbDaily = [
       }
     },
     "sourceIndex": 1029
-  },
-  {
-    "id": "11031",
-    "level": "B1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to own / to possess"
-      },
-      "de": {
-        "text": "besitzen",
-        "separable": false
-      }
-    },
-    "sourceIndex": 1031
   },
   {
     "id": "11033",
@@ -1439,7 +877,7 @@ const verbDaily = [
     "id": "11042",
     "level": "B1",
     "pos": "verb",
-    "topic": "daily",
+    "topic": "house",
     "translations": {
       "en": {
         "text": "to stick / to put (into)"
@@ -1450,24 +888,6 @@ const verbDaily = [
       }
     },
     "sourceIndex": 1042
-  },
-  {
-    "id": "11052",
-    "level": "B1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to carry out / to conduct"
-      },
-      "de": {
-        "text": "durchführen",
-        "separable": true,
-        "prefix": "durch",
-        "baseVerb": "führen"
-      }
-    },
-    "sourceIndex": 1052
   },
   {
     "id": "11055",
@@ -1504,22 +924,6 @@ const verbDaily = [
     "sourceIndex": 1095
   },
   {
-    "id": "11098",
-    "level": "A2",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to move"
-      },
-      "de": {
-        "text": "bewegen",
-        "separable": false
-      }
-    },
-    "sourceIndex": 1098
-  },
-  {
     "id": "11100",
     "level": "B1",
     "pos": "verb",
@@ -1536,26 +940,10 @@ const verbDaily = [
     "sourceIndex": 1100
   },
   {
-    "id": "11105",
-    "level": "B1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to solve / to loosen"
-      },
-      "de": {
-        "text": "lösen",
-        "separable": false
-      }
-    },
-    "sourceIndex": 1105
-  },
-  {
     "id": "11112",
     "level": "A2",
     "pos": "verb",
-    "topic": "daily",
+    "topic": "time",
     "translations": {
       "en": {
         "text": "to start"
@@ -1571,7 +959,7 @@ const verbDaily = [
     "id": "11122",
     "level": "A1",
     "pos": "verb",
-    "topic": "daily",
+    "topic": "house",
     "translations": {
       "en": {
         "text": "to open"
@@ -1749,7 +1137,7 @@ const verbDaily = [
     "id": "11300",
     "level": "A2",
     "pos": "verb",
-    "topic": "daily",
+    "topic": "time",
     "translations": {
       "en": {
         "text": "to end"
@@ -1824,22 +1212,6 @@ const verbDaily = [
       }
     },
     "sourceIndex": 1346
-  },
-  {
-    "id": "11349",
-    "level": "A2",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to order"
-      },
-      "de": {
-        "text": "bestellen",
-        "separable": false
-      }
-    },
-    "sourceIndex": 1349
   },
   {
     "id": "11356",
@@ -1920,22 +1292,6 @@ const verbDaily = [
       }
     },
     "sourceIndex": 1409
-  },
-  {
-    "id": "11416",
-    "level": "B1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to claim / to assert"
-      },
-      "de": {
-        "text": "behaupten",
-        "separable": false
-      }
-    },
-    "sourceIndex": 1416
   },
   {
     "id": "11417",
@@ -2348,22 +1704,6 @@ const verbDaily = [
     "sourceIndex": 1689
   },
   {
-    "id": "11691",
-    "level": "B1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to compare"
-      },
-      "de": {
-        "text": "vergleichen",
-        "separable": false
-      }
-    },
-    "sourceIndex": 1691
-  },
-  {
     "id": "11709",
     "level": "B1",
     "pos": "verb",
@@ -2588,22 +1928,6 @@ const verbDaily = [
       }
     },
     "sourceIndex": 1824
-  },
-  {
-    "id": "11827",
-    "level": "B1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to promote / to foster"
-      },
-      "de": {
-        "text": "fördern",
-        "separable": false
-      }
-    },
-    "sourceIndex": 1827
   },
   {
     "id": "11830",
@@ -3348,22 +2672,6 @@ const verbDaily = [
     "sourceIndex": 2280
   },
   {
-    "id": "12290",
-    "level": "B1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to lead"
-      },
-      "de": {
-        "text": "leiten",
-        "separable": false
-      }
-    },
-    "sourceIndex": 2290
-  },
-  {
     "id": "12302",
     "level": "B1",
     "pos": "verb",
@@ -3778,22 +3086,6 @@ const verbDaily = [
       }
     },
     "sourceIndex": 2627
-  },
-  {
-    "id": "12629",
-    "level": "A1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to thank"
-      },
-      "de": {
-        "text": "danken",
-        "separable": false
-      }
-    },
-    "sourceIndex": 2629
   },
   {
     "id": "12663",
@@ -4456,22 +3748,6 @@ const verbDaily = [
     "sourceIndex": 3123
   },
   {
-    "id": "13135",
-    "level": "B1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to say goodbye / to pass (a law)"
-      },
-      "de": {
-        "text": "verabschieden",
-        "separable": false
-      }
-    },
-    "sourceIndex": 3135
-  },
-  {
     "id": "13145",
     "level": "B1",
     "pos": "verb",
@@ -4748,22 +4024,6 @@ const verbDaily = [
       }
     },
     "sourceIndex": 3396
-  },
-  {
-    "id": "13421",
-    "level": "B1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to teach"
-      },
-      "de": {
-        "text": "lehren",
-        "separable": false
-      }
-    },
-    "sourceIndex": 3421
   },
   {
     "id": "13442",
@@ -6844,22 +6104,6 @@ const verbDaily = [
     "sourceIndex": 5403
   },
   {
-    "id": "15420",
-    "level": "B1",
-    "pos": "verb",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "to manage / to administer"
-      },
-      "de": {
-        "text": "verwalten",
-        "separable": false
-      }
-    },
-    "sourceIndex": 5420
-  },
-  {
     "id": "15427",
     "level": "A2",
     "pos": "verb",
@@ -6931,7 +6175,7 @@ const verbDaily = [
     "id": "15492",
     "level": "A1",
     "pos": "verb",
-    "topic": "daily",
+    "topic": "house",
     "translations": {
       "en": {
         "text": "to close / to shut"

@@ -170,6 +170,23 @@ const vocabularyHouse = [
     "sourceIndex": 527
   },
   {
+    "id": "10542",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "house",
+    "translations": {
+      "en": {
+        "text": "order / tidiness"
+      },
+      "de": {
+        "text": "die Ordnung",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 542
+  },
+  {
     "id": "10563",
     "level": "A1",
     "pos": "noun",
@@ -219,6 +236,23 @@ const vocabularyHouse = [
       }
     },
     "sourceIndex": 590
+  },
+  {
+    "id": "10611",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "house",
+    "translations": {
+      "en": {
+        "text": "window"
+      },
+      "de": {
+        "text": "das Fenster",
+        "article": "das",
+        "gender": "neuter"
+      }
+    },
+    "sourceIndex": 611
   },
   {
     "id": "10645",
@@ -372,6 +406,23 @@ const vocabularyHouse = [
     "sourceIndex": 887
   },
   {
+    "id": "10944",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "house",
+    "translations": {
+      "en": {
+        "text": "material"
+      },
+      "de": {
+        "text": "das Material",
+        "article": "das",
+        "gender": "neuter"
+      }
+    },
+    "sourceIndex": 944
+  },
+  {
     "id": "10987",
     "level": "A2",
     "pos": "noun",
@@ -406,6 +457,23 @@ const vocabularyHouse = [
     "sourceIndex": 1001
   },
   {
+    "id": "11009",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "house",
+    "translations": {
+      "en": {
+        "text": "corner"
+      },
+      "de": {
+        "text": "die Ecke",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 1009
+  },
+  {
     "id": "11014",
     "level": "A1",
     "pos": "noun",
@@ -438,6 +506,23 @@ const vocabularyHouse = [
       }
     },
     "sourceIndex": 1076
+  },
+  {
+    "id": "11158",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "house",
+    "translations": {
+      "en": {
+        "text": "glass"
+      },
+      "de": {
+        "text": "das Glas",
+        "article": "das",
+        "gender": "neuter"
+      }
+    },
+    "sourceIndex": 1158
   },
   {
     "id": "11238",

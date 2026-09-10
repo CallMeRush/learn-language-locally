@@ -17,9 +17,18 @@ Both translation directions contribute to the new deck's study profile
 (`en-de-deck-efd235e6-v1`). It starts fresh because the content IDs changed.
 Earlier progress stays stored in the browser but is not applied to this corpus.
 
-The current A1–B1 dataset includes 7,568 vocabulary entries, 1,585 verbs and
+The current A1–B1 dataset includes 6,248 vocabulary entries, 1,320 adjectives, 1,585 verbs and
 9,124 example sentences. German grammar remains separate. See
 [`data/ATTRIBUTION.md`](data/ATTRIBUTION.md) for source credits and data terms.
+
+Vocabulary has Nouns (the general word collection), Verbs, and Adjectives tabs.
+Click a list entry to practise it. A default-on Hide answer toggle conceals the
+answer-side translation in the list; ✓ and ✕ mark correct and incorrect answers.
+Words and sentences have parallel Pending, Correct and Incorrect lists with
+counts and paginated rows. Click any entry to practise it again. Adjectives retain
+meaning groups without tone filters. Topics are ordered using CEFR and source
+frequency rank; Vocabulary opens a small topic rather than All words.
+Practice layouts adapt from stacked mobile lists to desktop columns.
 
 ## Project layout
 

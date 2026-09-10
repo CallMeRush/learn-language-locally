@@ -153,6 +153,23 @@ const vocabularyNature = [
     "sourceIndex": 789
   },
   {
+    "id": "10806",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "nature",
+    "translations": {
+      "en": {
+        "text": "fire"
+      },
+      "de": {
+        "text": "das Feuer",
+        "article": "das",
+        "gender": "neuter"
+      }
+    },
+    "sourceIndex": 806
+  },
+  {
     "id": "10820",
     "level": "A1",
     "pos": "noun",
@@ -289,6 +306,40 @@ const vocabularyNature = [
     "sourceIndex": 1274
   },
   {
+    "id": "11361",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "nature",
+    "translations": {
+      "en": {
+        "text": "gas"
+      },
+      "de": {
+        "text": "das Gas",
+        "article": "das",
+        "gender": "neuter"
+      }
+    },
+    "sourceIndex": 1361
+  },
+  {
+    "id": "11374",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "nature",
+    "translations": {
+      "en": {
+        "text": "tail"
+      },
+      "de": {
+        "text": "der Schwanz",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 1374
+  },
+  {
     "id": "11432",
     "level": "B1",
     "pos": "noun",
@@ -304,6 +355,23 @@ const vocabularyNature = [
       }
     },
     "sourceIndex": 1432
+  },
+  {
+    "id": "11462",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "nature",
+    "translations": {
+      "en": {
+        "text": "shadow"
+      },
+      "de": {
+        "text": "der Schatten",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 1462
   },
   {
     "id": "11465",

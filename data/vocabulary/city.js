@@ -152,6 +152,23 @@ const vocabularyCity = [
     "sourceIndex": 186
   },
   {
+    "id": "10204",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "city",
+    "translations": {
+      "en": {
+        "text": "society / company"
+      },
+      "de": {
+        "text": "die Gesellschaft",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 204
+  },
+  {
     "id": "10234",
     "level": "B1",
     "pos": "noun",
@@ -269,6 +286,23 @@ const vocabularyCity = [
       }
     },
     "sourceIndex": 376
+  },
+  {
+    "id": "10400",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "city",
+    "translations": {
+      "en": {
+        "text": "community / municipality"
+      },
+      "de": {
+        "text": "die Gemeinde",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 400
   },
   {
     "id": "10405",
@@ -456,6 +490,23 @@ const vocabularyCity = [
       }
     },
     "sourceIndex": 570
+  },
+  {
+    "id": "10582",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "city",
+    "translations": {
+      "en": {
+        "text": "violence / force"
+      },
+      "de": {
+        "text": "die Gewalt",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 582
   },
   {
     "id": "10587",
@@ -715,6 +766,23 @@ const vocabularyCity = [
     "sourceIndex": 899
   },
   {
+    "id": "10911",
+    "level": "A1",
+    "pos": "noun",
+    "topic": "city",
+    "translations": {
+      "en": {
+        "text": "park"
+      },
+      "de": {
+        "text": "der Park",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 911
+  },
+  {
     "id": "10937",
     "level": "B1",
     "pos": "noun",
@@ -764,6 +832,23 @@ const vocabularyCity = [
       }
     },
     "sourceIndex": 951
+  },
+  {
+    "id": "10958",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "city",
+    "translations": {
+      "en": {
+        "text": "peace"
+      },
+      "de": {
+        "text": "der Frieden",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 958
   },
   {
     "id": "10972",
@@ -868,6 +953,23 @@ const vocabularyCity = [
     "sourceIndex": 1191
   },
   {
+    "id": "11198",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "city",
+    "translations": {
+      "en": {
+        "text": "access / entrance"
+      },
+      "de": {
+        "text": "der Zugang",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 1198
+  },
+  {
     "id": "11246",
     "level": "B1",
     "pos": "noun",
@@ -968,6 +1070,23 @@ const vocabularyCity = [
       }
     },
     "sourceIndex": 1414
+  },
+  {
+    "id": "11431",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "city",
+    "translations": {
+      "en": {
+        "text": "punishment / penalty"
+      },
+      "de": {
+        "text": "die Strafe",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 1431
   },
   {
     "id": "11448",

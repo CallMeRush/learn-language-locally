@@ -46,6 +46,19 @@ links each example to the vocabulary entries it came from.
 
 `import/supplements.json` supplies five essential modal verbs missing from the
 deck. `import/report.json` records exclusions, duplicates and topic-review IDs.
+Adjectives remain in `vocabulary/adjectives.js` but appear in their own app
+section. The importer adds `adjectiveCategory` using `scripts/adjective-groups.cjs`;
+an explicit `adjectiveGroup` in an assignment overrides that grouping.
+Meaning groups cover personality, skills, emotions, health, objects, appearance,
+origin, time, movement, certainty, society, sensory descriptions, evaluation and
+quantity, with an “Other descriptions” fallback. These are import-time heuristics,
+not a fully reviewed semantic classification.
+
+Grouping does not change IDs or reset existing progress.
+Topic study order combines mean CEFR difficulty with median source word_frequency
+rank (lower rank first). The All words/All verbs aggregates come last. Explicit
+German headword refinements are recorded in assignments.json; the reproducible
+editorial pass is scripts/refine-everyday-topics.cjs.
 Topics are primarily rule-assigned from English meanings, with example context
 used to resolve ties and explicit editorial overrides for reviewed cases.
 General/ambiguous meanings use the general category; this is not a claim that

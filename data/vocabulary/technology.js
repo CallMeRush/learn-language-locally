@@ -339,6 +339,23 @@ const vocabularyTechnology = [
     "sourceIndex": 816
   },
   {
+    "id": "10949",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "technology",
+    "translations": {
+      "en": {
+        "text": "current / electricity / river"
+      },
+      "de": {
+        "text": "der Strom",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 949
+  },
+  {
     "id": "10992",
     "level": "B1",
     "pos": "noun",
@@ -371,6 +388,23 @@ const vocabularyTechnology = [
       }
     },
     "sourceIndex": 994
+  },
+  {
+    "id": "10997",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "technology",
+    "translations": {
+      "en": {
+        "text": "broadcast / shipment"
+      },
+      "de": {
+        "text": "die Sendung",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 997
   },
   {
     "id": "11032",
@@ -490,6 +524,23 @@ const vocabularyTechnology = [
       }
     },
     "sourceIndex": 1265
+  },
+  {
+    "id": "11279",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "technology",
+    "translations": {
+      "en": {
+        "text": "advertisement / display / complaint"
+      },
+      "de": {
+        "text": "die Anzeige",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 1279
   },
   {
     "id": "11338",

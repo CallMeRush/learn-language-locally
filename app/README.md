@@ -14,3 +14,10 @@ these files in order and they share the browser application state.
 
 English is the interface language; German is the language being learned.
 Practice modes choose the translation direction. Content is in [`../data/`](../data/).
+
+Lessons run inside the Lessons section, using their configured topics and levels.
+The same exercise panel is moved between Lessons and Mixed practice to reuse answer
+controls without duplicate IDs. Returning to the lesson list preserves the current
+round in memory; opening free Mixed practice ends it. Completed lessons are saved.
+Skipped and incorrect questions return for repair. The final full-review lesson
+uses all content types and levels, independently of free-practice filters.

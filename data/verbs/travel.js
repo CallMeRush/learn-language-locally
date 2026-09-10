@@ -1,5 +1,37 @@
 const verbTravel = [
   {
+    "id": "10024",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "travel",
+    "translations": {
+      "en": {
+        "text": "to go"
+      },
+      "de": {
+        "text": "gehen",
+        "separable": false
+      }
+    },
+    "sourceIndex": 24
+  },
+  {
+    "id": "10035",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "travel",
+    "translations": {
+      "en": {
+        "text": "to come"
+      },
+      "de": {
+        "text": "kommen",
+        "separable": false
+      }
+    },
+    "sourceIndex": 35
+  },
+  {
     "id": "10151",
     "level": "A1",
     "pos": "verb",
@@ -32,6 +64,22 @@ const verbTravel = [
     "sourceIndex": 169
   },
   {
+    "id": "10190",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "travel",
+    "translations": {
+      "en": {
+        "text": "to bring"
+      },
+      "de": {
+        "text": "bringen",
+        "separable": false
+      }
+    },
+    "sourceIndex": 190
+  },
+  {
     "id": "10261",
     "level": "A1",
     "pos": "verb",
@@ -46,6 +94,22 @@ const verbTravel = [
       }
     },
     "sourceIndex": 261
+  },
+  {
+    "id": "10274",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "travel",
+    "translations": {
+      "en": {
+        "text": "to follow"
+      },
+      "de": {
+        "text": "folgen",
+        "separable": false
+      }
+    },
+    "sourceIndex": 274
   },
   {
     "id": "10276",
@@ -64,6 +128,22 @@ const verbTravel = [
     "sourceIndex": 276
   },
   {
+    "id": "10329",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "travel",
+    "translations": {
+      "en": {
+        "text": "to reach / to achieve"
+      },
+      "de": {
+        "text": "erreichen",
+        "separable": false
+      }
+    },
+    "sourceIndex": 329
+  },
+  {
     "id": "10337",
     "level": "A1",
     "pos": "verb",
@@ -78,6 +158,70 @@ const verbTravel = [
       }
     },
     "sourceIndex": 337
+  },
+  {
+    "id": "10349",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "travel",
+    "translations": {
+      "en": {
+        "text": "to fall"
+      },
+      "de": {
+        "text": "fallen",
+        "separable": false
+      }
+    },
+    "sourceIndex": 349
+  },
+  {
+    "id": "10386",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "travel",
+    "translations": {
+      "en": {
+        "text": "to pull / to move"
+      },
+      "de": {
+        "text": "ziehen",
+        "separable": false
+      }
+    },
+    "sourceIndex": 386
+  },
+  {
+    "id": "10524",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "travel",
+    "translations": {
+      "en": {
+        "text": "to leave"
+      },
+      "de": {
+        "text": "verlassen",
+        "separable": false
+      }
+    },
+    "sourceIndex": 524
+  },
+  {
+    "id": "10718",
+    "level": "A1",
+    "pos": "verb",
+    "topic": "travel",
+    "translations": {
+      "en": {
+        "text": "to fetch"
+      },
+      "de": {
+        "text": "holen",
+        "separable": false
+      }
+    },
+    "sourceIndex": 718
   },
   {
     "id": "10855",
@@ -112,6 +256,22 @@ const verbTravel = [
     "sourceIndex": 861
   },
   {
+    "id": "10950",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "travel",
+    "translations": {
+      "en": {
+        "text": "to step / to kick"
+      },
+      "de": {
+        "text": "treten",
+        "separable": false
+      }
+    },
+    "sourceIndex": 950
+  },
+  {
     "id": "10995",
     "level": "A1",
     "pos": "verb",
@@ -142,6 +302,22 @@ const verbTravel = [
       }
     },
     "sourceIndex": 1036
+  },
+  {
+    "id": "11098",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "travel",
+    "translations": {
+      "en": {
+        "text": "to move"
+      },
+      "de": {
+        "text": "bewegen",
+        "separable": false
+      }
+    },
+    "sourceIndex": 1098
   },
   {
     "id": "11270",

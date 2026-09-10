@@ -13,11 +13,13 @@ nextMixed = () => {
     return;
   }
   if (lessonComplete) {
-    activeLesson = null;
-    $("#check-mixed").style.display = "";
-    $("#next-mixed").textContent = "New random question ↻";
+    restoreMixedDesk();
     setView("lessons");
     return;
+  }
+  if (mixedQuestion && !mixedCorrect) {
+    var skipped = lessonPhase === "review" ? lessonReviewErrors : lessonErrors;
+    if (!skipped.includes(mixedQuestion)) skipped.push(mixedQuestion);
   }
   if (!lessonRemaining.length) {
     if (lessonPhase === "practice" && lessonErrors.length) {
@@ -120,6 +122,12 @@ checkPhrase = (reveal = false) => {
     $("#phrase-answer").value = selectedPhraseChoice;
   if (phraseMode !== "reverse") {
     baseCheckPhrase(reveal);
+    if (!reveal && !phraseCorrect) {
+      var current = filteredPhrases()[phraseIndex % filteredPhrases().length];
+      if (current) state.phrases = state.phrases.filter(id => id !== current.id);
+      save();
+    }
+    renderPhraseLists();
     return;
   }
   var list = filteredPhrases(),
@@ -137,42 +145,23 @@ checkPhrase = (reveal = false) => {
   if (phraseCorrect) {
     state.correct++;
     if (!state.phrases.includes(p.id)) state.phrases.push(p.id);
-  } else if (!state.issues.includes(p.id)) state.issues.push(p.id);
+  } else {
+    state.phrases = state.phrases.filter(id => id !== p.id);
+    if (!state.issues.includes(p.id)) state.issues.push(p.id);
+  }
   registerStudy();
   save();
+  renderPhraseLists();
   $("#phrase-feedback").textContent = phraseCorrect
     ? "Correct!"
     : "The translation is wrong.";
   $("#phrase-feedback").className =
     "feedback " + (phraseCorrect ? "good" : "bad");
 };
-startLesson = (lesson) => {
-  activeLesson = lesson;
-  lessonPhase = "practice";
-  lessonErrors = [];
-  lessonReviewErrors = [];
-  lessonComplete = false;
-  var pool = lesson.activities?.some((activity) => activity.type === "mixed")
-    ? baseMixedPool()
-    : lessonPool(lesson);
-  lessonRemaining = pool
-    .sort(() => Math.random() - 0.5)
-    .slice(0, Math.min(16, pool.length));
-  setView("mixed");
-};
-var beginLesson = startLesson;
-startLesson = (lesson) => {
-  beginLesson(lesson);
-  var locale = lessonLocale(lesson);
-  $("#mixed-view .page-heading h1").textContent = locale.title || "";
-  $("#mixed-view .page-heading p:last-child").textContent =
-    (locale.description || "") +
-    " Errors return at the end for a final repair round.";
-};
 var previousMixedNext = nextMixed;
 nextMixed = () => {
   previousMixedNext();
-  if (mixedQuestion?.kind !== "phrase-choice") return;
+  if (lessonComplete || !mixedQuestion || mixedQuestion.kind !== "phrase-choice") return;
   var item = mixedQuestion.item,
     cloze = clozeFor(item),
     options = $("#mixed-options");
@@ -182,7 +171,7 @@ nextMixed = () => {
   options.style.display = "grid";
   options.innerHTML = "";
   mixedChoice = "";
-  phraseChoiceOptions(item, cloze).forEach((option) => {
+  phraseChoiceOptions(item, cloze, lessonChoiceItems("phrase", phrases)).forEach((option) => {
     var button = document.createElement("button");
     button.type = "button";
     button.className = "choice-option mixed-phrase-choice";
@@ -236,7 +225,7 @@ var originalShowVocabCard = showVocabCard,
   originalCheckVocab = checkVocab;
 showVocabCard = () => {
   originalShowVocabCard();
-  ["#check-vocab", "#verbs-check-vocab"].forEach((selector) => {
+  ["#check-vocab", "#verbs-check-vocab", "#adjectives-check-vocab"].forEach((selector) => {
     var button = document.querySelector(selector);
     if (button) {
       button.innerHTML = "Check answer <span>↵</span>";
@@ -247,7 +236,7 @@ showVocabCard = () => {
 checkVocab = () => {
   originalCheckVocab();
   var button = document.querySelector(
-    isVerbView() ? "#verbs-check-vocab" : "#check-vocab",
+    "#" + vocabularyViewPrefix() + "check-vocab",
   );
   if (button) {
     button.innerHTML = vocabCorrect
@@ -301,7 +290,7 @@ globalRandomMode.onchange = (e) => {
   toast(randomMode ? "Random order on." : "Sequential order on.");
   if (
     document.querySelector("#vocabulary-view.active-view") ||
-    document.querySelector("#verbs-view.active-view")
+    document.querySelector("#verbs-view.active-view") || isAdjectiveView()
   )
     renderVocabulary();
 };
@@ -370,11 +359,13 @@ updateDirectionLabels();
 var vocabularyCheckButtons = [
   document.querySelector("#check-vocab"),
   document.querySelector("#verbs-check-vocab"),
+  document.querySelector("#adjectives-check-vocab"),
 ].filter(Boolean);
 vocabularyCheckButtons.forEach((button) => (button.onclick = checkVocab));
 var vocabularyInputs = [
   document.querySelector("#vocab-answer"),
   document.querySelector("#verbs-vocab-answer"),
+  document.querySelector("#adjectives-vocab-answer"),
 ].filter(Boolean);
 vocabularyInputs.forEach(
   (input) =>

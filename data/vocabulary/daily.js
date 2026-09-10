@@ -377,23 +377,6 @@ const vocabularyDaily = [
     "sourceIndex": 61
   },
   {
-    "id": "10064",
-    "level": "A1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "end"
-      },
-      "de": {
-        "text": "das Ende",
-        "article": "das",
-        "gender": "neuter"
-      }
-    },
-    "sourceIndex": 64
-  },
-  {
     "id": "10072",
     "level": "B1",
     "pos": "adverb",
@@ -595,23 +578,6 @@ const vocabularyDaily = [
     "sourceIndex": 112
   },
   {
-    "id": "10123",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "history / story"
-      },
-      "de": {
-        "text": "die Geschichte",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 123
-  },
-  {
     "id": "10125",
     "level": "B1",
     "pos": "adverb",
@@ -796,40 +762,6 @@ const vocabularyDaily = [
     "sourceIndex": 159
   },
   {
-    "id": "10163",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "topic / theme"
-      },
-      "de": {
-        "text": "das Thema",
-        "article": "das",
-        "gender": "neuter"
-      }
-    },
-    "sourceIndex": 163
-  },
-  {
-    "id": "10164",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "example"
-      },
-      "de": {
-        "text": "das Beispiel",
-        "article": "das",
-        "gender": "neuter"
-      }
-    },
-    "sourceIndex": 164
-  },
-  {
     "id": "10165",
     "level": "A1",
     "pos": "adverb",
@@ -935,40 +867,6 @@ const vocabularyDaily = [
     "sourceIndex": 197
   },
   {
-    "id": "10204",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "society / company"
-      },
-      "de": {
-        "text": "die Gesellschaft",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 204
-  },
-  {
-    "id": "10208",
-    "level": "A1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "beginning"
-      },
-      "de": {
-        "text": "der Anfang",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 208
-  },
-  {
     "id": "10209",
     "level": "A1",
     "pos": "adverb",
@@ -1031,23 +929,6 @@ const vocabularyDaily = [
     "sourceIndex": 228
   },
   {
-    "id": "10231",
-    "level": "A1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "help / aid"
-      },
-      "de": {
-        "text": "die Hilfe",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 231
-  },
-  {
     "id": "10237",
     "level": "B1",
     "pos": "adverb",
@@ -1061,23 +942,6 @@ const vocabularyDaily = [
       }
     },
     "sourceIndex": 237
-  },
-  {
-    "id": "10243",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "direction"
-      },
-      "de": {
-        "text": "die Richtung",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 243
   },
   {
     "id": "10244",
@@ -1095,23 +959,6 @@ const vocabularyDaily = [
     "sourceIndex": 244
   },
   {
-    "id": "10246",
-    "level": "A1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "book"
-      },
-      "de": {
-        "text": "das Buch",
-        "article": "das",
-        "gender": "neuter"
-      }
-    },
-    "sourceIndex": 246
-  },
-  {
     "id": "10247",
     "level": "A1",
     "pos": "noun",
@@ -1127,23 +974,6 @@ const vocabularyDaily = [
       }
     },
     "sourceIndex": 247
-  },
-  {
-    "id": "10249",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "percent"
-      },
-      "de": {
-        "text": "das Prozent",
-        "article": "das",
-        "gender": "neuter"
-      }
-    },
-    "sourceIndex": 249
   },
   {
     "id": "10254",
@@ -1193,23 +1023,6 @@ const vocabularyDaily = [
       }
     },
     "sourceIndex": 263
-  },
-  {
-    "id": "10265",
-    "level": "A1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "idea"
-      },
-      "de": {
-        "text": "die Idee",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 265
   },
   {
     "id": "10268",
@@ -1334,23 +1147,6 @@ const vocabularyDaily = [
       }
     },
     "sourceIndex": 293
-  },
-  {
-    "id": "10295",
-    "level": "A1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "price / prize"
-      },
-      "de": {
-        "text": "der Preis",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 295
   },
   {
     "id": "10300",
@@ -1510,40 +1306,6 @@ const vocabularyDaily = [
     "sourceIndex": 348
   },
   {
-    "id": "10351",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "height / altitude"
-      },
-      "de": {
-        "text": "die Höhe",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 351
-  },
-  {
-    "id": "10355",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "title"
-      },
-      "de": {
-        "text": "der Titel",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 355
-  },
-  {
     "id": "10365",
     "level": "B1",
     "pos": "adverb",
@@ -1623,40 +1385,6 @@ const vocabularyDaily = [
     "sourceIndex": 371
   },
   {
-    "id": "10373",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "quantity / amount / crowd"
-      },
-      "de": {
-        "text": "die Menge",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 373
-  },
-  {
-    "id": "10374",
-    "level": "A1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "meter"
-      },
-      "de": {
-        "text": "der Meter",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 374
-  },
-  {
     "id": "10375",
     "level": "B1",
     "pos": "adverb",
@@ -1685,40 +1413,6 @@ const vocabularyDaily = [
       }
     },
     "sourceIndex": 378
-  },
-  {
-    "id": "10381",
-    "level": "A1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "kilometer(s)"
-      },
-      "de": {
-        "text": "der Km",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 381
-  },
-  {
-    "id": "10382",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "medium"
-      },
-      "de": {
-        "text": "das Medium",
-        "article": "das",
-        "gender": "neuter"
-      }
-    },
-    "sourceIndex": 382
   },
   {
     "id": "10387",
@@ -1751,57 +1445,6 @@ const vocabularyDaily = [
     "sourceIndex": 390
   },
   {
-    "id": "10397",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "comparison"
-      },
-      "de": {
-        "text": "der Vergleich",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 397
-  },
-  {
-    "id": "10398",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "decision"
-      },
-      "de": {
-        "text": "die Entscheidung",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 398
-  },
-  {
-    "id": "10400",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "community / municipality"
-      },
-      "de": {
-        "text": "die Gemeinde",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 400
-  },
-  {
     "id": "10407",
     "level": "B1",
     "pos": "adverb",
@@ -1817,23 +1460,6 @@ const vocabularyDaily = [
     "sourceIndex": 407
   },
   {
-    "id": "10414",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "interest"
-      },
-      "de": {
-        "text": "das Interesse",
-        "article": "das",
-        "gender": "neuter"
-      }
-    },
-    "sourceIndex": 414
-  },
-  {
     "id": "10425",
     "level": "B1",
     "pos": "adverb",
@@ -1847,23 +1473,6 @@ const vocabularyDaily = [
       }
     },
     "sourceIndex": 425
-  },
-  {
-    "id": "10427",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "criticism / review"
-      },
-      "de": {
-        "text": "die Kritik",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 427
   },
   {
     "id": "10432",
@@ -1911,23 +1520,6 @@ const vocabularyDaily = [
       }
     },
     "sourceIndex": 437
-  },
-  {
-    "id": "10439",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "economy / pub"
-      },
-      "de": {
-        "text": "die Wirtschaft",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 439
   },
   {
     "id": "10441",
@@ -1979,23 +1571,6 @@ const vocabularyDaily = [
     "sourceIndex": 450
   },
   {
-    "id": "10454",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "beginning / start"
-      },
-      "de": {
-        "text": "der Beginn",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 454
-  },
-  {
     "id": "10455",
     "level": "B1",
     "pos": "adverb",
@@ -2041,23 +1616,6 @@ const vocabularyDaily = [
     "sourceIndex": 462
   },
   {
-    "id": "10475",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "half"
-      },
-      "de": {
-        "text": "die Hälfte",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 475
-  },
-  {
     "id": "10482",
     "level": "B1",
     "pos": "adverb",
@@ -2086,57 +1644,6 @@ const vocabularyDaily = [
       }
     },
     "sourceIndex": 485
-  },
-  {
-    "id": "10488",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "idea / clue / inkling"
-      },
-      "de": {
-        "text": "die Ahnung",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 488
-  },
-  {
-    "id": "10491",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "experience"
-      },
-      "de": {
-        "text": "die Erfahrung",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 491
-  },
-  {
-    "id": "10496",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "strength / power / force"
-      },
-      "de": {
-        "text": "die Kraft",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 496
   },
   {
     "id": "10501",
@@ -2186,23 +1693,6 @@ const vocabularyDaily = [
     "sourceIndex": 505
   },
   {
-    "id": "10507",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "list"
-      },
-      "de": {
-        "text": "die Liste",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 507
-  },
-  {
     "id": "10509",
     "level": "B1",
     "pos": "adverb",
@@ -2233,40 +1723,6 @@ const vocabularyDaily = [
     "sourceIndex": 517
   },
   {
-    "id": "10521",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "step"
-      },
-      "de": {
-        "text": "der Schritt",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 521
-  },
-  {
-    "id": "10522",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "support"
-      },
-      "de": {
-        "text": "die Unterstützung",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 522
-  },
-  {
     "id": "10532",
     "level": "A2",
     "pos": "noun",
@@ -2282,74 +1738,6 @@ const vocabularyDaily = [
       }
     },
     "sourceIndex": 532
-  },
-  {
-    "id": "10534",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "guilt / debt / fault"
-      },
-      "de": {
-        "text": "die Schuld",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 534
-  },
-  {
-    "id": "10536",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "truth"
-      },
-      "de": {
-        "text": "die Wahrheit",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 536
-  },
-  {
-    "id": "10541",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "team / crew"
-      },
-      "de": {
-        "text": "die Mannschaft",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 541
-  },
-  {
-    "id": "10542",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "order / tidiness"
-      },
-      "de": {
-        "text": "die Ordnung",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 542
   },
   {
     "id": "10546",
@@ -2384,57 +1772,6 @@ const vocabularyDaily = [
     "sourceIndex": 548
   },
   {
-    "id": "10557",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "round"
-      },
-      "de": {
-        "text": "die Runde",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 557
-  },
-  {
-    "id": "10558",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "end"
-      },
-      "de": {
-        "text": "der Schluss",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 558
-  },
-  {
-    "id": "10559",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "series"
-      },
-      "de": {
-        "text": "die Serie",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 559
-  },
-  {
     "id": "10564",
     "level": "B1",
     "pos": "noun",
@@ -2450,74 +1787,6 @@ const vocabularyDaily = [
       }
     },
     "sourceIndex": 564
-  },
-  {
-    "id": "10565",
-    "level": "A1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "centimeter"
-      },
-      "de": {
-        "text": "der Cm",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 565
-  },
-  {
-    "id": "10576",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "movement"
-      },
-      "de": {
-        "text": "die Bewegung",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 576
-  },
-  {
-    "id": "10582",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "violence / force"
-      },
-      "de": {
-        "text": "die Gewalt",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 582
-  },
-  {
-    "id": "10589",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "start"
-      },
-      "de": {
-        "text": "der Start",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 589
   },
   {
     "id": "10596",
@@ -2563,23 +1832,6 @@ const vocabularyDaily = [
       }
     },
     "sourceIndex": 609
-  },
-  {
-    "id": "10611",
-    "level": "A1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "window"
-      },
-      "de": {
-        "text": "das Fenster",
-        "article": "das",
-        "gender": "neuter"
-      }
-    },
-    "sourceIndex": 611
   },
   {
     "id": "10618",
@@ -2678,23 +1930,6 @@ const vocabularyDaily = [
     "sourceIndex": 650
   },
   {
-    "id": "10654",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "master / champion"
-      },
-      "de": {
-        "text": "der Meister",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 654
-  },
-  {
     "id": "10661",
     "level": "B1",
     "pos": "adverb",
@@ -2791,23 +2026,6 @@ const vocabularyDaily = [
     "sourceIndex": 696
   },
   {
-    "id": "10719",
-    "level": "A1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "kilometer"
-      },
-      "de": {
-        "text": "der Kilometer",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 719
-  },
-  {
     "id": "10730",
     "level": "B1",
     "pos": "noun",
@@ -2853,23 +2071,6 @@ const vocabularyDaily = [
       }
     },
     "sourceIndex": 735
-  },
-  {
-    "id": "10738",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "party"
-      },
-      "de": {
-        "text": "die Party",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 738
   },
   {
     "id": "10739",
@@ -2921,23 +2122,6 @@ const vocabularyDaily = [
       }
     },
     "sourceIndex": 758
-  },
-  {
-    "id": "10768",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "lady / queen (in chess;cards)"
-      },
-      "de": {
-        "text": "die Dame",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 768
   },
   {
     "id": "10770",
@@ -3019,57 +2203,6 @@ const vocabularyDaily = [
     "sourceIndex": 788
   },
   {
-    "id": "10802",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "impression"
-      },
-      "de": {
-        "text": "der Eindruck",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 802
-  },
-  {
-    "id": "10806",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "fire"
-      },
-      "de": {
-        "text": "das Feuer",
-        "article": "das",
-        "gender": "neuter"
-      }
-    },
-    "sourceIndex": 806
-  },
-  {
-    "id": "10813",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "practice / doctor's office"
-      },
-      "de": {
-        "text": "die Praxis",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 813
-  },
-  {
     "id": "10834",
     "level": "B1",
     "pos": "adverb",
@@ -3083,23 +2216,6 @@ const vocabularyDaily = [
       }
     },
     "sourceIndex": 834
-  },
-  {
-    "id": "10836",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "east"
-      },
-      "de": {
-        "text": "der Osten",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 836
   },
   {
     "id": "10858",
@@ -3200,23 +2316,6 @@ const vocabularyDaily = [
     "sourceIndex": 882
   },
   {
-    "id": "10883",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "leadership / tour"
-      },
-      "de": {
-        "text": "die Führung",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 883
-  },
-  {
     "id": "10889",
     "level": "A2",
     "pos": "adverb",
@@ -3232,23 +2331,6 @@ const vocabularyDaily = [
     "sourceIndex": 889
   },
   {
-    "id": "10890",
-    "level": "A1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "kilogram"
-      },
-      "de": {
-        "text": "das Kg",
-        "article": "das",
-        "gender": "neuter"
-      }
-    },
-    "sourceIndex": 890
-  },
-  {
     "id": "10898",
     "level": "A2",
     "pos": "adverb",
@@ -3262,57 +2344,6 @@ const vocabularyDaily = [
       }
     },
     "sourceIndex": 898
-  },
-  {
-    "id": "10900",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "west"
-      },
-      "de": {
-        "text": "der Westen",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 900
-  },
-  {
-    "id": "10908",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "leader / head (male)"
-      },
-      "de": {
-        "text": "der Leiter",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 908
-  },
-  {
-    "id": "10911",
-    "level": "A1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "park"
-      },
-      "de": {
-        "text": "der Park",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 911
   },
   {
     "id": "10914",
@@ -3349,23 +2380,6 @@ const vocabularyDaily = [
     "sourceIndex": 915
   },
   {
-    "id": "10917",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "expense / edition / output"
-      },
-      "de": {
-        "text": "die Ausgabe",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 917
-  },
-  {
     "id": "10922",
     "level": "A2",
     "pos": "adverb",
@@ -3379,23 +2393,6 @@ const vocabularyDaily = [
       }
     },
     "sourceIndex": 922
-  },
-  {
-    "id": "10925",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "comment"
-      },
-      "de": {
-        "text": "der Kommentar",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 925
   },
   {
     "id": "10941",
@@ -3413,40 +2410,6 @@ const vocabularyDaily = [
       }
     },
     "sourceIndex": 941
-  },
-  {
-    "id": "10944",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "material"
-      },
-      "de": {
-        "text": "das Material",
-        "article": "das",
-        "gender": "neuter"
-      }
-    },
-    "sourceIndex": 944
-  },
-  {
-    "id": "10949",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "current / electricity / river"
-      },
-      "de": {
-        "text": "der Strom",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 949
   },
   {
     "id": "10952",
@@ -3479,23 +2442,6 @@ const vocabularyDaily = [
       }
     },
     "sourceIndex": 957
-  },
-  {
-    "id": "10958",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "peace"
-      },
-      "de": {
-        "text": "der Frieden",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 958
   },
   {
     "id": "10960",
@@ -3562,23 +2508,6 @@ const vocabularyDaily = [
     "sourceIndex": 969
   },
   {
-    "id": "10978",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "statement / assertion"
-      },
-      "de": {
-        "text": "die Aussage",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 978
-  },
-  {
     "id": "10980",
     "level": "A2",
     "pos": "adverb",
@@ -3592,23 +2521,6 @@ const vocabularyDaily = [
       }
     },
     "sourceIndex": 980
-  },
-  {
-    "id": "10997",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "broadcast / shipment"
-      },
-      "de": {
-        "text": "die Sendung",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 997
   },
   {
     "id": "10998",
@@ -3626,23 +2538,6 @@ const vocabularyDaily = [
     "sourceIndex": 998
   },
   {
-    "id": "11006",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "need / demand"
-      },
-      "de": {
-        "text": "der Bedarf",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 1006
-  },
-  {
     "id": "11007",
     "level": "B1",
     "pos": "noun",
@@ -3658,40 +2553,6 @@ const vocabularyDaily = [
       }
     },
     "sourceIndex": 1007
-  },
-  {
-    "id": "11009",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "corner"
-      },
-      "de": {
-        "text": "die Ecke",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 1009
-  },
-  {
-    "id": "11015",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "mail"
-      },
-      "de": {
-        "text": "die Mail",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 1015
   },
   {
     "id": "11018",
@@ -3754,57 +2615,6 @@ const vocabularyDaily = [
       }
     },
     "sourceIndex": 1053
-  },
-  {
-    "id": "11058",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "hint / clue / reference"
-      },
-      "de": {
-        "text": "der Hinweis",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 1058
-  },
-  {
-    "id": "11064",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "reaction"
-      },
-      "de": {
-        "text": "die Reaktion",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 1064
-  },
-  {
-    "id": "11079",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "length"
-      },
-      "de": {
-        "text": "die Länge",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 1079
   },
   {
     "id": "11081",
@@ -3871,23 +2681,6 @@ const vocabularyDaily = [
     "sourceIndex": 1101
   },
   {
-    "id": "11108",
-    "level": "A1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "break / pause"
-      },
-      "de": {
-        "text": "die Pause",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 1108
-  },
-  {
     "id": "11109",
     "level": "B1",
     "pos": "noun",
@@ -3903,40 +2696,6 @@ const vocabularyDaily = [
       }
     },
     "sourceIndex": 1109
-  },
-  {
-    "id": "11114",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "training"
-      },
-      "de": {
-        "text": "das Training",
-        "article": "das",
-        "gender": "neuter"
-      }
-    },
-    "sourceIndex": 1114
-  },
-  {
-    "id": "11118",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "idea"
-      },
-      "de": {
-        "text": "die Vorstellung",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 1118
   },
   {
     "id": "11119",
@@ -3956,23 +2715,6 @@ const vocabularyDaily = [
     "sourceIndex": 1119
   },
   {
-    "id": "11124",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "distance / gap"
-      },
-      "de": {
-        "text": "der Abstand",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 1124
-  },
-  {
     "id": "11126",
     "level": "B1",
     "pos": "adverb",
@@ -3988,40 +2730,6 @@ const vocabularyDaily = [
     "sourceIndex": 1126
   },
   {
-    "id": "11127",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "application / request"
-      },
-      "de": {
-        "text": "der Antrag",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 1127
-  },
-  {
-    "id": "11135",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "fisherman"
-      },
-      "de": {
-        "text": "der Fischer",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 1135
-  },
-  {
     "id": "11138",
     "level": "B1",
     "pos": "adverb",
@@ -4035,74 +2743,6 @@ const vocabularyDaily = [
       }
     },
     "sourceIndex": 1138
-  },
-  {
-    "id": "11152",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "bridge"
-      },
-      "de": {
-        "text": "die Brücke",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 1152
-  },
-  {
-    "id": "11155",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "support / promotion / funding"
-      },
-      "de": {
-        "text": "die Förderung",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 1155
-  },
-  {
-    "id": "11158",
-    "level": "A1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "glass"
-      },
-      "de": {
-        "text": "das Glas",
-        "article": "das",
-        "gender": "neuter"
-      }
-    },
-    "sourceIndex": 1158
-  },
-  {
-    "id": "11164",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "audience"
-      },
-      "de": {
-        "text": "das Publikum",
-        "article": "das",
-        "gender": "neuter"
-      }
-    },
-    "sourceIndex": 1164
   },
   {
     "id": "11169",
@@ -4122,23 +2762,6 @@ const vocabularyDaily = [
     "sourceIndex": 1169
   },
   {
-    "id": "11170",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "argument / dispute"
-      },
-      "de": {
-        "text": "der Streit",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 1170
-  },
-  {
     "id": "11176",
     "level": "B1",
     "pos": "adverb",
@@ -4152,23 +2775,6 @@ const vocabularyDaily = [
       }
     },
     "sourceIndex": 1176
-  },
-  {
-    "id": "11177",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "west"
-      },
-      "de": {
-        "text": "der West",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 1177
   },
   {
     "id": "11180",
@@ -4233,57 +2839,6 @@ const vocabularyDaily = [
     "sourceIndex": 1193
   },
   {
-    "id": "11195",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "tip / hint"
-      },
-      "de": {
-        "text": "der Tipp",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 1195
-  },
-  {
-    "id": "11198",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "access / entrance"
-      },
-      "de": {
-        "text": "der Zugang",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 1198
-  },
-  {
-    "id": "11206",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "expert"
-      },
-      "de": {
-        "text": "der Experte",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 1206
-  },
-  {
     "id": "11207",
     "level": "B1",
     "pos": "noun",
@@ -4299,23 +2854,6 @@ const vocabularyDaily = [
       }
     },
     "sourceIndex": 1207
-  },
-  {
-    "id": "11211",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "category"
-      },
-      "de": {
-        "text": "die Kategorie",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 1211
   },
   {
     "id": "11217",
@@ -4352,40 +2890,6 @@ const vocabularyDaily = [
     "sourceIndex": 1249
   },
   {
-    "id": "11254",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "unit"
-      },
-      "de": {
-        "text": "die Einheit",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 1254
-  },
-  {
-    "id": "11256",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "weight"
-      },
-      "de": {
-        "text": "das Gewicht",
-        "article": "das",
-        "gender": "neuter"
-      }
-    },
-    "sourceIndex": 1256
-  },
-  {
     "id": "11258",
     "level": "A2",
     "pos": "adverb",
@@ -4416,57 +2920,6 @@ const vocabularyDaily = [
       }
     },
     "sourceIndex": 1261
-  },
-  {
-    "id": "11277",
-    "level": "A1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "address"
-      },
-      "de": {
-        "text": "die Adresse",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 1277
-  },
-  {
-    "id": "11278",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "American (male)"
-      },
-      "de": {
-        "text": "der Amerikaner",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 1278
-  },
-  {
-    "id": "11279",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "advertisement / display / complaint"
-      },
-      "de": {
-        "text": "die Anzeige",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 1279
   },
   {
     "id": "11296",
@@ -4501,40 +2954,6 @@ const vocabularyDaily = [
     "sourceIndex": 1297
   },
   {
-    "id": "11309",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "North"
-      },
-      "de": {
-        "text": "der Nord",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 1309
-  },
-  {
-    "id": "11310",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "East"
-      },
-      "de": {
-        "text": "der Ost",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 1310
-  },
-  {
     "id": "11311",
     "level": "B1",
     "pos": "noun",
@@ -4565,23 +2984,6 @@ const vocabularyDaily = [
       }
     },
     "sourceIndex": 1314
-  },
-  {
-    "id": "11315",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "temperature"
-      },
-      "de": {
-        "text": "die Temperatur",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 1315
   },
   {
     "id": "11319",
@@ -4616,40 +3018,6 @@ const vocabularyDaily = [
     "sourceIndex": 1327
   },
   {
-    "id": "11330",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "vehicle"
-      },
-      "de": {
-        "text": "das Fahrzeug",
-        "article": "das",
-        "gender": "neuter"
-      }
-    },
-    "sourceIndex": 1330
-  },
-  {
-    "id": "11341",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "phase"
-      },
-      "de": {
-        "text": "die Phase",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 1341
-  },
-  {
     "id": "11345",
     "level": "B1",
     "pos": "adverb",
@@ -4663,57 +3031,6 @@ const vocabularyDaily = [
       }
     },
     "sourceIndex": 1345
-  },
-  {
-    "id": "11360",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "forum"
-      },
-      "de": {
-        "text": "das Forum",
-        "article": "das",
-        "gender": "neuter"
-      }
-    },
-    "sourceIndex": 1360
-  },
-  {
-    "id": "11361",
-    "level": "A2",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "gas"
-      },
-      "de": {
-        "text": "das Gas",
-        "article": "das",
-        "gender": "neuter"
-      }
-    },
-    "sourceIndex": 1361
-  },
-  {
-    "id": "11374",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "tail"
-      },
-      "de": {
-        "text": "der Schwanz",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 1374
   },
   {
     "id": "11375",
@@ -4833,40 +3150,6 @@ const vocabularyDaily = [
     "sourceIndex": 1428
   },
   {
-    "id": "11431",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "punishment / penalty"
-      },
-      "de": {
-        "text": "die Strafe",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 1431
-  },
-  {
-    "id": "11442",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "section / paragraph"
-      },
-      "de": {
-        "text": "der Abschnitt",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 1442
-  },
-  {
     "id": "11443",
     "level": "A2",
     "pos": "noun",
@@ -4933,23 +3216,6 @@ const vocabularyDaily = [
     "sourceIndex": 1458
   },
   {
-    "id": "11462",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "shadow"
-      },
-      "de": {
-        "text": "der Schatten",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 1462
-  },
-  {
     "id": "11471",
     "level": "B1",
     "pos": "noun",
@@ -4997,108 +3263,6 @@ const vocabularyDaily = [
       }
     },
     "sourceIndex": 1477
-  },
-  {
-    "id": "11478",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "overview"
-      },
-      "de": {
-        "text": "die Übersicht",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 1478
-  },
-  {
-    "id": "11483",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "owner"
-      },
-      "de": {
-        "text": "der Besitzer",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 1483
-  },
-  {
-    "id": "11484",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "blog"
-      },
-      "de": {
-        "text": "der Blog",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 1484
-  },
-  {
-    "id": "11488",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "fact"
-      },
-      "de": {
-        "text": "der Fakt",
-        "article": "der",
-        "gender": "masculine"
-      }
-    },
-    "sourceIndex": 1488
-  },
-  {
-    "id": "11497",
-    "level": "A1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "grandma"
-      },
-      "de": {
-        "text": "die Oma",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 1497
-  },
-  {
-    "id": "11498",
-    "level": "B1",
-    "pos": "noun",
-    "topic": "daily",
-    "translations": {
-      "en": {
-        "text": "operation"
-      },
-      "de": {
-        "text": "die Operation",
-        "article": "die",
-        "gender": "feminine"
-      }
-    },
-    "sourceIndex": 1498
   },
   {
     "id": "11499",

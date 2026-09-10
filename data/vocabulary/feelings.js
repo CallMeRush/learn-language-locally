@@ -100,6 +100,40 @@ const vocabularyFeelings = [
     "sourceIndex": 399
   },
   {
+    "id": "10414",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "feelings",
+    "translations": {
+      "en": {
+        "text": "interest"
+      },
+      "de": {
+        "text": "das Interesse",
+        "article": "das",
+        "gender": "neuter"
+      }
+    },
+    "sourceIndex": 414
+  },
+  {
+    "id": "10534",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "feelings",
+    "translations": {
+      "en": {
+        "text": "guilt / debt / fault"
+      },
+      "de": {
+        "text": "die Schuld",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 534
+  },
+  {
     "id": "10604",
     "level": "A2",
     "pos": "noun",
@@ -236,6 +270,23 @@ const vocabularyFeelings = [
     "sourceIndex": 782
   },
   {
+    "id": "10802",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "feelings",
+    "translations": {
+      "en": {
+        "text": "impression"
+      },
+      "de": {
+        "text": "der Eindruck",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 802
+  },
+  {
     "id": "10913",
     "level": "A2",
     "pos": "noun",
@@ -287,6 +338,23 @@ const vocabularyFeelings = [
     "sourceIndex": 1054
   },
   {
+    "id": "11064",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "feelings",
+    "translations": {
+      "en": {
+        "text": "reaction"
+      },
+      "de": {
+        "text": "die Reaktion",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 1064
+  },
+  {
     "id": "11070",
     "level": "B1",
     "pos": "noun",
@@ -321,6 +389,23 @@ const vocabularyFeelings = [
     "sourceIndex": 1085
   },
   {
+    "id": "11118",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "feelings",
+    "translations": {
+      "en": {
+        "text": "idea"
+      },
+      "de": {
+        "text": "die Vorstellung",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 1118
+  },
+  {
     "id": "11142",
     "level": "B1",
     "pos": "noun",
@@ -336,6 +421,23 @@ const vocabularyFeelings = [
       }
     },
     "sourceIndex": 1142
+  },
+  {
+    "id": "11170",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "feelings",
+    "translations": {
+      "en": {
+        "text": "argument / dispute"
+      },
+      "de": {
+        "text": "der Streit",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 1170
   },
   {
     "id": "11339",

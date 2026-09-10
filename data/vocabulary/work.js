@@ -136,6 +136,23 @@ const vocabularyWork = [
     "sourceIndex": 362
   },
   {
+    "id": "10439",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "work",
+    "translations": {
+      "en": {
+        "text": "economy / pub"
+      },
+      "de": {
+        "text": "die Wirtschaft",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 439
+  },
+  {
     "id": "10442",
     "level": "A2",
     "pos": "noun",
@@ -459,6 +476,23 @@ const vocabularyWork = [
     "sourceIndex": 879
   },
   {
+    "id": "10883",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "work",
+    "translations": {
+      "en": {
+        "text": "leadership / tour"
+      },
+      "de": {
+        "text": "die Führung",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 883
+  },
+  {
     "id": "10888",
     "level": "B1",
     "pos": "noun",
@@ -493,6 +527,23 @@ const vocabularyWork = [
     "sourceIndex": 891
   },
   {
+    "id": "10908",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "work",
+    "translations": {
+      "en": {
+        "text": "leader / head (male)"
+      },
+      "de": {
+        "text": "der Leiter",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 908
+  },
+  {
     "id": "10942",
     "level": "B1",
     "pos": "noun",
@@ -525,6 +576,23 @@ const vocabularyWork = [
       }
     },
     "sourceIndex": 993
+  },
+  {
+    "id": "11006",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "work",
+    "translations": {
+      "en": {
+        "text": "need / demand"
+      },
+      "de": {
+        "text": "der Bedarf",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 1006
   },
   {
     "id": "11030",
@@ -578,6 +646,57 @@ const vocabularyWork = [
     "sourceIndex": 1115
   },
   {
+    "id": "11127",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "work",
+    "translations": {
+      "en": {
+        "text": "application / request"
+      },
+      "de": {
+        "text": "der Antrag",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 1127
+  },
+  {
+    "id": "11135",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "work",
+    "translations": {
+      "en": {
+        "text": "fisherman"
+      },
+      "de": {
+        "text": "der Fischer",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 1135
+  },
+  {
+    "id": "11155",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "work",
+    "translations": {
+      "en": {
+        "text": "support / promotion / funding"
+      },
+      "de": {
+        "text": "die Förderung",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 1155
+  },
+  {
     "id": "11168",
     "level": "A2",
     "pos": "noun",
@@ -627,6 +746,23 @@ const vocabularyWork = [
       }
     },
     "sourceIndex": 1203
+  },
+  {
+    "id": "11206",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "work",
+    "translations": {
+      "en": {
+        "text": "expert"
+      },
+      "de": {
+        "text": "der Experte",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 1206
   },
   {
     "id": "11219",
@@ -814,6 +950,23 @@ const vocabularyWork = [
       }
     },
     "sourceIndex": 1479
+  },
+  {
+    "id": "11483",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "work",
+    "translations": {
+      "en": {
+        "text": "owner"
+      },
+      "de": {
+        "text": "der Besitzer",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 1483
   },
   {
     "id": "11489",

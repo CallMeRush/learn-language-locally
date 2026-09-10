@@ -151,6 +151,23 @@ const vocabularyHealth = [
     "sourceIndex": 445
   },
   {
+    "id": "10496",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health",
+    "translations": {
+      "en": {
+        "text": "strength / power / force"
+      },
+      "de": {
+        "text": "die Kraft",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 496
+  },
+  {
     "id": "10635",
     "level": "A1",
     "pos": "noun",
@@ -249,6 +266,23 @@ const vocabularyHealth = [
       }
     },
     "sourceIndex": 760
+  },
+  {
+    "id": "10813",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health",
+    "translations": {
+      "en": {
+        "text": "practice / doctor's office"
+      },
+      "de": {
+        "text": "die Praxis",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 813
   },
   {
     "id": "10833",
@@ -488,6 +522,23 @@ const vocabularyHealth = [
     "sourceIndex": 1288
   },
   {
+    "id": "11315",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "health",
+    "translations": {
+      "en": {
+        "text": "temperature"
+      },
+      "de": {
+        "text": "die Temperatur",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 1315
+  },
+  {
     "id": "11373",
     "level": "B1",
     "pos": "noun",
@@ -520,6 +571,23 @@ const vocabularyHealth = [
       }
     },
     "sourceIndex": 1453
+  },
+  {
+    "id": "11498",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "health",
+    "translations": {
+      "en": {
+        "text": "operation"
+      },
+      "de": {
+        "text": "die Operation",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 1498
   },
   {
     "id": "11500",

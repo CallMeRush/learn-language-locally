@@ -32,7 +32,8 @@ function updateDirectionLabels() {
   $$('[data-practice="reverse"]').forEach(b => b.textContent = 'German → English');
 }
 document.querySelector('.crumb')?.remove();
-var selectedCategory = "all",
+var selectedCategory = categoryRecords.filter(record => vocab.some(word => word.category === record.id && !['verb','adjective'].includes(word.pos)))
+    .sort((a,b) => (a.studyOrder ?? 999) - (b.studyOrder ?? 999))[0]?.id || "greetings",
   activeVocabWord = null,
   vocabIndex = 0,
   vocabLevel = "all",
@@ -86,9 +87,11 @@ var vocabScopedIds = new Set([
   "random-mode",
 ]);
 var isVerbView = () => !!document.querySelector("#verbs-view.active-view");
+var isAdjectiveView = () => !!document.querySelector("#adjectives-view.active-view");
+var vocabularyViewPrefix = () => isVerbView() ? "verbs-" : isAdjectiveView() ? "adjectives-" : "";
 var $ = (s) => {
     if (s.startsWith("#") && vocabScopedIds.has(s.slice(1))) {
-      var prefix = isVerbView() ? "verbs-" : "";
+      var prefix = vocabularyViewPrefix();
       return document.querySelector("#" + prefix + s.slice(1));
     }
     return document.querySelector(s);
@@ -105,6 +108,34 @@ verbsView.querySelector(".page-heading h1").textContent = "Verb vocabulary";
 verbsView.querySelector(".page-heading p:last-child").textContent =
   "A dedicated verb desk: practice core, modal, separable, and topic-based verb families.";
 mainVocabularyView.after(verbsView);
+var adjectivesView = mainVocabularyView.cloneNode(true);
+adjectivesView.id = "adjectives-view";
+adjectivesView.classList.remove("active-view");
+adjectivesView.querySelectorAll("[id]").forEach(element => {
+  element.id = "adjectives-" + element.id;
+});
+adjectivesView.querySelector(".page-heading h1").textContent = "Adjectives";
+adjectivesView.querySelector(".page-heading p:last-child").textContent =
+  "Describe people, feelings and the world around you. Practise adjectives grouped by meaning.";
+verbsView.after(adjectivesView);
+var hideVocabularyAnswers = true;
+[mainVocabularyView, verbsView, adjectivesView].forEach(panel => {
+  panel.querySelector(".page-heading h1").textContent = "Vocabulary";
+  panel.querySelector(".page-heading").insertAdjacentHTML("afterend",
+    '<div class="mode-switch vocabulary-kinds" role="group" aria-label="Vocabulary type">' +
+    '<button data-vocabulary-kind="vocabulary">Nouns</button>' +
+    '<button data-vocabulary-kind="verbs">Verbs</button>' +
+    '<button data-vocabulary-kind="adjectives">Adjectives</button></div>');
+  panel.querySelectorAll("[data-vocabulary-kind]").forEach(button => {
+    button.onclick = () => setView(button.dataset.vocabularyKind);
+  });
+  panel.querySelector(".heading-actions").insertAdjacentHTML("beforeend",
+    '<label class="toggle-label hide-answer-toggle"><input type="checkbox" data-hide-vocabulary-answer checked><span class="toggle-switch"></span> Hide answer</label>');
+  panel.querySelector("[data-hide-vocabulary-answer]").onchange = event => {
+    hideVocabularyAnswers = event.target.checked;
+    renderVocabularyList();
+  };
+});
 $$(".practice-panel").forEach((panel) => {
   var input = panel.querySelector('input[id$="vocab-answer"]');
   input.insertAdjacentHTML(

@@ -114,6 +114,22 @@ const verbShopping = [
     "sourceIndex": 976
   },
   {
+    "id": "11031",
+    "level": "B1",
+    "pos": "verb",
+    "topic": "shopping",
+    "translations": {
+      "en": {
+        "text": "to own / to possess"
+      },
+      "de": {
+        "text": "besitzen",
+        "separable": false
+      }
+    },
+    "sourceIndex": 1031
+  },
+  {
     "id": "11066",
     "level": "A2",
     "pos": "verb",
@@ -160,6 +176,22 @@ const verbShopping = [
       }
     },
     "sourceIndex": 1239
+  },
+  {
+    "id": "11349",
+    "level": "A2",
+    "pos": "verb",
+    "topic": "shopping",
+    "translations": {
+      "en": {
+        "text": "to order"
+      },
+      "de": {
+        "text": "bestellen",
+        "separable": false
+      }
+    },
+    "sourceIndex": 1349
   },
   {
     "id": "11367",

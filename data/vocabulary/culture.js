@@ -17,6 +17,23 @@ const vocabularyCulture = [
     "sourceIndex": 113
   },
   {
+    "id": "10123",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "culture",
+    "translations": {
+      "en": {
+        "text": "history / story"
+      },
+      "de": {
+        "text": "die Geschichte",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 123
+  },
+  {
     "id": "10180",
     "level": "A1",
     "pos": "noun",
@@ -238,6 +255,57 @@ const vocabularyCulture = [
     "sourceIndex": 499
   },
   {
+    "id": "10541",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "culture",
+    "translations": {
+      "en": {
+        "text": "team / crew"
+      },
+      "de": {
+        "text": "die Mannschaft",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 541
+  },
+  {
+    "id": "10557",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "culture",
+    "translations": {
+      "en": {
+        "text": "round"
+      },
+      "de": {
+        "text": "die Runde",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 557
+  },
+  {
+    "id": "10559",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "culture",
+    "translations": {
+      "en": {
+        "text": "series"
+      },
+      "de": {
+        "text": "die Serie",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 559
+  },
+  {
     "id": "10610",
     "level": "A2",
     "pos": "noun",
@@ -272,6 +340,23 @@ const vocabularyCulture = [
     "sourceIndex": 625
   },
   {
+    "id": "10654",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "culture",
+    "translations": {
+      "en": {
+        "text": "master / champion"
+      },
+      "de": {
+        "text": "der Meister",
+        "article": "der",
+        "gender": "masculine"
+      }
+    },
+    "sourceIndex": 654
+  },
+  {
     "id": "10694",
     "level": "A2",
     "pos": "noun",
@@ -304,6 +389,23 @@ const vocabularyCulture = [
       }
     },
     "sourceIndex": 722
+  },
+  {
+    "id": "10738",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "culture",
+    "translations": {
+      "en": {
+        "text": "party"
+      },
+      "de": {
+        "text": "die Party",
+        "article": "die",
+        "gender": "feminine"
+      }
+    },
+    "sourceIndex": 738
   },
   {
     "id": "10744",
@@ -748,6 +850,23 @@ const vocabularyCulture = [
     "sourceIndex": 1113
   },
   {
+    "id": "11114",
+    "level": "A2",
+    "pos": "noun",
+    "topic": "culture",
+    "translations": {
+      "en": {
+        "text": "training"
+      },
+      "de": {
+        "text": "das Training",
+        "article": "das",
+        "gender": "neuter"
+      }
+    },
+    "sourceIndex": 1114
+  },
+  {
     "id": "11120",
     "level": "A2",
     "pos": "noun",
@@ -831,6 +950,23 @@ const vocabularyCulture = [
       }
     },
     "sourceIndex": 1163
+  },
+  {
+    "id": "11164",
+    "level": "B1",
+    "pos": "noun",
+    "topic": "culture",
+    "translations": {
+      "en": {
+        "text": "audience"
+      },
+      "de": {
+        "text": "das Publikum",
+        "article": "das",
+        "gender": "neuter"
+      }
+    },
+    "sourceIndex": 1164
   },
   {
     "id": "11167",

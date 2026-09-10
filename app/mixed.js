@@ -1,3 +1,9 @@
+function lessonChoiceItems(kind, fallback) {
+  if (!activeLesson) return fallback;
+  return [...new Set(lessonPool(activeLesson)
+    .filter(question => question.kind.startsWith(kind))
+    .map(question => question.item))];
+}
 function mixedLevelOfPhrase(phrase) {
   return phrase.level === "easy"
     ? "A1"
@@ -5,21 +11,21 @@ function mixedLevelOfPhrase(phrase) {
       ? "A2"
       : "B1";
 }
-function mixedPool() {
-  var levelOk = (level) => mixedLevel === "all" || level === mixedLevel,
+function mixedPool(level = mixedLevel, parts = mixedParts) {
+  var levelOk = (value) => level === "all" || value === level,
     pool = [];
   vocab
     .filter(
       (word) =>
         levelOk(word.level) &&
-        mixedParts[word.category === "verbs" ? "verbs" : "vocabulary"],
+        parts[word.category === "verbs" ? "verbs" : "vocabulary"],
     )
     .forEach((word) => {
       pool.push({ kind: "vocab-meaning", level: word.level, item: word });
       pool.push({ kind: "vocab-translate", level: word.level, item: word });
       pool.push({ kind: "vocab-choice", level: word.level, item: word });
     });
-  if (mixedParts.phrases)
+  if (parts.phrases)
     phrases
       .filter((phrase) => levelOk(mixedLevelOfPhrase(phrase)))
       .forEach((phrase) => {
@@ -41,7 +47,7 @@ function mixedPool() {
         });
       });
 
-  if (mixedParts.grammar)
+  if (parts.grammar)
     grammarLessons
       .filter((lesson) => levelOk(lesson.level))
       .forEach((lesson) =>
@@ -135,7 +141,7 @@ function nextMixed() {
       $("#mixed-answer").style.display = "none";
       $("#mixed-options").style.display = "grid";
       mixedSetOptions(
-        vocab.filter((word) => word.level === q.level),
+        lessonChoiceItems("vocab", vocab.filter((word) => word.level === q.level)),
         item,
         sourceText,
       ).forEach((option) => {
@@ -170,7 +176,7 @@ function nextMixed() {
       $("#mixed-answer").style.display = "none";
       $("#mixed-options").style.display = "grid";
       mixedSetOptions(
-        phrases.filter((phrase) => mixedLevelOfPhrase(phrase) === q.level),
+        lessonChoiceItems("phrase", phrases.filter((phrase) => mixedLevelOfPhrase(phrase) === q.level)),
         item,
         targetText,
       ).forEach((option) => {
@@ -311,7 +317,8 @@ function lessonLocale(lesson) {
 function lessonPool(lesson) {
   var activities = lesson.activities || [],
     pool = [];
-  if (activities.some((a) => a.type === "mixed")) return mixedPool();
+  if (activities.some((a) => a.type === "mixed"))
+    return baseMixedPool("all", { vocabulary: true, verbs: true, phrases: true, grammar: true });
   var vocabCategories = activities
       .filter((a) => a.type === "vocabulary")
       .flatMap((a) => a.categories || []),
