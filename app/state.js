@@ -21,9 +21,10 @@ function progressStore() {
     return {};
   }
 }
-function loadProgress() {
-  var all = progressStore(),
-    value = all[progressKey()] || emptyProgress();
+function normalizeProgress(progress) {
+  var value = progress && typeof progress === "object" && !Array.isArray(progress)
+    ? { ...progress }
+    : emptyProgress();
   ["learned", "issues", "phrases", "lessons"].forEach((key) => {
     value[key] = Array.isArray(value[key]) ? [...new Set(value[key].filter((id) => typeof id === "string"))] : [];
   });
@@ -36,6 +37,25 @@ function loadProgress() {
     : {};
   value.lessonSession = value.lessonSession && typeof value.lessonSession === "object" ? value.lessonSession : null;
   return value;
+}
+function loadProgress() {
+  return normalizeProgress(progressStore()[progressKey()]);
+}
+function progressExportPayload() {
+  return {
+    format: "wortwerk-progress",
+    version: 1,
+    profile: progressKey(),
+    exportedAt: new Date().toISOString(),
+    progress: normalizeProgress(state),
+  };
+}
+function progressFromExport(text) {
+  var payload;
+  try { payload = JSON.parse(text); } catch { throw Error("The selected file is not valid JSON."); }
+  if (payload?.format !== "wortwerk-progress" || payload.version !== 1) throw Error("This is not a Wortwerk progress export.");
+  if (payload.profile !== progressKey()) throw Error("This export belongs to a different learning deck.");
+  return normalizeProgress(payload.progress);
 }
 function resolveIssue(id) {
   state.issues = state.issues.filter((issue) => issue !== id);

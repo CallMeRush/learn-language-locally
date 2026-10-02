@@ -25,6 +25,31 @@ function resetCurrentProgress() {
   localStorage.setItem("wortwerk-progress", JSON.stringify(all));
   location.reload();
 }
+function exportCurrentProgress() {
+  var payload = JSON.stringify(progressExportPayload(), null, 2),
+    blob = new Blob([payload], { type: "application/json" }),
+    link = document.createElement("a"),
+    stamp = new Date().toISOString().slice(0, 10);
+  link.href = URL.createObjectURL(blob);
+  link.download = "wortwerk-progress-" + stamp + ".json";
+  link.click();
+  setTimeout(() => URL.revokeObjectURL(link.href), 0);
+  toast("Progress exported. Keep this file private.");
+}
+async function importCurrentProgress(file) {
+  if (!file) return;
+  if (file.size > 1024 * 1024) return toast("That progress file is unexpectedly large.");
+  try {
+    var imported = progressFromExport(await file.text());
+    if (!confirm("Replace this device’s saved progress with the imported progress?")) return;
+    var all = progressStore();
+    all[progressKey()] = imported;
+    localStorage.setItem("wortwerk-progress", JSON.stringify(all));
+    location.reload();
+  } catch (error) {
+    toast(error.message || "Could not import that progress file.");
+  }
+}
 function bindGlobalVocabularyControls() {
   $$('[id$="vocab-status-filter"]').forEach((select) => {
     select.value = vocabStatus;
@@ -71,6 +96,12 @@ document.querySelector('.nav-item[data-view="mixed"]').onclick = () => {
   setView("mixed");
 };
 $("#reset-progress").onclick = resetCurrentProgress;
+$("#export-progress").onclick = exportCurrentProgress;
+$("#import-progress").onclick = () => $("#import-progress-file").click();
+$("#import-progress-file").onchange = event => {
+  importCurrentProgress(event.target.files[0]);
+  event.target.value = "";
+};
 $("#mixed-hint-button").onclick = showMixedHint;
 var globalRandomMode = document.querySelector("#global-random-mode");
 globalRandomMode.onchange = (event) => {

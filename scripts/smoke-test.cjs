@@ -45,6 +45,7 @@ let socket;
   const result=await call('Runtime.evaluate',{returnByValue:true,expression:`(() => {
     const assert=(condition,message)=>{if(!condition)throw Error(message)};
     assert(!document.querySelector('#source-language'), 'language selector removed');
+    assert(document.querySelector('#export-progress') && document.querySelector('#import-progress'),'local progress transfer controls render');
     assert(grammarLessons.length===29 && document.querySelectorAll('.grammar-card').length===29,'German grammar rendered');
     assert(lessons.length===16,'expanded lesson path');
     const oldProgress=emptyProgress();oldProgress.learned=['1'];
@@ -179,6 +180,10 @@ let socket;
     setView('mixed');
     assert(document.querySelector('#mixed-view .mixed-layout') && !lessonComplete && document.getElementById('check-mixed').style.display!=='none','free practice restored after lesson');
     assert(JSON.parse(localStorage.getItem('wortwerk-progress'))['en-de'].learned[0]==='1','old profile retained');
+    const exported=progressExportPayload(), imported=progressFromExport(JSON.stringify(exported));
+    assert(exported.format==='wortwerk-progress' && exported.profile===progressKey() && imported.lessonHistory['4']?.completedAt,'progress export round-trip');
+    let rejected=false;try{progressFromExport(JSON.stringify({...exported,profile:'other-deck'}));}catch{rejected=true;}
+    assert(rejected,'different deck progress is rejected');
     localStorage.setItem('wortwerk-progress','not valid JSON');
     assert(loadProgress().learned.length===0,'corrupt progress safely resets');
     return 'PASS: views, German grammar, directions, answer retries, alternatives, lesson pools';

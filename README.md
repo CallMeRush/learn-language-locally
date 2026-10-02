@@ -13,6 +13,10 @@ No server or build step is required. Open [`index.html`](index.html) in a
 browser. The app loads its JavaScript files directly and stores progress in
 the browser's `localStorage`.
 
+Use **Export progress** to download a private JSON backup, then **Import
+progress** on another browser or device to replace that device's progress for
+this exact learning deck. No account, server, or network sync is involved.
+
 Both translation directions contribute to the new deck's study profile
 (`en-de-deck-efd235e6-v1`). It starts fresh because the content IDs changed.
 Earlier progress stays stored in the browser but is not applied to this corpus.
