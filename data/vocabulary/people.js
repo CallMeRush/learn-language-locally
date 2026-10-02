@@ -4275,3 +4275,4 @@ const vocabularyPeople = [
     "sourceIndex": 20258
   }
 ];
+globalThis.WortwerkData?.register("vocabulary", "people", vocabularyPeople);

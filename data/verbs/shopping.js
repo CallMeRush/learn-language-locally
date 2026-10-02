@@ -1026,3 +1026,4 @@ const verbShopping = [
     "sourceIndex": 19765
   }
 ];
+globalThis.WortwerkData?.register("verbs", "shopping", verbShopping);

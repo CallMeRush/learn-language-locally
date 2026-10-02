@@ -18,7 +18,55 @@ function showLessonSession() {
   document.getElementById("lesson-title").textContent = locale.title;
   document.getElementById("lesson-description").textContent = locale.description + " Errors return at the end for a repair round.";
 }
+function lessonQuestionReference(question) {
+  if (!question) return null;
+  if (question.kind === "grammar") return {
+    kind: question.kind,
+    grammarId: question.item.lesson.id,
+    testIndex: question.item.lesson.tests.indexOf(question.item.test),
+  };
+  return { kind: question.kind, itemId: question.item.id };
+}
+function lessonQuestionFromReference(reference) {
+  if (!reference || typeof reference.kind !== "string") return null;
+  if (reference.kind === "grammar") {
+    var grammar = grammarLessons.find((item) => item.id === reference.grammarId),
+      test = grammar?.tests[reference.testIndex];
+    return grammar && test ? { kind: "grammar", level: grammar.level, item: { lesson: grammar, test } } : null;
+  }
+  var item = reference.kind.startsWith("vocab")
+    ? vocab.find((word) => word.id === reference.itemId)
+    : phrases.find((phrase) => phrase.id === reference.itemId);
+  return item ? { kind: reference.kind, level: reference.kind.startsWith("phrase") ? mixedLevelOfPhrase(item) : item.level, item } : null;
+}
+function saveLessonSession() {
+  if (!activeLesson || lessonComplete) return;
+  state.lessonSession = {
+    lessonId: activeLesson.id,
+    phase: lessonPhase,
+    current: lessonQuestionReference(mixedQuestion),
+    remaining: lessonRemaining.map(lessonQuestionReference).filter(Boolean),
+    errors: lessonErrors.map(lessonQuestionReference).filter(Boolean),
+    reviewErrors: lessonReviewErrors.map(lessonQuestionReference).filter(Boolean),
+  };
+  save();
+}
+function loadLessonSession(lesson) {
+  var saved = state.lessonSession;
+  if (!saved || saved.lessonId !== lesson.id) return false;
+  var decode = (references) => (references || []).map(lessonQuestionFromReference).filter(Boolean),
+    current = lessonQuestionFromReference(saved.current);
+  activeLesson = lesson;
+  lessonPhase = saved.phase === "review" ? "review" : "practice";
+  lessonErrors = decode(saved.errors);
+  lessonReviewErrors = decode(saved.reviewErrors);
+  lessonRemaining = [...(current ? [current] : []), ...decode(saved.remaining)];
+  lessonComplete = false;
+  return lessonRemaining.length > 0;
+}
 function restoreMixedDesk() {
+  var hadSession = !!state.lessonSession;
+  state.lessonSession = null;
   activeLesson = null;
   lessonComplete = false;
   mixedQuestion = null;
@@ -28,6 +76,7 @@ function restoreMixedDesk() {
   document.getElementById("lesson-list").hidden = false;
   $("#check-mixed").style.display = "";
   $("#next-mixed").textContent = "New random question ↻";
+  if (hadSession) save();
 }
 function renderLessons() {
   var el = $("#lesson-list");
@@ -35,7 +84,8 @@ function renderLessons() {
   el.innerHTML = lessons
     .map((lesson, index) => {
       var locale = lessonLocale(lesson);
-      return `<article class="lesson-path-card ${lesson.id === activeLesson?.id ? "current" : ""}" data-lesson-id="${lesson.id}"><div class="lesson-path-number">${String(index + 1).padStart(2, "0")}</div><div class="lesson-path-copy"><span class="grammar-level">${lesson.level}</span><span class="lesson-path-focus">${locale.focus || ""}</span><h2>${locale.title || ""}</h2><p>${locale.description || ""}</p></div><button class="primary-btn lesson-start">${lesson.id === activeLesson?.id ? "Continue" : "Start lesson"} <span>→</span></button></article>`;
+      var resumable = lesson.id === activeLesson?.id || state.lessonSession?.lessonId === lesson.id;
+      return `<article class="lesson-path-card ${resumable ? "current" : ""}" data-lesson-id="${lesson.id}"><div class="lesson-path-number">${String(index + 1).padStart(2, "0")}</div><div class="lesson-path-copy"><span class="grammar-level">${lesson.level}</span><span class="lesson-path-focus">${locale.focus || ""}</span><h2>${locale.title || ""}</h2><p>${locale.description || ""}</p></div><button class="primary-btn lesson-start">${resumable ? "Continue" : "Start lesson"} <span>→</span></button></article>`;
     })
     .join("");
   $$("[data-lesson-id]").forEach(
@@ -45,32 +95,92 @@ function renderLessons() {
           lessons.find((lesson) => lesson.id === card.dataset.lessonId),
         )),
   );
+  $$("[data-lesson-id]").forEach((card) => {
+    if (!state.lessons.includes(card.dataset.lessonId)) return;
+    card.classList.add("completed");
+    card.querySelector(".lesson-start").innerHTML = "Review again <span>↻</span>";
+  });
+}
+async function loadLessonContent(lesson) {
+  var requests = lesson.activities.flatMap(activity => {
+    if (activity.type === "vocabulary") return activity.categories.map(category => ensureContent("vocabulary", category));
+    if (activity.type === "verbs") return activity.categories.map(category => ensureContent("verbs", category));
+    if (activity.type === "phrases") return [ensureContent("phrases")];
+    if (activity.type === "mixed") return [ensureContent("vocabulary"), ensureContent("verbs"), ensureContent("phrases")];
+    return [];
+  });
+  await Promise.all(requests);
+}
+function lessonContentAvailable(lesson) {
+  return lesson.activities.every(activity =>
+    activity.type === "vocabulary" ? activity.categories.every(category => contentAvailable("vocabulary", category)) :
+    activity.type === "verbs" ? activity.categories.every(category => contentAvailable("verbs", category)) :
+    activity.type === "phrases" ? contentAvailable("phrases") :
+    activity.type === "mixed" ? contentAvailable("vocabulary") && contentAvailable("verbs") && contentAvailable("phrases") : true,
+  );
 }
 function startLesson(lesson) {
+  if (!lessonContentAvailable(lesson)) return loadLessonContent(lesson).then(() => beginLesson(lesson));
+  return beginLesson(lesson);
+}
+function beginLesson(lesson) {
   if (activeLesson === lesson) {
     setView("lessons");
     showLessonSession();
     return;
   }
-  activeLesson = lesson;
-  lessonPhase = "practice";
-  lessonErrors = [];
-  lessonReviewErrors = [];
-  lessonComplete = false;
-
-  mixedQuestion = null;
-  var pool = lessonPool(lesson);
-  lessonRemaining = pool
-    .sort(() => Math.random() - 0.5)
-    .slice(0, Math.min(16, pool.length));
+  var resumed = loadLessonSession(lesson);
+  if (!resumed) {
+    activeLesson = lesson;
+    lessonPhase = "practice";
+    lessonErrors = [];
+    lessonReviewErrors = [];
+    lessonComplete = false;
+    mixedQuestion = null;
+    var pool = lessonPool(lesson);
+    lessonRemaining = pool.sort(() => Math.random() - 0.5).slice(0, Math.min(16, pool.length));
+  }
   setView("lessons");
   showLessonSession();
   $("#check-mixed").style.display = "";
   $("#next-mixed").textContent = "Next question →";
-  nextMixed();
+  nextLessonQuestion();
+}
+function nextLessonQuestion() {
+  if (!activeLesson) return nextMixed();
+  if (lessonComplete) {
+    restoreMixedDesk();
+    setView("lessons");
+    return;
+  }
+  if (mixedQuestion && !mixedCorrect) {
+    var bucket = lessonPhase === "review" ? lessonReviewErrors : lessonErrors;
+    if (!bucket.some((question) => question.kind === mixedQuestion.kind && question.item === mixedQuestion.item)) bucket.push(mixedQuestion);
+  }
+  if (!lessonRemaining.length) {
+    if (lessonPhase === "practice" && lessonErrors.length) {
+      lessonPhase = "review";
+      lessonRemaining = lessonErrors.sort(() => Math.random() - 0.5);
+      lessonErrors = [];
+      lessonReviewErrors = [];
+    } else if (lessonPhase === "review" && lessonReviewErrors.length) {
+      lessonRemaining = lessonReviewErrors.sort(() => Math.random() - 0.5);
+      lessonReviewErrors = [];
+    } else {
+      finishLesson();
+      return;
+    }
+  }
+  nextMixed(lessonRemaining.shift());
+  $("#mixed-type").textContent = (lessonPhase === "review" ? "FINAL REVIEW · " : "") + $("#mixed-type").textContent;
+  if (lessonPhase === "review") $("#mixed-hint").textContent = "This was an error earlier. Fix it now.";
+  saveLessonSession();
 }
 function finishLesson() {
   lessonComplete = true;
+  state.lessonSession = null;
+  if (activeLesson && !state.lessons.includes(activeLesson.id)) state.lessons.push(activeLesson.id);
+  save();
   var locale = lessonLocale(activeLesson);
   $("#mixed-type").textContent = "LESSON COMPLETE";
   $("#mixed-level-label").textContent = activeLesson.level;

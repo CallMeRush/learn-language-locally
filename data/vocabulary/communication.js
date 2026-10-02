@@ -1378,3 +1378,4 @@ const vocabularyCommunication = [
     "sourceIndex": 19874
   }
 ];
+globalThis.WortwerkData?.register("vocabulary", "communication", vocabularyCommunication);

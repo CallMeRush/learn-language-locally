@@ -155135,3 +155135,4 @@ const phrases = [
     "source": "editorial"
   }
 ];
+globalThis.WortwerkData?.register("phrases", "all", phrases);

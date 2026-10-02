@@ -138,14 +138,37 @@ function showPhrase() {
     String((phraseIndex % list.length) + 1).padStart(2, "0") +
     " / " +
     list.length;
-  $("#phrase-question").textContent = sourceText(p);
-  $("#phrase-hint").textContent =
-    phraseMode === "cloze" ? "Complete the missing word." : translatePrompt();
+  $("#phrase-question").textContent = phraseMode === "reverse" ? targetText(p) : sourceText(p);
+  $("#phrase-hint").textContent = phraseMode === "cloze" || phraseMode === "choice"
+    ? "Complete the missing word."
+    : phraseMode === "reverse" ? "Translate this into English." : translatePrompt();
   $("#cloze-sentence").innerHTML = cloze.sentence;
-  $(".phrase-card").classList.toggle("cloze-active", phraseMode === "cloze");
+  $(".phrase-card").classList.toggle("cloze-active", phraseMode === "cloze" || phraseMode === "choice");
   $("#phrase-answer").placeholder =
     phraseMode === "cloze" ? "Type the missing word…" : translatePrompt();
   $("#phrase-answer").value = "";
+  $("#phrase-answer").style.display = phraseMode === "choice" ? "none" : "";
+  var options = $("#phrase-choice-options");
+  options.innerHTML = "";
+  options.style.display = phraseMode === "choice" ? "grid" : "none";
+  if (phraseMode === "choice") {
+    selectedPhraseChoice = "";
+    $("#cloze-sentence").style.display = "block";
+    phraseChoiceOptions(p, cloze).forEach((option) => {
+      var button = document.createElement("button");
+      button.type = "button";
+      button.className = "choice-option phrase-choice";
+      button.textContent = option;
+      button.onclick = () => {
+        $$(".phrase-choice").forEach((item) => item.classList.remove("selected"));
+        button.classList.add("selected");
+        selectedPhraseChoice = option;
+      };
+      options.append(button);
+    });
+  } else {
+    $("#cloze-sentence").style.display = phraseMode === "cloze" ? "block" : "none";
+  }
   $("#phrase-feedback").textContent = "";
   $("#phrase-feedback").className = "feedback";
   renderPhraseLists();
@@ -184,7 +207,7 @@ function checkPhrase(reveal = false) {
   var list = filteredPhrases();
   if (!list.length) return;
   var p = list[phraseIndex % list.length],
-    ans = normalizeAnswer($("#phrase-answer").value.trim()),
+    ans = normalizeAnswer((phraseMode === "choice" ? selectedPhraseChoice : $("#phrase-answer").value).trim()),
     cloze = clozeFor(p);
   if (reveal) {
     phraseAnswered = true;
@@ -200,17 +223,21 @@ function checkPhrase(reveal = false) {
     ok =
       phraseMode === "cloze" || phraseMode === "choice"
         ? answerMatches(ans, cloze.word, clean)
-        : answerMatches(ans, targetText(p), clean);
+        : phraseMode === "reverse"
+          ? answerMatches(ans, sourceText(p), clean)
+          : answerMatches(ans, targetText(p), clean);
   phraseAnswered = true;
   phraseCorrect = !!ok;
   state.attempts++;
   if (ok) {
     state.correct++;
     if (!state.phrases.includes(p.id)) state.phrases.push(p.id);
+    resolveIssue(p.id);
     $("#phrase-feedback").textContent =
       "Very good! Press Enter again for the next phrase.";
     $("#phrase-feedback").className = "feedback good";
   } else {
+    state.phrases = state.phrases.filter((id) => id !== p.id);
     if (!state.issues.includes(p.id)) state.issues.push(p.id);
     $("#phrase-feedback").textContent =
       phraseMode === "cloze" || phraseMode === "choice"
@@ -220,6 +247,7 @@ function checkPhrase(reveal = false) {
   }
   registerStudy();
   save();
+  renderPhraseLists();
 }
 function renderIssues() {
   var el = $("#issues-list");
@@ -480,23 +508,3 @@ var bindGrammarQuestionList = () => {
   );
 };
 bindGrammarQuestionList();
-var decorateVocabularyResults = () =>
-  $$(".word-row").forEach((row) => {
-    var mark = row.querySelector(".word-check"),
-      id = row.dataset.word;
-    if (state.learned.includes(id)) {
-      mark.textContent = "✓";
-      mark.className = "word-check correct";
-      mark.setAttribute("aria-label", "Correct");
-    } else if (state.issues.includes(id)) {
-      mark.textContent = "✕";
-      mark.className = "word-check wrong";
-      mark.setAttribute("aria-label", "Incorrect");
-    }
-  });
-var baseRenderVocabulary = renderVocabulary;
-renderVocabulary = () => {
-  baseRenderVocabulary();
-  decorateVocabularyResults();
-};
-decorateVocabularyResults();

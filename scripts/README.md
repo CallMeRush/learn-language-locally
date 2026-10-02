@@ -21,3 +21,9 @@ them to run.
 
 The dictionaries are reference material only and are not loaded by the
 browser application.
+# Content and quality tools
+
+- `import-deck.cjs` rebuilds browser content from the pinned deck and explicit assignments.
+- `audit-deck.cjs` cross-checks included singular noun genders against the noun reference.
+- `audit-translations.cjs` produces a human-review queue from independent German Wiktionary senses; it never changes learning data automatically.
+- `smoke-test.cjs` exercises the static app in Chromium.

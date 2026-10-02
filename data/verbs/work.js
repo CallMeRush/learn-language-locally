@@ -1066,3 +1066,4 @@ const verbWork = [
     "sourceIndex": 17851
   }
 ];
+globalThis.WortwerkData?.register("verbs", "work", verbWork);

@@ -1,0 +1,1373 @@
+{
+  "source": "dictionaries/de.jsonl.gz (German Wiktionary extract)",
+  "method": "A1/A2 same-headword, same-part-of-speech token-overlap check",
+  "limitations": "A match supports a shared sense; a queued item is not necessarily wrong. Review context, alternatives, and idioms manually.",
+  "counts": {
+    "candidates": 2738,
+    "reviewed": 0,
+    "referenceFound": 2604,
+    "matched": 2474,
+    "needsReview": 130,
+    "unavailable": 134
+  },
+  "reviewQueue": [
+    {
+      "id": "10011",
+      "level": "A1",
+      "frequencyRank": 51,
+      "german": "mal",
+      "deckEnglish": "once;just",
+      "wiktionaryGlosses": [
+        "times (indicating multiplication of two numbers)",
+        "alternative form of einmal (“sometime, ever, once”)",
+        "well, by the way (serving to introduce new information)",
+        "Softening a sentence, thus making a request or command more polite, making an assertion more casual. By extension, indicating a command or request."
+      ]
+    },
+    {
+      "id": "10038",
+      "level": "A1",
+      "frequencyRank": 101,
+      "german": "ander",
+      "deckEnglish": "other",
+      "wiktionaryGlosses": [
+        "See anderer.",
+        "second"
+      ]
+    },
+    {
+      "id": "10096",
+      "level": "A1",
+      "frequencyRank": 178,
+      "german": "gross",
+      "deckEnglish": "big;large;tall",
+      "wiktionaryGlosses": [
+        "Switzerland and Liechtenstein standard spelling of groß"
+      ]
+    },
+    {
+      "id": "10099",
+      "level": "A2",
+      "frequencyRank": 182,
+      "german": "einige",
+      "deckEnglish": "some;a few",
+      "wiktionaryGlosses": [
+        "inflection of einig:",
+        "strong/mixed nominative/accusative feminine singular",
+        "strong nominative/accusative plural",
+        "weak nominative all-gender singular",
+        "weak accusative feminine/neuter singular"
+      ]
+    },
+    {
+      "id": "10115",
+      "level": "A1",
+      "frequencyRank": 207,
+      "german": "heissen",
+      "deckEnglish": "to be called;to mean",
+      "wiktionaryGlosses": [
+        "Switzerland and Liechtenstein standard spelling of heißen"
+      ]
+    },
+    {
+      "id": "10214",
+      "level": "A2",
+      "frequencyRank": 331,
+      "german": "los",
+      "deckEnglish": "loose;off;gone",
+      "wiktionaryGlosses": [
+        "alternative form of lose (“loose”)"
+      ]
+    },
+    {
+      "id": "10412",
+      "level": "A1",
+      "frequencyRank": 591,
+      "german": "Foto",
+      "deckEnglish": "photo",
+      "wiktionaryGlosses": [
+        "photograph (picture created by projecting an image onto a photosensitive surface)",
+        "camera (device for making still pictures)"
+      ]
+    },
+    {
+      "id": "10424",
+      "level": "A1",
+      "frequencyRank": 606,
+      "german": "Fussball",
+      "deckEnglish": "football;soccer",
+      "wiktionaryGlosses": [
+        "Switzerland and Liechtenstein standard spelling of Fußball"
+      ]
+    },
+    {
+      "id": "10573",
+      "level": "A2",
+      "frequencyRank": 780,
+      "german": "nahe",
+      "deckEnglish": "near;close",
+      "wiktionaryGlosses": [
+        "alternative form of nah",
+        "inflection of nah:",
+        "strong/mixed nominative/accusative feminine singular",
+        "strong nominative/accusative plural",
+        "weak nominative all-gender singular",
+        "weak accusative feminine/neuter singular"
+      ]
+    },
+    {
+      "id": "10630",
+      "level": "A2",
+      "frequencyRank": 850,
+      "german": "regelmässig",
+      "deckEnglish": "regularly",
+      "wiktionaryGlosses": [
+        "Switzerland and Liechtenstein standard spelling of regelmäßig"
+      ]
+    },
+    {
+      "id": "10695",
+      "level": "A2",
+      "frequencyRank": 929,
+      "german": "draussen",
+      "deckEnglish": "outside",
+      "wiktionaryGlosses": [
+        "Switzerland and Liechtenstein standard spelling of draußen"
+      ]
+    },
+    {
+      "id": "10716",
+      "level": "A1",
+      "frequencyRank": 954,
+      "german": "geboren",
+      "deckEnglish": "born",
+      "wiktionaryGlosses": [
+        "past participle of gebären"
+      ]
+    },
+    {
+      "id": "10797",
+      "level": "A1",
+      "frequencyRank": 1052,
+      "german": "zuhause",
+      "deckEnglish": "at home",
+      "wiktionaryGlosses": [
+        "alternative spelling of zu Hause"
+      ]
+    },
+    {
+      "id": "10819",
+      "level": "A1",
+      "frequencyRank": 1074,
+      "german": "weiss",
+      "deckEnglish": "white",
+      "wiktionaryGlosses": [
+        "Switzerland and Liechtenstein standard spelling of weiß"
+      ]
+    },
+    {
+      "id": "10875",
+      "level": "A2",
+      "frequencyRank": 1133,
+      "german": "aussen",
+      "deckEnglish": "outside",
+      "wiktionaryGlosses": [
+        "Switzerland and Liechtenstein standard spelling of außen"
+      ]
+    },
+    {
+      "id": "10882",
+      "level": "A1",
+      "frequencyRank": 1140,
+      "german": "Farbe",
+      "deckEnglish": "color",
+      "wiktionaryGlosses": [
+        "colour",
+        "paint",
+        "dye, colourant for hair",
+        "suit (playing cards)",
+        "tincture"
+      ]
+    },
+    {
+      "id": "11110",
+      "level": "A2",
+      "frequencyRank": 1421,
+      "german": "Prüfung",
+      "deckEnglish": "exam",
+      "wiktionaryGlosses": [
+        "an official test or examination on a subject",
+        "check, examination, inspection, verification, audit, validation"
+      ]
+    },
+    {
+      "id": "11159",
+      "level": "A1",
+      "frequencyRank": 1476,
+      "german": "heiss",
+      "deckEnglish": "hot",
+      "wiktionaryGlosses": [
+        "Switzerland and Liechtenstein standard spelling of heiß"
+      ]
+    },
+    {
+      "id": "11162",
+      "level": "A1",
+      "frequencyRank": 1482,
+      "german": "Nachbar",
+      "deckEnglish": "neighbor",
+      "wiktionaryGlosses": [
+        "neighbour"
+      ]
+    },
+    {
+      "id": "11291",
+      "level": "A2",
+      "frequencyRank": 1644,
+      "german": "Pass",
+      "deckEnglish": "passport",
+      "wiktionaryGlosses": [
+        "pass, mountain pass",
+        "pace (2-beat, lateral gait of an animal)",
+        "pass (document granting permission to pass)",
+        "ellipsis of Reisepass",
+        "citizenship",
+        "pass (The act of moving the ball or puck from one player to another.)",
+        "gothic pass (an ornament consisting of several arches)"
+      ]
+    },
+    {
+      "id": "11439",
+      "level": "A2",
+      "frequencyRank": 1830,
+      "german": "Webseite",
+      "deckEnglish": "website",
+      "wiktionaryGlosses": [
+        "web page",
+        "web site"
+      ]
+    },
+    {
+      "id": "11587",
+      "level": "A1",
+      "frequencyRank": 2008,
+      "german": "Flugzeug",
+      "deckEnglish": "airplane",
+      "wiktionaryGlosses": [
+        "aeroplane"
+      ]
+    },
+    {
+      "id": "11599",
+      "level": "A2",
+      "frequencyRank": 2023,
+      "german": "Lkw",
+      "deckEnglish": "truck;lorry",
+      "wiktionaryGlosses": [
+        "alternative spelling of LKW"
+      ]
+    },
+    {
+      "id": "11941",
+      "level": "A2",
+      "frequencyRank": 2453,
+      "german": "Pkw",
+      "deckEnglish": "car (passenger car)",
+      "wiktionaryGlosses": [
+        "alternative spelling of PKW"
+      ]
+    },
+    {
+      "id": "12429",
+      "level": "A2",
+      "frequencyRank": 3068,
+      "german": "begrüßen",
+      "deckEnglish": "to greet",
+      "wiktionaryGlosses": [
+        "to welcome"
+      ]
+    },
+    {
+      "id": "12477",
+      "level": "A2",
+      "frequencyRank": 3128,
+      "german": "Autofahrer",
+      "deckEnglish": "Car driver",
+      "wiktionaryGlosses": [
+        "A motorist (the driver of a car or automobile)."
+      ]
+    },
+    {
+      "id": "12510",
+      "level": "A1",
+      "frequencyRank": 3174,
+      "german": "Spanisch",
+      "deckEnglish": "Spanish (language)",
+      "wiktionaryGlosses": [
+        "Ruy Lopez (chess opening)",
+        "mammary intercourse, the sexual practice or act of stimulating the penis by rubbing it between breasts"
+      ]
+    },
+    {
+      "id": "12566",
+      "level": "A2",
+      "frequencyRank": 3247,
+      "german": "Zentimeter",
+      "deckEnglish": "centimeter",
+      "wiktionaryGlosses": [
+        "centimetre"
+      ]
+    },
+    {
+      "id": "12838",
+      "level": "A2",
+      "frequencyRank": 3606,
+      "german": "giessen",
+      "deckEnglish": "to pour;to water (plants)",
+      "wiktionaryGlosses": [
+        "Switzerland and Liechtenstein standard spelling of gießen"
+      ]
+    },
+    {
+      "id": "12860",
+      "level": "A2",
+      "frequencyRank": 3637,
+      "german": "schonmal",
+      "deckEnglish": "already once;ever",
+      "wiktionaryGlosses": [
+        "alternative form of schon mal"
+      ]
+    },
+    {
+      "id": "12968",
+      "level": "A2",
+      "frequencyRank": 3775,
+      "german": "Verkäufer",
+      "deckEnglish": "salesperson",
+      "wiktionaryGlosses": [
+        "agent noun of verkaufen",
+        "seller (one who sells something)",
+        "salesclerk, salesman, shop assistant, sales assistant, vendor (one whose profession is to sell things)"
+      ]
+    },
+    {
+      "id": "12988",
+      "level": "A2",
+      "frequencyRank": 3802,
+      "german": "fleissig",
+      "deckEnglish": "diligent;hardworking",
+      "wiktionaryGlosses": [
+        "Switzerland and Liechtenstein standard spelling of fleißig"
+      ]
+    },
+    {
+      "id": "13048",
+      "level": "A2",
+      "frequencyRank": 3876,
+      "german": "gemütlich",
+      "deckEnglish": "cozy",
+      "wiktionaryGlosses": [
+        "cosy, gemütlich"
+      ]
+    },
+    {
+      "id": "13051",
+      "level": "A1",
+      "frequencyRank": 3879,
+      "german": "heut",
+      "deckEnglish": "today",
+      "wiktionaryGlosses": [
+        "alternative form of heute"
+      ]
+    },
+    {
+      "id": "13060",
+      "level": "A2",
+      "frequencyRank": 3890,
+      "german": "mehrer",
+      "deckEnglish": "several",
+      "wiktionaryGlosses": [
+        "inflection of viel:",
+        "strong/mixed nominative masculine singular comparative degree",
+        "strong genitive/dative feminine singular comparative degree",
+        "strong genitive plural comparative degree"
+      ]
+    },
+    {
+      "id": "13354",
+      "level": "A1",
+      "frequencyRank": 4260,
+      "german": "Geschwister",
+      "deckEnglish": "siblings",
+      "wiktionaryGlosses": [
+        "sibling"
+      ]
+    },
+    {
+      "id": "13355",
+      "level": "A1",
+      "frequencyRank": 4262,
+      "german": "Grossvater",
+      "deckEnglish": "grandfather",
+      "wiktionaryGlosses": [
+        "Switzerland and Liechtenstein standard spelling of Großvater"
+      ]
+    },
+    {
+      "id": "13431",
+      "level": "A2",
+      "frequencyRank": 4360,
+      "german": "regelmäßig",
+      "deckEnglish": "regularly",
+      "wiktionaryGlosses": [
+        "regular; according to the rule; expected; not forming an exception",
+        "regular; steady; even; with its components in proportion",
+        "regular; periodic; happening at constant intervals; frequent"
+      ]
+    },
+    {
+      "id": "13595",
+      "level": "A2",
+      "frequencyRank": 4576,
+      "german": "Jänner",
+      "deckEnglish": "January",
+      "wiktionaryGlosses": [
+        "synonym of Januar (“January”)"
+      ]
+    },
+    {
+      "id": "13773",
+      "level": "A2",
+      "frequencyRank": 4809,
+      "german": "Einkauf",
+      "deckEnglish": "shopping",
+      "wiktionaryGlosses": [
+        "purchase (the act or process of seeking and obtaining something)",
+        "whole set of purchased goods"
+      ]
+    },
+    {
+      "id": "13791",
+      "level": "A2",
+      "frequencyRank": 4845,
+      "german": "Po",
+      "deckEnglish": "bottom;buttock",
+      "wiktionaryGlosses": [
+        "buttocks"
+      ]
+    },
+    {
+      "id": "13901",
+      "level": "A1",
+      "frequencyRank": 4996,
+      "german": "Grossmutter",
+      "deckEnglish": "grandmother",
+      "wiktionaryGlosses": [
+        "Switzerland and Liechtenstein standard spelling of Großmutter"
+      ]
+    },
+    {
+      "id": "13987",
+      "level": "A1",
+      "frequencyRank": 5110,
+      "german": "Läden",
+      "deckEnglish": "shops;stores",
+      "wiktionaryGlosses": [
+        "plural of Laden"
+      ]
+    },
+    {
+      "id": "14060",
+      "level": "A1",
+      "frequencyRank": 5204,
+      "german": "Mutti",
+      "deckEnglish": "mommy;mum",
+      "wiktionaryGlosses": [
+        "mom, mummy"
+      ]
+    },
+    {
+      "id": "14139",
+      "level": "A2",
+      "frequencyRank": 5312,
+      "german": "Stau",
+      "deckEnglish": "traffic jam",
+      "wiktionaryGlosses": [
+        "congestion, stagnancy of water or anything dammed or otherwise backed-up",
+        "ellipsis of Verkehrsstau (“traffic jam”)",
+        "weir"
+      ]
+    },
+    {
+      "id": "14229",
+      "level": "A1",
+      "frequencyRank": 5441,
+      "german": "Becher",
+      "deckEnglish": "cup;mug",
+      "wiktionaryGlosses": [
+        "a cylindrical or slightly conical drinking vessel without a stem, typically with no handle, beaker"
+      ]
+    },
+    {
+      "id": "14240",
+      "level": "A2",
+      "frequencyRank": 5457,
+      "german": "Fussgänger",
+      "deckEnglish": "pedestrian",
+      "wiktionaryGlosses": [
+        "Switzerland and Liechtenstein standard spelling of Fußgänger"
+      ]
+    },
+    {
+      "id": "14265",
+      "level": "A2",
+      "frequencyRank": 5503,
+      "german": "Radweg",
+      "deckEnglish": "cycle path",
+      "wiktionaryGlosses": [
+        "bicycle lane"
+      ]
+    },
+    {
+      "id": "14404",
+      "level": "A2",
+      "frequencyRank": 5690,
+      "german": "Millimeter",
+      "deckEnglish": "millimeter",
+      "wiktionaryGlosses": [
+        "millimetre (one thousandth of a metre)"
+      ]
+    },
+    {
+      "id": "14659",
+      "level": "A2",
+      "frequencyRank": 6058,
+      "german": "Car",
+      "deckEnglish": "car",
+      "wiktionaryGlosses": [
+        "clipping of Autocar"
+      ]
+    },
+    {
+      "id": "14708",
+      "level": "A2",
+      "frequencyRank": 6125,
+      "german": "Süssigkeit",
+      "deckEnglish": "sweet;candy",
+      "wiktionaryGlosses": [
+        "Switzerland and Liechtenstein standard spelling of Süßigkeit"
+      ]
+    },
+    {
+      "id": "14784",
+      "level": "A2",
+      "frequencyRank": 6229,
+      "german": "Schnitzel",
+      "deckEnglish": "schnitzel",
+      "wiktionaryGlosses": [
+        "scrap (small piece of paper, etc.)",
+        "cutlet, scallop, escalope (slice of filet meat)"
+      ]
+    },
+    {
+      "id": "14836",
+      "level": "A1",
+      "frequencyRank": 6293,
+      "german": "dreissig",
+      "deckEnglish": "thirty",
+      "wiktionaryGlosses": [
+        "Switzerland and Liechtenstein standard spelling of dreißig"
+      ]
+    },
+    {
+      "id": "14843",
+      "level": "A2",
+      "frequencyRank": 6301,
+      "german": "Fussballer",
+      "deckEnglish": "footballer;soccer player",
+      "wiktionaryGlosses": [
+        "Switzerland and Liechtenstein standard spelling of Fußballer"
+      ]
+    },
+    {
+      "id": "15740",
+      "level": "A2",
+      "frequencyRank": 7558,
+      "german": "Lotto",
+      "deckEnglish": "lottery",
+      "wiktionaryGlosses": [
+        "lotto"
+      ]
+    },
+    {
+      "id": "15765",
+      "level": "A2",
+      "frequencyRank": 7592,
+      "german": "Teddy",
+      "deckEnglish": "teddy bear",
+      "wiktionaryGlosses": [
+        "clipping of Teddybär (“teddy bear”)"
+      ]
+    },
+    {
+      "id": "15853",
+      "level": "A2",
+      "frequencyRank": 7712,
+      "german": "Sosse",
+      "deckEnglish": "sauce;gravy",
+      "wiktionaryGlosses": [
+        "Switzerland and Liechtenstein standard spelling of Soße"
+      ]
+    },
+    {
+      "id": "16057",
+      "level": "A2",
+      "frequencyRank": 8014,
+      "german": "Sauce",
+      "deckEnglish": "sauce",
+      "wiktionaryGlosses": [
+        "synonym of Soße"
+      ]
+    },
+    {
+      "id": "16131",
+      "level": "A2",
+      "frequencyRank": 8143,
+      "german": "radfahren",
+      "deckEnglish": "to cycle;to ride a bike",
+      "wiktionaryGlosses": [
+        "Formerly standard spelling of Rad fahren which was deprecated in the spelling reform (Rechtschreibreform) of 1996."
+      ]
+    },
+    {
+      "id": "16144",
+      "level": "A2",
+      "frequencyRank": 8160,
+      "german": "Stückchen",
+      "deckEnglish": "little piece;bit",
+      "wiktionaryGlosses": [
+        "diminutive of Stück"
+      ]
+    },
+    {
+      "id": "16513",
+      "level": "A2",
+      "frequencyRank": 8659,
+      "german": "Geschirr",
+      "deckEnglish": "dishes",
+      "wiktionaryGlosses": [
+        "dishware",
+        "vessel, container",
+        "harness"
+      ]
+    },
+    {
+      "id": "16544",
+      "level": "A2",
+      "frequencyRank": 8703,
+      "german": "Pfleger",
+      "deckEnglish": "male nurse",
+      "wiktionaryGlosses": [
+        "agent noun of pflegen",
+        "clipping of Krankenpfleger (“nurse”)",
+        "clipping of Tierpfleger (“animal caretaker”)",
+        "guardian",
+        "governor, bailiff",
+        "an elementary school administrator",
+        "organizer, supervisor",
+        "second (attendant of a duel or boxing match standing in for a contestant)"
+      ]
+    },
+    {
+      "id": "16949",
+      "level": "A1",
+      "frequencyRank": 9298,
+      "german": "Photo",
+      "deckEnglish": "photo",
+      "wiktionaryGlosses": [
+        "obsolete spelling of Foto"
+      ]
+    },
+    {
+      "id": "16979",
+      "level": "A2",
+      "frequencyRank": 9346,
+      "german": "zurückkommen",
+      "deckEnglish": "to come back",
+      "wiktionaryGlosses": [
+        "to return (to come back)"
+      ]
+    },
+    {
+      "id": "17105",
+      "level": "A2",
+      "frequencyRank": 9524,
+      "german": "Bub",
+      "deckEnglish": "boy (southern German;Austrian)",
+      "wiktionaryGlosses": [
+        "alternative form of Bube (“boy”)"
+      ]
+    },
+    {
+      "id": "17140",
+      "level": "A1",
+      "frequencyRank": 9590,
+      "german": "Mami",
+      "deckEnglish": "mommy",
+      "wiktionaryGlosses": [
+        "mom, mum"
+      ]
+    },
+    {
+      "id": "17289",
+      "level": "A2",
+      "frequencyRank": 9827,
+      "german": "verspätet",
+      "deckEnglish": "delayed",
+      "wiktionaryGlosses": [
+        "belated, late"
+      ]
+    },
+    {
+      "id": "17460",
+      "level": "A2",
+      "frequencyRank": 10084,
+      "german": "Fussboden",
+      "deckEnglish": "floor",
+      "wiktionaryGlosses": [
+        "Switzerland and Liechtenstein standard spelling of Fußboden"
+      ]
+    },
+    {
+      "id": "17739",
+      "level": "A2",
+      "frequencyRank": 10464,
+      "german": "Kleinkind",
+      "deckEnglish": "toddler",
+      "wiktionaryGlosses": [
+        "child under six years old, pre-school-age child"
+      ]
+    },
+    {
+      "id": "17742",
+      "level": "A2",
+      "frequencyRank": 10467,
+      "german": "Krawatte",
+      "deckEnglish": "tie",
+      "wiktionaryGlosses": [
+        "necktie"
+      ]
+    },
+    {
+      "id": "17814",
+      "level": "A2",
+      "frequencyRank": 10582,
+      "german": "Circus",
+      "deckEnglish": "circus",
+      "wiktionaryGlosses": [
+        "alternative spelling of Zirkus"
+      ]
+    },
+    {
+      "id": "18117",
+      "level": "A2",
+      "frequencyRank": 11055,
+      "german": "Strassenseite",
+      "deckEnglish": "side of the street",
+      "wiktionaryGlosses": [
+        "Switzerland and Liechtenstein standard spelling of Straßenseite"
+      ]
+    },
+    {
+      "id": "18214",
+      "level": "A2",
+      "frequencyRank": 11205,
+      "german": "Notebook",
+      "deckEnglish": "laptop",
+      "wiktionaryGlosses": [
+        "notebook computer"
+      ]
+    },
+    {
+      "id": "18274",
+      "level": "A2",
+      "frequencyRank": 11290,
+      "german": "Bauchschmerz",
+      "deckEnglish": "stomach ache",
+      "wiktionaryGlosses": [
+        "abdominal pain, bellyache, stomachache, tummyache"
+      ]
+    },
+    {
+      "id": "18786",
+      "level": "A1",
+      "frequencyRank": 12045,
+      "german": "Verkäuferin",
+      "deckEnglish": "saleswoman",
+      "wiktionaryGlosses": [
+        "seller, vendor"
+      ]
+    },
+    {
+      "id": "19147",
+      "level": "A2",
+      "frequencyRank": 12577,
+      "german": "Fussballfan",
+      "deckEnglish": "football fan",
+      "wiktionaryGlosses": [
+        "Switzerland and Liechtenstein standard spelling of Fußballfan"
+      ]
+    },
+    {
+      "id": "19307",
+      "level": "A2",
+      "frequencyRank": 12821,
+      "german": "Kaffeemaschine",
+      "deckEnglish": "coffee machine",
+      "wiktionaryGlosses": [
+        "coffeemaker"
+      ]
+    },
+    {
+      "id": "19353",
+      "level": "A2",
+      "frequencyRank": 12894,
+      "german": "Schoko",
+      "deckEnglish": "chocolate (informal)",
+      "wiktionaryGlosses": [
+        "clipping of Schokolade"
+      ]
+    },
+    {
+      "id": "19405",
+      "level": "A2",
+      "frequencyRank": 12961,
+      "german": "Achterbahn",
+      "deckEnglish": "roller coaster",
+      "wiktionaryGlosses": [
+        "rollercoaster"
+      ]
+    },
+    {
+      "id": "19862",
+      "level": "A2",
+      "frequencyRank": 13645,
+      "german": "Bettwäsche",
+      "deckEnglish": "bed linen",
+      "wiktionaryGlosses": [
+        "bedding, bedclothes, bedlinen"
+      ]
+    },
+    {
+      "id": "20069",
+      "level": "A2",
+      "frequencyRank": 13969,
+      "german": "mitfahren",
+      "deckEnglish": "to ride along;to go with",
+      "wiktionaryGlosses": [
+        "to drive with"
+      ]
+    },
+    {
+      "id": "20679",
+      "level": "A2",
+      "frequencyRank": 14871,
+      "german": "Küsschen",
+      "deckEnglish": "little kiss",
+      "wiktionaryGlosses": [
+        "diminutive of Kuss; a peck"
+      ]
+    },
+    {
+      "id": "20738",
+      "level": "A2",
+      "frequencyRank": 14953,
+      "german": "Strümpfe",
+      "deckEnglish": "stockings;socks",
+      "wiktionaryGlosses": [
+        "nominative/accusative/genitive plural of Strumpf"
+      ]
+    },
+    {
+      "id": "20852",
+      "level": "A2",
+      "frequencyRank": 15120,
+      "german": "Kleidungsstück",
+      "deckEnglish": "piece of clothing",
+      "wiktionaryGlosses": [
+        "garment (single item of clothing)"
+      ]
+    },
+    {
+      "id": "20894",
+      "level": "A1",
+      "frequencyRank": 15181,
+      "german": "sechster",
+      "deckEnglish": "sixth",
+      "wiktionaryGlosses": [
+        "inflection of sechste:",
+        "strong/mixed nominative masculine singular",
+        "strong genitive/dative feminine singular",
+        "strong genitive plural"
+      ]
+    },
+    {
+      "id": "21090",
+      "level": "A2",
+      "frequencyRank": 15467,
+      "german": "Schultag",
+      "deckEnglish": "school day",
+      "wiktionaryGlosses": [
+        "schoolday"
+      ]
+    },
+    {
+      "id": "21508",
+      "level": "A2",
+      "frequencyRank": 16063,
+      "german": "Weisswein",
+      "deckEnglish": "white wine",
+      "wiktionaryGlosses": [
+        "Switzerland and Liechtenstein standard spelling of Weißwein"
+      ]
+    },
+    {
+      "id": "21627",
+      "level": "A2",
+      "frequencyRank": 16245,
+      "german": "Schulkind",
+      "deckEnglish": "school child",
+      "wiktionaryGlosses": [
+        "schoolchild"
+      ]
+    },
+    {
+      "id": "22621",
+      "level": "A2",
+      "frequencyRank": 17742,
+      "german": "Blümchen",
+      "deckEnglish": "little flower;floweret",
+      "wiktionaryGlosses": [
+        "diminutive of Blume"
+      ]
+    },
+    {
+      "id": "22748",
+      "level": "A2",
+      "frequencyRank": 17961,
+      "german": "Turnschuh",
+      "deckEnglish": "sneaker",
+      "wiktionaryGlosses": [
+        "gymnastic shoe",
+        "athletic shoe, sport shoe"
+      ]
+    },
+    {
+      "id": "22817",
+      "level": "A2",
+      "frequencyRank": 18062,
+      "german": "Einbahnstrasse",
+      "deckEnglish": "one-way street",
+      "wiktionaryGlosses": [
+        "Switzerland and Liechtenstein standard spelling of Einbahnstraße"
+      ]
+    },
+    {
+      "id": "22873",
+      "level": "A2",
+      "frequencyRank": 18147,
+      "german": "Limo",
+      "deckEnglish": "soda;lemonade",
+      "wiktionaryGlosses": [
+        "clipping of Limonade",
+        "clipping of Limousine: limo"
+      ]
+    },
+    {
+      "id": "23549",
+      "level": "A2",
+      "frequencyRank": 19197,
+      "german": "Weekend",
+      "deckEnglish": "weekend",
+      "wiktionaryGlosses": [
+        "synonym of Wochenende"
+      ]
+    },
+    {
+      "id": "23694",
+      "level": "A1",
+      "frequencyRank": 19407,
+      "german": "nachhause",
+      "deckEnglish": "home",
+      "wiktionaryGlosses": [
+        "alternative spelling of nach Hause"
+      ]
+    },
+    {
+      "id": "23810",
+      "level": "A2",
+      "frequencyRank": 19579,
+      "german": "Blumenstrauss",
+      "deckEnglish": "bouquet of flowers",
+      "wiktionaryGlosses": [
+        "Switzerland and Liechtenstein standard spelling of Blumenstrauß"
+      ]
+    },
+    {
+      "id": "23834",
+      "level": "A2",
+      "frequencyRank": 19629,
+      "german": "Fussballspieler",
+      "deckEnglish": "football player",
+      "wiktionaryGlosses": [
+        "Switzerland and Liechtenstein standard spelling of Fußballspieler"
+      ]
+    },
+    {
+      "id": "23840",
+      "level": "A2",
+      "frequencyRank": 19649,
+      "german": "Haferflocke",
+      "deckEnglish": "oat flake",
+      "wiktionaryGlosses": [
+        "porridge oats"
+      ]
+    },
+    {
+      "id": "24045",
+      "level": "A2",
+      "frequencyRank": 19986,
+      "german": "Haustüre",
+      "deckEnglish": "front door",
+      "wiktionaryGlosses": [
+        "alternative form of Haustür"
+      ]
+    },
+    {
+      "id": "24166",
+      "level": "A2",
+      "frequencyRank": 20179,
+      "german": "zuwenig",
+      "deckEnglish": "too little;not enough",
+      "wiktionaryGlosses": [
+        "Formerly standard spelling of zu wenig which was deprecated in the spelling reform (Rechtschreibreform) of 1996."
+      ]
+    },
+    {
+      "id": "24376",
+      "level": "A2",
+      "frequencyRank": 20519,
+      "german": "Bierchen",
+      "deckEnglish": "small beer;a little beer",
+      "wiktionaryGlosses": [
+        "diminutive of Bier"
+      ]
+    },
+    {
+      "id": "24395",
+      "level": "A2",
+      "frequencyRank": 20564,
+      "german": "erhältst",
+      "deckEnglish": "receive (you)",
+      "wiktionaryGlosses": [
+        "second-person singular present of erhalten"
+      ]
+    },
+    {
+      "id": "24445",
+      "level": "A2",
+      "frequencyRank": 20641,
+      "german": "Körbchen",
+      "deckEnglish": "small basket",
+      "wiktionaryGlosses": [
+        "diminutive of Korb",
+        "bra cup"
+      ]
+    },
+    {
+      "id": "24484",
+      "level": "A2",
+      "frequencyRank": 20724,
+      "german": "Schlafanzug",
+      "deckEnglish": "pajamas",
+      "wiktionaryGlosses": [
+        "pyjamas (clothes for wearing to bed and sleeping in)"
+      ]
+    },
+    {
+      "id": "24946",
+      "level": "A2",
+      "frequencyRank": 21422,
+      "german": "Tanke",
+      "deckEnglish": "gas station (colloquial)",
+      "wiktionaryGlosses": [
+        "short for Tankstelle",
+        "nominative/accusative/genitive plural of Tank"
+      ]
+    },
+    {
+      "id": "24962",
+      "level": "A2",
+      "frequencyRank": 21447,
+      "german": "verspäten",
+      "deckEnglish": "to delay",
+      "wiktionaryGlosses": [
+        "to be late, to be delayed"
+      ]
+    },
+    {
+      "id": "25339",
+      "level": "A2",
+      "frequencyRank": 22063,
+      "german": "runterfallen",
+      "deckEnglish": "to fall down",
+      "wiktionaryGlosses": [
+        "clipping of herunterfallen"
+      ]
+    },
+    {
+      "id": "25423",
+      "level": "A2",
+      "frequencyRank": 22188,
+      "german": "Beet",
+      "deckEnglish": "flowerbed",
+      "wiktionaryGlosses": [
+        "bed (for plants)"
+      ]
+    },
+    {
+      "id": "25870",
+      "level": "A2",
+      "frequencyRank": 22950,
+      "german": "Christkind",
+      "deckEnglish": "Christ Child (figure who brings gifts at Christmas in some German-speaking regions)",
+      "wiktionaryGlosses": [
+        "A representation of the Christkind (as above)",
+        "Christmas gift",
+        "giver of a Christmas gift",
+        "someone born on Christmas Eve"
+      ]
+    },
+    {
+      "id": "25958",
+      "level": "A2",
+      "frequencyRank": 23083,
+      "german": "Lesebuch",
+      "deckEnglish": "reading book",
+      "wiktionaryGlosses": [
+        "primer, reader"
+      ]
+    },
+    {
+      "id": "26085",
+      "level": "A2",
+      "frequencyRank": 23280,
+      "german": "Belt",
+      "deckEnglish": "belt",
+      "wiktionaryGlosses": [
+        "strait"
+      ]
+    },
+    {
+      "id": "26236",
+      "level": "A2",
+      "frequencyRank": 23546,
+      "german": "Sonderangebot",
+      "deckEnglish": "special offer",
+      "wiktionaryGlosses": [
+        "bargain"
+      ]
+    },
+    {
+      "id": "26489",
+      "level": "A2",
+      "frequencyRank": 23930,
+      "german": "Schäfchen",
+      "deckEnglish": "little sheep",
+      "wiktionaryGlosses": [
+        "diminutive of Schaf"
+      ]
+    },
+    {
+      "id": "26502",
+      "level": "A2",
+      "frequencyRank": 23948,
+      "german": "späteres",
+      "deckEnglish": "later (adjective)",
+      "wiktionaryGlosses": [
+        "strong/mixed nominative/accusative neuter singular comparative degree of spät"
+      ]
+    },
+    {
+      "id": "27262",
+      "level": "A2",
+      "frequencyRank": 25155,
+      "german": "Steinchen",
+      "deckEnglish": "small stone;pebble",
+      "wiktionaryGlosses": [
+        "diminutive of Stein"
+      ]
+    },
+    {
+      "id": "27369",
+      "level": "A1",
+      "frequencyRank": 25315,
+      "german": "Cornflakes",
+      "deckEnglish": "cornflakes",
+      "wiktionaryGlosses": [
+        "corn flakes"
+      ]
+    },
+    {
+      "id": "27407",
+      "level": "A2",
+      "frequencyRank": 25371,
+      "german": "Frisör",
+      "deckEnglish": "hairdresser",
+      "wiktionaryGlosses": [
+        "alternative spelling of Friseur"
+      ]
+    },
+    {
+      "id": "27409",
+      "level": "A2",
+      "frequencyRank": 25373,
+      "german": "Fussballplatz",
+      "deckEnglish": "football field",
+      "wiktionaryGlosses": [
+        "Switzerland and Liechtenstein standard spelling of Fußballplatz"
+      ]
+    },
+    {
+      "id": "27590",
+      "level": "A2",
+      "frequencyRank": 25640,
+      "german": "Weissbrot",
+      "deckEnglish": "white bread",
+      "wiktionaryGlosses": [
+        "Switzerland and Liechtenstein standard spelling of Weißbrot"
+      ]
+    },
+    {
+      "id": "27883",
+      "level": "A2",
+      "frequencyRank": 26128,
+      "german": "Baumhaus",
+      "deckEnglish": "treehouse",
+      "wiktionaryGlosses": [
+        "tree house"
+      ]
+    },
+    {
+      "id": "27985",
+      "level": "A2",
+      "frequencyRank": 26315,
+      "german": "Läuferin",
+      "deckEnglish": "runner (female)",
+      "wiktionaryGlosses": [
+        "female equivalent of Läufer"
+      ]
+    },
+    {
+      "id": "28158",
+      "level": "A2",
+      "frequencyRank": 26592,
+      "german": "Fussballmannschaft",
+      "deckEnglish": "football team",
+      "wiktionaryGlosses": [
+        "Switzerland and Liechtenstein standard spelling of Fußballmannschaft"
+      ]
+    },
+    {
+      "id": "28547",
+      "level": "A2",
+      "frequencyRank": 27212,
+      "german": "Schatzi",
+      "deckEnglish": "sweetheart",
+      "wiktionaryGlosses": [
+        "diminutive of Schatz; honey, darling"
+      ]
+    },
+    {
+      "id": "28559",
+      "level": "A1",
+      "frequencyRank": 27233,
+      "german": "spazierengehen",
+      "deckEnglish": "to go for a walk",
+      "wiktionaryGlosses": [
+        "Formerly standard spelling of spazieren gehen which was deprecated in the spelling reform (Rechtschreibreform) of 1996."
+      ]
+    },
+    {
+      "id": "28651",
+      "level": "A2",
+      "frequencyRank": 27373,
+      "german": "Bettchen",
+      "deckEnglish": "little bed;cot",
+      "wiktionaryGlosses": [
+        "diminutive of Bett"
+      ]
+    },
+    {
+      "id": "29383",
+      "level": "A2",
+      "frequencyRank": 28537,
+      "german": "Sandstrand",
+      "deckEnglish": "sandy beach",
+      "wiktionaryGlosses": [
+        "sandbeach"
+      ]
+    },
+    {
+      "id": "29753",
+      "level": "A2",
+      "frequencyRank": 29132,
+      "german": "Zehe",
+      "deckEnglish": "toe",
+      "wiktionaryGlosses": [
+        "clove (of garlic and similar plants)",
+        "alternative form of Zeh (“toe”)"
+      ]
+    },
+    {
+      "id": "29936",
+      "level": "A2",
+      "frequencyRank": 29443,
+      "german": "Polin",
+      "deckEnglish": "Polish woman",
+      "wiktionaryGlosses": [
+        "female Pole"
+      ]
+    },
+    {
+      "id": "30040",
+      "level": "A2",
+      "frequencyRank": 29593,
+      "german": "Weissbier",
+      "deckEnglish": "wheat beer",
+      "wiktionaryGlosses": [
+        "Switzerland and Liechtenstein standard spelling of Weißbier"
+      ]
+    },
+    {
+      "id": "30174",
+      "level": "A2",
+      "frequencyRank": 29819,
+      "german": "Japanerin",
+      "deckEnglish": "Japanese woman",
+      "wiktionaryGlosses": [
+        "female equivalent of Japaner (“Japanese person”)"
+      ]
+    },
+    {
+      "id": "30250",
+      "level": "A2",
+      "frequencyRank": 29947,
+      "german": "Schnellstrasse",
+      "deckEnglish": "expressway;highway",
+      "wiktionaryGlosses": [
+        "Switzerland and Liechtenstein standard spelling of Schnellstraße"
+      ]
+    }
+  ]
+}

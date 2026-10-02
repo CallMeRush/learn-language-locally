@@ -15818,3 +15818,4 @@ const verbDaily = [
     "sourceIndex": 20249
   }
 ];
+globalThis.WortwerkData?.register("verbs", "daily", verbDaily);

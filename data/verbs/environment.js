@@ -96,3 +96,4 @@ const verbEnvironment = [
     "sourceIndex": 19141
   }
 ];
+globalThis.WortwerkData?.register("verbs", "environment", verbEnvironment);

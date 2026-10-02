@@ -2982,3 +2982,4 @@ const vocabularyHealth = [
     "sourceIndex": 20051
   }
 ];
+globalThis.WortwerkData?.register("vocabulary", "health", vocabularyHealth);

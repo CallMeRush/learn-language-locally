@@ -3247,3 +3247,4 @@ const vocabularyShopping = [
     "sourceIndex": 20221
   }
 ];
+globalThis.WortwerkData?.register("vocabulary", "shopping", vocabularyShopping);

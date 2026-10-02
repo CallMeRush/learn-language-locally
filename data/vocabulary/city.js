@@ -3982,3 +3982,4 @@ const vocabularyCity = [
     "sourceIndex": 20275
   }
 ];
+globalThis.WortwerkData?.register("vocabulary", "city", vocabularyCity);

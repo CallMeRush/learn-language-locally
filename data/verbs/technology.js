@@ -664,3 +664,4 @@ const verbTechnology = [
     "sourceIndex": 19188
   }
 ];
+globalThis.WortwerkData?.register("verbs", "technology", verbTechnology);

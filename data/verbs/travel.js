@@ -1640,3 +1640,4 @@ const verbTravel = [
     "sourceIndex": 18982
   }
 ];
+globalThis.WortwerkData?.register("verbs", "travel", verbTravel);

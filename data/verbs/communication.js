@@ -1628,3 +1628,4 @@ const verbCommunication = [
     "sourceIndex": 19369
   }
 ];
+globalThis.WortwerkData?.register("verbs", "communication", verbCommunication);

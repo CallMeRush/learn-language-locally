@@ -4726,3 +4726,4 @@ const vocabularyFood = [
     "sourceIndex": 20191
   }
 ];
+globalThis.WortwerkData?.register("vocabulary", "food", vocabularyFood);

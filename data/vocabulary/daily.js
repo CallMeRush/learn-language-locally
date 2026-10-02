@@ -44530,3 +44530,4 @@ const vocabularyDaily = [
     "sourceIndex": 20268
   }
 ];
+globalThis.WortwerkData?.register("vocabulary", "daily", vocabularyDaily);

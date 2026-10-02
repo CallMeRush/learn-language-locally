@@ -1,7 +1,14 @@
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict'),path=require('node:path');
 const root=path.resolve(__dirname,'..'),context={};vm.createContext(context);
-const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
-for(const [,file] of html.matchAll(/<script src="(data\/[^\"]+)"/g))vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),context,{filename:file});
+for(const file of ['data/manifest.js','data/categories.js','data/grammar.js','data/lessons.js'])vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),context,{filename:file});
+vm.runInContext('this.contentManifest=contentManifest',context);
+const collectedVocab=[],collectedPhrases=[];
+context.WortwerkData={register(kind,group,records){
+  if(kind==='phrases')collectedPhrases.push(...records);
+  else collectedVocab.push(...records.map(item=>({...item,category:kind==='verbs'?'verbs':group,...(kind==='verbs'?{verbCategory:group}:{})})));
+}};
+for(const kind of ['vocabulary','verbs','phrases'])for(const entry of Object.values(context.contentManifest[kind]))vm.runInContext(fs.readFileSync(path.join(root,entry.src),'utf8'),context,{filename:entry.src});
+context.vocab=collectedVocab;context.phrases=collectedPhrases;
 vm.runInContext('this.content={vocab,phrases,lessons,grammarLessons,categoryRecords}',context);
 const {vocab,phrases,lessons,grammarLessons,categoryRecords}=context.content;
 const categories=new Set(categoryRecords.map(c=>c.id)),wordIds=new Set(vocab.map(w=>w.id)),ids=new Set();
@@ -20,6 +27,13 @@ for(const w of vocab){
     assert(categories.has('adjective-'+w.adjectiveCategory),'Unknown adjective group');
   }
   if(w.pos==='noun'){const de=w.translations.de;assert(['der','die','das'].includes(de.article));assert(de.text.startsWith(de.article+' '));}
+}
+for(const entry of JSON.parse(fs.readFileSync(path.join(root,'data/import/assignments.json'),'utf8')).entries){
+  if(!entry.translationReview)continue;
+  assert.equal(typeof entry.translationReview,'object');
+  assert.equal(entry.translationReview.status,'confirmed');
+  assert.match(entry.translationReview.reference,/\S/);
+  assert.match(entry.translationReview.note,/\S/);
 }
 for(const p of phrases){assert(phraseLevel(p));assert(p.wordIds.length);for(const id of p.wordIds)assert(wordIds.has(id),'Broken sentence→word reference '+id);}
 for(const g of grammarLessons){assert.equal(g.targetLanguage,'de');assert(g.localized.en.title);for(const t of g.tests){assert.equal(typeof t.prompt,'string');assert(t.answers.length);}}

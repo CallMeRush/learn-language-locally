@@ -21131,3 +21131,4 @@ const vocabularyAdjectives = [
     "adjectiveCategory": "places"
   }
 ];
+globalThis.WortwerkData?.register("vocabulary", "adjectives", vocabularyAdjectives);

@@ -7,15 +7,34 @@ var emptyProgress = () => ({
   streak: 0,
   lastStudy: null,
   lessons: [],
+  lessonSession: null,
 });
 // A new corpus must not interpret old IDs as learned words or completed lessons.
 // Previous progress remains stored under its own key, but is not loaded here.
 var progressKey = () => "en-de-deck-efd235e6-v1";
+function progressStore() {
+  try {
+    var value = JSON.parse(localStorage.getItem("wortwerk-progress") || "{}");
+    return value && typeof value === "object" && !Array.isArray(value) ? value : {};
+  } catch {
+    return {};
+  }
+}
 function loadProgress() {
-  var all = JSON.parse(localStorage.getItem("wortwerk-progress") || "{}"),
+  var all = progressStore(),
     value = all[progressKey()] || emptyProgress();
-  value.lessons = value.lessons || [];
+  ["learned", "issues", "phrases", "lessons"].forEach((key) => {
+    value[key] = Array.isArray(value[key]) ? [...new Set(value[key].filter((id) => typeof id === "string"))] : [];
+  });
+  ["correct", "attempts", "streak"].forEach((key) => {
+    value[key] = Number.isFinite(value[key]) && value[key] >= 0 ? value[key] : 0;
+  });
+  value.lastStudy = typeof value.lastStudy === "string" ? value.lastStudy : null;
+  value.lessonSession = value.lessonSession && typeof value.lessonSession === "object" ? value.lessonSession : null;
   return value;
+}
+function resolveIssue(id) {
+  state.issues = state.issues.filter((issue) => issue !== id);
 }
 var state = loadProgress();
 var translationText = (item, language) =>
@@ -70,7 +89,6 @@ var selectedCategory = categoryRecords.filter(record => vocab.some(word => word.
   vocabCorrect = false,
   phraseAnswered = false,
   phraseCorrect = false;
-var baseCheckPhrase;
 var vocabScopedIds = new Set([
   "category-tabs",
   "word-list",
@@ -97,6 +115,12 @@ var $ = (s) => {
     return document.querySelector(s);
   },
   $$ = (s) => [...document.querySelectorAll(s)];
+function updateVocabCheckButton() {
+  var button = document.querySelector("#" + vocabularyViewPrefix() + "check-vocab");
+  if (!button) return;
+  button.innerHTML = vocabCorrect ? "Next word <span>→</span>" : "Check answer <span>↵</span>";
+  button.onclick = vocabCorrect ? nextVocab : checkVocab;
+}
 var mainVocabularyView = document.querySelector("#vocabulary-view"),
   verbsView = mainVocabularyView.cloneNode(true);
 verbsView.id = "verbs-view";

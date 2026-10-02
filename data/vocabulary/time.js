@@ -4757,3 +4757,4 @@ const vocabularyTime = [
     "sourceIndex": 20138
   }
 ];
+globalThis.WortwerkData?.register("vocabulary", "time", vocabularyTime);

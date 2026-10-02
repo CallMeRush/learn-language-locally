@@ -1267,3 +1267,4 @@ const vocabularyFeelings = [
     "sourceIndex": 18109
   }
 ];
+globalThis.WortwerkData?.register("vocabulary", "feelings", vocabularyFeelings);

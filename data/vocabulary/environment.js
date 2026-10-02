@@ -459,3 +459,4 @@ const vocabularyEnvironment = [
     "sourceIndex": 19931
   }
 ];
+globalThis.WortwerkData?.register("vocabulary", "environment", vocabularyEnvironment);

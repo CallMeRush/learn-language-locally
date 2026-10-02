@@ -76,11 +76,11 @@ function mixedSetOptions(items, correct, property) {
           : item,
     );
 }
-function nextMixed() {
+function nextMixed(question = null) {
   refreshArticleChoices();
   var pool = mixedPool();
-  if (!pool.length) return;
-  mixedQuestion = pool[Math.floor(Math.random() * pool.length)];
+  if (!question && !pool.length) return;
+  mixedQuestion = question || pool[Math.floor(Math.random() * pool.length)];
   mixedAnswered = false;
   mixedCorrect = false;
   mixedArticle = "";
@@ -173,13 +173,12 @@ function nextMixed() {
       $("#mixed-cloze").innerHTML = clozeFor(item).sentence;
       $("#mixed-answer").placeholder = "Type the missing word…";
     } else if (q.kind === "phrase-choice") {
+      var cloze = clozeFor(item);
+      $("#mixed-cloze").innerHTML = cloze.sentence;
+      $("#mixed-cloze").style.display = "block";
       $("#mixed-answer").style.display = "none";
       $("#mixed-options").style.display = "grid";
-      mixedSetOptions(
-        lessonChoiceItems("phrase", phrases.filter((phrase) => mixedLevelOfPhrase(phrase) === q.level)),
-        item,
-        targetText,
-      ).forEach((option) => {
+      phraseChoiceOptions(item, cloze, lessonChoiceItems("phrase", phrases.filter((phrase) => mixedLevelOfPhrase(phrase) === q.level))).forEach((option) => {
         var button = document.createElement("button");
         button.className = "choice-option";
         button.type = "button";
@@ -200,6 +199,7 @@ function nextMixed() {
       item.lesson.title + " · answer the grammar question.";
     $("#mixed-answer").placeholder = "Type your answer…";
   }
+  updateMixedCheckButton();
 }
 function checkMixed() {
   if (!mixedQuestion) return;
@@ -222,7 +222,7 @@ function checkMixed() {
     wordCorrect = answerIncludes(raw, sourceText(item));
   else if (q.kind === "phrase-reverse")
     wordCorrect = answerMatches(raw, sourceText(item), grammarNormalize);
-  else if (q.kind === "phrase-cloze")
+  else if (q.kind === "phrase-cloze" || q.kind === "phrase-choice")
     wordCorrect = answerMatches(raw, clozeFor(item).word);
   else if (q.kind === "phrase-translate" || q.kind === "phrase-choice")
     wordCorrect = answerMatches(raw, targetText(item), (s) =>
@@ -242,6 +242,7 @@ function checkMixed() {
       state.learned.push(item.id);
     if (q.kind.startsWith("phrase") && !state.phrases.includes(item.id))
       state.phrases.push(item.id);
+    if (q.kind.startsWith("vocab") || q.kind.startsWith("phrase")) resolveIssue(item.id);
     $("#mixed-feedback").textContent =
       "Correct! Press Enter again for the next question.";
     $("#mixed-feedback").className = "feedback good";
@@ -267,6 +268,12 @@ function checkMixed() {
     registerStudy();
     save();
   }
+  if (activeLesson && !ok) {
+    var bucket = lessonPhase === "review" ? lessonReviewErrors : lessonErrors;
+    if (!bucket.some((question) => question.kind === q.kind && question.item === q.item)) bucket.push(q);
+  }
+  if (activeLesson) saveLessonSession();
+  updateMixedCheckButton();
 }
 $$("[data-mixed-level]").forEach(
   (button) =>
@@ -285,15 +292,25 @@ $$("[data-mixed-article]").forEach(
       mixedArticle = button.dataset.mixedArticle;
     }),
 );
+function updateMixedCheckButton() {
+  var button = $("#check-mixed");
+  if (!button || lessonComplete) return;
+  button.innerHTML = mixedCorrect ? "Next question <span>→</span>" : "Check answer <span>↵</span>";
+  button.onclick = mixedCorrect ? advanceMixed : checkMixed;
+}
+function advanceMixed() {
+  if (activeLesson) nextLessonQuestion();
+  else nextMixed();
+}
 $("#check-mixed").onclick = checkMixed;
-$("#next-mixed").onclick = nextMixed;
+$("#next-mixed").onclick = advanceMixed;
 $("#mixed-answer").onkeydown = (e) => {
   if (e.key !== "Enter") return;
   e.preventDefault();
-  if (mixedAnswered && mixedCorrect) nextMixed();
+  if (mixedAnswered && mixedCorrect) advanceMixed();
   else checkMixed();
 };
-nextMixed();
+      advanceMixed();
 $$(".heading-actions").forEach((el) =>
   el
     .querySelector(".vocab-direction")
@@ -318,7 +335,7 @@ function lessonPool(lesson) {
   var activities = lesson.activities || [],
     pool = [];
   if (activities.some((a) => a.type === "mixed"))
-    return baseMixedPool("all", { vocabulary: true, verbs: true, phrases: true, grammar: true });
+    return mixedPool("all", { vocabulary: true, verbs: true, phrases: true, grammar: true });
   var vocabCategories = activities
       .filter((a) => a.type === "vocabulary")
       .flatMap((a) => a.categories || []),

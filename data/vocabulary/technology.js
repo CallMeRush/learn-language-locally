@@ -3381,3 +3381,4 @@ const vocabularyTechnology = [
     "sourceIndex": 20135
   }
 ];
+globalThis.WortwerkData?.register("vocabulary", "technology", vocabularyTechnology);

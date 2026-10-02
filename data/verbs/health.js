@@ -642,3 +642,4 @@ const verbHealth = [
     "sourceIndex": 20042
   }
 ];
+globalThis.WortwerkData?.register("verbs", "health", verbHealth);

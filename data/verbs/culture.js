@@ -1346,3 +1346,4 @@ const verbCulture = [
     "sourceIndex": 19935
   }
 ];
+globalThis.WortwerkData?.register("verbs", "culture", verbCulture);

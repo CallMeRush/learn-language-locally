@@ -6182,3 +6182,4 @@ const vocabularyTravel = [
     "sourceIndex": 20254
   }
 ];
+globalThis.WortwerkData?.register("vocabulary", "travel", vocabularyTravel);

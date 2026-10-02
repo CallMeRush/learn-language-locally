@@ -25,9 +25,9 @@ the pinned deck, or `source: 'editorial'` for supplements.
 
 The learning content is intentionally kept separate from the interface logic.
 
-- `vocabulary/<category>.js` contains one concise canonical list for that category. The category is provided by the file/aggregator, not duplicated in each record.
-- `vocabulary.js` combines those category lists and derives their category metadata.
-- `verbs/<family>.js` contains one concise list for that verb family. Verb metadata such as `verbCategory` remains on the record when it affects filtering.
+- `vocabulary/<category>.js` contains one concise canonical list for that category. The category is provided by the file loader, not duplicated in each record.
+- `verbs/<family>.js` contains one concise list for that verb family. The static loader adds its `verbs` category and `verbCategory` when the file is requested.
+- `manifest.js` is generated alongside the content. It records the static file path and totals for each content group, so the browser can request only the topic it needs.
 - Vocabulary and verb records use stable numeric string IDs without zero padding. Existing IDs must not be renumbered after publication.
 - `phrases.js` contains one concise canonical list. Phrases retain their category because they are not split into category files.
 - Every vocabulary, verb, and phrase record stores language content under `translations`. Language-specific metadata, such as an article, belongs inside that language's translation object.
@@ -74,3 +74,27 @@ node scripts/import-deck.cjs --check
 node scripts/validate-data.cjs
 CHROMIUM=google-chrome node scripts/smoke-test.cjs
 ```
+
+## Translation review
+
+`scripts/audit-translations.cjs` compares A1/A2 deck glosses with senses in the
+downloaded German Wiktionary extract. It writes the first 250 high-frequency
+non-overlapping cases to `import/translation-audit.json`, sorted by source
+frequency rank. A queued record is a review candidate, not an asserted error:
+idioms, multi-word glosses, and different senses need human judgment. Rebuild or
+verify it with `node scripts/audit-translations.cjs [--check]`.
+
+After reviewing a queued item, record the decision on its entry in
+`import/assignments.json` and rerun the importer:
+
+```json
+"translationReview": {
+  "status": "confirmed",
+  "reference": "German Wiktionary, sense 1",
+  "note": "The source gloss is the intended everyday sense."
+}
+```
+
+Confirmed entries remain in the canonical data but leave the audit queue. If a
+translation needs changing, update its explicit `english` assignment before
+confirming it.

@@ -4464,3 +4464,4 @@ const vocabularyHouse = [
     "sourceIndex": 20278
   }
 ];
+globalThis.WortwerkData?.register("vocabulary", "house", vocabularyHouse);

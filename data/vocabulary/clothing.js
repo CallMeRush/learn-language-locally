@@ -901,3 +901,4 @@ const vocabularyClothing = [
     "sourceIndex": 19990
   }
 ];
+globalThis.WortwerkData?.register("vocabulary", "clothing", vocabularyClothing);

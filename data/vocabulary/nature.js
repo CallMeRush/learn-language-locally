@@ -2652,3 +2652,4 @@ const vocabularyNature = [
     "sourceIndex": 20203
   }
 ];
+globalThis.WortwerkData?.register("vocabulary", "nature", vocabularyNature);

@@ -85,8 +85,14 @@ for(const s of supplements){
   files['data/verbs/modal.js'].records.push({id:s.id,level:s.level,pos:'verb',topic:s.topic,translations:{en:{text:s.english},de:{text:s.word,separable:false}},source:'editorial'});
   phrases.push({id:String(100000+Number(s.id)),category:'daily',level:'easy',translations:{en:{text:s.sentenceEnglish},de:{text:s.sentenceGerman}},wordIds:[s.id],source:'editorial'});
 }
-for(const [p,{name,records}] of Object.entries(files))write(p,`const ${name} = ${JSON.stringify(records,null,2)};\n`);
-write('data/phrases.js',`const phrases = ${JSON.stringify(phrases,null,2)};\n`);
+const contentFile=(name,records,kind,group)=>
+  `const ${name} = ${JSON.stringify(records,null,2)};\n`+
+  `globalThis.WortwerkData?.register(${JSON.stringify(kind)}, ${JSON.stringify(group)}, ${name});\n`;
+for(const [p,{name,records}] of Object.entries(files)){
+  const [,kind,filename]=p.match(/^data\/(vocabulary|verbs)\/(.+)\.js$/);
+  write(p,contentFile(name,records,kind,filename));
+}
+write('data/phrases.js',contentFile('phrases',phrases,'phrases','all'));
 const labels={all:'All words',verbs:'All verbs',adjectives:'Adjectives',house:'Home & household',greetings:'Greetings',people:'People & relationships',food:'Food & drink',city:'Places & public life',time:'Time & numbers',travel:'Travel & transport',health:'Health & body',shopping:'Shopping & money',nature:'Nature & weather',work:'Work & business',feelings:'Feelings & thoughts',clothing:'Clothes & fashion',education:'Learning & knowledge',technology:'Technology & media',communication:'Communication',daily:'General & everyday life',environment:'Environment',culture:'Culture & leisure',core:'Core',modal:'Modal'};
 const categories=['all','verbs',...topics,...Object.entries(files).filter(([p,x])=>p.startsWith('data/verbs')&&x.records.length).map(([p])=>'verb-'+path.basename(p,'.js'))].map(id=>({id,type:'category',localized:{en:{label:id.startsWith('verb-')?labels[id.slice(5)]:labels[id]}}}));
 // Lower CEFR mean first, then median source frequency rank; aggregate tabs last.
@@ -101,5 +107,17 @@ for (const category of categories) {
 for(const [group,label] of Object.entries(adjectiveGroups))categories.push({id:'adjective-'+group,type:'category',localized:{en:{label}}});
 write('data/categories.js',`const categoryRecords = ${JSON.stringify(categories,null,2)};\n`);
 const totals={vocabulary:Object.entries(files).filter(([p])=>p.startsWith('data/vocabulary')).reduce((n,[,x])=>n+x.records.length,0),verbs:Object.entries(files).filter(([p])=>p.startsWith('data/verbs')).reduce((n,[,x])=>n+x.records.length,0),phrases:phrases.length};
+const manifestEntry=(src,records)=>({
+  src,
+  count:records.length,
+  levels:Object.fromEntries(['A1','A2','B1'].map(level=>[level,records.filter(record=>record.level===level || ({easy:'A1',medium:'A2',hard:'B1'}[record.level])===level).length]))
+});
+const manifest={
+  totals,
+  vocabulary:Object.fromEntries(Object.entries(files).filter(([p])=>p.startsWith('data/vocabulary/')).map(([p,{records}])=>[path.basename(p,'.js'),manifestEntry(p,records)])),
+  verbs:Object.fromEntries(Object.entries(files).filter(([p])=>p.startsWith('data/verbs/')).map(([p,{records}])=>[path.basename(p,'.js'),manifestEntry(p,records)])),
+  phrases:{all:manifestEntry('data/phrases.js',phrases)}
+};
+write('data/manifest.js',`const contentManifest = ${JSON.stringify(manifest,null,2)};\n`);
 write(folder+'/report.json',JSON.stringify({revision,sha256,candidates:candidates.length,totals,topicCounts,duplicates,held,topicReview:assignments.entries.filter(a=>a.status==='include'&&(a.topicMethod==='general'||a.topicMethod==='ambiguous')).map(a=>a.id)},null,2)+'\n');
 console.log(JSON.stringify({totals,held:held.length,duplicates:duplicates.length,topicCounts},null,2));

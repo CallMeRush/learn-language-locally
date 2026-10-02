@@ -1,5 +1,5 @@
 function save() {
-  var all = JSON.parse(localStorage.getItem("wortwerk-progress") || "{}");
+  var all = progressStore();
   all[progressKey()] = state;
   localStorage.setItem("wortwerk-progress", JSON.stringify(all));
   updateStats();
@@ -11,9 +11,9 @@ function updateStats() {
     ? Math.round((state.correct / state.attempts) * 100) + "%"
     : "—";
   $("#word-progress").style.width =
-    Math.min(100, (state.learned.length / vocab.length) * 100) + "%";
+    Math.min(100, (state.learned.length / (contentTotals.vocabulary + contentTotals.verbs)) * 100) + "%";
   $("#phrase-progress").style.width =
-    Math.min(100, (state.phrases.length / phrases.length) * 100) + "%";
+    Math.min(100, (state.phrases.length / contentTotals.phrases) * 100) + "%";
   $("#issue-count").textContent = state.issues.length;
   $("#issue-big").textContent = state.issues.length;
   $("#streak-value").textContent =
@@ -28,6 +28,25 @@ function updateStats() {
   }
 }
 function setView(view) {
+  if (view === "adjectives" && selectedCategory !== "adjectives" && !selectedCategory.startsWith("adjective-")) selectedCategory = "adjectives";
+  if (view === "verbs" && selectedCategory !== "verbs" && !selectedCategory.startsWith("verb-")) selectedCategory = "verb-core";
+  if (view === "vocabulary" && (selectedCategory === "verbs" || selectedCategory.startsWith("verb-") || selectedCategory === "adjectives" || selectedCategory.startsWith("adjective-"))) selectedCategory = "greetings";
+  var requests = [];
+  if (["vocabulary", "verbs", "adjectives"].includes(view)) {
+    var kind = view === "verbs" ? "verbs" : "vocabulary",
+      group = vocabularyManifestGroup(view, selectedCategory);
+    if (!contentAvailable(kind, group)) requests.push(ensureVocabularyFor(view, selectedCategory));
+  } else if (view === "phrases") {
+    if (!contentAvailable("phrases")) requests.push(ensureContent("phrases"));
+  } else if (view === "mixed") {
+    if (!contentAvailable("vocabulary")) requests.push(ensureContent("vocabulary"));
+    if (!contentAvailable("verbs")) requests.push(ensureContent("verbs"));
+    if (!contentAvailable("phrases")) requests.push(ensureContent("phrases"));
+  }
+  if (requests.length) return Promise.all(requests).then(() => renderView(view));
+  return renderView(view);
+}
+function renderView(view) {
   if (view === "mixed") restoreMixedDesk();
   if (view === "adjectives" && selectedCategory !== "adjectives" && !selectedCategory.startsWith("adjective-")) selectedCategory = "adjectives";
   if (
@@ -35,12 +54,12 @@ function setView(view) {
     selectedCategory !== "verbs" &&
     !selectedCategory.startsWith("verb-")
   )
-    selectedCategory = "verbs";
+    selectedCategory = "verb-core";
   if (
     view === "vocabulary" &&
     (selectedCategory === "verbs" || selectedCategory.startsWith("verb-") || selectedCategory === "adjectives" || selectedCategory.startsWith("adjective-"))
   )
-    selectedCategory = "all";
+    selectedCategory = "greetings";
   $$(".view").forEach((x) => x.classList.remove("active-view"));
   $("#" + view + "-view").classList.add("active-view");
   $$(".nav-item").forEach((x) =>
@@ -66,6 +85,15 @@ function setView(view) {
   if (view === "grammar") renderGrammar();
   if (view === "mixed") nextMixed();
   if (view === "lessons") renderLessons();
+}
+function vocabularyManifestGroup(view, category) {
+  if (view === "adjectives") return "adjectives";
+  if (view === "verbs") return category === "verbs" || category === "all" ? "all" : category.replace(/^verb-/, "");
+  return category === "all" ? "all" : category;
+}
+function ensureVocabularyFor(view, category) {
+  var kind = view === "verbs" ? "verbs" : "vocabulary";
+  return ensureContent(kind, vocabularyManifestGroup(view, category));
 }
 function toast(msg) {
   var t = $("#toast");
@@ -98,6 +126,17 @@ function categoryMatches(word, key) {
         word.category === key;
 }
 function categoryCount(key) {
+  var view = isVerbView() ? "verbs" : isAdjectiveView() ? "adjectives" : "vocabulary",
+    kind = view === "verbs" ? "verbs" : "vocabulary",
+    group = vocabularyManifestGroup(view, key),
+    manifestEntries = group === "all" ? Object.values(contentManifest[kind]) : [contentManifest[kind][group]],
+    level = vocabLevel,
+    allGroupsLoaded = group === "all"
+      ? Object.keys(contentManifest[kind]).every(entry => contentLoaded(kind, entry))
+      : contentLoaded(kind, group);
+  if (manifestEntries.every(Boolean) && !allGroupsLoaded) {
+    return manifestEntries.reduce((total, entry) => total + (level === "all" ? entry.count : entry.levels[level]), 0);
+  }
   return vocab.filter(
     (word) =>
       (vocabLevel === "all" || word.level === vocabLevel) &&
@@ -129,9 +168,10 @@ function renderCategories() {
     .join("");
   $$("[data-cat]").forEach(
     (b) =>
-      (b.onclick = () => {
+      (b.onclick = async () => {
         selectedCategory = b.dataset.cat;
         vocabIndex = 0;
+        await ensureVocabularyFor(isVerbView() ? "verbs" : isAdjectiveView() ? "adjectives" : "vocabulary", selectedCategory);
         renderVocabulary();
       }),
   );
@@ -306,6 +346,7 @@ function showVocabCard() {
   $("#vocab-answer").value = "";
   $("#vocab-feedback").textContent = "";
   $("#vocab-feedback").className = "feedback";
+  updateVocabCheckButton();
 }
 var targetLanguageName = () => "German";
 var sourceLanguageName = () => "English";
@@ -423,6 +464,7 @@ function checkVocab() {
   if (ok) {
     state.correct++;
     if (!state.learned.includes(w.id)) state.learned.push(w.id);
+    resolveIssue(w.id);
     $("#vocab-feedback").textContent =
       "Correct! Press Enter again for the next word.";
     $("#vocab-feedback").className = "feedback good";
@@ -445,6 +487,7 @@ function checkVocab() {
     save();
   }
   renderVocabularyList();
+  updateVocabCheckButton();
 }
 function nextVocab() {
   var words = currentWords();

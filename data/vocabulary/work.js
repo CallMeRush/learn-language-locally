@@ -3569,3 +3569,4 @@ const vocabularyWork = [
     "sourceIndex": 20179
   }
 ];
+globalThis.WortwerkData?.register("vocabulary", "work", vocabularyWork);

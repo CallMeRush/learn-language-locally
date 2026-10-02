@@ -96,3 +96,4 @@ const verbModal = [
     "source": "editorial"
   }
 ];
+globalThis.WortwerkData?.register("verbs", "modal", verbModal);

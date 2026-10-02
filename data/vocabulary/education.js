@@ -4114,3 +4114,4 @@ const vocabularyEducation = [
     "sourceIndex": 20276
   }
 ];
+globalThis.WortwerkData?.register("vocabulary", "education", vocabularyEducation);

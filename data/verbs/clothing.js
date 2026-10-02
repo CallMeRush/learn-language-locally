@@ -170,3 +170,4 @@ const verbClothing = [
     "sourceIndex": 18622
   }
 ];
+globalThis.WortwerkData?.register("verbs", "clothing", verbClothing);

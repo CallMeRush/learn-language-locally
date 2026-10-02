@@ -48,3 +48,4 @@ const verbCore = [
     "sourceIndex": 5
   }
 ];
+globalThis.WortwerkData?.register("verbs", "core", verbCore);

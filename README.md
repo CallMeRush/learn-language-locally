@@ -34,7 +34,7 @@ Practice layouts adapt from stacked mobile lists to desktop columns.
 
 - [`index.html`](index.html) — application shell and view markup.
 - [`styles.css`](styles.css) — visual design and responsive layout.
-- [`app.js`](app.js) — static loader for the application files.
+- [`app.js`](app.js) — static loader for feature files and on-demand content.
 - [`app/`](app/) — state, practice logic, rendering, and
   lesson integration.
 - [`data/`](data/) — German/English content and English explanations.

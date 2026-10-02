@@ -294,3 +294,4 @@ const verbNature = [
     "sourceIndex": 19523
   }
 ];
+globalThis.WortwerkData?.register("verbs", "nature", verbNature);

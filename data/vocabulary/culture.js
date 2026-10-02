@@ -8481,3 +8481,4 @@ const vocabularyCulture = [
     "sourceIndex": 20220
   }
 ];
+globalThis.WortwerkData?.register("vocabulary", "culture", vocabularyCulture);
