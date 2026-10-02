@@ -33,7 +33,10 @@ let socket;
     if(vocab.length !== contentManifest.vocabulary.greetings.count || phrases.length !== 0 || !activeVocabWord) throw Error('only the initial vocabulary topic loads at startup');
     return setView('verbs').then(() => {
       if(!contentLoaded('verbs','core') || contentLoaded('verbs','daily')) throw Error('verb desk loads its first family before the remaining families');
-      return setView('dashboard');
+      return setView('phrases').then(() => {
+        if(!contentLoaded('phrases','greetings') || contentLoaded('phrases','daily')) throw Error('phrase desk loads its first topic before the remaining topics');
+        return setView('dashboard');
+      });
     });
   })()`});
   if(initial.result?.exceptionDetails)throw Error(JSON.stringify(initial.result.exceptionDetails));

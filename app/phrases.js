@@ -79,20 +79,26 @@ function phraseChoiceOptions(p, cloze, candidates = phrases) {
 function renderPhraseCategories() {
   var el = $("#phrase-categories");
   if (!el) return;
-  var categories = ["all", ...new Set(phrases.map((p) => p.category))];
+  var categories = ["all", ...Object.keys(contentManifest.phrases)
+    .sort((a, b) => (categoryRecords.find(record => record.id === a)?.studyOrder ?? 999) - (categoryRecords.find(record => record.id === b)?.studyOrder ?? 999))];
   el.innerHTML = categories
     .map((category) => {
       var label =
         category === "all" ? "All phrases" : categoryLabel(category);
-      var count = phrases.filter(p => (phraseLevel === "all" || p.level === phraseLevel) && (category === "all" || p.category === category)).length;
+      var entries = category === "all" ? Object.values(contentManifest.phrases) : [contentManifest.phrases[category]],
+        loaded = category === "all" ? contentAvailable("phrases") : contentLoaded("phrases", category),
+        count = loaded
+          ? phrases.filter(p => (phraseLevel === "all" || p.level === phraseLevel) && (category === "all" || p.category === category)).length
+          : entries.reduce((total, entry) => total + (phraseLevel === "all" ? entry.count : entry.levels[{easy:"A1",medium:"A2",hard:"B1"}[phraseLevel]]), 0);
       return `<button class="${phraseCategory === category ? "active" : ""}" data-phrase-category="${category}">${label} <small>${count}</small></button>`;
     })
     .join("");
   $$("[data-phrase-category]").forEach(
     (button) =>
-      (button.onclick = () => {
+      (button.onclick = async () => {
         phraseCategory = button.dataset.phraseCategory;
         phraseIndex = 0;
+        await ensureContent("phrases", phraseCategory);
         renderPhraseCategories();
         showPhrase();
       }),
@@ -317,6 +323,7 @@ $$(".mode").forEach(
       $$("[data-mixed-level]").forEach((x) =>
         x.classList.toggle("active", x.dataset.mixedLevel === mixedLevel),
       );
+      renderPhraseCategories();
       showPhrase();
     }),
 );

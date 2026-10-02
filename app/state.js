@@ -59,7 +59,7 @@ var selectedCategory = categoryRecords.filter(record => vocab.some(word => word.
   vocabStatus = "unseen",
   phraseIndex = 0,
   phraseLevel = "all",
-  phraseCategory = "all",
+  phraseCategory = "greetings",
   phraseMode = "translate",
   vocabMode = "translate",
   selectedArticle = "",

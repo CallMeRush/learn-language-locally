@@ -369,13 +369,175 @@ const contentManifest = {
     }
   },
   "phrases": {
-    "all": {
-      "src": "data/phrases.js",
-      "count": 9124,
+    "health": {
+      "src": "data/phrases/health.js",
+      "count": 207,
       "levels": {
-        "A1": 677,
-        "A2": 2042,
-        "B1": 6405
+        "A1": 18,
+        "A2": 44,
+        "B1": 145
+      }
+    },
+    "daily": {
+      "src": "data/phrases/daily.js",
+      "count": 4073,
+      "levels": {
+        "A1": 278,
+        "A2": 949,
+        "B1": 2846
+      }
+    },
+    "education": {
+      "src": "data/phrases/education.js",
+      "count": 309,
+      "levels": {
+        "A1": 32,
+        "A2": 57,
+        "B1": 220
+      }
+    },
+    "time": {
+      "src": "data/phrases/time.js",
+      "count": 478,
+      "levels": {
+        "A1": 85,
+        "A2": 117,
+        "B1": 276
+      }
+    },
+    "communication": {
+      "src": "data/phrases/communication.js",
+      "count": 121,
+      "levels": {
+        "A1": 14,
+        "A2": 16,
+        "B1": 91
+      }
+    },
+    "food": {
+      "src": "data/phrases/food.js",
+      "count": 452,
+      "levels": {
+        "A1": 68,
+        "A2": 163,
+        "B1": 221
+      }
+    },
+    "travel": {
+      "src": "data/phrases/travel.js",
+      "count": 413,
+      "levels": {
+        "A1": 25,
+        "A2": 107,
+        "B1": 281
+      }
+    },
+    "shopping": {
+      "src": "data/phrases/shopping.js",
+      "count": 271,
+      "levels": {
+        "A1": 12,
+        "A2": 51,
+        "B1": 208
+      }
+    },
+    "house": {
+      "src": "data/phrases/house.js",
+      "count": 415,
+      "levels": {
+        "A1": 33,
+        "A2": 110,
+        "B1": 272
+      }
+    },
+    "feelings": {
+      "src": "data/phrases/feelings.js",
+      "count": 180,
+      "levels": {
+        "A1": 12,
+        "A2": 31,
+        "B1": 137
+      }
+    },
+    "people": {
+      "src": "data/phrases/people.js",
+      "count": 245,
+      "levels": {
+        "A1": 19,
+        "A2": 53,
+        "B1": 173
+      }
+    },
+    "city": {
+      "src": "data/phrases/city.js",
+      "count": 281,
+      "levels": {
+        "A1": 6,
+        "A2": 33,
+        "B1": 242
+      }
+    },
+    "technology": {
+      "src": "data/phrases/technology.js",
+      "count": 203,
+      "levels": {
+        "A1": 5,
+        "A2": 38,
+        "B1": 160
+      }
+    },
+    "work": {
+      "src": "data/phrases/work.js",
+      "count": 310,
+      "levels": {
+        "A1": 11,
+        "A2": 33,
+        "B1": 266
+      }
+    },
+    "greetings": {
+      "src": "data/phrases/greetings.js",
+      "count": 88,
+      "levels": {
+        "A1": 7,
+        "A2": 32,
+        "B1": 49
+      }
+    },
+    "nature": {
+      "src": "data/phrases/nature.js",
+      "count": 343,
+      "levels": {
+        "A1": 19,
+        "A2": 73,
+        "B1": 251
+      }
+    },
+    "culture": {
+      "src": "data/phrases/culture.js",
+      "count": 603,
+      "levels": {
+        "A1": 19,
+        "A2": 103,
+        "B1": 481
+      }
+    },
+    "clothing": {
+      "src": "data/phrases/clothing.js",
+      "count": 102,
+      "levels": {
+        "A1": 14,
+        "A2": 29,
+        "B1": 59
+      }
+    },
+    "environment": {
+      "src": "data/phrases/environment.js",
+      "count": 30,
+      "levels": {
+        "A1": 0,
+        "A2": 3,
+        "B1": 27
       }
     }
   }

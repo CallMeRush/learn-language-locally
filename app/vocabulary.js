@@ -37,7 +37,7 @@ function setView(view) {
       group = vocabularyManifestGroup(view, selectedCategory);
     if (!contentAvailable(kind, group)) requests.push(ensureVocabularyFor(view, selectedCategory));
   } else if (view === "phrases") {
-    if (!contentAvailable("phrases")) requests.push(ensureContent("phrases"));
+    if (!contentAvailable("phrases", phraseCategory)) requests.push(ensureContent("phrases", phraseCategory));
   } else if (view === "mixed") {
     if (!contentAvailable("vocabulary")) requests.push(ensureContent("vocabulary"));
     if (!contentAvailable("verbs")) requests.push(ensureContent("verbs"));

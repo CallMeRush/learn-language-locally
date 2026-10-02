@@ -105,7 +105,7 @@ async function loadLessonContent(lesson) {
   var requests = lesson.activities.flatMap(activity => {
     if (activity.type === "vocabulary") return activity.categories.map(category => ensureContent("vocabulary", category));
     if (activity.type === "verbs") return activity.categories.map(category => ensureContent("verbs", category));
-    if (activity.type === "phrases") return [ensureContent("phrases")];
+    if (activity.type === "phrases") return activity.categories.map(category => ensureContent("phrases", category));
     if (activity.type === "mixed") return [ensureContent("vocabulary"), ensureContent("verbs"), ensureContent("phrases")];
     return [];
   });
@@ -115,7 +115,7 @@ function lessonContentAvailable(lesson) {
   return lesson.activities.every(activity =>
     activity.type === "vocabulary" ? activity.categories.every(category => contentAvailable("vocabulary", category)) :
     activity.type === "verbs" ? activity.categories.every(category => contentAvailable("verbs", category)) :
-    activity.type === "phrases" ? contentAvailable("phrases") :
+    activity.type === "phrases" ? activity.categories.every(category => contentAvailable("phrases", category)) :
     activity.type === "mixed" ? contentAvailable("vocabulary") && contentAvailable("verbs") && contentAvailable("phrases") : true,
   );
 }

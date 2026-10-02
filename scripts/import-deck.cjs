@@ -92,7 +92,11 @@ for(const [p,{name,records}] of Object.entries(files)){
   const [,kind,filename]=p.match(/^data\/(vocabulary|verbs)\/(.+)\.js$/);
   write(p,contentFile(name,records,kind,filename));
 }
-write('data/phrases.js',contentFile('phrases',phrases,'phrases','all'));
+const phraseFileName=topic=>'phrases'+topic.replace(/(^|[-_])(\w)/g,(_,__,letter)=>letter.toUpperCase());
+const phraseFiles=Object.groupBy(phrases,phrase=>phrase.category);
+for(const [topic,records] of Object.entries(phraseFiles)){
+  write(`data/phrases/${topic}.js`,contentFile(phraseFileName(topic),records,'phrases',topic));
+}
 const labels={all:'All words',verbs:'All verbs',adjectives:'Adjectives',house:'Home & household',greetings:'Greetings',people:'People & relationships',food:'Food & drink',city:'Places & public life',time:'Time & numbers',travel:'Travel & transport',health:'Health & body',shopping:'Shopping & money',nature:'Nature & weather',work:'Work & business',feelings:'Feelings & thoughts',clothing:'Clothes & fashion',education:'Learning & knowledge',technology:'Technology & media',communication:'Communication',daily:'General & everyday life', 'function-words':'Function words', 'abstract-ideas':'Ideas & concepts', 'daily-routines':'Daily routines', 'public-services':'Services & paperwork',environment:'Environment',culture:'Culture & leisure',core:'Core',modal:'Modal'};
 const categories=['all','verbs',...topics,...Object.entries(files).filter(([p,x])=>p.startsWith('data/verbs')&&x.records.length).map(([p])=>'verb-'+path.basename(p,'.js'))].map(id=>({id,type:'category',localized:{en:{label:id.startsWith('verb-')?labels[id.slice(5)]:labels[id]}}}));
 // Lower CEFR mean first, then median source frequency rank; aggregate tabs last.
@@ -116,7 +120,7 @@ const manifest={
   totals,
   vocabulary:Object.fromEntries(Object.entries(files).filter(([p])=>p.startsWith('data/vocabulary/')).map(([p,{records}])=>[path.basename(p,'.js'),manifestEntry(p,records)])),
   verbs:Object.fromEntries(Object.entries(files).filter(([p])=>p.startsWith('data/verbs/')).map(([p,{records}])=>[path.basename(p,'.js'),manifestEntry(p,records)])),
-  phrases:{all:manifestEntry('data/phrases.js',phrases)}
+  phrases:Object.fromEntries(Object.entries(phraseFiles).map(([topic,records])=>[topic,manifestEntry(`data/phrases/${topic}.js`,records)]))
 };
 write('data/manifest.js',`const contentManifest = ${JSON.stringify(manifest,null,2)};\n`);
 write(folder+'/report.json',JSON.stringify({revision,sha256,candidates:candidates.length,totals,topicCounts,duplicates,held,topicReview:assignments.entries.filter(a=>a.status==='include'&&(a.topicMethod==='general'||a.topicMethod==='ambiguous')).map(a=>a.id)},null,2)+'\n');

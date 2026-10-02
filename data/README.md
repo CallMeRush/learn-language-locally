@@ -29,7 +29,7 @@ The learning content is intentionally kept separate from the interface logic.
 - `verbs/<family>.js` contains one concise list for that verb family. The static loader adds its `verbs` category and `verbCategory` when the file is requested.
 - `manifest.js` is generated alongside the content. It records the static file path and totals for each content group, so the browser can request only the topic it needs.
 - Vocabulary and verb records use stable numeric string IDs without zero padding. Existing IDs must not be renumbered after publication.
-- `phrases.js` contains one concise canonical list. Phrases retain their category because they are not split into category files.
+- `phrases/<category>.js` contains one concise canonical list for that category. Phrase records retain their category because lessons use it as a stable content key.
 - Every vocabulary, verb, and phrase record stores language content under `translations`. Language-specific metadata, such as an article, belongs inside that language's translation object.
 - `grammar.js` contains German grammar only, with English presentation under
   `localized.en` and English test prompts and explanations stored as strings.
