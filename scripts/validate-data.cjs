@@ -28,12 +28,12 @@ for(const w of vocab){
   }
   if(w.pos==='noun'){const de=w.translations.de;assert(['der','die','das'].includes(de.article));assert(de.text.startsWith(de.article+' '));}
 }
-for(const entry of JSON.parse(fs.readFileSync(path.join(root,'data/import/assignments.json'),'utf8')).entries){
-  if(!entry.translationReview)continue;
-  assert.equal(typeof entry.translationReview,'object');
-  assert.equal(entry.translationReview.status,'confirmed');
-  assert.match(entry.translationReview.reference,/\S/);
-  assert.match(entry.translationReview.note,/\S/);
+const assignments=JSON.parse(fs.readFileSync(path.join(root,'data/import/assignments.json'),'utf8'));
+const reviewFile=JSON.parse(fs.readFileSync(path.join(root,'data/import/translation-reviews.json'),'utf8'));
+const assignmentIds=new Set(assignments.entries.map(entry=>entry.id)),reviewedIds=new Set();
+for(const decision of reviewFile.decisions){
+  assert.equal(decision.status,'confirmed');assert.match(decision.reference,/\S/);assert.match(decision.note,/\S/);
+  for(const id of decision.ids){assert(assignmentIds.has(id),'Unknown translation review '+id);assert(!reviewedIds.has(id),'Duplicate translation review '+id);reviewedIds.add(id);}
 }
 for(const p of phrases){assert(phraseLevel(p));assert(p.wordIds.length);for(const id of p.wordIds)assert(wordIds.has(id),'Broken sentence→word reference '+id);}
 for(const g of grammarLessons){assert.equal(g.targetLanguage,'de');assert(g.localized.en.title);for(const t of g.tests){assert.equal(typeof t.prompt,'string');assert(t.answers.length);}}

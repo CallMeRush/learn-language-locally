@@ -8,6 +8,7 @@ const readline = require('node:readline');
 const root = path.resolve(__dirname, '..');
 const assignments = JSON.parse(fs.readFileSync(path.join(root, 'data/import/assignments.json'), 'utf8'));
 const deck = JSON.parse(fs.readFileSync(path.join(root, 'dictionaries/sources/german-deck.json'), 'utf8'));
+const reviews = JSON.parse(fs.readFileSync(path.join(root, 'data/import/translation-reviews.json'), 'utf8'));
 const output = path.join(root, 'data/import/translation-audit.json');
 const pos = { adjective: 'adj', noun: 'noun', verb: 'verb', adverb: 'adv', pronoun: 'pron', numeral: 'num', conjunction: 'conj', interjection: 'intj' };
 const ignored = new Set(['a', 'an', 'and', 'at', 'for', 'from', 'in', 'of', 'on', 'or', 'the', 'to', 'with']);
@@ -18,6 +19,11 @@ const clean = (value) => String(value || '').toLowerCase()
 const terms = (value) => clean(value).split(' ').filter((word) => word.length > 1 && !ignored.has(word));
 const candidates = assignments.entries.filter((entry) =>
   entry.status === 'include' && ['A1', 'A2'].includes(deck[entry.sourceIndex]?.cefr_level) && pos[entry.pos]);
+const reviewed = new Map();
+for (const decision of reviews.decisions) for (const id of decision.ids) {
+  if (reviewed.has(id)) throw Error('Duplicate translation review: ' + id);
+  reviewed.set(id, decision);
+}
 const byWord = new Map();
 for (const entry of candidates) {
   const list = byWord.get(entry.word) || [];
@@ -52,7 +58,7 @@ async function main() {
   const queue = [];
   for (const entry of candidates) {
     const source = deck[entry.sourceIndex];
-    if (entry.translationReview?.status === 'confirmed') {
+    if (reviewed.get(entry.id)?.status === 'confirmed') {
       counts.reviewed++;
       continue;
     }

@@ -84,14 +84,15 @@ frequency rank. A queued record is a review candidate, not an asserted error:
 idioms, multi-word glosses, and different senses need human judgment. Rebuild or
 verify it with `node scripts/audit-translations.cjs [--check]`.
 
-After reviewing a queued item, record the decision on its entry in
-`import/assignments.json` and rerun the importer:
+After reviewing queued items, record their grouped decisions in
+`import/translation-reviews.json`:
 
 ```json
-"translationReview": {
+{
   "status": "confirmed",
-  "reference": "German Wiktionary, sense 1",
-  "note": "The source gloss is the intended everyday sense."
+  "reference": "German Wiktionary, relevant listed sense",
+  "note": "The source gloss is the intended everyday sense.",
+  "ids": ["12345"]
 }
 ```
 
