@@ -119,6 +119,23 @@ const phrasesFood = [
     "sourceIndex": 173
   },
   {
+    "id": "100175",
+    "category": "food",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "What would you like to eat?"
+      },
+      "de": {
+        "text": "Was möchtest du essen?"
+      }
+    },
+    "wordIds": [
+      "10175"
+    ],
+    "sourceIndex": 175
+  },
+  {
     "id": "100181",
     "category": "food",
     "level": "easy",
@@ -459,6 +476,23 @@ const phrasesFood = [
     "sourceIndex": 1080
   },
   {
+    "id": "101090",
+    "category": "food",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "Would you like a glass of wine?"
+      },
+      "de": {
+        "text": "Möchtest du ein Glas Wein?"
+      }
+    },
+    "wordIds": [
+      "11090"
+    ],
+    "sourceIndex": 1090
+  },
+  {
     "id": "101135",
     "category": "food",
     "level": "medium",
@@ -491,6 +525,23 @@ const phrasesFood = [
       "11184"
     ],
     "sourceIndex": 1184
+  },
+  {
+    "id": "101188",
+    "category": "food",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I would like a hamburger with fries."
+      },
+      "de": {
+        "text": "Ich möchte einen Hamburger mit Pommes."
+      }
+    },
+    "wordIds": [
+      "11188"
+    ],
+    "sourceIndex": 1188
   },
   {
     "id": "101200",
@@ -629,6 +680,23 @@ const phrasesFood = [
     "sourceIndex": 1397
   },
   {
+    "id": "101401",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The cut was very precise."
+      },
+      "de": {
+        "text": "Der Schnitt war sehr präzise."
+      }
+    },
+    "wordIds": [
+      "11401"
+    ],
+    "sourceIndex": 1401
+  },
+  {
     "id": "101427",
     "category": "food",
     "level": "easy",
@@ -695,6 +763,23 @@ const phrasesFood = [
       "11495"
     ],
     "sourceIndex": 1495
+  },
+  {
+    "id": "101534",
+    "category": "food",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I would like a piece of cake."
+      },
+      "de": {
+        "text": "Ich möchte ein Stück Kuchen."
+      }
+    },
+    "wordIds": [
+      "11534"
+    ],
+    "sourceIndex": 1534
   },
   {
     "id": "101565",
@@ -952,6 +1037,40 @@ const phrasesFood = [
     "sourceIndex": 2083
   },
   {
+    "id": "102092",
+    "category": "food",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I like cheese very much."
+      },
+      "de": {
+        "text": "Ich mag Käse sehr gerne."
+      }
+    },
+    "wordIds": [
+      "12092"
+    ],
+    "sourceIndex": 2092
+  },
+  {
+    "id": "102099",
+    "category": "food",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "Please give me the salt."
+      },
+      "de": {
+        "text": "Bitte gib mir das Salz."
+      }
+    },
+    "wordIds": [
+      "12099"
+    ],
+    "sourceIndex": 2099
+  },
+  {
     "id": "102100",
     "category": "food",
     "level": "medium",
@@ -1054,6 +1173,40 @@ const phrasesFood = [
     "sourceIndex": 2480
   },
   {
+    "id": "102482",
+    "category": "food",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "We meet at the cafe."
+      },
+      "de": {
+        "text": "Wir treffen uns im Café."
+      }
+    },
+    "wordIds": [
+      "12482"
+    ],
+    "sourceIndex": 2482
+  },
+  {
+    "id": "102498",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Animals need food to survive."
+      },
+      "de": {
+        "text": "Tiere brauchen Nahrung zum Überleben."
+      }
+    },
+    "wordIds": [
+      "12498"
+    ],
+    "sourceIndex": 2498
+  },
+  {
     "id": "102500",
     "category": "food",
     "level": "easy",
@@ -1122,6 +1275,23 @@ const phrasesFood = [
     "sourceIndex": 2652
   },
   {
+    "id": "102656",
+    "category": "food",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I love chocolate."
+      },
+      "de": {
+        "text": "Ich liebe Schokolade."
+      }
+    },
+    "wordIds": [
+      "12656"
+    ],
+    "sourceIndex": 2656
+  },
+  {
     "id": "102729",
     "category": "food",
     "level": "easy",
@@ -1156,6 +1326,23 @@ const phrasesFood = [
     "sourceIndex": 2833
   },
   {
+    "id": "102838",
+    "category": "food",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I have to water the flowers."
+      },
+      "de": {
+        "text": "Ich muss die Blumen giessen."
+      }
+    },
+    "wordIds": [
+      "12838"
+    ],
+    "sourceIndex": 2838
+  },
+  {
     "id": "102859",
     "category": "food",
     "level": "medium",
@@ -1171,6 +1358,23 @@ const phrasesFood = [
       "12859"
     ],
     "sourceIndex": 2859
+  },
+  {
+    "id": "102894",
+    "category": "food",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The car is orange."
+      },
+      "de": {
+        "text": "Das Auto ist orange."
+      }
+    },
+    "wordIds": [
+      "12894"
+    ],
+    "sourceIndex": 2894
   },
   {
     "id": "102923",
@@ -1375,6 +1579,23 @@ const phrasesFood = [
       "13209"
     ],
     "sourceIndex": 3209
+  },
+  {
+    "id": "103240",
+    "category": "food",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "Would you like a cold drink?"
+      },
+      "de": {
+        "text": "Möchtest du ein kaltes Getränk?"
+      }
+    },
+    "wordIds": [
+      "13240"
+    ],
+    "sourceIndex": 3240
   },
   {
     "id": "103264",
@@ -1598,6 +1819,57 @@ const phrasesFood = [
     "sourceIndex": 3698
   },
   {
+    "id": "103777",
+    "category": "food",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I like fast food."
+      },
+      "de": {
+        "text": "Ich mag Fast Food."
+      }
+    },
+    "wordIds": [
+      "13777"
+    ],
+    "sourceIndex": 3777
+  },
+  {
+    "id": "103832",
+    "category": "food",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The animal needs fresh feed."
+      },
+      "de": {
+        "text": "Das Tier braucht frisches Futter."
+      }
+    },
+    "wordIds": [
+      "13832"
+    ],
+    "sourceIndex": 3832
+  },
+  {
+    "id": "103844",
+    "category": "food",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I don't like cabbage."
+      },
+      "de": {
+        "text": "Ich mag keinen Kohl."
+      }
+    },
+    "wordIds": [
+      "13844"
+    ],
+    "sourceIndex": 3844
+  },
+  {
     "id": "103860",
     "category": "food",
     "level": "hard",
@@ -1649,6 +1921,23 @@ const phrasesFood = [
     "sourceIndex": 4142
   },
   {
+    "id": "104178",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She has to feed her family."
+      },
+      "de": {
+        "text": "Sie muss ihre Familie ernähren."
+      }
+    },
+    "wordIds": [
+      "14178"
+    ],
+    "sourceIndex": 4178
+  },
+  {
     "id": "104204",
     "category": "food",
     "level": "easy",
@@ -1681,6 +1970,23 @@ const phrasesFood = [
       "14209"
     ],
     "sourceIndex": 4209
+  },
+  {
+    "id": "104212",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "After the hike, we needed some refreshment."
+      },
+      "de": {
+        "text": "Nach der Wanderung brauchten wir eine Stärkung."
+      }
+    },
+    "wordIds": [
+      "14212"
+    ],
+    "sourceIndex": 4212
   },
   {
     "id": "104214",
@@ -1766,6 +2072,23 @@ const phrasesFood = [
       "14301"
     ],
     "sourceIndex": 4301
+  },
+  {
+    "id": "104328",
+    "category": "food",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Enjoy your meal!"
+      },
+      "de": {
+        "text": "Guten Appetit bei Ihrer Mahlzeit!"
+      }
+    },
+    "wordIds": [
+      "14328"
+    ],
+    "sourceIndex": 4328
   },
   {
     "id": "104420",
@@ -1887,6 +2210,23 @@ const phrasesFood = [
     "sourceIndex": 4702
   },
   {
+    "id": "104708",
+    "category": "food",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Children love sweets."
+      },
+      "de": {
+        "text": "Kinder lieben Süssigkeiten."
+      }
+    },
+    "wordIds": [
+      "14708"
+    ],
+    "sourceIndex": 4708
+  },
+  {
     "id": "104715",
     "category": "food",
     "level": "medium",
@@ -1919,6 +2259,23 @@ const phrasesFood = [
       "14735"
     ],
     "sourceIndex": 4735
+  },
+  {
+    "id": "104757",
+    "category": "food",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We want to barbecue tonight."
+      },
+      "de": {
+        "text": "Wir wollen heute Abend grillen."
+      }
+    },
+    "wordIds": [
+      "14757"
+    ],
+    "sourceIndex": 4757
   },
   {
     "id": "104855",
@@ -1989,6 +2346,23 @@ const phrasesFood = [
     "sourceIndex": 4968
   },
   {
+    "id": "105016",
+    "category": "food",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We're meeting at the pub tonight."
+      },
+      "de": {
+        "text": "Wir treffen uns heute Abend in der Kneipe."
+      }
+    },
+    "wordIds": [
+      "15016"
+    ],
+    "sourceIndex": 5016
+  },
+  {
     "id": "105026",
     "category": "food",
     "level": "medium",
@@ -2004,6 +2378,23 @@ const phrasesFood = [
       "15026"
     ],
     "sourceIndex": 5026
+  },
+  {
+    "id": "105041",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He could not swallow the tablet."
+      },
+      "de": {
+        "text": "Er konnte die Tablette nicht schlucken."
+      }
+    },
+    "wordIds": [
+      "15041"
+    ],
+    "sourceIndex": 5041
   },
   {
     "id": "105080",
@@ -2108,6 +2499,23 @@ const phrasesFood = [
     "sourceIndex": 5191
   },
   {
+    "id": "105212",
+    "category": "food",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Please give me the pepper."
+      },
+      "de": {
+        "text": "Bitte gib mir den Pfeffer."
+      }
+    },
+    "wordIds": [
+      "15212"
+    ],
+    "sourceIndex": 5212
+  },
+  {
     "id": "105223",
     "category": "food",
     "level": "medium",
@@ -2176,6 +2584,23 @@ const phrasesFood = [
     "sourceIndex": 5309
   },
   {
+    "id": "105344",
+    "category": "food",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I buy rolls at the bakery."
+      },
+      "de": {
+        "text": "Ich kaufe Brötchen in der Bäckerei."
+      }
+    },
+    "wordIds": [
+      "15344"
+    ],
+    "sourceIndex": 5344
+  },
+  {
     "id": "105368",
     "category": "food",
     "level": "hard",
@@ -2208,6 +2633,40 @@ const phrasesFood = [
       "15374"
     ],
     "sourceIndex": 5374
+  },
+  {
+    "id": "105376",
+    "category": "food",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Would you like a cookie?"
+      },
+      "de": {
+        "text": "Möchtest du einen Keks?"
+      }
+    },
+    "wordIds": [
+      "15376"
+    ],
+    "sourceIndex": 5376
+  },
+  {
+    "id": "105394",
+    "category": "food",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The pan is hot."
+      },
+      "de": {
+        "text": "Die Pfanne ist heiß."
+      }
+    },
+    "wordIds": [
+      "15394"
+    ],
+    "sourceIndex": 5394
   },
   {
     "id": "105550",
@@ -2259,6 +2718,23 @@ const phrasesFood = [
       "15645"
     ],
     "sourceIndex": 5645
+  },
+  {
+    "id": "105646",
+    "category": "food",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I like the smell of garlic."
+      },
+      "de": {
+        "text": "Ich mag den Geruch von Knoblauch."
+      }
+    },
+    "wordIds": [
+      "15646"
+    ],
+    "sourceIndex": 5646
   },
   {
     "id": "105661",
@@ -2327,6 +2803,23 @@ const phrasesFood = [
       "15708"
     ],
     "sourceIndex": 5708
+  },
+  {
+    "id": "105715",
+    "category": "food",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We have to feed the animals."
+      },
+      "de": {
+        "text": "Wir müssen die Tiere füttern."
+      }
+    },
+    "wordIds": [
+      "15715"
+    ],
+    "sourceIndex": 5715
   },
   {
     "id": "105853",
@@ -2534,6 +3027,23 @@ const phrasesFood = [
     "sourceIndex": 6091
   },
   {
+    "id": "106095",
+    "category": "food",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I need a moisturizing cream for my face."
+      },
+      "de": {
+        "text": "Ich brauche eine feuchtigkeitsspendende Creme für mein Gesicht."
+      }
+    },
+    "wordIds": [
+      "16095"
+    ],
+    "sourceIndex": 6095
+  },
+  {
     "id": "106120",
     "category": "food",
     "level": "medium",
@@ -2566,6 +3076,23 @@ const phrasesFood = [
       "16125"
     ],
     "sourceIndex": 6125
+  },
+  {
+    "id": "106140",
+    "category": "food",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We toasted the new year with sparkling wine."
+      },
+      "de": {
+        "text": "Wir haben mit Sekt auf das neue Jahr angestoßen."
+      }
+    },
+    "wordIds": [
+      "16140"
+    ],
+    "sourceIndex": 6140
   },
   {
     "id": "106184",
@@ -2755,6 +3282,23 @@ const phrasesFood = [
     "sourceIndex": 6786
   },
   {
+    "id": "106816",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Protein is important for muscle building."
+      },
+      "de": {
+        "text": "Eiweiss ist wichtig für den Muskelaufbau."
+      }
+    },
+    "wordIds": [
+      "16816"
+    ],
+    "sourceIndex": 6816
+  },
+  {
     "id": "106827",
     "category": "food",
     "level": "easy",
@@ -2857,6 +3401,23 @@ const phrasesFood = [
     "sourceIndex": 6959
   },
   {
+    "id": "107005",
+    "category": "food",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Would you like to order a drink?"
+      },
+      "de": {
+        "text": "Möchtest du einen Drink bestellen?"
+      }
+    },
+    "wordIds": [
+      "17005"
+    ],
+    "sourceIndex": 7005
+  },
+  {
     "id": "107038",
     "category": "food",
     "level": "medium",
@@ -2889,6 +3450,23 @@ const phrasesFood = [
       "17090"
     ],
     "sourceIndex": 7090
+  },
+  {
+    "id": "107113",
+    "category": "food",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I love fresh strawberries in summer."
+      },
+      "de": {
+        "text": "Ich liebe frische Erdbeeren im Sommer."
+      }
+    },
+    "wordIds": [
+      "17113"
+    ],
+    "sourceIndex": 7113
   },
   {
     "id": "107152",
@@ -3110,6 +3688,23 @@ const phrasesFood = [
       "17589"
     ],
     "sourceIndex": 7589
+  },
+  {
+    "id": "107599",
+    "category": "food",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I like cucumbers in salad."
+      },
+      "de": {
+        "text": "Ich mag Gurken im Salat."
+      }
+    },
+    "wordIds": [
+      "17599"
+    ],
+    "sourceIndex": 7599
   },
   {
     "id": "107606",
@@ -3520,6 +4115,23 @@ const phrasesFood = [
     "sourceIndex": 8342
   },
   {
+    "id": "108349",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We're meeting at the pub tonight."
+      },
+      "de": {
+        "text": "Wir treffen uns heute Abend im Pub."
+      }
+    },
+    "wordIds": [
+      "18349"
+    ],
+    "sourceIndex": 8349
+  },
+  {
     "id": "108356",
     "category": "food",
     "level": "hard",
@@ -3758,6 +4370,23 @@ const phrasesFood = [
     "sourceIndex": 8730
   },
   {
+    "id": "108736",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She carried pepper spray for self-defense."
+      },
+      "de": {
+        "text": "Sie trug Pfefferspray zur Selbstverteidigung."
+      }
+    },
+    "wordIds": [
+      "18736"
+    ],
+    "sourceIndex": 8736
+  },
+  {
     "id": "108824",
     "category": "food",
     "level": "hard",
@@ -3892,6 +4521,23 @@ const phrasesFood = [
       "19137"
     ],
     "sourceIndex": 9137
+  },
+  {
+    "id": "109168",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Many people are starving in this region."
+      },
+      "de": {
+        "text": "Viele Menschen hungern in dieser Region."
+      }
+    },
+    "wordIds": [
+      "19168"
+    ],
+    "sourceIndex": 9168
   },
   {
     "id": "109299",
@@ -4064,6 +4710,40 @@ const phrasesFood = [
     "sourceIndex": 9601
   },
   {
+    "id": "109609",
+    "category": "food",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I like to eat carrots."
+      },
+      "de": {
+        "text": "Ich esse gerne Karotten."
+      }
+    },
+    "wordIds": [
+      "19609"
+    ],
+    "sourceIndex": 9609
+  },
+  {
+    "id": "109776",
+    "category": "food",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I like chocolate with whole almonds."
+      },
+      "de": {
+        "text": "Ich mag Schokolade mit ganzen Mandeln."
+      }
+    },
+    "wordIds": [
+      "19776"
+    ],
+    "sourceIndex": 9776
+  },
+  {
     "id": "109792",
     "category": "food",
     "level": "hard",
@@ -4147,6 +4827,23 @@ const phrasesFood = [
       "19911"
     ],
     "sourceIndex": 9911
+  },
+  {
+    "id": "109915",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "In Cologne, people like to drink Kölsch."
+      },
+      "de": {
+        "text": "In Köln trinkt man gerne Kölsch."
+      }
+    },
+    "wordIds": [
+      "19915"
+    ],
+    "sourceIndex": 9915
   },
   {
     "id": "109943",
@@ -4506,6 +5203,23 @@ const phrasesFood = [
     "sourceIndex": 10833
   },
   {
+    "id": "110850",
+    "category": "food",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I like to eat fresh cherries in summer."
+      },
+      "de": {
+        "text": "Ich esse gerne frische Kirschen im Sommer."
+      }
+    },
+    "wordIds": [
+      "20850"
+    ],
+    "sourceIndex": 10850
+  },
+  {
     "id": "110873",
     "category": "food",
     "level": "hard",
@@ -4693,6 +5407,40 @@ const phrasesFood = [
     "sourceIndex": 11197
   },
   {
+    "id": "111388",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The joke was really tasteless."
+      },
+      "de": {
+        "text": "Der Witz war wirklich geschmacklos."
+      }
+    },
+    "wordIds": [
+      "21388"
+    ],
+    "sourceIndex": 11388
+  },
+  {
+    "id": "111430",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We had a good meal together."
+      },
+      "de": {
+        "text": "Wir hatten ein gutes Mahl zusammen."
+      }
+    },
+    "wordIds": [
+      "21430"
+    ],
+    "sourceIndex": 11430
+  },
+  {
     "id": "111482",
     "category": "food",
     "level": "hard",
@@ -4795,6 +5543,23 @@ const phrasesFood = [
     "sourceIndex": 11619
   },
   {
+    "id": "111689",
+    "category": "food",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Please put the cutlery on the table."
+      },
+      "de": {
+        "text": "Bitte legen Sie das Besteck auf den Tisch."
+      }
+    },
+    "wordIds": [
+      "21689"
+    ],
+    "sourceIndex": 11689
+  },
+  {
     "id": "111692",
     "category": "food",
     "level": "hard",
@@ -4861,6 +5626,23 @@ const phrasesFood = [
       "21754"
     ],
     "sourceIndex": 11754
+  },
+  {
+    "id": "111770",
+    "category": "food",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I like to eat carrots."
+      },
+      "de": {
+        "text": "Ich esse gerne Möhren."
+      }
+    },
+    "wordIds": [
+      "21770"
+    ],
+    "sourceIndex": 11770
   },
   {
     "id": "111784",
@@ -5050,6 +5832,23 @@ const phrasesFood = [
     "sourceIndex": 12483
   },
   {
+    "id": "112499",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We always eat gingerbread for Christmas."
+      },
+      "de": {
+        "text": "Zu Weihnachten essen wir immer Lebkuchen."
+      }
+    },
+    "wordIds": [
+      "22499"
+    ],
+    "sourceIndex": 12499
+  },
+  {
     "id": "112525",
     "category": "food",
     "level": "hard",
@@ -5237,6 +6036,23 @@ const phrasesFood = [
     "sourceIndex": 12881
   },
   {
+    "id": "112899",
+    "category": "food",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "He ordered a cold pilsner."
+      },
+      "de": {
+        "text": "Er bestellte ein kühles Pils."
+      }
+    },
+    "wordIds": [
+      "22899"
+    ],
+    "sourceIndex": 12899
+  },
+  {
     "id": "112915",
     "category": "food",
     "level": "medium",
@@ -5286,6 +6102,23 @@ const phrasesFood = [
       "22930"
     ],
     "sourceIndex": 12930
+  },
+  {
+    "id": "112961",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My feet are sore from long walking."
+      },
+      "de": {
+        "text": "Meine Füße sind wund vom langen Gehen."
+      }
+    },
+    "wordIds": [
+      "22961"
+    ],
+    "sourceIndex": 12961
   },
   {
     "id": "113019",
@@ -5439,6 +6272,23 @@ const phrasesFood = [
       "23472"
     ],
     "sourceIndex": 13472
+  },
+  {
+    "id": "113503",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I like to drink a dry Riesling."
+      },
+      "de": {
+        "text": "Ich trinke gerne einen trockenen Riesling."
+      }
+    },
+    "wordIds": [
+      "23503"
+    ],
+    "sourceIndex": 13503
   },
   {
     "id": "113508",
@@ -5680,6 +6530,23 @@ const phrasesFood = [
     "sourceIndex": 13880
   },
   {
+    "id": "113998",
+    "category": "food",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I like broccoli very much."
+      },
+      "de": {
+        "text": "Ich mag Brokkoli sehr gerne."
+      }
+    },
+    "wordIds": [
+      "23998"
+    ],
+    "sourceIndex": 13998
+  },
+  {
     "id": "114010",
     "category": "food",
     "level": "medium",
@@ -5901,6 +6768,40 @@ const phrasesFood = [
     "sourceIndex": 14461
   },
   {
+    "id": "114490",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I like pancakes with maple syrup."
+      },
+      "de": {
+        "text": "Ich mag Pfannkuchen mit Ahornsirup."
+      }
+    },
+    "wordIds": [
+      "24490"
+    ],
+    "sourceIndex": 14490
+  },
+  {
+    "id": "114540",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The water level of the river has risen."
+      },
+      "de": {
+        "text": "Der Wasserstand des Flusses ist gestiegen."
+      }
+    },
+    "wordIds": [
+      "24540"
+    ],
+    "sourceIndex": 14540
+  },
+  {
     "id": "114574",
     "category": "food",
     "level": "hard",
@@ -5916,6 +6817,40 @@ const phrasesFood = [
       "24574"
     ],
     "sourceIndex": 14574
+  },
+  {
+    "id": "114575",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I love fresh basil on my pizza."
+      },
+      "de": {
+        "text": "Ich liebe frisches Basilikum auf meiner Pizza."
+      }
+    },
+    "wordIds": [
+      "24575"
+    ],
+    "sourceIndex": 14575
+  },
+  {
+    "id": "114591",
+    "category": "food",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The hotel offers a rich breakfast."
+      },
+      "de": {
+        "text": "Das Hotel bietet ein reichhaltiges Breakfast an."
+      }
+    },
+    "wordIds": [
+      "24591"
+    ],
+    "sourceIndex": 14591
   },
   {
     "id": "114660",
@@ -5950,6 +6885,40 @@ const phrasesFood = [
       "24753"
     ],
     "sourceIndex": 14753
+  },
+  {
+    "id": "114757",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The duck swam on the water surface."
+      },
+      "de": {
+        "text": "Die Ente schwamm auf der Wasseroberfläche."
+      }
+    },
+    "wordIds": [
+      "24757"
+    ],
+    "sourceIndex": 14757
+  },
+  {
+    "id": "114758",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The water quality of the lake is very good."
+      },
+      "de": {
+        "text": "Die Wasserqualität des Sees ist sehr gut."
+      }
+    },
+    "wordIds": [
+      "24758"
+    ],
+    "sourceIndex": 14758
   },
   {
     "id": "114843",
@@ -6001,6 +6970,23 @@ const phrasesFood = [
       "24873"
     ],
     "sourceIndex": 14873
+  },
+  {
+    "id": "114909",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We drank a warm punch at the party."
+      },
+      "de": {
+        "text": "Wir tranken einen warmen Punch auf der Party."
+      }
+    },
+    "wordIds": [
+      "24909"
+    ],
+    "sourceIndex": 14909
   },
   {
     "id": "114917",
@@ -6105,6 +7091,23 @@ const phrasesFood = [
     "sourceIndex": 15225
   },
   {
+    "id": "115234",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "This cream is good for dry skin."
+      },
+      "de": {
+        "text": "Diese Cream ist gut für trockene Haut."
+      }
+    },
+    "wordIds": [
+      "25234"
+    ],
+    "sourceIndex": 15234
+  },
+  {
     "id": "115313",
     "category": "food",
     "level": "medium",
@@ -6171,6 +7174,23 @@ const phrasesFood = [
       "25323"
     ],
     "sourceIndex": 15323
+  },
+  {
+    "id": "115331",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We drank hot punch at the Christmas market."
+      },
+      "de": {
+        "text": "Wir tranken heißen Punsch auf dem Weihnachtsmarkt."
+      }
+    },
+    "wordIds": [
+      "25331"
+    ],
+    "sourceIndex": 15331
   },
   {
     "id": "115340",
@@ -6292,6 +7312,23 @@ const phrasesFood = [
     "sourceIndex": 15500
   },
   {
+    "id": "115533",
+    "category": "food",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I would like a lemonade, please."
+      },
+      "de": {
+        "text": "Ich hätte gerne eine Limonade, bitte."
+      }
+    },
+    "wordIds": [
+      "25533"
+    ],
+    "sourceIndex": 15533
+  },
+  {
     "id": "115892",
     "category": "food",
     "level": "hard",
@@ -6324,6 +7361,57 @@ const phrasesFood = [
       "25913"
     ],
     "sourceIndex": 15913
+  },
+  {
+    "id": "115924",
+    "category": "food",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Don't forget to water the flowers."
+      },
+      "de": {
+        "text": "Vergiss nicht, die Blumen zu gießen."
+      }
+    },
+    "wordIds": [
+      "25924"
+    ],
+    "sourceIndex": 15924
+  },
+  {
+    "id": "116008",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I love Spätzle with sauce."
+      },
+      "de": {
+        "text": "Ich liebe Spätzle mit Soße."
+      }
+    },
+    "wordIds": [
+      "26008"
+    ],
+    "sourceIndex": 16008
+  },
+  {
+    "id": "116096",
+    "category": "food",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Would you like a piece of cake?"
+      },
+      "de": {
+        "text": "Möchtest du ein Stück Cake?"
+      }
+    },
+    "wordIds": [
+      "26096"
+    ],
+    "sourceIndex": 16096
   },
   {
     "id": "116123",
@@ -6547,6 +7635,23 @@ const phrasesFood = [
     "sourceIndex": 16444
   },
   {
+    "id": "116460",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I like pasta with a lot of Parmesan."
+      },
+      "de": {
+        "text": "Ich mag Nudeln mit viel Parmesan."
+      }
+    },
+    "wordIds": [
+      "26460"
+    ],
+    "sourceIndex": 16460
+  },
+  {
     "id": "116499",
     "category": "food",
     "level": "hard",
@@ -6632,6 +7737,23 @@ const phrasesFood = [
     "sourceIndex": 16614
   },
   {
+    "id": "116652",
+    "category": "food",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I love fresh raspberries in summer."
+      },
+      "de": {
+        "text": "Ich liebe frische Himbeeren im Sommer."
+      }
+    },
+    "wordIds": [
+      "26652"
+    ],
+    "sourceIndex": 16652
+  },
+  {
     "id": "116674",
     "category": "food",
     "level": "hard",
@@ -6649,6 +7771,23 @@ const phrasesFood = [
     "sourceIndex": 16674
   },
   {
+    "id": "116702",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Children like to snack on sweets."
+      },
+      "de": {
+        "text": "Kinder naschen gerne Süßigkeiten."
+      }
+    },
+    "wordIds": [
+      "26702"
+    ],
+    "sourceIndex": 16702
+  },
+  {
     "id": "116799",
     "category": "food",
     "level": "hard",
@@ -6664,6 +7803,23 @@ const phrasesFood = [
       "26799"
     ],
     "sourceIndex": 16799
+  },
+  {
+    "id": "116807",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He has to oil the bicycle chain."
+      },
+      "de": {
+        "text": "Er muss die Fahrradkette ölen."
+      }
+    },
+    "wordIds": [
+      "26807"
+    ],
+    "sourceIndex": 16807
   },
   {
     "id": "116857",
@@ -6698,6 +7854,23 @@ const phrasesFood = [
       "26859"
     ],
     "sourceIndex": 16859
+  },
+  {
+    "id": "116889",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We often meet at the coffee house."
+      },
+      "de": {
+        "text": "Wir treffen uns oft im Kaffeehaus."
+      }
+    },
+    "wordIds": [
+      "26889"
+    ],
+    "sourceIndex": 16889
   },
   {
     "id": "116909",
@@ -6768,6 +7941,40 @@ const phrasesFood = [
     "sourceIndex": 16979
   },
   {
+    "id": "116997",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "What's on the menu today?"
+      },
+      "de": {
+        "text": "Was steht heute auf dem Speiseplan?"
+      }
+    },
+    "wordIds": [
+      "26997"
+    ],
+    "sourceIndex": 16997
+  },
+  {
+    "id": "117105",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I like to drink a chai latte."
+      },
+      "de": {
+        "text": "Ich trinke gerne einen Chai Latte."
+      }
+    },
+    "wordIds": [
+      "27105"
+    ],
+    "sourceIndex": 17105
+  },
+  {
     "id": "117136",
     "category": "food",
     "level": "medium",
@@ -6817,6 +8024,40 @@ const phrasesFood = [
       "27203"
     ],
     "sourceIndex": 17203
+  },
+  {
+    "id": "117209",
+    "category": "food",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I like fries with mayonnaise."
+      },
+      "de": {
+        "text": "Ich mag Pommes mit Mayonnaise."
+      }
+    },
+    "wordIds": [
+      "27209"
+    ],
+    "sourceIndex": 17209
+  },
+  {
+    "id": "117267",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He always carries a pocket knife."
+      },
+      "de": {
+        "text": "Er hat immer ein Taschenmesser dabei."
+      }
+    },
+    "wordIds": [
+      "27267"
+    ],
+    "sourceIndex": 17267
   },
   {
     "id": "117369",
@@ -7074,6 +8315,23 @@ const phrasesFood = [
     "sourceIndex": 17968
   },
   {
+    "id": "117972",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We have many canned foods for emergencies."
+      },
+      "de": {
+        "text": "Wir haben viele Konserven für Notfälle."
+      }
+    },
+    "wordIds": [
+      "27972"
+    ],
+    "sourceIndex": 17972
+  },
+  {
     "id": "118027",
     "category": "food",
     "level": "hard",
@@ -7125,6 +8383,23 @@ const phrasesFood = [
     "sourceIndex": 18173
   },
   {
+    "id": "118197",
+    "category": "food",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The crab walks sideways on the beach."
+      },
+      "de": {
+        "text": "Die Krabbe läuft seitwärts am Strand."
+      }
+    },
+    "wordIds": [
+      "28197"
+    ],
+    "sourceIndex": 18197
+  },
+  {
     "id": "118217",
     "category": "food",
     "level": "hard",
@@ -7140,6 +8415,57 @@ const phrasesFood = [
       "28217"
     ],
     "sourceIndex": 18217
+  },
+  {
+    "id": "118257",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The price of crude oil has risen."
+      },
+      "de": {
+        "text": "Der Preis für Rohöl ist gestiegen."
+      }
+    },
+    "wordIds": [
+      "28257"
+    ],
+    "sourceIndex": 18257
+  },
+  {
+    "id": "118258",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I like to drink a glass of rosé in summer."
+      },
+      "de": {
+        "text": "Ich trinke gerne ein Glas Rosé im Sommer."
+      }
+    },
+    "wordIds": [
+      "28258"
+    ],
+    "sourceIndex": 18258
+  },
+  {
+    "id": "118383",
+    "category": "food",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I like mushrooms in my soup."
+      },
+      "de": {
+        "text": "Ich mag Champignons in meiner Suppe."
+      }
+    },
+    "wordIds": [
+      "28383"
+    ],
+    "sourceIndex": 18383
   },
   {
     "id": "118463",
@@ -7346,6 +8672,23 @@ const phrasesFood = [
     "sourceIndex": 18760
   },
   {
+    "id": "118913",
+    "category": "food",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "He put an empty beer bottle on the table."
+      },
+      "de": {
+        "text": "Er hat eine leere Bierflasche auf den Tisch gestellt."
+      }
+    },
+    "wordIds": [
+      "28913"
+    ],
+    "sourceIndex": 18913
+  },
+  {
     "id": "118920",
     "category": "food",
     "level": "hard",
@@ -7463,6 +8806,23 @@ const phrasesFood = [
       "29127"
     ],
     "sourceIndex": 19127
+  },
+  {
+    "id": "119286",
+    "category": "food",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I like chocolate with hazelnuts."
+      },
+      "de": {
+        "text": "Ich mag Schokolade mit Haselnüssen."
+      }
+    },
+    "wordIds": [
+      "29286"
+    ],
+    "sourceIndex": 19286
   },
   {
     "id": "119440",

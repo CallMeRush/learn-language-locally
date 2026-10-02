@@ -34,6 +34,40 @@ const phrasesDaily = [
     "sourceIndex": 2
   },
   {
+    "id": "100003",
+    "category": "daily",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I have a book."
+      },
+      "de": {
+        "text": "Ich habe ein Buch."
+      }
+    },
+    "wordIds": [
+      "10003"
+    ],
+    "sourceIndex": 3
+  },
+  {
+    "id": "100006",
+    "category": "daily",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I can speak German."
+      },
+      "de": {
+        "text": "Ich kann Deutsch sprechen."
+      }
+    },
+    "wordIds": [
+      "10006"
+    ],
+    "sourceIndex": 6
+  },
+  {
     "id": "100007",
     "category": "daily",
     "level": "easy",
@@ -83,40 +117,6 @@ const phrasesDaily = [
       "10010"
     ],
     "sourceIndex": 10
-  },
-  {
-    "id": "100011",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "Just come here!"
-      },
-      "de": {
-        "text": "Komm mal her!"
-      }
-    },
-    "wordIds": [
-      "10011"
-    ],
-    "sourceIndex": 11
-  },
-  {
-    "id": "100012",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I have been there many times."
-      },
-      "de": {
-        "text": "Ich war schon viele Male dort."
-      }
-    },
-    "wordIds": [
-      "10012"
-    ],
-    "sourceIndex": 12
   },
   {
     "id": "100013",
@@ -255,23 +255,6 @@ const phrasesDaily = [
     "sourceIndex": 23
   },
   {
-    "id": "100027",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "That is a completely new idea."
-      },
-      "de": {
-        "text": "Das ist eine ganz neue Idee."
-      }
-    },
-    "wordIds": [
-      "10027"
-    ],
-    "sourceIndex": 27
-  },
-  {
     "id": "100032",
     "category": "daily",
     "level": "easy",
@@ -287,23 +270,6 @@ const phrasesDaily = [
       "10032"
     ],
     "sourceIndex": 32
-  },
-  {
-    "id": "100035",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I come from Germany."
-      },
-      "de": {
-        "text": "Ich komme aus Deutschland."
-      }
-    },
-    "wordIds": [
-      "10035"
-    ],
-    "sourceIndex": 35
   },
   {
     "id": "100036",
@@ -372,23 +338,6 @@ const phrasesDaily = [
       "10045"
     ],
     "sourceIndex": 45
-  },
-  {
-    "id": "100047",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I don't know it."
-      },
-      "de": {
-        "text": "Ich weiß es nicht."
-      }
-    },
-    "wordIds": [
-      "10047"
-    ],
-    "sourceIndex": 47
   },
   {
     "id": "100048",
@@ -493,23 +442,6 @@ const phrasesDaily = [
     "sourceIndex": 71
   },
   {
-    "id": "100073",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "Many people were at the party."
-      },
-      "de": {
-        "text": "Viele Leute waren auf der Party."
-      }
-    },
-    "wordIds": [
-      "10073"
-    ],
-    "sourceIndex": 73
-  },
-  {
     "id": "100074",
     "category": "daily",
     "level": "hard",
@@ -544,23 +476,6 @@ const phrasesDaily = [
     "sourceIndex": 76
   },
   {
-    "id": "100077",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "You are right. / That is my right."
-      },
-      "de": {
-        "text": "Du hast Recht. / Das ist mein Recht."
-      }
-    },
-    "wordIds": [
-      "10077"
-    ],
-    "sourceIndex": 77
-  },
-  {
     "id": "100078",
     "category": "daily",
     "level": "easy",
@@ -576,23 +491,6 @@ const phrasesDaily = [
       "10078"
     ],
     "sourceIndex": 78
-  },
-  {
-    "id": "100079",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The child is playing in the garden."
-      },
-      "de": {
-        "text": "Das Kind spielt im Garten."
-      }
-    },
-    "wordIds": [
-      "10079"
-    ],
-    "sourceIndex": 79
   },
   {
     "id": "100082",
@@ -680,23 +578,6 @@ const phrasesDaily = [
     "sourceIndex": 87
   },
   {
-    "id": "100088",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "That is the correct answer."
-      },
-      "de": {
-        "text": "Das ist die richtige Antwort."
-      }
-    },
-    "wordIds": [
-      "10088"
-    ],
-    "sourceIndex": 88
-  },
-  {
     "id": "100089",
     "category": "daily",
     "level": "easy",
@@ -731,23 +612,6 @@ const phrasesDaily = [
     "sourceIndex": 93
   },
   {
-    "id": "100094",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "They are a happy couple."
-      },
-      "de": {
-        "text": "Sie sind ein glückliches Paar."
-      }
-    },
-    "wordIds": [
-      "10094"
-    ],
-    "sourceIndex": 94
-  },
-  {
     "id": "100097",
     "category": "daily",
     "level": "easy",
@@ -763,23 +627,6 @@ const phrasesDaily = [
       "10097"
     ],
     "sourceIndex": 97
-  },
-  {
-    "id": "100098",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "We are going to the cinema together."
-      },
-      "de": {
-        "text": "Wir gehen zusammen ins Kino."
-      }
-    },
-    "wordIds": [
-      "10098"
-    ],
-    "sourceIndex": 98
   },
   {
     "id": "100101",
@@ -850,23 +697,6 @@ const phrasesDaily = [
     "sourceIndex": 106
   },
   {
-    "id": "100108",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "What kind of music do you like?"
-      },
-      "de": {
-        "text": "Welche Art von Musik magst du?"
-      }
-    },
-    "wordIds": [
-      "10108"
-    ],
-    "sourceIndex": 108
-  },
-  {
     "id": "100112",
     "category": "daily",
     "level": "easy",
@@ -882,57 +712,6 @@ const phrasesDaily = [
       "10112"
     ],
     "sourceIndex": 112
-  },
-  {
-    "id": "100120",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The book belongs to me."
-      },
-      "de": {
-        "text": "Das Buch gehört mir."
-      }
-    },
-    "wordIds": [
-      "10120"
-    ],
-    "sourceIndex": 120
-  },
-  {
-    "id": "100121",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "Do you have a free seat/space?"
-      },
-      "de": {
-        "text": "Haben Sie einen freien Platz?"
-      }
-    },
-    "wordIds": [
-      "10121"
-    ],
-    "sourceIndex": 121
-  },
-  {
-    "id": "100123",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I like to read exciting stories."
-      },
-      "de": {
-        "text": "Ich lese gerne spannende Geschichten."
-      }
-    },
-    "wordIds": [
-      "10123"
-    ],
-    "sourceIndex": 123
   },
   {
     "id": "100128",
@@ -967,74 +746,6 @@ const phrasesDaily = [
       "10131"
     ],
     "sourceIndex": 131
-  },
-  {
-    "id": "100132",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I receive a letter."
-      },
-      "de": {
-        "text": "Ich bekomme einen Brief."
-      }
-    },
-    "wordIds": [
-      "10132"
-    ],
-    "sourceIndex": 132
-  },
-  {
-    "id": "100133",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "That costs ten Euros."
-      },
-      "de": {
-        "text": "Das kostet zehn Euro."
-      }
-    },
-    "wordIds": [
-      "10133"
-    ],
-    "sourceIndex": 133
-  },
-  {
-    "id": "100135",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "Children like to play in the garden."
-      },
-      "de": {
-        "text": "Kinder spielen gerne im Garten."
-      }
-    },
-    "wordIds": [
-      "10135"
-    ],
-    "sourceIndex": 135
-  },
-  {
-    "id": "100138",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I work every day."
-      },
-      "de": {
-        "text": "Ich arbeite jeden Tag."
-      }
-    },
-    "wordIds": [
-      "10138"
-    ],
-    "sourceIndex": 138
   },
   {
     "id": "100140",
@@ -1105,40 +816,6 @@ const phrasesDaily = [
     "sourceIndex": 149
   },
   {
-    "id": "100151",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I place the book on the table."
-      },
-      "de": {
-        "text": "Ich stelle das Buch auf den Tisch."
-      }
-    },
-    "wordIds": [
-      "10151"
-    ],
-    "sourceIndex": 151
-  },
-  {
-    "id": "100155",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "There is a good reason for that."
-      },
-      "de": {
-        "text": "Es gibt einen guten Grund dafür."
-      }
-    },
-    "wordIds": [
-      "10155"
-    ],
-    "sourceIndex": 155
-  },
-  {
     "id": "100156",
     "category": "daily",
     "level": "hard",
@@ -1188,40 +865,6 @@ const phrasesDaily = [
       "10159"
     ],
     "sourceIndex": 159
-  },
-  {
-    "id": "100163",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The topic of the discussion was interesting."
-      },
-      "de": {
-        "text": "Das Thema der Diskussion war interessant."
-      }
-    },
-    "wordIds": [
-      "10163"
-    ],
-    "sourceIndex": 163
-  },
-  {
-    "id": "100164",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Can you give me an example?"
-      },
-      "de": {
-        "text": "Kannst du mir ein Beispiel geben?"
-      }
-    },
-    "wordIds": [
-      "10164"
-    ],
-    "sourceIndex": 164
   },
   {
     "id": "100166",
@@ -1275,23 +918,6 @@ const phrasesDaily = [
     "sourceIndex": 168
   },
   {
-    "id": "100169",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "Please hold the door open."
-      },
-      "de": {
-        "text": "Bitte halten Sie die Tür offen."
-      }
-    },
-    "wordIds": [
-      "10169"
-    ],
-    "sourceIndex": 169
-  },
-  {
     "id": "100171",
     "category": "daily",
     "level": "hard",
@@ -1326,23 +952,6 @@ const phrasesDaily = [
     "sourceIndex": 174
   },
   {
-    "id": "100175",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "What would you like to eat?"
-      },
-      "de": {
-        "text": "Was möchtest du essen?"
-      }
-    },
-    "wordIds": [
-      "10175"
-    ],
-    "sourceIndex": 175
-  },
-  {
     "id": "100178",
     "category": "daily",
     "level": "medium",
@@ -1360,57 +969,6 @@ const phrasesDaily = [
     "sourceIndex": 178
   },
   {
-    "id": "100180",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I like to listen to music."
-      },
-      "de": {
-        "text": "Ich höre gerne Musik."
-      }
-    },
-    "wordIds": [
-      "10180"
-    ],
-    "sourceIndex": 180
-  },
-  {
-    "id": "100183",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I'm coming home soon."
-      },
-      "de": {
-        "text": "Ich komme bald nach Hause."
-      }
-    },
-    "wordIds": [
-      "10183"
-    ],
-    "sourceIndex": 183
-  },
-  {
-    "id": "100185",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "That is very kind of you."
-      },
-      "de": {
-        "text": "Das ist sehr lieb von dir."
-      }
-    },
-    "wordIds": [
-      "10185"
-    ],
-    "sourceIndex": 185
-  },
-  {
     "id": "100187",
     "category": "daily",
     "level": "medium",
@@ -1426,40 +984,6 @@ const phrasesDaily = [
       "10187"
     ],
     "sourceIndex": 187
-  },
-  {
-    "id": "100188",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "This is my second book."
-      },
-      "de": {
-        "text": "Das ist mein zweites Buch."
-      }
-    },
-    "wordIds": [
-      "10188"
-    ],
-    "sourceIndex": 188
-  },
-  {
-    "id": "100190",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "Can you bring me the book?"
-      },
-      "de": {
-        "text": "Kannst du mir das Buch bringen?"
-      }
-    },
-    "wordIds": [
-      "10190"
-    ],
-    "sourceIndex": 190
   },
   {
     "id": "100192",
@@ -1496,74 +1020,6 @@ const phrasesDaily = [
     "sourceIndex": 195
   },
   {
-    "id": "100200",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "Every person has rights."
-      },
-      "de": {
-        "text": "Jede Person hat Rechte."
-      }
-    },
-    "wordIds": [
-      "10200"
-    ],
-    "sourceIndex": 200
-  },
-  {
-    "id": "100203",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "It's all the same to me."
-      },
-      "de": {
-        "text": "Es ist mir egal."
-      }
-    },
-    "wordIds": [
-      "10203"
-    ],
-    "sourceIndex": 203
-  },
-  {
-    "id": "100204",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Society is changing quickly."
-      },
-      "de": {
-        "text": "Die Gesellschaft verändert sich schnell."
-      }
-    },
-    "wordIds": [
-      "10204"
-    ],
-    "sourceIndex": 204
-  },
-  {
-    "id": "100208",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "In the beginning, it was difficult."
-      },
-      "de": {
-        "text": "Am Anfang war es schwierig."
-      }
-    },
-    "wordIds": [
-      "10208"
-    ],
-    "sourceIndex": 208
-  },
-  {
     "id": "100209",
     "category": "daily",
     "level": "easy",
@@ -1596,23 +1052,6 @@ const phrasesDaily = [
       "10212"
     ],
     "sourceIndex": 212
-  },
-  {
-    "id": "100213",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Thank God!"
-      },
-      "de": {
-        "text": "Gott sei Dank!"
-      }
-    },
-    "wordIds": [
-      "10213"
-    ],
-    "sourceIndex": 213
   },
   {
     "id": "100214",
@@ -1666,40 +1105,6 @@ const phrasesDaily = [
     "sourceIndex": 221
   },
   {
-    "id": "100222",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "A million people live in this city."
-      },
-      "de": {
-        "text": "Eine Million Menschen leben in dieser Stadt."
-      }
-    },
-    "wordIds": [
-      "10222"
-    ],
-    "sourceIndex": 222
-  },
-  {
-    "id": "100224",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "We are meeting tomorrow."
-      },
-      "de": {
-        "text": "Wir treffen uns morgen."
-      }
-    },
-    "wordIds": [
-      "10224"
-    ],
-    "sourceIndex": 224
-  },
-  {
     "id": "100225",
     "category": "daily",
     "level": "hard",
@@ -1734,58 +1139,6 @@ const phrasesDaily = [
     "sourceIndex": 228
   },
   {
-    "id": "100230",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "Good day, Mr. Müller."
-      },
-      "de": {
-        "text": "Guten Tag, Herr Müller."
-      }
-    },
-    "wordIds": [
-      "10230"
-    ],
-    "sourceIndex": 230
-  },
-  {
-    "id": "100234",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She is interested in politics."
-      },
-      "de": {
-        "text": "Sie interessiert sich für Politik."
-      }
-    },
-    "wordIds": [
-      "10234"
-    ],
-    "sourceIndex": 234
-  },
-  {
-    "id": "100236",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The sun is shining today."
-      },
-      "de": {
-        "text": "Die Sonne scheint heute."
-      }
-    },
-    "wordIds": [
-      "10236",
-      "10655"
-    ],
-    "sourceIndex": 236
-  },
-  {
     "id": "100237",
     "category": "daily",
     "level": "hard",
@@ -1803,125 +1156,6 @@ const phrasesDaily = [
     "sourceIndex": 237
   },
   {
-    "id": "100238",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I like to watch a movie."
-      },
-      "de": {
-        "text": "Ich sehe gern einen Film."
-      }
-    },
-    "wordIds": [
-      "10238"
-    ],
-    "sourceIndex": 238
-  },
-  {
-    "id": "100239",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The Internet is an important source of information."
-      },
-      "de": {
-        "text": "Das Internet ist eine wichtige Informationsquelle."
-      }
-    },
-    "wordIds": [
-      "10239"
-    ],
-    "sourceIndex": 239
-  },
-  {
-    "id": "100243",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "In which direction do we have to go?"
-      },
-      "de": {
-        "text": "In welche Richtung müssen wir gehen?"
-      }
-    },
-    "wordIds": [
-      "10243"
-    ],
-    "sourceIndex": 243
-  },
-  {
-    "id": "100246",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "That is a very interesting book."
-      },
-      "de": {
-        "text": "Das ist ein sehr interessantes Buch."
-      }
-    },
-    "wordIds": [
-      "10246"
-    ],
-    "sourceIndex": 246
-  },
-  {
-    "id": "100247",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "That is a small thing."
-      },
-      "de": {
-        "text": "Das ist ein kleines Ding."
-      }
-    },
-    "wordIds": [
-      "10247"
-    ],
-    "sourceIndex": 247
-  },
-  {
-    "id": "100249",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Ten percent of the population are students."
-      },
-      "de": {
-        "text": "Zehn Prozent der Bevölkerung sind Studenten."
-      }
-    },
-    "wordIds": [
-      "10249"
-    ],
-    "sourceIndex": 249
-  },
-  {
-    "id": "100250",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "My son goes to school."
-      },
-      "de": {
-        "text": "Mein Sohn geht zur Schule."
-      }
-    },
-    "wordIds": [
-      "10250"
-    ],
-    "sourceIndex": 250
-  },
-  {
     "id": "100254",
     "category": "daily",
     "level": "hard",
@@ -1937,91 +1171,6 @@ const phrasesDaily = [
       "10254"
     ],
     "sourceIndex": 254
-  },
-  {
-    "id": "100257",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The little girl is playing in the garden."
-      },
-      "de": {
-        "text": "Das kleine Mädchen spielt im Garten."
-      }
-    },
-    "wordIds": [
-      "10257"
-    ],
-    "sourceIndex": 257
-  },
-  {
-    "id": "100258",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "My father is reading the newspaper."
-      },
-      "de": {
-        "text": "Mein Vater liest die Zeitung."
-      }
-    },
-    "wordIds": [
-      "10258"
-    ],
-    "sourceIndex": 258
-  },
-  {
-    "id": "100259",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We are planning our future."
-      },
-      "de": {
-        "text": "Wir planen unsere Zukunft."
-      }
-    },
-    "wordIds": [
-      "10259"
-    ],
-    "sourceIndex": 259
-  },
-  {
-    "id": "100261",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I drive to work every day."
-      },
-      "de": {
-        "text": "Ich fahre jeden Tag zur Arbeit."
-      }
-    },
-    "wordIds": [
-      "10261"
-    ],
-    "sourceIndex": 261
-  },
-  {
-    "id": "100265",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "That is a good idea."
-      },
-      "de": {
-        "text": "Das ist eine gute Idee."
-      }
-    },
-    "wordIds": [
-      "10265"
-    ],
-    "sourceIndex": 265
   },
   {
     "id": "100266",
@@ -2075,23 +1224,6 @@ const phrasesDaily = [
     "sourceIndex": 269
   },
   {
-    "id": "100270",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We have the choice."
-      },
-      "de": {
-        "text": "Wir haben die Wahl."
-      }
-    },
-    "wordIds": [
-      "10270"
-    ],
-    "sourceIndex": 270
-  },
-  {
     "id": "100272",
     "category": "daily",
     "level": "hard",
@@ -2107,23 +1239,6 @@ const phrasesDaily = [
       "10272"
     ],
     "sourceIndex": 272
-  },
-  {
-    "id": "100279",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I am looking for my keys."
-      },
-      "de": {
-        "text": "Ich suche meine Schlüssel."
-      }
-    },
-    "wordIds": [
-      "10279"
-    ],
-    "sourceIndex": 279
   },
   {
     "id": "100280",
@@ -2177,40 +1292,6 @@ const phrasesDaily = [
     "sourceIndex": 283
   },
   {
-    "id": "100287",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The political situation is very tense."
-      },
-      "de": {
-        "text": "Die politische Lage ist sehr angespannt."
-      }
-    },
-    "wordIds": [
-      "10287"
-    ],
-    "sourceIndex": 287
-  },
-  {
-    "id": "100288",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I run every morning in the park."
-      },
-      "de": {
-        "text": "Ich laufe jeden Morgen im Park."
-      }
-    },
-    "wordIds": [
-      "10288"
-    ],
-    "sourceIndex": 288
-  },
-  {
     "id": "100293",
     "category": "daily",
     "level": "hard",
@@ -2228,74 +1309,6 @@ const phrasesDaily = [
     "sourceIndex": 293
   },
   {
-    "id": "100294",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "My class is very big."
-      },
-      "de": {
-        "text": "Meine Klasse ist sehr groß."
-      }
-    },
-    "wordIds": [
-      "10294"
-    ],
-    "sourceIndex": 294
-  },
-  {
-    "id": "100295",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The price for the book is high."
-      },
-      "de": {
-        "text": "Der Preis für das Buch ist hoch."
-      }
-    },
-    "wordIds": [
-      "10295"
-    ],
-    "sourceIndex": 295
-  },
-  {
-    "id": "100297",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She plays an important role in the play."
-      },
-      "de": {
-        "text": "Sie spielt eine wichtige Rolle in dem Stück."
-      }
-    },
-    "wordIds": [
-      "10297"
-    ],
-    "sourceIndex": 297
-  },
-  {
-    "id": "100301",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I saw him yesterday."
-      },
-      "de": {
-        "text": "Ich habe ihn gestern gesehen."
-      }
-    },
-    "wordIds": [
-      "10301"
-    ],
-    "sourceIndex": 301
-  },
-  {
     "id": "100302",
     "category": "daily",
     "level": "hard",
@@ -2311,23 +1324,6 @@ const phrasesDaily = [
       "10302"
     ],
     "sourceIndex": 302
-  },
-  {
-    "id": "100305",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I forgot my keys."
-      },
-      "de": {
-        "text": "Ich habe meine Schlüssel vergessen."
-      }
-    },
-    "wordIds": [
-      "10305"
-    ],
-    "sourceIndex": 305
   },
   {
     "id": "100306",
@@ -2364,57 +1360,6 @@ const phrasesDaily = [
     "sourceIndex": 309
   },
   {
-    "id": "100311",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I want to buy a new book."
-      },
-      "de": {
-        "text": "Ich möchte ein neues Buch kaufen."
-      }
-    },
-    "wordIds": [
-      "10311"
-    ],
-    "sourceIndex": 311
-  },
-  {
-    "id": "100315",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "They are talking about the weather."
-      },
-      "de": {
-        "text": "Sie reden über das Wetter."
-      }
-    },
-    "wordIds": [
-      "10315"
-    ],
-    "sourceIndex": 315
-  },
-  {
-    "id": "100316",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The boy is playing in the garden."
-      },
-      "de": {
-        "text": "Der Junge spielt im Garten."
-      }
-    },
-    "wordIds": [
-      "10316"
-    ],
-    "sourceIndex": 316
-  },
-  {
     "id": "100318",
     "category": "daily",
     "level": "easy",
@@ -2432,23 +1377,6 @@ const phrasesDaily = [
     "sourceIndex": 318
   },
   {
-    "id": "100320",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "Can you speak German?"
-      },
-      "de": {
-        "text": "Kannst du Deutsch sprechen?"
-      }
-    },
-    "wordIds": [
-      "10320"
-    ],
-    "sourceIndex": 320
-  },
-  {
     "id": "100323",
     "category": "daily",
     "level": "hard",
@@ -2464,125 +1392,6 @@ const phrasesDaily = [
       "10323"
     ],
     "sourceIndex": 323
-  },
-  {
-    "id": "100331",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "In July we go on vacation."
-      },
-      "de": {
-        "text": "Im Juli fahren wir in den Urlaub."
-      }
-    },
-    "wordIds": [
-      "10331"
-    ],
-    "sourceIndex": 331
-  },
-  {
-    "id": "100336",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I will manage it."
-      },
-      "de": {
-        "text": "Ich werde es schaffen."
-      }
-    },
-    "wordIds": [
-      "10336"
-    ],
-    "sourceIndex": 336
-  },
-  {
-    "id": "100338",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The search for the key was long."
-      },
-      "de": {
-        "text": "Die Suche nach dem Schlüssel war lang."
-      }
-    },
-    "wordIds": [
-      "10338"
-    ],
-    "sourceIndex": 338
-  },
-  {
-    "id": "100339",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I will try to be on time."
-      },
-      "de": {
-        "text": "Ich werde versuchen, pünktlich zu sein."
-      }
-    },
-    "wordIds": [
-      "10339"
-    ],
-    "sourceIndex": 339
-  },
-  {
-    "id": "100343",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "They sang and danced simultaneously."
-      },
-      "de": {
-        "text": "Sie sangen und tanzten gleichzeitig."
-      }
-    },
-    "wordIds": [
-      "10343"
-    ],
-    "sourceIndex": 343
-  },
-  {
-    "id": "100344",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I am listening to music."
-      },
-      "de": {
-        "text": "Ich höre Musik."
-      }
-    },
-    "wordIds": [
-      "10344"
-    ],
-    "sourceIndex": 344
-  },
-  {
-    "id": "100345",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "There are many possibilities to solve this problem."
-      },
-      "de": {
-        "text": "Es gibt viele Möglichkeiten, dieses Problem zu lösen."
-      }
-    },
-    "wordIds": [
-      "10345"
-    ],
-    "sourceIndex": 345
   },
   {
     "id": "100347",
@@ -2619,125 +1428,6 @@ const phrasesDaily = [
     "sourceIndex": 348
   },
   {
-    "id": "100349",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The apple falls from the tree."
-      },
-      "de": {
-        "text": "Der Apfel fällt vom Baum."
-      }
-    },
-    "wordIds": [
-      "10349"
-    ],
-    "sourceIndex": 349
-  },
-  {
-    "id": "100350",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I hope you have a nice day."
-      },
-      "de": {
-        "text": "Ich hoffe, du hast einen schönen Tag."
-      }
-    },
-    "wordIds": [
-      "10350"
-    ],
-    "sourceIndex": 350
-  },
-  {
-    "id": "100352",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "My job is very interesting."
-      },
-      "de": {
-        "text": "Mein Job ist sehr interessant."
-      }
-    },
-    "wordIds": [
-      "10352"
-    ],
-    "sourceIndex": 352
-  },
-  {
-    "id": "100353",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The topic of sex is often controversial."
-      },
-      "de": {
-        "text": "Das Thema Sex ist oft kontrovers."
-      }
-    },
-    "wordIds": [
-      "10353"
-    ],
-    "sourceIndex": 353
-  },
-  {
-    "id": "100355",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The title of the book is very long."
-      },
-      "de": {
-        "text": "Der Titel des Buches ist sehr lang."
-      }
-    },
-    "wordIds": [
-      "10355"
-    ],
-    "sourceIndex": 355
-  },
-  {
-    "id": "100356",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "My daughter goes to school."
-      },
-      "de": {
-        "text": "Meine Tochter geht zur Schule."
-      }
-    },
-    "wordIds": [
-      "10356"
-    ],
-    "sourceIndex": 356
-  },
-  {
-    "id": "100361",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Art is a form of expression."
-      },
-      "de": {
-        "text": "Die Kunst ist eine Form des Ausdrucks."
-      }
-    },
-    "wordIds": [
-      "10361"
-    ],
-    "sourceIndex": 361
-  },
-  {
     "id": "100366",
     "category": "daily",
     "level": "hard",
@@ -2770,40 +1460,6 @@ const phrasesDaily = [
       "10368"
     ],
     "sourceIndex": 368
-  },
-  {
-    "id": "100369",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "This is your last chance."
-      },
-      "de": {
-        "text": "Das ist deine letzte Chance."
-      }
-    },
-    "wordIds": [
-      "10369"
-    ],
-    "sourceIndex": 369
-  },
-  {
-    "id": "100374",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The table is two meters long."
-      },
-      "de": {
-        "text": "Der Tisch ist zwei Meter lang."
-      }
-    },
-    "wordIds": [
-      "10374"
-    ],
-    "sourceIndex": 374
   },
   {
     "id": "100375",
@@ -2840,91 +1496,6 @@ const phrasesDaily = [
     "sourceIndex": 378
   },
   {
-    "id": "100379",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Can you please explain that to me?"
-      },
-      "de": {
-        "text": "Kannst du mir das bitte erklären?"
-      }
-    },
-    "wordIds": [
-      "10379"
-    ],
-    "sourceIndex": 379
-  },
-  {
-    "id": "100381",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The distance is 100 kilometers."
-      },
-      "de": {
-        "text": "Die Strecke beträgt 100 Km."
-      }
-    },
-    "wordIds": [
-      "10381"
-    ],
-    "sourceIndex": 381
-  },
-  {
-    "id": "100384",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I like to watch TV."
-      },
-      "de": {
-        "text": "Ich schaue gerne Tv."
-      }
-    },
-    "wordIds": [
-      "10384"
-    ],
-    "sourceIndex": 384
-  },
-  {
-    "id": "100386",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "He has to pull the cart."
-      },
-      "de": {
-        "text": "Er muss den Wagen ziehen."
-      }
-    },
-    "wordIds": [
-      "10386"
-    ],
-    "sourceIndex": 386
-  },
-  {
-    "id": "100389",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The train departs on time."
-      },
-      "de": {
-        "text": "Die Bahn fährt pünktlich ab."
-      }
-    },
-    "wordIds": [
-      "10389"
-    ],
-    "sourceIndex": 389
-  },
-  {
     "id": "100390",
     "category": "daily",
     "level": "hard",
@@ -2959,40 +1530,6 @@ const phrasesDaily = [
     "sourceIndex": 395
   },
   {
-    "id": "100398",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "That was an important decision."
-      },
-      "de": {
-        "text": "Das war eine wichtige Entscheidung."
-      }
-    },
-    "wordIds": [
-      "10398"
-    ],
-    "sourceIndex": 398
-  },
-  {
-    "id": "100402",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "In January it is very cold."
-      },
-      "de": {
-        "text": "Im Januar ist es sehr kalt."
-      }
-    },
-    "wordIds": [
-      "10402"
-    ],
-    "sourceIndex": 402
-  },
-  {
     "id": "100404",
     "category": "daily",
     "level": "medium",
@@ -3008,108 +1545,6 @@ const phrasesDaily = [
       "10404"
     ],
     "sourceIndex": 404
-  },
-  {
-    "id": "100406",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "That makes no sense."
-      },
-      "de": {
-        "text": "Das macht keinen Sinn."
-      }
-    },
-    "wordIds": [
-      "10406"
-    ],
-    "sourceIndex": 406
-  },
-  {
-    "id": "100413",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He visits his grandparents often."
-      },
-      "de": {
-        "text": "Er besucht seine Großeltern häufig."
-      }
-    },
-    "wordIds": [
-      "10413"
-    ],
-    "sourceIndex": 413
-  },
-  {
-    "id": "100414",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I have great interest in art."
-      },
-      "de": {
-        "text": "Ich habe großes Interesse an Kunst."
-      }
-    },
-    "wordIds": [
-      "10414"
-    ],
-    "sourceIndex": 414
-  },
-  {
-    "id": "100415",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "German culture is very diverse."
-      },
-      "de": {
-        "text": "Die deutsche Kultur ist sehr vielfältig."
-      }
-    },
-    "wordIds": [
-      "10415"
-    ],
-    "sourceIndex": 415
-  },
-  {
-    "id": "100416",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The king ruled the country wisely."
-      },
-      "de": {
-        "text": "Der König regierte das Land weise."
-      }
-    },
-    "wordIds": [
-      "10416"
-    ],
-    "sourceIndex": 416
-  },
-  {
-    "id": "100419",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please stand in a row."
-      },
-      "de": {
-        "text": "Bitte stellen Sie sich in einer Reihe auf."
-      }
-    },
-    "wordIds": [
-      "10419"
-    ],
-    "sourceIndex": 419
   },
   {
     "id": "100428",
@@ -3129,57 +1564,6 @@ const phrasesDaily = [
     "sourceIndex": 428
   },
   {
-    "id": "100429",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Can you please say that again?"
-      },
-      "de": {
-        "text": "Können Sie das bitte nochmal sagen?"
-      }
-    },
-    "wordIds": [
-      "10429"
-    ],
-    "sourceIndex": 429
-  },
-  {
-    "id": "100433",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "This region is known for its wine."
-      },
-      "de": {
-        "text": "Diese Region ist bekannt für ihren Wein."
-      }
-    },
-    "wordIds": [
-      "10433"
-    ],
-    "sourceIndex": 433
-  },
-  {
-    "id": "100435",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The situation is complicated."
-      },
-      "de": {
-        "text": "Die Situation ist kompliziert."
-      }
-    },
-    "wordIds": [
-      "10435"
-    ],
-    "sourceIndex": 435
-  },
-  {
     "id": "100437",
     "category": "daily",
     "level": "easy",
@@ -3195,23 +1579,6 @@ const phrasesDaily = [
       "10437"
     ],
     "sourceIndex": 437
-  },
-  {
-    "id": "100439",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The German economy is strong."
-      },
-      "de": {
-        "text": "Die deutsche Wirtschaft ist stark."
-      }
-    },
-    "wordIds": [
-      "10439"
-    ],
-    "sourceIndex": 439
   },
   {
     "id": "100441",
@@ -3248,125 +1615,6 @@ const phrasesDaily = [
     "sourceIndex": 444
   },
   {
-    "id": "100445",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The human body is complex."
-      },
-      "de": {
-        "text": "Der menschliche Körper ist komplex."
-      }
-    },
-    "wordIds": [
-      "10445"
-    ],
-    "sourceIndex": 445
-  },
-  {
-    "id": "100446",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She is a new member of the club."
-      },
-      "de": {
-        "text": "Sie ist ein neues Mitglied im Verein."
-      }
-    },
-    "wordIds": [
-      "10446"
-    ],
-    "sourceIndex": 446
-  },
-  {
-    "id": "100448",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "Please put a period at the end of the sentence."
-      },
-      "de": {
-        "text": "Bitte setzen Sie einen Punkt am Ende des Satzes."
-      }
-    },
-    "wordIds": [
-      "10448"
-    ],
-    "sourceIndex": 448
-  },
-  {
-    "id": "100449",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The president's speech was very inspiring."
-      },
-      "de": {
-        "text": "Die Rede des Präsidenten war sehr inspirierend."
-      }
-    },
-    "wordIds": [
-      "10449"
-    ],
-    "sourceIndex": 449
-  },
-  {
-    "id": "100450",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "He is a nice guy."
-      },
-      "de": {
-        "text": "Er ist ein netter Typ."
-      }
-    },
-    "wordIds": [
-      "10450"
-    ],
-    "sourceIndex": 450
-  },
-  {
-    "id": "100458",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "My girlfriend is coming tonight."
-      },
-      "de": {
-        "text": "Meine Freundin kommt heute Abend."
-      }
-    },
-    "wordIds": [
-      "10458"
-    ],
-    "sourceIndex": 458
-  },
-  {
-    "id": "100460",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "Please turn on the light."
-      },
-      "de": {
-        "text": "Mach bitte das Licht an."
-      }
-    },
-    "wordIds": [
-      "10460"
-    ],
-    "sourceIndex": 460
-  },
-  {
     "id": "100462",
     "category": "daily",
     "level": "hard",
@@ -3382,23 +1630,6 @@ const phrasesDaily = [
       "10462"
     ],
     "sourceIndex": 462
-  },
-  {
-    "id": "100464",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The politician gave a speech."
-      },
-      "de": {
-        "text": "Der Politiker hielt eine Rede."
-      }
-    },
-    "wordIds": [
-      "10464"
-    ],
-    "sourceIndex": 464
   },
   {
     "id": "100467",
@@ -3418,23 +1649,6 @@ const phrasesDaily = [
     "sourceIndex": 467
   },
   {
-    "id": "100468",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The state has many tasks."
-      },
-      "de": {
-        "text": "Der Staat hat viele Aufgaben."
-      }
-    },
-    "wordIds": [
-      "10468"
-    ],
-    "sourceIndex": 468
-  },
-  {
     "id": "100472",
     "category": "daily",
     "level": "hard",
@@ -3450,23 +1664,6 @@ const phrasesDaily = [
       "10472"
     ],
     "sourceIndex": 472
-  },
-  {
-    "id": "100474",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I really like the book."
-      },
-      "de": {
-        "text": "Das Buch gefällt mir sehr."
-      }
-    },
-    "wordIds": [
-      "10474"
-    ],
-    "sourceIndex": 474
   },
   {
     "id": "100479",
@@ -3503,23 +1700,6 @@ const phrasesDaily = [
     "sourceIndex": 482
   },
   {
-    "id": "100483",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We are still on the way."
-      },
-      "de": {
-        "text": "Wir sind noch unterwegs."
-      }
-    },
-    "wordIds": [
-      "10483"
-    ],
-    "sourceIndex": 483
-  },
-  {
     "id": "100485",
     "category": "daily",
     "level": "hard",
@@ -3535,142 +1715,6 @@ const phrasesDaily = [
       "10485"
     ],
     "sourceIndex": 485
-  },
-  {
-    "id": "100486",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I read the newspaper every morning."
-      },
-      "de": {
-        "text": "Ich lese jeden Morgen die Zeitung."
-      }
-    },
-    "wordIds": [
-      "10486"
-    ],
-    "sourceIndex": 486
-  },
-  {
-    "id": "100488",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I have no idea."
-      },
-      "de": {
-        "text": "Ich habe keine Ahnung."
-      }
-    },
-    "wordIds": [
-      "10488"
-    ],
-    "sourceIndex": 488
-  },
-  {
-    "id": "100492",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Can you tell me a story?"
-      },
-      "de": {
-        "text": "Kannst du mir eine Geschichte erzählen?"
-      }
-    },
-    "wordIds": [
-      "10492"
-    ],
-    "sourceIndex": 492
-  },
-  {
-    "id": "100493",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The computer is not working."
-      },
-      "de": {
-        "text": "Der Computer funktioniert nicht."
-      }
-    },
-    "wordIds": [
-      "10493"
-    ],
-    "sourceIndex": 493
-  },
-  {
-    "id": "100494",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "It is 20 degrees Celsius."
-      },
-      "de": {
-        "text": "Es sind 20 Grad Celsius."
-      }
-    },
-    "wordIds": [
-      "10494"
-    ],
-    "sourceIndex": 494
-  },
-  {
-    "id": "100496",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She has a lot of strength in her arms."
-      },
-      "de": {
-        "text": "Sie hat viel Kraft in ihren Armen."
-      }
-    },
-    "wordIds": [
-      "10496"
-    ],
-    "sourceIndex": 496
-  },
-  {
-    "id": "100498",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The president gave a speech."
-      },
-      "de": {
-        "text": "Der Präsident hielt eine Rede."
-      }
-    },
-    "wordIds": [
-      "10498"
-    ],
-    "sourceIndex": 498
-  },
-  {
-    "id": "100499",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I like to do sports."
-      },
-      "de": {
-        "text": "Ich mache gerne Sport."
-      }
-    },
-    "wordIds": [
-      "10499"
-    ],
-    "sourceIndex": 499
   },
   {
     "id": "100503",
@@ -3724,23 +1768,6 @@ const phrasesDaily = [
     "sourceIndex": 509
   },
   {
-    "id": "100510",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The weekend was very relaxing."
-      },
-      "de": {
-        "text": "Das Wochenende war sehr entspannend."
-      }
-    },
-    "wordIds": [
-      "10510"
-    ],
-    "sourceIndex": 510
-  },
-  {
     "id": "100517",
     "category": "daily",
     "level": "hard",
@@ -3756,108 +1783,6 @@ const phrasesDaily = [
       "10517"
     ],
     "sourceIndex": 517
-  },
-  {
-    "id": "100520",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I will never forget that."
-      },
-      "de": {
-        "text": "Ich werde das niemals vergessen."
-      }
-    },
-    "wordIds": [
-      "10520"
-    ],
-    "sourceIndex": 520
-  },
-  {
-    "id": "100521",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Take a step forward."
-      },
-      "de": {
-        "text": "Mach einen Schritt nach vorne."
-      }
-    },
-    "wordIds": [
-      "10521"
-    ],
-    "sourceIndex": 521
-  },
-  {
-    "id": "100522",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We need your support."
-      },
-      "de": {
-        "text": "Wir brauchen Ihre Unterstützung."
-      }
-    },
-    "wordIds": [
-      "10522"
-    ],
-    "sourceIndex": 522
-  },
-  {
-    "id": "100525",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "You must choose now."
-      },
-      "de": {
-        "text": "Sie müssen jetzt wählen."
-      }
-    },
-    "wordIds": [
-      "10525"
-    ],
-    "sourceIndex": 525
-  },
-  {
-    "id": "100534",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "It's not my fault."
-      },
-      "de": {
-        "text": "Es ist nicht meine Schuld."
-      }
-    },
-    "wordIds": [
-      "10534"
-    ],
-    "sourceIndex": 534
-  },
-  {
-    "id": "100537",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The park is publicly accessible."
-      },
-      "de": {
-        "text": "Der Park ist öffentlich zugänglich."
-      }
-    },
-    "wordIds": [
-      "10537"
-    ],
-    "sourceIndex": 537
   },
   {
     "id": "100538",
@@ -3877,74 +1802,6 @@ const phrasesDaily = [
     "sourceIndex": 538
   },
   {
-    "id": "100541",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Our team has won."
-      },
-      "de": {
-        "text": "Unsere Mannschaft hat gewonnen."
-      }
-    },
-    "wordIds": [
-      "10541"
-    ],
-    "sourceIndex": 541
-  },
-  {
-    "id": "100542",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Put your things in order."
-      },
-      "de": {
-        "text": "Bring deine Sachen in Ordnung."
-      }
-    },
-    "wordIds": [
-      "10542"
-    ],
-    "sourceIndex": 542
-  },
-  {
-    "id": "100543",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "He is a rich man."
-      },
-      "de": {
-        "text": "Er ist ein reicher Mann."
-      }
-    },
-    "wordIds": [
-      "10543"
-    ],
-    "sourceIndex": 543
-  },
-  {
-    "id": "100545",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "On Saturday we go to the cinema."
-      },
-      "de": {
-        "text": "Am Samstag gehen wir ins Kino."
-      }
-    },
-    "wordIds": [
-      "10545"
-    ],
-    "sourceIndex": 545
-  },
-  {
     "id": "100546",
     "category": "daily",
     "level": "medium",
@@ -3960,23 +1817,6 @@ const phrasesDaily = [
       "10546"
     ],
     "sourceIndex": 546
-  },
-  {
-    "id": "100547",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "We share a room."
-      },
-      "de": {
-        "text": "Wir teilen uns ein Zimmer."
-      }
-    },
-    "wordIds": [
-      "10547"
-    ],
-    "sourceIndex": 547
   },
   {
     "id": "100549",
@@ -3996,23 +1836,6 @@ const phrasesDaily = [
     "sourceIndex": 549
   },
   {
-    "id": "100553",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "That costs ten dollars."
-      },
-      "de": {
-        "text": "Das kostet zehn Dollar."
-      }
-    },
-    "wordIds": [
-      "10553"
-    ],
-    "sourceIndex": 553
-  },
-  {
     "id": "100554",
     "category": "daily",
     "level": "hard",
@@ -4028,57 +1851,6 @@ const phrasesDaily = [
       "10554"
     ],
     "sourceIndex": 554
-  },
-  {
-    "id": "100557",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We are going for a walk."
-      },
-      "de": {
-        "text": "Wir gehen eine Runde spazieren."
-      }
-    },
-    "wordIds": [
-      "10557"
-    ],
-    "sourceIndex": 557
-  },
-  {
-    "id": "100558",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "In the end, everything was clear."
-      },
-      "de": {
-        "text": "Am Schluss war alles klar."
-      }
-    },
-    "wordIds": [
-      "10558"
-    ],
-    "sourceIndex": 558
-  },
-  {
-    "id": "100559",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I like to watch a new series."
-      },
-      "de": {
-        "text": "Ich schaue gerne eine neue Serie."
-      }
-    },
-    "wordIds": [
-      "10559"
-    ],
-    "sourceIndex": 559
   },
   {
     "id": "100560",
@@ -4115,74 +1887,6 @@ const phrasesDaily = [
     "sourceIndex": 564
   },
   {
-    "id": "100565",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The ruler is 30 cm long."
-      },
-      "de": {
-        "text": "Das Lineal ist 30 Cm lang."
-      }
-    },
-    "wordIds": [
-      "10565"
-    ],
-    "sourceIndex": 565
-  },
-  {
-    "id": "100567",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I could barely recognize him."
-      },
-      "de": {
-        "text": "Ich konnte ihn kaum wiedererkennen."
-      }
-    },
-    "wordIds": [
-      "10567"
-    ],
-    "sourceIndex": 567
-  },
-  {
-    "id": "100568",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "On Friday we go to the cinema."
-      },
-      "de": {
-        "text": "Am Freitag gehen wir ins Kino."
-      }
-    },
-    "wordIds": [
-      "10568"
-    ],
-    "sourceIndex": 568
-  },
-  {
-    "id": "100570",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The new law comes into effect next week."
-      },
-      "de": {
-        "text": "Das neue Gesetz tritt nächste Woche in Kraft."
-      }
-    },
-    "wordIds": [
-      "10570"
-    ],
-    "sourceIndex": 570
-  },
-  {
     "id": "100573",
     "category": "daily",
     "level": "medium",
@@ -4198,142 +1902,6 @@ const phrasesDaily = [
       "10573"
     ],
     "sourceIndex": 573
-  },
-  {
-    "id": "100574",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The train departs on time."
-      },
-      "de": {
-        "text": "Der Zug fährt pünktlich ab."
-      }
-    },
-    "wordIds": [
-      "10574"
-    ],
-    "sourceIndex": 574
-  },
-  {
-    "id": "100577",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "They have a happy marriage."
-      },
-      "de": {
-        "text": "Sie haben eine glückliche Ehe."
-      }
-    },
-    "wordIds": [
-      "10577"
-    ],
-    "sourceIndex": 577
-  },
-  {
-    "id": "100578",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He is a very honest person."
-      },
-      "de": {
-        "text": "Er ist ein sehr ehrlicher Mensch."
-      }
-    },
-    "wordIds": [
-      "10578"
-    ],
-    "sourceIndex": 578
-  },
-  {
-    "id": "100582",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Violence is not a solution."
-      },
-      "de": {
-        "text": "Gewalt ist keine Lösung."
-      }
-    },
-    "wordIds": [
-      "10582"
-    ],
-    "sourceIndex": 582
-  },
-  {
-    "id": "100585",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "What is your phone number?"
-      },
-      "de": {
-        "text": "Wie ist deine Telefonnummer?"
-      }
-    },
-    "wordIds": [
-      "10585"
-    ],
-    "sourceIndex": 585
-  },
-  {
-    "id": "100587",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "That was a great victory for our team."
-      },
-      "de": {
-        "text": "Das war ein großer Sieg für unser Team."
-      }
-    },
-    "wordIds": [
-      "10587"
-    ],
-    "sourceIndex": 587
-  },
-  {
-    "id": "100590",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "Please close the door."
-      },
-      "de": {
-        "text": "Bitte schließe die Tür."
-      }
-    },
-    "wordIds": [
-      "10590"
-    ],
-    "sourceIndex": 590
-  },
-  {
-    "id": "100595",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Education is very important for the future."
-      },
-      "de": {
-        "text": "Bildung ist sehr wichtig für die Zukunft."
-      }
-    },
-    "wordIds": [
-      "10595"
-    ],
-    "sourceIndex": 595
   },
   {
     "id": "100596",
@@ -4370,142 +1938,6 @@ const phrasesDaily = [
     "sourceIndex": 600
   },
   {
-    "id": "100603",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "Have you already picked up the mail?"
-      },
-      "de": {
-        "text": "Hast du die Post schon geholt?"
-      }
-    },
-    "wordIds": [
-      "10603"
-    ],
-    "sourceIndex": 603
-  },
-  {
-    "id": "100605",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I need some quiet."
-      },
-      "de": {
-        "text": "Ich brauche etwas Ruhe."
-      }
-    },
-    "wordIds": [
-      "10605"
-    ],
-    "sourceIndex": 605
-  },
-  {
-    "id": "100606",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "That is an important factory in the city."
-      },
-      "de": {
-        "text": "Das ist ein wichtiges Werk in der Stadt."
-      }
-    },
-    "wordIds": [
-      "10606"
-    ],
-    "sourceIndex": 606
-  },
-  {
-    "id": "100607",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The concept of \"sustainability\" is very important today."
-      },
-      "de": {
-        "text": "Der Begriff \"Nachhaltigkeit\" ist heute sehr wichtig."
-      }
-    },
-    "wordIds": [
-      "10607"
-    ],
-    "sourceIndex": 607
-  },
-  {
-    "id": "100611",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The window is open."
-      },
-      "de": {
-        "text": "Das Fenster ist offen."
-      }
-    },
-    "wordIds": [
-      "10611"
-    ],
-    "sourceIndex": 611
-  },
-  {
-    "id": "100613",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "She is proud of her children."
-      },
-      "de": {
-        "text": "Sie ist stolz auf ihre Kinder."
-      }
-    },
-    "wordIds": [
-      "10613"
-    ],
-    "sourceIndex": 613
-  },
-  {
-    "id": "100614",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "He wants to sell his old car."
-      },
-      "de": {
-        "text": "Er möchte sein altes Auto verkaufen."
-      }
-    },
-    "wordIds": [
-      "10614"
-    ],
-    "sourceIndex": 614
-  },
-  {
-    "id": "100615",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "May I introduce myself?"
-      },
-      "de": {
-        "text": "Darf ich mich vorstellen?"
-      }
-    },
-    "wordIds": [
-      "10615"
-    ],
-    "sourceIndex": 615
-  },
-  {
     "id": "100618",
     "category": "daily",
     "level": "hard",
@@ -4540,74 +1972,6 @@ const phrasesDaily = [
     "sourceIndex": 620
   },
   {
-    "id": "100623",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "He feels great joy in his work."
-      },
-      "de": {
-        "text": "Er empfindet große Freude an seiner Arbeit."
-      }
-    },
-    "wordIds": [
-      "10623"
-    ],
-    "sourceIndex": 623
-  },
-  {
-    "id": "100624",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The topic interests me a lot."
-      },
-      "de": {
-        "text": "Das Thema interessiert mich sehr."
-      }
-    },
-    "wordIds": [
-      "10624"
-    ],
-    "sourceIndex": 624
-  },
-  {
-    "id": "100626",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I love learning new languages."
-      },
-      "de": {
-        "text": "Ich liebe es, neue Sprachen zu lernen."
-      }
-    },
-    "wordIds": [
-      "10626"
-    ],
-    "sourceIndex": 626
-  },
-  {
-    "id": "100628",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "On Monday, I have an appointment."
-      },
-      "de": {
-        "text": "Am Montag habe ich einen Termin."
-      }
-    },
-    "wordIds": [
-      "10628"
-    ],
-    "sourceIndex": 628
-  },
-  {
     "id": "100630",
     "category": "daily",
     "level": "medium",
@@ -4623,40 +1987,6 @@ const phrasesDaily = [
       "10630"
     ],
     "sourceIndex": 630
-  },
-  {
-    "id": "100634",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please provide precise personal information."
-      },
-      "de": {
-        "text": "Bitte machen Sie genaue Angaben zu Ihrer Person."
-      }
-    },
-    "wordIds": [
-      "10634"
-    ],
-    "sourceIndex": 634
-  },
-  {
-    "id": "100640",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "My dog likes to play in the garden."
-      },
-      "de": {
-        "text": "Mein Hund spielt gerne im Garten."
-      }
-    },
-    "wordIds": [
-      "10640"
-    ],
-    "sourceIndex": 640
   },
   {
     "id": "100641",
@@ -4676,40 +2006,6 @@ const phrasesDaily = [
     "sourceIndex": 641
   },
   {
-    "id": "100644",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I like to swim in the lake."
-      },
-      "de": {
-        "text": "Ich gehe gerne im See baden."
-      }
-    },
-    "wordIds": [
-      "10644"
-    ],
-    "sourceIndex": 644
-  },
-  {
-    "id": "100649",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Today's meeting was very productive."
-      },
-      "de": {
-        "text": "Die heutige Sitzung war sehr produktiv."
-      }
-    },
-    "wordIds": [
-      "10649"
-    ],
-    "sourceIndex": 649
-  },
-  {
     "id": "100650",
     "category": "daily",
     "level": "hard",
@@ -4725,91 +2021,6 @@ const phrasesDaily = [
       "10650"
     ],
     "sourceIndex": 650
-  },
-  {
-    "id": "100652",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I need a map for the city."
-      },
-      "de": {
-        "text": "Ich brauche eine Karte für die Stadt."
-      }
-    },
-    "wordIds": [
-      "10652"
-    ],
-    "sourceIndex": 652
-  },
-  {
-    "id": "100654",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He is the master of his craft."
-      },
-      "de": {
-        "text": "Er ist der Meister seines Fachs."
-      }
-    },
-    "wordIds": [
-      "10654"
-    ],
-    "sourceIndex": 654
-  },
-  {
-    "id": "100657",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I want to support you."
-      },
-      "de": {
-        "text": "Ich möchte dich unterstützen."
-      }
-    },
-    "wordIds": [
-      "10657"
-    ],
-    "sourceIndex": 657
-  },
-  {
-    "id": "100658",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The people elected a new president."
-      },
-      "de": {
-        "text": "Das Volk wählte einen neuen Präsidenten."
-      }
-    },
-    "wordIds": [
-      "10658"
-    ],
-    "sourceIndex": 658
-  },
-  {
-    "id": "100659",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Visit our website for more information."
-      },
-      "de": {
-        "text": "Besuchen Sie unsere Website für weitere Informationen."
-      }
-    },
-    "wordIds": [
-      "10659"
-    ],
-    "sourceIndex": 659
   },
   {
     "id": "100661",
@@ -4846,125 +2057,6 @@ const phrasesDaily = [
     "sourceIndex": 662
   },
   {
-    "id": "100671",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The castle is very old."
-      },
-      "de": {
-        "text": "Das Schloss ist sehr alt."
-      }
-    },
-    "wordIds": [
-      "10671"
-    ],
-    "sourceIndex": 671
-  },
-  {
-    "id": "100672",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He seeks protection from the rain."
-      },
-      "de": {
-        "text": "Er sucht Schutz vor dem Regen."
-      }
-    },
-    "wordIds": [
-      "10672"
-    ],
-    "sourceIndex": 672
-  },
-  {
-    "id": "100681",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "He lays the book on the table."
-      },
-      "de": {
-        "text": "Er legt das Buch auf den Tisch."
-      }
-    },
-    "wordIds": [
-      "10681"
-    ],
-    "sourceIndex": 681
-  },
-  {
-    "id": "100682",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I am sorry that I am late."
-      },
-      "de": {
-        "text": "Es tut mir Leid, dass ich zu spät bin."
-      }
-    },
-    "wordIds": [
-      "10682"
-    ],
-    "sourceIndex": 682
-  },
-  {
-    "id": "100684",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "A new study shows interesting results."
-      },
-      "de": {
-        "text": "Eine neue Studie zeigt interessante Ergebnisse."
-      }
-    },
-    "wordIds": [
-      "10684"
-    ],
-    "sourceIndex": 684
-  },
-  {
-    "id": "100690",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The advertising on TV is often annoying."
-      },
-      "de": {
-        "text": "Die Werbung im Fernsehen ist oft nervig."
-      }
-    },
-    "wordIds": [
-      "10690"
-    ],
-    "sourceIndex": 690
-  },
-  {
-    "id": "100691",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He works in the public office."
-      },
-      "de": {
-        "text": "Er arbeitet im öffentlichen Amt."
-      }
-    },
-    "wordIds": [
-      "10691"
-    ],
-    "sourceIndex": 691
-  },
-  {
     "id": "100695",
     "category": "daily",
     "level": "medium",
@@ -4999,108 +2091,6 @@ const phrasesDaily = [
     "sourceIndex": 696
   },
   {
-    "id": "100697",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please don't mention that."
-      },
-      "de": {
-        "text": "Erwähnen Sie das bitte nicht."
-      }
-    },
-    "wordIds": [
-      "10697"
-    ],
-    "sourceIndex": 697
-  },
-  {
-    "id": "100698",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I feel good today."
-      },
-      "de": {
-        "text": "Ich fühle mich heute gut."
-      }
-    },
-    "wordIds": [
-      "10698"
-    ],
-    "sourceIndex": 698
-  },
-  {
-    "id": "100701",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The sky is blue today."
-      },
-      "de": {
-        "text": "Der Himmel ist heute blau."
-      }
-    },
-    "wordIds": [
-      "10701"
-    ],
-    "sourceIndex": 701
-  },
-  {
-    "id": "100703",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Today's youth is very engaged."
-      },
-      "de": {
-        "text": "Die Jugend von heute ist sehr engagiert."
-      }
-    },
-    "wordIds": [
-      "10703"
-    ],
-    "sourceIndex": 703
-  },
-  {
-    "id": "100709",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Can you please connect me with Mr. Müller?"
-      },
-      "de": {
-        "text": "Können Sie mich bitte mit Herrn Müller verbinden?"
-      }
-    },
-    "wordIds": [
-      "10709"
-    ],
-    "sourceIndex": 709
-  },
-  {
-    "id": "100713",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I can't remember his name."
-      },
-      "de": {
-        "text": "Ich kann mich nicht an seinen Namen erinnern."
-      }
-    },
-    "wordIds": [
-      "10713"
-    ],
-    "sourceIndex": 713
-  },
-  {
     "id": "100716",
     "category": "daily",
     "level": "easy",
@@ -5116,57 +2106,6 @@ const phrasesDaily = [
       "10716"
     ],
     "sourceIndex": 716
-  },
-  {
-    "id": "100717",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "There is always hope."
-      },
-      "de": {
-        "text": "Es gibt immer Hoffnung."
-      }
-    },
-    "wordIds": [
-      "10717"
-    ],
-    "sourceIndex": 717
-  },
-  {
-    "id": "100718",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "Can you please get the book?"
-      },
-      "de": {
-        "text": "Kannst du bitte das Buch holen?"
-      }
-    },
-    "wordIds": [
-      "10718"
-    ],
-    "sourceIndex": 718
-  },
-  {
-    "id": "100719",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "That's ten kilometers to the city."
-      },
-      "de": {
-        "text": "Das sind zehn Kilometer bis zur Stadt."
-      }
-    },
-    "wordIds": [
-      "10719"
-    ],
-    "sourceIndex": 719
   },
   {
     "id": "100720",
@@ -5186,74 +2125,6 @@ const phrasesDaily = [
     "sourceIndex": 720
   },
   {
-    "id": "100723",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Many old trees die in winter."
-      },
-      "de": {
-        "text": "Viele alte Bäume sterben im Winter."
-      }
-    },
-    "wordIds": [
-      "10723"
-    ],
-    "sourceIndex": 723
-  },
-  {
-    "id": "100727",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "We often go for a walk in the forest."
-      },
-      "de": {
-        "text": "Wir gehen oft im Wald spazieren."
-      }
-    },
-    "wordIds": [
-      "10727"
-    ],
-    "sourceIndex": 727
-  },
-  {
-    "id": "100733",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We had an interesting conversation about the weather."
-      },
-      "de": {
-        "text": "Wir hatten ein interessantes Gespräch über das Wetter."
-      }
-    },
-    "wordIds": [
-      "10733"
-    ],
-    "sourceIndex": 733
-  },
-  {
-    "id": "100734",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The book is very interesting."
-      },
-      "de": {
-        "text": "Das Buch ist sehr interessant."
-      }
-    },
-    "wordIds": [
-      "10734"
-    ],
-    "sourceIndex": 734
-  },
-  {
     "id": "100736",
     "category": "daily",
     "level": "medium",
@@ -5269,74 +2140,6 @@ const phrasesDaily = [
       "10736"
     ],
     "sourceIndex": 736
-  },
-  {
-    "id": "100737",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "My partner is coming later."
-      },
-      "de": {
-        "text": "Mein Partner kommt später."
-      }
-    },
-    "wordIds": [
-      "10737"
-    ],
-    "sourceIndex": 737
-  },
-  {
-    "id": "100738",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We are going to a party tonight."
-      },
-      "de": {
-        "text": "Wir gehen heute Abend auf eine Party."
-      }
-    },
-    "wordIds": [
-      "10738"
-    ],
-    "sourceIndex": 738
-  },
-  {
-    "id": "100741",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "There was great damage after the storm."
-      },
-      "de": {
-        "text": "Es gab großen Schaden nach dem Sturm."
-      }
-    },
-    "wordIds": [
-      "10741"
-    ],
-    "sourceIndex": 741
-  },
-  {
-    "id": "100742",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The damage to the car is extensive."
-      },
-      "de": {
-        "text": "Der Schaden am Auto ist groß."
-      }
-    },
-    "wordIds": [
-      "10742"
-    ],
-    "sourceIndex": 742
   },
   {
     "id": "100747",
@@ -5356,40 +2159,6 @@ const phrasesDaily = [
     "sourceIndex": 747
   },
   {
-    "id": "100752",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "That is a cool car."
-      },
-      "de": {
-        "text": "Das ist ein cooles Auto."
-      }
-    },
-    "wordIds": [
-      "10752"
-    ],
-    "sourceIndex": 752
-  },
-  {
-    "id": "100756",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The car is at the back in the yard."
-      },
-      "de": {
-        "text": "Das Auto steht hinten im Hof."
-      }
-    },
-    "wordIds": [
-      "10756"
-    ],
-    "sourceIndex": 756
-  },
-  {
     "id": "100758",
     "category": "daily",
     "level": "medium",
@@ -5405,40 +2174,6 @@ const phrasesDaily = [
       "10758"
     ],
     "sourceIndex": 758
-  },
-  {
-    "id": "100761",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The soldier returned home."
-      },
-      "de": {
-        "text": "Der Soldat kehrte nach Hause zurück."
-      }
-    },
-    "wordIds": [
-      "10761"
-    ],
-    "sourceIndex": 761
-  },
-  {
-    "id": "100768",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The lady wore an elegant hat."
-      },
-      "de": {
-        "text": "Die Dame trug einen eleganten Hut."
-      }
-    },
-    "wordIds": [
-      "10768"
-    ],
-    "sourceIndex": 768
   },
   {
     "id": "100770",
@@ -5458,40 +2193,6 @@ const phrasesDaily = [
     "sourceIndex": 770
   },
   {
-    "id": "100771",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The artist paints a beautiful picture."
-      },
-      "de": {
-        "text": "Der Künstler malt ein schönes Bild."
-      }
-    },
-    "wordIds": [
-      "10771"
-    ],
-    "sourceIndex": 771
-  },
-  {
-    "id": "100775",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The children run in the garden."
-      },
-      "de": {
-        "text": "Die Kinder rennen im Garten."
-      }
-    },
-    "wordIds": [
-      "10775"
-    ],
-    "sourceIndex": 775
-  },
-  {
     "id": "100777",
     "category": "daily",
     "level": "medium",
@@ -5507,23 +2208,6 @@ const phrasesDaily = [
       "10777"
     ],
     "sourceIndex": 777
-  },
-  {
-    "id": "100778",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "Please wait a second."
-      },
-      "de": {
-        "text": "Warte bitte eine Sekunde."
-      }
-    },
-    "wordIds": [
-      "10778"
-    ],
-    "sourceIndex": 778
   },
   {
     "id": "100779",
@@ -5543,40 +2227,6 @@ const phrasesDaily = [
     "sourceIndex": 779
   },
   {
-    "id": "100783",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Are you satisfied with the result?"
-      },
-      "de": {
-        "text": "Bist du mit dem Ergebnis zufrieden?"
-      }
-    },
-    "wordIds": [
-      "10783"
-    ],
-    "sourceIndex": 783
-  },
-  {
-    "id": "100785",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He will report on the news."
-      },
-      "de": {
-        "text": "Er wird über die Neuigkeiten berichten."
-      }
-    },
-    "wordIds": [
-      "10785"
-    ],
-    "sourceIndex": 785
-  },
-  {
     "id": "100787",
     "category": "daily",
     "level": "hard",
@@ -5592,23 +2242,6 @@ const phrasesDaily = [
       "10787"
     ],
     "sourceIndex": 787
-  },
-  {
-    "id": "100798",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The author has written a new book."
-      },
-      "de": {
-        "text": "Der Autor hat ein neues Buch geschrieben."
-      }
-    },
-    "wordIds": [
-      "10798"
-    ],
-    "sourceIndex": 798
   },
   {
     "id": "100801",
@@ -5628,23 +2261,6 @@ const phrasesDaily = [
     "sourceIndex": 801
   },
   {
-    "id": "100802",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He made a good impression."
-      },
-      "de": {
-        "text": "Er hat einen guten Eindruck gemacht."
-      }
-    },
-    "wordIds": [
-      "10802"
-    ],
-    "sourceIndex": 802
-  },
-  {
     "id": "100804",
     "category": "daily",
     "level": "hard",
@@ -5660,40 +2276,6 @@ const phrasesDaily = [
       "10804"
     ],
     "sourceIndex": 804
-  },
-  {
-    "id": "100805",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "We want to celebrate tonight."
-      },
-      "de": {
-        "text": "Wir wollen heute Abend feiern."
-      }
-    },
-    "wordIds": [
-      "10805"
-    ],
-    "sourceIndex": 805
-  },
-  {
-    "id": "100806",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The fire warms us."
-      },
-      "de": {
-        "text": "Das Feuer wärmt uns."
-      }
-    },
-    "wordIds": [
-      "10806"
-    ],
-    "sourceIndex": 806
   },
   {
     "id": "100807",
@@ -5713,57 +2295,6 @@ const phrasesDaily = [
     "sourceIndex": 807
   },
   {
-    "id": "100808",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The hall was full of people."
-      },
-      "de": {
-        "text": "Die Halle war voller Menschen."
-      }
-    },
-    "wordIds": [
-      "10808"
-    ],
-    "sourceIndex": 808
-  },
-  {
-    "id": "100813",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The doctor's office is closed on Tuesday."
-      },
-      "de": {
-        "text": "Die Praxis ist am Dienstag geschlossen."
-      }
-    },
-    "wordIds": [
-      "10813"
-    ],
-    "sourceIndex": 813
-  },
-  {
-    "id": "100816",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "Can you answer the telephone?"
-      },
-      "de": {
-        "text": "Kannst du das Telefon beantworten?"
-      }
-    },
-    "wordIds": [
-      "10816"
-    ],
-    "sourceIndex": 816
-  },
-  {
     "id": "100818",
     "category": "daily",
     "level": "hard",
@@ -5779,57 +2310,6 @@ const phrasesDaily = [
       "10818"
     ],
     "sourceIndex": 818
-  },
-  {
-    "id": "100820",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The weather is nice today."
-      },
-      "de": {
-        "text": "Das Wetter ist heute schön."
-      }
-    },
-    "wordIds": [
-      "10820"
-    ],
-    "sourceIndex": 820
-  },
-  {
-    "id": "100824",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I bought a new photo album."
-      },
-      "de": {
-        "text": "Ich habe ein neues Fotoalbum gekauft."
-      }
-    },
-    "wordIds": [
-      "10824"
-    ],
-    "sourceIndex": 824
-  },
-  {
-    "id": "100828",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Columbus wanted to discover India."
-      },
-      "de": {
-        "text": "Kolumbus wollte Indien entdecken."
-      }
-    },
-    "wordIds": [
-      "10828"
-    ],
-    "sourceIndex": 828
   },
   {
     "id": "100834",
@@ -5849,41 +2329,6 @@ const phrasesDaily = [
     "sourceIndex": 834
   },
   {
-    "id": "100835",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "She opened her mouth to speak."
-      },
-      "de": {
-        "text": "Sie öffnete ihren Mund, um zu sprechen."
-      }
-    },
-    "wordIds": [
-      "10835"
-    ],
-    "sourceIndex": 835
-  },
-  {
-    "id": "100836",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The sun rises in the east."
-      },
-      "de": {
-        "text": "Die Sonne geht im Osten auf."
-      }
-    },
-    "wordIds": [
-      "10836",
-      "17557"
-    ],
-    "sourceIndex": 836
-  },
-  {
     "id": "100837",
     "category": "daily",
     "level": "medium",
@@ -5899,23 +2344,6 @@ const phrasesDaily = [
       "10837"
     ],
     "sourceIndex": 837
-  },
-  {
-    "id": "100839",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The plant is unfortunately dead."
-      },
-      "de": {
-        "text": "Die Pflanze ist leider tot."
-      }
-    },
-    "wordIds": [
-      "10839"
-    ],
-    "sourceIndex": 839
   },
   {
     "id": "100842",
@@ -5935,91 +2363,6 @@ const phrasesDaily = [
     "sourceIndex": 842
   },
   {
-    "id": "100845",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The family is very poor."
-      },
-      "de": {
-        "text": "Die Familie ist sehr arm."
-      }
-    },
-    "wordIds": [
-      "10845"
-    ],
-    "sourceIndex": 845
-  },
-  {
-    "id": "100850",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The treatment was successful."
-      },
-      "de": {
-        "text": "Die Behandlung war erfolgreich."
-      }
-    },
-    "wordIds": [
-      "10850"
-    ],
-    "sourceIndex": 850
-  },
-  {
-    "id": "100851",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Can you please confirm your reservation?"
-      },
-      "de": {
-        "text": "Können Sie bitte Ihre Reservierung bestätigen?"
-      }
-    },
-    "wordIds": [
-      "10851"
-    ],
-    "sourceIndex": 851
-  },
-  {
-    "id": "100852",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "He was angry at his friend."
-      },
-      "de": {
-        "text": "Er war böse auf seinen Freund."
-      }
-    },
-    "wordIds": [
-      "10852"
-    ],
-    "sourceIndex": 852
-  },
-  {
-    "id": "100855",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The delivery will take place tomorrow."
-      },
-      "de": {
-        "text": "Die Lieferung wird morgen erfolgen."
-      }
-    },
-    "wordIds": [
-      "10855"
-    ],
-    "sourceIndex": 855
-  },
-  {
     "id": "100856",
     "category": "daily",
     "level": "hard",
@@ -6037,23 +2380,6 @@ const phrasesDaily = [
     "sourceIndex": 856
   },
   {
-    "id": "100857",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "In autumn, the leaves fall from the trees."
-      },
-      "de": {
-        "text": "Im Herbst fallen die Blätter von den Bäumen."
-      }
-    },
-    "wordIds": [
-      "10857"
-    ],
-    "sourceIndex": 857
-  },
-  {
     "id": "100858",
     "category": "daily",
     "level": "medium",
@@ -6069,40 +2395,6 @@ const phrasesDaily = [
       "10858"
     ],
     "sourceIndex": 858
-  },
-  {
-    "id": "100860",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The concept for the new project is ready."
-      },
-      "de": {
-        "text": "Das Konzept für das neue Projekt ist fertig."
-      }
-    },
-    "wordIds": [
-      "10860"
-    ],
-    "sourceIndex": 860
-  },
-  {
-    "id": "100862",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I need five more minutes."
-      },
-      "de": {
-        "text": "Ich brauche noch fünf Min."
-      }
-    },
-    "wordIds": [
-      "10862"
-    ],
-    "sourceIndex": 862
   },
   {
     "id": "100865",
@@ -6139,23 +2431,6 @@ const phrasesDaily = [
     "sourceIndex": 870
   },
   {
-    "id": "100872",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We are taking a tour through the city."
-      },
-      "de": {
-        "text": "Wir machen eine Tour durch die Stadt."
-      }
-    },
-    "wordIds": [
-      "10872"
-    ],
-    "sourceIndex": 872
-  },
-  {
     "id": "100874",
     "category": "daily",
     "level": "hard",
@@ -6188,91 +2463,6 @@ const phrasesDaily = [
       "10875"
     ],
     "sourceIndex": 875
-  },
-  {
-    "id": "100878",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The mayor gave a speech."
-      },
-      "de": {
-        "text": "Der Bürgermeister hat eine Rede gehalten."
-      }
-    },
-    "wordIds": [
-      "10878"
-    ],
-    "sourceIndex": 878
-  },
-  {
-    "id": "100883",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The tour through the museum was very interesting."
-      },
-      "de": {
-        "text": "Die Führung durch das Museum war sehr interessant."
-      }
-    },
-    "wordIds": [
-      "10883"
-    ],
-    "sourceIndex": 883
-  },
-  {
-    "id": "100885",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Our team has a strong opponent."
-      },
-      "de": {
-        "text": "Unser Team hat einen starken Gegner."
-      }
-    },
-    "wordIds": [
-      "10885"
-    ],
-    "sourceIndex": 885
-  },
-  {
-    "id": "100890",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I need 2 kg of apples."
-      },
-      "de": {
-        "text": "Ich brauche 2 Kg Äpfel."
-      }
-    },
-    "wordIds": [
-      "10890"
-    ],
-    "sourceIndex": 890
-  },
-  {
-    "id": "100894",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The majority of people agreed."
-      },
-      "de": {
-        "text": "Die Mehrheit der Leute stimmte zu."
-      }
-    },
-    "wordIds": [
-      "10894"
-    ],
-    "sourceIndex": 894
   },
   {
     "id": "100895",
@@ -6326,58 +2516,6 @@ const phrasesDaily = [
     "sourceIndex": 898
   },
   {
-    "id": "100900",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The sun sets in the west."
-      },
-      "de": {
-        "text": "Die Sonne geht im Westen unter."
-      }
-    },
-    "wordIds": [
-      "10900",
-      "11177"
-    ],
-    "sourceIndex": 900
-  },
-  {
-    "id": "100901",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I live in Berlin."
-      },
-      "de": {
-        "text": "Ich wohne in Berlin."
-      }
-    },
-    "wordIds": [
-      "10901"
-    ],
-    "sourceIndex": 901
-  },
-  {
-    "id": "100902",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "In reference to your inquiry..."
-      },
-      "de": {
-        "text": "In Bezug auf Ihre Anfrage..."
-      }
-    },
-    "wordIds": [
-      "10902"
-    ],
-    "sourceIndex": 902
-  },
-  {
     "id": "100903",
     "category": "daily",
     "level": "medium",
@@ -6393,74 +2531,6 @@ const phrasesDaily = [
       "10903"
     ],
     "sourceIndex": 903
-  },
-  {
-    "id": "100904",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The bus is coming soon."
-      },
-      "de": {
-        "text": "Der Bus kommt gleich."
-      }
-    },
-    "wordIds": [
-      "10904"
-    ],
-    "sourceIndex": 904
-  },
-  {
-    "id": "100908",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The head of the project was very experienced."
-      },
-      "de": {
-        "text": "Der Leiter des Projekts war sehr erfahren."
-      }
-    },
-    "wordIds": [
-      "10908"
-    ],
-    "sourceIndex": 908
-  },
-  {
-    "id": "100911",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "We are going to the park."
-      },
-      "de": {
-        "text": "Wir gehen in den Park."
-      }
-    },
-    "wordIds": [
-      "10911"
-    ],
-    "sourceIndex": 911
-  },
-  {
-    "id": "100913",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I had a beautiful dream last night."
-      },
-      "de": {
-        "text": "Ich hatte einen schönen Traum letzte Nacht."
-      }
-    },
-    "wordIds": [
-      "10913"
-    ],
-    "sourceIndex": 913
   },
   {
     "id": "100914",
@@ -6480,57 +2550,6 @@ const phrasesDaily = [
     "sourceIndex": 914
   },
   {
-    "id": "100917",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The monthly expenses are high."
-      },
-      "de": {
-        "text": "Die monatlichen Ausgaben sind hoch."
-      }
-    },
-    "wordIds": [
-      "10917"
-    ],
-    "sourceIndex": 917
-  },
-  {
-    "id": "100918",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The baby is sleeping peacefully."
-      },
-      "de": {
-        "text": "Das Baby schläft friedlich."
-      }
-    },
-    "wordIds": [
-      "10918"
-    ],
-    "sourceIndex": 918
-  },
-  {
-    "id": "100920",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I received a letter from my family."
-      },
-      "de": {
-        "text": "Ich habe einen Brief von meiner Familie bekommen."
-      }
-    },
-    "wordIds": [
-      "10920"
-    ],
-    "sourceIndex": 920
-  },
-  {
     "id": "100922",
     "category": "daily",
     "level": "medium",
@@ -6546,74 +2565,6 @@ const phrasesDaily = [
       "10922"
     ],
     "sourceIndex": 922
-  },
-  {
-    "id": "100924",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The purchase of the house was a big decision."
-      },
-      "de": {
-        "text": "Der Kauf des Hauses war eine große Entscheidung."
-      }
-    },
-    "wordIds": [
-      "10924"
-    ],
-    "sourceIndex": 924
-  },
-  {
-    "id": "100927",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The new model of the car is very popular."
-      },
-      "de": {
-        "text": "Das neue Modell des Autos ist sehr beliebt."
-      }
-    },
-    "wordIds": [
-      "10927"
-    ],
-    "sourceIndex": 927
-  },
-  {
-    "id": "100928",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "We are visiting the museum on the weekend."
-      },
-      "de": {
-        "text": "Wir besuchen das Museum am Wochenende."
-      }
-    },
-    "wordIds": [
-      "10928"
-    ],
-    "sourceIndex": 928
-  },
-  {
-    "id": "100930",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Religion plays an important role in many cultures."
-      },
-      "de": {
-        "text": "Die Religion spielt eine wichtige Rolle in vielen Kulturen."
-      }
-    },
-    "wordIds": [
-      "10930"
-    ],
-    "sourceIndex": 930
   },
   {
     "id": "100935",
@@ -6650,57 +2601,6 @@ const phrasesDaily = [
     "sourceIndex": 938
   },
   {
-    "id": "100939",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The research in this area is very important."
-      },
-      "de": {
-        "text": "Die Forschung in diesem Bereich ist sehr wichtig."
-      }
-    },
-    "wordIds": [
-      "10939"
-    ],
-    "sourceIndex": 939
-  },
-  {
-    "id": "100940",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We need to plan our vacation."
-      },
-      "de": {
-        "text": "Wir müssen unseren Urlaub planen."
-      }
-    },
-    "wordIds": [
-      "10940"
-    ],
-    "sourceIndex": 940
-  },
-  {
-    "id": "100951",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "There was an accident on the highway."
-      },
-      "de": {
-        "text": "Es gab einen Unfall auf der Autobahn."
-      }
-    },
-    "wordIds": [
-      "10951"
-    ],
-    "sourceIndex": 951
-  },
-  {
     "id": "100952",
     "category": "daily",
     "level": "medium",
@@ -6716,23 +2616,6 @@ const phrasesDaily = [
       "10952"
     ],
     "sourceIndex": 952
-  },
-  {
-    "id": "100955",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The new exhibition is very interesting."
-      },
-      "de": {
-        "text": "Die neue Ausstellung ist sehr interessant."
-      }
-    },
-    "wordIds": [
-      "10955"
-    ],
-    "sourceIndex": 955
   },
   {
     "id": "100957",
@@ -6752,40 +2635,6 @@ const phrasesDaily = [
     "sourceIndex": 957
   },
   {
-    "id": "100958",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We all wish for peace in the world."
-      },
-      "de": {
-        "text": "Wir wünschen uns alle Frieden in der Welt."
-      }
-    },
-    "wordIds": [
-      "10958"
-    ],
-    "sourceIndex": 958
-  },
-  {
-    "id": "100964",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I feel sick today."
-      },
-      "de": {
-        "text": "Ich fühle mich heute krank."
-      }
-    },
-    "wordIds": [
-      "10964"
-    ],
-    "sourceIndex": 964
-  },
-  {
     "id": "100965",
     "category": "daily",
     "level": "hard",
@@ -6801,23 +2650,6 @@ const phrasesDaily = [
       "10965"
     ],
     "sourceIndex": 965
-  },
-  {
-    "id": "100967",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "On Wednesday I have an appointment."
-      },
-      "de": {
-        "text": "Am Mittwoch habe ich einen Termin."
-      }
-    },
-    "wordIds": [
-      "10967"
-    ],
-    "sourceIndex": 967
   },
   {
     "id": "100969",
@@ -6837,23 +2669,6 @@ const phrasesDaily = [
     "sourceIndex": 969
   },
   {
-    "id": "100973",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The wind is blowing strongly today."
-      },
-      "de": {
-        "text": "Der Wind weht stark heute."
-      }
-    },
-    "wordIds": [
-      "10973"
-    ],
-    "sourceIndex": 973
-  },
-  {
     "id": "100977",
     "category": "daily",
     "level": "medium",
@@ -6869,40 +2684,6 @@ const phrasesDaily = [
       "10977"
     ],
     "sourceIndex": 977
-  },
-  {
-    "id": "100978",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "His statement was very clear."
-      },
-      "de": {
-        "text": "Seine Aussage war sehr klar."
-      }
-    },
-    "wordIds": [
-      "10978"
-    ],
-    "sourceIndex": 978
-  },
-  {
-    "id": "100979",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "How long will that take?"
-      },
-      "de": {
-        "text": "Wie lange wird das dauern?"
-      }
-    },
-    "wordIds": [
-      "10979"
-    ],
-    "sourceIndex": 979
   },
   {
     "id": "100980",
@@ -6939,40 +2720,6 @@ const phrasesDaily = [
     "sourceIndex": 981
   },
   {
-    "id": "100983",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "That is a French car."
-      },
-      "de": {
-        "text": "Das ist ein französisches Auto."
-      }
-    },
-    "wordIds": [
-      "10983"
-    ],
-    "sourceIndex": 983
-  },
-  {
-    "id": "100984",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "Do you speak French?"
-      },
-      "de": {
-        "text": "Sprichst du Französisch?"
-      }
-    },
-    "wordIds": [
-      "10984"
-    ],
-    "sourceIndex": 984
-  },
-  {
     "id": "100985",
     "category": "daily",
     "level": "hard",
@@ -6988,108 +2735,6 @@ const phrasesDaily = [
       "10985"
     ],
     "sourceIndex": 985
-  },
-  {
-    "id": "100987",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The courtyard is full of flowers."
-      },
-      "de": {
-        "text": "Der Hof ist voller Blumen."
-      }
-    },
-    "wordIds": [
-      "10987"
-    ],
-    "sourceIndex": 987
-  },
-  {
-    "id": "100988",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He has to suffer a lot."
-      },
-      "de": {
-        "text": "Er muss viel leiden."
-      }
-    },
-    "wordIds": [
-      "10988"
-    ],
-    "sourceIndex": 988
-  },
-  {
-    "id": "100989",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "My Mom is coming home soon."
-      },
-      "de": {
-        "text": "Meine Ma kommt bald nach Hause."
-      }
-    },
-    "wordIds": [
-      "10989"
-    ],
-    "sourceIndex": 989
-  },
-  {
-    "id": "100990",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "My Mom is cooking tonight."
-      },
-      "de": {
-        "text": "Meine Mama kocht heute Abend."
-      }
-    },
-    "wordIds": [
-      "10990"
-    ],
-    "sourceIndex": 990
-  },
-  {
-    "id": "100994",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I like listening to the radio in the morning."
-      },
-      "de": {
-        "text": "Ich höre gerne Radio am Morgen."
-      }
-    },
-    "wordIds": [
-      "10994"
-    ],
-    "sourceIndex": 994
-  },
-  {
-    "id": "100995",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "We would like to travel to Italy next year."
-      },
-      "de": {
-        "text": "Wir möchten nächstes Jahr nach Italien reisen."
-      }
-    },
-    "wordIds": [
-      "10995"
-    ],
-    "sourceIndex": 995
   },
   {
     "id": "100996",
@@ -7126,125 +2771,6 @@ const phrasesDaily = [
     "sourceIndex": 998
   },
   {
-    "id": "101003",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "That is a true miracle."
-      },
-      "de": {
-        "text": "Das ist ein wahres Wunder."
-      }
-    },
-    "wordIds": [
-      "11003"
-    ],
-    "sourceIndex": 1003
-  },
-  {
-    "id": "101006",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "There is a great need for new apartments."
-      },
-      "de": {
-        "text": "Es gibt einen großen Bedarf an neuen Wohnungen."
-      }
-    },
-    "wordIds": [
-      "11006"
-    ],
-    "sourceIndex": 1006
-  },
-  {
-    "id": "101009",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The book is in the corner of the room."
-      },
-      "de": {
-        "text": "Das Buch liegt in der Ecke des Zimmers."
-      }
-    },
-    "wordIds": [
-      "11009"
-    ],
-    "sourceIndex": 1009
-  },
-  {
-    "id": "101011",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I can highly recommend this restaurant."
-      },
-      "de": {
-        "text": "Ich kann dieses Restaurant sehr empfehlen."
-      }
-    },
-    "wordIds": [
-      "11011"
-    ],
-    "sourceIndex": 1011
-  },
-  {
-    "id": "101012",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "They will open a new business."
-      },
-      "de": {
-        "text": "Sie werden ein neues Geschäft eröffnen."
-      }
-    },
-    "wordIds": [
-      "11012"
-    ],
-    "sourceIndex": 1012
-  },
-  {
-    "id": "101016",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The mass of people moved slowly."
-      },
-      "de": {
-        "text": "Die Masse der Menschen bewegte sich langsam."
-      }
-    },
-    "wordIds": [
-      "11016"
-    ],
-    "sourceIndex": 1016
-  },
-  {
-    "id": "101017",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please report to the reception."
-      },
-      "de": {
-        "text": "Bitte melden Sie sich am Empfang."
-      }
-    },
-    "wordIds": [
-      "11017"
-    ],
-    "sourceIndex": 1017
-  },
-  {
     "id": "101020",
     "category": "daily",
     "level": "hard",
@@ -7279,23 +2805,6 @@ const phrasesDaily = [
     "sourceIndex": 1024
   },
   {
-    "id": "101026",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Last week I was sick."
-      },
-      "de": {
-        "text": "In der vergangenen Woche war ich krank."
-      }
-    },
-    "wordIds": [
-      "11026"
-    ],
-    "sourceIndex": 1026
-  },
-  {
     "id": "101027",
     "category": "daily",
     "level": "hard",
@@ -7313,57 +2822,6 @@ const phrasesDaily = [
     "sourceIndex": 1027
   },
   {
-    "id": "101034",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "He has five fingers on each hand."
-      },
-      "de": {
-        "text": "Er hat fünf Finger an jeder Hand."
-      }
-    },
-    "wordIds": [
-      "11034"
-    ],
-    "sourceIndex": 1034
-  },
-  {
-    "id": "101039",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The city has 1.5 million inhabitants."
-      },
-      "de": {
-        "text": "Die Stadt hat 1,5 Mio. Einwohner."
-      }
-    },
-    "wordIds": [
-      "11039"
-    ],
-    "sourceIndex": 1039
-  },
-  {
-    "id": "101041",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I am reading an interesting novel."
-      },
-      "de": {
-        "text": "Ich lese einen interessanten Roman."
-      }
-    },
-    "wordIds": [
-      "11041"
-    ],
-    "sourceIndex": 1041
-  },
-  {
     "id": "101044",
     "category": "daily",
     "level": "hard",
@@ -7379,40 +2837,6 @@ const phrasesDaily = [
       "11044"
     ],
     "sourceIndex": 1044
-  },
-  {
-    "id": "101051",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "We meet on Thursday."
-      },
-      "de": {
-        "text": "Wir treffen uns am Donnerstag."
-      }
-    },
-    "wordIds": [
-      "11051"
-    ],
-    "sourceIndex": 1051
-  },
-  {
-    "id": "101052",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "They will conduct a survey."
-      },
-      "de": {
-        "text": "Sie werden eine Umfrage durchführen."
-      }
-    },
-    "wordIds": [
-      "11052"
-    ],
-    "sourceIndex": 1052
   },
   {
     "id": "101053",
@@ -7449,142 +2873,6 @@ const phrasesDaily = [
     "sourceIndex": 1055
   },
   {
-    "id": "101057",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "International trade is growing."
-      },
-      "de": {
-        "text": "Der internationale Handel wächst."
-      }
-    },
-    "wordIds": [
-      "11057"
-    ],
-    "sourceIndex": 1057
-  },
-  {
-    "id": "101058",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I found an important clue."
-      },
-      "de": {
-        "text": "Ich habe einen wichtigen Hinweis gefunden."
-      }
-    },
-    "wordIds": [
-      "11058"
-    ],
-    "sourceIndex": 1058
-  },
-  {
-    "id": "101064",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "His reaction was unexpected."
-      },
-      "de": {
-        "text": "Seine Reaktion war unerwartet."
-      }
-    },
-    "wordIds": [
-      "11064"
-    ],
-    "sourceIndex": 1064
-  },
-  {
-    "id": "101070",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please give me your attention."
-      },
-      "de": {
-        "text": "Bitte schenken Sie mir Ihre Aufmerksamkeit."
-      }
-    },
-    "wordIds": [
-      "11070"
-    ],
-    "sourceIndex": 1070
-  },
-  {
-    "id": "101073",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "We are meeting on Tuesday."
-      },
-      "de": {
-        "text": "Wir treffen uns am Dienstag."
-      }
-    },
-    "wordIds": [
-      "11073"
-    ],
-    "sourceIndex": 1073
-  },
-  {
-    "id": "101077",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The commission has proposed a new regulation."
-      },
-      "de": {
-        "text": "Die Kommission hat eine neue Regelung vorgeschlagen."
-      }
-    },
-    "wordIds": [
-      "11077"
-    ],
-    "sourceIndex": 1077
-  },
-  {
-    "id": "101078",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I still need to get my books."
-      },
-      "de": {
-        "text": "Ich muss noch meine Bücher kriegen."
-      }
-    },
-    "wordIds": [
-      "11078"
-    ],
-    "sourceIndex": 1078
-  },
-  {
-    "id": "101079",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The length of the table is two meters."
-      },
-      "de": {
-        "text": "Die Länge des Tisches beträgt zwei Meter."
-      }
-    },
-    "wordIds": [
-      "11079"
-    ],
-    "sourceIndex": 1079
-  },
-  {
     "id": "101082",
     "category": "daily",
     "level": "medium",
@@ -7619,74 +2907,6 @@ const phrasesDaily = [
     "sourceIndex": 1083
   },
   {
-    "id": "101084",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Her house has a very modern style."
-      },
-      "de": {
-        "text": "Ihr Haus hat einen sehr modernen Stil."
-      }
-    },
-    "wordIds": [
-      "11084"
-    ],
-    "sourceIndex": 1084
-  },
-  {
-    "id": "101085",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The atmosphere at the party was great."
-      },
-      "de": {
-        "text": "Die Stimmung auf der Party war großartig."
-      }
-    },
-    "wordIds": [
-      "11085"
-    ],
-    "sourceIndex": 1085
-  },
-  {
-    "id": "101088",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "She was very sad about the news."
-      },
-      "de": {
-        "text": "Sie war sehr traurig über die Nachricht."
-      }
-    },
-    "wordIds": [
-      "11088"
-    ],
-    "sourceIndex": 1088
-  },
-  {
-    "id": "101090",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "Would you like a glass of wine?"
-      },
-      "de": {
-        "text": "Möchtest du ein Glas Wein?"
-      }
-    },
-    "wordIds": [
-      "11090"
-    ],
-    "sourceIndex": 1090
-  },
-  {
     "id": "101091",
     "category": "daily",
     "level": "easy",
@@ -7704,23 +2924,6 @@ const phrasesDaily = [
     "sourceIndex": 1091
   },
   {
-    "id": "101094",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The news will surprise him."
-      },
-      "de": {
-        "text": "Die Nachricht wird ihn überraschen."
-      }
-    },
-    "wordIds": [
-      "11094"
-    ],
-    "sourceIndex": 1094
-  },
-  {
     "id": "101095",
     "category": "daily",
     "level": "hard",
@@ -7736,23 +2939,6 @@ const phrasesDaily = [
       "11095"
     ],
     "sourceIndex": 1095
-  },
-  {
-    "id": "101097",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The visitor arrived on time."
-      },
-      "de": {
-        "text": "Der Besucher kam pünktlich an."
-      }
-    },
-    "wordIds": [
-      "11097"
-    ],
-    "sourceIndex": 1097
   },
   {
     "id": "101100",
@@ -7789,40 +2975,6 @@ const phrasesDaily = [
     "sourceIndex": 1101
   },
   {
-    "id": "101105",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I have to solve this problem."
-      },
-      "de": {
-        "text": "Ich muss dieses Problem lösen."
-      }
-    },
-    "wordIds": [
-      "11105"
-    ],
-    "sourceIndex": 1105
-  },
-  {
-    "id": "101108",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "Let's take a short break."
-      },
-      "de": {
-        "text": "Machen wir eine kurze Pause."
-      }
-    },
-    "wordIds": [
-      "11108"
-    ],
-    "sourceIndex": 1108
-  },
-  {
     "id": "101109",
     "category": "daily",
     "level": "hard",
@@ -7838,125 +2990,6 @@ const phrasesDaily = [
       "11109"
     ],
     "sourceIndex": 1109
-  },
-  {
-    "id": "101110",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I have an important exam tomorrow."
-      },
-      "de": {
-        "text": "Ich habe morgen eine wichtige Prüfung."
-      }
-    },
-    "wordIds": [
-      "11110"
-    ],
-    "sourceIndex": 1110
-  },
-  {
-    "id": "101111",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The rain is falling all day."
-      },
-      "de": {
-        "text": "Der Regen fällt den ganzen Tag."
-      }
-    },
-    "wordIds": [
-      "11111"
-    ],
-    "sourceIndex": 1111
-  },
-  {
-    "id": "101112",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We have to start now."
-      },
-      "de": {
-        "text": "Wir müssen jetzt starten."
-      }
-    },
-    "wordIds": [
-      "11112"
-    ],
-    "sourceIndex": 1112
-  },
-  {
-    "id": "101113",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "That is an old tradition in our family."
-      },
-      "de": {
-        "text": "Das ist eine alte Tradition in unserer Familie."
-      }
-    },
-    "wordIds": [
-      "11113"
-    ],
-    "sourceIndex": 1113
-  },
-  {
-    "id": "101114",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The training starts at 6 PM."
-      },
-      "de": {
-        "text": "Das Training beginnt um 18 Uhr."
-      }
-    },
-    "wordIds": [
-      "11114"
-    ],
-    "sourceIndex": 1114
-  },
-  {
-    "id": "101115",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My main activity is writing."
-      },
-      "de": {
-        "text": "Meine Haupttätigkeit ist das Schreiben."
-      }
-    },
-    "wordIds": [
-      "11115"
-    ],
-    "sourceIndex": 1115
-  },
-  {
-    "id": "101118",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I have a clear idea of it."
-      },
-      "de": {
-        "text": "Ich habe eine klare Vorstellung davon."
-      }
-    },
-    "wordIds": [
-      "11118"
-    ],
-    "sourceIndex": 1118
   },
   {
     "id": "101119",
@@ -7976,74 +3009,6 @@ const phrasesDaily = [
     "sourceIndex": 1119
   },
   {
-    "id": "101120",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We celebrate Christmas with the family."
-      },
-      "de": {
-        "text": "Wir feiern Weihnachten mit der Familie."
-      }
-    },
-    "wordIds": [
-      "11120"
-    ],
-    "sourceIndex": 1120
-  },
-  {
-    "id": "101122",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "Please open the door."
-      },
-      "de": {
-        "text": "Bitte öffnen Sie die Tür."
-      }
-    },
-    "wordIds": [
-      "11122"
-    ],
-    "sourceIndex": 1122
-  },
-  {
-    "id": "101124",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please keep your distance."
-      },
-      "de": {
-        "text": "Halten Sie bitte Abstand."
-      }
-    },
-    "wordIds": [
-      "11124"
-    ],
-    "sourceIndex": 1124
-  },
-  {
-    "id": "101127",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "You have to submit an application."
-      },
-      "de": {
-        "text": "Sie müssen einen Antrag stellen."
-      }
-    },
-    "wordIds": [
-      "11127"
-    ],
-    "sourceIndex": 1127
-  },
-  {
     "id": "101130",
     "category": "daily",
     "level": "hard",
@@ -8059,23 +3024,6 @@ const phrasesDaily = [
       "11130"
     ],
     "sourceIndex": 1130
-  },
-  {
-    "id": "101131",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "We are hiking up the mountain."
-      },
-      "de": {
-        "text": "Wir wandern auf den Berg."
-      }
-    },
-    "wordIds": [
-      "11131"
-    ],
-    "sourceIndex": 1131
   },
   {
     "id": "101138",
@@ -8112,193 +3060,6 @@ const phrasesDaily = [
     "sourceIndex": 1140
   },
   {
-    "id": "101147",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "On the one hand it is expensive, on the other hand it is very good."
-      },
-      "de": {
-        "text": "Einerseits ist es teuer, andererseits ist es sehr gut."
-      }
-    },
-    "wordIds": [
-      "11147"
-    ],
-    "sourceIndex": 1147
-  },
-  {
-    "id": "101148",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The recording of the song is excellent."
-      },
-      "de": {
-        "text": "Die Aufnahme des Liedes ist ausgezeichnet."
-      }
-    },
-    "wordIds": [
-      "11148"
-    ],
-    "sourceIndex": 1148
-  },
-  {
-    "id": "101152",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The bridge is very old."
-      },
-      "de": {
-        "text": "Die Brücke ist sehr alt."
-      }
-    },
-    "wordIds": [
-      "11152"
-    ],
-    "sourceIndex": 1152
-  },
-  {
-    "id": "101155",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The government offers financial support for start-ups."
-      },
-      "de": {
-        "text": "Die Regierung bietet finanzielle Förderung für Start-ups an."
-      }
-    },
-    "wordIds": [
-      "11155"
-    ],
-    "sourceIndex": 1155
-  },
-  {
-    "id": "101156",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We enjoy the summer."
-      },
-      "de": {
-        "text": "Wir geniessen den Sommer."
-      }
-    },
-    "wordIds": [
-      "11156"
-    ],
-    "sourceIndex": 1156
-  },
-  {
-    "id": "101158",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The glass is full."
-      },
-      "de": {
-        "text": "Das Glas ist voll."
-      }
-    },
-    "wordIds": [
-      "11158"
-    ],
-    "sourceIndex": 1158
-  },
-  {
-    "id": "101159",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The coffee is hot."
-      },
-      "de": {
-        "text": "Der Kaffee ist heiss."
-      }
-    },
-    "wordIds": [
-      "11159"
-    ],
-    "sourceIndex": 1159
-  },
-  {
-    "id": "101164",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The audience applauded loudly."
-      },
-      "de": {
-        "text": "Das Publikum applaudierte laut."
-      }
-    },
-    "wordIds": [
-      "11164"
-    ],
-    "sourceIndex": 1164
-  },
-  {
-    "id": "101166",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Can I have the bill, please?"
-      },
-      "de": {
-        "text": "Kann ich bitte die Rechnung haben?"
-      }
-    },
-    "wordIds": [
-      "11166"
-    ],
-    "sourceIndex": 1166
-  },
-  {
-    "id": "101167",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He has a large collection of old coins."
-      },
-      "de": {
-        "text": "Er hat eine große Sammlung alter Münzen."
-      }
-    },
-    "wordIds": [
-      "11167"
-    ],
-    "sourceIndex": 1167
-  },
-  {
-    "id": "101168",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The service in this restaurant is excellent."
-      },
-      "de": {
-        "text": "Der Service in diesem Restaurant ist ausgezeichnet."
-      }
-    },
-    "wordIds": [
-      "11168"
-    ],
-    "sourceIndex": 1168
-  },
-  {
     "id": "101169",
     "category": "daily",
     "level": "hard",
@@ -8314,91 +3075,6 @@ const phrasesDaily = [
       "11169"
     ],
     "sourceIndex": 1169
-  },
-  {
-    "id": "101170",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "They had an argument about the money."
-      },
-      "de": {
-        "text": "Sie hatten einen Streit über das Geld."
-      }
-    },
-    "wordIds": [
-      "11170"
-    ],
-    "sourceIndex": 1170
-  },
-  {
-    "id": "101171",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "This theory is very interesting."
-      },
-      "de": {
-        "text": "Diese Theorie ist sehr interessant."
-      }
-    },
-    "wordIds": [
-      "11171"
-    ],
-    "sourceIndex": 1171
-  },
-  {
-    "id": "101173",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The sale of the tickets begins tomorrow."
-      },
-      "de": {
-        "text": "Der Verkauf der Tickets beginnt morgen."
-      }
-    },
-    "wordIds": [
-      "11173"
-    ],
-    "sourceIndex": 1173
-  },
-  {
-    "id": "101178",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The description of the product was very detailed."
-      },
-      "de": {
-        "text": "Die Beschreibung des Produkts war sehr detailliert."
-      }
-    },
-    "wordIds": [
-      "11178"
-    ],
-    "sourceIndex": 1178
-  },
-  {
-    "id": "101188",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I would like a hamburger with fries."
-      },
-      "de": {
-        "text": "Ich möchte einen Hamburger mit Pommes."
-      }
-    },
-    "wordIds": [
-      "11188"
-    ],
-    "sourceIndex": 1188
   },
   {
     "id": "101190",
@@ -8418,23 +3094,6 @@ const phrasesDaily = [
     "sourceIndex": 1190
   },
   {
-    "id": "101192",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He could save the child from the fire."
-      },
-      "de": {
-        "text": "Er konnte das Kind vor dem Feuer retten."
-      }
-    },
-    "wordIds": [
-      "11192"
-    ],
-    "sourceIndex": 1192
-  },
-  {
     "id": "101193",
     "category": "daily",
     "level": "hard",
@@ -8450,193 +3109,6 @@ const phrasesDaily = [
       "11193"
     ],
     "sourceIndex": 1193
-  },
-  {
-    "id": "101194",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I have an appointment with the doctor."
-      },
-      "de": {
-        "text": "Ich habe einen Termin beim Arzt."
-      }
-    },
-    "wordIds": [
-      "11194"
-    ],
-    "sourceIndex": 1194
-  },
-  {
-    "id": "101195",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Do you have a good tip for me?"
-      },
-      "de": {
-        "text": "Hast du einen guten Tipp für mich?"
-      }
-    },
-    "wordIds": [
-      "11195"
-    ],
-    "sourceIndex": 1195
-  },
-  {
-    "id": "101198",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Access to the building is blocked."
-      },
-      "de": {
-        "text": "Der Zugang zum Gebäude ist gesperrt."
-      }
-    },
-    "wordIds": [
-      "11198"
-    ],
-    "sourceIndex": 1198
-  },
-  {
-    "id": "101203",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The furnishing of the office is modern."
-      },
-      "de": {
-        "text": "Die Einrichtung des Büros ist modern."
-      }
-    },
-    "wordIds": [
-      "11203"
-    ],
-    "sourceIndex": 1203
-  },
-  {
-    "id": "101206",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He is an expert in this field."
-      },
-      "de": {
-        "text": "Er ist ein Experte auf diesem Gebiet."
-      }
-    },
-    "wordIds": [
-      "11206"
-    ],
-    "sourceIndex": 1206
-  },
-  {
-    "id": "101209",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Visit our homepage for more information."
-      },
-      "de": {
-        "text": "Besuchen Sie unsere Homepage für weitere Informationen."
-      }
-    },
-    "wordIds": [
-      "11209"
-    ],
-    "sourceIndex": 1209
-  },
-  {
-    "id": "101210",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The annual conference takes place in May."
-      },
-      "de": {
-        "text": "Die jährliche Konferenz findet im Mai statt."
-      }
-    },
-    "wordIds": [
-      "11210"
-    ],
-    "sourceIndex": 1210
-  },
-  {
-    "id": "101214",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I always drink coffee in the morning."
-      },
-      "de": {
-        "text": "Ich trinke morgens immer Kaffee."
-      }
-    },
-    "wordIds": [
-      "11214"
-    ],
-    "sourceIndex": 1214
-  },
-  {
-    "id": "101218",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I need a sheet of paper."
-      },
-      "de": {
-        "text": "Ich brauche ein Blatt Papier."
-      }
-    },
-    "wordIds": [
-      "11218"
-    ],
-    "sourceIndex": 1218
-  },
-  {
-    "id": "101220",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please take a seat, here is your seat."
-      },
-      "de": {
-        "text": "Bitte nehmen Sie Platz, hier ist Ihr Sitz."
-      }
-    },
-    "wordIds": [
-      "11220"
-    ],
-    "sourceIndex": 1220
-  },
-  {
-    "id": "101221",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The sound of the music is very clear."
-      },
-      "de": {
-        "text": "Der Ton der Musik ist sehr klar."
-      }
-    },
-    "wordIds": [
-      "11221"
-    ],
-    "sourceIndex": 1221
   },
   {
     "id": "101223",
@@ -8656,23 +3128,6 @@ const phrasesDaily = [
     "sourceIndex": 1223
   },
   {
-    "id": "101227",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "In my opinion, that is correct."
-      },
-      "de": {
-        "text": "Meiner Ansicht nach ist das richtig."
-      }
-    },
-    "wordIds": [
-      "11227"
-    ],
-    "sourceIndex": 1227
-  },
-  {
     "id": "101230",
     "category": "daily",
     "level": "medium",
@@ -8688,125 +3143,6 @@ const phrasesDaily = [
       "11230"
     ],
     "sourceIndex": 1230
-  },
-  {
-    "id": "101232",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Can you describe the picture to me?"
-      },
-      "de": {
-        "text": "Kannst du mir das Bild beschreiben?"
-      }
-    },
-    "wordIds": [
-      "11232"
-    ],
-    "sourceIndex": 1232
-  },
-  {
-    "id": "101234",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The design of the new car is very modern."
-      },
-      "de": {
-        "text": "Das Design des neuen Autos ist sehr modern."
-      }
-    },
-    "wordIds": [
-      "11234"
-    ],
-    "sourceIndex": 1234
-  },
-  {
-    "id": "101237",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please inform me about the progress."
-      },
-      "de": {
-        "text": "Bitte informieren Sie mich über den Fortschritt."
-      }
-    },
-    "wordIds": [
-      "11237"
-    ],
-    "sourceIndex": 1237
-  },
-  {
-    "id": "101238",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We store wine in the cellar."
-      },
-      "de": {
-        "text": "Wir lagern Wein im Keller."
-      }
-    },
-    "wordIds": [
-      "11238"
-    ],
-    "sourceIndex": 1238
-  },
-  {
-    "id": "101239",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "It's worth it to get up early."
-      },
-      "de": {
-        "text": "Es lohnt sich, früh aufzustehen."
-      }
-    },
-    "wordIds": [
-      "11239"
-    ],
-    "sourceIndex": 1239
-  },
-  {
-    "id": "101248",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He is a big supporter of this football team."
-      },
-      "de": {
-        "text": "Er ist ein großer Anhänger dieser Fußballmannschaft."
-      }
-    },
-    "wordIds": [
-      "11248"
-    ],
-    "sourceIndex": 1248
-  },
-  {
-    "id": "101249",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "For what occasion are you celebrating?"
-      },
-      "de": {
-        "text": "Zu welchem Anlass feiert ihr?"
-      }
-    },
-    "wordIds": [
-      "11249"
-    ],
-    "sourceIndex": 1249
   },
   {
     "id": "101251",
@@ -8826,74 +3162,6 @@ const phrasesDaily = [
     "sourceIndex": 1251
   },
   {
-    "id": "101256",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The weight of the package is five kilograms."
-      },
-      "de": {
-        "text": "Das Gewicht des Pakets ist fünf Kilogramm."
-      }
-    },
-    "wordIds": [
-      "11256"
-    ],
-    "sourceIndex": 1256
-  },
-  {
-    "id": "101257",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The manufacturer offers a warranty."
-      },
-      "de": {
-        "text": "Der Hersteller bietet eine Garantie an."
-      }
-    },
-    "wordIds": [
-      "11257"
-    ],
-    "sourceIndex": 1257
-  },
-  {
-    "id": "101259",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "My phone is broken."
-      },
-      "de": {
-        "text": "Mein Handy ist kaputt."
-      }
-    },
-    "wordIds": [
-      "11259"
-    ],
-    "sourceIndex": 1259
-  },
-  {
-    "id": "101260",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The minister gave a speech."
-      },
-      "de": {
-        "text": "Der Minister hielt eine Rede."
-      }
-    },
-    "wordIds": [
-      "11260"
-    ],
-    "sourceIndex": 1260
-  },
-  {
     "id": "101261",
     "category": "daily",
     "level": "hard",
@@ -8909,57 +3177,6 @@ const phrasesDaily = [
       "11261"
     ],
     "sourceIndex": 1261
-  },
-  {
-    "id": "101264",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "She has to calculate the costs precisely."
-      },
-      "de": {
-        "text": "Sie muss die Kosten genau rechnen."
-      }
-    },
-    "wordIds": [
-      "11264"
-    ],
-    "sourceIndex": 1264
-  },
-  {
-    "id": "101267",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The car is very expensive."
-      },
-      "de": {
-        "text": "Das Auto ist sehr teuer."
-      }
-    },
-    "wordIds": [
-      "11267"
-    ],
-    "sourceIndex": 1267
-  },
-  {
-    "id": "101269",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The lesson starts at 8 o'clock."
-      },
-      "de": {
-        "text": "Der Unterricht beginnt um 8 Uhr."
-      }
-    },
-    "wordIds": [
-      "11269"
-    ],
-    "sourceIndex": 1269
   },
   {
     "id": "101275",
@@ -8979,74 +3196,6 @@ const phrasesDaily = [
     "sourceIndex": 1275
   },
   {
-    "id": "101277",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "Please provide your address."
-      },
-      "de": {
-        "text": "Bitte geben Sie Ihre Adresse an."
-      }
-    },
-    "wordIds": [
-      "11277"
-    ],
-    "sourceIndex": 1277
-  },
-  {
-    "id": "101278",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "He is an American."
-      },
-      "de": {
-        "text": "Er ist ein Amerikaner."
-      }
-    },
-    "wordIds": [
-      "11278"
-    ],
-    "sourceIndex": 1278
-  },
-  {
-    "id": "101279",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I saw an interesting advertisement in the newspaper."
-      },
-      "de": {
-        "text": "Ich habe eine interessante Anzeige in der Zeitung gesehen."
-      }
-    },
-    "wordIds": [
-      "11279"
-    ],
-    "sourceIndex": 1279
-  },
-  {
-    "id": "101286",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Did you get the info?"
-      },
-      "de": {
-        "text": "Hast du die Info bekommen?"
-      }
-    },
-    "wordIds": [
-      "11286"
-    ],
-    "sourceIndex": 1286
-  },
-  {
     "id": "101287",
     "category": "daily",
     "level": "easy",
@@ -9062,210 +3211,6 @@ const phrasesDaily = [
       "11287"
     ],
     "sourceIndex": 1287
-  },
-  {
-    "id": "101288",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She studies medicine at the university."
-      },
-      "de": {
-        "text": "Sie studiert Medizin an der Universität."
-      }
-    },
-    "wordIds": [
-      "11288"
-    ],
-    "sourceIndex": 1288
-  },
-  {
-    "id": "101290",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "We meet in the afternoon."
-      },
-      "de": {
-        "text": "Wir treffen uns am Nachmittag."
-      }
-    },
-    "wordIds": [
-      "11290"
-    ],
-    "sourceIndex": 1290
-  },
-  {
-    "id": "101291",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please show your passport."
-      },
-      "de": {
-        "text": "Zeigen Sie bitte Ihren Pass."
-      }
-    },
-    "wordIds": [
-      "11291"
-    ],
-    "sourceIndex": 1291
-  },
-  {
-    "id": "101294",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I will call you later."
-      },
-      "de": {
-        "text": "Ich rufe dich später an."
-      }
-    },
-    "wordIds": [
-      "11294"
-    ],
-    "sourceIndex": 1294
-  },
-  {
-    "id": "101295",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "She sings very beautifully."
-      },
-      "de": {
-        "text": "Sie singt sehr schön."
-      }
-    },
-    "wordIds": [
-      "11295"
-    ],
-    "sourceIndex": 1295
-  },
-  {
-    "id": "101298",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "There is no proof of his guilt."
-      },
-      "de": {
-        "text": "Es gibt keinen Beweis für seine Schuld."
-      }
-    },
-    "wordIds": [
-      "11298"
-    ],
-    "sourceIndex": 1298
-  },
-  {
-    "id": "101300",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The film will end soon."
-      },
-      "de": {
-        "text": "Der Film wird bald enden."
-      }
-    },
-    "wordIds": [
-      "11300"
-    ],
-    "sourceIndex": 1300
-  },
-  {
-    "id": "101302",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I received a nice gift."
-      },
-      "de": {
-        "text": "Ich habe ein schönes Geschenk bekommen."
-      }
-    },
-    "wordIds": [
-      "11302"
-    ],
-    "sourceIndex": 1302
-  },
-  {
-    "id": "101309",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The wind comes from the North."
-      },
-      "de": {
-        "text": "Der Wind kommt aus Nord."
-      }
-    },
-    "wordIds": [
-      "11309"
-    ],
-    "sourceIndex": 1309
-  },
-  {
-    "id": "101310",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The sun rises in the East."
-      },
-      "de": {
-        "text": "Die Sonne geht im Ost auf."
-      }
-    },
-    "wordIds": [
-      "11310"
-    ],
-    "sourceIndex": 1310
-  },
-  {
-    "id": "101313",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The actor played his role very convincingly."
-      },
-      "de": {
-        "text": "Der Schauspieler spielte seine Rolle sehr überzeugend."
-      }
-    },
-    "wordIds": [
-      "11313"
-    ],
-    "sourceIndex": 1313
-  },
-  {
-    "id": "101315",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The temperature is very high today."
-      },
-      "de": {
-        "text": "Die Temperatur ist heute sehr hoch."
-      }
-    },
-    "wordIds": [
-      "11315"
-    ],
-    "sourceIndex": 1315
   },
   {
     "id": "101318",
@@ -9302,278 +3247,6 @@ const phrasesDaily = [
     "sourceIndex": 1319
   },
   {
-    "id": "101322",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please pay attention to the traffic."
-      },
-      "de": {
-        "text": "Bitte achten Sie auf den Verkehr."
-      }
-    },
-    "wordIds": [
-      "11322"
-    ],
-    "sourceIndex": 1322
-  },
-  {
-    "id": "101330",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "This vehicle is very fast."
-      },
-      "de": {
-        "text": "Dieses Fahrzeug ist sehr schnell."
-      }
-    },
-    "wordIds": [
-      "11330"
-    ],
-    "sourceIndex": 1330
-  },
-  {
-    "id": "101331",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The character in the book is very interesting."
-      },
-      "de": {
-        "text": "Die Figur im Buch ist sehr interessant."
-      }
-    },
-    "wordIds": [
-      "11331"
-    ],
-    "sourceIndex": 1331
-  },
-  {
-    "id": "101332",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The escape from the fire was difficult."
-      },
-      "de": {
-        "text": "Die Flucht vor dem Feuer war schwierig."
-      }
-    },
-    "wordIds": [
-      "11332"
-    ],
-    "sourceIndex": 1332
-  },
-  {
-    "id": "101334",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The handle of the cup is broken."
-      },
-      "de": {
-        "text": "Der Griff der Tasse ist zerbrochen."
-      }
-    },
-    "wordIds": [
-      "11334"
-    ],
-    "sourceIndex": 1334
-  },
-  {
-    "id": "101335",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I hate getting up early."
-      },
-      "de": {
-        "text": "Ich hasse es, früh aufzustehen."
-      }
-    },
-    "wordIds": [
-      "11335"
-    ],
-    "sourceIndex": 1335
-  },
-  {
-    "id": "101339",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He gathered the courage to tell the truth."
-      },
-      "de": {
-        "text": "Er fasste den Mut, die Wahrheit zu sagen."
-      }
-    },
-    "wordIds": [
-      "11339"
-    ],
-    "sourceIndex": 1339
-  },
-  {
-    "id": "101343",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "She wears a beautiful ring on her finger."
-      },
-      "de": {
-        "text": "Sie trägt einen schönen Ring am Finger."
-      }
-    },
-    "wordIds": [
-      "11343"
-    ],
-    "sourceIndex": 1343
-  },
-  {
-    "id": "101344",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Participation in the course is voluntary."
-      },
-      "de": {
-        "text": "Die Teilnahme am Kurs ist freiwillig."
-      }
-    },
-    "wordIds": [
-      "11344"
-    ],
-    "sourceIndex": 1344
-  },
-  {
-    "id": "101347",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The translation of the book is very good."
-      },
-      "de": {
-        "text": "Die Übersetzung des Buches ist sehr gut."
-      }
-    },
-    "wordIds": [
-      "11347"
-    ],
-    "sourceIndex": 1347
-  },
-  {
-    "id": "101348",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "His face showed an expression of surprise."
-      },
-      "de": {
-        "text": "Sein Gesicht zeigte einen Ausdruck der Überraschung."
-      }
-    },
-    "wordIds": [
-      "11348"
-    ],
-    "sourceIndex": 1348
-  },
-  {
-    "id": "101349",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I would like to order a coffee."
-      },
-      "de": {
-        "text": "Ich möchte einen Kaffee bestellen."
-      }
-    },
-    "wordIds": [
-      "11349"
-    ],
-    "sourceIndex": 1349
-  },
-  {
-    "id": "101353",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The code is difficult to understand."
-      },
-      "de": {
-        "text": "Der Code ist schwer zu verstehen."
-      }
-    },
-    "wordIds": [
-      "11353"
-    ],
-    "sourceIndex": 1353
-  },
-  {
-    "id": "101359",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I would like to invite you to dinner."
-      },
-      "de": {
-        "text": "Ich möchte dich zum Abendessen einladen."
-      }
-    },
-    "wordIds": [
-      "11359"
-    ],
-    "sourceIndex": 1359
-  },
-  {
-    "id": "101364",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "There are a hundred people here."
-      },
-      "de": {
-        "text": "Es sind hundert Leute hier."
-      }
-    },
-    "wordIds": [
-      "11364"
-    ],
-    "sourceIndex": 1364
-  },
-  {
-    "id": "101367",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We deliver the pizza home."
-      },
-      "de": {
-        "text": "Wir liefern die Pizza nach Hause."
-      }
-    },
-    "wordIds": [
-      "11367"
-    ],
-    "sourceIndex": 1367
-  },
-  {
     "id": "101381",
     "category": "daily",
     "level": "hard",
@@ -9589,23 +3262,6 @@ const phrasesDaily = [
       "11381"
     ],
     "sourceIndex": 1381
-  },
-  {
-    "id": "101384",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please stop talking!"
-      },
-      "de": {
-        "text": "Bitte hör auf zu reden!"
-      }
-    },
-    "wordIds": [
-      "11384"
-    ],
-    "sourceIndex": 1384
   },
   {
     "id": "101385",
@@ -9625,40 +3281,6 @@ const phrasesDaily = [
     "sourceIndex": 1385
   },
   {
-    "id": "101388",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "His speech could inspire the audience."
-      },
-      "de": {
-        "text": "Seine Rede konnte das Publikum begeistern."
-      }
-    },
-    "wordIds": [
-      "11388"
-    ],
-    "sourceIndex": 1388
-  },
-  {
-    "id": "101389",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The boat floats on the water."
-      },
-      "de": {
-        "text": "Das Boot schwimmt auf dem Wasser."
-      }
-    },
-    "wordIds": [
-      "11389"
-    ],
-    "sourceIndex": 1389
-  },
-  {
     "id": "101391",
     "category": "daily",
     "level": "hard",
@@ -9676,23 +3298,6 @@ const phrasesDaily = [
     "sourceIndex": 1391
   },
   {
-    "id": "101401",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The cut was very precise."
-      },
-      "de": {
-        "text": "Der Schnitt war sehr präzise."
-      }
-    },
-    "wordIds": [
-      "11401"
-    ],
-    "sourceIndex": 1401
-  },
-  {
     "id": "101409",
     "category": "daily",
     "level": "medium",
@@ -9708,57 +3313,6 @@ const phrasesDaily = [
       "11409"
     ],
     "sourceIndex": 1409
-  },
-  {
-    "id": "101410",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I met him by chance."
-      },
-      "de": {
-        "text": "Ich habe ihn zufällig getroffen."
-      }
-    },
-    "wordIds": [
-      "11410"
-    ],
-    "sourceIndex": 1410
-  },
-  {
-    "id": "101416",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He claims to know the truth."
-      },
-      "de": {
-        "text": "Er behauptet, die Wahrheit zu kennen."
-      }
-    },
-    "wordIds": [
-      "11416"
-    ],
-    "sourceIndex": 1416
-  },
-  {
-    "id": "101418",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I would like to ask you for help."
-      },
-      "de": {
-        "text": "Ich möchte Sie um Hilfe bitten."
-      }
-    },
-    "wordIds": [
-      "11418"
-    ],
-    "sourceIndex": 1418
   },
   {
     "id": "101421",
@@ -9795,40 +3349,6 @@ const phrasesDaily = [
     "sourceIndex": 1428
   },
   {
-    "id": "101431",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He received a high penalty for the offense."
-      },
-      "de": {
-        "text": "Er bekam eine hohe Strafe für das Vergehen."
-      }
-    },
-    "wordIds": [
-      "11431"
-    ],
-    "sourceIndex": 1431
-  },
-  {
-    "id": "101432",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The storm swept across the land."
-      },
-      "de": {
-        "text": "Der Sturm fegte über das Land."
-      }
-    },
-    "wordIds": [
-      "11432"
-    ],
-    "sourceIndex": 1432
-  },
-  {
     "id": "101435",
     "category": "daily",
     "level": "hard",
@@ -9844,40 +3364,6 @@ const phrasesDaily = [
       "11435"
     ],
     "sourceIndex": 1435
-  },
-  {
-    "id": "101438",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "It is very warm today."
-      },
-      "de": {
-        "text": "Es ist heute sehr warm."
-      }
-    },
-    "wordIds": [
-      "11438"
-    ],
-    "sourceIndex": 1438
-  },
-  {
-    "id": "101442",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please read the next section."
-      },
-      "de": {
-        "text": "Bitte lesen Sie den nächsten Abschnitt."
-      }
-    },
-    "wordIds": [
-      "11442"
-    ],
-    "sourceIndex": 1442
   },
   {
     "id": "101443",
@@ -9948,23 +3434,6 @@ const phrasesDaily = [
     "sourceIndex": 1451
   },
   {
-    "id": "101453",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The birth of her child was a special moment."
-      },
-      "de": {
-        "text": "Die Geburt ihres Kindes war ein besonderer Moment."
-      }
-    },
-    "wordIds": [
-      "11453"
-    ],
-    "sourceIndex": 1453
-  },
-  {
     "id": "101457",
     "category": "daily",
     "level": "hard",
@@ -10016,40 +3485,6 @@ const phrasesDaily = [
     "sourceIndex": 1475
   },
   {
-    "id": "101479",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My employer offers good social benefits."
-      },
-      "de": {
-        "text": "Mein Arbeitgeber bietet gute Sozialleistungen."
-      }
-    },
-    "wordIds": [
-      "11479"
-    ],
-    "sourceIndex": 1479
-  },
-  {
-    "id": "101480",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We have to set up the tent."
-      },
-      "de": {
-        "text": "Wir müssen das Zelt aufbauen."
-      }
-    },
-    "wordIds": [
-      "11480"
-    ],
-    "sourceIndex": 1480
-  },
-  {
     "id": "101481",
     "category": "daily",
     "level": "hard",
@@ -10082,108 +3517,6 @@ const phrasesDaily = [
       "11482"
     ],
     "sourceIndex": 1482
-  },
-  {
-    "id": "101484",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She writes regularly in her blog."
-      },
-      "de": {
-        "text": "Sie schreibt regelmäßig in ihrem Blog."
-      }
-    },
-    "wordIds": [
-      "11484"
-    ],
-    "sourceIndex": 1484
-  },
-  {
-    "id": "101488",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "That is an important fact that we must consider."
-      },
-      "de": {
-        "text": "Das ist ein wichtiger Fakt, den wir berücksichtigen müssen."
-      }
-    },
-    "wordIds": [
-      "11488"
-    ],
-    "sourceIndex": 1488
-  },
-  {
-    "id": "101490",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The flight to Berlin takes two hours."
-      },
-      "de": {
-        "text": "Der Flug nach Berlin dauert zwei Stunden."
-      }
-    },
-    "wordIds": [
-      "11490"
-    ],
-    "sourceIndex": 1490
-  },
-  {
-    "id": "101493",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The cat is sleeping on the sofa."
-      },
-      "de": {
-        "text": "Die Katze schläft auf dem Sofa."
-      }
-    },
-    "wordIds": [
-      "11493"
-    ],
-    "sourceIndex": 1493
-  },
-  {
-    "id": "101497",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "My grandma bakes the best cakes."
-      },
-      "de": {
-        "text": "Meine Oma backt die besten Kuchen."
-      }
-    },
-    "wordIds": [
-      "11497"
-    ],
-    "sourceIndex": 1497
-  },
-  {
-    "id": "101498",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The operation was successful."
-      },
-      "de": {
-        "text": "Die Operation war erfolgreich."
-      }
-    },
-    "wordIds": [
-      "11498"
-    ],
-    "sourceIndex": 1498
   },
   {
     "id": "101499",
@@ -10220,40 +3553,6 @@ const phrasesDaily = [
     "sourceIndex": 1505
   },
   {
-    "id": "101507",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "He has a lot of stress at work."
-      },
-      "de": {
-        "text": "Er hat viel Stress bei der Arbeit."
-      }
-    },
-    "wordIds": [
-      "11507"
-    ],
-    "sourceIndex": 1507
-  },
-  {
-    "id": "101508",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The book costs a thousand euros."
-      },
-      "de": {
-        "text": "Das Buch kostet tausend Euro."
-      }
-    },
-    "wordIds": [
-      "11508"
-    ],
-    "sourceIndex": 1508
-  },
-  {
     "id": "101510",
     "category": "daily",
     "level": "hard",
@@ -10269,40 +3568,6 @@ const phrasesDaily = [
       "11510"
     ],
     "sourceIndex": 1510
-  },
-  {
-    "id": "101512",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I cannot forgive you for that."
-      },
-      "de": {
-        "text": "Ich kann dir das nicht vergeben."
-      }
-    },
-    "wordIds": [
-      "11512"
-    ],
-    "sourceIndex": 1512
-  },
-  {
-    "id": "101516",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The worker is repairing the machine."
-      },
-      "de": {
-        "text": "Der Arbeiter repariert die Maschine."
-      }
-    },
-    "wordIds": [
-      "11516"
-    ],
-    "sourceIndex": 1516
   },
   {
     "id": "101517",
@@ -10373,23 +3638,6 @@ const phrasesDaily = [
     "sourceIndex": 1522
   },
   {
-    "id": "101528",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Let's watch a movie."
-      },
-      "de": {
-        "text": "Lass uns einen Film gucken."
-      }
-    },
-    "wordIds": [
-      "11528"
-    ],
-    "sourceIndex": 1528
-  },
-  {
     "id": "101529",
     "category": "daily",
     "level": "hard",
@@ -10405,40 +3653,6 @@ const phrasesDaily = [
       "11529"
     ],
     "sourceIndex": 1529
-  },
-  {
-    "id": "101534",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I would like a piece of cake."
-      },
-      "de": {
-        "text": "Ich möchte ein Stück Kuchen."
-      }
-    },
-    "wordIds": [
-      "11534"
-    ],
-    "sourceIndex": 1534
-  },
-  {
-    "id": "101540",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She took a stand on the accusations."
-      },
-      "de": {
-        "text": "Sie nahm Stellung zu den Vorwürfen."
-      }
-    },
-    "wordIds": [
-      "11540"
-    ],
-    "sourceIndex": 1540
   },
   {
     "id": "101541",
@@ -10458,57 +3672,6 @@ const phrasesDaily = [
     "sourceIndex": 1541
   },
   {
-    "id": "101545",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I like to read a magazine on the weekend."
-      },
-      "de": {
-        "text": "Ich lese gerne eine Zeitschrift am Wochenende."
-      }
-    },
-    "wordIds": [
-      "11545"
-    ],
-    "sourceIndex": 1545
-  },
-  {
-    "id": "101550",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The online community is very active."
-      },
-      "de": {
-        "text": "Die Online-Community ist sehr aktiv."
-      }
-    },
-    "wordIds": [
-      "11550"
-    ],
-    "sourceIndex": 1550
-  },
-  {
-    "id": "101551",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "In spring, the flowers bloom."
-      },
-      "de": {
-        "text": "Im Frühjahr blühen die Blumen."
-      }
-    },
-    "wordIds": [
-      "11551"
-    ],
-    "sourceIndex": 1551
-  },
-  {
     "id": "101553",
     "category": "daily",
     "level": "hard",
@@ -10524,40 +3687,6 @@ const phrasesDaily = [
       "11553"
     ],
     "sourceIndex": 1553
-  },
-  {
-    "id": "101562",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We have to check the quality."
-      },
-      "de": {
-        "text": "Wir müssen die Qualität prüfen."
-      }
-    },
-    "wordIds": [
-      "11562"
-    ],
-    "sourceIndex": 1562
-  },
-  {
-    "id": "101566",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The server is slow today."
-      },
-      "de": {
-        "text": "Der Server ist heute langsam."
-      }
-    },
-    "wordIds": [
-      "11566"
-    ],
-    "sourceIndex": 1566
   },
   {
     "id": "101567",
@@ -10645,23 +3774,6 @@ const phrasesDaily = [
     "sourceIndex": 1583
   },
   {
-    "id": "101587",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The airplane lands in ten minutes."
-      },
-      "de": {
-        "text": "Das Flugzeug landet in zehn Minuten."
-      }
-    },
-    "wordIds": [
-      "11587"
-    ],
-    "sourceIndex": 1587
-  },
-  {
     "id": "101588",
     "category": "daily",
     "level": "hard",
@@ -10677,57 +3789,6 @@ const phrasesDaily = [
       "11588"
     ],
     "sourceIndex": 1588
-  },
-  {
-    "id": "101589",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He spent ten years in prison."
-      },
-      "de": {
-        "text": "Er verbrachte zehn Jahre im Gefängnis."
-      }
-    },
-    "wordIds": [
-      "11589"
-    ],
-    "sourceIndex": 1589
-  },
-  {
-    "id": "101594",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "She bought new clothes."
-      },
-      "de": {
-        "text": "Sie kaufte neue Kleidung."
-      }
-    },
-    "wordIds": [
-      "11594"
-    ],
-    "sourceIndex": 1594
-  },
-  {
-    "id": "101595",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The queen visited the city."
-      },
-      "de": {
-        "text": "Die Königin besuchte die Stadt."
-      }
-    },
-    "wordIds": [
-      "11595"
-    ],
-    "sourceIndex": 1595
   },
   {
     "id": "101597",
@@ -10762,40 +3823,6 @@ const phrasesDaily = [
       "11599"
     ],
     "sourceIndex": 1599
-  },
-  {
-    "id": "101603",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "His room is always very tidy."
-      },
-      "de": {
-        "text": "Sein Zimmer ist immer sehr ordentlich."
-      }
-    },
-    "wordIds": [
-      "11603"
-    ],
-    "sourceIndex": 1603
-  },
-  {
-    "id": "101604",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "My dad reads me a story every evening."
-      },
-      "de": {
-        "text": "Mein Papa liest mir jeden Abend eine Geschichte vor."
-      }
-    },
-    "wordIds": [
-      "11604"
-    ],
-    "sourceIndex": 1604
   },
   {
     "id": "101606",
@@ -10849,23 +3876,6 @@ const phrasesDaily = [
     "sourceIndex": 1608
   },
   {
-    "id": "101614",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I am still awake."
-      },
-      "de": {
-        "text": "Ich bin noch wach."
-      }
-    },
-    "wordIds": [
-      "11614"
-    ],
-    "sourceIndex": 1614
-  },
-  {
     "id": "101615",
     "category": "daily",
     "level": "medium",
@@ -10898,23 +3908,6 @@ const phrasesDaily = [
       "11616"
     ],
     "sourceIndex": 1616
-  },
-  {
-    "id": "101617",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We are planning many activities for the weekend."
-      },
-      "de": {
-        "text": "Wir planen viele Aktivitäten für das Wochenende."
-      }
-    },
-    "wordIds": [
-      "11617"
-    ],
-    "sourceIndex": 1617
   },
   {
     "id": "101624",
@@ -10968,23 +3961,6 @@ const phrasesDaily = [
     "sourceIndex": 1629
   },
   {
-    "id": "101634",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please speak quietly."
-      },
-      "de": {
-        "text": "Bitte sprich leise."
-      }
-    },
-    "wordIds": [
-      "11634"
-    ],
-    "sourceIndex": 1634
-  },
-  {
     "id": "101640",
     "category": "daily",
     "level": "hard",
@@ -11000,23 +3976,6 @@ const phrasesDaily = [
       "11640"
     ],
     "sourceIndex": 1640
-  },
-  {
-    "id": "101654",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We want to watch the movie."
-      },
-      "de": {
-        "text": "Wir wollen uns den Film anschauen."
-      }
-    },
-    "wordIds": [
-      "11654"
-    ],
-    "sourceIndex": 1654
   },
   {
     "id": "101655",
@@ -11053,23 +4012,6 @@ const phrasesDaily = [
     "sourceIndex": 1658
   },
   {
-    "id": "101660",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I ordered a double portion."
-      },
-      "de": {
-        "text": "Ich habe eine doppelte Portion bestellt."
-      }
-    },
-    "wordIds": [
-      "11660"
-    ],
-    "sourceIndex": 1660
-  },
-  {
     "id": "101661",
     "category": "daily",
     "level": "hard",
@@ -11087,23 +4029,6 @@ const phrasesDaily = [
     "sourceIndex": 1661
   },
   {
-    "id": "101666",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "You can't force anyone to be happy."
-      },
-      "de": {
-        "text": "Man kann niemanden zum Glück zwingen."
-      }
-    },
-    "wordIds": [
-      "11666"
-    ],
-    "sourceIndex": 1666
-  },
-  {
     "id": "101673",
     "category": "daily",
     "level": "easy",
@@ -11119,40 +4044,6 @@ const phrasesDaily = [
       "11673"
     ],
     "sourceIndex": 1673
-  },
-  {
-    "id": "101675",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The climate in this region is very pleasant."
-      },
-      "de": {
-        "text": "Das Klima in dieser Region ist sehr angenehm."
-      }
-    },
-    "wordIds": [
-      "11675"
-    ],
-    "sourceIndex": 1675
-  },
-  {
-    "id": "101676",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "She had to go to the clinic."
-      },
-      "de": {
-        "text": "Sie musste in die Klinik gehen."
-      }
-    },
-    "wordIds": [
-      "11676"
-    ],
-    "sourceIndex": 1676
   },
   {
     "id": "101682",
@@ -11206,23 +4097,6 @@ const phrasesDaily = [
     "sourceIndex": 1688
   },
   {
-    "id": "101691",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "You can compare the prices online."
-      },
-      "de": {
-        "text": "Man kann die Preise online vergleichen."
-      }
-    },
-    "wordIds": [
-      "11691"
-    ],
-    "sourceIndex": 1691
-  },
-  {
     "id": "101701",
     "category": "daily",
     "level": "hard",
@@ -11240,24 +4114,6 @@ const phrasesDaily = [
     "sourceIndex": 1701
   },
   {
-    "id": "101702",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please state your date of birth."
-      },
-      "de": {
-        "text": "Bitte geben Sie Ihr Geburtsdatum an."
-      }
-    },
-    "wordIds": [
-      "11702",
-      "20650"
-    ],
-    "sourceIndex": 1702
-  },
-  {
     "id": "101705",
     "category": "daily",
     "level": "medium",
@@ -11273,23 +4129,6 @@ const phrasesDaily = [
       "11705"
     ],
     "sourceIndex": 1705
-  },
-  {
-    "id": "101706",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I notice that you are tired."
-      },
-      "de": {
-        "text": "Ich bemerke, dass du müde bist."
-      }
-    },
-    "wordIds": [
-      "11706"
-    ],
-    "sourceIndex": 1706
   },
   {
     "id": "101708",
@@ -11343,23 +4182,6 @@ const phrasesDaily = [
     "sourceIndex": 1716
   },
   {
-    "id": "101722",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The competition in the market is very strong."
-      },
-      "de": {
-        "text": "Die Konkurrenz auf dem Markt ist sehr stark."
-      }
-    },
-    "wordIds": [
-      "11722"
-    ],
-    "sourceIndex": 1722
-  },
-  {
     "id": "101723",
     "category": "daily",
     "level": "hard",
@@ -11376,23 +4198,6 @@ const phrasesDaily = [
       "12731"
     ],
     "sourceIndex": 1723
-  },
-  {
-    "id": "101728",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Could you please explain that once more?"
-      },
-      "de": {
-        "text": "Könnten Sie das bitte nochmals erklären?"
-      }
-    },
-    "wordIds": [
-      "11728"
-    ],
-    "sourceIndex": 1728
   },
   {
     "id": "101729",
@@ -11480,23 +4285,6 @@ const phrasesDaily = [
     "sourceIndex": 1738
   },
   {
-    "id": "101740",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She is a true role model for me."
-      },
-      "de": {
-        "text": "Sie ist ein echtes Vorbild für mich."
-      }
-    },
-    "wordIds": [
-      "11740"
-    ],
-    "sourceIndex": 1740
-  },
-  {
     "id": "101746",
     "category": "daily",
     "level": "hard",
@@ -11512,91 +4300,6 @@ const phrasesDaily = [
       "11746"
     ],
     "sourceIndex": 1746
-  },
-  {
-    "id": "101748",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The effect was immediately noticeable."
-      },
-      "de": {
-        "text": "Der Effekt war sofort spürbar."
-      }
-    },
-    "wordIds": [
-      "11748"
-    ],
-    "sourceIndex": 1748
-  },
-  {
-    "id": "101749",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Water is an important element."
-      },
-      "de": {
-        "text": "Wasser ist ein wichtiges Element."
-      }
-    },
-    "wordIds": [
-      "11749"
-    ],
-    "sourceIndex": 1749
-  },
-  {
-    "id": "101751",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I have to complete this task today."
-      },
-      "de": {
-        "text": "Ich muss diese Aufgabe heute erledigen."
-      }
-    },
-    "wordIds": [
-      "11751"
-    ],
-    "sourceIndex": 1751
-  },
-  {
-    "id": "101757",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He succeeded in solving the problem."
-      },
-      "de": {
-        "text": "Es ist ihm gelungen, das Problem zu lösen."
-      }
-    },
-    "wordIds": [
-      "11757"
-    ],
-    "sourceIndex": 1757
-  },
-  {
-    "id": "101760",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "You can call me at any time."
-      },
-      "de": {
-        "text": "Sie können mich jederzeit anrufen."
-      }
-    },
-    "wordIds": [
-      "11760"
-    ],
-    "sourceIndex": 1760
   },
   {
     "id": "101761",
@@ -11633,23 +4336,6 @@ const phrasesDaily = [
     "sourceIndex": 1762
   },
   {
-    "id": "101763",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The movie was very boring."
-      },
-      "de": {
-        "text": "Der Film war sehr langweilig."
-      }
-    },
-    "wordIds": [
-      "11763"
-    ],
-    "sourceIndex": 1763
-  },
-  {
     "id": "101764",
     "category": "daily",
     "level": "easy",
@@ -11665,23 +4351,6 @@ const phrasesDaily = [
       "11764"
     ],
     "sourceIndex": 1764
-  },
-  {
-    "id": "101765",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I like to read this magazine."
-      },
-      "de": {
-        "text": "Ich lese gerne dieses Magazin."
-      }
-    },
-    "wordIds": [
-      "11765"
-    ],
-    "sourceIndex": 1765
   },
   {
     "id": "101766",
@@ -11718,23 +4387,6 @@ const phrasesDaily = [
     "sourceIndex": 1774
   },
   {
-    "id": "101775",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "This is a state-owned institution."
-      },
-      "de": {
-        "text": "Das ist eine staatliche Einrichtung."
-      }
-    },
-    "wordIds": [
-      "11775"
-    ],
-    "sourceIndex": 1775
-  },
-  {
     "id": "101785",
     "category": "daily",
     "level": "hard",
@@ -11767,23 +4419,6 @@ const phrasesDaily = [
       "11790"
     ],
     "sourceIndex": 1790
-  },
-  {
-    "id": "101792",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please state your gender."
-      },
-      "de": {
-        "text": "Bitte geben Sie Ihr Geschlecht an."
-      }
-    },
-    "wordIds": [
-      "11792"
-    ],
-    "sourceIndex": 1792
   },
   {
     "id": "101793",
@@ -11820,23 +4455,6 @@ const phrasesDaily = [
     "sourceIndex": 1794
   },
   {
-    "id": "101797",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please throw the trash in the designated bin."
-      },
-      "de": {
-        "text": "Bitte werfen Sie den Müll in den dafür vorgesehenen Behälter."
-      }
-    },
-    "wordIds": [
-      "11797"
-    ],
-    "sourceIndex": 1797
-  },
-  {
     "id": "101798",
     "category": "daily",
     "level": "hard",
@@ -11869,23 +4487,6 @@ const phrasesDaily = [
       "11802"
     ],
     "sourceIndex": 1802
-  },
-  {
-    "id": "101803",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The next meeting will take place on Tuesday."
-      },
-      "de": {
-        "text": "Die nächste Sitzung findet am Dienstag statt."
-      }
-    },
-    "wordIds": [
-      "11803"
-    ],
-    "sourceIndex": 1803
   },
   {
     "id": "101804",
@@ -11922,23 +4523,6 @@ const phrasesDaily = [
     "sourceIndex": 1805
   },
   {
-    "id": "101807",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We talked about the weather for a long time."
-      },
-      "de": {
-        "text": "Wir haben uns lange über das Wetter unterhalten."
-      }
-    },
-    "wordIds": [
-      "11807"
-    ],
-    "sourceIndex": 1807
-  },
-  {
     "id": "101809",
     "category": "daily",
     "level": "hard",
@@ -11973,23 +4557,6 @@ const phrasesDaily = [
     "sourceIndex": 1810
   },
   {
-    "id": "101811",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The company is experiencing strong growth."
-      },
-      "de": {
-        "text": "Das Unternehmen verzeichnet ein starkes Wachstum."
-      }
-    },
-    "wordIds": [
-      "11811"
-    ],
-    "sourceIndex": 1811
-  },
-  {
     "id": "101816",
     "category": "daily",
     "level": "hard",
@@ -12007,23 +4574,6 @@ const phrasesDaily = [
     "sourceIndex": 1816
   },
   {
-    "id": "101818",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I often go to the library."
-      },
-      "de": {
-        "text": "Ich gehe oft in die Bibliothek."
-      }
-    },
-    "wordIds": [
-      "11818"
-    ],
-    "sourceIndex": 1818
-  },
-  {
     "id": "101819",
     "category": "daily",
     "level": "medium",
@@ -12039,23 +4589,6 @@ const phrasesDaily = [
       "11819"
     ],
     "sourceIndex": 1819
-  },
-  {
-    "id": "101827",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We must foster young talents."
-      },
-      "de": {
-        "text": "Wir müssen junge Talente fördern."
-      }
-    },
-    "wordIds": [
-      "11827"
-    ],
-    "sourceIndex": 1827
   },
   {
     "id": "101830",
@@ -12143,74 +4676,6 @@ const phrasesDaily = [
     "sourceIndex": 1838
   },
   {
-    "id": "101840",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The singer has a beautiful voice."
-      },
-      "de": {
-        "text": "Der Sänger hat eine wunderschöne Stimme."
-      }
-    },
-    "wordIds": [
-      "11840"
-    ],
-    "sourceIndex": 1840
-  },
-  {
-    "id": "101841",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "We like to dance."
-      },
-      "de": {
-        "text": "Wir tanzen gerne."
-      }
-    },
-    "wordIds": [
-      "11841"
-    ],
-    "sourceIndex": 1841
-  },
-  {
-    "id": "101843",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I promise you that I will be on time."
-      },
-      "de": {
-        "text": "Ich verspreche dir, dass ich pünktlich bin."
-      }
-    },
-    "wordIds": [
-      "11843"
-    ],
-    "sourceIndex": 1843
-  },
-  {
-    "id": "101845",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "Can I pay, please?"
-      },
-      "de": {
-        "text": "Kann ich bitte zahlen?"
-      }
-    },
-    "wordIds": [
-      "11845"
-    ],
-    "sourceIndex": 1845
-  },
-  {
     "id": "101848",
     "category": "daily",
     "level": "medium",
@@ -12226,74 +4691,6 @@ const phrasesDaily = [
       "11848"
     ],
     "sourceIndex": 1848
-  },
-  {
-    "id": "101853",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I received an invitation to the party."
-      },
-      "de": {
-        "text": "Ich habe eine Einladung zur Party bekommen."
-      }
-    },
-    "wordIds": [
-      "11853"
-    ],
-    "sourceIndex": 1853
-  },
-  {
-    "id": "101862",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please click here to continue."
-      },
-      "de": {
-        "text": "Bitte klicken Sie hier, um fortzufahren."
-      }
-    },
-    "wordIds": [
-      "11862"
-    ],
-    "sourceIndex": 1862
-  },
-  {
-    "id": "101864",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "She is very interested in fashion."
-      },
-      "de": {
-        "text": "Sie interessiert sich sehr für Mode."
-      }
-    },
-    "wordIds": [
-      "11864"
-    ],
-    "sourceIndex": 1864
-  },
-  {
-    "id": "101867",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "He stopped smoking."
-      },
-      "de": {
-        "text": "Er hat aufgehört zu rauchen."
-      }
-    },
-    "wordIds": [
-      "11867"
-    ],
-    "sourceIndex": 1867
   },
   {
     "id": "101869",
@@ -12328,40 +4725,6 @@ const phrasesDaily = [
       "11870"
     ],
     "sourceIndex": 1870
-  },
-  {
-    "id": "101874",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Caution is the mother of the porcelain box."
-      },
-      "de": {
-        "text": "Vorsicht ist die Mutter der Porzellankiste."
-      }
-    },
-    "wordIds": [
-      "11874"
-    ],
-    "sourceIndex": 1874
-  },
-  {
-    "id": "101875",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Could you please repeat that?"
-      },
-      "de": {
-        "text": "Könnten Sie das bitte wiederholen?"
-      }
-    },
-    "wordIds": [
-      "11875"
-    ],
-    "sourceIndex": 1875
   },
   {
     "id": "101878",
@@ -12449,23 +4812,6 @@ const phrasesDaily = [
     "sourceIndex": 1890
   },
   {
-    "id": "101896",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The King of Rock 'n' Roll was Elvis Presley."
-      },
-      "de": {
-        "text": "Der King des Rock 'n' Roll war Elvis Presley."
-      }
-    },
-    "wordIds": [
-      "11896"
-    ],
-    "sourceIndex": 1896
-  },
-  {
     "id": "101898",
     "category": "daily",
     "level": "hard",
@@ -12483,40 +4829,6 @@ const phrasesDaily = [
     "sourceIndex": 1898
   },
   {
-    "id": "101899",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He will retire soon."
-      },
-      "de": {
-        "text": "Er geht bald in Rente."
-      }
-    },
-    "wordIds": [
-      "11899"
-    ],
-    "sourceIndex": 1899
-  },
-  {
-    "id": "101903",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I can feel the wind on my skin."
-      },
-      "de": {
-        "text": "Ich kann den Wind auf meiner Haut spüren."
-      }
-    },
-    "wordIds": [
-      "11903"
-    ],
-    "sourceIndex": 1903
-  },
-  {
     "id": "101905",
     "category": "daily",
     "level": "hard",
@@ -12532,74 +4844,6 @@ const phrasesDaily = [
       "11905"
     ],
     "sourceIndex": 1905
-  },
-  {
-    "id": "101906",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Did you take out travel insurance?"
-      },
-      "de": {
-        "text": "Hast du eine Reiseversicherung abgeschlossen?"
-      }
-    },
-    "wordIds": [
-      "11906"
-    ],
-    "sourceIndex": 1906
-  },
-  {
-    "id": "101909",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The western side of the building is sunny."
-      },
-      "de": {
-        "text": "Die westliche Seite des Gebäudes ist sonnig."
-      }
-    },
-    "wordIds": [
-      "11909"
-    ],
-    "sourceIndex": 1909
-  },
-  {
-    "id": "101910",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He will hand over the documents tomorrow."
-      },
-      "de": {
-        "text": "Er wird die Dokumente morgen übergeben."
-      }
-    },
-    "wordIds": [
-      "11910"
-    ],
-    "sourceIndex": 1910
-  },
-  {
-    "id": "101912",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "That is the usual procedure."
-      },
-      "de": {
-        "text": "Das ist die übliche Vorgehensweise."
-      }
-    },
-    "wordIds": [
-      "11912"
-    ],
-    "sourceIndex": 1912
   },
   {
     "id": "101923",
@@ -12687,108 +4931,6 @@ const phrasesDaily = [
     "sourceIndex": 1940
   },
   {
-    "id": "101941",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The car is parked in front of the house."
-      },
-      "de": {
-        "text": "Der Pkw parkt vor dem Haus."
-      }
-    },
-    "wordIds": [
-      "11941"
-    ],
-    "sourceIndex": 1941
-  },
-  {
-    "id": "101942",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We have to be at the station in time."
-      },
-      "de": {
-        "text": "Wir müssen rechtzeitig am Bahnhof sein."
-      }
-    },
-    "wordIds": [
-      "11942"
-    ],
-    "sourceIndex": 1942
-  },
-  {
-    "id": "101945",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "He found an old treasure."
-      },
-      "de": {
-        "text": "Er fand einen alten Schatz."
-      }
-    },
-    "wordIds": [
-      "11945"
-    ],
-    "sourceIndex": 1945
-  },
-  {
-    "id": "101946",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I really appreciate your help."
-      },
-      "de": {
-        "text": "Ich schätze deine Hilfe sehr."
-      }
-    },
-    "wordIds": [
-      "11946"
-    ],
-    "sourceIndex": 1946
-  },
-  {
-    "id": "101947",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The concert will take place tomorrow."
-      },
-      "de": {
-        "text": "Das Konzert wird morgen stattfinden."
-      }
-    },
-    "wordIds": [
-      "11947"
-    ],
-    "sourceIndex": 1947
-  },
-  {
-    "id": "101951",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We need to test the new system."
-      },
-      "de": {
-        "text": "Wir müssen das neue System testen."
-      }
-    },
-    "wordIds": [
-      "11951"
-    ],
-    "sourceIndex": 1951
-  },
-  {
     "id": "101954",
     "category": "daily",
     "level": "hard",
@@ -12804,23 +4946,6 @@ const phrasesDaily = [
       "11954"
     ],
     "sourceIndex": 1954
-  },
-  {
-    "id": "101958",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The dog wanted to attack the postman."
-      },
-      "de": {
-        "text": "Der Hund wollte den Postboten angreifen."
-      }
-    },
-    "wordIds": [
-      "11958"
-    ],
-    "sourceIndex": 1958
   },
   {
     "id": "101960",
@@ -12857,40 +4982,6 @@ const phrasesDaily = [
     "sourceIndex": 1964
   },
   {
-    "id": "101965",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The shopping mall is in the city center."
-      },
-      "de": {
-        "text": "Das Einkaufszentrum ist im Stadtzentrum."
-      }
-    },
-    "wordIds": [
-      "11965"
-    ],
-    "sourceIndex": 1965
-  },
-  {
-    "id": "101966",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The cat is sleeping on the blanket."
-      },
-      "de": {
-        "text": "Die Katze schläft auf der Decke."
-      }
-    },
-    "wordIds": [
-      "11966"
-    ],
-    "sourceIndex": 1966
-  },
-  {
     "id": "101967",
     "category": "daily",
     "level": "hard",
@@ -12923,23 +5014,6 @@ const phrasesDaily = [
       "11969"
     ],
     "sourceIndex": 1969
-  },
-  {
-    "id": "101970",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The researchers have gained new insights."
-      },
-      "de": {
-        "text": "Die Forscher haben neue Erkenntnisse gewonnen."
-      }
-    },
-    "wordIds": [
-      "11970"
-    ],
-    "sourceIndex": 1970
   },
   {
     "id": "101971",
@@ -12991,23 +5065,6 @@ const phrasesDaily = [
       "11980"
     ],
     "sourceIndex": 1980
-  },
-  {
-    "id": "101986",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please hand in your homework by Friday."
-      },
-      "de": {
-        "text": "Bitte geben Sie Ihre Hausaufgaben bis Freitag ab."
-      }
-    },
-    "wordIds": [
-      "11986"
-    ],
-    "sourceIndex": 1986
   },
   {
     "id": "101992",
@@ -13078,57 +5135,6 @@ const phrasesDaily = [
     "sourceIndex": 2002
   },
   {
-    "id": "102003",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The household budget must be managed economically."
-      },
-      "de": {
-        "text": "Der Haushalt muss sparsam geführt werden."
-      }
-    },
-    "wordIds": [
-      "12003"
-    ],
-    "sourceIndex": 2003
-  },
-  {
-    "id": "102008",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "He fell to his knees."
-      },
-      "de": {
-        "text": "Er fiel auf die Knie."
-      }
-    },
-    "wordIds": [
-      "12008"
-    ],
-    "sourceIndex": 2008
-  },
-  {
-    "id": "102011",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The lady wore an elegant dress."
-      },
-      "de": {
-        "text": "Die Lady trug ein elegantes Kleid."
-      }
-    },
-    "wordIds": [
-      "12011"
-    ],
-    "sourceIndex": 2011
-  },
-  {
     "id": "102013",
     "category": "daily",
     "level": "hard",
@@ -13180,40 +5186,6 @@ const phrasesDaily = [
     "sourceIndex": 2022
   },
   {
-    "id": "102023",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The writer has published a new book."
-      },
-      "de": {
-        "text": "Der Schriftsteller hat ein neues Buch veröffentlicht."
-      }
-    },
-    "wordIds": [
-      "12023"
-    ],
-    "sourceIndex": 2023
-  },
-  {
-    "id": "102024",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The party's spokesperson made a statement."
-      },
-      "de": {
-        "text": "Der Sprecher der Partei gab eine Erklärung ab."
-      }
-    },
-    "wordIds": [
-      "12024"
-    ],
-    "sourceIndex": 2024
-  },
-  {
     "id": "102027",
     "category": "daily",
     "level": "hard",
@@ -13229,23 +5201,6 @@ const phrasesDaily = [
       "12027"
     ],
     "sourceIndex": 2027
-  },
-  {
-    "id": "102029",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We had to wait a long time at customs."
-      },
-      "de": {
-        "text": "Wir mussten am Zoll lange warten."
-      }
-    },
-    "wordIds": [
-      "12029"
-    ],
-    "sourceIndex": 2029
   },
   {
     "id": "102034",
@@ -13282,23 +5237,6 @@ const phrasesDaily = [
     "sourceIndex": 2035
   },
   {
-    "id": "102036",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We will meet soon."
-      },
-      "de": {
-        "text": "Wir werden uns demnächst treffen."
-      }
-    },
-    "wordIds": [
-      "12036"
-    ],
-    "sourceIndex": 2036
-  },
-  {
     "id": "102047",
     "category": "daily",
     "level": "hard",
@@ -13314,23 +5252,6 @@ const phrasesDaily = [
       "12047"
     ],
     "sourceIndex": 2047
-  },
-  {
-    "id": "102049",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Your answer is correct."
-      },
-      "de": {
-        "text": "Ihre Antwort ist korrekt."
-      }
-    },
-    "wordIds": [
-      "12049"
-    ],
-    "sourceIndex": 2049
   },
   {
     "id": "102053",
@@ -13350,40 +5271,6 @@ const phrasesDaily = [
     "sourceIndex": 2053
   },
   {
-    "id": "102054",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The migrant sought a new home."
-      },
-      "de": {
-        "text": "Der Migrant suchte ein neues Zuhause."
-      }
-    },
-    "wordIds": [
-      "12054"
-    ],
-    "sourceIndex": 2054
-  },
-  {
-    "id": "102057",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "He is a Russian."
-      },
-      "de": {
-        "text": "Er ist ein Russe."
-      }
-    },
-    "wordIds": [
-      "12057"
-    ],
-    "sourceIndex": 2057
-  },
-  {
     "id": "102059",
     "category": "daily",
     "level": "medium",
@@ -13399,40 +5286,6 @@ const phrasesDaily = [
       "12059"
     ],
     "sourceIndex": 2059
-  },
-  {
-    "id": "102066",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I need to practice more to get better."
-      },
-      "de": {
-        "text": "Ich muss mehr üben, um besser zu werden."
-      }
-    },
-    "wordIds": [
-      "12066"
-    ],
-    "sourceIndex": 2066
-  },
-  {
-    "id": "102067",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He wanted to speak to her, but he was too shy."
-      },
-      "de": {
-        "text": "Er wollte sie ansprechen, aber er war zu schüchtern."
-      }
-    },
-    "wordIds": [
-      "12067"
-    ],
-    "sourceIndex": 2067
   },
   {
     "id": "102076",
@@ -13469,40 +5322,6 @@ const phrasesDaily = [
     "sourceIndex": 2077
   },
   {
-    "id": "102079",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I have to go shopping today."
-      },
-      "de": {
-        "text": "Ich muss heute einkaufen gehen."
-      }
-    },
-    "wordIds": [
-      "12079"
-    ],
-    "sourceIndex": 2079
-  },
-  {
-    "id": "102080",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "This factory produces a lot of energy."
-      },
-      "de": {
-        "text": "Diese Fabrik erzeugt viel Energie."
-      }
-    },
-    "wordIds": [
-      "12080"
-    ],
-    "sourceIndex": 2080
-  },
-  {
     "id": "102082",
     "category": "daily",
     "level": "hard",
@@ -13535,74 +5354,6 @@ const phrasesDaily = [
       "12087"
     ],
     "sourceIndex": 2087
-  },
-  {
-    "id": "102090",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I like Italian food."
-      },
-      "de": {
-        "text": "Ich mag italienisches Essen."
-      }
-    },
-    "wordIds": [
-      "12090"
-    ],
-    "sourceIndex": 2090
-  },
-  {
-    "id": "102092",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I like cheese very much."
-      },
-      "de": {
-        "text": "Ich mag Käse sehr gerne."
-      }
-    },
-    "wordIds": [
-      "12092"
-    ],
-    "sourceIndex": 2092
-  },
-  {
-    "id": "102093",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The plane will land soon."
-      },
-      "de": {
-        "text": "Das Flugzeug wird bald landen."
-      }
-    },
-    "wordIds": [
-      "12093"
-    ],
-    "sourceIndex": 2093
-  },
-  {
-    "id": "102099",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "Please give me the salt."
-      },
-      "de": {
-        "text": "Bitte gib mir das Salz."
-      }
-    },
-    "wordIds": [
-      "12099"
-    ],
-    "sourceIndex": 2099
   },
   {
     "id": "102104",
@@ -13690,40 +5441,6 @@ const phrasesDaily = [
     "sourceIndex": 2111
   },
   {
-    "id": "102112",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Can you pick up the book?"
-      },
-      "de": {
-        "text": "Kannst du das Buch aufheben?"
-      }
-    },
-    "wordIds": [
-      "12112"
-    ],
-    "sourceIndex": 2112
-  },
-  {
-    "id": "102113",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Many foreigners live in Germany."
-      },
-      "de": {
-        "text": "Viele Ausländer leben in Deutschland."
-      }
-    },
-    "wordIds": [
-      "12113"
-    ],
-    "sourceIndex": 2113
-  },
-  {
     "id": "102114",
     "category": "daily",
     "level": "hard",
@@ -13758,40 +5475,6 @@ const phrasesDaily = [
     "sourceIndex": 2116
   },
   {
-    "id": "102122",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The financial situation of the company is stable."
-      },
-      "de": {
-        "text": "Die finanzielle Lage des Unternehmens ist stabil."
-      }
-    },
-    "wordIds": [
-      "12122"
-    ],
-    "sourceIndex": 2122
-  },
-  {
-    "id": "102124",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "He sent a warm greeting."
-      },
-      "de": {
-        "text": "Er schickte einen herzlichen Gruss."
-      }
-    },
-    "wordIds": [
-      "12124"
-    ],
-    "sourceIndex": 2124
-  },
-  {
     "id": "102125",
     "category": "daily",
     "level": "hard",
@@ -13809,23 +5492,6 @@ const phrasesDaily = [
     "sourceIndex": 2125
   },
   {
-    "id": "102126",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The sound of the guitar was beautiful."
-      },
-      "de": {
-        "text": "Der Klang der Gitarre war wunderschön."
-      }
-    },
-    "wordIds": [
-      "12126"
-    ],
-    "sourceIndex": 2126
-  },
-  {
     "id": "102130",
     "category": "daily",
     "level": "medium",
@@ -13841,23 +5507,6 @@ const phrasesDaily = [
       "12130"
     ],
     "sourceIndex": 2130
-  },
-  {
-    "id": "102132",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The new building will be finished next year."
-      },
-      "de": {
-        "text": "Der Neubau wird nächstes Jahr fertig."
-      }
-    },
-    "wordIds": [
-      "12132"
-    ],
-    "sourceIndex": 2132
   },
   {
     "id": "102134",
@@ -13928,40 +5577,6 @@ const phrasesDaily = [
     "sourceIndex": 2139
   },
   {
-    "id": "102140",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please put the documents on the table."
-      },
-      "de": {
-        "text": "Bitte legen Sie die Unterlagen auf den Tisch."
-      }
-    },
-    "wordIds": [
-      "12140"
-    ],
-    "sourceIndex": 2140
-  },
-  {
-    "id": "102143",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The child started to cry."
-      },
-      "de": {
-        "text": "Das Kind begann zu weinen."
-      }
-    },
-    "wordIds": [
-      "12143"
-    ],
-    "sourceIndex": 2143
-  },
-  {
     "id": "102145",
     "category": "daily",
     "level": "hard",
@@ -14030,23 +5645,6 @@ const phrasesDaily = [
     "sourceIndex": 2152
   },
   {
-    "id": "102154",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The drama had a sad ending."
-      },
-      "de": {
-        "text": "Das Drama hatte ein trauriges Ende."
-      }
-    },
-    "wordIds": [
-      "12154"
-    ],
-    "sourceIndex": 2154
-  },
-  {
     "id": "102155",
     "category": "daily",
     "level": "hard",
@@ -14079,23 +5677,6 @@ const phrasesDaily = [
       "12161"
     ],
     "sourceIndex": 2161
-  },
-  {
-    "id": "102166",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The conference will take place next week."
-      },
-      "de": {
-        "text": "Die Konferenz findet nächste Woche statt."
-      }
-    },
-    "wordIds": [
-      "12166"
-    ],
-    "sourceIndex": 2166
   },
   {
     "id": "102167",
@@ -14166,23 +5747,6 @@ const phrasesDaily = [
     "sourceIndex": 2173
   },
   {
-    "id": "102175",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He is a Turk."
-      },
-      "de": {
-        "text": "Er ist ein Türke."
-      }
-    },
-    "wordIds": [
-      "12175"
-    ],
-    "sourceIndex": 2175
-  },
-  {
     "id": "102181",
     "category": "daily",
     "level": "medium",
@@ -14198,40 +5762,6 @@ const phrasesDaily = [
       "12181"
     ],
     "sourceIndex": 2181
-  },
-  {
-    "id": "102182",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "They will announce the results soon."
-      },
-      "de": {
-        "text": "Sie werden die Ergebnisse bald ankündigen."
-      }
-    },
-    "wordIds": [
-      "12182"
-    ],
-    "sourceIndex": 2182
-  },
-  {
-    "id": "102188",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I need a pad and a pen."
-      },
-      "de": {
-        "text": "Ich brauche einen Block und einen Stift."
-      }
-    },
-    "wordIds": [
-      "12188"
-    ],
-    "sourceIndex": 2188
   },
   {
     "id": "102191",
@@ -14251,40 +5781,6 @@ const phrasesDaily = [
     "sourceIndex": 2191
   },
   {
-    "id": "102194",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I want to give you a book."
-      },
-      "de": {
-        "text": "Ich möchte dir ein Buch schenken."
-      }
-    },
-    "wordIds": [
-      "12194"
-    ],
-    "sourceIndex": 2194
-  },
-  {
-    "id": "102199",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "They want to invest in renewable energies."
-      },
-      "de": {
-        "text": "Sie wollen in erneuerbare Energien investieren."
-      }
-    },
-    "wordIds": [
-      "12199"
-    ],
-    "sourceIndex": 2199
-  },
-  {
     "id": "102200",
     "category": "daily",
     "level": "hard",
@@ -14302,23 +5798,6 @@ const phrasesDaily = [
     "sourceIndex": 2200
   },
   {
-    "id": "102203",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We are driving to the coast."
-      },
-      "de": {
-        "text": "Wir fahren an die Küste."
-      }
-    },
-    "wordIds": [
-      "12203"
-    ],
-    "sourceIndex": 2203
-  },
-  {
     "id": "102211",
     "category": "daily",
     "level": "medium",
@@ -14334,23 +5813,6 @@ const phrasesDaily = [
       "12211"
     ],
     "sourceIndex": 2211
-  },
-  {
-    "id": "102214",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He gave a clear signal to depart."
-      },
-      "de": {
-        "text": "Er gab ein klares Signal zum Aufbruch."
-      }
-    },
-    "wordIds": [
-      "12214"
-    ],
-    "sourceIndex": 2214
   },
   {
     "id": "102221",
@@ -14387,40 +5849,6 @@ const phrasesDaily = [
     "sourceIndex": 2223
   },
   {
-    "id": "102224",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please use this template for your report."
-      },
-      "de": {
-        "text": "Bitte verwenden Sie diese Vorlage für Ihren Bericht."
-      }
-    },
-    "wordIds": [
-      "12224"
-    ],
-    "sourceIndex": 2224
-  },
-  {
-    "id": "102229",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I will call you later."
-      },
-      "de": {
-        "text": "Ich werde dich später anrufen."
-      }
-    },
-    "wordIds": [
-      "12229"
-    ],
-    "sourceIndex": 2229
-  },
-  {
     "id": "102231",
     "category": "daily",
     "level": "medium",
@@ -14436,57 +5864,6 @@ const phrasesDaily = [
       "12231"
     ],
     "sourceIndex": 2231
-  },
-  {
-    "id": "102233",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The book brings me a lot of joy."
-      },
-      "de": {
-        "text": "Das Buch bereitet mir viel Freude."
-      }
-    },
-    "wordIds": [
-      "12233"
-    ],
-    "sourceIndex": 2233
-  },
-  {
-    "id": "102236",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "Every letter has its own sound."
-      },
-      "de": {
-        "text": "Jeder Buchstabe hat einen eigenen Klang."
-      }
-    },
-    "wordIds": [
-      "12236"
-    ],
-    "sourceIndex": 2236
-  },
-  {
-    "id": "102238",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We live in a digital age."
-      },
-      "de": {
-        "text": "Wir leben in einem digitalen Zeitalter."
-      }
-    },
-    "wordIds": [
-      "12238"
-    ],
-    "sourceIndex": 2238
   },
   {
     "id": "102241",
@@ -14506,23 +5883,6 @@ const phrasesDaily = [
     "sourceIndex": 2241
   },
   {
-    "id": "102242",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We have to finance the project."
-      },
-      "de": {
-        "text": "Wir müssen das Projekt finanzieren."
-      }
-    },
-    "wordIds": [
-      "12242"
-    ],
-    "sourceIndex": 2242
-  },
-  {
     "id": "102247",
     "category": "daily",
     "level": "hard",
@@ -14540,23 +5900,6 @@ const phrasesDaily = [
     "sourceIndex": 2247
   },
   {
-    "id": "102249",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "We eat lunch at twelve o'clock."
-      },
-      "de": {
-        "text": "Wir essen zu Mittag um zwölf Uhr."
-      }
-    },
-    "wordIds": [
-      "12249"
-    ],
-    "sourceIndex": 2249
-  },
-  {
     "id": "102252",
     "category": "daily",
     "level": "medium",
@@ -14572,40 +5915,6 @@ const phrasesDaily = [
       "12252"
     ],
     "sourceIndex": 2252
-  },
-  {
-    "id": "102256",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Can you guess how old I am?"
-      },
-      "de": {
-        "text": "Kannst du raten, wie alt ich bin?"
-      }
-    },
-    "wordIds": [
-      "12256"
-    ],
-    "sourceIndex": 2256
-  },
-  {
-    "id": "102259",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Tourism is an important source of income for the region."
-      },
-      "de": {
-        "text": "Der Tourismus ist eine wichtige Einnahmequelle für die Region."
-      }
-    },
-    "wordIds": [
-      "12259"
-    ],
-    "sourceIndex": 2259
   },
   {
     "id": "102261",
@@ -14659,23 +5968,6 @@ const phrasesDaily = [
     "sourceIndex": 2268
   },
   {
-    "id": "102272",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "It was a very pleasant evening."
-      },
-      "de": {
-        "text": "Es war ein sehr angenehmer Abend."
-      }
-    },
-    "wordIds": [
-      "12272"
-    ],
-    "sourceIndex": 2272
-  },
-  {
     "id": "102274",
     "category": "daily",
     "level": "hard",
@@ -14691,40 +5983,6 @@ const phrasesDaily = [
       "12274"
     ],
     "sourceIndex": 2274
-  },
-  {
-    "id": "102276",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I feel most comfortable at home."
-      },
-      "de": {
-        "text": "Ich fühle mich daheim am wohlsten."
-      }
-    },
-    "wordIds": [
-      "12276"
-    ],
-    "sourceIndex": 2276
-  },
-  {
-    "id": "102277",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Get the dirt off your shoes!"
-      },
-      "de": {
-        "text": "Mach den Dreck von deinen Schuhen ab!"
-      }
-    },
-    "wordIds": [
-      "12277"
-    ],
-    "sourceIndex": 2277
   },
   {
     "id": "102280",
@@ -14761,74 +6019,6 @@ const phrasesDaily = [
     "sourceIndex": 2282
   },
   {
-    "id": "102285",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please go to the cash register."
-      },
-      "de": {
-        "text": "Bitte gehen Sie zur Kasse."
-      }
-    },
-    "wordIds": [
-      "12285"
-    ],
-    "sourceIndex": 2285
-  },
-  {
-    "id": "102287",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The dog buries its bone in the garden."
-      },
-      "de": {
-        "text": "Der Hund vergräbt seinen Knochen im Garten."
-      }
-    },
-    "wordIds": [
-      "12287"
-    ],
-    "sourceIndex": 2287
-  },
-  {
-    "id": "102289",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She is in a good mood today."
-      },
-      "de": {
-        "text": "Sie hat heute gute Laune."
-      }
-    },
-    "wordIds": [
-      "12289"
-    ],
-    "sourceIndex": 2289
-  },
-  {
-    "id": "102304",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "Please sit on the chair."
-      },
-      "de": {
-        "text": "Bitte setzen Sie sich auf den Stuhl."
-      }
-    },
-    "wordIds": [
-      "12304"
-    ],
-    "sourceIndex": 2304
-  },
-  {
     "id": "102308",
     "category": "daily",
     "level": "hard",
@@ -14844,23 +6034,6 @@ const phrasesDaily = [
       "12308"
     ],
     "sourceIndex": 2308
-  },
-  {
-    "id": "102309",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The goods will be delivered tomorrow."
-      },
-      "de": {
-        "text": "Die Ware wird morgen geliefert."
-      }
-    },
-    "wordIds": [
-      "12309"
-    ],
-    "sourceIndex": 2309
   },
   {
     "id": "102310",
@@ -14897,23 +6070,6 @@ const phrasesDaily = [
     "sourceIndex": 2311
   },
   {
-    "id": "102312",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The plant has deep roots."
-      },
-      "de": {
-        "text": "Die Pflanze hat tiefe Wurzeln."
-      }
-    },
-    "wordIds": [
-      "12312"
-    ],
-    "sourceIndex": 2312
-  },
-  {
     "id": "102313",
     "category": "daily",
     "level": "hard",
@@ -14948,193 +6104,6 @@ const phrasesDaily = [
     "sourceIndex": 2316
   },
   {
-    "id": "102318",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please set the table."
-      },
-      "de": {
-        "text": "Bitte deck den Tisch."
-      }
-    },
-    "wordIds": [
-      "12318"
-    ],
-    "sourceIndex": 2318
-  },
-  {
-    "id": "102321",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We have to go there."
-      },
-      "de": {
-        "text": "Wir müssen dorthin gehen."
-      }
-    },
-    "wordIds": [
-      "12321"
-    ],
-    "sourceIndex": 2321
-  },
-  {
-    "id": "102323",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "After the vacation, she was very relaxed."
-      },
-      "de": {
-        "text": "Nach dem Urlaub war sie sehr entspannt."
-      }
-    },
-    "wordIds": [
-      "12323"
-    ],
-    "sourceIndex": 2323
-  },
-  {
-    "id": "102326",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I want to enjoy the beautiful weather."
-      },
-      "de": {
-        "text": "Ich möchte das schöne Wetter genießen."
-      }
-    },
-    "wordIds": [
-      "12326"
-    ],
-    "sourceIndex": 2326
-  },
-  {
-    "id": "102327",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "My children go to primary school."
-      },
-      "de": {
-        "text": "Meine Kinder gehen in die Grundschule."
-      }
-    },
-    "wordIds": [
-      "12327"
-    ],
-    "sourceIndex": 2327
-  },
-  {
-    "id": "102328",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The glass is still intact."
-      },
-      "de": {
-        "text": "Das Glas ist noch heil."
-      }
-    },
-    "wordIds": [
-      "12328"
-    ],
-    "sourceIndex": 2328
-  },
-  {
-    "id": "102332",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "She has red lips."
-      },
-      "de": {
-        "text": "Sie hat rote Lippen."
-      }
-    },
-    "wordIds": [
-      "12332"
-    ],
-    "sourceIndex": 2332
-  },
-  {
-    "id": "102333",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "There was an important report in the news."
-      },
-      "de": {
-        "text": "Es gab eine wichtige Meldung in den Nachrichten."
-      }
-    },
-    "wordIds": [
-      "12333"
-    ],
-    "sourceIndex": 2333
-  },
-  {
-    "id": "102337",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She has a lot of power for sports."
-      },
-      "de": {
-        "text": "Sie hat viel Power für den Sport."
-      }
-    },
-    "wordIds": [
-      "12337"
-    ],
-    "sourceIndex": 2337
-  },
-  {
-    "id": "102341",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I often dream of traveling."
-      },
-      "de": {
-        "text": "Ich träume oft von Reisen."
-      }
-    },
-    "wordIds": [
-      "12341"
-    ],
-    "sourceIndex": 2341
-  },
-  {
-    "id": "102348",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "That is a cheap car."
-      },
-      "de": {
-        "text": "Das ist ein billiges Auto."
-      }
-    },
-    "wordIds": [
-      "12348"
-    ],
-    "sourceIndex": 2348
-  },
-  {
     "id": "102351",
     "category": "daily",
     "level": "medium",
@@ -15150,57 +6119,6 @@ const phrasesDaily = [
       "12351"
     ],
     "sourceIndex": 2351
-  },
-  {
-    "id": "102355",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "My husband is coming home tonight."
-      },
-      "de": {
-        "text": "Mein Ehemann kommt heute Abend nach Hause."
-      }
-    },
-    "wordIds": [
-      "12355"
-    ],
-    "sourceIndex": 2355
-  },
-  {
-    "id": "102356",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We need to go into the details."
-      },
-      "de": {
-        "text": "Wir müssen auf die Details eingehen."
-      }
-    },
-    "wordIds": [
-      "12356"
-    ],
-    "sourceIndex": 2356
-  },
-  {
-    "id": "102360",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "They want to marry next year."
-      },
-      "de": {
-        "text": "Sie wollen nächstes Jahr heiraten."
-      }
-    },
-    "wordIds": [
-      "12360"
-    ],
-    "sourceIndex": 2360
   },
   {
     "id": "102366",
@@ -15220,23 +6138,6 @@ const phrasesDaily = [
     "sourceIndex": 2366
   },
   {
-    "id": "102374",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The sign shows the way to the train station."
-      },
-      "de": {
-        "text": "Das Schild zeigt den Weg zum Bahnhof."
-      }
-    },
-    "wordIds": [
-      "12374"
-    ],
-    "sourceIndex": 2374
-  },
-  {
     "id": "102377",
     "category": "daily",
     "level": "medium",
@@ -15252,23 +6153,6 @@ const phrasesDaily = [
       "12377"
     ],
     "sourceIndex": 2377
-  },
-  {
-    "id": "102379",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The municipal library is very large."
-      },
-      "de": {
-        "text": "Die städtische Bibliothek ist sehr groß."
-      }
-    },
-    "wordIds": [
-      "12379"
-    ],
-    "sourceIndex": 2379
   },
   {
     "id": "102382",
@@ -15288,23 +6172,6 @@ const phrasesDaily = [
     "sourceIndex": 2382
   },
   {
-    "id": "102394",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My brother studies at college."
-      },
-      "de": {
-        "text": "Mein Bruder studiert am College."
-      }
-    },
-    "wordIds": [
-      "12394"
-    ],
-    "sourceIndex": 2394
-  },
-  {
     "id": "102400",
     "category": "daily",
     "level": "hard",
@@ -15320,23 +6187,6 @@ const phrasesDaily = [
       "12400"
     ],
     "sourceIndex": 2400
-  },
-  {
-    "id": "102407",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "My hobby is reading."
-      },
-      "de": {
-        "text": "Mein Hobby ist Lesen."
-      }
-    },
-    "wordIds": [
-      "12407"
-    ],
-    "sourceIndex": 2407
   },
   {
     "id": "102411",
@@ -15373,40 +6223,6 @@ const phrasesDaily = [
     "sourceIndex": 2419
   },
   {
-    "id": "102424",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "My car is in the workshop."
-      },
-      "de": {
-        "text": "Mein Auto ist in der Werkstatt."
-      }
-    },
-    "wordIds": [
-      "12424"
-    ],
-    "sourceIndex": 2424
-  },
-  {
-    "id": "102429",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We warmly welcome our guests."
-      },
-      "de": {
-        "text": "Wir begrüßen unsere Gäste herzlich."
-      }
-    },
-    "wordIds": [
-      "12429"
-    ],
-    "sourceIndex": 2429
-  },
-  {
     "id": "102431",
     "category": "daily",
     "level": "hard",
@@ -15441,23 +6257,6 @@ const phrasesDaily = [
     "sourceIndex": 2433
   },
   {
-    "id": "102434",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I need a recommendation for a good restaurant."
-      },
-      "de": {
-        "text": "Ich brauche eine Empfehlung für ein gutes Restaurant."
-      }
-    },
-    "wordIds": [
-      "12434"
-    ],
-    "sourceIndex": 2434
-  },
-  {
     "id": "102438",
     "category": "daily",
     "level": "hard",
@@ -15473,23 +6272,6 @@ const phrasesDaily = [
       "12438"
     ],
     "sourceIndex": 2438
-  },
-  {
-    "id": "102441",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The fee for registration is ten euros."
-      },
-      "de": {
-        "text": "Die Gebühr für die Anmeldung beträgt zehn Euro."
-      }
-    },
-    "wordIds": [
-      "12441"
-    ],
-    "sourceIndex": 2441
   },
   {
     "id": "102443",
@@ -15509,74 +6291,6 @@ const phrasesDaily = [
     "sourceIndex": 2443
   },
   {
-    "id": "102445",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I am very happy today."
-      },
-      "de": {
-        "text": "Ich bin heute sehr happy."
-      }
-    },
-    "wordIds": [
-      "12445"
-    ],
-    "sourceIndex": 2445
-  },
-  {
-    "id": "102448",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Berlin is a very cultural city."
-      },
-      "de": {
-        "text": "Berlin ist eine sehr kulturelle Stadt."
-      }
-    },
-    "wordIds": [
-      "12448"
-    ],
-    "sourceIndex": 2448
-  },
-  {
-    "id": "102452",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "This piece of jewelry is made of pure metal."
-      },
-      "de": {
-        "text": "Dieses Schmuckstück ist aus reinem Metall."
-      }
-    },
-    "wordIds": [
-      "12452"
-    ],
-    "sourceIndex": 2452
-  },
-  {
-    "id": "102455",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Children love to hear fairy tales."
-      },
-      "de": {
-        "text": "Kinder lieben es, Märchen zu hören."
-      }
-    },
-    "wordIds": [
-      "12455"
-    ],
-    "sourceIndex": 2455
-  },
-  {
     "id": "102456",
     "category": "daily",
     "level": "medium",
@@ -15594,23 +6308,6 @@ const phrasesDaily = [
     "sourceIndex": 2456
   },
   {
-    "id": "102457",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "He is always punctual for work."
-      },
-      "de": {
-        "text": "Er ist immer pünktlich zur Arbeit."
-      }
-    },
-    "wordIds": [
-      "12457"
-    ],
-    "sourceIndex": 2457
-  },
-  {
     "id": "102468",
     "category": "daily",
     "level": "hard",
@@ -15626,40 +6323,6 @@ const phrasesDaily = [
       "12468"
     ],
     "sourceIndex": 2468
-  },
-  {
-    "id": "102473",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I have to sign up for the course."
-      },
-      "de": {
-        "text": "Ich muss mich für den Kurs anmelden."
-      }
-    },
-    "wordIds": [
-      "12473"
-    ],
-    "sourceIndex": 2473
-  },
-  {
-    "id": "102482",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "We meet at the cafe."
-      },
-      "de": {
-        "text": "Wir treffen uns im Café."
-      }
-    },
-    "wordIds": [
-      "12482"
-    ],
-    "sourceIndex": 2482
   },
   {
     "id": "102485",
@@ -15713,40 +6376,6 @@ const phrasesDaily = [
     "sourceIndex": 2489
   },
   {
-    "id": "102493",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The congress will take place next week."
-      },
-      "de": {
-        "text": "Der Kongress findet nächste Woche statt."
-      }
-    },
-    "wordIds": [
-      "12493"
-    ],
-    "sourceIndex": 2493
-  },
-  {
-    "id": "102498",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Animals need food to survive."
-      },
-      "de": {
-        "text": "Tiere brauchen Nahrung zum Überleben."
-      }
-    },
-    "wordIds": [
-      "12498"
-    ],
-    "sourceIndex": 2498
-  },
-  {
     "id": "102502",
     "category": "daily",
     "level": "hard",
@@ -15798,23 +6427,6 @@ const phrasesDaily = [
     "sourceIndex": 2505
   },
   {
-    "id": "102510",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I speak a little Spanish."
-      },
-      "de": {
-        "text": "Ich spreche ein bisschen Spanisch."
-      }
-    },
-    "wordIds": [
-      "12510"
-    ],
-    "sourceIndex": 2510
-  },
-  {
     "id": "102511",
     "category": "daily",
     "level": "hard",
@@ -15832,91 +6444,6 @@ const phrasesDaily = [
     "sourceIndex": 2511
   },
   {
-    "id": "102512",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "They often argue about trifles."
-      },
-      "de": {
-        "text": "Sie streiten sich oft über Kleinigkeiten."
-      }
-    },
-    "wordIds": [
-      "12512"
-    ],
-    "sourceIndex": 2512
-  },
-  {
-    "id": "102513",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The village lies in a beautiful valley."
-      },
-      "de": {
-        "text": "Das Dorf liegt in einem schönen Tal."
-      }
-    },
-    "wordIds": [
-      "12513"
-    ],
-    "sourceIndex": 2513
-  },
-  {
-    "id": "102518",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The game went into overtime."
-      },
-      "de": {
-        "text": "Das Spiel ging in die Verlängerung."
-      }
-    },
-    "wordIds": [
-      "12518"
-    ],
-    "sourceIndex": 2518
-  },
-  {
-    "id": "102519",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "What do you have planned for tonight?"
-      },
-      "de": {
-        "text": "Was hast du heute Abend vor?"
-      }
-    },
-    "wordIds": [
-      "12519"
-    ],
-    "sourceIndex": 2519
-  },
-  {
-    "id": "102520",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I saw him a moment ago."
-      },
-      "de": {
-        "text": "Ich habe ihn vorhin gesehen."
-      }
-    },
-    "wordIds": [
-      "12520"
-    ],
-    "sourceIndex": 2520
-  },
-  {
     "id": "102528",
     "category": "daily",
     "level": "hard",
@@ -15932,23 +6459,6 @@ const phrasesDaily = [
       "12528"
     ],
     "sourceIndex": 2528
-  },
-  {
-    "id": "102534",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I take a shower every morning."
-      },
-      "de": {
-        "text": "Ich nehme jeden Morgen eine Dusche."
-      }
-    },
-    "wordIds": [
-      "12534"
-    ],
-    "sourceIndex": 2534
   },
   {
     "id": "102537",
@@ -16002,23 +6512,6 @@ const phrasesDaily = [
     "sourceIndex": 2542
   },
   {
-    "id": "102543",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "They lived in a small hut."
-      },
-      "de": {
-        "text": "Sie wohnten in einer kleinen Hütte."
-      }
-    },
-    "wordIds": [
-      "12543"
-    ],
-    "sourceIndex": 2543
-  },
-  {
     "id": "102549",
     "category": "daily",
     "level": "easy",
@@ -16068,23 +6561,6 @@ const phrasesDaily = [
       "12555"
     ],
     "sourceIndex": 2555
-  },
-  {
-    "id": "102562",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The old temple stands on a hill."
-      },
-      "de": {
-        "text": "Der alte Tempel steht auf einem Hügel."
-      }
-    },
-    "wordIds": [
-      "12562"
-    ],
-    "sourceIndex": 2562
   },
   {
     "id": "102563",
@@ -16138,40 +6614,6 @@ const phrasesDaily = [
     "sourceIndex": 2569
   },
   {
-    "id": "102571",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She trains new teachers."
-      },
-      "de": {
-        "text": "Sie bildet neue Lehrer aus."
-      }
-    },
-    "wordIds": [
-      "12571"
-    ],
-    "sourceIndex": 2571
-  },
-  {
-    "id": "102573",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Can you please give me information?"
-      },
-      "de": {
-        "text": "Können Sie mir bitte Auskunft geben?"
-      }
-    },
-    "wordIds": [
-      "12573"
-    ],
-    "sourceIndex": 2573
-  },
-  {
     "id": "102576",
     "category": "daily",
     "level": "hard",
@@ -16189,23 +6631,6 @@ const phrasesDaily = [
     "sourceIndex": 2576
   },
   {
-    "id": "102580",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The fire burns brightly."
-      },
-      "de": {
-        "text": "Das Feuer brennt hell."
-      }
-    },
-    "wordIds": [
-      "12580"
-    ],
-    "sourceIndex": 2580
-  },
-  {
     "id": "102585",
     "category": "daily",
     "level": "hard",
@@ -16221,23 +6646,6 @@ const phrasesDaily = [
       "12585"
     ],
     "sourceIndex": 2585
-  },
-  {
-    "id": "102589",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The graphic shows the sales figures."
-      },
-      "de": {
-        "text": "Die Grafik zeigt die Verkaufszahlen."
-      }
-    },
-    "wordIds": [
-      "12589"
-    ],
-    "sourceIndex": 2589
   },
   {
     "id": "102593",
@@ -16272,40 +6680,6 @@ const phrasesDaily = [
       "12594"
     ],
     "sourceIndex": 2594
-  },
-  {
-    "id": "102600",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I met him recently."
-      },
-      "de": {
-        "text": "Ich habe ihn neulich getroffen."
-      }
-    },
-    "wordIds": [
-      "12600"
-    ],
-    "sourceIndex": 2600
-  },
-  {
-    "id": "102604",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The robot can speak."
-      },
-      "de": {
-        "text": "Der Roboter kann sprechen."
-      }
-    },
-    "wordIds": [
-      "12604"
-    ],
-    "sourceIndex": 2604
   },
   {
     "id": "102608",
@@ -16393,23 +6767,6 @@ const phrasesDaily = [
     "sourceIndex": 2627
   },
   {
-    "id": "102629",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I would like to thank you for your help."
-      },
-      "de": {
-        "text": "Ich möchte dir für deine Hilfe danken."
-      }
-    },
-    "wordIds": [
-      "12629"
-    ],
-    "sourceIndex": 2629
-  },
-  {
     "id": "102636",
     "category": "daily",
     "level": "hard",
@@ -16461,23 +6818,6 @@ const phrasesDaily = [
     "sourceIndex": 2647
   },
   {
-    "id": "102648",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The painter paints the wall green."
-      },
-      "de": {
-        "text": "Der Maler streicht die Wand grün."
-      }
-    },
-    "wordIds": [
-      "12648"
-    ],
-    "sourceIndex": 2648
-  },
-  {
     "id": "102650",
     "category": "daily",
     "level": "medium",
@@ -16512,91 +6852,6 @@ const phrasesDaily = [
     "sourceIndex": 2655
   },
   {
-    "id": "102656",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I love chocolate."
-      },
-      "de": {
-        "text": "Ich liebe Schokolade."
-      }
-    },
-    "wordIds": [
-      "12656"
-    ],
-    "sourceIndex": 2656
-  },
-  {
-    "id": "102657",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He started to scream loudly."
-      },
-      "de": {
-        "text": "Er begann laut zu schreien."
-      }
-    },
-    "wordIds": [
-      "12657"
-    ],
-    "sourceIndex": 2657
-  },
-  {
-    "id": "102659",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I suspect that he is telling the truth."
-      },
-      "de": {
-        "text": "Ich vermute, dass er die Wahrheit sagt."
-      }
-    },
-    "wordIds": [
-      "12659"
-    ],
-    "sourceIndex": 2659
-  },
-  {
-    "id": "102662",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We like to hike in the mountains."
-      },
-      "de": {
-        "text": "Wir gehen gerne in den Bergen wandern."
-      }
-    },
-    "wordIds": [
-      "12662"
-    ],
-    "sourceIndex": 2662
-  },
-  {
-    "id": "102663",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I need to wash my clothes."
-      },
-      "de": {
-        "text": "Ich muss meine Kleidung waschen."
-      }
-    },
-    "wordIds": [
-      "12663"
-    ],
-    "sourceIndex": 2663
-  },
-  {
     "id": "102667",
     "category": "daily",
     "level": "hard",
@@ -16612,57 +6867,6 @@ const phrasesDaily = [
       "12667"
     ],
     "sourceIndex": 2667
-  },
-  {
-    "id": "102671",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The registration for the course is now open."
-      },
-      "de": {
-        "text": "Die Anmeldung für den Kurs ist jetzt geöffnet."
-      }
-    },
-    "wordIds": [
-      "12671"
-    ],
-    "sourceIndex": 2671
-  },
-  {
-    "id": "102676",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I often meet him in the city."
-      },
-      "de": {
-        "text": "Ich begegne ihm oft in der Stadt."
-      }
-    },
-    "wordIds": [
-      "12676"
-    ],
-    "sourceIndex": 2676
-  },
-  {
-    "id": "102677",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She filed a complaint about the service."
-      },
-      "de": {
-        "text": "Sie hat eine Beschwerde über den Service eingereicht."
-      }
-    },
-    "wordIds": [
-      "12677"
-    ],
-    "sourceIndex": 2677
   },
   {
     "id": "102679",
@@ -16714,23 +6918,6 @@ const phrasesDaily = [
       "12693"
     ],
     "sourceIndex": 2693
-  },
-  {
-    "id": "102695",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I like to listen to jazz."
-      },
-      "de": {
-        "text": "Ich höre gerne Jazz."
-      }
-    },
-    "wordIds": [
-      "12695"
-    ],
-    "sourceIndex": 2695
   },
   {
     "id": "102700",
@@ -16801,23 +6988,6 @@ const phrasesDaily = [
     "sourceIndex": 2715
   },
   {
-    "id": "102716",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Consumers demand better products."
-      },
-      "de": {
-        "text": "Die Verbraucher fordern bessere Produkte."
-      }
-    },
-    "wordIds": [
-      "12716"
-    ],
-    "sourceIndex": 2716
-  },
-  {
     "id": "102719",
     "category": "daily",
     "level": "hard",
@@ -16852,40 +7022,6 @@ const phrasesDaily = [
     "sourceIndex": 2722
   },
   {
-    "id": "102727",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I would like to apply for this position."
-      },
-      "de": {
-        "text": "Ich möchte mich um diese Stelle bewerben."
-      }
-    },
-    "wordIds": [
-      "12727"
-    ],
-    "sourceIndex": 2727
-  },
-  {
-    "id": "102728",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The boy played in the garden."
-      },
-      "de": {
-        "text": "Der Boy spielte im Garten."
-      }
-    },
-    "wordIds": [
-      "12728"
-    ],
-    "sourceIndex": 2728
-  },
-  {
     "id": "102737",
     "category": "daily",
     "level": "hard",
@@ -16901,74 +7037,6 @@ const phrasesDaily = [
       "12737"
     ],
     "sourceIndex": 2737
-  },
-  {
-    "id": "102738",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "This object is very old."
-      },
-      "de": {
-        "text": "Dieser Gegenstand ist sehr alt."
-      }
-    },
-    "wordIds": [
-      "12738"
-    ],
-    "sourceIndex": 2738
-  },
-  {
-    "id": "102739",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please read the manual."
-      },
-      "de": {
-        "text": "Bitte lesen Sie das Handbuch."
-      }
-    },
-    "wordIds": [
-      "12739"
-    ],
-    "sourceIndex": 2739
-  },
-  {
-    "id": "102743",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The chamber was small and dark."
-      },
-      "de": {
-        "text": "Die Kammer war klein und dunkel."
-      }
-    },
-    "wordIds": [
-      "12743"
-    ],
-    "sourceIndex": 2743
-  },
-  {
-    "id": "102751",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The athlete trains every day."
-      },
-      "de": {
-        "text": "Der Sportler trainiert jeden Tag."
-      }
-    },
-    "wordIds": [
-      "12751"
-    ],
-    "sourceIndex": 2751
   },
   {
     "id": "102755",
@@ -17090,23 +7158,6 @@ const phrasesDaily = [
     "sourceIndex": 2770
   },
   {
-    "id": "102772",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "They must combat the causes of the problem."
-      },
-      "de": {
-        "text": "Sie müssen die Ursachen des Problems bekämpfen."
-      }
-    },
-    "wordIds": [
-      "12772"
-    ],
-    "sourceIndex": 2772
-  },
-  {
     "id": "102773",
     "category": "daily",
     "level": "hard",
@@ -17158,23 +7209,6 @@ const phrasesDaily = [
     "sourceIndex": 2785
   },
   {
-    "id": "102788",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "My laptop is broken."
-      },
-      "de": {
-        "text": "Mein Laptop ist kaputt."
-      }
-    },
-    "wordIds": [
-      "12788"
-    ],
-    "sourceIndex": 2788
-  },
-  {
     "id": "102791",
     "category": "daily",
     "level": "hard",
@@ -17190,23 +7224,6 @@ const phrasesDaily = [
       "12791"
     ],
     "sourceIndex": 2791
-  },
-  {
-    "id": "102794",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Smoke came out of the chimney."
-      },
-      "de": {
-        "text": "Aus dem Schornstein kam Rauch."
-      }
-    },
-    "wordIds": [
-      "12794"
-    ],
-    "sourceIndex": 2794
   },
   {
     "id": "102795",
@@ -17226,23 +7243,6 @@ const phrasesDaily = [
     "sourceIndex": 2795
   },
   {
-    "id": "102797",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He works the night shift."
-      },
-      "de": {
-        "text": "Er arbeitet in der Nachtschicht."
-      }
-    },
-    "wordIds": [
-      "12797"
-    ],
-    "sourceIndex": 2797
-  },
-  {
     "id": "102799",
     "category": "daily",
     "level": "hard",
@@ -17258,40 +7258,6 @@ const phrasesDaily = [
       "12799"
     ],
     "sourceIndex": 2799
-  },
-  {
-    "id": "102806",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please sign here."
-      },
-      "de": {
-        "text": "Bitte unterschreiben Sie hier."
-      }
-    },
-    "wordIds": [
-      "12806"
-    ],
-    "sourceIndex": 2806
-  },
-  {
-    "id": "102808",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We got lost in the forest."
-      },
-      "de": {
-        "text": "Wir haben uns im Wald verlaufen."
-      }
-    },
-    "wordIds": [
-      "12808"
-    ],
-    "sourceIndex": 2808
   },
   {
     "id": "102813",
@@ -17311,23 +7277,6 @@ const phrasesDaily = [
     "sourceIndex": 2813
   },
   {
-    "id": "102819",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "There was a lot of excitement before the concert."
-      },
-      "de": {
-        "text": "Es gab viel Aufregung vor dem Konzert."
-      }
-    },
-    "wordIds": [
-      "12819"
-    ],
-    "sourceIndex": 2819
-  },
-  {
     "id": "102823",
     "category": "daily",
     "level": "hard",
@@ -17345,57 +7294,6 @@ const phrasesDaily = [
     "sourceIndex": 2823
   },
   {
-    "id": "102835",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I am afraid of spiders."
-      },
-      "de": {
-        "text": "Ich fürchte mich vor Spinnen."
-      }
-    },
-    "wordIds": [
-      "12835"
-    ],
-    "sourceIndex": 2835
-  },
-  {
-    "id": "102838",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I have to water the flowers."
-      },
-      "de": {
-        "text": "Ich muss die Blumen giessen."
-      }
-    },
-    "wordIds": [
-      "12838"
-    ],
-    "sourceIndex": 2838
-  },
-  {
-    "id": "102839",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He is learning an old craft."
-      },
-      "de": {
-        "text": "Er lernt ein altes Handwerk."
-      }
-    },
-    "wordIds": [
-      "12839"
-    ],
-    "sourceIndex": 2839
-  },
-  {
     "id": "102840",
     "category": "daily",
     "level": "hard",
@@ -17411,23 +7309,6 @@ const phrasesDaily = [
       "12840"
     ],
     "sourceIndex": 2840
-  },
-  {
-    "id": "102842",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The calendar hangs on the wall."
-      },
-      "de": {
-        "text": "Der Kalender hängt an der Wand."
-      }
-    },
-    "wordIds": [
-      "12842"
-    ],
-    "sourceIndex": 2842
   },
   {
     "id": "102843",
@@ -17515,74 +7396,6 @@ const phrasesDaily = [
     "sourceIndex": 2856
   },
   {
-    "id": "102857",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The large hall was full of people."
-      },
-      "de": {
-        "text": "Der große Saal war voller Menschen."
-      }
-    },
-    "wordIds": [
-      "12857"
-    ],
-    "sourceIndex": 2857
-  },
-  {
-    "id": "102860",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Have you ever been to Berlin?"
-      },
-      "de": {
-        "text": "Warst du schonmal in Berlin?"
-      }
-    },
-    "wordIds": [
-      "12860"
-    ],
-    "sourceIndex": 2860
-  },
-  {
-    "id": "102862",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I still need to text a message."
-      },
-      "de": {
-        "text": "Ich muss noch eine Nachricht texten."
-      }
-    },
-    "wordIds": [
-      "12862"
-    ],
-    "sourceIndex": 2862
-  },
-  {
-    "id": "102864",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "He feels insecure in the new environment."
-      },
-      "de": {
-        "text": "Er fühlt sich unsicher in der neuen Umgebung."
-      }
-    },
-    "wordIds": [
-      "12864"
-    ],
-    "sourceIndex": 2864
-  },
-  {
     "id": "102867",
     "category": "daily",
     "level": "easy",
@@ -17617,23 +7430,6 @@ const phrasesDaily = [
     "sourceIndex": 2871
   },
   {
-    "id": "102878",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I would like to apologize."
-      },
-      "de": {
-        "text": "Ich möchte mich entschuldigen."
-      }
-    },
-    "wordIds": [
-      "12878"
-    ],
-    "sourceIndex": 2878
-  },
-  {
     "id": "102881",
     "category": "daily",
     "level": "hard",
@@ -17649,23 +7445,6 @@ const phrasesDaily = [
       "12881"
     ],
     "sourceIndex": 2881
-  },
-  {
-    "id": "102882",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The girl sang a song."
-      },
-      "de": {
-        "text": "Das Girl sang ein Lied."
-      }
-    },
-    "wordIds": [
-      "12882"
-    ],
-    "sourceIndex": 2882
   },
   {
     "id": "102885",
@@ -17702,23 +7481,6 @@ const phrasesDaily = [
     "sourceIndex": 2886
   },
   {
-    "id": "102892",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The rent is to be paid monthly."
-      },
-      "de": {
-        "text": "Die Miete ist monatlich zu zahlen."
-      }
-    },
-    "wordIds": [
-      "12892"
-    ],
-    "sourceIndex": 2892
-  },
-  {
     "id": "102893",
     "category": "daily",
     "level": "medium",
@@ -17736,23 +7498,6 @@ const phrasesDaily = [
     "sourceIndex": 2893
   },
   {
-    "id": "102894",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The car is orange."
-      },
-      "de": {
-        "text": "Das Auto ist orange."
-      }
-    },
-    "wordIds": [
-      "12894"
-    ],
-    "sourceIndex": 2894
-  },
-  {
     "id": "102898",
     "category": "daily",
     "level": "medium",
@@ -17768,57 +7513,6 @@ const phrasesDaily = [
       "12898"
     ],
     "sourceIndex": 2898
-  },
-  {
-    "id": "102904",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She is five months pregnant."
-      },
-      "de": {
-        "text": "Sie ist im fünften Monat schwanger."
-      }
-    },
-    "wordIds": [
-      "12904"
-    ],
-    "sourceIndex": 2904
-  },
-  {
-    "id": "102910",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I train every day."
-      },
-      "de": {
-        "text": "Ich trainiere jeden Tag."
-      }
-    },
-    "wordIds": [
-      "12910"
-    ],
-    "sourceIndex": 2910
-  },
-  {
-    "id": "102912",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "A drop of water fell on the floor."
-      },
-      "de": {
-        "text": "Ein Tropfen Wasser fiel auf den Boden."
-      }
-    },
-    "wordIds": [
-      "12912"
-    ],
-    "sourceIndex": 2912
   },
   {
     "id": "102917",
@@ -17906,23 +7600,6 @@ const phrasesDaily = [
     "sourceIndex": 2932
   },
   {
-    "id": "102934",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The enjoyment of good food is priceless."
-      },
-      "de": {
-        "text": "Der Genuss eines guten Essens ist unbezahlbar."
-      }
-    },
-    "wordIds": [
-      "12934"
-    ],
-    "sourceIndex": 2934
-  },
-  {
     "id": "102936",
     "category": "daily",
     "level": "hard",
@@ -17974,57 +7651,6 @@ const phrasesDaily = [
     "sourceIndex": 2941
   },
   {
-    "id": "102943",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He has military training."
-      },
-      "de": {
-        "text": "Er hat eine militärische Ausbildung."
-      }
-    },
-    "wordIds": [
-      "12943"
-    ],
-    "sourceIndex": 2943
-  },
-  {
-    "id": "102948",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I bought a pack of cookies."
-      },
-      "de": {
-        "text": "Ich habe ein Pack Kekse gekauft."
-      }
-    },
-    "wordIds": [
-      "12948"
-    ],
-    "sourceIndex": 2948
-  },
-  {
-    "id": "102951",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We have a pool in the garden."
-      },
-      "de": {
-        "text": "Wir haben einen Pool im Garten."
-      }
-    },
-    "wordIds": [
-      "12951"
-    ],
-    "sourceIndex": 2951
-  },
-  {
     "id": "102953",
     "category": "daily",
     "level": "hard",
@@ -18058,23 +7684,6 @@ const phrasesDaily = [
       "12956"
     ],
     "sourceIndex": 2956
-  },
-  {
-    "id": "102960",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The wardrobe is full of clothes."
-      },
-      "de": {
-        "text": "Der Schrank ist voll mit Kleidung."
-      }
-    },
-    "wordIds": [
-      "12960"
-    ],
-    "sourceIndex": 2960
   },
   {
     "id": "102962",
@@ -18145,23 +7754,6 @@ const phrasesDaily = [
     "sourceIndex": 2969
   },
   {
-    "id": "102971",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I would like to suggest a new plan."
-      },
-      "de": {
-        "text": "Ich möchte einen neuen Plan vorschlagen."
-      }
-    },
-    "wordIds": [
-      "12971"
-    ],
-    "sourceIndex": 2971
-  },
-  {
     "id": "102976",
     "category": "daily",
     "level": "hard",
@@ -18211,40 +7803,6 @@ const phrasesDaily = [
       "12984"
     ],
     "sourceIndex": 2984
-  },
-  {
-    "id": "102987",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The experiment was successful."
-      },
-      "de": {
-        "text": "Das Experiment war erfolgreich."
-      }
-    },
-    "wordIds": [
-      "12987"
-    ],
-    "sourceIndex": 2987
-  },
-  {
-    "id": "102988",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "She is a very diligent student."
-      },
-      "de": {
-        "text": "Sie ist eine sehr fleissige Studentin."
-      }
-    },
-    "wordIds": [
-      "12988"
-    ],
-    "sourceIndex": 2988
   },
   {
     "id": "102990",
@@ -18332,40 +7890,6 @@ const phrasesDaily = [
     "sourceIndex": 3003
   },
   {
-    "id": "103004",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The delivery arrives tomorrow."
-      },
-      "de": {
-        "text": "Die Lieferung kommt morgen an."
-      }
-    },
-    "wordIds": [
-      "13004"
-    ],
-    "sourceIndex": 3004
-  },
-  {
-    "id": "103006",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The neighborhood is very friendly."
-      },
-      "de": {
-        "text": "Die Nachbarschaft ist sehr freundlich."
-      }
-    },
-    "wordIds": [
-      "13006"
-    ],
-    "sourceIndex": 3006
-  },
-  {
     "id": "103008",
     "category": "daily",
     "level": "hard",
@@ -18381,23 +7905,6 @@ const phrasesDaily = [
       "13008"
     ],
     "sourceIndex": 3008
-  },
-  {
-    "id": "103010",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The installation went smoothly."
-      },
-      "de": {
-        "text": "Die Installation verlief problemlos."
-      }
-    },
-    "wordIds": [
-      "13010"
-    ],
-    "sourceIndex": 3010
   },
   {
     "id": "103012",
@@ -18502,23 +8009,6 @@ const phrasesDaily = [
     "sourceIndex": 3029
   },
   {
-    "id": "103034",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Her enthusiasm for the project was contagious."
-      },
-      "de": {
-        "text": "Ihre Begeisterung für das Projekt war ansteckend."
-      }
-    },
-    "wordIds": [
-      "13034"
-    ],
-    "sourceIndex": 3034
-  },
-  {
     "id": "103038",
     "category": "daily",
     "level": "hard",
@@ -18534,40 +8024,6 @@ const phrasesDaily = [
       "13038"
     ],
     "sourceIndex": 3038
-  },
-  {
-    "id": "103045",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Photography is a beautiful hobby."
-      },
-      "de": {
-        "text": "Die Fotografie ist ein schönes Hobby."
-      }
-    },
-    "wordIds": [
-      "13045"
-    ],
-    "sourceIndex": 3045
-  },
-  {
-    "id": "103046",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He is a very peaceful person."
-      },
-      "de": {
-        "text": "Er ist ein sehr friedlicher Mensch."
-      }
-    },
-    "wordIds": [
-      "13046"
-    ],
-    "sourceIndex": 3046
   },
   {
     "id": "103055",
@@ -18621,23 +8077,6 @@ const phrasesDaily = [
     "sourceIndex": 3058
   },
   {
-    "id": "103059",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I don't like math."
-      },
-      "de": {
-        "text": "Ich mag Mathe nicht."
-      }
-    },
-    "wordIds": [
-      "13059"
-    ],
-    "sourceIndex": 3059
-  },
-  {
     "id": "103060",
     "category": "daily",
     "level": "medium",
@@ -18653,23 +8092,6 @@ const phrasesDaily = [
       "13060"
     ],
     "sourceIndex": 3060
-  },
-  {
-    "id": "103061",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The dense fog made the drive difficult."
-      },
-      "de": {
-        "text": "Der dichte Nebel machte die Fahrt schwierig."
-      }
-    },
-    "wordIds": [
-      "13061"
-    ],
-    "sourceIndex": 3061
   },
   {
     "id": "103062",
@@ -18704,40 +8126,6 @@ const phrasesDaily = [
       "13064"
     ],
     "sourceIndex": 3064
-  },
-  {
-    "id": "103074",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The ship began to sink."
-      },
-      "de": {
-        "text": "Das Schiff begann zu sinken."
-      }
-    },
-    "wordIds": [
-      "13074"
-    ],
-    "sourceIndex": 3074
-  },
-  {
-    "id": "103078",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The singer had a beautiful voice."
-      },
-      "de": {
-        "text": "Die Sängerin hatte eine wunderschöne Stimme."
-      }
-    },
-    "wordIds": [
-      "13078"
-    ],
-    "sourceIndex": 3078
   },
   {
     "id": "103079",
@@ -18789,23 +8177,6 @@ const phrasesDaily = [
       "13085"
     ],
     "sourceIndex": 3085
-  },
-  {
-    "id": "103087",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He couldn't stay any longer."
-      },
-      "de": {
-        "text": "Er konnte sich nicht länger aufhalten."
-      }
-    },
-    "wordIds": [
-      "13087"
-    ],
-    "sourceIndex": 3087
   },
   {
     "id": "103091",
@@ -18876,57 +8247,6 @@ const phrasesDaily = [
     "sourceIndex": 3105
   },
   {
-    "id": "103106",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I have a voucher for the restaurant."
-      },
-      "de": {
-        "text": "Ich habe einen Gutschein für das Restaurant."
-      }
-    },
-    "wordIds": [
-      "13106"
-    ],
-    "sourceIndex": 3106
-  },
-  {
-    "id": "103108",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "With one click, the page opened."
-      },
-      "de": {
-        "text": "Mit einem Klick öffnete sich die Seite."
-      }
-    },
-    "wordIds": [
-      "13108"
-    ],
-    "sourceIndex": 3108
-  },
-  {
-    "id": "103114",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He had pity for the poor animal."
-      },
-      "de": {
-        "text": "Er hatte Mitleid mit dem armen Tier."
-      }
-    },
-    "wordIds": [
-      "13114"
-    ],
-    "sourceIndex": 3114
-  },
-  {
     "id": "103122",
     "category": "daily",
     "level": "hard",
@@ -18942,57 +8262,6 @@ const phrasesDaily = [
       "13122"
     ],
     "sourceIndex": 3122
-  },
-  {
-    "id": "103123",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please register online."
-      },
-      "de": {
-        "text": "Bitte registrieren Sie sich online."
-      }
-    },
-    "wordIds": [
-      "13123"
-    ],
-    "sourceIndex": 3123
-  },
-  {
-    "id": "103124",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "She can ride well."
-      },
-      "de": {
-        "text": "Sie kann gut reiten."
-      }
-    },
-    "wordIds": [
-      "13124"
-    ],
-    "sourceIndex": 3124
-  },
-  {
-    "id": "103135",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We have to say goodbye now."
-      },
-      "de": {
-        "text": "Wir müssen uns jetzt verabschieden."
-      }
-    },
-    "wordIds": [
-      "13135"
-    ],
-    "sourceIndex": 3135
   },
   {
     "id": "103136",
@@ -19029,23 +8298,6 @@ const phrasesDaily = [
     "sourceIndex": 3137
   },
   {
-    "id": "103140",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She was desperately looking for help."
-      },
-      "de": {
-        "text": "Sie war verzweifelt auf der Suche nach Hilfe."
-      }
-    },
-    "wordIds": [
-      "13140"
-    ],
-    "sourceIndex": 3140
-  },
-  {
     "id": "103145",
     "category": "daily",
     "level": "hard",
@@ -19063,23 +8315,6 @@ const phrasesDaily = [
     "sourceIndex": 3145
   },
   {
-    "id": "103146",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I have to pick up my children from school."
-      },
-      "de": {
-        "text": "Ich muss meine Kinder von der Schule abholen."
-      }
-    },
-    "wordIds": [
-      "13146"
-    ],
-    "sourceIndex": 3146
-  },
-  {
     "id": "103153",
     "category": "daily",
     "level": "hard",
@@ -19095,23 +8330,6 @@ const phrasesDaily = [
       "13153"
     ],
     "sourceIndex": 3153
-  },
-  {
-    "id": "103154",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The payment takes place at the end of the month."
-      },
-      "de": {
-        "text": "Die Bezahlung erfolgt am Ende des Monats."
-      }
-    },
-    "wordIds": [
-      "13154"
-    ],
-    "sourceIndex": 3154
   },
   {
     "id": "103161",
@@ -19148,23 +8366,6 @@ const phrasesDaily = [
     "sourceIndex": 3164
   },
   {
-    "id": "103166",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The child has a high fever."
-      },
-      "de": {
-        "text": "Das Kind hat hohes Fieber."
-      }
-    },
-    "wordIds": [
-      "13166"
-    ],
-    "sourceIndex": 3166
-  },
-  {
     "id": "103186",
     "category": "daily",
     "level": "hard",
@@ -19182,40 +8383,6 @@ const phrasesDaily = [
     "sourceIndex": 3186
   },
   {
-    "id": "103191",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She cares for her flowers every day."
-      },
-      "de": {
-        "text": "Sie pflegt ihre Blumen jeden Tag."
-      }
-    },
-    "wordIds": [
-      "13191"
-    ],
-    "sourceIndex": 3191
-  },
-  {
-    "id": "103199",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The teenagers met in the park."
-      },
-      "de": {
-        "text": "Die Teenager trafen sich im Park."
-      }
-    },
-    "wordIds": [
-      "13199"
-    ],
-    "sourceIndex": 3199
-  },
-  {
     "id": "103202",
     "category": "daily",
     "level": "hard",
@@ -19231,40 +8398,6 @@ const phrasesDaily = [
       "13202"
     ],
     "sourceIndex": 3202
-  },
-  {
-    "id": "103203",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "They organize a big festival every year."
-      },
-      "de": {
-        "text": "Sie veranstalten jedes Jahr ein großes Fest."
-      }
-    },
-    "wordIds": [
-      "13203"
-    ],
-    "sourceIndex": 3203
-  },
-  {
-    "id": "103204",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We are connected by a long friendship."
-      },
-      "de": {
-        "text": "Wir sind durch eine lange Freundschaft verbunden."
-      }
-    },
-    "wordIds": [
-      "13204"
-    ],
-    "sourceIndex": 3204
   },
   {
     "id": "103207",
@@ -19369,23 +8502,6 @@ const phrasesDaily = [
     "sourceIndex": 3222
   },
   {
-    "id": "103228",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please enter your name here."
-      },
-      "de": {
-        "text": "Bitte tragen Sie Ihren Namen hier ein."
-      }
-    },
-    "wordIds": [
-      "13228"
-    ],
-    "sourceIndex": 3228
-  },
-  {
     "id": "103233",
     "category": "daily",
     "level": "hard",
@@ -19454,40 +8570,6 @@ const phrasesDaily = [
     "sourceIndex": 3239
   },
   {
-    "id": "103240",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "Would you like a cold drink?"
-      },
-      "de": {
-        "text": "Möchtest du ein kaltes Getränk?"
-      }
-    },
-    "wordIds": [
-      "13240"
-    ],
-    "sourceIndex": 3240
-  },
-  {
-    "id": "103249",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The scientists are working on new experiments in the laboratory."
-      },
-      "de": {
-        "text": "Die Wissenschaftler arbeiten im Labor an neuen Experimenten."
-      }
-    },
-    "wordIds": [
-      "13249"
-    ],
-    "sourceIndex": 3249
-  },
-  {
     "id": "103263",
     "category": "daily",
     "level": "hard",
@@ -19505,23 +8587,6 @@ const phrasesDaily = [
     "sourceIndex": 3263
   },
   {
-    "id": "103273",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "Please answer me quickly."
-      },
-      "de": {
-        "text": "Bitte antworte mir schnell."
-      }
-    },
-    "wordIds": [
-      "13273"
-    ],
-    "sourceIndex": 3273
-  },
-  {
     "id": "103277",
     "category": "daily",
     "level": "hard",
@@ -19537,74 +8602,6 @@ const phrasesDaily = [
       "13277"
     ],
     "sourceIndex": 3277
-  },
-  {
-    "id": "103279",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We wish you a good recovery!"
-      },
-      "de": {
-        "text": "Wir wünschen dir gute Besserung!"
-      }
-    },
-    "wordIds": [
-      "13279"
-    ],
-    "sourceIndex": 3279
-  },
-  {
-    "id": "103280",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I have placed a new order."
-      },
-      "de": {
-        "text": "Ich habe eine neue Bestellung aufgegeben."
-      }
-    },
-    "wordIds": [
-      "13280"
-    ],
-    "sourceIndex": 3280
-  },
-  {
-    "id": "103282",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The bride wore a beautiful white dress."
-      },
-      "de": {
-        "text": "Die Braut trug ein wunderschönes weißes Kleid."
-      }
-    },
-    "wordIds": [
-      "13282"
-    ],
-    "sourceIndex": 3282
-  },
-  {
-    "id": "103283",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We still need to install the new kitchen."
-      },
-      "de": {
-        "text": "Wir müssen die neue Küche noch einbauen."
-      }
-    },
-    "wordIds": [
-      "13283"
-    ],
-    "sourceIndex": 3283
   },
   {
     "id": "103284",
@@ -19641,91 +8638,6 @@ const phrasesDaily = [
     "sourceIndex": 3290
   },
   {
-    "id": "103299",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He has strong muscles."
-      },
-      "de": {
-        "text": "Er hat starke Muskeln."
-      }
-    },
-    "wordIds": [
-      "13299"
-    ],
-    "sourceIndex": 3299
-  },
-  {
-    "id": "103300",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "In case of emergency, please call the police."
-      },
-      "de": {
-        "text": "Im Notfall rufen Sie bitte die Polizei."
-      }
-    },
-    "wordIds": [
-      "13300"
-    ],
-    "sourceIndex": 3300
-  },
-  {
-    "id": "103304",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please confirm this in writing."
-      },
-      "de": {
-        "text": "Bitte bestätigen Sie dies schriftlich."
-      }
-    },
-    "wordIds": [
-      "13304"
-    ],
-    "sourceIndex": 3304
-  },
-  {
-    "id": "103307",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He loves to dive in the sea."
-      },
-      "de": {
-        "text": "Er liebt es, im Meer zu tauchen."
-      }
-    },
-    "wordIds": [
-      "13307"
-    ],
-    "sourceIndex": 3307
-  },
-  {
-    "id": "103308",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Can we swap places?"
-      },
-      "de": {
-        "text": "Können wir die Plätze tauschen?"
-      }
-    },
-    "wordIds": [
-      "13308"
-    ],
-    "sourceIndex": 3308
-  },
-  {
     "id": "103309",
     "category": "daily",
     "level": "easy",
@@ -19741,23 +8653,6 @@ const phrasesDaily = [
       "13309"
     ],
     "sourceIndex": 3309
-  },
-  {
-    "id": "103325",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I like to listen to music."
-      },
-      "de": {
-        "text": "Ich höre mir gerne Musik an."
-      }
-    },
-    "wordIds": [
-      "13325"
-    ],
-    "sourceIndex": 3325
   },
   {
     "id": "103333",
@@ -19777,40 +8672,6 @@ const phrasesDaily = [
     "sourceIndex": 3333
   },
   {
-    "id": "103338",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She looks after the children in the afternoon."
-      },
-      "de": {
-        "text": "Sie betreut die Kinder am Nachmittag."
-      }
-    },
-    "wordIds": [
-      "13338"
-    ],
-    "sourceIndex": 3338
-  },
-  {
-    "id": "103340",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He trains boxing every day."
-      },
-      "de": {
-        "text": "Er trainiert jeden Tag Boxen."
-      }
-    },
-    "wordIds": [
-      "13340"
-    ],
-    "sourceIndex": 3340
-  },
-  {
     "id": "103347",
     "category": "daily",
     "level": "hard",
@@ -19826,23 +8687,6 @@ const phrasesDaily = [
       "13347"
     ],
     "sourceIndex": 3347
-  },
-  {
-    "id": "103349",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She read an exciting story aloud."
-      },
-      "de": {
-        "text": "Sie las eine spannende Erzählung vor."
-      }
-    },
-    "wordIds": [
-      "13349"
-    ],
-    "sourceIndex": 3349
   },
   {
     "id": "103353",
@@ -19862,57 +8706,6 @@ const phrasesDaily = [
     "sourceIndex": 3353
   },
   {
-    "id": "103354",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I have two siblings."
-      },
-      "de": {
-        "text": "Ich habe zwei Geschwister."
-      }
-    },
-    "wordIds": [
-      "13354"
-    ],
-    "sourceIndex": 3354
-  },
-  {
-    "id": "103355",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "My grandfather likes to tell stories."
-      },
-      "de": {
-        "text": "Mein Grossvater erzählt gerne Geschichten."
-      }
-    },
-    "wordIds": [
-      "13355"
-    ],
-    "sourceIndex": 3355
-  },
-  {
-    "id": "103359",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My brother is an engineer."
-      },
-      "de": {
-        "text": "Mein Bruder ist Ingenieur."
-      }
-    },
-    "wordIds": [
-      "13359"
-    ],
-    "sourceIndex": 3359
-  },
-  {
     "id": "103370",
     "category": "daily",
     "level": "hard",
@@ -19928,40 +8721,6 @@ const phrasesDaily = [
       "13370"
     ],
     "sourceIndex": 3370
-  },
-  {
-    "id": "103375",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Pregnancy lasts nine months."
-      },
-      "de": {
-        "text": "Die Schwangerschaft dauert neun Monate."
-      }
-    },
-    "wordIds": [
-      "13375"
-    ],
-    "sourceIndex": 3375
-  },
-  {
-    "id": "103376",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "She is a diligent female student."
-      },
-      "de": {
-        "text": "Sie ist eine fleißige Schülerin."
-      }
-    },
-    "wordIds": [
-      "13376"
-    ],
-    "sourceIndex": 3376
   },
   {
     "id": "103377",
@@ -20032,23 +8791,6 @@ const phrasesDaily = [
     "sourceIndex": 3384
   },
   {
-    "id": "103385",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "That is a very valuable painting."
-      },
-      "de": {
-        "text": "Das ist ein sehr wertvolles Gemälde."
-      }
-    },
-    "wordIds": [
-      "13385"
-    ],
-    "sourceIndex": 3385
-  },
-  {
     "id": "103386",
     "category": "daily",
     "level": "medium",
@@ -20066,23 +8808,6 @@ const phrasesDaily = [
     "sourceIndex": 3386
   },
   {
-    "id": "103392",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He couldn't express his feelings."
-      },
-      "de": {
-        "text": "Er konnte seine Gefühle nicht ausdrücken."
-      }
-    },
-    "wordIds": [
-      "13392"
-    ],
-    "sourceIndex": 3392
-  },
-  {
     "id": "103396",
     "category": "daily",
     "level": "medium",
@@ -20098,40 +8823,6 @@ const phrasesDaily = [
       "13396"
     ],
     "sourceIndex": 3396
-  },
-  {
-    "id": "103402",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The name doesn't come to my mind."
-      },
-      "de": {
-        "text": "Mir fällt der Name nicht ein."
-      }
-    },
-    "wordIds": [
-      "13402"
-    ],
-    "sourceIndex": 3402
-  },
-  {
-    "id": "103404",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "My grandchild often visits me."
-      },
-      "de": {
-        "text": "Mein Enkel besucht mich oft."
-      }
-    },
-    "wordIds": [
-      "13404"
-    ],
-    "sourceIndex": 3404
   },
   {
     "id": "103406",
@@ -20202,23 +8893,6 @@ const phrasesDaily = [
     "sourceIndex": 3417
   },
   {
-    "id": "103418",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please make the corrections by tomorrow."
-      },
-      "de": {
-        "text": "Bitte machen Sie die Korrekturen bis morgen."
-      }
-    },
-    "wordIds": [
-      "13418"
-    ],
-    "sourceIndex": 3418
-  },
-  {
     "id": "103424",
     "category": "daily",
     "level": "medium",
@@ -20234,40 +8908,6 @@ const phrasesDaily = [
       "13424"
     ],
     "sourceIndex": 3424
-  },
-  {
-    "id": "103426",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He wanted to inform her of the news."
-      },
-      "de": {
-        "text": "Er wollte ihr die Neuigkeiten mitteilen."
-      }
-    },
-    "wordIds": [
-      "13426"
-    ],
-    "sourceIndex": 3426
-  },
-  {
-    "id": "103427",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She was very nervous before the exam."
-      },
-      "de": {
-        "text": "Sie war vor der Prüfung sehr nervös."
-      }
-    },
-    "wordIds": [
-      "13427"
-    ],
-    "sourceIndex": 3427
   },
   {
     "id": "103431",
@@ -20302,23 +8942,6 @@ const phrasesDaily = [
       "13434"
     ],
     "sourceIndex": 3434
-  },
-  {
-    "id": "103436",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She has a very smart idea."
-      },
-      "de": {
-        "text": "Sie hat eine sehr smarte Idee."
-      }
-    },
-    "wordIds": [
-      "13436"
-    ],
-    "sourceIndex": 3436
   },
   {
     "id": "103442",
@@ -20457,40 +9080,6 @@ const phrasesDaily = [
     "sourceIndex": 3464
   },
   {
-    "id": "103465",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "This method is very effective."
-      },
-      "de": {
-        "text": "Diese Methode ist sehr effektiv."
-      }
-    },
-    "wordIds": [
-      "13465"
-    ],
-    "sourceIndex": 3465
-  },
-  {
-    "id": "103466",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I want to relax after work."
-      },
-      "de": {
-        "text": "Ich möchte mich nach der Arbeit entspannen."
-      }
-    },
-    "wordIds": [
-      "13466"
-    ],
-    "sourceIndex": 3466
-  },
-  {
     "id": "103469",
     "category": "daily",
     "level": "hard",
@@ -20542,40 +9131,6 @@ const phrasesDaily = [
     "sourceIndex": 3471
   },
   {
-    "id": "103472",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The candle had a small, steady flame."
-      },
-      "de": {
-        "text": "Die Kerze hatte eine kleine, ruhige Flamme."
-      }
-    },
-    "wordIds": [
-      "13472"
-    ],
-    "sourceIndex": 3472
-  },
-  {
-    "id": "103475",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I would like to greet my friends."
-      },
-      "de": {
-        "text": "Ich möchte meine Freunde grüßen."
-      }
-    },
-    "wordIds": [
-      "13475"
-    ],
-    "sourceIndex": 3475
-  },
-  {
     "id": "103477",
     "category": "daily",
     "level": "hard",
@@ -20608,23 +9163,6 @@ const phrasesDaily = [
       "13481"
     ],
     "sourceIndex": 3481
-  },
-  {
-    "id": "103485",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "That is a completely legal method."
-      },
-      "de": {
-        "text": "Das ist eine völlig legale Methode."
-      }
-    },
-    "wordIds": [
-      "13485"
-    ],
-    "sourceIndex": 3485
   },
   {
     "id": "103486",
@@ -20676,23 +9214,6 @@ const phrasesDaily = [
       "13492"
     ],
     "sourceIndex": 3492
-  },
-  {
-    "id": "103497",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "She was very unhappy about the news."
-      },
-      "de": {
-        "text": "Sie war sehr unglücklich über die Nachricht."
-      }
-    },
-    "wordIds": [
-      "13497"
-    ],
-    "sourceIndex": 3497
   },
   {
     "id": "103498",
@@ -20780,74 +9301,6 @@ const phrasesDaily = [
     "sourceIndex": 3521
   },
   {
-    "id": "103523",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I like to sit on the couch and read."
-      },
-      "de": {
-        "text": "Ich sitze gerne auf der Couch und lese."
-      }
-    },
-    "wordIds": [
-      "13523"
-    ],
-    "sourceIndex": 3523
-  },
-  {
-    "id": "103525",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I shower every morning."
-      },
-      "de": {
-        "text": "Ich dusche jeden Morgen."
-      }
-    },
-    "wordIds": [
-      "13525"
-    ],
-    "sourceIndex": 3525
-  },
-  {
-    "id": "103527",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The earthquake caused great damage."
-      },
-      "de": {
-        "text": "Das Erdbeben verursachte große Schäden."
-      }
-    },
-    "wordIds": [
-      "13527"
-    ],
-    "sourceIndex": 3527
-  },
-  {
-    "id": "103532",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The product has a two-year warranty."
-      },
-      "de": {
-        "text": "Das Produkt hat zwei Jahre Garantie."
-      }
-    },
-    "wordIds": [
-      "13532"
-    ],
-    "sourceIndex": 3532
-  },
-  {
     "id": "103534",
     "category": "daily",
     "level": "hard",
@@ -20882,40 +9335,6 @@ const phrasesDaily = [
     "sourceIndex": 3535
   },
   {
-    "id": "103539",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The cow gives milk."
-      },
-      "de": {
-        "text": "Die Kuh gibt Milch."
-      }
-    },
-    "wordIds": [
-      "13539"
-    ],
-    "sourceIndex": 3539
-  },
-  {
-    "id": "103542",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I need a warm coat for the winter."
-      },
-      "de": {
-        "text": "Ich brauche einen warmen Mantel für den Winter."
-      }
-    },
-    "wordIds": [
-      "13542"
-    ],
-    "sourceIndex": 3542
-  },
-  {
     "id": "103544",
     "category": "daily",
     "level": "medium",
@@ -20933,74 +9352,6 @@ const phrasesDaily = [
     "sourceIndex": 3544
   },
   {
-    "id": "103547",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The officer gave the order."
-      },
-      "de": {
-        "text": "Der Offizier gab den Befehl."
-      }
-    },
-    "wordIds": [
-      "13547"
-    ],
-    "sourceIndex": 3547
-  },
-  {
-    "id": "103548",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please enter your password."
-      },
-      "de": {
-        "text": "Bitte geben Sie Ihr Passwort ein."
-      }
-    },
-    "wordIds": [
-      "13548"
-    ],
-    "sourceIndex": 3548
-  },
-  {
-    "id": "103558",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I really like her new style."
-      },
-      "de": {
-        "text": "Ihr neuer Style gefällt mir sehr gut."
-      }
-    },
-    "wordIds": [
-      "13558"
-    ],
-    "sourceIndex": 3558
-  },
-  {
-    "id": "103562",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The company advertises its new product."
-      },
-      "de": {
-        "text": "Die Firma wirbt für ihr neues Produkt."
-      }
-    },
-    "wordIds": [
-      "13562"
-    ],
-    "sourceIndex": 3562
-  },
-  {
     "id": "103567",
     "category": "daily",
     "level": "hard",
@@ -21016,23 +9367,6 @@ const phrasesDaily = [
       "13567"
     ],
     "sourceIndex": 3567
-  },
-  {
-    "id": "103568",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We have to cancel the meeting."
-      },
-      "de": {
-        "text": "Wir müssen das Treffen absagen."
-      }
-    },
-    "wordIds": [
-      "13568"
-    ],
-    "sourceIndex": 3568
   },
   {
     "id": "103569",
@@ -21069,23 +9403,6 @@ const phrasesDaily = [
     "sourceIndex": 3570
   },
   {
-    "id": "103574",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "He breathes deeply."
-      },
-      "de": {
-        "text": "Er atmet tief ein."
-      }
-    },
-    "wordIds": [
-      "13574"
-    ],
-    "sourceIndex": 3574
-  },
-  {
     "id": "103577",
     "category": "daily",
     "level": "hard",
@@ -21101,40 +9418,6 @@ const phrasesDaily = [
       "13577"
     ],
     "sourceIndex": 3577
-  },
-  {
-    "id": "103581",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He masters several languages fluently."
-      },
-      "de": {
-        "text": "Er beherrscht mehrere Sprachen fließend."
-      }
-    },
-    "wordIds": [
-      "13581"
-    ],
-    "sourceIndex": 3581
-  },
-  {
-    "id": "103588",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The train departs on time."
-      },
-      "de": {
-        "text": "Die Eisenbahn fährt pünktlich ab."
-      }
-    },
-    "wordIds": [
-      "13588"
-    ],
-    "sourceIndex": 3588
   },
   {
     "id": "103591",
@@ -21205,23 +9488,6 @@ const phrasesDaily = [
     "sourceIndex": 3598
   },
   {
-    "id": "103599",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She is a very creative person."
-      },
-      "de": {
-        "text": "Sie ist eine sehr kreative Person."
-      }
-    },
-    "wordIds": [
-      "13599"
-    ],
-    "sourceIndex": 3599
-  },
-  {
     "id": "103601",
     "category": "daily",
     "level": "hard",
@@ -21237,74 +9503,6 @@ const phrasesDaily = [
       "13601"
     ],
     "sourceIndex": 3601
-  },
-  {
-    "id": "103608",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She works very professionally."
-      },
-      "de": {
-        "text": "Sie arbeitet sehr professionell."
-      }
-    },
-    "wordIds": [
-      "13608"
-    ],
-    "sourceIndex": 3608
-  },
-  {
-    "id": "103618",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The prick of the needle was barely noticeable."
-      },
-      "de": {
-        "text": "Der Stich der Nadel war kaum spürbar."
-      }
-    },
-    "wordIds": [
-      "13618"
-    ],
-    "sourceIndex": 3618
-  },
-  {
-    "id": "103623",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The process is not yet completed."
-      },
-      "de": {
-        "text": "Der Vorgang ist noch nicht abgeschlossen."
-      }
-    },
-    "wordIds": [
-      "13623"
-    ],
-    "sourceIndex": 3623
-  },
-  {
-    "id": "103624",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "We meet in the morning."
-      },
-      "de": {
-        "text": "Wir treffen uns am Vormittag."
-      }
-    },
-    "wordIds": [
-      "13624"
-    ],
-    "sourceIndex": 3624
   },
   {
     "id": "103625",
@@ -21324,23 +9522,6 @@ const phrasesDaily = [
     "sourceIndex": 3625
   },
   {
-    "id": "103628",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We need to coordinate our plans."
-      },
-      "de": {
-        "text": "Wir müssen unsere Pläne abstimmen."
-      }
-    },
-    "wordIds": [
-      "13628"
-    ],
-    "sourceIndex": 3628
-  },
-  {
     "id": "103632",
     "category": "daily",
     "level": "hard",
@@ -21356,91 +9537,6 @@ const phrasesDaily = [
       "13632"
     ],
     "sourceIndex": 3632
-  },
-  {
-    "id": "103635",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please keep the receipt."
-      },
-      "de": {
-        "text": "Bitte bewahren Sie den Beleg auf."
-      }
-    },
-    "wordIds": [
-      "13635"
-    ],
-    "sourceIndex": 3635
-  },
-  {
-    "id": "103636",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He always complains about the food."
-      },
-      "de": {
-        "text": "Er beschwert sich immer über das Essen."
-      }
-    },
-    "wordIds": [
-      "13636"
-    ],
-    "sourceIndex": 3636
-  },
-  {
-    "id": "103637",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The team was able to defeat the opponent."
-      },
-      "de": {
-        "text": "Die Mannschaft konnte den Gegner besiegen."
-      }
-    },
-    "wordIds": [
-      "13637"
-    ],
-    "sourceIndex": 3637
-  },
-  {
-    "id": "103642",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I love the dance."
-      },
-      "de": {
-        "text": "Ich liebe den Dance."
-      }
-    },
-    "wordIds": [
-      "13642"
-    ],
-    "sourceIndex": 3642
-  },
-  {
-    "id": "103644",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We received an electronic invoice."
-      },
-      "de": {
-        "text": "Wir haben eine elektronische Rechnung erhalten."
-      }
-    },
-    "wordIds": [
-      "13644"
-    ],
-    "sourceIndex": 3644
   },
   {
     "id": "103648",
@@ -21477,23 +9573,6 @@ const phrasesDaily = [
     "sourceIndex": 3650
   },
   {
-    "id": "103652",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The Greek loves olives."
-      },
-      "de": {
-        "text": "Der Grieche liebt Oliven."
-      }
-    },
-    "wordIds": [
-      "13652"
-    ],
-    "sourceIndex": 3652
-  },
-  {
     "id": "103657",
     "category": "daily",
     "level": "hard",
@@ -21528,75 +9607,6 @@ const phrasesDaily = [
     "sourceIndex": 3664
   },
   {
-    "id": "103675",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Is it safe here?"
-      },
-      "de": {
-        "text": "Ist es hier safe?"
-      }
-    },
-    "wordIds": [
-      "13675"
-    ],
-    "sourceIndex": 3675
-  },
-  {
-    "id": "103677",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please turn on the light."
-      },
-      "de": {
-        "text": "Bitte schalten Sie das Licht ein."
-      }
-    },
-    "wordIds": [
-      "13677",
-      "14596"
-    ],
-    "sourceIndex": 3677
-  },
-  {
-    "id": "103679",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The technician repairs the computer."
-      },
-      "de": {
-        "text": "Der Techniker repariert den Computer."
-      }
-    },
-    "wordIds": [
-      "13679"
-    ],
-    "sourceIndex": 3679
-  },
-  {
-    "id": "103688",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please listen carefully to me."
-      },
-      "de": {
-        "text": "Bitte hör mir genau zu."
-      }
-    },
-    "wordIds": [
-      "13688"
-    ],
-    "sourceIndex": 3688
-  },
-  {
     "id": "103691",
     "category": "daily",
     "level": "hard",
@@ -21614,23 +9624,6 @@ const phrasesDaily = [
     "sourceIndex": 3691
   },
   {
-    "id": "103695",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He had to call up the file to edit it."
-      },
-      "de": {
-        "text": "Er musste die Datei aufrufen, um sie zu bearbeiten."
-      }
-    },
-    "wordIds": [
-      "13695"
-    ],
-    "sourceIndex": 3695
-  },
-  {
     "id": "103696",
     "category": "daily",
     "level": "hard",
@@ -21646,159 +9639,6 @@ const phrasesDaily = [
       "13696"
     ],
     "sourceIndex": 3696
-  },
-  {
-    "id": "103702",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Online dating is very popular nowadays."
-      },
-      "de": {
-        "text": "Online-Dating ist heutzutage sehr beliebt."
-      }
-    },
-    "wordIds": [
-      "13702"
-    ],
-    "sourceIndex": 3702
-  },
-  {
-    "id": "103708",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please take your medication regularly."
-      },
-      "de": {
-        "text": "Bitte nehmen Sie Ihre Medikamente regelmäßig ein."
-      }
-    },
-    "wordIds": [
-      "13708"
-    ],
-    "sourceIndex": 3708
-  },
-  {
-    "id": "103712",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Allow me to introduce myself."
-      },
-      "de": {
-        "text": "Gestatten Sie mir, mich vorzustellen."
-      }
-    },
-    "wordIds": [
-      "13712"
-    ],
-    "sourceIndex": 3712
-  },
-  {
-    "id": "103716",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The heating is broken."
-      },
-      "de": {
-        "text": "Die Heizung ist kaputt."
-      }
-    },
-    "wordIds": [
-      "13716"
-    ],
-    "sourceIndex": 3716
-  },
-  {
-    "id": "103718",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "That is a very hip shop."
-      },
-      "de": {
-        "text": "Das ist ein sehr hipper Laden."
-      }
-    },
-    "wordIds": [
-      "13718"
-    ],
-    "sourceIndex": 3718
-  },
-  {
-    "id": "103722",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The consumption of alcohol is forbidden here."
-      },
-      "de": {
-        "text": "Der Konsum von Alkohol ist hier verboten."
-      }
-    },
-    "wordIds": [
-      "13722"
-    ],
-    "sourceIndex": 3722
-  },
-  {
-    "id": "103725",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The long march was exhausting."
-      },
-      "de": {
-        "text": "Der lange Marsch war anstrengend."
-      }
-    },
-    "wordIds": [
-      "13725"
-    ],
-    "sourceIndex": 3725
-  },
-  {
-    "id": "103726",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "One mile is about 1.6 kilometers."
-      },
-      "de": {
-        "text": "Eine Meile sind etwa 1,6 Kilometer."
-      }
-    },
-    "wordIds": [
-      "13726"
-    ],
-    "sourceIndex": 3726
-  },
-  {
-    "id": "103734",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Berlin has many interesting sights."
-      },
-      "de": {
-        "text": "Berlin hat viele interessante Sehenswürdigkeiten."
-      }
-    },
-    "wordIds": [
-      "13734"
-    ],
-    "sourceIndex": 3734
   },
   {
     "id": "103736",
@@ -21852,23 +9692,6 @@ const phrasesDaily = [
     "sourceIndex": 3739
   },
   {
-    "id": "103742",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "They have to negotiate the price."
-      },
-      "de": {
-        "text": "Sie müssen den Preis verhandeln."
-      }
-    },
-    "wordIds": [
-      "13742"
-    ],
-    "sourceIndex": 3742
-  },
-  {
     "id": "103747",
     "category": "daily",
     "level": "hard",
@@ -21903,23 +9726,6 @@ const phrasesDaily = [
     "sourceIndex": 3750
   },
   {
-    "id": "103751",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The announcement came as a surprise."
-      },
-      "de": {
-        "text": "Die Ankündigung kam überraschend."
-      }
-    },
-    "wordIds": [
-      "13751"
-    ],
-    "sourceIndex": 3751
-  },
-  {
     "id": "103753",
     "category": "daily",
     "level": "hard",
@@ -21935,40 +9741,6 @@ const phrasesDaily = [
       "13753"
     ],
     "sourceIndex": 3753
-  },
-  {
-    "id": "103758",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The concert unfortunately has to be cancelled."
-      },
-      "de": {
-        "text": "Das Konzert muss leider ausfallen."
-      }
-    },
-    "wordIds": [
-      "13758"
-    ],
-    "sourceIndex": 3758
-  },
-  {
-    "id": "103760",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I fear it will rain."
-      },
-      "de": {
-        "text": "Ich befürchte, es wird regnen."
-      }
-    },
-    "wordIds": [
-      "13760"
-    ],
-    "sourceIndex": 3760
   },
   {
     "id": "103770",
@@ -22005,40 +9777,6 @@ const phrasesDaily = [
     "sourceIndex": 3771
   },
   {
-    "id": "103777",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I like fast food."
-      },
-      "de": {
-        "text": "Ich mag Fast Food."
-      }
-    },
-    "wordIds": [
-      "13777"
-    ],
-    "sourceIndex": 3777
-  },
-  {
-    "id": "103778",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We should depart early."
-      },
-      "de": {
-        "text": "Wir sollten frühzeitig abreisen."
-      }
-    },
-    "wordIds": [
-      "13778"
-    ],
-    "sourceIndex": 3778
-  },
-  {
     "id": "103781",
     "category": "daily",
     "level": "hard",
@@ -22054,23 +9792,6 @@ const phrasesDaily = [
       "13781"
     ],
     "sourceIndex": 3781
-  },
-  {
-    "id": "103784",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "A small insect crawled across the table."
-      },
-      "de": {
-        "text": "Ein kleines Insekt krabbelte über den Tisch."
-      }
-    },
-    "wordIds": [
-      "13784"
-    ],
-    "sourceIndex": 3784
   },
   {
     "id": "103787",
@@ -22124,23 +9845,6 @@ const phrasesDaily = [
     "sourceIndex": 3793
   },
   {
-    "id": "103798",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He now works independently."
-      },
-      "de": {
-        "text": "Er arbeitet jetzt selbstständig."
-      }
-    },
-    "wordIds": [
-      "13798"
-    ],
-    "sourceIndex": 3798
-  },
-  {
     "id": "103799",
     "category": "daily",
     "level": "medium",
@@ -22175,23 +9879,6 @@ const phrasesDaily = [
     "sourceIndex": 3801
   },
   {
-    "id": "103803",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please provide your signature here."
-      },
-      "de": {
-        "text": "Bitte leisten Sie Ihre Unterschrift hier."
-      }
-    },
-    "wordIds": [
-      "13803"
-    ],
-    "sourceIndex": 3803
-  },
-  {
     "id": "103819",
     "category": "daily",
     "level": "hard",
@@ -22207,74 +9894,6 @@ const phrasesDaily = [
       "13819"
     ],
     "sourceIndex": 3819
-  },
-  {
-    "id": "103832",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The animal needs fresh feed."
-      },
-      "de": {
-        "text": "Das Tier braucht frisches Futter."
-      }
-    },
-    "wordIds": [
-      "13832"
-    ],
-    "sourceIndex": 3832
-  },
-  {
-    "id": "103836",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The next stop is at the market square."
-      },
-      "de": {
-        "text": "Die nächste Haltestelle ist am Marktplatz."
-      }
-    },
-    "wordIds": [
-      "13836"
-    ],
-    "sourceIndex": 3836
-  },
-  {
-    "id": "103841",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "A helicopter landed on the roof."
-      },
-      "de": {
-        "text": "Ein Hubschrauber landete auf dem Dach."
-      }
-    },
-    "wordIds": [
-      "13841"
-    ],
-    "sourceIndex": 3841
-  },
-  {
-    "id": "103844",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I don't like cabbage."
-      },
-      "de": {
-        "text": "Ich mag keinen Kohl."
-      }
-    },
-    "wordIds": [
-      "13844"
-    ],
-    "sourceIndex": 3844
   },
   {
     "id": "103845",
@@ -22294,23 +9913,6 @@ const phrasesDaily = [
     "sourceIndex": 3845
   },
   {
-    "id": "103846",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The lamp is broken."
-      },
-      "de": {
-        "text": "Die Lampe ist kaputt."
-      }
-    },
-    "wordIds": [
-      "13846"
-    ],
-    "sourceIndex": 3846
-  },
-  {
     "id": "103847",
     "category": "daily",
     "level": "hard",
@@ -22326,57 +9928,6 @@ const phrasesDaily = [
       "13847"
     ],
     "sourceIndex": 3847
-  },
-  {
-    "id": "103849",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "She is a brave girl."
-      },
-      "de": {
-        "text": "Sie ist ein mutiges Mädchen."
-      }
-    },
-    "wordIds": [
-      "13849"
-    ],
-    "sourceIndex": 3849
-  },
-  {
-    "id": "103850",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My neighbor lives next door."
-      },
-      "de": {
-        "text": "Mein Nachbar wohnt nebenan."
-      }
-    },
-    "wordIds": [
-      "13850"
-    ],
-    "sourceIndex": 3850
-  },
-  {
-    "id": "103859",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The water flows through the pipe."
-      },
-      "de": {
-        "text": "Das Wasser fließt durch das Rohr."
-      }
-    },
-    "wordIds": [
-      "13859"
-    ],
-    "sourceIndex": 3859
   },
   {
     "id": "103864",
@@ -22447,23 +9998,6 @@ const phrasesDaily = [
     "sourceIndex": 3890
   },
   {
-    "id": "103892",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We will move into our new apartment next week."
-      },
-      "de": {
-        "text": "Wir werden nächste Woche in unsere neue Wohnung einziehen."
-      }
-    },
-    "wordIds": [
-      "13892"
-    ],
-    "sourceIndex": 3892
-  },
-  {
     "id": "103893",
     "category": "daily",
     "level": "hard",
@@ -22479,40 +10013,6 @@ const phrasesDaily = [
       "13893"
     ],
     "sourceIndex": 3893
-  },
-  {
-    "id": "103898",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Don't forget to save the file."
-      },
-      "de": {
-        "text": "Vergiss nicht, die Datei zu speichern."
-      }
-    },
-    "wordIds": [
-      "13898"
-    ],
-    "sourceIndex": 3898
-  },
-  {
-    "id": "103901",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "My grandmother likes to tell stories."
-      },
-      "de": {
-        "text": "Meine Großmutter erzählt gerne Geschichten."
-      }
-    },
-    "wordIds": [
-      "13901"
-    ],
-    "sourceIndex": 3901
   },
   {
     "id": "103902",
@@ -22532,23 +10032,6 @@ const phrasesDaily = [
     "sourceIndex": 3902
   },
   {
-    "id": "103903",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The website offers a lot of useful information."
-      },
-      "de": {
-        "text": "Die Internetseite bietet viele nützliche Informationen."
-      }
-    },
-    "wordIds": [
-      "13903"
-    ],
-    "sourceIndex": 3903
-  },
-  {
     "id": "103909",
     "category": "daily",
     "level": "medium",
@@ -22564,40 +10047,6 @@ const phrasesDaily = [
       "13909"
     ],
     "sourceIndex": 3909
-  },
-  {
-    "id": "103910",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The detective is investigating the case."
-      },
-      "de": {
-        "text": "Der Kommissar ermittelt in dem Fall."
-      }
-    },
-    "wordIds": [
-      "13910"
-    ],
-    "sourceIndex": 3910
-  },
-  {
-    "id": "103913",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He had to give notice on his apartment."
-      },
-      "de": {
-        "text": "Er musste seine Wohnung kündigen."
-      }
-    },
-    "wordIds": [
-      "13913"
-    ],
-    "sourceIndex": 3913
   },
   {
     "id": "103921",
@@ -22632,40 +10081,6 @@ const phrasesDaily = [
       "13926"
     ],
     "sourceIndex": 3926
-  },
-  {
-    "id": "103929",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The radio broadcasts news."
-      },
-      "de": {
-        "text": "Der Rundfunk sendet Nachrichten."
-      }
-    },
-    "wordIds": [
-      "13929"
-    ],
-    "sourceIndex": 3929
-  },
-  {
-    "id": "103930",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The answer is on the back of the sheet."
-      },
-      "de": {
-        "text": "Auf der Rückseite des Blattes steht die Antwort."
-      }
-    },
-    "wordIds": [
-      "13930"
-    ],
-    "sourceIndex": 3930
   },
   {
     "id": "103933",
@@ -22719,23 +10134,6 @@ const phrasesDaily = [
     "sourceIndex": 3943
   },
   {
-    "id": "103946",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "There was a traffic accident on the highway."
-      },
-      "de": {
-        "text": "Es gab einen Verkehrsunfall auf der Autobahn."
-      }
-    },
-    "wordIds": [
-      "13946"
-    ],
-    "sourceIndex": 3946
-  },
-  {
     "id": "103948",
     "category": "daily",
     "level": "medium",
@@ -22768,23 +10166,6 @@ const phrasesDaily = [
       "13949"
     ],
     "sourceIndex": 3949
-  },
-  {
-    "id": "103954",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We meet weekly."
-      },
-      "de": {
-        "text": "Wir treffen uns wöchentlich."
-      }
-    },
-    "wordIds": [
-      "13954"
-    ],
-    "sourceIndex": 3954
   },
   {
     "id": "103959",
@@ -22889,125 +10270,6 @@ const phrasesDaily = [
     "sourceIndex": 3991
   },
   {
-    "id": "103993",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The figures for the first quarter are good."
-      },
-      "de": {
-        "text": "Die Zahlen für das erste Quartal sind gut."
-      }
-    },
-    "wordIds": [
-      "13993"
-    ],
-    "sourceIndex": 3993
-  },
-  {
-    "id": "103996",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Plants produce oxygen."
-      },
-      "de": {
-        "text": "Pflanzen produzieren Sauerstoff."
-      }
-    },
-    "wordIds": [
-      "13996"
-    ],
-    "sourceIndex": 3996
-  },
-  {
-    "id": "104001",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The talk about the topic was very interesting."
-      },
-      "de": {
-        "text": "Der Talk über das Thema war sehr interessant."
-      }
-    },
-    "wordIds": [
-      "14001"
-    ],
-    "sourceIndex": 4001
-  },
-  {
-    "id": "104003",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "Can you please tell me the time?"
-      },
-      "de": {
-        "text": "Kannst du mir bitte die Uhrzeit sagen?"
-      }
-    },
-    "wordIds": [
-      "14003"
-    ],
-    "sourceIndex": 4003
-  },
-  {
-    "id": "104010",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Living space in the city is expensive."
-      },
-      "de": {
-        "text": "Der Wohnraum in der Stadt ist teuer."
-      }
-    },
-    "wordIds": [
-      "14010"
-    ],
-    "sourceIndex": 4010
-  },
-  {
-    "id": "104013",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I will watch you cook."
-      },
-      "de": {
-        "text": "Ich werde dir beim Kochen zusehen."
-      }
-    },
-    "wordIds": [
-      "14013"
-    ],
-    "sourceIndex": 4013
-  },
-  {
-    "id": "104019",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I have a subscription for this magazine."
-      },
-      "de": {
-        "text": "Ich habe ein Abo für diese Zeitschrift."
-      }
-    },
-    "wordIds": [
-      "14019"
-    ],
-    "sourceIndex": 4019
-  },
-  {
     "id": "104026",
     "category": "daily",
     "level": "hard",
@@ -23025,23 +10287,6 @@ const phrasesDaily = [
     "sourceIndex": 4026
   },
   {
-    "id": "104027",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please show your ID."
-      },
-      "de": {
-        "text": "Bitte zeigen Sie Ihren Ausweis."
-      }
-    },
-    "wordIds": [
-      "14027"
-    ],
-    "sourceIndex": 4027
-  },
-  {
     "id": "104032",
     "category": "daily",
     "level": "hard",
@@ -23057,23 +10302,6 @@ const phrasesDaily = [
       "14032"
     ],
     "sourceIndex": 4032
-  },
-  {
-    "id": "104036",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "My printer doesn't work anymore."
-      },
-      "de": {
-        "text": "Mein Drucker funktioniert nicht mehr."
-      }
-    },
-    "wordIds": [
-      "14036"
-    ],
-    "sourceIndex": 4036
   },
   {
     "id": "104043",
@@ -23144,40 +10372,6 @@ const phrasesDaily = [
     "sourceIndex": 4054
   },
   {
-    "id": "104057",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I like reading crime novels."
-      },
-      "de": {
-        "text": "Ich lese gerne Krimis."
-      }
-    },
-    "wordIds": [
-      "14057"
-    ],
-    "sourceIndex": 4057
-  },
-  {
-    "id": "104060",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "Mommy baked us a cake."
-      },
-      "de": {
-        "text": "Mutti hat uns Kuchen gebacken."
-      }
-    },
-    "wordIds": [
-      "14060"
-    ],
-    "sourceIndex": 4060
-  },
-  {
     "id": "104061",
     "category": "daily",
     "level": "hard",
@@ -23195,57 +10389,6 @@ const phrasesDaily = [
     "sourceIndex": 4061
   },
   {
-    "id": "104063",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The producer introduced the new film."
-      },
-      "de": {
-        "text": "Der Produzent stellte den neuen Film vor."
-      }
-    },
-    "wordIds": [
-      "14063"
-    ],
-    "sourceIndex": 4063
-  },
-  {
-    "id": "104071",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The taxpayers finance the state."
-      },
-      "de": {
-        "text": "Die Steuerzahler finanzieren den Staat."
-      }
-    },
-    "wordIds": [
-      "14071"
-    ],
-    "sourceIndex": 4071
-  },
-  {
-    "id": "104079",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The lecture starts at 10 o'clock."
-      },
-      "de": {
-        "text": "Die Vorlesung beginnt um 10 Uhr."
-      }
-    },
-    "wordIds": [
-      "14079"
-    ],
-    "sourceIndex": 4079
-  },
-  {
     "id": "104080",
     "category": "daily",
     "level": "medium",
@@ -23261,40 +10404,6 @@ const phrasesDaily = [
       "14080"
     ],
     "sourceIndex": 4080
-  },
-  {
-    "id": "104081",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The medication is very effective."
-      },
-      "de": {
-        "text": "Das Medikament ist sehr wirksam."
-      }
-    },
-    "wordIds": [
-      "14081"
-    ],
-    "sourceIndex": 4081
-  },
-  {
-    "id": "104082",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I am attending a workshop on photography."
-      },
-      "de": {
-        "text": "Ich besuche einen Workshop über Fotografie."
-      }
-    },
-    "wordIds": [
-      "14082"
-    ],
-    "sourceIndex": 4082
   },
   {
     "id": "104084",
@@ -23348,23 +10457,6 @@ const phrasesDaily = [
     "sourceIndex": 4090
   },
   {
-    "id": "104092",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please follow the instructions."
-      },
-      "de": {
-        "text": "Bitte folgen Sie den Anweisungen."
-      }
-    },
-    "wordIds": [
-      "14092"
-    ],
-    "sourceIndex": 4092
-  },
-  {
     "id": "104098",
     "category": "daily",
     "level": "medium",
@@ -23399,23 +10491,6 @@ const phrasesDaily = [
     "sourceIndex": 4104
   },
   {
-    "id": "104105",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I like to eat chips with the movie."
-      },
-      "de": {
-        "text": "Ich esse gerne Chips zum Film."
-      }
-    },
-    "wordIds": [
-      "14105"
-    ],
-    "sourceIndex": 4105
-  },
-  {
     "id": "104110",
     "category": "daily",
     "level": "hard",
@@ -23431,23 +10506,6 @@ const phrasesDaily = [
       "14110"
     ],
     "sourceIndex": 4110
-  },
-  {
-    "id": "104114",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My family is visiting this weekend."
-      },
-      "de": {
-        "text": "Meine Family kommt am Wochenende zu Besuch."
-      }
-    },
-    "wordIds": [
-      "14114"
-    ],
-    "sourceIndex": 4114
   },
   {
     "id": "104117",
@@ -23501,23 +10559,6 @@ const phrasesDaily = [
     "sourceIndex": 4127
   },
   {
-    "id": "104137",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The clerk noted all important points."
-      },
-      "de": {
-        "text": "Der Schreiber notierte alle wichtigen Punkte."
-      }
-    },
-    "wordIds": [
-      "14137"
-    ],
-    "sourceIndex": 4137
-  },
-  {
     "id": "104141",
     "category": "daily",
     "level": "medium",
@@ -23569,40 +10610,6 @@ const phrasesDaily = [
     "sourceIndex": 4151
   },
   {
-    "id": "104158",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He received a request for payment."
-      },
-      "de": {
-        "text": "Er erhielt eine Aufforderung zur Zahlung."
-      }
-    },
-    "wordIds": [
-      "14158"
-    ],
-    "sourceIndex": 4158
-  },
-  {
-    "id": "104159",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The children are under supervision."
-      },
-      "de": {
-        "text": "Die Kinder sind unter Aufsicht."
-      }
-    },
-    "wordIds": [
-      "14159"
-    ],
-    "sourceIndex": 4159
-  },
-  {
     "id": "104167",
     "category": "daily",
     "level": "hard",
@@ -23618,23 +10625,6 @@ const phrasesDaily = [
       "14167"
     ],
     "sourceIndex": 4167
-  },
-  {
-    "id": "104168",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I like to watch comedy shows."
-      },
-      "de": {
-        "text": "Ich mag es, Comedy-Shows zu sehen."
-      }
-    },
-    "wordIds": [
-      "14168"
-    ],
-    "sourceIndex": 4168
   },
   {
     "id": "104170",
@@ -23669,23 +10659,6 @@ const phrasesDaily = [
       "14171"
     ],
     "sourceIndex": 4171
-  },
-  {
-    "id": "104178",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She has to feed her family."
-      },
-      "de": {
-        "text": "Sie muss ihre Familie ernähren."
-      }
-    },
-    "wordIds": [
-      "14178"
-    ],
-    "sourceIndex": 4178
   },
   {
     "id": "104183",
@@ -23739,57 +10712,6 @@ const phrasesDaily = [
     "sourceIndex": 4191
   },
   {
-    "id": "104193",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The music can inspire us."
-      },
-      "de": {
-        "text": "Die Musik kann uns inspirieren."
-      }
-    },
-    "wordIds": [
-      "14193"
-    ],
-    "sourceIndex": 4193
-  },
-  {
-    "id": "104201",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please correct my mistakes."
-      },
-      "de": {
-        "text": "Bitte korrigieren Sie meine Fehler."
-      }
-    },
-    "wordIds": [
-      "14201"
-    ],
-    "sourceIndex": 4201
-  },
-  {
-    "id": "104212",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "After the hike, we needed some refreshment."
-      },
-      "de": {
-        "text": "Nach der Wanderung brauchten wir eine Stärkung."
-      }
-    },
-    "wordIds": [
-      "14212"
-    ],
-    "sourceIndex": 4212
-  },
-  {
     "id": "104216",
     "category": "daily",
     "level": "hard",
@@ -23841,74 +10763,6 @@ const phrasesDaily = [
     "sourceIndex": 4232
   },
   {
-    "id": "104233",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The actor played his role very convincingly."
-      },
-      "de": {
-        "text": "Der Darsteller spielte seine Rolle sehr überzeugend."
-      }
-    },
-    "wordIds": [
-      "14233"
-    ],
-    "sourceIndex": 4233
-  },
-  {
-    "id": "104241",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The bill is due next week."
-      },
-      "de": {
-        "text": "Die Rechnung ist nächste Woche fällig."
-      }
-    },
-    "wordIds": [
-      "14241"
-    ],
-    "sourceIndex": 4241
-  },
-  {
-    "id": "104244",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I heard a strange noise."
-      },
-      "de": {
-        "text": "Ich hörte ein seltsames Geräusch."
-      }
-    },
-    "wordIds": [
-      "14244"
-    ],
-    "sourceIndex": 4244
-  },
-  {
-    "id": "104246",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "My grandparents are visiting us on the weekend."
-      },
-      "de": {
-        "text": "Meine Großeltern besuchen uns am Wochenende."
-      }
-    },
-    "wordIds": [
-      "14246"
-    ],
-    "sourceIndex": 4246
-  },
-  {
     "id": "104247",
     "category": "daily",
     "level": "hard",
@@ -23924,23 +10778,6 @@ const phrasesDaily = [
       "14247"
     ],
     "sourceIndex": 4247
-  },
-  {
-    "id": "104248",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The coffee is very hot."
-      },
-      "de": {
-        "text": "Der Kaffee ist sehr heiß."
-      }
-    },
-    "wordIds": [
-      "14248"
-    ],
-    "sourceIndex": 4248
   },
   {
     "id": "104249",
@@ -23977,57 +10814,6 @@ const phrasesDaily = [
     "sourceIndex": 4252
   },
   {
-    "id": "104255",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "It is cool outside today."
-      },
-      "de": {
-        "text": "Es ist heute kühl draußen."
-      }
-    },
-    "wordIds": [
-      "14255"
-    ],
-    "sourceIndex": 4255
-  },
-  {
-    "id": "104273",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She is a teen and loves music."
-      },
-      "de": {
-        "text": "Sie ist ein Teen und liebt Musik."
-      }
-    },
-    "wordIds": [
-      "14273"
-    ],
-    "sourceIndex": 4273
-  },
-  {
-    "id": "104274",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Our meeting point is at the train station."
-      },
-      "de": {
-        "text": "Unser Treffpunkt ist am Bahnhof."
-      }
-    },
-    "wordIds": [
-      "14274"
-    ],
-    "sourceIndex": 4274
-  },
-  {
     "id": "104279",
     "category": "daily",
     "level": "hard",
@@ -24043,108 +10829,6 @@ const phrasesDaily = [
       "14279"
     ],
     "sourceIndex": 4279
-  },
-  {
-    "id": "104283",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "She does yoga every morning."
-      },
-      "de": {
-        "text": "Sie macht jeden Morgen Yoga."
-      }
-    },
-    "wordIds": [
-      "14283"
-    ],
-    "sourceIndex": 4283
-  },
-  {
-    "id": "104292",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I can't bear the pain any longer."
-      },
-      "de": {
-        "text": "Ich kann den Schmerz nicht länger aushalten."
-      }
-    },
-    "wordIds": [
-      "14292"
-    ],
-    "sourceIndex": 4292
-  },
-  {
-    "id": "104296",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Access is also possible for disabled people."
-      },
-      "de": {
-        "text": "Der Zugang ist auch für behinderte Menschen möglich."
-      }
-    },
-    "wordIds": [
-      "14296"
-    ],
-    "sourceIndex": 4296
-  },
-  {
-    "id": "104298",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He had to overcome many challenges."
-      },
-      "de": {
-        "text": "Er musste viele Herausforderungen bewältigen."
-      }
-    },
-    "wordIds": [
-      "14298"
-    ],
-    "sourceIndex": 4298
-  },
-  {
-    "id": "104300",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The Federal Chancellor gave a speech."
-      },
-      "de": {
-        "text": "Der Bundeskanzler hielt eine Rede."
-      }
-    },
-    "wordIds": [
-      "14300"
-    ],
-    "sourceIndex": 4300
-  },
-  {
-    "id": "104302",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please put the lid on the pot."
-      },
-      "de": {
-        "text": "Bitte setz den Deckel auf den Topf."
-      }
-    },
-    "wordIds": [
-      "14302"
-    ],
-    "sourceIndex": 4302
   },
   {
     "id": "104312",
@@ -24198,23 +10882,6 @@ const phrasesDaily = [
     "sourceIndex": 4320
   },
   {
-    "id": "104322",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Tidy up your stuff!"
-      },
-      "de": {
-        "text": "Räum deinen Kram auf!"
-      }
-    },
-    "wordIds": [
-      "14322"
-    ],
-    "sourceIndex": 4322
-  },
-  {
     "id": "104325",
     "category": "daily",
     "level": "hard",
@@ -24232,23 +10899,6 @@ const phrasesDaily = [
     "sourceIndex": 4325
   },
   {
-    "id": "104328",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Enjoy your meal!"
-      },
-      "de": {
-        "text": "Guten Appetit bei Ihrer Mahlzeit!"
-      }
-    },
-    "wordIds": [
-      "14328"
-    ],
-    "sourceIndex": 4328
-  },
-  {
     "id": "104332",
     "category": "daily",
     "level": "hard",
@@ -24264,23 +10914,6 @@ const phrasesDaily = [
       "14332"
     ],
     "sourceIndex": 4332
-  },
-  {
-    "id": "104347",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We waited for hours."
-      },
-      "de": {
-        "text": "Wir haben stundenlang gewartet."
-      }
-    },
-    "wordIds": [
-      "14347"
-    ],
-    "sourceIndex": 4347
   },
   {
     "id": "104352",
@@ -24315,23 +10948,6 @@ const phrasesDaily = [
       "14377"
     ],
     "sourceIndex": 4377
-  },
-  {
-    "id": "104378",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I need some relaxation after work."
-      },
-      "de": {
-        "text": "Ich brauche etwas Entspannung nach der Arbeit."
-      }
-    },
-    "wordIds": [
-      "14378"
-    ],
-    "sourceIndex": 4378
   },
   {
     "id": "104379",
@@ -24402,40 +11018,6 @@ const phrasesDaily = [
     "sourceIndex": 4395
   },
   {
-    "id": "104397",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I need health insurance."
-      },
-      "de": {
-        "text": "Ich brauche eine Krankenversicherung."
-      }
-    },
-    "wordIds": [
-      "14397"
-    ],
-    "sourceIndex": 4397
-  },
-  {
-    "id": "104400",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The speaker is broken."
-      },
-      "de": {
-        "text": "Der Lautsprecher ist kaputt."
-      }
-    },
-    "wordIds": [
-      "14400"
-    ],
-    "sourceIndex": 4400
-  },
-  {
     "id": "104404",
     "category": "daily",
     "level": "medium",
@@ -24504,23 +11086,6 @@ const phrasesDaily = [
     "sourceIndex": 4411
   },
   {
-    "id": "104412",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The Pacific Ocean is the largest ocean in the world."
-      },
-      "de": {
-        "text": "Der Pazifische Ozean ist der größte Ozean der Welt."
-      }
-    },
-    "wordIds": [
-      "14412"
-    ],
-    "sourceIndex": 4412
-  },
-  {
     "id": "104415",
     "category": "daily",
     "level": "medium",
@@ -24555,23 +11120,6 @@ const phrasesDaily = [
     "sourceIndex": 4426
   },
   {
-    "id": "104429",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The car's tank is empty."
-      },
-      "de": {
-        "text": "Der Tank des Autos ist leer."
-      }
-    },
-    "wordIds": [
-      "14429"
-    ],
-    "sourceIndex": 4429
-  },
-  {
     "id": "104432",
     "category": "daily",
     "level": "medium",
@@ -24587,23 +11135,6 @@ const phrasesDaily = [
       "14432"
     ],
     "sourceIndex": 4432
-  },
-  {
-    "id": "104434",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We consume a lot of energy."
-      },
-      "de": {
-        "text": "Wir verbrauchen viel Energie."
-      }
-    },
-    "wordIds": [
-      "14434"
-    ],
-    "sourceIndex": 4434
   },
   {
     "id": "104439",
@@ -24640,40 +11171,6 @@ const phrasesDaily = [
     "sourceIndex": 4441
   },
   {
-    "id": "104447",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please separate the waste."
-      },
-      "de": {
-        "text": "Bitte trennen Sie den Abfall."
-      }
-    },
-    "wordIds": [
-      "14447"
-    ],
-    "sourceIndex": 4447
-  },
-  {
-    "id": "104452",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The assistant helps the professor."
-      },
-      "de": {
-        "text": "Der Assistent hilft dem Professor."
-      }
-    },
-    "wordIds": [
-      "14452"
-    ],
-    "sourceIndex": 4452
-  },
-  {
     "id": "104460",
     "category": "daily",
     "level": "hard",
@@ -24706,23 +11203,6 @@ const phrasesDaily = [
       "14478"
     ],
     "sourceIndex": 4478
-  },
-  {
-    "id": "104480",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please enter the license key."
-      },
-      "de": {
-        "text": "Bitte geben Sie den Lizenz-Key ein."
-      }
-    },
-    "wordIds": [
-      "14480"
-    ],
-    "sourceIndex": 4480
   },
   {
     "id": "104482",
@@ -24776,23 +11256,6 @@ const phrasesDaily = [
     "sourceIndex": 4490
   },
   {
-    "id": "104495",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She painted a portrait of her son."
-      },
-      "de": {
-        "text": "Sie malte ein Porträt ihres Sohnes."
-      }
-    },
-    "wordIds": [
-      "14495"
-    ],
-    "sourceIndex": 4495
-  },
-  {
     "id": "104498",
     "category": "daily",
     "level": "medium",
@@ -24827,23 +11290,6 @@ const phrasesDaily = [
     "sourceIndex": 4502
   },
   {
-    "id": "104503",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please take a tablet before going to bed."
-      },
-      "de": {
-        "text": "Bitte nehmen Sie eine Tablette vor dem Schlafengehen."
-      }
-    },
-    "wordIds": [
-      "14503"
-    ],
-    "sourceIndex": 4503
-  },
-  {
     "id": "104506",
     "category": "daily",
     "level": "hard",
@@ -24859,23 +11305,6 @@ const phrasesDaily = [
       "14506"
     ],
     "sourceIndex": 4506
-  },
-  {
-    "id": "104508",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He is a big supporter of the project."
-      },
-      "de": {
-        "text": "Er ist ein großer Unterstützer des Projekts."
-      }
-    },
-    "wordIds": [
-      "14508"
-    ],
-    "sourceIndex": 4508
   },
   {
     "id": "104516",
@@ -24961,23 +11390,6 @@ const phrasesDaily = [
       "14528"
     ],
     "sourceIndex": 4528
-  },
-  {
-    "id": "104532",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Your visit is always welcome."
-      },
-      "de": {
-        "text": "Ihr Besuch ist jederzeit erwünscht."
-      }
-    },
-    "wordIds": [
-      "14532"
-    ],
-    "sourceIndex": 4532
   },
   {
     "id": "104534",
@@ -25082,23 +11494,6 @@ const phrasesDaily = [
     "sourceIndex": 4554
   },
   {
-    "id": "104556",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The tire is flat."
-      },
-      "de": {
-        "text": "Der Reifen ist platt."
-      }
-    },
-    "wordIds": [
-      "14556"
-    ],
-    "sourceIndex": 4556
-  },
-  {
     "id": "104559",
     "category": "daily",
     "level": "medium",
@@ -25150,40 +11545,6 @@ const phrasesDaily = [
     "sourceIndex": 4563
   },
   {
-    "id": "104578",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I need to make an appointment with the dentist."
-      },
-      "de": {
-        "text": "Ich muss einen Termin beim Zahnarzt machen."
-      }
-    },
-    "wordIds": [
-      "14578"
-    ],
-    "sourceIndex": 4578
-  },
-  {
-    "id": "104580",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The handover of the documents took place on time."
-      },
-      "de": {
-        "text": "Die Übergabe der Dokumente erfolgte pünktlich."
-      }
-    },
-    "wordIds": [
-      "14580"
-    ],
-    "sourceIndex": 4580
-  },
-  {
     "id": "104582",
     "category": "daily",
     "level": "hard",
@@ -25218,40 +11579,6 @@ const phrasesDaily = [
     "sourceIndex": 4601
   },
   {
-    "id": "104609",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I like to wear a comfortable jersey sweater."
-      },
-      "de": {
-        "text": "Ich trage gerne einen bequemen Jersey-Pullover."
-      }
-    },
-    "wordIds": [
-      "14609"
-    ],
-    "sourceIndex": 4609
-  },
-  {
-    "id": "104612",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I listen to music with my headphones."
-      },
-      "de": {
-        "text": "Ich höre Musik mit meinen Kopfhörern."
-      }
-    },
-    "wordIds": [
-      "14612"
-    ],
-    "sourceIndex": 4612
-  },
-  {
     "id": "104613",
     "category": "daily",
     "level": "hard",
@@ -25269,40 +11596,6 @@ const phrasesDaily = [
     "sourceIndex": 4613
   },
   {
-    "id": "104617",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Read the package insert for possible side effects."
-      },
-      "de": {
-        "text": "Lesen Sie die Packungsbeilage wegen möglicher Nebenwirkungen."
-      }
-    },
-    "wordIds": [
-      "14617"
-    ],
-    "sourceIndex": 4617
-  },
-  {
-    "id": "104619",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He is a Pole."
-      },
-      "de": {
-        "text": "Er ist ein Pole."
-      }
-    },
-    "wordIds": [
-      "14619"
-    ],
-    "sourceIndex": 4619
-  },
-  {
     "id": "104620",
     "category": "daily",
     "level": "medium",
@@ -25318,23 +11611,6 @@ const phrasesDaily = [
       "14620"
     ],
     "sourceIndex": 4620
-  },
-  {
-    "id": "104626",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The book is on the shelf."
-      },
-      "de": {
-        "text": "Das Buch steht im Regal."
-      }
-    },
-    "wordIds": [
-      "14626"
-    ],
-    "sourceIndex": 4626
   },
   {
     "id": "104628",
@@ -25388,23 +11664,6 @@ const phrasesDaily = [
     "sourceIndex": 4631
   },
   {
-    "id": "104641",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She was dissatisfied with the result."
-      },
-      "de": {
-        "text": "Sie war mit dem Ergebnis unzufrieden."
-      }
-    },
-    "wordIds": [
-      "14641"
-    ],
-    "sourceIndex": 4641
-  },
-  {
     "id": "104648",
     "category": "daily",
     "level": "hard",
@@ -25439,23 +11698,6 @@ const phrasesDaily = [
     "sourceIndex": 4651
   },
   {
-    "id": "104663",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We need a uniform solution for this problem."
-      },
-      "de": {
-        "text": "Wir brauchen eine einheitliche Lösung für dieses Problem."
-      }
-    },
-    "wordIds": [
-      "14663"
-    ],
-    "sourceIndex": 4663
-  },
-  {
     "id": "104668",
     "category": "daily",
     "level": "medium",
@@ -25473,40 +11715,6 @@ const phrasesDaily = [
     "sourceIndex": 4668
   },
   {
-    "id": "104670",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I have to submit my tax declaration to the tax office."
-      },
-      "de": {
-        "text": "Ich muss meine Steuererklärung beim Finanzamt einreichen."
-      }
-    },
-    "wordIds": [
-      "14670"
-    ],
-    "sourceIndex": 4670
-  },
-  {
-    "id": "104673",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Yesterday's meeting was very productive."
-      },
-      "de": {
-        "text": "Die gestrige Sitzung war sehr produktiv."
-      }
-    },
-    "wordIds": [
-      "14673"
-    ],
-    "sourceIndex": 4673
-  },
-  {
     "id": "104675",
     "category": "daily",
     "level": "hard",
@@ -25522,40 +11730,6 @@ const phrasesDaily = [
       "14675"
     ],
     "sourceIndex": 4675
-  },
-  {
-    "id": "104680",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The smartphone's cover protects it from scratches."
-      },
-      "de": {
-        "text": "Die Hülle des Smartphones schützt es vor Kratzern."
-      }
-    },
-    "wordIds": [
-      "14680"
-    ],
-    "sourceIndex": 4680
-  },
-  {
-    "id": "104683",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The children love to climb trees."
-      },
-      "de": {
-        "text": "Die Kinder lieben es, auf Bäume zu klettern."
-      }
-    },
-    "wordIds": [
-      "14683"
-    ],
-    "sourceIndex": 4683
   },
   {
     "id": "104691",
@@ -25590,57 +11764,6 @@ const phrasesDaily = [
       "14692"
     ],
     "sourceIndex": 4692
-  },
-  {
-    "id": "104693",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "A pack of milk, please."
-      },
-      "de": {
-        "text": "Eine Packung Milch, bitte."
-      }
-    },
-    "wordIds": [
-      "14693"
-    ],
-    "sourceIndex": 4693
-  },
-  {
-    "id": "104697",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I need to repair my bicycle."
-      },
-      "de": {
-        "text": "Ich muss mein Fahrrad reparieren."
-      }
-    },
-    "wordIds": [
-      "14697"
-    ],
-    "sourceIndex": 4697
-  },
-  {
-    "id": "104700",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I heard a loud scream."
-      },
-      "de": {
-        "text": "Ich hörte einen lauten Schrei."
-      }
-    },
-    "wordIds": [
-      "14700"
-    ],
-    "sourceIndex": 4700
   },
   {
     "id": "104704",
@@ -25694,23 +11817,6 @@ const phrasesDaily = [
     "sourceIndex": 4706
   },
   {
-    "id": "104708",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Children love sweets."
-      },
-      "de": {
-        "text": "Kinder lieben Süssigkeiten."
-      }
-    },
-    "wordIds": [
-      "14708"
-    ],
-    "sourceIndex": 4708
-  },
-  {
     "id": "104710",
     "category": "daily",
     "level": "hard",
@@ -25726,57 +11832,6 @@ const phrasesDaily = [
       "14710"
     ],
     "sourceIndex": 4710
-  },
-  {
-    "id": "104729",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "It is important to find a good balance between work and leisure."
-      },
-      "de": {
-        "text": "Es ist wichtig, eine gute Balance zwischen Arbeit und Freizeit zu finden."
-      }
-    },
-    "wordIds": [
-      "14729"
-    ],
-    "sourceIndex": 4729
-  },
-  {
-    "id": "104736",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Click on the button."
-      },
-      "de": {
-        "text": "Klicken Sie auf den Button."
-      }
-    },
-    "wordIds": [
-      "14736"
-    ],
-    "sourceIndex": 4736
-  },
-  {
-    "id": "104741",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He studies electronics at the university."
-      },
-      "de": {
-        "text": "Er studiert Elektronik an der Universität."
-      }
-    },
-    "wordIds": [
-      "14741"
-    ],
-    "sourceIndex": 4741
   },
   {
     "id": "104745",
@@ -25811,23 +11866,6 @@ const phrasesDaily = [
       "14751"
     ],
     "sourceIndex": 4751
-  },
-  {
-    "id": "104757",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We want to barbecue tonight."
-      },
-      "de": {
-        "text": "Wir wollen heute Abend grillen."
-      }
-    },
-    "wordIds": [
-      "14757"
-    ],
-    "sourceIndex": 4757
   },
   {
     "id": "104759",
@@ -25915,23 +11953,6 @@ const phrasesDaily = [
     "sourceIndex": 4775
   },
   {
-    "id": "104776",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The Muslim community celebrates Eid."
-      },
-      "de": {
-        "text": "Die muslimische Gemeinschaft feiert Eid."
-      }
-    },
-    "wordIds": [
-      "14776"
-    ],
-    "sourceIndex": 4776
-  },
-  {
     "id": "104777",
     "category": "daily",
     "level": "easy",
@@ -25964,23 +11985,6 @@ const phrasesDaily = [
       "14778"
     ],
     "sourceIndex": 4778
-  },
-  {
-    "id": "104783",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My grandfather is a passionate stamp collector."
-      },
-      "de": {
-        "text": "Mein Großvater ist ein leidenschaftlicher Briefmarkensammler."
-      }
-    },
-    "wordIds": [
-      "14783"
-    ],
-    "sourceIndex": 4783
   },
   {
     "id": "104784",
@@ -26034,57 +12038,6 @@ const phrasesDaily = [
     "sourceIndex": 4786
   },
   {
-    "id": "104791",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The children are playing on the playground."
-      },
-      "de": {
-        "text": "Die Kinder spielen auf dem Spielplatz."
-      }
-    },
-    "wordIds": [
-      "14791"
-    ],
-    "sourceIndex": 4791
-  },
-  {
-    "id": "104792",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He leaned on a long stick."
-      },
-      "de": {
-        "text": "Er stützte sich auf einen langen Stab."
-      }
-    },
-    "wordIds": [
-      "14792"
-    ],
-    "sourceIndex": 4792
-  },
-  {
-    "id": "104809",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We are going to the circus today."
-      },
-      "de": {
-        "text": "Wir gehen heute in den Zirkus."
-      }
-    },
-    "wordIds": [
-      "14809"
-    ],
-    "sourceIndex": 4809
-  },
-  {
     "id": "104810",
     "category": "daily",
     "level": "hard",
@@ -26100,40 +12053,6 @@ const phrasesDaily = [
       "14810"
     ],
     "sourceIndex": 4810
-  },
-  {
-    "id": "104813",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The opening hours are from 9 AM to 6 PM."
-      },
-      "de": {
-        "text": "Die Öffnungszeiten sind von 9 bis 18 Uhr."
-      }
-    },
-    "wordIds": [
-      "14813"
-    ],
-    "sourceIndex": 4813
-  },
-  {
-    "id": "104817",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We received a cancellation for the concert."
-      },
-      "de": {
-        "text": "Wir haben eine Absage für das Konzert erhalten."
-      }
-    },
-    "wordIds": [
-      "14817"
-    ],
-    "sourceIndex": 4817
   },
   {
     "id": "104818",
@@ -26153,58 +12072,6 @@ const phrasesDaily = [
     "sourceIndex": 4818
   },
   {
-    "id": "104819",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He has been unemployed for a year."
-      },
-      "de": {
-        "text": "Er ist seit einem Jahr arbeitslos."
-      }
-    },
-    "wordIds": [
-      "14819"
-    ],
-    "sourceIndex": 4819
-  },
-  {
-    "id": "104820",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please keep the receipt."
-      },
-      "de": {
-        "text": "Bitte bewahren Sie die Quittung auf."
-      }
-    },
-    "wordIds": [
-      "14820",
-      "19489"
-    ],
-    "sourceIndex": 4820
-  },
-  {
-    "id": "104826",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The vending machine is broken."
-      },
-      "de": {
-        "text": "Der Automat ist kaputt."
-      }
-    },
-    "wordIds": [
-      "14826"
-    ],
-    "sourceIndex": 4826
-  },
-  {
     "id": "104829",
     "category": "daily",
     "level": "hard",
@@ -26220,57 +12087,6 @@ const phrasesDaily = [
       "14829"
     ],
     "sourceIndex": 4829
-  },
-  {
-    "id": "104833",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "My cousin is visiting us next week."
-      },
-      "de": {
-        "text": "Mein Cousin besucht uns nächste Woche."
-      }
-    },
-    "wordIds": [
-      "14833"
-    ],
-    "sourceIndex": 4833
-  },
-  {
-    "id": "104838",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "He filled the bucket with water."
-      },
-      "de": {
-        "text": "Er füllte den Eimer mit Wasser."
-      }
-    },
-    "wordIds": [
-      "14838"
-    ],
-    "sourceIndex": 4838
-  },
-  {
-    "id": "104851",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He found inspiration in nature."
-      },
-      "de": {
-        "text": "Er fand Inspiration in der Natur."
-      }
-    },
-    "wordIds": [
-      "14851"
-    ],
-    "sourceIndex": 4851
   },
   {
     "id": "104854",
@@ -26307,23 +12123,6 @@ const phrasesDaily = [
     "sourceIndex": 4861
   },
   {
-    "id": "104867",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "You can look up the information in the book."
-      },
-      "de": {
-        "text": "Du kannst die Informationen im Buch nachlesen."
-      }
-    },
-    "wordIds": [
-      "14867"
-    ],
-    "sourceIndex": 4867
-  },
-  {
     "id": "104871",
     "category": "daily",
     "level": "hard",
@@ -26339,57 +12138,6 @@ const phrasesDaily = [
       "14871"
     ],
     "sourceIndex": 4871
-  },
-  {
-    "id": "104872",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please place your bags here."
-      },
-      "de": {
-        "text": "Bitte platzieren Sie Ihre Taschen hier."
-      }
-    },
-    "wordIds": [
-      "14872"
-    ],
-    "sourceIndex": 4872
-  },
-  {
-    "id": "104877",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The repair of the car was expensive."
-      },
-      "de": {
-        "text": "Die Reparatur des Autos war teuer."
-      }
-    },
-    "wordIds": [
-      "14877"
-    ],
-    "sourceIndex": 4877
-  },
-  {
-    "id": "104879",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We are going shopping on the weekend."
-      },
-      "de": {
-        "text": "Wir gehen am Wochenende zum Shopping."
-      }
-    },
-    "wordIds": [
-      "14879"
-    ],
-    "sourceIndex": 4879
   },
   {
     "id": "104884",
@@ -26409,23 +12157,6 @@ const phrasesDaily = [
     "sourceIndex": 4884
   },
   {
-    "id": "104888",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Can I have a bag, please?"
-      },
-      "de": {
-        "text": "Kann ich bitte eine Tüte haben?"
-      }
-    },
-    "wordIds": [
-      "14888"
-    ],
-    "sourceIndex": 4888
-  },
-  {
     "id": "104889",
     "category": "daily",
     "level": "hard",
@@ -26441,74 +12172,6 @@ const phrasesDaily = [
       "14889"
     ],
     "sourceIndex": 4889
-  },
-  {
-    "id": "104897",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "That is an annoying situation."
-      },
-      "de": {
-        "text": "Das ist eine ärgerliche Situation."
-      }
-    },
-    "wordIds": [
-      "14897"
-    ],
-    "sourceIndex": 4897
-  },
-  {
-    "id": "104904",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The residents complained about the noise."
-      },
-      "de": {
-        "text": "Die Anwohner beschwerten sich über den Lärm."
-      }
-    },
-    "wordIds": [
-      "14904"
-    ],
-    "sourceIndex": 4904
-  },
-  {
-    "id": "104910",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He rides his bike to work every day."
-      },
-      "de": {
-        "text": "Er fährt jeden Tag mit seinem Bike zur Arbeit."
-      }
-    },
-    "wordIds": [
-      "14910"
-    ],
-    "sourceIndex": 4910
-  },
-  {
-    "id": "104911",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She leafed through an old photo album."
-      },
-      "de": {
-        "text": "Sie blätterte in einem alten Fotoalbum."
-      }
-    },
-    "wordIds": [
-      "14911"
-    ],
-    "sourceIndex": 4911
   },
   {
     "id": "104917",
@@ -26545,23 +12208,6 @@ const phrasesDaily = [
     "sourceIndex": 4918
   },
   {
-    "id": "104921",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The roadway was slippery due to the ice."
-      },
-      "de": {
-        "text": "Die Fahrbahn war glatt wegen des Eises."
-      }
-    },
-    "wordIds": [
-      "14921"
-    ],
-    "sourceIndex": 4921
-  },
-  {
     "id": "104924",
     "category": "daily",
     "level": "medium",
@@ -26594,40 +12240,6 @@ const phrasesDaily = [
       "14943"
     ],
     "sourceIndex": 4943
-  },
-  {
-    "id": "104946",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He has to take a pill every day."
-      },
-      "de": {
-        "text": "Er muss jeden Tag eine Pille nehmen."
-      }
-    },
-    "wordIds": [
-      "14946"
-    ],
-    "sourceIndex": 4946
-  },
-  {
-    "id": "104948",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "It will rain today."
-      },
-      "de": {
-        "text": "Es wird heute regnen."
-      }
-    },
-    "wordIds": [
-      "14948"
-    ],
-    "sourceIndex": 4948
   },
   {
     "id": "104955",
@@ -26681,23 +12293,6 @@ const phrasesDaily = [
     "sourceIndex": 4960
   },
   {
-    "id": "104962",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The first item on the agenda is the welcome."
-      },
-      "de": {
-        "text": "Der erste Punkt auf der Tagesordnung ist die Begrüßung."
-      }
-    },
-    "wordIds": [
-      "14962"
-    ],
-    "sourceIndex": 4962
-  },
-  {
     "id": "104970",
     "category": "daily",
     "level": "hard",
@@ -26730,23 +12325,6 @@ const phrasesDaily = [
       "14973"
     ],
     "sourceIndex": 4973
-  },
-  {
-    "id": "104988",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He is a very modest person."
-      },
-      "de": {
-        "text": "Er ist ein sehr bescheidener Mensch."
-      }
-    },
-    "wordIds": [
-      "14988"
-    ],
-    "sourceIndex": 4988
   },
   {
     "id": "104990",
@@ -26800,40 +12378,6 @@ const phrasesDaily = [
     "sourceIndex": 4996
   },
   {
-    "id": "105002",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She is interested in style and fashion."
-      },
-      "de": {
-        "text": "Sie interessiert sich für Mode und Fashion."
-      }
-    },
-    "wordIds": [
-      "15002"
-    ],
-    "sourceIndex": 5002
-  },
-  {
-    "id": "105013",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The waiter collects the money."
-      },
-      "de": {
-        "text": "Der Kellner kassiert das Geld."
-      }
-    },
-    "wordIds": [
-      "15013"
-    ],
-    "sourceIndex": 5013
-  },
-  {
     "id": "105014",
     "category": "daily",
     "level": "hard",
@@ -26849,23 +12393,6 @@ const phrasesDaily = [
       "15014"
     ],
     "sourceIndex": 5014
-  },
-  {
-    "id": "105016",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We're meeting at the pub tonight."
-      },
-      "de": {
-        "text": "Wir treffen uns heute Abend in der Kneipe."
-      }
-    },
-    "wordIds": [
-      "15016"
-    ],
-    "sourceIndex": 5016
   },
   {
     "id": "105021",
@@ -26902,108 +12429,6 @@ const phrasesDaily = [
     "sourceIndex": 5027
   },
   {
-    "id": "105029",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The children came into the door one after another."
-      },
-      "de": {
-        "text": "Die Kinder kamen nacheinander zur Tür herein."
-      }
-    },
-    "wordIds": [
-      "15029"
-    ],
-    "sourceIndex": 5029
-  },
-  {
-    "id": "105032",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please put the documents in the folder."
-      },
-      "de": {
-        "text": "Bitte legen Sie die Dokumente in den Ordner."
-      }
-    },
-    "wordIds": [
-      "15032"
-    ],
-    "sourceIndex": 5032
-  },
-  {
-    "id": "105036",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The apartment has 80 square meters."
-      },
-      "de": {
-        "text": "Die Wohnung hat 80 Quadratmeter."
-      }
-    },
-    "wordIds": [
-      "15036"
-    ],
-    "sourceIndex": 5036
-  },
-  {
-    "id": "105039",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "That is a very romantic movie."
-      },
-      "de": {
-        "text": "Das ist ein sehr romantischer Film."
-      }
-    },
-    "wordIds": [
-      "15039"
-    ],
-    "sourceIndex": 5039
-  },
-  {
-    "id": "105040",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The router is broken."
-      },
-      "de": {
-        "text": "Der Router ist kaputt."
-      }
-    },
-    "wordIds": [
-      "15040"
-    ],
-    "sourceIndex": 5040
-  },
-  {
-    "id": "105041",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He could not swallow the tablet."
-      },
-      "de": {
-        "text": "Er konnte die Tablette nicht schlucken."
-      }
-    },
-    "wordIds": [
-      "15041"
-    ],
-    "sourceIndex": 5041
-  },
-  {
     "id": "105043",
     "category": "daily",
     "level": "hard",
@@ -27019,57 +12444,6 @@ const phrasesDaily = [
       "15043"
     ],
     "sourceIndex": 5043
-  },
-  {
-    "id": "105046",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He is a Syrian."
-      },
-      "de": {
-        "text": "Er ist ein Syrer."
-      }
-    },
-    "wordIds": [
-      "15046"
-    ],
-    "sourceIndex": 5046
-  },
-  {
-    "id": "105047",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The house is located in the southwest of the city."
-      },
-      "de": {
-        "text": "Das Haus liegt im Südwesten der Stadt."
-      }
-    },
-    "wordIds": [
-      "15047"
-    ],
-    "sourceIndex": 5047
-  },
-  {
-    "id": "105055",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The key is lost."
-      },
-      "de": {
-        "text": "Der Schlüssel ist verloren."
-      }
-    },
-    "wordIds": [
-      "15055"
-    ],
-    "sourceIndex": 5055
   },
   {
     "id": "105060",
@@ -27123,23 +12497,6 @@ const phrasesDaily = [
     "sourceIndex": 5070
   },
   {
-    "id": "105086",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He made the decision to quit."
-      },
-      "de": {
-        "text": "Er fasste den Entschluss, zu kündigen."
-      }
-    },
-    "wordIds": [
-      "15086"
-    ],
-    "sourceIndex": 5086
-  },
-  {
     "id": "105092",
     "category": "daily",
     "level": "hard",
@@ -27172,23 +12529,6 @@ const phrasesDaily = [
       "15097"
     ],
     "sourceIndex": 5097
-  },
-  {
-    "id": "105101",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Their marriage was a big event."
-      },
-      "de": {
-        "text": "Ihre Heirat war ein großes Ereignis."
-      }
-    },
-    "wordIds": [
-      "15101"
-    ],
-    "sourceIndex": 5101
   },
   {
     "id": "105109",
@@ -27242,23 +12582,6 @@ const phrasesDaily = [
     "sourceIndex": 5111
   },
   {
-    "id": "105123",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "One should respect older people."
-      },
-      "de": {
-        "text": "Man sollte ältere Menschen respektieren."
-      }
-    },
-    "wordIds": [
-      "15123"
-    ],
-    "sourceIndex": 5123
-  },
-  {
     "id": "105125",
     "category": "daily",
     "level": "hard",
@@ -27274,23 +12597,6 @@ const phrasesDaily = [
       "15125"
     ],
     "sourceIndex": 5125
-  },
-  {
-    "id": "105127",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We want to go sailing on the weekend."
-      },
-      "de": {
-        "text": "Wir wollen am Wochenende segeln gehen."
-      }
-    },
-    "wordIds": [
-      "15127"
-    ],
-    "sourceIndex": 5127
   },
   {
     "id": "105130",
@@ -27395,23 +12701,6 @@ const phrasesDaily = [
     "sourceIndex": 5152
   },
   {
-    "id": "105153",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "That is a common abbreviation for \"for example\"."
-      },
-      "de": {
-        "text": "Das ist eine gängige Abkürzung für \"zum Beispiel\"."
-      }
-    },
-    "wordIds": [
-      "15153"
-    ],
-    "sourceIndex": 5153
-  },
-  {
     "id": "105169",
     "category": "daily",
     "level": "medium",
@@ -27514,23 +12803,6 @@ const phrasesDaily = [
     "sourceIndex": 5189
   },
   {
-    "id": "105206",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I will inquire with customer service."
-      },
-      "de": {
-        "text": "Ich werde beim Kundendienst nachfragen."
-      }
-    },
-    "wordIds": [
-      "15206"
-    ],
-    "sourceIndex": 5206
-  },
-  {
     "id": "105208",
     "category": "daily",
     "level": "hard",
@@ -27563,23 +12835,6 @@ const phrasesDaily = [
       "15211"
     ],
     "sourceIndex": 5211
-  },
-  {
-    "id": "105212",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please give me the pepper."
-      },
-      "de": {
-        "text": "Bitte gib mir den Pfeffer."
-      }
-    },
-    "wordIds": [
-      "15212"
-    ],
-    "sourceIndex": 5212
   },
   {
     "id": "105218",
@@ -27633,57 +12888,6 @@ const phrasesDaily = [
     "sourceIndex": 5227
   },
   {
-    "id": "105231",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "She wrapped the baby in a soft cloth."
-      },
-      "de": {
-        "text": "Sie wickelte das Baby in ein weiches Tuch."
-      }
-    },
-    "wordIds": [
-      "15231"
-    ],
-    "sourceIndex": 5231
-  },
-  {
-    "id": "105243",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She needs a medical certificate."
-      },
-      "de": {
-        "text": "Sie benötigt eine ärztliche Bescheinigung."
-      }
-    },
-    "wordIds": [
-      "15243"
-    ],
-    "sourceIndex": 5243
-  },
-  {
-    "id": "105244",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The team reached the round of sixteen of the tournament."
-      },
-      "de": {
-        "text": "Die Mannschaft erreichte das Achtelfinale des Turniers."
-      }
-    },
-    "wordIds": [
-      "15244"
-    ],
-    "sourceIndex": 5244
-  },
-  {
     "id": "105252",
     "category": "daily",
     "level": "medium",
@@ -27733,23 +12937,6 @@ const phrasesDaily = [
       "15257"
     ],
     "sourceIndex": 5257
-  },
-  {
-    "id": "105258",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She learned the poem by heart."
-      },
-      "de": {
-        "text": "Sie lernte das Gedicht auswendig."
-      }
-    },
-    "wordIds": [
-      "15258"
-    ],
-    "sourceIndex": 5258
   },
   {
     "id": "105260",
@@ -27803,74 +12990,6 @@ const phrasesDaily = [
     "sourceIndex": 5272
   },
   {
-    "id": "105280",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The first half-year was very successful."
-      },
-      "de": {
-        "text": "Das erste Halbjahr war sehr erfolgreich."
-      }
-    },
-    "wordIds": [
-      "15280"
-    ],
-    "sourceIndex": 5280
-  },
-  {
-    "id": "105281",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The hare hops across the field."
-      },
-      "de": {
-        "text": "Der Hase hoppelt über das Feld."
-      }
-    },
-    "wordIds": [
-      "15281"
-    ],
-    "sourceIndex": 5281
-  },
-  {
-    "id": "105296",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She loves 19th-century poetry."
-      },
-      "de": {
-        "text": "Sie liebt die Poesie des 19. Jahrhunderts."
-      }
-    },
-    "wordIds": [
-      "15296"
-    ],
-    "sourceIndex": 5296
-  },
-  {
-    "id": "105297",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The female politician gave a speech."
-      },
-      "de": {
-        "text": "Die Politikerin hielt eine Rede."
-      }
-    },
-    "wordIds": [
-      "15297"
-    ],
-    "sourceIndex": 5297
-  },
-  {
     "id": "105298",
     "category": "daily",
     "level": "medium",
@@ -27886,23 +13005,6 @@ const phrasesDaily = [
       "15298"
     ],
     "sourceIndex": 5298
-  },
-  {
-    "id": "105301",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The speaker thrilled the audience."
-      },
-      "de": {
-        "text": "Der Redner begeisterte das Publikum."
-      }
-    },
-    "wordIds": [
-      "15301"
-    ],
-    "sourceIndex": 5301
   },
   {
     "id": "105303",
@@ -27939,57 +13041,6 @@ const phrasesDaily = [
     "sourceIndex": 5306
   },
   {
-    "id": "105308",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The wound was very painful."
-      },
-      "de": {
-        "text": "Die Wunde war sehr schmerzhaft."
-      }
-    },
-    "wordIds": [
-      "15308"
-    ],
-    "sourceIndex": 5308
-  },
-  {
-    "id": "105311",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She is a shy girl."
-      },
-      "de": {
-        "text": "Sie ist ein schüchternes Mädchen."
-      }
-    },
-    "wordIds": [
-      "15311"
-    ],
-    "sourceIndex": 5311
-  },
-  {
-    "id": "105317",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "She is a diligent female student."
-      },
-      "de": {
-        "text": "Sie ist eine fleißige Studentin."
-      }
-    },
-    "wordIds": [
-      "15317"
-    ],
-    "sourceIndex": 5317
-  },
-  {
     "id": "105320",
     "category": "daily",
     "level": "hard",
@@ -28024,23 +13075,6 @@ const phrasesDaily = [
     "sourceIndex": 5328
   },
   {
-    "id": "105338",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The working group has made good progress."
-      },
-      "de": {
-        "text": "Die Arbeitsgruppe hat gute Fortschritte gemacht."
-      }
-    },
-    "wordIds": [
-      "15338"
-    ],
-    "sourceIndex": 5338
-  },
-  {
     "id": "105340",
     "category": "daily",
     "level": "hard",
@@ -28073,23 +13107,6 @@ const phrasesDaily = [
       "15342"
     ],
     "sourceIndex": 5342
-  },
-  {
-    "id": "105344",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I buy rolls at the bakery."
-      },
-      "de": {
-        "text": "Ich kaufe Brötchen in der Bäckerei."
-      }
-    },
-    "wordIds": [
-      "15344"
-    ],
-    "sourceIndex": 5344
   },
   {
     "id": "105350",
@@ -28143,23 +13160,6 @@ const phrasesDaily = [
     "sourceIndex": 5358
   },
   {
-    "id": "105376",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Would you like a cookie?"
-      },
-      "de": {
-        "text": "Möchtest du einen Keks?"
-      }
-    },
-    "wordIds": [
-      "15376"
-    ],
-    "sourceIndex": 5376
-  },
-  {
     "id": "105377",
     "category": "daily",
     "level": "hard",
@@ -28175,23 +13175,6 @@ const phrasesDaily = [
       "15377"
     ],
     "sourceIndex": 5377
-  },
-  {
-    "id": "105381",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Many products today are made of plastic."
-      },
-      "de": {
-        "text": "Viele Produkte werden heute aus Kunststoff hergestellt."
-      }
-    },
-    "wordIds": [
-      "15381"
-    ],
-    "sourceIndex": 5381
   },
   {
     "id": "105385",
@@ -28226,40 +13209,6 @@ const phrasesDaily = [
       "15389"
     ],
     "sourceIndex": 5389
-  },
-  {
-    "id": "105392",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He is always very optimistic."
-      },
-      "de": {
-        "text": "Er ist immer sehr optimistisch."
-      }
-    },
-    "wordIds": [
-      "15392"
-    ],
-    "sourceIndex": 5392
-  },
-  {
-    "id": "105394",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The pan is hot."
-      },
-      "de": {
-        "text": "Die Pfanne ist heiß."
-      }
-    },
-    "wordIds": [
-      "15394"
-    ],
-    "sourceIndex": 5394
   },
   {
     "id": "105395",
@@ -28313,23 +13262,6 @@ const phrasesDaily = [
     "sourceIndex": 5403
   },
   {
-    "id": "105411",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I need a stamp for the letter."
-      },
-      "de": {
-        "text": "Ich brauche einen Stempel für den Brief."
-      }
-    },
-    "wordIds": [
-      "15411"
-    ],
-    "sourceIndex": 5411
-  },
-  {
     "id": "105418",
     "category": "daily",
     "level": "hard",
@@ -28345,23 +13277,6 @@ const phrasesDaily = [
       "15418"
     ],
     "sourceIndex": 5418
-  },
-  {
-    "id": "105420",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He has to manage the finances."
-      },
-      "de": {
-        "text": "Er muss die Finanzen verwalten."
-      }
-    },
-    "wordIds": [
-      "15420"
-    ],
-    "sourceIndex": 5420
   },
   {
     "id": "105423",
@@ -28381,57 +13296,6 @@ const phrasesDaily = [
     "sourceIndex": 5423
   },
   {
-    "id": "105427",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Do you want to watch me cook?"
-      },
-      "de": {
-        "text": "Möchtest du mir beim Kochen zuschauen?"
-      }
-    },
-    "wordIds": [
-      "15427"
-    ],
-    "sourceIndex": 5427
-  },
-  {
-    "id": "105431",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The police are trying to solve the case."
-      },
-      "de": {
-        "text": "Die Polizei versucht, den Fall aufzuklären."
-      }
-    },
-    "wordIds": [
-      "15431"
-    ],
-    "sourceIndex": 5431
-  },
-  {
-    "id": "105432",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Can you please print out the document?"
-      },
-      "de": {
-        "text": "Kannst du das Dokument bitte ausdrucken?"
-      }
-    },
-    "wordIds": [
-      "15432"
-    ],
-    "sourceIndex": 5432
-  },
-  {
     "id": "105433",
     "category": "daily",
     "level": "medium",
@@ -28449,40 +13313,6 @@ const phrasesDaily = [
     "sourceIndex": 5433
   },
   {
-    "id": "105435",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "It was a pleasure to make your acquaintance."
-      },
-      "de": {
-        "text": "Es war mir eine Freude, Ihre Bekanntschaft zu machen."
-      }
-    },
-    "wordIds": [
-      "15435"
-    ],
-    "sourceIndex": 5435
-  },
-  {
-    "id": "105436",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I have a small bag for my groceries with me."
-      },
-      "de": {
-        "text": "Ich habe einen kleinen Beutel für meine Einkäufe dabei."
-      }
-    },
-    "wordIds": [
-      "15436"
-    ],
-    "sourceIndex": 5436
-  },
-  {
     "id": "105455",
     "category": "daily",
     "level": "hard",
@@ -28498,40 +13328,6 @@ const phrasesDaily = [
       "15455"
     ],
     "sourceIndex": 5455
-  },
-  {
-    "id": "105457",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We took the ferry to the island."
-      },
-      "de": {
-        "text": "Wir nahmen die Fähre zur Insel."
-      }
-    },
-    "wordIds": [
-      "15457"
-    ],
-    "sourceIndex": 5457
-  },
-  {
-    "id": "105460",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "She left her handbag on the table."
-      },
-      "de": {
-        "text": "Sie hat ihre Handtasche auf dem Tisch liegen lassen."
-      }
-    },
-    "wordIds": [
-      "15460"
-    ],
-    "sourceIndex": 5460
   },
   {
     "id": "105474",
@@ -28568,23 +13364,6 @@ const phrasesDaily = [
     "sourceIndex": 5475
   },
   {
-    "id": "105476",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "My Mom is coming tomorrow."
-      },
-      "de": {
-        "text": "Meine Mom kommt morgen."
-      }
-    },
-    "wordIds": [
-      "15476"
-    ],
-    "sourceIndex": 5476
-  },
-  {
     "id": "105484",
     "category": "daily",
     "level": "hard",
@@ -28617,23 +13396,6 @@ const phrasesDaily = [
       "15486"
     ],
     "sourceIndex": 5486
-  },
-  {
-    "id": "105492",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "Please close the door."
-      },
-      "de": {
-        "text": "Bitte schließen Sie die Tür."
-      }
-    },
-    "wordIds": [
-      "15492"
-    ],
-    "sourceIndex": 5492
   },
   {
     "id": "105495",
@@ -28670,40 +13432,6 @@ const phrasesDaily = [
     "sourceIndex": 5496
   },
   {
-    "id": "105499",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please contact us by phone."
-      },
-      "de": {
-        "text": "Bitte kontaktieren Sie uns telefonisch."
-      }
-    },
-    "wordIds": [
-      "15499"
-    ],
-    "sourceIndex": 5499
-  },
-  {
-    "id": "105501",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He was able to double his income."
-      },
-      "de": {
-        "text": "Er konnte seine Einnahmen verdoppeln."
-      }
-    },
-    "wordIds": [
-      "15501"
-    ],
-    "sourceIndex": 5501
-  },
-  {
     "id": "105504",
     "category": "daily",
     "level": "hard",
@@ -28721,23 +13449,6 @@ const phrasesDaily = [
     "sourceIndex": 5504
   },
   {
-    "id": "105507",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The hiker enjoyed the view from the mountain."
-      },
-      "de": {
-        "text": "Der Wanderer genoss die Aussicht vom Berg."
-      }
-    },
-    "wordIds": [
-      "15507"
-    ],
-    "sourceIndex": 5507
-  },
-  {
     "id": "105509",
     "category": "daily",
     "level": "hard",
@@ -28753,23 +13464,6 @@ const phrasesDaily = [
       "15509"
     ],
     "sourceIndex": 5509
-  },
-  {
-    "id": "105522",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Can you please switch off the light?"
-      },
-      "de": {
-        "text": "Kannst du bitte das Licht ausschalten?"
-      }
-    },
-    "wordIds": [
-      "15522"
-    ],
-    "sourceIndex": 5522
   },
   {
     "id": "105524",
@@ -28806,23 +13500,6 @@ const phrasesDaily = [
     "sourceIndex": 5526
   },
   {
-    "id": "105529",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "There was a loud crash on the street."
-      },
-      "de": {
-        "text": "Es gab einen lauten Crash auf der Straße."
-      }
-    },
-    "wordIds": [
-      "15529"
-    ],
-    "sourceIndex": 5529
-  },
-  {
     "id": "105530",
     "category": "daily",
     "level": "hard",
@@ -28857,40 +13534,6 @@ const phrasesDaily = [
     "sourceIndex": 5531
   },
   {
-    "id": "105532",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The new system is very efficient."
-      },
-      "de": {
-        "text": "Das neue System ist sehr effizient."
-      }
-    },
-    "wordIds": [
-      "15532"
-    ],
-    "sourceIndex": 5532
-  },
-  {
-    "id": "105540",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "That was a very successful evening."
-      },
-      "de": {
-        "text": "Das war ein sehr gelungener Abend."
-      }
-    },
-    "wordIds": [
-      "15540"
-    ],
-    "sourceIndex": 5540
-  },
-  {
     "id": "105542",
     "category": "daily",
     "level": "hard",
@@ -28908,23 +13551,6 @@ const phrasesDaily = [
     "sourceIndex": 5542
   },
   {
-    "id": "105555",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "In summer, air conditioning is very pleasant."
-      },
-      "de": {
-        "text": "Im Sommer ist eine Klimaanlage sehr angenehm."
-      }
-    },
-    "wordIds": [
-      "15555"
-    ],
-    "sourceIndex": 5555
-  },
-  {
     "id": "105558",
     "category": "daily",
     "level": "medium",
@@ -28940,91 +13566,6 @@ const phrasesDaily = [
       "15558"
     ],
     "sourceIndex": 5558
-  },
-  {
-    "id": "105564",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He is envious of her success."
-      },
-      "de": {
-        "text": "Er ist neidisch auf ihren Erfolg."
-      }
-    },
-    "wordIds": [
-      "15564"
-    ],
-    "sourceIndex": 5564
-  },
-  {
-    "id": "105565",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The locality is picturesquely situated by the river."
-      },
-      "de": {
-        "text": "Die Ortschaft liegt malerisch am Fluss."
-      }
-    },
-    "wordIds": [
-      "15565"
-    ],
-    "sourceIndex": 5565
-  },
-  {
-    "id": "105567",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Children often have a vivid imagination."
-      },
-      "de": {
-        "text": "Kinder haben oft eine lebhafte Phantasie."
-      }
-    },
-    "wordIds": [
-      "15567"
-    ],
-    "sourceIndex": 5567
-  },
-  {
-    "id": "105576",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I sweat when it's hot."
-      },
-      "de": {
-        "text": "Ich schwitze, wenn es heiß ist."
-      }
-    },
-    "wordIds": [
-      "15576"
-    ],
-    "sourceIndex": 5576
-  },
-  {
-    "id": "105592",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I checked my weight on the scales."
-      },
-      "de": {
-        "text": "Ich habe mein Gewicht auf der Waage überprüft."
-      }
-    },
-    "wordIds": [
-      "15592"
-    ],
-    "sourceIndex": 5592
   },
   {
     "id": "105603",
@@ -29059,23 +13600,6 @@ const phrasesDaily = [
       "15607"
     ],
     "sourceIndex": 5607
-  },
-  {
-    "id": "105615",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "His greeting was very warm."
-      },
-      "de": {
-        "text": "Seine Begrüssung war sehr herzlich."
-      }
-    },
-    "wordIds": [
-      "15615"
-    ],
-    "sourceIndex": 5615
   },
   {
     "id": "105622",
@@ -29163,57 +13687,6 @@ const phrasesDaily = [
     "sourceIndex": 5643
   },
   {
-    "id": "105644",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Be careful, the edge is sharp."
-      },
-      "de": {
-        "text": "Sei vorsichtig, die Kante ist scharf."
-      }
-    },
-    "wordIds": [
-      "15644"
-    ],
-    "sourceIndex": 5644
-  },
-  {
-    "id": "105646",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I like the smell of garlic."
-      },
-      "de": {
-        "text": "Ich mag den Geruch von Knoblauch."
-      }
-    },
-    "wordIds": [
-      "15646"
-    ],
-    "sourceIndex": 5646
-  },
-  {
-    "id": "105647",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "My female colleague often helps me."
-      },
-      "de": {
-        "text": "Meine Kollegin hilft mir oft."
-      }
-    },
-    "wordIds": [
-      "15647"
-    ],
-    "sourceIndex": 5647
-  },
-  {
     "id": "105654",
     "category": "daily",
     "level": "hard",
@@ -29248,23 +13721,6 @@ const phrasesDaily = [
     "sourceIndex": 5655
   },
   {
-    "id": "105664",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I like to sit in my comfortable armchair."
-      },
-      "de": {
-        "text": "Ich sitze gerne in meinem bequemen Sessel."
-      }
-    },
-    "wordIds": [
-      "15664"
-    ],
-    "sourceIndex": 5664
-  },
-  {
     "id": "105665",
     "category": "daily",
     "level": "hard",
@@ -29280,23 +13736,6 @@ const phrasesDaily = [
       "15665"
     ],
     "sourceIndex": 5665
-  },
-  {
-    "id": "105668",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "She types quickly on the keyboard."
-      },
-      "de": {
-        "text": "Sie tippt schnell auf der Tastatur."
-      }
-    },
-    "wordIds": [
-      "15668"
-    ],
-    "sourceIndex": 5668
   },
   {
     "id": "105677",
@@ -29333,40 +13772,6 @@ const phrasesDaily = [
     "sourceIndex": 5679
   },
   {
-    "id": "105683",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The numbers have declined."
-      },
-      "de": {
-        "text": "Die Zahlen sind zurückgegangen."
-      }
-    },
-    "wordIds": [
-      "15683"
-    ],
-    "sourceIndex": 5683
-  },
-  {
-    "id": "105687",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The president gave an inspiring speech."
-      },
-      "de": {
-        "text": "Die Präsidentin hielt eine inspirierende Ansprache."
-      }
-    },
-    "wordIds": [
-      "15687"
-    ],
-    "sourceIndex": 5687
-  },
-  {
     "id": "105698",
     "category": "daily",
     "level": "hard",
@@ -29382,57 +13787,6 @@ const phrasesDaily = [
       "15698"
     ],
     "sourceIndex": 5698
-  },
-  {
-    "id": "105700",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please keep the receipt."
-      },
-      "de": {
-        "text": "Bitte bewahren Sie den Bon auf."
-      }
-    },
-    "wordIds": [
-      "15700"
-    ],
-    "sourceIndex": 5700
-  },
-  {
-    "id": "105702",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The chief made the decision."
-      },
-      "de": {
-        "text": "Der Chief hat die Entscheidung getroffen."
-      }
-    },
-    "wordIds": [
-      "15702"
-    ],
-    "sourceIndex": 5702
-  },
-  {
-    "id": "105715",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We have to feed the animals."
-      },
-      "de": {
-        "text": "Wir müssen die Tiere füttern."
-      }
-    },
-    "wordIds": [
-      "15715"
-    ],
-    "sourceIndex": 5715
   },
   {
     "id": "105719",
@@ -29486,40 +13840,6 @@ const phrasesDaily = [
     "sourceIndex": 5725
   },
   {
-    "id": "105728",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The listener hung up."
-      },
-      "de": {
-        "text": "Der Hörer legte auf."
-      }
-    },
-    "wordIds": [
-      "15728"
-    ],
-    "sourceIndex": 5728
-  },
-  {
-    "id": "105733",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Do you get it now?"
-      },
-      "de": {
-        "text": "Hast du das jetzt kapiert?"
-      }
-    },
-    "wordIds": [
-      "15733"
-    ],
-    "sourceIndex": 5733
-  },
-  {
     "id": "105735",
     "category": "daily",
     "level": "hard",
@@ -29535,40 +13855,6 @@ const phrasesDaily = [
       "15735"
     ],
     "sourceIndex": 5735
-  },
-  {
-    "id": "105736",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please contact me if you have questions."
-      },
-      "de": {
-        "text": "Bitte kontaktieren Sie mich bei Fragen."
-      }
-    },
-    "wordIds": [
-      "15736"
-    ],
-    "sourceIndex": 5736
-  },
-  {
-    "id": "105739",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Can you lend me your book?"
-      },
-      "de": {
-        "text": "Kannst du mir dein Buch leihen?"
-      }
-    },
-    "wordIds": [
-      "15739"
-    ],
-    "sourceIndex": 5739
   },
   {
     "id": "105749",
@@ -29605,40 +13891,6 @@ const phrasesDaily = [
     "sourceIndex": 5751
   },
   {
-    "id": "105765",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The child is playing with its teddy bear."
-      },
-      "de": {
-        "text": "Das Kind spielt mit seinem Teddy."
-      }
-    },
-    "wordIds": [
-      "15765"
-    ],
-    "sourceIndex": 5765
-  },
-  {
-    "id": "105768",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Don't let yourself be deceived."
-      },
-      "de": {
-        "text": "Lass dich nicht täuschen."
-      }
-    },
-    "wordIds": [
-      "15768"
-    ],
-    "sourceIndex": 5768
-  },
-  {
     "id": "105769",
     "category": "daily",
     "level": "hard",
@@ -29654,23 +13906,6 @@ const phrasesDaily = [
       "15769"
     ],
     "sourceIndex": 5769
-  },
-  {
-    "id": "105770",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "She bought new underwear."
-      },
-      "de": {
-        "text": "Sie kaufte neue Unterwäsche."
-      }
-    },
-    "wordIds": [
-      "15770"
-    ],
-    "sourceIndex": 5770
   },
   {
     "id": "105771",
@@ -29707,23 +13942,6 @@ const phrasesDaily = [
     "sourceIndex": 5775
   },
   {
-    "id": "105779",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please cover the food."
-      },
-      "de": {
-        "text": "Bitte decken Sie das Essen ab."
-      }
-    },
-    "wordIds": [
-      "15779"
-    ],
-    "sourceIndex": 5779
-  },
-  {
     "id": "105796",
     "category": "daily",
     "level": "hard",
@@ -29756,40 +13974,6 @@ const phrasesDaily = [
       "15802"
     ],
     "sourceIndex": 5802
-  },
-  {
-    "id": "105804",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The food tastes disgusting."
-      },
-      "de": {
-        "text": "Das Essen schmeckt eklig."
-      }
-    },
-    "wordIds": [
-      "15804"
-    ],
-    "sourceIndex": 5804
-  },
-  {
-    "id": "105806",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He was too cowardly to tell the truth."
-      },
-      "de": {
-        "text": "Er war zu feige, um die Wahrheit zu sagen."
-      }
-    },
-    "wordIds": [
-      "15806"
-    ],
-    "sourceIndex": 5806
   },
   {
     "id": "105807",
@@ -29826,40 +14010,6 @@ const phrasesDaily = [
     "sourceIndex": 5817
   },
   {
-    "id": "105819",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He missed his homeland very much."
-      },
-      "de": {
-        "text": "Er vermisste sein Heimatland sehr."
-      }
-    },
-    "wordIds": [
-      "15819"
-    ],
-    "sourceIndex": 5819
-  },
-  {
-    "id": "105821",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The jet landed on time."
-      },
-      "de": {
-        "text": "Der Jet landete pünktlich."
-      }
-    },
-    "wordIds": [
-      "15821"
-    ],
-    "sourceIndex": 5821
-  },
-  {
     "id": "105824",
     "category": "daily",
     "level": "hard",
@@ -29877,23 +14027,6 @@ const phrasesDaily = [
     "sourceIndex": 5824
   },
   {
-    "id": "105833",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The local transport in the city is very well developed."
-      },
-      "de": {
-        "text": "Der Nahverkehr in der Stadt ist sehr gut ausgebaut."
-      }
-    },
-    "wordIds": [
-      "15833"
-    ],
-    "sourceIndex": 5833
-  },
-  {
     "id": "105835",
     "category": "daily",
     "level": "medium",
@@ -29909,23 +14042,6 @@ const phrasesDaily = [
       "15835"
     ],
     "sourceIndex": 5835
-  },
-  {
-    "id": "105843",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "After a long hike, we needed a rest."
-      },
-      "de": {
-        "text": "Nach einer langen Wanderung brauchten wir eine Rast."
-      }
-    },
-    "wordIds": [
-      "15843"
-    ],
-    "sourceIndex": 5843
   },
   {
     "id": "105847",
@@ -29962,23 +14078,6 @@ const phrasesDaily = [
     "sourceIndex": 5848
   },
   {
-    "id": "105854",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The speaker gave an impressive speech."
-      },
-      "de": {
-        "text": "Die Sprecherin hielt eine beeindruckende Rede."
-      }
-    },
-    "wordIds": [
-      "15854"
-    ],
-    "sourceIndex": 5854
-  },
-  {
     "id": "105857",
     "category": "daily",
     "level": "hard",
@@ -29994,40 +14093,6 @@ const phrasesDaily = [
       "15857"
     ],
     "sourceIndex": 5857
-  },
-  {
-    "id": "105875",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The waiting time in the doctor's office was very long."
-      },
-      "de": {
-        "text": "Die Wartezeit in der Arztpraxis war sehr lang."
-      }
-    },
-    "wordIds": [
-      "15875"
-    ],
-    "sourceIndex": 5875
-  },
-  {
-    "id": "105876",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Can you please pass on this message?"
-      },
-      "de": {
-        "text": "Kannst du diese Nachricht bitte weitergeben?"
-      }
-    },
-    "wordIds": [
-      "15876"
-    ],
-    "sourceIndex": 5876
   },
   {
     "id": "105881",
@@ -30047,40 +14112,6 @@ const phrasesDaily = [
     "sourceIndex": 5881
   },
   {
-    "id": "105884",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Access is permitted for staff only."
-      },
-      "de": {
-        "text": "Der Zutritt ist nur für Personal gestattet."
-      }
-    },
-    "wordIds": [
-      "15884"
-    ],
-    "sourceIndex": 5884
-  },
-  {
-    "id": "105886",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We should buy more ecological products."
-      },
-      "de": {
-        "text": "Wir sollten mehr ökologische Produkte kaufen."
-      }
-    },
-    "wordIds": [
-      "15886"
-    ],
-    "sourceIndex": 5886
-  },
-  {
     "id": "105887",
     "category": "daily",
     "level": "medium",
@@ -30096,23 +14127,6 @@ const phrasesDaily = [
       "15887"
     ],
     "sourceIndex": 5887
-  },
-  {
-    "id": "105896",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We looked for the city in the atlas."
-      },
-      "de": {
-        "text": "Wir suchten die Stadt im Atlas."
-      }
-    },
-    "wordIds": [
-      "15896"
-    ],
-    "sourceIndex": 5896
   },
   {
     "id": "105903",
@@ -30132,23 +14146,6 @@ const phrasesDaily = [
     "sourceIndex": 5903
   },
   {
-    "id": "105909",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The clown made the children laugh."
-      },
-      "de": {
-        "text": "Der Clown brachte die Kinder zum Lachen."
-      }
-    },
-    "wordIds": [
-      "15909"
-    ],
-    "sourceIndex": 5909
-  },
-  {
     "id": "105915",
     "category": "daily",
     "level": "hard",
@@ -30164,23 +14161,6 @@ const phrasesDaily = [
       "15915"
     ],
     "sourceIndex": 5915
-  },
-  {
-    "id": "105921",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She is a very patient teacher."
-      },
-      "de": {
-        "text": "Sie ist eine sehr geduldige Lehrerin."
-      }
-    },
-    "wordIds": [
-      "15921"
-    ],
-    "sourceIndex": 5921
   },
   {
     "id": "105931",
@@ -30251,57 +14231,6 @@ const phrasesDaily = [
     "sourceIndex": 5947
   },
   {
-    "id": "105951",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I saw a good movie yesterday."
-      },
-      "de": {
-        "text": "Ich habe gestern einen guten Movie gesehen."
-      }
-    },
-    "wordIds": [
-      "15951"
-    ],
-    "sourceIndex": 5951
-  },
-  {
-    "id": "105955",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "My nephew is visiting us on the weekend."
-      },
-      "de": {
-        "text": "Mein Neffe besucht uns am Wochenende."
-      }
-    },
-    "wordIds": [
-      "15955"
-    ],
-    "sourceIndex": 5955
-  },
-  {
-    "id": "105957",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Many celebrities were at the party."
-      },
-      "de": {
-        "text": "Viele Promis waren auf der Party."
-      }
-    },
-    "wordIds": [
-      "15957"
-    ],
-    "sourceIndex": 5957
-  },
-  {
     "id": "105958",
     "category": "daily",
     "level": "hard",
@@ -30334,23 +14263,6 @@ const phrasesDaily = [
       "15960"
     ],
     "sourceIndex": 5960
-  },
-  {
-    "id": "105962",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "He likes to surf the internet."
-      },
-      "de": {
-        "text": "Er surft gerne im Internet."
-      }
-    },
-    "wordIds": [
-      "15962"
-    ],
-    "sourceIndex": 5962
   },
   {
     "id": "105963",
@@ -30472,23 +14384,6 @@ const phrasesDaily = [
     "sourceIndex": 6005
   },
   {
-    "id": "106006",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The Federal Police secured the train station."
-      },
-      "de": {
-        "text": "Die Bundespolizei sicherte den Bahnhof."
-      }
-    },
-    "wordIds": [
-      "16006"
-    ],
-    "sourceIndex": 6006
-  },
-  {
     "id": "106007",
     "category": "daily",
     "level": "hard",
@@ -30504,40 +14399,6 @@ const phrasesDaily = [
       "16007"
     ],
     "sourceIndex": 6007
-  },
-  {
-    "id": "106013",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "They had to lock up the dog in the kennel."
-      },
-      "de": {
-        "text": "Sie mussten den Hund im Zwinger einsperren."
-      }
-    },
-    "wordIds": [
-      "16013"
-    ],
-    "sourceIndex": 6013
-  },
-  {
-    "id": "106015",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We want to explore the area."
-      },
-      "de": {
-        "text": "Wir wollen die Gegend erkunden."
-      }
-    },
-    "wordIds": [
-      "16015"
-    ],
-    "sourceIndex": 6015
   },
   {
     "id": "106020",
@@ -30557,23 +14418,6 @@ const phrasesDaily = [
     "sourceIndex": 6020
   },
   {
-    "id": "106022",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "In summer, we often go to the outdoor swimming pool."
-      },
-      "de": {
-        "text": "Im Sommer gehen wir oft ins Freibad."
-      }
-    },
-    "wordIds": [
-      "16022"
-    ],
-    "sourceIndex": 6022
-  },
-  {
     "id": "106023",
     "category": "daily",
     "level": "easy",
@@ -30589,23 +14433,6 @@ const phrasesDaily = [
       "16023"
     ],
     "sourceIndex": 6023
-  },
-  {
-    "id": "106027",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I lost my wallet."
-      },
-      "de": {
-        "text": "Ich habe meinen Geldbeutel verloren."
-      }
-    },
-    "wordIds": [
-      "16027"
-    ],
-    "sourceIndex": 6027
   },
   {
     "id": "106031",
@@ -30625,23 +14452,6 @@ const phrasesDaily = [
     "sourceIndex": 6031
   },
   {
-    "id": "106039",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The lawyer met his client."
-      },
-      "de": {
-        "text": "Der Anwalt traf seinen Klienten."
-      }
-    },
-    "wordIds": [
-      "16039"
-    ],
-    "sourceIndex": 6039
-  },
-  {
     "id": "106041",
     "category": "daily",
     "level": "hard",
@@ -30657,40 +14467,6 @@ const phrasesDaily = [
       "16041"
     ],
     "sourceIndex": 6041
-  },
-  {
-    "id": "106046",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The microphone is broken."
-      },
-      "de": {
-        "text": "Das Mikrofon ist kaputt."
-      }
-    },
-    "wordIds": [
-      "16046"
-    ],
-    "sourceIndex": 6046
-  },
-  {
-    "id": "106053",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "A cute couple walked in the park."
-      },
-      "de": {
-        "text": "Ein süßes Pärchen spazierte im Park."
-      }
-    },
-    "wordIds": [
-      "16053"
-    ],
-    "sourceIndex": 6053
   },
   {
     "id": "106055",
@@ -30725,74 +14501,6 @@ const phrasesDaily = [
       "16056"
     ],
     "sourceIndex": 6056
-  },
-  {
-    "id": "106058",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "In winter, I always wear a warm scarf."
-      },
-      "de": {
-        "text": "Im Winter trage ich immer einen warmen Schal."
-      }
-    },
-    "wordIds": [
-      "16058"
-    ],
-    "sourceIndex": 6058
-  },
-  {
-    "id": "106070",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The severe weather caused great damage."
-      },
-      "de": {
-        "text": "Das Unwetter verursachte große Schäden."
-      }
-    },
-    "wordIds": [
-      "16070"
-    ],
-    "sourceIndex": 6070
-  },
-  {
-    "id": "106074",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "All my relatives are coming for Christmas."
-      },
-      "de": {
-        "text": "Meine ganze Verwandtschaft kommt zu Weihnachten."
-      }
-    },
-    "wordIds": [
-      "16074"
-    ],
-    "sourceIndex": 6074
-  },
-  {
-    "id": "106078",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The guard stood in front of the gate."
-      },
-      "de": {
-        "text": "Der Wächter stand vor dem Tor."
-      }
-    },
-    "wordIds": [
-      "16078"
-    ],
-    "sourceIndex": 6078
   },
   {
     "id": "106082",
@@ -30897,40 +14605,6 @@ const phrasesDaily = [
     "sourceIndex": 6094
   },
   {
-    "id": "106095",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I need a moisturizing cream for my face."
-      },
-      "de": {
-        "text": "Ich brauche eine feuchtigkeitsspendende Creme für mein Gesicht."
-      }
-    },
-    "wordIds": [
-      "16095"
-    ],
-    "sourceIndex": 6095
-  },
-  {
-    "id": "106101",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Natural gas is an important energy source."
-      },
-      "de": {
-        "text": "Erdgas ist eine wichtige Energiequelle."
-      }
-    },
-    "wordIds": [
-      "16101"
-    ],
-    "sourceIndex": 6101
-  },
-  {
     "id": "106102",
     "category": "daily",
     "level": "hard",
@@ -30946,57 +14620,6 @@ const phrasesDaily = [
       "16102"
     ],
     "sourceIndex": 6102
-  },
-  {
-    "id": "106112",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He is an Indian."
-      },
-      "de": {
-        "text": "Er ist ein Inder."
-      }
-    },
-    "wordIds": [
-      "16112"
-    ],
-    "sourceIndex": 6112
-  },
-  {
-    "id": "106115",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "In winter, we like to sit in front of the fireplace."
-      },
-      "de": {
-        "text": "Im Winter sitzen wir gerne vor dem Kamin."
-      }
-    },
-    "wordIds": [
-      "16115"
-    ],
-    "sourceIndex": 6115
-  },
-  {
-    "id": "106117",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The car's paint shines."
-      },
-      "de": {
-        "text": "Der Lack des Autos glänzt."
-      }
-    },
-    "wordIds": [
-      "16117"
-    ],
-    "sourceIndex": 6117
   },
   {
     "id": "106123",
@@ -31101,40 +14724,6 @@ const phrasesDaily = [
     "sourceIndex": 6139
   },
   {
-    "id": "106140",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We toasted the new year with sparkling wine."
-      },
-      "de": {
-        "text": "Wir haben mit Sekt auf das neue Jahr angestoßen."
-      }
-    },
-    "wordIds": [
-      "16140"
-    ],
-    "sourceIndex": 6140
-  },
-  {
-    "id": "106144",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I would like a little piece of cake."
-      },
-      "de": {
-        "text": "Ich hätte gerne ein kleines Stückchen Kuchen."
-      }
-    },
-    "wordIds": [
-      "16144"
-    ],
-    "sourceIndex": 6144
-  },
-  {
     "id": "106145",
     "category": "daily",
     "level": "hard",
@@ -31169,57 +14758,6 @@ const phrasesDaily = [
     "sourceIndex": 6146
   },
   {
-    "id": "106161",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The magician pulled a rabbit out of the hat."
-      },
-      "de": {
-        "text": "Der Zauberer zog ein Kaninchen aus dem Hut."
-      }
-    },
-    "wordIds": [
-      "16161"
-    ],
-    "sourceIndex": 6161
-  },
-  {
-    "id": "106165",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The bus almost ran over a cat."
-      },
-      "de": {
-        "text": "Der Bus hat fast eine Katze überfahren."
-      }
-    },
-    "wordIds": [
-      "16165"
-    ],
-    "sourceIndex": 6165
-  },
-  {
-    "id": "106172",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "How does the fabric feel?"
-      },
-      "de": {
-        "text": "Wie fühlt sich der Stoff an?"
-      }
-    },
-    "wordIds": [
-      "16172"
-    ],
-    "sourceIndex": 6172
-  },
-  {
     "id": "106176",
     "category": "daily",
     "level": "medium",
@@ -31235,23 +14773,6 @@ const phrasesDaily = [
       "16176"
     ],
     "sourceIndex": 6176
-  },
-  {
-    "id": "106187",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I am currently reading an interesting biography."
-      },
-      "de": {
-        "text": "Ich lese gerade eine interessante Biografie."
-      }
-    },
-    "wordIds": [
-      "16187"
-    ],
-    "sourceIndex": 6187
   },
   {
     "id": "106195",
@@ -31271,40 +14792,6 @@ const phrasesDaily = [
     "sourceIndex": 6195
   },
   {
-    "id": "106200",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He fell ill with the flu."
-      },
-      "de": {
-        "text": "Er ist an einer Grippe erkrankt."
-      }
-    },
-    "wordIds": [
-      "16200"
-    ],
-    "sourceIndex": 6200
-  },
-  {
-    "id": "106217",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The flood caused great damage."
-      },
-      "de": {
-        "text": "Das Hochwasser verursachte große Schäden."
-      }
-    },
-    "wordIds": [
-      "16217"
-    ],
-    "sourceIndex": 6217
-  },
-  {
     "id": "106235",
     "category": "daily",
     "level": "hard",
@@ -31320,23 +14807,6 @@ const phrasesDaily = [
       "16235"
     ],
     "sourceIndex": 6235
-  },
-  {
-    "id": "106238",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "My niece is visiting us on the weekend."
-      },
-      "de": {
-        "text": "Meine Nichte besucht uns am Wochenende."
-      }
-    },
-    "wordIds": [
-      "16238"
-    ],
-    "sourceIndex": 6238
   },
   {
     "id": "106239",
@@ -31390,23 +14860,6 @@ const phrasesDaily = [
     "sourceIndex": 6249
   },
   {
-    "id": "106251",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We are going shopping on the weekend."
-      },
-      "de": {
-        "text": "Wir gehen am Wochenende shoppen."
-      }
-    },
-    "wordIds": [
-      "16251"
-    ],
-    "sourceIndex": 6251
-  },
-  {
     "id": "106255",
     "category": "daily",
     "level": "hard",
@@ -31422,40 +14875,6 @@ const phrasesDaily = [
       "16255"
     ],
     "sourceIndex": 6255
-  },
-  {
-    "id": "106262",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Our meeting point is at seven o'clock at the train station."
-      },
-      "de": {
-        "text": "Unser Treff ist um sieben Uhr am Bahnhof."
-      }
-    },
-    "wordIds": [
-      "16262"
-    ],
-    "sourceIndex": 6262
-  },
-  {
-    "id": "106268",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Can you read a story aloud to me?"
-      },
-      "de": {
-        "text": "Kannst du mir eine Geschichte vorlesen?"
-      }
-    },
-    "wordIds": [
-      "16268"
-    ],
-    "sourceIndex": 6268
   },
   {
     "id": "106271",
@@ -31509,23 +14928,6 @@ const phrasesDaily = [
     "sourceIndex": 6284
   },
   {
-    "id": "106306",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "His ambition drove him to great achievements."
-      },
-      "de": {
-        "text": "Sein Ehrgeiz trieb ihn zu großen Leistungen an."
-      }
-    },
-    "wordIds": [
-      "16306"
-    ],
-    "sourceIndex": 6306
-  },
-  {
     "id": "106307",
     "category": "daily",
     "level": "medium",
@@ -31577,40 +14979,6 @@ const phrasesDaily = [
     "sourceIndex": 6323
   },
   {
-    "id": "106336",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The wind comes from the northeast."
-      },
-      "de": {
-        "text": "Der Wind kommt aus dem Nordosten."
-      }
-    },
-    "wordIds": [
-      "16336"
-    ],
-    "sourceIndex": 6336
-  },
-  {
-    "id": "106353",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The old town is very worth seeing."
-      },
-      "de": {
-        "text": "Die Altstadt ist sehr sehenswert."
-      }
-    },
-    "wordIds": [
-      "16353"
-    ],
-    "sourceIndex": 6353
-  },
-  {
     "id": "106357",
     "category": "daily",
     "level": "hard",
@@ -31628,23 +14996,6 @@ const phrasesDaily = [
     "sourceIndex": 6357
   },
   {
-    "id": "106364",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The stairwell is very bright."
-      },
-      "de": {
-        "text": "Das Treppenhaus ist sehr hell."
-      }
-    },
-    "wordIds": [
-      "16364"
-    ],
-    "sourceIndex": 6364
-  },
-  {
     "id": "106368",
     "category": "daily",
     "level": "hard",
@@ -31660,74 +15011,6 @@ const phrasesDaily = [
       "16368"
     ],
     "sourceIndex": 6368
-  },
-  {
-    "id": "106371",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The volcano erupted last night."
-      },
-      "de": {
-        "text": "Der Vulkan brach letzte Nacht aus."
-      }
-    },
-    "wordIds": [
-      "16371"
-    ],
-    "sourceIndex": 6371
-  },
-  {
-    "id": "106372",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The bathtub is full of water."
-      },
-      "de": {
-        "text": "Die Badewanne ist voll mit Wasser."
-      }
-    },
-    "wordIds": [
-      "16372"
-    ],
-    "sourceIndex": 6372
-  },
-  {
-    "id": "106380",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "This is an official document."
-      },
-      "de": {
-        "text": "Das ist ein amtliches Dokument."
-      }
-    },
-    "wordIds": [
-      "16380"
-    ],
-    "sourceIndex": 6380
-  },
-  {
-    "id": "106381",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "She rents a small apartment in the city."
-      },
-      "de": {
-        "text": "Sie mietet ein kleines Apartment in der Stadt."
-      }
-    },
-    "wordIds": [
-      "16381"
-    ],
-    "sourceIndex": 6381
   },
   {
     "id": "106386",
@@ -31779,23 +15062,6 @@ const phrasesDaily = [
       "16394"
     ],
     "sourceIndex": 6394
-  },
-  {
-    "id": "106402",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I have a cold."
-      },
-      "de": {
-        "text": "Ich habe eine Erkältung."
-      }
-    },
-    "wordIds": [
-      "16402"
-    ],
-    "sourceIndex": 6402
   },
   {
     "id": "106404",
@@ -31866,23 +15132,6 @@ const phrasesDaily = [
     "sourceIndex": 6412
   },
   {
-    "id": "106414",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "They live in a small house by the lake."
-      },
-      "de": {
-        "text": "Sie wohnen in einem kleinen Häuschen am See."
-      }
-    },
-    "wordIds": [
-      "16414"
-    ],
-    "sourceIndex": 6414
-  },
-  {
     "id": "106425",
     "category": "daily",
     "level": "hard",
@@ -31898,23 +15147,6 @@ const phrasesDaily = [
       "16425"
     ],
     "sourceIndex": 6425
-  },
-  {
-    "id": "106436",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I am learning how to program computers."
-      },
-      "de": {
-        "text": "Ich lerne, wie man Computer programmiert."
-      }
-    },
-    "wordIds": [
-      "16436"
-    ],
-    "sourceIndex": 6436
   },
   {
     "id": "106453",
@@ -31934,40 +15166,6 @@ const phrasesDaily = [
     "sourceIndex": 6453
   },
   {
-    "id": "106459",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Many holidaymakers visit the city in summer."
-      },
-      "de": {
-        "text": "Viele Urlauber besuchen die Stadt im Sommer."
-      }
-    },
-    "wordIds": [
-      "16459"
-    ],
-    "sourceIndex": 6459
-  },
-  {
-    "id": "106463",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We should not waste water."
-      },
-      "de": {
-        "text": "Wir sollten kein Wasser verschwenden."
-      }
-    },
-    "wordIds": [
-      "16463"
-    ],
-    "sourceIndex": 6463
-  },
-  {
     "id": "106468",
     "category": "daily",
     "level": "medium",
@@ -31985,23 +15183,6 @@ const phrasesDaily = [
     "sourceIndex": 6468
   },
   {
-    "id": "106469",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The magician can conjure rabbits out of the hat."
-      },
-      "de": {
-        "text": "Der Magier kann Kaninchen aus dem Hut zaubern."
-      }
-    },
-    "wordIds": [
-      "16469"
-    ],
-    "sourceIndex": 6469
-  },
-  {
     "id": "106474",
     "category": "daily",
     "level": "hard",
@@ -32017,40 +15198,6 @@ const phrasesDaily = [
       "16474"
     ],
     "sourceIndex": 6474
-  },
-  {
-    "id": "106479",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He wanted to light the fire."
-      },
-      "de": {
-        "text": "Er wollte das Feuer anzünden."
-      }
-    },
-    "wordIds": [
-      "16479"
-    ],
-    "sourceIndex": 6479
-  },
-  {
-    "id": "106482",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Take the next exit."
-      },
-      "de": {
-        "text": "Nehmen Sie die nächste Ausfahrt."
-      }
-    },
-    "wordIds": [
-      "16482"
-    ],
-    "sourceIndex": 6482
   },
   {
     "id": "106494",
@@ -32138,23 +15285,6 @@ const phrasesDaily = [
     "sourceIndex": 6537
   },
   {
-    "id": "106539",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please state your last name."
-      },
-      "de": {
-        "text": "Bitte geben Sie Ihren Nachnamen an."
-      }
-    },
-    "wordIds": [
-      "16539"
-    ],
-    "sourceIndex": 6539
-  },
-  {
     "id": "106541",
     "category": "daily",
     "level": "hard",
@@ -32187,23 +15317,6 @@ const phrasesDaily = [
       "16542"
     ],
     "sourceIndex": 6542
-  },
-  {
-    "id": "106553",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "A colorful butterfly flew through the garden."
-      },
-      "de": {
-        "text": "Ein bunter Schmetterling flog durch den Garten."
-      }
-    },
-    "wordIds": [
-      "16553"
-    ],
-    "sourceIndex": 6553
   },
   {
     "id": "106554",
@@ -32257,91 +15370,6 @@ const phrasesDaily = [
     "sourceIndex": 6584
   },
   {
-    "id": "106597",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The new subscriber ordered the magazine."
-      },
-      "de": {
-        "text": "Der neue Abonnent hat die Zeitschrift bestellt."
-      }
-    },
-    "wordIds": [
-      "16597"
-    ],
-    "sourceIndex": 6597
-  },
-  {
-    "id": "106599",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We want to grow vegetables in the garden."
-      },
-      "de": {
-        "text": "Wir wollen Gemüse im Garten anbauen."
-      }
-    },
-    "wordIds": [
-      "16599"
-    ],
-    "sourceIndex": 6599
-  },
-  {
-    "id": "106601",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He has to put on his glasses."
-      },
-      "de": {
-        "text": "Er muss seine Brille aufsetzen."
-      }
-    },
-    "wordIds": [
-      "16601"
-    ],
-    "sourceIndex": 6601
-  },
-  {
-    "id": "106604",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The volcano could erupt at any time."
-      },
-      "de": {
-        "text": "Der Vulkan könnte jederzeit ausbrechen."
-      }
-    },
-    "wordIds": [
-      "16604"
-    ],
-    "sourceIndex": 6604
-  },
-  {
-    "id": "106610",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He will take a new path."
-      },
-      "de": {
-        "text": "Er wird einen neuen Weg einschlagen."
-      }
-    },
-    "wordIds": [
-      "16610"
-    ],
-    "sourceIndex": 6610
-  },
-  {
     "id": "106617",
     "category": "daily",
     "level": "hard",
@@ -32357,23 +15385,6 @@ const phrasesDaily = [
       "16617"
     ],
     "sourceIndex": 6617
-  },
-  {
-    "id": "106622",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "They will have their child baptized on Sunday."
-      },
-      "de": {
-        "text": "Sie werden ihr Kind am Sonntag taufen lassen."
-      }
-    },
-    "wordIds": [
-      "16622"
-    ],
-    "sourceIndex": 6622
   },
   {
     "id": "106627",
@@ -32444,23 +15455,6 @@ const phrasesDaily = [
     "sourceIndex": 6634
   },
   {
-    "id": "106635",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The hospital is known for its research."
-      },
-      "de": {
-        "text": "Das Klinikum ist bekannt für seine Forschung."
-      }
-    },
-    "wordIds": [
-      "16635"
-    ],
-    "sourceIndex": 6635
-  },
-  {
     "id": "106639",
     "category": "daily",
     "level": "hard",
@@ -32476,23 +15470,6 @@ const phrasesDaily = [
       "16639"
     ],
     "sourceIndex": 6639
-  },
-  {
-    "id": "106640",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The minister gave a speech."
-      },
-      "de": {
-        "text": "Die Ministerin hielt eine Rede."
-      }
-    },
-    "wordIds": [
-      "16640"
-    ],
-    "sourceIndex": 6640
   },
   {
     "id": "106641",
@@ -32546,23 +15523,6 @@ const phrasesDaily = [
     "sourceIndex": 6683
   },
   {
-    "id": "106697",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The old structure is a landmark of the city."
-      },
-      "de": {
-        "text": "Das alte Bauwerk ist ein Wahrzeichen der Stadt."
-      }
-    },
-    "wordIds": [
-      "16697"
-    ],
-    "sourceIndex": 6697
-  },
-  {
     "id": "106700",
     "category": "daily",
     "level": "hard",
@@ -32612,23 +15572,6 @@ const phrasesDaily = [
       "16711"
     ],
     "sourceIndex": 6711
-  },
-  {
-    "id": "106718",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please provide an explanation for this point."
-      },
-      "de": {
-        "text": "Bitte geben Sie eine Erläuterung zu diesem Punkt."
-      }
-    },
-    "wordIds": [
-      "16718"
-    ],
-    "sourceIndex": 6718
   },
   {
     "id": "106721",
@@ -32699,23 +15642,6 @@ const phrasesDaily = [
     "sourceIndex": 6735
   },
   {
-    "id": "106748",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The setting must be done manually."
-      },
-      "de": {
-        "text": "Die Einstellung muss manuell vorgenommen werden."
-      }
-    },
-    "wordIds": [
-      "16748"
-    ],
-    "sourceIndex": 6748
-  },
-  {
     "id": "106753",
     "category": "daily",
     "level": "hard",
@@ -32748,74 +15674,6 @@ const phrasesDaily = [
       "16761"
     ],
     "sourceIndex": 6761
-  },
-  {
-    "id": "106768",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The sale starts next week."
-      },
-      "de": {
-        "text": "Der Sale beginnt nächste Woche."
-      }
-    },
-    "wordIds": [
-      "16768"
-    ],
-    "sourceIndex": 6768
-  },
-  {
-    "id": "106771",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The singer has a beautiful voice."
-      },
-      "de": {
-        "text": "Der Singer hat eine schöne Stimme."
-      }
-    },
-    "wordIds": [
-      "16771"
-    ],
-    "sourceIndex": 6771
-  },
-  {
-    "id": "106772",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The playing field was wet from the rain."
-      },
-      "de": {
-        "text": "Das Spielfeld war nass vom Regen."
-      }
-    },
-    "wordIds": [
-      "16772"
-    ],
-    "sourceIndex": 6772
-  },
-  {
-    "id": "106795",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "These two problems are closely connected."
-      },
-      "de": {
-        "text": "Diese beiden Probleme hängen eng zusammen."
-      }
-    },
-    "wordIds": [
-      "16795"
-    ],
-    "sourceIndex": 6795
   },
   {
     "id": "106799",
@@ -32886,23 +15744,6 @@ const phrasesDaily = [
     "sourceIndex": 6808
   },
   {
-    "id": "106816",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Protein is important for muscle building."
-      },
-      "de": {
-        "text": "Eiweiss ist wichtig für den Muskelaufbau."
-      }
-    },
-    "wordIds": [
-      "16816"
-    ],
-    "sourceIndex": 6816
-  },
-  {
     "id": "106830",
     "category": "daily",
     "level": "hard",
@@ -32952,23 +15793,6 @@ const phrasesDaily = [
       "16840"
     ],
     "sourceIndex": 6840
-  },
-  {
-    "id": "106843",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "We learned a new lesson today."
-      },
-      "de": {
-        "text": "Wir haben heute eine neue Lektion gelernt."
-      }
-    },
-    "wordIds": [
-      "16843"
-    ],
-    "sourceIndex": 6843
   },
   {
     "id": "106845",
@@ -33022,23 +15846,6 @@ const phrasesDaily = [
     "sourceIndex": 6860
   },
   {
-    "id": "106861",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The wind comes from the southwest."
-      },
-      "de": {
-        "text": "Der Wind kommt aus Südwest."
-      }
-    },
-    "wordIds": [
-      "16861"
-    ],
-    "sourceIndex": 6861
-  },
-  {
     "id": "106868",
     "category": "daily",
     "level": "hard",
@@ -33071,57 +15878,6 @@ const phrasesDaily = [
       "16871"
     ],
     "sourceIndex": 6871
-  },
-  {
-    "id": "106874",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We have a large supply of food."
-      },
-      "de": {
-        "text": "Wir haben einen großen Vorrat an Lebensmitteln."
-      }
-    },
-    "wordIds": [
-      "16874"
-    ],
-    "sourceIndex": 6874
-  },
-  {
-    "id": "106881",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He is confident that he will pass the exam."
-      },
-      "de": {
-        "text": "Er ist zuversichtlich, dass er die Prüfung bestehen wird."
-      }
-    },
-    "wordIds": [
-      "16881"
-    ],
-    "sourceIndex": 6881
-  },
-  {
-    "id": "106882",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "He rolled up his sleeves."
-      },
-      "de": {
-        "text": "Er krempelte die Ärmel hoch."
-      }
-    },
-    "wordIds": [
-      "16882"
-    ],
-    "sourceIndex": 6882
   },
   {
     "id": "106889",
@@ -33158,23 +15914,6 @@ const phrasesDaily = [
     "sourceIndex": 6893
   },
   {
-    "id": "106901",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I need one and a half hours to drive there."
-      },
-      "de": {
-        "text": "Ich brauche eineinhalb Stunden, um dorthin zu fahren."
-      }
-    },
-    "wordIds": [
-      "16901"
-    ],
-    "sourceIndex": 6901
-  },
-  {
     "id": "106902",
     "category": "daily",
     "level": "hard",
@@ -33190,142 +15929,6 @@ const phrasesDaily = [
       "16902"
     ],
     "sourceIndex": 6902
-  },
-  {
-    "id": "106905",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "More and more people are buying an electric car."
-      },
-      "de": {
-        "text": "Immer mehr Menschen kaufen ein Elektroauto."
-      }
-    },
-    "wordIds": [
-      "16905"
-    ],
-    "sourceIndex": 6905
-  },
-  {
-    "id": "106907",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The result was very disappointing."
-      },
-      "de": {
-        "text": "Das Ergebnis war sehr enttäuschend."
-      }
-    },
-    "wordIds": [
-      "16907"
-    ],
-    "sourceIndex": 6907
-  },
-  {
-    "id": "106908",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The loud bang made me jump."
-      },
-      "de": {
-        "text": "Der laute Knall ließ mich erschrecken."
-      }
-    },
-    "wordIds": [
-      "16908"
-    ],
-    "sourceIndex": 6908
-  },
-  {
-    "id": "106916",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The presentation has many slides."
-      },
-      "de": {
-        "text": "Die Präsentation hat viele Folien."
-      }
-    },
-    "wordIds": [
-      "16916"
-    ],
-    "sourceIndex": 6916
-  },
-  {
-    "id": "106929",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The duchess wore an elegant dress."
-      },
-      "de": {
-        "text": "Die Herzogin trug ein elegantes Kleid."
-      }
-    },
-    "wordIds": [
-      "16929"
-    ],
-    "sourceIndex": 6929
-  },
-  {
-    "id": "106938",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "In autumn, the leaves fall from the trees."
-      },
-      "de": {
-        "text": "Im Herbst fällt das Laub von den Bäumen."
-      }
-    },
-    "wordIds": [
-      "16938"
-    ],
-    "sourceIndex": 6938
-  },
-  {
-    "id": "106939",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He feels like a loser after the defeat."
-      },
-      "de": {
-        "text": "Er fühlt sich wie ein Loser nach der Niederlage."
-      }
-    },
-    "wordIds": [
-      "16939"
-    ],
-    "sourceIndex": 6939
-  },
-  {
-    "id": "106945",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He has many fellow students in his class."
-      },
-      "de": {
-        "text": "Er hat viele Mitschüler in seiner Klasse."
-      }
-    },
-    "wordIds": [
-      "16945"
-    ],
-    "sourceIndex": 6945
   },
   {
     "id": "106951",
@@ -33379,23 +15982,6 @@ const phrasesDaily = [
     "sourceIndex": 6955
   },
   {
-    "id": "106963",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She had to smile at his joke."
-      },
-      "de": {
-        "text": "Sie musste über seinen Witz schmunzeln."
-      }
-    },
-    "wordIds": [
-      "16963"
-    ],
-    "sourceIndex": 6963
-  },
-  {
     "id": "106966",
     "category": "daily",
     "level": "hard",
@@ -33447,23 +16033,6 @@ const phrasesDaily = [
     "sourceIndex": 6969
   },
   {
-    "id": "106972",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The sun will soon go down."
-      },
-      "de": {
-        "text": "Die Sonne wird bald untergehen."
-      }
-    },
-    "wordIds": [
-      "16972"
-    ],
-    "sourceIndex": 6972
-  },
-  {
     "id": "106977",
     "category": "daily",
     "level": "hard",
@@ -33479,23 +16048,6 @@ const phrasesDaily = [
       "16977"
     ],
     "sourceIndex": 6977
-  },
-  {
-    "id": "106980",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We are still waiting for her confirmation."
-      },
-      "de": {
-        "text": "Wir warten noch auf ihre Zusage."
-      }
-    },
-    "wordIds": [
-      "16980"
-    ],
-    "sourceIndex": 6980
   },
   {
     "id": "106981",
@@ -33515,40 +16067,6 @@ const phrasesDaily = [
     "sourceIndex": 6981
   },
   {
-    "id": "106990",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The government will announce the new measures tomorrow."
-      },
-      "de": {
-        "text": "Die Regierung wird die neuen Maßnahmen morgen bekanntgeben."
-      }
-    },
-    "wordIds": [
-      "16990"
-    ],
-    "sourceIndex": 6990
-  },
-  {
-    "id": "107005",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Would you like to order a drink?"
-      },
-      "de": {
-        "text": "Möchtest du einen Drink bestellen?"
-      }
-    },
-    "wordIds": [
-      "17005"
-    ],
-    "sourceIndex": 7005
-  },
-  {
     "id": "107007",
     "category": "daily",
     "level": "hard",
@@ -33566,74 +16084,6 @@ const phrasesDaily = [
     "sourceIndex": 7007
   },
   {
-    "id": "107009",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please check your input."
-      },
-      "de": {
-        "text": "Bitte überprüfen Sie Ihre Eingabe."
-      }
-    },
-    "wordIds": [
-      "17009"
-    ],
-    "sourceIndex": 7009
-  },
-  {
-    "id": "107013",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "This weekend I'm going to the flea market."
-      },
-      "de": {
-        "text": "Am Wochenende gehe ich auf den Flohmarkt."
-      }
-    },
-    "wordIds": [
-      "17013"
-    ],
-    "sourceIndex": 7013
-  },
-  {
-    "id": "107017",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The book is freshly printed."
-      },
-      "de": {
-        "text": "Das Buch ist frisch gedruckt."
-      }
-    },
-    "wordIds": [
-      "17017"
-    ],
-    "sourceIndex": 7017
-  },
-  {
-    "id": "107018",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "They could agree on a price."
-      },
-      "de": {
-        "text": "Sie konnten sich auf einen Preis einigen."
-      }
-    },
-    "wordIds": [
-      "17018"
-    ],
-    "sourceIndex": 7018
-  },
-  {
     "id": "107028",
     "category": "daily",
     "level": "hard",
@@ -33649,23 +16099,6 @@ const phrasesDaily = [
       "17028"
     ],
     "sourceIndex": 7028
-  },
-  {
-    "id": "107029",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I go jogging every morning."
-      },
-      "de": {
-        "text": "Ich gehe jeden Morgen joggen."
-      }
-    },
-    "wordIds": [
-      "17029"
-    ],
-    "sourceIndex": 7029
   },
   {
     "id": "107031",
@@ -33770,57 +16203,6 @@ const phrasesDaily = [
     "sourceIndex": 7061
   },
   {
-    "id": "107065",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She is a very self-confident woman."
-      },
-      "de": {
-        "text": "Sie ist eine sehr selbstbewusste Frau."
-      }
-    },
-    "wordIds": [
-      "17065"
-    ],
-    "sourceIndex": 7065
-  },
-  {
-    "id": "107072",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The wind comes from the southeast."
-      },
-      "de": {
-        "text": "Der Wind kommt aus dem Südosten."
-      }
-    },
-    "wordIds": [
-      "17072"
-    ],
-    "sourceIndex": 7072
-  },
-  {
-    "id": "107074",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "It's your turn."
-      },
-      "de": {
-        "text": "Es ist dein Turn."
-      }
-    },
-    "wordIds": [
-      "17074"
-    ],
-    "sourceIndex": 7074
-  },
-  {
     "id": "107076",
     "category": "daily",
     "level": "hard",
@@ -33855,23 +16237,6 @@ const phrasesDaily = [
     "sourceIndex": 7086
   },
   {
-    "id": "107088",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He can read the time off the sundial."
-      },
-      "de": {
-        "text": "Er kann die Uhrzeit von der Sonnenuhr ablesen."
-      }
-    },
-    "wordIds": [
-      "17088"
-    ],
-    "sourceIndex": 7088
-  },
-  {
     "id": "107091",
     "category": "daily",
     "level": "hard",
@@ -33889,23 +16254,6 @@ const phrasesDaily = [
     "sourceIndex": 7091
   },
   {
-    "id": "107093",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Can you lend me your book?"
-      },
-      "de": {
-        "text": "Kannst du mir dein Buch ausleihen?"
-      }
-    },
-    "wordIds": [
-      "17093"
-    ],
-    "sourceIndex": 7093
-  },
-  {
     "id": "107105",
     "category": "daily",
     "level": "medium",
@@ -33921,23 +16269,6 @@ const phrasesDaily = [
       "17105"
     ],
     "sourceIndex": 7105
-  },
-  {
-    "id": "107113",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I love fresh strawberries in summer."
-      },
-      "de": {
-        "text": "Ich liebe frische Erdbeeren im Sommer."
-      }
-    },
-    "wordIds": [
-      "17113"
-    ],
-    "sourceIndex": 7113
   },
   {
     "id": "107134",
@@ -33974,57 +16305,6 @@ const phrasesDaily = [
     "sourceIndex": 7136
   },
   {
-    "id": "107139",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The teacher explains the task."
-      },
-      "de": {
-        "text": "Die Lehrkraft erklärt die Aufgabe."
-      }
-    },
-    "wordIds": [
-      "17139"
-    ],
-    "sourceIndex": 7139
-  },
-  {
-    "id": "107140",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "Mommy, I'm hungry!"
-      },
-      "de": {
-        "text": "Mami, ich habe Hunger!"
-      }
-    },
-    "wordIds": [
-      "17140"
-    ],
-    "sourceIndex": 7140
-  },
-  {
-    "id": "107158",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "A person from Prague showed us the city."
-      },
-      "de": {
-        "text": "Ein Prager zeigte uns die Stadt."
-      }
-    },
-    "wordIds": [
-      "17158"
-    ],
-    "sourceIndex": 7158
-  },
-  {
     "id": "107159",
     "category": "daily",
     "level": "medium",
@@ -34057,23 +16337,6 @@ const phrasesDaily = [
       "17169"
     ],
     "sourceIndex": 7169
-  },
-  {
-    "id": "107175",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She is an international superstar."
-      },
-      "de": {
-        "text": "Sie ist ein internationaler Superstar."
-      }
-    },
-    "wordIds": [
-      "17175"
-    ],
-    "sourceIndex": 7175
   },
   {
     "id": "107179",
@@ -34125,23 +16388,6 @@ const phrasesDaily = [
       "17187"
     ],
     "sourceIndex": 7187
-  },
-  {
-    "id": "107188",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "In Austria, children attend primary school."
-      },
-      "de": {
-        "text": "In Österreich besuchen Kinder die Volksschule."
-      }
-    },
-    "wordIds": [
-      "17188"
-    ],
-    "sourceIndex": 7188
   },
   {
     "id": "107190",
@@ -34212,23 +16458,6 @@ const phrasesDaily = [
     "sourceIndex": 7221
   },
   {
-    "id": "107227",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The jack is an important card in Skat."
-      },
-      "de": {
-        "text": "Der Bube ist eine wichtige Karte im Skat."
-      }
-    },
-    "wordIds": [
-      "17227"
-    ],
-    "sourceIndex": 7227
-  },
-  {
     "id": "107238",
     "category": "daily",
     "level": "hard",
@@ -34261,40 +16490,6 @@ const phrasesDaily = [
       "17243"
     ],
     "sourceIndex": 7243
-  },
-  {
-    "id": "107251",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I found the film in the media library."
-      },
-      "de": {
-        "text": "Ich habe den Film in der Mediathek gefunden."
-      }
-    },
-    "wordIds": [
-      "17251"
-    ],
-    "sourceIndex": 7251
-  },
-  {
-    "id": "107254",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "She has a lot of power in the company."
-      },
-      "de": {
-        "text": "Sie hat viel Macht in der Firma."
-      }
-    },
-    "wordIds": [
-      "17254"
-    ],
-    "sourceIndex": 7254
   },
   {
     "id": "107257",
@@ -34331,40 +16526,6 @@ const phrasesDaily = [
     "sourceIndex": 7258
   },
   {
-    "id": "107265",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The plaster on the wall is crumbling."
-      },
-      "de": {
-        "text": "Der Putz an der Wand bröckelt ab."
-      }
-    },
-    "wordIds": [
-      "17265"
-    ],
-    "sourceIndex": 7265
-  },
-  {
-    "id": "107280",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We have to change at the next station."
-      },
-      "de": {
-        "text": "Wir müssen am nächsten Bahnhof umsteigen."
-      }
-    },
-    "wordIds": [
-      "17280"
-    ],
-    "sourceIndex": 7280
-  },
-  {
     "id": "107303",
     "category": "daily",
     "level": "hard",
@@ -34380,23 +16541,6 @@ const phrasesDaily = [
       "17303"
     ],
     "sourceIndex": 7303
-  },
-  {
-    "id": "107304",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I need two and a half hours to drive there."
-      },
-      "de": {
-        "text": "Ich brauche zweieinhalb Stunden, um dorthin zu fahren."
-      }
-    },
-    "wordIds": [
-      "17304"
-    ],
-    "sourceIndex": 7304
   },
   {
     "id": "107318",
@@ -34433,23 +16577,6 @@ const phrasesDaily = [
     "sourceIndex": 7323
   },
   {
-    "id": "107325",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We still need some decoration for the party."
-      },
-      "de": {
-        "text": "Wir brauchen noch etwas Deko für die Party."
-      }
-    },
-    "wordIds": [
-      "17325"
-    ],
-    "sourceIndex": 7325
-  },
-  {
     "id": "107329",
     "category": "daily",
     "level": "hard",
@@ -34465,57 +16592,6 @@ const phrasesDaily = [
       "17329"
     ],
     "sourceIndex": 7329
-  },
-  {
-    "id": "107330",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He is very jealous of his brother."
-      },
-      "de": {
-        "text": "Er ist sehr eifersüchtig auf seinen Bruder."
-      }
-    },
-    "wordIds": [
-      "17330"
-    ],
-    "sourceIndex": 7330
-  },
-  {
-    "id": "107336",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The good fairy granted her a wish."
-      },
-      "de": {
-        "text": "Die gute Fee erfüllte ihr einen Wunsch."
-      }
-    },
-    "wordIds": [
-      "17336"
-    ],
-    "sourceIndex": 7336
-  },
-  {
-    "id": "107337",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I have a good feeling about this project."
-      },
-      "de": {
-        "text": "Ich habe ein gutes Feeling für dieses Projekt."
-      }
-    },
-    "wordIds": [
-      "17337"
-    ],
-    "sourceIndex": 7337
   },
   {
     "id": "107338",
@@ -34552,23 +16628,6 @@ const phrasesDaily = [
     "sourceIndex": 7339
   },
   {
-    "id": "107343",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We wish you a speedy recovery."
-      },
-      "de": {
-        "text": "Wir wünschen dir eine schnelle Genesung."
-      }
-    },
-    "wordIds": [
-      "17343"
-    ],
-    "sourceIndex": 7343
-  },
-  {
     "id": "107344",
     "category": "daily",
     "level": "hard",
@@ -34601,23 +16660,6 @@ const phrasesDaily = [
       "17370"
     ],
     "sourceIndex": 7370
-  },
-  {
-    "id": "107371",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She painted a beautiful portrait of her mother."
-      },
-      "de": {
-        "text": "Sie malte ein schönes Portrait von ihrer Mutter."
-      }
-    },
-    "wordIds": [
-      "17371"
-    ],
-    "sourceIndex": 7371
   },
   {
     "id": "107376",
@@ -34654,23 +16696,6 @@ const phrasesDaily = [
     "sourceIndex": 7379
   },
   {
-    "id": "107381",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He had to drag the heavy suitcases."
-      },
-      "de": {
-        "text": "Er musste die schweren Koffer schleppen."
-      }
-    },
-    "wordIds": [
-      "17381"
-    ],
-    "sourceIndex": 7381
-  },
-  {
     "id": "107383",
     "category": "daily",
     "level": "medium",
@@ -34686,23 +16711,6 @@ const phrasesDaily = [
       "17383"
     ],
     "sourceIndex": 7383
-  },
-  {
-    "id": "107394",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He likes to listen to techno music."
-      },
-      "de": {
-        "text": "Er hört gerne Techno-Musik."
-      }
-    },
-    "wordIds": [
-      "17394"
-    ],
-    "sourceIndex": 7394
   },
   {
     "id": "107397",
@@ -34754,23 +16762,6 @@ const phrasesDaily = [
       "17414"
     ],
     "sourceIndex": 7414
-  },
-  {
-    "id": "107424",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The child was anxious in the dark."
-      },
-      "de": {
-        "text": "Das Kind war ängstlich im Dunkeln."
-      }
-    },
-    "wordIds": [
-      "17424"
-    ],
-    "sourceIndex": 7424
   },
   {
     "id": "107427",
@@ -34994,23 +16985,6 @@ const phrasesDaily = [
     "sourceIndex": 7495
   },
   {
-    "id": "107503",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "After the operation, he has to go to rehab."
-      },
-      "de": {
-        "text": "Nach der Operation muss er zur Reha."
-      }
-    },
-    "wordIds": [
-      "17503"
-    ],
-    "sourceIndex": 7503
-  },
-  {
     "id": "107507",
     "category": "daily",
     "level": "hard",
@@ -35043,40 +17017,6 @@ const phrasesDaily = [
       "17510"
     ],
     "sourceIndex": 7510
-  },
-  {
-    "id": "107511",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "On Saturday we go to the cinema."
-      },
-      "de": {
-        "text": "Am Sonnabend gehen wir ins Kino."
-      }
-    },
-    "wordIds": [
-      "17511"
-    ],
-    "sourceIndex": 7511
-  },
-  {
-    "id": "107534",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I work in the morning."
-      },
-      "de": {
-        "text": "Ich arbeite vormittags."
-      }
-    },
-    "wordIds": [
-      "17534"
-    ],
-    "sourceIndex": 7534
   },
   {
     "id": "107536",
@@ -35128,57 +17068,6 @@ const phrasesDaily = [
       "17547"
     ],
     "sourceIndex": 7547
-  },
-  {
-    "id": "107550",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The department head made the decision."
-      },
-      "de": {
-        "text": "Der Abteilungsleiter hat die Entscheidung getroffen."
-      }
-    },
-    "wordIds": [
-      "17550"
-    ],
-    "sourceIndex": 7550
-  },
-  {
-    "id": "107552",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "An ant crawled across the table."
-      },
-      "de": {
-        "text": "Eine Ameise krabbelte über den Tisch."
-      }
-    },
-    "wordIds": [
-      "17552"
-    ],
-    "sourceIndex": 7552
-  },
-  {
-    "id": "107559",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She plucked her eyebrows."
-      },
-      "de": {
-        "text": "Sie zupfte ihre Augenbrauen."
-      }
-    },
-    "wordIds": [
-      "17559"
-    ],
-    "sourceIndex": 7559
   },
   {
     "id": "107567",
@@ -35266,40 +17155,6 @@ const phrasesDaily = [
     "sourceIndex": 7591
   },
   {
-    "id": "107599",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I like cucumbers in salad."
-      },
-      "de": {
-        "text": "Ich mag Gurken im Salat."
-      }
-    },
-    "wordIds": [
-      "17599"
-    ],
-    "sourceIndex": 7599
-  },
-  {
-    "id": "107608",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The hotel offers a lot of comfort."
-      },
-      "de": {
-        "text": "Das Hotel bietet viel Komfort."
-      }
-    },
-    "wordIds": [
-      "17608"
-    ],
-    "sourceIndex": 7608
-  },
-  {
     "id": "107611",
     "category": "daily",
     "level": "hard",
@@ -35315,23 +17170,6 @@ const phrasesDaily = [
       "17611"
     ],
     "sourceIndex": 7611
-  },
-  {
-    "id": "107617",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He always wears casual clothes."
-      },
-      "de": {
-        "text": "Er trägt immer lässige Kleidung."
-      }
-    },
-    "wordIds": [
-      "17617"
-    ],
-    "sourceIndex": 7617
   },
   {
     "id": "107620",
@@ -35368,23 +17206,6 @@ const phrasesDaily = [
     "sourceIndex": 7623
   },
   {
-    "id": "107626",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The house is located in the northwest of the city."
-      },
-      "de": {
-        "text": "Das Haus liegt im Nordwesten der Stadt."
-      }
-    },
-    "wordIds": [
-      "17626"
-    ],
-    "sourceIndex": 7626
-  },
-  {
     "id": "107629",
     "category": "daily",
     "level": "hard",
@@ -35417,108 +17238,6 @@ const phrasesDaily = [
       "17633"
     ],
     "sourceIndex": 7633
-  },
-  {
-    "id": "107638",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We took a tour through the old town."
-      },
-      "de": {
-        "text": "Wir machten einen Rundgang durch die Altstadt."
-      }
-    },
-    "wordIds": [
-      "17638"
-    ],
-    "sourceIndex": 7638
-  },
-  {
-    "id": "107639",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Running is good for your health."
-      },
-      "de": {
-        "text": "Running ist gut für die Gesundheit."
-      }
-    },
-    "wordIds": [
-      "17639"
-    ],
-    "sourceIndex": 7639
-  },
-  {
-    "id": "107642",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "After graduation, he started an apprenticeship."
-      },
-      "de": {
-        "text": "Nach dem Schulabschluss begann er eine Ausbildung."
-      }
-    },
-    "wordIds": [
-      "17642"
-    ],
-    "sourceIndex": 7642
-  },
-  {
-    "id": "107643",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The photo shoot lasted all day."
-      },
-      "de": {
-        "text": "Das Fotoshooting dauerte den ganzen Tag."
-      }
-    },
-    "wordIds": [
-      "17643"
-    ],
-    "sourceIndex": 7643
-  },
-  {
-    "id": "107644",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He made a quick sketch of the building."
-      },
-      "de": {
-        "text": "Er machte eine schnelle Skizze des Gebäudes."
-      }
-    },
-    "wordIds": [
-      "17644"
-    ],
-    "sourceIndex": 7644
-  },
-  {
-    "id": "107645",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "It is very sunny today."
-      },
-      "de": {
-        "text": "Heute ist es sehr sonnig."
-      }
-    },
-    "wordIds": [
-      "17645"
-    ],
-    "sourceIndex": 7645
   },
   {
     "id": "107655",
@@ -35674,23 +17393,6 @@ const phrasesDaily = [
     "sourceIndex": 7692
   },
   {
-    "id": "107706",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The marketing department is on the third floor."
-      },
-      "de": {
-        "text": "Das Department für Marketing ist im dritten Stock."
-      }
-    },
-    "wordIds": [
-      "17706"
-    ],
-    "sourceIndex": 7706
-  },
-  {
     "id": "107710",
     "category": "daily",
     "level": "easy",
@@ -35706,74 +17408,6 @@ const phrasesDaily = [
       "17710"
     ],
     "sourceIndex": 7710
-  },
-  {
-    "id": "107719",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "There is a question mark at the end of the sentence."
-      },
-      "de": {
-        "text": "Am Ende des Satzes steht ein Fragezeichen."
-      }
-    },
-    "wordIds": [
-      "17719"
-    ],
-    "sourceIndex": 7719
-  },
-  {
-    "id": "107722",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The perceived temperature was much lower."
-      },
-      "de": {
-        "text": "Die gefühlte Temperatur war viel niedriger."
-      }
-    },
-    "wordIds": [
-      "17722"
-    ],
-    "sourceIndex": 7722
-  },
-  {
-    "id": "107730",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "A helicopter landed on the roof."
-      },
-      "de": {
-        "text": "Ein Helikopter landete auf dem Dach."
-      }
-    },
-    "wordIds": [
-      "17730"
-    ],
-    "sourceIndex": 7730
-  },
-  {
-    "id": "107739",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The toddler is playing with building blocks."
-      },
-      "de": {
-        "text": "Das Kleinkind spielt mit Bauklötzen."
-      }
-    },
-    "wordIds": [
-      "17739"
-    ],
-    "sourceIndex": 7739
   },
   {
     "id": "107740",
@@ -35825,23 +17459,6 @@ const phrasesDaily = [
       "17748"
     ],
     "sourceIndex": 7748
-  },
-  {
-    "id": "107772",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The scanner is broken."
-      },
-      "de": {
-        "text": "Der Scanner ist kaputt."
-      }
-    },
-    "wordIds": [
-      "17772"
-    ],
-    "sourceIndex": 7772
   },
   {
     "id": "107777",
@@ -35963,40 +17580,6 @@ const phrasesDaily = [
     "sourceIndex": 7811
   },
   {
-    "id": "107814",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The circus is coming to town."
-      },
-      "de": {
-        "text": "Der Circus kommt in die Stadt."
-      }
-    },
-    "wordIds": [
-      "17814"
-    ],
-    "sourceIndex": 7814
-  },
-  {
-    "id": "107816",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The decoration for the party is beautiful."
-      },
-      "de": {
-        "text": "Die Dekoration für die Party ist wunderschön."
-      }
-    },
-    "wordIds": [
-      "17816"
-    ],
-    "sourceIndex": 7816
-  },
-  {
     "id": "107817",
     "category": "daily",
     "level": "medium",
@@ -36012,40 +17595,6 @@ const phrasesDaily = [
       "17817"
     ],
     "sourceIndex": 7817
-  },
-  {
-    "id": "107821",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He is a Dane and speaks Danish."
-      },
-      "de": {
-        "text": "Er ist ein Däne und spricht Dänisch."
-      }
-    },
-    "wordIds": [
-      "17821"
-    ],
-    "sourceIndex": 7821
-  },
-  {
-    "id": "107824",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "My granddaughter visits me often."
-      },
-      "de": {
-        "text": "Meine Enkelin besucht mich oft."
-      }
-    },
-    "wordIds": [
-      "17824"
-    ],
-    "sourceIndex": 7824
   },
   {
     "id": "107828",
@@ -36116,23 +17665,6 @@ const phrasesDaily = [
     "sourceIndex": 7844
   },
   {
-    "id": "107846",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The highway is very busy today."
-      },
-      "de": {
-        "text": "Der Highway ist heute sehr voll."
-      }
-    },
-    "wordIds": [
-      "17846"
-    ],
-    "sourceIndex": 7846
-  },
-  {
     "id": "107847",
     "category": "daily",
     "level": "hard",
@@ -36148,23 +17680,6 @@ const phrasesDaily = [
       "17847"
     ],
     "sourceIndex": 7847
-  },
-  {
-    "id": "107850",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Many families receive child benefit from the state."
-      },
-      "de": {
-        "text": "Viele Familien erhalten Kindergeld vom Staat."
-      }
-    },
-    "wordIds": [
-      "17850"
-    ],
-    "sourceIndex": 7850
   },
   {
     "id": "107851",
@@ -36199,57 +17714,6 @@ const phrasesDaily = [
       "17853"
     ],
     "sourceIndex": 7853
-  },
-  {
-    "id": "107857",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "He is a Mexican."
-      },
-      "de": {
-        "text": "Er ist ein Mexikaner."
-      }
-    },
-    "wordIds": [
-      "17857"
-    ],
-    "sourceIndex": 7857
-  },
-  {
-    "id": "107860",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I need my satnav to find the way."
-      },
-      "de": {
-        "text": "Ich brauche mein Navi, um den Weg zu finden."
-      }
-    },
-    "wordIds": [
-      "17860"
-    ],
-    "sourceIndex": 7860
-  },
-  {
-    "id": "107872",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The children are running around in the garden."
-      },
-      "de": {
-        "text": "Die Kinder laufen im Garten rum."
-      }
-    },
-    "wordIds": [
-      "17872"
-    ],
-    "sourceIndex": 7872
   },
   {
     "id": "107880",
@@ -36301,23 +17765,6 @@ const phrasesDaily = [
       "17921"
     ],
     "sourceIndex": 7921
-  },
-  {
-    "id": "107923",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The company has a large deficit."
-      },
-      "de": {
-        "text": "Das Unternehmen hat ein großes Defizit."
-      }
-    },
-    "wordIds": [
-      "17923"
-    ],
-    "sourceIndex": 7923
   },
   {
     "id": "107925",
@@ -36372,57 +17819,6 @@ const phrasesDaily = [
     "sourceIndex": 7932
   },
   {
-    "id": "107936",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We saw a flying bird."
-      },
-      "de": {
-        "text": "Wir sahen einen fliegenden Vogel."
-      }
-    },
-    "wordIds": [
-      "17936"
-    ],
-    "sourceIndex": 7936
-  },
-  {
-    "id": "107945",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "His facial expression revealed his surprise."
-      },
-      "de": {
-        "text": "Sein Gesichtsausdruck verriet seine Überraschung."
-      }
-    },
-    "wordIds": [
-      "17945"
-    ],
-    "sourceIndex": 7945
-  },
-  {
-    "id": "107947",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The main actor played his role excellently."
-      },
-      "de": {
-        "text": "Der Hauptdarsteller spielte seine Rolle hervorragend."
-      }
-    },
-    "wordIds": [
-      "17947"
-    ],
-    "sourceIndex": 7947
-  },
-  {
     "id": "107951",
     "category": "daily",
     "level": "hard",
@@ -36438,23 +17834,6 @@ const phrasesDaily = [
       "17951"
     ],
     "sourceIndex": 7951
-  },
-  {
-    "id": "107952",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The table of contents is at the beginning of the book."
-      },
-      "de": {
-        "text": "Das Inhaltsverzeichnis befindet sich am Anfang des Buches."
-      }
-    },
-    "wordIds": [
-      "17952"
-    ],
-    "sourceIndex": 7952
   },
   {
     "id": "107954",
@@ -36644,57 +18023,6 @@ const phrasesDaily = [
     "sourceIndex": 7990
   },
   {
-    "id": "107997",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She lives very thriftily."
-      },
-      "de": {
-        "text": "Sie lebt sehr sparsam."
-      }
-    },
-    "wordIds": [
-      "17997"
-    ],
-    "sourceIndex": 7997
-  },
-  {
-    "id": "107999",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I borrow books from the city library."
-      },
-      "de": {
-        "text": "Ich leihe Bücher in der Stadtbibliothek aus."
-      }
-    },
-    "wordIds": [
-      "17999"
-    ],
-    "sourceIndex": 7999
-  },
-  {
-    "id": "108003",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She is mourning her deceased dog."
-      },
-      "de": {
-        "text": "Sie trauert um ihren verstorbenen Hund."
-      }
-    },
-    "wordIds": [
-      "18003"
-    ],
-    "sourceIndex": 8003
-  },
-  {
     "id": "108006",
     "category": "daily",
     "level": "hard",
@@ -36710,23 +18038,6 @@ const phrasesDaily = [
       "18006"
     ],
     "sourceIndex": 8006
-  },
-  {
-    "id": "108007",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He was restless all night."
-      },
-      "de": {
-        "text": "Er war die ganze Nacht unruhig."
-      }
-    },
-    "wordIds": [
-      "18007"
-    ],
-    "sourceIndex": 8007
   },
   {
     "id": "108015",
@@ -36746,23 +18057,6 @@ const phrasesDaily = [
     "sourceIndex": 8015
   },
   {
-    "id": "108030",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The team has an important away game."
-      },
-      "de": {
-        "text": "Das Team hat ein wichtiges Auswärtsspiel."
-      }
-    },
-    "wordIds": [
-      "18030"
-    ],
-    "sourceIndex": 8030
-  },
-  {
     "id": "108038",
     "category": "daily",
     "level": "hard",
@@ -36778,23 +18072,6 @@ const phrasesDaily = [
       "18038"
     ],
     "sourceIndex": 8038
-  },
-  {
-    "id": "108061",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please hang your coat in the cloakroom."
-      },
-      "de": {
-        "text": "Bitte hängen Sie Ihren Mantel in der Garderobe auf."
-      }
-    },
-    "wordIds": [
-      "18061"
-    ],
-    "sourceIndex": 8061
   },
   {
     "id": "108063",
@@ -36933,23 +18210,6 @@ const phrasesDaily = [
     "sourceIndex": 8091
   },
   {
-    "id": "108110",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "His nickname is \"The Fast One\"."
-      },
-      "de": {
-        "text": "Sein Spitzname ist \"Der Schnelle\"."
-      }
-    },
-    "wordIds": [
-      "18110"
-    ],
-    "sourceIndex": 8110
-  },
-  {
     "id": "108116",
     "category": "daily",
     "level": "hard",
@@ -36967,40 +18227,6 @@ const phrasesDaily = [
     "sourceIndex": 8116
   },
   {
-    "id": "108117",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We are walking on the other side of the street."
-      },
-      "de": {
-        "text": "Wir gehen auf der anderen Strassenseite."
-      }
-    },
-    "wordIds": [
-      "18117"
-    ],
-    "sourceIndex": 8117
-  },
-  {
-    "id": "108121",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The new driver for the graphics card is available."
-      },
-      "de": {
-        "text": "Der neue Treiber für die Grafikkarte ist verfügbar."
-      }
-    },
-    "wordIds": [
-      "18121"
-    ],
-    "sourceIndex": 8121
-  },
-  {
     "id": "108122",
     "category": "daily",
     "level": "hard",
@@ -37016,40 +18242,6 @@ const phrasesDaily = [
       "18122"
     ],
     "sourceIndex": 8122
-  },
-  {
-    "id": "108125",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "On Valentine's Day, many people give each other flowers."
-      },
-      "de": {
-        "text": "Am Valentinstag schenken sich viele Leute Blumen."
-      }
-    },
-    "wordIds": [
-      "18125"
-    ],
-    "sourceIndex": 8125
-  },
-  {
-    "id": "108130",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "All road users must observe the rules."
-      },
-      "de": {
-        "text": "Alle Verkehrsteilnehmer müssen die Regeln beachten."
-      }
-    },
-    "wordIds": [
-      "18130"
-    ],
-    "sourceIndex": 8130
   },
   {
     "id": "108142",
@@ -37086,23 +18278,6 @@ const phrasesDaily = [
     "sourceIndex": 8147
   },
   {
-    "id": "108154",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I need to unpack my suitcases."
-      },
-      "de": {
-        "text": "Ich muss meine Koffer auspacken."
-      }
-    },
-    "wordIds": [
-      "18154"
-    ],
-    "sourceIndex": 8154
-  },
-  {
     "id": "108155",
     "category": "daily",
     "level": "hard",
@@ -37135,23 +18310,6 @@ const phrasesDaily = [
       "18157"
     ],
     "sourceIndex": 8157
-  },
-  {
-    "id": "108172",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please don't forget to pack your clothes."
-      },
-      "de": {
-        "text": "Bitte vergiss nicht, deine Kleidung einzupacken."
-      }
-    },
-    "wordIds": [
-      "18172"
-    ],
-    "sourceIndex": 8172
   },
   {
     "id": "108173",
@@ -37188,23 +18346,6 @@ const phrasesDaily = [
     "sourceIndex": 8175
   },
   {
-    "id": "108178",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The freight was delivered on time."
-      },
-      "de": {
-        "text": "Die Fracht wurde pünktlich geliefert."
-      }
-    },
-    "wordIds": [
-      "18178"
-    ],
-    "sourceIndex": 8178
-  },
-  {
     "id": "108180",
     "category": "daily",
     "level": "hard",
@@ -37237,23 +18378,6 @@ const phrasesDaily = [
       "18181"
     ],
     "sourceIndex": 8181
-  },
-  {
-    "id": "108188",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She likes listening to radio plays."
-      },
-      "de": {
-        "text": "Sie hört gerne Hörspiele."
-      }
-    },
-    "wordIds": [
-      "18188"
-    ],
-    "sourceIndex": 8188
   },
   {
     "id": "108196",
@@ -37290,40 +18414,6 @@ const phrasesDaily = [
     "sourceIndex": 8197
   },
   {
-    "id": "108198",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We used a compass to orient ourselves in the forest."
-      },
-      "de": {
-        "text": "Wir benutzten einen Kompass, um uns im Wald zu orientieren."
-      }
-    },
-    "wordIds": [
-      "18198"
-    ],
-    "sourceIndex": 8198
-  },
-  {
-    "id": "108201",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She is planning a cruise to the Caribbean."
-      },
-      "de": {
-        "text": "Sie plant eine Kreuzfahrt in die Karibik."
-      }
-    },
-    "wordIds": [
-      "18201"
-    ],
-    "sourceIndex": 8201
-  },
-  {
     "id": "108209",
     "category": "daily",
     "level": "medium",
@@ -37358,23 +18448,6 @@ const phrasesDaily = [
     "sourceIndex": 8211
   },
   {
-    "id": "108214",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I bought a new laptop."
-      },
-      "de": {
-        "text": "Ich habe ein neues Notebook gekauft."
-      }
-    },
-    "wordIds": [
-      "18214"
-    ],
-    "sourceIndex": 8214
-  },
-  {
     "id": "108216",
     "category": "daily",
     "level": "hard",
@@ -37390,40 +18463,6 @@ const phrasesDaily = [
       "18216"
     ],
     "sourceIndex": 8216
-  },
-  {
-    "id": "108221",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My brother is a programmer."
-      },
-      "de": {
-        "text": "Mein Bruder ist ein Programmierer."
-      }
-    },
-    "wordIds": [
-      "18221"
-    ],
-    "sourceIndex": 8221
-  },
-  {
-    "id": "108224",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I received a check."
-      },
-      "de": {
-        "text": "Ich habe einen Scheck erhalten."
-      }
-    },
-    "wordIds": [
-      "18224"
-    ],
-    "sourceIndex": 8224
   },
   {
     "id": "108226",
@@ -37511,23 +18550,6 @@ const phrasesDaily = [
     "sourceIndex": 8233
   },
   {
-    "id": "108238",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He tied the package together with a rope."
-      },
-      "de": {
-        "text": "Er band das Paket mit einem Strick zusammen."
-      }
-    },
-    "wordIds": [
-      "18238"
-    ],
-    "sourceIndex": 8238
-  },
-  {
     "id": "108242",
     "category": "daily",
     "level": "medium",
@@ -37545,23 +18567,6 @@ const phrasesDaily = [
     "sourceIndex": 8242
   },
   {
-    "id": "108243",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The children are playing in the gym hall."
-      },
-      "de": {
-        "text": "Die Kinder spielen in der Turnhalle."
-      }
-    },
-    "wordIds": [
-      "18243"
-    ],
-    "sourceIndex": 8243
-  },
-  {
     "id": "108244",
     "category": "daily",
     "level": "hard",
@@ -37577,23 +18582,6 @@ const phrasesDaily = [
       "18244"
     ],
     "sourceIndex": 8244
-  },
-  {
-    "id": "108253",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We have to send the package today."
-      },
-      "de": {
-        "text": "Wir müssen das Paket heute versenden."
-      }
-    },
-    "wordIds": [
-      "18253"
-    ],
-    "sourceIndex": 8253
   },
   {
     "id": "108258",
@@ -37630,23 +18618,6 @@ const phrasesDaily = [
     "sourceIndex": 8260
   },
   {
-    "id": "108273",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My brother works as a banker in Frankfurt."
-      },
-      "de": {
-        "text": "Mein Bruder arbeitet als Banker in Frankfurt."
-      }
-    },
-    "wordIds": [
-      "18273"
-    ],
-    "sourceIndex": 8273
-  },
-  {
     "id": "108276",
     "category": "daily",
     "level": "hard",
@@ -37662,57 +18633,6 @@ const phrasesDaily = [
       "18276"
     ],
     "sourceIndex": 8276
-  },
-  {
-    "id": "108281",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I need a stamp for this letter."
-      },
-      "de": {
-        "text": "Ich brauche eine Briefmarke für diesen Brief."
-      }
-    },
-    "wordIds": [
-      "18281"
-    ],
-    "sourceIndex": 8281
-  },
-  {
-    "id": "108282",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He drives a red convertible."
-      },
-      "de": {
-        "text": "Er fährt ein rotes Cabrio."
-      }
-    },
-    "wordIds": [
-      "18282"
-    ],
-    "sourceIndex": 8282
-  },
-  {
-    "id": "108285",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We watched an interesting documentary film yesterday."
-      },
-      "de": {
-        "text": "Wir haben gestern einen interessanten Dokumentarfilm gesehen."
-      }
-    },
-    "wordIds": [
-      "18285"
-    ],
-    "sourceIndex": 8285
   },
   {
     "id": "108292",
@@ -37732,23 +18652,6 @@ const phrasesDaily = [
     "sourceIndex": 8292
   },
   {
-    "id": "108293",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Every parent has rights and duties."
-      },
-      "de": {
-        "text": "Jedes Elternteil hat Rechte und Pflichten."
-      }
-    },
-    "wordIds": [
-      "18293"
-    ],
-    "sourceIndex": 8293
-  },
-  {
     "id": "108299",
     "category": "daily",
     "level": "hard",
@@ -37764,23 +18667,6 @@ const phrasesDaily = [
       "18299"
     ],
     "sourceIndex": 8299
-  },
-  {
-    "id": "108304",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The goose honked loudly in the garden."
-      },
-      "de": {
-        "text": "Die Gans schnatterte laut im Garten."
-      }
-    },
-    "wordIds": [
-      "18304"
-    ],
-    "sourceIndex": 8304
   },
   {
     "id": "108308",
@@ -37834,23 +18720,6 @@ const phrasesDaily = [
     "sourceIndex": 8325
   },
   {
-    "id": "108333",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My sister goes to middle school."
-      },
-      "de": {
-        "text": "Meine Schwester geht auf die Mittelschule."
-      }
-    },
-    "wordIds": [
-      "18333"
-    ],
-    "sourceIndex": 8333
-  },
-  {
     "id": "108335",
     "category": "daily",
     "level": "hard",
@@ -37883,57 +18752,6 @@ const phrasesDaily = [
       "18336"
     ],
     "sourceIndex": 8336
-  },
-  {
-    "id": "108347",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I lost my wallet."
-      },
-      "de": {
-        "text": "Ich habe mein Portemonnaie verloren."
-      }
-    },
-    "wordIds": [
-      "18347"
-    ],
-    "sourceIndex": 8347
-  },
-  {
-    "id": "108348",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The award ceremony will take place tomorrow evening."
-      },
-      "de": {
-        "text": "Die Preisverleihung findet morgen Abend statt."
-      }
-    },
-    "wordIds": [
-      "18348"
-    ],
-    "sourceIndex": 8348
-  },
-  {
-    "id": "108349",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We're meeting at the pub tonight."
-      },
-      "de": {
-        "text": "Wir treffen uns heute Abend im Pub."
-      }
-    },
-    "wordIds": [
-      "18349"
-    ],
-    "sourceIndex": 8349
   },
   {
     "id": "108350",
@@ -38004,23 +18822,6 @@ const phrasesDaily = [
     "sourceIndex": 8369
   },
   {
-    "id": "108381",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We need to arrange to meet for next week."
-      },
-      "de": {
-        "text": "Wir müssen uns für nächste Woche verabreden."
-      }
-    },
-    "wordIds": [
-      "18381"
-    ],
-    "sourceIndex": 8381
-  },
-  {
     "id": "108385",
     "category": "daily",
     "level": "hard",
@@ -38053,74 +18854,6 @@ const phrasesDaily = [
       "18397"
     ],
     "sourceIndex": 8397
-  },
-  {
-    "id": "108400",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "She is wearing a beautiful bracelet."
-      },
-      "de": {
-        "text": "Sie trägt ein schönes Armband."
-      }
-    },
-    "wordIds": [
-      "18400"
-    ],
-    "sourceIndex": 8400
-  },
-  {
-    "id": "108403",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please write that down."
-      },
-      "de": {
-        "text": "Bitte schreiben Sie sich das auf."
-      }
-    },
-    "wordIds": [
-      "18403"
-    ],
-    "sourceIndex": 8403
-  },
-  {
-    "id": "108404",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The water is leaking from the tap."
-      },
-      "de": {
-        "text": "Das Wasser läuft aus dem Hahn aus."
-      }
-    },
-    "wordIds": [
-      "18404"
-    ],
-    "sourceIndex": 8404
-  },
-  {
-    "id": "108405",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "He is an Australian."
-      },
-      "de": {
-        "text": "Er ist ein Australier."
-      }
-    },
-    "wordIds": [
-      "18405"
-    ],
-    "sourceIndex": 8405
   },
   {
     "id": "108409",
@@ -38174,40 +18907,6 @@ const phrasesDaily = [
     "sourceIndex": 8413
   },
   {
-    "id": "108416",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The diagram shows the sales figures."
-      },
-      "de": {
-        "text": "Das Diagramm zeigt die Verkaufszahlen."
-      }
-    },
-    "wordIds": [
-      "18416"
-    ],
-    "sourceIndex": 8416
-  },
-  {
-    "id": "108418",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She wore a beautiful Dirndl to Oktoberfest."
-      },
-      "de": {
-        "text": "Sie trug ein schönes Dirndl zum Oktoberfest."
-      }
-    },
-    "wordIds": [
-      "18418"
-    ],
-    "sourceIndex": 8418
-  },
-  {
     "id": "108438",
     "category": "daily",
     "level": "medium",
@@ -38223,40 +18922,6 @@ const phrasesDaily = [
       "18438"
     ],
     "sourceIndex": 8438
-  },
-  {
-    "id": "108439",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "An ambulance drove by quickly."
-      },
-      "de": {
-        "text": "Ein Krankenwagen fuhr schnell vorbei."
-      }
-    },
-    "wordIds": [
-      "18439"
-    ],
-    "sourceIndex": 8439
-  },
-  {
-    "id": "108442",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We should air out the room."
-      },
-      "de": {
-        "text": "Wir sollten das Zimmer lüften."
-      }
-    },
-    "wordIds": [
-      "18442"
-    ],
-    "sourceIndex": 8442
   },
   {
     "id": "108453",
@@ -38276,23 +18941,6 @@ const phrasesDaily = [
     "sourceIndex": 8453
   },
   {
-    "id": "108465",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The clerk helped me with my application."
-      },
-      "de": {
-        "text": "Der Sachbearbeiter half mir bei meinem Antrag."
-      }
-    },
-    "wordIds": [
-      "18465"
-    ],
-    "sourceIndex": 8465
-  },
-  {
     "id": "108473",
     "category": "daily",
     "level": "hard",
@@ -38308,23 +18956,6 @@ const phrasesDaily = [
       "18473"
     ],
     "sourceIndex": 8473
-  },
-  {
-    "id": "108479",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "At Christmas, we like to eat stollen."
-      },
-      "de": {
-        "text": "Zu Weihnachten essen wir gerne Stollen."
-      }
-    },
-    "wordIds": [
-      "18479"
-    ],
-    "sourceIndex": 8479
   },
   {
     "id": "108483",
@@ -38378,23 +19009,6 @@ const phrasesDaily = [
     "sourceIndex": 8488
   },
   {
-    "id": "108498",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "On the eve of the wedding, everyone was excited."
-      },
-      "de": {
-        "text": "Am Vorabend der Hochzeit waren alle aufgeregt."
-      }
-    },
-    "wordIds": [
-      "18498"
-    ],
-    "sourceIndex": 8498
-  },
-  {
     "id": "108502",
     "category": "daily",
     "level": "hard",
@@ -38427,23 +19041,6 @@ const phrasesDaily = [
       "18508"
     ],
     "sourceIndex": 8508
-  },
-  {
-    "id": "108520",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My sister is a female lawyer."
-      },
-      "de": {
-        "text": "Meine Schwester ist eine Anwältin."
-      }
-    },
-    "wordIds": [
-      "18520"
-    ],
-    "sourceIndex": 8520
   },
   {
     "id": "108524",
@@ -38531,40 +19128,6 @@ const phrasesDaily = [
     "sourceIndex": 8557
   },
   {
-    "id": "108559",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The footpath is very busy today."
-      },
-      "de": {
-        "text": "Der Fussweg ist heute sehr belebt."
-      }
-    },
-    "wordIds": [
-      "18559"
-    ],
-    "sourceIndex": 8559
-  },
-  {
-    "id": "108565",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My children go to the comprehensive school."
-      },
-      "de": {
-        "text": "Meine Kinder gehen auf die Gesamtschule."
-      }
-    },
-    "wordIds": [
-      "18565"
-    ],
-    "sourceIndex": 8565
-  },
-  {
     "id": "108568",
     "category": "daily",
     "level": "hard",
@@ -38648,23 +19211,6 @@ const phrasesDaily = [
       "18589"
     ],
     "sourceIndex": 8589
-  },
-  {
-    "id": "108595",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The skiers enjoyed the slope."
-      },
-      "de": {
-        "text": "Die Skifahrer genossen die Piste."
-      }
-    },
-    "wordIds": [
-      "18595"
-    ],
-    "sourceIndex": 8595
   },
   {
     "id": "108599",
@@ -38854,23 +19400,6 @@ const phrasesDaily = [
     "sourceIndex": 8643
   },
   {
-    "id": "108644",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He broke the world record in the marathon."
-      },
-      "de": {
-        "text": "Er brach den Weltrekord im Marathon."
-      }
-    },
-    "wordIds": [
-      "18644"
-    ],
-    "sourceIndex": 8644
-  },
-  {
     "id": "108652",
     "category": "daily",
     "level": "hard",
@@ -38920,23 +19449,6 @@ const phrasesDaily = [
       "18665"
     ],
     "sourceIndex": 8665
-  },
-  {
-    "id": "108667",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The graduation ceremony takes place in the auditorium."
-      },
-      "de": {
-        "text": "Die Abschlussfeier findet in der Aula statt."
-      }
-    },
-    "wordIds": [
-      "18667"
-    ],
-    "sourceIndex": 8667
   },
   {
     "id": "108673",
@@ -38990,23 +19502,6 @@ const phrasesDaily = [
     "sourceIndex": 8681
   },
   {
-    "id": "108685",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "After eating, he had to vomit."
-      },
-      "de": {
-        "text": "Nach dem Essen musste er sich erbrechen."
-      }
-    },
-    "wordIds": [
-      "18685"
-    ],
-    "sourceIndex": 8685
-  },
-  {
     "id": "108689",
     "category": "daily",
     "level": "medium",
@@ -39039,40 +19534,6 @@ const phrasesDaily = [
       "18704"
     ],
     "sourceIndex": 8704
-  },
-  {
-    "id": "108708",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The farmer pulled the cart across the field."
-      },
-      "de": {
-        "text": "Der Bauer zog den Karren über das Feld."
-      }
-    },
-    "wordIds": [
-      "18708"
-    ],
-    "sourceIndex": 8708
-  },
-  {
-    "id": "108717",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The female customer was satisfied with the service."
-      },
-      "de": {
-        "text": "Die Kundin war mit dem Service zufrieden."
-      }
-    },
-    "wordIds": [
-      "18717"
-    ],
-    "sourceIndex": 8717
   },
   {
     "id": "108718",
@@ -39109,23 +19570,6 @@ const phrasesDaily = [
     "sourceIndex": 8726
   },
   {
-    "id": "108728",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "He is a Norwegian from Oslo."
-      },
-      "de": {
-        "text": "Er ist ein Norweger aus Oslo."
-      }
-    },
-    "wordIds": [
-      "18728"
-    ],
-    "sourceIndex": 8728
-  },
-  {
     "id": "108734",
     "category": "daily",
     "level": "hard",
@@ -39160,40 +19604,6 @@ const phrasesDaily = [
     "sourceIndex": 8735
   },
   {
-    "id": "108736",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She carried pepper spray for self-defense."
-      },
-      "de": {
-        "text": "Sie trug Pfefferspray zur Selbstverteidigung."
-      }
-    },
-    "wordIds": [
-      "18736"
-    ],
-    "sourceIndex": 8736
-  },
-  {
-    "id": "108738",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My grandmother lives in a nursing home."
-      },
-      "de": {
-        "text": "Meine Grossmutter lebt in einem Pflegeheim."
-      }
-    },
-    "wordIds": [
-      "18738"
-    ],
-    "sourceIndex": 8738
-  },
-  {
     "id": "108740",
     "category": "daily",
     "level": "hard",
@@ -39226,40 +19636,6 @@ const phrasesDaily = [
       "18742"
     ],
     "sourceIndex": 8742
-  },
-  {
-    "id": "108745",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I bought a new puzzle."
-      },
-      "de": {
-        "text": "Ich habe ein neues Puzzle gekauft."
-      }
-    },
-    "wordIds": [
-      "18745"
-    ],
-    "sourceIndex": 8745
-  },
-  {
-    "id": "108748",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "A square has four equal sides."
-      },
-      "de": {
-        "text": "Ein Quadrat hat vier gleiche Seiten."
-      }
-    },
-    "wordIds": [
-      "18748"
-    ],
-    "sourceIndex": 8748
   },
   {
     "id": "108762",
@@ -39313,23 +19689,6 @@ const phrasesDaily = [
     "sourceIndex": 8765
   },
   {
-    "id": "108766",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please wash the dishes."
-      },
-      "de": {
-        "text": "Bitte spül das Geschirr."
-      }
-    },
-    "wordIds": [
-      "18766"
-    ],
-    "sourceIndex": 8766
-  },
-  {
     "id": "108769",
     "category": "daily",
     "level": "medium",
@@ -39345,23 +19704,6 @@ const phrasesDaily = [
       "18769"
     ],
     "sourceIndex": 8769
-  },
-  {
-    "id": "108773",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The bicycle stand is full."
-      },
-      "de": {
-        "text": "Der Fahrradständer ist voll."
-      }
-    },
-    "wordIds": [
-      "18773"
-    ],
-    "sourceIndex": 8773
   },
   {
     "id": "108786",
@@ -39396,108 +19738,6 @@ const phrasesDaily = [
       "18794"
     ],
     "sourceIndex": 8794
-  },
-  {
-    "id": "108796",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Many wind turbines produce electricity."
-      },
-      "de": {
-        "text": "Viele Windräder produzieren Strom."
-      }
-    },
-    "wordIds": [
-      "18796"
-    ],
-    "sourceIndex": 8796
-  },
-  {
-    "id": "108800",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "After the ride, she felt nausea."
-      },
-      "de": {
-        "text": "Nach der Fahrt verspürte sie Übelkeit."
-      }
-    },
-    "wordIds": [
-      "18800"
-    ],
-    "sourceIndex": 8800
-  },
-  {
-    "id": "108809",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We want to buy a new car."
-      },
-      "de": {
-        "text": "Wir wollen uns ein neues Auto anschaffen."
-      }
-    },
-    "wordIds": [
-      "18809"
-    ],
-    "sourceIndex": 8809
-  },
-  {
-    "id": "108812",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The working population is important for the economy."
-      },
-      "de": {
-        "text": "Die arbeitende Bevölkerung ist wichtig für die Wirtschaft."
-      }
-    },
-    "wordIds": [
-      "18812"
-    ],
-    "sourceIndex": 8812
-  },
-  {
-    "id": "108818",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "That is an exceptional case and not the rule."
-      },
-      "de": {
-        "text": "Das ist ein Ausnahmefall und nicht die Regel."
-      }
-    },
-    "wordIds": [
-      "18818"
-    ],
-    "sourceIndex": 8818
-  },
-  {
-    "id": "108823",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She valued the convenience of online shopping."
-      },
-      "de": {
-        "text": "Sie schätzte die Bequemlichkeit des Online-Shoppings."
-      }
-    },
-    "wordIds": [
-      "18823"
-    ],
-    "sourceIndex": 8823
   },
   {
     "id": "108825",
@@ -39549,23 +19789,6 @@ const phrasesDaily = [
       "18839"
     ],
     "sourceIndex": 8839
-  },
-  {
-    "id": "108850",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The vessel was filled with water."
-      },
-      "de": {
-        "text": "Das Gefäss war mit Wasser gefüllt."
-      }
-    },
-    "wordIds": [
-      "18850"
-    ],
-    "sourceIndex": 8850
   },
   {
     "id": "108852",
@@ -39687,23 +19910,6 @@ const phrasesDaily = [
     "sourceIndex": 8875
   },
   {
-    "id": "108892",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The new intern starts next week."
-      },
-      "de": {
-        "text": "Der neue Praktikant beginnt nächste Woche."
-      }
-    },
-    "wordIds": [
-      "18892"
-    ],
-    "sourceIndex": 8892
-  },
-  {
     "id": "108900",
     "category": "daily",
     "level": "hard",
@@ -39755,23 +19961,6 @@ const phrasesDaily = [
     "sourceIndex": 8902
   },
   {
-    "id": "108904",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "A roe deer ran across the street."
-      },
-      "de": {
-        "text": "Ein Reh lief über die Straße."
-      }
-    },
-    "wordIds": [
-      "18904"
-    ],
-    "sourceIndex": 8904
-  },
-  {
     "id": "108910",
     "category": "daily",
     "level": "hard",
@@ -39789,23 +19978,6 @@ const phrasesDaily = [
     "sourceIndex": 8910
   },
   {
-    "id": "108915",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We watched a good feature film last night."
-      },
-      "de": {
-        "text": "Wir haben gestern Abend einen guten Spielfilm gesehen."
-      }
-    },
-    "wordIds": [
-      "18915"
-    ],
-    "sourceIndex": 8915
-  },
-  {
     "id": "108916",
     "category": "daily",
     "level": "hard",
@@ -39821,40 +19993,6 @@ const phrasesDaily = [
       "18916"
     ],
     "sourceIndex": 8916
-  },
-  {
-    "id": "108921",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My workday was very stressful today."
-      },
-      "de": {
-        "text": "Mein Arbeitstag war heute sehr stressig."
-      }
-    },
-    "wordIds": [
-      "18921"
-    ],
-    "sourceIndex": 8921
-  },
-  {
-    "id": "108931",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "They live in a small village by the lake."
-      },
-      "de": {
-        "text": "Sie leben in einem kleinen Village am See."
-      }
-    },
-    "wordIds": [
-      "18931"
-    ],
-    "sourceIndex": 8931
   },
   {
     "id": "108938",
@@ -39942,23 +20080,6 @@ const phrasesDaily = [
     "sourceIndex": 8961
   },
   {
-    "id": "108962",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The design of the house is very modern."
-      },
-      "de": {
-        "text": "Die Bauart des Hauses ist sehr modern."
-      }
-    },
-    "wordIds": [
-      "18962"
-    ],
-    "sourceIndex": 8962
-  },
-  {
     "id": "108964",
     "category": "daily",
     "level": "hard",
@@ -39976,23 +20097,6 @@ const phrasesDaily = [
     "sourceIndex": 8964
   },
   {
-    "id": "108972",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Many people are involved in voluntary work."
-      },
-      "de": {
-        "text": "Viele Menschen engagieren sich im Ehrenamt."
-      }
-    },
-    "wordIds": [
-      "18972"
-    ],
-    "sourceIndex": 8972
-  },
-  {
     "id": "108982",
     "category": "daily",
     "level": "medium",
@@ -40008,23 +20112,6 @@ const phrasesDaily = [
       "18982"
     ],
     "sourceIndex": 8982
-  },
-  {
-    "id": "108988",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "One fifth of the population lives in poverty."
-      },
-      "de": {
-        "text": "Ein Fünftel der Bevölkerung lebt in Armut."
-      }
-    },
-    "wordIds": [
-      "18988"
-    ],
-    "sourceIndex": 8988
   },
   {
     "id": "109001",
@@ -40061,23 +20148,6 @@ const phrasesDaily = [
     "sourceIndex": 9008
   },
   {
-    "id": "109014",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The keeper saved the ball."
-      },
-      "de": {
-        "text": "Der Keeper hat den Ball gehalten."
-      }
-    },
-    "wordIds": [
-      "19014"
-    ],
-    "sourceIndex": 9014
-  },
-  {
     "id": "109015",
     "category": "daily",
     "level": "hard",
@@ -40093,57 +20163,6 @@ const phrasesDaily = [
       "19015"
     ],
     "sourceIndex": 9015
-  },
-  {
-    "id": "109016",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "They had an interesting conversation."
-      },
-      "de": {
-        "text": "Sie führten eine interessante Konversation."
-      }
-    },
-    "wordIds": [
-      "19016"
-    ],
-    "sourceIndex": 9016
-  },
-  {
-    "id": "109028",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The construction work caused unexpected additional costs."
-      },
-      "de": {
-        "text": "Die Bauarbeiten verursachten unerwartete Mehrkosten."
-      }
-    },
-    "wordIds": [
-      "19028"
-    ],
-    "sourceIndex": 9028
-  },
-  {
-    "id": "109037",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The wind comes from the northwest."
-      },
-      "de": {
-        "text": "Der Wind kommt aus Nordwest."
-      }
-    },
-    "wordIds": [
-      "19037"
-    ],
-    "sourceIndex": 9037
   },
   {
     "id": "109039",
@@ -40197,23 +20216,6 @@ const phrasesDaily = [
     "sourceIndex": 9043
   },
   {
-    "id": "109053",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The sound of the bells echoed through the valley."
-      },
-      "de": {
-        "text": "Der Schall der Glocken hallte durch das Tal."
-      }
-    },
-    "wordIds": [
-      "19053"
-    ],
-    "sourceIndex": 9053
-  },
-  {
     "id": "109056",
     "category": "daily",
     "level": "medium",
@@ -40246,23 +20248,6 @@ const phrasesDaily = [
       "19059"
     ],
     "sourceIndex": 9059
-  },
-  {
-    "id": "109068",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please note the asterisk at the end of the sentence."
-      },
-      "de": {
-        "text": "Bitte beachten Sie das Sternchen am Ende des Satzes."
-      }
-    },
-    "wordIds": [
-      "19068"
-    ],
-    "sourceIndex": 9068
   },
   {
     "id": "109069",
@@ -40316,40 +20301,6 @@ const phrasesDaily = [
     "sourceIndex": 9080
   },
   {
-    "id": "109083",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He is a very reliable friend."
-      },
-      "de": {
-        "text": "Er ist ein sehr verlässlicher Freund."
-      }
-    },
-    "wordIds": [
-      "19083"
-    ],
-    "sourceIndex": 9083
-  },
-  {
-    "id": "109096",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please wipe the table."
-      },
-      "de": {
-        "text": "Bitte wischen Sie den Tisch ab."
-      }
-    },
-    "wordIds": [
-      "19096"
-    ],
-    "sourceIndex": 9096
-  },
-  {
     "id": "109097",
     "category": "daily",
     "level": "hard",
@@ -40382,40 +20333,6 @@ const phrasesDaily = [
       "19106"
     ],
     "sourceIndex": 9106
-  },
-  {
-    "id": "109108",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I have an allergy to nuts."
-      },
-      "de": {
-        "text": "Ich habe eine Allergie gegen Nüsse."
-      }
-    },
-    "wordIds": [
-      "19108"
-    ],
-    "sourceIndex": 9108
-  },
-  {
-    "id": "109111",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Can you please turn on the light?"
-      },
-      "de": {
-        "text": "Kannst du bitte das Licht anmachen?"
-      }
-    },
-    "wordIds": [
-      "19111"
-    ],
-    "sourceIndex": 9111
   },
   {
     "id": "109112",
@@ -40503,74 +20420,6 @@ const phrasesDaily = [
     "sourceIndex": 9162
   },
   {
-    "id": "109168",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Many people are starving in this region."
-      },
-      "de": {
-        "text": "Viele Menschen hungern in dieser Region."
-      }
-    },
-    "wordIds": [
-      "19168"
-    ],
-    "sourceIndex": 9168
-  },
-  {
-    "id": "109175",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The path is covered with gravel."
-      },
-      "de": {
-        "text": "Der Weg ist mit Kies bedeckt."
-      }
-    },
-    "wordIds": [
-      "19175"
-    ],
-    "sourceIndex": 9175
-  },
-  {
-    "id": "109176",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The wardrobe is full of clothes."
-      },
-      "de": {
-        "text": "Der Kleiderschrank ist voll mit Kleidung."
-      }
-    },
-    "wordIds": [
-      "19176"
-    ],
-    "sourceIndex": 9176
-  },
-  {
-    "id": "109180",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The teacher wrote with chalk on the board."
-      },
-      "de": {
-        "text": "Die Lehrerin schrieb mit Kreide an die Tafel."
-      }
-    },
-    "wordIds": [
-      "19180"
-    ],
-    "sourceIndex": 9180
-  },
-  {
     "id": "109190",
     "category": "daily",
     "level": "hard",
@@ -40605,57 +20454,6 @@ const phrasesDaily = [
     "sourceIndex": 9199
   },
   {
-    "id": "109215",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "They live on the outskirts of Berlin."
-      },
-      "de": {
-        "text": "Sie wohnen am Stadtrand von Berlin."
-      }
-    },
-    "wordIds": [
-      "19215"
-    ],
-    "sourceIndex": 9215
-  },
-  {
-    "id": "109218",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Every female participant received a certificate."
-      },
-      "de": {
-        "text": "Jede Teilnehmerin erhielt ein Zertifikat."
-      }
-    },
-    "wordIds": [
-      "19218"
-    ],
-    "sourceIndex": 9218
-  },
-  {
-    "id": "109220",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The long drought led to crop failures."
-      },
-      "de": {
-        "text": "Die lange Trockenheit führte zu Ernteausfällen."
-      }
-    },
-    "wordIds": [
-      "19220"
-    ],
-    "sourceIndex": 9220
-  },
-  {
     "id": "109241",
     "category": "daily",
     "level": "hard",
@@ -40671,23 +20469,6 @@ const phrasesDaily = [
       "19241"
     ],
     "sourceIndex": 9241
-  },
-  {
-    "id": "109242",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The administrator restarted the system."
-      },
-      "de": {
-        "text": "Der Administrator hat das System neu gestartet."
-      }
-    },
-    "wordIds": [
-      "19242"
-    ],
-    "sourceIndex": 9242
   },
   {
     "id": "109255",
@@ -40758,23 +20539,6 @@ const phrasesDaily = [
     "sourceIndex": 9264
   },
   {
-    "id": "109267",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The detective solved the case quickly."
-      },
-      "de": {
-        "text": "Der Detektiv löste den Fall schnell."
-      }
-    },
-    "wordIds": [
-      "19267"
-    ],
-    "sourceIndex": 9267
-  },
-  {
     "id": "109271",
     "category": "daily",
     "level": "hard",
@@ -40826,23 +20590,6 @@ const phrasesDaily = [
     "sourceIndex": 9280
   },
   {
-    "id": "109289",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The cyclist struggled against the strong headwind."
-      },
-      "de": {
-        "text": "Der Radfahrer kämpfte gegen den starken Gegenwind."
-      }
-    },
-    "wordIds": [
-      "19289"
-    ],
-    "sourceIndex": 9289
-  },
-  {
     "id": "109291",
     "category": "daily",
     "level": "hard",
@@ -40860,23 +20607,6 @@ const phrasesDaily = [
     "sourceIndex": 9291
   },
   {
-    "id": "109292",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I lost my wallet."
-      },
-      "de": {
-        "text": "Ich habe meine Geldbörse verloren."
-      }
-    },
-    "wordIds": [
-      "19292"
-    ],
-    "sourceIndex": 9292
-  },
-  {
     "id": "109301",
     "category": "daily",
     "level": "hard",
@@ -40892,23 +20622,6 @@ const phrasesDaily = [
       "19301"
     ],
     "sourceIndex": 9301
-  },
-  {
-    "id": "109305",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The inspector examined the crime scene."
-      },
-      "de": {
-        "text": "Der Inspektor untersuchte den Tatort."
-      }
-    },
-    "wordIds": [
-      "19305"
-    ],
-    "sourceIndex": 9305
   },
   {
     "id": "109307",
@@ -40943,40 +20656,6 @@ const phrasesDaily = [
       "19308"
     ],
     "sourceIndex": 9308
-  },
-  {
-    "id": "109316",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We are going to the mall on the weekend."
-      },
-      "de": {
-        "text": "Wir gehen am Wochenende in die Mall."
-      }
-    },
-    "wordIds": [
-      "19316"
-    ],
-    "sourceIndex": 9316
-  },
-  {
-    "id": "109323",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "A mosquito bit me."
-      },
-      "de": {
-        "text": "Eine Mücke hat mich gestochen."
-      }
-    },
-    "wordIds": [
-      "19323"
-    ],
-    "sourceIndex": 9323
   },
   {
     "id": "109327",
@@ -41064,23 +20743,6 @@ const phrasesDaily = [
     "sourceIndex": 9358
   },
   {
-    "id": "109359",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We love to ski in winter."
-      },
-      "de": {
-        "text": "Wir lieben es, im Winter Ski zu fahren."
-      }
-    },
-    "wordIds": [
-      "19359"
-    ],
-    "sourceIndex": 9359
-  },
-  {
     "id": "109362",
     "category": "daily",
     "level": "hard",
@@ -41130,40 +20792,6 @@ const phrasesDaily = [
       "19372"
     ],
     "sourceIndex": 9372
-  },
-  {
-    "id": "109375",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "A Ukrainian helped us."
-      },
-      "de": {
-        "text": "Ein Ukrainer hat uns geholfen."
-      }
-    },
-    "wordIds": [
-      "19375"
-    ],
-    "sourceIndex": 9375
-  },
-  {
-    "id": "109376",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "There is a detour due to construction work."
-      },
-      "de": {
-        "text": "Wegen Bauarbeiten gibt es eine Umleitung."
-      }
-    },
-    "wordIds": [
-      "19376"
-    ],
-    "sourceIndex": 9376
   },
   {
     "id": "109378",
@@ -41302,57 +20930,6 @@ const phrasesDaily = [
     "sourceIndex": 9391
   },
   {
-    "id": "109394",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We are working under great time pressure."
-      },
-      "de": {
-        "text": "Wir arbeiten unter großem Zeitdruck."
-      }
-    },
-    "wordIds": [
-      "19394"
-    ],
-    "sourceIndex": 9394
-  },
-  {
-    "id": "109395",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The time span for the project is very short."
-      },
-      "de": {
-        "text": "Die Zeitspanne für das Projekt ist sehr kurz."
-      }
-    },
-    "wordIds": [
-      "19395"
-    ],
-    "sourceIndex": 9395
-  },
-  {
-    "id": "109403",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Let the coffee cool down first."
-      },
-      "de": {
-        "text": "Lass den Kaffee erst abkühlen."
-      }
-    },
-    "wordIds": [
-      "19403"
-    ],
-    "sourceIndex": 9403
-  },
-  {
     "id": "109404",
     "category": "daily",
     "level": "hard",
@@ -41385,23 +20962,6 @@ const phrasesDaily = [
       "19408"
     ],
     "sourceIndex": 9408
-  },
-  {
-    "id": "109424",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "After the long run, he first had to take a deep breath."
-      },
-      "de": {
-        "text": "Nach dem langen Lauf musste er erst einmal durchatmen."
-      }
-    },
-    "wordIds": [
-      "19424"
-    ],
-    "sourceIndex": 9424
   },
   {
     "id": "109440",
@@ -41574,23 +21134,6 @@ const phrasesDaily = [
     "sourceIndex": 9473
   },
   {
-    "id": "109475",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I lost my mobile phone."
-      },
-      "de": {
-        "text": "Ich habe mein Mobiltelefon verloren."
-      }
-    },
-    "wordIds": [
-      "19475"
-    ],
-    "sourceIndex": 9475
-  },
-  {
     "id": "109479",
     "category": "daily",
     "level": "hard",
@@ -41606,23 +21149,6 @@ const phrasesDaily = [
       "19479"
     ],
     "sourceIndex": 9479
-  },
-  {
-    "id": "109483",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The city planner designed new buildings."
-      },
-      "de": {
-        "text": "Der Stadtplaner entwarf neue Gebäude."
-      }
-    },
-    "wordIds": [
-      "19483"
-    ],
-    "sourceIndex": 9483
   },
   {
     "id": "109488",
@@ -41642,23 +21168,6 @@ const phrasesDaily = [
     "sourceIndex": 9488
   },
   {
-    "id": "109493",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Don't forget your passport."
-      },
-      "de": {
-        "text": "Vergessen Sie Ihren Reisepass nicht."
-      }
-    },
-    "wordIds": [
-      "19493"
-    ],
-    "sourceIndex": 9493
-  },
-  {
     "id": "109496",
     "category": "daily",
     "level": "medium",
@@ -41674,23 +21183,6 @@ const phrasesDaily = [
       "19496"
     ],
     "sourceIndex": 9496
-  },
-  {
-    "id": "109499",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The street ends in a dead end."
-      },
-      "de": {
-        "text": "Die Straße endet in einer Sackgasse."
-      }
-    },
-    "wordIds": [
-      "19499"
-    ],
-    "sourceIndex": 9499
   },
   {
     "id": "109513",
@@ -41761,23 +21253,6 @@ const phrasesDaily = [
     "sourceIndex": 9537
   },
   {
-    "id": "109540",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "He is an Egyptian."
-      },
-      "de": {
-        "text": "Er ist ein Ägypter."
-      }
-    },
-    "wordIds": [
-      "19540"
-    ],
-    "sourceIndex": 9540
-  },
-  {
     "id": "109548",
     "category": "daily",
     "level": "hard",
@@ -41793,23 +21268,6 @@ const phrasesDaily = [
       "19548"
     ],
     "sourceIndex": 9548
-  },
-  {
-    "id": "109550",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "You must request the documents in writing."
-      },
-      "de": {
-        "text": "Sie müssen die Unterlagen schriftlich anfordern."
-      }
-    },
-    "wordIds": [
-      "19550"
-    ],
-    "sourceIndex": 9550
   },
   {
     "id": "109553",
@@ -41844,23 +21302,6 @@ const phrasesDaily = [
       "19554"
     ],
     "sourceIndex": 9554
-  },
-  {
-    "id": "109559",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The railway line is closed due to construction work."
-      },
-      "de": {
-        "text": "Die Bahnstrecke ist wegen Bauarbeiten gesperrt."
-      }
-    },
-    "wordIds": [
-      "19559"
-    ],
-    "sourceIndex": 9559
   },
   {
     "id": "109570",
@@ -41931,23 +21372,6 @@ const phrasesDaily = [
     "sourceIndex": 9607
   },
   {
-    "id": "109609",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I like to eat carrots."
-      },
-      "de": {
-        "text": "Ich esse gerne Karotten."
-      }
-    },
-    "wordIds": [
-      "19609"
-    ],
-    "sourceIndex": 9609
-  },
-  {
     "id": "109612",
     "category": "daily",
     "level": "medium",
@@ -41963,23 +21387,6 @@ const phrasesDaily = [
       "19612"
     ],
     "sourceIndex": 9612
-  },
-  {
-    "id": "109613",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We saw a good movie yesterday."
-      },
-      "de": {
-        "text": "Wir haben gestern einen guten Kinofilm gesehen."
-      }
-    },
-    "wordIds": [
-      "19613"
-    ],
-    "sourceIndex": 9613
   },
   {
     "id": "109617",
@@ -42050,23 +21457,6 @@ const phrasesDaily = [
     "sourceIndex": 9637
   },
   {
-    "id": "109639",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The hotel offers inexpensive rooms."
-      },
-      "de": {
-        "text": "Das Hotel bietet preiswerte Zimmer an."
-      }
-    },
-    "wordIds": [
-      "19639"
-    ],
-    "sourceIndex": 9639
-  },
-  {
     "id": "109652",
     "category": "daily",
     "level": "hard",
@@ -42116,23 +21506,6 @@ const phrasesDaily = [
       "19665"
     ],
     "sourceIndex": 9665
-  },
-  {
-    "id": "109668",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The diver explored the underwater world."
-      },
-      "de": {
-        "text": "Der Taucher erkundete die Unterwasserwelt."
-      }
-    },
-    "wordIds": [
-      "19668"
-    ],
-    "sourceIndex": 9668
   },
   {
     "id": "109671",
@@ -42220,23 +21593,6 @@ const phrasesDaily = [
     "sourceIndex": 9693
   },
   {
-    "id": "109704",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Take the next exit."
-      },
-      "de": {
-        "text": "Nehmen Sie die nächste Anschlussstelle."
-      }
-    },
-    "wordIds": [
-      "19704"
-    ],
-    "sourceIndex": 9704
-  },
-  {
     "id": "109707",
     "category": "daily",
     "level": "hard",
@@ -42252,40 +21608,6 @@ const phrasesDaily = [
       "19707"
     ],
     "sourceIndex": 9707
-  },
-  {
-    "id": "109712",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The draw of the winners will take place tomorrow."
-      },
-      "de": {
-        "text": "Die Auslosung der Gewinner findet morgen statt."
-      }
-    },
-    "wordIds": [
-      "19712"
-    ],
-    "sourceIndex": 9712
-  },
-  {
-    "id": "109713",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The outdoor area of the restaurant is very cozy."
-      },
-      "de": {
-        "text": "Der Aussenbereich des Restaurants ist sehr gemütlich."
-      }
-    },
-    "wordIds": [
-      "19713"
-    ],
-    "sourceIndex": 9713
   },
   {
     "id": "109714",
@@ -42305,57 +21627,6 @@ const phrasesDaily = [
     "sourceIndex": 9714
   },
   {
-    "id": "109716",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We bought our new car at the car dealership."
-      },
-      "de": {
-        "text": "Wir haben unser neues Auto im Autohaus gekauft."
-      }
-    },
-    "wordIds": [
-      "19716"
-    ],
-    "sourceIndex": 9716
-  },
-  {
-    "id": "109720",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "You shouldn't lie to me."
-      },
-      "de": {
-        "text": "Du solltest mich nicht belügen."
-      }
-    },
-    "wordIds": [
-      "19720"
-    ],
-    "sourceIndex": 9720
-  },
-  {
-    "id": "109723",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Today it is cloudy, but it's not raining."
-      },
-      "de": {
-        "text": "Heute ist es bewölkt, aber es regnet nicht."
-      }
-    },
-    "wordIds": [
-      "19723"
-    ],
-    "sourceIndex": 9723
-  },
-  {
     "id": "109724",
     "category": "daily",
     "level": "medium",
@@ -42373,57 +21644,6 @@ const phrasesDaily = [
     "sourceIndex": 9724
   },
   {
-    "id": "109729",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "A single click is enough."
-      },
-      "de": {
-        "text": "Ein einziger Click genügt."
-      }
-    },
-    "wordIds": [
-      "19729"
-    ],
-    "sourceIndex": 9729
-  },
-  {
-    "id": "109734",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I still need to read through the report."
-      },
-      "de": {
-        "text": "Ich muss den Bericht noch durchlesen."
-      }
-    },
-    "wordIds": [
-      "19734"
-    ],
-    "sourceIndex": 9734
-  },
-  {
-    "id": "109735",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Many dream of their own home."
-      },
-      "de": {
-        "text": "Viele träumen von einem Eigenheim."
-      }
-    },
-    "wordIds": [
-      "19735"
-    ],
-    "sourceIndex": 9735
-  },
-  {
     "id": "109744",
     "category": "daily",
     "level": "medium",
@@ -42439,23 +21659,6 @@ const phrasesDaily = [
       "19744"
     ],
     "sourceIndex": 9744
-  },
-  {
-    "id": "109746",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Long-distance traffic is often overloaded."
-      },
-      "de": {
-        "text": "Der Fernverkehr ist oft überlastet."
-      }
-    },
-    "wordIds": [
-      "19746"
-    ],
-    "sourceIndex": 9746
   },
   {
     "id": "109751",
@@ -42526,23 +21729,6 @@ const phrasesDaily = [
     "sourceIndex": 9756
   },
   {
-    "id": "109758",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The children are playing in the backyard."
-      },
-      "de": {
-        "text": "Die Kinder spielen im Hinterhof."
-      }
-    },
-    "wordIds": [
-      "19758"
-    ],
-    "sourceIndex": 9758
-  },
-  {
     "id": "109761",
     "category": "daily",
     "level": "medium",
@@ -42594,40 +21780,6 @@ const phrasesDaily = [
     "sourceIndex": 9771
   },
   {
-    "id": "109774",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The magnet attracts the metal."
-      },
-      "de": {
-        "text": "Der Magnet zieht das Metall an."
-      }
-    },
-    "wordIds": [
-      "19774"
-    ],
-    "sourceIndex": 9774
-  },
-  {
-    "id": "109776",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I like chocolate with whole almonds."
-      },
-      "de": {
-        "text": "Ich mag Schokolade mit ganzen Mandeln."
-      }
-    },
-    "wordIds": [
-      "19776"
-    ],
-    "sourceIndex": 9776
-  },
-  {
     "id": "109777",
     "category": "daily",
     "level": "hard",
@@ -42660,40 +21812,6 @@ const phrasesDaily = [
       "19791"
     ],
     "sourceIndex": 9791
-  },
-  {
-    "id": "109799",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "He is a Romanian."
-      },
-      "de": {
-        "text": "Er ist ein Rumäne."
-      }
-    },
-    "wordIds": [
-      "19799"
-    ],
-    "sourceIndex": 9799
-  },
-  {
-    "id": "109800",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We took a tour through the city."
-      },
-      "de": {
-        "text": "Wir machten eine Rundfahrt durch die Stadt."
-      }
-    },
-    "wordIds": [
-      "19800"
-    ],
-    "sourceIndex": 9800
   },
   {
     "id": "109802",
@@ -42764,40 +21882,6 @@ const phrasesDaily = [
     "sourceIndex": 9825
   },
   {
-    "id": "109826",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The flowers are in the vase."
-      },
-      "de": {
-        "text": "Die Blumen stehen in der Vase."
-      }
-    },
-    "wordIds": [
-      "19826"
-    ],
-    "sourceIndex": 9826
-  },
-  {
-    "id": "109842",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "After the storm, there was a big flood."
-      },
-      "de": {
-        "text": "Nach dem Sturm gab es eine große Überschwemmung."
-      }
-    },
-    "wordIds": [
-      "19842"
-    ],
-    "sourceIndex": 9842
-  },
-  {
     "id": "109843",
     "category": "daily",
     "level": "hard",
@@ -42813,40 +21897,6 @@ const phrasesDaily = [
       "19843"
     ],
     "sourceIndex": 9843
-  },
-  {
-    "id": "109846",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I am allergic to nuts."
-      },
-      "de": {
-        "text": "Ich bin allergisch gegen Nüsse."
-      }
-    },
-    "wordIds": [
-      "19846"
-    ],
-    "sourceIndex": 9846
-  },
-  {
-    "id": "109860",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He is very worried about his family."
-      },
-      "de": {
-        "text": "Er ist sehr besorgt um seine Familie."
-      }
-    },
-    "wordIds": [
-      "19860"
-    ],
-    "sourceIndex": 9860
   },
   {
     "id": "109873",
@@ -42917,23 +21967,6 @@ const phrasesDaily = [
     "sourceIndex": 9895
   },
   {
-    "id": "109896",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "In the ideal case, the project will be finished next week."
-      },
-      "de": {
-        "text": "Im Idealfall ist das Projekt nächste Woche fertig."
-      }
-    },
-    "wordIds": [
-      "19896"
-    ],
-    "sourceIndex": 9896
-  },
-  {
     "id": "109907",
     "category": "daily",
     "level": "medium",
@@ -42949,57 +21982,6 @@ const phrasesDaily = [
       "19907"
     ],
     "sourceIndex": 9907
-  },
-  {
-    "id": "109908",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The cashier scanned my groceries."
-      },
-      "de": {
-        "text": "Die Kassiererin hat meine Einkäufe gescannt."
-      }
-    },
-    "wordIds": [
-      "19908"
-    ],
-    "sourceIndex": 9908
-  },
-  {
-    "id": "109914",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We watched an interesting short film."
-      },
-      "de": {
-        "text": "Wir haben einen interessanten Kurzfilm gesehen."
-      }
-    },
-    "wordIds": [
-      "19914"
-    ],
-    "sourceIndex": 9914
-  },
-  {
-    "id": "109915",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "In Cologne, people like to drink Kölsch."
-      },
-      "de": {
-        "text": "In Köln trinkt man gerne Kölsch."
-      }
-    },
-    "wordIds": [
-      "19915"
-    ],
-    "sourceIndex": 9915
   },
   {
     "id": "109921",
@@ -43019,40 +22001,6 @@ const phrasesDaily = [
     "sourceIndex": 9921
   },
   {
-    "id": "109926",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She has a side job to finance her studies."
-      },
-      "de": {
-        "text": "Sie hat einen Nebenjob, um ihr Studium zu finanzieren."
-      }
-    },
-    "wordIds": [
-      "19926"
-    ],
-    "sourceIndex": 9926
-  },
-  {
-    "id": "109927",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He bought a new car."
-      },
-      "de": {
-        "text": "Er hat sich einen Neuwagen gekauft."
-      }
-    },
-    "wordIds": [
-      "19927"
-    ],
-    "sourceIndex": 9927
-  },
-  {
     "id": "109939",
     "category": "daily",
     "level": "hard",
@@ -43070,23 +22018,6 @@ const phrasesDaily = [
     "sourceIndex": 9939
   },
   {
-    "id": "109944",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We had to row across the lake."
-      },
-      "de": {
-        "text": "Wir mussten über den See rudern."
-      }
-    },
-    "wordIds": [
-      "19944"
-    ],
-    "sourceIndex": 9944
-  },
-  {
     "id": "109953",
     "category": "daily",
     "level": "hard",
@@ -43102,23 +22033,6 @@ const phrasesDaily = [
       "19953"
     ],
     "sourceIndex": 9953
-  },
-  {
-    "id": "109956",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We had a power outage yesterday."
-      },
-      "de": {
-        "text": "Wir hatten gestern einen Stromausfall."
-      }
-    },
-    "wordIds": [
-      "19956"
-    ],
-    "sourceIndex": 9956
   },
   {
     "id": "109973",
@@ -43172,40 +22086,6 @@ const phrasesDaily = [
     "sourceIndex": 9977
   },
   {
-    "id": "109978",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He felt a pain in his calf."
-      },
-      "de": {
-        "text": "Er spürte einen Schmerz in der Wade."
-      }
-    },
-    "wordIds": [
-      "19978"
-    ],
-    "sourceIndex": 9978
-  },
-  {
-    "id": "109981",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The appointment will be cancelled."
-      },
-      "de": {
-        "text": "Der Termin wird wegfallen."
-      }
-    },
-    "wordIds": [
-      "19981"
-    ],
-    "sourceIndex": 9981
-  },
-  {
     "id": "109986",
     "category": "daily",
     "level": "hard",
@@ -43238,23 +22118,6 @@ const phrasesDaily = [
       "19990"
     ],
     "sourceIndex": 9990
-  },
-  {
-    "id": "109993",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He received a blow."
-      },
-      "de": {
-        "text": "Er hat einen Schlag abbekommen."
-      }
-    },
-    "wordIds": [
-      "19993"
-    ],
-    "sourceIndex": 9993
   },
   {
     "id": "109995",
@@ -43291,23 +22154,6 @@ const phrasesDaily = [
     "sourceIndex": 10008
   },
   {
-    "id": "110011",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "There was slight damage to the car."
-      },
-      "de": {
-        "text": "Es gab eine leichte Beschädigung am Auto."
-      }
-    },
-    "wordIds": [
-      "20011"
-    ],
-    "sourceIndex": 10011
-  },
-  {
     "id": "110017",
     "category": "daily",
     "level": "hard",
@@ -43342,23 +22188,6 @@ const phrasesDaily = [
     "sourceIndex": 10027
   },
   {
-    "id": "110030",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "You can freeze the bread."
-      },
-      "de": {
-        "text": "Du kannst das Brot einfrieren."
-      }
-    },
-    "wordIds": [
-      "20030"
-    ],
-    "sourceIndex": 10030
-  },
-  {
     "id": "110034",
     "category": "daily",
     "level": "hard",
@@ -43374,57 +22203,6 @@ const phrasesDaily = [
       "20034"
     ],
     "sourceIndex": 10034
-  },
-  {
-    "id": "110040",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The scientists are experimenting with new materials."
-      },
-      "de": {
-        "text": "Die Wissenschaftler experimentieren mit neuen Materialien."
-      }
-    },
-    "wordIds": [
-      "20040"
-    ],
-    "sourceIndex": 10040
-  },
-  {
-    "id": "110053",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We celebrate Christmas Eve with the family."
-      },
-      "de": {
-        "text": "Wir feiern Heiligabend mit der Familie."
-      }
-    },
-    "wordIds": [
-      "20053"
-    ],
-    "sourceIndex": 10053
-  },
-  {
-    "id": "110056",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Can you please place the chair over there?"
-      },
-      "de": {
-        "text": "Kannst du den Stuhl bitte dorthin hinstellen?"
-      }
-    },
-    "wordIds": [
-      "20056"
-    ],
-    "sourceIndex": 10056
   },
   {
     "id": "110059",
@@ -43459,23 +22237,6 @@ const phrasesDaily = [
       "20060"
     ],
     "sourceIndex": 10060
-  },
-  {
-    "id": "110062",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The long corridor led to the offices."
-      },
-      "de": {
-        "text": "Der lange Korridor führte zu den Büros."
-      }
-    },
-    "wordIds": [
-      "20062"
-    ],
-    "sourceIndex": 10062
   },
   {
     "id": "110068",
@@ -43544,23 +22305,6 @@ const phrasesDaily = [
       "20077"
     ],
     "sourceIndex": 10077
-  },
-  {
-    "id": "110079",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please show your identity card."
-      },
-      "de": {
-        "text": "Bitte zeigen Sie Ihren Personalausweis."
-      }
-    },
-    "wordIds": [
-      "20079"
-    ],
-    "sourceIndex": 10079
   },
   {
     "id": "110080",
@@ -43716,23 +22460,6 @@ const phrasesDaily = [
     "sourceIndex": 10140
   },
   {
-    "id": "110151",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The start of construction is planned for next month."
-      },
-      "de": {
-        "text": "Der Baubeginn ist für nächsten Monat geplant."
-      }
-    },
-    "wordIds": [
-      "20151"
-    ],
-    "sourceIndex": 10151
-  },
-  {
     "id": "110155",
     "category": "daily",
     "level": "hard",
@@ -43748,23 +22475,6 @@ const phrasesDaily = [
       "20155"
     ],
     "sourceIndex": 10155
-  },
-  {
-    "id": "110156",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She wanted to paint the wall."
-      },
-      "de": {
-        "text": "Sie wollte die Wand bemalen."
-      }
-    },
-    "wordIds": [
-      "20156"
-    ],
-    "sourceIndex": 10156
   },
   {
     "id": "110158",
@@ -43818,40 +22528,6 @@ const phrasesDaily = [
     "sourceIndex": 10171
   },
   {
-    "id": "110174",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I need to schedule the meeting in my calendar."
-      },
-      "de": {
-        "text": "Ich muss das Treffen in meinen Kalender einplanen."
-      }
-    },
-    "wordIds": [
-      "20174"
-    ],
-    "sourceIndex": 10174
-  },
-  {
-    "id": "110176",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He hit his elbow on the table."
-      },
-      "de": {
-        "text": "Er stieß sich den Ellenbogen am Tisch."
-      }
-    },
-    "wordIds": [
-      "20176"
-    ],
-    "sourceIndex": 10176
-  },
-  {
     "id": "110177",
     "category": "daily",
     "level": "hard",
@@ -43903,23 +22579,6 @@ const phrasesDaily = [
     "sourceIndex": 10196
   },
   {
-    "id": "110198",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The hen lays eggs every day."
-      },
-      "de": {
-        "text": "Die Henne legt jeden Tag Eier."
-      }
-    },
-    "wordIds": [
-      "20198"
-    ],
-    "sourceIndex": 10198
-  },
-  {
     "id": "110203",
     "category": "daily",
     "level": "hard",
@@ -43969,23 +22628,6 @@ const phrasesDaily = [
       "20237"
     ],
     "sourceIndex": 10237
-  },
-  {
-    "id": "110247",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I have a cold and need to sneeze."
-      },
-      "de": {
-        "text": "Ich habe einen Schnupfen und muss niesen."
-      }
-    },
-    "wordIds": [
-      "20247"
-    ],
-    "sourceIndex": 10247
   },
   {
     "id": "110257",
@@ -44107,74 +22749,6 @@ const phrasesDaily = [
     "sourceIndex": 10279
   },
   {
-    "id": "110284",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "After the walk, he had a tick."
-      },
-      "de": {
-        "text": "Nach dem Spaziergang hatte er eine Zecke."
-      }
-    },
-    "wordIds": [
-      "20284"
-    ],
-    "sourceIndex": 10284
-  },
-  {
-    "id": "110299",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The documents are in the archive for safekeeping."
-      },
-      "de": {
-        "text": "Die Dokumente sind zur Aufbewahrung im Archiv."
-      }
-    },
-    "wordIds": [
-      "20299"
-    ],
-    "sourceIndex": 10299
-  },
-  {
-    "id": "110302",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The author reads from her new book."
-      },
-      "de": {
-        "text": "Die Autorin liest aus ihrem neuen Buch vor."
-      }
-    },
-    "wordIds": [
-      "20302"
-    ],
-    "sourceIndex": 10302
-  },
-  {
-    "id": "110306",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "This professional group has high demands."
-      },
-      "de": {
-        "text": "Diese Berufsgruppe hat hohe Anforderungen."
-      }
-    },
-    "wordIds": [
-      "20306"
-    ],
-    "sourceIndex": 10306
-  },
-  {
     "id": "110316",
     "category": "daily",
     "level": "hard",
@@ -44192,40 +22766,6 @@ const phrasesDaily = [
     "sourceIndex": 10316
   },
   {
-    "id": "110318",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Her spouse is a doctor."
-      },
-      "de": {
-        "text": "Ihr Ehegatte ist Arzt."
-      }
-    },
-    "wordIds": [
-      "20318"
-    ],
-    "sourceIndex": 10318
-  },
-  {
-    "id": "110320",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We need a shopping cart for the big shopping trip."
-      },
-      "de": {
-        "text": "Wir brauchen einen Einkaufswagen für den Großeinkauf."
-      }
-    },
-    "wordIds": [
-      "20320"
-    ],
-    "sourceIndex": 10320
-  },
-  {
     "id": "110321",
     "category": "daily",
     "level": "hard",
@@ -44241,23 +22781,6 @@ const phrasesDaily = [
       "20321"
     ],
     "sourceIndex": 10321
-  },
-  {
-    "id": "110326",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She began to whisper a secret into his ear."
-      },
-      "de": {
-        "text": "Sie begann, ihm ein Geheimnis ins Ohr zu flüstern."
-      }
-    },
-    "wordIds": [
-      "20326"
-    ],
-    "sourceIndex": 10326
   },
   {
     "id": "110339",
@@ -44294,23 +22817,6 @@ const phrasesDaily = [
     "sourceIndex": 10358
   },
   {
-    "id": "110374",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The church bells ring every Sunday."
-      },
-      "de": {
-        "text": "Die Kirchenglocken läuten jeden Sonntag."
-      }
-    },
-    "wordIds": [
-      "20374"
-    ],
-    "sourceIndex": 10374
-  },
-  {
     "id": "110385",
     "category": "daily",
     "level": "hard",
@@ -44343,23 +22849,6 @@ const phrasesDaily = [
       "20403"
     ],
     "sourceIndex": 10403
-  },
-  {
-    "id": "110404",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please contact the secretariat."
-      },
-      "de": {
-        "text": "Bitte wenden Sie sich an das Sekretariat."
-      }
-    },
-    "wordIds": [
-      "20404"
-    ],
-    "sourceIndex": 10404
   },
   {
     "id": "110409",
@@ -44413,74 +22902,6 @@ const phrasesDaily = [
     "sourceIndex": 10418
   },
   {
-    "id": "110419",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The translation of the text was very good."
-      },
-      "de": {
-        "text": "Die Translation des Textes war sehr gut."
-      }
-    },
-    "wordIds": [
-      "20419"
-    ],
-    "sourceIndex": 10419
-  },
-  {
-    "id": "110421",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I found a useful tutorial online."
-      },
-      "de": {
-        "text": "Ich habe ein nützliches Tutorial online gefunden."
-      }
-    },
-    "wordIds": [
-      "20421"
-    ],
-    "sourceIndex": 10421
-  },
-  {
-    "id": "110427",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We will raffle tickets for the concert."
-      },
-      "de": {
-        "text": "Wir werden Tickets für das Konzert verlosen."
-      }
-    },
-    "wordIds": [
-      "20427"
-    ],
-    "sourceIndex": 10427
-  },
-  {
-    "id": "110428",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The raffle of the prizes will take place tomorrow."
-      },
-      "de": {
-        "text": "Die Verlosung der Preise findet morgen statt."
-      }
-    },
-    "wordIds": [
-      "20428"
-    ],
-    "sourceIndex": 10428
-  },
-  {
     "id": "110434",
     "category": "daily",
     "level": "hard",
@@ -44498,23 +22919,6 @@ const phrasesDaily = [
     "sourceIndex": 10434
   },
   {
-    "id": "110459",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The building is completely barrier-free."
-      },
-      "de": {
-        "text": "Das Gebäude ist komplett barrierefrei."
-      }
-    },
-    "wordIds": [
-      "20459"
-    ],
-    "sourceIndex": 10459
-  },
-  {
     "id": "110461",
     "category": "daily",
     "level": "hard",
@@ -44530,40 +22934,6 @@ const phrasesDaily = [
       "20461"
     ],
     "sourceIndex": 10461
-  },
-  {
-    "id": "110468",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Many citizens use the postal vote."
-      },
-      "de": {
-        "text": "Viele Bürger nutzen die Briefwahl."
-      }
-    },
-    "wordIds": [
-      "20468"
-    ],
-    "sourceIndex": 10468
-  },
-  {
-    "id": "110469",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The accountant checks the company's finances."
-      },
-      "de": {
-        "text": "Der Buchhalter prüft die Finanzen des Unternehmens."
-      }
-    },
-    "wordIds": [
-      "20469"
-    ],
-    "sourceIndex": 10469
   },
   {
     "id": "110475",
@@ -44634,57 +23004,6 @@ const phrasesDaily = [
     "sourceIndex": 10496
   },
   {
-    "id": "110501",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The main character of the book is very interesting."
-      },
-      "de": {
-        "text": "Die Hauptfigur des Buches ist sehr interessant."
-      }
-    },
-    "wordIds": [
-      "20501"
-    ],
-    "sourceIndex": 10501
-  },
-  {
-    "id": "110509",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My sister is still in high school."
-      },
-      "de": {
-        "text": "Meine Schwester geht noch auf die Highschool."
-      }
-    },
-    "wordIds": [
-      "20509"
-    ],
-    "sourceIndex": 10509
-  },
-  {
-    "id": "110513",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "They will interview the candidate tomorrow."
-      },
-      "de": {
-        "text": "Sie werden den Kandidaten morgen interviewen."
-      }
-    },
-    "wordIds": [
-      "20513"
-    ],
-    "sourceIndex": 10513
-  },
-  {
     "id": "110519",
     "category": "daily",
     "level": "hard",
@@ -44717,23 +23036,6 @@ const phrasesDaily = [
       "20528"
     ],
     "sourceIndex": 10528
-  },
-  {
-    "id": "110536",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My sister goes to secondary school."
-      },
-      "de": {
-        "text": "Meine Schwester geht auf die Oberschule."
-      }
-    },
-    "wordIds": [
-      "20536"
-    ],
-    "sourceIndex": 10536
   },
   {
     "id": "110539",
@@ -44770,40 +23072,6 @@ const phrasesDaily = [
     "sourceIndex": 10541
   },
   {
-    "id": "110557",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "A good education is important for the future."
-      },
-      "de": {
-        "text": "Eine gute Schulbildung ist wichtig für die Zukunft."
-      }
-    },
-    "wordIds": [
-      "20557"
-    ],
-    "sourceIndex": 10557
-  },
-  {
-    "id": "110564",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The player was fouled in the penalty area."
-      },
-      "de": {
-        "text": "Der Spieler wurde im Strafraum gefoult."
-      }
-    },
-    "wordIds": [
-      "20564"
-    ],
-    "sourceIndex": 10564
-  },
-  {
     "id": "110600",
     "category": "daily",
     "level": "hard",
@@ -44819,23 +23087,6 @@ const phrasesDaily = [
       "20600"
     ],
     "sourceIndex": 10600
-  },
-  {
-    "id": "110605",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He is an Armenian from Yerevan."
-      },
-      "de": {
-        "text": "Er ist ein Armenier aus Eriwan."
-      }
-    },
-    "wordIds": [
-      "20605"
-    ],
-    "sourceIndex": 10605
   },
   {
     "id": "110608",
@@ -44855,23 +23106,6 @@ const phrasesDaily = [
     "sourceIndex": 10608
   },
   {
-    "id": "110622",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "They like to play billiards in the evening."
-      },
-      "de": {
-        "text": "Sie spielen gerne Billard am Abend."
-      }
-    },
-    "wordIds": [
-      "20622"
-    ],
-    "sourceIndex": 10622
-  },
-  {
     "id": "110626",
     "category": "daily",
     "level": "hard",
@@ -44887,57 +23121,6 @@ const phrasesDaily = [
       "20626"
     ],
     "sourceIndex": 10626
-  },
-  {
-    "id": "110631",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My spouse always supports me."
-      },
-      "de": {
-        "text": "Mein Ehepartner unterstützt mich immer."
-      }
-    },
-    "wordIds": [
-      "20631"
-    ],
-    "sourceIndex": 10631
-  },
-  {
-    "id": "110638",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please show your admission ticket at the entrance."
-      },
-      "de": {
-        "text": "Bitte zeigen Sie Ihre Eintrittskarte am Eingang vor."
-      }
-    },
-    "wordIds": [
-      "20638"
-    ],
-    "sourceIndex": 10638
-  },
-  {
-    "id": "110647",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He is a Finn."
-      },
-      "de": {
-        "text": "Er ist ein Finne."
-      }
-    },
-    "wordIds": [
-      "20647"
-    ],
-    "sourceIndex": 10647
   },
   {
     "id": "110651",
@@ -45127,23 +23310,6 @@ const phrasesDaily = [
     "sourceIndex": 10698
   },
   {
-    "id": "110699",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The rent is 500 euros plus incidental expenses."
-      },
-      "de": {
-        "text": "Die Miete beträgt 500 Euro plus Nebenkosten."
-      }
-    },
-    "wordIds": [
-      "20699"
-    ],
-    "sourceIndex": 10699
-  },
-  {
     "id": "110711",
     "category": "daily",
     "level": "hard",
@@ -45176,40 +23342,6 @@ const phrasesDaily = [
       "20718"
     ],
     "sourceIndex": 10718
-  },
-  {
-    "id": "110725",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I would like a glass of soda with lemon."
-      },
-      "de": {
-        "text": "Ich hätte gerne ein Glas Soda mit Zitrone."
-      }
-    },
-    "wordIds": [
-      "20725"
-    ],
-    "sourceIndex": 10725
-  },
-  {
-    "id": "110726",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "On Sunday morning, I like to sleep in."
-      },
-      "de": {
-        "text": "Am Sonntagmorgen schlafe ich gerne lange."
-      }
-    },
-    "wordIds": [
-      "20726"
-    ],
-    "sourceIndex": 10726
   },
   {
     "id": "110729",
@@ -45280,23 +23412,6 @@ const phrasesDaily = [
     "sourceIndex": 10755
   },
   {
-    "id": "110756",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The hiking trail leads through a beautiful forest."
-      },
-      "de": {
-        "text": "Der Wanderweg führt durch einen schönen Wald."
-      }
-    },
-    "wordIds": [
-      "20756"
-    ],
-    "sourceIndex": 10756
-  },
-  {
     "id": "110757",
     "category": "daily",
     "level": "medium",
@@ -45331,23 +23446,6 @@ const phrasesDaily = [
     "sourceIndex": 10760
   },
   {
-    "id": "110763",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The crossing lasted three hours."
-      },
-      "de": {
-        "text": "Die Überfahrt dauerte drei Stunden."
-      }
-    },
-    "wordIds": [
-      "20763"
-    ],
-    "sourceIndex": 10763
-  },
-  {
     "id": "110769",
     "category": "daily",
     "level": "hard",
@@ -45363,40 +23461,6 @@ const phrasesDaily = [
       "20769"
     ],
     "sourceIndex": 10769
-  },
-  {
-    "id": "110772",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My grandmother lives in a nursing home."
-      },
-      "de": {
-        "text": "Meine Großmutter lebt in einem Altenheim."
-      }
-    },
-    "wordIds": [
-      "20772"
-    ],
-    "sourceIndex": 10772
-  },
-  {
-    "id": "110774",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I will inquire with customer service."
-      },
-      "de": {
-        "text": "Ich werde beim Kundendienst anfragen."
-      }
-    },
-    "wordIds": [
-      "20774"
-    ],
-    "sourceIndex": 10774
   },
   {
     "id": "110779",
@@ -45433,23 +23497,6 @@ const phrasesDaily = [
     "sourceIndex": 10781
   },
   {
-    "id": "110784",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I wish you a speedy recovery."
-      },
-      "de": {
-        "text": "Ich wünsche Ihnen eine baldige Genesung."
-      }
-    },
-    "wordIds": [
-      "20784"
-    ],
-    "sourceIndex": 10784
-  },
-  {
     "id": "110785",
     "category": "daily",
     "level": "hard",
@@ -45482,40 +23529,6 @@ const phrasesDaily = [
       "20798"
     ],
     "sourceIndex": 10798
-  },
-  {
-    "id": "110807",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please pay attention to the next announcement."
-      },
-      "de": {
-        "text": "Bitte achten Sie auf die nächste Durchsage."
-      }
-    },
-    "wordIds": [
-      "20807"
-    ],
-    "sourceIndex": 10807
-  },
-  {
-    "id": "110810",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He immersed himself in the cold water."
-      },
-      "de": {
-        "text": "Er tauchte in das kalte Wasser ein."
-      }
-    },
-    "wordIds": [
-      "20810"
-    ],
-    "sourceIndex": 10810
   },
   {
     "id": "110820",
@@ -45569,40 +23582,6 @@ const phrasesDaily = [
     "sourceIndex": 10834
   },
   {
-    "id": "110835",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The dog is waiting for its master."
-      },
-      "de": {
-        "text": "Der Hund wartet auf sein Herrchen."
-      }
-    },
-    "wordIds": [
-      "20835"
-    ],
-    "sourceIndex": 10835
-  },
-  {
-    "id": "110845",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She pulled the hood over her head."
-      },
-      "de": {
-        "text": "Sie zog die Kapuze über den Kopf."
-      }
-    },
-    "wordIds": [
-      "20845"
-    ],
-    "sourceIndex": 10845
-  },
-  {
     "id": "110847",
     "category": "daily",
     "level": "hard",
@@ -45618,23 +23597,6 @@ const phrasesDaily = [
       "20847"
     ],
     "sourceIndex": 10847
-  },
-  {
-    "id": "110850",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I like to eat fresh cherries in summer."
-      },
-      "de": {
-        "text": "Ich esse gerne frische Kirschen im Sommer."
-      }
-    },
-    "wordIds": [
-      "20850"
-    ],
-    "sourceIndex": 10850
   },
   {
     "id": "110854",
@@ -45756,23 +23718,6 @@ const phrasesDaily = [
     "sourceIndex": 10896
   },
   {
-    "id": "110910",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I forgot my appointment calendar."
-      },
-      "de": {
-        "text": "Ich habe meinen Terminkalender vergessen."
-      }
-    },
-    "wordIds": [
-      "20910"
-    ],
-    "sourceIndex": 10910
-  },
-  {
     "id": "110912",
     "category": "daily",
     "level": "hard",
@@ -45824,74 +23769,6 @@ const phrasesDaily = [
     "sourceIndex": 10919
   },
   {
-    "id": "110921",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I find his new colleague very unpleasant."
-      },
-      "de": {
-        "text": "Ich finde seinen neuen Kollegen sehr unsympathisch."
-      }
-    },
-    "wordIds": [
-      "20921"
-    ],
-    "sourceIndex": 10921
-  },
-  {
-    "id": "110929",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Children love to dress up."
-      },
-      "de": {
-        "text": "Kinder lieben es, sich zu verkleiden."
-      }
-    },
-    "wordIds": [
-      "20929"
-    ],
-    "sourceIndex": 10929
-  },
-  {
-    "id": "110934",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Christmas is a time of joy."
-      },
-      "de": {
-        "text": "Das Weihnachtsfest ist eine Zeit der Freude."
-      }
-    },
-    "wordIds": [
-      "20934"
-    ],
-    "sourceIndex": 10934
-  },
-  {
-    "id": "110936",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The commercial was broadcast during the news."
-      },
-      "de": {
-        "text": "Der Werbespot wurde während der Nachrichten ausgestrahlt."
-      }
-    },
-    "wordIds": [
-      "20936"
-    ],
-    "sourceIndex": 10936
-  },
-  {
     "id": "110937",
     "category": "daily",
     "level": "hard",
@@ -45924,40 +23801,6 @@ const phrasesDaily = [
       "20941"
     ],
     "sourceIndex": 10941
-  },
-  {
-    "id": "110956",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The host will announce the next artist."
-      },
-      "de": {
-        "text": "Der Moderator wird den nächsten Künstler ansagen."
-      }
-    },
-    "wordIds": [
-      "20956"
-    ],
-    "sourceIndex": 10956
-  },
-  {
-    "id": "110962",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "One should not laugh at anyone."
-      },
-      "de": {
-        "text": "Man sollte niemanden auslachen."
-      }
-    },
-    "wordIds": [
-      "20962"
-    ],
-    "sourceIndex": 10962
   },
   {
     "id": "110965",
@@ -46062,23 +23905,6 @@ const phrasesDaily = [
     "sourceIndex": 10983
   },
   {
-    "id": "110994",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I need to register for the course."
-      },
-      "de": {
-        "text": "Ich muss mich für den Kurs einschreiben."
-      }
-    },
-    "wordIds": [
-      "20994"
-    ],
-    "sourceIndex": 10994
-  },
-  {
     "id": "110999",
     "category": "daily",
     "level": "hard",
@@ -46111,23 +23937,6 @@ const phrasesDaily = [
       "21006"
     ],
     "sourceIndex": 11006
-  },
-  {
-    "id": "111007",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We are celebrating a big party on the weekend."
-      },
-      "de": {
-        "text": "Wir feiern eine große Fiesta am Wochenende."
-      }
-    },
-    "wordIds": [
-      "21007"
-    ],
-    "sourceIndex": 11007
   },
   {
     "id": "111010",
@@ -46198,23 +24007,6 @@ const phrasesDaily = [
     "sourceIndex": 11024
   },
   {
-    "id": "111030",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please note the shelf life date."
-      },
-      "de": {
-        "text": "Bitte beachten Sie das Datum der Haltbarkeit."
-      }
-    },
-    "wordIds": [
-      "21030"
-    ],
-    "sourceIndex": 11030
-  },
-  {
     "id": "111034",
     "category": "daily",
     "level": "hard",
@@ -46264,40 +24056,6 @@ const phrasesDaily = [
       "21060"
     ],
     "sourceIndex": 11060
-  },
-  {
-    "id": "111063",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "He rides his moped to work every day."
-      },
-      "de": {
-        "text": "Er fährt jeden Tag mit seinem Moped zur Arbeit."
-      }
-    },
-    "wordIds": [
-      "21063"
-    ],
-    "sourceIndex": 11063
-  },
-  {
-    "id": "111067",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "A noun is a word that names a person, place, or thing."
-      },
-      "de": {
-        "text": "Ein Nomen ist ein Wort, das eine Person, einen Ort oder eine Sache benennt."
-      }
-    },
-    "wordIds": [
-      "21067"
-    ],
-    "sourceIndex": 11067
   },
   {
     "id": "111072",
@@ -46368,23 +24126,6 @@ const phrasesDaily = [
     "sourceIndex": 11085
   },
   {
-    "id": "111097",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The professor's office hours are on Tuesday."
-      },
-      "de": {
-        "text": "Die Sprechstunde des Professors ist am Dienstag."
-      }
-    },
-    "wordIds": [
-      "21097"
-    ],
-    "sourceIndex": 11097
-  },
-  {
     "id": "111099",
     "category": "daily",
     "level": "hard",
@@ -46419,23 +24160,6 @@ const phrasesDaily = [
     "sourceIndex": 11106
   },
   {
-    "id": "111111",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "She has been married for ten years."
-      },
-      "de": {
-        "text": "Sie ist seit zehn Jahren verheiratet."
-      }
-    },
-    "wordIds": [
-      "21111"
-    ],
-    "sourceIndex": 11111
-  },
-  {
     "id": "111114",
     "category": "daily",
     "level": "hard",
@@ -46451,57 +24175,6 @@ const phrasesDaily = [
       "21114"
     ],
     "sourceIndex": 11114
-  },
-  {
-    "id": "111118",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "This is the penultimate page of the book."
-      },
-      "de": {
-        "text": "Das ist die vorletzte Seite des Buches."
-      }
-    },
-    "wordIds": [
-      "21118"
-    ],
-    "sourceIndex": 11118
-  },
-  {
-    "id": "111124",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The housing market in the city is very tight."
-      },
-      "de": {
-        "text": "Der Wohnungsmarkt in der Stadt ist sehr angespannt."
-      }
-    },
-    "wordIds": [
-      "21124"
-    ],
-    "sourceIndex": 11124
-  },
-  {
-    "id": "111127",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He looked back on his childhood."
-      },
-      "de": {
-        "text": "Er blickte auf seine Kindheit zurück."
-      }
-    },
-    "wordIds": [
-      "21127"
-    ],
-    "sourceIndex": 11127
   },
   {
     "id": "111142",
@@ -46538,23 +24211,6 @@ const phrasesDaily = [
     "sourceIndex": 11143
   },
   {
-    "id": "111157",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I have a booking for two nights."
-      },
-      "de": {
-        "text": "Ich habe eine Buchung für zwei Nächte."
-      }
-    },
-    "wordIds": [
-      "21157"
-    ],
-    "sourceIndex": 11157
-  },
-  {
     "id": "111158",
     "category": "daily",
     "level": "medium",
@@ -46570,57 +24226,6 @@ const phrasesDaily = [
       "21158"
     ],
     "sourceIndex": 11158
-  },
-  {
-    "id": "111162",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The weather is very depressing today."
-      },
-      "de": {
-        "text": "Das Wetter ist heute sehr deprimierend."
-      }
-    },
-    "wordIds": [
-      "21162"
-    ],
-    "sourceIndex": 11162
-  },
-  {
-    "id": "111168",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The average age of the population is rising."
-      },
-      "de": {
-        "text": "Das Durchschnittsalter der Bevölkerung steigt."
-      }
-    },
-    "wordIds": [
-      "21168"
-    ],
-    "sourceIndex": 11168
-  },
-  {
-    "id": "111179",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please warm up the soup."
-      },
-      "de": {
-        "text": "Bitte erwärmen Sie die Suppe."
-      }
-    },
-    "wordIds": [
-      "21179"
-    ],
-    "sourceIndex": 11179
   },
   {
     "id": "111180",
@@ -46655,23 +24260,6 @@ const phrasesDaily = [
       "21184"
     ],
     "sourceIndex": 11184
-  },
-  {
-    "id": "111185",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "My feet are freezing."
-      },
-      "de": {
-        "text": "Mir friert es an den Füßen."
-      }
-    },
-    "wordIds": [
-      "21185"
-    ],
-    "sourceIndex": 11185
   },
   {
     "id": "111200",
@@ -46742,57 +24330,6 @@ const phrasesDaily = [
     "sourceIndex": 11220
   },
   {
-    "id": "111224",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The air pressure is very low today."
-      },
-      "de": {
-        "text": "Der Luftdruck ist heute sehr niedrig."
-      }
-    },
-    "wordIds": [
-      "21224"
-    ],
-    "sourceIndex": 11224
-  },
-  {
-    "id": "111226",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "My guinea pig likes to eat carrots."
-      },
-      "de": {
-        "text": "Mein Meerschweinchen frisst gerne Karotten."
-      }
-    },
-    "wordIds": [
-      "21226"
-    ],
-    "sourceIndex": 11226
-  },
-  {
-    "id": "111232",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She loves to make music on the weekend."
-      },
-      "de": {
-        "text": "Sie liebt es, am Wochenende zu musizieren."
-      }
-    },
-    "wordIds": [
-      "21232"
-    ],
-    "sourceIndex": 11232
-  },
-  {
     "id": "111239",
     "category": "daily",
     "level": "medium",
@@ -46808,23 +24345,6 @@ const phrasesDaily = [
       "21239"
     ],
     "sourceIndex": 11239
-  },
-  {
-    "id": "111242",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The arrival time is 2 PM local time."
-      },
-      "de": {
-        "text": "Die Ankunftszeit ist 14 Uhr Ortszeit."
-      }
-    },
-    "wordIds": [
-      "21242"
-    ],
-    "sourceIndex": 11242
   },
   {
     "id": "111246",
@@ -46895,23 +24415,6 @@ const phrasesDaily = [
     "sourceIndex": 11270
   },
   {
-    "id": "111271",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She watches her favorite soap opera every evening."
-      },
-      "de": {
-        "text": "Sie schaut jeden Abend ihre Lieblings-Soap."
-      }
-    },
-    "wordIds": [
-      "21271"
-    ],
-    "sourceIndex": 11271
-  },
-  {
     "id": "111279",
     "category": "daily",
     "level": "hard",
@@ -46929,40 +24432,6 @@ const phrasesDaily = [
     "sourceIndex": 11279
   },
   {
-    "id": "111281",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We had to turn back because the road was closed."
-      },
-      "de": {
-        "text": "Wir mussten umkehren, weil die Straße gesperrt war."
-      }
-    },
-    "wordIds": [
-      "21281"
-    ],
-    "sourceIndex": 11281
-  },
-  {
-    "id": "111286",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We have our office in the basement."
-      },
-      "de": {
-        "text": "Wir haben unser Büro im Untergeschoss."
-      }
-    },
-    "wordIds": [
-      "21286"
-    ],
-    "sourceIndex": 11286
-  },
-  {
     "id": "111297",
     "category": "daily",
     "level": "hard",
@@ -46978,23 +24447,6 @@ const phrasesDaily = [
       "21297"
     ],
     "sourceIndex": 11297
-  },
-  {
-    "id": "111307",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "That was a magical evening."
-      },
-      "de": {
-        "text": "Das war ein zauberhafter Abend."
-      }
-    },
-    "wordIds": [
-      "21307"
-    ],
-    "sourceIndex": 11307
   },
   {
     "id": "111319",
@@ -47133,23 +24585,6 @@ const phrasesDaily = [
     "sourceIndex": 11378
   },
   {
-    "id": "111388",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The joke was really tasteless."
-      },
-      "de": {
-        "text": "Der Witz war wirklich geschmacklos."
-      }
-    },
-    "wordIds": [
-      "21388"
-    ],
-    "sourceIndex": 11388
-  },
-  {
     "id": "111400",
     "category": "daily",
     "level": "hard",
@@ -47165,40 +24600,6 @@ const phrasesDaily = [
       "21400"
     ],
     "sourceIndex": 11400
-  },
-  {
-    "id": "111409",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She likes to read illustrated magazines in her free time."
-      },
-      "de": {
-        "text": "Sie liest gerne Illustrierte in ihrer Freizeit."
-      }
-    },
-    "wordIds": [
-      "21409"
-    ],
-    "sourceIndex": 11409
-  },
-  {
-    "id": "111413",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He is an Iranian."
-      },
-      "de": {
-        "text": "Er ist ein Iraner."
-      }
-    },
-    "wordIds": [
-      "21413"
-    ],
-    "sourceIndex": 11413
   },
   {
     "id": "111419",
@@ -47233,40 +24634,6 @@ const phrasesDaily = [
       "21424"
     ],
     "sourceIndex": 11424
-  },
-  {
-    "id": "111426",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The old locomotive steamed through the landscape."
-      },
-      "de": {
-        "text": "Die alte Lokomotive dampfte durch die Landschaft."
-      }
-    },
-    "wordIds": [
-      "21426"
-    ],
-    "sourceIndex": 11426
-  },
-  {
-    "id": "111430",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We had a good meal together."
-      },
-      "de": {
-        "text": "Wir hatten ein gutes Mahl zusammen."
-      }
-    },
-    "wordIds": [
-      "21430"
-    ],
-    "sourceIndex": 11430
   },
   {
     "id": "111431",
@@ -47371,23 +24738,6 @@ const phrasesDaily = [
     "sourceIndex": 11448
   },
   {
-    "id": "111453",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The ambulance is on its way to the accident site."
-      },
-      "de": {
-        "text": "Der Rettungswagen ist auf dem Weg zum Unfallort."
-      }
-    },
-    "wordIds": [
-      "21453"
-    ],
-    "sourceIndex": 11453
-  },
-  {
     "id": "111457",
     "category": "daily",
     "level": "medium",
@@ -47454,40 +24804,6 @@ const phrasesDaily = [
       "21471"
     ],
     "sourceIndex": 11471
-  },
-  {
-    "id": "111481",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I found his number in the phone book."
-      },
-      "de": {
-        "text": "Ich habe seine Nummer im Telefonbuch gefunden."
-      }
-    },
-    "wordIds": [
-      "21481"
-    ],
-    "sourceIndex": 11481
-  },
-  {
-    "id": "111496",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We got lost in the forest."
-      },
-      "de": {
-        "text": "Wir haben uns im Wald verirrt."
-      }
-    },
-    "wordIds": [
-      "21496"
-    ],
-    "sourceIndex": 11496
   },
   {
     "id": "111506",
@@ -47575,57 +24891,6 @@ const phrasesDaily = [
     "sourceIndex": 11524
   },
   {
-    "id": "111530",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please notify me when you arrive."
-      },
-      "de": {
-        "text": "Bitte benachrichtigen Sie mich, wenn Sie ankommen."
-      }
-    },
-    "wordIds": [
-      "21530"
-    ],
-    "sourceIndex": 11530
-  },
-  {
-    "id": "111531",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "You need a certificate for the trip."
-      },
-      "de": {
-        "text": "Sie benötigen eine Bescheinigung für die Reise."
-      }
-    },
-    "wordIds": [
-      "21531"
-    ],
-    "sourceIndex": 11531
-  },
-  {
-    "id": "111542",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "This is an annual plant."
-      },
-      "de": {
-        "text": "Das ist eine einjährige Pflanze."
-      }
-    },
-    "wordIds": [
-      "21542"
-    ],
-    "sourceIndex": 11542
-  },
-  {
     "id": "111577",
     "category": "daily",
     "level": "hard",
@@ -47641,23 +24906,6 @@ const phrasesDaily = [
       "21577"
     ],
     "sourceIndex": 11577
-  },
-  {
-    "id": "111581",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My child goes to the daycare center."
-      },
-      "de": {
-        "text": "Mein Kind geht in die Kindertagesstätte."
-      }
-    },
-    "wordIds": [
-      "21581"
-    ],
-    "sourceIndex": 11581
   },
   {
     "id": "111594",
@@ -47694,23 +24942,6 @@ const phrasesDaily = [
     "sourceIndex": 11600
   },
   {
-    "id": "111606",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I bought my new tablet pad."
-      },
-      "de": {
-        "text": "Ich habe mein neues Tablet-Pad gekauft."
-      }
-    },
-    "wordIds": [
-      "21606"
-    ],
-    "sourceIndex": 11606
-  },
-  {
     "id": "111613",
     "category": "daily",
     "level": "hard",
@@ -47726,23 +24957,6 @@ const phrasesDaily = [
       "21613"
     ],
     "sourceIndex": 11613
-  },
-  {
-    "id": "111617",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Can you please look in quickly to see if the light is still on?"
-      },
-      "de": {
-        "text": "Kannst du bitte kurz reinschauen, ob das Licht noch brennt?"
-      }
-    },
-    "wordIds": [
-      "21617"
-    ],
-    "sourceIndex": 11617
   },
   {
     "id": "111618",
@@ -47779,23 +24993,6 @@ const phrasesDaily = [
     "sourceIndex": 11623
   },
   {
-    "id": "111631",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The word \"apple\" has two syllables."
-      },
-      "de": {
-        "text": "Das Wort \"Apfel\" hat zwei Silben."
-      }
-    },
-    "wordIds": [
-      "21631"
-    ],
-    "sourceIndex": 11631
-  },
-  {
     "id": "111643",
     "category": "daily",
     "level": "medium",
@@ -47811,23 +25008,6 @@ const phrasesDaily = [
       "21643"
     ],
     "sourceIndex": 11643
-  },
-  {
-    "id": "111645",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "You can observe the stars with the telescope."
-      },
-      "de": {
-        "text": "Mit dem Teleskop kann man die Sterne beobachten."
-      }
-    },
-    "wordIds": [
-      "21645"
-    ],
-    "sourceIndex": 11645
   },
   {
     "id": "111659",
@@ -47864,23 +25044,6 @@ const phrasesDaily = [
     "sourceIndex": 11663
   },
   {
-    "id": "111668",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She signed a two-year contract."
-      },
-      "de": {
-        "text": "Sie hat einen zweijährigen Vertrag unterschrieben."
-      }
-    },
-    "wordIds": [
-      "21668"
-    ],
-    "sourceIndex": 11668
-  },
-  {
     "id": "111674",
     "category": "daily",
     "level": "hard",
@@ -47898,23 +25061,6 @@ const phrasesDaily = [
     "sourceIndex": 11674
   },
   {
-    "id": "111677",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "My colleague often helps me."
-      },
-      "de": {
-        "text": "Mein Arbeitskollege hilft mir oft."
-      }
-    },
-    "wordIds": [
-      "21677"
-    ],
-    "sourceIndex": 11677
-  },
-  {
     "id": "111686",
     "category": "daily",
     "level": "hard",
@@ -47930,23 +25076,6 @@ const phrasesDaily = [
       "21686"
     ],
     "sourceIndex": 11686
-  },
-  {
-    "id": "111689",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please put the cutlery on the table."
-      },
-      "de": {
-        "text": "Bitte legen Sie das Besteck auf den Tisch."
-      }
-    },
-    "wordIds": [
-      "21689"
-    ],
-    "sourceIndex": 11689
   },
   {
     "id": "111697",
@@ -47983,40 +25112,6 @@ const phrasesDaily = [
     "sourceIndex": 11706
   },
   {
-    "id": "111713",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "He hit his elbow on the table."
-      },
-      "de": {
-        "text": "Er stieß sich den Ellbogen am Tisch."
-      }
-    },
-    "wordIds": [
-      "21713"
-    ],
-    "sourceIndex": 11713
-  },
-  {
-    "id": "111716",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My sister works as a kindergarten teacher."
-      },
-      "de": {
-        "text": "Meine Schwester arbeitet als Erzieherin im Kindergarten."
-      }
-    },
-    "wordIds": [
-      "21716"
-    ],
-    "sourceIndex": 11716
-  },
-  {
     "id": "111718",
     "category": "daily",
     "level": "hard",
@@ -48032,23 +25127,6 @@ const phrasesDaily = [
       "21718"
     ],
     "sourceIndex": 11718
-  },
-  {
-    "id": "111721",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The hat is made of felt."
-      },
-      "de": {
-        "text": "Der Hut ist aus Filz gemacht."
-      }
-    },
-    "wordIds": [
-      "21721"
-    ],
-    "sourceIndex": 11721
   },
   {
     "id": "111726",
@@ -48083,40 +25161,6 @@ const phrasesDaily = [
       "21734"
     ],
     "sourceIndex": 11734
-  },
-  {
-    "id": "111735",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He had no groschen left in his pocket."
-      },
-      "de": {
-        "text": "Er hatte keinen Groschen mehr in der Tasche."
-      }
-    },
-    "wordIds": [
-      "21735"
-    ],
-    "sourceIndex": 11735
-  },
-  {
-    "id": "111736",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please fasten your seatbelt."
-      },
-      "de": {
-        "text": "Bitte legen Sie den Sicherheitsgurt an."
-      }
-    },
-    "wordIds": [
-      "21736"
-    ],
-    "sourceIndex": 11736
   },
   {
     "id": "111739",
@@ -48204,40 +25248,6 @@ const phrasesDaily = [
     "sourceIndex": 11758
   },
   {
-    "id": "111761",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "His life situation has greatly improved."
-      },
-      "de": {
-        "text": "Seine Lebenssituation hat sich stark verbessert."
-      }
-    },
-    "wordIds": [
-      "21761"
-    ],
-    "sourceIndex": 11761
-  },
-  {
-    "id": "111770",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I like to eat carrots."
-      },
-      "de": {
-        "text": "Ich esse gerne Möhren."
-      }
-    },
-    "wordIds": [
-      "21770"
-    ],
-    "sourceIndex": 11770
-  },
-  {
     "id": "111773",
     "category": "daily",
     "level": "hard",
@@ -48253,23 +25263,6 @@ const phrasesDaily = [
       "21773"
     ],
     "sourceIndex": 11773
-  },
-  {
-    "id": "111775",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The next Olympiad will take place in four years."
-      },
-      "de": {
-        "text": "Die nächste Olympiade findet in vier Jahren statt."
-      }
-    },
-    "wordIds": [
-      "21775"
-    ],
-    "sourceIndex": 11775
   },
   {
     "id": "111785",
@@ -48289,40 +25282,6 @@ const phrasesDaily = [
     "sourceIndex": 11785
   },
   {
-    "id": "111797",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He has to shovel the snow off the path."
-      },
-      "de": {
-        "text": "Er muss den Schnee vom Weg schaufeln."
-      }
-    },
-    "wordIds": [
-      "21797"
-    ],
-    "sourceIndex": 11797
-  },
-  {
-    "id": "111799",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Smoke rises from the chimney."
-      },
-      "de": {
-        "text": "Rauch steigt aus dem Schornstein auf."
-      }
-    },
-    "wordIds": [
-      "21799"
-    ],
-    "sourceIndex": 11799
-  },
-  {
     "id": "111803",
     "category": "daily",
     "level": "hard",
@@ -48338,40 +25297,6 @@ const phrasesDaily = [
       "21803"
     ],
     "sourceIndex": 11803
-  },
-  {
-    "id": "111814",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The infant slept peacefully in its crib."
-      },
-      "de": {
-        "text": "Der Säugling schlief friedlich in seinem Bettchen."
-      }
-    },
-    "wordIds": [
-      "21814"
-    ],
-    "sourceIndex": 11814
-  },
-  {
-    "id": "111820",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Can you please switch to another channel?"
-      },
-      "de": {
-        "text": "Kannst du bitte auf einen anderen Kanal umschalten?"
-      }
-    },
-    "wordIds": [
-      "21820"
-    ],
-    "sourceIndex": 11820
   },
   {
     "id": "111837",
@@ -48408,57 +25333,6 @@ const phrasesDaily = [
     "sourceIndex": 11842
   },
   {
-    "id": "111850",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The collection of the goods is possible tomorrow."
-      },
-      "de": {
-        "text": "Die Abholung der Ware ist morgen möglich."
-      }
-    },
-    "wordIds": [
-      "21850"
-    ],
-    "sourceIndex": 11850
-  },
-  {
-    "id": "111852",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The children love their Advent calendar."
-      },
-      "de": {
-        "text": "Die Kinder lieben ihren Adventskalender."
-      }
-    },
-    "wordIds": [
-      "21852"
-    ],
-    "sourceIndex": 11852
-  },
-  {
-    "id": "111875",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The detective solved the case quickly."
-      },
-      "de": {
-        "text": "Der Detective löste den Fall schnell."
-      }
-    },
-    "wordIds": [
-      "21875"
-    ],
-    "sourceIndex": 11875
-  },
-  {
     "id": "111886",
     "category": "daily",
     "level": "hard",
@@ -48491,23 +25365,6 @@ const phrasesDaily = [
       "21889"
     ],
     "sourceIndex": 11889
-  },
-  {
-    "id": "111891",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Women's football is becoming more and more popular."
-      },
-      "de": {
-        "text": "Frauenfussball wird immer populärer."
-      }
-    },
-    "wordIds": [
-      "21891"
-    ],
-    "sourceIndex": 11891
   },
   {
     "id": "111895",
@@ -48544,23 +25401,6 @@ const phrasesDaily = [
     "sourceIndex": 11898
   },
   {
-    "id": "111899",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "She wraps the baby in a blanket."
-      },
-      "de": {
-        "text": "Sie wickelt das Baby in eine Decke."
-      }
-    },
-    "wordIds": [
-      "21899"
-    ],
-    "sourceIndex": 11899
-  },
-  {
     "id": "111900",
     "category": "daily",
     "level": "hard",
@@ -48593,23 +25433,6 @@ const phrasesDaily = [
       "21904"
     ],
     "sourceIndex": 11904
-  },
-  {
-    "id": "111907",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The children run around in the garden."
-      },
-      "de": {
-        "text": "Die Kinder laufen im Garten herum."
-      }
-    },
-    "wordIds": [
-      "21907"
-    ],
-    "sourceIndex": 11907
   },
   {
     "id": "111912",
@@ -48663,23 +25486,6 @@ const phrasesDaily = [
     "sourceIndex": 11939
   },
   {
-    "id": "111951",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My heart was pounding with excitement."
-      },
-      "de": {
-        "text": "Mein Herz pochte vor Aufregung."
-      }
-    },
-    "wordIds": [
-      "21951"
-    ],
-    "sourceIndex": 11951
-  },
-  {
     "id": "111953",
     "category": "daily",
     "level": "hard",
@@ -48695,23 +25501,6 @@ const phrasesDaily = [
       "21953"
     ],
     "sourceIndex": 11953
-  },
-  {
-    "id": "111961",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Every household should have a smoke detector."
-      },
-      "de": {
-        "text": "Jeder Haushalt sollte einen Rauchmelder haben."
-      }
-    },
-    "wordIds": [
-      "21961"
-    ],
-    "sourceIndex": 11961
   },
   {
     "id": "111962",
@@ -48763,23 +25552,6 @@ const phrasesDaily = [
       "21966"
     ],
     "sourceIndex": 11966
-  },
-  {
-    "id": "111973",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Our school class went on a trip."
-      },
-      "de": {
-        "text": "Unsere Schulklasse hat einen Ausflug gemacht."
-      }
-    },
-    "wordIds": [
-      "21973"
-    ],
-    "sourceIndex": 11973
   },
   {
     "id": "111974",
@@ -48901,74 +25673,6 @@ const phrasesDaily = [
     "sourceIndex": 12001
   },
   {
-    "id": "112003",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The weather was very unpleasant today."
-      },
-      "de": {
-        "text": "Das Wetter war heute sehr ungemütlich."
-      }
-    },
-    "wordIds": [
-      "22003"
-    ],
-    "sourceIndex": 12003
-  },
-  {
-    "id": "112013",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We want to travel next year."
-      },
-      "de": {
-        "text": "Wir wollen nächstes Jahr verreisen."
-      }
-    },
-    "wordIds": [
-      "22013"
-    ],
-    "sourceIndex": 12013
-  },
-  {
-    "id": "112019",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We have to drive on now."
-      },
-      "de": {
-        "text": "Wir müssen jetzt weiterfahren."
-      }
-    },
-    "wordIds": [
-      "22019"
-    ],
-    "sourceIndex": 12019
-  },
-  {
-    "id": "112020",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Despite the difficulties, one must continue living."
-      },
-      "de": {
-        "text": "Trotz der Schwierigkeiten muss man weiterleben."
-      }
-    },
-    "wordIds": [
-      "22020"
-    ],
-    "sourceIndex": 12020
-  },
-  {
     "id": "112026",
     "category": "daily",
     "level": "hard",
@@ -49035,23 +25739,6 @@ const phrasesDaily = [
       "22038"
     ],
     "sourceIndex": 12038
-  },
-  {
-    "id": "112045",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The new railway line will open soon."
-      },
-      "de": {
-        "text": "Die neue Bahnlinie wird bald eröffnet."
-      }
-    },
-    "wordIds": [
-      "22045"
-    ],
-    "sourceIndex": 12045
   },
   {
     "id": "112050",
@@ -49156,40 +25843,6 @@ const phrasesDaily = [
     "sourceIndex": 12098
   },
   {
-    "id": "112102",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "How can I get there?"
-      },
-      "de": {
-        "text": "Wie kann ich dorthin hinkommen?"
-      }
-    },
-    "wordIds": [
-      "22102"
-    ],
-    "sourceIndex": 12102
-  },
-  {
-    "id": "112140",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The wind comes from the northeast."
-      },
-      "de": {
-        "text": "Der Wind kommt aus Nordost."
-      }
-    },
-    "wordIds": [
-      "22140"
-    ],
-    "sourceIndex": 12140
-  },
-  {
     "id": "112160",
     "category": "daily",
     "level": "hard",
@@ -49205,23 +25858,6 @@ const phrasesDaily = [
       "22160"
     ],
     "sourceIndex": 12160
-  },
-  {
-    "id": "112171",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My next shift starts at 8 o'clock."
-      },
-      "de": {
-        "text": "Meine nächste Shift beginnt um 8 Uhr."
-      }
-    },
-    "wordIds": [
-      "22171"
-    ],
-    "sourceIndex": 12171
   },
   {
     "id": "112182",
@@ -49256,40 +25892,6 @@ const phrasesDaily = [
       "22195"
     ],
     "sourceIndex": 12195
-  },
-  {
-    "id": "112210",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We waited a long time in the doctor's waiting room."
-      },
-      "de": {
-        "text": "Wir warteten lange im Wartezimmer des Arztes."
-      }
-    },
-    "wordIds": [
-      "22210"
-    ],
-    "sourceIndex": 12210
-  },
-  {
-    "id": "112214",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The children were fascinated by the magic."
-      },
-      "de": {
-        "text": "Die Kinder waren fasziniert von der Zauberei."
-      }
-    },
-    "wordIds": [
-      "22214"
-    ],
-    "sourceIndex": 12214
   },
   {
     "id": "112237",
@@ -49411,23 +26013,6 @@ const phrasesDaily = [
     "sourceIndex": 12259
   },
   {
-    "id": "112263",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She is a very ambitious student."
-      },
-      "de": {
-        "text": "Sie ist eine sehr ehrgeizige Studentin."
-      }
-    },
-    "wordIds": [
-      "22263"
-    ],
-    "sourceIndex": 12263
-  },
-  {
     "id": "112265",
     "category": "daily",
     "level": "hard",
@@ -49443,23 +26028,6 @@ const phrasesDaily = [
       "22265"
     ],
     "sourceIndex": 12265
-  },
-  {
-    "id": "112275",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "All family members came to the meeting."
-      },
-      "de": {
-        "text": "Alle Familienangehörigen kamen zum Treffen."
-      }
-    },
-    "wordIds": [
-      "22275"
-    ],
-    "sourceIndex": 12275
   },
   {
     "id": "112276",
@@ -49513,40 +26081,6 @@ const phrasesDaily = [
     "sourceIndex": 12298
   },
   {
-    "id": "112299",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The jumbo jet landed on time."
-      },
-      "de": {
-        "text": "Der Jumbo-Jet landete pünktlich."
-      }
-    },
-    "wordIds": [
-      "22299"
-    ],
-    "sourceIndex": 12299
-  },
-  {
-    "id": "112304",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I wear contact lenses instead of glasses."
-      },
-      "de": {
-        "text": "Ich trage Kontaktlinsen statt einer Brille."
-      }
-    },
-    "wordIds": [
-      "22304"
-    ],
-    "sourceIndex": 12304
-  },
-  {
     "id": "112309",
     "category": "daily",
     "level": "medium",
@@ -49562,23 +26096,6 @@ const phrasesDaily = [
       "22309"
     ],
     "sourceIndex": 12309
-  },
-  {
-    "id": "112310",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "You need brains to solve this riddle."
-      },
-      "de": {
-        "text": "Man braucht Köpfchen, um dieses Rätsel zu lösen."
-      }
-    },
-    "wordIds": [
-      "22310"
-    ],
-    "sourceIndex": 12310
   },
   {
     "id": "112312",
@@ -49681,23 +26198,6 @@ const phrasesDaily = [
       "22343"
     ],
     "sourceIndex": 12343
-  },
-  {
-    "id": "112344",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She loves the Black Forest ham."
-      },
-      "de": {
-        "text": "Sie liebt den schwarzwälder Schinken."
-      }
-    },
-    "wordIds": [
-      "22344"
-    ],
-    "sourceIndex": 12344
   },
   {
     "id": "112347",
@@ -49819,23 +26319,6 @@ const phrasesDaily = [
     "sourceIndex": 12388
   },
   {
-    "id": "112397",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I have a subscription for this magazine."
-      },
-      "de": {
-        "text": "Ich habe ein Abonnement für diese Zeitschrift."
-      }
-    },
-    "wordIds": [
-      "22397"
-    ],
-    "sourceIndex": 12397
-  },
-  {
     "id": "112399",
     "category": "daily",
     "level": "hard",
@@ -49955,23 +26438,6 @@ const phrasesDaily = [
     "sourceIndex": 12462
   },
   {
-    "id": "112475",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Our main goal is to increase customer satisfaction."
-      },
-      "de": {
-        "text": "Unser Hauptziel ist es, die Kundenzufriedenheit zu erhöhen."
-      }
-    },
-    "wordIds": [
-      "22475"
-    ],
-    "sourceIndex": 12475
-  },
-  {
     "id": "112476",
     "category": "daily",
     "level": "hard",
@@ -50006,57 +26472,6 @@ const phrasesDaily = [
     "sourceIndex": 12484
   },
   {
-    "id": "112499",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We always eat gingerbread for Christmas."
-      },
-      "de": {
-        "text": "Zu Weihnachten essen wir immer Lebkuchen."
-      }
-    },
-    "wordIds": [
-      "22499"
-    ],
-    "sourceIndex": 12499
-  },
-  {
-    "id": "112503",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please put the documents in the folder."
-      },
-      "de": {
-        "text": "Bitte legen Sie die Dokumente in die Mappe."
-      }
-    },
-    "wordIds": [
-      "22503"
-    ],
-    "sourceIndex": 12503
-  },
-  {
-    "id": "112507",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "With the microscope, one can see very small things."
-      },
-      "de": {
-        "text": "Mit dem Mikroskop kann man sehr kleine Dinge sehen."
-      }
-    },
-    "wordIds": [
-      "22507"
-    ],
-    "sourceIndex": 12507
-  },
-  {
     "id": "112512",
     "category": "daily",
     "level": "medium",
@@ -50089,40 +26504,6 @@ const phrasesDaily = [
       "22514"
     ],
     "sourceIndex": 12514
-  },
-  {
-    "id": "112515",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The new customer was very satisfied with our service."
-      },
-      "de": {
-        "text": "Der Neukunde war sehr zufrieden mit unserem Service."
-      }
-    },
-    "wordIds": [
-      "22515"
-    ],
-    "sourceIndex": 12515
-  },
-  {
-    "id": "112519",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The house is located north-west of the lake."
-      },
-      "de": {
-        "text": "Das Haus liegt nordwestlich des Sees."
-      }
-    },
-    "wordIds": [
-      "22519"
-    ],
-    "sourceIndex": 12519
   },
   {
     "id": "112521",
@@ -50193,40 +26574,6 @@ const phrasesDaily = [
     "sourceIndex": 12545
   },
   {
-    "id": "112557",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The number of participants for the course is limited."
-      },
-      "de": {
-        "text": "Die Teilnehmerzahl für den Kurs ist begrenzt."
-      }
-    },
-    "wordIds": [
-      "22557"
-    ],
-    "sourceIndex": 12557
-  },
-  {
-    "id": "112559",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The cover image of the book is very appealing."
-      },
-      "de": {
-        "text": "Das Titelbild des Buches ist sehr ansprechend."
-      }
-    },
-    "wordIds": [
-      "22559"
-    ],
-    "sourceIndex": 12559
-  },
-  {
     "id": "112562",
     "category": "daily",
     "level": "hard",
@@ -50259,23 +26606,6 @@ const phrasesDaily = [
       "22564"
     ],
     "sourceIndex": 12564
-  },
-  {
-    "id": "112574",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The dog wanted to run away."
-      },
-      "de": {
-        "text": "Der Hund wollte weglaufen."
-      }
-    },
-    "wordIds": [
-      "22574"
-    ],
-    "sourceIndex": 12574
   },
   {
     "id": "112580",
@@ -50329,23 +26659,6 @@ const phrasesDaily = [
     "sourceIndex": 12595
   },
   {
-    "id": "112596",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The alarm system went off in the middle of the night."
-      },
-      "de": {
-        "text": "Die Alarmanlage ging mitten in der Nacht los."
-      }
-    },
-    "wordIds": [
-      "22596"
-    ],
-    "sourceIndex": 12596
-  },
-  {
     "id": "112614",
     "category": "daily",
     "level": "medium",
@@ -50361,57 +26674,6 @@ const phrasesDaily = [
       "22614"
     ],
     "sourceIndex": 12614
-  },
-  {
-    "id": "112617",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The old castle was well fortified."
-      },
-      "de": {
-        "text": "Die alte Burg war gut befestigt."
-      }
-    },
-    "wordIds": [
-      "22617"
-    ],
-    "sourceIndex": 12617
-  },
-  {
-    "id": "112621",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The little flower on the table is very beautiful."
-      },
-      "de": {
-        "text": "Das Blümchen auf dem Tisch ist sehr schön."
-      }
-    },
-    "wordIds": [
-      "22621"
-    ],
-    "sourceIndex": 12621
-  },
-  {
-    "id": "112625",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He is a Bulgarian."
-      },
-      "de": {
-        "text": "Er ist ein Bulgare."
-      }
-    },
-    "wordIds": [
-      "22625"
-    ],
-    "sourceIndex": 12625
   },
   {
     "id": "112633",
@@ -50431,23 +26693,6 @@ const phrasesDaily = [
     "sourceIndex": 12633
   },
   {
-    "id": "112650",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "A warm bath is very relaxing."
-      },
-      "de": {
-        "text": "Ein warmes Bad ist sehr entspannend."
-      }
-    },
-    "wordIds": [
-      "22650"
-    ],
-    "sourceIndex": 12650
-  },
-  {
     "id": "112660",
     "category": "daily",
     "level": "hard",
@@ -50465,23 +26710,6 @@ const phrasesDaily = [
     "sourceIndex": 12660
   },
   {
-    "id": "112663",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The house construction took one year."
-      },
-      "de": {
-        "text": "Der Hausbau dauerte ein Jahr."
-      }
-    },
-    "wordIds": [
-      "22663"
-    ],
-    "sourceIndex": 12663
-  },
-  {
     "id": "112670",
     "category": "daily",
     "level": "hard",
@@ -50497,23 +26725,6 @@ const phrasesDaily = [
       "22670"
     ],
     "sourceIndex": 12670
-  },
-  {
-    "id": "112676",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "He is a Korean."
-      },
-      "de": {
-        "text": "Er ist ein Koreaner."
-      }
-    },
-    "wordIds": [
-      "22676"
-    ],
-    "sourceIndex": 12676
   },
   {
     "id": "112678",
@@ -50584,23 +26795,6 @@ const phrasesDaily = [
     "sourceIndex": 12707
   },
   {
-    "id": "112710",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Everywhere you see advertisements for new products."
-      },
-      "de": {
-        "text": "Überall sieht man Reklame für neue Produkte."
-      }
-    },
-    "wordIds": [
-      "22710"
-    ],
-    "sourceIndex": 12710
-  },
-  {
     "id": "112716",
     "category": "daily",
     "level": "medium",
@@ -50633,74 +26827,6 @@ const phrasesDaily = [
       "22721"
     ],
     "sourceIndex": 12721
-  },
-  {
-    "id": "112722",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The degree of difficulty of this task is high."
-      },
-      "de": {
-        "text": "Der Schwierigkeitsgrad dieser Aufgabe ist hoch."
-      }
-    },
-    "wordIds": [
-      "22722"
-    ],
-    "sourceIndex": 12722
-  },
-  {
-    "id": "112724",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I need to scroll down to see the whole text."
-      },
-      "de": {
-        "text": "Ich muss nach unten scrollen, um den ganzen Text zu sehen."
-      }
-    },
-    "wordIds": [
-      "22724"
-    ],
-    "sourceIndex": 12724
-  },
-  {
-    "id": "112725",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The mountaineers had to abseil."
-      },
-      "de": {
-        "text": "Die Bergsteiger mussten sich abseilen."
-      }
-    },
-    "wordIds": [
-      "22725"
-    ],
-    "sourceIndex": 12725
-  },
-  {
-    "id": "112727",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The author will sign his new book."
-      },
-      "de": {
-        "text": "Der Autor wird sein neues Buch signieren."
-      }
-    },
-    "wordIds": [
-      "22727"
-    ],
-    "sourceIndex": 12727
   },
   {
     "id": "112729",
@@ -50754,23 +26880,6 @@ const phrasesDaily = [
     "sourceIndex": 12736
   },
   {
-    "id": "112740",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The wind comes from the southeast."
-      },
-      "de": {
-        "text": "Der Wind kommt aus Südost."
-      }
-    },
-    "wordIds": [
-      "22740"
-    ],
-    "sourceIndex": 12740
-  },
-  {
     "id": "112741",
     "category": "daily",
     "level": "hard",
@@ -50805,57 +26914,6 @@ const phrasesDaily = [
     "sourceIndex": 12768
   },
   {
-    "id": "112784",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "On the one hand it's expensive, on the other hand it's very practical."
-      },
-      "de": {
-        "text": "Einerseits ist es teuer, anderseits ist es sehr praktisch."
-      }
-    },
-    "wordIds": [
-      "22784"
-    ],
-    "sourceIndex": 12784
-  },
-  {
-    "id": "112789",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "They rented a small apartment in the city."
-      },
-      "de": {
-        "text": "Sie mieteten ein kleines Appartement in der Stadt."
-      }
-    },
-    "wordIds": [
-      "22789"
-    ],
-    "sourceIndex": 12789
-  },
-  {
-    "id": "112792",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "In any case, we still need to discuss that."
-      },
-      "de": {
-        "text": "Aufjedenfall müssen wir das noch besprechen."
-      }
-    },
-    "wordIds": [
-      "22792"
-    ],
-    "sourceIndex": 12792
-  },
-  {
     "id": "112796",
     "category": "daily",
     "level": "hard",
@@ -50888,40 +26946,6 @@ const phrasesDaily = [
       "22800"
     ],
     "sourceIndex": 12800
-  },
-  {
-    "id": "112802",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Rents in this city are hardly affordable anymore."
-      },
-      "de": {
-        "text": "Die Mieten in dieser Stadt sind kaum noch bezahlbar."
-      }
-    },
-    "wordIds": [
-      "22802"
-    ],
-    "sourceIndex": 12802
-  },
-  {
-    "id": "112806",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I lost my wallet."
-      },
-      "de": {
-        "text": "Ich habe meine Brieftasche verloren."
-      }
-    },
-    "wordIds": [
-      "22806"
-    ],
-    "sourceIndex": 12806
   },
   {
     "id": "112807",
@@ -51009,40 +27033,6 @@ const phrasesDaily = [
     "sourceIndex": 12821
   },
   {
-    "id": "112830",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The rim of the bicycle is bent."
-      },
-      "de": {
-        "text": "Die Felge des Fahrrads ist verbogen."
-      }
-    },
-    "wordIds": [
-      "22830"
-    ],
-    "sourceIndex": 12830
-  },
-  {
-    "id": "112833",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I have a flat rate for my mobile phone."
-      },
-      "de": {
-        "text": "Ich habe eine Flatrate für mein Handy."
-      }
-    },
-    "wordIds": [
-      "22833"
-    ],
-    "sourceIndex": 12833
-  },
-  {
     "id": "112838",
     "category": "daily",
     "level": "medium",
@@ -51075,23 +27065,6 @@ const phrasesDaily = [
       "22841"
     ],
     "sourceIndex": 12841
-  },
-  {
-    "id": "112842",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The ant has two antennae."
-      },
-      "de": {
-        "text": "Die Ameise hat zwei Fühler."
-      }
-    },
-    "wordIds": [
-      "22842"
-    ],
-    "sourceIndex": 12842
   },
   {
     "id": "112862",
@@ -51179,57 +27152,6 @@ const phrasesDaily = [
     "sourceIndex": 12892
   },
   {
-    "id": "112897",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I still need to sleep a bit."
-      },
-      "de": {
-        "text": "Ich muss noch ein bisschen pennen."
-      }
-    },
-    "wordIds": [
-      "22897"
-    ],
-    "sourceIndex": 12897
-  },
-  {
-    "id": "112898",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We met in the piazza."
-      },
-      "de": {
-        "text": "Wir trafen uns auf der Piazza."
-      }
-    },
-    "wordIds": [
-      "22898"
-    ],
-    "sourceIndex": 12898
-  },
-  {
-    "id": "112899",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "He ordered a cold pilsner."
-      },
-      "de": {
-        "text": "Er bestellte ein kühles Pils."
-      }
-    },
-    "wordIds": [
-      "22899"
-    ],
-    "sourceIndex": 12899
-  },
-  {
     "id": "112901",
     "category": "daily",
     "level": "hard",
@@ -51315,40 +27237,6 @@ const phrasesDaily = [
     "sourceIndex": 12922
   },
   {
-    "id": "112938",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Do you have accident insurance?"
-      },
-      "de": {
-        "text": "Hast du eine Unfallversicherung?"
-      }
-    },
-    "wordIds": [
-      "22938"
-    ],
-    "sourceIndex": 12938
-  },
-  {
-    "id": "112953",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The front garden is full of flowers."
-      },
-      "de": {
-        "text": "Der Vorgarten ist voller Blumen."
-      }
-    },
-    "wordIds": [
-      "22953"
-    ],
-    "sourceIndex": 12953
-  },
-  {
     "id": "112958",
     "category": "daily",
     "level": "hard",
@@ -51364,91 +27252,6 @@ const phrasesDaily = [
       "22958"
     ],
     "sourceIndex": 12958
-  },
-  {
-    "id": "112960",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The landlady greeted us warmly."
-      },
-      "de": {
-        "text": "Die Wirtin begrüßte uns herzlich."
-      }
-    },
-    "wordIds": [
-      "22960"
-    ],
-    "sourceIndex": 12960
-  },
-  {
-    "id": "112961",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My feet are sore from long walking."
-      },
-      "de": {
-        "text": "Meine Füße sind wund vom langen Gehen."
-      }
-    },
-    "wordIds": [
-      "22961"
-    ],
-    "sourceIndex": 12961
-  },
-  {
-    "id": "112974",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The guests will arrive tomorrow."
-      },
-      "de": {
-        "text": "Die Gäste werden morgen anreisen."
-      }
-    },
-    "wordIds": [
-      "22974"
-    ],
-    "sourceIndex": 12974
-  },
-  {
-    "id": "112976",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We had to make a down payment for the car."
-      },
-      "de": {
-        "text": "Wir mussten eine Anzahlung für das Auto leisten."
-      }
-    },
-    "wordIds": [
-      "22976"
-    ],
-    "sourceIndex": 12976
-  },
-  {
-    "id": "113003",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "In German, there are four cases: nominative, genitive, dative, and accusative."
-      },
-      "de": {
-        "text": "Im Deutschen gibt es vier Fälle: Nominativ, Genitiv, Dativ und Akkusativ."
-      }
-    },
-    "wordIds": [
-      "23003"
-    ],
-    "sourceIndex": 13003
   },
   {
     "id": "113012",
@@ -51485,57 +27288,6 @@ const phrasesDaily = [
     "sourceIndex": 13021
   },
   {
-    "id": "113040",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The main topic of the book is love."
-      },
-      "de": {
-        "text": "Das Hauptthema des Buches ist die Liebe."
-      }
-    },
-    "wordIds": [
-      "23040"
-    ],
-    "sourceIndex": 13040
-  },
-  {
-    "id": "113042",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "That is a very hip cafe."
-      },
-      "de": {
-        "text": "Das ist ein sehr hippes Café."
-      }
-    },
-    "wordIds": [
-      "23042"
-    ],
-    "sourceIndex": 13042
-  },
-  {
-    "id": "113049",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He is an Iraqi."
-      },
-      "de": {
-        "text": "Er ist ein Iraker."
-      }
-    },
-    "wordIds": [
-      "23049"
-    ],
-    "sourceIndex": 13049
-  },
-  {
     "id": "113054",
     "category": "daily",
     "level": "hard",
@@ -51551,23 +27303,6 @@ const phrasesDaily = [
       "23054"
     ],
     "sourceIndex": 13054
-  },
-  {
-    "id": "113062",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Every body part has a function."
-      },
-      "de": {
-        "text": "Jeder Körperteil hat eine Funktion."
-      }
-    },
-    "wordIds": [
-      "23062"
-    ],
-    "sourceIndex": 13062
   },
   {
     "id": "113065",
@@ -51791,57 +27526,6 @@ const phrasesDaily = [
     "sourceIndex": 13142
   },
   {
-    "id": "113155",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I have to send off the package today."
-      },
-      "de": {
-        "text": "Ich muss das Paket heute abschicken."
-      }
-    },
-    "wordIds": [
-      "23155"
-    ],
-    "sourceIndex": 13155
-  },
-  {
-    "id": "113165",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The print on the T-shirt is very nice."
-      },
-      "de": {
-        "text": "Der Aufdruck auf dem T-Shirt ist sehr schön."
-      }
-    },
-    "wordIds": [
-      "23165"
-    ],
-    "sourceIndex": 13165
-  },
-  {
-    "id": "113172",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The car ride lasted three hours."
-      },
-      "de": {
-        "text": "Die Autofahrt dauerte drei Stunden."
-      }
-    },
-    "wordIds": [
-      "23172"
-    ],
-    "sourceIndex": 13172
-  },
-  {
     "id": "113178",
     "category": "daily",
     "level": "hard",
@@ -51857,40 +27541,6 @@ const phrasesDaily = [
       "23178"
     ],
     "sourceIndex": 13178
-  },
-  {
-    "id": "113194",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The cutter is very sharp."
-      },
-      "de": {
-        "text": "Der Cutter ist sehr scharf."
-      }
-    },
-    "wordIds": [
-      "23194"
-    ],
-    "sourceIndex": 13194
-  },
-  {
-    "id": "113201",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "At ebb tide, you can walk on the beach."
-      },
-      "de": {
-        "text": "Bei Ebbe kann man am Strand spazieren gehen."
-      }
-    },
-    "wordIds": [
-      "23201"
-    ],
-    "sourceIndex": 13201
   },
   {
     "id": "113212",
@@ -51944,23 +27594,6 @@ const phrasesDaily = [
     "sourceIndex": 13215
   },
   {
-    "id": "113236",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Her natural hair color is blonde."
-      },
-      "de": {
-        "text": "Ihre natürliche Haarfarbe ist blond."
-      }
-    },
-    "wordIds": [
-      "23236"
-    ],
-    "sourceIndex": 13236
-  },
-  {
     "id": "113249",
     "category": "daily",
     "level": "medium",
@@ -52012,23 +27645,6 @@ const phrasesDaily = [
     "sourceIndex": 13253
   },
   {
-    "id": "113257",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The clothes are in the chest of drawers."
-      },
-      "de": {
-        "text": "Die Kleidung liegt in der Kommode."
-      }
-    },
-    "wordIds": [
-      "23257"
-    ],
-    "sourceIndex": 13257
-  },
-  {
     "id": "113266",
     "category": "daily",
     "level": "hard",
@@ -52046,40 +27662,6 @@ const phrasesDaily = [
     "sourceIndex": 13266
   },
   {
-    "id": "113293",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The robot completed the task quickly."
-      },
-      "de": {
-        "text": "Der Robot erledigte die Aufgabe schnell."
-      }
-    },
-    "wordIds": [
-      "23293"
-    ],
-    "sourceIndex": 13293
-  },
-  {
-    "id": "113295",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "They puzzled over the solution for a long time."
-      },
-      "de": {
-        "text": "Sie rätselten lange über die Lösung."
-      }
-    },
-    "wordIds": [
-      "23295"
-    ],
-    "sourceIndex": 13295
-  },
-  {
     "id": "113299",
     "category": "daily",
     "level": "hard",
@@ -52095,74 +27677,6 @@ const phrasesDaily = [
       "23299"
     ],
     "sourceIndex": 13299
-  },
-  {
-    "id": "113304",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He likes to snowboard in winter."
-      },
-      "de": {
-        "text": "Er fährt gerne Snowboard im Winter."
-      }
-    },
-    "wordIds": [
-      "23304"
-    ],
-    "sourceIndex": 13304
-  },
-  {
-    "id": "113306",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We need to put out the bulky waste for collection."
-      },
-      "de": {
-        "text": "Wir müssen den Sperrmüll zur Abholung bereitstellen."
-      }
-    },
-    "wordIds": [
-      "23306"
-    ],
-    "sourceIndex": 13306
-  },
-  {
-    "id": "113311",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The surfer waited for the perfect wave."
-      },
-      "de": {
-        "text": "Der Surfer wartete auf die perfekte Welle."
-      }
-    },
-    "wordIds": [
-      "23311"
-    ],
-    "sourceIndex": 13311
-  },
-  {
-    "id": "113314",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The city is located southeast from here."
-      },
-      "de": {
-        "text": "Die Stadt liegt südöstlich von hier."
-      }
-    },
-    "wordIds": [
-      "23314"
-    ],
-    "sourceIndex": 13314
   },
   {
     "id": "113324",
@@ -52335,40 +27849,6 @@ const phrasesDaily = [
     "sourceIndex": 13404
   },
   {
-    "id": "113407",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The female lecturer explained the task."
-      },
-      "de": {
-        "text": "Die Dozentin erklärte die Aufgabe."
-      }
-    },
-    "wordIds": [
-      "23407"
-    ],
-    "sourceIndex": 13407
-  },
-  {
-    "id": "113413",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The children's school enrollment takes place in August."
-      },
-      "de": {
-        "text": "Die Einschulung der Kinder findet im August statt."
-      }
-    },
-    "wordIds": [
-      "23413"
-    ],
-    "sourceIndex": 13413
-  },
-  {
     "id": "113419",
     "category": "daily",
     "level": "medium",
@@ -52401,57 +27881,6 @@ const phrasesDaily = [
       "23422"
     ],
     "sourceIndex": 13422
-  },
-  {
-    "id": "113423",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She is a member of a fan club."
-      },
-      "de": {
-        "text": "Sie ist Mitglied in einem Fanclub."
-      }
-    },
-    "wordIds": [
-      "23423"
-    ],
-    "sourceIndex": 13423
-  },
-  {
-    "id": "113430",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "He bought a used car."
-      },
-      "de": {
-        "text": "Er hat einen Gebrauchtwagen gekauft."
-      }
-    },
-    "wordIds": [
-      "23430"
-    ],
-    "sourceIndex": 13430
-  },
-  {
-    "id": "113436",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The history class was very interesting today."
-      },
-      "de": {
-        "text": "Der Geschichtsunterricht war heute sehr interessant."
-      }
-    },
-    "wordIds": [
-      "23436"
-    ],
-    "sourceIndex": 13436
   },
   {
     "id": "113440",
@@ -52488,40 +27917,6 @@ const phrasesDaily = [
     "sourceIndex": 13444
   },
   {
-    "id": "113447",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We stayed overnight in a cozy hostel on the outskirts of the city."
-      },
-      "de": {
-        "text": "Wir übernachteten in einer gemütlichen Herberge am Stadtrand."
-      }
-    },
-    "wordIds": [
-      "23447"
-    ],
-    "sourceIndex": 13447
-  },
-  {
-    "id": "113453",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please enter the year."
-      },
-      "de": {
-        "text": "Bitte geben Sie die Jahreszahl ein."
-      }
-    },
-    "wordIds": [
-      "23453"
-    ],
-    "sourceIndex": 13453
-  },
-  {
     "id": "113454",
     "category": "daily",
     "level": "medium",
@@ -52556,57 +27951,6 @@ const phrasesDaily = [
     "sourceIndex": 13464
   },
   {
-    "id": "113468",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please insert a space between the words."
-      },
-      "de": {
-        "text": "Bitte fügen Sie ein Leerzeichen zwischen den Wörtern ein."
-      }
-    },
-    "wordIds": [
-      "23468"
-    ],
-    "sourceIndex": 13468
-  },
-  {
-    "id": "113474",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "My sister is a talented female musician."
-      },
-      "de": {
-        "text": "Meine Schwester ist eine talentierte Musikerin."
-      }
-    },
-    "wordIds": [
-      "23474"
-    ],
-    "sourceIndex": 13474
-  },
-  {
-    "id": "113486",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "His retirement is planned for next year."
-      },
-      "de": {
-        "text": "Seine Pensionierung ist für nächstes Jahr geplant."
-      }
-    },
-    "wordIds": [
-      "23486"
-    ],
-    "sourceIndex": 13486
-  },
-  {
     "id": "113490",
     "category": "daily",
     "level": "medium",
@@ -52622,23 +27966,6 @@ const phrasesDaily = [
       "23490"
     ],
     "sourceIndex": 13490
-  },
-  {
-    "id": "113503",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I like to drink a dry Riesling."
-      },
-      "de": {
-        "text": "Ich trinke gerne einen trockenen Riesling."
-      }
-    },
-    "wordIds": [
-      "23503"
-    ],
-    "sourceIndex": 13503
   },
   {
     "id": "113507",
@@ -52726,23 +28053,6 @@ const phrasesDaily = [
     "sourceIndex": 13543
   },
   {
-    "id": "113552",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The race for the new technology is tough."
-      },
-      "de": {
-        "text": "Der Wettlauf um die neue Technologie ist hart."
-      }
-    },
-    "wordIds": [
-      "23552"
-    ],
-    "sourceIndex": 13552
-  },
-  {
     "id": "113555",
     "category": "daily",
     "level": "hard",
@@ -52758,74 +28068,6 @@ const phrasesDaily = [
       "23555"
     ],
     "sourceIndex": 13555
-  },
-  {
-    "id": "113556",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I have a long wish list for Christmas."
-      },
-      "de": {
-        "text": "Ich habe eine lange Wunschliste für Weihnachten."
-      }
-    },
-    "wordIds": [
-      "23556"
-    ],
-    "sourceIndex": 13556
-  },
-  {
-    "id": "113573",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The maple tree in the garden is very old."
-      },
-      "de": {
-        "text": "Der Ahornbaum im Garten ist sehr alt."
-      }
-    },
-    "wordIds": [
-      "23573"
-    ],
-    "sourceIndex": 13573
-  },
-  {
-    "id": "113575",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The engine will start soon."
-      },
-      "de": {
-        "text": "Der Motor wird bald anlaufen."
-      }
-    },
-    "wordIds": [
-      "23575"
-    ],
-    "sourceIndex": 13575
-  },
-  {
-    "id": "113589",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "On the weekend, I can finally sleep in."
-      },
-      "de": {
-        "text": "Am Wochenende kann ich endlich ausschlafen."
-      }
-    },
-    "wordIds": [
-      "23589"
-    ],
-    "sourceIndex": 13589
   },
   {
     "id": "113598",
@@ -52845,57 +28087,6 @@ const phrasesDaily = [
     "sourceIndex": 13598
   },
   {
-    "id": "113617",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I need to install the new driver for my printer."
-      },
-      "de": {
-        "text": "Ich muss den neuen Driver für meinen Drucker installieren."
-      }
-    },
-    "wordIds": [
-      "23617"
-    ],
-    "sourceIndex": 13617
-  },
-  {
-    "id": "113623",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "My grandchild is visiting me on the weekend."
-      },
-      "de": {
-        "text": "Mein Enkelkind besucht mich am Wochenende."
-      }
-    },
-    "wordIds": [
-      "23623"
-    ],
-    "sourceIndex": 13623
-  },
-  {
-    "id": "113642",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The walking people filled the street."
-      },
-      "de": {
-        "text": "Die gehenden Menschen füllten die Straße."
-      }
-    },
-    "wordIds": [
-      "23642"
-    ],
-    "sourceIndex": 13642
-  },
-  {
     "id": "113645",
     "category": "daily",
     "level": "hard",
@@ -52911,40 +28102,6 @@ const phrasesDaily = [
       "23645"
     ],
     "sourceIndex": 13645
-  },
-  {
-    "id": "113654",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The main building of the university is very old."
-      },
-      "de": {
-        "text": "Das Hauptgebäude der Universität ist sehr alt."
-      }
-    },
-    "wordIds": [
-      "23654"
-    ],
-    "sourceIndex": 13654
-  },
-  {
-    "id": "113656",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "The sky is light blue today."
-      },
-      "de": {
-        "text": "Der Himmel ist heute hellblau."
-      }
-    },
-    "wordIds": [
-      "23656"
-    ],
-    "sourceIndex": 13656
   },
   {
     "id": "113666",
@@ -53013,23 +28170,6 @@ const phrasesDaily = [
       "23677"
     ],
     "sourceIndex": 13677
-  },
-  {
-    "id": "113680",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The learning child asked many questions."
-      },
-      "de": {
-        "text": "Das lernende Kind stellte viele Fragen."
-      }
-    },
-    "wordIds": [
-      "23680"
-    ],
-    "sourceIndex": 13680
   },
   {
     "id": "113681",
@@ -53236,23 +28376,6 @@ const phrasesDaily = [
     "sourceIndex": 13744
   },
   {
-    "id": "113747",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The potter shaped a beautiful vase."
-      },
-      "de": {
-        "text": "Der Töpfer formte eine schöne Vase."
-      }
-    },
-    "wordIds": [
-      "23747"
-    ],
-    "sourceIndex": 13747
-  },
-  {
     "id": "113757",
     "category": "daily",
     "level": "hard",
@@ -53287,23 +28410,6 @@ const phrasesDaily = [
     "sourceIndex": 13771
   },
   {
-    "id": "113797",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The car traffic in the city is very dense."
-      },
-      "de": {
-        "text": "Der Autoverkehr in der Stadt ist sehr dicht."
-      }
-    },
-    "wordIds": [
-      "23797"
-    ],
-    "sourceIndex": 13797
-  },
-  {
     "id": "113801",
     "category": "daily",
     "level": "hard",
@@ -53319,40 +28425,6 @@ const phrasesDaily = [
       "23801"
     ],
     "sourceIndex": 13801
-  },
-  {
-    "id": "113804",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My mother is employed."
-      },
-      "de": {
-        "text": "Meine Mutter ist berufstätig."
-      }
-    },
-    "wordIds": [
-      "23804"
-    ],
-    "sourceIndex": 13804
-  },
-  {
-    "id": "113810",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "She received a beautiful bouquet of flowers for her birthday."
-      },
-      "de": {
-        "text": "Sie bekam einen schönen Blumenstrauss zum Geburtstag."
-      }
-    },
-    "wordIds": [
-      "23810"
-    ],
-    "sourceIndex": 13810
   },
   {
     "id": "113816",
@@ -53389,23 +28461,6 @@ const phrasesDaily = [
     "sourceIndex": 13831
   },
   {
-    "id": "113838",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She had a brilliant business idea."
-      },
-      "de": {
-        "text": "Sie hatte eine brillante Geschäftsidee."
-      }
-    },
-    "wordIds": [
-      "23838"
-    ],
-    "sourceIndex": 13838
-  },
-  {
     "id": "113842",
     "category": "daily",
     "level": "hard",
@@ -53438,23 +28493,6 @@ const phrasesDaily = [
       "23845"
     ],
     "sourceIndex": 13845
-  },
-  {
-    "id": "113869",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She is a very lovable child."
-      },
-      "de": {
-        "text": "Sie ist ein sehr liebenswertes Kind."
-      }
-    },
-    "wordIds": [
-      "23869"
-    ],
-    "sourceIndex": 13869
   },
   {
     "id": "113879",
@@ -53506,57 +28544,6 @@ const phrasesDaily = [
       "23886"
     ],
     "sourceIndex": 13886
-  },
-  {
-    "id": "113900",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "On Saturday morning, I like to sleep in."
-      },
-      "de": {
-        "text": "Am Samstagmorgen schlafe ich gerne lange."
-      }
-    },
-    "wordIds": [
-      "23900"
-    ],
-    "sourceIndex": 13900
-  },
-  {
-    "id": "113902",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The actress played her role very convincingly."
-      },
-      "de": {
-        "text": "Die Schauspielerin spielte ihre Rolle sehr überzeugend."
-      }
-    },
-    "wordIds": [
-      "23902"
-    ],
-    "sourceIndex": 13902
-  },
-  {
-    "id": "113904",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I feel dizzy when I stand up too quickly."
-      },
-      "de": {
-        "text": "Mir ist schwindelig, wenn ich zu schnell aufstehe."
-      }
-    },
-    "wordIds": [
-      "23904"
-    ],
-    "sourceIndex": 13904
   },
   {
     "id": "113906",
@@ -53729,23 +28716,6 @@ const phrasesDaily = [
     "sourceIndex": 13981
   },
   {
-    "id": "113982",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Can you please calculate how much that costs?"
-      },
-      "de": {
-        "text": "Kannst du bitte ausrechnen, wie viel das kostet?"
-      }
-    },
-    "wordIds": [
-      "23982"
-    ],
-    "sourceIndex": 13982
-  },
-  {
     "id": "113983",
     "category": "daily",
     "level": "medium",
@@ -53763,23 +28733,6 @@ const phrasesDaily = [
     "sourceIndex": 13983
   },
   {
-    "id": "113995",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Don't forget to use the turn signal when you turn."
-      },
-      "de": {
-        "text": "Vergiss nicht, den Blinker zu setzen, wenn du abbiegst."
-      }
-    },
-    "wordIds": [
-      "23995"
-    ],
-    "sourceIndex": 13995
-  },
-  {
     "id": "113997",
     "category": "daily",
     "level": "hard",
@@ -53795,23 +28748,6 @@ const phrasesDaily = [
       "23997"
     ],
     "sourceIndex": 13997
-  },
-  {
-    "id": "113998",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I like broccoli very much."
-      },
-      "de": {
-        "text": "Ich mag Brokkoli sehr gerne."
-      }
-    },
-    "wordIds": [
-      "23998"
-    ],
-    "sourceIndex": 13998
   },
   {
     "id": "113999",
@@ -54001,40 +28937,6 @@ const phrasesDaily = [
     "sourceIndex": 14043
   },
   {
-    "id": "114045",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please close the front door when you leave."
-      },
-      "de": {
-        "text": "Bitte schließe die Haustüre, wenn du gehst."
-      }
-    },
-    "wordIds": [
-      "24045"
-    ],
-    "sourceIndex": 14045
-  },
-  {
-    "id": "114049",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The carpenter hammered nails into the wood."
-      },
-      "de": {
-        "text": "Der Zimmermann hämmerte Nägel in das Holz."
-      }
-    },
-    "wordIds": [
-      "24049"
-    ],
-    "sourceIndex": 14049
-  },
-  {
     "id": "114050",
     "category": "daily",
     "level": "hard",
@@ -54069,23 +28971,6 @@ const phrasesDaily = [
     "sourceIndex": 14057
   },
   {
-    "id": "114062",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I have a bad headache this morning."
-      },
-      "de": {
-        "text": "Ich habe heute Morgen starkes Kopfweh."
-      }
-    },
-    "wordIds": [
-      "24062"
-    ],
-    "sourceIndex": 14062
-  },
-  {
     "id": "114068",
     "category": "daily",
     "level": "hard",
@@ -54101,74 +28986,6 @@ const phrasesDaily = [
       "24068"
     ],
     "sourceIndex": 14068
-  },
-  {
-    "id": "114083",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The ball crossed the center line."
-      },
-      "de": {
-        "text": "Der Ball überquerte die Mittellinie."
-      }
-    },
-    "wordIds": [
-      "24083"
-    ],
-    "sourceIndex": 14083
-  },
-  {
-    "id": "114085",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We stayed overnight in a small motel on the outskirts of the city."
-      },
-      "de": {
-        "text": "Wir übernachteten in einem kleinen Motel am Stadtrand."
-      }
-    },
-    "wordIds": [
-      "24085"
-    ],
-    "sourceIndex": 14085
-  },
-  {
-    "id": "114099",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The teacher stood at the desk."
-      },
-      "de": {
-        "text": "Der Lehrer stand am Pult."
-      }
-    },
-    "wordIds": [
-      "24099"
-    ],
-    "sourceIndex": 14099
-  },
-  {
-    "id": "114100",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The table is square."
-      },
-      "de": {
-        "text": "Der Tisch ist quadratisch."
-      }
-    },
-    "wordIds": [
-      "24100"
-    ],
-    "sourceIndex": 14100
   },
   {
     "id": "114104",
@@ -54237,40 +29054,6 @@ const phrasesDaily = [
       "24127"
     ],
     "sourceIndex": 14127
-  },
-  {
-    "id": "114154",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "This is just a preliminary stage to the actual project."
-      },
-      "de": {
-        "text": "Dies ist nur eine Vorstufe zum eigentlichen Projekt."
-      }
-    },
-    "wordIds": [
-      "24154"
-    ],
-    "sourceIndex": 14154
-  },
-  {
-    "id": "114158",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We wish you a good onward journey."
-      },
-      "de": {
-        "text": "Wir wünschen Ihnen eine gute Weiterfahrt."
-      }
-    },
-    "wordIds": [
-      "24158"
-    ],
-    "sourceIndex": 14158
   },
   {
     "id": "114165",
@@ -54358,23 +29141,6 @@ const phrasesDaily = [
     "sourceIndex": 14183
   },
   {
-    "id": "114191",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The mountainous region is known for its picturesque hiking trails."
-      },
-      "de": {
-        "text": "Das Bergland ist bekannt für seine malerischen Wanderwege."
-      }
-    },
-    "wordIds": [
-      "24191"
-    ],
-    "sourceIndex": 14191
-  },
-  {
     "id": "114209",
     "category": "daily",
     "level": "hard",
@@ -54407,40 +29173,6 @@ const phrasesDaily = [
       "24218"
     ],
     "sourceIndex": 14218
-  },
-  {
-    "id": "114234",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "At border control, we had to show our passports."
-      },
-      "de": {
-        "text": "Bei der Grenzkontrolle mussten wir unsere Pässe zeigen."
-      }
-    },
-    "wordIds": [
-      "24234"
-    ],
-    "sourceIndex": 14234
-  },
-  {
-    "id": "114235",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Children love gummy bears."
-      },
-      "de": {
-        "text": "Kinder lieben Gummibärchen."
-      }
-    },
-    "wordIds": [
-      "24235"
-    ],
-    "sourceIndex": 14235
   },
   {
     "id": "114240",
@@ -54492,23 +29224,6 @@ const phrasesDaily = [
       "24244"
     ],
     "sourceIndex": 14244
-  },
-  {
-    "id": "114252",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She has a very childlike joy."
-      },
-      "de": {
-        "text": "Sie hat eine sehr kindliche Freude."
-      }
-    },
-    "wordIds": [
-      "24252"
-    ],
-    "sourceIndex": 14252
   },
   {
     "id": "114255",
@@ -54613,23 +29328,6 @@ const phrasesDaily = [
     "sourceIndex": 14294
   },
   {
-    "id": "114298",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The German Shepherd is a popular dog breed."
-      },
-      "de": {
-        "text": "Der Schäferhund ist eine beliebte Hunderasse."
-      }
-    },
-    "wordIds": [
-      "24298"
-    ],
-    "sourceIndex": 14298
-  },
-  {
     "id": "114301",
     "category": "daily",
     "level": "medium",
@@ -54696,23 +29394,6 @@ const phrasesDaily = [
       "24312"
     ],
     "sourceIndex": 14312
-  },
-  {
-    "id": "114318",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "There was a loud quarrel between the neighbors."
-      },
-      "de": {
-        "text": "Es gab eine laute Streiterei zwischen den Nachbarn."
-      }
-    },
-    "wordIds": [
-      "24318"
-    ],
-    "sourceIndex": 14318
   },
   {
     "id": "114327",
@@ -54817,23 +29498,6 @@ const phrasesDaily = [
     "sourceIndex": 14364
   },
   {
-    "id": "114372",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We want to give presents to the children for Christmas."
-      },
-      "de": {
-        "text": "Wir wollen die Kinder zu Weihnachten beschenken."
-      }
-    },
-    "wordIds": [
-      "24372"
-    ],
-    "sourceIndex": 14372
-  },
-  {
     "id": "114385",
     "category": "daily",
     "level": "hard",
@@ -54885,23 +29549,6 @@ const phrasesDaily = [
     "sourceIndex": 14400
   },
   {
-    "id": "114409",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The water will freeze at zero degrees Celsius."
-      },
-      "de": {
-        "text": "Das Wasser wird bei null Grad Celsius gefrieren."
-      }
-    },
-    "wordIds": [
-      "24409"
-    ],
-    "sourceIndex": 14409
-  },
-  {
     "id": "114413",
     "category": "daily",
     "level": "hard",
@@ -54936,40 +29583,6 @@ const phrasesDaily = [
     "sourceIndex": 14423
   },
   {
-    "id": "114431",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I want to travel somewhere where it's warm."
-      },
-      "de": {
-        "text": "Ich möchte irgendwohin reisen, wo es warm ist."
-      }
-    },
-    "wordIds": [
-      "24431"
-    ],
-    "sourceIndex": 14431
-  },
-  {
-    "id": "114445",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The dog sleeps in its small basket."
-      },
-      "de": {
-        "text": "Der Hund schläft in seinem Körbchen."
-      }
-    },
-    "wordIds": [
-      "24445"
-    ],
-    "sourceIndex": 14445
-  },
-  {
     "id": "114450",
     "category": "daily",
     "level": "hard",
@@ -55002,23 +29615,6 @@ const phrasesDaily = [
       "24458"
     ],
     "sourceIndex": 14458
-  },
-  {
-    "id": "114460",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The partner search can be difficult."
-      },
-      "de": {
-        "text": "Die Partnersuche kann schwierig sein."
-      }
-    },
-    "wordIds": [
-      "24460"
-    ],
-    "sourceIndex": 14460
   },
   {
     "id": "114462",
@@ -55106,23 +29702,6 @@ const phrasesDaily = [
     "sourceIndex": 14485
   },
   {
-    "id": "114490",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I like pancakes with maple syrup."
-      },
-      "de": {
-        "text": "Ich mag Pfannkuchen mit Ahornsirup."
-      }
-    },
-    "wordIds": [
-      "24490"
-    ],
-    "sourceIndex": 14490
-  },
-  {
     "id": "114492",
     "category": "daily",
     "level": "hard",
@@ -55155,23 +29734,6 @@ const phrasesDaily = [
       "24494"
     ],
     "sourceIndex": 14494
-  },
-  {
-    "id": "114495",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "We have physical education today in the gym."
-      },
-      "de": {
-        "text": "Wir haben heute Sportunterricht in der Turnhalle."
-      }
-    },
-    "wordIds": [
-      "24495"
-    ],
-    "sourceIndex": 14495
   },
   {
     "id": "114515",
@@ -55242,23 +29804,6 @@ const phrasesDaily = [
     "sourceIndex": 14537
   },
   {
-    "id": "114540",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The water level of the river has risen."
-      },
-      "de": {
-        "text": "Der Wasserstand des Flusses ist gestiegen."
-      }
-    },
-    "wordIds": [
-      "24540"
-    ],
-    "sourceIndex": 14540
-  },
-  {
     "id": "114542",
     "category": "daily",
     "level": "hard",
@@ -55293,40 +29838,6 @@ const phrasesDaily = [
     "sourceIndex": 14546
   },
   {
-    "id": "114555",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He leaned back relaxed."
-      },
-      "de": {
-        "text": "Er lehnte sich entspannt zurück."
-      }
-    },
-    "wordIds": [
-      "24555"
-    ],
-    "sourceIndex": 14555
-  },
-  {
-    "id": "114559",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He wanted to buy the car from him."
-      },
-      "de": {
-        "text": "Er wollte ihm das Auto abkaufen."
-      }
-    },
-    "wordIds": [
-      "24559"
-    ],
-    "sourceIndex": 14559
-  },
-  {
     "id": "114573",
     "category": "daily",
     "level": "medium",
@@ -55344,23 +29855,6 @@ const phrasesDaily = [
     "sourceIndex": 14573
   },
   {
-    "id": "114575",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I love fresh basil on my pizza."
-      },
-      "de": {
-        "text": "Ich liebe frisches Basilikum auf meiner Pizza."
-      }
-    },
-    "wordIds": [
-      "24575"
-    ],
-    "sourceIndex": 14575
-  },
-  {
     "id": "114587",
     "category": "daily",
     "level": "hard",
@@ -55376,23 +29870,6 @@ const phrasesDaily = [
       "24587"
     ],
     "sourceIndex": 14587
-  },
-  {
-    "id": "114591",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The hotel offers a rich breakfast."
-      },
-      "de": {
-        "text": "Das Hotel bietet ein reichhaltiges Breakfast an."
-      }
-    },
-    "wordIds": [
-      "24591"
-    ],
-    "sourceIndex": 14591
   },
   {
     "id": "114593",
@@ -55429,23 +29906,6 @@ const phrasesDaily = [
     "sourceIndex": 14597
   },
   {
-    "id": "114608",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We have dinner in the dining room."
-      },
-      "de": {
-        "text": "Wir essen im Esszimmer zu Abend."
-      }
-    },
-    "wordIds": [
-      "24608"
-    ],
-    "sourceIndex": 14608
-  },
-  {
     "id": "114612",
     "category": "daily",
     "level": "hard",
@@ -55480,23 +29940,6 @@ const phrasesDaily = [
     "sourceIndex": 14614
   },
   {
-    "id": "114615",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Many people work as freelancers."
-      },
-      "de": {
-        "text": "Viele Menschen arbeiten als Freiberufler."
-      }
-    },
-    "wordIds": [
-      "24615"
-    ],
-    "sourceIndex": 14615
-  },
-  {
     "id": "114622",
     "category": "daily",
     "level": "hard",
@@ -55512,23 +29955,6 @@ const phrasesDaily = [
       "24622"
     ],
     "sourceIndex": 14622
-  },
-  {
-    "id": "114628",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The genitive case is often used with prepositions."
-      },
-      "de": {
-        "text": "Der Genitiv wird oft mit Präpositionen verwendet."
-      }
-    },
-    "wordIds": [
-      "24628"
-    ],
-    "sourceIndex": 14628
   },
   {
     "id": "114637",
@@ -55599,23 +30025,6 @@ const phrasesDaily = [
     "sourceIndex": 14648
   },
   {
-    "id": "114650",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We stayed overnight in a cheap hostel."
-      },
-      "de": {
-        "text": "Wir übernachteten in einem günstigen Hostel."
-      }
-    },
-    "wordIds": [
-      "24650"
-    ],
-    "sourceIndex": 14650
-  },
-  {
     "id": "114658",
     "category": "daily",
     "level": "hard",
@@ -55667,23 +30076,6 @@ const phrasesDaily = [
     "sourceIndex": 14673
   },
   {
-    "id": "114674",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He is a Moroccan who lives in Germany."
-      },
-      "de": {
-        "text": "Er ist ein Marokkaner, der in Deutschland lebt."
-      }
-    },
-    "wordIds": [
-      "24674"
-    ],
-    "sourceIndex": 14674
-  },
-  {
     "id": "114675",
     "category": "daily",
     "level": "hard",
@@ -55716,23 +30108,6 @@ const phrasesDaily = [
       "24676"
     ],
     "sourceIndex": 14676
-  },
-  {
-    "id": "114679",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "At the end of the month, we receive our salary."
-      },
-      "de": {
-        "text": "Am Monatsende erhalten wir unser Gehalt."
-      }
-    },
-    "wordIds": [
-      "24679"
-    ],
-    "sourceIndex": 14679
   },
   {
     "id": "114682",
@@ -55803,40 +30178,6 @@ const phrasesDaily = [
     "sourceIndex": 14692
   },
   {
-    "id": "114694",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The nursing staff takes care of the patients."
-      },
-      "de": {
-        "text": "Das Pflegepersonal kümmert sich um die Patienten."
-      }
-    },
-    "wordIds": [
-      "24694"
-    ],
-    "sourceIndex": 14694
-  },
-  {
-    "id": "114696",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please enter your postal code."
-      },
-      "de": {
-        "text": "Bitte geben Sie Ihre Postleitzahl ein."
-      }
-    },
-    "wordIds": [
-      "24696"
-    ],
-    "sourceIndex": 14696
-  },
-  {
     "id": "114697",
     "category": "daily",
     "level": "hard",
@@ -55905,40 +30246,6 @@ const phrasesDaily = [
     "sourceIndex": 14719
   },
   {
-    "id": "114721",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She lives a carefree life."
-      },
-      "de": {
-        "text": "Sie lebt ein sorgloses Leben."
-      }
-    },
-    "wordIds": [
-      "24721"
-    ],
-    "sourceIndex": 14721
-  },
-  {
-    "id": "114729",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My study period was a very formative phase."
-      },
-      "de": {
-        "text": "Meine Studienzeit war eine sehr prägende Phase."
-      }
-    },
-    "wordIds": [
-      "24729"
-    ],
-    "sourceIndex": 14729
-  },
-  {
     "id": "114734",
     "category": "daily",
     "level": "hard",
@@ -55973,23 +30280,6 @@ const phrasesDaily = [
     "sourceIndex": 14737
   },
   {
-    "id": "114743",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "He is a Hungarian and speaks fluent Hungarian."
-      },
-      "de": {
-        "text": "Er ist ein Ungar und spricht fließend Ungarisch."
-      }
-    },
-    "wordIds": [
-      "24743"
-    ],
-    "sourceIndex": 14743
-  },
-  {
     "id": "114751",
     "category": "daily",
     "level": "hard",
@@ -56005,40 +30295,6 @@ const phrasesDaily = [
       "24751"
     ],
     "sourceIndex": 14751
-  },
-  {
-    "id": "114757",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The duck swam on the water surface."
-      },
-      "de": {
-        "text": "Die Ente schwamm auf der Wasseroberfläche."
-      }
-    },
-    "wordIds": [
-      "24757"
-    ],
-    "sourceIndex": 14757
-  },
-  {
-    "id": "114758",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The water quality of the lake is very good."
-      },
-      "de": {
-        "text": "Die Wasserqualität des Sees ist sehr gut."
-      }
-    },
-    "wordIds": [
-      "24758"
-    ],
-    "sourceIndex": 14758
   },
   {
     "id": "114760",
@@ -56073,23 +30329,6 @@ const phrasesDaily = [
       "24764"
     ],
     "sourceIndex": 14764
-  },
-  {
-    "id": "114768",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The drawing of the lottery numbers takes place every Saturday."
-      },
-      "de": {
-        "text": "Die Ziehung der Lottozahlen findet jeden Samstag statt."
-      }
-    },
-    "wordIds": [
-      "24768"
-    ],
-    "sourceIndex": 14768
   },
   {
     "id": "114774",
@@ -56211,23 +30450,6 @@ const phrasesDaily = [
     "sourceIndex": 14836
   },
   {
-    "id": "114851",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I prefer to wear comfortable sweatpants at home."
-      },
-      "de": {
-        "text": "Ich trage am liebsten eine bequeme Jogginghose zu Hause."
-      }
-    },
-    "wordIds": [
-      "24851"
-    ],
-    "sourceIndex": 14851
-  },
-  {
     "id": "114855",
     "category": "daily",
     "level": "hard",
@@ -56243,57 +30465,6 @@ const phrasesDaily = [
       "24855"
     ],
     "sourceIndex": 14855
-  },
-  {
-    "id": "114857",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Child-rearing is a great responsibility."
-      },
-      "de": {
-        "text": "Die Kindererziehung ist eine große Verantwortung."
-      }
-    },
-    "wordIds": [
-      "24857"
-    ],
-    "sourceIndex": 14857
-  },
-  {
-    "id": "114858",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The children's home offers a home to many orphans."
-      },
-      "de": {
-        "text": "Das Kinderheim bietet vielen Waisen ein Zuhause."
-      }
-    },
-    "wordIds": [
-      "24858"
-    ],
-    "sourceIndex": 14858
-  },
-  {
-    "id": "114870",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "This is a long-term investment."
-      },
-      "de": {
-        "text": "Das ist eine langzeitige Investition."
-      }
-    },
-    "wordIds": [
-      "24870"
-    ],
-    "sourceIndex": 14870
   },
   {
     "id": "114871",
@@ -56313,57 +30484,6 @@ const phrasesDaily = [
     "sourceIndex": 14871
   },
   {
-    "id": "114874",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "His letter to the editor was published in the newspaper."
-      },
-      "de": {
-        "text": "Sein Leserbrief wurde in der Zeitung veröffentlicht."
-      }
-    },
-    "wordIds": [
-      "24874"
-    ],
-    "sourceIndex": 14874
-  },
-  {
-    "id": "114886",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I need to look up this word in the dictionary."
-      },
-      "de": {
-        "text": "Ich muss dieses Wort im Wörterbuch nachschlagen."
-      }
-    },
-    "wordIds": [
-      "24886"
-    ],
-    "sourceIndex": 14886
-  },
-  {
-    "id": "114891",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The bus drives through the city."
-      },
-      "de": {
-        "text": "Der Omnibus fährt durch die Stadt."
-      }
-    },
-    "wordIds": [
-      "24891"
-    ],
-    "sourceIndex": 14891
-  },
-  {
     "id": "114900",
     "category": "daily",
     "level": "hard",
@@ -56379,40 +30499,6 @@ const phrasesDaily = [
       "24900"
     ],
     "sourceIndex": 14900
-  },
-  {
-    "id": "114904",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She changed her profile picture on social media."
-      },
-      "de": {
-        "text": "Sie änderte ihr Profilbild auf Social Media."
-      }
-    },
-    "wordIds": [
-      "24904"
-    ],
-    "sourceIndex": 14904
-  },
-  {
-    "id": "114909",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We drank a warm punch at the party."
-      },
-      "de": {
-        "text": "Wir tranken einen warmen Punch auf der Party."
-      }
-    },
-    "wordIds": [
-      "24909"
-    ],
-    "sourceIndex": 14909
   },
   {
     "id": "114920",
@@ -56517,23 +30603,6 @@ const phrasesDaily = [
     "sourceIndex": 14983
   },
   {
-    "id": "114996",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "After the exam, he could finally breathe a sigh of relief."
-      },
-      "de": {
-        "text": "Nach der Prüfung konnte er endlich aufatmen."
-      }
-    },
-    "wordIds": [
-      "24996"
-    ],
-    "sourceIndex": 14996
-  },
-  {
     "id": "115005",
     "category": "daily",
     "level": "hard",
@@ -56551,23 +30620,6 @@ const phrasesDaily = [
     "sourceIndex": 15005
   },
   {
-    "id": "115011",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The head chef prepared an exquisite menu."
-      },
-      "de": {
-        "text": "Der Chefkoch bereitete ein exquisites Menü zu."
-      }
-    },
-    "wordIds": [
-      "25011"
-    ],
-    "sourceIndex": 15011
-  },
-  {
     "id": "115020",
     "category": "daily",
     "level": "hard",
@@ -56583,23 +30635,6 @@ const phrasesDaily = [
       "25020"
     ],
     "sourceIndex": 15020
-  },
-  {
-    "id": "115022",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I would like to trade in my old phone for a new one."
-      },
-      "de": {
-        "text": "Ich möchte mein altes Handy gegen ein neues eintauschen."
-      }
-    },
-    "wordIds": [
-      "25022"
-    ],
-    "sourceIndex": 15022
   },
   {
     "id": "115042",
@@ -56670,23 +30705,6 @@ const phrasesDaily = [
     "sourceIndex": 15057
   },
   {
-    "id": "115058",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The file is two gigabytes in size."
-      },
-      "de": {
-        "text": "Die Datei ist zwei Gigabyte groß."
-      }
-    },
-    "wordIds": [
-      "25058"
-    ],
-    "sourceIndex": 15058
-  },
-  {
     "id": "115065",
     "category": "daily",
     "level": "hard",
@@ -56721,23 +30739,6 @@ const phrasesDaily = [
     "sourceIndex": 15067
   },
   {
-    "id": "115069",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We need charcoal for the barbecue evening."
-      },
-      "de": {
-        "text": "Wir brauchen Holzkohle für den Grillabend."
-      }
-    },
-    "wordIds": [
-      "25069"
-    ],
-    "sourceIndex": 15069
-  },
-  {
     "id": "115072",
     "category": "daily",
     "level": "hard",
@@ -56753,23 +30754,6 @@ const phrasesDaily = [
       "25072"
     ],
     "sourceIndex": 15072
-  },
-  {
-    "id": "115084",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We often eat at the kitchen table."
-      },
-      "de": {
-        "text": "Wir essen oft am Küchentisch."
-      }
-    },
-    "wordIds": [
-      "25084"
-    ],
-    "sourceIndex": 15084
   },
   {
     "id": "115086",
@@ -56806,23 +30790,6 @@ const phrasesDaily = [
     "sourceIndex": 15095
   },
   {
-    "id": "115096",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Yogurt is a healthy dairy product."
-      },
-      "de": {
-        "text": "Joghurt ist ein gesundes Milchprodukt."
-      }
-    },
-    "wordIds": [
-      "25096"
-    ],
-    "sourceIndex": 15096
-  },
-  {
     "id": "115098",
     "category": "daily",
     "level": "hard",
@@ -56855,23 +30822,6 @@ const phrasesDaily = [
       "25099"
     ],
     "sourceIndex": 15099
-  },
-  {
-    "id": "115101",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Germany borders several neighboring states."
-      },
-      "de": {
-        "text": "Deutschland grenzt an mehrere Nachbarstaaten."
-      }
-    },
-    "wordIds": [
-      "25101"
-    ],
-    "sourceIndex": 15101
   },
   {
     "id": "115115",
@@ -56942,23 +30892,6 @@ const phrasesDaily = [
     "sourceIndex": 15124
   },
   {
-    "id": "115126",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I just want to relax on the weekend."
-      },
-      "de": {
-        "text": "Ich möchte am Wochenende einfach nur relaxen."
-      }
-    },
-    "wordIds": [
-      "25126"
-    ],
-    "sourceIndex": 15126
-  },
-  {
     "id": "115139",
     "category": "daily",
     "level": "hard",
@@ -56991,57 +30924,6 @@ const phrasesDaily = [
       "25145"
     ],
     "sourceIndex": 15145
-  },
-  {
-    "id": "115149",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He began to stamp his foot angrily."
-      },
-      "de": {
-        "text": "Er begann wütend mit dem Fuß zu stampfen."
-      }
-    },
-    "wordIds": [
-      "25149"
-    ],
-    "sourceIndex": 15149
-  },
-  {
-    "id": "115151",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The starting point of the hike was at the lake."
-      },
-      "de": {
-        "text": "Der Startpunkt der Wanderung war am See."
-      }
-    },
-    "wordIds": [
-      "25151"
-    ],
-    "sourceIndex": 15151
-  },
-  {
-    "id": "115152",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The reservoir serves for electricity generation."
-      },
-      "de": {
-        "text": "Der Stausee dient der Stromerzeugung."
-      }
-    },
-    "wordIds": [
-      "25152"
-    ],
-    "sourceIndex": 15152
   },
   {
     "id": "115153",
@@ -57112,23 +30994,6 @@ const phrasesDaily = [
     "sourceIndex": 15163
   },
   {
-    "id": "115167",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We went through the underpass to cross the street."
-      },
-      "de": {
-        "text": "Wir gingen durch die Unterführung, um die Straße zu überqueren."
-      }
-    },
-    "wordIds": [
-      "25167"
-    ],
-    "sourceIndex": 15167
-  },
-  {
     "id": "115169",
     "category": "daily",
     "level": "hard",
@@ -57144,91 +31009,6 @@ const phrasesDaily = [
       "25169"
     ],
     "sourceIndex": 15169
-  },
-  {
-    "id": "115181",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We have to go vote today."
-      },
-      "de": {
-        "text": "Wir müssen heute voten gehen."
-      }
-    },
-    "wordIds": [
-      "25181"
-    ],
-    "sourceIndex": 15181
-  },
-  {
-    "id": "115183",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The children want to continue playing."
-      },
-      "de": {
-        "text": "Die Kinder wollen weiterspielen."
-      }
-    },
-    "wordIds": [
-      "25183"
-    ],
-    "sourceIndex": 15183
-  },
-  {
-    "id": "115188",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "It is very windy today."
-      },
-      "de": {
-        "text": "Heute ist es sehr windig."
-      }
-    },
-    "wordIds": [
-      "25188"
-    ],
-    "sourceIndex": 15188
-  },
-  {
-    "id": "115191",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please cross the street at the zebra crossing."
-      },
-      "de": {
-        "text": "Bitte überqueren Sie die Straße am Zebrastreifen."
-      }
-    },
-    "wordIds": [
-      "25191"
-    ],
-    "sourceIndex": 15191
-  },
-  {
-    "id": "115194",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We need to bring the two parties back together."
-      },
-      "de": {
-        "text": "Wir müssen die beiden Parteien wieder zusammenbringen."
-      }
-    },
-    "wordIds": [
-      "25194"
-    ],
-    "sourceIndex": 15194
   },
   {
     "id": "115201",
@@ -57248,23 +31028,6 @@ const phrasesDaily = [
     "sourceIndex": 15201
   },
   {
-    "id": "115208",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Can you please turn up the radio?"
-      },
-      "de": {
-        "text": "Kannst du bitte das Radio aufdrehen?"
-      }
-    },
-    "wordIds": [
-      "25208"
-    ],
-    "sourceIndex": 15208
-  },
-  {
     "id": "115214",
     "category": "daily",
     "level": "medium",
@@ -57280,23 +31043,6 @@ const phrasesDaily = [
       "25214"
     ],
     "sourceIndex": 15214
-  },
-  {
-    "id": "115224",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The surf was very strong today."
-      },
-      "de": {
-        "text": "Die Brandung war heute sehr stark."
-      }
-    },
-    "wordIds": [
-      "25224"
-    ],
-    "sourceIndex": 15224
   },
   {
     "id": "115231",
@@ -57333,23 +31079,6 @@ const phrasesDaily = [
     "sourceIndex": 15232
   },
   {
-    "id": "115234",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "This cream is good for dry skin."
-      },
-      "de": {
-        "text": "Diese Cream ist gut für trockene Haut."
-      }
-    },
-    "wordIds": [
-      "25234"
-    ],
-    "sourceIndex": 15234
-  },
-  {
     "id": "115266",
     "category": "daily",
     "level": "hard",
@@ -57365,40 +31094,6 @@ const phrasesDaily = [
       "25266"
     ],
     "sourceIndex": 15266
-  },
-  {
-    "id": "115273",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She has been divorced for two years."
-      },
-      "de": {
-        "text": "Sie ist seit zwei Jahren geschieden."
-      }
-    },
-    "wordIds": [
-      "25273"
-    ],
-    "sourceIndex": 15273
-  },
-  {
-    "id": "115278",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The dead cat lay in the garden."
-      },
-      "de": {
-        "text": "Die gestorbene Katze lag im Garten."
-      }
-    },
-    "wordIds": [
-      "25278"
-    ],
-    "sourceIndex": 15278
   },
   {
     "id": "115288",
@@ -57433,23 +31128,6 @@ const phrasesDaily = [
       "25305"
     ],
     "sourceIndex": 15305
-  },
-  {
-    "id": "115308",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The age plays a role."
-      },
-      "de": {
-        "text": "Das Lebensalter spielt eine Rolle."
-      }
-    },
-    "wordIds": [
-      "25308"
-    ],
-    "sourceIndex": 15308
   },
   {
     "id": "115315",
@@ -57503,23 +31181,6 @@ const phrasesDaily = [
     "sourceIndex": 15324
   },
   {
-    "id": "115331",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We drank hot punch at the Christmas market."
-      },
-      "de": {
-        "text": "Wir tranken heißen Punsch auf dem Weihnachtsmarkt."
-      }
-    },
-    "wordIds": [
-      "25331"
-    ],
-    "sourceIndex": 15331
-  },
-  {
     "id": "115339",
     "category": "daily",
     "level": "medium",
@@ -57535,23 +31196,6 @@ const phrasesDaily = [
       "25339"
     ],
     "sourceIndex": 15339
-  },
-  {
-    "id": "115342",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He joked about the situation."
-      },
-      "de": {
-        "text": "Er scherzte über die Situation."
-      }
-    },
-    "wordIds": [
-      "25342"
-    ],
-    "sourceIndex": 15342
   },
   {
     "id": "115350",
@@ -57605,23 +31249,6 @@ const phrasesDaily = [
     "sourceIndex": 15366
   },
   {
-    "id": "115392",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I like to watch you cook."
-      },
-      "de": {
-        "text": "Ich gucke dir gerne beim Kochen zu."
-      }
-    },
-    "wordIds": [
-      "25392"
-    ],
-    "sourceIndex": 15392
-  },
-  {
     "id": "115411",
     "category": "daily",
     "level": "hard",
@@ -57639,23 +31266,6 @@ const phrasesDaily = [
     "sourceIndex": 15411
   },
   {
-    "id": "115439",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The bridal couple danced the first dance."
-      },
-      "de": {
-        "text": "Das Brautpaar tanzte den ersten Tanz."
-      }
-    },
-    "wordIds": [
-      "25439"
-    ],
-    "sourceIndex": 15439
-  },
-  {
     "id": "115448",
     "category": "daily",
     "level": "hard",
@@ -57671,23 +31281,6 @@ const phrasesDaily = [
       "25448"
     ],
     "sourceIndex": 15448
-  },
-  {
-    "id": "115453",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please read the description carefully."
-      },
-      "de": {
-        "text": "Bitte lesen Sie die Description sorgfältig."
-      }
-    },
-    "wordIds": [
-      "25453"
-    ],
-    "sourceIndex": 15453
   },
   {
     "id": "115456",
@@ -57826,23 +31419,6 @@ const phrasesDaily = [
     "sourceIndex": 15505
   },
   {
-    "id": "115533",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "I would like a lemonade, please."
-      },
-      "de": {
-        "text": "Ich hätte gerne eine Limonade, bitte."
-      }
-    },
-    "wordIds": [
-      "25533"
-    ],
-    "sourceIndex": 15533
-  },
-  {
     "id": "115537",
     "category": "daily",
     "level": "hard",
@@ -57858,40 +31434,6 @@ const phrasesDaily = [
       "25537"
     ],
     "sourceIndex": 15537
-  },
-  {
-    "id": "115548",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The local association meets next week."
-      },
-      "de": {
-        "text": "Der Ortsverband trifft sich nächste Woche."
-      }
-    },
-    "wordIds": [
-      "25548"
-    ],
-    "sourceIndex": 15548
-  },
-  {
-    "id": "115552",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "His experience is a big advantage."
-      },
-      "de": {
-        "text": "Seine Erfahrung ist ein großer Pluspunkt."
-      }
-    },
-    "wordIds": [
-      "25552"
-    ],
-    "sourceIndex": 15552
   },
   {
     "id": "115553",
@@ -57943,40 +31485,6 @@ const phrasesDaily = [
       "25560"
     ],
     "sourceIndex": 15560
-  },
-  {
-    "id": "115571",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I packed my sleeping bag for the hike."
-      },
-      "de": {
-        "text": "Ich packte meinen Schlafsack für die Wanderung ein."
-      }
-    },
-    "wordIds": [
-      "25571"
-    ],
-    "sourceIndex": 15571
-  },
-  {
-    "id": "115575",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The way to school is long for many children."
-      },
-      "de": {
-        "text": "Der Schulweg ist für viele Kinder lang."
-      }
-    },
-    "wordIds": [
-      "25575"
-    ],
-    "sourceIndex": 15575
   },
   {
     "id": "115579",
@@ -58045,57 +31553,6 @@ const phrasesDaily = [
       "25595"
     ],
     "sourceIndex": 15595
-  },
-  {
-    "id": "115604",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The man was arrested."
-      },
-      "de": {
-        "text": "Der Mann wurde verhaftet."
-      }
-    },
-    "wordIds": [
-      "25604"
-    ],
-    "sourceIndex": 15604
-  },
-  {
-    "id": "115613",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please show your ID."
-      },
-      "de": {
-        "text": "Bitte zeigen Sie Ihren Ausweis vor."
-      }
-    },
-    "wordIds": [
-      "25613"
-    ],
-    "sourceIndex": 15613
-  },
-  {
-    "id": "115620",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The guard opened the gate."
-      },
-      "de": {
-        "text": "Der Wärter öffnete das Tor."
-      }
-    },
-    "wordIds": [
-      "25620"
-    ],
-    "sourceIndex": 15620
   },
   {
     "id": "115627",
@@ -58200,23 +31657,6 @@ const phrasesDaily = [
     "sourceIndex": 15648
   },
   {
-    "id": "115650",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The lifeguard whistles if someone runs."
-      },
-      "de": {
-        "text": "Der Bademeister pfeift, wenn jemand rennt."
-      }
-    },
-    "wordIds": [
-      "25650"
-    ],
-    "sourceIndex": 15650
-  },
-  {
     "id": "115660",
     "category": "daily",
     "level": "hard",
@@ -58285,23 +31725,6 @@ const phrasesDaily = [
     "sourceIndex": 15684
   },
   {
-    "id": "115691",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I am writing with my new fountain pen."
-      },
-      "de": {
-        "text": "Ich schreibe mit meinem neuen Füller."
-      }
-    },
-    "wordIds": [
-      "25691"
-    ],
-    "sourceIndex": 15691
-  },
-  {
     "id": "115693",
     "category": "daily",
     "level": "medium",
@@ -58317,40 +31740,6 @@ const phrasesDaily = [
       "25693"
     ],
     "sourceIndex": 15693
-  },
-  {
-    "id": "115698",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Turn off the TV and come eat!"
-      },
-      "de": {
-        "text": "Mach die Glotze aus und komm essen!"
-      }
-    },
-    "wordIds": [
-      "25698"
-    ],
-    "sourceIndex": 15698
-  },
-  {
-    "id": "115701",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "In rainy weather, I always wear rubber boots."
-      },
-      "de": {
-        "text": "Bei Regenwetter trage ich immer Gummistiefel."
-      }
-    },
-    "wordIds": [
-      "25701"
-    ],
-    "sourceIndex": 15701
   },
   {
     "id": "115702",
@@ -58370,23 +31759,6 @@ const phrasesDaily = [
     "sourceIndex": 15702
   },
   {
-    "id": "115703",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My half-brother lives in another city."
-      },
-      "de": {
-        "text": "Mein Halbbruder lebt in einer anderen Stadt."
-      }
-    },
-    "wordIds": [
-      "25703"
-    ],
-    "sourceIndex": 15703
-  },
-  {
     "id": "115710",
     "category": "daily",
     "level": "medium",
@@ -58402,23 +31774,6 @@ const phrasesDaily = [
       "25710"
     ],
     "sourceIndex": 15710
-  },
-  {
-    "id": "115719",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The number of internet users is increasing worldwide."
-      },
-      "de": {
-        "text": "Die Zahl der Internetnutzer steigt weltweit."
-      }
-    },
-    "wordIds": [
-      "25719"
-    ],
-    "sourceIndex": 15719
   },
   {
     "id": "115734",
@@ -58540,40 +31895,6 @@ const phrasesDaily = [
     "sourceIndex": 15782
   },
   {
-    "id": "115784",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "My parents-in-law are visiting us next week."
-      },
-      "de": {
-        "text": "Meine Schwiegereltern besuchen uns nächste Woche."
-      }
-    },
-    "wordIds": [
-      "25784"
-    ],
-    "sourceIndex": 15784
-  },
-  {
-    "id": "115792",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We could see the solar eclipse last night."
-      },
-      "de": {
-        "text": "Wir konnten die Sonnenfinsternis gestern Abend sehen."
-      }
-    },
-    "wordIds": [
-      "25792"
-    ],
-    "sourceIndex": 15792
-  },
-  {
     "id": "115793",
     "category": "daily",
     "level": "hard",
@@ -58591,23 +31912,6 @@ const phrasesDaily = [
     "sourceIndex": 15793
   },
   {
-    "id": "115802",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The water in the lake was murky."
-      },
-      "de": {
-        "text": "Das Wasser im See war trüb."
-      }
-    },
-    "wordIds": [
-      "25802"
-    ],
-    "sourceIndex": 15802
-  },
-  {
     "id": "115805",
     "category": "daily",
     "level": "hard",
@@ -58623,40 +31927,6 @@ const phrasesDaily = [
       "25805"
     ],
     "sourceIndex": 15805
-  },
-  {
-    "id": "115807",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I would like to exchange this shirt."
-      },
-      "de": {
-        "text": "Ich möchte dieses Hemd umtauschen."
-      }
-    },
-    "wordIds": [
-      "25807"
-    ],
-    "sourceIndex": 15807
-  },
-  {
-    "id": "115828",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Despite the rain, we had to continue walking."
-      },
-      "de": {
-        "text": "Trotz des Regens mussten wir weiterlaufen."
-      }
-    },
-    "wordIds": [
-      "25828"
-    ],
-    "sourceIndex": 15828
   },
   {
     "id": "115836",
@@ -58693,23 +31963,6 @@ const phrasesDaily = [
     "sourceIndex": 15842
   },
   {
-    "id": "115845",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The graduation ceremony will take place next week."
-      },
-      "de": {
-        "text": "Die Abschlussfeier findet nächste Woche statt."
-      }
-    },
-    "wordIds": [
-      "25845"
-    ],
-    "sourceIndex": 15845
-  },
-  {
     "id": "115855",
     "category": "daily",
     "level": "medium",
@@ -58725,40 +31978,6 @@ const phrasesDaily = [
       "25855"
     ],
     "sourceIndex": 15855
-  },
-  {
-    "id": "115857",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "There were many interesting things to buy at the bazaar."
-      },
-      "de": {
-        "text": "Auf dem Basar gab es viele interessante Dinge zu kaufen."
-      }
-    },
-    "wordIds": [
-      "25857"
-    ],
-    "sourceIndex": 15857
-  },
-  {
-    "id": "115865",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The bus ride to the beach took an hour."
-      },
-      "de": {
-        "text": "Die Busfahrt zum Strand dauerte eine Stunde."
-      }
-    },
-    "wordIds": [
-      "25865"
-    ],
-    "sourceIndex": 15865
   },
   {
     "id": "115867",
@@ -58795,40 +32014,6 @@ const phrasesDaily = [
     "sourceIndex": 15870
   },
   {
-    "id": "115875",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Our dachshund is very playful."
-      },
-      "de": {
-        "text": "Unser Dackel ist sehr verspielt."
-      }
-    },
-    "wordIds": [
-      "25875"
-    ],
-    "sourceIndex": 15875
-  },
-  {
-    "id": "115884",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The trousers shrunk in the wash."
-      },
-      "de": {
-        "text": "Die Hose ist beim Waschen eingelaufen."
-      }
-    },
-    "wordIds": [
-      "25884"
-    ],
-    "sourceIndex": 15884
-  },
-  {
     "id": "115919",
     "category": "daily",
     "level": "hard",
@@ -58846,23 +32031,6 @@ const phrasesDaily = [
     "sourceIndex": 15919
   },
   {
-    "id": "115924",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Don't forget to water the flowers."
-      },
-      "de": {
-        "text": "Vergiss nicht, die Blumen zu gießen."
-      }
-    },
-    "wordIds": [
-      "25924"
-    ],
-    "sourceIndex": 15924
-  },
-  {
     "id": "115937",
     "category": "daily",
     "level": "hard",
@@ -58878,40 +32046,6 @@ const phrasesDaily = [
       "25937"
     ],
     "sourceIndex": 15937
-  },
-  {
-    "id": "115943",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My youth was full of adventures."
-      },
-      "de": {
-        "text": "Meine Jugendzeit war voller Abenteuer."
-      }
-    },
-    "wordIds": [
-      "25943"
-    ],
-    "sourceIndex": 15943
-  },
-  {
-    "id": "115956",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My life partner and I are planning a trip."
-      },
-      "de": {
-        "text": "Mein Lebenspartner und ich planen eine Reise."
-      }
-    },
-    "wordIds": [
-      "25956"
-    ],
-    "sourceIndex": 15956
   },
   {
     "id": "115959",
@@ -58948,23 +32082,6 @@ const phrasesDaily = [
     "sourceIndex": 15972
   },
   {
-    "id": "115973",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "He rides his moped to work."
-      },
-      "de": {
-        "text": "Er fährt mit seinem Mofa zur Arbeit."
-      }
-    },
-    "wordIds": [
-      "25973"
-    ],
-    "sourceIndex": 15973
-  },
-  {
     "id": "115991",
     "category": "daily",
     "level": "medium",
@@ -58997,40 +32114,6 @@ const phrasesDaily = [
       "25994"
     ],
     "sourceIndex": 15994
-  },
-  {
-    "id": "116008",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I love Spätzle with sauce."
-      },
-      "de": {
-        "text": "Ich liebe Spätzle mit Soße."
-      }
-    },
-    "wordIds": [
-      "26008"
-    ],
-    "sourceIndex": 16008
-  },
-  {
-    "id": "116011",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Press Ctrl + C to copy."
-      },
-      "de": {
-        "text": "Drücken Sie Strg + C zum Kopieren."
-      }
-    },
-    "wordIds": [
-      "26011"
-    ],
-    "sourceIndex": 16011
   },
   {
     "id": "116015",
@@ -59101,23 +32184,6 @@ const phrasesDaily = [
     "sourceIndex": 16050
   },
   {
-    "id": "116052",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Berlin is the second largest city in Germany."
-      },
-      "de": {
-        "text": "Berlin ist die zweitgrösste Stadt Deutschlands."
-      }
-    },
-    "wordIds": [
-      "26052"
-    ],
-    "sourceIndex": 16052
-  },
-  {
     "id": "116059",
     "category": "daily",
     "level": "hard",
@@ -59186,40 +32252,6 @@ const phrasesDaily = [
     "sourceIndex": 16075
   },
   {
-    "id": "116078",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The handler of the request will get in touch soon."
-      },
-      "de": {
-        "text": "Der Bearbeiter der Anfrage meldet sich bald."
-      }
-    },
-    "wordIds": [
-      "26078"
-    ],
-    "sourceIndex": 16078
-  },
-  {
-    "id": "116086",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He wants to travel around the whole world."
-      },
-      "de": {
-        "text": "Er möchte die ganze Welt bereisen."
-      }
-    },
-    "wordIds": [
-      "26086"
-    ],
-    "sourceIndex": 16086
-  },
-  {
     "id": "116093",
     "category": "daily",
     "level": "hard",
@@ -59235,23 +32267,6 @@ const phrasesDaily = [
       "26093"
     ],
     "sourceIndex": 16093
-  },
-  {
-    "id": "116096",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Would you like a piece of cake?"
-      },
-      "de": {
-        "text": "Möchtest du ein Stück Cake?"
-      }
-    },
-    "wordIds": [
-      "26096"
-    ],
-    "sourceIndex": 16096
   },
   {
     "id": "116099",
@@ -59305,23 +32320,6 @@ const phrasesDaily = [
     "sourceIndex": 16132
   },
   {
-    "id": "116136",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The basic rule is to always be polite."
-      },
-      "de": {
-        "text": "Die Grundregel ist, immer höflich zu sein."
-      }
-    },
-    "wordIds": [
-      "26136"
-    ],
-    "sourceIndex": 16136
-  },
-  {
     "id": "116144",
     "category": "daily",
     "level": "hard",
@@ -59356,23 +32354,6 @@ const phrasesDaily = [
     "sourceIndex": 16156
   },
   {
-    "id": "116204",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The new female intern starts next week."
-      },
-      "de": {
-        "text": "Die neue Praktikantin beginnt nächste Woche."
-      }
-    },
-    "wordIds": [
-      "26204"
-    ],
-    "sourceIndex": 16204
-  },
-  {
     "id": "116209",
     "category": "daily",
     "level": "medium",
@@ -59388,57 +32369,6 @@ const phrasesDaily = [
       "26209"
     ],
     "sourceIndex": 16209
-  },
-  {
-    "id": "116215",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Regional transport is often overcrowded."
-      },
-      "de": {
-        "text": "Der Regionalverkehr ist oft überfüllt."
-      }
-    },
-    "wordIds": [
-      "26215"
-    ],
-    "sourceIndex": 16215
-  },
-  {
-    "id": "116226",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He took the shovel to clear away the snow."
-      },
-      "de": {
-        "text": "Er nahm die Schippe, um den Schnee wegzuschaufeln."
-      }
-    },
-    "wordIds": [
-      "26226"
-    ],
-    "sourceIndex": 16226
-  },
-  {
-    "id": "116233",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The singing child delighted everyone."
-      },
-      "de": {
-        "text": "Das singende Kind erfreute alle."
-      }
-    },
-    "wordIds": [
-      "26233"
-    ],
-    "sourceIndex": 16233
   },
   {
     "id": "116252",
@@ -59473,23 +32403,6 @@ const phrasesDaily = [
       "26257"
     ],
     "sourceIndex": 16257
-  },
-  {
-    "id": "116261",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The changing room was very full after the game."
-      },
-      "de": {
-        "text": "Die Umkleide war nach dem Spiel sehr voll."
-      }
-    },
-    "wordIds": [
-      "26261"
-    ],
-    "sourceIndex": 16261
   },
   {
     "id": "116278",
@@ -59594,23 +32507,6 @@ const phrasesDaily = [
     "sourceIndex": 16301
   },
   {
-    "id": "116305",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He is the second best player on the team."
-      },
-      "de": {
-        "text": "Er ist der zweitbeste Spieler im Team."
-      }
-    },
-    "wordIds": [
-      "26305"
-    ],
-    "sourceIndex": 16305
-  },
-  {
     "id": "116307",
     "category": "daily",
     "level": "hard",
@@ -59626,40 +32522,6 @@ const phrasesDaily = [
       "26307"
     ],
     "sourceIndex": 16307
-  },
-  {
-    "id": "116323",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He yelled at me for no reason."
-      },
-      "de": {
-        "text": "Er hat mich ohne Grund angeschrien."
-      }
-    },
-    "wordIds": [
-      "26323"
-    ],
-    "sourceIndex": 16323
-  },
-  {
-    "id": "116336",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He held a baseball bat in his hand."
-      },
-      "de": {
-        "text": "Er hielt einen Baseballschläger in der Hand."
-      }
-    },
-    "wordIds": [
-      "26336"
-    ],
-    "sourceIndex": 16336
   },
   {
     "id": "116343",
@@ -59747,23 +32609,6 @@ const phrasesDaily = [
     "sourceIndex": 16374
   },
   {
-    "id": "116375",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I would like ice cubes in my drink."
-      },
-      "de": {
-        "text": "Ich hätte gerne Eiswürfel in meinem Getränk."
-      }
-    },
-    "wordIds": [
-      "26375"
-    ],
-    "sourceIndex": 16375
-  },
-  {
     "id": "116385",
     "category": "daily",
     "level": "hard",
@@ -59830,23 +32675,6 @@ const phrasesDaily = [
       "26396"
     ],
     "sourceIndex": 16396
-  },
-  {
-    "id": "116400",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The child was rescued from the burning house."
-      },
-      "de": {
-        "text": "Das Kind wurde aus dem brennenden Haus gerettet."
-      }
-    },
-    "wordIds": [
-      "26400"
-    ],
-    "sourceIndex": 16400
   },
   {
     "id": "116403",
@@ -59917,23 +32745,6 @@ const phrasesDaily = [
     "sourceIndex": 16416
   },
   {
-    "id": "116422",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The first half-year was very successful."
-      },
-      "de": {
-        "text": "Die erste Jahreshälfte war sehr erfolgreich."
-      }
-    },
-    "wordIds": [
-      "26422"
-    ],
-    "sourceIndex": 16422
-  },
-  {
     "id": "116443",
     "category": "daily",
     "level": "hard",
@@ -59949,23 +32760,6 @@ const phrasesDaily = [
       "26443"
     ],
     "sourceIndex": 16443
-  },
-  {
-    "id": "116445",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My daughter is now in middle school."
-      },
-      "de": {
-        "text": "Meine Tochter ist jetzt in der Mittelstufe."
-      }
-    },
-    "wordIds": [
-      "26445"
-    ],
-    "sourceIndex": 16445
   },
   {
     "id": "116447",
@@ -60017,74 +32811,6 @@ const phrasesDaily = [
       "26452"
     ],
     "sourceIndex": 16452
-  },
-  {
-    "id": "116456",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The local association meets every month."
-      },
-      "de": {
-        "text": "Der Ortsverein trifft sich jeden Monat."
-      }
-    },
-    "wordIds": [
-      "26456"
-    ],
-    "sourceIndex": 16456
-  },
-  {
-    "id": "116460",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I like pasta with a lot of Parmesan."
-      },
-      "de": {
-        "text": "Ich mag Nudeln mit viel Parmesan."
-      }
-    },
-    "wordIds": [
-      "26460"
-    ],
-    "sourceIndex": 16460
-  },
-  {
-    "id": "116484",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We are planning a round trip through Europe."
-      },
-      "de": {
-        "text": "Wir planen eine Rundreise durch Europa."
-      }
-    },
-    "wordIds": [
-      "26484"
-    ],
-    "sourceIndex": 16484
-  },
-  {
-    "id": "116488",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The floating iceberg was huge."
-      },
-      "de": {
-        "text": "Der schwimmende Eisberg war riesig."
-      }
-    },
-    "wordIds": [
-      "26488"
-    ],
-    "sourceIndex": 16488
   },
   {
     "id": "116494",
@@ -60189,23 +32915,6 @@ const phrasesDaily = [
     "sourceIndex": 16516
   },
   {
-    "id": "116518",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "A little droplet of water fell on the table."
-      },
-      "de": {
-        "text": "Ein kleines Tröpfchen Wasser fiel auf den Tisch."
-      }
-    },
-    "wordIds": [
-      "26518"
-    ],
-    "sourceIndex": 16518
-  },
-  {
     "id": "116523",
     "category": "daily",
     "level": "hard",
@@ -60238,23 +32947,6 @@ const phrasesDaily = [
       "26534"
     ],
     "sourceIndex": 16534
-  },
-  {
-    "id": "116551",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We have to drive away now."
-      },
-      "de": {
-        "text": "Wir müssen jetzt wegfahren."
-      }
-    },
-    "wordIds": [
-      "26551"
-    ],
-    "sourceIndex": 16551
   },
   {
     "id": "116552",
@@ -60376,23 +33068,6 @@ const phrasesDaily = [
     "sourceIndex": 16621
   },
   {
-    "id": "116622",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "My driving instructor is very patient."
-      },
-      "de": {
-        "text": "Mein Fahrlehrer ist sehr geduldig."
-      }
-    },
-    "wordIds": [
-      "26622"
-    ],
-    "sourceIndex": 16622
-  },
-  {
     "id": "116636",
     "category": "daily",
     "level": "hard",
@@ -60427,57 +33102,6 @@ const phrasesDaily = [
     "sourceIndex": 16638
   },
   {
-    "id": "116649",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "She has light brown hair."
-      },
-      "de": {
-        "text": "Sie hat hellbraune Haare."
-      }
-    },
-    "wordIds": [
-      "26649"
-    ],
-    "sourceIndex": 16649
-  },
-  {
-    "id": "116651",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He works as an assistant in the library."
-      },
-      "de": {
-        "text": "Er arbeitet als Hilfskraft in der Bibliothek."
-      }
-    },
-    "wordIds": [
-      "26651"
-    ],
-    "sourceIndex": 16651
-  },
-  {
-    "id": "116652",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I love fresh raspberries in summer."
-      },
-      "de": {
-        "text": "Ich liebe frische Himbeeren im Sommer."
-      }
-    },
-    "wordIds": [
-      "26652"
-    ],
-    "sourceIndex": 16652
-  },
-  {
     "id": "116656",
     "category": "daily",
     "level": "hard",
@@ -60510,40 +33134,6 @@ const phrasesDaily = [
       "26660"
     ],
     "sourceIndex": 16660
-  },
-  {
-    "id": "116670",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "During carnival, the revelers dress up."
-      },
-      "de": {
-        "text": "An Karneval verkleiden sich die Jecken."
-      }
-    },
-    "wordIds": [
-      "26670"
-    ],
-    "sourceIndex": 16670
-  },
-  {
-    "id": "116671",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The jogger runs in the park every morning."
-      },
-      "de": {
-        "text": "Der Jogger läuft jeden Morgen im Park."
-      }
-    },
-    "wordIds": [
-      "26671"
-    ],
-    "sourceIndex": 16671
   },
   {
     "id": "116672",
@@ -60648,23 +33238,6 @@ const phrasesDaily = [
     "sourceIndex": 16699
   },
   {
-    "id": "116702",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Children like to snack on sweets."
-      },
-      "de": {
-        "text": "Kinder naschen gerne Süßigkeiten."
-      }
-    },
-    "wordIds": [
-      "26702"
-    ],
-    "sourceIndex": 16702
-  },
-  {
     "id": "116716",
     "category": "daily",
     "level": "medium",
@@ -60731,23 +33304,6 @@ const phrasesDaily = [
       "26726"
     ],
     "sourceIndex": 16726
-  },
-  {
-    "id": "116730",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The regional train runs every thirty minutes."
-      },
-      "de": {
-        "text": "Die Regionalbahn fährt alle dreißig Minuten."
-      }
-    },
-    "wordIds": [
-      "26730"
-    ],
-    "sourceIndex": 16730
   },
   {
     "id": "116734",
@@ -60818,57 +33374,6 @@ const phrasesDaily = [
     "sourceIndex": 16748
   },
   {
-    "id": "116756",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The skater showed impressive tricks in the park."
-      },
-      "de": {
-        "text": "Der Skater zeigte beeindruckende Tricks im Park."
-      }
-    },
-    "wordIds": [
-      "26756"
-    ],
-    "sourceIndex": 16756
-  },
-  {
-    "id": "116772",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She prepared a small surprise for her birthday."
-      },
-      "de": {
-        "text": "Sie bereitete eine kleine Surprise für ihren Geburtstag vor."
-      }
-    },
-    "wordIds": [
-      "26772"
-    ],
-    "sourceIndex": 16772
-  },
-  {
-    "id": "116777",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The renovation work on the house is still ongoing."
-      },
-      "de": {
-        "text": "Die Umbauarbeiten am Haus dauern noch an."
-      }
-    },
-    "wordIds": [
-      "26777"
-    ],
-    "sourceIndex": 16777
-  },
-  {
     "id": "116778",
     "category": "daily",
     "level": "hard",
@@ -60884,23 +33389,6 @@ const phrasesDaily = [
       "26778"
     ],
     "sourceIndex": 16778
-  },
-  {
-    "id": "116782",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The lesson started on time."
-      },
-      "de": {
-        "text": "Die Unterrichtsstunde begann pünktlich."
-      }
-    },
-    "wordIds": [
-      "26782"
-    ],
-    "sourceIndex": 16782
   },
   {
     "id": "116783",
@@ -60937,23 +33425,6 @@ const phrasesDaily = [
     "sourceIndex": 16787
   },
   {
-    "id": "116790",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The factory pollutes the environment."
-      },
-      "de": {
-        "text": "Die Fabrik verschmutzt die Umwelt."
-      }
-    },
-    "wordIds": [
-      "26790"
-    ],
-    "sourceIndex": 16790
-  },
-  {
     "id": "116804",
     "category": "daily",
     "level": "hard",
@@ -60969,40 +33440,6 @@ const phrasesDaily = [
       "26804"
     ],
     "sourceIndex": 16804
-  },
-  {
-    "id": "116805",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "He came back late."
-      },
-      "de": {
-        "text": "Er kam spät zurueck."
-      }
-    },
-    "wordIds": [
-      "26805"
-    ],
-    "sourceIndex": 16805
-  },
-  {
-    "id": "116807",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He has to oil the bicycle chain."
-      },
-      "de": {
-        "text": "Er muss die Fahrradkette ölen."
-      }
-    },
-    "wordIds": [
-      "26807"
-    ],
-    "sourceIndex": 16807
   },
   {
     "id": "116809",
@@ -61022,23 +33459,6 @@ const phrasesDaily = [
     "sourceIndex": 16809
   },
   {
-    "id": "116825",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "From this viewpoint, you have a great view."
-      },
-      "de": {
-        "text": "Von diesem Aussichtspunkt hat man eine tolle Sicht."
-      }
-    },
-    "wordIds": [
-      "26825"
-    ],
-    "sourceIndex": 16825
-  },
-  {
     "id": "116838",
     "category": "daily",
     "level": "hard",
@@ -61054,23 +33474,6 @@ const phrasesDaily = [
       "26838"
     ],
     "sourceIndex": 16838
-  },
-  {
-    "id": "116840",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The continuous rain lasted all night."
-      },
-      "de": {
-        "text": "Der Dauerregen hielt die ganze Nacht an."
-      }
-    },
-    "wordIds": [
-      "26840"
-    ],
-    "sourceIndex": 16840
   },
   {
     "id": "116851",
@@ -61122,23 +33525,6 @@ const phrasesDaily = [
       "26874"
     ],
     "sourceIndex": 16874
-  },
-  {
-    "id": "116889",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We often meet at the coffee house."
-      },
-      "de": {
-        "text": "Wir treffen uns oft im Kaffeehaus."
-      }
-    },
-    "wordIds": [
-      "26889"
-    ],
-    "sourceIndex": 16889
   },
   {
     "id": "116893",
@@ -61243,57 +33629,6 @@ const phrasesDaily = [
     "sourceIndex": 16905
   },
   {
-    "id": "116907",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Personal hygiene products are in the bathroom."
-      },
-      "de": {
-        "text": "Produkte für die Körperpflege sind im Bad."
-      }
-    },
-    "wordIds": [
-      "26907"
-    ],
-    "sourceIndex": 16907
-  },
-  {
-    "id": "116908",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Fill the bucket with water."
-      },
-      "de": {
-        "text": "Fülle den Kübel mit Wasser."
-      }
-    },
-    "wordIds": [
-      "26908"
-    ],
-    "sourceIndex": 16908
-  },
-  {
-    "id": "116915",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The teacher explained the task."
-      },
-      "de": {
-        "text": "Der Lehrende erklärte die Aufgabe."
-      }
-    },
-    "wordIds": [
-      "26915"
-    ],
-    "sourceIndex": 16915
-  },
-  {
     "id": "116919",
     "category": "daily",
     "level": "hard",
@@ -61326,40 +33661,6 @@ const phrasesDaily = [
       "26922"
     ],
     "sourceIndex": 16922
-  },
-  {
-    "id": "116932",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Many students have a mini-job to finance their studies."
-      },
-      "de": {
-        "text": "Viele Studenten haben einen Minijob, um ihr Studium zu finanzieren."
-      }
-    },
-    "wordIds": [
-      "26932"
-    ],
-    "sourceIndex": 16932
-  },
-  {
-    "id": "116935",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "You can read along if you like."
-      },
-      "de": {
-        "text": "Du kannst gerne mitlesen, wenn du möchtest."
-      }
-    },
-    "wordIds": [
-      "26935"
-    ],
-    "sourceIndex": 16935
   },
   {
     "id": "116941",
@@ -61430,23 +33731,6 @@ const phrasesDaily = [
     "sourceIndex": 16978
   },
   {
-    "id": "116990",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We sat on the bench in the park."
-      },
-      "de": {
-        "text": "Wir saßen auf der Sitzbank im Park."
-      }
-    },
-    "wordIds": [
-      "26990"
-    ],
-    "sourceIndex": 16990
-  },
-  {
     "id": "116992",
     "category": "daily",
     "level": "hard",
@@ -61481,40 +33765,6 @@ const phrasesDaily = [
     "sourceIndex": 16995
   },
   {
-    "id": "116997",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "What's on the menu today?"
-      },
-      "de": {
-        "text": "Was steht heute auf dem Speiseplan?"
-      }
-    },
-    "wordIds": [
-      "26997"
-    ],
-    "sourceIndex": 16997
-  },
-  {
-    "id": "117010",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The topic of the day in the news was the economic crisis."
-      },
-      "de": {
-        "text": "Das Tagesthema in den Nachrichten war die Wirtschaftskrise."
-      }
-    },
-    "wordIds": [
-      "27010"
-    ],
-    "sourceIndex": 17010
-  },
-  {
     "id": "117014",
     "category": "daily",
     "level": "hard",
@@ -61532,23 +33782,6 @@ const phrasesDaily = [
     "sourceIndex": 17014
   },
   {
-    "id": "117025",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My great-grandson visits me every weekend."
-      },
-      "de": {
-        "text": "Mein Urenkel besucht mich jedes Wochenende."
-      }
-    },
-    "wordIds": [
-      "27025"
-    ],
-    "sourceIndex": 17025
-  },
-  {
     "id": "117036",
     "category": "daily",
     "level": "hard",
@@ -61564,23 +33797,6 @@ const phrasesDaily = [
       "27036"
     ],
     "sourceIndex": 17036
-  },
-  {
-    "id": "117038",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The doctor makes his daily rounds."
-      },
-      "de": {
-        "text": "Der Arzt macht seine tägliche Visite."
-      }
-    },
-    "wordIds": [
-      "27038"
-    ],
-    "sourceIndex": 17038
   },
   {
     "id": "117056",
@@ -61634,23 +33850,6 @@ const phrasesDaily = [
     "sourceIndex": 17065
   },
   {
-    "id": "117068",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The initial letter of the name is \"M\"."
-      },
-      "de": {
-        "text": "Der Anfangsbuchstabe des Namens ist \"M\"."
-      }
-    },
-    "wordIds": [
-      "27068"
-    ],
-    "sourceIndex": 17068
-  },
-  {
     "id": "117075",
     "category": "daily",
     "level": "hard",
@@ -61685,23 +33884,6 @@ const phrasesDaily = [
     "sourceIndex": 17077
   },
   {
-    "id": "117094",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "His name is at the top of the high score list."
-      },
-      "de": {
-        "text": "Sein Name steht ganz oben auf der Bestenliste."
-      }
-    },
-    "wordIds": [
-      "27094"
-    ],
-    "sourceIndex": 17094
-  },
-  {
     "id": "117095",
     "category": "daily",
     "level": "hard",
@@ -61719,23 +33901,6 @@ const phrasesDaily = [
     "sourceIndex": 17095
   },
   {
-    "id": "117105",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I like to drink a chai latte."
-      },
-      "de": {
-        "text": "Ich trinke gerne einen Chai Latte."
-      }
-    },
-    "wordIds": [
-      "27105"
-    ],
-    "sourceIndex": 17105
-  },
-  {
     "id": "117115",
     "category": "daily",
     "level": "hard",
@@ -61751,74 +33916,6 @@ const phrasesDaily = [
       "27115"
     ],
     "sourceIndex": 17115
-  },
-  {
-    "id": "117119",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The table is square."
-      },
-      "de": {
-        "text": "Der Tisch ist eckig."
-      }
-    },
-    "wordIds": [
-      "27119"
-    ],
-    "sourceIndex": 17119
-  },
-  {
-    "id": "117121",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My child will start school next year."
-      },
-      "de": {
-        "text": "Mein Kind wird nächstes Jahr eingeschult."
-      }
-    },
-    "wordIds": [
-      "27121"
-    ],
-    "sourceIndex": 17121
-  },
-  {
-    "id": "117130",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "This electrical appliance consumes a lot of electricity."
-      },
-      "de": {
-        "text": "Dieses Elektrogerät verbraucht viel Strom."
-      }
-    },
-    "wordIds": [
-      "27130"
-    ],
-    "sourceIndex": 17130
-  },
-  {
-    "id": "117133",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I was very disappointed with the result."
-      },
-      "de": {
-        "text": "Ich war sehr enttäuscht über das Ergebnis."
-      }
-    },
-    "wordIds": [
-      "27133"
-    ],
-    "sourceIndex": 17133
   },
   {
     "id": "117142",
@@ -61957,108 +34054,6 @@ const phrasesDaily = [
     "sourceIndex": 17192
   },
   {
-    "id": "117196",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The head chef prepared an exquisite menu."
-      },
-      "de": {
-        "text": "Der Küchenchef bereitete ein exquisites Menü zu."
-      }
-    },
-    "wordIds": [
-      "27196"
-    ],
-    "sourceIndex": 17196
-  },
-  {
-    "id": "117197",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Our Labrador loves to swim in the lake."
-      },
-      "de": {
-        "text": "Unser Labrador liebt es, im See zu schwimmen."
-      }
-    },
-    "wordIds": [
-      "27197"
-    ],
-    "sourceIndex": 17197
-  },
-  {
-    "id": "117202",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The swimmer was a real lifesaver."
-      },
-      "de": {
-        "text": "Der Schwimmer war ein echter Lebensretter."
-      }
-    },
-    "wordIds": [
-      "27202"
-    ],
-    "sourceIndex": 17202
-  },
-  {
-    "id": "117205",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I downloaded a reading sample of the new novel."
-      },
-      "de": {
-        "text": "Ich habe eine Leseprobe des neuen Romans heruntergeladen."
-      }
-    },
-    "wordIds": [
-      "27205"
-    ],
-    "sourceIndex": 17205
-  },
-  {
-    "id": "117209",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I like fries with mayonnaise."
-      },
-      "de": {
-        "text": "Ich mag Pommes mit Mayonnaise."
-      }
-    },
-    "wordIds": [
-      "27209"
-    ],
-    "sourceIndex": 17209
-  },
-  {
-    "id": "117211",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The measuring device showed a high temperature."
-      },
-      "de": {
-        "text": "Das Messgerät zeigte eine hohe Temperatur an."
-      }
-    },
-    "wordIds": [
-      "27211"
-    ],
-    "sourceIndex": 17211
-  },
-  {
     "id": "117215",
     "category": "daily",
     "level": "hard",
@@ -62127,40 +34122,6 @@ const phrasesDaily = [
     "sourceIndex": 17238
   },
   {
-    "id": "117245",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We hiked up the castle hill to enjoy the view."
-      },
-      "de": {
-        "text": "Wir wanderten auf den Schlossberg, um die Aussicht zu genießen."
-      }
-    },
-    "wordIds": [
-      "27245"
-    ],
-    "sourceIndex": 17245
-  },
-  {
-    "id": "117254",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I have heard the song seven times."
-      },
-      "de": {
-        "text": "Ich habe das Lied siebenmal gehört."
-      }
-    },
-    "wordIds": [
-      "27254"
-    ],
-    "sourceIndex": 17254
-  },
-  {
     "id": "117257",
     "category": "daily",
     "level": "hard",
@@ -62210,40 +34171,6 @@ const phrasesDaily = [
       "27266"
     ],
     "sourceIndex": 17266
-  },
-  {
-    "id": "117267",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He always carries a pocket knife."
-      },
-      "de": {
-        "text": "Er hat immer ein Taschenmesser dabei."
-      }
-    },
-    "wordIds": [
-      "27267"
-    ],
-    "sourceIndex": 17267
-  },
-  {
-    "id": "117269",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He recorded the music on a magnetic tape."
-      },
-      "de": {
-        "text": "Er nahm die Musik auf ein Tonband auf."
-      }
-    },
-    "wordIds": [
-      "27269"
-    ],
-    "sourceIndex": 17269
   },
   {
     "id": "117275",
@@ -62348,40 +34275,6 @@ const phrasesDaily = [
     "sourceIndex": 17312
   },
   {
-    "id": "117326",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We need to agree on an appointment."
-      },
-      "de": {
-        "text": "Wir müssen einen Termin abmachen."
-      }
-    },
-    "wordIds": [
-      "27326"
-    ],
-    "sourceIndex": 17326
-  },
-  {
-    "id": "117335",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My brother works as a geriatric nurse."
-      },
-      "de": {
-        "text": "Mein Bruder arbeitet als Altenpfleger."
-      }
-    },
-    "wordIds": [
-      "27335"
-    ],
-    "sourceIndex": 17335
-  },
-  {
     "id": "117339",
     "category": "daily",
     "level": "hard",
@@ -62397,40 +34290,6 @@ const phrasesDaily = [
       "27339"
     ],
     "sourceIndex": 17339
-  },
-  {
-    "id": "117348",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He had to go to the immigration office to extend his residence permit."
-      },
-      "de": {
-        "text": "Er musste zur Ausländerbehörde, um seine Aufenthaltserlaubnis zu verlängern."
-      }
-    },
-    "wordIds": [
-      "27348"
-    ],
-    "sourceIndex": 17348
-  },
-  {
-    "id": "117350",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The children proudly showed their craft."
-      },
-      "de": {
-        "text": "Die Kinder zeigten stolz ihre Bastel."
-      }
-    },
-    "wordIds": [
-      "27350"
-    ],
-    "sourceIndex": 17350
   },
   {
     "id": "117361",
@@ -62450,57 +34309,6 @@ const phrasesDaily = [
     "sourceIndex": 17361
   },
   {
-    "id": "117372",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The food delivery took longer than expected."
-      },
-      "de": {
-        "text": "Die Delivery des Essens dauerte länger als erwartet."
-      }
-    },
-    "wordIds": [
-      "27372"
-    ],
-    "sourceIndex": 17372
-  },
-  {
-    "id": "117377",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The discussion round lasted two hours."
-      },
-      "de": {
-        "text": "Die Diskussionsrunde dauerte zwei Stunden."
-      }
-    },
-    "wordIds": [
-      "27377"
-    ],
-    "sourceIndex": 17377
-  },
-  {
-    "id": "117394",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The fable of the fox and the grapes is very well known."
-      },
-      "de": {
-        "text": "Die Fabel vom Fuchs und den Trauben ist sehr bekannt."
-      }
-    },
-    "wordIds": [
-      "27394"
-    ],
-    "sourceIndex": 17394
-  },
-  {
     "id": "117399",
     "category": "daily",
     "level": "hard",
@@ -62516,23 +34324,6 @@ const phrasesDaily = [
       "27399"
     ],
     "sourceIndex": 17399
-  },
-  {
-    "id": "117400",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "They are planning their honeymoon in Italy."
-      },
-      "de": {
-        "text": "Sie planen ihre Flitterwochen in Italien."
-      }
-    },
-    "wordIds": [
-      "27400"
-    ],
-    "sourceIndex": 17400
   },
   {
     "id": "117446",
@@ -62654,40 +34445,6 @@ const phrasesDaily = [
     "sourceIndex": 17517
   },
   {
-    "id": "117528",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The windshield wipers don't work well in this rain."
-      },
-      "de": {
-        "text": "Die Scheibenwischer funktionieren bei diesem Regen nicht gut."
-      }
-    },
-    "wordIds": [
-      "27528"
-    ],
-    "sourceIndex": 17528
-  },
-  {
-    "id": "117530",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We went across the lake in the inflatable boat."
-      },
-      "de": {
-        "text": "Wir fuhren mit dem Schlauchboot über den See."
-      }
-    },
-    "wordIds": [
-      "27530"
-    ],
-    "sourceIndex": 17530
-  },
-  {
     "id": "117533",
     "category": "daily",
     "level": "hard",
@@ -62722,23 +34479,6 @@ const phrasesDaily = [
     "sourceIndex": 17537
   },
   {
-    "id": "117542",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The skier skied quickly down the mountain."
-      },
-      "de": {
-        "text": "Der Skifahrer fuhr schnell den Berg hinunter."
-      }
-    },
-    "wordIds": [
-      "27542"
-    ],
-    "sourceIndex": 17542
-  },
-  {
     "id": "117564",
     "category": "daily",
     "level": "hard",
@@ -62754,23 +34494,6 @@ const phrasesDaily = [
       "27564"
     ],
     "sourceIndex": 17564
-  },
-  {
-    "id": "117574",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I still have five vacation days left."
-      },
-      "de": {
-        "text": "Ich habe noch fünf Urlaubstage übrig."
-      }
-    },
-    "wordIds": [
-      "27574"
-    ],
-    "sourceIndex": 17574
   },
   {
     "id": "117577",
@@ -62892,23 +34615,6 @@ const phrasesDaily = [
     "sourceIndex": 17635
   },
   {
-    "id": "117645",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The new educational center offers courses for all age groups."
-      },
-      "de": {
-        "text": "Das neue Bildungszentrum bietet Kurse für alle Altersgruppen an."
-      }
-    },
-    "wordIds": [
-      "27645"
-    ],
-    "sourceIndex": 17645
-  },
-  {
     "id": "117650",
     "category": "daily",
     "level": "hard",
@@ -62960,23 +34666,6 @@ const phrasesDaily = [
     "sourceIndex": 17677
   },
   {
-    "id": "117679",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She dreams of becoming a film star."
-      },
-      "de": {
-        "text": "Sie träumt davon, ein Filmstar zu werden."
-      }
-    },
-    "wordIds": [
-      "27679"
-    ],
-    "sourceIndex": 17679
-  },
-  {
     "id": "117683",
     "category": "daily",
     "level": "hard",
@@ -63011,23 +34700,6 @@ const phrasesDaily = [
     "sourceIndex": 17692
   },
   {
-    "id": "117706",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We meet at the main square."
-      },
-      "de": {
-        "text": "Wir treffen uns am Hauptplatz."
-      }
-    },
-    "wordIds": [
-      "27706"
-    ],
-    "sourceIndex": 17706
-  },
-  {
     "id": "117722",
     "category": "daily",
     "level": "hard",
@@ -63060,23 +34732,6 @@ const phrasesDaily = [
       "27727"
     ],
     "sourceIndex": 17727
-  },
-  {
-    "id": "117731",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He is a Cuban who lives in Berlin."
-      },
-      "de": {
-        "text": "Er ist ein Kubaner, der in Berlin lebt."
-      }
-    },
-    "wordIds": [
-      "27731"
-    ],
-    "sourceIndex": 17731
   },
   {
     "id": "117732",
@@ -63130,40 +34785,6 @@ const phrasesDaily = [
     "sourceIndex": 17747
   },
   {
-    "id": "117749",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The night watchman made his rounds through the city."
-      },
-      "de": {
-        "text": "Der Nachtwächter machte seine Runde durch die Stadt."
-      }
-    },
-    "wordIds": [
-      "27749"
-    ],
-    "sourceIndex": 17749
-  },
-  {
-    "id": "117768",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I need a rake to collect the leaves."
-      },
-      "de": {
-        "text": "Ich brauche einen Rechen, um die Blätter zu sammeln."
-      }
-    },
-    "wordIds": [
-      "27768"
-    ],
-    "sourceIndex": 17768
-  },
-  {
     "id": "117774",
     "category": "daily",
     "level": "hard",
@@ -63196,40 +34817,6 @@ const phrasesDaily = [
       "27781"
     ],
     "sourceIndex": 17781
-  },
-  {
-    "id": "117784",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The school routine can sometimes be very exhausting."
-      },
-      "de": {
-        "text": "Der Schulalltag kann manchmal sehr anstrengend sein."
-      }
-    },
-    "wordIds": [
-      "27784"
-    ],
-    "sourceIndex": 17784
-  },
-  {
-    "id": "117785",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "When do the school holidays start this year?"
-      },
-      "de": {
-        "text": "Wann beginnen die Schulferien in diesem Jahr?"
-      }
-    },
-    "wordIds": [
-      "27785"
-    ],
-    "sourceIndex": 17785
   },
   {
     "id": "117787",
@@ -63283,23 +34870,6 @@ const phrasesDaily = [
     "sourceIndex": 17796
   },
   {
-    "id": "117798",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We drive out of town to avoid traffic."
-      },
-      "de": {
-        "text": "Wir fahren stadtauswärts, um dem Verkehr zu entgehen."
-      }
-    },
-    "wordIds": [
-      "27798"
-    ],
-    "sourceIndex": 17798
-  },
-  {
     "id": "117808",
     "category": "daily",
     "level": "hard",
@@ -63315,23 +34885,6 @@ const phrasesDaily = [
       "27808"
     ],
     "sourceIndex": 17808
-  },
-  {
-    "id": "117809",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The dancing couple looked happy."
-      },
-      "de": {
-        "text": "Das tanzende Paar sah glücklich aus."
-      }
-    },
-    "wordIds": [
-      "27809"
-    ],
-    "sourceIndex": 17809
   },
   {
     "id": "117813",
@@ -63385,23 +34938,6 @@ const phrasesDaily = [
     "sourceIndex": 17825
   },
   {
-    "id": "117835",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Behind the house is a small patch of forest."
-      },
-      "de": {
-        "text": "Hinter dem Haus ist ein kleines Waldstück."
-      }
-    },
-    "wordIds": [
-      "27835"
-    ],
-    "sourceIndex": 17835
-  },
-  {
     "id": "117841",
     "category": "daily",
     "level": "medium",
@@ -63434,40 +34970,6 @@ const phrasesDaily = [
       "27863"
     ],
     "sourceIndex": 17863
-  },
-  {
-    "id": "117866",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "One eighth of the cake is left."
-      },
-      "de": {
-        "text": "Ein Achtel des Kuchens ist übrig."
-      }
-    },
-    "wordIds": [
-      "27866"
-    ],
-    "sourceIndex": 17866
-  },
-  {
-    "id": "117880",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The bank robber was caught by the police."
-      },
-      "de": {
-        "text": "Der Bankräuber wurde von der Polizei gefasst."
-      }
-    },
-    "wordIds": [
-      "27880"
-    ],
-    "sourceIndex": 17880
   },
   {
     "id": "117883",
@@ -63519,23 +35021,6 @@ const phrasesDaily = [
       "27894"
     ],
     "sourceIndex": 17894
-  },
-  {
-    "id": "117903",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "That is a three-dimensional model."
-      },
-      "de": {
-        "text": "Das ist ein dreidimensionales Modell."
-      }
-    },
-    "wordIds": [
-      "27903"
-    ],
-    "sourceIndex": 17903
   },
   {
     "id": "117914",
@@ -63623,40 +35108,6 @@ const phrasesDaily = [
     "sourceIndex": 17940
   },
   {
-    "id": "117942",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Before the performance, she had strong heart palpitations."
-      },
-      "de": {
-        "text": "Vor dem Auftritt hatte sie starkes Herzklopfen."
-      }
-    },
-    "wordIds": [
-      "27942"
-    ],
-    "sourceIndex": 17942
-  },
-  {
-    "id": "117947",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My grandmother loves to crochet."
-      },
-      "de": {
-        "text": "Meine Grossmutter liebt es zu häkeln."
-      }
-    },
-    "wordIds": [
-      "27947"
-    ],
-    "sourceIndex": 17947
-  },
-  {
     "id": "117953",
     "category": "daily",
     "level": "easy",
@@ -63742,23 +35193,6 @@ const phrasesDaily = [
     "sourceIndex": 17966
   },
   {
-    "id": "117972",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We have many canned foods for emergencies."
-      },
-      "de": {
-        "text": "Wir haben viele Konserven für Notfälle."
-      }
-    },
-    "wordIds": [
-      "27972"
-    ],
-    "sourceIndex": 17972
-  },
-  {
     "id": "117978",
     "category": "daily",
     "level": "hard",
@@ -63774,23 +35208,6 @@ const phrasesDaily = [
       "27978"
     ],
     "sourceIndex": 17978
-  },
-  {
-    "id": "117982",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The learning process can sometimes be lengthy."
-      },
-      "de": {
-        "text": "Der Lernprozess kann manchmal langwierig sein."
-      }
-    },
-    "wordIds": [
-      "27982"
-    ],
-    "sourceIndex": 17982
   },
   {
     "id": "117983",
@@ -63844,57 +35261,6 @@ const phrasesDaily = [
     "sourceIndex": 17990
   },
   {
-    "id": "117998",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He is a Nigerian."
-      },
-      "de": {
-        "text": "Er ist ein Nigerianer."
-      }
-    },
-    "wordIds": [
-      "27998"
-    ],
-    "sourceIndex": 17998
-  },
-  {
-    "id": "118007",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "There was a price increase in groceries."
-      },
-      "de": {
-        "text": "Es gab eine Preiserhöhung bei den Lebensmitteln."
-      }
-    },
-    "wordIds": [
-      "28007"
-    ],
-    "sourceIndex": 18007
-  },
-  {
-    "id": "118010",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Many private individuals invest in renewable energies."
-      },
-      "de": {
-        "text": "Viele Privatleute investieren in erneuerbare Energien."
-      }
-    },
-    "wordIds": [
-      "28010"
-    ],
-    "sourceIndex": 18010
-  },
-  {
     "id": "118014",
     "category": "daily",
     "level": "hard",
@@ -63946,40 +35312,6 @@ const phrasesDaily = [
     "sourceIndex": 18021
   },
   {
-    "id": "118028",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We are looking for a sleeping place for the night."
-      },
-      "de": {
-        "text": "Wir suchen einen Schlafplatz für die Nacht."
-      }
-    },
-    "wordIds": [
-      "28028"
-    ],
-    "sourceIndex": 18028
-  },
-  {
-    "id": "118032",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My sister goes to secondary school."
-      },
-      "de": {
-        "text": "Meine Schwester geht auf die Sekundarschule."
-      }
-    },
-    "wordIds": [
-      "28032"
-    ],
-    "sourceIndex": 18032
-  },
-  {
     "id": "118039",
     "category": "daily",
     "level": "hard",
@@ -64012,40 +35344,6 @@ const phrasesDaily = [
       "28047"
     ],
     "sourceIndex": 18047
-  },
-  {
-    "id": "118048",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "This sub-area of the project is very complex."
-      },
-      "de": {
-        "text": "Dieser Teilbereich des Projekts ist sehr komplex."
-      }
-    },
-    "wordIds": [
-      "28048"
-    ],
-    "sourceIndex": 18048
-  },
-  {
-    "id": "118063",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The video footage was handed over to the police."
-      },
-      "de": {
-        "text": "Das Videomaterial wurde der Polizei übergeben."
-      }
-    },
-    "wordIds": [
-      "28063"
-    ],
-    "sourceIndex": 18063
   },
   {
     "id": "118074",
@@ -64150,23 +35448,6 @@ const phrasesDaily = [
     "sourceIndex": 18121
   },
   {
-    "id": "118125",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "A small tree is growing in the garden."
-      },
-      "de": {
-        "text": "Im Garten wächst ein kleines Bäumchen."
-      }
-    },
-    "wordIds": [
-      "28125"
-    ],
-    "sourceIndex": 18125
-  },
-  {
     "id": "118135",
     "category": "daily",
     "level": "hard",
@@ -64216,23 +35497,6 @@ const phrasesDaily = [
       "28160"
     ],
     "sourceIndex": 18160
-  },
-  {
-    "id": "118164",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The professor hired a new assistant."
-      },
-      "de": {
-        "text": "Der Professor stellte einen neuen Gehilfen ein."
-      }
-    },
-    "wordIds": [
-      "28164"
-    ],
-    "sourceIndex": 18164
   },
   {
     "id": "118169",
@@ -64303,40 +35567,6 @@ const phrasesDaily = [
     "sourceIndex": 18189
   },
   {
-    "id": "118197",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The crab walks sideways on the beach."
-      },
-      "de": {
-        "text": "Die Krabbe läuft seitwärts am Strand."
-      }
-    },
-    "wordIds": [
-      "28197"
-    ],
-    "sourceIndex": 18197
-  },
-  {
-    "id": "118209",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Put some bay leaf in the soup."
-      },
-      "de": {
-        "text": "Gib etwas Lorbeer in die Suppe."
-      }
-    },
-    "wordIds": [
-      "28209"
-    ],
-    "sourceIndex": 18209
-  },
-  {
     "id": "118221",
     "category": "daily",
     "level": "hard",
@@ -64388,23 +35618,6 @@ const phrasesDaily = [
     "sourceIndex": 18229
   },
   {
-    "id": "118230",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We are spending our vacation on the Baltic Sea coast."
-      },
-      "de": {
-        "text": "Wir verbringen unseren Urlaub an der Ostseeküste."
-      }
-    },
-    "wordIds": [
-      "28230"
-    ],
-    "sourceIndex": 18230
-  },
-  {
     "id": "118235",
     "category": "daily",
     "level": "hard",
@@ -64437,74 +35650,6 @@ const phrasesDaily = [
       "28248"
     ],
     "sourceIndex": 18248
-  },
-  {
-    "id": "118254",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We were surprised by a sudden rain shower."
-      },
-      "de": {
-        "text": "Wir wurden von einem plötzlichen Regenschauer überrascht."
-      }
-    },
-    "wordIds": [
-      "28254"
-    ],
-    "sourceIndex": 18254
-  },
-  {
-    "id": "118257",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The price of crude oil has risen."
-      },
-      "de": {
-        "text": "Der Preis für Rohöl ist gestiegen."
-      }
-    },
-    "wordIds": [
-      "28257"
-    ],
-    "sourceIndex": 18257
-  },
-  {
-    "id": "118258",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I like to drink a glass of rosé in summer."
-      },
-      "de": {
-        "text": "Ich trinke gerne ein Glas Rosé im Sommer."
-      }
-    },
-    "wordIds": [
-      "28258"
-    ],
-    "sourceIndex": 18258
-  },
-  {
-    "id": "118259",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Going to bed is often a challenge for children."
-      },
-      "de": {
-        "text": "Das Schlafengehen ist für Kinder oft eine Herausforderung."
-      }
-    },
-    "wordIds": [
-      "28259"
-    ],
-    "sourceIndex": 18259
   },
   {
     "id": "118260",
@@ -64660,23 +35805,6 @@ const phrasesDaily = [
     "sourceIndex": 18284
   },
   {
-    "id": "118286",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I was looking for a telephone booth to make a call."
-      },
-      "de": {
-        "text": "Ich suchte eine Telefonzelle, um anzurufen."
-      }
-    },
-    "wordIds": [
-      "28286"
-    ],
-    "sourceIndex": 18286
-  },
-  {
     "id": "118288",
     "category": "daily",
     "level": "hard",
@@ -64728,23 +35856,6 @@ const phrasesDaily = [
     "sourceIndex": 18322
   },
   {
-    "id": "118334",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I live in a shared flat with three other students."
-      },
-      "de": {
-        "text": "Ich lebe in einer Wohngemeinschaft mit drei anderen Studenten."
-      }
-    },
-    "wordIds": [
-      "28334"
-    ],
-    "sourceIndex": 18334
-  },
-  {
     "id": "118338",
     "category": "daily",
     "level": "hard",
@@ -64762,40 +35873,6 @@ const phrasesDaily = [
     "sourceIndex": 18338
   },
   {
-    "id": "118342",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please cover the baby well."
-      },
-      "de": {
-        "text": "Bitte deck das Baby gut zu."
-      }
-    },
-    "wordIds": [
-      "28342"
-    ],
-    "sourceIndex": 18342
-  },
-  {
-    "id": "118345",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "They want to move in together next month."
-      },
-      "de": {
-        "text": "Sie wollen nächsten Monat zusammenziehen."
-      }
-    },
-    "wordIds": [
-      "28345"
-    ],
-    "sourceIndex": 18345
-  },
-  {
     "id": "118361",
     "category": "daily",
     "level": "hard",
@@ -64811,23 +35888,6 @@ const phrasesDaily = [
       "28361"
     ],
     "sourceIndex": 18361
-  },
-  {
-    "id": "118383",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I like mushrooms in my soup."
-      },
-      "de": {
-        "text": "Ich mag Champignons in meiner Suppe."
-      }
-    },
-    "wordIds": [
-      "28383"
-    ],
-    "sourceIndex": 18383
   },
   {
     "id": "118390",
@@ -64862,40 +35922,6 @@ const phrasesDaily = [
       "28398"
     ],
     "sourceIndex": 18398
-  },
-  {
-    "id": "118412",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Please show your ticket."
-      },
-      "de": {
-        "text": "Bitte zeigen Sie Ihren Fahrschein."
-      }
-    },
-    "wordIds": [
-      "28412"
-    ],
-    "sourceIndex": 18412
-  },
-  {
-    "id": "118416",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The festival tent was full of people."
-      },
-      "de": {
-        "text": "Das Festzelt war voller Menschen."
-      }
-    },
-    "wordIds": [
-      "28416"
-    ],
-    "sourceIndex": 18416
   },
   {
     "id": "118419",
@@ -64964,23 +35990,6 @@ const phrasesDaily = [
       "28465"
     ],
     "sourceIndex": 18465
-  },
-  {
-    "id": "118466",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please enter your password."
-      },
-      "de": {
-        "text": "Bitte geben Sie Ihr Kennwort ein."
-      }
-    },
-    "wordIds": [
-      "28466"
-    ],
-    "sourceIndex": 18466
   },
   {
     "id": "118468",
@@ -65085,57 +36094,6 @@ const phrasesDaily = [
     "sourceIndex": 18513
   },
   {
-    "id": "118519",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The nursing service comes every morning."
-      },
-      "de": {
-        "text": "Der Pflegedienst kommt jeden Morgen."
-      }
-    },
-    "wordIds": [
-      "28519"
-    ],
-    "sourceIndex": 18519
-  },
-  {
-    "id": "118528",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The car belongs to the upper price range."
-      },
-      "de": {
-        "text": "Das Auto gehört zur oberen Preisklasse."
-      }
-    },
-    "wordIds": [
-      "28528"
-    ],
-    "sourceIndex": 18528
-  },
-  {
-    "id": "118533",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Thick smoke rose from the chimney."
-      },
-      "de": {
-        "text": "Aus dem Schornstein stieg dicker Qualm auf."
-      }
-    },
-    "wordIds": [
-      "28533"
-    ],
-    "sourceIndex": 18533
-  },
-  {
     "id": "118534",
     "category": "daily",
     "level": "hard",
@@ -65151,23 +36109,6 @@ const phrasesDaily = [
       "28534"
     ],
     "sourceIndex": 18534
-  },
-  {
-    "id": "118540",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The rescue helicopter landed on the hospital roof."
-      },
-      "de": {
-        "text": "Der Rettungshubschrauber landete auf dem Dach des Krankenhauses."
-      }
-    },
-    "wordIds": [
-      "28540"
-    ],
-    "sourceIndex": 18540
   },
   {
     "id": "118552",
@@ -65238,23 +36179,6 @@ const phrasesDaily = [
     "sourceIndex": 18579
   },
   {
-    "id": "118596",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The children gobbled up the whole cake."
-      },
-      "de": {
-        "text": "Die Kinder haben den ganzen Kuchen verputzt."
-      }
-    },
-    "wordIds": [
-      "28596"
-    ],
-    "sourceIndex": 18596
-  },
-  {
     "id": "118601",
     "category": "daily",
     "level": "hard",
@@ -65270,108 +36194,6 @@ const phrasesDaily = [
       "28601"
     ],
     "sourceIndex": 18601
-  },
-  {
-    "id": "118622",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The tires wear out quickly."
-      },
-      "de": {
-        "text": "Die Reifen nutzen sich schnell ab."
-      }
-    },
-    "wordIds": [
-      "28622"
-    ],
-    "sourceIndex": 18622
-  },
-  {
-    "id": "118642",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The next train station is only five minutes away."
-      },
-      "de": {
-        "text": "Die nächste Bahnstation ist nur fünf Minuten entfernt."
-      }
-    },
-    "wordIds": [
-      "28642"
-    ],
-    "sourceIndex": 18642
-  },
-  {
-    "id": "118644",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The belly button is an interesting part of the body."
-      },
-      "de": {
-        "text": "Der Bauchnabel ist ein interessanter Teil des Körpers."
-      }
-    },
-    "wordIds": [
-      "28644"
-    ],
-    "sourceIndex": 18644
-  },
-  {
-    "id": "118647",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I bought a T-shirt with a printed logo."
-      },
-      "de": {
-        "text": "Ich habe ein T-Shirt mit einem bedruckten Logo gekauft."
-      }
-    },
-    "wordIds": [
-      "28647"
-    ],
-    "sourceIndex": 18647
-  },
-  {
-    "id": "118648",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He had a leg fracture after the accident."
-      },
-      "de": {
-        "text": "Er hatte einen Beinbruch nach dem Unfall."
-      }
-    },
-    "wordIds": [
-      "28648"
-    ],
-    "sourceIndex": 18648
-  },
-  {
-    "id": "118651",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The baby sleeps peacefully in its little bed."
-      },
-      "de": {
-        "text": "Das Baby schläft friedlich in seinem Bettchen."
-      }
-    },
-    "wordIds": [
-      "28651"
-    ],
-    "sourceIndex": 18651
   },
   {
     "id": "118682",
@@ -65442,23 +36264,6 @@ const phrasesDaily = [
     "sourceIndex": 18703
   },
   {
-    "id": "118707",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We need to group the data."
-      },
-      "de": {
-        "text": "Wir müssen die Daten gruppieren."
-      }
-    },
-    "wordIds": [
-      "28707"
-    ],
-    "sourceIndex": 18707
-  },
-  {
     "id": "118720",
     "category": "daily",
     "level": "hard",
@@ -65493,23 +36298,6 @@ const phrasesDaily = [
     "sourceIndex": 18726
   },
   {
-    "id": "118728",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The church choir sings every Sunday."
-      },
-      "de": {
-        "text": "Der Kirchenchor singt jeden Sonntag."
-      }
-    },
-    "wordIds": [
-      "28728"
-    ],
-    "sourceIndex": 18728
-  },
-  {
     "id": "118729",
     "category": "daily",
     "level": "medium",
@@ -65542,40 +36330,6 @@ const phrasesDaily = [
       "28741"
     ],
     "sourceIndex": 18741
-  },
-  {
-    "id": "118747",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I need new reading material for the holiday."
-      },
-      "de": {
-        "text": "Ich brauche neuen Lesestoff für den Urlaub."
-      }
-    },
-    "wordIds": [
-      "28747"
-    ],
-    "sourceIndex": 18747
-  },
-  {
-    "id": "118751",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The Mandarin wore a magnificent robe."
-      },
-      "de": {
-        "text": "Der Mandarin trug eine prächtige Robe."
-      }
-    },
-    "wordIds": [
-      "28751"
-    ],
-    "sourceIndex": 18751
   },
   {
     "id": "118752",
@@ -65629,40 +36383,6 @@ const phrasesDaily = [
     "sourceIndex": 18767
   },
   {
-    "id": "118769",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We meet at the East Station."
-      },
-      "de": {
-        "text": "Wir treffen uns am Ostbahnhof."
-      }
-    },
-    "wordIds": [
-      "28769"
-    ],
-    "sourceIndex": 18769
-  },
-  {
-    "id": "118787",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The rower trains every day on the lake."
-      },
-      "de": {
-        "text": "Der Ruderer trainiert jeden Tag auf dem See."
-      }
-    },
-    "wordIds": [
-      "28787"
-    ],
-    "sourceIndex": 18787
-  },
-  {
     "id": "118789",
     "category": "daily",
     "level": "hard",
@@ -65680,23 +36400,6 @@ const phrasesDaily = [
     "sourceIndex": 18789
   },
   {
-    "id": "118790",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He needs to calm down first before we can talk."
-      },
-      "de": {
-        "text": "Er muss erst mal runterkommen, bevor wir reden können."
-      }
-    },
-    "wordIds": [
-      "28790"
-    ],
-    "sourceIndex": 18790
-  },
-  {
     "id": "118796",
     "category": "daily",
     "level": "hard",
@@ -65712,91 +36415,6 @@ const phrasesDaily = [
       "28796"
     ],
     "sourceIndex": 18796
-  },
-  {
-    "id": "118798",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She spent a sleepless night."
-      },
-      "de": {
-        "text": "Sie verbrachte eine schlaflose Nacht."
-      }
-    },
-    "wordIds": [
-      "28798"
-    ],
-    "sourceIndex": 18798
-  },
-  {
-    "id": "118825",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Our little daughter is playing in the garden."
-      },
-      "de": {
-        "text": "Unser Töchterchen spielt im Garten."
-      }
-    },
-    "wordIds": [
-      "28825"
-    ],
-    "sourceIndex": 18825
-  },
-  {
-    "id": "118832",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Heidelberg is a well-known university town."
-      },
-      "de": {
-        "text": "Heidelberg ist eine bekannte Universitätsstadt."
-      }
-    },
-    "wordIds": [
-      "28832"
-    ],
-    "sourceIndex": 18832
-  },
-  {
-    "id": "118843",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "His words were very hurtful."
-      },
-      "de": {
-        "text": "Seine Worte waren sehr verletzend."
-      }
-    },
-    "wordIds": [
-      "28843"
-    ],
-    "sourceIndex": 18843
-  },
-  {
-    "id": "118867",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We'll meet the week after next."
-      },
-      "de": {
-        "text": "Wir treffen uns übernächste Woche."
-      }
-    },
-    "wordIds": [
-      "28867"
-    ],
-    "sourceIndex": 18867
   },
   {
     "id": "118884",
@@ -65884,40 +36502,6 @@ const phrasesDaily = [
     "sourceIndex": 18903
   },
   {
-    "id": "118913",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "He put an empty beer bottle on the table."
-      },
-      "de": {
-        "text": "Er hat eine leere Bierflasche auf den Tisch gestellt."
-      }
-    },
-    "wordIds": [
-      "28913"
-    ],
-    "sourceIndex": 18913
-  },
-  {
-    "id": "118914",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Image processing is an important step for professional photos."
-      },
-      "de": {
-        "text": "Die Bildbearbeitung ist ein wichtiger Schritt für professionelle Fotos."
-      }
-    },
-    "wordIds": [
-      "28914"
-    ],
-    "sourceIndex": 18914
-  },
-  {
     "id": "118916",
     "category": "daily",
     "level": "medium",
@@ -65933,23 +36517,6 @@ const phrasesDaily = [
       "28916"
     ],
     "sourceIndex": 18916
-  },
-  {
-    "id": "118917",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She wrote a new blog post about her trip."
-      },
-      "de": {
-        "text": "Sie hat einen neuen Blogeintrag über ihre Reise geschrieben."
-      }
-    },
-    "wordIds": [
-      "28917"
-    ],
-    "sourceIndex": 18917
   },
   {
     "id": "118919",
@@ -65986,108 +36553,6 @@ const phrasesDaily = [
     "sourceIndex": 18922
   },
   {
-    "id": "118923",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Many young talents dream of a career through a casting show."
-      },
-      "de": {
-        "text": "Viele junge Talente träumen von einer Karriere durch eine Castingshow."
-      }
-    },
-    "wordIds": [
-      "28923"
-    ],
-    "sourceIndex": 18923
-  },
-  {
-    "id": "118942",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My grandfather was a railway worker."
-      },
-      "de": {
-        "text": "Mein Großvater war ein Eisenbahner."
-      }
-    },
-    "wordIds": [
-      "28942"
-    ],
-    "sourceIndex": 18942
-  },
-  {
-    "id": "118943",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She trains every day for figure skating."
-      },
-      "de": {
-        "text": "Sie trainiert jeden Tag für den Eiskunstlauf."
-      }
-    },
-    "wordIds": [
-      "28943"
-    ],
-    "sourceIndex": 18943
-  },
-  {
-    "id": "118946",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please empty the trash can."
-      },
-      "de": {
-        "text": "Bitte entleeren Sie den Mülleimer."
-      }
-    },
-    "wordIds": [
-      "28946"
-    ],
-    "sourceIndex": 18946
-  },
-  {
-    "id": "118953",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Many old towns have beautiful half-timbered houses."
-      },
-      "de": {
-        "text": "Viele alte Städte haben schöne Fachwerkhäuser."
-      }
-    },
-    "wordIds": [
-      "28953"
-    ],
-    "sourceIndex": 18953
-  },
-  {
-    "id": "118956",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We have a big family gathering every year."
-      },
-      "de": {
-        "text": "Wir haben jedes Jahr ein großes Familientreffen."
-      }
-    },
-    "wordIds": [
-      "28956"
-    ],
-    "sourceIndex": 18956
-  },
-  {
     "id": "118960",
     "category": "daily",
     "level": "hard",
@@ -66120,74 +36585,6 @@ const phrasesDaily = [
       "28961"
     ],
     "sourceIndex": 18961
-  },
-  {
-    "id": "118970",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Put the ice cream in the freezer compartment."
-      },
-      "de": {
-        "text": "Leg das Eis ins Gefrierfach."
-      }
-    },
-    "wordIds": [
-      "28970"
-    ],
-    "sourceIndex": 18970
-  },
-  {
-    "id": "118978",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The weather is always a good topic of conversation."
-      },
-      "de": {
-        "text": "Das Wetter ist immer ein gutes Gesprächsthema."
-      }
-    },
-    "wordIds": [
-      "28978"
-    ],
-    "sourceIndex": 18978
-  },
-  {
-    "id": "118982",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He needs to trim his beard."
-      },
-      "de": {
-        "text": "Er muss seinen Bart trimmen."
-      }
-    },
-    "wordIds": [
-      "28982"
-    ],
-    "sourceIndex": 18982
-  },
-  {
-    "id": "118995",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The radiator is warm."
-      },
-      "de": {
-        "text": "Der Heizkörper ist warm."
-      }
-    },
-    "wordIds": [
-      "28995"
-    ],
-    "sourceIndex": 18995
   },
   {
     "id": "118996",
@@ -66256,23 +36653,6 @@ const phrasesDaily = [
       "29033"
     ],
     "sourceIndex": 19033
-  },
-  {
-    "id": "119037",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He is looking for an apprenticeship as a mechanic."
-      },
-      "de": {
-        "text": "Er sucht eine Lehrstelle als Mechaniker."
-      }
-    },
-    "wordIds": [
-      "29037"
-    ],
-    "sourceIndex": 19037
   },
   {
     "id": "119038",
@@ -66428,23 +36808,6 @@ const phrasesDaily = [
     "sourceIndex": 19087
   },
   {
-    "id": "119111",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Every runner received a starting number."
-      },
-      "de": {
-        "text": "Jeder Läufer erhielt eine Startnummer."
-      }
-    },
-    "wordIds": [
-      "29111"
-    ],
-    "sourceIndex": 19111
-  },
-  {
     "id": "119125",
     "category": "daily",
     "level": "hard",
@@ -66494,74 +36857,6 @@ const phrasesDaily = [
       "29133"
     ],
     "sourceIndex": 19133
-  },
-  {
-    "id": "119141",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We should not waste any time."
-      },
-      "de": {
-        "text": "Wir sollten keine Zeit vergeuden."
-      }
-    },
-    "wordIds": [
-      "29141"
-    ],
-    "sourceIndex": 19141
-  },
-  {
-    "id": "119152",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Due to construction work, there is a complete closure of the highway."
-      },
-      "de": {
-        "text": "Wegen Bauarbeiten gibt es eine Vollsperrung der Autobahn."
-      }
-    },
-    "wordIds": [
-      "29152"
-    ],
-    "sourceIndex": 19152
-  },
-  {
-    "id": "119153",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We need more preparation time for the project."
-      },
-      "de": {
-        "text": "Wir brauchen mehr Vorbereitungszeit für das Projekt."
-      }
-    },
-    "wordIds": [
-      "29153"
-    ],
-    "sourceIndex": 19153
-  },
-  {
-    "id": "119158",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Do you have change for a ten-euro note?"
-      },
-      "de": {
-        "text": "Haben Sie Wechselgeld für einen Zehn-Euro-Schein?"
-      }
-    },
-    "wordIds": [
-      "29158"
-    ],
-    "sourceIndex": 19158
   },
   {
     "id": "119161",
@@ -66632,23 +36927,6 @@ const phrasesDaily = [
     "sourceIndex": 19170
   },
   {
-    "id": "119180",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "She does aerobics every morning."
-      },
-      "de": {
-        "text": "Sie macht jeden Morgen Aerobic."
-      }
-    },
-    "wordIds": [
-      "29180"
-    ],
-    "sourceIndex": 19180
-  },
-  {
     "id": "119186",
     "category": "daily",
     "level": "hard",
@@ -66664,57 +36942,6 @@ const phrasesDaily = [
       "29186"
     ],
     "sourceIndex": 19186
-  },
-  {
-    "id": "119188",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "Please turn on the light."
-      },
-      "de": {
-        "text": "Bitte schalte das Licht an."
-      }
-    },
-    "wordIds": [
-      "29188"
-    ],
-    "sourceIndex": 19188
-  },
-  {
-    "id": "119203",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The female caregiver helped the children with their homework."
-      },
-      "de": {
-        "text": "Die Betreuerin half den Kindern bei den Hausaufgaben."
-      }
-    },
-    "wordIds": [
-      "29203"
-    ],
-    "sourceIndex": 19203
-  },
-  {
-    "id": "119207",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "In summer, I like to drink a cold fizzy drink."
-      },
-      "de": {
-        "text": "Im Sommer trinke ich gerne eine kalte Brause."
-      }
-    },
-    "wordIds": [
-      "29207"
-    ],
-    "sourceIndex": 19207
   },
   {
     "id": "119213",
@@ -66751,91 +36978,6 @@ const phrasesDaily = [
     "sourceIndex": 19215
   },
   {
-    "id": "119222",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He is away on business."
-      },
-      "de": {
-        "text": "Er ist dienstlich unterwegs."
-      }
-    },
-    "wordIds": [
-      "29222"
-    ],
-    "sourceIndex": 19222
-  },
-  {
-    "id": "119223",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please save the document."
-      },
-      "de": {
-        "text": "Bitte speichern Sie das Document ab."
-      }
-    },
-    "wordIds": [
-      "29223"
-    ],
-    "sourceIndex": 19223
-  },
-  {
-    "id": "119233",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please set the table for dinner."
-      },
-      "de": {
-        "text": "Bitte deck den Tisch für das Abendessen ein."
-      }
-    },
-    "wordIds": [
-      "29233"
-    ],
-    "sourceIndex": 19233
-  },
-  {
-    "id": "119236",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We should use fewer disposable products."
-      },
-      "de": {
-        "text": "Wir sollten weniger Einwegprodukte verwenden."
-      }
-    },
-    "wordIds": [
-      "29236"
-    ],
-    "sourceIndex": 19236
-  },
-  {
-    "id": "119242",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Rents in this city are no longer affordable."
-      },
-      "de": {
-        "text": "Die Mieten in dieser Stadt sind nicht mehr erschwinglich."
-      }
-    },
-    "wordIds": [
-      "29242"
-    ],
-    "sourceIndex": 19242
-  },
-  {
     "id": "119246",
     "category": "daily",
     "level": "hard",
@@ -66868,23 +37010,6 @@ const phrasesDaily = [
       "29247"
     ],
     "sourceIndex": 19247
-  },
-  {
-    "id": "119249",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The escape route must always be kept clear."
-      },
-      "de": {
-        "text": "Der Fluchtweg muss immer freigehalten werden."
-      }
-    },
-    "wordIds": [
-      "29249"
-    ],
-    "sourceIndex": 19249
   },
   {
     "id": "119251",
@@ -66955,40 +37080,6 @@ const phrasesDaily = [
     "sourceIndex": 19279
   },
   {
-    "id": "119283",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She felt the rain on her palm."
-      },
-      "de": {
-        "text": "Sie spürte den Regen auf ihrer Handfläche."
-      }
-    },
-    "wordIds": [
-      "29283"
-    ],
-    "sourceIndex": 19283
-  },
-  {
-    "id": "119286",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I like chocolate with hazelnuts."
-      },
-      "de": {
-        "text": "Ich mag Schokolade mit Haselnüssen."
-      }
-    },
-    "wordIds": [
-      "29286"
-    ],
-    "sourceIndex": 19286
-  },
-  {
     "id": "119288",
     "category": "daily",
     "level": "medium",
@@ -67040,23 +37131,6 @@ const phrasesDaily = [
     "sourceIndex": 19302
   },
   {
-    "id": "119312",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I like to do crossword puzzles in my free time."
-      },
-      "de": {
-        "text": "Ich mache gerne Kreuzworträtsel in meiner Freizeit."
-      }
-    },
-    "wordIds": [
-      "29312"
-    ],
-    "sourceIndex": 19312
-  },
-  {
     "id": "119316",
     "category": "daily",
     "level": "hard",
@@ -67089,23 +37163,6 @@ const phrasesDaily = [
       "29325"
     ],
     "sourceIndex": 19325
-  },
-  {
-    "id": "119328",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He had to do a lot of overtime yesterday."
-      },
-      "de": {
-        "text": "Er musste gestern viel Mehrarbeit leisten."
-      }
-    },
-    "wordIds": [
-      "29328"
-    ],
-    "sourceIndex": 19328
   },
   {
     "id": "119338",
@@ -67227,74 +37284,6 @@ const phrasesDaily = [
     "sourceIndex": 19365
   },
   {
-    "id": "119368",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "This cleaner removes all stains."
-      },
-      "de": {
-        "text": "Dieser Reiniger entfernt alle Flecken."
-      }
-    },
-    "wordIds": [
-      "29368"
-    ],
-    "sourceIndex": 19368
-  },
-  {
-    "id": "119369",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I had to complain about the defective product."
-      },
-      "de": {
-        "text": "Ich musste das defekte Produkt reklamieren."
-      }
-    },
-    "wordIds": [
-      "29369"
-    ],
-    "sourceIndex": 19369
-  },
-  {
-    "id": "119375",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The car stopped at the red light."
-      },
-      "de": {
-        "text": "Das Auto hielt am Rotlicht an."
-      }
-    },
-    "wordIds": [
-      "29375"
-    ],
-    "sourceIndex": 19375
-  },
-  {
-    "id": "119377",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please shut down the computer."
-      },
-      "de": {
-        "text": "Bitte fahren Sie den Computer herunter."
-      }
-    },
-    "wordIds": [
-      "29377"
-    ],
-    "sourceIndex": 19377
-  },
-  {
     "id": "119382",
     "category": "daily",
     "level": "hard",
@@ -67310,23 +37299,6 @@ const phrasesDaily = [
       "29382"
     ],
     "sourceIndex": 19382
-  },
-  {
-    "id": "119383",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "We spent the day at the sandy beach."
-      },
-      "de": {
-        "text": "Wir verbrachten den Tag am Sandstrand."
-      }
-    },
-    "wordIds": [
-      "29383"
-    ],
-    "sourceIndex": 19383
   },
   {
     "id": "119397",
@@ -67363,74 +37335,6 @@ const phrasesDaily = [
     "sourceIndex": 19401
   },
   {
-    "id": "119410",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "My stepdaughter is visiting us this weekend."
-      },
-      "de": {
-        "text": "Meine Stieftochter besucht uns am Wochenende."
-      }
-    },
-    "wordIds": [
-      "29410"
-    ],
-    "sourceIndex": 19410
-  },
-  {
-    "id": "119438",
-    "category": "daily",
-    "level": "easy",
-    "translations": {
-      "en": {
-        "text": "My daddy is coming home tonight."
-      },
-      "de": {
-        "text": "Mein Vati kommt heute Abend nach Hause."
-      }
-    },
-    "wordIds": [
-      "29438"
-    ],
-    "sourceIndex": 19438
-  },
-  {
-    "id": "119442",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The decision was premature."
-      },
-      "de": {
-        "text": "Die Entscheidung war verfrüht."
-      }
-    },
-    "wordIds": [
-      "29442"
-    ],
-    "sourceIndex": 19442
-  },
-  {
-    "id": "119448",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "In the past, people often went to the video rental store."
-      },
-      "de": {
-        "text": "Früher ging man oft in die Videothek."
-      }
-    },
-    "wordIds": [
-      "29448"
-    ],
-    "sourceIndex": 19448
-  },
-  {
     "id": "119450",
     "category": "daily",
     "level": "hard",
@@ -67446,57 +37350,6 @@ const phrasesDaily = [
       "29450"
     ],
     "sourceIndex": 19450
-  },
-  {
-    "id": "119455",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The previous week was very exhausting."
-      },
-      "de": {
-        "text": "Die Vorwoche war sehr anstrengend."
-      }
-    },
-    "wordIds": [
-      "29455"
-    ],
-    "sourceIndex": 19455
-  },
-  {
-    "id": "119473",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He had to cover his ears because it was so loud."
-      },
-      "de": {
-        "text": "Er musste sich die Ohren zuhalten, weil es so laut war."
-      }
-    },
-    "wordIds": [
-      "29473"
-    ],
-    "sourceIndex": 19473
-  },
-  {
-    "id": "119476",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Can you please clear the table?"
-      },
-      "de": {
-        "text": "Kannst du bitte den Tisch abräumen?"
-      }
-    },
-    "wordIds": [
-      "29476"
-    ],
-    "sourceIndex": 19476
   },
   {
     "id": "119485",
@@ -67531,23 +37384,6 @@ const phrasesDaily = [
       "29502"
     ],
     "sourceIndex": 19502
-  },
-  {
-    "id": "119505",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She is learning to play the recorder."
-      },
-      "de": {
-        "text": "Sie lernt, Blockflöte zu spielen."
-      }
-    },
-    "wordIds": [
-      "29505"
-    ],
-    "sourceIndex": 19505
   },
   {
     "id": "119512",
@@ -67669,40 +37505,6 @@ const phrasesDaily = [
     "sourceIndex": 19581
   },
   {
-    "id": "119588",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I like listening to instrumental music to relax."
-      },
-      "de": {
-        "text": "Ich höre gerne Instrumentalmusik zum Entspannen."
-      }
-    },
-    "wordIds": [
-      "29588"
-    ],
-    "sourceIndex": 19588
-  },
-  {
-    "id": "119605",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I like to read crime novels in the evening."
-      },
-      "de": {
-        "text": "Ich lese gerne Kriminalromane am Abend."
-      }
-    },
-    "wordIds": [
-      "29605"
-    ],
-    "sourceIndex": 19605
-  },
-  {
     "id": "119608",
     "category": "daily",
     "level": "hard",
@@ -67735,23 +37537,6 @@ const phrasesDaily = [
       "29620"
     ],
     "sourceIndex": 19620
-  },
-  {
-    "id": "119623",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He rides his scooter to work every day."
-      },
-      "de": {
-        "text": "Er fährt jeden Tag mit seinem Motorroller zur Arbeit."
-      }
-    },
-    "wordIds": [
-      "29623"
-    ],
-    "sourceIndex": 19623
   },
   {
     "id": "119631",
@@ -67805,23 +37590,6 @@ const phrasesDaily = [
     "sourceIndex": 19634
   },
   {
-    "id": "119639",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "There is a sign at the town exit."
-      },
-      "de": {
-        "text": "Am Ortsausgang steht ein Schild."
-      }
-    },
-    "wordIds": [
-      "29639"
-    ],
-    "sourceIndex": 19639
-  },
-  {
     "id": "119646",
     "category": "daily",
     "level": "hard",
@@ -67839,40 +37607,6 @@ const phrasesDaily = [
     "sourceIndex": 19646
   },
   {
-    "id": "119653",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "They live in a terraced house on the outskirts of the city."
-      },
-      "de": {
-        "text": "Sie wohnen in einem Reihenhaus am Stadtrand."
-      }
-    },
-    "wordIds": [
-      "29653"
-    ],
-    "sourceIndex": 19653
-  },
-  {
-    "id": "119680",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The start of the game is scheduled for 6 PM."
-      },
-      "de": {
-        "text": "Der Spielbeginn ist für 18 Uhr angesetzt."
-      }
-    },
-    "wordIds": [
-      "29680"
-    ],
-    "sourceIndex": 19680
-  },
-  {
     "id": "119682",
     "category": "daily",
     "level": "hard",
@@ -67888,23 +37622,6 @@ const phrasesDaily = [
       "29682"
     ],
     "sourceIndex": 19682
-  },
-  {
-    "id": "119683",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "We attend a big sporting event every year."
-      },
-      "de": {
-        "text": "Wir besuchen jedes Jahr eine große Sportveranstaltung."
-      }
-    },
-    "wordIds": [
-      "29683"
-    ],
-    "sourceIndex": 19683
   },
   {
     "id": "119689",
@@ -68026,40 +37743,6 @@ const phrasesDaily = [
     "sourceIndex": 19754
   },
   {
-    "id": "119768",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "Who is doing the washing up today?"
-      },
-      "de": {
-        "text": "Wer macht heute den Abwasch?"
-      }
-    },
-    "wordIds": [
-      "29768"
-    ],
-    "sourceIndex": 19768
-  },
-  {
-    "id": "119795",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "I need an iron to iron my shirts."
-      },
-      "de": {
-        "text": "Ich brauche ein Bügeleisen, um meine Hemden zu bügeln."
-      }
-    },
-    "wordIds": [
-      "29795"
-    ],
-    "sourceIndex": 19795
-  },
-  {
     "id": "119796",
     "category": "daily",
     "level": "hard",
@@ -68092,23 +37775,6 @@ const phrasesDaily = [
       "29810"
     ],
     "sourceIndex": 19810
-  },
-  {
-    "id": "119813",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The little elf danced in the moonlight."
-      },
-      "de": {
-        "text": "Die kleine Elfe tanzte im Mondlicht."
-      }
-    },
-    "wordIds": [
-      "29813"
-    ],
-    "sourceIndex": 19813
   },
   {
     "id": "119826",
@@ -68179,23 +37845,6 @@ const phrasesDaily = [
     "sourceIndex": 19842
   },
   {
-    "id": "119849",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "She loves to garden in the summer."
-      },
-      "de": {
-        "text": "Sie liebt es, im Sommer zu gärtnern."
-      }
-    },
-    "wordIds": [
-      "29849"
-    ],
-    "sourceIndex": 19849
-  },
-  {
     "id": "119854",
     "category": "daily",
     "level": "hard",
@@ -68245,57 +37894,6 @@ const phrasesDaily = [
       "29866"
     ],
     "sourceIndex": 19866
-  },
-  {
-    "id": "119886",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He is a Colombian."
-      },
-      "de": {
-        "text": "Er ist ein Kolumbianer."
-      }
-    },
-    "wordIds": [
-      "29886"
-    ],
-    "sourceIndex": 19886
-  },
-  {
-    "id": "119904",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The local newspaper reports on events in the city."
-      },
-      "de": {
-        "text": "Die Lokalzeitung berichtet über Ereignisse in der Stadt."
-      }
-    },
-    "wordIds": [
-      "29904"
-    ],
-    "sourceIndex": 19904
-  },
-  {
-    "id": "119923",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The Easter Bunny brings the eggs."
-      },
-      "de": {
-        "text": "Der Osterhase bringt die Eier."
-      }
-    },
-    "wordIds": [
-      "29923"
-    ],
-    "sourceIndex": 19923
   },
   {
     "id": "119926",
@@ -68349,40 +37947,6 @@ const phrasesDaily = [
     "sourceIndex": 19929
   },
   {
-    "id": "119935",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He loves to play poker with friends on the weekend."
-      },
-      "de": {
-        "text": "Er liebt es, am Wochenende mit Freunden zu pokern."
-      }
-    },
-    "wordIds": [
-      "29935"
-    ],
-    "sourceIndex": 19935
-  },
-  {
-    "id": "119936",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "She is a Polish woman and has lived in Berlin for five years."
-      },
-      "de": {
-        "text": "Sie ist eine Polin und lebt seit fünf Jahren in Berlin."
-      }
-    },
-    "wordIds": [
-      "29936"
-    ],
-    "sourceIndex": 19936
-  },
-  {
     "id": "119943",
     "category": "daily",
     "level": "hard",
@@ -68434,23 +37998,6 @@ const phrasesDaily = [
     "sourceIndex": 19965
   },
   {
-    "id": "119972",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "I have a signed book."
-      },
-      "de": {
-        "text": "Ich habe ein signiertes Buch."
-      }
-    },
-    "wordIds": [
-      "29972"
-    ],
-    "sourceIndex": 19972
-  },
-  {
     "id": "119973",
     "category": "daily",
     "level": "hard",
@@ -68485,23 +38032,6 @@ const phrasesDaily = [
     "sourceIndex": 19974
   },
   {
-    "id": "119986",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The embroidery on the cushion is very beautiful."
-      },
-      "de": {
-        "text": "Die Stickerei auf dem Kissen ist sehr schön."
-      }
-    },
-    "wordIds": [
-      "29986"
-    ],
-    "sourceIndex": 19986
-  },
-  {
     "id": "119989",
     "category": "daily",
     "level": "hard",
@@ -68517,23 +38047,6 @@ const phrasesDaily = [
       "29989"
     ],
     "sourceIndex": 19989
-  },
-  {
-    "id": "119990",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "He put on a warm sock."
-      },
-      "de": {
-        "text": "Er zog einen warmen Strumpf an."
-      }
-    },
-    "wordIds": [
-      "29990"
-    ],
-    "sourceIndex": 19990
   },
   {
     "id": "119994",
@@ -68604,23 +38117,6 @@ const phrasesDaily = [
     "sourceIndex": 20004
   },
   {
-    "id": "120019",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He was stopped at a traffic control."
-      },
-      "de": {
-        "text": "Er wurde bei einer Verkehrskontrolle angehalten."
-      }
-    },
-    "wordIds": [
-      "30019"
-    ],
-    "sourceIndex": 20019
-  },
-  {
     "id": "120036",
     "category": "daily",
     "level": "hard",
@@ -68653,57 +38149,6 @@ const phrasesDaily = [
       "30038"
     ],
     "sourceIndex": 20038
-  },
-  {
-    "id": "120042",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Could you please pass me the salt?"
-      },
-      "de": {
-        "text": "Könntest du mir bitte das Salz weiterreichen?"
-      }
-    },
-    "wordIds": [
-      "30042"
-    ],
-    "sourceIndex": 20042
-  },
-  {
-    "id": "120049",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Many people dream of home ownership."
-      },
-      "de": {
-        "text": "Viele Menschen träumen vom Wohneigentum."
-      }
-    },
-    "wordIds": [
-      "30049"
-    ],
-    "sourceIndex": 20049
-  },
-  {
-    "id": "120063",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The broken off branch lay on the path."
-      },
-      "de": {
-        "text": "Der abgebrochene Ast lag auf dem Weg."
-      }
-    },
-    "wordIds": [
-      "30063"
-    ],
-    "sourceIndex": 20063
   },
   {
     "id": "120071",
@@ -68757,23 +38202,6 @@ const phrasesDaily = [
     "sourceIndex": 20104
   },
   {
-    "id": "120116",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Her words were very encouraging."
-      },
-      "de": {
-        "text": "Ihre Worte waren sehr ermutigend."
-      }
-    },
-    "wordIds": [
-      "30116"
-    ],
-    "sourceIndex": 20116
-  },
-  {
     "id": "120125",
     "category": "daily",
     "level": "medium",
@@ -68825,23 +38253,6 @@ const phrasesDaily = [
     "sourceIndex": 20129
   },
   {
-    "id": "120130",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The company founder presented his new product."
-      },
-      "de": {
-        "text": "Der Firmengründer stellte sein neues Produkt vor."
-      }
-    },
-    "wordIds": [
-      "30130"
-    ],
-    "sourceIndex": 20130
-  },
-  {
     "id": "120134",
     "category": "daily",
     "level": "hard",
@@ -68859,74 +38270,6 @@ const phrasesDaily = [
     "sourceIndex": 20134
   },
   {
-    "id": "120135",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The newspaper published an impressive photo series."
-      },
-      "de": {
-        "text": "Die Zeitung veröffentlichte eine beeindruckende Fotostrecke."
-      }
-    },
-    "wordIds": [
-      "30135"
-    ],
-    "sourceIndex": 20135
-  },
-  {
-    "id": "120140",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Listen, buddy, that's not how it works!"
-      },
-      "de": {
-        "text": "Hör mal zu, Freundchen, so geht das nicht!"
-      }
-    },
-    "wordIds": [
-      "30140"
-    ],
-    "sourceIndex": 20140
-  },
-  {
-    "id": "120155",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The little brat caused trouble again."
-      },
-      "de": {
-        "text": "Die kleine Göre hat schon wieder Ärger gemacht."
-      }
-    },
-    "wordIds": [
-      "30155"
-    ],
-    "sourceIndex": 20155
-  },
-  {
-    "id": "120159",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "Please observe the house rules."
-      },
-      "de": {
-        "text": "Bitte beachten Sie die Hausordnung."
-      }
-    },
-    "wordIds": [
-      "30159"
-    ],
-    "sourceIndex": 20159
-  },
-  {
     "id": "120172",
     "category": "daily",
     "level": "hard",
@@ -68942,23 +38285,6 @@ const phrasesDaily = [
       "30172"
     ],
     "sourceIndex": 20172
-  },
-  {
-    "id": "120174",
-    "category": "daily",
-    "level": "medium",
-    "translations": {
-      "en": {
-        "text": "The Japanese woman spoke fluent German."
-      },
-      "de": {
-        "text": "Die Japanerin sprach fließend Deutsch."
-      }
-    },
-    "wordIds": [
-      "30174"
-    ],
-    "sourceIndex": 20174
   },
   {
     "id": "120193",
@@ -69063,23 +38389,6 @@ const phrasesDaily = [
     "sourceIndex": 20212
   },
   {
-    "id": "120213",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "The adjoining room is reserved for guests."
-      },
-      "de": {
-        "text": "Das Nebenzimmer ist für Gäste reserviert."
-      }
-    },
-    "wordIds": [
-      "30213"
-    ],
-    "sourceIndex": 20213
-  },
-  {
     "id": "120219",
     "category": "daily",
     "level": "medium",
@@ -69112,23 +38421,6 @@ const phrasesDaily = [
       "30245"
     ],
     "sourceIndex": 20245
-  },
-  {
-    "id": "120258",
-    "category": "daily",
-    "level": "hard",
-    "translations": {
-      "en": {
-        "text": "He is a Slovak and comes from Bratislava."
-      },
-      "de": {
-        "text": "Er ist ein Slowake und kommt aus Bratislava."
-      }
-    },
-    "wordIds": [
-      "30258"
-    ],
-    "sourceIndex": 20258
   },
   {
     "id": "120260",

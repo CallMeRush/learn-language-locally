@@ -68,6 +68,23 @@ const phrasesWork = [
     "sourceIndex": 107
   },
   {
+    "id": "100138",
+    "category": "work",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I work every day."
+      },
+      "de": {
+        "text": "Ich arbeite jeden Tag."
+      }
+    },
+    "wordIds": [
+      "10138"
+    ],
+    "sourceIndex": 138
+  },
+  {
     "id": "100152",
     "category": "work",
     "level": "hard",
@@ -100,6 +117,23 @@ const phrasesWork = [
       "10201"
     ],
     "sourceIndex": 201
+  },
+  {
+    "id": "100224",
+    "category": "work",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "We are meeting tomorrow."
+      },
+      "de": {
+        "text": "Wir treffen uns morgen."
+      }
+    },
+    "wordIds": [
+      "10224"
+    ],
+    "sourceIndex": 224
   },
   {
     "id": "100232",
@@ -170,6 +204,23 @@ const phrasesWork = [
     "sourceIndex": 285
   },
   {
+    "id": "100297",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She plays an important role in the play."
+      },
+      "de": {
+        "text": "Sie spielt eine wichtige Rolle in dem Stück."
+      }
+    },
+    "wordIds": [
+      "10297"
+    ],
+    "sourceIndex": 297
+  },
+  {
     "id": "100330",
     "category": "work",
     "level": "medium",
@@ -185,6 +236,57 @@ const phrasesWork = [
       "10330"
     ],
     "sourceIndex": 330
+  },
+  {
+    "id": "100336",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I will manage it."
+      },
+      "de": {
+        "text": "Ich werde es schaffen."
+      }
+    },
+    "wordIds": [
+      "10336"
+    ],
+    "sourceIndex": 336
+  },
+  {
+    "id": "100339",
+    "category": "work",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I will try to be on time."
+      },
+      "de": {
+        "text": "Ich werde versuchen, pünktlich zu sein."
+      }
+    },
+    "wordIds": [
+      "10339"
+    ],
+    "sourceIndex": 339
+  },
+  {
+    "id": "100352",
+    "category": "work",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "My job is very interesting."
+      },
+      "de": {
+        "text": "Mein Job ist sehr interessant."
+      }
+    },
+    "wordIds": [
+      "10352"
+    ],
+    "sourceIndex": 352
   },
   {
     "id": "100362",
@@ -253,6 +355,23 @@ const phrasesWork = [
       "10411"
     ],
     "sourceIndex": 411
+  },
+  {
+    "id": "100439",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The German economy is strong."
+      },
+      "de": {
+        "text": "Die deutsche Wirtschaft ist stark."
+      }
+    },
+    "wordIds": [
+      "10439"
+    ],
+    "sourceIndex": 439
   },
   {
     "id": "100442",
@@ -374,6 +493,40 @@ const phrasesWork = [
     "sourceIndex": 584
   },
   {
+    "id": "100603",
+    "category": "work",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "Have you already picked up the mail?"
+      },
+      "de": {
+        "text": "Hast du die Post schon geholt?"
+      }
+    },
+    "wordIds": [
+      "10603"
+    ],
+    "sourceIndex": 603
+  },
+  {
+    "id": "100606",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "That is an important factory in the city."
+      },
+      "de": {
+        "text": "Das ist ein wichtiges Werk in der Stadt."
+      }
+    },
+    "wordIds": [
+      "10606"
+    ],
+    "sourceIndex": 606
+  },
+  {
     "id": "100617",
     "category": "work",
     "level": "medium",
@@ -459,6 +612,23 @@ const phrasesWork = [
     "sourceIndex": 632
   },
   {
+    "id": "100657",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I want to support you."
+      },
+      "de": {
+        "text": "Ich möchte dich unterstützen."
+      }
+    },
+    "wordIds": [
+      "10657"
+    ],
+    "sourceIndex": 657
+  },
+  {
     "id": "100670",
     "category": "work",
     "level": "hard",
@@ -491,6 +661,23 @@ const phrasesWork = [
       "10680"
     ],
     "sourceIndex": 680
+  },
+  {
+    "id": "100691",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He works in the public office."
+      },
+      "de": {
+        "text": "Er arbeitet im öffentlichen Amt."
+      }
+    },
+    "wordIds": [
+      "10691"
+    ],
+    "sourceIndex": 691
   },
   {
     "id": "100725",
@@ -646,6 +833,23 @@ const phrasesWork = [
     "sourceIndex": 879
   },
   {
+    "id": "100883",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The tour through the museum was very interesting."
+      },
+      "de": {
+        "text": "Die Führung durch das Museum war sehr interessant."
+      }
+    },
+    "wordIds": [
+      "10883"
+    ],
+    "sourceIndex": 883
+  },
+  {
     "id": "100888",
     "category": "work",
     "level": "hard",
@@ -680,6 +884,23 @@ const phrasesWork = [
     "sourceIndex": 891
   },
   {
+    "id": "100908",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The head of the project was very experienced."
+      },
+      "de": {
+        "text": "Der Leiter des Projekts war sehr erfahren."
+      }
+    },
+    "wordIds": [
+      "10908"
+    ],
+    "sourceIndex": 908
+  },
+  {
     "id": "100936",
     "category": "work",
     "level": "hard",
@@ -695,6 +916,23 @@ const phrasesWork = [
       "10936"
     ],
     "sourceIndex": 936
+  },
+  {
+    "id": "100940",
+    "category": "work",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We need to plan our vacation."
+      },
+      "de": {
+        "text": "Wir müssen unseren Urlaub planen."
+      }
+    },
+    "wordIds": [
+      "10940"
+    ],
+    "sourceIndex": 940
   },
   {
     "id": "100941",
@@ -782,6 +1020,23 @@ const phrasesWork = [
     "sourceIndex": 993
   },
   {
+    "id": "101006",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "There is a great need for new apartments."
+      },
+      "de": {
+        "text": "Es gibt einen großen Bedarf an neuen Wohnungen."
+      }
+    },
+    "wordIds": [
+      "11006"
+    ],
+    "sourceIndex": 1006
+  },
+  {
     "id": "101007",
     "category": "work",
     "level": "hard",
@@ -797,6 +1052,23 @@ const phrasesWork = [
       "11007"
     ],
     "sourceIndex": 1007
+  },
+  {
+    "id": "101012",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "They will open a new business."
+      },
+      "de": {
+        "text": "Sie werden ein neues Geschäft eröffnen."
+      }
+    },
+    "wordIds": [
+      "11012"
+    ],
+    "sourceIndex": 1012
   },
   {
     "id": "101030",
@@ -816,6 +1088,40 @@ const phrasesWork = [
     "sourceIndex": 1030
   },
   {
+    "id": "101052",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "They will conduct a survey."
+      },
+      "de": {
+        "text": "Sie werden eine Umfrage durchführen."
+      }
+    },
+    "wordIds": [
+      "11052"
+    ],
+    "sourceIndex": 1052
+  },
+  {
+    "id": "101077",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The commission has proposed a new regulation."
+      },
+      "de": {
+        "text": "Die Kommission hat eine neue Regelung vorgeschlagen."
+      }
+    },
+    "wordIds": [
+      "11077"
+    ],
+    "sourceIndex": 1077
+  },
+  {
     "id": "101102",
     "category": "work",
     "level": "hard",
@@ -831,6 +1137,40 @@ const phrasesWork = [
       "11102"
     ],
     "sourceIndex": 1102
+  },
+  {
+    "id": "101115",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My main activity is writing."
+      },
+      "de": {
+        "text": "Meine Haupttätigkeit ist das Schreiben."
+      }
+    },
+    "wordIds": [
+      "11115"
+    ],
+    "sourceIndex": 1115
+  },
+  {
+    "id": "101127",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "You have to submit an application."
+      },
+      "de": {
+        "text": "Sie müssen einen Antrag stellen."
+      }
+    },
+    "wordIds": [
+      "11127"
+    ],
+    "sourceIndex": 1127
   },
   {
     "id": "101151",
@@ -867,6 +1207,91 @@ const phrasesWork = [
     "sourceIndex": 1153
   },
   {
+    "id": "101155",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The government offers financial support for start-ups."
+      },
+      "de": {
+        "text": "Die Regierung bietet finanzielle Förderung für Start-ups an."
+      }
+    },
+    "wordIds": [
+      "11155"
+    ],
+    "sourceIndex": 1155
+  },
+  {
+    "id": "101168",
+    "category": "work",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The service in this restaurant is excellent."
+      },
+      "de": {
+        "text": "Der Service in diesem Restaurant ist ausgezeichnet."
+      }
+    },
+    "wordIds": [
+      "11168"
+    ],
+    "sourceIndex": 1168
+  },
+  {
+    "id": "101194",
+    "category": "work",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I have an appointment with the doctor."
+      },
+      "de": {
+        "text": "Ich habe einen Termin beim Arzt."
+      }
+    },
+    "wordIds": [
+      "11194"
+    ],
+    "sourceIndex": 1194
+  },
+  {
+    "id": "101203",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The furnishing of the office is modern."
+      },
+      "de": {
+        "text": "Die Einrichtung des Büros ist modern."
+      }
+    },
+    "wordIds": [
+      "11203"
+    ],
+    "sourceIndex": 1203
+  },
+  {
+    "id": "101206",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He is an expert in this field."
+      },
+      "de": {
+        "text": "Er ist ein Experte auf diesem Gebiet."
+      }
+    },
+    "wordIds": [
+      "11206"
+    ],
+    "sourceIndex": 1206
+  },
+  {
     "id": "101219",
     "category": "work",
     "level": "hard",
@@ -882,6 +1307,23 @@ const phrasesWork = [
       "11219"
     ],
     "sourceIndex": 1219
+  },
+  {
+    "id": "101257",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The manufacturer offers a warranty."
+      },
+      "de": {
+        "text": "Der Hersteller bietet eine Garantie an."
+      }
+    },
+    "wordIds": [
+      "11257"
+    ],
+    "sourceIndex": 1257
   },
   {
     "id": "101276",
@@ -1156,6 +1598,23 @@ const phrasesWork = [
     "sourceIndex": 1478
   },
   {
+    "id": "101479",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My employer offers good social benefits."
+      },
+      "de": {
+        "text": "Mein Arbeitgeber bietet gute Sozialleistungen."
+      }
+    },
+    "wordIds": [
+      "11479"
+    ],
+    "sourceIndex": 1479
+  },
+  {
     "id": "101489",
     "category": "work",
     "level": "medium",
@@ -1171,6 +1630,23 @@ const phrasesWork = [
       "11489"
     ],
     "sourceIndex": 1489
+  },
+  {
+    "id": "101516",
+    "category": "work",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The worker is repairing the machine."
+      },
+      "de": {
+        "text": "Der Arbeiter repariert die Maschine."
+      }
+    },
+    "wordIds": [
+      "11516"
+    ],
+    "sourceIndex": 1516
   },
   {
     "id": "101537",
@@ -1191,6 +1667,23 @@ const phrasesWork = [
     "sourceIndex": 1537
   },
   {
+    "id": "101540",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She took a stand on the accusations."
+      },
+      "de": {
+        "text": "Sie nahm Stellung zu den Vorwürfen."
+      }
+    },
+    "wordIds": [
+      "11540"
+    ],
+    "sourceIndex": 1540
+  },
+  {
     "id": "101601",
     "category": "work",
     "level": "hard",
@@ -1206,6 +1699,23 @@ const phrasesWork = [
       "11601"
     ],
     "sourceIndex": 1601
+  },
+  {
+    "id": "101617",
+    "category": "work",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We are planning many activities for the weekend."
+      },
+      "de": {
+        "text": "Wir planen viele Aktivitäten für das Wochenende."
+      }
+    },
+    "wordIds": [
+      "11617"
+    ],
+    "sourceIndex": 1617
   },
   {
     "id": "101620",
@@ -1259,6 +1769,23 @@ const phrasesWork = [
     "sourceIndex": 1697
   },
   {
+    "id": "101706",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I notice that you are tired."
+      },
+      "de": {
+        "text": "Ich bemerke, dass du müde bist."
+      }
+    },
+    "wordIds": [
+      "11706"
+    ],
+    "sourceIndex": 1706
+  },
+  {
     "id": "101747",
     "category": "work",
     "level": "hard",
@@ -1274,6 +1801,23 @@ const phrasesWork = [
       "11747"
     ],
     "sourceIndex": 1747
+  },
+  {
+    "id": "101757",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He succeeded in solving the problem."
+      },
+      "de": {
+        "text": "Es ist ihm gelungen, das Problem zu lösen."
+      }
+    },
+    "wordIds": [
+      "11757"
+    ],
+    "sourceIndex": 1757
   },
   {
     "id": "101768",
@@ -1308,6 +1852,40 @@ const phrasesWork = [
       "11779"
     ],
     "sourceIndex": 1779
+  },
+  {
+    "id": "101803",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The next meeting will take place on Tuesday."
+      },
+      "de": {
+        "text": "Die nächste Sitzung findet am Dienstag statt."
+      }
+    },
+    "wordIds": [
+      "11803"
+    ],
+    "sourceIndex": 1803
+  },
+  {
+    "id": "101827",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We must foster young talents."
+      },
+      "de": {
+        "text": "Wir müssen junge Talente fördern."
+      }
+    },
+    "wordIds": [
+      "11827"
+    ],
+    "sourceIndex": 1827
   },
   {
     "id": "101849",
@@ -1412,6 +1990,23 @@ const phrasesWork = [
     "sourceIndex": 2044
   },
   {
+    "id": "102080",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "This factory produces a lot of energy."
+      },
+      "de": {
+        "text": "Diese Fabrik erzeugt viel Energie."
+      }
+    },
+    "wordIds": [
+      "12080"
+    ],
+    "sourceIndex": 2080
+  },
+  {
     "id": "102094",
     "category": "work",
     "level": "hard",
@@ -1480,6 +2075,23 @@ const phrasesWork = [
     "sourceIndex": 2135
   },
   {
+    "id": "102166",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The conference will take place next week."
+      },
+      "de": {
+        "text": "Die Konferenz findet nächste Woche statt."
+      }
+    },
+    "wordIds": [
+      "12166"
+    ],
+    "sourceIndex": 2166
+  },
+  {
     "id": "102222",
     "category": "work",
     "level": "hard",
@@ -1531,6 +2143,23 @@ const phrasesWork = [
     "sourceIndex": 2339
   },
   {
+    "id": "102374",
+    "category": "work",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The sign shows the way to the train station."
+      },
+      "de": {
+        "text": "Das Schild zeigt den Weg zum Bahnhof."
+      }
+    },
+    "wordIds": [
+      "12374"
+    ],
+    "sourceIndex": 2374
+  },
+  {
     "id": "102375",
     "category": "work",
     "level": "medium",
@@ -1563,6 +2192,23 @@ const phrasesWork = [
       "12404"
     ],
     "sourceIndex": 2404
+  },
+  {
+    "id": "102424",
+    "category": "work",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "My car is in the workshop."
+      },
+      "de": {
+        "text": "Mein Auto ist in der Werkstatt."
+      }
+    },
+    "wordIds": [
+      "12424"
+    ],
+    "sourceIndex": 2424
   },
   {
     "id": "102426",
@@ -1599,6 +2245,23 @@ const phrasesWork = [
     "sourceIndex": 2459
   },
   {
+    "id": "102473",
+    "category": "work",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I have to sign up for the course."
+      },
+      "de": {
+        "text": "Ich muss mich für den Kurs anmelden."
+      }
+    },
+    "wordIds": [
+      "12473"
+    ],
+    "sourceIndex": 2473
+  },
+  {
     "id": "102486",
     "category": "work",
     "level": "hard",
@@ -1614,6 +2277,57 @@ const phrasesWork = [
       "12486"
     ],
     "sourceIndex": 2486
+  },
+  {
+    "id": "102493",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The congress will take place next week."
+      },
+      "de": {
+        "text": "Der Kongress findet nächste Woche statt."
+      }
+    },
+    "wordIds": [
+      "12493"
+    ],
+    "sourceIndex": 2493
+  },
+  {
+    "id": "102518",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The game went into overtime."
+      },
+      "de": {
+        "text": "Das Spiel ging in die Verlängerung."
+      }
+    },
+    "wordIds": [
+      "12518"
+    ],
+    "sourceIndex": 2518
+  },
+  {
+    "id": "102519",
+    "category": "work",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "What do you have planned for tonight?"
+      },
+      "de": {
+        "text": "Was hast du heute Abend vor?"
+      }
+    },
+    "wordIds": [
+      "12519"
+    ],
+    "sourceIndex": 2519
   },
   {
     "id": "102521",
@@ -1735,6 +2449,23 @@ const phrasesWork = [
     "sourceIndex": 2672
   },
   {
+    "id": "102676",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I often meet him in the city."
+      },
+      "de": {
+        "text": "Ich begegne ihm oft in der Stadt."
+      }
+    },
+    "wordIds": [
+      "12676"
+    ],
+    "sourceIndex": 2676
+  },
+  {
     "id": "102699",
     "category": "work",
     "level": "hard",
@@ -1769,6 +2500,23 @@ const phrasesWork = [
     "sourceIndex": 2726
   },
   {
+    "id": "102727",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I would like to apply for this position."
+      },
+      "de": {
+        "text": "Ich möchte mich um diese Stelle bewerben."
+      }
+    },
+    "wordIds": [
+      "12727"
+    ],
+    "sourceIndex": 2727
+  },
+  {
     "id": "102744",
     "category": "work",
     "level": "hard",
@@ -1801,6 +2549,40 @@ const phrasesWork = [
       "12778"
     ],
     "sourceIndex": 2778
+  },
+  {
+    "id": "102797",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He works the night shift."
+      },
+      "de": {
+        "text": "Er arbeitet in der Nachtschicht."
+      }
+    },
+    "wordIds": [
+      "12797"
+    ],
+    "sourceIndex": 2797
+  },
+  {
+    "id": "102806",
+    "category": "work",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Please sign here."
+      },
+      "de": {
+        "text": "Bitte unterschreiben Sie hier."
+      }
+    },
+    "wordIds": [
+      "12806"
+    ],
+    "sourceIndex": 2806
   },
   {
     "id": "102821",
@@ -1922,6 +2704,23 @@ const phrasesWork = [
     "sourceIndex": 2964
   },
   {
+    "id": "102988",
+    "category": "work",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "She is a very diligent student."
+      },
+      "de": {
+        "text": "Sie ist eine sehr fleissige Studentin."
+      }
+    },
+    "wordIds": [
+      "12988"
+    ],
+    "sourceIndex": 2988
+  },
+  {
     "id": "103031",
     "category": "work",
     "level": "hard",
@@ -2041,6 +2840,23 @@ const phrasesWork = [
     "sourceIndex": 3165
   },
   {
+    "id": "103203",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "They organize a big festival every year."
+      },
+      "de": {
+        "text": "Sie veranstalten jedes Jahr ein großes Fest."
+      }
+    },
+    "wordIds": [
+      "13203"
+    ],
+    "sourceIndex": 3203
+  },
+  {
     "id": "103224",
     "category": "work",
     "level": "hard",
@@ -2126,6 +2942,23 @@ const phrasesWork = [
     "sourceIndex": 3337
   },
   {
+    "id": "103338",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She looks after the children in the afternoon."
+      },
+      "de": {
+        "text": "Sie betreut die Kinder am Nachmittag."
+      }
+    },
+    "wordIds": [
+      "13338"
+    ],
+    "sourceIndex": 3338
+  },
+  {
     "id": "103399",
     "category": "work",
     "level": "hard",
@@ -2158,6 +2991,23 @@ const phrasesWork = [
       "13407"
     ],
     "sourceIndex": 3407
+  },
+  {
+    "id": "103465",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "This method is very effective."
+      },
+      "de": {
+        "text": "Diese Methode ist sehr effektiv."
+      }
+    },
+    "wordIds": [
+      "13465"
+    ],
+    "sourceIndex": 3465
   },
   {
     "id": "103505",
@@ -2194,6 +3044,23 @@ const phrasesWork = [
     "sourceIndex": 3546
   },
   {
+    "id": "103581",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He masters several languages fluently."
+      },
+      "de": {
+        "text": "Er beherrscht mehrere Sprachen fließend."
+      }
+    },
+    "wordIds": [
+      "13581"
+    ],
+    "sourceIndex": 3581
+  },
+  {
     "id": "103606",
     "category": "work",
     "level": "hard",
@@ -2209,6 +3076,23 @@ const phrasesWork = [
       "13606"
     ],
     "sourceIndex": 3606
+  },
+  {
+    "id": "103608",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She works very professionally."
+      },
+      "de": {
+        "text": "Sie arbeitet sehr professionell."
+      }
+    },
+    "wordIds": [
+      "13608"
+    ],
+    "sourceIndex": 3608
   },
   {
     "id": "103611",
@@ -2243,6 +3127,23 @@ const phrasesWork = [
       "13689"
     ],
     "sourceIndex": 3689
+  },
+  {
+    "id": "103708",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please take your medication regularly."
+      },
+      "de": {
+        "text": "Bitte nehmen Sie Ihre Medikamente regelmäßig ein."
+      }
+    },
+    "wordIds": [
+      "13708"
+    ],
+    "sourceIndex": 3708
   },
   {
     "id": "103710",
@@ -2296,6 +3197,23 @@ const phrasesWork = [
     "sourceIndex": 3719
   },
   {
+    "id": "103742",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "They have to negotiate the price."
+      },
+      "de": {
+        "text": "Sie müssen den Preis verhandeln."
+      }
+    },
+    "wordIds": [
+      "13742"
+    ],
+    "sourceIndex": 3742
+  },
+  {
     "id": "103792",
     "category": "work",
     "level": "hard",
@@ -2311,6 +3229,40 @@ const phrasesWork = [
       "13792"
     ],
     "sourceIndex": 3792
+  },
+  {
+    "id": "103798",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He now works independently."
+      },
+      "de": {
+        "text": "Er arbeitet jetzt selbstständig."
+      }
+    },
+    "wordIds": [
+      "13798"
+    ],
+    "sourceIndex": 3798
+  },
+  {
+    "id": "103803",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please provide your signature here."
+      },
+      "de": {
+        "text": "Bitte leisten Sie Ihre Unterschrift hier."
+      }
+    },
+    "wordIds": [
+      "13803"
+    ],
+    "sourceIndex": 3803
   },
   {
     "id": "103818",
@@ -2381,6 +3333,23 @@ const phrasesWork = [
     "sourceIndex": 3868
   },
   {
+    "id": "103913",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He had to give notice on his apartment."
+      },
+      "de": {
+        "text": "Er musste seine Wohnung kündigen."
+      }
+    },
+    "wordIds": [
+      "13913"
+    ],
+    "sourceIndex": 3913
+  },
+  {
     "id": "103953",
     "category": "work",
     "level": "hard",
@@ -2415,6 +3384,23 @@ const phrasesWork = [
     "sourceIndex": 4025
   },
   {
+    "id": "104063",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The producer introduced the new film."
+      },
+      "de": {
+        "text": "Der Produzent stellte den neuen Film vor."
+      }
+    },
+    "wordIds": [
+      "14063"
+    ],
+    "sourceIndex": 4063
+  },
+  {
     "id": "104073",
     "category": "work",
     "level": "hard",
@@ -2430,6 +3416,57 @@ const phrasesWork = [
       "14073"
     ],
     "sourceIndex": 4073
+  },
+  {
+    "id": "104081",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The medication is very effective."
+      },
+      "de": {
+        "text": "Das Medikament ist sehr wirksam."
+      }
+    },
+    "wordIds": [
+      "14081"
+    ],
+    "sourceIndex": 4081
+  },
+  {
+    "id": "104082",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I am attending a workshop on photography."
+      },
+      "de": {
+        "text": "Ich besuche einen Workshop über Fotografie."
+      }
+    },
+    "wordIds": [
+      "14082"
+    ],
+    "sourceIndex": 4082
+  },
+  {
+    "id": "104159",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The children are under supervision."
+      },
+      "de": {
+        "text": "Die Kinder sind unter Aufsicht."
+      }
+    },
+    "wordIds": [
+      "14159"
+    ],
+    "sourceIndex": 4159
   },
   {
     "id": "104164",
@@ -2466,6 +3503,40 @@ const phrasesWork = [
     "sourceIndex": 4175
   },
   {
+    "id": "104274",
+    "category": "work",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Our meeting point is at the train station."
+      },
+      "de": {
+        "text": "Unser Treffpunkt ist am Bahnhof."
+      }
+    },
+    "wordIds": [
+      "14274"
+    ],
+    "sourceIndex": 4274
+  },
+  {
+    "id": "104298",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He had to overcome many challenges."
+      },
+      "de": {
+        "text": "Er musste viele Herausforderungen bewältigen."
+      }
+    },
+    "wordIds": [
+      "14298"
+    ],
+    "sourceIndex": 4298
+  },
+  {
     "id": "104360",
     "category": "work",
     "level": "hard",
@@ -2498,6 +3569,23 @@ const phrasesWork = [
       "14448"
     ],
     "sourceIndex": 4448
+  },
+  {
+    "id": "104452",
+    "category": "work",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The assistant helps the professor."
+      },
+      "de": {
+        "text": "Der Assistent hilft dem Professor."
+      }
+    },
+    "wordIds": [
+      "14452"
+    ],
+    "sourceIndex": 4452
   },
   {
     "id": "104475",
@@ -2585,6 +3673,23 @@ const phrasesWork = [
     "sourceIndex": 4720
   },
   {
+    "id": "104792",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He leaned on a long stick."
+      },
+      "de": {
+        "text": "Er stützte sich auf einen langen Stab."
+      }
+    },
+    "wordIds": [
+      "14792"
+    ],
+    "sourceIndex": 4792
+  },
+  {
     "id": "104808",
     "category": "work",
     "level": "medium",
@@ -2600,6 +3705,40 @@ const phrasesWork = [
       "14808"
     ],
     "sourceIndex": 4808
+  },
+  {
+    "id": "104819",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He has been unemployed for a year."
+      },
+      "de": {
+        "text": "Er ist seit einem Jahr arbeitslos."
+      }
+    },
+    "wordIds": [
+      "14819"
+    ],
+    "sourceIndex": 4819
+  },
+  {
+    "id": "104962",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The first item on the agenda is the welcome."
+      },
+      "de": {
+        "text": "Der erste Punkt auf der Tagesordnung ist die Begrüßung."
+      }
+    },
+    "wordIds": [
+      "14962"
+    ],
+    "sourceIndex": 4962
   },
   {
     "id": "104981",
@@ -2738,6 +3877,23 @@ const phrasesWork = [
     "sourceIndex": 5335
   },
   {
+    "id": "105338",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The working group has made good progress."
+      },
+      "de": {
+        "text": "Die Arbeitsgruppe hat gute Fortschritte gemacht."
+      }
+    },
+    "wordIds": [
+      "15338"
+    ],
+    "sourceIndex": 5338
+  },
+  {
     "id": "105363",
     "category": "work",
     "level": "hard",
@@ -2772,6 +3928,57 @@ const phrasesWork = [
     "sourceIndex": 5380
   },
   {
+    "id": "105420",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He has to manage the finances."
+      },
+      "de": {
+        "text": "Er muss die Finanzen verwalten."
+      }
+    },
+    "wordIds": [
+      "15420"
+    ],
+    "sourceIndex": 5420
+  },
+  {
+    "id": "105532",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The new system is very efficient."
+      },
+      "de": {
+        "text": "Das neue System ist sehr effizient."
+      }
+    },
+    "wordIds": [
+      "15532"
+    ],
+    "sourceIndex": 5532
+  },
+  {
+    "id": "105540",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "That was a very successful evening."
+      },
+      "de": {
+        "text": "Das war ein sehr gelungener Abend."
+      }
+    },
+    "wordIds": [
+      "15540"
+    ],
+    "sourceIndex": 5540
+  },
+  {
     "id": "105618",
     "category": "work",
     "level": "hard",
@@ -2789,6 +3996,23 @@ const phrasesWork = [
     "sourceIndex": 5618
   },
   {
+    "id": "105647",
+    "category": "work",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "My female colleague often helps me."
+      },
+      "de": {
+        "text": "Meine Kollegin hilft mir oft."
+      }
+    },
+    "wordIds": [
+      "15647"
+    ],
+    "sourceIndex": 5647
+  },
+  {
     "id": "105657",
     "category": "work",
     "level": "hard",
@@ -2804,6 +4028,23 @@ const phrasesWork = [
       "15657"
     ],
     "sourceIndex": 5657
+  },
+  {
+    "id": "105702",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The chief made the decision."
+      },
+      "de": {
+        "text": "Der Chief hat die Entscheidung getroffen."
+      }
+    },
+    "wordIds": [
+      "15702"
+    ],
+    "sourceIndex": 5702
   },
   {
     "id": "105713",
@@ -2942,6 +4183,40 @@ const phrasesWork = [
     "sourceIndex": 6253
   },
   {
+    "id": "106262",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Our meeting point is at seven o'clock at the train station."
+      },
+      "de": {
+        "text": "Unser Treff ist um sieben Uhr am Bahnhof."
+      }
+    },
+    "wordIds": [
+      "16262"
+    ],
+    "sourceIndex": 6262
+  },
+  {
+    "id": "106306",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "His ambition drove him to great achievements."
+      },
+      "de": {
+        "text": "Sein Ehrgeiz trieb ihn zu großen Leistungen an."
+      }
+    },
+    "wordIds": [
+      "16306"
+    ],
+    "sourceIndex": 6306
+  },
+  {
     "id": "106325",
     "category": "work",
     "level": "hard",
@@ -3008,6 +4283,23 @@ const phrasesWork = [
       "16485"
     ],
     "sourceIndex": 6485
+  },
+  {
+    "id": "106610",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He will take a new path."
+      },
+      "de": {
+        "text": "Er wird einen neuen Weg einschlagen."
+      }
+    },
+    "wordIds": [
+      "16610"
+    ],
+    "sourceIndex": 6610
   },
   {
     "id": "106809",
@@ -3180,6 +4472,23 @@ const phrasesWork = [
     "sourceIndex": 7499
   },
   {
+    "id": "107550",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The department head made the decision."
+      },
+      "de": {
+        "text": "Der Abteilungsleiter hat die Entscheidung getroffen."
+      }
+    },
+    "wordIds": [
+      "17550"
+    ],
+    "sourceIndex": 7550
+  },
+  {
     "id": "107564",
     "category": "work",
     "level": "hard",
@@ -3195,6 +4504,23 @@ const phrasesWork = [
       "17564"
     ],
     "sourceIndex": 7564
+  },
+  {
+    "id": "107706",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The marketing department is on the third floor."
+      },
+      "de": {
+        "text": "Das Department für Marketing ist im dritten Stock."
+      }
+    },
+    "wordIds": [
+      "17706"
+    ],
+    "sourceIndex": 7706
   },
   {
     "id": "107752",
@@ -3299,6 +4625,40 @@ const phrasesWork = [
     "sourceIndex": 8151
   },
   {
+    "id": "108381",
+    "category": "work",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We need to arrange to meet for next week."
+      },
+      "de": {
+        "text": "Wir müssen uns für nächste Woche verabreden."
+      }
+    },
+    "wordIds": [
+      "18381"
+    ],
+    "sourceIndex": 8381
+  },
+  {
+    "id": "108465",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The clerk helped me with my application."
+      },
+      "de": {
+        "text": "Der Sachbearbeiter half mir bei meinem Antrag."
+      }
+    },
+    "wordIds": [
+      "18465"
+    ],
+    "sourceIndex": 8465
+  },
+  {
     "id": "108548",
     "category": "work",
     "level": "hard",
@@ -3367,6 +4727,23 @@ const phrasesWork = [
     "sourceIndex": 8725
   },
   {
+    "id": "108812",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The working population is important for the economy."
+      },
+      "de": {
+        "text": "Die arbeitende Bevölkerung ist wichtig für die Wirtschaft."
+      }
+    },
+    "wordIds": [
+      "18812"
+    ],
+    "sourceIndex": 8812
+  },
+  {
     "id": "108886",
     "category": "work",
     "level": "hard",
@@ -3384,6 +4761,23 @@ const phrasesWork = [
     "sourceIndex": 8886
   },
   {
+    "id": "108892",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The new intern starts next week."
+      },
+      "de": {
+        "text": "Der neue Praktikant beginnt nächste Woche."
+      }
+    },
+    "wordIds": [
+      "18892"
+    ],
+    "sourceIndex": 8892
+  },
+  {
     "id": "108954",
     "category": "work",
     "level": "medium",
@@ -3399,6 +4793,40 @@ const phrasesWork = [
       "18954"
     ],
     "sourceIndex": 8954
+  },
+  {
+    "id": "108972",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Many people are involved in voluntary work."
+      },
+      "de": {
+        "text": "Viele Menschen engagieren sich im Ehrenamt."
+      }
+    },
+    "wordIds": [
+      "18972"
+    ],
+    "sourceIndex": 8972
+  },
+  {
+    "id": "109083",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He is a very reliable friend."
+      },
+      "de": {
+        "text": "Er ist ein sehr verlässlicher Freund."
+      }
+    },
+    "wordIds": [
+      "19083"
+    ],
+    "sourceIndex": 9083
   },
   {
     "id": "109088",
@@ -3435,6 +4863,23 @@ const phrasesWork = [
     "sourceIndex": 9089
   },
   {
+    "id": "109242",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The administrator restarted the system."
+      },
+      "de": {
+        "text": "Der Administrator hat das System neu gestartet."
+      }
+    },
+    "wordIds": [
+      "19242"
+    ],
+    "sourceIndex": 9242
+  },
+  {
     "id": "109415",
     "category": "work",
     "level": "hard",
@@ -3450,6 +4895,23 @@ const phrasesWork = [
       "19415"
     ],
     "sourceIndex": 9415
+  },
+  {
+    "id": "109483",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The city planner designed new buildings."
+      },
+      "de": {
+        "text": "Der Stadtplaner entwarf neue Gebäude."
+      }
+    },
+    "wordIds": [
+      "19483"
+    ],
+    "sourceIndex": 9483
   },
   {
     "id": "109498",
@@ -3537,6 +4999,23 @@ const phrasesWork = [
     "sourceIndex": 9893
   },
   {
+    "id": "109926",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She has a side job to finance her studies."
+      },
+      "de": {
+        "text": "Sie hat einen Nebenjob, um ihr Studium zu finanzieren."
+      }
+    },
+    "wordIds": [
+      "19926"
+    ],
+    "sourceIndex": 9926
+  },
+  {
     "id": "109998",
     "category": "work",
     "level": "hard",
@@ -3571,6 +5050,57 @@ const phrasesWork = [
     "sourceIndex": 10065
   },
   {
+    "id": "110174",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I need to schedule the meeting in my calendar."
+      },
+      "de": {
+        "text": "Ich muss das Treffen in meinen Kalender einplanen."
+      }
+    },
+    "wordIds": [
+      "20174"
+    ],
+    "sourceIndex": 10174
+  },
+  {
+    "id": "110306",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "This professional group has high demands."
+      },
+      "de": {
+        "text": "Diese Berufsgruppe hat hohe Anforderungen."
+      }
+    },
+    "wordIds": [
+      "20306"
+    ],
+    "sourceIndex": 10306
+  },
+  {
+    "id": "110404",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please contact the secretariat."
+      },
+      "de": {
+        "text": "Bitte wenden Sie sich an das Sekretariat."
+      }
+    },
+    "wordIds": [
+      "20404"
+    ],
+    "sourceIndex": 10404
+  },
+  {
     "id": "110479",
     "category": "work",
     "level": "hard",
@@ -3586,6 +5116,23 @@ const phrasesWork = [
       "20479"
     ],
     "sourceIndex": 10479
+  },
+  {
+    "id": "110513",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "They will interview the candidate tomorrow."
+      },
+      "de": {
+        "text": "Sie werden den Kandidaten morgen interviewen."
+      }
+    },
+    "wordIds": [
+      "20513"
+    ],
+    "sourceIndex": 10513
   },
   {
     "id": "110576",
@@ -3622,6 +5169,23 @@ const phrasesWork = [
     "sourceIndex": 10776
   },
   {
+    "id": "110835",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The dog is waiting for its master."
+      },
+      "de": {
+        "text": "Der Hund wartet auf sein Herrchen."
+      }
+    },
+    "wordIds": [
+      "20835"
+    ],
+    "sourceIndex": 10835
+  },
+  {
     "id": "110970",
     "category": "work",
     "level": "medium",
@@ -3637,6 +5201,23 @@ const phrasesWork = [
       "20970"
     ],
     "sourceIndex": 10970
+  },
+  {
+    "id": "111097",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The professor's office hours are on Tuesday."
+      },
+      "de": {
+        "text": "Die Sprechstunde des Professors ist am Dienstag."
+      }
+    },
+    "wordIds": [
+      "21097"
+    ],
+    "sourceIndex": 11097
   },
   {
     "id": "111153",
@@ -3739,6 +5320,40 @@ const phrasesWork = [
       "21476"
     ],
     "sourceIndex": 11476
+  },
+  {
+    "id": "111530",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please notify me when you arrive."
+      },
+      "de": {
+        "text": "Bitte benachrichtigen Sie mich, wenn Sie ankommen."
+      }
+    },
+    "wordIds": [
+      "21530"
+    ],
+    "sourceIndex": 11530
+  },
+  {
+    "id": "111677",
+    "category": "work",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "My colleague often helps me."
+      },
+      "de": {
+        "text": "Mein Arbeitskollege hilft mir oft."
+      }
+    },
+    "wordIds": [
+      "21677"
+    ],
+    "sourceIndex": 11677
   },
   {
     "id": "111678",
@@ -3894,6 +5509,23 @@ const phrasesWork = [
     "sourceIndex": 12083
   },
   {
+    "id": "112171",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My next shift starts at 8 o'clock."
+      },
+      "de": {
+        "text": "Meine nächste Shift beginnt um 8 Uhr."
+      }
+    },
+    "wordIds": [
+      "22171"
+    ],
+    "sourceIndex": 12171
+  },
+  {
     "id": "112178",
     "category": "work",
     "level": "hard",
@@ -3909,6 +5541,23 @@ const phrasesWork = [
       "22178"
     ],
     "sourceIndex": 12178
+  },
+  {
+    "id": "112263",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She is a very ambitious student."
+      },
+      "de": {
+        "text": "Sie ist eine sehr ehrgeizige Studentin."
+      }
+    },
+    "wordIds": [
+      "22263"
+    ],
+    "sourceIndex": 12263
   },
   {
     "id": "112283",
@@ -4011,6 +5660,23 @@ const phrasesWork = [
       "22629"
     ],
     "sourceIndex": 12629
+  },
+  {
+    "id": "112727",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The author will sign his new book."
+      },
+      "de": {
+        "text": "Der Autor wird sein neues Buch signieren."
+      }
+    },
+    "wordIds": [
+      "22727"
+    ],
+    "sourceIndex": 12727
   },
   {
     "id": "112847",
@@ -4268,6 +5934,23 @@ const phrasesWork = [
     "sourceIndex": 13764
   },
   {
+    "id": "113804",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My mother is employed."
+      },
+      "de": {
+        "text": "Meine Mutter ist berufstätig."
+      }
+    },
+    "wordIds": [
+      "23804"
+    ],
+    "sourceIndex": 13804
+  },
+  {
     "id": "113976",
     "category": "work",
     "level": "hard",
@@ -4404,6 +6087,23 @@ const phrasesWork = [
     "sourceIndex": 14611
   },
   {
+    "id": "114615",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Many people work as freelancers."
+      },
+      "de": {
+        "text": "Viele Menschen arbeiten als Freiberufler."
+      }
+    },
+    "wordIds": [
+      "24615"
+    ],
+    "sourceIndex": 14615
+  },
+  {
     "id": "114680",
     "category": "work",
     "level": "hard",
@@ -4419,6 +6119,23 @@ const phrasesWork = [
       "24680"
     ],
     "sourceIndex": 14680
+  },
+  {
+    "id": "114694",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The nursing staff takes care of the patients."
+      },
+      "de": {
+        "text": "Das Pflegepersonal kümmert sich um die Patienten."
+      }
+    },
+    "wordIds": [
+      "24694"
+    ],
+    "sourceIndex": 14694
   },
   {
     "id": "114924",
@@ -4676,6 +6393,23 @@ const phrasesWork = [
     "sourceIndex": 16154
   },
   {
+    "id": "116204",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The new female intern starts next week."
+      },
+      "de": {
+        "text": "Die neue Praktikantin beginnt nächste Woche."
+      }
+    },
+    "wordIds": [
+      "26204"
+    ],
+    "sourceIndex": 16204
+  },
+  {
     "id": "116269",
     "category": "work",
     "level": "hard",
@@ -4795,6 +6529,23 @@ const phrasesWork = [
     "sourceIndex": 16594
   },
   {
+    "id": "116651",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He works as an assistant in the library."
+      },
+      "de": {
+        "text": "Er arbeitet als Hilfskraft in der Bibliothek."
+      }
+    },
+    "wordIds": [
+      "26651"
+    ],
+    "sourceIndex": 16651
+  },
+  {
     "id": "116681",
     "category": "work",
     "level": "hard",
@@ -4827,6 +6578,23 @@ const phrasesWork = [
       "26720"
     ],
     "sourceIndex": 16720
+  },
+  {
+    "id": "116777",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The renovation work on the house is still ongoing."
+      },
+      "de": {
+        "text": "Die Umbauarbeiten am Haus dauern noch an."
+      }
+    },
+    "wordIds": [
+      "26777"
+    ],
+    "sourceIndex": 16777
   },
   {
     "id": "116808",
@@ -4878,6 +6646,23 @@ const phrasesWork = [
       "26863"
     ],
     "sourceIndex": 16863
+  },
+  {
+    "id": "116932",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Many students have a mini-job to finance their studies."
+      },
+      "de": {
+        "text": "Viele Studenten haben einen Minijob, um ihr Studium zu finanzieren."
+      }
+    },
+    "wordIds": [
+      "26932"
+    ],
+    "sourceIndex": 16932
   },
   {
     "id": "116933",
@@ -5084,6 +6869,23 @@ const phrasesWork = [
     "sourceIndex": 18099
   },
   {
+    "id": "118164",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The professor hired a new assistant."
+      },
+      "de": {
+        "text": "Der Professor stellte einen neuen Gehilfen ein."
+      }
+    },
+    "wordIds": [
+      "28164"
+    ],
+    "sourceIndex": 18164
+  },
+  {
     "id": "118348",
     "category": "work",
     "level": "hard",
@@ -5099,6 +6901,23 @@ const phrasesWork = [
       "28348"
     ],
     "sourceIndex": 18348
+  },
+  {
+    "id": "118519",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The nursing service comes every morning."
+      },
+      "de": {
+        "text": "Der Pflegedienst kommt jeden Morgen."
+      }
+    },
+    "wordIds": [
+      "28519"
+    ],
+    "sourceIndex": 18519
   },
   {
     "id": "118698",
@@ -5133,6 +6952,40 @@ const phrasesWork = [
       "28893"
     ],
     "sourceIndex": 18893
+  },
+  {
+    "id": "118917",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She wrote a new blog post about her trip."
+      },
+      "de": {
+        "text": "Sie hat einen neuen Blogeintrag über ihre Reise geschrieben."
+      }
+    },
+    "wordIds": [
+      "28917"
+    ],
+    "sourceIndex": 18917
+  },
+  {
+    "id": "119037",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He is looking for an apprenticeship as a mechanic."
+      },
+      "de": {
+        "text": "Er sucht eine Lehrstelle als Mechaniker."
+      }
+    },
+    "wordIds": [
+      "29037"
+    ],
+    "sourceIndex": 19037
   },
   {
     "id": "119066",
@@ -5186,6 +7039,23 @@ const phrasesWork = [
     "sourceIndex": 19082
   },
   {
+    "id": "119203",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The female caregiver helped the children with their homework."
+      },
+      "de": {
+        "text": "Die Betreuerin half den Kindern bei den Hausaufgaben."
+      }
+    },
+    "wordIds": [
+      "29203"
+    ],
+    "sourceIndex": 19203
+  },
+  {
     "id": "119305",
     "category": "work",
     "level": "hard",
@@ -5201,6 +7071,23 @@ const phrasesWork = [
       "29305"
     ],
     "sourceIndex": 19305
+  },
+  {
+    "id": "119328",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He had to do a lot of overtime yesterday."
+      },
+      "de": {
+        "text": "Er musste gestern viel Mehrarbeit leisten."
+      }
+    },
+    "wordIds": [
+      "29328"
+    ],
+    "sourceIndex": 19328
   },
   {
     "id": "119757",
@@ -5235,6 +7122,40 @@ const phrasesWork = [
       "29763"
     ],
     "sourceIndex": 19763
+  },
+  {
+    "id": "119972",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I have a signed book."
+      },
+      "de": {
+        "text": "Ich habe ein signiertes Buch."
+      }
+    },
+    "wordIds": [
+      "29972"
+    ],
+    "sourceIndex": 19972
+  },
+  {
+    "id": "120130",
+    "category": "work",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The company founder presented his new product."
+      },
+      "de": {
+        "text": "Der Firmengründer stellte sein neues Produkt vor."
+      }
+    },
+    "wordIds": [
+      "30130"
+    ],
+    "sourceIndex": 20130
   },
   {
     "id": "120148",

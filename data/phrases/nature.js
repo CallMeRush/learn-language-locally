@@ -68,6 +68,24 @@ const phrasesNature = [
     "sourceIndex": 205
   },
   {
+    "id": "100236",
+    "category": "nature",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The sun is shining today."
+      },
+      "de": {
+        "text": "Die Sonne scheint heute."
+      }
+    },
+    "wordIds": [
+      "10236",
+      "10655"
+    ],
+    "sourceIndex": 236
+  },
+  {
     "id": "100351",
     "category": "nature",
     "level": "hard",
@@ -170,6 +188,23 @@ const phrasesNature = [
     "sourceIndex": 579
   },
   {
+    "id": "100640",
+    "category": "nature",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "My dog likes to play in the garden."
+      },
+      "de": {
+        "text": "Mein Hund spielt gerne im Garten."
+      }
+    },
+    "wordIds": [
+      "10640"
+    ],
+    "sourceIndex": 640
+  },
+  {
     "id": "100656",
     "category": "nature",
     "level": "easy",
@@ -221,6 +256,23 @@ const phrasesNature = [
     "sourceIndex": 683
   },
   {
+    "id": "100701",
+    "category": "nature",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The sky is blue today."
+      },
+      "de": {
+        "text": "Der Himmel ist heute blau."
+      }
+    },
+    "wordIds": [
+      "10701"
+    ],
+    "sourceIndex": 701
+  },
+  {
     "id": "100708",
     "category": "nature",
     "level": "medium",
@@ -236,6 +288,23 @@ const phrasesNature = [
       "10708"
     ],
     "sourceIndex": 708
+  },
+  {
+    "id": "100727",
+    "category": "nature",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "We often go for a walk in the forest."
+      },
+      "de": {
+        "text": "Wir gehen oft im Wald spazieren."
+      }
+    },
+    "wordIds": [
+      "10727"
+    ],
+    "sourceIndex": 727
   },
   {
     "id": "100743",
@@ -255,6 +324,23 @@ const phrasesNature = [
     "sourceIndex": 743
   },
   {
+    "id": "100752",
+    "category": "nature",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "That is a cool car."
+      },
+      "de": {
+        "text": "Das ist ein cooles Auto."
+      }
+    },
+    "wordIds": [
+      "10752"
+    ],
+    "sourceIndex": 752
+  },
+  {
     "id": "100789",
     "category": "nature",
     "level": "medium",
@@ -270,6 +356,23 @@ const phrasesNature = [
       "10789"
     ],
     "sourceIndex": 789
+  },
+  {
+    "id": "100806",
+    "category": "nature",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The fire warms us."
+      },
+      "de": {
+        "text": "Das Feuer wärmt uns."
+      }
+    },
+    "wordIds": [
+      "10806"
+    ],
+    "sourceIndex": 806
   },
   {
     "id": "100819",
@@ -289,6 +392,23 @@ const phrasesNature = [
     "sourceIndex": 819
   },
   {
+    "id": "100820",
+    "category": "nature",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The weather is nice today."
+      },
+      "de": {
+        "text": "Das Wetter ist heute schön."
+      }
+    },
+    "wordIds": [
+      "10820"
+    ],
+    "sourceIndex": 820
+  },
+  {
     "id": "100829",
     "category": "nature",
     "level": "hard",
@@ -304,6 +424,24 @@ const phrasesNature = [
       "10829"
     ],
     "sourceIndex": 829
+  },
+  {
+    "id": "100836",
+    "category": "nature",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The sun rises in the east."
+      },
+      "de": {
+        "text": "Die Sonne geht im Osten auf."
+      }
+    },
+    "wordIds": [
+      "10836",
+      "17557"
+    ],
+    "sourceIndex": 836
   },
   {
     "id": "100869",
@@ -338,6 +476,23 @@ const phrasesNature = [
       "10889"
     ],
     "sourceIndex": 889
+  },
+  {
+    "id": "100973",
+    "category": "nature",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The wind is blowing strongly today."
+      },
+      "de": {
+        "text": "Der Wind weht stark heute."
+      }
+    },
+    "wordIds": [
+      "10973"
+    ],
+    "sourceIndex": 973
   },
   {
     "id": "101043",
@@ -391,6 +546,23 @@ const phrasesNature = [
     "sourceIndex": 1081
   },
   {
+    "id": "101111",
+    "category": "nature",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The rain is falling all day."
+      },
+      "de": {
+        "text": "Der Regen fällt den ganzen Tag."
+      }
+    },
+    "wordIds": [
+      "11111"
+    ],
+    "sourceIndex": 1111
+  },
+  {
     "id": "101129",
     "category": "nature",
     "level": "easy",
@@ -406,6 +578,40 @@ const phrasesNature = [
       "11129"
     ],
     "sourceIndex": 1129
+  },
+  {
+    "id": "101131",
+    "category": "nature",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "We are hiking up the mountain."
+      },
+      "de": {
+        "text": "Wir wandern auf den Berg."
+      }
+    },
+    "wordIds": [
+      "11131"
+    ],
+    "sourceIndex": 1131
+  },
+  {
+    "id": "101159",
+    "category": "nature",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The coffee is hot."
+      },
+      "de": {
+        "text": "Der Kaffee ist heiss."
+      }
+    },
+    "wordIds": [
+      "11159"
+    ],
+    "sourceIndex": 1159
   },
   {
     "id": "101196",
@@ -527,6 +733,40 @@ const phrasesNature = [
     "sourceIndex": 1419
   },
   {
+    "id": "101432",
+    "category": "nature",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The storm swept across the land."
+      },
+      "de": {
+        "text": "Der Sturm fegte über das Land."
+      }
+    },
+    "wordIds": [
+      "11432"
+    ],
+    "sourceIndex": 1432
+  },
+  {
+    "id": "101438",
+    "category": "nature",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "It is very warm today."
+      },
+      "de": {
+        "text": "Es ist heute sehr warm."
+      }
+    },
+    "wordIds": [
+      "11438"
+    ],
+    "sourceIndex": 1438
+  },
+  {
     "id": "101458",
     "category": "nature",
     "level": "hard",
@@ -610,6 +850,23 @@ const phrasesNature = [
       "11483"
     ],
     "sourceIndex": 1483
+  },
+  {
+    "id": "101493",
+    "category": "nature",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The cat is sleeping on the sofa."
+      },
+      "de": {
+        "text": "Die Katze schläft auf dem Sofa."
+      }
+    },
+    "wordIds": [
+      "11493"
+    ],
+    "sourceIndex": 1493
   },
   {
     "id": "101590",
@@ -697,6 +954,23 @@ const phrasesNature = [
     "sourceIndex": 1662
   },
   {
+    "id": "101675",
+    "category": "nature",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The climate in this region is very pleasant."
+      },
+      "de": {
+        "text": "Das Klima in dieser Region ist sehr angenehm."
+      }
+    },
+    "wordIds": [
+      "11675"
+    ],
+    "sourceIndex": 1675
+  },
+  {
     "id": "101684",
     "category": "nature",
     "level": "medium",
@@ -780,6 +1054,23 @@ const phrasesNature = [
       "11826"
     ],
     "sourceIndex": 1826
+  },
+  {
+    "id": "101867",
+    "category": "nature",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "He stopped smoking."
+      },
+      "de": {
+        "text": "Er hat aufgehört zu rauchen."
+      }
+    },
+    "wordIds": [
+      "11867"
+    ],
+    "sourceIndex": 1867
   },
   {
     "id": "101884",
@@ -1003,6 +1294,23 @@ const phrasesNature = [
     "sourceIndex": 2186
   },
   {
+    "id": "102203",
+    "category": "nature",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We are driving to the coast."
+      },
+      "de": {
+        "text": "Wir fahren an die Küste."
+      }
+    },
+    "wordIds": [
+      "12203"
+    ],
+    "sourceIndex": 2203
+  },
+  {
     "id": "102257",
     "category": "nature",
     "level": "hard",
@@ -1018,6 +1326,23 @@ const phrasesNature = [
       "12257"
     ],
     "sourceIndex": 2257
+  },
+  {
+    "id": "102312",
+    "category": "nature",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The plant has deep roots."
+      },
+      "de": {
+        "text": "Die Pflanze hat tiefe Wurzeln."
+      }
+    },
+    "wordIds": [
+      "12312"
+    ],
+    "sourceIndex": 2312
   },
   {
     "id": "102359",
@@ -1122,6 +1447,23 @@ const phrasesNature = [
     "sourceIndex": 2488
   },
   {
+    "id": "102513",
+    "category": "nature",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The village lies in a beautiful valley."
+      },
+      "de": {
+        "text": "Das Dorf liegt in einem schönen Tal."
+      }
+    },
+    "wordIds": [
+      "12513"
+    ],
+    "sourceIndex": 2513
+  },
+  {
     "id": "102584",
     "category": "nature",
     "level": "medium",
@@ -1207,6 +1549,23 @@ const phrasesNature = [
     "sourceIndex": 2668
   },
   {
+    "id": "102794",
+    "category": "nature",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Smoke came out of the chimney."
+      },
+      "de": {
+        "text": "Aus dem Schornstein kam Rauch."
+      }
+    },
+    "wordIds": [
+      "12794"
+    ],
+    "sourceIndex": 2794
+  },
+  {
     "id": "102812",
     "category": "nature",
     "level": "medium",
@@ -1258,6 +1617,23 @@ const phrasesNature = [
     "sourceIndex": 3024
   },
   {
+    "id": "103061",
+    "category": "nature",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The dense fog made the drive difficult."
+      },
+      "de": {
+        "text": "Der dichte Nebel machte die Fahrt schwierig."
+      }
+    },
+    "wordIds": [
+      "13061"
+    ],
+    "sourceIndex": 3061
+  },
+  {
     "id": "103067",
     "category": "nature",
     "level": "hard",
@@ -1273,6 +1649,23 @@ const phrasesNature = [
       "13067"
     ],
     "sourceIndex": 3067
+  },
+  {
+    "id": "103124",
+    "category": "nature",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "She can ride well."
+      },
+      "de": {
+        "text": "Sie kann gut reiten."
+      }
+    },
+    "wordIds": [
+      "13124"
+    ],
+    "sourceIndex": 3124
   },
   {
     "id": "103128",
@@ -1394,6 +1787,23 @@ const phrasesNature = [
     "sourceIndex": 3435
   },
   {
+    "id": "103472",
+    "category": "nature",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The candle had a small, steady flame."
+      },
+      "de": {
+        "text": "Die Kerze hatte eine kleine, ruhige Flamme."
+      }
+    },
+    "wordIds": [
+      "13472"
+    ],
+    "sourceIndex": 3472
+  },
+  {
     "id": "103513",
     "category": "nature",
     "level": "hard",
@@ -1426,6 +1836,23 @@ const phrasesNature = [
       "13530"
     ],
     "sourceIndex": 3530
+  },
+  {
+    "id": "103539",
+    "category": "nature",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The cow gives milk."
+      },
+      "de": {
+        "text": "Die Kuh gibt Milch."
+      }
+    },
+    "wordIds": [
+      "13539"
+    ],
+    "sourceIndex": 3539
   },
   {
     "id": "103619",
@@ -1511,6 +1938,23 @@ const phrasesNature = [
       "13766"
     ],
     "sourceIndex": 3766
+  },
+  {
+    "id": "103784",
+    "category": "nature",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "A small insect crawled across the table."
+      },
+      "de": {
+        "text": "Ein kleines Insekt krabbelte über den Tisch."
+      }
+    },
+    "wordIds": [
+      "13784"
+    ],
+    "sourceIndex": 3784
   },
   {
     "id": "103889",
@@ -1649,6 +2093,40 @@ const phrasesNature = [
     "sourceIndex": 4195
   },
   {
+    "id": "104248",
+    "category": "nature",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The coffee is very hot."
+      },
+      "de": {
+        "text": "Der Kaffee ist sehr heiß."
+      }
+    },
+    "wordIds": [
+      "14248"
+    ],
+    "sourceIndex": 4248
+  },
+  {
+    "id": "104255",
+    "category": "nature",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "It is cool outside today."
+      },
+      "de": {
+        "text": "Es ist heute kühl draußen."
+      }
+    },
+    "wordIds": [
+      "14255"
+    ],
+    "sourceIndex": 4255
+  },
+  {
     "id": "104259",
     "category": "nature",
     "level": "hard",
@@ -1664,6 +2142,23 @@ const phrasesNature = [
       "14259"
     ],
     "sourceIndex": 4259
+  },
+  {
+    "id": "104292",
+    "category": "nature",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I can't bear the pain any longer."
+      },
+      "de": {
+        "text": "Ich kann den Schmerz nicht länger aushalten."
+      }
+    },
+    "wordIds": [
+      "14292"
+    ],
+    "sourceIndex": 4292
   },
   {
     "id": "104326",
@@ -1749,6 +2244,23 @@ const phrasesNature = [
       "14408"
     ],
     "sourceIndex": 4408
+  },
+  {
+    "id": "104412",
+    "category": "nature",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The Pacific Ocean is the largest ocean in the world."
+      },
+      "de": {
+        "text": "Der Pazifische Ozean ist der größte Ozean der Welt."
+      }
+    },
+    "wordIds": [
+      "14412"
+    ],
+    "sourceIndex": 4412
   },
   {
     "id": "104421",
@@ -1904,6 +2416,40 @@ const phrasesNature = [
     "sourceIndex": 4850
   },
   {
+    "id": "104911",
+    "category": "nature",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She leafed through an old photo album."
+      },
+      "de": {
+        "text": "Sie blätterte in einem alten Fotoalbum."
+      }
+    },
+    "wordIds": [
+      "14911"
+    ],
+    "sourceIndex": 4911
+  },
+  {
+    "id": "104948",
+    "category": "nature",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "It will rain today."
+      },
+      "de": {
+        "text": "Es wird heute regnen."
+      }
+    },
+    "wordIds": [
+      "14948"
+    ],
+    "sourceIndex": 4948
+  },
+  {
     "id": "105028",
     "category": "nature",
     "level": "hard",
@@ -2004,6 +2550,23 @@ const phrasesNature = [
       "15197"
     ],
     "sourceIndex": 5197
+  },
+  {
+    "id": "105281",
+    "category": "nature",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The hare hops across the field."
+      },
+      "de": {
+        "text": "Der Hase hoppelt über das Feld."
+      }
+    },
+    "wordIds": [
+      "15281"
+    ],
+    "sourceIndex": 5281
   },
   {
     "id": "105282",
@@ -2193,6 +2756,23 @@ const phrasesNature = [
     "sourceIndex": 5726
   },
   {
+    "id": "105765",
+    "category": "nature",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The child is playing with its teddy bear."
+      },
+      "de": {
+        "text": "Das Kind spielt mit seinem Teddy."
+      }
+    },
+    "wordIds": [
+      "15765"
+    ],
+    "sourceIndex": 5765
+  },
+  {
     "id": "105801",
     "category": "nature",
     "level": "hard",
@@ -2225,6 +2805,40 @@ const phrasesNature = [
       "15895"
     ],
     "sourceIndex": 5895
+  },
+  {
+    "id": "106070",
+    "category": "nature",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The severe weather caused great damage."
+      },
+      "de": {
+        "text": "Das Unwetter verursachte große Schäden."
+      }
+    },
+    "wordIds": [
+      "16070"
+    ],
+    "sourceIndex": 6070
+  },
+  {
+    "id": "106101",
+    "category": "nature",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Natural gas is an important energy source."
+      },
+      "de": {
+        "text": "Erdgas ist eine wichtige Energiequelle."
+      }
+    },
+    "wordIds": [
+      "16101"
+    ],
+    "sourceIndex": 6101
   },
   {
     "id": "106177",
@@ -2327,6 +2941,23 @@ const phrasesNature = [
       "16505"
     ],
     "sourceIndex": 6505
+  },
+  {
+    "id": "106553",
+    "category": "nature",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "A colorful butterfly flew through the garden."
+      },
+      "de": {
+        "text": "Ein bunter Schmetterling flog durch den Garten."
+      }
+    },
+    "wordIds": [
+      "16553"
+    ],
+    "sourceIndex": 6553
   },
   {
     "id": "106653",
@@ -2497,6 +3128,23 @@ const phrasesNature = [
       "16927"
     ],
     "sourceIndex": 6927
+  },
+  {
+    "id": "106938",
+    "category": "nature",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "In autumn, the leaves fall from the trees."
+      },
+      "de": {
+        "text": "Im Herbst fällt das Laub von den Bäumen."
+      }
+    },
+    "wordIds": [
+      "16938"
+    ],
+    "sourceIndex": 6938
   },
   {
     "id": "106958",
@@ -2771,6 +3419,23 @@ const phrasesNature = [
     "sourceIndex": 7491
   },
   {
+    "id": "107552",
+    "category": "nature",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "An ant crawled across the table."
+      },
+      "de": {
+        "text": "Eine Ameise krabbelte über den Tisch."
+      }
+    },
+    "wordIds": [
+      "17552"
+    ],
+    "sourceIndex": 7552
+  },
+  {
     "id": "107565",
     "category": "nature",
     "level": "medium",
@@ -2837,6 +3502,23 @@ const phrasesNature = [
       "17631"
     ],
     "sourceIndex": 7631
+  },
+  {
+    "id": "107645",
+    "category": "nature",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "It is very sunny today."
+      },
+      "de": {
+        "text": "Heute ist es sehr sonnig."
+      }
+    },
+    "wordIds": [
+      "17645"
+    ],
+    "sourceIndex": 7645
   },
   {
     "id": "107780",
@@ -2990,6 +3672,23 @@ const phrasesNature = [
       "18288"
     ],
     "sourceIndex": 8288
+  },
+  {
+    "id": "108304",
+    "category": "nature",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The goose honked loudly in the garden."
+      },
+      "de": {
+        "text": "Die Gans schnatterte laut im Garten."
+      }
+    },
+    "wordIds": [
+      "18304"
+    ],
+    "sourceIndex": 8304
   },
   {
     "id": "108340",
@@ -3213,6 +3912,23 @@ const phrasesNature = [
     "sourceIndex": 8739
   },
   {
+    "id": "108796",
+    "category": "nature",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Many wind turbines produce electricity."
+      },
+      "de": {
+        "text": "Viele Windräder produzieren Strom."
+      }
+    },
+    "wordIds": [
+      "18796"
+    ],
+    "sourceIndex": 8796
+  },
+  {
     "id": "108838",
     "category": "nature",
     "level": "hard",
@@ -3279,6 +3995,23 @@ const phrasesNature = [
       "18903"
     ],
     "sourceIndex": 8903
+  },
+  {
+    "id": "108904",
+    "category": "nature",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "A roe deer ran across the street."
+      },
+      "de": {
+        "text": "Ein Reh lief über die Straße."
+      }
+    },
+    "wordIds": [
+      "18904"
+    ],
+    "sourceIndex": 8904
   },
   {
     "id": "108923",
@@ -3400,6 +4133,23 @@ const phrasesNature = [
     "sourceIndex": 9047
   },
   {
+    "id": "109068",
+    "category": "nature",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Please note the asterisk at the end of the sentence."
+      },
+      "de": {
+        "text": "Bitte beachten Sie das Sternchen am Ende des Satzes."
+      }
+    },
+    "wordIds": [
+      "19068"
+    ],
+    "sourceIndex": 9068
+  },
+  {
     "id": "109119",
     "category": "nature",
     "level": "hard",
@@ -3449,6 +4199,40 @@ const phrasesNature = [
       "19278"
     ],
     "sourceIndex": 9278
+  },
+  {
+    "id": "109323",
+    "category": "nature",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "A mosquito bit me."
+      },
+      "de": {
+        "text": "Eine Mücke hat mich gestochen."
+      }
+    },
+    "wordIds": [
+      "19323"
+    ],
+    "sourceIndex": 9323
+  },
+  {
+    "id": "109403",
+    "category": "nature",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Let the coffee cool down first."
+      },
+      "de": {
+        "text": "Lass den Kaffee erst abkühlen."
+      }
+    },
+    "wordIds": [
+      "19403"
+    ],
+    "sourceIndex": 9403
   },
   {
     "id": "109425",
@@ -3517,6 +4301,23 @@ const phrasesNature = [
       "19650"
     ],
     "sourceIndex": 9650
+  },
+  {
+    "id": "109723",
+    "category": "nature",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Today it is cloudy, but it's not raining."
+      },
+      "de": {
+        "text": "Heute ist es bewölkt, aber es regnet nicht."
+      }
+    },
+    "wordIds": [
+      "19723"
+    ],
+    "sourceIndex": 9723
   },
   {
     "id": "109760",
@@ -3621,6 +4422,23 @@ const phrasesNature = [
     "sourceIndex": 9946
   },
   {
+    "id": "110030",
+    "category": "nature",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "You can freeze the bread."
+      },
+      "de": {
+        "text": "Du kannst das Brot einfrieren."
+      }
+    },
+    "wordIds": [
+      "20030"
+    ],
+    "sourceIndex": 10030
+  },
+  {
     "id": "110032",
     "category": "nature",
     "level": "hard",
@@ -3704,6 +4522,40 @@ const phrasesNature = [
       "20187"
     ],
     "sourceIndex": 10187
+  },
+  {
+    "id": "110198",
+    "category": "nature",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The hen lays eggs every day."
+      },
+      "de": {
+        "text": "Die Henne legt jeden Tag Eier."
+      }
+    },
+    "wordIds": [
+      "20198"
+    ],
+    "sourceIndex": 10198
+  },
+  {
+    "id": "110284",
+    "category": "nature",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "After the walk, he had a tick."
+      },
+      "de": {
+        "text": "Nach dem Spaziergang hatte er eine Zecke."
+      }
+    },
+    "wordIds": [
+      "20284"
+    ],
+    "sourceIndex": 10284
   },
   {
     "id": "110287",
@@ -3876,6 +4728,40 @@ const phrasesNature = [
     "sourceIndex": 10917
   },
   {
+    "id": "111179",
+    "category": "nature",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please warm up the soup."
+      },
+      "de": {
+        "text": "Bitte erwärmen Sie die Suppe."
+      }
+    },
+    "wordIds": [
+      "21179"
+    ],
+    "sourceIndex": 11179
+  },
+  {
+    "id": "111185",
+    "category": "nature",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "My feet are freezing."
+      },
+      "de": {
+        "text": "Mir friert es an den Füßen."
+      }
+    },
+    "wordIds": [
+      "21185"
+    ],
+    "sourceIndex": 11185
+  },
+  {
     "id": "111221",
     "category": "nature",
     "level": "hard",
@@ -3891,6 +4777,23 @@ const phrasesNature = [
       "21221"
     ],
     "sourceIndex": 11221
+  },
+  {
+    "id": "111226",
+    "category": "nature",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "My guinea pig likes to eat carrots."
+      },
+      "de": {
+        "text": "Mein Meerschweinchen frisst gerne Karotten."
+      }
+    },
+    "wordIds": [
+      "21226"
+    ],
+    "sourceIndex": 11226
   },
   {
     "id": "111350",
@@ -4012,6 +4915,23 @@ const phrasesNature = [
     "sourceIndex": 11828
   },
   {
+    "id": "111961",
+    "category": "nature",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Every household should have a smoke detector."
+      },
+      "de": {
+        "text": "Jeder Haushalt sollte einen Rauchmelder haben."
+      }
+    },
+    "wordIds": [
+      "21961"
+    ],
+    "sourceIndex": 11961
+  },
+  {
     "id": "111994",
     "category": "nature",
     "level": "hard",
@@ -4097,6 +5017,23 @@ const phrasesNature = [
     "sourceIndex": 12282
   },
   {
+    "id": "112344",
+    "category": "nature",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She loves the Black Forest ham."
+      },
+      "de": {
+        "text": "Sie liebt den schwarzwälder Schinken."
+      }
+    },
+    "wordIds": [
+      "22344"
+    ],
+    "sourceIndex": 12344
+  },
+  {
     "id": "112358",
     "category": "nature",
     "level": "hard",
@@ -4163,6 +5100,23 @@ const phrasesNature = [
       "22437"
     ],
     "sourceIndex": 12437
+  },
+  {
+    "id": "112621",
+    "category": "nature",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The little flower on the table is very beautiful."
+      },
+      "de": {
+        "text": "Das Blümchen auf dem Tisch ist sehr schön."
+      }
+    },
+    "wordIds": [
+      "22621"
+    ],
+    "sourceIndex": 12621
   },
   {
     "id": "112706",
@@ -4420,6 +5374,23 @@ const phrasesNature = [
     "sourceIndex": 13547
   },
   {
+    "id": "113573",
+    "category": "nature",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The maple tree in the garden is very old."
+      },
+      "de": {
+        "text": "Der Ahornbaum im Garten ist sehr alt."
+      }
+    },
+    "wordIds": [
+      "23573"
+    ],
+    "sourceIndex": 13573
+  },
+  {
     "id": "113733",
     "category": "nature",
     "level": "hard",
@@ -4471,6 +5442,23 @@ const phrasesNature = [
     "sourceIndex": 13807
   },
   {
+    "id": "113810",
+    "category": "nature",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "She received a beautiful bouquet of flowers for her birthday."
+      },
+      "de": {
+        "text": "Sie bekam einen schönen Blumenstrauss zum Geburtstag."
+      }
+    },
+    "wordIds": [
+      "23810"
+    ],
+    "sourceIndex": 13810
+  },
+  {
     "id": "113950",
     "category": "nature",
     "level": "medium",
@@ -4503,6 +5491,23 @@ const phrasesNature = [
       "24028"
     ],
     "sourceIndex": 14028
+  },
+  {
+    "id": "114235",
+    "category": "nature",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Children love gummy bears."
+      },
+      "de": {
+        "text": "Kinder lieben Gummibärchen."
+      }
+    },
+    "wordIds": [
+      "24235"
+    ],
+    "sourceIndex": 14235
   },
   {
     "id": "114297",
@@ -4554,6 +5559,23 @@ const phrasesNature = [
       "24404"
     ],
     "sourceIndex": 14404
+  },
+  {
+    "id": "114409",
+    "category": "nature",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The water will freeze at zero degrees Celsius."
+      },
+      "de": {
+        "text": "Das Wasser wird bei null Grad Celsius gefrieren."
+      }
+    },
+    "wordIds": [
+      "24409"
+    ],
+    "sourceIndex": 14409
   },
   {
     "id": "114442",
@@ -4658,6 +5680,23 @@ const phrasesNature = [
     "sourceIndex": 15077
   },
   {
+    "id": "115152",
+    "category": "nature",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The reservoir serves for electricity generation."
+      },
+      "de": {
+        "text": "Der Stausee dient der Stromerzeugung."
+      }
+    },
+    "wordIds": [
+      "25152"
+    ],
+    "sourceIndex": 15152
+  },
+  {
     "id": "115186",
     "category": "nature",
     "level": "hard",
@@ -4673,6 +5712,23 @@ const phrasesNature = [
       "25186"
     ],
     "sourceIndex": 15186
+  },
+  {
+    "id": "115188",
+    "category": "nature",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "It is very windy today."
+      },
+      "de": {
+        "text": "Heute ist es sehr windig."
+      }
+    },
+    "wordIds": [
+      "25188"
+    ],
+    "sourceIndex": 15188
   },
   {
     "id": "115287",
@@ -4828,6 +5884,23 @@ const phrasesNature = [
     "sourceIndex": 15749
   },
   {
+    "id": "115802",
+    "category": "nature",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The water in the lake was murky."
+      },
+      "de": {
+        "text": "Das Wasser im See war trüb."
+      }
+    },
+    "wordIds": [
+      "25802"
+    ],
+    "sourceIndex": 15802
+  },
+  {
     "id": "115830",
     "category": "nature",
     "level": "hard",
@@ -4843,6 +5916,23 @@ const phrasesNature = [
       "25830"
     ],
     "sourceIndex": 15830
+  },
+  {
+    "id": "115875",
+    "category": "nature",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Our dachshund is very playful."
+      },
+      "de": {
+        "text": "Unser Dackel ist sehr verspielt."
+      }
+    },
+    "wordIds": [
+      "25875"
+    ],
+    "sourceIndex": 15875
   },
   {
     "id": "115923",
@@ -4930,6 +6020,23 @@ const phrasesNature = [
     "sourceIndex": 16351
   },
   {
+    "id": "116375",
+    "category": "nature",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I would like ice cubes in my drink."
+      },
+      "de": {
+        "text": "Ich hätte gerne Eiswürfel in meinem Getränk."
+      }
+    },
+    "wordIds": [
+      "26375"
+    ],
+    "sourceIndex": 16375
+  },
+  {
     "id": "116489",
     "category": "nature",
     "level": "medium",
@@ -5013,6 +6120,23 @@ const phrasesNature = [
       "26824"
     ],
     "sourceIndex": 16824
+  },
+  {
+    "id": "116840",
+    "category": "nature",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The continuous rain lasted all night."
+      },
+      "de": {
+        "text": "Der Dauerregen hielt die ganze Nacht an."
+      }
+    },
+    "wordIds": [
+      "26840"
+    ],
+    "sourceIndex": 16840
   },
   {
     "id": "116918",
@@ -5168,6 +6292,23 @@ const phrasesNature = [
     "sourceIndex": 17182
   },
   {
+    "id": "117197",
+    "category": "nature",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Our Labrador loves to swim in the lake."
+      },
+      "de": {
+        "text": "Unser Labrador liebt es, im See zu schwimmen."
+      }
+    },
+    "wordIds": [
+      "27197"
+    ],
+    "sourceIndex": 17197
+  },
+  {
     "id": "117242",
     "category": "nature",
     "level": "hard",
@@ -5183,6 +6324,23 @@ const phrasesNature = [
       "27242"
     ],
     "sourceIndex": 17242
+  },
+  {
+    "id": "117245",
+    "category": "nature",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We hiked up the castle hill to enjoy the view."
+      },
+      "de": {
+        "text": "Wir wanderten auf den Schlossberg, um die Aussicht zu genießen."
+      }
+    },
+    "wordIds": [
+      "27245"
+    ],
+    "sourceIndex": 17245
   },
   {
     "id": "117262",
@@ -5285,6 +6443,23 @@ const phrasesNature = [
       "27834"
     ],
     "sourceIndex": 17834
+  },
+  {
+    "id": "117835",
+    "category": "nature",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Behind the house is a small patch of forest."
+      },
+      "de": {
+        "text": "Hinter dem Haus ist ein kleines Waldstück."
+      }
+    },
+    "wordIds": [
+      "27835"
+    ],
+    "sourceIndex": 17835
   },
   {
     "id": "117845",
@@ -5423,6 +6598,23 @@ const phrasesNature = [
     "sourceIndex": 18072
   },
   {
+    "id": "118125",
+    "category": "nature",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "A small tree is growing in the garden."
+      },
+      "de": {
+        "text": "Im Garten wächst ein kleines Bäumchen."
+      }
+    },
+    "wordIds": [
+      "28125"
+    ],
+    "sourceIndex": 18125
+  },
+  {
     "id": "118183",
     "category": "nature",
     "level": "medium",
@@ -5438,6 +6630,23 @@ const phrasesNature = [
       "28183"
     ],
     "sourceIndex": 18183
+  },
+  {
+    "id": "118209",
+    "category": "nature",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Put some bay leaf in the soup."
+      },
+      "de": {
+        "text": "Gib etwas Lorbeer in die Suppe."
+      }
+    },
+    "wordIds": [
+      "28209"
+    ],
+    "sourceIndex": 18209
   },
   {
     "id": "118212",
@@ -5472,6 +6681,23 @@ const phrasesNature = [
       "28222"
     ],
     "sourceIndex": 18222
+  },
+  {
+    "id": "118230",
+    "category": "nature",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We are spending our vacation on the Baltic Sea coast."
+      },
+      "de": {
+        "text": "Wir verbringen unseren Urlaub an der Ostseeküste."
+      }
+    },
+    "wordIds": [
+      "28230"
+    ],
+    "sourceIndex": 18230
   },
   {
     "id": "118379",
@@ -5540,6 +6766,23 @@ const phrasesNature = [
       "28505"
     ],
     "sourceIndex": 18505
+  },
+  {
+    "id": "118533",
+    "category": "nature",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Thick smoke rose from the chimney."
+      },
+      "de": {
+        "text": "Aus dem Schornstein stieg dicker Qualm auf."
+      }
+    },
+    "wordIds": [
+      "28533"
+    ],
+    "sourceIndex": 18533
   },
   {
     "id": "118800",
@@ -5676,6 +6919,23 @@ const phrasesNature = [
       "29374"
     ],
     "sourceIndex": 19374
+  },
+  {
+    "id": "119383",
+    "category": "nature",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We spent the day at the sandy beach."
+      },
+      "de": {
+        "text": "Wir verbrachten den Tag am Sandstrand."
+      }
+    },
+    "wordIds": [
+      "29383"
+    ],
+    "sourceIndex": 19383
   },
   {
     "id": "119462",

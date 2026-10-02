@@ -85,6 +85,23 @@ const phrasesClothing = [
     "sourceIndex": 1476
   },
   {
+    "id": "101594",
+    "category": "clothing",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "She bought new clothes."
+      },
+      "de": {
+        "text": "Sie kaufte neue Kleidung."
+      }
+    },
+    "wordIds": [
+      "11594"
+    ],
+    "sourceIndex": 1594
+  },
+  {
     "id": "101639",
     "category": "clothing",
     "level": "medium",
@@ -168,6 +185,23 @@ const phrasesClothing = [
       "11860"
     ],
     "sourceIndex": 1860
+  },
+  {
+    "id": "101864",
+    "category": "clothing",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "She is very interested in fashion."
+      },
+      "de": {
+        "text": "Sie interessiert sich sehr für Mode."
+      }
+    },
+    "wordIds": [
+      "11864"
+    ],
+    "sourceIndex": 1864
   },
   {
     "id": "101943",
@@ -460,6 +494,23 @@ const phrasesClothing = [
     "sourceIndex": 3301
   },
   {
+    "id": "103436",
+    "category": "clothing",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She has a very smart idea."
+      },
+      "de": {
+        "text": "Sie hat eine sehr smarte Idee."
+      }
+    },
+    "wordIds": [
+      "13436"
+    ],
+    "sourceIndex": 3436
+  },
+  {
     "id": "103437",
     "category": "clothing",
     "level": "easy",
@@ -475,6 +526,23 @@ const phrasesClothing = [
       "13437"
     ],
     "sourceIndex": 3437
+  },
+  {
+    "id": "103542",
+    "category": "clothing",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I need a warm coat for the winter."
+      },
+      "de": {
+        "text": "Ich brauche einen warmen Mantel für den Winter."
+      }
+    },
+    "wordIds": [
+      "13542"
+    ],
+    "sourceIndex": 3542
   },
   {
     "id": "103592",
@@ -681,6 +749,57 @@ const phrasesClothing = [
     "sourceIndex": 4486
   },
   {
+    "id": "104609",
+    "category": "clothing",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I like to wear a comfortable jersey sweater."
+      },
+      "de": {
+        "text": "Ich trage gerne einen bequemen Jersey-Pullover."
+      }
+    },
+    "wordIds": [
+      "14609"
+    ],
+    "sourceIndex": 4609
+  },
+  {
+    "id": "104663",
+    "category": "clothing",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We need a uniform solution for this problem."
+      },
+      "de": {
+        "text": "Wir brauchen eine einheitliche Lösung für dieses Problem."
+      }
+    },
+    "wordIds": [
+      "14663"
+    ],
+    "sourceIndex": 4663
+  },
+  {
+    "id": "104736",
+    "category": "clothing",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Click on the button."
+      },
+      "de": {
+        "text": "Klicken Sie auf den Button."
+      }
+    },
+    "wordIds": [
+      "14736"
+    ],
+    "sourceIndex": 4736
+  },
+  {
     "id": "104825",
     "category": "clothing",
     "level": "medium",
@@ -698,6 +817,23 @@ const phrasesClothing = [
     "sourceIndex": 4825
   },
   {
+    "id": "105002",
+    "category": "clothing",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She is interested in style and fashion."
+      },
+      "de": {
+        "text": "Sie interessiert sich für Mode und Fashion."
+      }
+    },
+    "wordIds": [
+      "15002"
+    ],
+    "sourceIndex": 5002
+  },
+  {
     "id": "105091",
     "category": "clothing",
     "level": "hard",
@@ -713,6 +849,23 @@ const phrasesClothing = [
       "15091"
     ],
     "sourceIndex": 5091
+  },
+  {
+    "id": "105231",
+    "category": "clothing",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "She wrapped the baby in a soft cloth."
+      },
+      "de": {
+        "text": "Sie wickelte das Baby in ein weiches Tuch."
+      }
+    },
+    "wordIds": [
+      "15231"
+    ],
+    "sourceIndex": 5231
   },
   {
     "id": "105444",
@@ -764,6 +917,40 @@ const phrasesClothing = [
       "15636"
     ],
     "sourceIndex": 5636
+  },
+  {
+    "id": "105770",
+    "category": "clothing",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "She bought new underwear."
+      },
+      "de": {
+        "text": "Sie kaufte neue Unterwäsche."
+      }
+    },
+    "wordIds": [
+      "15770"
+    ],
+    "sourceIndex": 5770
+  },
+  {
+    "id": "106058",
+    "category": "clothing",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "In winter, I always wear a warm scarf."
+      },
+      "de": {
+        "text": "Im Winter trage ich immer einen warmen Schal."
+      }
+    },
+    "wordIds": [
+      "16058"
+    ],
+    "sourceIndex": 6058
   },
   {
     "id": "106191",
@@ -832,6 +1019,23 @@ const phrasesClothing = [
       "16696"
     ],
     "sourceIndex": 6696
+  },
+  {
+    "id": "106882",
+    "category": "clothing",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "He rolled up his sleeves."
+      },
+      "de": {
+        "text": "Er krempelte die Ärmel hoch."
+      }
+    },
+    "wordIds": [
+      "16882"
+    ],
+    "sourceIndex": 6882
   },
   {
     "id": "107164",
@@ -951,6 +1155,23 @@ const phrasesClothing = [
       "18236"
     ],
     "sourceIndex": 8236
+  },
+  {
+    "id": "108418",
+    "category": "clothing",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She wore a beautiful Dirndl to Oktoberfest."
+      },
+      "de": {
+        "text": "Sie trug ein schönes Dirndl zum Oktoberfest."
+      }
+    },
+    "wordIds": [
+      "18418"
+    ],
+    "sourceIndex": 8418
   },
   {
     "id": "108638",
@@ -1123,6 +1344,23 @@ const phrasesClothing = [
     "sourceIndex": 10852
   },
   {
+    "id": "110929",
+    "category": "clothing",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Children love to dress up."
+      },
+      "de": {
+        "text": "Kinder lieben es, sich zu verkleiden."
+      }
+    },
+    "wordIds": [
+      "20929"
+    ],
+    "sourceIndex": 10929
+  },
+  {
     "id": "111056",
     "category": "clothing",
     "level": "hard",
@@ -1172,6 +1410,23 @@ const phrasesClothing = [
       "21675"
     ],
     "sourceIndex": 11675
+  },
+  {
+    "id": "111736",
+    "category": "clothing",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Please fasten your seatbelt."
+      },
+      "de": {
+        "text": "Bitte legen Sie den Sicherheitsgurt an."
+      }
+    },
+    "wordIds": [
+      "21736"
+    ],
+    "sourceIndex": 11736
   },
   {
     "id": "112179",
@@ -1429,6 +1684,23 @@ const phrasesClothing = [
     "sourceIndex": 14449
   },
   {
+    "id": "115701",
+    "category": "clothing",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "In rainy weather, I always wear rubber boots."
+      },
+      "de": {
+        "text": "Bei Regenwetter trage ich immer Gummistiefel."
+      }
+    },
+    "wordIds": [
+      "25701"
+    ],
+    "sourceIndex": 15701
+  },
+  {
     "id": "115879",
     "category": "clothing",
     "level": "medium",
@@ -1444,6 +1716,23 @@ const phrasesClothing = [
       "25879"
     ],
     "sourceIndex": 15879
+  },
+  {
+    "id": "115884",
+    "category": "clothing",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The trousers shrunk in the wash."
+      },
+      "de": {
+        "text": "Die Hose ist beim Waschen eingelaufen."
+      }
+    },
+    "wordIds": [
+      "25884"
+    ],
+    "sourceIndex": 15884
   },
   {
     "id": "115949",
@@ -1633,6 +1922,40 @@ const phrasesClothing = [
     "sourceIndex": 18603
   },
   {
+    "id": "118622",
+    "category": "clothing",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The tires wear out quickly."
+      },
+      "de": {
+        "text": "Die Reifen nutzen sich schnell ab."
+      }
+    },
+    "wordIds": [
+      "28622"
+    ],
+    "sourceIndex": 18622
+  },
+  {
+    "id": "118644",
+    "category": "clothing",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The belly button is an interesting part of the body."
+      },
+      "de": {
+        "text": "Der Bauchnabel ist ein interessanter Teil des Körpers."
+      }
+    },
+    "wordIds": [
+      "28644"
+    ],
+    "sourceIndex": 18644
+  },
+  {
     "id": "118981",
     "category": "clothing",
     "level": "medium",
@@ -1684,6 +2007,23 @@ const phrasesClothing = [
     "sourceIndex": 19468
   },
   {
+    "id": "119795",
+    "category": "clothing",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I need an iron to iron my shirts."
+      },
+      "de": {
+        "text": "Ich brauche ein Bügeleisen, um meine Hemden zu bügeln."
+      }
+    },
+    "wordIds": [
+      "29795"
+    ],
+    "sourceIndex": 19795
+  },
+  {
     "id": "119799",
     "category": "clothing",
     "level": "hard",
@@ -1716,6 +2056,23 @@ const phrasesClothing = [
       "29801"
     ],
     "sourceIndex": 19801
+  },
+  {
+    "id": "119990",
+    "category": "clothing",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "He put on a warm sock."
+      },
+      "de": {
+        "text": "Er zog einen warmen Strumpf an."
+      }
+    },
+    "wordIds": [
+      "29990"
+    ],
+    "sourceIndex": 19990
   },
   {
     "id": "120051",

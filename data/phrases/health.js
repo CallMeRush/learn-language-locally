@@ -170,6 +170,40 @@ const phrasesHealth = [
     "sourceIndex": 417
   },
   {
+    "id": "100445",
+    "category": "health",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The human body is complex."
+      },
+      "de": {
+        "text": "Der menschliche Körper ist komplex."
+      }
+    },
+    "wordIds": [
+      "10445"
+    ],
+    "sourceIndex": 445
+  },
+  {
+    "id": "100496",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She has a lot of strength in her arms."
+      },
+      "de": {
+        "text": "Sie hat viel Kraft in ihren Armen."
+      }
+    },
+    "wordIds": [
+      "10496"
+    ],
+    "sourceIndex": 496
+  },
+  {
     "id": "100635",
     "category": "health",
     "level": "easy",
@@ -238,6 +272,23 @@ const phrasesHealth = [
     "sourceIndex": 715
   },
   {
+    "id": "100723",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Many old trees die in winter."
+      },
+      "de": {
+        "text": "Viele alte Bäume sterben im Winter."
+      }
+    },
+    "wordIds": [
+      "10723"
+    ],
+    "sourceIndex": 723
+  },
+  {
     "id": "100755",
     "category": "health",
     "level": "medium",
@@ -253,6 +304,23 @@ const phrasesHealth = [
       "10755"
     ],
     "sourceIndex": 755
+  },
+  {
+    "id": "100756",
+    "category": "health",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The car is at the back in the yard."
+      },
+      "de": {
+        "text": "Das Auto steht hinten im Hof."
+      }
+    },
+    "wordIds": [
+      "10756"
+    ],
+    "sourceIndex": 756
   },
   {
     "id": "100760",
@@ -272,6 +340,23 @@ const phrasesHealth = [
     "sourceIndex": 760
   },
   {
+    "id": "100813",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The doctor's office is closed on Tuesday."
+      },
+      "de": {
+        "text": "Die Praxis ist am Dienstag geschlossen."
+      }
+    },
+    "wordIds": [
+      "10813"
+    ],
+    "sourceIndex": 813
+  },
+  {
     "id": "100833",
     "category": "health",
     "level": "easy",
@@ -289,6 +374,40 @@ const phrasesHealth = [
     "sourceIndex": 833
   },
   {
+    "id": "100835",
+    "category": "health",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "She opened her mouth to speak."
+      },
+      "de": {
+        "text": "Sie öffnete ihren Mund, um zu sprechen."
+      }
+    },
+    "wordIds": [
+      "10835"
+    ],
+    "sourceIndex": 835
+  },
+  {
+    "id": "100839",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The plant is unfortunately dead."
+      },
+      "de": {
+        "text": "Die Pflanze ist leider tot."
+      }
+    },
+    "wordIds": [
+      "10839"
+    ],
+    "sourceIndex": 839
+  },
+  {
     "id": "100846",
     "category": "health",
     "level": "easy",
@@ -304,6 +423,23 @@ const phrasesHealth = [
       "10846"
     ],
     "sourceIndex": 846
+  },
+  {
+    "id": "100850",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The treatment was successful."
+      },
+      "de": {
+        "text": "Die Behandlung war erfolgreich."
+      }
+    },
+    "wordIds": [
+      "10850"
+    ],
+    "sourceIndex": 850
   },
   {
     "id": "100876",
@@ -357,6 +493,23 @@ const phrasesHealth = [
     "sourceIndex": 915
   },
   {
+    "id": "100964",
+    "category": "health",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I feel sick today."
+      },
+      "de": {
+        "text": "Ich fühle mich heute krank."
+      }
+    },
+    "wordIds": [
+      "10964"
+    ],
+    "sourceIndex": 964
+  },
+  {
     "id": "100986",
     "category": "health",
     "level": "medium",
@@ -372,6 +525,40 @@ const phrasesHealth = [
       "10986"
     ],
     "sourceIndex": 986
+  },
+  {
+    "id": "100988",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He has to suffer a lot."
+      },
+      "de": {
+        "text": "Er muss viel leiden."
+      }
+    },
+    "wordIds": [
+      "10988"
+    ],
+    "sourceIndex": 988
+  },
+  {
+    "id": "101034",
+    "category": "health",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "He has five fingers on each hand."
+      },
+      "de": {
+        "text": "Er hat fünf Finger an jeder Hand."
+      }
+    },
+    "wordIds": [
+      "11034"
+    ],
+    "sourceIndex": 1034
   },
   {
     "id": "101098",
@@ -423,6 +610,23 @@ const phrasesHealth = [
       "11136"
     ],
     "sourceIndex": 1136
+  },
+  {
+    "id": "101147",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "On the one hand it is expensive, on the other hand it is very good."
+      },
+      "de": {
+        "text": "Einerseits ist es teuer, andererseits ist es sehr gut."
+      }
+    },
+    "wordIds": [
+      "11147"
+    ],
+    "sourceIndex": 1147
   },
   {
     "id": "101213",
@@ -493,6 +697,40 @@ const phrasesHealth = [
     "sourceIndex": 1284
   },
   {
+    "id": "101288",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She studies medicine at the university."
+      },
+      "de": {
+        "text": "Sie studiert Medizin an der Universität."
+      }
+    },
+    "wordIds": [
+      "11288"
+    ],
+    "sourceIndex": 1288
+  },
+  {
+    "id": "101315",
+    "category": "health",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The temperature is very high today."
+      },
+      "de": {
+        "text": "Die Temperatur ist heute sehr hoch."
+      }
+    },
+    "wordIds": [
+      "11315"
+    ],
+    "sourceIndex": 1315
+  },
+  {
     "id": "101337",
     "category": "health",
     "level": "hard",
@@ -543,6 +781,40 @@ const phrasesHealth = [
       "23141"
     ],
     "sourceIndex": 1379
+  },
+  {
+    "id": "101453",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The birth of her child was a special moment."
+      },
+      "de": {
+        "text": "Die Geburt ihres Kindes war ein besonderer Moment."
+      }
+    },
+    "wordIds": [
+      "11453"
+    ],
+    "sourceIndex": 1453
+  },
+  {
+    "id": "101498",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The operation was successful."
+      },
+      "de": {
+        "text": "Die Operation war erfolgreich."
+      }
+    },
+    "wordIds": [
+      "11498"
+    ],
+    "sourceIndex": 1498
   },
   {
     "id": "101500",
@@ -613,6 +885,23 @@ const phrasesHealth = [
     "sourceIndex": 1633
   },
   {
+    "id": "101676",
+    "category": "health",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "She had to go to the clinic."
+      },
+      "de": {
+        "text": "Sie musste in die Klinik gehen."
+      }
+    },
+    "wordIds": [
+      "11676"
+    ],
+    "sourceIndex": 1676
+  },
+  {
     "id": "101689",
     "category": "health",
     "level": "hard",
@@ -647,6 +936,40 @@ const phrasesHealth = [
     "sourceIndex": 1823
   },
   {
+    "id": "101874",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Caution is the mother of the porcelain box."
+      },
+      "de": {
+        "text": "Vorsicht ist die Mutter der Porzellankiste."
+      }
+    },
+    "wordIds": [
+      "11874"
+    ],
+    "sourceIndex": 1874
+  },
+  {
+    "id": "101910",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He will hand over the documents tomorrow."
+      },
+      "de": {
+        "text": "Er wird die Dokumente morgen übergeben."
+      }
+    },
+    "wordIds": [
+      "11910"
+    ],
+    "sourceIndex": 1910
+  },
+  {
     "id": "101916",
     "category": "health",
     "level": "medium",
@@ -679,6 +1002,40 @@ const phrasesHealth = [
       "11921"
     ],
     "sourceIndex": 1921
+  },
+  {
+    "id": "101986",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please hand in your homework by Friday."
+      },
+      "de": {
+        "text": "Bitte geben Sie Ihre Hausaufgaben bis Freitag ab."
+      }
+    },
+    "wordIds": [
+      "11986"
+    ],
+    "sourceIndex": 1986
+  },
+  {
+    "id": "102008",
+    "category": "health",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "He fell to his knees."
+      },
+      "de": {
+        "text": "Er fiel auf die Knie."
+      }
+    },
+    "wordIds": [
+      "12008"
+    ],
+    "sourceIndex": 2008
   },
   {
     "id": "102061",
@@ -749,6 +1106,23 @@ const phrasesHealth = [
     "sourceIndex": 2217
   },
   {
+    "id": "102287",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The dog buries its bone in the garden."
+      },
+      "de": {
+        "text": "Der Hund vergräbt seinen Knochen im Garten."
+      }
+    },
+    "wordIds": [
+      "12287"
+    ],
+    "sourceIndex": 2287
+  },
+  {
     "id": "102301",
     "category": "health",
     "level": "medium",
@@ -764,6 +1138,23 @@ const phrasesHealth = [
       "12301"
     ],
     "sourceIndex": 2301
+  },
+  {
+    "id": "102332",
+    "category": "health",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "She has red lips."
+      },
+      "de": {
+        "text": "Sie hat rote Lippen."
+      }
+    },
+    "wordIds": [
+      "12332"
+    ],
+    "sourceIndex": 2332
   },
   {
     "id": "102349",
@@ -851,6 +1242,23 @@ const phrasesHealth = [
     "sourceIndex": 2495
   },
   {
+    "id": "102580",
+    "category": "health",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The fire burns brightly."
+      },
+      "de": {
+        "text": "Das Feuer brennt hell."
+      }
+    },
+    "wordIds": [
+      "12580"
+    ],
+    "sourceIndex": 2580
+  },
+  {
     "id": "102582",
     "category": "health",
     "level": "medium",
@@ -885,6 +1293,40 @@ const phrasesHealth = [
     "sourceIndex": 2712
   },
   {
+    "id": "102904",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She is five months pregnant."
+      },
+      "de": {
+        "text": "Sie ist im fünften Monat schwanger."
+      }
+    },
+    "wordIds": [
+      "12904"
+    ],
+    "sourceIndex": 2904
+  },
+  {
+    "id": "103166",
+    "category": "health",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The child has a high fever."
+      },
+      "de": {
+        "text": "Das Kind hat hohes Fieber."
+      }
+    },
+    "wordIds": [
+      "13166"
+    ],
+    "sourceIndex": 3166
+  },
+  {
     "id": "103185",
     "category": "health",
     "level": "medium",
@@ -902,6 +1344,74 @@ const phrasesHealth = [
     "sourceIndex": 3185
   },
   {
+    "id": "103191",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She cares for her flowers every day."
+      },
+      "de": {
+        "text": "Sie pflegt ihre Blumen jeden Tag."
+      }
+    },
+    "wordIds": [
+      "13191"
+    ],
+    "sourceIndex": 3191
+  },
+  {
+    "id": "103279",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We wish you a good recovery!"
+      },
+      "de": {
+        "text": "Wir wünschen dir gute Besserung!"
+      }
+    },
+    "wordIds": [
+      "13279"
+    ],
+    "sourceIndex": 3279
+  },
+  {
+    "id": "103299",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He has strong muscles."
+      },
+      "de": {
+        "text": "Er hat starke Muskeln."
+      }
+    },
+    "wordIds": [
+      "13299"
+    ],
+    "sourceIndex": 3299
+  },
+  {
+    "id": "103300",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "In case of emergency, please call the police."
+      },
+      "de": {
+        "text": "Im Notfall rufen Sie bitte die Polizei."
+      }
+    },
+    "wordIds": [
+      "13300"
+    ],
+    "sourceIndex": 3300
+  },
+  {
     "id": "103329",
     "category": "health",
     "level": "medium",
@@ -917,6 +1427,23 @@ const phrasesHealth = [
       "13329"
     ],
     "sourceIndex": 3329
+  },
+  {
+    "id": "103375",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Pregnancy lasts nine months."
+      },
+      "de": {
+        "text": "Die Schwangerschaft dauert neun Monate."
+      }
+    },
+    "wordIds": [
+      "13375"
+    ],
+    "sourceIndex": 3375
   },
   {
     "id": "103440",
@@ -953,6 +1480,23 @@ const phrasesHealth = [
     "sourceIndex": 3454
   },
   {
+    "id": "103574",
+    "category": "health",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "He breathes deeply."
+      },
+      "de": {
+        "text": "Er atmet tief ein."
+      }
+    },
+    "wordIds": [
+      "13574"
+    ],
+    "sourceIndex": 3574
+  },
+  {
     "id": "103660",
     "category": "health",
     "level": "medium",
@@ -987,6 +1531,23 @@ const phrasesHealth = [
     "sourceIndex": 3662
   },
   {
+    "id": "103718",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "That is a very hip shop."
+      },
+      "de": {
+        "text": "Das ist ein sehr hipper Laden."
+      }
+    },
+    "wordIds": [
+      "13718"
+    ],
+    "sourceIndex": 3718
+  },
+  {
     "id": "103809",
     "category": "health",
     "level": "hard",
@@ -1002,6 +1563,23 @@ const phrasesHealth = [
       "13809"
     ],
     "sourceIndex": 3809
+  },
+  {
+    "id": "103930",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The answer is on the back of the sheet."
+      },
+      "de": {
+        "text": "Auf der Rückseite des Blattes steht die Antwort."
+      }
+    },
+    "wordIds": [
+      "13930"
+    ],
+    "sourceIndex": 3930
   },
   {
     "id": "103989",
@@ -1089,6 +1667,23 @@ const phrasesHealth = [
     "sourceIndex": 4263
   },
   {
+    "id": "104296",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Access is also possible for disabled people."
+      },
+      "de": {
+        "text": "Der Zugang ist auch für behinderte Menschen möglich."
+      }
+    },
+    "wordIds": [
+      "14296"
+    ],
+    "sourceIndex": 4296
+  },
+  {
     "id": "104458",
     "category": "health",
     "level": "easy",
@@ -1106,6 +1701,40 @@ const phrasesHealth = [
     "sourceIndex": 4458
   },
   {
+    "id": "104503",
+    "category": "health",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Please take a tablet before going to bed."
+      },
+      "de": {
+        "text": "Bitte nehmen Sie eine Tablette vor dem Schlafengehen."
+      }
+    },
+    "wordIds": [
+      "14503"
+    ],
+    "sourceIndex": 4503
+  },
+  {
+    "id": "104578",
+    "category": "health",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I need to make an appointment with the dentist."
+      },
+      "de": {
+        "text": "Ich muss einen Termin beim Zahnarzt machen."
+      }
+    },
+    "wordIds": [
+      "14578"
+    ],
+    "sourceIndex": 4578
+  },
+  {
     "id": "104931",
     "category": "health",
     "level": "hard",
@@ -1121,6 +1750,23 @@ const phrasesHealth = [
       "14931"
     ],
     "sourceIndex": 4931
+  },
+  {
+    "id": "104946",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He has to take a pill every day."
+      },
+      "de": {
+        "text": "Er muss jeden Tag eine Pille nehmen."
+      }
+    },
+    "wordIds": [
+      "14946"
+    ],
+    "sourceIndex": 4946
   },
   {
     "id": "105009",
@@ -1293,6 +1939,40 @@ const phrasesHealth = [
     "sourceIndex": 5238
   },
   {
+    "id": "105243",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She needs a medical certificate."
+      },
+      "de": {
+        "text": "Sie benötigt eine ärztliche Bescheinigung."
+      }
+    },
+    "wordIds": [
+      "15243"
+    ],
+    "sourceIndex": 5243
+  },
+  {
+    "id": "105258",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She learned the poem by heart."
+      },
+      "de": {
+        "text": "Sie lernte das Gedicht auswendig."
+      }
+    },
+    "wordIds": [
+      "15258"
+    ],
+    "sourceIndex": 5258
+  },
+  {
     "id": "105387",
     "category": "health",
     "level": "hard",
@@ -1378,6 +2058,23 @@ const phrasesHealth = [
     "sourceIndex": 5527
   },
   {
+    "id": "105555",
+    "category": "health",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "In summer, air conditioning is very pleasant."
+      },
+      "de": {
+        "text": "Im Sommer ist eine Klimaanlage sehr angenehm."
+      }
+    },
+    "wordIds": [
+      "15555"
+    ],
+    "sourceIndex": 5555
+  },
+  {
     "id": "105563",
     "category": "health",
     "level": "hard",
@@ -1393,6 +2090,40 @@ const phrasesHealth = [
       "15563"
     ],
     "sourceIndex": 5563
+  },
+  {
+    "id": "105576",
+    "category": "health",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I sweat when it's hot."
+      },
+      "de": {
+        "text": "Ich schwitze, wenn es heiß ist."
+      }
+    },
+    "wordIds": [
+      "15576"
+    ],
+    "sourceIndex": 5576
+  },
+  {
+    "id": "105683",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The numbers have declined."
+      },
+      "de": {
+        "text": "Die Zahlen sind zurückgegangen."
+      }
+    },
+    "wordIds": [
+      "15683"
+    ],
+    "sourceIndex": 5683
   },
   {
     "id": "105734",
@@ -1463,6 +2194,40 @@ const phrasesHealth = [
     "sourceIndex": 5837
   },
   {
+    "id": "105876",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Can you please pass on this message?"
+      },
+      "de": {
+        "text": "Kannst du diese Nachricht bitte weitergeben?"
+      }
+    },
+    "wordIds": [
+      "15876"
+    ],
+    "sourceIndex": 5876
+  },
+  {
+    "id": "105921",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She is a very patient teacher."
+      },
+      "de": {
+        "text": "Sie ist eine sehr geduldige Lehrerin."
+      }
+    },
+    "wordIds": [
+      "15921"
+    ],
+    "sourceIndex": 5921
+  },
+  {
     "id": "106045",
     "category": "health",
     "level": "hard",
@@ -1512,6 +2277,23 @@ const phrasesHealth = [
       "16137"
     ],
     "sourceIndex": 6137
+  },
+  {
+    "id": "106200",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He fell ill with the flu."
+      },
+      "de": {
+        "text": "Er ist an einer Grippe erkrankt."
+      }
+    },
+    "wordIds": [
+      "16200"
+    ],
+    "sourceIndex": 6200
   },
   {
     "id": "106219",
@@ -1582,6 +2364,23 @@ const phrasesHealth = [
     "sourceIndex": 6321
   },
   {
+    "id": "106402",
+    "category": "health",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I have a cold."
+      },
+      "de": {
+        "text": "Ich habe eine Erkältung."
+      }
+    },
+    "wordIds": [
+      "16402"
+    ],
+    "sourceIndex": 6402
+  },
+  {
     "id": "106498",
     "category": "health",
     "level": "hard",
@@ -1648,6 +2447,23 @@ const phrasesHealth = [
       "16550"
     ],
     "sourceIndex": 6550
+  },
+  {
+    "id": "106635",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The hospital is known for its research."
+      },
+      "de": {
+        "text": "Das Klinikum ist bekannt für seine Forschung."
+      }
+    },
+    "wordIds": [
+      "16635"
+    ],
+    "sourceIndex": 6635
   },
   {
     "id": "106642",
@@ -1871,6 +2687,23 @@ const phrasesHealth = [
     "sourceIndex": 7242
   },
   {
+    "id": "107265",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The plaster on the wall is crumbling."
+      },
+      "de": {
+        "text": "Der Putz an der Wand bröckelt ab."
+      }
+    },
+    "wordIds": [
+      "17265"
+    ],
+    "sourceIndex": 7265
+  },
+  {
     "id": "107269",
     "category": "health",
     "level": "hard",
@@ -1903,6 +2736,23 @@ const phrasesHealth = [
       "17314"
     ],
     "sourceIndex": 7314
+  },
+  {
+    "id": "107343",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We wish you a speedy recovery."
+      },
+      "de": {
+        "text": "Wir wünschen dir eine schnelle Genesung."
+      }
+    },
+    "wordIds": [
+      "17343"
+    ],
+    "sourceIndex": 7343
   },
   {
     "id": "107393",
@@ -1939,6 +2789,23 @@ const phrasesHealth = [
     "sourceIndex": 7492
   },
   {
+    "id": "107503",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "After the operation, he has to go to rehab."
+      },
+      "de": {
+        "text": "Nach der Operation muss er zur Reha."
+      }
+    },
+    "wordIds": [
+      "17503"
+    ],
+    "sourceIndex": 7503
+  },
+  {
     "id": "107516",
     "category": "health",
     "level": "hard",
@@ -1956,6 +2823,23 @@ const phrasesHealth = [
     "sourceIndex": 7516
   },
   {
+    "id": "107559",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She plucked her eyebrows."
+      },
+      "de": {
+        "text": "Sie zupfte ihre Augenbrauen."
+      }
+    },
+    "wordIds": [
+      "17559"
+    ],
+    "sourceIndex": 7559
+  },
+  {
     "id": "107607",
     "category": "health",
     "level": "hard",
@@ -1971,6 +2855,23 @@ const phrasesHealth = [
       "17607"
     ],
     "sourceIndex": 7607
+  },
+  {
+    "id": "107617",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He always wears casual clothes."
+      },
+      "de": {
+        "text": "Er trägt immer lässige Kleidung."
+      }
+    },
+    "wordIds": [
+      "17617"
+    ],
+    "sourceIndex": 7617
   },
   {
     "id": "107727",
@@ -2109,6 +3010,40 @@ const phrasesHealth = [
     "sourceIndex": 8402
   },
   {
+    "id": "108439",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "An ambulance drove by quickly."
+      },
+      "de": {
+        "text": "Ein Krankenwagen fuhr schnell vorbei."
+      }
+    },
+    "wordIds": [
+      "18439"
+    ],
+    "sourceIndex": 8439
+  },
+  {
+    "id": "108442",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We should air out the room."
+      },
+      "de": {
+        "text": "Wir sollten das Zimmer lüften."
+      }
+    },
+    "wordIds": [
+      "18442"
+    ],
+    "sourceIndex": 8442
+  },
+  {
     "id": "108454",
     "category": "health",
     "level": "hard",
@@ -2126,6 +3061,23 @@ const phrasesHealth = [
     "sourceIndex": 8454
   },
   {
+    "id": "108685",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "After eating, he had to vomit."
+      },
+      "de": {
+        "text": "Nach dem Essen musste er sich erbrechen."
+      }
+    },
+    "wordIds": [
+      "18685"
+    ],
+    "sourceIndex": 8685
+  },
+  {
     "id": "108755",
     "category": "health",
     "level": "hard",
@@ -2141,6 +3093,23 @@ const phrasesHealth = [
       "18755"
     ],
     "sourceIndex": 8755
+  },
+  {
+    "id": "108800",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "After the ride, she felt nausea."
+      },
+      "de": {
+        "text": "Nach der Fahrt verspürte sie Übelkeit."
+      }
+    },
+    "wordIds": [
+      "18800"
+    ],
+    "sourceIndex": 8800
   },
   {
     "id": "108859",
@@ -2175,6 +3144,23 @@ const phrasesHealth = [
       "19002"
     ],
     "sourceIndex": 9002
+  },
+  {
+    "id": "109108",
+    "category": "health",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I have an allergy to nuts."
+      },
+      "de": {
+        "text": "Ich habe eine Allergie gegen Nüsse."
+      }
+    },
+    "wordIds": [
+      "19108"
+    ],
+    "sourceIndex": 9108
   },
   {
     "id": "109118",
@@ -2243,6 +3229,40 @@ const phrasesHealth = [
       "19351"
     ],
     "sourceIndex": 9351
+  },
+  {
+    "id": "109424",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "After the long run, he first had to take a deep breath."
+      },
+      "de": {
+        "text": "Nach dem langen Lauf musste er erst einmal durchatmen."
+      }
+    },
+    "wordIds": [
+      "19424"
+    ],
+    "sourceIndex": 9424
+  },
+  {
+    "id": "109499",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The street ends in a dead end."
+      },
+      "de": {
+        "text": "Die Straße endet in einer Sackgasse."
+      }
+    },
+    "wordIds": [
+      "19499"
+    ],
+    "sourceIndex": 9499
   },
   {
     "id": "109504",
@@ -2330,6 +3350,23 @@ const phrasesHealth = [
     "sourceIndex": 9817
   },
   {
+    "id": "109846",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I am allergic to nuts."
+      },
+      "de": {
+        "text": "Ich bin allergisch gegen Nüsse."
+      }
+    },
+    "wordIds": [
+      "19846"
+    ],
+    "sourceIndex": 9846
+  },
+  {
     "id": "109894",
     "category": "health",
     "level": "medium",
@@ -2364,6 +3401,23 @@ const phrasesHealth = [
     "sourceIndex": 9934
   },
   {
+    "id": "109978",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He felt a pain in his calf."
+      },
+      "de": {
+        "text": "Er spürte einen Schmerz in der Wade."
+      }
+    },
+    "wordIds": [
+      "19978"
+    ],
+    "sourceIndex": 9978
+  },
+  {
     "id": "109997",
     "category": "health",
     "level": "hard",
@@ -2379,6 +3433,40 @@ const phrasesHealth = [
       "19997"
     ],
     "sourceIndex": 9997
+  },
+  {
+    "id": "110176",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He hit his elbow on the table."
+      },
+      "de": {
+        "text": "Er stieß sich den Ellenbogen am Tisch."
+      }
+    },
+    "wordIds": [
+      "20176"
+    ],
+    "sourceIndex": 10176
+  },
+  {
+    "id": "110247",
+    "category": "health",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I have a cold and need to sneeze."
+      },
+      "de": {
+        "text": "Ich habe einen Schnupfen und muss niesen."
+      }
+    },
+    "wordIds": [
+      "20247"
+    ],
+    "sourceIndex": 10247
   },
   {
     "id": "110310",
@@ -2483,6 +3571,23 @@ const phrasesHealth = [
     "sourceIndex": 10714
   },
   {
+    "id": "111127",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He looked back on his childhood."
+      },
+      "de": {
+        "text": "Er blickte auf seine Kindheit zurück."
+      }
+    },
+    "wordIds": [
+      "21127"
+    ],
+    "sourceIndex": 11127
+  },
+  {
     "id": "111207",
     "category": "health",
     "level": "hard",
@@ -2515,6 +3620,23 @@ const phrasesHealth = [
       "21219"
     ],
     "sourceIndex": 11219
+  },
+  {
+    "id": "111224",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The air pressure is very low today."
+      },
+      "de": {
+        "text": "Der Luftdruck ist heute sehr niedrig."
+      }
+    },
+    "wordIds": [
+      "21224"
+    ],
+    "sourceIndex": 11224
   },
   {
     "id": "111225",
@@ -2551,6 +3673,23 @@ const phrasesHealth = [
     "sourceIndex": 11244
   },
   {
+    "id": "111281",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We had to turn back because the road was closed."
+      },
+      "de": {
+        "text": "Wir mussten umkehren, weil die Straße gesperrt war."
+      }
+    },
+    "wordIds": [
+      "21281"
+    ],
+    "sourceIndex": 11281
+  },
+  {
     "id": "111288",
     "category": "health",
     "level": "hard",
@@ -2585,6 +3724,23 @@ const phrasesHealth = [
     "sourceIndex": 11432
   },
   {
+    "id": "111453",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The ambulance is on its way to the accident site."
+      },
+      "de": {
+        "text": "Der Rettungswagen ist auf dem Weg zum Unfallort."
+      }
+    },
+    "wordIds": [
+      "21453"
+    ],
+    "sourceIndex": 11453
+  },
+  {
     "id": "111636",
     "category": "health",
     "level": "hard",
@@ -2600,6 +3756,23 @@ const phrasesHealth = [
       "21636"
     ],
     "sourceIndex": 11636
+  },
+  {
+    "id": "111713",
+    "category": "health",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "He hit his elbow on the table."
+      },
+      "de": {
+        "text": "Er stieß sich den Ellbogen am Tisch."
+      }
+    },
+    "wordIds": [
+      "21713"
+    ],
+    "sourceIndex": 11713
   },
   {
     "id": "111838",
@@ -2651,6 +3824,23 @@ const phrasesHealth = [
       "22227"
     ],
     "sourceIndex": 12227
+  },
+  {
+    "id": "112310",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "You need brains to solve this riddle."
+      },
+      "de": {
+        "text": "Man braucht Köpfchen, um dieses Rätsel zu lösen."
+      }
+    },
+    "wordIds": [
+      "22310"
+    ],
+    "sourceIndex": 12310
   },
   {
     "id": "112489",
@@ -2738,6 +3928,23 @@ const phrasesHealth = [
     "sourceIndex": 12667
   },
   {
+    "id": "112784",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "On the one hand it's expensive, on the other hand it's very practical."
+      },
+      "de": {
+        "text": "Einerseits ist es teuer, anderseits ist es sehr praktisch."
+      }
+    },
+    "wordIds": [
+      "22784"
+    ],
+    "sourceIndex": 12784
+  },
+  {
     "id": "112914",
     "category": "health",
     "level": "hard",
@@ -2753,6 +3960,57 @@ const phrasesHealth = [
       "22914"
     ],
     "sourceIndex": 12914
+  },
+  {
+    "id": "113042",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "That is a very hip cafe."
+      },
+      "de": {
+        "text": "Das ist ein sehr hippes Café."
+      }
+    },
+    "wordIds": [
+      "23042"
+    ],
+    "sourceIndex": 13042
+  },
+  {
+    "id": "113062",
+    "category": "health",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Every body part has a function."
+      },
+      "de": {
+        "text": "Jeder Körperteil hat eine Funktion."
+      }
+    },
+    "wordIds": [
+      "23062"
+    ],
+    "sourceIndex": 13062
+  },
+  {
+    "id": "113236",
+    "category": "health",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Her natural hair color is blonde."
+      },
+      "de": {
+        "text": "Ihre natürliche Haarfarbe ist blond."
+      }
+    },
+    "wordIds": [
+      "23236"
+    ],
+    "sourceIndex": 13236
   },
   {
     "id": "113588",
@@ -2857,6 +4115,40 @@ const phrasesHealth = [
     "sourceIndex": 13783
   },
   {
+    "id": "113904",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I feel dizzy when I stand up too quickly."
+      },
+      "de": {
+        "text": "Mir ist schwindelig, wenn ich zu schnell aufstehe."
+      }
+    },
+    "wordIds": [
+      "23904"
+    ],
+    "sourceIndex": 13904
+  },
+  {
+    "id": "114062",
+    "category": "health",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I have a bad headache this morning."
+      },
+      "de": {
+        "text": "Ich habe heute Morgen starkes Kopfweh."
+      }
+    },
+    "wordIds": [
+      "24062"
+    ],
+    "sourceIndex": 14062
+  },
+  {
     "id": "114261",
     "category": "health",
     "level": "hard",
@@ -2889,6 +4181,23 @@ const phrasesHealth = [
       "24309"
     ],
     "sourceIndex": 14309
+  },
+  {
+    "id": "114555",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He leaned back relaxed."
+      },
+      "de": {
+        "text": "Er lehnte sich entspannt zurück."
+      }
+    },
+    "wordIds": [
+      "24555"
+    ],
+    "sourceIndex": 14555
   },
   {
     "id": "114663",
@@ -2959,6 +4268,40 @@ const phrasesHealth = [
     "sourceIndex": 14977
   },
   {
+    "id": "114996",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "After the exam, he could finally breathe a sigh of relief."
+      },
+      "de": {
+        "text": "Nach der Prüfung konnte er endlich aufatmen."
+      }
+    },
+    "wordIds": [
+      "24996"
+    ],
+    "sourceIndex": 14996
+  },
+  {
+    "id": "115011",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The head chef prepared an exquisite menu."
+      },
+      "de": {
+        "text": "Der Chefkoch bereitete ein exquisites Menü zu."
+      }
+    },
+    "wordIds": [
+      "25011"
+    ],
+    "sourceIndex": 15011
+  },
+  {
     "id": "115083",
     "category": "health",
     "level": "hard",
@@ -2991,6 +4334,23 @@ const phrasesHealth = [
       "25207"
     ],
     "sourceIndex": 15207
+  },
+  {
+    "id": "115278",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The dead cat lay in the garden."
+      },
+      "de": {
+        "text": "Die gestorbene Katze lag im Garten."
+      }
+    },
+    "wordIds": [
+      "25278"
+    ],
+    "sourceIndex": 15278
   },
   {
     "id": "115325",
@@ -3163,6 +4523,23 @@ const phrasesHealth = [
     "sourceIndex": 16585
   },
   {
+    "id": "116805",
+    "category": "health",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "He came back late."
+      },
+      "de": {
+        "text": "Er kam spät zurueck."
+      }
+    },
+    "wordIds": [
+      "26805"
+    ],
+    "sourceIndex": 16805
+  },
+  {
     "id": "116835",
     "category": "health",
     "level": "hard",
@@ -3178,6 +4555,23 @@ const phrasesHealth = [
       "26835"
     ],
     "sourceIndex": 16835
+  },
+  {
+    "id": "116907",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Personal hygiene products are in the bathroom."
+      },
+      "de": {
+        "text": "Produkte für die Körperpflege sind im Bad."
+      }
+    },
+    "wordIds": [
+      "26907"
+    ],
+    "sourceIndex": 16907
   },
   {
     "id": "116951",
@@ -3197,6 +4591,23 @@ const phrasesHealth = [
     "sourceIndex": 16951
   },
   {
+    "id": "117196",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The head chef prepared an exquisite menu."
+      },
+      "de": {
+        "text": "Der Küchenchef bereitete ein exquisites Menü zu."
+      }
+    },
+    "wordIds": [
+      "27196"
+    ],
+    "sourceIndex": 17196
+  },
+  {
     "id": "117325",
     "category": "health",
     "level": "medium",
@@ -3212,6 +4623,23 @@ const phrasesHealth = [
       "27325"
     ],
     "sourceIndex": 17325
+  },
+  {
+    "id": "117335",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My brother works as a geriatric nurse."
+      },
+      "de": {
+        "text": "Mein Bruder arbeitet als Altenpfleger."
+      }
+    },
+    "wordIds": [
+      "27335"
+    ],
+    "sourceIndex": 17335
   },
   {
     "id": "117379",
@@ -3299,6 +4727,23 @@ const phrasesHealth = [
     "sourceIndex": 17764
   },
   {
+    "id": "117942",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Before the performance, she had strong heart palpitations."
+      },
+      "de": {
+        "text": "Vor dem Auftritt hatte sie starkes Herzklopfen."
+      }
+    },
+    "wordIds": [
+      "27942"
+    ],
+    "sourceIndex": 17942
+  },
+  {
     "id": "117959",
     "category": "health",
     "level": "hard",
@@ -3384,6 +4829,40 @@ const phrasesHealth = [
     "sourceIndex": 18538
   },
   {
+    "id": "118596",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The children gobbled up the whole cake."
+      },
+      "de": {
+        "text": "Die Kinder haben den ganzen Kuchen verputzt."
+      }
+    },
+    "wordIds": [
+      "28596"
+    ],
+    "sourceIndex": 18596
+  },
+  {
+    "id": "118648",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He had a leg fracture after the accident."
+      },
+      "de": {
+        "text": "Er hatte einen Beinbruch nach dem Unfall."
+      }
+    },
+    "wordIds": [
+      "28648"
+    ],
+    "sourceIndex": 18648
+  },
+  {
     "id": "118775",
     "category": "health",
     "level": "hard",
@@ -3416,6 +4895,23 @@ const phrasesHealth = [
       "29197"
     ],
     "sourceIndex": 19197
+  },
+  {
+    "id": "119283",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She felt the rain on her palm."
+      },
+      "de": {
+        "text": "Sie spürte den Regen auf ihrer Handfläche."
+      }
+    },
+    "wordIds": [
+      "29283"
+    ],
+    "sourceIndex": 19283
   },
   {
     "id": "119406",
@@ -3518,6 +5014,23 @@ const phrasesHealth = [
       "30012"
     ],
     "sourceIndex": 20012
+  },
+  {
+    "id": "120042",
+    "category": "health",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Could you please pass me the salt?"
+      },
+      "de": {
+        "text": "Könntest du mir bitte das Salz weiterreichen?"
+      }
+    },
+    "wordIds": [
+      "30042"
+    ],
+    "sourceIndex": 20042
   }
 ];
 globalThis.WortwerkData?.register("phrases", "health", phrasesHealth);

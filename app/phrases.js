@@ -1,7 +1,7 @@
 function filteredPhrases() {
   return phrases.filter(
     (p) =>
-      (phraseLevel === "all" || p.level === phraseLevel) &&
+      levelSelected({ easy: "A1", medium: "A2", hard: "B1" }[p.level]) &&
       (phraseCategory === "all" || p.category === phraseCategory),
   );
 }
@@ -88,8 +88,8 @@ function renderPhraseCategories() {
       var entries = category === "all" ? Object.values(contentManifest.phrases) : [contentManifest.phrases[category]],
         loaded = category === "all" ? contentAvailable("phrases") : contentLoaded("phrases", category),
         count = loaded
-          ? phrases.filter(p => (phraseLevel === "all" || p.level === phraseLevel) && (category === "all" || p.category === category)).length
-          : entries.reduce((total, entry) => total + (phraseLevel === "all" ? entry.count : entry.levels[{easy:"A1",medium:"A2",hard:"B1"}[phraseLevel]]), 0);
+          ? phrases.filter(p => levelSelected({ easy: "A1", medium: "A2", hard: "B1" }[p.level]) && (category === "all" || p.category === category)).length
+          : entries.reduce((total, entry) => total + selectedLevels.reduce((sum, level) => sum + entry.levels[level], 0), 0);
       return `<button class="${phraseCategory === category ? "active" : ""}" data-phrase-category="${category}">${label} <small>${count}</small></button>`;
     })
     .join("");
@@ -101,6 +101,7 @@ function renderPhraseCategories() {
         await ensureContent("phrases", phraseCategory);
         renderPhraseCategories();
         showPhrase();
+        savePreferences();
       }),
   );
 }
@@ -110,6 +111,7 @@ function setPhraseMode(mode) {
     button.classList.toggle("active", button.dataset.practice === mode),
   );
   showPhrase();
+  savePreferences();
 }
 function showPhrase() {
   var list = filteredPhrases();
@@ -184,12 +186,13 @@ function renderPhraseLists() {
   if (!container) {
     container = document.createElement("div");
     container.id = "phrase-study-lists";
-    document.querySelector("#phrases-view .phrase-layout").after(container);
+    document.querySelector("#phrases-view .phrase-layout").append(container);
   }
   var list = filteredPhrases(), active = list[phraseIndex % list.length];
-  renderStudyLists(container, list, state.phrases, active, p => {
+  renderPhraseStudyPanel(container, list, state.phrases, active, p => {
     var text = phraseMode === "reverse" ? targetText(p) : sourceText(p);
-    return `<button type="button" class="word-row ${p === active ? "current" : ""}" data-phrase-id="${p.id}">${text}</button>`;
+    var mark = state.phrases.includes(p.id) ? "✓" : state.issues.includes(p.id) ? "✕" : "○";
+    return `<button type="button" class="word-row ${p === active ? "current" : ""}" data-phrase-id="${p.id}"><span>${text}</span><span class="word-check ${mark === "✓" ? "correct" : mark === "✕" ? "wrong" : ""}">${mark}</span></button>`;
   }, p => {
     phraseIndex = filteredPhrases().indexOf(p);
     var random = phraseRandom;
@@ -198,6 +201,32 @@ function renderPhraseLists() {
     phraseRandom = random;
   });
   renderPhraseCategories();
+}
+var phraseStudyStatus = "pending";
+function renderPhraseStudyPanel(container, records, correctIds, active, rowHTML, select) {
+  var correct = new Set(correctIds), wrong = new Set(state.issues);
+  var groups = { pending: [], correct: [], wrong: [] };
+  records.forEach(record => groups[correct.has(record.id) ? "correct" : wrong.has(record.id) ? "wrong" : "pending"].push(record));
+  var labels = { pending: "Pending", correct: "Correct", wrong: "Incorrect" },
+    items = groups[phraseStudyStatus],
+    activeItems = items.includes(active) ? [active, ...items.filter(item => item !== active)] : items;
+  container.className = "word-list vocabulary-study-panel phrase-study-panel";
+  container.innerHTML = `<div class="study-switch" role="tablist">${Object.keys(groups).map(status => `<button class="${status === phraseStudyStatus ? "active" : ""}" data-phrase-study-status="${status}" role="tab" aria-selected="${status === phraseStudyStatus}">${labels[status]} <small>${groups[status].length}</small></button>`).join("")}</div><div class="study-list-rows"></div><button class="secondary-btn study-more">Show more</button>`;
+  container.querySelectorAll("[data-phrase-study-status]").forEach(button => button.onclick = () => {
+    phraseStudyStatus = button.dataset.phraseStudyStatus;
+    renderPhraseLists();
+  });
+  var rows = container.querySelector(".study-list-rows"), shown = 0, more = container.querySelector(".study-more");
+  function appendPage() {
+    activeItems.slice(shown, shown + 40).forEach(item => {
+      rows.insertAdjacentHTML("beforeend", rowHTML(item));
+      rows.lastElementChild.onclick = () => select(item);
+    });
+    shown += 40;
+    more.hidden = shown >= activeItems.length;
+  }
+  more.onclick = appendPage;
+  appendPage();
 }
 function nextPhrase() {
   var list = filteredPhrases();
@@ -251,7 +280,6 @@ function checkPhrase(reveal = false) {
         : "The translation is wrong. Use Hint if needed.";
     $("#phrase-feedback").className = "feedback bad";
   }
-  registerStudy();
   save();
   renderPhraseLists();
 }
@@ -313,33 +341,21 @@ $$(".mode").forEach(
     (b.onclick = () => {
       $$(".mode").forEach((x) => x.classList.remove("active"));
       b.classList.add("active");
-      phraseLevel = b.dataset.level;
-      vocabLevel = { all: "all", easy: "A1", medium: "A2", hard: "B1" }[
-        b.dataset.level
-      ];
-      mixedLevel = vocabLevel;
+      var level = { all: [...allStudyLevels], easy: ["A1"], medium: ["A2"], hard: ["B1"] }[b.dataset.level];
+      setSelectedLevels(level);
       phraseIndex = 0;
       renderVocabularyLevels();
       $$("[data-mixed-level]").forEach((x) =>
-        x.classList.toggle("active", x.dataset.mixedLevel === mixedLevel),
+        x.classList.toggle("active", x.dataset.mixedLevel === "all" ? selectedLevels.length === allStudyLevels.length : levelSelected(x.dataset.mixedLevel)),
       );
       renderPhraseCategories();
       showPhrase();
+      savePreferences();
     }),
 );
 $$(".practice-mode").forEach(
   (b) => (b.onclick = () => setPhraseMode(b.dataset.practice)),
 );
-$("#reset-progress").onclick = () => {
-  if (
-    confirm(
-      "Reset all saved progress on this device and start from the beginning?",
-    )
-  ) {
-    localStorage.removeItem("wortwerk-progress");
-    location.reload();
-  }
-};
 $("#phrase-answer").onkeydown = (e) => {
   if (e.key === "Enter") {
     e.preventDefault();
@@ -405,6 +421,7 @@ $$(".vocab-mode").forEach(
       b.classList.add("active");
       vocabMode = b.dataset.vocabMode;
       showVocabCard();
+      savePreferences();
     }),
 );
 $(".phrase-controls").insertAdjacentHTML(
@@ -420,7 +437,9 @@ $("#phrase-random-mode").onchange = (e) => {
       : "Sequential sentence order on.",
   );
   showPhrase();
+  savePreferences();
 };
+$("#phrase-random-mode").checked = phraseRandom;
 $(".phrase-layout").insertAdjacentHTML(
   "beforebegin",
   '<div id="phrase-categories" class="phrase-category-tabs"></div>',

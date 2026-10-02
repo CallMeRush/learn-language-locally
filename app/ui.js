@@ -50,7 +50,22 @@ function renderGrammar() {
     .join("");
   bindGrammarQuestionList();
   bindGrammarInteractions();
+  updateGrammarLayout();
 }
+function updateGrammarLayout() {
+  var list = document.querySelector("#grammar-list"),
+    button = document.querySelector("#grammar-layout-toggle");
+  if (list) list.classList.toggle("grammar-grid", grammarGrid);
+  if (button) {
+    button.textContent = grammarGrid ? "Show one column" : "Show multiple columns";
+    button.setAttribute("aria-pressed", String(grammarGrid));
+  }
+}
+document.querySelector("#grammar-layout-toggle").onclick = () => {
+  grammarGrid = !grammarGrid;
+  updateGrammarLayout();
+  savePreferences();
+};
 function grammarTableHtml(table) {
   return '<div class="grammar-table-wrap"><h3>' + (table.caption || '') +
     '</h3><table><thead><tr>' + table.headers.map(cell => '<th>' + cell + '</th>').join('') +

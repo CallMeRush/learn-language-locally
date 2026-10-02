@@ -1,5 +1,22 @@
 const phrasesEnvironment = [
   {
+    "id": "100672",
+    "category": "environment",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He seeks protection from the rain."
+      },
+      "de": {
+        "text": "Er sucht Schutz vor dem Regen."
+      }
+    },
+    "wordIds": [
+      "10672"
+    ],
+    "sourceIndex": 672
+  },
+  {
     "id": "100712",
     "category": "environment",
     "level": "hard",
@@ -83,6 +100,23 @@ const phrasesEnvironment = [
       "11423"
     ],
     "sourceIndex": 1423
+  },
+  {
+    "id": "101797",
+    "category": "environment",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Please throw the trash in the designated bin."
+      },
+      "de": {
+        "text": "Bitte werfen Sie den Müll in den dafür vorgesehenen Behälter."
+      }
+    },
+    "wordIds": [
+      "11797"
+    ],
+    "sourceIndex": 1797
   },
   {
     "id": "101904",
@@ -170,6 +204,23 @@ const phrasesEnvironment = [
     "sourceIndex": 3490
   },
   {
+    "id": "103527",
+    "category": "environment",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The earthquake caused great damage."
+      },
+      "de": {
+        "text": "Das Erdbeben verursachte große Schäden."
+      }
+    },
+    "wordIds": [
+      "13527"
+    ],
+    "sourceIndex": 3527
+  },
+  {
     "id": "104276",
     "category": "environment",
     "level": "hard",
@@ -185,6 +236,23 @@ const phrasesEnvironment = [
       "14276"
     ],
     "sourceIndex": 4276
+  },
+  {
+    "id": "104447",
+    "category": "environment",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Please separate the waste."
+      },
+      "de": {
+        "text": "Bitte trennen Sie den Abfall."
+      }
+    },
+    "wordIds": [
+      "14447"
+    ],
+    "sourceIndex": 4447
   },
   {
     "id": "104957",
@@ -238,6 +306,91 @@ const phrasesEnvironment = [
     "sourceIndex": 5183
   },
   {
+    "id": "105381",
+    "category": "environment",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Many products today are made of plastic."
+      },
+      "de": {
+        "text": "Viele Produkte werden heute aus Kunststoff hergestellt."
+      }
+    },
+    "wordIds": [
+      "15381"
+    ],
+    "sourceIndex": 5381
+  },
+  {
+    "id": "105886",
+    "category": "environment",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We should buy more ecological products."
+      },
+      "de": {
+        "text": "Wir sollten mehr ökologische Produkte kaufen."
+      }
+    },
+    "wordIds": [
+      "15886"
+    ],
+    "sourceIndex": 5886
+  },
+  {
+    "id": "106217",
+    "category": "environment",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The flood caused great damage."
+      },
+      "de": {
+        "text": "Das Hochwasser verursachte große Schäden."
+      }
+    },
+    "wordIds": [
+      "16217"
+    ],
+    "sourceIndex": 6217
+  },
+  {
+    "id": "106371",
+    "category": "environment",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The volcano erupted last night."
+      },
+      "de": {
+        "text": "Der Vulkan brach letzte Nacht aus."
+      }
+    },
+    "wordIds": [
+      "16371"
+    ],
+    "sourceIndex": 6371
+  },
+  {
+    "id": "106463",
+    "category": "environment",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We should not waste water."
+      },
+      "de": {
+        "text": "Wir sollten kein Wasser verschwenden."
+      }
+    },
+    "wordIds": [
+      "16463"
+    ],
+    "sourceIndex": 6463
+  },
+  {
     "id": "107972",
     "category": "environment",
     "level": "medium",
@@ -289,6 +442,23 @@ const phrasesEnvironment = [
     "sourceIndex": 8760
   },
   {
+    "id": "109220",
+    "category": "environment",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The long drought led to crop failures."
+      },
+      "de": {
+        "text": "Die lange Trockenheit führte zu Ernteausfällen."
+      }
+    },
+    "wordIds": [
+      "19220"
+    ],
+    "sourceIndex": 9220
+  },
+  {
     "id": "109835",
     "category": "environment",
     "level": "hard",
@@ -304,6 +474,23 @@ const phrasesEnvironment = [
       "19835"
     ],
     "sourceIndex": 9835
+  },
+  {
+    "id": "109842",
+    "category": "environment",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "After the storm, there was a big flood."
+      },
+      "de": {
+        "text": "Nach dem Sturm gab es eine große Überschwemmung."
+      }
+    },
+    "wordIds": [
+      "19842"
+    ],
+    "sourceIndex": 9842
   },
   {
     "id": "110215",
@@ -374,6 +561,23 @@ const phrasesEnvironment = [
     "sourceIndex": 12947
   },
   {
+    "id": "113306",
+    "category": "environment",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We need to put out the bulky waste for collection."
+      },
+      "de": {
+        "text": "Wir müssen den Sperrmüll zur Abholung bereitstellen."
+      }
+    },
+    "wordIds": [
+      "23306"
+    ],
+    "sourceIndex": 13306
+  },
+  {
     "id": "113847",
     "category": "environment",
     "level": "hard",
@@ -425,6 +629,23 @@ const phrasesEnvironment = [
     "sourceIndex": 15143
   },
   {
+    "id": "115792",
+    "category": "environment",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We could see the solar eclipse last night."
+      },
+      "de": {
+        "text": "Wir konnten die Sonnenfinsternis gestern Abend sehen."
+      }
+    },
+    "wordIds": [
+      "25792"
+    ],
+    "sourceIndex": 15792
+  },
+  {
     "id": "115795",
     "category": "environment",
     "level": "hard",
@@ -440,6 +661,23 @@ const phrasesEnvironment = [
       "25795"
     ],
     "sourceIndex": 15795
+  },
+  {
+    "id": "116790",
+    "category": "environment",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The factory pollutes the environment."
+      },
+      "de": {
+        "text": "Die Fabrik verschmutzt die Umwelt."
+      }
+    },
+    "wordIds": [
+      "26790"
+    ],
+    "sourceIndex": 16790
   },
   {
     "id": "117186",
@@ -474,6 +712,23 @@ const phrasesEnvironment = [
       "27837"
     ],
     "sourceIndex": 17837
+  },
+  {
+    "id": "119141",
+    "category": "environment",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We should not waste any time."
+      },
+      "de": {
+        "text": "Wir sollten keine Zeit vergeuden."
+      }
+    },
+    "wordIds": [
+      "29141"
+    ],
+    "sourceIndex": 19141
   },
   {
     "id": "119402",

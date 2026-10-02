@@ -17,6 +17,74 @@ const phrasesPeople = [
     "sourceIndex": 33
   },
   {
+    "id": "100073",
+    "category": "people",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "Many people were at the party."
+      },
+      "de": {
+        "text": "Viele Leute waren auf der Party."
+      }
+    },
+    "wordIds": [
+      "10073"
+    ],
+    "sourceIndex": 73
+  },
+  {
+    "id": "100079",
+    "category": "people",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The child is playing in the garden."
+      },
+      "de": {
+        "text": "Das Kind spielt im Garten."
+      }
+    },
+    "wordIds": [
+      "10079"
+    ],
+    "sourceIndex": 79
+  },
+  {
+    "id": "100094",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "They are a happy couple."
+      },
+      "de": {
+        "text": "Sie sind ein glückliches Paar."
+      }
+    },
+    "wordIds": [
+      "10094"
+    ],
+    "sourceIndex": 94
+  },
+  {
+    "id": "100098",
+    "category": "people",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "We are going to the cinema together."
+      },
+      "de": {
+        "text": "Wir gehen zusammen ins Kino."
+      }
+    },
+    "wordIds": [
+      "10098"
+    ],
+    "sourceIndex": 98
+  },
+  {
     "id": "100115",
     "category": "people",
     "level": "easy",
@@ -33,6 +101,23 @@ const phrasesPeople = [
       "19165"
     ],
     "sourceIndex": 115
+  },
+  {
+    "id": "100120",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The book belongs to me."
+      },
+      "de": {
+        "text": "Das Buch gehört mir."
+      }
+    },
+    "wordIds": [
+      "10120"
+    ],
+    "sourceIndex": 120
   },
   {
     "id": "100136",
@@ -69,6 +154,23 @@ const phrasesPeople = [
     "sourceIndex": 157
   },
   {
+    "id": "100200",
+    "category": "people",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "Every person has rights."
+      },
+      "de": {
+        "text": "Jede Person hat Rechte."
+      }
+    },
+    "wordIds": [
+      "10200"
+    ],
+    "sourceIndex": 200
+  },
+  {
     "id": "100206",
     "category": "people",
     "level": "medium",
@@ -101,6 +203,74 @@ const phrasesPeople = [
       "10215"
     ],
     "sourceIndex": 215
+  },
+  {
+    "id": "100230",
+    "category": "people",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "Good day, Mr. Müller."
+      },
+      "de": {
+        "text": "Guten Tag, Herr Müller."
+      }
+    },
+    "wordIds": [
+      "10230"
+    ],
+    "sourceIndex": 230
+  },
+  {
+    "id": "100250",
+    "category": "people",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "My son goes to school."
+      },
+      "de": {
+        "text": "Mein Sohn geht zur Schule."
+      }
+    },
+    "wordIds": [
+      "10250"
+    ],
+    "sourceIndex": 250
+  },
+  {
+    "id": "100257",
+    "category": "people",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The little girl is playing in the garden."
+      },
+      "de": {
+        "text": "Das kleine Mädchen spielt im Garten."
+      }
+    },
+    "wordIds": [
+      "10257"
+    ],
+    "sourceIndex": 257
+  },
+  {
+    "id": "100258",
+    "category": "people",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "My father is reading the newspaper."
+      },
+      "de": {
+        "text": "Mein Vater liest die Zeitung."
+      }
+    },
+    "wordIds": [
+      "10258"
+    ],
+    "sourceIndex": 258
   },
   {
     "id": "100275",
@@ -137,6 +307,57 @@ const phrasesPeople = [
     "sourceIndex": 310
   },
   {
+    "id": "100316",
+    "category": "people",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The boy is playing in the garden."
+      },
+      "de": {
+        "text": "Der Junge spielt im Garten."
+      }
+    },
+    "wordIds": [
+      "10316"
+    ],
+    "sourceIndex": 316
+  },
+  {
+    "id": "100353",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The topic of sex is often controversial."
+      },
+      "de": {
+        "text": "Das Thema Sex ist oft kontrovers."
+      }
+    },
+    "wordIds": [
+      "10353"
+    ],
+    "sourceIndex": 353
+  },
+  {
+    "id": "100356",
+    "category": "people",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "My daughter goes to school."
+      },
+      "de": {
+        "text": "Meine Tochter geht zur Schule."
+      }
+    },
+    "wordIds": [
+      "10356"
+    ],
+    "sourceIndex": 356
+  },
+  {
     "id": "100360",
     "category": "people",
     "level": "easy",
@@ -169,6 +390,23 @@ const phrasesPeople = [
       "10373"
     ],
     "sourceIndex": 373
+  },
+  {
+    "id": "100416",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The king ruled the country wisely."
+      },
+      "de": {
+        "text": "Der König regierte das Land weise."
+      }
+    },
+    "wordIds": [
+      "10416"
+    ],
+    "sourceIndex": 416
   },
   {
     "id": "100422",
@@ -205,6 +443,74 @@ const phrasesPeople = [
     "sourceIndex": 440
   },
   {
+    "id": "100446",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She is a new member of the club."
+      },
+      "de": {
+        "text": "Sie ist ein neues Mitglied im Verein."
+      }
+    },
+    "wordIds": [
+      "10446"
+    ],
+    "sourceIndex": 446
+  },
+  {
+    "id": "100458",
+    "category": "people",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "My girlfriend is coming tonight."
+      },
+      "de": {
+        "text": "Meine Freundin kommt heute Abend."
+      }
+    },
+    "wordIds": [
+      "10458"
+    ],
+    "sourceIndex": 458
+  },
+  {
+    "id": "100522",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We need your support."
+      },
+      "de": {
+        "text": "Wir brauchen Ihre Unterstützung."
+      }
+    },
+    "wordIds": [
+      "10522"
+    ],
+    "sourceIndex": 522
+  },
+  {
+    "id": "100577",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "They have a happy marriage."
+      },
+      "de": {
+        "text": "Sie haben eine glückliche Ehe."
+      }
+    },
+    "wordIds": [
+      "10577"
+    ],
+    "sourceIndex": 577
+  },
+  {
     "id": "100593",
     "category": "people",
     "level": "medium",
@@ -220,6 +526,57 @@ const phrasesPeople = [
       "10593"
     ],
     "sourceIndex": 593
+  },
+  {
+    "id": "100658",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The people elected a new president."
+      },
+      "de": {
+        "text": "Das Volk wählte einen neuen Präsidenten."
+      }
+    },
+    "wordIds": [
+      "10658"
+    ],
+    "sourceIndex": 658
+  },
+  {
+    "id": "100703",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Today's youth is very engaged."
+      },
+      "de": {
+        "text": "Die Jugend von heute ist sehr engagiert."
+      }
+    },
+    "wordIds": [
+      "10703"
+    ],
+    "sourceIndex": 703
+  },
+  {
+    "id": "100737",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "My partner is coming later."
+      },
+      "de": {
+        "text": "Mein Partner kommt später."
+      }
+    },
+    "wordIds": [
+      "10737"
+    ],
+    "sourceIndex": 737
   },
   {
     "id": "100751",
@@ -254,6 +611,23 @@ const phrasesPeople = [
       "10762"
     ],
     "sourceIndex": 762
+  },
+  {
+    "id": "100768",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The lady wore an elegant hat."
+      },
+      "de": {
+        "text": "Die Dame trug einen eleganten Hut."
+      }
+    },
+    "wordIds": [
+      "10768"
+    ],
+    "sourceIndex": 768
   },
   {
     "id": "100793",
@@ -324,6 +698,40 @@ const phrasesPeople = [
     "sourceIndex": 887
   },
   {
+    "id": "100902",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "In reference to your inquiry..."
+      },
+      "de": {
+        "text": "In Bezug auf Ihre Anfrage..."
+      }
+    },
+    "wordIds": [
+      "10902"
+    ],
+    "sourceIndex": 902
+  },
+  {
+    "id": "100918",
+    "category": "people",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The baby is sleeping peacefully."
+      },
+      "de": {
+        "text": "Das Baby schläft friedlich."
+      }
+    },
+    "wordIds": [
+      "10918"
+    ],
+    "sourceIndex": 918
+  },
+  {
     "id": "100945",
     "category": "people",
     "level": "easy",
@@ -339,6 +747,40 @@ const phrasesPeople = [
       "10945"
     ],
     "sourceIndex": 945
+  },
+  {
+    "id": "100989",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "My Mom is coming home soon."
+      },
+      "de": {
+        "text": "Meine Ma kommt bald nach Hause."
+      }
+    },
+    "wordIds": [
+      "10989"
+    ],
+    "sourceIndex": 989
+  },
+  {
+    "id": "100990",
+    "category": "people",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "My Mom is cooking tonight."
+      },
+      "de": {
+        "text": "Meine Mama kocht heute Abend."
+      }
+    },
+    "wordIds": [
+      "10990"
+    ],
+    "sourceIndex": 990
   },
   {
     "id": "100991",
@@ -409,6 +851,23 @@ const phrasesPeople = [
     "sourceIndex": 1054
   },
   {
+    "id": "101097",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The visitor arrived on time."
+      },
+      "de": {
+        "text": "Der Besucher kam pünktlich an."
+      }
+    },
+    "wordIds": [
+      "11097"
+    ],
+    "sourceIndex": 1097
+  },
+  {
     "id": "101162",
     "category": "people",
     "level": "easy",
@@ -441,6 +900,74 @@ const phrasesPeople = [
       "11179"
     ],
     "sourceIndex": 1179
+  },
+  {
+    "id": "101248",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He is a big supporter of this football team."
+      },
+      "de": {
+        "text": "Er ist ein großer Anhänger dieser Fußballmannschaft."
+      }
+    },
+    "wordIds": [
+      "11248"
+    ],
+    "sourceIndex": 1248
+  },
+  {
+    "id": "101278",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "He is an American."
+      },
+      "de": {
+        "text": "Er ist ein Amerikaner."
+      }
+    },
+    "wordIds": [
+      "11278"
+    ],
+    "sourceIndex": 1278
+  },
+  {
+    "id": "101331",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The character in the book is very interesting."
+      },
+      "de": {
+        "text": "Die Figur im Buch ist sehr interessant."
+      }
+    },
+    "wordIds": [
+      "11331"
+    ],
+    "sourceIndex": 1331
+  },
+  {
+    "id": "101344",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Participation in the course is voluntary."
+      },
+      "de": {
+        "text": "Die Teilnahme am Kurs ist freiwillig."
+      }
+    },
+    "wordIds": [
+      "11344"
+    ],
+    "sourceIndex": 1344
   },
   {
     "id": "101394",
@@ -511,6 +1038,23 @@ const phrasesPeople = [
     "sourceIndex": 1450
   },
   {
+    "id": "101497",
+    "category": "people",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "My grandma bakes the best cakes."
+      },
+      "de": {
+        "text": "Meine Oma backt die besten Kuchen."
+      }
+    },
+    "wordIds": [
+      "11497"
+    ],
+    "sourceIndex": 1497
+  },
+  {
     "id": "101530",
     "category": "people",
     "level": "medium",
@@ -526,6 +1070,57 @@ const phrasesPeople = [
       "11530"
     ],
     "sourceIndex": 1530
+  },
+  {
+    "id": "101550",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The online community is very active."
+      },
+      "de": {
+        "text": "Die Online-Community ist sehr aktiv."
+      }
+    },
+    "wordIds": [
+      "11550"
+    ],
+    "sourceIndex": 1550
+  },
+  {
+    "id": "101595",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The queen visited the city."
+      },
+      "de": {
+        "text": "Die Königin besuchte die Stadt."
+      }
+    },
+    "wordIds": [
+      "11595"
+    ],
+    "sourceIndex": 1595
+  },
+  {
+    "id": "101604",
+    "category": "people",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "My dad reads me a story every evening."
+      },
+      "de": {
+        "text": "Mein Papa liest mir jeden Abend eine Geschichte vor."
+      }
+    },
+    "wordIds": [
+      "11604"
+    ],
+    "sourceIndex": 1604
   },
   {
     "id": "101663",
@@ -596,6 +1191,23 @@ const phrasesPeople = [
     "sourceIndex": 1788
   },
   {
+    "id": "101792",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please state your gender."
+      },
+      "de": {
+        "text": "Bitte geben Sie Ihr Geschlecht an."
+      }
+    },
+    "wordIds": [
+      "11792"
+    ],
+    "sourceIndex": 1792
+  },
+  {
     "id": "101872",
     "category": "people",
     "level": "medium",
@@ -611,6 +1223,23 @@ const phrasesPeople = [
       "11872"
     ],
     "sourceIndex": 1872
+  },
+  {
+    "id": "101896",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The King of Rock 'n' Roll was Elvis Presley."
+      },
+      "de": {
+        "text": "Der King des Rock 'n' Roll war Elvis Presley."
+      }
+    },
+    "wordIds": [
+      "11896"
+    ],
+    "sourceIndex": 1896
   },
   {
     "id": "101928",
@@ -647,6 +1276,23 @@ const phrasesPeople = [
     "sourceIndex": 1937
   },
   {
+    "id": "101945",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "He found an old treasure."
+      },
+      "de": {
+        "text": "Er fand einen alten Schatz."
+      }
+    },
+    "wordIds": [
+      "11945"
+    ],
+    "sourceIndex": 1945
+  },
+  {
     "id": "101979",
     "category": "people",
     "level": "hard",
@@ -681,6 +1327,23 @@ const phrasesPeople = [
     "sourceIndex": 2007
   },
   {
+    "id": "102011",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The lady wore an elegant dress."
+      },
+      "de": {
+        "text": "Die Lady trug ein elegantes Kleid."
+      }
+    },
+    "wordIds": [
+      "12011"
+    ],
+    "sourceIndex": 2011
+  },
+  {
     "id": "102050",
     "category": "people",
     "level": "hard",
@@ -696,6 +1359,40 @@ const phrasesPeople = [
       "12050"
     ],
     "sourceIndex": 2050
+  },
+  {
+    "id": "102057",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "He is a Russian."
+      },
+      "de": {
+        "text": "Er ist ein Russe."
+      }
+    },
+    "wordIds": [
+      "12057"
+    ],
+    "sourceIndex": 2057
+  },
+  {
+    "id": "102113",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Many foreigners live in Germany."
+      },
+      "de": {
+        "text": "Viele Ausländer leben in Deutschland."
+      }
+    },
+    "wordIds": [
+      "12113"
+    ],
+    "sourceIndex": 2113
   },
   {
     "id": "102119",
@@ -747,6 +1444,23 @@ const phrasesPeople = [
       "12170"
     ],
     "sourceIndex": 2170
+  },
+  {
+    "id": "102175",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He is a Turk."
+      },
+      "de": {
+        "text": "Er ist ein Türke."
+      }
+    },
+    "wordIds": [
+      "12175"
+    ],
+    "sourceIndex": 2175
   },
   {
     "id": "102195",
@@ -834,6 +1548,40 @@ const phrasesPeople = [
     "sourceIndex": 2335
   },
   {
+    "id": "102355",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "My husband is coming home tonight."
+      },
+      "de": {
+        "text": "Mein Ehemann kommt heute Abend nach Hause."
+      }
+    },
+    "wordIds": [
+      "12355"
+    ],
+    "sourceIndex": 2355
+  },
+  {
+    "id": "102360",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "They want to marry next year."
+      },
+      "de": {
+        "text": "Sie wollen nächstes Jahr heiraten."
+      }
+    },
+    "wordIds": [
+      "12360"
+    ],
+    "sourceIndex": 2360
+  },
+  {
     "id": "102551",
     "category": "people",
     "level": "hard",
@@ -919,6 +1667,23 @@ const phrasesPeople = [
     "sourceIndex": 2718
   },
   {
+    "id": "102728",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The boy played in the garden."
+      },
+      "de": {
+        "text": "Der Boy spielte im Garten."
+      }
+    },
+    "wordIds": [
+      "12728"
+    ],
+    "sourceIndex": 2728
+  },
+  {
     "id": "102754",
     "category": "people",
     "level": "easy",
@@ -951,6 +1716,23 @@ const phrasesPeople = [
       "12790"
     ],
     "sourceIndex": 2790
+  },
+  {
+    "id": "102882",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The girl sang a song."
+      },
+      "de": {
+        "text": "Das Girl sang ein Lied."
+      }
+    },
+    "wordIds": [
+      "12882"
+    ],
+    "sourceIndex": 2882
   },
   {
     "id": "102902",
@@ -1038,6 +1820,23 @@ const phrasesPeople = [
     "sourceIndex": 3125
   },
   {
+    "id": "103199",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The teenagers met in the park."
+      },
+      "de": {
+        "text": "Die Teenager trafen sich im Park."
+      }
+    },
+    "wordIds": [
+      "13199"
+    ],
+    "sourceIndex": 3199
+  },
+  {
     "id": "103257",
     "category": "people",
     "level": "hard",
@@ -1053,6 +1852,23 @@ const phrasesPeople = [
       "13257"
     ],
     "sourceIndex": 3257
+  },
+  {
+    "id": "103282",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The bride wore a beautiful white dress."
+      },
+      "de": {
+        "text": "Die Braut trug ein wunderschönes weißes Kleid."
+      }
+    },
+    "wordIds": [
+      "13282"
+    ],
+    "sourceIndex": 3282
   },
   {
     "id": "103287",
@@ -1123,6 +1939,40 @@ const phrasesPeople = [
     "sourceIndex": 3345
   },
   {
+    "id": "103354",
+    "category": "people",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I have two siblings."
+      },
+      "de": {
+        "text": "Ich habe zwei Geschwister."
+      }
+    },
+    "wordIds": [
+      "13354"
+    ],
+    "sourceIndex": 3354
+  },
+  {
+    "id": "103355",
+    "category": "people",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "My grandfather likes to tell stories."
+      },
+      "de": {
+        "text": "Mein Grossvater erzählt gerne Geschichten."
+      }
+    },
+    "wordIds": [
+      "13355"
+    ],
+    "sourceIndex": 3355
+  },
+  {
     "id": "103363",
     "category": "people",
     "level": "hard",
@@ -1138,6 +1988,23 @@ const phrasesPeople = [
       "13363"
     ],
     "sourceIndex": 3363
+  },
+  {
+    "id": "103404",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "My grandchild often visits me."
+      },
+      "de": {
+        "text": "Mein Enkel besucht mich oft."
+      }
+    },
+    "wordIds": [
+      "13404"
+    ],
+    "sourceIndex": 3404
   },
   {
     "id": "103482",
@@ -1174,6 +2041,23 @@ const phrasesPeople = [
     "sourceIndex": 3639
   },
   {
+    "id": "103652",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The Greek loves olives."
+      },
+      "de": {
+        "text": "Der Grieche liebt Oliven."
+      }
+    },
+    "wordIds": [
+      "13652"
+    ],
+    "sourceIndex": 3652
+  },
+  {
     "id": "103670",
     "category": "people",
     "level": "hard",
@@ -1189,6 +2073,23 @@ const phrasesPeople = [
       "13670"
     ],
     "sourceIndex": 3670
+  },
+  {
+    "id": "103702",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Online dating is very popular nowadays."
+      },
+      "de": {
+        "text": "Online-Dating ist heutzutage sehr beliebt."
+      }
+    },
+    "wordIds": [
+      "13702"
+    ],
+    "sourceIndex": 3702
   },
   {
     "id": "103865",
@@ -1208,6 +2109,23 @@ const phrasesPeople = [
     "sourceIndex": 3865
   },
   {
+    "id": "103901",
+    "category": "people",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "My grandmother likes to tell stories."
+      },
+      "de": {
+        "text": "Meine Großmutter erzählt gerne Geschichten."
+      }
+    },
+    "wordIds": [
+      "13901"
+    ],
+    "sourceIndex": 3901
+  },
+  {
     "id": "103983",
     "category": "people",
     "level": "medium",
@@ -1223,6 +2141,23 @@ const phrasesPeople = [
       "13983"
     ],
     "sourceIndex": 3983
+  },
+  {
+    "id": "104027",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Please show your ID."
+      },
+      "de": {
+        "text": "Bitte zeigen Sie Ihren Ausweis."
+      }
+    },
+    "wordIds": [
+      "14027"
+    ],
+    "sourceIndex": 4027
   },
   {
     "id": "104030",
@@ -1242,6 +2177,40 @@ const phrasesPeople = [
     "sourceIndex": 4030
   },
   {
+    "id": "104060",
+    "category": "people",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "Mommy baked us a cake."
+      },
+      "de": {
+        "text": "Mutti hat uns Kuchen gebacken."
+      }
+    },
+    "wordIds": [
+      "14060"
+    ],
+    "sourceIndex": 4060
+  },
+  {
+    "id": "104114",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My family is visiting this weekend."
+      },
+      "de": {
+        "text": "Meine Family kommt am Wochenende zu Besuch."
+      }
+    },
+    "wordIds": [
+      "14114"
+    ],
+    "sourceIndex": 4114
+  },
+  {
     "id": "104153",
     "category": "people",
     "level": "hard",
@@ -1257,6 +2226,23 @@ const phrasesPeople = [
       "14153"
     ],
     "sourceIndex": 4153
+  },
+  {
+    "id": "104246",
+    "category": "people",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "My grandparents are visiting us on the weekend."
+      },
+      "de": {
+        "text": "Meine Großeltern besuchen uns am Wochenende."
+      }
+    },
+    "wordIds": [
+      "14246"
+    ],
+    "sourceIndex": 4246
   },
   {
     "id": "104260",
@@ -1293,6 +2279,23 @@ const phrasesPeople = [
     "sourceIndex": 4271
   },
   {
+    "id": "104273",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She is a teen and loves music."
+      },
+      "de": {
+        "text": "Sie ist ein Teen und liebt Musik."
+      }
+    },
+    "wordIds": [
+      "14273"
+    ],
+    "sourceIndex": 4273
+  },
+  {
     "id": "104396",
     "category": "people",
     "level": "medium",
@@ -1308,6 +2311,40 @@ const phrasesPeople = [
       "14396"
     ],
     "sourceIndex": 4396
+  },
+  {
+    "id": "104508",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He is a big supporter of the project."
+      },
+      "de": {
+        "text": "Er ist ein großer Unterstützer des Projekts."
+      }
+    },
+    "wordIds": [
+      "14508"
+    ],
+    "sourceIndex": 4508
+  },
+  {
+    "id": "104619",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He is a Pole."
+      },
+      "de": {
+        "text": "Er ist ein Pole."
+      }
+    },
+    "wordIds": [
+      "14619"
+    ],
+    "sourceIndex": 4619
   },
   {
     "id": "104657",
@@ -1376,6 +2413,23 @@ const phrasesPeople = [
       "14805"
     ],
     "sourceIndex": 4805
+  },
+  {
+    "id": "104833",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "My cousin is visiting us next week."
+      },
+      "de": {
+        "text": "Mein Cousin besucht uns nächste Woche."
+      }
+    },
+    "wordIds": [
+      "14833"
+    ],
+    "sourceIndex": 4833
   },
   {
     "id": "104844",
@@ -1480,6 +2534,40 @@ const phrasesPeople = [
     "sourceIndex": 5022
   },
   {
+    "id": "105039",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "That is a very romantic movie."
+      },
+      "de": {
+        "text": "Das ist ein sehr romantischer Film."
+      }
+    },
+    "wordIds": [
+      "15039"
+    ],
+    "sourceIndex": 5039
+  },
+  {
+    "id": "105046",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He is a Syrian."
+      },
+      "de": {
+        "text": "Er ist ein Syrer."
+      }
+    },
+    "wordIds": [
+      "15046"
+    ],
+    "sourceIndex": 5046
+  },
+  {
     "id": "105077",
     "category": "people",
     "level": "medium",
@@ -1495,6 +2583,23 @@ const phrasesPeople = [
       "15077"
     ],
     "sourceIndex": 5077
+  },
+  {
+    "id": "105101",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Their marriage was a big event."
+      },
+      "de": {
+        "text": "Ihre Heirat war ein großes Ereignis."
+      }
+    },
+    "wordIds": [
+      "15101"
+    ],
+    "sourceIndex": 5101
   },
   {
     "id": "105136",
@@ -1565,6 +2670,40 @@ const phrasesPeople = [
     "sourceIndex": 5400
   },
   {
+    "id": "105435",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "It was a pleasure to make your acquaintance."
+      },
+      "de": {
+        "text": "Es war mir eine Freude, Ihre Bekanntschaft zu machen."
+      }
+    },
+    "wordIds": [
+      "15435"
+    ],
+    "sourceIndex": 5435
+  },
+  {
+    "id": "105476",
+    "category": "people",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "My Mom is coming tomorrow."
+      },
+      "de": {
+        "text": "Meine Mom kommt morgen."
+      }
+    },
+    "wordIds": [
+      "15476"
+    ],
+    "sourceIndex": 5476
+  },
+  {
     "id": "105703",
     "category": "people",
     "level": "medium",
@@ -1616,6 +2755,23 @@ const phrasesPeople = [
     "sourceIndex": 5880
   },
   {
+    "id": "105955",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "My nephew is visiting us on the weekend."
+      },
+      "de": {
+        "text": "Mein Neffe besucht uns am Wochenende."
+      }
+    },
+    "wordIds": [
+      "15955"
+    ],
+    "sourceIndex": 5955
+  },
+  {
     "id": "105985",
     "category": "people",
     "level": "hard",
@@ -1633,6 +2789,74 @@ const phrasesPeople = [
     "sourceIndex": 5985
   },
   {
+    "id": "106053",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "A cute couple walked in the park."
+      },
+      "de": {
+        "text": "Ein süßes Pärchen spazierte im Park."
+      }
+    },
+    "wordIds": [
+      "16053"
+    ],
+    "sourceIndex": 6053
+  },
+  {
+    "id": "106074",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "All my relatives are coming for Christmas."
+      },
+      "de": {
+        "text": "Meine ganze Verwandtschaft kommt zu Weihnachten."
+      }
+    },
+    "wordIds": [
+      "16074"
+    ],
+    "sourceIndex": 6074
+  },
+  {
+    "id": "106112",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He is an Indian."
+      },
+      "de": {
+        "text": "Er ist ein Inder."
+      }
+    },
+    "wordIds": [
+      "16112"
+    ],
+    "sourceIndex": 6112
+  },
+  {
+    "id": "106187",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I am currently reading an interesting biography."
+      },
+      "de": {
+        "text": "Ich lese gerade eine interessante Biografie."
+      }
+    },
+    "wordIds": [
+      "16187"
+    ],
+    "sourceIndex": 6187
+  },
+  {
     "id": "106236",
     "category": "people",
     "level": "hard",
@@ -1648,6 +2872,23 @@ const phrasesPeople = [
       "16236"
     ],
     "sourceIndex": 6236
+  },
+  {
+    "id": "106238",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "My niece is visiting us on the weekend."
+      },
+      "de": {
+        "text": "Meine Nichte besucht uns am Wochenende."
+      }
+    },
+    "wordIds": [
+      "16238"
+    ],
+    "sourceIndex": 6238
   },
   {
     "id": "106488",
@@ -1684,6 +2925,23 @@ const phrasesPeople = [
     "sourceIndex": 6517
   },
   {
+    "id": "106539",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Please state your last name."
+      },
+      "de": {
+        "text": "Bitte geben Sie Ihren Nachnamen an."
+      }
+    },
+    "wordIds": [
+      "16539"
+    ],
+    "sourceIndex": 6539
+  },
+  {
     "id": "106607",
     "category": "people",
     "level": "medium",
@@ -1699,6 +2957,23 @@ const phrasesPeople = [
       "16607"
     ],
     "sourceIndex": 6607
+  },
+  {
+    "id": "106622",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "They will have their child baptized on Sunday."
+      },
+      "de": {
+        "text": "Sie werden ihr Kind am Sonntag taufen lassen."
+      }
+    },
+    "wordIds": [
+      "16622"
+    ],
+    "sourceIndex": 6622
   },
   {
     "id": "106631",
@@ -1803,6 +3078,23 @@ const phrasesPeople = [
     "sourceIndex": 6878
   },
   {
+    "id": "106929",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The duchess wore an elegant dress."
+      },
+      "de": {
+        "text": "Die Herzogin trug ein elegantes Kleid."
+      }
+    },
+    "wordIds": [
+      "16929"
+    ],
+    "sourceIndex": 6929
+  },
+  {
     "id": "106999",
     "category": "people",
     "level": "hard",
@@ -1854,6 +3146,23 @@ const phrasesPeople = [
     "sourceIndex": 7083
   },
   {
+    "id": "107140",
+    "category": "people",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "Mommy, I'm hungry!"
+      },
+      "de": {
+        "text": "Mami, ich habe Hunger!"
+      }
+    },
+    "wordIds": [
+      "17140"
+    ],
+    "sourceIndex": 7140
+  },
+  {
     "id": "107149",
     "category": "people",
     "level": "hard",
@@ -1869,6 +3178,40 @@ const phrasesPeople = [
       "17149"
     ],
     "sourceIndex": 7149
+  },
+  {
+    "id": "107158",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "A person from Prague showed us the city."
+      },
+      "de": {
+        "text": "Ein Prager zeigte uns die Stadt."
+      }
+    },
+    "wordIds": [
+      "17158"
+    ],
+    "sourceIndex": 7158
+  },
+  {
+    "id": "107227",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The jack is an important card in Skat."
+      },
+      "de": {
+        "text": "Der Bube ist eine wichtige Karte im Skat."
+      }
+    },
+    "wordIds": [
+      "17227"
+    ],
+    "sourceIndex": 7227
   },
   {
     "id": "107292",
@@ -1956,6 +3299,91 @@ const phrasesPeople = [
     "sourceIndex": 7585
   },
   {
+    "id": "107739",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The toddler is playing with building blocks."
+      },
+      "de": {
+        "text": "Das Kleinkind spielt mit Bauklötzen."
+      }
+    },
+    "wordIds": [
+      "17739"
+    ],
+    "sourceIndex": 7739
+  },
+  {
+    "id": "107821",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He is a Dane and speaks Danish."
+      },
+      "de": {
+        "text": "Er ist ein Däne und spricht Dänisch."
+      }
+    },
+    "wordIds": [
+      "17821"
+    ],
+    "sourceIndex": 7821
+  },
+  {
+    "id": "107824",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "My granddaughter visits me often."
+      },
+      "de": {
+        "text": "Meine Enkelin besucht mich oft."
+      }
+    },
+    "wordIds": [
+      "17824"
+    ],
+    "sourceIndex": 7824
+  },
+  {
+    "id": "107850",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Many families receive child benefit from the state."
+      },
+      "de": {
+        "text": "Viele Familien erhalten Kindergeld vom Staat."
+      }
+    },
+    "wordIds": [
+      "17850"
+    ],
+    "sourceIndex": 7850
+  },
+  {
+    "id": "107857",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "He is a Mexican."
+      },
+      "de": {
+        "text": "Er ist ein Mexikaner."
+      }
+    },
+    "wordIds": [
+      "17857"
+    ],
+    "sourceIndex": 7857
+  },
+  {
     "id": "107882",
     "category": "people",
     "level": "medium",
@@ -2041,6 +3469,23 @@ const phrasesPeople = [
     "sourceIndex": 8093
   },
   {
+    "id": "108110",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "His nickname is \"The Fast One\"."
+      },
+      "de": {
+        "text": "Sein Spitzname ist \"Der Schnelle\"."
+      }
+    },
+    "wordIds": [
+      "18110"
+    ],
+    "sourceIndex": 8110
+  },
+  {
     "id": "108160",
     "category": "people",
     "level": "hard",
@@ -2056,6 +3501,23 @@ const phrasesPeople = [
       "18160"
     ],
     "sourceIndex": 8160
+  },
+  {
+    "id": "108405",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "He is an Australian."
+      },
+      "de": {
+        "text": "Er ist ein Australier."
+      }
+    },
+    "wordIds": [
+      "18405"
+    ],
+    "sourceIndex": 8405
   },
   {
     "id": "108547",
@@ -2158,6 +3620,23 @@ const phrasesPeople = [
       "18710"
     ],
     "sourceIndex": 8710
+  },
+  {
+    "id": "108728",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "He is a Norwegian from Oslo."
+      },
+      "de": {
+        "text": "Er ist ein Norweger aus Oslo."
+      }
+    },
+    "wordIds": [
+      "18728"
+    ],
+    "sourceIndex": 8728
   },
   {
     "id": "108840",
@@ -2313,6 +3792,23 @@ const phrasesPeople = [
     "sourceIndex": 9184
   },
   {
+    "id": "109218",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Every female participant received a certificate."
+      },
+      "de": {
+        "text": "Jede Teilnehmerin erhielt ein Zertifikat."
+      }
+    },
+    "wordIds": [
+      "19218"
+    ],
+    "sourceIndex": 9218
+  },
+  {
     "id": "109281",
     "category": "people",
     "level": "hard",
@@ -2347,6 +3843,23 @@ const phrasesPeople = [
     "sourceIndex": 9332
   },
   {
+    "id": "109375",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "A Ukrainian helped us."
+      },
+      "de": {
+        "text": "Ein Ukrainer hat uns geholfen."
+      }
+    },
+    "wordIds": [
+      "19375"
+    ],
+    "sourceIndex": 9375
+  },
+  {
     "id": "109397",
     "category": "people",
     "level": "hard",
@@ -2362,6 +3875,23 @@ const phrasesPeople = [
       "19397"
     ],
     "sourceIndex": 9397
+  },
+  {
+    "id": "109540",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "He is an Egyptian."
+      },
+      "de": {
+        "text": "Er ist ein Ägypter."
+      }
+    },
+    "wordIds": [
+      "19540"
+    ],
+    "sourceIndex": 9540
   },
   {
     "id": "109596",
@@ -2466,6 +3996,23 @@ const phrasesPeople = [
     "sourceIndex": 9719
   },
   {
+    "id": "109799",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "He is a Romanian."
+      },
+      "de": {
+        "text": "Er ist ein Rumäne."
+      }
+    },
+    "wordIds": [
+      "19799"
+    ],
+    "sourceIndex": 9799
+  },
+  {
     "id": "109853",
     "category": "people",
     "level": "medium",
@@ -2515,6 +4062,23 @@ const phrasesPeople = [
       "19960"
     ],
     "sourceIndex": 9960
+  },
+  {
+    "id": "110079",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Please show your identity card."
+      },
+      "de": {
+        "text": "Bitte zeigen Sie Ihren Personalausweis."
+      }
+    },
+    "wordIds": [
+      "20079"
+    ],
+    "sourceIndex": 10079
   },
   {
     "id": "110083",
@@ -2568,6 +4132,40 @@ const phrasesPeople = [
     "sourceIndex": 10255
   },
   {
+    "id": "110318",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Her spouse is a doctor."
+      },
+      "de": {
+        "text": "Ihr Ehegatte ist Arzt."
+      }
+    },
+    "wordIds": [
+      "20318"
+    ],
+    "sourceIndex": 10318
+  },
+  {
+    "id": "110501",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The main character of the book is very interesting."
+      },
+      "de": {
+        "text": "Die Hauptfigur des Buches ist sehr interessant."
+      }
+    },
+    "wordIds": [
+      "20501"
+    ],
+    "sourceIndex": 10501
+  },
+  {
     "id": "110568",
     "category": "people",
     "level": "hard",
@@ -2600,6 +4198,57 @@ const phrasesPeople = [
       "20570"
     ],
     "sourceIndex": 10570
+  },
+  {
+    "id": "110605",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He is an Armenian from Yerevan."
+      },
+      "de": {
+        "text": "Er ist ein Armenier aus Eriwan."
+      }
+    },
+    "wordIds": [
+      "20605"
+    ],
+    "sourceIndex": 10605
+  },
+  {
+    "id": "110631",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My spouse always supports me."
+      },
+      "de": {
+        "text": "Mein Ehepartner unterstützt mich immer."
+      }
+    },
+    "wordIds": [
+      "20631"
+    ],
+    "sourceIndex": 10631
+  },
+  {
+    "id": "110647",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He is a Finn."
+      },
+      "de": {
+        "text": "Er ist ein Finne."
+      }
+    },
+    "wordIds": [
+      "20647"
+    ],
+    "sourceIndex": 10647
   },
   {
     "id": "110858",
@@ -2687,6 +4336,23 @@ const phrasesPeople = [
     "sourceIndex": 11103
   },
   {
+    "id": "111111",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "She has been married for ten years."
+      },
+      "de": {
+        "text": "Sie ist seit zehn Jahren verheiratet."
+      }
+    },
+    "wordIds": [
+      "21111"
+    ],
+    "sourceIndex": 11111
+  },
+  {
     "id": "111223",
     "category": "people",
     "level": "hard",
@@ -2719,6 +4385,23 @@ const phrasesPeople = [
       "21305"
     ],
     "sourceIndex": 11305
+  },
+  {
+    "id": "111413",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He is an Iranian."
+      },
+      "de": {
+        "text": "Er ist ein Iraner."
+      }
+    },
+    "wordIds": [
+      "21413"
+    ],
+    "sourceIndex": 11413
   },
   {
     "id": "111428",
@@ -2821,6 +4504,23 @@ const phrasesPeople = [
       "21795"
     ],
     "sourceIndex": 11795
+  },
+  {
+    "id": "111814",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The infant slept peacefully in its crib."
+      },
+      "de": {
+        "text": "Der Säugling schlief friedlich in seinem Bettchen."
+      }
+    },
+    "wordIds": [
+      "21814"
+    ],
+    "sourceIndex": 11814
   },
   {
     "id": "111835",
@@ -2942,6 +4642,23 @@ const phrasesPeople = [
     "sourceIndex": 12164
   },
   {
+    "id": "112275",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "All family members came to the meeting."
+      },
+      "de": {
+        "text": "Alle Familienangehörigen kamen zum Treffen."
+      }
+    },
+    "wordIds": [
+      "22275"
+    ],
+    "sourceIndex": 12275
+  },
+  {
     "id": "112277",
     "category": "people",
     "level": "hard",
@@ -3044,6 +4761,23 @@ const phrasesPeople = [
     "sourceIndex": 12455
   },
   {
+    "id": "112625",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He is a Bulgarian."
+      },
+      "de": {
+        "text": "Er ist ein Bulgare."
+      }
+    },
+    "wordIds": [
+      "22625"
+    ],
+    "sourceIndex": 12625
+  },
+  {
     "id": "112671",
     "category": "people",
     "level": "medium",
@@ -3059,6 +4793,23 @@ const phrasesPeople = [
       "22671"
     ],
     "sourceIndex": 12671
+  },
+  {
+    "id": "112676",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "He is a Korean."
+      },
+      "de": {
+        "text": "Er ist ein Koreaner."
+      }
+    },
+    "wordIds": [
+      "22676"
+    ],
+    "sourceIndex": 12676
   },
   {
     "id": "112694",
@@ -3180,6 +4931,23 @@ const phrasesPeople = [
     "sourceIndex": 12926
   },
   {
+    "id": "112960",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The landlady greeted us warmly."
+      },
+      "de": {
+        "text": "Die Wirtin begrüßte uns herzlich."
+      }
+    },
+    "wordIds": [
+      "22960"
+    ],
+    "sourceIndex": 12960
+  },
+  {
     "id": "113027",
     "category": "people",
     "level": "hard",
@@ -3214,6 +4982,40 @@ const phrasesPeople = [
     "sourceIndex": 13032
   },
   {
+    "id": "113049",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He is an Iraqi."
+      },
+      "de": {
+        "text": "Er ist ein Iraker."
+      }
+    },
+    "wordIds": [
+      "23049"
+    ],
+    "sourceIndex": 13049
+  },
+  {
+    "id": "113194",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The cutter is very sharp."
+      },
+      "de": {
+        "text": "Der Cutter ist sehr scharf."
+      }
+    },
+    "wordIds": [
+      "23194"
+    ],
+    "sourceIndex": 13194
+  },
+  {
     "id": "113302",
     "category": "people",
     "level": "hard",
@@ -3246,6 +5048,40 @@ const phrasesPeople = [
       "23376"
     ],
     "sourceIndex": 13376
+  },
+  {
+    "id": "113468",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please insert a space between the words."
+      },
+      "de": {
+        "text": "Bitte fügen Sie ein Leerzeichen zwischen den Wörtern ein."
+      }
+    },
+    "wordIds": [
+      "23468"
+    ],
+    "sourceIndex": 13468
+  },
+  {
+    "id": "113623",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "My grandchild is visiting me on the weekend."
+      },
+      "de": {
+        "text": "Mein Enkelkind besucht mich am Wochenende."
+      }
+    },
+    "wordIds": [
+      "23623"
+    ],
+    "sourceIndex": 13623
   },
   {
     "id": "113687",
@@ -3367,6 +5203,23 @@ const phrasesPeople = [
     "sourceIndex": 14215
   },
   {
+    "id": "114252",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She has a very childlike joy."
+      },
+      "de": {
+        "text": "Sie hat eine sehr kindliche Freude."
+      }
+    },
+    "wordIds": [
+      "24252"
+    ],
+    "sourceIndex": 14252
+  },
+  {
     "id": "114434",
     "category": "people",
     "level": "hard",
@@ -3382,6 +5235,23 @@ const phrasesPeople = [
       "24434"
     ],
     "sourceIndex": 14434
+  },
+  {
+    "id": "114460",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The partner search can be difficult."
+      },
+      "de": {
+        "text": "Die Partnersuche kann schwierig sein."
+      }
+    },
+    "wordIds": [
+      "24460"
+    ],
+    "sourceIndex": 14460
   },
   {
     "id": "114478",
@@ -3401,6 +5271,23 @@ const phrasesPeople = [
     "sourceIndex": 14478
   },
   {
+    "id": "114674",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He is a Moroccan who lives in Germany."
+      },
+      "de": {
+        "text": "Er ist ein Marokkaner, der in Deutschland lebt."
+      }
+    },
+    "wordIds": [
+      "24674"
+    ],
+    "sourceIndex": 14674
+  },
+  {
     "id": "114695",
     "category": "people",
     "level": "medium",
@@ -3416,6 +5303,57 @@ const phrasesPeople = [
       "24695"
     ],
     "sourceIndex": 14695
+  },
+  {
+    "id": "114743",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "He is a Hungarian and speaks fluent Hungarian."
+      },
+      "de": {
+        "text": "Er ist ein Ungar und spricht fließend Ungarisch."
+      }
+    },
+    "wordIds": [
+      "24743"
+    ],
+    "sourceIndex": 14743
+  },
+  {
+    "id": "114857",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Child-rearing is a great responsibility."
+      },
+      "de": {
+        "text": "Die Kindererziehung ist eine große Verantwortung."
+      }
+    },
+    "wordIds": [
+      "24857"
+    ],
+    "sourceIndex": 14857
+  },
+  {
+    "id": "114858",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The children's home offers a home to many orphans."
+      },
+      "de": {
+        "text": "Das Kinderheim bietet vielen Waisen ein Zuhause."
+      }
+    },
+    "wordIds": [
+      "24858"
+    ],
+    "sourceIndex": 14858
   },
   {
     "id": "115108",
@@ -3435,6 +5373,23 @@ const phrasesPeople = [
     "sourceIndex": 15108
   },
   {
+    "id": "115194",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We need to bring the two parties back together."
+      },
+      "de": {
+        "text": "Wir müssen die beiden Parteien wieder zusammenbringen."
+      }
+    },
+    "wordIds": [
+      "25194"
+    ],
+    "sourceIndex": 15194
+  },
+  {
     "id": "115253",
     "category": "people",
     "level": "hard",
@@ -3450,6 +5405,57 @@ const phrasesPeople = [
       "25253"
     ],
     "sourceIndex": 15253
+  },
+  {
+    "id": "115273",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She has been divorced for two years."
+      },
+      "de": {
+        "text": "Sie ist seit zwei Jahren geschieden."
+      }
+    },
+    "wordIds": [
+      "25273"
+    ],
+    "sourceIndex": 15273
+  },
+  {
+    "id": "115439",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The bridal couple danced the first dance."
+      },
+      "de": {
+        "text": "Das Brautpaar tanzte den ersten Tanz."
+      }
+    },
+    "wordIds": [
+      "25439"
+    ],
+    "sourceIndex": 15439
+  },
+  {
+    "id": "115548",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The local association meets next week."
+      },
+      "de": {
+        "text": "Der Ortsverband trifft sich nächste Woche."
+      }
+    },
+    "wordIds": [
+      "25548"
+    ],
+    "sourceIndex": 15548
   },
   {
     "id": "115671",
@@ -3486,6 +5492,23 @@ const phrasesPeople = [
     "sourceIndex": 15690
   },
   {
+    "id": "115703",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My half-brother lives in another city."
+      },
+      "de": {
+        "text": "Mein Halbbruder lebt in einer anderen Stadt."
+      }
+    },
+    "wordIds": [
+      "25703"
+    ],
+    "sourceIndex": 15703
+  },
+  {
     "id": "115755",
     "category": "people",
     "level": "hard",
@@ -3520,6 +5543,23 @@ const phrasesPeople = [
     "sourceIndex": 15780
   },
   {
+    "id": "115784",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "My parents-in-law are visiting us next week."
+      },
+      "de": {
+        "text": "Meine Schwiegereltern besuchen uns nächste Woche."
+      }
+    },
+    "wordIds": [
+      "25784"
+    ],
+    "sourceIndex": 15784
+  },
+  {
     "id": "115910",
     "category": "people",
     "level": "medium",
@@ -3535,6 +5575,40 @@ const phrasesPeople = [
       "25910"
     ],
     "sourceIndex": 15910
+  },
+  {
+    "id": "115943",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My youth was full of adventures."
+      },
+      "de": {
+        "text": "Meine Jugendzeit war voller Abenteuer."
+      }
+    },
+    "wordIds": [
+      "25943"
+    ],
+    "sourceIndex": 15943
+  },
+  {
+    "id": "115956",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My life partner and I are planning a trip."
+      },
+      "de": {
+        "text": "Mein Lebenspartner und ich planen eine Reise."
+      }
+    },
+    "wordIds": [
+      "25956"
+    ],
+    "sourceIndex": 15956
   },
   {
     "id": "115995",
@@ -3639,6 +5713,23 @@ const phrasesPeople = [
     "sourceIndex": 16394
   },
   {
+    "id": "116456",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The local association meets every month."
+      },
+      "de": {
+        "text": "Der Ortsverein trifft sich jeden Monat."
+      }
+    },
+    "wordIds": [
+      "26456"
+    ],
+    "sourceIndex": 16456
+  },
+  {
     "id": "116491",
     "category": "people",
     "level": "hard",
@@ -3707,6 +5798,23 @@ const phrasesPeople = [
     "sourceIndex": 16989
   },
   {
+    "id": "117025",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My great-grandson visits me every weekend."
+      },
+      "de": {
+        "text": "Mein Urenkel besucht mich jedes Wochenende."
+      }
+    },
+    "wordIds": [
+      "27025"
+    ],
+    "sourceIndex": 17025
+  },
+  {
     "id": "117058",
     "category": "people",
     "level": "hard",
@@ -3739,6 +5847,23 @@ const phrasesPeople = [
       "27122"
     ],
     "sourceIndex": 17122
+  },
+  {
+    "id": "117400",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "They are planning their honeymoon in Italy."
+      },
+      "de": {
+        "text": "Sie planen ihre Flitterwochen in Italien."
+      }
+    },
+    "wordIds": [
+      "27400"
+    ],
+    "sourceIndex": 17400
   },
   {
     "id": "117476",
@@ -3826,6 +5951,23 @@ const phrasesPeople = [
     "sourceIndex": 17721
   },
   {
+    "id": "117731",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He is a Cuban who lives in Berlin."
+      },
+      "de": {
+        "text": "Er ist ein Kubaner, der in Berlin lebt."
+      }
+    },
+    "wordIds": [
+      "27731"
+    ],
+    "sourceIndex": 17731
+  },
+  {
     "id": "117963",
     "category": "people",
     "level": "hard",
@@ -3858,6 +6000,57 @@ const phrasesPeople = [
       "27964"
     ],
     "sourceIndex": 17964
+  },
+  {
+    "id": "117998",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He is a Nigerian."
+      },
+      "de": {
+        "text": "Er ist ein Nigerianer."
+      }
+    },
+    "wordIds": [
+      "27998"
+    ],
+    "sourceIndex": 17998
+  },
+  {
+    "id": "118010",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Many private individuals invest in renewable energies."
+      },
+      "de": {
+        "text": "Viele Privatleute investieren in erneuerbare Energien."
+      }
+    },
+    "wordIds": [
+      "28010"
+    ],
+    "sourceIndex": 18010
+  },
+  {
+    "id": "118345",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "They want to move in together next month."
+      },
+      "de": {
+        "text": "Sie wollen nächsten Monat zusammenziehen."
+      }
+    },
+    "wordIds": [
+      "28345"
+    ],
+    "sourceIndex": 18345
   },
   {
     "id": "118382",
@@ -3945,6 +6138,23 @@ const phrasesPeople = [
     "sourceIndex": 18606
   },
   {
+    "id": "118707",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We need to group the data."
+      },
+      "de": {
+        "text": "Wir müssen die Daten gruppieren."
+      }
+    },
+    "wordIds": [
+      "28707"
+    ],
+    "sourceIndex": 18707
+  },
+  {
     "id": "118736",
     "category": "people",
     "level": "hard",
@@ -3960,6 +6170,40 @@ const phrasesPeople = [
       "28736"
     ],
     "sourceIndex": 18736
+  },
+  {
+    "id": "118825",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Our little daughter is playing in the garden."
+      },
+      "de": {
+        "text": "Unser Töchterchen spielt im Garten."
+      }
+    },
+    "wordIds": [
+      "28825"
+    ],
+    "sourceIndex": 18825
+  },
+  {
+    "id": "118956",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We have a big family gathering every year."
+      },
+      "de": {
+        "text": "Wir haben jedes Jahr ein großes Familientreffen."
+      }
+    },
+    "wordIds": [
+      "28956"
+    ],
+    "sourceIndex": 18956
   },
   {
     "id": "118988",
@@ -4047,6 +6291,57 @@ const phrasesPeople = [
     "sourceIndex": 19110
   },
   {
+    "id": "119368",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "This cleaner removes all stains."
+      },
+      "de": {
+        "text": "Dieser Reiniger entfernt alle Flecken."
+      }
+    },
+    "wordIds": [
+      "29368"
+    ],
+    "sourceIndex": 19368
+  },
+  {
+    "id": "119410",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My stepdaughter is visiting us this weekend."
+      },
+      "de": {
+        "text": "Meine Stieftochter besucht uns am Wochenende."
+      }
+    },
+    "wordIds": [
+      "29410"
+    ],
+    "sourceIndex": 19410
+  },
+  {
+    "id": "119438",
+    "category": "people",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "My daddy is coming home tonight."
+      },
+      "de": {
+        "text": "Mein Vati kommt heute Abend nach Hause."
+      }
+    },
+    "wordIds": [
+      "29438"
+    ],
+    "sourceIndex": 19438
+  },
+  {
     "id": "119614",
     "category": "people",
     "level": "hard",
@@ -4098,6 +6393,40 @@ const phrasesPeople = [
     "sourceIndex": 19846
   },
   {
+    "id": "119886",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He is a Colombian."
+      },
+      "de": {
+        "text": "Er ist ein Kolumbianer."
+      }
+    },
+    "wordIds": [
+      "29886"
+    ],
+    "sourceIndex": 19886
+  },
+  {
+    "id": "119936",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "She is a Polish woman and has lived in Berlin for five years."
+      },
+      "de": {
+        "text": "Sie ist eine Polin und lebt seit fünf Jahren in Berlin."
+      }
+    },
+    "wordIds": [
+      "29936"
+    ],
+    "sourceIndex": 19936
+  },
+  {
     "id": "119976",
     "category": "people",
     "level": "hard",
@@ -4132,6 +6461,57 @@ const phrasesPeople = [
     "sourceIndex": 19981
   },
   {
+    "id": "120140",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Listen, buddy, that's not how it works!"
+      },
+      "de": {
+        "text": "Hör mal zu, Freundchen, so geht das nicht!"
+      }
+    },
+    "wordIds": [
+      "30140"
+    ],
+    "sourceIndex": 20140
+  },
+  {
+    "id": "120155",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The little brat caused trouble again."
+      },
+      "de": {
+        "text": "Die kleine Göre hat schon wieder Ärger gemacht."
+      }
+    },
+    "wordIds": [
+      "30155"
+    ],
+    "sourceIndex": 20155
+  },
+  {
+    "id": "120174",
+    "category": "people",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The Japanese woman spoke fluent German."
+      },
+      "de": {
+        "text": "Die Japanerin sprach fließend Deutsch."
+      }
+    },
+    "wordIds": [
+      "30174"
+    ],
+    "sourceIndex": 20174
+  },
+  {
     "id": "120177",
     "category": "people",
     "level": "hard",
@@ -4164,6 +6544,23 @@ const phrasesPeople = [
       "30209"
     ],
     "sourceIndex": 20209
+  },
+  {
+    "id": "120258",
+    "category": "people",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He is a Slovak and comes from Bratislava."
+      },
+      "de": {
+        "text": "Er ist ein Slowake und kommt aus Bratislava."
+      }
+    },
+    "wordIds": [
+      "30258"
+    ],
+    "sourceIndex": 20258
   }
 ];
 globalThis.WortwerkData?.register("phrases", "people", phrasesPeople);

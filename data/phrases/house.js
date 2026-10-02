@@ -477,6 +477,23 @@ const phrasesHouse = [
     "sourceIndex": 527
   },
   {
+    "id": "100542",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Put your things in order."
+      },
+      "de": {
+        "text": "Bring deine Sachen in Ordnung."
+      }
+    },
+    "wordIds": [
+      "10542"
+    ],
+    "sourceIndex": 542
+  },
+  {
     "id": "100548",
     "category": "house",
     "level": "hard",
@@ -492,6 +509,23 @@ const phrasesHouse = [
       "10548"
     ],
     "sourceIndex": 548
+  },
+  {
+    "id": "100563",
+    "category": "house",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "We are sitting on the bench in the park."
+      },
+      "de": {
+        "text": "Wir sitzen auf der Bank im Park."
+      }
+    },
+    "wordIds": [
+      "10563"
+    ],
+    "sourceIndex": 563
   },
   {
     "id": "100569",
@@ -528,6 +562,40 @@ const phrasesHouse = [
     "sourceIndex": 588
   },
   {
+    "id": "100590",
+    "category": "house",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "Please close the door."
+      },
+      "de": {
+        "text": "Bitte schließe die Tür."
+      }
+    },
+    "wordIds": [
+      "10590"
+    ],
+    "sourceIndex": 590
+  },
+  {
+    "id": "100611",
+    "category": "house",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The window is open."
+      },
+      "de": {
+        "text": "Das Fenster ist offen."
+      }
+    },
+    "wordIds": [
+      "10611"
+    ],
+    "sourceIndex": 611
+  },
+  {
     "id": "100645",
     "category": "house",
     "level": "hard",
@@ -543,6 +611,40 @@ const phrasesHouse = [
       "10645"
     ],
     "sourceIndex": 645
+  },
+  {
+    "id": "100671",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The castle is very old."
+      },
+      "de": {
+        "text": "Das Schloss ist sehr alt."
+      }
+    },
+    "wordIds": [
+      "10671"
+    ],
+    "sourceIndex": 671
+  },
+  {
+    "id": "100681",
+    "category": "house",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "He lays the book on the table."
+      },
+      "de": {
+        "text": "Er legt das Buch auf den Tisch."
+      }
+    },
+    "wordIds": [
+      "10681"
+    ],
+    "sourceIndex": 681
   },
   {
     "id": "100686",
@@ -597,6 +699,23 @@ const phrasesHouse = [
     "sourceIndex": 797
   },
   {
+    "id": "100808",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The hall was full of people."
+      },
+      "de": {
+        "text": "Die Halle war voller Menschen."
+      }
+    },
+    "wordIds": [
+      "10808"
+    ],
+    "sourceIndex": 808
+  },
+  {
     "id": "100841",
     "category": "house",
     "level": "hard",
@@ -646,6 +765,23 @@ const phrasesHouse = [
       "10884"
     ],
     "sourceIndex": 884
+  },
+  {
+    "id": "100901",
+    "category": "house",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I live in Berlin."
+      },
+      "de": {
+        "text": "Ich wohne in Berlin."
+      }
+    },
+    "wordIds": [
+      "10901"
+    ],
+    "sourceIndex": 901
   },
   {
     "id": "100954",
@@ -699,6 +835,23 @@ const phrasesHouse = [
     "sourceIndex": 968
   },
   {
+    "id": "100987",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The courtyard is full of flowers."
+      },
+      "de": {
+        "text": "Der Hof ist voller Blumen."
+      }
+    },
+    "wordIds": [
+      "10987"
+    ],
+    "sourceIndex": 987
+  },
+  {
     "id": "101001",
     "category": "house",
     "level": "medium",
@@ -714,6 +867,23 @@ const phrasesHouse = [
       "11001"
     ],
     "sourceIndex": 1001
+  },
+  {
+    "id": "101009",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The book is in the corner of the room."
+      },
+      "de": {
+        "text": "Das Buch liegt in der Ecke des Zimmers."
+      }
+    },
+    "wordIds": [
+      "11009"
+    ],
+    "sourceIndex": 1009
   },
   {
     "id": "101014",
@@ -801,6 +971,40 @@ const phrasesHouse = [
     "sourceIndex": 1107
   },
   {
+    "id": "101122",
+    "category": "house",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "Please open the door."
+      },
+      "de": {
+        "text": "Bitte öffnen Sie die Tür."
+      }
+    },
+    "wordIds": [
+      "11122"
+    ],
+    "sourceIndex": 1122
+  },
+  {
+    "id": "101158",
+    "category": "house",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The glass is full."
+      },
+      "de": {
+        "text": "Das Glas ist voll."
+      }
+    },
+    "wordIds": [
+      "11158"
+    ],
+    "sourceIndex": 1158
+  },
+  {
     "id": "101229",
     "category": "house",
     "level": "medium",
@@ -816,6 +1020,23 @@ const phrasesHouse = [
       "11229"
     ],
     "sourceIndex": 1229
+  },
+  {
+    "id": "101238",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We store wine in the cellar."
+      },
+      "de": {
+        "text": "Wir lagern Wein im Keller."
+      }
+    },
+    "wordIds": [
+      "11238"
+    ],
+    "sourceIndex": 1238
   },
   {
     "id": "101250",
@@ -903,6 +1124,23 @@ const phrasesHouse = [
     "sourceIndex": 1325
   },
   {
+    "id": "101334",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The handle of the cup is broken."
+      },
+      "de": {
+        "text": "Der Griff der Tasse ist zerbrochen."
+      }
+    },
+    "wordIds": [
+      "11334"
+    ],
+    "sourceIndex": 1334
+  },
+  {
     "id": "101351",
     "category": "house",
     "level": "hard",
@@ -952,6 +1190,23 @@ const phrasesHouse = [
       "11417"
     ],
     "sourceIndex": 1417
+  },
+  {
+    "id": "101480",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We have to set up the tent."
+      },
+      "de": {
+        "text": "Wir müssen das Zelt aufbauen."
+      }
+    },
+    "wordIds": [
+      "11480"
+    ],
+    "sourceIndex": 1480
   },
   {
     "id": "101554",
@@ -1142,6 +1397,23 @@ const phrasesHouse = [
     "sourceIndex": 1725
   },
   {
+    "id": "101751",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I have to complete this task today."
+      },
+      "de": {
+        "text": "Ich muss diese Aufgabe heute erledigen."
+      }
+    },
+    "wordIds": [
+      "11751"
+    ],
+    "sourceIndex": 1751
+  },
+  {
     "id": "101770",
     "category": "house",
     "level": "easy",
@@ -1278,6 +1550,23 @@ const phrasesHouse = [
     "sourceIndex": 1938
   },
   {
+    "id": "101966",
+    "category": "house",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The cat is sleeping on the blanket."
+      },
+      "de": {
+        "text": "Die Katze schläft auf der Decke."
+      }
+    },
+    "wordIds": [
+      "11966"
+    ],
+    "sourceIndex": 1966
+  },
+  {
     "id": "102015",
     "category": "house",
     "level": "medium",
@@ -1346,6 +1635,23 @@ const phrasesHouse = [
     "sourceIndex": 2048
   },
   {
+    "id": "102132",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The new building will be finished next year."
+      },
+      "de": {
+        "text": "Der Neubau wird nächstes Jahr fertig."
+      }
+    },
+    "wordIds": [
+      "12132"
+    ],
+    "sourceIndex": 2132
+  },
+  {
     "id": "102196",
     "category": "house",
     "level": "easy",
@@ -1395,6 +1701,74 @@ const phrasesHouse = [
       "12219"
     ],
     "sourceIndex": 2219
+  },
+  {
+    "id": "102276",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I feel most comfortable at home."
+      },
+      "de": {
+        "text": "Ich fühle mich daheim am wohlsten."
+      }
+    },
+    "wordIds": [
+      "12276"
+    ],
+    "sourceIndex": 2276
+  },
+  {
+    "id": "102277",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Get the dirt off your shoes!"
+      },
+      "de": {
+        "text": "Mach den Dreck von deinen Schuhen ab!"
+      }
+    },
+    "wordIds": [
+      "12277"
+    ],
+    "sourceIndex": 2277
+  },
+  {
+    "id": "102304",
+    "category": "house",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "Please sit on the chair."
+      },
+      "de": {
+        "text": "Bitte setzen Sie sich auf den Stuhl."
+      }
+    },
+    "wordIds": [
+      "12304"
+    ],
+    "sourceIndex": 2304
+  },
+  {
+    "id": "102318",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Please set the table."
+      },
+      "de": {
+        "text": "Bitte deck den Tisch."
+      }
+    },
+    "wordIds": [
+      "12318"
+    ],
+    "sourceIndex": 2318
   },
   {
     "id": "102373",
@@ -1466,6 +1840,23 @@ const phrasesHouse = [
     "sourceIndex": 2530
   },
   {
+    "id": "102534",
+    "category": "house",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I take a shower every morning."
+      },
+      "de": {
+        "text": "Ich nehme jeden Morgen eine Dusche."
+      }
+    },
+    "wordIds": [
+      "12534"
+    ],
+    "sourceIndex": 2534
+  },
+  {
     "id": "102581",
     "category": "house",
     "level": "hard",
@@ -1498,6 +1889,23 @@ const phrasesHouse = [
       "12607"
     ],
     "sourceIndex": 2607
+  },
+  {
+    "id": "102663",
+    "category": "house",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I need to wash my clothes."
+      },
+      "de": {
+        "text": "Ich muss meine Kleidung waschen."
+      }
+    },
+    "wordIds": [
+      "12663"
+    ],
+    "sourceIndex": 2663
   },
   {
     "id": "102666",
@@ -1566,6 +1974,23 @@ const phrasesHouse = [
       "12713"
     ],
     "sourceIndex": 2713
+  },
+  {
+    "id": "102743",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The chamber was small and dark."
+      },
+      "de": {
+        "text": "Die Kammer war klein und dunkel."
+      }
+    },
+    "wordIds": [
+      "12743"
+    ],
+    "sourceIndex": 2743
   },
   {
     "id": "102750",
@@ -1653,6 +2078,40 @@ const phrasesHouse = [
     "sourceIndex": 2789
   },
   {
+    "id": "102857",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The large hall was full of people."
+      },
+      "de": {
+        "text": "Der große Saal war voller Menschen."
+      }
+    },
+    "wordIds": [
+      "12857"
+    ],
+    "sourceIndex": 2857
+  },
+  {
+    "id": "102960",
+    "category": "house",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The wardrobe is full of clothes."
+      },
+      "de": {
+        "text": "Der Schrank ist voll mit Kleidung."
+      }
+    },
+    "wordIds": [
+      "12960"
+    ],
+    "sourceIndex": 2960
+  },
+  {
     "id": "103033",
     "category": "house",
     "level": "hard",
@@ -1736,6 +2195,23 @@ const phrasesHouse = [
       "13069"
     ],
     "sourceIndex": 3069
+  },
+  {
+    "id": "103074",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The ship began to sink."
+      },
+      "de": {
+        "text": "Das Schiff begann zu sinken."
+      }
+    },
+    "wordIds": [
+      "13074"
+    ],
+    "sourceIndex": 3074
   },
   {
     "id": "103104",
@@ -1872,6 +2348,23 @@ const phrasesHouse = [
       "13271"
     ],
     "sourceIndex": 3271
+  },
+  {
+    "id": "103283",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We still need to install the new kitchen."
+      },
+      "de": {
+        "text": "Wir müssen die neue Küche noch einbauen."
+      }
+    },
+    "wordIds": [
+      "13283"
+    ],
+    "sourceIndex": 3283
   },
   {
     "id": "103294",
@@ -2027,6 +2520,40 @@ const phrasesHouse = [
     "sourceIndex": 3517
   },
   {
+    "id": "103523",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I like to sit on the couch and read."
+      },
+      "de": {
+        "text": "Ich sitze gerne auf der Couch und lese."
+      }
+    },
+    "wordIds": [
+      "13523"
+    ],
+    "sourceIndex": 3523
+  },
+  {
+    "id": "103525",
+    "category": "house",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I shower every morning."
+      },
+      "de": {
+        "text": "Ich dusche jeden Morgen."
+      }
+    },
+    "wordIds": [
+      "13525"
+    ],
+    "sourceIndex": 3525
+  },
+  {
     "id": "103526",
     "category": "house",
     "level": "hard",
@@ -2164,6 +2691,23 @@ const phrasesHouse = [
     "sourceIndex": 3699
   },
   {
+    "id": "103716",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The heating is broken."
+      },
+      "de": {
+        "text": "Die Heizung ist kaputt."
+      }
+    },
+    "wordIds": [
+      "13716"
+    ],
+    "sourceIndex": 3716
+  },
+  {
     "id": "103741",
     "category": "house",
     "level": "hard",
@@ -2266,6 +2810,40 @@ const phrasesHouse = [
     "sourceIndex": 3840
   },
   {
+    "id": "103846",
+    "category": "house",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The lamp is broken."
+      },
+      "de": {
+        "text": "Die Lampe ist kaputt."
+      }
+    },
+    "wordIds": [
+      "13846"
+    ],
+    "sourceIndex": 3846
+  },
+  {
+    "id": "103850",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My neighbor lives next door."
+      },
+      "de": {
+        "text": "Mein Nachbar wohnt nebenan."
+      }
+    },
+    "wordIds": [
+      "13850"
+    ],
+    "sourceIndex": 3850
+  },
+  {
     "id": "103858",
     "category": "house",
     "level": "easy",
@@ -2281,6 +2859,23 @@ const phrasesHouse = [
       "13858"
     ],
     "sourceIndex": 3858
+  },
+  {
+    "id": "103859",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The water flows through the pipe."
+      },
+      "de": {
+        "text": "Das Wasser fließt durch das Rohr."
+      }
+    },
+    "wordIds": [
+      "13859"
+    ],
+    "sourceIndex": 3859
   },
   {
     "id": "103914",
@@ -2332,6 +2927,23 @@ const phrasesHouse = [
       "13990"
     ],
     "sourceIndex": 3990
+  },
+  {
+    "id": "104010",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Living space in the city is expensive."
+      },
+      "de": {
+        "text": "Der Wohnraum in der Stadt ist teuer."
+      }
+    },
+    "wordIds": [
+      "14010"
+    ],
+    "sourceIndex": 4010
   },
   {
     "id": "104028",
@@ -2436,6 +3048,23 @@ const phrasesHouse = [
     "sourceIndex": 4205
   },
   {
+    "id": "104302",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Please put the lid on the pot."
+      },
+      "de": {
+        "text": "Bitte setz den Deckel auf den Topf."
+      }
+    },
+    "wordIds": [
+      "14302"
+    ],
+    "sourceIndex": 4302
+  },
+  {
     "id": "104362",
     "category": "house",
     "level": "hard",
@@ -2521,6 +3150,23 @@ const phrasesHouse = [
     "sourceIndex": 4453
   },
   {
+    "id": "104480",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please enter the license key."
+      },
+      "de": {
+        "text": "Bitte geben Sie den Lizenz-Key ein."
+      }
+    },
+    "wordIds": [
+      "14480"
+    ],
+    "sourceIndex": 4480
+  },
+  {
     "id": "104513",
     "category": "house",
     "level": "medium",
@@ -2553,6 +3199,23 @@ const phrasesHouse = [
       "14543"
     ],
     "sourceIndex": 4543
+  },
+  {
+    "id": "104556",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The tire is flat."
+      },
+      "de": {
+        "text": "Der Reifen ist platt."
+      }
+    },
+    "wordIds": [
+      "14556"
+    ],
+    "sourceIndex": 4556
   },
   {
     "id": "104557",
@@ -2589,6 +3252,40 @@ const phrasesHouse = [
     "sourceIndex": 4569
   },
   {
+    "id": "104626",
+    "category": "house",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The book is on the shelf."
+      },
+      "de": {
+        "text": "Das Buch steht im Regal."
+      }
+    },
+    "wordIds": [
+      "14626"
+    ],
+    "sourceIndex": 4626
+  },
+  {
+    "id": "104680",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The smartphone's cover protects it from scratches."
+      },
+      "de": {
+        "text": "Die Hülle des Smartphones schützt es vor Kratzern."
+      }
+    },
+    "wordIds": [
+      "14680"
+    ],
+    "sourceIndex": 4680
+  },
+  {
     "id": "104799",
     "category": "house",
     "level": "hard",
@@ -2621,6 +3318,23 @@ const phrasesHouse = [
       "14821"
     ],
     "sourceIndex": 4821
+  },
+  {
+    "id": "104838",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "He filled the bucket with water."
+      },
+      "de": {
+        "text": "Er füllte den Eimer mit Wasser."
+      }
+    },
+    "wordIds": [
+      "14838"
+    ],
+    "sourceIndex": 4838
   },
   {
     "id": "104906",
@@ -2759,6 +3473,57 @@ const phrasesHouse = [
     "sourceIndex": 5285
   },
   {
+    "id": "105492",
+    "category": "house",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "Please close the door."
+      },
+      "de": {
+        "text": "Bitte schließen Sie die Tür."
+      }
+    },
+    "wordIds": [
+      "15492"
+    ],
+    "sourceIndex": 5492
+  },
+  {
+    "id": "105664",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I like to sit in my comfortable armchair."
+      },
+      "de": {
+        "text": "Ich sitze gerne in meinem bequemen Sessel."
+      }
+    },
+    "wordIds": [
+      "15664"
+    ],
+    "sourceIndex": 5664
+  },
+  {
+    "id": "105668",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "She types quickly on the keyboard."
+      },
+      "de": {
+        "text": "Sie tippt schnell auf der Tastatur."
+      }
+    },
+    "wordIds": [
+      "15668"
+    ],
+    "sourceIndex": 5668
+  },
+  {
     "id": "105670",
     "category": "house",
     "level": "medium",
@@ -2808,6 +3573,23 @@ const phrasesHouse = [
       "15722"
     ],
     "sourceIndex": 5722
+  },
+  {
+    "id": "105779",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please cover the food."
+      },
+      "de": {
+        "text": "Bitte decken Sie das Essen ab."
+      }
+    },
+    "wordIds": [
+      "15779"
+    ],
+    "sourceIndex": 5779
   },
   {
     "id": "105836",
@@ -2861,6 +3643,23 @@ const phrasesHouse = [
     "sourceIndex": 5969
   },
   {
+    "id": "106013",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "They had to lock up the dog in the kennel."
+      },
+      "de": {
+        "text": "Sie mussten den Hund im Zwinger einsperren."
+      }
+    },
+    "wordIds": [
+      "16013"
+    ],
+    "sourceIndex": 6013
+  },
+  {
     "id": "106048",
     "category": "house",
     "level": "hard",
@@ -2893,6 +3692,23 @@ const phrasesHouse = [
       "16063"
     ],
     "sourceIndex": 6063
+  },
+  {
+    "id": "106115",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "In winter, we like to sit in front of the fireplace."
+      },
+      "de": {
+        "text": "Im Winter sitzen wir gerne vor dem Kamin."
+      }
+    },
+    "wordIds": [
+      "16115"
+    ],
+    "sourceIndex": 6115
   },
   {
     "id": "106135",
@@ -2929,6 +3745,57 @@ const phrasesHouse = [
     "sourceIndex": 6328
   },
   {
+    "id": "106364",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The stairwell is very bright."
+      },
+      "de": {
+        "text": "Das Treppenhaus ist sehr hell."
+      }
+    },
+    "wordIds": [
+      "16364"
+    ],
+    "sourceIndex": 6364
+  },
+  {
+    "id": "106372",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The bathtub is full of water."
+      },
+      "de": {
+        "text": "Die Badewanne ist voll mit Wasser."
+      }
+    },
+    "wordIds": [
+      "16372"
+    ],
+    "sourceIndex": 6372
+  },
+  {
+    "id": "106381",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "She rents a small apartment in the city."
+      },
+      "de": {
+        "text": "Sie mietet ein kleines Apartment in der Stadt."
+      }
+    },
+    "wordIds": [
+      "16381"
+    ],
+    "sourceIndex": 6381
+  },
+  {
     "id": "106407",
     "category": "house",
     "level": "medium",
@@ -2944,6 +3811,23 @@ const phrasesHouse = [
       "16407"
     ],
     "sourceIndex": 6407
+  },
+  {
+    "id": "106414",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "They live in a small house by the lake."
+      },
+      "de": {
+        "text": "Sie wohnen in einem kleinen Häuschen am See."
+      }
+    },
+    "wordIds": [
+      "16414"
+    ],
+    "sourceIndex": 6414
   },
   {
     "id": "106418",
@@ -2978,6 +3862,23 @@ const phrasesHouse = [
       "16440"
     ],
     "sourceIndex": 6440
+  },
+  {
+    "id": "106479",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He wanted to light the fire."
+      },
+      "de": {
+        "text": "Er wollte das Feuer anzünden."
+      }
+    },
+    "wordIds": [
+      "16479"
+    ],
+    "sourceIndex": 6479
   },
   {
     "id": "106518",
@@ -3150,6 +4051,23 @@ const phrasesHouse = [
     "sourceIndex": 6684
   },
   {
+    "id": "106697",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The old structure is a landmark of the city."
+      },
+      "de": {
+        "text": "Das alte Bauwerk ist ein Wahrzeichen der Stadt."
+      }
+    },
+    "wordIds": [
+      "16697"
+    ],
+    "sourceIndex": 6697
+  },
+  {
     "id": "106751",
     "category": "house",
     "level": "medium",
@@ -3267,6 +4185,23 @@ const phrasesHouse = [
       "16931"
     ],
     "sourceIndex": 6931
+  },
+  {
+    "id": "106972",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The sun will soon go down."
+      },
+      "de": {
+        "text": "Die Sonne wird bald untergehen."
+      }
+    },
+    "wordIds": [
+      "16972"
+    ],
+    "sourceIndex": 6972
   },
   {
     "id": "106995",
@@ -3403,6 +4338,23 @@ const phrasesHouse = [
       "17322"
     ],
     "sourceIndex": 7322
+  },
+  {
+    "id": "107325",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We still need some decoration for the party."
+      },
+      "de": {
+        "text": "Wir brauchen noch etwas Deko für die Party."
+      }
+    },
+    "wordIds": [
+      "17325"
+    ],
+    "sourceIndex": 7325
   },
   {
     "id": "107444",
@@ -3575,6 +4527,23 @@ const phrasesHouse = [
     "sourceIndex": 7793
   },
   {
+    "id": "107816",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The decoration for the party is beautiful."
+      },
+      "de": {
+        "text": "Die Dekoration für die Party ist wunderschön."
+      }
+    },
+    "wordIds": [
+      "17816"
+    ],
+    "sourceIndex": 7816
+  },
+  {
     "id": "107823",
     "category": "house",
     "level": "hard",
@@ -3607,6 +4576,23 @@ const phrasesHouse = [
       "17941"
     ],
     "sourceIndex": 7941
+  },
+  {
+    "id": "107952",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The table of contents is at the beginning of the book."
+      },
+      "de": {
+        "text": "Das Inhaltsverzeichnis befindet sich am Anfang des Buches."
+      }
+    },
+    "wordIds": [
+      "17952"
+    ],
+    "sourceIndex": 7952
   },
   {
     "id": "107960",
@@ -3658,6 +4644,23 @@ const phrasesHouse = [
       "18049"
     ],
     "sourceIndex": 8049
+  },
+  {
+    "id": "108061",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Please hang your coat in the cloakroom."
+      },
+      "de": {
+        "text": "Bitte hängen Sie Ihren Mantel in der Garderobe auf."
+      }
+    },
+    "wordIds": [
+      "18061"
+    ],
+    "sourceIndex": 8061
   },
   {
     "id": "108076",
@@ -3760,6 +4763,23 @@ const phrasesHouse = [
       "18228"
     ],
     "sourceIndex": 8228
+  },
+  {
+    "id": "108243",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The children are playing in the gym hall."
+      },
+      "de": {
+        "text": "Die Kinder spielen in der Turnhalle."
+      }
+    },
+    "wordIds": [
+      "18243"
+    ],
+    "sourceIndex": 8243
   },
   {
     "id": "108306",
@@ -3915,6 +4935,23 @@ const phrasesHouse = [
     "sourceIndex": 8663
   },
   {
+    "id": "108667",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The graduation ceremony takes place in the auditorium."
+      },
+      "de": {
+        "text": "Die Abschlussfeier findet in der Aula statt."
+      }
+    },
+    "wordIds": [
+      "18667"
+    ],
+    "sourceIndex": 8667
+  },
+  {
     "id": "108688",
     "category": "house",
     "level": "medium",
@@ -3930,6 +4967,57 @@ const phrasesHouse = [
       "18688"
     ],
     "sourceIndex": 8688
+  },
+  {
+    "id": "108738",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My grandmother lives in a nursing home."
+      },
+      "de": {
+        "text": "Meine Grossmutter lebt in einem Pflegeheim."
+      }
+    },
+    "wordIds": [
+      "18738"
+    ],
+    "sourceIndex": 8738
+  },
+  {
+    "id": "108766",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Please wash the dishes."
+      },
+      "de": {
+        "text": "Bitte spül das Geschirr."
+      }
+    },
+    "wordIds": [
+      "18766"
+    ],
+    "sourceIndex": 8766
+  },
+  {
+    "id": "108773",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The bicycle stand is full."
+      },
+      "de": {
+        "text": "Der Fahrradständer ist voll."
+      }
+    },
+    "wordIds": [
+      "18773"
+    ],
+    "sourceIndex": 8773
   },
   {
     "id": "108968",
@@ -3983,6 +5071,23 @@ const phrasesHouse = [
     "sourceIndex": 9023
   },
   {
+    "id": "109096",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Please wipe the table."
+      },
+      "de": {
+        "text": "Bitte wischen Sie den Tisch ab."
+      }
+    },
+    "wordIds": [
+      "19096"
+    ],
+    "sourceIndex": 9096
+  },
+  {
     "id": "109104",
     "category": "house",
     "level": "hard",
@@ -3998,6 +5103,40 @@ const phrasesHouse = [
       "19104"
     ],
     "sourceIndex": 9104
+  },
+  {
+    "id": "109111",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Can you please turn on the light?"
+      },
+      "de": {
+        "text": "Kannst du bitte das Licht anmachen?"
+      }
+    },
+    "wordIds": [
+      "19111"
+    ],
+    "sourceIndex": 9111
+  },
+  {
+    "id": "109176",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The wardrobe is full of clothes."
+      },
+      "de": {
+        "text": "Der Kleiderschrank ist voll mit Kleidung."
+      }
+    },
+    "wordIds": [
+      "19176"
+    ],
+    "sourceIndex": 9176
   },
   {
     "id": "109191",
@@ -4187,6 +5326,40 @@ const phrasesHouse = [
     "sourceIndex": 9688
   },
   {
+    "id": "109735",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Many dream of their own home."
+      },
+      "de": {
+        "text": "Viele träumen von einem Eigenheim."
+      }
+    },
+    "wordIds": [
+      "19735"
+    ],
+    "sourceIndex": 9735
+  },
+  {
+    "id": "109758",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The children are playing in the backyard."
+      },
+      "de": {
+        "text": "Die Kinder spielen im Hinterhof."
+      }
+    },
+    "wordIds": [
+      "19758"
+    ],
+    "sourceIndex": 9758
+  },
+  {
     "id": "109782",
     "category": "house",
     "level": "hard",
@@ -4202,6 +5375,23 @@ const phrasesHouse = [
       "19782"
     ],
     "sourceIndex": 9782
+  },
+  {
+    "id": "109826",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The flowers are in the vase."
+      },
+      "de": {
+        "text": "Die Blumen stehen in der Vase."
+      }
+    },
+    "wordIds": [
+      "19826"
+    ],
+    "sourceIndex": 9826
   },
   {
     "id": "109832",
@@ -4289,6 +5479,23 @@ const phrasesHouse = [
     "sourceIndex": 9987
   },
   {
+    "id": "110062",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The long corridor led to the offices."
+      },
+      "de": {
+        "text": "Der lange Korridor führte zu den Büros."
+      }
+    },
+    "wordIds": [
+      "20062"
+    ],
+    "sourceIndex": 10062
+  },
+  {
     "id": "110102",
     "category": "house",
     "level": "hard",
@@ -4321,6 +5528,23 @@ const phrasesHouse = [
       "20138"
     ],
     "sourceIndex": 10138
+  },
+  {
+    "id": "110151",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The start of construction is planned for next month."
+      },
+      "de": {
+        "text": "Der Baubeginn ist für nächsten Monat geplant."
+      }
+    },
+    "wordIds": [
+      "20151"
+    ],
+    "sourceIndex": 10151
   },
   {
     "id": "110259",
@@ -4510,6 +5734,23 @@ const phrasesHouse = [
     "sourceIndex": 10739
   },
   {
+    "id": "110772",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My grandmother lives in a nursing home."
+      },
+      "de": {
+        "text": "Meine Großmutter lebt in einem Altenheim."
+      }
+    },
+    "wordIds": [
+      "20772"
+    ],
+    "sourceIndex": 10772
+  },
+  {
     "id": "110801",
     "category": "house",
     "level": "hard",
@@ -4595,6 +5836,23 @@ const phrasesHouse = [
     "sourceIndex": 10980
   },
   {
+    "id": "111030",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please note the shelf life date."
+      },
+      "de": {
+        "text": "Bitte beachten Sie das Datum der Haltbarkeit."
+      }
+    },
+    "wordIds": [
+      "21030"
+    ],
+    "sourceIndex": 11030
+  },
+  {
     "id": "111032",
     "category": "house",
     "level": "medium",
@@ -4644,6 +5902,40 @@ const phrasesHouse = [
       "21196"
     ],
     "sourceIndex": 11196
+  },
+  {
+    "id": "111271",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She watches her favorite soap opera every evening."
+      },
+      "de": {
+        "text": "Sie schaut jeden Abend ihre Lieblings-Soap."
+      }
+    },
+    "wordIds": [
+      "21271"
+    ],
+    "sourceIndex": 11271
+  },
+  {
+    "id": "111286",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We have our office in the basement."
+      },
+      "de": {
+        "text": "Wir haben unser Büro im Untergeschoss."
+      }
+    },
+    "wordIds": [
+      "21286"
+    ],
+    "sourceIndex": 11286
   },
   {
     "id": "111331",
@@ -4782,6 +6074,40 @@ const phrasesHouse = [
     "sourceIndex": 11632
   },
   {
+    "id": "111797",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He has to shovel the snow off the path."
+      },
+      "de": {
+        "text": "Er muss den Schnee vom Weg schaufeln."
+      }
+    },
+    "wordIds": [
+      "21797"
+    ],
+    "sourceIndex": 11797
+  },
+  {
+    "id": "111799",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Smoke rises from the chimney."
+      },
+      "de": {
+        "text": "Rauch steigt aus dem Schornstein auf."
+      }
+    },
+    "wordIds": [
+      "21799"
+    ],
+    "sourceIndex": 11799
+  },
+  {
     "id": "111841",
     "category": "house",
     "level": "hard",
@@ -4831,6 +6157,23 @@ const phrasesHouse = [
       "22006"
     ],
     "sourceIndex": 12006
+  },
+  {
+    "id": "112020",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Despite the difficulties, one must continue living."
+      },
+      "de": {
+        "text": "Trotz der Schwierigkeiten muss man weiterleben."
+      }
+    },
+    "wordIds": [
+      "22020"
+    ],
+    "sourceIndex": 12020
   },
   {
     "id": "112041",
@@ -4899,6 +6242,23 @@ const phrasesHouse = [
       "22166"
     ],
     "sourceIndex": 12166
+  },
+  {
+    "id": "112210",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We waited a long time in the doctor's waiting room."
+      },
+      "de": {
+        "text": "Wir warteten lange im Wartezimmer des Arztes."
+      }
+    },
+    "wordIds": [
+      "22210"
+    ],
+    "sourceIndex": 12210
   },
   {
     "id": "112216",
@@ -4986,6 +6346,40 @@ const phrasesHouse = [
     "sourceIndex": 12551
   },
   {
+    "id": "112559",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The cover image of the book is very appealing."
+      },
+      "de": {
+        "text": "Das Titelbild des Buches ist sehr ansprechend."
+      }
+    },
+    "wordIds": [
+      "22559"
+    ],
+    "sourceIndex": 12559
+  },
+  {
+    "id": "112663",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The house construction took one year."
+      },
+      "de": {
+        "text": "Der Hausbau dauerte ein Jahr."
+      }
+    },
+    "wordIds": [
+      "22663"
+    ],
+    "sourceIndex": 12663
+  },
+  {
     "id": "112733",
     "category": "house",
     "level": "hard",
@@ -5018,6 +6412,40 @@ const phrasesHouse = [
       "22764"
     ],
     "sourceIndex": 12764
+  },
+  {
+    "id": "112789",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "They rented a small apartment in the city."
+      },
+      "de": {
+        "text": "Sie mieteten ein kleines Appartement in der Stadt."
+      }
+    },
+    "wordIds": [
+      "22789"
+    ],
+    "sourceIndex": 12789
+  },
+  {
+    "id": "112833",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I have a flat rate for my mobile phone."
+      },
+      "de": {
+        "text": "Ich habe eine Flatrate für mein Handy."
+      }
+    },
+    "wordIds": [
+      "22833"
+    ],
+    "sourceIndex": 12833
   },
   {
     "id": "112883",
@@ -5088,6 +6516,23 @@ const phrasesHouse = [
     "sourceIndex": 12940
   },
   {
+    "id": "112953",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The front garden is full of flowers."
+      },
+      "de": {
+        "text": "Der Vorgarten ist voller Blumen."
+      }
+    },
+    "wordIds": [
+      "22953"
+    ],
+    "sourceIndex": 12953
+  },
+  {
     "id": "112957",
     "category": "house",
     "level": "medium",
@@ -5154,6 +6599,23 @@ const phrasesHouse = [
       "23242"
     ],
     "sourceIndex": 13242
+  },
+  {
+    "id": "113257",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The clothes are in the chest of drawers."
+      },
+      "de": {
+        "text": "Die Kleidung liegt in der Kommode."
+      }
+    },
+    "wordIds": [
+      "23257"
+    ],
+    "sourceIndex": 13257
   },
   {
     "id": "113258",
@@ -5309,6 +6771,40 @@ const phrasesHouse = [
     "sourceIndex": 13480
   },
   {
+    "id": "113654",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The main building of the university is very old."
+      },
+      "de": {
+        "text": "Das Hauptgebäude der Universität ist sehr alt."
+      }
+    },
+    "wordIds": [
+      "23654"
+    ],
+    "sourceIndex": 13654
+  },
+  {
+    "id": "113656",
+    "category": "house",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The sky is light blue today."
+      },
+      "de": {
+        "text": "Der Himmel ist heute hellblau."
+      }
+    },
+    "wordIds": [
+      "23656"
+    ],
+    "sourceIndex": 13656
+  },
+  {
     "id": "113694",
     "category": "house",
     "level": "easy",
@@ -5462,6 +6958,40 @@ const phrasesHouse = [
     "sourceIndex": 14030
   },
   {
+    "id": "114045",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Please close the front door when you leave."
+      },
+      "de": {
+        "text": "Bitte schließe die Haustüre, wenn du gehst."
+      }
+    },
+    "wordIds": [
+      "24045"
+    ],
+    "sourceIndex": 14045
+  },
+  {
+    "id": "114049",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The carpenter hammered nails into the wood."
+      },
+      "de": {
+        "text": "Der Zimmermann hämmerte Nägel in das Holz."
+      }
+    },
+    "wordIds": [
+      "24049"
+    ],
+    "sourceIndex": 14049
+  },
+  {
     "id": "114052",
     "category": "house",
     "level": "hard",
@@ -5494,6 +7024,23 @@ const phrasesHouse = [
       "24072"
     ],
     "sourceIndex": 14072
+  },
+  {
+    "id": "114099",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The teacher stood at the desk."
+      },
+      "de": {
+        "text": "Der Lehrer stand am Pult."
+      }
+    },
+    "wordIds": [
+      "24099"
+    ],
+    "sourceIndex": 14099
   },
   {
     "id": "114131",
@@ -5649,6 +7196,23 @@ const phrasesHouse = [
     "sourceIndex": 14584
   },
   {
+    "id": "114608",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We have dinner in the dining room."
+      },
+      "de": {
+        "text": "Wir essen im Esszimmer zu Abend."
+      }
+    },
+    "wordIds": [
+      "24608"
+    ],
+    "sourceIndex": 14608
+  },
+  {
     "id": "114639",
     "category": "house",
     "level": "hard",
@@ -5717,6 +7281,23 @@ const phrasesHouse = [
     "sourceIndex": 14756
   },
   {
+    "id": "114904",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She changed her profile picture on social media."
+      },
+      "de": {
+        "text": "Sie änderte ihr Profilbild auf Social Media."
+      }
+    },
+    "wordIds": [
+      "24904"
+    ],
+    "sourceIndex": 14904
+  },
+  {
     "id": "114976",
     "category": "house",
     "level": "hard",
@@ -5751,6 +7332,23 @@ const phrasesHouse = [
     "sourceIndex": 15059
   },
   {
+    "id": "115084",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We often eat at the kitchen table."
+      },
+      "de": {
+        "text": "Wir essen oft am Küchentisch."
+      }
+    },
+    "wordIds": [
+      "25084"
+    ],
+    "sourceIndex": 15084
+  },
+  {
     "id": "115199",
     "category": "house",
     "level": "medium",
@@ -5766,6 +7364,23 @@ const phrasesHouse = [
       "25199"
     ],
     "sourceIndex": 15199
+  },
+  {
+    "id": "115208",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Can you please turn up the radio?"
+      },
+      "de": {
+        "text": "Kannst du bitte das Radio aufdrehen?"
+      }
+    },
+    "wordIds": [
+      "25208"
+    ],
+    "sourceIndex": 15208
   },
   {
     "id": "115237",
@@ -5972,6 +7587,23 @@ const phrasesHouse = [
     "sourceIndex": 15954
   },
   {
+    "id": "116011",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Press Ctrl + C to copy."
+      },
+      "de": {
+        "text": "Drücken Sie Strg + C zum Kopieren."
+      }
+    },
+    "wordIds": [
+      "26011"
+    ],
+    "sourceIndex": 16011
+  },
+  {
     "id": "116167",
     "category": "house",
     "level": "hard",
@@ -6038,6 +7670,40 @@ const phrasesHouse = [
       "26216"
     ],
     "sourceIndex": 16216
+  },
+  {
+    "id": "116226",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He took the shovel to clear away the snow."
+      },
+      "de": {
+        "text": "Er nahm die Schippe, um den Schnee wegzuschaufeln."
+      }
+    },
+    "wordIds": [
+      "26226"
+    ],
+    "sourceIndex": 16226
+  },
+  {
+    "id": "116261",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The changing room was very full after the game."
+      },
+      "de": {
+        "text": "Die Umkleide war nach dem Spiel sehr voll."
+      }
+    },
+    "wordIds": [
+      "26261"
+    ],
+    "sourceIndex": 16261
   },
   {
     "id": "116339",
@@ -6176,6 +7842,23 @@ const phrasesHouse = [
     "sourceIndex": 16623
   },
   {
+    "id": "116649",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "She has light brown hair."
+      },
+      "de": {
+        "text": "Sie hat hellbraune Haare."
+      }
+    },
+    "wordIds": [
+      "26649"
+    ],
+    "sourceIndex": 16649
+  },
+  {
     "id": "116745",
     "category": "house",
     "level": "hard",
@@ -6208,6 +7891,40 @@ const phrasesHouse = [
       "26895"
     ],
     "sourceIndex": 16895
+  },
+  {
+    "id": "116908",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Fill the bucket with water."
+      },
+      "de": {
+        "text": "Fülle den Kübel mit Wasser."
+      }
+    },
+    "wordIds": [
+      "26908"
+    ],
+    "sourceIndex": 16908
+  },
+  {
+    "id": "116990",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We sat on the bench in the park."
+      },
+      "de": {
+        "text": "Wir saßen auf der Sitzbank im Park."
+      }
+    },
+    "wordIds": [
+      "26990"
+    ],
+    "sourceIndex": 16990
   },
   {
     "id": "117050",
@@ -6448,6 +8165,23 @@ const phrasesHouse = [
     "sourceIndex": 17736
   },
   {
+    "id": "117768",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I need a rake to collect the leaves."
+      },
+      "de": {
+        "text": "Ich brauche einen Rechen, um die Blätter zu sammeln."
+      }
+    },
+    "wordIds": [
+      "27768"
+    ],
+    "sourceIndex": 17768
+  },
+  {
     "id": "117930",
     "category": "house",
     "level": "hard",
@@ -6516,6 +8250,23 @@ const phrasesHouse = [
     "sourceIndex": 18249
   },
   {
+    "id": "118259",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Going to bed is often a challenge for children."
+      },
+      "de": {
+        "text": "Das Schlafengehen ist für Kinder oft eine Herausforderung."
+      }
+    },
+    "wordIds": [
+      "28259"
+    ],
+    "sourceIndex": 18259
+  },
+  {
     "id": "118294",
     "category": "house",
     "level": "hard",
@@ -6533,6 +8284,23 @@ const phrasesHouse = [
     "sourceIndex": 18294
   },
   {
+    "id": "118334",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I live in a shared flat with three other students."
+      },
+      "de": {
+        "text": "Ich lebe in einer Wohngemeinschaft mit drei anderen Studenten."
+      }
+    },
+    "wordIds": [
+      "28334"
+    ],
+    "sourceIndex": 18334
+  },
+  {
     "id": "118337",
     "category": "house",
     "level": "hard",
@@ -6548,6 +8316,23 @@ const phrasesHouse = [
       "28337"
     ],
     "sourceIndex": 18337
+  },
+  {
+    "id": "118342",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please cover the baby well."
+      },
+      "de": {
+        "text": "Bitte deck das Baby gut zu."
+      }
+    },
+    "wordIds": [
+      "28342"
+    ],
+    "sourceIndex": 18342
   },
   {
     "id": "118355",
@@ -6669,6 +8454,23 @@ const phrasesHouse = [
     "sourceIndex": 18645
   },
   {
+    "id": "118651",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The baby sleeps peacefully in its little bed."
+      },
+      "de": {
+        "text": "Das Baby schläft friedlich in seinem Bettchen."
+      }
+    },
+    "wordIds": [
+      "28651"
+    ],
+    "sourceIndex": 18651
+  },
+  {
     "id": "118892",
     "category": "house",
     "level": "hard",
@@ -6703,6 +8505,57 @@ const phrasesHouse = [
     "sourceIndex": 18940
   },
   {
+    "id": "118946",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please empty the trash can."
+      },
+      "de": {
+        "text": "Bitte entleeren Sie den Mülleimer."
+      }
+    },
+    "wordIds": [
+      "28946"
+    ],
+    "sourceIndex": 18946
+  },
+  {
+    "id": "118953",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Many old towns have beautiful half-timbered houses."
+      },
+      "de": {
+        "text": "Viele alte Städte haben schöne Fachwerkhäuser."
+      }
+    },
+    "wordIds": [
+      "28953"
+    ],
+    "sourceIndex": 18953
+  },
+  {
+    "id": "118995",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The radiator is warm."
+      },
+      "de": {
+        "text": "Der Heizkörper ist warm."
+      }
+    },
+    "wordIds": [
+      "28995"
+    ],
+    "sourceIndex": 18995
+  },
+  {
     "id": "119036",
     "category": "house",
     "level": "medium",
@@ -6718,6 +8571,23 @@ const phrasesHouse = [
       "29036"
     ],
     "sourceIndex": 19036
+  },
+  {
+    "id": "119233",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please set the table for dinner."
+      },
+      "de": {
+        "text": "Bitte deck den Tisch für das Abendessen ein."
+      }
+    },
+    "wordIds": [
+      "29233"
+    ],
+    "sourceIndex": 19233
   },
   {
     "id": "119253",
@@ -6822,6 +8692,23 @@ const phrasesHouse = [
     "sourceIndex": 19370
   },
   {
+    "id": "119375",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The car stopped at the red light."
+      },
+      "de": {
+        "text": "Das Auto hielt am Rotlicht an."
+      }
+    },
+    "wordIds": [
+      "29375"
+    ],
+    "sourceIndex": 19375
+  },
+  {
     "id": "119390",
     "category": "house",
     "level": "hard",
@@ -6856,6 +8743,23 @@ const phrasesHouse = [
     "sourceIndex": 19391
   },
   {
+    "id": "119473",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He had to cover his ears because it was so loud."
+      },
+      "de": {
+        "text": "Er musste sich die Ohren zuhalten, weil es so laut war."
+      }
+    },
+    "wordIds": [
+      "29473"
+    ],
+    "sourceIndex": 19473
+  },
+  {
     "id": "119475",
     "category": "house",
     "level": "hard",
@@ -6871,6 +8775,23 @@ const phrasesHouse = [
       "29475"
     ],
     "sourceIndex": 19475
+  },
+  {
+    "id": "119476",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Can you please clear the table?"
+      },
+      "de": {
+        "text": "Kannst du bitte den Tisch abräumen?"
+      }
+    },
+    "wordIds": [
+      "29476"
+    ],
+    "sourceIndex": 19476
   },
   {
     "id": "119509",
@@ -6941,6 +8862,23 @@ const phrasesHouse = [
     "sourceIndex": 19600
   },
   {
+    "id": "119653",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "They live in a terraced house on the outskirts of the city."
+      },
+      "de": {
+        "text": "Sie wohnen in einem Reihenhaus am Stadtrand."
+      }
+    },
+    "wordIds": [
+      "29653"
+    ],
+    "sourceIndex": 19653
+  },
+  {
     "id": "119710",
     "category": "house",
     "level": "hard",
@@ -6958,6 +8896,23 @@ const phrasesHouse = [
     "sourceIndex": 19710
   },
   {
+    "id": "119768",
+    "category": "house",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Who is doing the washing up today?"
+      },
+      "de": {
+        "text": "Wer macht heute den Abwasch?"
+      }
+    },
+    "wordIds": [
+      "29768"
+    ],
+    "sourceIndex": 19768
+  },
+  {
     "id": "119787",
     "category": "house",
     "level": "hard",
@@ -6973,6 +8928,40 @@ const phrasesHouse = [
       "29787"
     ],
     "sourceIndex": 19787
+  },
+  {
+    "id": "119849",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She loves to garden in the summer."
+      },
+      "de": {
+        "text": "Sie liebt es, im Sommer zu gärtnern."
+      }
+    },
+    "wordIds": [
+      "29849"
+    ],
+    "sourceIndex": 19849
+  },
+  {
+    "id": "120049",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Many people dream of home ownership."
+      },
+      "de": {
+        "text": "Viele Menschen träumen vom Wohneigentum."
+      }
+    },
+    "wordIds": [
+      "30049"
+    ],
+    "sourceIndex": 20049
   },
   {
     "id": "120050",
@@ -7026,6 +9015,23 @@ const phrasesHouse = [
     "sourceIndex": 20147
   },
   {
+    "id": "120159",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please observe the house rules."
+      },
+      "de": {
+        "text": "Bitte beachten Sie die Hausordnung."
+      }
+    },
+    "wordIds": [
+      "30159"
+    ],
+    "sourceIndex": 20159
+  },
+  {
     "id": "120167",
     "category": "house",
     "level": "hard",
@@ -7041,6 +9047,23 @@ const phrasesHouse = [
       "30167"
     ],
     "sourceIndex": 20167
+  },
+  {
+    "id": "120213",
+    "category": "house",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The adjoining room is reserved for guests."
+      },
+      "de": {
+        "text": "Das Nebenzimmer ist für Gäste reserviert."
+      }
+    },
+    "wordIds": [
+      "30213"
+    ],
+    "sourceIndex": 20213
   },
   {
     "id": "120278",

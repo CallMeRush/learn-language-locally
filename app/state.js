@@ -1,14 +1,24 @@
+var defaultPreferences = () => ({
+  vocabLevels: ["A1", "A2", "B1"],
+  selectedCategory: "all",
+  phraseCategory: "all",
+  vocabMode: "translate",
+  phraseMode: "translate",
+  randomMode: true,
+  phraseRandom: true,
+  hideVocabularyAnswers: true,
+  grammarGrid: false,
+});
 var emptyProgress = () => ({
   learned: [],
   issues: [],
   phrases: [],
   correct: 0,
   attempts: 0,
-  streak: 0,
-  lastStudy: null,
   lessons: [],
   lessonHistory: {},
   lessonSession: null,
+  preferences: defaultPreferences(),
 });
 // A new corpus must not interpret old IDs as learned words or completed lessons.
 // Previous progress remains stored under its own key, but is not loaded here.
@@ -28,14 +38,30 @@ function normalizeProgress(progress) {
   ["learned", "issues", "phrases", "lessons"].forEach((key) => {
     value[key] = Array.isArray(value[key]) ? [...new Set(value[key].filter((id) => typeof id === "string"))] : [];
   });
-  ["correct", "attempts", "streak"].forEach((key) => {
+  ["correct", "attempts"].forEach((key) => {
     value[key] = Number.isFinite(value[key]) && value[key] >= 0 ? value[key] : 0;
   });
-  value.lastStudy = typeof value.lastStudy === "string" ? value.lastStudy : null;
+  delete value.streak;
+  delete value.lastStudy;
   value.lessonHistory = value.lessonHistory && typeof value.lessonHistory === "object" && !Array.isArray(value.lessonHistory)
     ? Object.fromEntries(Object.entries(value.lessonHistory).filter(([, record]) => record && typeof record === "object" && typeof record.completedAt === "string"))
     : {};
   value.lessonSession = value.lessonSession && typeof value.lessonSession === "object" ? value.lessonSession : null;
+  var preferences = { ...defaultPreferences(), ...(value.preferences && typeof value.preferences === "object" ? value.preferences : {}) };
+  var legacyLevel = preferences.vocabLevel;
+  preferences.vocabLevels = Array.isArray(preferences.vocabLevels)
+    ? preferences.vocabLevels.filter(level => ["A1", "A2", "B1"].includes(level))
+    : ["A1", "A2", "B1"].includes(legacyLevel) ? [legacyLevel] : ["A1", "A2", "B1"];
+  preferences.vocabLevels = [...new Set(preferences.vocabLevels)];
+  if (!preferences.vocabLevels.length) preferences.vocabLevels = ["A1", "A2", "B1"];
+  delete preferences.vocabLevel;
+  if (!["meaning", "translate", "choice"].includes(preferences.vocabMode)) preferences.vocabMode = "translate";
+  if (!["translate", "reverse", "cloze", "choice"].includes(preferences.phraseMode)) preferences.phraseMode = "translate";
+  ["randomMode", "phraseRandom", "hideVocabularyAnswers", "grammarGrid"].forEach(key => preferences[key] = Boolean(preferences[key]));
+  ["selectedCategory", "phraseCategory"].forEach(key => preferences[key] = typeof preferences[key] === "string" ? preferences[key] : defaultPreferences()[key]);
+  if (!categoryRecords.some(record => record.id === preferences.selectedCategory)) preferences.selectedCategory = "all";
+  if (preferences.phraseCategory !== "all" && !contentManifest.phrases[preferences.phraseCategory]) preferences.phraseCategory = "all";
+  value.preferences = preferences;
   return value;
 }
 function loadProgress() {
@@ -61,6 +87,20 @@ function resolveIssue(id) {
   state.issues = state.issues.filter((issue) => issue !== id);
 }
 var state = loadProgress();
+function savePreferences() {
+  state.preferences = normalizeProgress({ preferences: {
+    vocabLevels: selectedLevels,
+    selectedCategory,
+    phraseCategory,
+    vocabMode,
+    phraseMode,
+    randomMode,
+    phraseRandom,
+    hideVocabularyAnswers,
+    grammarGrid,
+  } }).preferences;
+  save();
+}
 var translationText = (item, language) =>
   item?.translations?.[language]?.text || "";
 var targetText = (item) => translationText(item, "de");
@@ -75,21 +115,21 @@ function updateDirectionLabels() {
   $$('[data-practice="reverse"]').forEach(b => b.textContent = 'German → English');
 }
 document.querySelector('.crumb')?.remove();
-var selectedCategory = categoryRecords.filter(record => vocab.some(word => word.category === record.id && !['verb','adjective'].includes(word.pos)))
-    .sort((a,b) => (a.studyOrder ?? 999) - (b.studyOrder ?? 999))[0]?.id || "greetings",
+var selectedCategory = state.preferences.selectedCategory,
   activeVocabWord = null,
   vocabIndex = 0,
+  selectedLevels = state.preferences.vocabLevels,
   vocabLevel = "all",
   vocabStatus = "unseen",
   phraseIndex = 0,
   phraseLevel = "all",
-  phraseCategory = "greetings",
-  phraseMode = "translate",
-  vocabMode = "translate",
+  phraseCategory = state.preferences.phraseCategory,
+  phraseMode = state.preferences.phraseMode,
+  vocabMode = state.preferences.vocabMode,
   selectedArticle = "",
   selectedVocabChoice = "",
   selectedPhraseChoice = "",
-  mixedLevel = "all",
+  mixedLevel = state.preferences.vocabLevels,
   mixedParts = {
     vocabulary: true,
     verbs: true,
@@ -107,12 +147,32 @@ var selectedCategory = categoryRecords.filter(record => vocab.some(word => word.
   lessonErrors = [],
   lessonReviewErrors = [],
   lessonComplete = false,
-  randomMode = true,
-  phraseRandom = true,
+  randomMode = state.preferences.randomMode,
+  phraseRandom = state.preferences.phraseRandom,
   vocabAnswered = false,
   vocabCorrect = false,
   phraseAnswered = false,
   phraseCorrect = false;
+var allStudyLevels = ["A1", "A2", "B1"];
+function levelSelected(level) {
+  return selectedLevels.includes(level);
+}
+function setSelectedLevels(levels) {
+  var next = Array.isArray(levels) ? levels : [levels];
+  selectedLevels = allStudyLevels.filter(level => next.includes(level));
+  if (!selectedLevels.length) selectedLevels = [...allStudyLevels];
+  vocabLevel = selectedLevels.length === allStudyLevels.length ? "all" : selectedLevels[0];
+  mixedLevel = [...selectedLevels];
+  phraseLevel = selectedLevels.length === allStudyLevels.length ? "all" : { A1: "easy", A2: "medium", B1: "hard" }[selectedLevels[0]];
+}
+function toggleStudyLevel(level) {
+  if (level === "all") return setSelectedLevels(allStudyLevels);
+  if (selectedLevels.length === allStudyLevels.length) return setSelectedLevels([level]);
+  if (selectedLevels.includes(level) && selectedLevels.length > 1)
+    return setSelectedLevels(selectedLevels.filter(item => item !== level));
+  if (!selectedLevels.includes(level)) return setSelectedLevels([...selectedLevels, level]);
+}
+setSelectedLevels(selectedLevels);
 var vocabScopedIds = new Set([
   "category-tabs",
   "word-list",
@@ -145,16 +205,15 @@ function updateVocabCheckButton() {
   button.innerHTML = vocabCorrect ? "Next word <span>→</span>" : "Check answer <span>↵</span>";
   button.onclick = vocabCorrect ? nextVocab : checkVocab;
 }
-var mainVocabularyView = document.querySelector("#vocabulary-view"),
+var mainVocabularyView = document.querySelector("#vocabulary-view");
+mainVocabularyView.querySelector(".page-heading p:last-child")?.remove();
+var
   verbsView = mainVocabularyView.cloneNode(true);
 verbsView.id = "verbs-view";
 verbsView.classList.remove("active-view");
 verbsView.querySelectorAll("[id]").forEach((element) => {
   element.id = "verbs-" + element.id;
 });
-verbsView.querySelector(".page-heading h1").textContent = "Verb vocabulary";
-verbsView.querySelector(".page-heading p:last-child").textContent =
-  "A dedicated verb desk: practice core, modal, separable, and topic-based verb families.";
 mainVocabularyView.after(verbsView);
 var adjectivesView = mainVocabularyView.cloneNode(true);
 adjectivesView.id = "adjectives-view";
@@ -162,11 +221,9 @@ adjectivesView.classList.remove("active-view");
 adjectivesView.querySelectorAll("[id]").forEach(element => {
   element.id = "adjectives-" + element.id;
 });
-adjectivesView.querySelector(".page-heading h1").textContent = "Adjectives";
-adjectivesView.querySelector(".page-heading p:last-child").textContent =
-  "Describe people, feelings and the world around you. Practise adjectives grouped by meaning.";
 verbsView.after(adjectivesView);
-var hideVocabularyAnswers = true;
+var hideVocabularyAnswers = state.preferences.hideVocabularyAnswers,
+  grammarGrid = state.preferences.grammarGrid;
 [mainVocabularyView, verbsView, adjectivesView].forEach(panel => {
   panel.querySelector(".page-heading h1").textContent = "Vocabulary";
   panel.querySelector(".page-heading").insertAdjacentHTML("afterend",
@@ -178,10 +235,13 @@ var hideVocabularyAnswers = true;
     button.onclick = () => setView(button.dataset.vocabularyKind);
   });
   panel.querySelector(".heading-actions").insertAdjacentHTML("beforeend",
-    '<label class="toggle-label hide-answer-toggle"><input type="checkbox" data-hide-vocabulary-answer checked><span class="toggle-switch"></span> Hide answer</label>');
+    '<label class="toggle-label hide-answer-toggle"><input type="checkbox" data-hide-vocabulary-answer><span class="toggle-switch"></span> Hide answer</label>');
+  panel.querySelector(".article-choices").insertAdjacentHTML("beforeend",
+    '<button type="button" class="subtle-btn article-hint-btn" data-vocab-article-hint>Article hint</button>');
   panel.querySelector("[data-hide-vocabulary-answer]").onchange = event => {
     hideVocabularyAnswers = event.target.checked;
     renderVocabularyList();
+    savePreferences();
   };
 });
 $$(".practice-panel").forEach((panel) => {

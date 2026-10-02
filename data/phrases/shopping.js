@@ -69,6 +69,23 @@ const phrasesShopping = [
     "sourceIndex": 72
   },
   {
+    "id": "100133",
+    "category": "shopping",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "That costs ten Euros."
+      },
+      "de": {
+        "text": "Das kostet zehn Euro."
+      }
+    },
+    "wordIds": [
+      "10133"
+    ],
+    "sourceIndex": 133
+  },
+  {
     "id": "100165",
     "category": "shopping",
     "level": "easy",
@@ -135,6 +152,40 @@ const phrasesShopping = [
       "10278"
     ],
     "sourceIndex": 278
+  },
+  {
+    "id": "100295",
+    "category": "shopping",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The price for the book is high."
+      },
+      "de": {
+        "text": "Der Preis für das Buch ist hoch."
+      }
+    },
+    "wordIds": [
+      "10295"
+    ],
+    "sourceIndex": 295
+  },
+  {
+    "id": "100311",
+    "category": "shopping",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I want to buy a new book."
+      },
+      "de": {
+        "text": "Ich möchte ein neues Buch kaufen."
+      }
+    },
+    "wordIds": [
+      "10311"
+    ],
+    "sourceIndex": 311
   },
   {
     "id": "100461",
@@ -222,6 +273,57 @@ const phrasesShopping = [
     "sourceIndex": 526
   },
   {
+    "id": "100543",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "He is a rich man."
+      },
+      "de": {
+        "text": "Er ist ein reicher Mann."
+      }
+    },
+    "wordIds": [
+      "10543"
+    ],
+    "sourceIndex": 543
+  },
+  {
+    "id": "100547",
+    "category": "shopping",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "We share a room."
+      },
+      "de": {
+        "text": "Wir teilen uns ein Zimmer."
+      }
+    },
+    "wordIds": [
+      "10547"
+    ],
+    "sourceIndex": 547
+  },
+  {
+    "id": "100553",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "That costs ten dollars."
+      },
+      "de": {
+        "text": "Das kostet zehn Dollar."
+      }
+    },
+    "wordIds": [
+      "10553"
+    ],
+    "sourceIndex": 553
+  },
+  {
     "id": "100583",
     "category": "shopping",
     "level": "medium",
@@ -254,6 +356,40 @@ const phrasesShopping = [
       "10592"
     ],
     "sourceIndex": 592
+  },
+  {
+    "id": "100614",
+    "category": "shopping",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "He wants to sell his old car."
+      },
+      "de": {
+        "text": "Er möchte sein altes Auto verkaufen."
+      }
+    },
+    "wordIds": [
+      "10614"
+    ],
+    "sourceIndex": 614
+  },
+  {
+    "id": "100690",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The advertising on TV is often annoying."
+      },
+      "de": {
+        "text": "Die Werbung im Fernsehen ist oft nervig."
+      }
+    },
+    "wordIds": [
+      "10690"
+    ],
+    "sourceIndex": 690
   },
   {
     "id": "100739",
@@ -341,6 +477,40 @@ const phrasesShopping = [
     "sourceIndex": 832
   },
   {
+    "id": "100845",
+    "category": "shopping",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The family is very poor."
+      },
+      "de": {
+        "text": "Die Familie ist sehr arm."
+      }
+    },
+    "wordIds": [
+      "10845"
+    ],
+    "sourceIndex": 845
+  },
+  {
+    "id": "100917",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The monthly expenses are high."
+      },
+      "de": {
+        "text": "Die monatlichen Ausgaben sind hoch."
+      }
+    },
+    "wordIds": [
+      "10917"
+    ],
+    "sourceIndex": 917
+  },
+  {
     "id": "100919",
     "category": "shopping",
     "level": "hard",
@@ -356,6 +526,23 @@ const phrasesShopping = [
       "10919"
     ],
     "sourceIndex": 919
+  },
+  {
+    "id": "100924",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The purchase of the house was a big decision."
+      },
+      "de": {
+        "text": "Der Kauf des Hauses war eine große Entscheidung."
+      }
+    },
+    "wordIds": [
+      "10924"
+    ],
+    "sourceIndex": 924
   },
   {
     "id": "100929",
@@ -407,6 +594,23 @@ const phrasesShopping = [
       "10976"
     ],
     "sourceIndex": 976
+  },
+  {
+    "id": "101057",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "International trade is growing."
+      },
+      "de": {
+        "text": "Der internationale Handel wächst."
+      }
+    },
+    "wordIds": [
+      "11057"
+    ],
+    "sourceIndex": 1057
   },
   {
     "id": "101062",
@@ -494,6 +698,57 @@ const phrasesShopping = [
     "sourceIndex": 1144
   },
   {
+    "id": "101166",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Can I have the bill, please?"
+      },
+      "de": {
+        "text": "Kann ich bitte die Rechnung haben?"
+      }
+    },
+    "wordIds": [
+      "11166"
+    ],
+    "sourceIndex": 1166
+  },
+  {
+    "id": "101173",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The sale of the tickets begins tomorrow."
+      },
+      "de": {
+        "text": "Der Verkauf der Tickets beginnt morgen."
+      }
+    },
+    "wordIds": [
+      "11173"
+    ],
+    "sourceIndex": 1173
+  },
+  {
+    "id": "101192",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He could save the child from the fire."
+      },
+      "de": {
+        "text": "Er konnte das Kind vor dem Feuer retten."
+      }
+    },
+    "wordIds": [
+      "11192"
+    ],
+    "sourceIndex": 1192
+  },
+  {
     "id": "101205",
     "category": "shopping",
     "level": "hard",
@@ -509,6 +764,23 @@ const phrasesShopping = [
       "11205"
     ],
     "sourceIndex": 1205
+  },
+  {
+    "id": "101239",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "It's worth it to get up early."
+      },
+      "de": {
+        "text": "Es lohnt sich, früh aufzustehen."
+      }
+    },
+    "wordIds": [
+      "11239"
+    ],
+    "sourceIndex": 1239
   },
   {
     "id": "101254",
@@ -528,6 +800,57 @@ const phrasesShopping = [
     "sourceIndex": 1254
   },
   {
+    "id": "101267",
+    "category": "shopping",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The car is very expensive."
+      },
+      "de": {
+        "text": "Das Auto ist sehr teuer."
+      }
+    },
+    "wordIds": [
+      "11267"
+    ],
+    "sourceIndex": 1267
+  },
+  {
+    "id": "101343",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "She wears a beautiful ring on her finger."
+      },
+      "de": {
+        "text": "Sie trägt einen schönen Ring am Finger."
+      }
+    },
+    "wordIds": [
+      "11343"
+    ],
+    "sourceIndex": 1343
+  },
+  {
+    "id": "101349",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I would like to order a coffee."
+      },
+      "de": {
+        "text": "Ich möchte einen Kaffee bestellen."
+      }
+    },
+    "wordIds": [
+      "11349"
+    ],
+    "sourceIndex": 1349
+  },
+  {
     "id": "101363",
     "category": "shopping",
     "level": "hard",
@@ -543,6 +866,23 @@ const phrasesShopping = [
       "11363"
     ],
     "sourceIndex": 1363
+  },
+  {
+    "id": "101367",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We deliver the pizza home."
+      },
+      "de": {
+        "text": "Wir liefern die Pizza nach Hause."
+      }
+    },
+    "wordIds": [
+      "11367"
+    ],
+    "sourceIndex": 1367
   },
   {
     "id": "101398",
@@ -817,6 +1157,23 @@ const phrasesShopping = [
     "sourceIndex": 1699
   },
   {
+    "id": "101811",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The company is experiencing strong growth."
+      },
+      "de": {
+        "text": "Das Unternehmen verzeichnet ein starkes Wachstum."
+      }
+    },
+    "wordIds": [
+      "11811"
+    ],
+    "sourceIndex": 1811
+  },
+  {
     "id": "101812",
     "category": "shopping",
     "level": "hard",
@@ -885,6 +1242,23 @@ const phrasesShopping = [
     "sourceIndex": 1828
   },
   {
+    "id": "101845",
+    "category": "shopping",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "Can I pay, please?"
+      },
+      "de": {
+        "text": "Kann ich bitte zahlen?"
+      }
+    },
+    "wordIds": [
+      "11845"
+    ],
+    "sourceIndex": 1845
+  },
+  {
     "id": "101855",
     "category": "shopping",
     "level": "hard",
@@ -936,6 +1310,40 @@ const phrasesShopping = [
     "sourceIndex": 1877
   },
   {
+    "id": "101899",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He will retire soon."
+      },
+      "de": {
+        "text": "Er geht bald in Rente."
+      }
+    },
+    "wordIds": [
+      "11899"
+    ],
+    "sourceIndex": 1899
+  },
+  {
+    "id": "101906",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Did you take out travel insurance?"
+      },
+      "de": {
+        "text": "Hast du eine Reiseversicherung abgeschlossen?"
+      }
+    },
+    "wordIds": [
+      "11906"
+    ],
+    "sourceIndex": 1906
+  },
+  {
     "id": "101917",
     "category": "shopping",
     "level": "easy",
@@ -951,6 +1359,23 @@ const phrasesShopping = [
       "11917"
     ],
     "sourceIndex": 1917
+  },
+  {
+    "id": "101946",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I really appreciate your help."
+      },
+      "de": {
+        "text": "Ich schätze deine Hilfe sehr."
+      }
+    },
+    "wordIds": [
+      "11946"
+    ],
+    "sourceIndex": 1946
   },
   {
     "id": "102052",
@@ -987,6 +1412,23 @@ const phrasesShopping = [
     "sourceIndex": 2060
   },
   {
+    "id": "102079",
+    "category": "shopping",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I have to go shopping today."
+      },
+      "de": {
+        "text": "Ich muss heute einkaufen gehen."
+      }
+    },
+    "wordIds": [
+      "12079"
+    ],
+    "sourceIndex": 2079
+  },
+  {
     "id": "102089",
     "category": "shopping",
     "level": "hard",
@@ -1019,6 +1461,23 @@ const phrasesShopping = [
       "12107"
     ],
     "sourceIndex": 2107
+  },
+  {
+    "id": "102122",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The financial situation of the company is stable."
+      },
+      "de": {
+        "text": "Die finanzielle Lage des Unternehmens ist stabil."
+      }
+    },
+    "wordIds": [
+      "12122"
+    ],
+    "sourceIndex": 2122
   },
   {
     "id": "102149",
@@ -1055,6 +1514,23 @@ const phrasesShopping = [
     "sourceIndex": 2184
   },
   {
+    "id": "102199",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "They want to invest in renewable energies."
+      },
+      "de": {
+        "text": "Sie wollen in erneuerbare Energien investieren."
+      }
+    },
+    "wordIds": [
+      "12199"
+    ],
+    "sourceIndex": 2199
+  },
+  {
     "id": "102208",
     "category": "shopping",
     "level": "easy",
@@ -1087,6 +1563,23 @@ const phrasesShopping = [
       "12232"
     ],
     "sourceIndex": 2232
+  },
+  {
+    "id": "102242",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We have to finance the project."
+      },
+      "de": {
+        "text": "Wir müssen das Projekt finanzieren."
+      }
+    },
+    "wordIds": [
+      "12242"
+    ],
+    "sourceIndex": 2242
   },
   {
     "id": "102267",
@@ -1123,6 +1616,40 @@ const phrasesShopping = [
     "sourceIndex": 2281
   },
   {
+    "id": "102285",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Please go to the cash register."
+      },
+      "de": {
+        "text": "Bitte gehen Sie zur Kasse."
+      }
+    },
+    "wordIds": [
+      "12285"
+    ],
+    "sourceIndex": 2285
+  },
+  {
+    "id": "102309",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The goods will be delivered tomorrow."
+      },
+      "de": {
+        "text": "Die Ware wird morgen geliefert."
+      }
+    },
+    "wordIds": [
+      "12309"
+    ],
+    "sourceIndex": 2309
+  },
+  {
     "id": "102345",
     "category": "shopping",
     "level": "hard",
@@ -1138,6 +1665,23 @@ const phrasesShopping = [
       "12345"
     ],
     "sourceIndex": 2345
+  },
+  {
+    "id": "102348",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "That is a cheap car."
+      },
+      "de": {
+        "text": "Das ist ein billiges Auto."
+      }
+    },
+    "wordIds": [
+      "12348"
+    ],
+    "sourceIndex": 2348
   },
   {
     "id": "102413",
@@ -1172,6 +1716,23 @@ const phrasesShopping = [
       "12439"
     ],
     "sourceIndex": 2439
+  },
+  {
+    "id": "102441",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The fee for registration is ten euros."
+      },
+      "de": {
+        "text": "Die Gebühr für die Anmeldung beträgt zehn Euro."
+      }
+    },
+    "wordIds": [
+      "12441"
+    ],
+    "sourceIndex": 2441
   },
   {
     "id": "102514",
@@ -1225,6 +1786,23 @@ const phrasesShopping = [
     "sourceIndex": 2605
   },
   {
+    "id": "102716",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Consumers demand better products."
+      },
+      "de": {
+        "text": "Die Verbraucher fordern bessere Produkte."
+      }
+    },
+    "wordIds": [
+      "12716"
+    ],
+    "sourceIndex": 2716
+  },
+  {
     "id": "102721",
     "category": "shopping",
     "level": "hard",
@@ -1240,6 +1818,23 @@ const phrasesShopping = [
       "12721"
     ],
     "sourceIndex": 2721
+  },
+  {
+    "id": "102738",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "This object is very old."
+      },
+      "de": {
+        "text": "Dieser Gegenstand ist sehr alt."
+      }
+    },
+    "wordIds": [
+      "12738"
+    ],
+    "sourceIndex": 2738
   },
   {
     "id": "102747",
@@ -1344,6 +1939,40 @@ const phrasesShopping = [
     "sourceIndex": 2986
   },
   {
+    "id": "103004",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The delivery arrives tomorrow."
+      },
+      "de": {
+        "text": "Die Lieferung kommt morgen an."
+      }
+    },
+    "wordIds": [
+      "13004"
+    ],
+    "sourceIndex": 3004
+  },
+  {
+    "id": "103010",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The installation went smoothly."
+      },
+      "de": {
+        "text": "Die Installation verlief problemlos."
+      }
+    },
+    "wordIds": [
+      "13010"
+    ],
+    "sourceIndex": 3010
+  },
+  {
     "id": "103090",
     "category": "shopping",
     "level": "medium",
@@ -1361,6 +1990,23 @@ const phrasesShopping = [
     "sourceIndex": 3090
   },
   {
+    "id": "103106",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I have a voucher for the restaurant."
+      },
+      "de": {
+        "text": "Ich habe einen Gutschein für das Restaurant."
+      }
+    },
+    "wordIds": [
+      "13106"
+    ],
+    "sourceIndex": 3106
+  },
+  {
     "id": "103117",
     "category": "shopping",
     "level": "hard",
@@ -1376,6 +2022,23 @@ const phrasesShopping = [
       "13117"
     ],
     "sourceIndex": 3117
+  },
+  {
+    "id": "103154",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The payment takes place at the end of the month."
+      },
+      "de": {
+        "text": "Die Bezahlung erfolgt am Ende des Monats."
+      }
+    },
+    "wordIds": [
+      "13154"
+    ],
+    "sourceIndex": 3154
   },
   {
     "id": "103171",
@@ -1480,6 +2143,40 @@ const phrasesShopping = [
     "sourceIndex": 3261
   },
   {
+    "id": "103280",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I have placed a new order."
+      },
+      "de": {
+        "text": "Ich habe eine neue Bestellung aufgegeben."
+      }
+    },
+    "wordIds": [
+      "13280"
+    ],
+    "sourceIndex": 3280
+  },
+  {
+    "id": "103308",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Can we swap places?"
+      },
+      "de": {
+        "text": "Können wir die Plätze tauschen?"
+      }
+    },
+    "wordIds": [
+      "13308"
+    ],
+    "sourceIndex": 3308
+  },
+  {
     "id": "103369",
     "category": "shopping",
     "level": "medium",
@@ -1514,6 +2211,23 @@ const phrasesShopping = [
     "sourceIndex": 3372
   },
   {
+    "id": "103385",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "That is a very valuable painting."
+      },
+      "de": {
+        "text": "Das ist ein sehr wertvolles Gemälde."
+      }
+    },
+    "wordIds": [
+      "13385"
+    ],
+    "sourceIndex": 3385
+  },
+  {
     "id": "103429",
     "category": "shopping",
     "level": "medium",
@@ -1531,6 +2245,23 @@ const phrasesShopping = [
     "sourceIndex": 3429
   },
   {
+    "id": "103532",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The product has a two-year warranty."
+      },
+      "de": {
+        "text": "Das Produkt hat zwei Jahre Garantie."
+      }
+    },
+    "wordIds": [
+      "13532"
+    ],
+    "sourceIndex": 3532
+  },
+  {
     "id": "103556",
     "category": "shopping",
     "level": "hard",
@@ -1546,6 +2277,57 @@ const phrasesShopping = [
       "13556"
     ],
     "sourceIndex": 3556
+  },
+  {
+    "id": "103562",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The company advertises its new product."
+      },
+      "de": {
+        "text": "Die Firma wirbt für ihr neues Produkt."
+      }
+    },
+    "wordIds": [
+      "13562"
+    ],
+    "sourceIndex": 3562
+  },
+  {
+    "id": "103635",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please keep the receipt."
+      },
+      "de": {
+        "text": "Bitte bewahren Sie den Beleg auf."
+      }
+    },
+    "wordIds": [
+      "13635"
+    ],
+    "sourceIndex": 3635
+  },
+  {
+    "id": "103722",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The consumption of alcohol is forbidden here."
+      },
+      "de": {
+        "text": "Der Konsum von Alkohol ist hier verboten."
+      }
+    },
+    "wordIds": [
+      "13722"
+    ],
+    "sourceIndex": 3722
   },
   {
     "id": "103773",
@@ -1616,6 +2398,40 @@ const phrasesShopping = [
     "sourceIndex": 3874
   },
   {
+    "id": "103898",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Don't forget to save the file."
+      },
+      "de": {
+        "text": "Vergiss nicht, die Datei zu speichern."
+      }
+    },
+    "wordIds": [
+      "13898"
+    ],
+    "sourceIndex": 3898
+  },
+  {
+    "id": "104019",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I have a subscription for this magazine."
+      },
+      "de": {
+        "text": "Ich habe ein Abo für diese Zeitschrift."
+      }
+    },
+    "wordIds": [
+      "14019"
+    ],
+    "sourceIndex": 4019
+  },
+  {
     "id": "104021",
     "category": "shopping",
     "level": "hard",
@@ -1633,6 +2449,23 @@ const phrasesShopping = [
     "sourceIndex": 4021
   },
   {
+    "id": "104071",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The taxpayers finance the state."
+      },
+      "de": {
+        "text": "Die Steuerzahler finanzieren den Staat."
+      }
+    },
+    "wordIds": [
+      "14071"
+    ],
+    "sourceIndex": 4071
+  },
+  {
     "id": "104202",
     "category": "shopping",
     "level": "hard",
@@ -1648,6 +2481,23 @@ const phrasesShopping = [
       "14202"
     ],
     "sourceIndex": 4202
+  },
+  {
+    "id": "104241",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The bill is due next week."
+      },
+      "de": {
+        "text": "Die Rechnung ist nächste Woche fällig."
+      }
+    },
+    "wordIds": [
+      "14241"
+    ],
+    "sourceIndex": 4241
   },
   {
     "id": "104267",
@@ -1752,6 +2602,23 @@ const phrasesShopping = [
     "sourceIndex": 4375
   },
   {
+    "id": "104434",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We consume a lot of energy."
+      },
+      "de": {
+        "text": "Wir verbrauchen viel Energie."
+      }
+    },
+    "wordIds": [
+      "14434"
+    ],
+    "sourceIndex": 4434
+  },
+  {
     "id": "104451",
     "category": "shopping",
     "level": "hard",
@@ -1803,6 +2670,23 @@ const phrasesShopping = [
     "sourceIndex": 4496
   },
   {
+    "id": "104580",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The handover of the documents took place on time."
+      },
+      "de": {
+        "text": "Die Übergabe der Dokumente erfolgte pünktlich."
+      }
+    },
+    "wordIds": [
+      "14580"
+    ],
+    "sourceIndex": 4580
+  },
+  {
     "id": "104685",
     "category": "shopping",
     "level": "medium",
@@ -1835,6 +2719,23 @@ const phrasesShopping = [
       "14701"
     ],
     "sourceIndex": 4701
+  },
+  {
+    "id": "104729",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "It is important to find a good balance between work and leisure."
+      },
+      "de": {
+        "text": "Es ist wichtig, eine gute Balance zwischen Arbeit und Freizeit zu finden."
+      }
+    },
+    "wordIds": [
+      "14729"
+    ],
+    "sourceIndex": 4729
   },
   {
     "id": "104801",
@@ -1871,6 +2772,24 @@ const phrasesShopping = [
     "sourceIndex": 4804
   },
   {
+    "id": "104820",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please keep the receipt."
+      },
+      "de": {
+        "text": "Bitte bewahren Sie die Quittung auf."
+      }
+    },
+    "wordIds": [
+      "14820",
+      "19489"
+    ],
+    "sourceIndex": 4820
+  },
+  {
     "id": "104831",
     "category": "shopping",
     "level": "hard",
@@ -1888,6 +2807,40 @@ const phrasesShopping = [
     "sourceIndex": 4831
   },
   {
+    "id": "104879",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We are going shopping on the weekend."
+      },
+      "de": {
+        "text": "Wir gehen am Wochenende zum Shopping."
+      }
+    },
+    "wordIds": [
+      "14879"
+    ],
+    "sourceIndex": 4879
+  },
+  {
+    "id": "104888",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Can I have a bag, please?"
+      },
+      "de": {
+        "text": "Kann ich bitte eine Tüte haben?"
+      }
+    },
+    "wordIds": [
+      "14888"
+    ],
+    "sourceIndex": 4888
+  },
+  {
     "id": "104932",
     "category": "shopping",
     "level": "hard",
@@ -1903,6 +2856,23 @@ const phrasesShopping = [
       "14932"
     ],
     "sourceIndex": 4932
+  },
+  {
+    "id": "105013",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The waiter collects the money."
+      },
+      "de": {
+        "text": "Der Kellner kassiert das Geld."
+      }
+    },
+    "wordIds": [
+      "15013"
+    ],
+    "sourceIndex": 5013
   },
   {
     "id": "105235",
@@ -1937,6 +2907,40 @@ const phrasesShopping = [
       "15319"
     ],
     "sourceIndex": 5319
+  },
+  {
+    "id": "105411",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I need a stamp for the letter."
+      },
+      "de": {
+        "text": "Ich brauche einen Stempel für den Brief."
+      }
+    },
+    "wordIds": [
+      "15411"
+    ],
+    "sourceIndex": 5411
+  },
+  {
+    "id": "105436",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I have a small bag for my groceries with me."
+      },
+      "de": {
+        "text": "Ich habe einen kleinen Beutel für meine Einkäufe dabei."
+      }
+    },
+    "wordIds": [
+      "15436"
+    ],
+    "sourceIndex": 5436
   },
   {
     "id": "105437",
@@ -1988,6 +2992,57 @@ const phrasesShopping = [
       "15552"
     ],
     "sourceIndex": 5552
+  },
+  {
+    "id": "105592",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I checked my weight on the scales."
+      },
+      "de": {
+        "text": "Ich habe mein Gewicht auf der Waage überprüft."
+      }
+    },
+    "wordIds": [
+      "15592"
+    ],
+    "sourceIndex": 5592
+  },
+  {
+    "id": "105700",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please keep the receipt."
+      },
+      "de": {
+        "text": "Bitte bewahren Sie den Bon auf."
+      }
+    },
+    "wordIds": [
+      "15700"
+    ],
+    "sourceIndex": 5700
+  },
+  {
+    "id": "105739",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Can you lend me your book?"
+      },
+      "de": {
+        "text": "Kannst du mir dein Buch leihen?"
+      }
+    },
+    "wordIds": [
+      "15739"
+    ],
+    "sourceIndex": 5739
   },
   {
     "id": "105762",
@@ -2075,6 +3130,23 @@ const phrasesShopping = [
     "sourceIndex": 6009
   },
   {
+    "id": "106027",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I lost my wallet."
+      },
+      "de": {
+        "text": "Ich habe meinen Geldbeutel verloren."
+      }
+    },
+    "wordIds": [
+      "16027"
+    ],
+    "sourceIndex": 6027
+  },
+  {
     "id": "106220",
     "category": "shopping",
     "level": "hard",
@@ -2126,6 +3198,40 @@ const phrasesShopping = [
     "sourceIndex": 6233
   },
   {
+    "id": "106251",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We are going shopping on the weekend."
+      },
+      "de": {
+        "text": "Wir gehen am Wochenende shoppen."
+      }
+    },
+    "wordIds": [
+      "16251"
+    ],
+    "sourceIndex": 6251
+  },
+  {
+    "id": "106353",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The old town is very worth seeing."
+      },
+      "de": {
+        "text": "Die Altstadt ist sehr sehenswert."
+      }
+    },
+    "wordIds": [
+      "16353"
+    ],
+    "sourceIndex": 6353
+  },
+  {
     "id": "106558",
     "category": "shopping",
     "level": "hard",
@@ -2141,6 +3247,23 @@ const phrasesShopping = [
       "16558"
     ],
     "sourceIndex": 6558
+  },
+  {
+    "id": "106597",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The new subscriber ordered the magazine."
+      },
+      "de": {
+        "text": "Der neue Abonnent hat die Zeitschrift bestellt."
+      }
+    },
+    "wordIds": [
+      "16597"
+    ],
+    "sourceIndex": 6597
   },
   {
     "id": "106605",
@@ -2211,6 +3334,23 @@ const phrasesShopping = [
     "sourceIndex": 6749
   },
   {
+    "id": "106768",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The sale starts next week."
+      },
+      "de": {
+        "text": "Der Sale beginnt nächste Woche."
+      }
+    },
+    "wordIds": [
+      "16768"
+    ],
+    "sourceIndex": 6768
+  },
+  {
     "id": "106796",
     "category": "shopping",
     "level": "hard",
@@ -2262,6 +3402,23 @@ const phrasesShopping = [
     "sourceIndex": 6870
   },
   {
+    "id": "106874",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We have a large supply of food."
+      },
+      "de": {
+        "text": "Wir haben einen großen Vorrat an Lebensmitteln."
+      }
+    },
+    "wordIds": [
+      "16874"
+    ],
+    "sourceIndex": 6874
+  },
+  {
     "id": "106921",
     "category": "shopping",
     "level": "hard",
@@ -2277,6 +3434,40 @@ const phrasesShopping = [
       "16921"
     ],
     "sourceIndex": 6921
+  },
+  {
+    "id": "107013",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "This weekend I'm going to the flea market."
+      },
+      "de": {
+        "text": "Am Wochenende gehe ich auf den Flohmarkt."
+      }
+    },
+    "wordIds": [
+      "17013"
+    ],
+    "sourceIndex": 7013
+  },
+  {
+    "id": "107093",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Can you lend me your book?"
+      },
+      "de": {
+        "text": "Kannst du mir dein Buch ausleihen?"
+      }
+    },
+    "wordIds": [
+      "17093"
+    ],
+    "sourceIndex": 7093
   },
   {
     "id": "107127",
@@ -2449,6 +3640,40 @@ const phrasesShopping = [
     "sourceIndex": 7834
   },
   {
+    "id": "107923",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The company has a large deficit."
+      },
+      "de": {
+        "text": "Das Unternehmen hat ein großes Defizit."
+      }
+    },
+    "wordIds": [
+      "17923"
+    ],
+    "sourceIndex": 7923
+  },
+  {
+    "id": "107997",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She lives very thriftily."
+      },
+      "de": {
+        "text": "Sie lebt sehr sparsam."
+      }
+    },
+    "wordIds": [
+      "17997"
+    ],
+    "sourceIndex": 7997
+  },
+  {
     "id": "108037",
     "category": "shopping",
     "level": "hard",
@@ -2534,6 +3759,23 @@ const phrasesShopping = [
     "sourceIndex": 8148
   },
   {
+    "id": "108154",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I need to unpack my suitcases."
+      },
+      "de": {
+        "text": "Ich muss meine Koffer auspacken."
+      }
+    },
+    "wordIds": [
+      "18154"
+    ],
+    "sourceIndex": 8154
+  },
+  {
     "id": "108193",
     "category": "shopping",
     "level": "medium",
@@ -2549,6 +3791,40 @@ const phrasesShopping = [
       "18193"
     ],
     "sourceIndex": 8193
+  },
+  {
+    "id": "108224",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I received a check."
+      },
+      "de": {
+        "text": "Ich habe einen Scheck erhalten."
+      }
+    },
+    "wordIds": [
+      "18224"
+    ],
+    "sourceIndex": 8224
+  },
+  {
+    "id": "108253",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We have to send the package today."
+      },
+      "de": {
+        "text": "Wir müssen das Paket heute versenden."
+      }
+    },
+    "wordIds": [
+      "18253"
+    ],
+    "sourceIndex": 8253
   },
   {
     "id": "108262",
@@ -2568,6 +3844,40 @@ const phrasesShopping = [
     "sourceIndex": 8262
   },
   {
+    "id": "108273",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My brother works as a banker in Frankfurt."
+      },
+      "de": {
+        "text": "Mein Bruder arbeitet als Banker in Frankfurt."
+      }
+    },
+    "wordIds": [
+      "18273"
+    ],
+    "sourceIndex": 8273
+  },
+  {
+    "id": "108281",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I need a stamp for this letter."
+      },
+      "de": {
+        "text": "Ich brauche eine Briefmarke für diesen Brief."
+      }
+    },
+    "wordIds": [
+      "18281"
+    ],
+    "sourceIndex": 8281
+  },
+  {
     "id": "108315",
     "category": "shopping",
     "level": "hard",
@@ -2585,6 +3895,23 @@ const phrasesShopping = [
     "sourceIndex": 8315
   },
   {
+    "id": "108347",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I lost my wallet."
+      },
+      "de": {
+        "text": "Ich habe mein Portemonnaie verloren."
+      }
+    },
+    "wordIds": [
+      "18347"
+    ],
+    "sourceIndex": 8347
+  },
+  {
     "id": "108375",
     "category": "shopping",
     "level": "hard",
@@ -2600,6 +3927,23 @@ const phrasesShopping = [
       "18375"
     ],
     "sourceIndex": 8375
+  },
+  {
+    "id": "108400",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "She is wearing a beautiful bracelet."
+      },
+      "de": {
+        "text": "Sie trägt ein schönes Armband."
+      }
+    },
+    "wordIds": [
+      "18400"
+    ],
+    "sourceIndex": 8400
   },
   {
     "id": "108437",
@@ -2653,6 +3997,23 @@ const phrasesShopping = [
     "sourceIndex": 8649
   },
   {
+    "id": "108717",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The female customer was satisfied with the service."
+      },
+      "de": {
+        "text": "Die Kundin war mit dem Service zufrieden."
+      }
+    },
+    "wordIds": [
+      "18717"
+    ],
+    "sourceIndex": 8717
+  },
+  {
     "id": "108731",
     "category": "shopping",
     "level": "hard",
@@ -2702,6 +4063,23 @@ const phrasesShopping = [
       "18803"
     ],
     "sourceIndex": 8803
+  },
+  {
+    "id": "108809",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We want to buy a new car."
+      },
+      "de": {
+        "text": "Wir wollen uns ein neues Auto anschaffen."
+      }
+    },
+    "wordIds": [
+      "18809"
+    ],
+    "sourceIndex": 8809
   },
   {
     "id": "108866",
@@ -2755,6 +4133,23 @@ const phrasesShopping = [
     "sourceIndex": 9005
   },
   {
+    "id": "109028",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The construction work caused unexpected additional costs."
+      },
+      "de": {
+        "text": "Die Bauarbeiten verursachten unerwartete Mehrkosten."
+      }
+    },
+    "wordIds": [
+      "19028"
+    ],
+    "sourceIndex": 9028
+  },
+  {
     "id": "109048",
     "category": "shopping",
     "level": "hard",
@@ -2770,6 +4165,23 @@ const phrasesShopping = [
       "19048"
     ],
     "sourceIndex": 9048
+  },
+  {
+    "id": "109175",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The path is covered with gravel."
+      },
+      "de": {
+        "text": "Der Weg ist mit Kies bedeckt."
+      }
+    },
+    "wordIds": [
+      "19175"
+    ],
+    "sourceIndex": 9175
   },
   {
     "id": "109283",
@@ -2789,6 +4201,23 @@ const phrasesShopping = [
     "sourceIndex": 9283
   },
   {
+    "id": "109292",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I lost my wallet."
+      },
+      "de": {
+        "text": "Ich habe meine Geldbörse verloren."
+      }
+    },
+    "wordIds": [
+      "19292"
+    ],
+    "sourceIndex": 9292
+  },
+  {
     "id": "109296",
     "category": "shopping",
     "level": "hard",
@@ -2804,6 +4233,23 @@ const phrasesShopping = [
       "19296"
     ],
     "sourceIndex": 9296
+  },
+  {
+    "id": "109316",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We are going to the mall on the weekend."
+      },
+      "de": {
+        "text": "Wir gehen am Wochenende in die Mall."
+      }
+    },
+    "wordIds": [
+      "19316"
+    ],
+    "sourceIndex": 9316
   },
   {
     "id": "109402",
@@ -2855,6 +4301,23 @@ const phrasesShopping = [
       "19614"
     ],
     "sourceIndex": 9614
+  },
+  {
+    "id": "109639",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The hotel offers inexpensive rooms."
+      },
+      "de": {
+        "text": "Das Hotel bietet preiswerte Zimmer an."
+      }
+    },
+    "wordIds": [
+      "19639"
+    ],
+    "sourceIndex": 9639
   },
   {
     "id": "109798",
@@ -2923,6 +4386,23 @@ const phrasesShopping = [
       "19875"
     ],
     "sourceIndex": 9875
+  },
+  {
+    "id": "109908",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The cashier scanned my groceries."
+      },
+      "de": {
+        "text": "Die Kassiererin hat meine Einkäufe gescannt."
+      }
+    },
+    "wordIds": [
+      "19908"
+    ],
+    "sourceIndex": 9908
   },
   {
     "id": "109931",
@@ -3010,6 +4490,40 @@ const phrasesShopping = [
     "sourceIndex": 10246
   },
   {
+    "id": "110320",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We need a shopping cart for the big shopping trip."
+      },
+      "de": {
+        "text": "Wir brauchen einen Einkaufswagen für den Großeinkauf."
+      }
+    },
+    "wordIds": [
+      "20320"
+    ],
+    "sourceIndex": 10320
+  },
+  {
+    "id": "110374",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The church bells ring every Sunday."
+      },
+      "de": {
+        "text": "Die Kirchenglocken läuten jeden Sonntag."
+      }
+    },
+    "wordIds": [
+      "20374"
+    ],
+    "sourceIndex": 10374
+  },
+  {
     "id": "110390",
     "category": "shopping",
     "level": "hard",
@@ -3025,6 +4539,40 @@ const phrasesShopping = [
       "20390"
     ],
     "sourceIndex": 10390
+  },
+  {
+    "id": "110459",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The building is completely barrier-free."
+      },
+      "de": {
+        "text": "Das Gebäude ist komplett barrierefrei."
+      }
+    },
+    "wordIds": [
+      "20459"
+    ],
+    "sourceIndex": 10459
+  },
+  {
+    "id": "110469",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The accountant checks the company's finances."
+      },
+      "de": {
+        "text": "Der Buchhalter prüft die Finanzen des Unternehmens."
+      }
+    },
+    "wordIds": [
+      "20469"
+    ],
+    "sourceIndex": 10469
   },
   {
     "id": "110497",
@@ -3061,6 +4609,23 @@ const phrasesShopping = [
     "sourceIndex": 10555
   },
   {
+    "id": "110699",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The rent is 500 euros plus incidental expenses."
+      },
+      "de": {
+        "text": "Die Miete beträgt 500 Euro plus Nebenkosten."
+      }
+    },
+    "wordIds": [
+      "20699"
+    ],
+    "sourceIndex": 10699
+  },
+  {
     "id": "110705",
     "category": "shopping",
     "level": "hard",
@@ -3095,6 +4660,23 @@ const phrasesShopping = [
     "sourceIndex": 10899
   },
   {
+    "id": "110936",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The commercial was broadcast during the news."
+      },
+      "de": {
+        "text": "Der Werbespot wurde während der Nachrichten ausgestrahlt."
+      }
+    },
+    "wordIds": [
+      "20936"
+    ],
+    "sourceIndex": 10936
+  },
+  {
     "id": "111016",
     "category": "shopping",
     "level": "medium",
@@ -3127,6 +4709,23 @@ const phrasesShopping = [
       "21123"
     ],
     "sourceIndex": 11123
+  },
+  {
+    "id": "111124",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The housing market in the city is very tight."
+      },
+      "de": {
+        "text": "Der Wohnungsmarkt in der Stadt ist sehr angespannt."
+      }
+    },
+    "wordIds": [
+      "21124"
+    ],
+    "sourceIndex": 11124
   },
   {
     "id": "111176",
@@ -3231,6 +4830,23 @@ const phrasesShopping = [
     "sourceIndex": 11705
   },
   {
+    "id": "111735",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He had no groschen left in his pocket."
+      },
+      "de": {
+        "text": "Er hatte keinen Groschen mehr in der Tasche."
+      }
+    },
+    "wordIds": [
+      "21735"
+    ],
+    "sourceIndex": 11735
+  },
+  {
     "id": "111831",
     "category": "shopping",
     "level": "medium",
@@ -3246,6 +4862,40 @@ const phrasesShopping = [
       "21831"
     ],
     "sourceIndex": 11831
+  },
+  {
+    "id": "111899",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "She wraps the baby in a blanket."
+      },
+      "de": {
+        "text": "Sie wickelt das Baby in eine Decke."
+      }
+    },
+    "wordIds": [
+      "21899"
+    ],
+    "sourceIndex": 11899
+  },
+  {
+    "id": "111951",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My heart was pounding with excitement."
+      },
+      "de": {
+        "text": "Mein Herz pochte vor Aufregung."
+      }
+    },
+    "wordIds": [
+      "21951"
+    ],
+    "sourceIndex": 11951
   },
   {
     "id": "111972",
@@ -3333,6 +4983,23 @@ const phrasesShopping = [
     "sourceIndex": 12330
   },
   {
+    "id": "112397",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I have a subscription for this magazine."
+      },
+      "de": {
+        "text": "Ich habe ein Abonnement für diese Zeitschrift."
+      }
+    },
+    "wordIds": [
+      "22397"
+    ],
+    "sourceIndex": 12397
+  },
+  {
     "id": "112469",
     "category": "shopping",
     "level": "hard",
@@ -3365,6 +5032,23 @@ const phrasesShopping = [
       "22473"
     ],
     "sourceIndex": 12473
+  },
+  {
+    "id": "112515",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The new customer was very satisfied with our service."
+      },
+      "de": {
+        "text": "Der Neukunde war sehr zufrieden mit unserem Service."
+      }
+    },
+    "wordIds": [
+      "22515"
+    ],
+    "sourceIndex": 12515
   },
   {
     "id": "112611",
@@ -3418,6 +5102,23 @@ const phrasesShopping = [
     "sourceIndex": 12639
   },
   {
+    "id": "112710",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Everywhere you see advertisements for new products."
+      },
+      "de": {
+        "text": "Überall sieht man Reklame für neue Produkte."
+      }
+    },
+    "wordIds": [
+      "22710"
+    ],
+    "sourceIndex": 12710
+  },
+  {
     "id": "112795",
     "category": "shopping",
     "level": "hard",
@@ -3433,6 +5134,40 @@ const phrasesShopping = [
       "22795"
     ],
     "sourceIndex": 12795
+  },
+  {
+    "id": "112802",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Rents in this city are hardly affordable anymore."
+      },
+      "de": {
+        "text": "Die Mieten in dieser Stadt sind kaum noch bezahlbar."
+      }
+    },
+    "wordIds": [
+      "22802"
+    ],
+    "sourceIndex": 12802
+  },
+  {
+    "id": "112806",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I lost my wallet."
+      },
+      "de": {
+        "text": "Ich habe meine Brieftasche verloren."
+      }
+    },
+    "wordIds": [
+      "22806"
+    ],
+    "sourceIndex": 12806
   },
   {
     "id": "112850",
@@ -3452,6 +5187,23 @@ const phrasesShopping = [
     "sourceIndex": 12850
   },
   {
+    "id": "112976",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We had to make a down payment for the car."
+      },
+      "de": {
+        "text": "Wir mussten eine Anzahlung für das Auto leisten."
+      }
+    },
+    "wordIds": [
+      "22976"
+    ],
+    "sourceIndex": 12976
+  },
+  {
     "id": "113145",
     "category": "shopping",
     "level": "medium",
@@ -3469,6 +5221,23 @@ const phrasesShopping = [
     "sourceIndex": 13145
   },
   {
+    "id": "113155",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I have to send off the package today."
+      },
+      "de": {
+        "text": "Ich muss das Paket heute abschicken."
+      }
+    },
+    "wordIds": [
+      "23155"
+    ],
+    "sourceIndex": 13155
+  },
+  {
     "id": "113228",
     "category": "shopping",
     "level": "hard",
@@ -3484,6 +5253,23 @@ const phrasesShopping = [
       "23228"
     ],
     "sourceIndex": 13228
+  },
+  {
+    "id": "113486",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "His retirement is planned for next year."
+      },
+      "de": {
+        "text": "Seine Pensionierung ist für nächstes Jahr geplant."
+      }
+    },
+    "wordIds": [
+      "23486"
+    ],
+    "sourceIndex": 13486
   },
   {
     "id": "113561",
@@ -3673,6 +5459,23 @@ const phrasesShopping = [
     "sourceIndex": 14391
   },
   {
+    "id": "114445",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The dog sleeps in its small basket."
+      },
+      "de": {
+        "text": "Der Hund schläft in seinem Körbchen."
+      }
+    },
+    "wordIds": [
+      "24445"
+    ],
+    "sourceIndex": 14445
+  },
+  {
     "id": "114538",
     "category": "shopping",
     "level": "hard",
@@ -3688,6 +5491,23 @@ const phrasesShopping = [
       "24538"
     ],
     "sourceIndex": 14538
+  },
+  {
+    "id": "114559",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He wanted to buy the car from him."
+      },
+      "de": {
+        "text": "Er wollte ihm das Auto abkaufen."
+      }
+    },
+    "wordIds": [
+      "24559"
+    ],
+    "sourceIndex": 14559
   },
   {
     "id": "114598",
@@ -3809,6 +5629,23 @@ const phrasesShopping = [
     "sourceIndex": 14971
   },
   {
+    "id": "115022",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I would like to trade in my old phone for a new one."
+      },
+      "de": {
+        "text": "Ich möchte mein altes Handy gegen ein neues eintauschen."
+      }
+    },
+    "wordIds": [
+      "25022"
+    ],
+    "sourceIndex": 15022
+  },
+  {
     "id": "115092",
     "category": "shopping",
     "level": "hard",
@@ -3824,6 +5661,23 @@ const phrasesShopping = [
       "25092"
     ],
     "sourceIndex": 15092
+  },
+  {
+    "id": "115096",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Yogurt is a healthy dairy product."
+      },
+      "de": {
+        "text": "Joghurt ist ein gesundes Milchprodukt."
+      }
+    },
+    "wordIds": [
+      "25096"
+    ],
+    "sourceIndex": 15096
   },
   {
     "id": "115123",
@@ -3877,6 +5731,23 @@ const phrasesShopping = [
     "sourceIndex": 15144
   },
   {
+    "id": "115149",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He began to stamp his foot angrily."
+      },
+      "de": {
+        "text": "Er begann wütend mit dem Fuß zu stampfen."
+      }
+    },
+    "wordIds": [
+      "25149"
+    ],
+    "sourceIndex": 15149
+  },
+  {
     "id": "115262",
     "category": "shopping",
     "level": "hard",
@@ -3928,6 +5799,23 @@ const phrasesShopping = [
     "sourceIndex": 15438
   },
   {
+    "id": "115571",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I packed my sleeping bag for the hike."
+      },
+      "de": {
+        "text": "Ich packte meinen Schlafsack für die Wanderung ein."
+      }
+    },
+    "wordIds": [
+      "25571"
+    ],
+    "sourceIndex": 15571
+  },
+  {
     "id": "115597",
     "category": "shopping",
     "level": "hard",
@@ -3960,6 +5848,40 @@ const phrasesShopping = [
       "25649"
     ],
     "sourceIndex": 15649
+  },
+  {
+    "id": "115807",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I would like to exchange this shirt."
+      },
+      "de": {
+        "text": "Ich möchte dieses Hemd umtauschen."
+      }
+    },
+    "wordIds": [
+      "25807"
+    ],
+    "sourceIndex": 15807
+  },
+  {
+    "id": "115857",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "There were many interesting things to buy at the bazaar."
+      },
+      "de": {
+        "text": "Auf dem Basar gab es viele interessante Dinge zu kaufen."
+      }
+    },
+    "wordIds": [
+      "25857"
+    ],
+    "sourceIndex": 15857
   },
   {
     "id": "115922",
@@ -4062,6 +5984,23 @@ const phrasesShopping = [
       "26370"
     ],
     "sourceIndex": 16370
+  },
+  {
+    "id": "116400",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The child was rescued from the burning house."
+      },
+      "de": {
+        "text": "Das Kind wurde aus dem brennenden Haus gerettet."
+      }
+    },
+    "wordIds": [
+      "26400"
+    ],
+    "sourceIndex": 16400
   },
   {
     "id": "116429",
@@ -4217,6 +6156,23 @@ const phrasesShopping = [
     "sourceIndex": 17368
   },
   {
+    "id": "117372",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The food delivery took longer than expected."
+      },
+      "de": {
+        "text": "Die Delivery des Essens dauerte länger als erwartet."
+      }
+    },
+    "wordIds": [
+      "27372"
+    ],
+    "sourceIndex": 17372
+  },
+  {
     "id": "117376",
     "category": "shopping",
     "level": "hard",
@@ -4285,6 +6241,23 @@ const phrasesShopping = [
     "sourceIndex": 17779
   },
   {
+    "id": "117880",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The bank robber was caught by the police."
+      },
+      "de": {
+        "text": "Der Bankräuber wurde von der Polizei gefasst."
+      }
+    },
+    "wordIds": [
+      "27880"
+    ],
+    "sourceIndex": 17880
+  },
+  {
     "id": "117927",
     "category": "shopping",
     "level": "hard",
@@ -4300,6 +6273,23 @@ const phrasesShopping = [
       "27927"
     ],
     "sourceIndex": 17927
+  },
+  {
+    "id": "118007",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "There was a price increase in groceries."
+      },
+      "de": {
+        "text": "Es gab eine Preiserhöhung bei den Lebensmitteln."
+      }
+    },
+    "wordIds": [
+      "28007"
+    ],
+    "sourceIndex": 18007
   },
   {
     "id": "118073",
@@ -4387,6 +6377,23 @@ const phrasesShopping = [
     "sourceIndex": 18397
   },
   {
+    "id": "118528",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The car belongs to the upper price range."
+      },
+      "de": {
+        "text": "Das Auto gehört zur oberen Preisklasse."
+      }
+    },
+    "wordIds": [
+      "28528"
+    ],
+    "sourceIndex": 18528
+  },
+  {
     "id": "118670",
     "category": "shopping",
     "level": "hard",
@@ -4436,6 +6443,40 @@ const phrasesShopping = [
       "28870"
     ],
     "sourceIndex": 18870
+  },
+  {
+    "id": "119158",
+    "category": "shopping",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Do you have change for a ten-euro note?"
+      },
+      "de": {
+        "text": "Haben Sie Wechselgeld für einen Zehn-Euro-Schein?"
+      }
+    },
+    "wordIds": [
+      "29158"
+    ],
+    "sourceIndex": 19158
+  },
+  {
+    "id": "119242",
+    "category": "shopping",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Rents in this city are no longer affordable."
+      },
+      "de": {
+        "text": "Die Mieten in dieser Stadt sind nicht mehr erschwinglich."
+      }
+    },
+    "wordIds": [
+      "29242"
+    ],
+    "sourceIndex": 19242
   },
   {
     "id": "119264",

@@ -136,6 +136,23 @@ const phrasesFeelings = [
     "sourceIndex": 300
   },
   {
+    "id": "100305",
+    "category": "feelings",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I forgot my keys."
+      },
+      "de": {
+        "text": "Ich habe meine Schlüssel vergessen."
+      }
+    },
+    "wordIds": [
+      "10305"
+    ],
+    "sourceIndex": 305
+  },
+  {
     "id": "100328",
     "category": "feelings",
     "level": "hard",
@@ -151,6 +168,23 @@ const phrasesFeelings = [
       "10328"
     ],
     "sourceIndex": 328
+  },
+  {
+    "id": "100350",
+    "category": "feelings",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I hope you have a nice day."
+      },
+      "de": {
+        "text": "Ich hoffe, du hast einen schönen Tag."
+      }
+    },
+    "wordIds": [
+      "10350"
+    ],
+    "sourceIndex": 350
   },
   {
     "id": "100380",
@@ -187,6 +221,74 @@ const phrasesFeelings = [
     "sourceIndex": 399
   },
   {
+    "id": "100414",
+    "category": "feelings",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I have great interest in art."
+      },
+      "de": {
+        "text": "Ich habe großes Interesse an Kunst."
+      }
+    },
+    "wordIds": [
+      "10414"
+    ],
+    "sourceIndex": 414
+  },
+  {
+    "id": "100474",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I really like the book."
+      },
+      "de": {
+        "text": "Das Buch gefällt mir sehr."
+      }
+    },
+    "wordIds": [
+      "10474"
+    ],
+    "sourceIndex": 474
+  },
+  {
+    "id": "100534",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "It's not my fault."
+      },
+      "de": {
+        "text": "Es ist nicht meine Schuld."
+      }
+    },
+    "wordIds": [
+      "10534"
+    ],
+    "sourceIndex": 534
+  },
+  {
+    "id": "100578",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He is a very honest person."
+      },
+      "de": {
+        "text": "Er ist ein sehr ehrlicher Mensch."
+      }
+    },
+    "wordIds": [
+      "10578"
+    ],
+    "sourceIndex": 578
+  },
+  {
     "id": "100598",
     "category": "feelings",
     "level": "easy",
@@ -202,6 +304,108 @@ const phrasesFeelings = [
       "10598"
     ],
     "sourceIndex": 598
+  },
+  {
+    "id": "100605",
+    "category": "feelings",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I need some quiet."
+      },
+      "de": {
+        "text": "Ich brauche etwas Ruhe."
+      }
+    },
+    "wordIds": [
+      "10605"
+    ],
+    "sourceIndex": 605
+  },
+  {
+    "id": "100613",
+    "category": "feelings",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "She is proud of her children."
+      },
+      "de": {
+        "text": "Sie ist stolz auf ihre Kinder."
+      }
+    },
+    "wordIds": [
+      "10613"
+    ],
+    "sourceIndex": 613
+  },
+  {
+    "id": "100615",
+    "category": "feelings",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "May I introduce myself?"
+      },
+      "de": {
+        "text": "Darf ich mich vorstellen?"
+      }
+    },
+    "wordIds": [
+      "10615"
+    ],
+    "sourceIndex": 615
+  },
+  {
+    "id": "100623",
+    "category": "feelings",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "He feels great joy in his work."
+      },
+      "de": {
+        "text": "Er empfindet große Freude an seiner Arbeit."
+      }
+    },
+    "wordIds": [
+      "10623"
+    ],
+    "sourceIndex": 623
+  },
+  {
+    "id": "100624",
+    "category": "feelings",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The topic interests me a lot."
+      },
+      "de": {
+        "text": "Das Thema interessiert mich sehr."
+      }
+    },
+    "wordIds": [
+      "10624"
+    ],
+    "sourceIndex": 624
+  },
+  {
+    "id": "100626",
+    "category": "feelings",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I love learning new languages."
+      },
+      "de": {
+        "text": "Ich liebe es, neue Sprachen zu lernen."
+      }
+    },
+    "wordIds": [
+      "10626"
+    ],
+    "sourceIndex": 626
   },
   {
     "id": "100627",
@@ -238,6 +442,23 @@ const phrasesFeelings = [
     "sourceIndex": 653
   },
   {
+    "id": "100682",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I am sorry that I am late."
+      },
+      "de": {
+        "text": "Es tut mir Leid, dass ich zu spät bin."
+      }
+    },
+    "wordIds": [
+      "10682"
+    ],
+    "sourceIndex": 682
+  },
+  {
     "id": "100689",
     "category": "feelings",
     "level": "hard",
@@ -255,6 +476,23 @@ const phrasesFeelings = [
     "sourceIndex": 689
   },
   {
+    "id": "100698",
+    "category": "feelings",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I feel good today."
+      },
+      "de": {
+        "text": "Ich fühle mich heute gut."
+      }
+    },
+    "wordIds": [
+      "10698"
+    ],
+    "sourceIndex": 698
+  },
+  {
     "id": "100706",
     "category": "feelings",
     "level": "easy",
@@ -270,6 +508,57 @@ const phrasesFeelings = [
       "10706"
     ],
     "sourceIndex": 706
+  },
+  {
+    "id": "100713",
+    "category": "feelings",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I can't remember his name."
+      },
+      "de": {
+        "text": "Ich kann mich nicht an seinen Namen erinnern."
+      }
+    },
+    "wordIds": [
+      "10713"
+    ],
+    "sourceIndex": 713
+  },
+  {
+    "id": "100717",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "There is always hope."
+      },
+      "de": {
+        "text": "Es gibt immer Hoffnung."
+      }
+    },
+    "wordIds": [
+      "10717"
+    ],
+    "sourceIndex": 717
+  },
+  {
+    "id": "100734",
+    "category": "feelings",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The book is very interesting."
+      },
+      "de": {
+        "text": "Das Buch ist sehr interessant."
+      }
+    },
+    "wordIds": [
+      "10734"
+    ],
+    "sourceIndex": 734
   },
   {
     "id": "100753",
@@ -340,6 +629,23 @@ const phrasesFeelings = [
     "sourceIndex": 782
   },
   {
+    "id": "100783",
+    "category": "feelings",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Are you satisfied with the result?"
+      },
+      "de": {
+        "text": "Bist du mit dem Ergebnis zufrieden?"
+      }
+    },
+    "wordIds": [
+      "10783"
+    ],
+    "sourceIndex": 783
+  },
+  {
     "id": "100796",
     "category": "feelings",
     "level": "medium",
@@ -355,6 +661,23 @@ const phrasesFeelings = [
       "10796"
     ],
     "sourceIndex": 796
+  },
+  {
+    "id": "100802",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He made a good impression."
+      },
+      "de": {
+        "text": "Er hat einen guten Eindruck gemacht."
+      }
+    },
+    "wordIds": [
+      "10802"
+    ],
+    "sourceIndex": 802
   },
   {
     "id": "100812",
@@ -374,6 +697,40 @@ const phrasesFeelings = [
     "sourceIndex": 812
   },
   {
+    "id": "100852",
+    "category": "feelings",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "He was angry at his friend."
+      },
+      "de": {
+        "text": "Er war böse auf seinen Freund."
+      }
+    },
+    "wordIds": [
+      "10852"
+    ],
+    "sourceIndex": 852
+  },
+  {
+    "id": "100913",
+    "category": "feelings",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I had a beautiful dream last night."
+      },
+      "de": {
+        "text": "Ich hatte einen schönen Traum letzte Nacht."
+      }
+    },
+    "wordIds": [
+      "10913"
+    ],
+    "sourceIndex": 913
+  },
+  {
     "id": "101047",
     "category": "feelings",
     "level": "hard",
@@ -389,6 +746,108 @@ const phrasesFeelings = [
       "11047"
     ],
     "sourceIndex": 1047
+  },
+  {
+    "id": "101064",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "His reaction was unexpected."
+      },
+      "de": {
+        "text": "Seine Reaktion war unerwartet."
+      }
+    },
+    "wordIds": [
+      "11064"
+    ],
+    "sourceIndex": 1064
+  },
+  {
+    "id": "101070",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please give me your attention."
+      },
+      "de": {
+        "text": "Bitte schenken Sie mir Ihre Aufmerksamkeit."
+      }
+    },
+    "wordIds": [
+      "11070"
+    ],
+    "sourceIndex": 1070
+  },
+  {
+    "id": "101085",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The atmosphere at the party was great."
+      },
+      "de": {
+        "text": "Die Stimmung auf der Party war großartig."
+      }
+    },
+    "wordIds": [
+      "11085"
+    ],
+    "sourceIndex": 1085
+  },
+  {
+    "id": "101088",
+    "category": "feelings",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "She was very sad about the news."
+      },
+      "de": {
+        "text": "Sie war sehr traurig über die Nachricht."
+      }
+    },
+    "wordIds": [
+      "11088"
+    ],
+    "sourceIndex": 1088
+  },
+  {
+    "id": "101094",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The news will surprise him."
+      },
+      "de": {
+        "text": "Die Nachricht wird ihn überraschen."
+      }
+    },
+    "wordIds": [
+      "11094"
+    ],
+    "sourceIndex": 1094
+  },
+  {
+    "id": "101118",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I have a clear idea of it."
+      },
+      "de": {
+        "text": "Ich habe eine klare Vorstellung davon."
+      }
+    },
+    "wordIds": [
+      "11118"
+    ],
+    "sourceIndex": 1118
   },
   {
     "id": "101126",
@@ -425,6 +884,40 @@ const phrasesFeelings = [
     "sourceIndex": 1142
   },
   {
+    "id": "101156",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We enjoy the summer."
+      },
+      "de": {
+        "text": "Wir geniessen den Sommer."
+      }
+    },
+    "wordIds": [
+      "11156"
+    ],
+    "sourceIndex": 1156
+  },
+  {
+    "id": "101170",
+    "category": "feelings",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "They had an argument about the money."
+      },
+      "de": {
+        "text": "Sie hatten einen Streit über das Geld."
+      }
+    },
+    "wordIds": [
+      "11170"
+    ],
+    "sourceIndex": 1170
+  },
+  {
     "id": "101211",
     "category": "feelings",
     "level": "hard",
@@ -459,6 +952,23 @@ const phrasesFeelings = [
     "sourceIndex": 1243
   },
   {
+    "id": "101322",
+    "category": "feelings",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Please pay attention to the traffic."
+      },
+      "de": {
+        "text": "Bitte achten Sie auf den Verkehr."
+      }
+    },
+    "wordIds": [
+      "11322"
+    ],
+    "sourceIndex": 1322
+  },
+  {
     "id": "101324",
     "category": "feelings",
     "level": "hard",
@@ -491,6 +1001,57 @@ const phrasesFeelings = [
       "11327"
     ],
     "sourceIndex": 1327
+  },
+  {
+    "id": "101335",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I hate getting up early."
+      },
+      "de": {
+        "text": "Ich hasse es, früh aufzustehen."
+      }
+    },
+    "wordIds": [
+      "11335"
+    ],
+    "sourceIndex": 1335
+  },
+  {
+    "id": "101339",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He gathered the courage to tell the truth."
+      },
+      "de": {
+        "text": "Er fasste den Mut, die Wahrheit zu sagen."
+      }
+    },
+    "wordIds": [
+      "11339"
+    ],
+    "sourceIndex": 1339
+  },
+  {
+    "id": "101388",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "His speech could inspire the audience."
+      },
+      "de": {
+        "text": "Seine Rede konnte das Publikum begeistern."
+      }
+    },
+    "wordIds": [
+      "11388"
+    ],
+    "sourceIndex": 1388
   },
   {
     "id": "101392",
@@ -559,6 +1120,23 @@ const phrasesFeelings = [
       "11459"
     ],
     "sourceIndex": 1459
+  },
+  {
+    "id": "101507",
+    "category": "feelings",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "He has a lot of stress at work."
+      },
+      "de": {
+        "text": "Er hat viel Stress bei der Arbeit."
+      }
+    },
+    "wordIds": [
+      "11507"
+    ],
+    "sourceIndex": 1507
   },
   {
     "id": "101535",
@@ -714,6 +1292,23 @@ const phrasesFeelings = [
     "sourceIndex": 1726
   },
   {
+    "id": "101763",
+    "category": "feelings",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The movie was very boring."
+      },
+      "de": {
+        "text": "Der Film war sehr langweilig."
+      }
+    },
+    "wordIds": [
+      "11763"
+    ],
+    "sourceIndex": 1763
+  },
+  {
     "id": "101813",
     "category": "feelings",
     "level": "hard",
@@ -746,6 +1341,23 @@ const phrasesFeelings = [
       "11842"
     ],
     "sourceIndex": 1842
+  },
+  {
+    "id": "101903",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I can feel the wind on my skin."
+      },
+      "de": {
+        "text": "Ich kann den Wind auf meiner Haut spüren."
+      }
+    },
+    "wordIds": [
+      "11903"
+    ],
+    "sourceIndex": 1903
   },
   {
     "id": "101924",
@@ -799,6 +1411,23 @@ const phrasesFeelings = [
     "sourceIndex": 2020
   },
   {
+    "id": "102143",
+    "category": "feelings",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The child started to cry."
+      },
+      "de": {
+        "text": "Das Kind begann zu weinen."
+      }
+    },
+    "wordIds": [
+      "12143"
+    ],
+    "sourceIndex": 2143
+  },
+  {
     "id": "102153",
     "category": "feelings",
     "level": "hard",
@@ -833,6 +1462,91 @@ const phrasesFeelings = [
     "sourceIndex": 2197
   },
   {
+    "id": "102272",
+    "category": "feelings",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "It was a very pleasant evening."
+      },
+      "de": {
+        "text": "Es war ein sehr angenehmer Abend."
+      }
+    },
+    "wordIds": [
+      "12272"
+    ],
+    "sourceIndex": 2272
+  },
+  {
+    "id": "102289",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She is in a good mood today."
+      },
+      "de": {
+        "text": "Sie hat heute gute Laune."
+      }
+    },
+    "wordIds": [
+      "12289"
+    ],
+    "sourceIndex": 2289
+  },
+  {
+    "id": "102323",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "After the vacation, she was very relaxed."
+      },
+      "de": {
+        "text": "Nach dem Urlaub war sie sehr entspannt."
+      }
+    },
+    "wordIds": [
+      "12323"
+    ],
+    "sourceIndex": 2323
+  },
+  {
+    "id": "102326",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I want to enjoy the beautiful weather."
+      },
+      "de": {
+        "text": "Ich möchte das schöne Wetter genießen."
+      }
+    },
+    "wordIds": [
+      "12326"
+    ],
+    "sourceIndex": 2326
+  },
+  {
+    "id": "102341",
+    "category": "feelings",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I often dream of traveling."
+      },
+      "de": {
+        "text": "Ich träume oft von Reisen."
+      }
+    },
+    "wordIds": [
+      "12341"
+    ],
+    "sourceIndex": 2341
+  },
+  {
     "id": "102427",
     "category": "feelings",
     "level": "hard",
@@ -848,6 +1562,23 @@ const phrasesFeelings = [
       "12427"
     ],
     "sourceIndex": 2427
+  },
+  {
+    "id": "102445",
+    "category": "feelings",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I am very happy today."
+      },
+      "de": {
+        "text": "Ich bin heute sehr happy."
+      }
+    },
+    "wordIds": [
+      "12445"
+    ],
+    "sourceIndex": 2445
   },
   {
     "id": "102478",
@@ -1003,6 +1734,57 @@ const phrasesFeelings = [
     "sourceIndex": 2796
   },
   {
+    "id": "102819",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "There was a lot of excitement before the concert."
+      },
+      "de": {
+        "text": "Es gab viel Aufregung vor dem Konzert."
+      }
+    },
+    "wordIds": [
+      "12819"
+    ],
+    "sourceIndex": 2819
+  },
+  {
+    "id": "102835",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I am afraid of spiders."
+      },
+      "de": {
+        "text": "Ich fürchte mich vor Spinnen."
+      }
+    },
+    "wordIds": [
+      "12835"
+    ],
+    "sourceIndex": 2835
+  },
+  {
+    "id": "102864",
+    "category": "feelings",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "He feels insecure in the new environment."
+      },
+      "de": {
+        "text": "Er fühlt sich unsicher in der neuen Umgebung."
+      }
+    },
+    "wordIds": [
+      "12864"
+    ],
+    "sourceIndex": 2864
+  },
+  {
     "id": "102877",
     "category": "feelings",
     "level": "hard",
@@ -1037,6 +1819,23 @@ const phrasesFeelings = [
     "sourceIndex": 2890
   },
   {
+    "id": "102934",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The enjoyment of good food is priceless."
+      },
+      "de": {
+        "text": "Der Genuss eines guten Essens ist unbezahlbar."
+      }
+    },
+    "wordIds": [
+      "12934"
+    ],
+    "sourceIndex": 2934
+  },
+  {
     "id": "103021",
     "category": "feelings",
     "level": "hard",
@@ -1054,6 +1853,57 @@ const phrasesFeelings = [
     "sourceIndex": 3021
   },
   {
+    "id": "103034",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Her enthusiasm for the project was contagious."
+      },
+      "de": {
+        "text": "Ihre Begeisterung für das Projekt war ansteckend."
+      }
+    },
+    "wordIds": [
+      "13034"
+    ],
+    "sourceIndex": 3034
+  },
+  {
+    "id": "103046",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He is a very peaceful person."
+      },
+      "de": {
+        "text": "Er ist ein sehr friedlicher Mensch."
+      }
+    },
+    "wordIds": [
+      "13046"
+    ],
+    "sourceIndex": 3046
+  },
+  {
+    "id": "103114",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He had pity for the poor animal."
+      },
+      "de": {
+        "text": "Er hatte Mitleid mit dem armen Tier."
+      }
+    },
+    "wordIds": [
+      "13114"
+    ],
+    "sourceIndex": 3114
+  },
+  {
     "id": "103134",
     "category": "feelings",
     "level": "hard",
@@ -1069,6 +1919,23 @@ const phrasesFeelings = [
       "13134"
     ],
     "sourceIndex": 3134
+  },
+  {
+    "id": "103140",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She was desperately looking for help."
+      },
+      "de": {
+        "text": "Sie war verzweifelt auf der Suche nach Hilfe."
+      }
+    },
+    "wordIds": [
+      "13140"
+    ],
+    "sourceIndex": 3140
   },
   {
     "id": "103217",
@@ -1122,6 +1989,57 @@ const phrasesFeelings = [
     "sourceIndex": 3298
   },
   {
+    "id": "103402",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The name doesn't come to my mind."
+      },
+      "de": {
+        "text": "Mir fällt der Name nicht ein."
+      }
+    },
+    "wordIds": [
+      "13402"
+    ],
+    "sourceIndex": 3402
+  },
+  {
+    "id": "103427",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She was very nervous before the exam."
+      },
+      "de": {
+        "text": "Sie war vor der Prüfung sehr nervös."
+      }
+    },
+    "wordIds": [
+      "13427"
+    ],
+    "sourceIndex": 3427
+  },
+  {
+    "id": "103466",
+    "category": "feelings",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I want to relax after work."
+      },
+      "de": {
+        "text": "Ich möchte mich nach der Arbeit entspannen."
+      }
+    },
+    "wordIds": [
+      "13466"
+    ],
+    "sourceIndex": 3466
+  },
+  {
     "id": "103493",
     "category": "feelings",
     "level": "hard",
@@ -1137,6 +2055,23 @@ const phrasesFeelings = [
       "13493"
     ],
     "sourceIndex": 3493
+  },
+  {
+    "id": "103497",
+    "category": "feelings",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "She was very unhappy about the news."
+      },
+      "de": {
+        "text": "Sie war sehr unglücklich über die Nachricht."
+      }
+    },
+    "wordIds": [
+      "13497"
+    ],
+    "sourceIndex": 3497
   },
   {
     "id": "103564",
@@ -1173,6 +2108,23 @@ const phrasesFeelings = [
     "sourceIndex": 3590
   },
   {
+    "id": "103599",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She is a very creative person."
+      },
+      "de": {
+        "text": "Sie ist eine sehr kreative Person."
+      }
+    },
+    "wordIds": [
+      "13599"
+    ],
+    "sourceIndex": 3599
+  },
+  {
     "id": "103663",
     "category": "feelings",
     "level": "hard",
@@ -1188,6 +2140,23 @@ const phrasesFeelings = [
       "13663"
     ],
     "sourceIndex": 3663
+  },
+  {
+    "id": "103675",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Is it safe here?"
+      },
+      "de": {
+        "text": "Ist es hier safe?"
+      }
+    },
+    "wordIds": [
+      "13675"
+    ],
+    "sourceIndex": 3675
   },
   {
     "id": "103704",
@@ -1207,6 +2176,23 @@ const phrasesFeelings = [
     "sourceIndex": 3704
   },
   {
+    "id": "103760",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I fear it will rain."
+      },
+      "de": {
+        "text": "Ich befürchte, es wird regnen."
+      }
+    },
+    "wordIds": [
+      "13760"
+    ],
+    "sourceIndex": 3760
+  },
+  {
     "id": "103821",
     "category": "feelings",
     "level": "hard",
@@ -1222,6 +2208,23 @@ const phrasesFeelings = [
       "13821"
     ],
     "sourceIndex": 3821
+  },
+  {
+    "id": "103849",
+    "category": "feelings",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "She is a brave girl."
+      },
+      "de": {
+        "text": "Sie ist ein mutiges Mädchen."
+      }
+    },
+    "wordIds": [
+      "13849"
+    ],
+    "sourceIndex": 3849
   },
   {
     "id": "103851",
@@ -1360,6 +2363,23 @@ const phrasesFeelings = [
     "sourceIndex": 4086
   },
   {
+    "id": "104193",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The music can inspire us."
+      },
+      "de": {
+        "text": "Die Musik kann uns inspirieren."
+      }
+    },
+    "wordIds": [
+      "14193"
+    ],
+    "sourceIndex": 4193
+  },
+  {
     "id": "104206",
     "category": "feelings",
     "level": "hard",
@@ -1392,6 +2412,23 @@ const phrasesFeelings = [
       "14342"
     ],
     "sourceIndex": 4342
+  },
+  {
+    "id": "104378",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I need some relaxation after work."
+      },
+      "de": {
+        "text": "Ich brauche etwas Entspannung nach der Arbeit."
+      }
+    },
+    "wordIds": [
+      "14378"
+    ],
+    "sourceIndex": 4378
   },
   {
     "id": "104413",
@@ -1428,6 +2465,40 @@ const phrasesFeelings = [
     "sourceIndex": 4485
   },
   {
+    "id": "104641",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She was dissatisfied with the result."
+      },
+      "de": {
+        "text": "Sie war mit dem Ergebnis unzufrieden."
+      }
+    },
+    "wordIds": [
+      "14641"
+    ],
+    "sourceIndex": 4641
+  },
+  {
+    "id": "104700",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I heard a loud scream."
+      },
+      "de": {
+        "text": "Ich hörte einen lauten Schrei."
+      }
+    },
+    "wordIds": [
+      "14700"
+    ],
+    "sourceIndex": 4700
+  },
+  {
     "id": "104727",
     "category": "feelings",
     "level": "hard",
@@ -1460,6 +2531,23 @@ const phrasesFeelings = [
       "14812"
     ],
     "sourceIndex": 4812
+  },
+  {
+    "id": "104851",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He found inspiration in nature."
+      },
+      "de": {
+        "text": "Er fand Inspiration in der Natur."
+      }
+    },
+    "wordIds": [
+      "14851"
+    ],
+    "sourceIndex": 4851
   },
   {
     "id": "104858",
@@ -1513,6 +2601,23 @@ const phrasesFeelings = [
     "sourceIndex": 4890
   },
   {
+    "id": "104897",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "That is an annoying situation."
+      },
+      "de": {
+        "text": "Das ist eine ärgerliche Situation."
+      }
+    },
+    "wordIds": [
+      "14897"
+    ],
+    "sourceIndex": 4897
+  },
+  {
     "id": "104940",
     "category": "feelings",
     "level": "hard",
@@ -1564,6 +2669,23 @@ const phrasesFeelings = [
     "sourceIndex": 4986
   },
   {
+    "id": "104988",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He is a very modest person."
+      },
+      "de": {
+        "text": "Er ist ein sehr bescheidener Mensch."
+      }
+    },
+    "wordIds": [
+      "14988"
+    ],
+    "sourceIndex": 4988
+  },
+  {
     "id": "105019",
     "category": "feelings",
     "level": "medium",
@@ -1579,6 +2701,23 @@ const phrasesFeelings = [
       "15019"
     ],
     "sourceIndex": 5019
+  },
+  {
+    "id": "105123",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "One should respect older people."
+      },
+      "de": {
+        "text": "Man sollte ältere Menschen respektieren."
+      }
+    },
+    "wordIds": [
+      "15123"
+    ],
+    "sourceIndex": 5123
   },
   {
     "id": "105176",
@@ -1615,6 +2754,40 @@ const phrasesFeelings = [
     "sourceIndex": 5199
   },
   {
+    "id": "105308",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The wound was very painful."
+      },
+      "de": {
+        "text": "Die Wunde war sehr schmerzhaft."
+      }
+    },
+    "wordIds": [
+      "15308"
+    ],
+    "sourceIndex": 5308
+  },
+  {
+    "id": "105311",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She is a shy girl."
+      },
+      "de": {
+        "text": "Sie ist ein schüchternes Mädchen."
+      }
+    },
+    "wordIds": [
+      "15311"
+    ],
+    "sourceIndex": 5311
+  },
+  {
     "id": "105347",
     "category": "feelings",
     "level": "hard",
@@ -1632,6 +2805,23 @@ const phrasesFeelings = [
     "sourceIndex": 5347
   },
   {
+    "id": "105392",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He is always very optimistic."
+      },
+      "de": {
+        "text": "Er ist immer sehr optimistisch."
+      }
+    },
+    "wordIds": [
+      "15392"
+    ],
+    "sourceIndex": 5392
+  },
+  {
     "id": "105463",
     "category": "feelings",
     "level": "hard",
@@ -1647,6 +2837,40 @@ const phrasesFeelings = [
       "15463"
     ],
     "sourceIndex": 5463
+  },
+  {
+    "id": "105564",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He is envious of her success."
+      },
+      "de": {
+        "text": "Er ist neidisch auf ihren Erfolg."
+      }
+    },
+    "wordIds": [
+      "15564"
+    ],
+    "sourceIndex": 5564
+  },
+  {
+    "id": "105567",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Children often have a vivid imagination."
+      },
+      "de": {
+        "text": "Kinder haben oft eine lebhafte Phantasie."
+      }
+    },
+    "wordIds": [
+      "15567"
+    ],
+    "sourceIndex": 5567
   },
   {
     "id": "105599",
@@ -1700,6 +2924,74 @@ const phrasesFeelings = [
     "sourceIndex": 5671
   },
   {
+    "id": "105768",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Don't let yourself be deceived."
+      },
+      "de": {
+        "text": "Lass dich nicht täuschen."
+      }
+    },
+    "wordIds": [
+      "15768"
+    ],
+    "sourceIndex": 5768
+  },
+  {
+    "id": "105804",
+    "category": "feelings",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The food tastes disgusting."
+      },
+      "de": {
+        "text": "Das Essen schmeckt eklig."
+      }
+    },
+    "wordIds": [
+      "15804"
+    ],
+    "sourceIndex": 5804
+  },
+  {
+    "id": "105806",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He was too cowardly to tell the truth."
+      },
+      "de": {
+        "text": "Er war zu feige, um die Wahrheit zu sagen."
+      }
+    },
+    "wordIds": [
+      "15806"
+    ],
+    "sourceIndex": 5806
+  },
+  {
+    "id": "105843",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "After a long hike, we needed a rest."
+      },
+      "de": {
+        "text": "Nach einer langen Wanderung brauchten wir eine Rast."
+      }
+    },
+    "wordIds": [
+      "15843"
+    ],
+    "sourceIndex": 5843
+  },
+  {
     "id": "105943",
     "category": "feelings",
     "level": "hard",
@@ -1732,6 +3024,23 @@ const phrasesFeelings = [
       "16105"
     ],
     "sourceIndex": 6105
+  },
+  {
+    "id": "106172",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "How does the fabric feel?"
+      },
+      "de": {
+        "text": "Wie fühlt sich der Stoff an?"
+      }
+    },
+    "wordIds": [
+      "16172"
+    ],
+    "sourceIndex": 6172
   },
   {
     "id": "106193",
@@ -1785,6 +3094,23 @@ const phrasesFeelings = [
     "sourceIndex": 6694
   },
   {
+    "id": "106881",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He is confident that he will pass the exam."
+      },
+      "de": {
+        "text": "Er ist zuversichtlich, dass er die Prüfung bestehen wird."
+      }
+    },
+    "wordIds": [
+      "16881"
+    ],
+    "sourceIndex": 6881
+  },
+  {
     "id": "106892",
     "category": "feelings",
     "level": "easy",
@@ -1800,6 +3126,40 @@ const phrasesFeelings = [
       "16892"
     ],
     "sourceIndex": 6892
+  },
+  {
+    "id": "106907",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The result was very disappointing."
+      },
+      "de": {
+        "text": "Das Ergebnis war sehr enttäuschend."
+      }
+    },
+    "wordIds": [
+      "16907"
+    ],
+    "sourceIndex": 6907
+  },
+  {
+    "id": "106908",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The loud bang made me jump."
+      },
+      "de": {
+        "text": "Der laute Knall ließ mich erschrecken."
+      }
+    },
+    "wordIds": [
+      "16908"
+    ],
+    "sourceIndex": 6908
   },
   {
     "id": "106946",
@@ -1819,6 +3179,23 @@ const phrasesFeelings = [
     "sourceIndex": 6946
   },
   {
+    "id": "106963",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She had to smile at his joke."
+      },
+      "de": {
+        "text": "Sie musste über seinen Witz schmunzeln."
+      }
+    },
+    "wordIds": [
+      "16963"
+    ],
+    "sourceIndex": 6963
+  },
+  {
     "id": "107049",
     "category": "feelings",
     "level": "hard",
@@ -1836,6 +3213,23 @@ const phrasesFeelings = [
     "sourceIndex": 7049
   },
   {
+    "id": "107065",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She is a very self-confident woman."
+      },
+      "de": {
+        "text": "Sie ist eine sehr selbstbewusste Frau."
+      }
+    },
+    "wordIds": [
+      "17065"
+    ],
+    "sourceIndex": 7065
+  },
+  {
     "id": "107168",
     "category": "feelings",
     "level": "medium",
@@ -1851,6 +3245,57 @@ const phrasesFeelings = [
       "17168"
     ],
     "sourceIndex": 7168
+  },
+  {
+    "id": "107330",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He is very jealous of his brother."
+      },
+      "de": {
+        "text": "Er ist sehr eifersüchtig auf seinen Bruder."
+      }
+    },
+    "wordIds": [
+      "17330"
+    ],
+    "sourceIndex": 7330
+  },
+  {
+    "id": "107337",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I have a good feeling about this project."
+      },
+      "de": {
+        "text": "Ich habe ein gutes Feeling für dieses Projekt."
+      }
+    },
+    "wordIds": [
+      "17337"
+    ],
+    "sourceIndex": 7337
+  },
+  {
+    "id": "107424",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The child was anxious in the dark."
+      },
+      "de": {
+        "text": "Das Kind war ängstlich im Dunkeln."
+      }
+    },
+    "wordIds": [
+      "17424"
+    ],
+    "sourceIndex": 7424
   },
   {
     "id": "107459",
@@ -1921,6 +3366,40 @@ const phrasesFeelings = [
     "sourceIndex": 7598
   },
   {
+    "id": "107608",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The hotel offers a lot of comfort."
+      },
+      "de": {
+        "text": "Das Hotel bietet viel Komfort."
+      }
+    },
+    "wordIds": [
+      "17608"
+    ],
+    "sourceIndex": 7608
+  },
+  {
+    "id": "107722",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The perceived temperature was much lower."
+      },
+      "de": {
+        "text": "Die gefühlte Temperatur war viel niedriger."
+      }
+    },
+    "wordIds": [
+      "17722"
+    ],
+    "sourceIndex": 7722
+  },
+  {
     "id": "107724",
     "category": "feelings",
     "level": "hard",
@@ -1972,6 +3451,23 @@ const phrasesFeelings = [
     "sourceIndex": 7746
   },
   {
+    "id": "108003",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She is mourning her deceased dog."
+      },
+      "de": {
+        "text": "Sie trauert um ihren verstorbenen Hund."
+      }
+    },
+    "wordIds": [
+      "18003"
+    ],
+    "sourceIndex": 8003
+  },
+  {
     "id": "108004",
     "category": "feelings",
     "level": "hard",
@@ -1987,6 +3483,23 @@ const phrasesFeelings = [
       "18004"
     ],
     "sourceIndex": 8004
+  },
+  {
+    "id": "108007",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He was restless all night."
+      },
+      "de": {
+        "text": "Er war die ganze Nacht unruhig."
+      }
+    },
+    "wordIds": [
+      "18007"
+    ],
+    "sourceIndex": 8007
   },
   {
     "id": "108169",
@@ -2159,6 +3672,40 @@ const phrasesFeelings = [
     "sourceIndex": 8647
   },
   {
+    "id": "108823",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She valued the convenience of online shopping."
+      },
+      "de": {
+        "text": "Sie schätzte die Bequemlichkeit des Online-Shoppings."
+      }
+    },
+    "wordIds": [
+      "18823"
+    ],
+    "sourceIndex": 8823
+  },
+  {
+    "id": "108921",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My workday was very stressful today."
+      },
+      "de": {
+        "text": "Mein Arbeitstag war heute sehr stressig."
+      }
+    },
+    "wordIds": [
+      "18921"
+    ],
+    "sourceIndex": 8921
+  },
+  {
     "id": "108933",
     "category": "feelings",
     "level": "hard",
@@ -2261,6 +3808,23 @@ const phrasesFeelings = [
     "sourceIndex": 9687
   },
   {
+    "id": "109720",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "You shouldn't lie to me."
+      },
+      "de": {
+        "text": "Du solltest mich nicht belügen."
+      }
+    },
+    "wordIds": [
+      "19720"
+    ],
+    "sourceIndex": 9720
+  },
+  {
     "id": "109786",
     "category": "feelings",
     "level": "medium",
@@ -2294,6 +3858,23 @@ const phrasesFeelings = [
       "20736"
     ],
     "sourceIndex": 9815
+  },
+  {
+    "id": "109860",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He is very worried about his family."
+      },
+      "de": {
+        "text": "Er ist sehr besorgt um seine Familie."
+      }
+    },
+    "wordIds": [
+      "19860"
+    ],
+    "sourceIndex": 9860
   },
   {
     "id": "110165",
@@ -2398,6 +3979,40 @@ const phrasesFeelings = [
     "sourceIndex": 10786
   },
   {
+    "id": "110921",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I find his new colleague very unpleasant."
+      },
+      "de": {
+        "text": "Ich finde seinen neuen Kollegen sehr unsympathisch."
+      }
+    },
+    "wordIds": [
+      "20921"
+    ],
+    "sourceIndex": 10921
+  },
+  {
+    "id": "110962",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "One should not laugh at anyone."
+      },
+      "de": {
+        "text": "Man sollte niemanden auslachen."
+      }
+    },
+    "wordIds": [
+      "20962"
+    ],
+    "sourceIndex": 10962
+  },
+  {
     "id": "110986",
     "category": "feelings",
     "level": "hard",
@@ -2464,6 +4079,23 @@ const phrasesFeelings = [
       "21088"
     ],
     "sourceIndex": 11088
+  },
+  {
+    "id": "111162",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The weather is very depressing today."
+      },
+      "de": {
+        "text": "Das Wetter ist heute sehr deprimierend."
+      }
+    },
+    "wordIds": [
+      "21162"
+    ],
+    "sourceIndex": 11162
   },
   {
     "id": "111205",
@@ -2568,6 +4200,40 @@ const phrasesFeelings = [
     "sourceIndex": 11463
   },
   {
+    "id": "111721",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The hat is made of felt."
+      },
+      "de": {
+        "text": "Der Hut ist aus Filz gemacht."
+      }
+    },
+    "wordIds": [
+      "21721"
+    ],
+    "sourceIndex": 11721
+  },
+  {
+    "id": "112003",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The weather was very unpleasant today."
+      },
+      "de": {
+        "text": "Das Wetter war heute sehr ungemütlich."
+      }
+    },
+    "wordIds": [
+      "22003"
+    ],
+    "sourceIndex": 12003
+  },
+  {
     "id": "112167",
     "category": "feelings",
     "level": "hard",
@@ -2602,6 +4268,23 @@ const phrasesFeelings = [
     "sourceIndex": 12337
   },
   {
+    "id": "112650",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "A warm bath is very relaxing."
+      },
+      "de": {
+        "text": "Ein warmes Bad ist sehr entspannend."
+      }
+    },
+    "wordIds": [
+      "22650"
+    ],
+    "sourceIndex": 12650
+  },
+  {
     "id": "112656",
     "category": "feelings",
     "level": "hard",
@@ -2617,6 +4300,23 @@ const phrasesFeelings = [
       "22656"
     ],
     "sourceIndex": 12656
+  },
+  {
+    "id": "112897",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I still need to sleep a bit."
+      },
+      "de": {
+        "text": "Ich muss noch ein bisschen pennen."
+      }
+    },
+    "wordIds": [
+      "22897"
+    ],
+    "sourceIndex": 12897
   },
   {
     "id": "112966",
@@ -2651,6 +4351,57 @@ const phrasesFeelings = [
       "23301"
     ],
     "sourceIndex": 13301
+  },
+  {
+    "id": "113556",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I have a long wish list for Christmas."
+      },
+      "de": {
+        "text": "Ich habe eine lange Wunschliste für Weihnachten."
+      }
+    },
+    "wordIds": [
+      "23556"
+    ],
+    "sourceIndex": 13556
+  },
+  {
+    "id": "113589",
+    "category": "feelings",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "On the weekend, I can finally sleep in."
+      },
+      "de": {
+        "text": "Am Wochenende kann ich endlich ausschlafen."
+      }
+    },
+    "wordIds": [
+      "23589"
+    ],
+    "sourceIndex": 13589
+  },
+  {
+    "id": "113869",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She is a very lovable child."
+      },
+      "de": {
+        "text": "Sie ist ein sehr liebenswertes Kind."
+      }
+    },
+    "wordIds": [
+      "23869"
+    ],
+    "sourceIndex": 13869
   },
   {
     "id": "113991",
@@ -2772,6 +4523,23 @@ const phrasesFeelings = [
     "sourceIndex": 14447
   },
   {
+    "id": "114721",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She lives a carefree life."
+      },
+      "de": {
+        "text": "Sie lebt ein sorgloses Leben."
+      }
+    },
+    "wordIds": [
+      "24721"
+    ],
+    "sourceIndex": 14721
+  },
+  {
     "id": "114985",
     "category": "feelings",
     "level": "medium",
@@ -2804,6 +4572,23 @@ const phrasesFeelings = [
       "25082"
     ],
     "sourceIndex": 15082
+  },
+  {
+    "id": "115126",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I just want to relax on the weekend."
+      },
+      "de": {
+        "text": "Ich möchte am Wochenende einfach nur relaxen."
+      }
+    },
+    "wordIds": [
+      "25126"
+    ],
+    "sourceIndex": 15126
   },
   {
     "id": "115197",
@@ -2855,6 +4640,40 @@ const phrasesFeelings = [
       "26006"
     ],
     "sourceIndex": 16006
+  },
+  {
+    "id": "116772",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She prepared a small surprise for her birthday."
+      },
+      "de": {
+        "text": "Sie bereitete eine kleine Surprise für ihren Geburtstag vor."
+      }
+    },
+    "wordIds": [
+      "26772"
+    ],
+    "sourceIndex": 16772
+  },
+  {
+    "id": "117133",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I was very disappointed with the result."
+      },
+      "de": {
+        "text": "Ich war sehr enttäuscht über das Ergebnis."
+      }
+    },
+    "wordIds": [
+      "27133"
+    ],
+    "sourceIndex": 17133
   },
   {
     "id": "117471",
@@ -2976,6 +4795,57 @@ const phrasesFeelings = [
     "sourceIndex": 18742
   },
   {
+    "id": "118790",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He needs to calm down first before we can talk."
+      },
+      "de": {
+        "text": "Er muss erst mal runterkommen, bevor wir reden können."
+      }
+    },
+    "wordIds": [
+      "28790"
+    ],
+    "sourceIndex": 18790
+  },
+  {
+    "id": "118798",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She spent a sleepless night."
+      },
+      "de": {
+        "text": "Sie verbrachte eine schlaflose Nacht."
+      }
+    },
+    "wordIds": [
+      "28798"
+    ],
+    "sourceIndex": 18798
+  },
+  {
+    "id": "118843",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "His words were very hurtful."
+      },
+      "de": {
+        "text": "Seine Worte waren sehr verletzend."
+      }
+    },
+    "wordIds": [
+      "28843"
+    ],
+    "sourceIndex": 18843
+  },
+  {
     "id": "119178",
     "category": "feelings",
     "level": "hard",
@@ -3027,6 +4897,23 @@ const phrasesFeelings = [
     "sourceIndex": 19277
   },
   {
+    "id": "119377",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please shut down the computer."
+      },
+      "de": {
+        "text": "Bitte fahren Sie den Computer herunter."
+      }
+    },
+    "wordIds": [
+      "29377"
+    ],
+    "sourceIndex": 19377
+  },
+  {
     "id": "119668",
     "category": "feelings",
     "level": "hard",
@@ -3059,6 +4946,23 @@ const phrasesFeelings = [
       "29750"
     ],
     "sourceIndex": 19750
+  },
+  {
+    "id": "120116",
+    "category": "feelings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Her words were very encouraging."
+      },
+      "de": {
+        "text": "Ihre Worte waren sehr ermutigend."
+      }
+    },
+    "wordIds": [
+      "30116"
+    ],
+    "sourceIndex": 20116
   }
 ];
 globalThis.WortwerkData?.register("phrases", "feelings", phrasesFeelings);

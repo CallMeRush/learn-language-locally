@@ -17,6 +17,23 @@ const phrasesTravel = [
     "sourceIndex": 14
   },
   {
+    "id": "100035",
+    "category": "travel",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I come from Germany."
+      },
+      "de": {
+        "text": "Ich komme aus Deutschland."
+      }
+    },
+    "wordIds": [
+      "10035"
+    ],
+    "sourceIndex": 35
+  },
+  {
     "id": "100043",
     "category": "travel",
     "level": "easy",
@@ -68,6 +85,23 @@ const phrasesTravel = [
     "sourceIndex": 141
   },
   {
+    "id": "100169",
+    "category": "travel",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "Please hold the door open."
+      },
+      "de": {
+        "text": "Bitte halten Sie die Tür offen."
+      }
+    },
+    "wordIds": [
+      "10169"
+    ],
+    "sourceIndex": 169
+  },
+  {
     "id": "100189",
     "category": "travel",
     "level": "easy",
@@ -83,6 +117,57 @@ const phrasesTravel = [
       "10189"
     ],
     "sourceIndex": 189
+  },
+  {
+    "id": "100190",
+    "category": "travel",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "Can you bring me the book?"
+      },
+      "de": {
+        "text": "Kannst du mir das Buch bringen?"
+      }
+    },
+    "wordIds": [
+      "10190"
+    ],
+    "sourceIndex": 190
+  },
+  {
+    "id": "100243",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "In which direction do we have to go?"
+      },
+      "de": {
+        "text": "In welche Richtung müssen wir gehen?"
+      }
+    },
+    "wordIds": [
+      "10243"
+    ],
+    "sourceIndex": 243
+  },
+  {
+    "id": "100261",
+    "category": "travel",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I drive to work every day."
+      },
+      "de": {
+        "text": "Ich fahre jeden Tag zur Arbeit."
+      }
+    },
+    "wordIds": [
+      "10261"
+    ],
+    "sourceIndex": 261
   },
   {
     "id": "100307",
@@ -102,6 +187,23 @@ const phrasesTravel = [
     "sourceIndex": 307
   },
   {
+    "id": "100349",
+    "category": "travel",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The apple falls from the tree."
+      },
+      "de": {
+        "text": "Der Apfel fällt vom Baum."
+      }
+    },
+    "wordIds": [
+      "10349"
+    ],
+    "sourceIndex": 349
+  },
+  {
     "id": "100372",
     "category": "travel",
     "level": "easy",
@@ -117,6 +219,74 @@ const phrasesTravel = [
       "10372"
     ],
     "sourceIndex": 372
+  },
+  {
+    "id": "100374",
+    "category": "travel",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The table is two meters long."
+      },
+      "de": {
+        "text": "Der Tisch ist zwei Meter lang."
+      }
+    },
+    "wordIds": [
+      "10374"
+    ],
+    "sourceIndex": 374
+  },
+  {
+    "id": "100381",
+    "category": "travel",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The distance is 100 kilometers."
+      },
+      "de": {
+        "text": "Die Strecke beträgt 100 Km."
+      }
+    },
+    "wordIds": [
+      "10381"
+    ],
+    "sourceIndex": 381
+  },
+  {
+    "id": "100386",
+    "category": "travel",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "He has to pull the cart."
+      },
+      "de": {
+        "text": "Er muss den Wagen ziehen."
+      }
+    },
+    "wordIds": [
+      "10386"
+    ],
+    "sourceIndex": 386
+  },
+  {
+    "id": "100389",
+    "category": "travel",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The train departs on time."
+      },
+      "de": {
+        "text": "Die Bahn fährt pünktlich ab."
+      }
+    },
+    "wordIds": [
+      "10389"
+    ],
+    "sourceIndex": 389
   },
   {
     "id": "100396",
@@ -187,6 +357,40 @@ const phrasesTravel = [
     "sourceIndex": 459
   },
   {
+    "id": "100483",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We are still on the way."
+      },
+      "de": {
+        "text": "Wir sind noch unterwegs."
+      }
+    },
+    "wordIds": [
+      "10483"
+    ],
+    "sourceIndex": 483
+  },
+  {
+    "id": "100521",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Take a step forward."
+      },
+      "de": {
+        "text": "Mach einen Schritt nach vorne."
+      }
+    },
+    "wordIds": [
+      "10521"
+    ],
+    "sourceIndex": 521
+  },
+  {
     "id": "100528",
     "category": "travel",
     "level": "hard",
@@ -239,6 +443,23 @@ const phrasesTravel = [
     "sourceIndex": 571
   },
   {
+    "id": "100574",
+    "category": "travel",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The train departs on time."
+      },
+      "de": {
+        "text": "Der Zug fährt pünktlich ab."
+      }
+    },
+    "wordIds": [
+      "10574"
+    ],
+    "sourceIndex": 574
+  },
+  {
     "id": "100586",
     "category": "travel",
     "level": "medium",
@@ -273,6 +494,23 @@ const phrasesTravel = [
     "sourceIndex": 639
   },
   {
+    "id": "100652",
+    "category": "travel",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I need a map for the city."
+      },
+      "de": {
+        "text": "Ich brauche eine Karte für die Stadt."
+      }
+    },
+    "wordIds": [
+      "10652"
+    ],
+    "sourceIndex": 652
+  },
+  {
     "id": "100688",
     "category": "travel",
     "level": "medium",
@@ -288,6 +526,40 @@ const phrasesTravel = [
       "10688"
     ],
     "sourceIndex": 688
+  },
+  {
+    "id": "100718",
+    "category": "travel",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "Can you please get the book?"
+      },
+      "de": {
+        "text": "Kannst du bitte das Buch holen?"
+      }
+    },
+    "wordIds": [
+      "10718"
+    ],
+    "sourceIndex": 718
+  },
+  {
+    "id": "100719",
+    "category": "travel",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "That's ten kilometers to the city."
+      },
+      "de": {
+        "text": "Das sind zehn Kilometer bis zur Stadt."
+      }
+    },
+    "wordIds": [
+      "10719"
+    ],
+    "sourceIndex": 719
   },
   {
     "id": "100759",
@@ -375,6 +647,23 @@ const phrasesTravel = [
     "sourceIndex": 864
   },
   {
+    "id": "100872",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We are taking a tour through the city."
+      },
+      "de": {
+        "text": "Wir machen eine Tour durch die Stadt."
+      }
+    },
+    "wordIds": [
+      "10872"
+    ],
+    "sourceIndex": 872
+  },
+  {
     "id": "100882",
     "category": "travel",
     "level": "easy",
@@ -390,6 +679,41 @@ const phrasesTravel = [
       "10882"
     ],
     "sourceIndex": 882
+  },
+  {
+    "id": "100900",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The sun sets in the west."
+      },
+      "de": {
+        "text": "Die Sonne geht im Westen unter."
+      }
+    },
+    "wordIds": [
+      "10900",
+      "11177"
+    ],
+    "sourceIndex": 900
+  },
+  {
+    "id": "100904",
+    "category": "travel",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The bus is coming soon."
+      },
+      "de": {
+        "text": "Der Bus kommt gleich."
+      }
+    },
+    "wordIds": [
+      "10904"
+    ],
+    "sourceIndex": 904
   },
   {
     "id": "100909",
@@ -458,6 +782,23 @@ const phrasesTravel = [
       "10982"
     ],
     "sourceIndex": 982
+  },
+  {
+    "id": "100995",
+    "category": "travel",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "We would like to travel to Italy next year."
+      },
+      "de": {
+        "text": "Wir möchten nächstes Jahr nach Italien reisen."
+      }
+    },
+    "wordIds": [
+      "10995"
+    ],
+    "sourceIndex": 995
   },
   {
     "id": "101005",
@@ -545,6 +886,40 @@ const phrasesTravel = [
     "sourceIndex": 1069
   },
   {
+    "id": "101124",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please keep your distance."
+      },
+      "de": {
+        "text": "Halten Sie bitte Abstand."
+      }
+    },
+    "wordIds": [
+      "11124"
+    ],
+    "sourceIndex": 1124
+  },
+  {
+    "id": "101152",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The bridge is very old."
+      },
+      "de": {
+        "text": "Die Brücke ist sehr alt."
+      }
+    },
+    "wordIds": [
+      "11152"
+    ],
+    "sourceIndex": 1152
+  },
+  {
     "id": "101157",
     "category": "travel",
     "level": "hard",
@@ -562,6 +937,40 @@ const phrasesTravel = [
     "sourceIndex": 1157
   },
   {
+    "id": "101220",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Please take a seat, here is your seat."
+      },
+      "de": {
+        "text": "Bitte nehmen Sie Platz, hier ist Ihr Sitz."
+      }
+    },
+    "wordIds": [
+      "11220"
+    ],
+    "sourceIndex": 1220
+  },
+  {
+    "id": "101259",
+    "category": "travel",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "My phone is broken."
+      },
+      "de": {
+        "text": "Mein Handy ist kaputt."
+      }
+    },
+    "wordIds": [
+      "11259"
+    ],
+    "sourceIndex": 1259
+  },
+  {
     "id": "101266",
     "category": "travel",
     "level": "medium",
@@ -577,6 +986,23 @@ const phrasesTravel = [
       "11266"
     ],
     "sourceIndex": 1266
+  },
+  {
+    "id": "101291",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Please show your passport."
+      },
+      "de": {
+        "text": "Zeigen Sie bitte Ihren Pass."
+      }
+    },
+    "wordIds": [
+      "11291"
+    ],
+    "sourceIndex": 1291
   },
   {
     "id": "101296",
@@ -613,6 +1039,74 @@ const phrasesTravel = [
     "sourceIndex": 1297
   },
   {
+    "id": "101309",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The wind comes from the North."
+      },
+      "de": {
+        "text": "Der Wind kommt aus Nord."
+      }
+    },
+    "wordIds": [
+      "11309"
+    ],
+    "sourceIndex": 1309
+  },
+  {
+    "id": "101310",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The sun rises in the East."
+      },
+      "de": {
+        "text": "Die Sonne geht im Ost auf."
+      }
+    },
+    "wordIds": [
+      "11310"
+    ],
+    "sourceIndex": 1310
+  },
+  {
+    "id": "101330",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "This vehicle is very fast."
+      },
+      "de": {
+        "text": "Dieses Fahrzeug ist sehr schnell."
+      }
+    },
+    "wordIds": [
+      "11330"
+    ],
+    "sourceIndex": 1330
+  },
+  {
+    "id": "101332",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The escape from the fire was difficult."
+      },
+      "de": {
+        "text": "Die Flucht vor dem Feuer war schwierig."
+      }
+    },
+    "wordIds": [
+      "11332"
+    ],
+    "sourceIndex": 1332
+  },
+  {
     "id": "101361",
     "category": "travel",
     "level": "medium",
@@ -647,6 +1141,40 @@ const phrasesTravel = [
     "sourceIndex": 1383
   },
   {
+    "id": "101384",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Please stop talking!"
+      },
+      "de": {
+        "text": "Bitte hör auf zu reden!"
+      }
+    },
+    "wordIds": [
+      "11384"
+    ],
+    "sourceIndex": 1384
+  },
+  {
+    "id": "101389",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The boat floats on the water."
+      },
+      "de": {
+        "text": "Das Boot schwimmt auf dem Wasser."
+      }
+    },
+    "wordIds": [
+      "11389"
+    ],
+    "sourceIndex": 1389
+  },
+  {
     "id": "101413",
     "category": "travel",
     "level": "easy",
@@ -662,6 +1190,23 @@ const phrasesTravel = [
       "11413"
     ],
     "sourceIndex": 1413
+  },
+  {
+    "id": "101490",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The flight to Berlin takes two hours."
+      },
+      "de": {
+        "text": "Der Flug nach Berlin dauert zwei Stunden."
+      }
+    },
+    "wordIds": [
+      "11490"
+    ],
+    "sourceIndex": 1490
   },
   {
     "id": "101527",
@@ -713,6 +1258,40 @@ const phrasesTravel = [
       "11568"
     ],
     "sourceIndex": 1568
+  },
+  {
+    "id": "101587",
+    "category": "travel",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The airplane lands in ten minutes."
+      },
+      "de": {
+        "text": "Das Flugzeug landet in zehn Minuten."
+      }
+    },
+    "wordIds": [
+      "11587"
+    ],
+    "sourceIndex": 1587
+  },
+  {
+    "id": "101660",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I ordered a double portion."
+      },
+      "de": {
+        "text": "Ich habe eine doppelte Portion bestellt."
+      }
+    },
+    "wordIds": [
+      "11660"
+    ],
+    "sourceIndex": 1660
   },
   {
     "id": "101695",
@@ -851,6 +1430,23 @@ const phrasesTravel = [
     "sourceIndex": 1861
   },
   {
+    "id": "101909",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The western side of the building is sunny."
+      },
+      "de": {
+        "text": "Die westliche Seite des Gebäudes ist sonnig."
+      }
+    },
+    "wordIds": [
+      "11909"
+    ],
+    "sourceIndex": 1909
+  },
+  {
     "id": "101920",
     "category": "travel",
     "level": "hard",
@@ -866,6 +1462,23 @@ const phrasesTravel = [
       "11920"
     ],
     "sourceIndex": 1920
+  },
+  {
+    "id": "101941",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The car is parked in front of the house."
+      },
+      "de": {
+        "text": "Der Pkw parkt vor dem Haus."
+      }
+    },
+    "wordIds": [
+      "11941"
+    ],
+    "sourceIndex": 1941
   },
   {
     "id": "101974",
@@ -885,6 +1498,40 @@ const phrasesTravel = [
     "sourceIndex": 1974
   },
   {
+    "id": "102029",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We had to wait a long time at customs."
+      },
+      "de": {
+        "text": "Wir mussten am Zoll lange warten."
+      }
+    },
+    "wordIds": [
+      "12029"
+    ],
+    "sourceIndex": 2029
+  },
+  {
+    "id": "102112",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Can you pick up the book?"
+      },
+      "de": {
+        "text": "Kannst du das Buch aufheben?"
+      }
+    },
+    "wordIds": [
+      "12112"
+    ],
+    "sourceIndex": 2112
+  },
+  {
     "id": "102216",
     "category": "travel",
     "level": "medium",
@@ -900,6 +1547,23 @@ const phrasesTravel = [
       "12216"
     ],
     "sourceIndex": 2216
+  },
+  {
+    "id": "102259",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Tourism is an important source of income for the region."
+      },
+      "de": {
+        "text": "Der Tourismus ist eine wichtige Einnahmequelle für die Region."
+      }
+    },
+    "wordIds": [
+      "12259"
+    ],
+    "sourceIndex": 2259
   },
   {
     "id": "102260",
@@ -1089,6 +1753,40 @@ const phrasesTravel = [
     "sourceIndex": 2531
   },
   {
+    "id": "102543",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "They lived in a small hut."
+      },
+      "de": {
+        "text": "Sie wohnten in einer kleinen Hütte."
+      }
+    },
+    "wordIds": [
+      "12543"
+    ],
+    "sourceIndex": 2543
+  },
+  {
+    "id": "102571",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She trains new teachers."
+      },
+      "de": {
+        "text": "Sie bildet neue Lehrer aus."
+      }
+    },
+    "wordIds": [
+      "12571"
+    ],
+    "sourceIndex": 2571
+  },
+  {
     "id": "102606",
     "category": "travel",
     "level": "medium",
@@ -1155,6 +1853,23 @@ const phrasesTravel = [
       "12697"
     ],
     "sourceIndex": 2697
+  },
+  {
+    "id": "102739",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please read the manual."
+      },
+      "de": {
+        "text": "Bitte lesen Sie das Handbuch."
+      }
+    },
+    "wordIds": [
+      "12739"
+    ],
+    "sourceIndex": 2739
   },
   {
     "id": "102804",
@@ -1242,6 +1957,23 @@ const phrasesTravel = [
     "sourceIndex": 2909
   },
   {
+    "id": "102910",
+    "category": "travel",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I train every day."
+      },
+      "de": {
+        "text": "Ich trainiere jeden Tag."
+      }
+    },
+    "wordIds": [
+      "12910"
+    ],
+    "sourceIndex": 2910
+  },
+  {
     "id": "102940",
     "category": "travel",
     "level": "hard",
@@ -1274,6 +2006,23 @@ const phrasesTravel = [
       "12947"
     ],
     "sourceIndex": 2947
+  },
+  {
+    "id": "102948",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I bought a pack of cookies."
+      },
+      "de": {
+        "text": "Ich habe ein Pack Kekse gekauft."
+      }
+    },
+    "wordIds": [
+      "12948"
+    ],
+    "sourceIndex": 2948
   },
   {
     "id": "102980",
@@ -1325,6 +2074,23 @@ const phrasesTravel = [
       "13014"
     ],
     "sourceIndex": 3014
+  },
+  {
+    "id": "103087",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He couldn't stay any longer."
+      },
+      "de": {
+        "text": "Er konnte sich nicht länger aufhalten."
+      }
+    },
+    "wordIds": [
+      "13087"
+    ],
+    "sourceIndex": 3087
   },
   {
     "id": "103183",
@@ -1633,6 +2399,40 @@ const phrasesTravel = [
     "sourceIndex": 3529
   },
   {
+    "id": "103568",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We have to cancel the meeting."
+      },
+      "de": {
+        "text": "Wir müssen das Treffen absagen."
+      }
+    },
+    "wordIds": [
+      "13568"
+    ],
+    "sourceIndex": 3568
+  },
+  {
+    "id": "103588",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The train departs on time."
+      },
+      "de": {
+        "text": "Die Eisenbahn fährt pünktlich ab."
+      }
+    },
+    "wordIds": [
+      "13588"
+    ],
+    "sourceIndex": 3588
+  },
+  {
     "id": "103605",
     "category": "travel",
     "level": "hard",
@@ -1684,6 +2484,57 @@ const phrasesTravel = [
     "sourceIndex": 3665
   },
   {
+    "id": "103726",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "One mile is about 1.6 kilometers."
+      },
+      "de": {
+        "text": "Eine Meile sind etwa 1,6 Kilometer."
+      }
+    },
+    "wordIds": [
+      "13726"
+    ],
+    "sourceIndex": 3726
+  },
+  {
+    "id": "103734",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Berlin has many interesting sights."
+      },
+      "de": {
+        "text": "Berlin hat viele interessante Sehenswürdigkeiten."
+      }
+    },
+    "wordIds": [
+      "13734"
+    ],
+    "sourceIndex": 3734
+  },
+  {
+    "id": "103758",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The concert unfortunately has to be cancelled."
+      },
+      "de": {
+        "text": "Das Konzert muss leider ausfallen."
+      }
+    },
+    "wordIds": [
+      "13758"
+    ],
+    "sourceIndex": 3758
+  },
+  {
     "id": "103774",
     "category": "travel",
     "level": "easy",
@@ -1699,6 +2550,40 @@ const phrasesTravel = [
       "13774"
     ],
     "sourceIndex": 3774
+  },
+  {
+    "id": "103836",
+    "category": "travel",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The next stop is at the market square."
+      },
+      "de": {
+        "text": "Die nächste Haltestelle ist am Marktplatz."
+      }
+    },
+    "wordIds": [
+      "13836"
+    ],
+    "sourceIndex": 3836
+  },
+  {
+    "id": "103841",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "A helicopter landed on the roof."
+      },
+      "de": {
+        "text": "Ein Hubschrauber landete auf dem Dach."
+      }
+    },
+    "wordIds": [
+      "13841"
+    ],
+    "sourceIndex": 3841
   },
   {
     "id": "103886",
@@ -2194,6 +3079,23 @@ const phrasesTravel = [
     "sourceIndex": 4814
   },
   {
+    "id": "104817",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We received a cancellation for the concert."
+      },
+      "de": {
+        "text": "Wir haben eine Absage für das Konzert erhalten."
+      }
+    },
+    "wordIds": [
+      "14817"
+    ],
+    "sourceIndex": 4817
+  },
+  {
     "id": "104848",
     "category": "travel",
     "level": "medium",
@@ -2243,6 +3145,40 @@ const phrasesTravel = [
       "14857"
     ],
     "sourceIndex": 4857
+  },
+  {
+    "id": "104910",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He rides his bike to work every day."
+      },
+      "de": {
+        "text": "Er fährt jeden Tag mit seinem Bike zur Arbeit."
+      }
+    },
+    "wordIds": [
+      "14910"
+    ],
+    "sourceIndex": 4910
+  },
+  {
+    "id": "104921",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The roadway was slippery due to the ice."
+      },
+      "de": {
+        "text": "Die Fahrbahn war glatt wegen des Eises."
+      }
+    },
+    "wordIds": [
+      "14921"
+    ],
+    "sourceIndex": 4921
   },
   {
     "id": "104938",
@@ -2313,6 +3249,23 @@ const phrasesTravel = [
     "sourceIndex": 5023
   },
   {
+    "id": "105047",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The house is located in the southwest of the city."
+      },
+      "de": {
+        "text": "Das Haus liegt im Südwesten der Stadt."
+      }
+    },
+    "wordIds": [
+      "15047"
+    ],
+    "sourceIndex": 5047
+  },
+  {
     "id": "105078",
     "category": "travel",
     "level": "hard",
@@ -2328,6 +3281,23 @@ const phrasesTravel = [
       "15078"
     ],
     "sourceIndex": 5078
+  },
+  {
+    "id": "105127",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We want to go sailing on the weekend."
+      },
+      "de": {
+        "text": "Wir wollen am Wochenende segeln gehen."
+      }
+    },
+    "wordIds": [
+      "15127"
+    ],
+    "sourceIndex": 5127
   },
   {
     "id": "105175",
@@ -2415,6 +3385,40 @@ const phrasesTravel = [
     "sourceIndex": 5361
   },
   {
+    "id": "105457",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We took the ferry to the island."
+      },
+      "de": {
+        "text": "Wir nahmen die Fähre zur Insel."
+      }
+    },
+    "wordIds": [
+      "15457"
+    ],
+    "sourceIndex": 5457
+  },
+  {
+    "id": "105460",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "She left her handbag on the table."
+      },
+      "de": {
+        "text": "Sie hat ihre Handtasche auf dem Tisch liegen lassen."
+      }
+    },
+    "wordIds": [
+      "15460"
+    ],
+    "sourceIndex": 5460
+  },
+  {
     "id": "105473",
     "category": "travel",
     "level": "medium",
@@ -2430,6 +3434,23 @@ const phrasesTravel = [
       "15473"
     ],
     "sourceIndex": 5473
+  },
+  {
+    "id": "105501",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He was able to double his income."
+      },
+      "de": {
+        "text": "Er konnte seine Einnahmen verdoppeln."
+      }
+    },
+    "wordIds": [
+      "15501"
+    ],
+    "sourceIndex": 5501
   },
   {
     "id": "105523",
@@ -2517,6 +3538,23 @@ const phrasesTravel = [
     "sourceIndex": 5617
   },
   {
+    "id": "105644",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Be careful, the edge is sharp."
+      },
+      "de": {
+        "text": "Sei vorsichtig, die Kante ist scharf."
+      }
+    },
+    "wordIds": [
+      "15644"
+    ],
+    "sourceIndex": 5644
+  },
+  {
     "id": "105772",
     "category": "travel",
     "level": "hard",
@@ -2568,6 +3606,40 @@ const phrasesTravel = [
     "sourceIndex": 5790
   },
   {
+    "id": "105821",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The jet landed on time."
+      },
+      "de": {
+        "text": "Der Jet landete pünktlich."
+      }
+    },
+    "wordIds": [
+      "15821"
+    ],
+    "sourceIndex": 5821
+  },
+  {
+    "id": "105833",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The local transport in the city is very well developed."
+      },
+      "de": {
+        "text": "Der Nahverkehr in der Stadt ist sehr gut ausgebaut."
+      }
+    },
+    "wordIds": [
+      "15833"
+    ],
+    "sourceIndex": 5833
+  },
+  {
     "id": "105865",
     "category": "travel",
     "level": "hard",
@@ -2602,6 +3674,23 @@ const phrasesTravel = [
     "sourceIndex": 5889
   },
   {
+    "id": "105896",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We looked for the city in the atlas."
+      },
+      "de": {
+        "text": "Wir suchten die Stadt im Atlas."
+      }
+    },
+    "wordIds": [
+      "15896"
+    ],
+    "sourceIndex": 5896
+  },
+  {
     "id": "105908",
     "category": "travel",
     "level": "hard",
@@ -2617,6 +3706,23 @@ const phrasesTravel = [
       "15908"
     ],
     "sourceIndex": 5908
+  },
+  {
+    "id": "106015",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We want to explore the area."
+      },
+      "de": {
+        "text": "Wir wollen die Gegend erkunden."
+      }
+    },
+    "wordIds": [
+      "16015"
+    ],
+    "sourceIndex": 6015
   },
   {
     "id": "106025",
@@ -2823,6 +3929,23 @@ const phrasesTravel = [
     "sourceIndex": 6327
   },
   {
+    "id": "106336",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The wind comes from the northeast."
+      },
+      "de": {
+        "text": "Der Wind kommt aus dem Nordosten."
+      }
+    },
+    "wordIds": [
+      "16336"
+    ],
+    "sourceIndex": 6336
+  },
+  {
     "id": "106352",
     "category": "travel",
     "level": "hard",
@@ -2872,6 +3995,40 @@ const phrasesTravel = [
       "16424"
     ],
     "sourceIndex": 6424
+  },
+  {
+    "id": "106459",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Many holidaymakers visit the city in summer."
+      },
+      "de": {
+        "text": "Viele Urlauber besuchen die Stadt im Sommer."
+      }
+    },
+    "wordIds": [
+      "16459"
+    ],
+    "sourceIndex": 6459
+  },
+  {
+    "id": "106482",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Take the next exit."
+      },
+      "de": {
+        "text": "Nehmen Sie die nächste Ausfahrt."
+      }
+    },
+    "wordIds": [
+      "16482"
+    ],
+    "sourceIndex": 6482
   },
   {
     "id": "106491",
@@ -2993,6 +4150,23 @@ const phrasesTravel = [
     "sourceIndex": 6691
   },
   {
+    "id": "106748",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The setting must be done manually."
+      },
+      "de": {
+        "text": "Die Einstellung muss manuell vorgenommen werden."
+      }
+    },
+    "wordIds": [
+      "16748"
+    ],
+    "sourceIndex": 6748
+  },
+  {
     "id": "106754",
     "category": "travel",
     "level": "hard",
@@ -3095,6 +4269,40 @@ const phrasesTravel = [
     "sourceIndex": 6825
   },
   {
+    "id": "106861",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The wind comes from the southwest."
+      },
+      "de": {
+        "text": "Der Wind kommt aus Südwest."
+      }
+    },
+    "wordIds": [
+      "16861"
+    ],
+    "sourceIndex": 6861
+  },
+  {
+    "id": "106905",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "More and more people are buying an electric car."
+      },
+      "de": {
+        "text": "Immer mehr Menschen kaufen ein Elektroauto."
+      }
+    },
+    "wordIds": [
+      "16905"
+    ],
+    "sourceIndex": 6905
+  },
+  {
     "id": "106985",
     "category": "travel",
     "level": "hard",
@@ -3144,6 +4352,23 @@ const phrasesTravel = [
       "17036"
     ],
     "sourceIndex": 7036
+  },
+  {
+    "id": "107072",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The wind comes from the southeast."
+      },
+      "de": {
+        "text": "Der Wind kommt aus dem Südosten."
+      }
+    },
+    "wordIds": [
+      "17072"
+    ],
+    "sourceIndex": 7072
   },
   {
     "id": "107116",
@@ -3212,6 +4437,23 @@ const phrasesTravel = [
       "17228"
     ],
     "sourceIndex": 7228
+  },
+  {
+    "id": "107280",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We have to change at the next station."
+      },
+      "de": {
+        "text": "Wir müssen am nächsten Bahnhof umsteigen."
+      }
+    },
+    "wordIds": [
+      "17280"
+    ],
+    "sourceIndex": 7280
   },
   {
     "id": "107289",
@@ -3350,6 +4592,40 @@ const phrasesTravel = [
     "sourceIndex": 7614
   },
   {
+    "id": "107626",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The house is located in the northwest of the city."
+      },
+      "de": {
+        "text": "Das Haus liegt im Nordwesten der Stadt."
+      }
+    },
+    "wordIds": [
+      "17626"
+    ],
+    "sourceIndex": 7626
+  },
+  {
+    "id": "107638",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We took a tour through the old town."
+      },
+      "de": {
+        "text": "Wir machten einen Rundgang durch die Altstadt."
+      }
+    },
+    "wordIds": [
+      "17638"
+    ],
+    "sourceIndex": 7638
+  },
+  {
     "id": "107647",
     "category": "travel",
     "level": "hard",
@@ -3367,6 +4643,23 @@ const phrasesTravel = [
     "sourceIndex": 7647
   },
   {
+    "id": "107730",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "A helicopter landed on the roof."
+      },
+      "de": {
+        "text": "Ein Helikopter landete auf dem Dach."
+      }
+    },
+    "wordIds": [
+      "17730"
+    ],
+    "sourceIndex": 7730
+  },
+  {
     "id": "107758",
     "category": "travel",
     "level": "hard",
@@ -3382,6 +4675,23 @@ const phrasesTravel = [
       "17758"
     ],
     "sourceIndex": 7758
+  },
+  {
+    "id": "107846",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The highway is very busy today."
+      },
+      "de": {
+        "text": "Der Highway ist heute sehr voll."
+      }
+    },
+    "wordIds": [
+      "17846"
+    ],
+    "sourceIndex": 7846
   },
   {
     "id": "107876",
@@ -3418,6 +4728,23 @@ const phrasesTravel = [
     "sourceIndex": 7919
   },
   {
+    "id": "107936",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We saw a flying bird."
+      },
+      "de": {
+        "text": "Wir sahen einen fliegenden Vogel."
+      }
+    },
+    "wordIds": [
+      "17936"
+    ],
+    "sourceIndex": 7936
+  },
+  {
     "id": "108001",
     "category": "travel",
     "level": "hard",
@@ -3452,6 +4779,108 @@ const phrasesTravel = [
     "sourceIndex": 8046
   },
   {
+    "id": "108121",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The new driver for the graphics card is available."
+      },
+      "de": {
+        "text": "Der neue Treiber für die Grafikkarte ist verfügbar."
+      }
+    },
+    "wordIds": [
+      "18121"
+    ],
+    "sourceIndex": 8121
+  },
+  {
+    "id": "108130",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "All road users must observe the rules."
+      },
+      "de": {
+        "text": "Alle Verkehrsteilnehmer müssen die Regeln beachten."
+      }
+    },
+    "wordIds": [
+      "18130"
+    ],
+    "sourceIndex": 8130
+  },
+  {
+    "id": "108172",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Please don't forget to pack your clothes."
+      },
+      "de": {
+        "text": "Bitte vergiss nicht, deine Kleidung einzupacken."
+      }
+    },
+    "wordIds": [
+      "18172"
+    ],
+    "sourceIndex": 8172
+  },
+  {
+    "id": "108178",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The freight was delivered on time."
+      },
+      "de": {
+        "text": "Die Fracht wurde pünktlich geliefert."
+      }
+    },
+    "wordIds": [
+      "18178"
+    ],
+    "sourceIndex": 8178
+  },
+  {
+    "id": "108198",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We used a compass to orient ourselves in the forest."
+      },
+      "de": {
+        "text": "Wir benutzten einen Kompass, um uns im Wald zu orientieren."
+      }
+    },
+    "wordIds": [
+      "18198"
+    ],
+    "sourceIndex": 8198
+  },
+  {
+    "id": "108201",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She is planning a cruise to the Caribbean."
+      },
+      "de": {
+        "text": "Sie plant eine Kreuzfahrt in die Karibik."
+      }
+    },
+    "wordIds": [
+      "18201"
+    ],
+    "sourceIndex": 8201
+  },
+  {
     "id": "108205",
     "category": "travel",
     "level": "hard",
@@ -3467,6 +4896,40 @@ const phrasesTravel = [
       "18205"
     ],
     "sourceIndex": 8205
+  },
+  {
+    "id": "108238",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He tied the package together with a rope."
+      },
+      "de": {
+        "text": "Er band das Paket mit einem Strick zusammen."
+      }
+    },
+    "wordIds": [
+      "18238"
+    ],
+    "sourceIndex": 8238
+  },
+  {
+    "id": "108282",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He drives a red convertible."
+      },
+      "de": {
+        "text": "Er fährt ein rotes Cabrio."
+      }
+    },
+    "wordIds": [
+      "18282"
+    ],
+    "sourceIndex": 8282
   },
   {
     "id": "108314",
@@ -3537,6 +5000,40 @@ const phrasesTravel = [
     "sourceIndex": 8395
   },
   {
+    "id": "108559",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The footpath is very busy today."
+      },
+      "de": {
+        "text": "Der Fussweg ist heute sehr belebt."
+      }
+    },
+    "wordIds": [
+      "18559"
+    ],
+    "sourceIndex": 8559
+  },
+  {
+    "id": "108595",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The skiers enjoyed the slope."
+      },
+      "de": {
+        "text": "Die Skifahrer genossen die Piste."
+      }
+    },
+    "wordIds": [
+      "18595"
+    ],
+    "sourceIndex": 8595
+  },
+  {
     "id": "108621",
     "category": "travel",
     "level": "hard",
@@ -3554,6 +5051,23 @@ const phrasesTravel = [
     "sourceIndex": 8621
   },
   {
+    "id": "108708",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The farmer pulled the cart across the field."
+      },
+      "de": {
+        "text": "Der Bauer zog den Karren über das Feld."
+      }
+    },
+    "wordIds": [
+      "18708"
+    ],
+    "sourceIndex": 8708
+  },
+  {
     "id": "108815",
     "category": "travel",
     "level": "hard",
@@ -3569,6 +5083,23 @@ const phrasesTravel = [
       "18815"
     ],
     "sourceIndex": 8815
+  },
+  {
+    "id": "108850",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The vessel was filled with water."
+      },
+      "de": {
+        "text": "Das Gefäss war mit Wasser gefüllt."
+      }
+    },
+    "wordIds": [
+      "18850"
+    ],
+    "sourceIndex": 8850
   },
   {
     "id": "108877",
@@ -3688,6 +5219,23 @@ const phrasesTravel = [
       "18983"
     ],
     "sourceIndex": 8983
+  },
+  {
+    "id": "109037",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The wind comes from the northwest."
+      },
+      "de": {
+        "text": "Der Wind kommt aus Nordwest."
+      }
+    },
+    "wordIds": [
+      "19037"
+    ],
+    "sourceIndex": 9037
   },
   {
     "id": "109046",
@@ -3843,6 +5391,23 @@ const phrasesTravel = [
     "sourceIndex": 9252
   },
   {
+    "id": "109305",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The inspector examined the crime scene."
+      },
+      "de": {
+        "text": "Der Inspektor untersuchte den Tatort."
+      }
+    },
+    "wordIds": [
+      "19305"
+    ],
+    "sourceIndex": 9305
+  },
+  {
     "id": "109324",
     "category": "travel",
     "level": "hard",
@@ -3892,6 +5457,23 @@ const phrasesTravel = [
       "19368"
     ],
     "sourceIndex": 9368
+  },
+  {
+    "id": "109376",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "There is a detour due to construction work."
+      },
+      "de": {
+        "text": "Wegen Bauarbeiten gibt es eine Umleitung."
+      }
+    },
+    "wordIds": [
+      "19376"
+    ],
+    "sourceIndex": 9376
   },
   {
     "id": "109393",
@@ -3962,6 +5544,23 @@ const phrasesTravel = [
     "sourceIndex": 9464
   },
   {
+    "id": "109493",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Don't forget your passport."
+      },
+      "de": {
+        "text": "Vergessen Sie Ihren Reisepass nicht."
+      }
+    },
+    "wordIds": [
+      "19493"
+    ],
+    "sourceIndex": 9493
+  },
+  {
     "id": "109512",
     "category": "travel",
     "level": "hard",
@@ -3977,6 +5576,23 @@ const phrasesTravel = [
       "19512"
     ],
     "sourceIndex": 9512
+  },
+  {
+    "id": "109559",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The railway line is closed due to construction work."
+      },
+      "de": {
+        "text": "Die Bahnstrecke ist wegen Bauarbeiten gesperrt."
+      }
+    },
+    "wordIds": [
+      "19559"
+    ],
+    "sourceIndex": 9559
   },
   {
     "id": "109605",
@@ -3996,6 +5612,57 @@ const phrasesTravel = [
     "sourceIndex": 9605
   },
   {
+    "id": "109704",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Take the next exit."
+      },
+      "de": {
+        "text": "Nehmen Sie die nächste Anschlussstelle."
+      }
+    },
+    "wordIds": [
+      "19704"
+    ],
+    "sourceIndex": 9704
+  },
+  {
+    "id": "109716",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We bought our new car at the car dealership."
+      },
+      "de": {
+        "text": "Wir haben unser neues Auto im Autohaus gekauft."
+      }
+    },
+    "wordIds": [
+      "19716"
+    ],
+    "sourceIndex": 9716
+  },
+  {
+    "id": "109746",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Long-distance traffic is often overloaded."
+      },
+      "de": {
+        "text": "Der Fernverkehr ist oft überlastet."
+      }
+    },
+    "wordIds": [
+      "19746"
+    ],
+    "sourceIndex": 9746
+  },
+  {
     "id": "109779",
     "category": "travel",
     "level": "medium",
@@ -4011,6 +5678,23 @@ const phrasesTravel = [
       "19779"
     ],
     "sourceIndex": 9779
+  },
+  {
+    "id": "109800",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We took a tour through the city."
+      },
+      "de": {
+        "text": "Wir machten eine Rundfahrt durch die Stadt."
+      }
+    },
+    "wordIds": [
+      "19800"
+    ],
+    "sourceIndex": 9800
   },
   {
     "id": "109891",
@@ -4030,6 +5714,23 @@ const phrasesTravel = [
     "sourceIndex": 9891
   },
   {
+    "id": "109927",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He bought a new car."
+      },
+      "de": {
+        "text": "Er hat sich einen Neuwagen gekauft."
+      }
+    },
+    "wordIds": [
+      "19927"
+    ],
+    "sourceIndex": 9927
+  },
+  {
     "id": "109957",
     "category": "travel",
     "level": "hard",
@@ -4045,6 +5746,23 @@ const phrasesTravel = [
       "19957"
     ],
     "sourceIndex": 9957
+  },
+  {
+    "id": "109981",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The appointment will be cancelled."
+      },
+      "de": {
+        "text": "Der Termin wird wegfallen."
+      }
+    },
+    "wordIds": [
+      "19981"
+    ],
+    "sourceIndex": 9981
   },
   {
     "id": "110076",
@@ -4302,6 +6020,23 @@ const phrasesTravel = [
     "sourceIndex": 10617
   },
   {
+    "id": "110638",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Please show your admission ticket at the entrance."
+      },
+      "de": {
+        "text": "Bitte zeigen Sie Ihre Eintrittskarte am Eingang vor."
+      }
+    },
+    "wordIds": [
+      "20638"
+    ],
+    "sourceIndex": 10638
+  },
+  {
     "id": "110673",
     "category": "travel",
     "level": "hard",
@@ -4387,6 +6122,40 @@ const phrasesTravel = [
     "sourceIndex": 10737
   },
   {
+    "id": "110763",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The crossing lasted three hours."
+      },
+      "de": {
+        "text": "Die Überfahrt dauerte drei Stunden."
+      }
+    },
+    "wordIds": [
+      "20763"
+    ],
+    "sourceIndex": 10763
+  },
+  {
+    "id": "110845",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She pulled the hood over her head."
+      },
+      "de": {
+        "text": "Sie zog die Kapuze über den Kopf."
+      }
+    },
+    "wordIds": [
+      "20845"
+    ],
+    "sourceIndex": 10845
+  },
+  {
     "id": "111018",
     "category": "travel",
     "level": "medium",
@@ -4402,6 +6171,40 @@ const phrasesTravel = [
       "21018"
     ],
     "sourceIndex": 11018
+  },
+  {
+    "id": "111063",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "He rides his moped to work every day."
+      },
+      "de": {
+        "text": "Er fährt jeden Tag mit seinem Moped zur Arbeit."
+      }
+    },
+    "wordIds": [
+      "21063"
+    ],
+    "sourceIndex": 11063
+  },
+  {
+    "id": "111157",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I have a booking for two nights."
+      },
+      "de": {
+        "text": "Ich habe eine Buchung für zwei Nächte."
+      }
+    },
+    "wordIds": [
+      "21157"
+    ],
+    "sourceIndex": 11157
   },
   {
     "id": "111201",
@@ -4436,6 +6239,23 @@ const phrasesTravel = [
       "21213"
     ],
     "sourceIndex": 11213
+  },
+  {
+    "id": "111426",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The old locomotive steamed through the landscape."
+      },
+      "de": {
+        "text": "Die alte Lokomotive dampfte durch die Landschaft."
+      }
+    },
+    "wordIds": [
+      "21426"
+    ],
+    "sourceIndex": 11426
   },
   {
     "id": "111535",
@@ -4608,6 +6428,57 @@ const phrasesTravel = [
     "sourceIndex": 11983
   },
   {
+    "id": "112013",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We want to travel next year."
+      },
+      "de": {
+        "text": "Wir wollen nächstes Jahr verreisen."
+      }
+    },
+    "wordIds": [
+      "22013"
+    ],
+    "sourceIndex": 12013
+  },
+  {
+    "id": "112019",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We have to drive on now."
+      },
+      "de": {
+        "text": "Wir müssen jetzt weiterfahren."
+      }
+    },
+    "wordIds": [
+      "22019"
+    ],
+    "sourceIndex": 12019
+  },
+  {
+    "id": "112045",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The new railway line will open soon."
+      },
+      "de": {
+        "text": "Die neue Bahnlinie wird bald eröffnet."
+      }
+    },
+    "wordIds": [
+      "22045"
+    ],
+    "sourceIndex": 12045
+  },
+  {
     "id": "112084",
     "category": "travel",
     "level": "medium",
@@ -4642,6 +6513,23 @@ const phrasesTravel = [
     "sourceIndex": 12091
   },
   {
+    "id": "112102",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "How can I get there?"
+      },
+      "de": {
+        "text": "Wie kann ich dorthin hinkommen?"
+      }
+    },
+    "wordIds": [
+      "22102"
+    ],
+    "sourceIndex": 12102
+  },
+  {
     "id": "112119",
     "category": "travel",
     "level": "hard",
@@ -4674,6 +6562,23 @@ const phrasesTravel = [
       "22125"
     ],
     "sourceIndex": 12125
+  },
+  {
+    "id": "112140",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The wind comes from the northeast."
+      },
+      "de": {
+        "text": "Der Wind kommt aus Nordost."
+      }
+    },
+    "wordIds": [
+      "22140"
+    ],
+    "sourceIndex": 12140
   },
   {
     "id": "112185",
@@ -4725,6 +6630,23 @@ const phrasesTravel = [
       "22247"
     ],
     "sourceIndex": 12247
+  },
+  {
+    "id": "112299",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The jumbo jet landed on time."
+      },
+      "de": {
+        "text": "Der Jumbo-Jet landete pünktlich."
+      }
+    },
+    "wordIds": [
+      "22299"
+    ],
+    "sourceIndex": 12299
   },
   {
     "id": "112336",
@@ -4795,6 +6717,23 @@ const phrasesTravel = [
     "sourceIndex": 12443
   },
   {
+    "id": "112519",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The house is located north-west of the lake."
+      },
+      "de": {
+        "text": "Das Haus liegt nordwestlich des Sees."
+      }
+    },
+    "wordIds": [
+      "22519"
+    ],
+    "sourceIndex": 12519
+  },
+  {
     "id": "112612",
     "category": "travel",
     "level": "hard",
@@ -4846,6 +6785,40 @@ const phrasesTravel = [
     "sourceIndex": 12683
   },
   {
+    "id": "112725",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The mountaineers had to abseil."
+      },
+      "de": {
+        "text": "Die Bergsteiger mussten sich abseilen."
+      }
+    },
+    "wordIds": [
+      "22725"
+    ],
+    "sourceIndex": 12725
+  },
+  {
+    "id": "112740",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The wind comes from the southeast."
+      },
+      "de": {
+        "text": "Der Wind kommt aus Südost."
+      }
+    },
+    "wordIds": [
+      "22740"
+    ],
+    "sourceIndex": 12740
+  },
+  {
     "id": "112767",
     "category": "travel",
     "level": "medium",
@@ -4861,6 +6834,23 @@ const phrasesTravel = [
       "22767"
     ],
     "sourceIndex": 12767
+  },
+  {
+    "id": "112830",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The rim of the bicycle is bent."
+      },
+      "de": {
+        "text": "Die Felge des Fahrrads ist verbogen."
+      }
+    },
+    "wordIds": [
+      "22830"
+    ],
+    "sourceIndex": 12830
   },
   {
     "id": "112869",
@@ -4946,6 +6936,23 @@ const phrasesTravel = [
       "22967"
     ],
     "sourceIndex": 12967
+  },
+  {
+    "id": "112974",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The guests will arrive tomorrow."
+      },
+      "de": {
+        "text": "Die Gäste werden morgen anreisen."
+      }
+    },
+    "wordIds": [
+      "22974"
+    ],
+    "sourceIndex": 12974
   },
   {
     "id": "113002",
@@ -5050,6 +7057,23 @@ const phrasesTravel = [
     "sourceIndex": 13143
   },
   {
+    "id": "113172",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The car ride lasted three hours."
+      },
+      "de": {
+        "text": "Die Autofahrt dauerte drei Stunden."
+      }
+    },
+    "wordIds": [
+      "23172"
+    ],
+    "sourceIndex": 13172
+  },
+  {
     "id": "113179",
     "category": "travel",
     "level": "hard",
@@ -5084,6 +7108,23 @@ const phrasesTravel = [
     "sourceIndex": 13180
   },
   {
+    "id": "113201",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "At ebb tide, you can walk on the beach."
+      },
+      "de": {
+        "text": "Bei Ebbe kann man am Strand spazieren gehen."
+      }
+    },
+    "wordIds": [
+      "23201"
+    ],
+    "sourceIndex": 13201
+  },
+  {
     "id": "113211",
     "category": "travel",
     "level": "medium",
@@ -5099,6 +7140,23 @@ const phrasesTravel = [
       "23211"
     ],
     "sourceIndex": 13211
+  },
+  {
+    "id": "113314",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The city is located southeast from here."
+      },
+      "de": {
+        "text": "Die Stadt liegt südöstlich von hier."
+      }
+    },
+    "wordIds": [
+      "23314"
+    ],
+    "sourceIndex": 13314
   },
   {
     "id": "113357",
@@ -5135,6 +7193,23 @@ const phrasesTravel = [
     "sourceIndex": 13374
   },
   {
+    "id": "113430",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "He bought a used car."
+      },
+      "de": {
+        "text": "Er hat einen Gebrauchtwagen gekauft."
+      }
+    },
+    "wordIds": [
+      "23430"
+    ],
+    "sourceIndex": 13430
+  },
+  {
     "id": "113433",
     "category": "travel",
     "level": "hard",
@@ -5150,6 +7225,23 @@ const phrasesTravel = [
       "23433"
     ],
     "sourceIndex": 13433
+  },
+  {
+    "id": "113447",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We stayed overnight in a cozy hostel on the outskirts of the city."
+      },
+      "de": {
+        "text": "Wir übernachteten in einer gemütlichen Herberge am Stadtrand."
+      }
+    },
+    "wordIds": [
+      "23447"
+    ],
+    "sourceIndex": 13447
   },
   {
     "id": "113527",
@@ -5288,6 +7380,23 @@ const phrasesTravel = [
     "sourceIndex": 13792
   },
   {
+    "id": "113797",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The car traffic in the city is very dense."
+      },
+      "de": {
+        "text": "Der Autoverkehr in der Stadt ist sehr dicht."
+      }
+    },
+    "wordIds": [
+      "23797"
+    ],
+    "sourceIndex": 13797
+  },
+  {
     "id": "113937",
     "category": "travel",
     "level": "hard",
@@ -5322,6 +7431,23 @@ const phrasesTravel = [
     "sourceIndex": 13960
   },
   {
+    "id": "114085",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We stayed overnight in a small motel on the outskirts of the city."
+      },
+      "de": {
+        "text": "Wir übernachteten in einem kleinen Motel am Stadtrand."
+      }
+    },
+    "wordIds": [
+      "24085"
+    ],
+    "sourceIndex": 14085
+  },
+  {
     "id": "114139",
     "category": "travel",
     "level": "hard",
@@ -5339,6 +7465,23 @@ const phrasesTravel = [
     "sourceIndex": 14139
   },
   {
+    "id": "114158",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We wish you a good onward journey."
+      },
+      "de": {
+        "text": "Wir wünschen Ihnen eine gute Weiterfahrt."
+      }
+    },
+    "wordIds": [
+      "24158"
+    ],
+    "sourceIndex": 14158
+  },
+  {
     "id": "114163",
     "category": "travel",
     "level": "hard",
@@ -5354,6 +7497,23 @@ const phrasesTravel = [
       "24163"
     ],
     "sourceIndex": 14163
+  },
+  {
+    "id": "114234",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "At border control, we had to show our passports."
+      },
+      "de": {
+        "text": "Bei der Grenzkontrolle mussten wir unsere Pässe zeigen."
+      }
+    },
+    "wordIds": [
+      "24234"
+    ],
+    "sourceIndex": 14234
   },
   {
     "id": "114277",
@@ -5458,6 +7618,23 @@ const phrasesTravel = [
     "sourceIndex": 14498
   },
   {
+    "id": "114650",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We stayed overnight in a cheap hostel."
+      },
+      "de": {
+        "text": "Wir übernachteten in einem günstigen Hostel."
+      }
+    },
+    "wordIds": [
+      "24650"
+    ],
+    "sourceIndex": 14650
+  },
+  {
     "id": "114684",
     "category": "travel",
     "level": "hard",
@@ -5490,6 +7667,23 @@ const phrasesTravel = [
       "24769"
     ],
     "sourceIndex": 14769
+  },
+  {
+    "id": "114891",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The bus drives through the city."
+      },
+      "de": {
+        "text": "Der Omnibus fährt durch die Stadt."
+      }
+    },
+    "wordIds": [
+      "24891"
+    ],
+    "sourceIndex": 14891
   },
   {
     "id": "114946",
@@ -5560,6 +7754,23 @@ const phrasesTravel = [
     "sourceIndex": 15159
   },
   {
+    "id": "115167",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We went through the underpass to cross the street."
+      },
+      "de": {
+        "text": "Wir gingen durch die Unterführung, um die Straße zu überqueren."
+      }
+    },
+    "wordIds": [
+      "25167"
+    ],
+    "sourceIndex": 15167
+  },
+  {
     "id": "115171",
     "category": "travel",
     "level": "hard",
@@ -5575,6 +7786,23 @@ const phrasesTravel = [
       "25171"
     ],
     "sourceIndex": 15171
+  },
+  {
+    "id": "115191",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Please cross the street at the zebra crossing."
+      },
+      "de": {
+        "text": "Bitte überqueren Sie die Straße am Zebrastreifen."
+      }
+    },
+    "wordIds": [
+      "25191"
+    ],
+    "sourceIndex": 15191
   },
   {
     "id": "115347",
@@ -5764,6 +7992,23 @@ const phrasesTravel = [
     "sourceIndex": 15834
   },
   {
+    "id": "115865",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The bus ride to the beach took an hour."
+      },
+      "de": {
+        "text": "Die Busfahrt zum Strand dauerte eine Stunde."
+      }
+    },
+    "wordIds": [
+      "25865"
+    ],
+    "sourceIndex": 15865
+  },
+  {
     "id": "115971",
     "category": "travel",
     "level": "hard",
@@ -5779,6 +8024,40 @@ const phrasesTravel = [
       "25971"
     ],
     "sourceIndex": 15971
+  },
+  {
+    "id": "115973",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "He rides his moped to work."
+      },
+      "de": {
+        "text": "Er fährt mit seinem Mofa zur Arbeit."
+      }
+    },
+    "wordIds": [
+      "25973"
+    ],
+    "sourceIndex": 15973
+  },
+  {
+    "id": "116086",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He wants to travel around the whole world."
+      },
+      "de": {
+        "text": "Er möchte die ganze Welt bereisen."
+      }
+    },
+    "wordIds": [
+      "26086"
+    ],
+    "sourceIndex": 16086
   },
   {
     "id": "116111",
@@ -5847,6 +8126,23 @@ const phrasesTravel = [
       "26205"
     ],
     "sourceIndex": 16205
+  },
+  {
+    "id": "116215",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Regional transport is often overcrowded."
+      },
+      "de": {
+        "text": "Der Regionalverkehr ist oft überfüllt."
+      }
+    },
+    "wordIds": [
+      "26215"
+    ],
+    "sourceIndex": 16215
   },
   {
     "id": "116222",
@@ -5951,6 +8247,40 @@ const phrasesTravel = [
     "sourceIndex": 16424
   },
   {
+    "id": "116484",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We are planning a round trip through Europe."
+      },
+      "de": {
+        "text": "Wir planen eine Rundreise durch Europa."
+      }
+    },
+    "wordIds": [
+      "26484"
+    ],
+    "sourceIndex": 16484
+  },
+  {
+    "id": "116551",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We have to drive away now."
+      },
+      "de": {
+        "text": "Wir müssen jetzt wegfahren."
+      }
+    },
+    "wordIds": [
+      "26551"
+    ],
+    "sourceIndex": 16551
+  },
+  {
     "id": "116582",
     "category": "travel",
     "level": "hard",
@@ -5985,6 +8315,23 @@ const phrasesTravel = [
     "sourceIndex": 16584
   },
   {
+    "id": "116622",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "My driving instructor is very patient."
+      },
+      "de": {
+        "text": "Mein Fahrlehrer ist sehr geduldig."
+      }
+    },
+    "wordIds": [
+      "26622"
+    ],
+    "sourceIndex": 16622
+  },
+  {
     "id": "116648",
     "category": "travel",
     "level": "hard",
@@ -6000,6 +8347,23 @@ const phrasesTravel = [
       "26648"
     ],
     "sourceIndex": 16648
+  },
+  {
+    "id": "116730",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The regional train runs every thirty minutes."
+      },
+      "de": {
+        "text": "Die Regionalbahn fährt alle dreißig Minuten."
+      }
+    },
+    "wordIds": [
+      "26730"
+    ],
+    "sourceIndex": 16730
   },
   {
     "id": "116736",
@@ -6102,6 +8466,23 @@ const phrasesTravel = [
       "27085"
     ],
     "sourceIndex": 17085
+  },
+  {
+    "id": "117202",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The swimmer was a real lifesaver."
+      },
+      "de": {
+        "text": "Der Schwimmer war ein echter Lebensretter."
+      }
+    },
+    "wordIds": [
+      "27202"
+    ],
+    "sourceIndex": 17202
   },
   {
     "id": "117248",
@@ -6223,6 +8604,40 @@ const phrasesTravel = [
     "sourceIndex": 17481
   },
   {
+    "id": "117528",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The windshield wipers don't work well in this rain."
+      },
+      "de": {
+        "text": "Die Scheibenwischer funktionieren bei diesem Regen nicht gut."
+      }
+    },
+    "wordIds": [
+      "27528"
+    ],
+    "sourceIndex": 17528
+  },
+  {
+    "id": "117530",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We went across the lake in the inflatable boat."
+      },
+      "de": {
+        "text": "Wir fuhren mit dem Schlauchboot über den See."
+      }
+    },
+    "wordIds": [
+      "27530"
+    ],
+    "sourceIndex": 17530
+  },
+  {
     "id": "117552",
     "category": "travel",
     "level": "medium",
@@ -6255,6 +8670,23 @@ const phrasesTravel = [
       "27563"
     ],
     "sourceIndex": 17563
+  },
+  {
+    "id": "117574",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I still have five vacation days left."
+      },
+      "de": {
+        "text": "Ich habe noch fünf Urlaubstage übrig."
+      }
+    },
+    "wordIds": [
+      "27574"
+    ],
+    "sourceIndex": 17574
   },
   {
     "id": "117592",
@@ -6512,6 +8944,23 @@ const phrasesTravel = [
     "sourceIndex": 18370
   },
   {
+    "id": "118412",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Please show your ticket."
+      },
+      "de": {
+        "text": "Bitte zeigen Sie Ihren Fahrschein."
+      }
+    },
+    "wordIds": [
+      "28412"
+    ],
+    "sourceIndex": 18412
+  },
+  {
     "id": "118490",
     "category": "travel",
     "level": "hard",
@@ -6527,6 +8976,23 @@ const phrasesTravel = [
       "28490"
     ],
     "sourceIndex": 18490
+  },
+  {
+    "id": "118540",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The rescue helicopter landed on the hospital roof."
+      },
+      "de": {
+        "text": "Der Rettungshubschrauber landete auf dem Dach des Krankenhauses."
+      }
+    },
+    "wordIds": [
+      "28540"
+    ],
+    "sourceIndex": 18540
   },
   {
     "id": "118563",
@@ -6561,6 +9027,23 @@ const phrasesTravel = [
       "28633"
     ],
     "sourceIndex": 18633
+  },
+  {
+    "id": "118642",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The next train station is only five minutes away."
+      },
+      "de": {
+        "text": "Die nächste Bahnstation ist nur fünf Minuten entfernt."
+      }
+    },
+    "wordIds": [
+      "28642"
+    ],
+    "sourceIndex": 18642
   },
   {
     "id": "118660",
@@ -6614,6 +9097,23 @@ const phrasesTravel = [
     "sourceIndex": 18709
   },
   {
+    "id": "118769",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We meet at the East Station."
+      },
+      "de": {
+        "text": "Wir treffen uns am Ostbahnhof."
+      }
+    },
+    "wordIds": [
+      "28769"
+    ],
+    "sourceIndex": 18769
+  },
+  {
     "id": "118791",
     "category": "travel",
     "level": "hard",
@@ -6663,6 +9163,57 @@ const phrasesTravel = [
       "28818"
     ],
     "sourceIndex": 18818
+  },
+  {
+    "id": "118942",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My grandfather was a railway worker."
+      },
+      "de": {
+        "text": "Mein Großvater war ein Eisenbahner."
+      }
+    },
+    "wordIds": [
+      "28942"
+    ],
+    "sourceIndex": 18942
+  },
+  {
+    "id": "118970",
+    "category": "travel",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Put the ice cream in the freezer compartment."
+      },
+      "de": {
+        "text": "Leg das Eis ins Gefrierfach."
+      }
+    },
+    "wordIds": [
+      "28970"
+    ],
+    "sourceIndex": 18970
+  },
+  {
+    "id": "118982",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He needs to trim his beard."
+      },
+      "de": {
+        "text": "Er muss seinen Bart trimmen."
+      }
+    },
+    "wordIds": [
+      "28982"
+    ],
+    "sourceIndex": 18982
   },
   {
     "id": "119017",
@@ -6750,6 +9301,23 @@ const phrasesTravel = [
     "sourceIndex": 19119
   },
   {
+    "id": "119152",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Due to construction work, there is a complete closure of the highway."
+      },
+      "de": {
+        "text": "Wegen Bauarbeiten gibt es eine Vollsperrung der Autobahn."
+      }
+    },
+    "wordIds": [
+      "29152"
+    ],
+    "sourceIndex": 19152
+  },
+  {
     "id": "119212",
     "category": "travel",
     "level": "hard",
@@ -6782,6 +9350,40 @@ const phrasesTravel = [
       "29218"
     ],
     "sourceIndex": 19218
+  },
+  {
+    "id": "119236",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We should use fewer disposable products."
+      },
+      "de": {
+        "text": "Wir sollten weniger Einwegprodukte verwenden."
+      }
+    },
+    "wordIds": [
+      "29236"
+    ],
+    "sourceIndex": 19236
+  },
+  {
+    "id": "119249",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The escape route must always be kept clear."
+      },
+      "de": {
+        "text": "Der Fluchtweg muss immer freigehalten werden."
+      }
+    },
+    "wordIds": [
+      "29249"
+    ],
+    "sourceIndex": 19249
   },
   {
     "id": "119250",
@@ -6852,6 +9454,23 @@ const phrasesTravel = [
     "sourceIndex": 19356
   },
   {
+    "id": "119623",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He rides his scooter to work every day."
+      },
+      "de": {
+        "text": "Er fährt jeden Tag mit seinem Motorroller zur Arbeit."
+      }
+    },
+    "wordIds": [
+      "29623"
+    ],
+    "sourceIndex": 19623
+  },
+  {
     "id": "119673",
     "category": "travel",
     "level": "hard",
@@ -6920,6 +9539,23 @@ const phrasesTravel = [
     "sourceIndex": 19924
   },
   {
+    "id": "120019",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He was stopped at a traffic control."
+      },
+      "de": {
+        "text": "Er wurde bei einer Verkehrskontrolle angehalten."
+      }
+    },
+    "wordIds": [
+      "30019"
+    ],
+    "sourceIndex": 20019
+  },
+  {
     "id": "120039",
     "category": "travel",
     "level": "hard",
@@ -6935,6 +9571,23 @@ const phrasesTravel = [
       "30039"
     ],
     "sourceIndex": 20039
+  },
+  {
+    "id": "120063",
+    "category": "travel",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The broken off branch lay on the path."
+      },
+      "de": {
+        "text": "Der abgebrochene Ast lag auf dem Weg."
+      }
+    },
+    "wordIds": [
+      "30063"
+    ],
+    "sourceIndex": 20063
   },
   {
     "id": "120106",

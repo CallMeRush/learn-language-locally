@@ -307,6 +307,23 @@ const phrasesGreetings = [
     "sourceIndex": 2103
   },
   {
+    "id": "102124",
+    "category": "greetings",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "He sent a warm greeting."
+      },
+      "de": {
+        "text": "Er schickte einen herzlichen Gruss."
+      }
+    },
+    "wordIds": [
+      "12124"
+    ],
+    "sourceIndex": 2124
+  },
+  {
     "id": "102228",
     "category": "greetings",
     "level": "medium",
@@ -630,6 +647,23 @@ const phrasesGreetings = [
     "sourceIndex": 4373
   },
   {
+    "id": "104532",
+    "category": "greetings",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Your visit is always welcome."
+      },
+      "de": {
+        "text": "Ihr Besuch ist jederzeit erwünscht."
+      }
+    },
+    "wordIds": [
+      "14532"
+    ],
+    "sourceIndex": 4532
+  },
+  {
     "id": "105066",
     "category": "greetings",
     "level": "hard",
@@ -696,6 +730,23 @@ const phrasesGreetings = [
       "15521"
     ],
     "sourceIndex": 5521
+  },
+  {
+    "id": "105615",
+    "category": "greetings",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "His greeting was very warm."
+      },
+      "de": {
+        "text": "Seine Begrüssung war sehr herzlich."
+      }
+    },
+    "wordIds": [
+      "15615"
+    ],
+    "sourceIndex": 5615
   },
   {
     "id": "105620",

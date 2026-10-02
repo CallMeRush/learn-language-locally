@@ -1,20 +1,20 @@
 const phrasesEducation = [
   {
-    "id": "100003",
+    "id": "100047",
     "category": "education",
     "level": "easy",
     "translations": {
       "en": {
-        "text": "I have a book."
+        "text": "I don't know it."
       },
       "de": {
-        "text": "Ich habe ein Buch."
+        "text": "Ich weiß es nicht."
       }
     },
     "wordIds": [
-      "10003"
+      "10047"
     ],
-    "sourceIndex": 3
+    "sourceIndex": 47
   },
   {
     "id": "100050",
@@ -85,6 +85,23 @@ const phrasesEducation = [
     "sourceIndex": 68
   },
   {
+    "id": "100088",
+    "category": "education",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "That is the correct answer."
+      },
+      "de": {
+        "text": "Das ist die richtige Antwort."
+      }
+    },
+    "wordIds": [
+      "10088"
+    ],
+    "sourceIndex": 88
+  },
+  {
     "id": "100099",
     "category": "education",
     "level": "medium",
@@ -119,6 +136,23 @@ const phrasesEducation = [
     "sourceIndex": 100
   },
   {
+    "id": "100164",
+    "category": "education",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Can you give me an example?"
+      },
+      "de": {
+        "text": "Kannst du mir ein Beispiel geben?"
+      }
+    },
+    "wordIds": [
+      "10164"
+    ],
+    "sourceIndex": 164
+  },
+  {
     "id": "100184",
     "category": "education",
     "level": "hard",
@@ -134,6 +168,23 @@ const phrasesEducation = [
       "10184"
     ],
     "sourceIndex": 184
+  },
+  {
+    "id": "100203",
+    "category": "education",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "It's all the same to me."
+      },
+      "de": {
+        "text": "Es ist mir egal."
+      }
+    },
+    "wordIds": [
+      "10203"
+    ],
+    "sourceIndex": 203
   },
   {
     "id": "100223",
@@ -255,6 +306,23 @@ const phrasesEducation = [
     "sourceIndex": 244
   },
   {
+    "id": "100246",
+    "category": "education",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "That is a very interesting book."
+      },
+      "de": {
+        "text": "Das ist ein sehr interessantes Buch."
+      }
+    },
+    "wordIds": [
+      "10246"
+    ],
+    "sourceIndex": 246
+  },
+  {
     "id": "100255",
     "category": "education",
     "level": "hard",
@@ -289,6 +357,23 @@ const phrasesEducation = [
     "sourceIndex": 256
   },
   {
+    "id": "100265",
+    "category": "education",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "That is a good idea."
+      },
+      "de": {
+        "text": "Das ist eine gute Idee."
+      }
+    },
+    "wordIds": [
+      "10265"
+    ],
+    "sourceIndex": 265
+  },
+  {
     "id": "100284",
     "category": "education",
     "level": "hard",
@@ -304,6 +389,23 @@ const phrasesEducation = [
       "10284"
     ],
     "sourceIndex": 284
+  },
+  {
+    "id": "100294",
+    "category": "education",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "My class is very big."
+      },
+      "de": {
+        "text": "Meine Klasse ist sehr groß."
+      }
+    },
+    "wordIds": [
+      "10294"
+    ],
+    "sourceIndex": 294
   },
   {
     "id": "100298",
@@ -372,6 +474,23 @@ const phrasesEducation = [
       "10370"
     ],
     "sourceIndex": 370
+  },
+  {
+    "id": "100398",
+    "category": "education",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "That was an important decision."
+      },
+      "de": {
+        "text": "Das war eine wichtige Entscheidung."
+      }
+    },
+    "wordIds": [
+      "10398"
+    ],
+    "sourceIndex": 398
   },
   {
     "id": "100408",
@@ -493,6 +612,57 @@ const phrasesEducation = [
     "sourceIndex": 481
   },
   {
+    "id": "100488",
+    "category": "education",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I have no idea."
+      },
+      "de": {
+        "text": "Ich habe keine Ahnung."
+      }
+    },
+    "wordIds": [
+      "10488"
+    ],
+    "sourceIndex": 488
+  },
+  {
+    "id": "100494",
+    "category": "education",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "It is 20 degrees Celsius."
+      },
+      "de": {
+        "text": "Es sind 20 Grad Celsius."
+      }
+    },
+    "wordIds": [
+      "10494"
+    ],
+    "sourceIndex": 494
+  },
+  {
+    "id": "100525",
+    "category": "education",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "You must choose now."
+      },
+      "de": {
+        "text": "Sie müssen jetzt wählen."
+      }
+    },
+    "wordIds": [
+      "10525"
+    ],
+    "sourceIndex": 525
+  },
+  {
     "id": "100556",
     "category": "education",
     "level": "easy",
@@ -508,6 +678,23 @@ const phrasesEducation = [
       "10556"
     ],
     "sourceIndex": 556
+  },
+  {
+    "id": "100567",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I could barely recognize him."
+      },
+      "de": {
+        "text": "Ich konnte ihn kaum wiedererkennen."
+      }
+    },
+    "wordIds": [
+      "10567"
+    ],
+    "sourceIndex": 567
   },
   {
     "id": "100572",
@@ -561,6 +748,23 @@ const phrasesEducation = [
     "sourceIndex": 591
   },
   {
+    "id": "100595",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Education is very important for the future."
+      },
+      "de": {
+        "text": "Bildung ist sehr wichtig für die Zukunft."
+      }
+    },
+    "wordIds": [
+      "10595"
+    ],
+    "sourceIndex": 595
+  },
+  {
     "id": "100597",
     "category": "education",
     "level": "easy",
@@ -576,6 +780,23 @@ const phrasesEducation = [
       "10597"
     ],
     "sourceIndex": 597
+  },
+  {
+    "id": "100607",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The concept of \"sustainability\" is very important today."
+      },
+      "de": {
+        "text": "Der Begriff \"Nachhaltigkeit\" ist heute sehr wichtig."
+      }
+    },
+    "wordIds": [
+      "10607"
+    ],
+    "sourceIndex": 607
   },
   {
     "id": "100619",
@@ -629,6 +850,23 @@ const phrasesEducation = [
     "sourceIndex": 669
   },
   {
+    "id": "100684",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "A new study shows interesting results."
+      },
+      "de": {
+        "text": "Eine neue Studie zeigt interessante Ergebnisse."
+      }
+    },
+    "wordIds": [
+      "10684"
+    ],
+    "sourceIndex": 684
+  },
+  {
     "id": "100728",
     "category": "education",
     "level": "hard",
@@ -644,6 +882,40 @@ const phrasesEducation = [
       "10728"
     ],
     "sourceIndex": 728
+  },
+  {
+    "id": "100828",
+    "category": "education",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Columbus wanted to discover India."
+      },
+      "de": {
+        "text": "Kolumbus wollte Indien entdecken."
+      }
+    },
+    "wordIds": [
+      "10828"
+    ],
+    "sourceIndex": 828
+  },
+  {
+    "id": "100860",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The concept for the new project is ready."
+      },
+      "de": {
+        "text": "Das Konzept für das neue Projekt ist fertig."
+      }
+    },
+    "wordIds": [
+      "10860"
+    ],
+    "sourceIndex": 860
   },
   {
     "id": "100863",
@@ -697,6 +969,23 @@ const phrasesEducation = [
     "sourceIndex": 871
   },
   {
+    "id": "100920",
+    "category": "education",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I received a letter from my family."
+      },
+      "de": {
+        "text": "Ich habe einen Brief von meiner Familie bekommen."
+      }
+    },
+    "wordIds": [
+      "10920"
+    ],
+    "sourceIndex": 920
+  },
+  {
     "id": "100925",
     "category": "education",
     "level": "hard",
@@ -714,6 +1003,23 @@ const phrasesEducation = [
     "sourceIndex": 925
   },
   {
+    "id": "100939",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The research in this area is very important."
+      },
+      "de": {
+        "text": "Die Forschung in diesem Bereich ist sehr wichtig."
+      }
+    },
+    "wordIds": [
+      "10939"
+    ],
+    "sourceIndex": 939
+  },
+  {
     "id": "100960",
     "category": "education",
     "level": "hard",
@@ -729,6 +1035,40 @@ const phrasesEducation = [
       "10960"
     ],
     "sourceIndex": 960
+  },
+  {
+    "id": "100983",
+    "category": "education",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "That is a French car."
+      },
+      "de": {
+        "text": "Das ist ein französisches Auto."
+      }
+    },
+    "wordIds": [
+      "10983"
+    ],
+    "sourceIndex": 983
+  },
+  {
+    "id": "100984",
+    "category": "education",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "Do you speak French?"
+      },
+      "de": {
+        "text": "Sprichst du Französisch?"
+      }
+    },
+    "wordIds": [
+      "10984"
+    ],
+    "sourceIndex": 984
   },
   {
     "id": "101002",
@@ -780,6 +1120,23 @@ const phrasesEducation = [
       "11015"
     ],
     "sourceIndex": 1015
+  },
+  {
+    "id": "101016",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The mass of people moved slowly."
+      },
+      "de": {
+        "text": "Die Masse der Menschen bewegte sich langsam."
+      }
+    },
+    "wordIds": [
+      "11016"
+    ],
+    "sourceIndex": 1016
   },
   {
     "id": "101033",
@@ -850,6 +1207,57 @@ const phrasesEducation = [
     "sourceIndex": 1068
   },
   {
+    "id": "101105",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I have to solve this problem."
+      },
+      "de": {
+        "text": "Ich muss dieses Problem lösen."
+      }
+    },
+    "wordIds": [
+      "11105"
+    ],
+    "sourceIndex": 1105
+  },
+  {
+    "id": "101110",
+    "category": "education",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I have an important exam tomorrow."
+      },
+      "de": {
+        "text": "Ich habe morgen eine wichtige Prüfung."
+      }
+    },
+    "wordIds": [
+      "11110"
+    ],
+    "sourceIndex": 1110
+  },
+  {
+    "id": "101171",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "This theory is very interesting."
+      },
+      "de": {
+        "text": "Diese Theorie ist sehr interessant."
+      }
+    },
+    "wordIds": [
+      "11171"
+    ],
+    "sourceIndex": 1171
+  },
+  {
     "id": "101181",
     "category": "education",
     "level": "hard",
@@ -882,6 +1290,74 @@ const phrasesEducation = [
       "11207"
     ],
     "sourceIndex": 1207
+  },
+  {
+    "id": "101218",
+    "category": "education",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I need a sheet of paper."
+      },
+      "de": {
+        "text": "Ich brauche ein Blatt Papier."
+      }
+    },
+    "wordIds": [
+      "11218"
+    ],
+    "sourceIndex": 1218
+  },
+  {
+    "id": "101264",
+    "category": "education",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "She has to calculate the costs precisely."
+      },
+      "de": {
+        "text": "Sie muss die Kosten genau rechnen."
+      }
+    },
+    "wordIds": [
+      "11264"
+    ],
+    "sourceIndex": 1264
+  },
+  {
+    "id": "101269",
+    "category": "education",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The lesson starts at 8 o'clock."
+      },
+      "de": {
+        "text": "Der Unterricht beginnt um 8 Uhr."
+      }
+    },
+    "wordIds": [
+      "11269"
+    ],
+    "sourceIndex": 1269
+  },
+  {
+    "id": "101298",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "There is no proof of his guilt."
+      },
+      "de": {
+        "text": "Es gibt keinen Beweis für seine Schuld."
+      }
+    },
+    "wordIds": [
+      "11298"
+    ],
+    "sourceIndex": 1298
   },
   {
     "id": "101305",
@@ -986,6 +1462,23 @@ const phrasesEducation = [
     "sourceIndex": 1426
   },
   {
+    "id": "101442",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please read the next section."
+      },
+      "de": {
+        "text": "Bitte lesen Sie den nächsten Abschnitt."
+      }
+    },
+    "wordIds": [
+      "11442"
+    ],
+    "sourceIndex": 1442
+  },
+  {
     "id": "101473",
     "category": "education",
     "level": "medium",
@@ -1001,6 +1494,23 @@ const phrasesEducation = [
       "11473"
     ],
     "sourceIndex": 1473
+  },
+  {
+    "id": "101488",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "That is an important fact that we must consider."
+      },
+      "de": {
+        "text": "Das ist ein wichtiger Fakt, den wir berücksichtigen müssen."
+      }
+    },
+    "wordIds": [
+      "11488"
+    ],
+    "sourceIndex": 1488
   },
   {
     "id": "101491",
@@ -1037,6 +1547,23 @@ const phrasesEducation = [
     "sourceIndex": 1543
   },
   {
+    "id": "101562",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We have to check the quality."
+      },
+      "de": {
+        "text": "Wir müssen die Qualität prüfen."
+      }
+    },
+    "wordIds": [
+      "11562"
+    ],
+    "sourceIndex": 1562
+  },
+  {
     "id": "101572",
     "category": "education",
     "level": "hard",
@@ -1069,6 +1596,40 @@ const phrasesEducation = [
       "11613"
     ],
     "sourceIndex": 1613
+  },
+  {
+    "id": "101666",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "You can't force anyone to be happy."
+      },
+      "de": {
+        "text": "Man kann niemanden zum Glück zwingen."
+      }
+    },
+    "wordIds": [
+      "11666"
+    ],
+    "sourceIndex": 1666
+  },
+  {
+    "id": "101691",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "You can compare the prices online."
+      },
+      "de": {
+        "text": "Man kann die Preise online vergleichen."
+      }
+    },
+    "wordIds": [
+      "11691"
+    ],
+    "sourceIndex": 1691
   },
   {
     "id": "101719",
@@ -1105,6 +1666,23 @@ const phrasesEducation = [
     "sourceIndex": 1743
   },
   {
+    "id": "101749",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Water is an important element."
+      },
+      "de": {
+        "text": "Wasser ist ein wichtiges Element."
+      }
+    },
+    "wordIds": [
+      "11749"
+    ],
+    "sourceIndex": 1749
+  },
+  {
     "id": "101754",
     "category": "education",
     "level": "hard",
@@ -1137,6 +1715,23 @@ const phrasesEducation = [
       "11786"
     ],
     "sourceIndex": 1786
+  },
+  {
+    "id": "101818",
+    "category": "education",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I often go to the library."
+      },
+      "de": {
+        "text": "Ich gehe oft in die Bibliothek."
+      }
+    },
+    "wordIds": [
+      "11818"
+    ],
+    "sourceIndex": 1818
   },
   {
     "id": "101820",
@@ -1173,6 +1768,23 @@ const phrasesEducation = [
     "sourceIndex": 1824
   },
   {
+    "id": "101875",
+    "category": "education",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Could you please repeat that?"
+      },
+      "de": {
+        "text": "Könnten Sie das bitte wiederholen?"
+      }
+    },
+    "wordIds": [
+      "11875"
+    ],
+    "sourceIndex": 1875
+  },
+  {
     "id": "101876",
     "category": "education",
     "level": "hard",
@@ -1190,6 +1802,23 @@ const phrasesEducation = [
     "sourceIndex": 1876
   },
   {
+    "id": "101951",
+    "category": "education",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We need to test the new system."
+      },
+      "de": {
+        "text": "Wir müssen das neue System testen."
+      }
+    },
+    "wordIds": [
+      "11951"
+    ],
+    "sourceIndex": 1951
+  },
+  {
     "id": "101957",
     "category": "education",
     "level": "hard",
@@ -1205,6 +1834,23 @@ const phrasesEducation = [
       "11957"
     ],
     "sourceIndex": 1957
+  },
+  {
+    "id": "101970",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The researchers have gained new insights."
+      },
+      "de": {
+        "text": "Die Forscher haben neue Erkenntnisse gewonnen."
+      }
+    },
+    "wordIds": [
+      "11970"
+    ],
+    "sourceIndex": 1970
   },
   {
     "id": "101993",
@@ -1258,6 +1904,40 @@ const phrasesEducation = [
     "sourceIndex": 2032
   },
   {
+    "id": "102049",
+    "category": "education",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Your answer is correct."
+      },
+      "de": {
+        "text": "Ihre Antwort ist korrekt."
+      }
+    },
+    "wordIds": [
+      "12049"
+    ],
+    "sourceIndex": 2049
+  },
+  {
+    "id": "102066",
+    "category": "education",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I need to practice more to get better."
+      },
+      "de": {
+        "text": "Ich muss mehr üben, um besser zu werden."
+      }
+    },
+    "wordIds": [
+      "12066"
+    ],
+    "sourceIndex": 2066
+  },
+  {
     "id": "102075",
     "category": "education",
     "level": "hard",
@@ -1273,6 +1953,23 @@ const phrasesEducation = [
       "12075"
     ],
     "sourceIndex": 2075
+  },
+  {
+    "id": "102090",
+    "category": "education",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I like Italian food."
+      },
+      "de": {
+        "text": "Ich mag italienisches Essen."
+      }
+    },
+    "wordIds": [
+      "12090"
+    ],
+    "sourceIndex": 2090
   },
   {
     "id": "102102",
@@ -1394,6 +2091,23 @@ const phrasesEducation = [
     "sourceIndex": 2234
   },
   {
+    "id": "102236",
+    "category": "education",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "Every letter has its own sound."
+      },
+      "de": {
+        "text": "Jeder Buchstabe hat einen eigenen Klang."
+      }
+    },
+    "wordIds": [
+      "12236"
+    ],
+    "sourceIndex": 2236
+  },
+  {
     "id": "102270",
     "category": "education",
     "level": "hard",
@@ -1409,6 +2123,40 @@ const phrasesEducation = [
       "12270"
     ],
     "sourceIndex": 2270
+  },
+  {
+    "id": "102327",
+    "category": "education",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "My children go to primary school."
+      },
+      "de": {
+        "text": "Meine Kinder gehen in die Grundschule."
+      }
+    },
+    "wordIds": [
+      "12327"
+    ],
+    "sourceIndex": 2327
+  },
+  {
+    "id": "102394",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My brother studies at college."
+      },
+      "de": {
+        "text": "Mein Bruder studiert am College."
+      }
+    },
+    "wordIds": [
+      "12394"
+    ],
+    "sourceIndex": 2394
   },
   {
     "id": "102402",
@@ -1494,6 +2242,23 @@ const phrasesEducation = [
       "12509"
     ],
     "sourceIndex": 2509
+  },
+  {
+    "id": "102510",
+    "category": "education",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I speak a little Spanish."
+      },
+      "de": {
+        "text": "Ich spreche ein bisschen Spanisch."
+      }
+    },
+    "wordIds": [
+      "12510"
+    ],
+    "sourceIndex": 2510
   },
   {
     "id": "102522",
@@ -1700,6 +2465,23 @@ const phrasesEducation = [
     "sourceIndex": 2814
   },
   {
+    "id": "102862",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I still need to text a message."
+      },
+      "de": {
+        "text": "Ich muss noch eine Nachricht texten."
+      }
+    },
+    "wordIds": [
+      "12862"
+    ],
+    "sourceIndex": 2862
+  },
+  {
     "id": "102887",
     "category": "education",
     "level": "hard",
@@ -1732,6 +2514,40 @@ const phrasesEducation = [
       "12899"
     ],
     "sourceIndex": 2899
+  },
+  {
+    "id": "102987",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The experiment was successful."
+      },
+      "de": {
+        "text": "Das Experiment war erfolgreich."
+      }
+    },
+    "wordIds": [
+      "12987"
+    ],
+    "sourceIndex": 2987
+  },
+  {
+    "id": "103059",
+    "category": "education",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I don't like math."
+      },
+      "de": {
+        "text": "Ich mag Mathe nicht."
+      }
+    },
+    "wordIds": [
+      "13059"
+    ],
+    "sourceIndex": 3059
   },
   {
     "id": "103071",
@@ -1853,6 +2669,23 @@ const phrasesEducation = [
     "sourceIndex": 3227
   },
   {
+    "id": "103249",
+    "category": "education",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The scientists are working on new experiments in the laboratory."
+      },
+      "de": {
+        "text": "Die Wissenschaftler arbeiten im Labor an neuen Experimenten."
+      }
+    },
+    "wordIds": [
+      "13249"
+    ],
+    "sourceIndex": 3249
+  },
+  {
     "id": "103250",
     "category": "education",
     "level": "hard",
@@ -1904,6 +2737,23 @@ const phrasesEducation = [
     "sourceIndex": 3269
   },
   {
+    "id": "103304",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please confirm this in writing."
+      },
+      "de": {
+        "text": "Bitte bestätigen Sie dies schriftlich."
+      }
+    },
+    "wordIds": [
+      "13304"
+    ],
+    "sourceIndex": 3304
+  },
+  {
     "id": "103306",
     "category": "education",
     "level": "easy",
@@ -1938,6 +2788,40 @@ const phrasesEducation = [
     "sourceIndex": 3323
   },
   {
+    "id": "103359",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My brother is an engineer."
+      },
+      "de": {
+        "text": "Mein Bruder ist Ingenieur."
+      }
+    },
+    "wordIds": [
+      "13359"
+    ],
+    "sourceIndex": 3359
+  },
+  {
+    "id": "103376",
+    "category": "education",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "She is a diligent female student."
+      },
+      "de": {
+        "text": "Sie ist eine fleißige Schülerin."
+      }
+    },
+    "wordIds": [
+      "13376"
+    ],
+    "sourceIndex": 3376
+  },
+  {
     "id": "103403",
     "category": "education",
     "level": "hard",
@@ -1970,6 +2854,23 @@ const phrasesEducation = [
       "13412"
     ],
     "sourceIndex": 3412
+  },
+  {
+    "id": "103418",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please make the corrections by tomorrow."
+      },
+      "de": {
+        "text": "Bitte machen Sie die Korrekturen bis morgen."
+      }
+    },
+    "wordIds": [
+      "13418"
+    ],
+    "sourceIndex": 3418
   },
   {
     "id": "103421",
@@ -2038,6 +2939,23 @@ const phrasesEducation = [
       "13673"
     ],
     "sourceIndex": 3673
+  },
+  {
+    "id": "103679",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The technician repairs the computer."
+      },
+      "de": {
+        "text": "Der Techniker repariert den Computer."
+      }
+    },
+    "wordIds": [
+      "13679"
+    ],
+    "sourceIndex": 3679
   },
   {
     "id": "103690",
@@ -2193,6 +3111,57 @@ const phrasesEducation = [
     "sourceIndex": 3978
   },
   {
+    "id": "103996",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Plants produce oxygen."
+      },
+      "de": {
+        "text": "Pflanzen produzieren Sauerstoff."
+      }
+    },
+    "wordIds": [
+      "13996"
+    ],
+    "sourceIndex": 3996
+  },
+  {
+    "id": "104079",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The lecture starts at 10 o'clock."
+      },
+      "de": {
+        "text": "Die Vorlesung beginnt um 10 Uhr."
+      }
+    },
+    "wordIds": [
+      "14079"
+    ],
+    "sourceIndex": 4079
+  },
+  {
+    "id": "104092",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please follow the instructions."
+      },
+      "de": {
+        "text": "Bitte folgen Sie den Anweisungen."
+      }
+    },
+    "wordIds": [
+      "14092"
+    ],
+    "sourceIndex": 4092
+  },
+  {
     "id": "104093",
     "category": "education",
     "level": "hard",
@@ -2259,6 +3228,23 @@ const phrasesEducation = [
       "14184"
     ],
     "sourceIndex": 4184
+  },
+  {
+    "id": "104201",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please correct my mistakes."
+      },
+      "de": {
+        "text": "Bitte korrigieren Sie meine Fehler."
+      }
+    },
+    "wordIds": [
+      "14201"
+    ],
+    "sourceIndex": 4201
   },
   {
     "id": "104207",
@@ -2516,6 +3502,23 @@ const phrasesEducation = [
     "sourceIndex": 4815
   },
   {
+    "id": "104867",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "You can look up the information in the book."
+      },
+      "de": {
+        "text": "Du kannst die Informationen im Buch nachlesen."
+      }
+    },
+    "wordIds": [
+      "14867"
+    ],
+    "sourceIndex": 4867
+  },
+  {
     "id": "104875",
     "category": "education",
     "level": "hard",
@@ -2582,6 +3585,23 @@ const phrasesEducation = [
       "15294"
     ],
     "sourceIndex": 5294
+  },
+  {
+    "id": "105317",
+    "category": "education",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "She is a diligent female student."
+      },
+      "de": {
+        "text": "Sie ist eine fleißige Studentin."
+      }
+    },
+    "wordIds": [
+      "15317"
+    ],
+    "sourceIndex": 5317
   },
   {
     "id": "105318",
@@ -2890,6 +3910,23 @@ const phrasesEducation = [
     "sourceIndex": 6121
   },
   {
+    "id": "106268",
+    "category": "education",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Can you read a story aloud to me?"
+      },
+      "de": {
+        "text": "Kannst du mir eine Geschichte vorlesen?"
+      }
+    },
+    "wordIds": [
+      "16268"
+    ],
+    "sourceIndex": 6268
+  },
+  {
     "id": "106288",
     "category": "education",
     "level": "hard",
@@ -3077,6 +4114,23 @@ const phrasesEducation = [
     "sourceIndex": 6812
   },
   {
+    "id": "106843",
+    "category": "education",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "We learned a new lesson today."
+      },
+      "de": {
+        "text": "Wir haben heute eine neue Lektion gelernt."
+      }
+    },
+    "wordIds": [
+      "16843"
+    ],
+    "sourceIndex": 6843
+  },
+  {
     "id": "106914",
     "category": "education",
     "level": "hard",
@@ -3092,6 +4146,23 @@ const phrasesEducation = [
       "16914"
     ],
     "sourceIndex": 6914
+  },
+  {
+    "id": "106945",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He has many fellow students in his class."
+      },
+      "de": {
+        "text": "Er hat viele Mitschüler in seiner Klasse."
+      }
+    },
+    "wordIds": [
+      "16945"
+    ],
+    "sourceIndex": 6945
   },
   {
     "id": "106953",
@@ -3111,6 +4182,23 @@ const phrasesEducation = [
     "sourceIndex": 6953
   },
   {
+    "id": "107088",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He can read the time off the sundial."
+      },
+      "de": {
+        "text": "Er kann die Uhrzeit von der Sonnenuhr ablesen."
+      }
+    },
+    "wordIds": [
+      "17088"
+    ],
+    "sourceIndex": 7088
+  },
+  {
     "id": "107121",
     "category": "education",
     "level": "medium",
@@ -3126,6 +4214,23 @@ const phrasesEducation = [
       "17121"
     ],
     "sourceIndex": 7121
+  },
+  {
+    "id": "107139",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The teacher explains the task."
+      },
+      "de": {
+        "text": "Die Lehrkraft erklärt die Aufgabe."
+      }
+    },
+    "wordIds": [
+      "17139"
+    ],
+    "sourceIndex": 7139
   },
   {
     "id": "107144",
@@ -3177,6 +4282,40 @@ const phrasesEducation = [
       "17174"
     ],
     "sourceIndex": 7174
+  },
+  {
+    "id": "107188",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "In Austria, children attend primary school."
+      },
+      "de": {
+        "text": "In Österreich besuchen Kinder die Volksschule."
+      }
+    },
+    "wordIds": [
+      "17188"
+    ],
+    "sourceIndex": 7188
+  },
+  {
+    "id": "107251",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I found the film in the media library."
+      },
+      "de": {
+        "text": "Ich habe den Film in der Mediathek gefunden."
+      }
+    },
+    "wordIds": [
+      "17251"
+    ],
+    "sourceIndex": 7251
   },
   {
     "id": "107253",
@@ -3262,6 +4401,23 @@ const phrasesEducation = [
       "17422"
     ],
     "sourceIndex": 7422
+  },
+  {
+    "id": "107642",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "After graduation, he started an apprenticeship."
+      },
+      "de": {
+        "text": "Nach dem Schulabschluss begann er eine Ausbildung."
+      }
+    },
+    "wordIds": [
+      "17642"
+    ],
+    "sourceIndex": 7642
   },
   {
     "id": "107683",
@@ -3451,6 +4607,23 @@ const phrasesEducation = [
     "sourceIndex": 8140
   },
   {
+    "id": "108333",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My sister goes to middle school."
+      },
+      "de": {
+        "text": "Meine Schwester geht auf die Mittelschule."
+      }
+    },
+    "wordIds": [
+      "18333"
+    ],
+    "sourceIndex": 8333
+  },
+  {
     "id": "108361",
     "category": "education",
     "level": "hard",
@@ -3466,6 +4639,23 @@ const phrasesEducation = [
       "18361"
     ],
     "sourceIndex": 8361
+  },
+  {
+    "id": "108403",
+    "category": "education",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Please write that down."
+      },
+      "de": {
+        "text": "Bitte schreiben Sie sich das auf."
+      }
+    },
+    "wordIds": [
+      "18403"
+    ],
+    "sourceIndex": 8403
   },
   {
     "id": "108410",
@@ -3485,6 +4675,23 @@ const phrasesEducation = [
     "sourceIndex": 8410
   },
   {
+    "id": "108416",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The diagram shows the sales figures."
+      },
+      "de": {
+        "text": "Das Diagramm zeigt die Verkaufszahlen."
+      }
+    },
+    "wordIds": [
+      "18416"
+    ],
+    "sourceIndex": 8416
+  },
+  {
     "id": "108553",
     "category": "education",
     "level": "hard",
@@ -3500,6 +4707,23 @@ const phrasesEducation = [
       "18553"
     ],
     "sourceIndex": 8553
+  },
+  {
+    "id": "108565",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My children go to the comprehensive school."
+      },
+      "de": {
+        "text": "Meine Kinder gehen auf die Gesamtschule."
+      }
+    },
+    "wordIds": [
+      "18565"
+    ],
+    "sourceIndex": 8565
   },
   {
     "id": "108585",
@@ -3551,6 +4775,23 @@ const phrasesEducation = [
       "18655"
     ],
     "sourceIndex": 8655
+  },
+  {
+    "id": "108818",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "That is an exceptional case and not the rule."
+      },
+      "de": {
+        "text": "Das ist ein Ausnahmefall und nicht die Regel."
+      }
+    },
+    "wordIds": [
+      "18818"
+    ],
+    "sourceIndex": 8818
   },
   {
     "id": "108874",
@@ -3723,6 +4964,57 @@ const phrasesEducation = [
     "sourceIndex": 9705
   },
   {
+    "id": "109734",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I still need to read through the report."
+      },
+      "de": {
+        "text": "Ich muss den Bericht noch durchlesen."
+      }
+    },
+    "wordIds": [
+      "19734"
+    ],
+    "sourceIndex": 9734
+  },
+  {
+    "id": "109896",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "In the ideal case, the project will be finished next week."
+      },
+      "de": {
+        "text": "Im Idealfall ist das Projekt nächste Woche fertig."
+      }
+    },
+    "wordIds": [
+      "19896"
+    ],
+    "sourceIndex": 9896
+  },
+  {
+    "id": "110040",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The scientists are experimenting with new materials."
+      },
+      "de": {
+        "text": "Die Wissenschaftler experimentieren mit neuen Materialien."
+      }
+    },
+    "wordIds": [
+      "20040"
+    ],
+    "sourceIndex": 10040
+  },
+  {
     "id": "110043",
     "category": "education",
     "level": "hard",
@@ -3791,6 +5083,23 @@ const phrasesEducation = [
     "sourceIndex": 10265
   },
   {
+    "id": "110421",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I found a useful tutorial online."
+      },
+      "de": {
+        "text": "Ich habe ein nützliches Tutorial online gefunden."
+      }
+    },
+    "wordIds": [
+      "20421"
+    ],
+    "sourceIndex": 10421
+  },
+  {
     "id": "110433",
     "category": "education",
     "level": "easy",
@@ -3840,6 +5149,57 @@ const phrasesEducation = [
       "20503"
     ],
     "sourceIndex": 10503
+  },
+  {
+    "id": "110509",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My sister is still in high school."
+      },
+      "de": {
+        "text": "Meine Schwester geht noch auf die Highschool."
+      }
+    },
+    "wordIds": [
+      "20509"
+    ],
+    "sourceIndex": 10509
+  },
+  {
+    "id": "110536",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My sister goes to secondary school."
+      },
+      "de": {
+        "text": "Meine Schwester geht auf die Oberschule."
+      }
+    },
+    "wordIds": [
+      "20536"
+    ],
+    "sourceIndex": 10536
+  },
+  {
+    "id": "110557",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "A good education is important for the future."
+      },
+      "de": {
+        "text": "Eine gute Schulbildung ist wichtig für die Zukunft."
+      }
+    },
+    "wordIds": [
+      "20557"
+    ],
+    "sourceIndex": 10557
   },
   {
     "id": "110566",
@@ -3944,6 +5304,23 @@ const phrasesEducation = [
     "sourceIndex": 11054
   },
   {
+    "id": "111067",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "A noun is a word that names a person, place, or thing."
+      },
+      "de": {
+        "text": "Ein Nomen ist ein Wort, das eine Person, einen Ort oder eine Sache benennt."
+      }
+    },
+    "wordIds": [
+      "21067"
+    ],
+    "sourceIndex": 11067
+  },
+  {
     "id": "111137",
     "category": "education",
     "level": "hard",
@@ -4012,6 +5389,23 @@ const phrasesEducation = [
     "sourceIndex": 11487
   },
   {
+    "id": "111531",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "You need a certificate for the trip."
+      },
+      "de": {
+        "text": "Sie benötigen eine Bescheinigung für die Reise."
+      }
+    },
+    "wordIds": [
+      "21531"
+    ],
+    "sourceIndex": 11531
+  },
+  {
     "id": "111546",
     "category": "education",
     "level": "hard",
@@ -4044,6 +5438,57 @@ const phrasesEducation = [
       "21627"
     ],
     "sourceIndex": 11627
+  },
+  {
+    "id": "111631",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The word \"apple\" has two syllables."
+      },
+      "de": {
+        "text": "Das Wort \"Apfel\" hat zwei Silben."
+      }
+    },
+    "wordIds": [
+      "21631"
+    ],
+    "sourceIndex": 11631
+  },
+  {
+    "id": "111645",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "You can observe the stars with the telescope."
+      },
+      "de": {
+        "text": "Mit dem Teleskop kann man die Sterne beobachten."
+      }
+    },
+    "wordIds": [
+      "21645"
+    ],
+    "sourceIndex": 11645
+  },
+  {
+    "id": "111716",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My sister works as a kindergarten teacher."
+      },
+      "de": {
+        "text": "Meine Schwester arbeitet als Erzieherin im Kindergarten."
+      }
+    },
+    "wordIds": [
+      "21716"
+    ],
+    "sourceIndex": 11716
   },
   {
     "id": "111844",
@@ -4095,6 +5540,23 @@ const phrasesEducation = [
       "21964"
     ],
     "sourceIndex": 11964
+  },
+  {
+    "id": "111973",
+    "category": "education",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Our school class went on a trip."
+      },
+      "de": {
+        "text": "Unsere Schulklasse hat einen Ausflug gemacht."
+      }
+    },
+    "wordIds": [
+      "21973"
+    ],
+    "sourceIndex": 11973
   },
   {
     "id": "111976",
@@ -4199,6 +5661,40 @@ const phrasesEducation = [
     "sourceIndex": 12490
   },
   {
+    "id": "112507",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "With the microscope, one can see very small things."
+      },
+      "de": {
+        "text": "Mit dem Mikroskop kann man sehr kleine Dinge sehen."
+      }
+    },
+    "wordIds": [
+      "22507"
+    ],
+    "sourceIndex": 12507
+  },
+  {
+    "id": "112722",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The degree of difficulty of this task is high."
+      },
+      "de": {
+        "text": "Der Schwierigkeitsgrad dieser Aufgabe ist hoch."
+      }
+    },
+    "wordIds": [
+      "22722"
+    ],
+    "sourceIndex": 12722
+  },
+  {
     "id": "112769",
     "category": "education",
     "level": "hard",
@@ -4231,6 +5727,57 @@ const phrasesEducation = [
       "22777"
     ],
     "sourceIndex": 12777
+  },
+  {
+    "id": "112792",
+    "category": "education",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "In any case, we still need to discuss that."
+      },
+      "de": {
+        "text": "Aufjedenfall müssen wir das noch besprechen."
+      }
+    },
+    "wordIds": [
+      "22792"
+    ],
+    "sourceIndex": 12792
+  },
+  {
+    "id": "113003",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "In German, there are four cases: nominative, genitive, dative, and accusative."
+      },
+      "de": {
+        "text": "Im Deutschen gibt es vier Fälle: Nominativ, Genitiv, Dativ und Akkusativ."
+      }
+    },
+    "wordIds": [
+      "23003"
+    ],
+    "sourceIndex": 13003
+  },
+  {
+    "id": "113040",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The main topic of the book is love."
+      },
+      "de": {
+        "text": "Das Hauptthema des Buches ist die Liebe."
+      }
+    },
+    "wordIds": [
+      "23040"
+    ],
+    "sourceIndex": 13040
   },
   {
     "id": "113063",
@@ -4301,6 +5848,57 @@ const phrasesEducation = [
     "sourceIndex": 13340
   },
   {
+    "id": "113407",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The female lecturer explained the task."
+      },
+      "de": {
+        "text": "Die Dozentin erklärte die Aufgabe."
+      }
+    },
+    "wordIds": [
+      "23407"
+    ],
+    "sourceIndex": 13407
+  },
+  {
+    "id": "113413",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The children's school enrollment takes place in August."
+      },
+      "de": {
+        "text": "Die Einschulung der Kinder findet im August statt."
+      }
+    },
+    "wordIds": [
+      "23413"
+    ],
+    "sourceIndex": 13413
+  },
+  {
+    "id": "113436",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The history class was very interesting today."
+      },
+      "de": {
+        "text": "Der Geschichtsunterricht war heute sehr interessant."
+      }
+    },
+    "wordIds": [
+      "23436"
+    ],
+    "sourceIndex": 13436
+  },
+  {
     "id": "113446",
     "category": "education",
     "level": "hard",
@@ -4369,6 +5967,23 @@ const phrasesEducation = [
     "sourceIndex": 13625
   },
   {
+    "id": "113680",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The learning child asked many questions."
+      },
+      "de": {
+        "text": "Das lernende Kind stellte viele Fragen."
+      }
+    },
+    "wordIds": [
+      "23680"
+    ],
+    "sourceIndex": 13680
+  },
+  {
     "id": "113692",
     "category": "education",
     "level": "hard",
@@ -4418,6 +6033,23 @@ const phrasesEducation = [
       "23850"
     ],
     "sourceIndex": 13850
+  },
+  {
+    "id": "113982",
+    "category": "education",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Can you please calculate how much that costs?"
+      },
+      "de": {
+        "text": "Kannst du bitte ausrechnen, wie viel das kostet?"
+      }
+    },
+    "wordIds": [
+      "23982"
+    ],
+    "sourceIndex": 13982
   },
   {
     "id": "114060",
@@ -4505,6 +6137,23 @@ const phrasesEducation = [
     "sourceIndex": 14175
   },
   {
+    "id": "114298",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The German Shepherd is a popular dog breed."
+      },
+      "de": {
+        "text": "Der Schäferhund ist eine beliebte Hunderasse."
+      }
+    },
+    "wordIds": [
+      "24298"
+    ],
+    "sourceIndex": 14298
+  },
+  {
     "id": "114307",
     "category": "education",
     "level": "easy",
@@ -4556,6 +6205,40 @@ const phrasesEducation = [
     "sourceIndex": 14465
   },
   {
+    "id": "114495",
+    "category": "education",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "We have physical education today in the gym."
+      },
+      "de": {
+        "text": "Wir haben heute Sportunterricht in der Turnhalle."
+      }
+    },
+    "wordIds": [
+      "24495"
+    ],
+    "sourceIndex": 14495
+  },
+  {
+    "id": "114628",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The genitive case is often used with prepositions."
+      },
+      "de": {
+        "text": "Der Genitiv wird oft mit Präpositionen verwendet."
+      }
+    },
+    "wordIds": [
+      "24628"
+    ],
+    "sourceIndex": 14628
+  },
+  {
     "id": "114773",
     "category": "education",
     "level": "hard",
@@ -4590,6 +6273,57 @@ const phrasesEducation = [
     "sourceIndex": 14821
   },
   {
+    "id": "114870",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "This is a long-term investment."
+      },
+      "de": {
+        "text": "Das ist eine langzeitige Investition."
+      }
+    },
+    "wordIds": [
+      "24870"
+    ],
+    "sourceIndex": 14870
+  },
+  {
+    "id": "114874",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "His letter to the editor was published in the newspaper."
+      },
+      "de": {
+        "text": "Sein Leserbrief wurde in der Zeitung veröffentlicht."
+      }
+    },
+    "wordIds": [
+      "24874"
+    ],
+    "sourceIndex": 14874
+  },
+  {
+    "id": "114886",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I need to look up this word in the dictionary."
+      },
+      "de": {
+        "text": "Ich muss dieses Wort im Wörterbuch nachschlagen."
+      }
+    },
+    "wordIds": [
+      "24886"
+    ],
+    "sourceIndex": 14886
+  },
+  {
     "id": "115282",
     "category": "education",
     "level": "hard",
@@ -4605,6 +6339,23 @@ const phrasesEducation = [
       "25282"
     ],
     "sourceIndex": 15282
+  },
+  {
+    "id": "115575",
+    "category": "education",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The way to school is long for many children."
+      },
+      "de": {
+        "text": "Der Schulweg ist für viele Kinder lang."
+      }
+    },
+    "wordIds": [
+      "25575"
+    ],
+    "sourceIndex": 15575
   },
   {
     "id": "115799",
@@ -4743,6 +6494,23 @@ const phrasesEducation = [
     "sourceIndex": 16135
   },
   {
+    "id": "116445",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My daughter is now in middle school."
+      },
+      "de": {
+        "text": "Meine Tochter ist jetzt in der Mittelstufe."
+      }
+    },
+    "wordIds": [
+      "26445"
+    ],
+    "sourceIndex": 16445
+  },
+  {
     "id": "116705",
     "category": "education",
     "level": "hard",
@@ -4758,6 +6526,23 @@ const phrasesEducation = [
       "26705"
     ],
     "sourceIndex": 16705
+  },
+  {
+    "id": "116782",
+    "category": "education",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The lesson started on time."
+      },
+      "de": {
+        "text": "Die Unterrichtsstunde begann pünktlich."
+      }
+    },
+    "wordIds": [
+      "26782"
+    ],
+    "sourceIndex": 16782
   },
   {
     "id": "116844",
@@ -4794,6 +6579,23 @@ const phrasesEducation = [
     "sourceIndex": 16894
   },
   {
+    "id": "116915",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The teacher explained the task."
+      },
+      "de": {
+        "text": "Der Lehrende erklärte die Aufgabe."
+      }
+    },
+    "wordIds": [
+      "26915"
+    ],
+    "sourceIndex": 16915
+  },
+  {
     "id": "116917",
     "category": "education",
     "level": "hard",
@@ -4826,6 +6628,74 @@ const phrasesEducation = [
       "26923"
     ],
     "sourceIndex": 16923
+  },
+  {
+    "id": "116935",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "You can read along if you like."
+      },
+      "de": {
+        "text": "Du kannst gerne mitlesen, wenn du möchtest."
+      }
+    },
+    "wordIds": [
+      "26935"
+    ],
+    "sourceIndex": 16935
+  },
+  {
+    "id": "117068",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The initial letter of the name is \"M\"."
+      },
+      "de": {
+        "text": "Der Anfangsbuchstabe des Namens ist \"M\"."
+      }
+    },
+    "wordIds": [
+      "27068"
+    ],
+    "sourceIndex": 17068
+  },
+  {
+    "id": "117121",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My child will start school next year."
+      },
+      "de": {
+        "text": "Mein Kind wird nächstes Jahr eingeschult."
+      }
+    },
+    "wordIds": [
+      "27121"
+    ],
+    "sourceIndex": 17121
+  },
+  {
+    "id": "117205",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I downloaded a reading sample of the new novel."
+      },
+      "de": {
+        "text": "Ich habe eine Leseprobe des neuen Romans heruntergeladen."
+      }
+    },
+    "wordIds": [
+      "27205"
+    ],
+    "sourceIndex": 17205
   },
   {
     "id": "117349",
@@ -4930,6 +6800,23 @@ const phrasesEducation = [
     "sourceIndex": 17767
   },
   {
+    "id": "117785",
+    "category": "education",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "When do the school holidays start this year?"
+      },
+      "de": {
+        "text": "Wann beginnen die Schulferien in diesem Jahr?"
+      }
+    },
+    "wordIds": [
+      "27785"
+    ],
+    "sourceIndex": 17785
+  },
+  {
     "id": "117902",
     "category": "education",
     "level": "medium",
@@ -4945,6 +6832,40 @@ const phrasesEducation = [
       "27902"
     ],
     "sourceIndex": 17902
+  },
+  {
+    "id": "117982",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The learning process can sometimes be lengthy."
+      },
+      "de": {
+        "text": "Der Lernprozess kann manchmal langwierig sein."
+      }
+    },
+    "wordIds": [
+      "27982"
+    ],
+    "sourceIndex": 17982
+  },
+  {
+    "id": "118032",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My sister goes to secondary school."
+      },
+      "de": {
+        "text": "Meine Schwester geht auf die Sekundarschule."
+      }
+    },
+    "wordIds": [
+      "28032"
+    ],
+    "sourceIndex": 18032
   },
   {
     "id": "118166",
@@ -5132,6 +7053,23 @@ const phrasesEducation = [
       "28683"
     ],
     "sourceIndex": 18683
+  },
+  {
+    "id": "118747",
+    "category": "education",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I need new reading material for the holiday."
+      },
+      "de": {
+        "text": "Ich brauche neuen Lesestoff für den Urlaub."
+      }
+    },
+    "wordIds": [
+      "28747"
+    ],
+    "sourceIndex": 18747
   },
   {
     "id": "118781",

@@ -17,6 +17,23 @@ const phrasesTechnology = [
     "sourceIndex": 40
   },
   {
+    "id": "100132",
+    "category": "technology",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I receive a letter."
+      },
+      "de": {
+        "text": "Ich bekomme einen Brief."
+      }
+    },
+    "wordIds": [
+      "10132"
+    ],
+    "sourceIndex": 132
+  },
+  {
     "id": "100150",
     "category": "technology",
     "level": "hard",
@@ -32,6 +49,40 @@ const phrasesTechnology = [
       "10150"
     ],
     "sourceIndex": 150
+  },
+  {
+    "id": "100239",
+    "category": "technology",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The Internet is an important source of information."
+      },
+      "de": {
+        "text": "Das Internet ist eine wichtige Informationsquelle."
+      }
+    },
+    "wordIds": [
+      "10239"
+    ],
+    "sourceIndex": 239
+  },
+  {
+    "id": "100279",
+    "category": "technology",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I am looking for my keys."
+      },
+      "de": {
+        "text": "Ich suche meine Schlüssel."
+      }
+    },
+    "wordIds": [
+      "10279"
+    ],
+    "sourceIndex": 279
   },
   {
     "id": "100321",
@@ -85,6 +136,23 @@ const phrasesTechnology = [
     "sourceIndex": 334
   },
   {
+    "id": "100338",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The search for the key was long."
+      },
+      "de": {
+        "text": "Die Suche nach dem Schlüssel war lang."
+      }
+    },
+    "wordIds": [
+      "10338"
+    ],
+    "sourceIndex": 338
+  },
+  {
     "id": "100382",
     "category": "technology",
     "level": "hard",
@@ -100,6 +168,23 @@ const phrasesTechnology = [
       "10382"
     ],
     "sourceIndex": 382
+  },
+  {
+    "id": "100384",
+    "category": "technology",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I like to watch TV."
+      },
+      "de": {
+        "text": "Ich schaue gerne Tv."
+      }
+    },
+    "wordIds": [
+      "10384"
+    ],
+    "sourceIndex": 384
   },
   {
     "id": "100412",
@@ -136,6 +221,23 @@ const phrasesTechnology = [
     "sourceIndex": 447
   },
   {
+    "id": "100460",
+    "category": "technology",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "Please turn on the light."
+      },
+      "de": {
+        "text": "Mach bitte das Licht an."
+      }
+    },
+    "wordIds": [
+      "10460"
+    ],
+    "sourceIndex": 460
+  },
+  {
     "id": "100484",
     "category": "technology",
     "level": "hard",
@@ -151,6 +253,40 @@ const phrasesTechnology = [
       "10484"
     ],
     "sourceIndex": 484
+  },
+  {
+    "id": "100493",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The computer is not working."
+      },
+      "de": {
+        "text": "Der Computer funktioniert nicht."
+      }
+    },
+    "wordIds": [
+      "10493"
+    ],
+    "sourceIndex": 493
+  },
+  {
+    "id": "100659",
+    "category": "technology",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Visit our website for more information."
+      },
+      "de": {
+        "text": "Besuchen Sie unsere Website für weitere Informationen."
+      }
+    },
+    "wordIds": [
+      "10659"
+    ],
+    "sourceIndex": 659
   },
   {
     "id": "100663",
@@ -202,6 +338,23 @@ const phrasesTechnology = [
       "10685"
     ],
     "sourceIndex": 685
+  },
+  {
+    "id": "100709",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Can you please connect me with Mr. Müller?"
+      },
+      "de": {
+        "text": "Können Sie mich bitte mit Herrn Müller verbinden?"
+      }
+    },
+    "wordIds": [
+      "10709"
+    ],
+    "sourceIndex": 709
   },
   {
     "id": "100726",
@@ -289,6 +442,23 @@ const phrasesTechnology = [
     "sourceIndex": 811
   },
   {
+    "id": "100816",
+    "category": "technology",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "Can you answer the telephone?"
+      },
+      "de": {
+        "text": "Kannst du das Telefon beantworten?"
+      }
+    },
+    "wordIds": [
+      "10816"
+    ],
+    "sourceIndex": 816
+  },
+  {
     "id": "100947",
     "category": "technology",
     "level": "medium",
@@ -323,6 +493,23 @@ const phrasesTechnology = [
     "sourceIndex": 949
   },
   {
+    "id": "100994",
+    "category": "technology",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I like listening to the radio in the morning."
+      },
+      "de": {
+        "text": "Ich höre gerne Radio am Morgen."
+      }
+    },
+    "wordIds": [
+      "10994"
+    ],
+    "sourceIndex": 994
+  },
+  {
     "id": "101032",
     "category": "technology",
     "level": "easy",
@@ -340,6 +527,23 @@ const phrasesTechnology = [
     "sourceIndex": 1032
   },
   {
+    "id": "101078",
+    "category": "technology",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I still need to get my books."
+      },
+      "de": {
+        "text": "Ich muss noch meine Bücher kriegen."
+      }
+    },
+    "wordIds": [
+      "11078"
+    ],
+    "sourceIndex": 1078
+  },
+  {
     "id": "101128",
     "category": "technology",
     "level": "hard",
@@ -355,6 +559,23 @@ const phrasesTechnology = [
       "11128"
     ],
     "sourceIndex": 1128
+  },
+  {
+    "id": "101148",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The recording of the song is excellent."
+      },
+      "de": {
+        "text": "Die Aufnahme des Liedes ist ausgezeichnet."
+      }
+    },
+    "wordIds": [
+      "11148"
+    ],
+    "sourceIndex": 1148
   },
   {
     "id": "101183",
@@ -391,6 +612,23 @@ const phrasesTechnology = [
     "sourceIndex": 1186
   },
   {
+    "id": "101209",
+    "category": "technology",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Visit our homepage for more information."
+      },
+      "de": {
+        "text": "Besuchen Sie unsere Homepage für weitere Informationen."
+      }
+    },
+    "wordIds": [
+      "11209"
+    ],
+    "sourceIndex": 1209
+  },
+  {
     "id": "101217",
     "category": "technology",
     "level": "hard",
@@ -425,6 +663,23 @@ const phrasesTechnology = [
     "sourceIndex": 1265
   },
   {
+    "id": "101279",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I saw an interesting advertisement in the newspaper."
+      },
+      "de": {
+        "text": "Ich habe eine interessante Anzeige in der Zeitung gesehen."
+      }
+    },
+    "wordIds": [
+      "11279"
+    ],
+    "sourceIndex": 1279
+  },
+  {
     "id": "101301",
     "category": "technology",
     "level": "hard",
@@ -457,6 +712,23 @@ const phrasesTechnology = [
       "11338"
     ],
     "sourceIndex": 1338
+  },
+  {
+    "id": "101353",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The code is difficult to understand."
+      },
+      "de": {
+        "text": "Der Code ist schwer zu verstehen."
+      }
+    },
+    "wordIds": [
+      "11353"
+    ],
+    "sourceIndex": 1353
   },
   {
     "id": "101360",
@@ -544,6 +816,23 @@ const phrasesTechnology = [
     "sourceIndex": 1539
   },
   {
+    "id": "101566",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The server is slow today."
+      },
+      "de": {
+        "text": "Der Server ist heute langsam."
+      }
+    },
+    "wordIds": [
+      "11566"
+    ],
+    "sourceIndex": 1566
+  },
+  {
     "id": "101767",
     "category": "technology",
     "level": "hard",
@@ -578,6 +867,23 @@ const phrasesTechnology = [
     "sourceIndex": 1791
   },
   {
+    "id": "101862",
+    "category": "technology",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Please click here to continue."
+      },
+      "de": {
+        "text": "Bitte klicken Sie hier, um fortzufahren."
+      }
+    },
+    "wordIds": [
+      "11862"
+    ],
+    "sourceIndex": 1862
+  },
+  {
     "id": "102001",
     "category": "technology",
     "level": "hard",
@@ -593,6 +899,23 @@ const phrasesTechnology = [
       "12001"
     ],
     "sourceIndex": 2001
+  },
+  {
+    "id": "102024",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The party's spokesperson made a statement."
+      },
+      "de": {
+        "text": "Der Sprecher der Partei gab eine Erklärung ab."
+      }
+    },
+    "wordIds": [
+      "12024"
+    ],
+    "sourceIndex": 2024
   },
   {
     "id": "102031",
@@ -680,6 +1003,40 @@ const phrasesTechnology = [
     "sourceIndex": 2201
   },
   {
+    "id": "102214",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He gave a clear signal to depart."
+      },
+      "de": {
+        "text": "Er gab ein klares Signal zum Aufbruch."
+      }
+    },
+    "wordIds": [
+      "12214"
+    ],
+    "sourceIndex": 2214
+  },
+  {
+    "id": "102238",
+    "category": "technology",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We live in a digital age."
+      },
+      "de": {
+        "text": "Wir leben in einem digitalen Zeitalter."
+      }
+    },
+    "wordIds": [
+      "12238"
+    ],
+    "sourceIndex": 2238
+  },
+  {
     "id": "102302",
     "category": "technology",
     "level": "hard",
@@ -695,6 +1052,23 @@ const phrasesTechnology = [
       "12302"
     ],
     "sourceIndex": 2302
+  },
+  {
+    "id": "102337",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She has a lot of power for sports."
+      },
+      "de": {
+        "text": "Sie hat viel Power für den Sport."
+      }
+    },
+    "wordIds": [
+      "12337"
+    ],
+    "sourceIndex": 2337
   },
   {
     "id": "102435",
@@ -765,6 +1139,40 @@ const phrasesTechnology = [
     "sourceIndex": 2561
   },
   {
+    "id": "102589",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The graphic shows the sales figures."
+      },
+      "de": {
+        "text": "Die Grafik zeigt die Verkaufszahlen."
+      }
+    },
+    "wordIds": [
+      "12589"
+    ],
+    "sourceIndex": 2589
+  },
+  {
+    "id": "102604",
+    "category": "technology",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The robot can speak."
+      },
+      "de": {
+        "text": "Der Roboter kann sprechen."
+      }
+    },
+    "wordIds": [
+      "12604"
+    ],
+    "sourceIndex": 2604
+  },
+  {
     "id": "102634",
     "category": "technology",
     "level": "hard",
@@ -797,6 +1205,23 @@ const phrasesTechnology = [
       "12746"
     ],
     "sourceIndex": 2746
+  },
+  {
+    "id": "102788",
+    "category": "technology",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "My laptop is broken."
+      },
+      "de": {
+        "text": "Mein Laptop ist kaputt."
+      }
+    },
+    "wordIds": [
+      "12788"
+    ],
+    "sourceIndex": 2788
   },
   {
     "id": "102834",
@@ -867,6 +1292,23 @@ const phrasesTechnology = [
     "sourceIndex": 2869
   },
   {
+    "id": "102912",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "A drop of water fell on the floor."
+      },
+      "de": {
+        "text": "Ein Tropfen Wasser fiel auf den Boden."
+      }
+    },
+    "wordIds": [
+      "12912"
+    ],
+    "sourceIndex": 2912
+  },
+  {
     "id": "102918",
     "category": "technology",
     "level": "hard",
@@ -918,6 +1360,40 @@ const phrasesTechnology = [
     "sourceIndex": 2955
   },
   {
+    "id": "103045",
+    "category": "technology",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Photography is a beautiful hobby."
+      },
+      "de": {
+        "text": "Die Fotografie ist ein schönes Hobby."
+      }
+    },
+    "wordIds": [
+      "13045"
+    ],
+    "sourceIndex": 3045
+  },
+  {
+    "id": "103108",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "With one click, the page opened."
+      },
+      "de": {
+        "text": "Mit einem Klick öffnete sich die Seite."
+      }
+    },
+    "wordIds": [
+      "13108"
+    ],
+    "sourceIndex": 3108
+  },
+  {
     "id": "103158",
     "category": "technology",
     "level": "medium",
@@ -933,6 +1409,23 @@ const phrasesTechnology = [
       "13158"
     ],
     "sourceIndex": 3158
+  },
+  {
+    "id": "103204",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We are connected by a long friendship."
+      },
+      "de": {
+        "text": "Wir sind durch eine lange Freundschaft verbunden."
+      }
+    },
+    "wordIds": [
+      "13204"
+    ],
+    "sourceIndex": 3204
   },
   {
     "id": "103225",
@@ -1003,6 +1496,23 @@ const phrasesTechnology = [
     "sourceIndex": 3518
   },
   {
+    "id": "103548",
+    "category": "technology",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Please enter your password."
+      },
+      "de": {
+        "text": "Bitte geben Sie Ihr Passwort ein."
+      }
+    },
+    "wordIds": [
+      "13548"
+    ],
+    "sourceIndex": 3548
+  },
+  {
     "id": "103640",
     "category": "technology",
     "level": "hard",
@@ -1018,6 +1528,41 @@ const phrasesTechnology = [
       "13640"
     ],
     "sourceIndex": 3640
+  },
+  {
+    "id": "103644",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We received an electronic invoice."
+      },
+      "de": {
+        "text": "Wir haben eine elektronische Rechnung erhalten."
+      }
+    },
+    "wordIds": [
+      "13644"
+    ],
+    "sourceIndex": 3644
+  },
+  {
+    "id": "103677",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please turn on the light."
+      },
+      "de": {
+        "text": "Bitte schalten Sie das Licht ein."
+      }
+    },
+    "wordIds": [
+      "13677",
+      "14596"
+    ],
+    "sourceIndex": 3677
   },
   {
     "id": "103783",
@@ -1052,6 +1597,40 @@ const phrasesTechnology = [
       "13833"
     ],
     "sourceIndex": 3833
+  },
+  {
+    "id": "103903",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The website offers a lot of useful information."
+      },
+      "de": {
+        "text": "Die Internetseite bietet viele nützliche Informationen."
+      }
+    },
+    "wordIds": [
+      "13903"
+    ],
+    "sourceIndex": 3903
+  },
+  {
+    "id": "103929",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The radio broadcasts news."
+      },
+      "de": {
+        "text": "Der Rundfunk sendet Nachrichten."
+      }
+    },
+    "wordIds": [
+      "13929"
+    ],
+    "sourceIndex": 3929
   },
   {
     "id": "103938",
@@ -1105,6 +1684,23 @@ const phrasesTechnology = [
     "sourceIndex": 4033
   },
   {
+    "id": "104036",
+    "category": "technology",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "My printer doesn't work anymore."
+      },
+      "de": {
+        "text": "Mein Drucker funktioniert nicht mehr."
+      }
+    },
+    "wordIds": [
+      "14036"
+    ],
+    "sourceIndex": 4036
+  },
+  {
     "id": "104095",
     "category": "technology",
     "level": "medium",
@@ -1120,6 +1716,23 @@ const phrasesTechnology = [
       "14095"
     ],
     "sourceIndex": 4095
+  },
+  {
+    "id": "104105",
+    "category": "technology",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I like to eat chips with the movie."
+      },
+      "de": {
+        "text": "Ich esse gerne Chips zum Film."
+      }
+    },
+    "wordIds": [
+      "14105"
+    ],
+    "sourceIndex": 4105
   },
   {
     "id": "104163",
@@ -1207,6 +1820,23 @@ const phrasesTechnology = [
     "sourceIndex": 4319
   },
   {
+    "id": "104322",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Tidy up your stuff!"
+      },
+      "de": {
+        "text": "Räum deinen Kram auf!"
+      }
+    },
+    "wordIds": [
+      "14322"
+    ],
+    "sourceIndex": 4322
+  },
+  {
     "id": "104345",
     "category": "technology",
     "level": "hard",
@@ -1239,6 +1869,23 @@ const phrasesTechnology = [
       "14364"
     ],
     "sourceIndex": 4364
+  },
+  {
+    "id": "104400",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The speaker is broken."
+      },
+      "de": {
+        "text": "Der Lautsprecher ist kaputt."
+      }
+    },
+    "wordIds": [
+      "14400"
+    ],
+    "sourceIndex": 4400
   },
   {
     "id": "104405",
@@ -1309,6 +1956,57 @@ const phrasesTechnology = [
     "sourceIndex": 4608
   },
   {
+    "id": "104612",
+    "category": "technology",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I listen to music with my headphones."
+      },
+      "de": {
+        "text": "Ich höre Musik mit meinen Kopfhörern."
+      }
+    },
+    "wordIds": [
+      "14612"
+    ],
+    "sourceIndex": 4612
+  },
+  {
+    "id": "104741",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He studies electronics at the university."
+      },
+      "de": {
+        "text": "Er studiert Elektronik an der Universität."
+      }
+    },
+    "wordIds": [
+      "14741"
+    ],
+    "sourceIndex": 4741
+  },
+  {
+    "id": "104826",
+    "category": "technology",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The vending machine is broken."
+      },
+      "de": {
+        "text": "Der Automat ist kaputt."
+      }
+    },
+    "wordIds": [
+      "14826"
+    ],
+    "sourceIndex": 4826
+  },
+  {
     "id": "104880",
     "category": "technology",
     "level": "hard",
@@ -1341,6 +2039,57 @@ const phrasesTechnology = [
       "14886"
     ],
     "sourceIndex": 4886
+  },
+  {
+    "id": "105032",
+    "category": "technology",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Please put the documents in the folder."
+      },
+      "de": {
+        "text": "Bitte legen Sie die Dokumente in den Ordner."
+      }
+    },
+    "wordIds": [
+      "15032"
+    ],
+    "sourceIndex": 5032
+  },
+  {
+    "id": "105040",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The router is broken."
+      },
+      "de": {
+        "text": "Der Router ist kaputt."
+      }
+    },
+    "wordIds": [
+      "15040"
+    ],
+    "sourceIndex": 5040
+  },
+  {
+    "id": "105086",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He made the decision to quit."
+      },
+      "de": {
+        "text": "Er fasste den Entschluss, zu kündigen."
+      }
+    },
+    "wordIds": [
+      "15086"
+    ],
+    "sourceIndex": 5086
   },
   {
     "id": "105114",
@@ -1377,6 +2126,23 @@ const phrasesTechnology = [
     "sourceIndex": 5120
   },
   {
+    "id": "105153",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "That is a common abbreviation for \"for example\"."
+      },
+      "de": {
+        "text": "Das ist eine gängige Abkürzung für \"zum Beispiel\"."
+      }
+    },
+    "wordIds": [
+      "15153"
+    ],
+    "sourceIndex": 5153
+  },
+  {
     "id": "105286",
     "category": "technology",
     "level": "medium",
@@ -1392,6 +2158,23 @@ const phrasesTechnology = [
       "15286"
     ],
     "sourceIndex": 5286
+  },
+  {
+    "id": "105301",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The speaker thrilled the audience."
+      },
+      "de": {
+        "text": "Der Redner begeisterte das Publikum."
+      }
+    },
+    "wordIds": [
+      "15301"
+    ],
+    "sourceIndex": 5301
   },
   {
     "id": "105323",
@@ -1462,6 +2245,108 @@ const phrasesTechnology = [
     "sourceIndex": 5390
   },
   {
+    "id": "105432",
+    "category": "technology",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Can you please print out the document?"
+      },
+      "de": {
+        "text": "Kannst du das Dokument bitte ausdrucken?"
+      }
+    },
+    "wordIds": [
+      "15432"
+    ],
+    "sourceIndex": 5432
+  },
+  {
+    "id": "105499",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please contact us by phone."
+      },
+      "de": {
+        "text": "Bitte kontaktieren Sie uns telefonisch."
+      }
+    },
+    "wordIds": [
+      "15499"
+    ],
+    "sourceIndex": 5499
+  },
+  {
+    "id": "105522",
+    "category": "technology",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Can you please switch off the light?"
+      },
+      "de": {
+        "text": "Kannst du bitte das Licht ausschalten?"
+      }
+    },
+    "wordIds": [
+      "15522"
+    ],
+    "sourceIndex": 5522
+  },
+  {
+    "id": "105529",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "There was a loud crash on the street."
+      },
+      "de": {
+        "text": "Es gab einen lauten Crash auf der Straße."
+      }
+    },
+    "wordIds": [
+      "15529"
+    ],
+    "sourceIndex": 5529
+  },
+  {
+    "id": "105728",
+    "category": "technology",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The listener hung up."
+      },
+      "de": {
+        "text": "Der Hörer legte auf."
+      }
+    },
+    "wordIds": [
+      "15728"
+    ],
+    "sourceIndex": 5728
+  },
+  {
+    "id": "105854",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The speaker gave an impressive speech."
+      },
+      "de": {
+        "text": "Die Sprecherin hielt eine beeindruckende Rede."
+      }
+    },
+    "wordIds": [
+      "15854"
+    ],
+    "sourceIndex": 5854
+  },
+  {
     "id": "105859",
     "category": "technology",
     "level": "hard",
@@ -1477,6 +2362,23 @@ const phrasesTechnology = [
       "15859"
     ],
     "sourceIndex": 5859
+  },
+  {
+    "id": "105884",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Access is permitted for staff only."
+      },
+      "de": {
+        "text": "Der Zutritt ist nur für Personal gestattet."
+      }
+    },
+    "wordIds": [
+      "15884"
+    ],
+    "sourceIndex": 5884
   },
   {
     "id": "105893",
@@ -1530,6 +2432,40 @@ const phrasesTechnology = [
     "sourceIndex": 6001
   },
   {
+    "id": "106039",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The lawyer met his client."
+      },
+      "de": {
+        "text": "Der Anwalt traf seinen Klienten."
+      }
+    },
+    "wordIds": [
+      "16039"
+    ],
+    "sourceIndex": 6039
+  },
+  {
+    "id": "106046",
+    "category": "technology",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The microphone is broken."
+      },
+      "de": {
+        "text": "Das Mikrofon ist kaputt."
+      }
+    },
+    "wordIds": [
+      "16046"
+    ],
+    "sourceIndex": 6046
+  },
+  {
     "id": "106096",
     "category": "technology",
     "level": "hard",
@@ -1581,6 +2517,23 @@ const phrasesTechnology = [
     "sourceIndex": 6132
   },
   {
+    "id": "106144",
+    "category": "technology",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I would like a little piece of cake."
+      },
+      "de": {
+        "text": "Ich hätte gerne ein kleines Stückchen Kuchen."
+      }
+    },
+    "wordIds": [
+      "16144"
+    ],
+    "sourceIndex": 6144
+  },
+  {
     "id": "106149",
     "category": "technology",
     "level": "hard",
@@ -1596,6 +2549,23 @@ const phrasesTechnology = [
       "16149"
     ],
     "sourceIndex": 6149
+  },
+  {
+    "id": "106436",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I am learning how to program computers."
+      },
+      "de": {
+        "text": "Ich lerne, wie man Computer programmiert."
+      }
+    },
+    "wordIds": [
+      "16436"
+    ],
+    "sourceIndex": 6436
   },
   {
     "id": "106449",
@@ -1647,6 +2617,40 @@ const phrasesTechnology = [
       "16582"
     ],
     "sourceIndex": 6582
+  },
+  {
+    "id": "106599",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We want to grow vegetables in the garden."
+      },
+      "de": {
+        "text": "Wir wollen Gemüse im Garten anbauen."
+      }
+    },
+    "wordIds": [
+      "16599"
+    ],
+    "sourceIndex": 6599
+  },
+  {
+    "id": "106795",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "These two problems are closely connected."
+      },
+      "de": {
+        "text": "Diese beiden Probleme hängen eng zusammen."
+      }
+    },
+    "wordIds": [
+      "16795"
+    ],
+    "sourceIndex": 6795
   },
   {
     "id": "106823",
@@ -1717,6 +2721,23 @@ const phrasesTechnology = [
     "sourceIndex": 6992
   },
   {
+    "id": "107009",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please check your input."
+      },
+      "de": {
+        "text": "Bitte überprüfen Sie Ihre Eingabe."
+      }
+    },
+    "wordIds": [
+      "17009"
+    ],
+    "sourceIndex": 7009
+  },
+  {
     "id": "107010",
     "category": "technology",
     "level": "hard",
@@ -1732,6 +2753,23 @@ const phrasesTechnology = [
       "17010"
     ],
     "sourceIndex": 7010
+  },
+  {
+    "id": "107017",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The book is freshly printed."
+      },
+      "de": {
+        "text": "Das Buch ist frisch gedruckt."
+      }
+    },
+    "wordIds": [
+      "17017"
+    ],
+    "sourceIndex": 7017
   },
   {
     "id": "107047",
@@ -1836,6 +2874,23 @@ const phrasesTechnology = [
     "sourceIndex": 7213
   },
   {
+    "id": "107254",
+    "category": "technology",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "She has a lot of power in the company."
+      },
+      "de": {
+        "text": "Sie hat viel Macht in der Firma."
+      }
+    },
+    "wordIds": [
+      "17254"
+    ],
+    "sourceIndex": 7254
+  },
+  {
     "id": "107271",
     "category": "technology",
     "level": "hard",
@@ -1868,6 +2923,23 @@ const phrasesTechnology = [
       "17363"
     ],
     "sourceIndex": 7363
+  },
+  {
+    "id": "107381",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He had to drag the heavy suitcases."
+      },
+      "de": {
+        "text": "Er musste die schweren Koffer schleppen."
+      }
+    },
+    "wordIds": [
+      "17381"
+    ],
+    "sourceIndex": 7381
   },
   {
     "id": "107420",
@@ -1972,6 +3044,23 @@ const phrasesTechnology = [
     "sourceIndex": 7750
   },
   {
+    "id": "107772",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The scanner is broken."
+      },
+      "de": {
+        "text": "Der Scanner ist kaputt."
+      }
+    },
+    "wordIds": [
+      "17772"
+    ],
+    "sourceIndex": 7772
+  },
+  {
     "id": "107774",
     "category": "technology",
     "level": "hard",
@@ -2023,6 +3112,23 @@ const phrasesTechnology = [
     "sourceIndex": 7845
   },
   {
+    "id": "107860",
+    "category": "technology",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I need my satnav to find the way."
+      },
+      "de": {
+        "text": "Ich brauche mein Navi, um den Weg zu finden."
+      }
+    },
+    "wordIds": [
+      "17860"
+    ],
+    "sourceIndex": 7860
+  },
+  {
     "id": "107887",
     "category": "technology",
     "level": "hard",
@@ -2072,6 +3178,40 @@ const phrasesTechnology = [
       "18109"
     ],
     "sourceIndex": 8109
+  },
+  {
+    "id": "108214",
+    "category": "technology",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I bought a new laptop."
+      },
+      "de": {
+        "text": "Ich habe ein neues Notebook gekauft."
+      }
+    },
+    "wordIds": [
+      "18214"
+    ],
+    "sourceIndex": 8214
+  },
+  {
+    "id": "108221",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My brother is a programmer."
+      },
+      "de": {
+        "text": "Mein Bruder ist ein Programmierer."
+      }
+    },
+    "wordIds": [
+      "18221"
+    ],
+    "sourceIndex": 8221
   },
   {
     "id": "108630",
@@ -2295,6 +3435,40 @@ const phrasesTechnology = [
     "sourceIndex": 9463
   },
   {
+    "id": "109475",
+    "category": "technology",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I lost my mobile phone."
+      },
+      "de": {
+        "text": "Ich habe mein Mobiltelefon verloren."
+      }
+    },
+    "wordIds": [
+      "19475"
+    ],
+    "sourceIndex": 9475
+  },
+  {
+    "id": "109729",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "A single click is enough."
+      },
+      "de": {
+        "text": "Ein einziger Click genügt."
+      }
+    },
+    "wordIds": [
+      "19729"
+    ],
+    "sourceIndex": 9729
+  },
+  {
     "id": "109749",
     "category": "technology",
     "level": "hard",
@@ -2312,6 +3486,23 @@ const phrasesTechnology = [
     "sourceIndex": 9749
   },
   {
+    "id": "109774",
+    "category": "technology",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The magnet attracts the metal."
+      },
+      "de": {
+        "text": "Der Magnet zieht das Metall an."
+      }
+    },
+    "wordIds": [
+      "19774"
+    ],
+    "sourceIndex": 9774
+  },
+  {
     "id": "109829",
     "category": "technology",
     "level": "hard",
@@ -2327,6 +3518,40 @@ const phrasesTechnology = [
       "19829"
     ],
     "sourceIndex": 9829
+  },
+  {
+    "id": "109956",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We had a power outage yesterday."
+      },
+      "de": {
+        "text": "Wir hatten gestern einen Stromausfall."
+      }
+    },
+    "wordIds": [
+      "19956"
+    ],
+    "sourceIndex": 9956
+  },
+  {
+    "id": "109993",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He received a blow."
+      },
+      "de": {
+        "text": "Er hat einen Schlag abbekommen."
+      }
+    },
+    "wordIds": [
+      "19993"
+    ],
+    "sourceIndex": 9993
   },
   {
     "id": "110078",
@@ -2361,6 +3586,23 @@ const phrasesTechnology = [
       "20239"
     ],
     "sourceIndex": 10239
+  },
+  {
+    "id": "110299",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The documents are in the archive for safekeeping."
+      },
+      "de": {
+        "text": "Die Dokumente sind zur Aufbewahrung im Archiv."
+      }
+    },
+    "wordIds": [
+      "20299"
+    ],
+    "sourceIndex": 10299
   },
   {
     "id": "110309",
@@ -2601,6 +3843,23 @@ const phrasesTechnology = [
     "sourceIndex": 11408
   },
   {
+    "id": "111481",
+    "category": "technology",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I found his number in the phone book."
+      },
+      "de": {
+        "text": "Ich habe seine Nummer im Telefonbuch gefunden."
+      }
+    },
+    "wordIds": [
+      "21481"
+    ],
+    "sourceIndex": 11481
+  },
+  {
     "id": "111551",
     "category": "technology",
     "level": "hard",
@@ -2616,6 +3875,57 @@ const phrasesTechnology = [
       "21551"
     ],
     "sourceIndex": 11551
+  },
+  {
+    "id": "111606",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I bought my new tablet pad."
+      },
+      "de": {
+        "text": "Ich habe mein neues Tablet-Pad gekauft."
+      }
+    },
+    "wordIds": [
+      "21606"
+    ],
+    "sourceIndex": 11606
+  },
+  {
+    "id": "111617",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Can you please look in quickly to see if the light is still on?"
+      },
+      "de": {
+        "text": "Kannst du bitte kurz reinschauen, ob das Licht noch brennt?"
+      }
+    },
+    "wordIds": [
+      "21617"
+    ],
+    "sourceIndex": 11617
+  },
+  {
+    "id": "111820",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Can you please switch to another channel?"
+      },
+      "de": {
+        "text": "Kannst du bitte auf einen anderen Kanal umschalten?"
+      }
+    },
+    "wordIds": [
+      "21820"
+    ],
+    "sourceIndex": 11820
   },
   {
     "id": "111931",
@@ -2737,6 +4047,74 @@ const phrasesTechnology = [
     "sourceIndex": 12290
   },
   {
+    "id": "112503",
+    "category": "technology",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Please put the documents in the folder."
+      },
+      "de": {
+        "text": "Bitte legen Sie die Dokumente in die Mappe."
+      }
+    },
+    "wordIds": [
+      "22503"
+    ],
+    "sourceIndex": 12503
+  },
+  {
+    "id": "112596",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The alarm system went off in the middle of the night."
+      },
+      "de": {
+        "text": "Die Alarmanlage ging mitten in der Nacht los."
+      }
+    },
+    "wordIds": [
+      "22596"
+    ],
+    "sourceIndex": 12596
+  },
+  {
+    "id": "112617",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The old castle was well fortified."
+      },
+      "de": {
+        "text": "Die alte Burg war gut befestigt."
+      }
+    },
+    "wordIds": [
+      "22617"
+    ],
+    "sourceIndex": 12617
+  },
+  {
+    "id": "112724",
+    "category": "technology",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I need to scroll down to see the whole text."
+      },
+      "de": {
+        "text": "Ich muss nach unten scrollen, um den ganzen Text zu sehen."
+      }
+    },
+    "wordIds": [
+      "22724"
+    ],
+    "sourceIndex": 12724
+  },
+  {
     "id": "112744",
     "category": "technology",
     "level": "hard",
@@ -2769,6 +4147,23 @@ const phrasesTechnology = [
       "22810"
     ],
     "sourceIndex": 12810
+  },
+  {
+    "id": "112842",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The ant has two antennae."
+      },
+      "de": {
+        "text": "Die Ameise hat zwei Fühler."
+      }
+    },
+    "wordIds": [
+      "22842"
+    ],
+    "sourceIndex": 12842
   },
   {
     "id": "112916",
@@ -2805,6 +4200,23 @@ const phrasesTechnology = [
     "sourceIndex": 12941
   },
   {
+    "id": "113165",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The print on the T-shirt is very nice."
+      },
+      "de": {
+        "text": "Der Aufdruck auf dem T-Shirt ist sehr schön."
+      }
+    },
+    "wordIds": [
+      "23165"
+    ],
+    "sourceIndex": 13165
+  },
+  {
     "id": "113213",
     "category": "technology",
     "level": "medium",
@@ -2820,6 +4232,23 @@ const phrasesTechnology = [
       "23213"
     ],
     "sourceIndex": 13213
+  },
+  {
+    "id": "113293",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The robot completed the task quickly."
+      },
+      "de": {
+        "text": "Der Robot erledigte die Aufgabe schnell."
+      }
+    },
+    "wordIds": [
+      "23293"
+    ],
+    "sourceIndex": 13293
   },
   {
     "id": "113319",
@@ -2905,6 +4334,23 @@ const phrasesTechnology = [
       "23994"
     ],
     "sourceIndex": 13994
+  },
+  {
+    "id": "113995",
+    "category": "technology",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Don't forget to use the turn signal when you turn."
+      },
+      "de": {
+        "text": "Vergiss nicht, den Blinker zu setzen, wenn du abbiegst."
+      }
+    },
+    "wordIds": [
+      "23995"
+    ],
+    "sourceIndex": 13995
   },
   {
     "id": "114118",
@@ -3009,6 +4455,23 @@ const phrasesTechnology = [
     "sourceIndex": 14958
   },
   {
+    "id": "115058",
+    "category": "technology",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The file is two gigabytes in size."
+      },
+      "de": {
+        "text": "Die Datei ist zwei Gigabyte groß."
+      }
+    },
+    "wordIds": [
+      "25058"
+    ],
+    "sourceIndex": 15058
+  },
+  {
     "id": "115168",
     "category": "technology",
     "level": "hard",
@@ -3041,6 +4504,40 @@ const phrasesTechnology = [
       "25454"
     ],
     "sourceIndex": 15454
+  },
+  {
+    "id": "115698",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Turn off the TV and come eat!"
+      },
+      "de": {
+        "text": "Mach die Glotze aus und komm essen!"
+      }
+    },
+    "wordIds": [
+      "25698"
+    ],
+    "sourceIndex": 15698
+  },
+  {
+    "id": "115719",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The number of internet users is increasing worldwide."
+      },
+      "de": {
+        "text": "Die Zahl der Internetnutzer steigt weltweit."
+      }
+    },
+    "wordIds": [
+      "25719"
+    ],
+    "sourceIndex": 15719
   },
   {
     "id": "115796",
@@ -3094,6 +4591,23 @@ const phrasesTechnology = [
     "sourceIndex": 15981
   },
   {
+    "id": "116078",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The handler of the request will get in touch soon."
+      },
+      "de": {
+        "text": "Der Bearbeiter der Anfrage meldet sich bald."
+      }
+    },
+    "wordIds": [
+      "26078"
+    ],
+    "sourceIndex": 16078
+  },
+  {
     "id": "116090",
     "category": "technology",
     "level": "medium",
@@ -3126,6 +4640,23 @@ const phrasesTechnology = [
       "26277"
     ],
     "sourceIndex": 16277
+  },
+  {
+    "id": "116518",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "A little droplet of water fell on the table."
+      },
+      "de": {
+        "text": "Ein kleines Tröpfchen Wasser fiel auf den Tisch."
+      }
+    },
+    "wordIds": [
+      "26518"
+    ],
+    "sourceIndex": 16518
   },
   {
     "id": "116535",
@@ -3230,6 +4761,23 @@ const phrasesTechnology = [
     "sourceIndex": 17113
   },
   {
+    "id": "117130",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "This electrical appliance consumes a lot of electricity."
+      },
+      "de": {
+        "text": "Dieses Elektrogerät verbraucht viel Strom."
+      }
+    },
+    "wordIds": [
+      "27130"
+    ],
+    "sourceIndex": 17130
+  },
+  {
     "id": "117147",
     "category": "technology",
     "level": "medium",
@@ -3247,6 +4795,23 @@ const phrasesTechnology = [
     "sourceIndex": 17147
   },
   {
+    "id": "117211",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The measuring device showed a high temperature."
+      },
+      "de": {
+        "text": "Das Messgerät zeigte eine hohe Temperatur an."
+      }
+    },
+    "wordIds": [
+      "27211"
+    ],
+    "sourceIndex": 17211
+  },
+  {
     "id": "117261",
     "category": "technology",
     "level": "hard",
@@ -3262,6 +4827,23 @@ const phrasesTechnology = [
       "27261"
     ],
     "sourceIndex": 17261
+  },
+  {
+    "id": "117269",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He recorded the music on a magnetic tape."
+      },
+      "de": {
+        "text": "Er nahm die Musik auf ein Tonband auf."
+      }
+    },
+    "wordIds": [
+      "27269"
+    ],
+    "sourceIndex": 17269
   },
   {
     "id": "117396",
@@ -3315,6 +4897,40 @@ const phrasesTechnology = [
     "sourceIndex": 18058
   },
   {
+    "id": "118063",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The video footage was handed over to the police."
+      },
+      "de": {
+        "text": "Das Videomaterial wurde der Polizei übergeben."
+      }
+    },
+    "wordIds": [
+      "28063"
+    ],
+    "sourceIndex": 18063
+  },
+  {
+    "id": "118286",
+    "category": "technology",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I was looking for a telephone booth to make a call."
+      },
+      "de": {
+        "text": "Ich suchte eine Telefonzelle, um anzurufen."
+      }
+    },
+    "wordIds": [
+      "28286"
+    ],
+    "sourceIndex": 18286
+  },
+  {
     "id": "118375",
     "category": "technology",
     "level": "hard",
@@ -3349,6 +4965,57 @@ const phrasesTechnology = [
     "sourceIndex": 18459
   },
   {
+    "id": "118466",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please enter your password."
+      },
+      "de": {
+        "text": "Bitte geben Sie Ihr Kennwort ein."
+      }
+    },
+    "wordIds": [
+      "28466"
+    ],
+    "sourceIndex": 18466
+  },
+  {
+    "id": "118647",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I bought a T-shirt with a printed logo."
+      },
+      "de": {
+        "text": "Ich habe ein T-Shirt mit einem bedruckten Logo gekauft."
+      }
+    },
+    "wordIds": [
+      "28647"
+    ],
+    "sourceIndex": 18647
+  },
+  {
+    "id": "118914",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Image processing is an important step for professional photos."
+      },
+      "de": {
+        "text": "Die Bildbearbeitung ist ein wichtiger Schritt für professionelle Fotos."
+      }
+    },
+    "wordIds": [
+      "28914"
+    ],
+    "sourceIndex": 18914
+  },
+  {
     "id": "119116",
     "category": "technology",
     "level": "hard",
@@ -3381,6 +5048,40 @@ const phrasesTechnology = [
       "29148"
     ],
     "sourceIndex": 19148
+  },
+  {
+    "id": "119188",
+    "category": "technology",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "Please turn on the light."
+      },
+      "de": {
+        "text": "Bitte schalte das Licht an."
+      }
+    },
+    "wordIds": [
+      "29188"
+    ],
+    "sourceIndex": 19188
+  },
+  {
+    "id": "119448",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "In the past, people often went to the video rental store."
+      },
+      "de": {
+        "text": "Früher ging man oft in die Videothek."
+      }
+    },
+    "wordIds": [
+      "29448"
+    ],
+    "sourceIndex": 19448
   },
   {
     "id": "119544",
@@ -3432,6 +5133,23 @@ const phrasesTechnology = [
       "29742"
     ],
     "sourceIndex": 19742
+  },
+  {
+    "id": "120135",
+    "category": "technology",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The newspaper published an impressive photo series."
+      },
+      "de": {
+        "text": "Die Zeitung veröffentlichte eine beeindruckende Fotostrecke."
+      }
+    },
+    "wordIds": [
+      "30135"
+    ],
+    "sourceIndex": 20135
   },
   {
     "id": "120196",

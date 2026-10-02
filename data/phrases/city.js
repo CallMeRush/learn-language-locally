@@ -51,6 +51,23 @@ const phrasesCity = [
     "sourceIndex": 70
   },
   {
+    "id": "100077",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "You are right. / That is my right."
+      },
+      "de": {
+        "text": "Du hast Recht. / Das ist mein Recht."
+      }
+    },
+    "wordIds": [
+      "10077"
+    ],
+    "sourceIndex": 77
+  },
+  {
     "id": "100119",
     "category": "city",
     "level": "easy",
@@ -68,6 +85,23 @@ const phrasesCity = [
     "sourceIndex": 119
   },
   {
+    "id": "100121",
+    "category": "city",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "Do you have a free seat/space?"
+      },
+      "de": {
+        "text": "Haben Sie einen freien Platz?"
+      }
+    },
+    "wordIds": [
+      "10121"
+    ],
+    "sourceIndex": 121
+  },
+  {
     "id": "100147",
     "category": "city",
     "level": "easy",
@@ -83,6 +117,23 @@ const phrasesCity = [
       "10147"
     ],
     "sourceIndex": 147
+  },
+  {
+    "id": "100151",
+    "category": "city",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I place the book on the table."
+      },
+      "de": {
+        "text": "Ich stelle das Buch auf den Tisch."
+      }
+    },
+    "wordIds": [
+      "10151"
+    ],
+    "sourceIndex": 151
   },
   {
     "id": "100161",
@@ -136,6 +187,40 @@ const phrasesCity = [
     "sourceIndex": 199
   },
   {
+    "id": "100204",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Society is changing quickly."
+      },
+      "de": {
+        "text": "Die Gesellschaft verändert sich schnell."
+      }
+    },
+    "wordIds": [
+      "10204"
+    ],
+    "sourceIndex": 204
+  },
+  {
+    "id": "100234",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She is interested in politics."
+      },
+      "de": {
+        "text": "Sie interessiert sich für Politik."
+      }
+    },
+    "wordIds": [
+      "10234"
+    ],
+    "sourceIndex": 234
+  },
+  {
     "id": "100242",
     "category": "city",
     "level": "hard",
@@ -151,6 +236,23 @@ const phrasesCity = [
       "10242"
     ],
     "sourceIndex": 242
+  },
+  {
+    "id": "100270",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We have the choice."
+      },
+      "de": {
+        "text": "Wir haben die Wahl."
+      }
+    },
+    "wordIds": [
+      "10270"
+    ],
+    "sourceIndex": 270
   },
   {
     "id": "100286",
@@ -238,6 +340,40 @@ const phrasesCity = [
     "sourceIndex": 430
   },
   {
+    "id": "100433",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "This region is known for its wine."
+      },
+      "de": {
+        "text": "Diese Region ist bekannt für ihren Wein."
+      }
+    },
+    "wordIds": [
+      "10433"
+    ],
+    "sourceIndex": 433
+  },
+  {
+    "id": "100464",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The politician gave a speech."
+      },
+      "de": {
+        "text": "Der Politiker hielt eine Rede."
+      }
+    },
+    "wordIds": [
+      "10464"
+    ],
+    "sourceIndex": 464
+  },
+  {
     "id": "100465",
     "category": "city",
     "level": "hard",
@@ -270,6 +406,23 @@ const phrasesCity = [
       "10466"
     ],
     "sourceIndex": 466
+  },
+  {
+    "id": "100468",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The state has many tasks."
+      },
+      "de": {
+        "text": "Der Staat hat viele Aufgaben."
+      }
+    },
+    "wordIds": [
+      "10468"
+    ],
+    "sourceIndex": 468
   },
   {
     "id": "100489",
@@ -323,6 +476,23 @@ const phrasesCity = [
     "sourceIndex": 495
   },
   {
+    "id": "100498",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The president gave a speech."
+      },
+      "de": {
+        "text": "Der Präsident hielt eine Rede."
+      }
+    },
+    "wordIds": [
+      "10498"
+    ],
+    "sourceIndex": 498
+  },
+  {
     "id": "100530",
     "category": "city",
     "level": "hard",
@@ -340,21 +510,72 @@ const phrasesCity = [
     "sourceIndex": 530
   },
   {
-    "id": "100563",
+    "id": "100537",
     "category": "city",
-    "level": "easy",
+    "level": "hard",
     "translations": {
       "en": {
-        "text": "We are sitting on the bench in the park."
+        "text": "The park is publicly accessible."
       },
       "de": {
-        "text": "Wir sitzen auf der Bank im Park."
+        "text": "Der Park ist öffentlich zugänglich."
       }
     },
     "wordIds": [
-      "10563"
+      "10537"
     ],
-    "sourceIndex": 563
+    "sourceIndex": 537
+  },
+  {
+    "id": "100570",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The new law comes into effect next week."
+      },
+      "de": {
+        "text": "Das neue Gesetz tritt nächste Woche in Kraft."
+      }
+    },
+    "wordIds": [
+      "10570"
+    ],
+    "sourceIndex": 570
+  },
+  {
+    "id": "100582",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Violence is not a solution."
+      },
+      "de": {
+        "text": "Gewalt ist keine Lösung."
+      }
+    },
+    "wordIds": [
+      "10582"
+    ],
+    "sourceIndex": 582
+  },
+  {
+    "id": "100587",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "That was a great victory for our team."
+      },
+      "de": {
+        "text": "Das war ein großer Sieg für unser Team."
+      }
+    },
+    "wordIds": [
+      "10587"
+    ],
+    "sourceIndex": 587
   },
   {
     "id": "100612",
@@ -440,6 +661,57 @@ const phrasesCity = [
       "10699"
     ],
     "sourceIndex": 699
+  },
+  {
+    "id": "100741",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "There was great damage after the storm."
+      },
+      "de": {
+        "text": "Es gab großen Schaden nach dem Sturm."
+      }
+    },
+    "wordIds": [
+      "10741"
+    ],
+    "sourceIndex": 741
+  },
+  {
+    "id": "100742",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The damage to the car is extensive."
+      },
+      "de": {
+        "text": "Der Schaden am Auto ist groß."
+      }
+    },
+    "wordIds": [
+      "10742"
+    ],
+    "sourceIndex": 742
+  },
+  {
+    "id": "100761",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The soldier returned home."
+      },
+      "de": {
+        "text": "Der Soldat kehrte nach Hause zurück."
+      }
+    },
+    "wordIds": [
+      "10761"
+    ],
+    "sourceIndex": 761
   },
   {
     "id": "100767",
@@ -544,6 +816,23 @@ const phrasesCity = [
     "sourceIndex": 854
   },
   {
+    "id": "100855",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The delivery will take place tomorrow."
+      },
+      "de": {
+        "text": "Die Lieferung wird morgen erfolgen."
+      }
+    },
+    "wordIds": [
+      "10855"
+    ],
+    "sourceIndex": 855
+  },
+  {
     "id": "100861",
     "category": "city",
     "level": "medium",
@@ -561,6 +850,40 @@ const phrasesCity = [
     "sourceIndex": 861
   },
   {
+    "id": "100878",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The mayor gave a speech."
+      },
+      "de": {
+        "text": "Der Bürgermeister hat eine Rede gehalten."
+      }
+    },
+    "wordIds": [
+      "10878"
+    ],
+    "sourceIndex": 878
+  },
+  {
+    "id": "100894",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The majority of people agreed."
+      },
+      "de": {
+        "text": "Die Mehrheit der Leute stimmte zu."
+      }
+    },
+    "wordIds": [
+      "10894"
+    ],
+    "sourceIndex": 894
+  },
+  {
     "id": "100899",
     "category": "city",
     "level": "hard",
@@ -576,6 +899,23 @@ const phrasesCity = [
       "10899"
     ],
     "sourceIndex": 899
+  },
+  {
+    "id": "100911",
+    "category": "city",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "We are going to the park."
+      },
+      "de": {
+        "text": "Wir gehen in den Park."
+      }
+    },
+    "wordIds": [
+      "10911"
+    ],
+    "sourceIndex": 911
   },
   {
     "id": "100937",
@@ -610,6 +950,40 @@ const phrasesCity = [
       "10946"
     ],
     "sourceIndex": 946
+  },
+  {
+    "id": "100951",
+    "category": "city",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "There was an accident on the highway."
+      },
+      "de": {
+        "text": "Es gab einen Unfall auf der Autobahn."
+      }
+    },
+    "wordIds": [
+      "10951"
+    ],
+    "sourceIndex": 951
+  },
+  {
+    "id": "100958",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We all wish for peace in the world."
+      },
+      "de": {
+        "text": "Wir wünschen uns alle Frieden in der Welt."
+      }
+    },
+    "wordIds": [
+      "10958"
+    ],
+    "sourceIndex": 958
   },
   {
     "id": "100972",
@@ -731,6 +1105,23 @@ const phrasesCity = [
     "sourceIndex": 1191
   },
   {
+    "id": "101198",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Access to the building is blocked."
+      },
+      "de": {
+        "text": "Der Zugang zum Gebäude ist gesperrt."
+      }
+    },
+    "wordIds": [
+      "11198"
+    ],
+    "sourceIndex": 1198
+  },
+  {
     "id": "101233",
     "category": "city",
     "level": "hard",
@@ -780,6 +1171,23 @@ const phrasesCity = [
       "11255"
     ],
     "sourceIndex": 1255
+  },
+  {
+    "id": "101260",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The minister gave a speech."
+      },
+      "de": {
+        "text": "Der Minister hielt eine Rede."
+      }
+    },
+    "wordIds": [
+      "11260"
+    ],
+    "sourceIndex": 1260
   },
   {
     "id": "101270",
@@ -867,6 +1275,23 @@ const phrasesCity = [
     "sourceIndex": 1414
   },
   {
+    "id": "101431",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He received a high penalty for the offense."
+      },
+      "de": {
+        "text": "Er bekam eine hohe Strafe für das Vergehen."
+      }
+    },
+    "wordIds": [
+      "11431"
+    ],
+    "sourceIndex": 1431
+  },
+  {
     "id": "101448",
     "category": "city",
     "level": "hard",
@@ -952,6 +1377,23 @@ const phrasesCity = [
     "sourceIndex": 1561
   },
   {
+    "id": "101589",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He spent ten years in prison."
+      },
+      "de": {
+        "text": "Er verbrachte zehn Jahre im Gefängnis."
+      }
+    },
+    "wordIds": [
+      "11589"
+    ],
+    "sourceIndex": 1589
+  },
+  {
     "id": "101611",
     "category": "city",
     "level": "medium",
@@ -984,6 +1426,23 @@ const phrasesCity = [
       "11621"
     ],
     "sourceIndex": 1621
+  },
+  {
+    "id": "101775",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "This is a state-owned institution."
+      },
+      "de": {
+        "text": "Das ist eine staatliche Einrichtung."
+      }
+    },
+    "wordIds": [
+      "11775"
+    ],
+    "sourceIndex": 1775
   },
   {
     "id": "101833",
@@ -1088,6 +1547,23 @@ const phrasesCity = [
     "sourceIndex": 1894
   },
   {
+    "id": "101947",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The concert will take place tomorrow."
+      },
+      "de": {
+        "text": "Das Konzert wird morgen stattfinden."
+      }
+    },
+    "wordIds": [
+      "11947"
+    ],
+    "sourceIndex": 1947
+  },
+  {
     "id": "101955",
     "category": "city",
     "level": "hard",
@@ -1103,6 +1579,40 @@ const phrasesCity = [
       "11955"
     ],
     "sourceIndex": 1955
+  },
+  {
+    "id": "101958",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The dog wanted to attack the postman."
+      },
+      "de": {
+        "text": "Der Hund wollte den Postboten angreifen."
+      }
+    },
+    "wordIds": [
+      "11958"
+    ],
+    "sourceIndex": 1958
+  },
+  {
+    "id": "101965",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The shopping mall is in the city center."
+      },
+      "de": {
+        "text": "Das Einkaufszentrum ist im Stadtzentrum."
+      }
+    },
+    "wordIds": [
+      "11965"
+    ],
+    "sourceIndex": 1965
   },
   {
     "id": "102016",
@@ -1156,6 +1666,23 @@ const phrasesCity = [
     "sourceIndex": 2030
   },
   {
+    "id": "102054",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The migrant sought a new home."
+      },
+      "de": {
+        "text": "Der Migrant suchte ein neues Zuhause."
+      }
+    },
+    "wordIds": [
+      "12054"
+    ],
+    "sourceIndex": 2054
+  },
+  {
     "id": "102063",
     "category": "city",
     "level": "hard",
@@ -1188,6 +1715,40 @@ const phrasesCity = [
       "12078"
     ],
     "sourceIndex": 2078
+  },
+  {
+    "id": "102093",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The plane will land soon."
+      },
+      "de": {
+        "text": "Das Flugzeug wird bald landen."
+      }
+    },
+    "wordIds": [
+      "12093"
+    ],
+    "sourceIndex": 2093
+  },
+  {
+    "id": "102188",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I need a pad and a pen."
+      },
+      "de": {
+        "text": "Ich brauche einen Block und einen Stift."
+      }
+    },
+    "wordIds": [
+      "12188"
+    ],
+    "sourceIndex": 2188
   },
   {
     "id": "102189",
@@ -1275,6 +1836,23 @@ const phrasesCity = [
     "sourceIndex": 2262
   },
   {
+    "id": "102321",
+    "category": "city",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We have to go there."
+      },
+      "de": {
+        "text": "Wir müssen dorthin gehen."
+      }
+    },
+    "wordIds": [
+      "12321"
+    ],
+    "sourceIndex": 2321
+  },
+  {
     "id": "102325",
     "category": "city",
     "level": "hard",
@@ -1290,6 +1868,23 @@ const phrasesCity = [
       "12325"
     ],
     "sourceIndex": 2325
+  },
+  {
+    "id": "102379",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The municipal library is very large."
+      },
+      "de": {
+        "text": "Die städtische Bibliothek ist sehr groß."
+      }
+    },
+    "wordIds": [
+      "12379"
+    ],
+    "sourceIndex": 2379
   },
   {
     "id": "102390",
@@ -1411,6 +2006,23 @@ const phrasesCity = [
     "sourceIndex": 2586
   },
   {
+    "id": "102659",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I suspect that he is telling the truth."
+      },
+      "de": {
+        "text": "Ich vermute, dass er die Wahrheit sagt."
+      }
+    },
+    "wordIds": [
+      "12659"
+    ],
+    "sourceIndex": 2659
+  },
+  {
     "id": "102710",
     "category": "city",
     "level": "medium",
@@ -1445,6 +2057,23 @@ const phrasesCity = [
     "sourceIndex": 2714
   },
   {
+    "id": "102772",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "They must combat the causes of the problem."
+      },
+      "de": {
+        "text": "Sie müssen die Ursachen des Problems bekämpfen."
+      }
+    },
+    "wordIds": [
+      "12772"
+    ],
+    "sourceIndex": 2772
+  },
+  {
     "id": "102851",
     "category": "city",
     "level": "hard",
@@ -1477,6 +2106,23 @@ const phrasesCity = [
       "12900"
     ],
     "sourceIndex": 2900
+  },
+  {
+    "id": "102943",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He has military training."
+      },
+      "de": {
+        "text": "Er hat eine militärische Ausbildung."
+      }
+    },
+    "wordIds": [
+      "12943"
+    ],
+    "sourceIndex": 2943
   },
   {
     "id": "102958",
@@ -1528,6 +2174,23 @@ const phrasesCity = [
       "13001"
     ],
     "sourceIndex": 3001
+  },
+  {
+    "id": "103006",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The neighborhood is very friendly."
+      },
+      "de": {
+        "text": "Die Nachbarschaft ist sehr freundlich."
+      }
+    },
+    "wordIds": [
+      "13006"
+    ],
+    "sourceIndex": 3006
   },
   {
     "id": "103018",
@@ -1768,6 +2431,23 @@ const phrasesCity = [
     "sourceIndex": 3461
   },
   {
+    "id": "103485",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "That is a completely legal method."
+      },
+      "de": {
+        "text": "Das ist eine völlig legale Methode."
+      }
+    },
+    "wordIds": [
+      "13485"
+    ],
+    "sourceIndex": 3485
+  },
+  {
     "id": "103524",
     "category": "city",
     "level": "hard",
@@ -1783,6 +2463,74 @@ const phrasesCity = [
       "13524"
     ],
     "sourceIndex": 3524
+  },
+  {
+    "id": "103547",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The officer gave the order."
+      },
+      "de": {
+        "text": "Der Offizier gab den Befehl."
+      }
+    },
+    "wordIds": [
+      "13547"
+    ],
+    "sourceIndex": 3547
+  },
+  {
+    "id": "103623",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The process is not yet completed."
+      },
+      "de": {
+        "text": "Der Vorgang ist noch nicht abgeschlossen."
+      }
+    },
+    "wordIds": [
+      "13623"
+    ],
+    "sourceIndex": 3623
+  },
+  {
+    "id": "103628",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We need to coordinate our plans."
+      },
+      "de": {
+        "text": "Wir müssen unsere Pläne abstimmen."
+      }
+    },
+    "wordIds": [
+      "13628"
+    ],
+    "sourceIndex": 3628
+  },
+  {
+    "id": "103637",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The team was able to defeat the opponent."
+      },
+      "de": {
+        "text": "Die Mannschaft konnte den Gegner besiegen."
+      }
+    },
+    "wordIds": [
+      "13637"
+    ],
+    "sourceIndex": 3637
   },
   {
     "id": "103748",
@@ -1836,6 +2584,23 @@ const phrasesCity = [
     "sourceIndex": 3796
   },
   {
+    "id": "103910",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The detective is investigating the case."
+      },
+      "de": {
+        "text": "Der Kommissar ermittelt in dem Fall."
+      }
+    },
+    "wordIds": [
+      "13910"
+    ],
+    "sourceIndex": 3910
+  },
+  {
     "id": "103912",
     "category": "city",
     "level": "hard",
@@ -1851,6 +2616,23 @@ const phrasesCity = [
       "13912"
     ],
     "sourceIndex": 3912
+  },
+  {
+    "id": "103946",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "There was a traffic accident on the highway."
+      },
+      "de": {
+        "text": "Es gab einen Verkehrsunfall auf der Autobahn."
+      }
+    },
+    "wordIds": [
+      "13946"
+    ],
+    "sourceIndex": 3946
   },
   {
     "id": "103980",
@@ -1955,6 +2737,23 @@ const phrasesCity = [
     "sourceIndex": 4227
   },
   {
+    "id": "104300",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The Federal Chancellor gave a speech."
+      },
+      "de": {
+        "text": "Der Bundeskanzler hielt eine Rede."
+      }
+    },
+    "wordIds": [
+      "14300"
+    ],
+    "sourceIndex": 4300
+  },
+  {
     "id": "104353",
     "category": "city",
     "level": "hard",
@@ -1987,6 +2786,23 @@ const phrasesCity = [
       "14410"
     ],
     "sourceIndex": 4410
+  },
+  {
+    "id": "104429",
+    "category": "city",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The car's tank is empty."
+      },
+      "de": {
+        "text": "Der Tank des Autos ist leer."
+      }
+    },
+    "wordIds": [
+      "14429"
+    ],
+    "sourceIndex": 4429
   },
   {
     "id": "104454",
@@ -2108,6 +2924,23 @@ const phrasesCity = [
     "sourceIndex": 4699
   },
   {
+    "id": "104791",
+    "category": "city",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The children are playing on the playground."
+      },
+      "de": {
+        "text": "Die Kinder spielen auf dem Spielplatz."
+      }
+    },
+    "wordIds": [
+      "14791"
+    ],
+    "sourceIndex": 4791
+  },
+  {
     "id": "104793",
     "category": "city",
     "level": "hard",
@@ -2142,6 +2975,23 @@ const phrasesCity = [
     "sourceIndex": 4834
   },
   {
+    "id": "104872",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please place your bags here."
+      },
+      "de": {
+        "text": "Bitte platzieren Sie Ihre Taschen hier."
+      }
+    },
+    "wordIds": [
+      "14872"
+    ],
+    "sourceIndex": 4872
+  },
+  {
     "id": "104902",
     "category": "city",
     "level": "hard",
@@ -2157,6 +3007,23 @@ const phrasesCity = [
       "14902"
     ],
     "sourceIndex": 4902
+  },
+  {
+    "id": "104904",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The residents complained about the noise."
+      },
+      "de": {
+        "text": "Die Anwohner beschwerten sich über den Lärm."
+      }
+    },
+    "wordIds": [
+      "14904"
+    ],
+    "sourceIndex": 4904
   },
   {
     "id": "104971",
@@ -2208,6 +3075,23 @@ const phrasesCity = [
       "15015"
     ],
     "sourceIndex": 5015
+  },
+  {
+    "id": "105036",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The apartment has 80 square meters."
+      },
+      "de": {
+        "text": "Die Wohnung hat 80 Quadratmeter."
+      }
+    },
+    "wordIds": [
+      "15036"
+    ],
+    "sourceIndex": 5036
   },
   {
     "id": "105061",
@@ -2278,6 +3162,23 @@ const phrasesCity = [
     "sourceIndex": 5167
   },
   {
+    "id": "105297",
+    "category": "city",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The female politician gave a speech."
+      },
+      "de": {
+        "text": "Die Politikerin hielt eine Rede."
+      }
+    },
+    "wordIds": [
+      "15297"
+    ],
+    "sourceIndex": 5297
+  },
+  {
     "id": "105299",
     "category": "city",
     "level": "hard",
@@ -2346,6 +3247,23 @@ const phrasesCity = [
     "sourceIndex": 5417
   },
   {
+    "id": "105431",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The police are trying to solve the case."
+      },
+      "de": {
+        "text": "Die Polizei versucht, den Fall aufzuklären."
+      }
+    },
+    "wordIds": [
+      "15431"
+    ],
+    "sourceIndex": 5431
+  },
+  {
     "id": "105511",
     "category": "city",
     "level": "hard",
@@ -2361,6 +3279,23 @@ const phrasesCity = [
       "15511"
     ],
     "sourceIndex": 5511
+  },
+  {
+    "id": "105565",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The locality is picturesquely situated by the river."
+      },
+      "de": {
+        "text": "Die Ortschaft liegt malerisch am Fluss."
+      }
+    },
+    "wordIds": [
+      "15565"
+    ],
+    "sourceIndex": 5565
   },
   {
     "id": "105686",
@@ -2431,6 +3366,23 @@ const phrasesCity = [
     "sourceIndex": 5813
   },
   {
+    "id": "105819",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He missed his homeland very much."
+      },
+      "de": {
+        "text": "Er vermisste sein Heimatland sehr."
+      }
+    },
+    "wordIds": [
+      "15819"
+    ],
+    "sourceIndex": 5819
+  },
+  {
     "id": "106003",
     "category": "city",
     "level": "hard",
@@ -2446,6 +3398,40 @@ const phrasesCity = [
       "16003"
     ],
     "sourceIndex": 6003
+  },
+  {
+    "id": "106006",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The Federal Police secured the train station."
+      },
+      "de": {
+        "text": "Die Bundespolizei sicherte den Bahnhof."
+      }
+    },
+    "wordIds": [
+      "16006"
+    ],
+    "sourceIndex": 6006
+  },
+  {
+    "id": "106078",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The guard stood in front of the gate."
+      },
+      "de": {
+        "text": "Der Wächter stand vor dem Tor."
+      }
+    },
+    "wordIds": [
+      "16078"
+    ],
+    "sourceIndex": 6078
   },
   {
     "id": "106108",
@@ -2533,6 +3519,40 @@ const phrasesCity = [
     "sourceIndex": 6492
   },
   {
+    "id": "106601",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He has to put on his glasses."
+      },
+      "de": {
+        "text": "Er muss seine Brille aufsetzen."
+      }
+    },
+    "wordIds": [
+      "16601"
+    ],
+    "sourceIndex": 6601
+  },
+  {
+    "id": "106604",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The volcano could erupt at any time."
+      },
+      "de": {
+        "text": "Der Vulkan könnte jederzeit ausbrechen."
+      }
+    },
+    "wordIds": [
+      "16604"
+    ],
+    "sourceIndex": 6604
+  },
+  {
     "id": "106611",
     "category": "city",
     "level": "hard",
@@ -2548,6 +3568,23 @@ const phrasesCity = [
       "16611"
     ],
     "sourceIndex": 6611
+  },
+  {
+    "id": "106640",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The minister gave a speech."
+      },
+      "de": {
+        "text": "Die Ministerin hielt eine Rede."
+      }
+    },
+    "wordIds": [
+      "16640"
+    ],
+    "sourceIndex": 6640
   },
   {
     "id": "106677",
@@ -2873,6 +3910,40 @@ const phrasesCity = [
     "sourceIndex": 7897
   },
   {
+    "id": "107999",
+    "category": "city",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I borrow books from the city library."
+      },
+      "de": {
+        "text": "Ich leihe Bücher in der Stadtbibliothek aus."
+      }
+    },
+    "wordIds": [
+      "17999"
+    ],
+    "sourceIndex": 7999
+  },
+  {
+    "id": "108117",
+    "category": "city",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We are walking on the other side of the street."
+      },
+      "de": {
+        "text": "Wir gehen auf der anderen Strassenseite."
+      }
+    },
+    "wordIds": [
+      "18117"
+    ],
+    "sourceIndex": 8117
+  },
+  {
     "id": "108240",
     "category": "city",
     "level": "hard",
@@ -2907,6 +3978,23 @@ const phrasesCity = [
     "sourceIndex": 8503
   },
   {
+    "id": "108520",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My sister is a female lawyer."
+      },
+      "de": {
+        "text": "Meine Schwester ist eine Anwältin."
+      }
+    },
+    "wordIds": [
+      "18520"
+    ],
+    "sourceIndex": 8520
+  },
+  {
     "id": "108571",
     "category": "city",
     "level": "medium",
@@ -2922,6 +4010,23 @@ const phrasesCity = [
       "18571"
     ],
     "sourceIndex": 8571
+  },
+  {
+    "id": "108644",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He broke the world record in the marathon."
+      },
+      "de": {
+        "text": "Er brach den Weltrekord im Marathon."
+      }
+    },
+    "wordIds": [
+      "18644"
+    ],
+    "sourceIndex": 8644
   },
   {
     "id": "108656",
@@ -2956,6 +4061,40 @@ const phrasesCity = [
       "18672"
     ],
     "sourceIndex": 8672
+  },
+  {
+    "id": "108748",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "A square has four equal sides."
+      },
+      "de": {
+        "text": "Ein Quadrat hat vier gleiche Seiten."
+      }
+    },
+    "wordIds": [
+      "18748"
+    ],
+    "sourceIndex": 8748
+  },
+  {
+    "id": "108931",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "They live in a small village by the lake."
+      },
+      "de": {
+        "text": "Sie leben in einem kleinen Village am See."
+      }
+    },
+    "wordIds": [
+      "18931"
+    ],
+    "sourceIndex": 8931
   },
   {
     "id": "109044",
@@ -3009,6 +4148,23 @@ const phrasesCity = [
     "sourceIndex": 9091
   },
   {
+    "id": "109215",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "They live on the outskirts of Berlin."
+      },
+      "de": {
+        "text": "Sie wohnen am Stadtrand von Berlin."
+      }
+    },
+    "wordIds": [
+      "19215"
+    ],
+    "sourceIndex": 9215
+  },
+  {
     "id": "109229",
     "category": "city",
     "level": "hard",
@@ -3024,6 +4180,40 @@ const phrasesCity = [
       "19229"
     ],
     "sourceIndex": 9229
+  },
+  {
+    "id": "109267",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The detective solved the case quickly."
+      },
+      "de": {
+        "text": "Der Detektiv löste den Fall schnell."
+      }
+    },
+    "wordIds": [
+      "19267"
+    ],
+    "sourceIndex": 9267
+  },
+  {
+    "id": "109289",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The cyclist struggled against the strong headwind."
+      },
+      "de": {
+        "text": "Der Radfahrer kämpfte gegen den starken Gegenwind."
+      }
+    },
+    "wordIds": [
+      "19289"
+    ],
+    "sourceIndex": 9289
   },
   {
     "id": "109365",
@@ -3111,6 +4301,23 @@ const phrasesCity = [
     "sourceIndex": 9701
   },
   {
+    "id": "109713",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The outdoor area of the restaurant is very cozy."
+      },
+      "de": {
+        "text": "Der Aussenbereich des Restaurants ist sehr gemütlich."
+      }
+    },
+    "wordIds": [
+      "19713"
+    ],
+    "sourceIndex": 9713
+  },
+  {
     "id": "109731",
     "category": "city",
     "level": "hard",
@@ -3196,6 +4403,23 @@ const phrasesCity = [
     "sourceIndex": 10001
   },
   {
+    "id": "110011",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "There was slight damage to the car."
+      },
+      "de": {
+        "text": "Es gab eine leichte Beschädigung am Auto."
+      }
+    },
+    "wordIds": [
+      "20011"
+    ],
+    "sourceIndex": 10011
+  },
+  {
     "id": "110051",
     "category": "city",
     "level": "hard",
@@ -3211,6 +4435,23 @@ const phrasesCity = [
       "20051"
     ],
     "sourceIndex": 10051
+  },
+  {
+    "id": "110056",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Can you please place the chair over there?"
+      },
+      "de": {
+        "text": "Kannst du den Stuhl bitte dorthin hinstellen?"
+      }
+    },
+    "wordIds": [
+      "20056"
+    ],
+    "sourceIndex": 10056
   },
   {
     "id": "110075",
@@ -3279,6 +4520,23 @@ const phrasesCity = [
       "20527"
     ],
     "sourceIndex": 10527
+  },
+  {
+    "id": "110564",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The player was fouled in the penalty area."
+      },
+      "de": {
+        "text": "Der Spieler wurde im Strafraum gefoult."
+      }
+    },
+    "wordIds": [
+      "20564"
+    ],
+    "sourceIndex": 10564
   },
   {
     "id": "110664",
@@ -3383,6 +4641,23 @@ const phrasesCity = [
     "sourceIndex": 11385
   },
   {
+    "id": "111581",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My child goes to the daycare center."
+      },
+      "de": {
+        "text": "Mein Kind geht in die Kindertagesstätte."
+      }
+    },
+    "wordIds": [
+      "21581"
+    ],
+    "sourceIndex": 11581
+  },
+  {
     "id": "111786",
     "category": "city",
     "level": "hard",
@@ -3415,6 +4690,23 @@ const phrasesCity = [
       "21809"
     ],
     "sourceIndex": 11809
+  },
+  {
+    "id": "111875",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The detective solved the case quickly."
+      },
+      "de": {
+        "text": "Der Detective löste den Fall schnell."
+      }
+    },
+    "wordIds": [
+      "21875"
+    ],
+    "sourceIndex": 11875
   },
   {
     "id": "111884",
@@ -3689,6 +4981,23 @@ const phrasesCity = [
     "sourceIndex": 12889
   },
   {
+    "id": "112898",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We met in the piazza."
+      },
+      "de": {
+        "text": "Wir trafen uns auf der Piazza."
+      }
+    },
+    "wordIds": [
+      "22898"
+    ],
+    "sourceIndex": 12898
+  },
+  {
     "id": "112923",
     "category": "city",
     "level": "hard",
@@ -3859,6 +5168,40 @@ const phrasesCity = [
     "sourceIndex": 14063
   },
   {
+    "id": "114083",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The ball crossed the center line."
+      },
+      "de": {
+        "text": "Der Ball überquerte die Mittellinie."
+      }
+    },
+    "wordIds": [
+      "24083"
+    ],
+    "sourceIndex": 14083
+  },
+  {
+    "id": "114100",
+    "category": "city",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The table is square."
+      },
+      "de": {
+        "text": "Der Tisch ist quadratisch."
+      }
+    },
+    "wordIds": [
+      "24100"
+    ],
+    "sourceIndex": 14100
+  },
+  {
     "id": "114133",
     "category": "city",
     "level": "hard",
@@ -3874,6 +5217,40 @@ const phrasesCity = [
       "24133"
     ],
     "sourceIndex": 14133
+  },
+  {
+    "id": "114191",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The mountainous region is known for its picturesque hiking trails."
+      },
+      "de": {
+        "text": "Das Bergland ist bekannt für seine malerischen Wanderwege."
+      }
+    },
+    "wordIds": [
+      "24191"
+    ],
+    "sourceIndex": 14191
+  },
+  {
+    "id": "114318",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "There was a loud quarrel between the neighbors."
+      },
+      "de": {
+        "text": "Es gab eine laute Streiterei zwischen den Nachbarn."
+      }
+    },
+    "wordIds": [
+      "24318"
+    ],
+    "sourceIndex": 14318
   },
   {
     "id": "114366",
@@ -3908,6 +5285,23 @@ const phrasesCity = [
       "24412"
     ],
     "sourceIndex": 14412
+  },
+  {
+    "id": "114431",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I want to travel somewhere where it's warm."
+      },
+      "de": {
+        "text": "Ich möchte irgendwohin reisen, wo es warm ist."
+      }
+    },
+    "wordIds": [
+      "24431"
+    ],
+    "sourceIndex": 14431
   },
   {
     "id": "114459",
@@ -3995,6 +5389,23 @@ const phrasesCity = [
     "sourceIndex": 14969
   },
   {
+    "id": "115101",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Germany borders several neighboring states."
+      },
+      "de": {
+        "text": "Deutschland grenzt an mehrere Nachbarstaaten."
+      }
+    },
+    "wordIds": [
+      "25101"
+    ],
+    "sourceIndex": 15101
+  },
+  {
     "id": "115180",
     "category": "city",
     "level": "hard",
@@ -4010,6 +5421,23 @@ const phrasesCity = [
       "25180"
     ],
     "sourceIndex": 15180
+  },
+  {
+    "id": "115181",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We have to go vote today."
+      },
+      "de": {
+        "text": "Wir müssen heute voten gehen."
+      }
+    },
+    "wordIds": [
+      "25181"
+    ],
+    "sourceIndex": 15181
   },
   {
     "id": "115272",
@@ -4063,6 +5491,40 @@ const phrasesCity = [
     "sourceIndex": 15550
   },
   {
+    "id": "115604",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The man was arrested."
+      },
+      "de": {
+        "text": "Der Mann wurde verhaftet."
+      }
+    },
+    "wordIds": [
+      "25604"
+    ],
+    "sourceIndex": 15604
+  },
+  {
+    "id": "115620",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The guard opened the gate."
+      },
+      "de": {
+        "text": "Der Wärter öffnete das Tor."
+      }
+    },
+    "wordIds": [
+      "25620"
+    ],
+    "sourceIndex": 15620
+  },
+  {
     "id": "115634",
     "category": "city",
     "level": "hard",
@@ -4078,6 +5540,23 @@ const phrasesCity = [
       "25634"
     ],
     "sourceIndex": 15634
+  },
+  {
+    "id": "115691",
+    "category": "city",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I am writing with my new fountain pen."
+      },
+      "de": {
+        "text": "Ich schreibe mit meinem neuen Füller."
+      }
+    },
+    "wordIds": [
+      "25691"
+    ],
+    "sourceIndex": 15691
   },
   {
     "id": "115697",
@@ -4163,6 +5642,23 @@ const phrasesCity = [
       "26134"
     ],
     "sourceIndex": 16134
+  },
+  {
+    "id": "116136",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The basic rule is to always be polite."
+      },
+      "de": {
+        "text": "Die Grundregel ist, immer höflich zu sein."
+      }
+    },
+    "wordIds": [
+      "26136"
+    ],
+    "sourceIndex": 16136
   },
   {
     "id": "116168",
@@ -4333,6 +5829,23 @@ const phrasesCity = [
       "27040"
     ],
     "sourceIndex": 17040
+  },
+  {
+    "id": "117119",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The table is square."
+      },
+      "de": {
+        "text": "Der Tisch ist eckig."
+      }
+    },
+    "wordIds": [
+      "27119"
+    ],
+    "sourceIndex": 17119
   },
   {
     "id": "117218",
@@ -4522,6 +6035,57 @@ const phrasesCity = [
     "sourceIndex": 17622
   },
   {
+    "id": "117645",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The new educational center offers courses for all age groups."
+      },
+      "de": {
+        "text": "Das neue Bildungszentrum bietet Kurse für alle Altersgruppen an."
+      }
+    },
+    "wordIds": [
+      "27645"
+    ],
+    "sourceIndex": 17645
+  },
+  {
+    "id": "117706",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We meet at the main square."
+      },
+      "de": {
+        "text": "Wir treffen uns am Hauptplatz."
+      }
+    },
+    "wordIds": [
+      "27706"
+    ],
+    "sourceIndex": 17706
+  },
+  {
+    "id": "117798",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We drive out of town to avoid traffic."
+      },
+      "de": {
+        "text": "Wir fahren stadtauswärts, um dem Verkehr zu entgehen."
+      }
+    },
+    "wordIds": [
+      "27798"
+    ],
+    "sourceIndex": 17798
+  },
+  {
     "id": "117937",
     "category": "city",
     "level": "hard",
@@ -4537,6 +6101,40 @@ const phrasesCity = [
       "27937"
     ],
     "sourceIndex": 17937
+  },
+  {
+    "id": "118028",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We are looking for a sleeping place for the night."
+      },
+      "de": {
+        "text": "Wir suchen einen Schlafplatz für die Nacht."
+      }
+    },
+    "wordIds": [
+      "28028"
+    ],
+    "sourceIndex": 18028
+  },
+  {
+    "id": "118048",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "This sub-area of the project is very complex."
+      },
+      "de": {
+        "text": "Dieser Teilbereich des Projekts ist sehr komplex."
+      }
+    },
+    "wordIds": [
+      "28048"
+    ],
+    "sourceIndex": 18048
   },
   {
     "id": "118204",
@@ -4571,6 +6169,23 @@ const phrasesCity = [
       "28205"
     ],
     "sourceIndex": 18205
+  },
+  {
+    "id": "118832",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Heidelberg is a well-known university town."
+      },
+      "de": {
+        "text": "Heidelberg ist eine bekannte Universitätsstadt."
+      }
+    },
+    "wordIds": [
+      "28832"
+    ],
+    "sourceIndex": 18832
   },
   {
     "id": "119156",
@@ -4658,6 +6273,23 @@ const phrasesCity = [
     "sourceIndex": 19511
   },
   {
+    "id": "119605",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I like to read crime novels in the evening."
+      },
+      "de": {
+        "text": "Ich lese gerne Kriminalromane am Abend."
+      }
+    },
+    "wordIds": [
+      "29605"
+    ],
+    "sourceIndex": 19605
+  },
+  {
     "id": "119627",
     "category": "city",
     "level": "hard",
@@ -4673,6 +6305,23 @@ const phrasesCity = [
       "29627"
     ],
     "sourceIndex": 19627
+  },
+  {
+    "id": "119639",
+    "category": "city",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "There is a sign at the town exit."
+      },
+      "de": {
+        "text": "Am Ortsausgang steht ein Schild."
+      }
+    },
+    "wordIds": [
+      "29639"
+    ],
+    "sourceIndex": 19639
   },
   {
     "id": "119650",

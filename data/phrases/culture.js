@@ -17,6 +17,40 @@ const phrasesCulture = [
     "sourceIndex": 64
   },
   {
+    "id": "100123",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I like to read exciting stories."
+      },
+      "de": {
+        "text": "Ich lese gerne spannende Geschichten."
+      }
+    },
+    "wordIds": [
+      "10123"
+    ],
+    "sourceIndex": 123
+  },
+  {
+    "id": "100135",
+    "category": "culture",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "Children like to play in the garden."
+      },
+      "de": {
+        "text": "Kinder spielen gerne im Garten."
+      }
+    },
+    "wordIds": [
+      "10135"
+    ],
+    "sourceIndex": 135
+  },
+  {
     "id": "100172",
     "category": "culture",
     "level": "easy",
@@ -32,6 +66,23 @@ const phrasesCulture = [
       "10172"
     ],
     "sourceIndex": 172
+  },
+  {
+    "id": "100180",
+    "category": "culture",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I like to listen to music."
+      },
+      "de": {
+        "text": "Ich höre gerne Musik."
+      }
+    },
+    "wordIds": [
+      "10180"
+    ],
+    "sourceIndex": 180
   },
   {
     "id": "100191",
@@ -66,6 +117,40 @@ const phrasesCulture = [
       "10211"
     ],
     "sourceIndex": 211
+  },
+  {
+    "id": "100213",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Thank God!"
+      },
+      "de": {
+        "text": "Gott sei Dank!"
+      }
+    },
+    "wordIds": [
+      "10213"
+    ],
+    "sourceIndex": 213
+  },
+  {
+    "id": "100238",
+    "category": "culture",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I like to watch a movie."
+      },
+      "de": {
+        "text": "Ich sehe gern einen Film."
+      }
+    },
+    "wordIds": [
+      "10238"
+    ],
+    "sourceIndex": 238
   },
   {
     "id": "100240",
@@ -119,6 +204,23 @@ const phrasesCulture = [
     "sourceIndex": 251
   },
   {
+    "id": "100288",
+    "category": "culture",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I run every morning in the park."
+      },
+      "de": {
+        "text": "Ich laufe jeden Morgen im Park."
+      }
+    },
+    "wordIds": [
+      "10288"
+    ],
+    "sourceIndex": 288
+  },
+  {
     "id": "100303",
     "category": "culture",
     "level": "medium",
@@ -153,6 +255,23 @@ const phrasesCulture = [
     "sourceIndex": 329
   },
   {
+    "id": "100361",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Art is a form of expression."
+      },
+      "de": {
+        "text": "Die Kunst ist eine Form des Ausdrucks."
+      }
+    },
+    "wordIds": [
+      "10361"
+    ],
+    "sourceIndex": 361
+  },
+  {
     "id": "100364",
     "category": "culture",
     "level": "medium",
@@ -185,6 +304,40 @@ const phrasesCulture = [
       "10377"
     ],
     "sourceIndex": 377
+  },
+  {
+    "id": "100415",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "German culture is very diverse."
+      },
+      "de": {
+        "text": "Die deutsche Kultur ist sehr vielfältig."
+      }
+    },
+    "wordIds": [
+      "10415"
+    ],
+    "sourceIndex": 415
+  },
+  {
+    "id": "100419",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Please stand in a row."
+      },
+      "de": {
+        "text": "Bitte stellen Sie sich in einer Reihe auf."
+      }
+    },
+    "wordIds": [
+      "10419"
+    ],
+    "sourceIndex": 419
   },
   {
     "id": "100424",
@@ -272,6 +425,40 @@ const phrasesCulture = [
     "sourceIndex": 454
   },
   {
+    "id": "100486",
+    "category": "culture",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I read the newspaper every morning."
+      },
+      "de": {
+        "text": "Ich lese jeden Morgen die Zeitung."
+      }
+    },
+    "wordIds": [
+      "10486"
+    ],
+    "sourceIndex": 486
+  },
+  {
+    "id": "100499",
+    "category": "culture",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I like to do sports."
+      },
+      "de": {
+        "text": "Ich mache gerne Sport."
+      }
+    },
+    "wordIds": [
+      "10499"
+    ],
+    "sourceIndex": 499
+  },
+  {
     "id": "100508",
     "category": "culture",
     "level": "easy",
@@ -304,6 +491,57 @@ const phrasesCulture = [
       "10532"
     ],
     "sourceIndex": 532
+  },
+  {
+    "id": "100541",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Our team has won."
+      },
+      "de": {
+        "text": "Unsere Mannschaft hat gewonnen."
+      }
+    },
+    "wordIds": [
+      "10541"
+    ],
+    "sourceIndex": 541
+  },
+  {
+    "id": "100557",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We are going for a walk."
+      },
+      "de": {
+        "text": "Wir gehen eine Runde spazieren."
+      }
+    },
+    "wordIds": [
+      "10557"
+    ],
+    "sourceIndex": 557
+  },
+  {
+    "id": "100559",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I like to watch a new series."
+      },
+      "de": {
+        "text": "Ich schaue gerne eine neue Serie."
+      }
+    },
+    "wordIds": [
+      "10559"
+    ],
+    "sourceIndex": 559
   },
   {
     "id": "100575",
@@ -408,6 +646,40 @@ const phrasesCulture = [
     "sourceIndex": 625
   },
   {
+    "id": "100644",
+    "category": "culture",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I like to swim in the lake."
+      },
+      "de": {
+        "text": "Ich gehe gerne im See baden."
+      }
+    },
+    "wordIds": [
+      "10644"
+    ],
+    "sourceIndex": 644
+  },
+  {
+    "id": "100654",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He is the master of his craft."
+      },
+      "de": {
+        "text": "Er ist der Meister seines Fachs."
+      }
+    },
+    "wordIds": [
+      "10654"
+    ],
+    "sourceIndex": 654
+  },
+  {
     "id": "100667",
     "category": "culture",
     "level": "easy",
@@ -493,6 +765,23 @@ const phrasesCulture = [
     "sourceIndex": 735
   },
   {
+    "id": "100738",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We are going to a party tonight."
+      },
+      "de": {
+        "text": "Wir gehen heute Abend auf eine Party."
+      }
+    },
+    "wordIds": [
+      "10738"
+    ],
+    "sourceIndex": 738
+  },
+  {
     "id": "100744",
     "category": "culture",
     "level": "hard",
@@ -527,6 +816,74 @@ const phrasesCulture = [
     "sourceIndex": 746
   },
   {
+    "id": "100771",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The artist paints a beautiful picture."
+      },
+      "de": {
+        "text": "Der Künstler malt ein schönes Bild."
+      }
+    },
+    "wordIds": [
+      "10771"
+    ],
+    "sourceIndex": 771
+  },
+  {
+    "id": "100775",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The children run in the garden."
+      },
+      "de": {
+        "text": "Die Kinder rennen im Garten."
+      }
+    },
+    "wordIds": [
+      "10775"
+    ],
+    "sourceIndex": 775
+  },
+  {
+    "id": "100798",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The author has written a new book."
+      },
+      "de": {
+        "text": "Der Autor hat ein neues Buch geschrieben."
+      }
+    },
+    "wordIds": [
+      "10798"
+    ],
+    "sourceIndex": 798
+  },
+  {
+    "id": "100805",
+    "category": "culture",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "We want to celebrate tonight."
+      },
+      "de": {
+        "text": "Wir wollen heute Abend feiern."
+      }
+    },
+    "wordIds": [
+      "10805"
+    ],
+    "sourceIndex": 805
+  },
+  {
     "id": "100815",
     "category": "culture",
     "level": "hard",
@@ -542,6 +899,40 @@ const phrasesCulture = [
       "10815"
     ],
     "sourceIndex": 815
+  },
+  {
+    "id": "100824",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I bought a new photo album."
+      },
+      "de": {
+        "text": "Ich habe ein neues Fotoalbum gekauft."
+      }
+    },
+    "wordIds": [
+      "10824"
+    ],
+    "sourceIndex": 824
+  },
+  {
+    "id": "100885",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Our team has a strong opponent."
+      },
+      "de": {
+        "text": "Unser Team hat einen starken Gegner."
+      }
+    },
+    "wordIds": [
+      "10885"
+    ],
+    "sourceIndex": 885
   },
   {
     "id": "100892",
@@ -629,6 +1020,57 @@ const phrasesCulture = [
     "sourceIndex": 923
   },
   {
+    "id": "100927",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The new model of the car is very popular."
+      },
+      "de": {
+        "text": "Das neue Modell des Autos ist sehr beliebt."
+      }
+    },
+    "wordIds": [
+      "10927"
+    ],
+    "sourceIndex": 927
+  },
+  {
+    "id": "100928",
+    "category": "culture",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "We are visiting the museum on the weekend."
+      },
+      "de": {
+        "text": "Wir besuchen das Museum am Wochenende."
+      }
+    },
+    "wordIds": [
+      "10928"
+    ],
+    "sourceIndex": 928
+  },
+  {
+    "id": "100930",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Religion plays an important role in many cultures."
+      },
+      "de": {
+        "text": "Die Religion spielt eine wichtige Rolle in vielen Kulturen."
+      }
+    },
+    "wordIds": [
+      "10930"
+    ],
+    "sourceIndex": 930
+  },
+  {
     "id": "100932",
     "category": "culture",
     "level": "hard",
@@ -661,6 +1103,23 @@ const phrasesCulture = [
       "10948"
     ],
     "sourceIndex": 948
+  },
+  {
+    "id": "100955",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The new exhibition is very interesting."
+      },
+      "de": {
+        "text": "Die neue Ausstellung ist sehr interessant."
+      }
+    },
+    "wordIds": [
+      "10955"
+    ],
+    "sourceIndex": 955
   },
   {
     "id": "100992",
@@ -697,6 +1156,23 @@ const phrasesCulture = [
     "sourceIndex": 999
   },
   {
+    "id": "101003",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "That is a true miracle."
+      },
+      "de": {
+        "text": "Das ist ein wahres Wunder."
+      }
+    },
+    "wordIds": [
+      "11003"
+    ],
+    "sourceIndex": 1003
+  },
+  {
     "id": "101029",
     "category": "culture",
     "level": "easy",
@@ -729,6 +1205,23 @@ const phrasesCulture = [
       "11037"
     ],
     "sourceIndex": 1037
+  },
+  {
+    "id": "101041",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I am reading an interesting novel."
+      },
+      "de": {
+        "text": "Ich lese einen interessanten Roman."
+      }
+    },
+    "wordIds": [
+      "11041"
+    ],
+    "sourceIndex": 1041
   },
   {
     "id": "101065",
@@ -765,6 +1258,23 @@ const phrasesCulture = [
     "sourceIndex": 1071
   },
   {
+    "id": "101084",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Her house has a very modern style."
+      },
+      "de": {
+        "text": "Ihr Haus hat einen sehr modernen Stil."
+      }
+    },
+    "wordIds": [
+      "11084"
+    ],
+    "sourceIndex": 1084
+  },
+  {
     "id": "101092",
     "category": "culture",
     "level": "hard",
@@ -797,6 +1307,57 @@ const phrasesCulture = [
       "11104"
     ],
     "sourceIndex": 1104
+  },
+  {
+    "id": "101113",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "That is an old tradition in our family."
+      },
+      "de": {
+        "text": "Das ist eine alte Tradition in unserer Familie."
+      }
+    },
+    "wordIds": [
+      "11113"
+    ],
+    "sourceIndex": 1113
+  },
+  {
+    "id": "101114",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The training starts at 6 PM."
+      },
+      "de": {
+        "text": "Das Training beginnt um 18 Uhr."
+      }
+    },
+    "wordIds": [
+      "11114"
+    ],
+    "sourceIndex": 1114
+  },
+  {
+    "id": "101120",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We celebrate Christmas with the family."
+      },
+      "de": {
+        "text": "Wir feiern Weihnachten mit der Familie."
+      }
+    },
+    "wordIds": [
+      "11120"
+    ],
+    "sourceIndex": 1120
   },
   {
     "id": "101133",
@@ -884,6 +1445,23 @@ const phrasesCulture = [
     "sourceIndex": 1163
   },
   {
+    "id": "101164",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The audience applauded loudly."
+      },
+      "de": {
+        "text": "Das Publikum applaudierte laut."
+      }
+    },
+    "wordIds": [
+      "11164"
+    ],
+    "sourceIndex": 1164
+  },
+  {
     "id": "101165",
     "category": "culture",
     "level": "hard",
@@ -899,6 +1477,23 @@ const phrasesCulture = [
       "11165"
     ],
     "sourceIndex": 1165
+  },
+  {
+    "id": "101167",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He has a large collection of old coins."
+      },
+      "de": {
+        "text": "Er hat eine große Sammlung alter Münzen."
+      }
+    },
+    "wordIds": [
+      "11167"
+    ],
+    "sourceIndex": 1167
   },
   {
     "id": "101175",
@@ -969,6 +1564,23 @@ const phrasesCulture = [
     "sourceIndex": 1197
   },
   {
+    "id": "101234",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The design of the new car is very modern."
+      },
+      "de": {
+        "text": "Das Design des neuen Autos ist sehr modern."
+      }
+    },
+    "wordIds": [
+      "11234"
+    ],
+    "sourceIndex": 1234
+  },
+  {
     "id": "101245",
     "category": "culture",
     "level": "hard",
@@ -984,6 +1596,40 @@ const phrasesCulture = [
       "11245"
     ],
     "sourceIndex": 1245
+  },
+  {
+    "id": "101295",
+    "category": "culture",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "She sings very beautifully."
+      },
+      "de": {
+        "text": "Sie singt sehr schön."
+      }
+    },
+    "wordIds": [
+      "11295"
+    ],
+    "sourceIndex": 1295
+  },
+  {
+    "id": "101313",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The actor played his role very convincingly."
+      },
+      "de": {
+        "text": "Der Schauspieler spielte seine Rolle sehr überzeugend."
+      }
+    },
+    "wordIds": [
+      "11313"
+    ],
+    "sourceIndex": 1313
   },
   {
     "id": "101317",
@@ -1122,6 +1768,23 @@ const phrasesCulture = [
     "sourceIndex": 1506
   },
   {
+    "id": "101512",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I cannot forgive you for that."
+      },
+      "de": {
+        "text": "Ich kann dir das nicht vergeben."
+      }
+    },
+    "wordIds": [
+      "11512"
+    ],
+    "sourceIndex": 1512
+  },
+  {
     "id": "101523",
     "category": "culture",
     "level": "hard",
@@ -1171,6 +1834,23 @@ const phrasesCulture = [
       "11542"
     ],
     "sourceIndex": 1542
+  },
+  {
+    "id": "101545",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I like to read a magazine on the weekend."
+      },
+      "de": {
+        "text": "Ich lese gerne eine Zeitschrift am Wochenende."
+      }
+    },
+    "wordIds": [
+      "11545"
+    ],
+    "sourceIndex": 1545
   },
   {
     "id": "101582",
@@ -1256,6 +1936,23 @@ const phrasesCulture = [
       "11720"
     ],
     "sourceIndex": 1720
+  },
+  {
+    "id": "101722",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The competition in the market is very strong."
+      },
+      "de": {
+        "text": "Die Konkurrenz auf dem Markt ist sehr stark."
+      }
+    },
+    "wordIds": [
+      "11722"
+    ],
+    "sourceIndex": 1722
   },
   {
     "id": "101731",
@@ -1360,6 +2057,23 @@ const phrasesCulture = [
     "sourceIndex": 1755
   },
   {
+    "id": "101765",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I like to read this magazine."
+      },
+      "de": {
+        "text": "Ich lese gerne dieses Magazin."
+      }
+    },
+    "wordIds": [
+      "11765"
+    ],
+    "sourceIndex": 1765
+  },
+  {
     "id": "101771",
     "category": "culture",
     "level": "hard",
@@ -1412,6 +2126,57 @@ const phrasesCulture = [
     "sourceIndex": 1800
   },
   {
+    "id": "101807",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We talked about the weather for a long time."
+      },
+      "de": {
+        "text": "Wir haben uns lange über das Wetter unterhalten."
+      }
+    },
+    "wordIds": [
+      "11807"
+    ],
+    "sourceIndex": 1807
+  },
+  {
+    "id": "101840",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The singer has a beautiful voice."
+      },
+      "de": {
+        "text": "Der Sänger hat eine wunderschöne Stimme."
+      }
+    },
+    "wordIds": [
+      "11840"
+    ],
+    "sourceIndex": 1840
+  },
+  {
+    "id": "101841",
+    "category": "culture",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "We like to dance."
+      },
+      "de": {
+        "text": "Wir tanzen gerne."
+      }
+    },
+    "wordIds": [
+      "11841"
+    ],
+    "sourceIndex": 1841
+  },
+  {
     "id": "101893",
     "category": "culture",
     "level": "medium",
@@ -1444,6 +2209,23 @@ const phrasesCulture = [
       "11902"
     ],
     "sourceIndex": 1902
+  },
+  {
+    "id": "101912",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "That is the usual procedure."
+      },
+      "de": {
+        "text": "Das ist die übliche Vorgehensweise."
+      }
+    },
+    "wordIds": [
+      "11912"
+    ],
+    "sourceIndex": 1912
   },
   {
     "id": "101925",
@@ -1548,6 +2330,23 @@ const phrasesCulture = [
     "sourceIndex": 1990
   },
   {
+    "id": "102023",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The writer has published a new book."
+      },
+      "de": {
+        "text": "Der Schriftsteller hat ein neues Buch veröffentlicht."
+      }
+    },
+    "wordIds": [
+      "12023"
+    ],
+    "sourceIndex": 2023
+  },
+  {
     "id": "102037",
     "category": "culture",
     "level": "hard",
@@ -1633,6 +2432,23 @@ const phrasesCulture = [
     "sourceIndex": 2084
   },
   {
+    "id": "102154",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The drama had a sad ending."
+      },
+      "de": {
+        "text": "Das Drama hatte ein trauriges Ende."
+      }
+    },
+    "wordIds": [
+      "12154"
+    ],
+    "sourceIndex": 2154
+  },
+  {
     "id": "102158",
     "category": "culture",
     "level": "hard",
@@ -1716,6 +2532,23 @@ const phrasesCulture = [
       "12212"
     ],
     "sourceIndex": 2212
+  },
+  {
+    "id": "102224",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please use this template for your report."
+      },
+      "de": {
+        "text": "Bitte verwenden Sie diese Vorlage für Ihren Bericht."
+      }
+    },
+    "wordIds": [
+      "12224"
+    ],
+    "sourceIndex": 2224
   },
   {
     "id": "102230",
@@ -1871,6 +2704,23 @@ const phrasesCulture = [
     "sourceIndex": 2387
   },
   {
+    "id": "102407",
+    "category": "culture",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "My hobby is reading."
+      },
+      "de": {
+        "text": "Mein Hobby ist Lesen."
+      }
+    },
+    "wordIds": [
+      "12407"
+    ],
+    "sourceIndex": 2407
+  },
+  {
     "id": "102408",
     "category": "culture",
     "level": "medium",
@@ -1886,6 +2736,23 @@ const phrasesCulture = [
       "12408"
     ],
     "sourceIndex": 2408
+  },
+  {
+    "id": "102448",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Berlin is a very cultural city."
+      },
+      "de": {
+        "text": "Berlin ist eine sehr kulturelle Stadt."
+      }
+    },
+    "wordIds": [
+      "12448"
+    ],
+    "sourceIndex": 2448
   },
   {
     "id": "102451",
@@ -1905,6 +2772,23 @@ const phrasesCulture = [
     "sourceIndex": 2451
   },
   {
+    "id": "102452",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "This piece of jewelry is made of pure metal."
+      },
+      "de": {
+        "text": "Dieses Schmuckstück ist aus reinem Metall."
+      }
+    },
+    "wordIds": [
+      "12452"
+    ],
+    "sourceIndex": 2452
+  },
+  {
     "id": "102453",
     "category": "culture",
     "level": "hard",
@@ -1920,6 +2804,23 @@ const phrasesCulture = [
       "12453"
     ],
     "sourceIndex": 2453
+  },
+  {
+    "id": "102455",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Children love to hear fairy tales."
+      },
+      "de": {
+        "text": "Kinder lieben es, Märchen zu hören."
+      }
+    },
+    "wordIds": [
+      "12455"
+    ],
+    "sourceIndex": 2455
   },
   {
     "id": "102462",
@@ -2041,6 +2942,23 @@ const phrasesCulture = [
     "sourceIndex": 2552
   },
   {
+    "id": "102562",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The old temple stands on a hill."
+      },
+      "de": {
+        "text": "Der alte Tempel steht auf einem Hügel."
+      }
+    },
+    "wordIds": [
+      "12562"
+    ],
+    "sourceIndex": 2562
+  },
+  {
     "id": "102588",
     "category": "culture",
     "level": "easy",
@@ -2143,6 +3061,40 @@ const phrasesCulture = [
     "sourceIndex": 2645
   },
   {
+    "id": "102648",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The painter paints the wall green."
+      },
+      "de": {
+        "text": "Der Maler streicht die Wand grün."
+      }
+    },
+    "wordIds": [
+      "12648"
+    ],
+    "sourceIndex": 2648
+  },
+  {
+    "id": "102662",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We like to hike in the mountains."
+      },
+      "de": {
+        "text": "Wir gehen gerne in den Bergen wandern."
+      }
+    },
+    "wordIds": [
+      "12662"
+    ],
+    "sourceIndex": 2662
+  },
+  {
     "id": "102665",
     "category": "culture",
     "level": "hard",
@@ -2175,6 +3127,40 @@ const phrasesCulture = [
       "12681"
     ],
     "sourceIndex": 2681
+  },
+  {
+    "id": "102695",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I like to listen to jazz."
+      },
+      "de": {
+        "text": "Ich höre gerne Jazz."
+      }
+    },
+    "wordIds": [
+      "12695"
+    ],
+    "sourceIndex": 2695
+  },
+  {
+    "id": "102751",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The athlete trains every day."
+      },
+      "de": {
+        "text": "Der Sportler trainiert jeden Tag."
+      }
+    },
+    "wordIds": [
+      "12751"
+    ],
+    "sourceIndex": 2751
   },
   {
     "id": "102753",
@@ -2262,6 +3248,23 @@ const phrasesCulture = [
     "sourceIndex": 2802
   },
   {
+    "id": "102808",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We got lost in the forest."
+      },
+      "de": {
+        "text": "Wir haben uns im Wald verlaufen."
+      }
+    },
+    "wordIds": [
+      "12808"
+    ],
+    "sourceIndex": 2808
+  },
+  {
     "id": "102828",
     "category": "culture",
     "level": "hard",
@@ -2277,6 +3280,23 @@ const phrasesCulture = [
       "12828"
     ],
     "sourceIndex": 2828
+  },
+  {
+    "id": "102839",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He is learning an old craft."
+      },
+      "de": {
+        "text": "Er lernt ein altes Handwerk."
+      }
+    },
+    "wordIds": [
+      "12839"
+    ],
+    "sourceIndex": 2839
   },
   {
     "id": "102844",
@@ -2398,6 +3418,23 @@ const phrasesCulture = [
     "sourceIndex": 2946
   },
   {
+    "id": "102951",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We have a pool in the garden."
+      },
+      "de": {
+        "text": "Wir haben einen Pool im Garten."
+      }
+    },
+    "wordIds": [
+      "12951"
+    ],
+    "sourceIndex": 2951
+  },
+  {
     "id": "102961",
     "category": "culture",
     "level": "hard",
@@ -2500,6 +3537,23 @@ const phrasesCulture = [
     "sourceIndex": 3051
   },
   {
+    "id": "103078",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The singer had a beautiful voice."
+      },
+      "de": {
+        "text": "Die Sängerin hatte eine wunderschöne Stimme."
+      }
+    },
+    "wordIds": [
+      "13078"
+    ],
+    "sourceIndex": 3078
+  },
+  {
     "id": "103113",
     "category": "culture",
     "level": "easy",
@@ -2549,6 +3603,23 @@ const phrasesCulture = [
       "13144"
     ],
     "sourceIndex": 3144
+  },
+  {
+    "id": "103146",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I have to pick up my children from school."
+      },
+      "de": {
+        "text": "Ich muss meine Kinder von der Schule abholen."
+      }
+    },
+    "wordIds": [
+      "13146"
+    ],
+    "sourceIndex": 3146
   },
   {
     "id": "103162",
@@ -2687,6 +3758,57 @@ const phrasesCulture = [
     "sourceIndex": 3296
   },
   {
+    "id": "103307",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He loves to dive in the sea."
+      },
+      "de": {
+        "text": "Er liebt es, im Meer zu tauchen."
+      }
+    },
+    "wordIds": [
+      "13307"
+    ],
+    "sourceIndex": 3307
+  },
+  {
+    "id": "103340",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He trains boxing every day."
+      },
+      "de": {
+        "text": "Er trainiert jeden Tag Boxen."
+      }
+    },
+    "wordIds": [
+      "13340"
+    ],
+    "sourceIndex": 3340
+  },
+  {
+    "id": "103349",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She read an exciting story aloud."
+      },
+      "de": {
+        "text": "Sie las eine spannende Erzählung vor."
+      }
+    },
+    "wordIds": [
+      "13349"
+    ],
+    "sourceIndex": 3349
+  },
+  {
     "id": "103350",
     "category": "culture",
     "level": "medium",
@@ -2806,6 +3928,23 @@ const phrasesCulture = [
     "sourceIndex": 3419
   },
   {
+    "id": "103558",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I really like her new style."
+      },
+      "de": {
+        "text": "Ihr neuer Style gefällt mir sehr gut."
+      }
+    },
+    "wordIds": [
+      "13558"
+    ],
+    "sourceIndex": 3558
+  },
+  {
     "id": "103575",
     "category": "culture",
     "level": "hard",
@@ -2855,6 +3994,40 @@ const phrasesCulture = [
       "13589"
     ],
     "sourceIndex": 3589
+  },
+  {
+    "id": "103618",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The prick of the needle was barely noticeable."
+      },
+      "de": {
+        "text": "Der Stich der Nadel war kaum spürbar."
+      }
+    },
+    "wordIds": [
+      "13618"
+    ],
+    "sourceIndex": 3618
+  },
+  {
+    "id": "103642",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I love the dance."
+      },
+      "de": {
+        "text": "Ich liebe den Dance."
+      }
+    },
+    "wordIds": [
+      "13642"
+    ],
+    "sourceIndex": 3642
   },
   {
     "id": "103643",
@@ -3163,6 +4336,23 @@ const phrasesCulture = [
     "sourceIndex": 3891
   },
   {
+    "id": "103892",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We will move into our new apartment next week."
+      },
+      "de": {
+        "text": "Wir werden nächste Woche in unsere neue Wohnung einziehen."
+      }
+    },
+    "wordIds": [
+      "13892"
+    ],
+    "sourceIndex": 3892
+  },
+  {
     "id": "103911",
     "category": "culture",
     "level": "hard",
@@ -3282,6 +4472,23 @@ const phrasesCulture = [
     "sourceIndex": 3997
   },
   {
+    "id": "104057",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I like reading crime novels."
+      },
+      "de": {
+        "text": "Ich lese gerne Krimis."
+      }
+    },
+    "wordIds": [
+      "14057"
+    ],
+    "sourceIndex": 4057
+  },
+  {
     "id": "104059",
     "category": "culture",
     "level": "hard",
@@ -3384,6 +4591,40 @@ const phrasesCulture = [
     "sourceIndex": 4136
   },
   {
+    "id": "104137",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The clerk noted all important points."
+      },
+      "de": {
+        "text": "Der Schreiber notierte alle wichtigen Punkte."
+      }
+    },
+    "wordIds": [
+      "14137"
+    ],
+    "sourceIndex": 4137
+  },
+  {
+    "id": "104168",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I like to watch comedy shows."
+      },
+      "de": {
+        "text": "Ich mag es, Comedy-Shows zu sehen."
+      }
+    },
+    "wordIds": [
+      "14168"
+    ],
+    "sourceIndex": 4168
+  },
+  {
     "id": "104198",
     "category": "culture",
     "level": "hard",
@@ -3399,6 +4640,23 @@ const phrasesCulture = [
       "14198"
     ],
     "sourceIndex": 4198
+  },
+  {
+    "id": "104233",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The actor played his role very convincingly."
+      },
+      "de": {
+        "text": "Der Darsteller spielte seine Rolle sehr überzeugend."
+      }
+    },
+    "wordIds": [
+      "14233"
+    ],
+    "sourceIndex": 4233
   },
   {
     "id": "104238",
@@ -3433,6 +4691,23 @@ const phrasesCulture = [
       "14265"
     ],
     "sourceIndex": 4265
+  },
+  {
+    "id": "104283",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "She does yoga every morning."
+      },
+      "de": {
+        "text": "Sie macht jeden Morgen Yoga."
+      }
+    },
+    "wordIds": [
+      "14283"
+    ],
+    "sourceIndex": 4283
   },
   {
     "id": "104336",
@@ -3535,6 +4810,23 @@ const phrasesCulture = [
       "14459"
     ],
     "sourceIndex": 4459
+  },
+  {
+    "id": "104495",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She painted a portrait of her son."
+      },
+      "de": {
+        "text": "Sie malte ein Porträt ihres Sohnes."
+      }
+    },
+    "wordIds": [
+      "14495"
+    ],
+    "sourceIndex": 4495
   },
   {
     "id": "104511",
@@ -3673,6 +4965,23 @@ const phrasesCulture = [
     "sourceIndex": 4676
   },
   {
+    "id": "104683",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The children love to climb trees."
+      },
+      "de": {
+        "text": "Die Kinder lieben es, auf Bäume zu klettern."
+      }
+    },
+    "wordIds": [
+      "14683"
+    ],
+    "sourceIndex": 4683
+  },
+  {
     "id": "104731",
     "category": "culture",
     "level": "hard",
@@ -3722,6 +5031,57 @@ const phrasesCulture = [
       "14768"
     ],
     "sourceIndex": 4768
+  },
+  {
+    "id": "104776",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The Muslim community celebrates Eid."
+      },
+      "de": {
+        "text": "Die muslimische Gemeinschaft feiert Eid."
+      }
+    },
+    "wordIds": [
+      "14776"
+    ],
+    "sourceIndex": 4776
+  },
+  {
+    "id": "104783",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My grandfather is a passionate stamp collector."
+      },
+      "de": {
+        "text": "Mein Großvater ist ein leidenschaftlicher Briefmarkensammler."
+      }
+    },
+    "wordIds": [
+      "14783"
+    ],
+    "sourceIndex": 4783
+  },
+  {
+    "id": "104809",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We are going to the circus today."
+      },
+      "de": {
+        "text": "Wir gehen heute in den Zirkus."
+      }
+    },
+    "wordIds": [
+      "14809"
+    ],
+    "sourceIndex": 4809
   },
   {
     "id": "104827",
@@ -3824,6 +5184,23 @@ const phrasesCulture = [
       "15044"
     ],
     "sourceIndex": 5044
+  },
+  {
+    "id": "105055",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The key is lost."
+      },
+      "de": {
+        "text": "Der Schlüssel ist verloren."
+      }
+    },
+    "wordIds": [
+      "15055"
+    ],
+    "sourceIndex": 5055
   },
   {
     "id": "105058",
@@ -3945,6 +5322,23 @@ const phrasesCulture = [
     "sourceIndex": 5214
   },
   {
+    "id": "105244",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The team reached the round of sixteen of the tournament."
+      },
+      "de": {
+        "text": "Die Mannschaft erreichte das Achtelfinale des Turniers."
+      }
+    },
+    "wordIds": [
+      "15244"
+    ],
+    "sourceIndex": 5244
+  },
+  {
     "id": "105249",
     "category": "culture",
     "level": "hard",
@@ -3960,6 +5354,23 @@ const phrasesCulture = [
       "15249"
     ],
     "sourceIndex": 5249
+  },
+  {
+    "id": "105296",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She loves 19th-century poetry."
+      },
+      "de": {
+        "text": "Sie liebt die Poesie des 19. Jahrhunderts."
+      }
+    },
+    "wordIds": [
+      "15296"
+    ],
+    "sourceIndex": 5296
   },
   {
     "id": "105307",
@@ -4096,6 +5507,23 @@ const phrasesCulture = [
       "15494"
     ],
     "sourceIndex": 5494
+  },
+  {
+    "id": "105507",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The hiker enjoyed the view from the mountain."
+      },
+      "de": {
+        "text": "Der Wanderer genoss die Aussicht vom Berg."
+      }
+    },
+    "wordIds": [
+      "15507"
+    ],
+    "sourceIndex": 5507
   },
   {
     "id": "105561",
@@ -4251,6 +5679,23 @@ const phrasesCulture = [
     "sourceIndex": 5906
   },
   {
+    "id": "105909",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The clown made the children laugh."
+      },
+      "de": {
+        "text": "Der Clown brachte die Kinder zum Lachen."
+      }
+    },
+    "wordIds": [
+      "15909"
+    ],
+    "sourceIndex": 5909
+  },
+  {
     "id": "105937",
     "category": "culture",
     "level": "hard",
@@ -4266,6 +5711,23 @@ const phrasesCulture = [
       "15937"
     ],
     "sourceIndex": 5937
+  },
+  {
+    "id": "105951",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I saw a good movie yesterday."
+      },
+      "de": {
+        "text": "Ich habe gestern einen guten Movie gesehen."
+      }
+    },
+    "wordIds": [
+      "15951"
+    ],
+    "sourceIndex": 5951
   },
   {
     "id": "105956",
@@ -4285,6 +5747,23 @@ const phrasesCulture = [
     "sourceIndex": 5956
   },
   {
+    "id": "105957",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Many celebrities were at the party."
+      },
+      "de": {
+        "text": "Viele Promis waren auf der Party."
+      }
+    },
+    "wordIds": [
+      "15957"
+    ],
+    "sourceIndex": 5957
+  },
+  {
     "id": "105961",
     "category": "culture",
     "level": "hard",
@@ -4300,6 +5779,23 @@ const phrasesCulture = [
       "15961"
     ],
     "sourceIndex": 5961
+  },
+  {
+    "id": "105962",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "He likes to surf the internet."
+      },
+      "de": {
+        "text": "Er surft gerne im Internet."
+      }
+    },
+    "wordIds": [
+      "15962"
+    ],
+    "sourceIndex": 5962
   },
   {
     "id": "105964",
@@ -4334,6 +5830,23 @@ const phrasesCulture = [
       "16018"
     ],
     "sourceIndex": 6018
+  },
+  {
+    "id": "106022",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "In summer, we often go to the outdoor swimming pool."
+      },
+      "de": {
+        "text": "Im Sommer gehen wir oft ins Freibad."
+      }
+    },
+    "wordIds": [
+      "16022"
+    ],
+    "sourceIndex": 6022
   },
   {
     "id": "106033",
@@ -4387,6 +5900,23 @@ const phrasesCulture = [
     "sourceIndex": 6080
   },
   {
+    "id": "106117",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The car's paint shines."
+      },
+      "de": {
+        "text": "Der Lack des Autos glänzt."
+      }
+    },
+    "wordIds": [
+      "16117"
+    ],
+    "sourceIndex": 6117
+  },
+  {
     "id": "106129",
     "category": "culture",
     "level": "hard",
@@ -4438,6 +5968,23 @@ const phrasesCulture = [
     "sourceIndex": 6156
   },
   {
+    "id": "106161",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The magician pulled a rabbit out of the hat."
+      },
+      "de": {
+        "text": "Der Zauberer zog ein Kaninchen aus dem Hut."
+      }
+    },
+    "wordIds": [
+      "16161"
+    ],
+    "sourceIndex": 6161
+  },
+  {
     "id": "106163",
     "category": "culture",
     "level": "hard",
@@ -4453,6 +6000,23 @@ const phrasesCulture = [
       "16163"
     ],
     "sourceIndex": 6163
+  },
+  {
+    "id": "106165",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The bus almost ran over a cat."
+      },
+      "de": {
+        "text": "Der Bus hat fast eine Katze überfahren."
+      }
+    },
+    "wordIds": [
+      "16165"
+    ],
+    "sourceIndex": 6165
   },
   {
     "id": "106211",
@@ -4642,6 +6206,23 @@ const phrasesCulture = [
     "sourceIndex": 6454
   },
   {
+    "id": "106469",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The magician can conjure rabbits out of the hat."
+      },
+      "de": {
+        "text": "Der Magier kann Kaninchen aus dem Hut zaubern."
+      }
+    },
+    "wordIds": [
+      "16469"
+    ],
+    "sourceIndex": 6469
+  },
+  {
     "id": "106483",
     "category": "culture",
     "level": "hard",
@@ -4812,6 +6393,40 @@ const phrasesCulture = [
     "sourceIndex": 6762
   },
   {
+    "id": "106771",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The singer has a beautiful voice."
+      },
+      "de": {
+        "text": "Der Singer hat eine schöne Stimme."
+      }
+    },
+    "wordIds": [
+      "16771"
+    ],
+    "sourceIndex": 6771
+  },
+  {
+    "id": "106772",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The playing field was wet from the rain."
+      },
+      "de": {
+        "text": "Das Spielfeld war nass vom Regen."
+      }
+    },
+    "wordIds": [
+      "16772"
+    ],
+    "sourceIndex": 6772
+  },
+  {
     "id": "106790",
     "category": "culture",
     "level": "hard",
@@ -4844,6 +6459,40 @@ const phrasesCulture = [
       "16859"
     ],
     "sourceIndex": 6859
+  },
+  {
+    "id": "106916",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The presentation has many slides."
+      },
+      "de": {
+        "text": "Die Präsentation hat viele Folien."
+      }
+    },
+    "wordIds": [
+      "16916"
+    ],
+    "sourceIndex": 6916
+  },
+  {
+    "id": "106939",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He feels like a loser after the defeat."
+      },
+      "de": {
+        "text": "Er fühlt sich wie ein Loser nach der Niederlage."
+      }
+    },
+    "wordIds": [
+      "16939"
+    ],
+    "sourceIndex": 6939
   },
   {
     "id": "106965",
@@ -4880,6 +6529,23 @@ const phrasesCulture = [
     "sourceIndex": 6983
   },
   {
+    "id": "107029",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I go jogging every morning."
+      },
+      "de": {
+        "text": "Ich gehe jeden Morgen joggen."
+      }
+    },
+    "wordIds": [
+      "17029"
+    ],
+    "sourceIndex": 7029
+  },
+  {
     "id": "107058",
     "category": "culture",
     "level": "hard",
@@ -4895,6 +6561,23 @@ const phrasesCulture = [
       "17058"
     ],
     "sourceIndex": 7058
+  },
+  {
+    "id": "107074",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "It's your turn."
+      },
+      "de": {
+        "text": "Es ist dein Turn."
+      }
+    },
+    "wordIds": [
+      "17074"
+    ],
+    "sourceIndex": 7074
   },
   {
     "id": "107100",
@@ -4931,6 +6614,23 @@ const phrasesCulture = [
     "sourceIndex": 7138
   },
   {
+    "id": "107175",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She is an international superstar."
+      },
+      "de": {
+        "text": "Sie ist ein internationaler Superstar."
+      }
+    },
+    "wordIds": [
+      "17175"
+    ],
+    "sourceIndex": 7175
+  },
+  {
     "id": "107218",
     "category": "culture",
     "level": "medium",
@@ -4946,6 +6646,23 @@ const phrasesCulture = [
       "17218"
     ],
     "sourceIndex": 7218
+  },
+  {
+    "id": "107336",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The good fairy granted her a wish."
+      },
+      "de": {
+        "text": "Die gute Fee erfüllte ihr einen Wunsch."
+      }
+    },
+    "wordIds": [
+      "17336"
+    ],
+    "sourceIndex": 7336
   },
   {
     "id": "107360",
@@ -4965,6 +6682,23 @@ const phrasesCulture = [
     "sourceIndex": 7360
   },
   {
+    "id": "107371",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She painted a beautiful portrait of her mother."
+      },
+      "de": {
+        "text": "Sie malte ein schönes Portrait von ihrer Mutter."
+      }
+    },
+    "wordIds": [
+      "17371"
+    ],
+    "sourceIndex": 7371
+  },
+  {
     "id": "107388",
     "category": "culture",
     "level": "medium",
@@ -4980,6 +6714,23 @@ const phrasesCulture = [
       "17388"
     ],
     "sourceIndex": 7388
+  },
+  {
+    "id": "107394",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He likes to listen to techno music."
+      },
+      "de": {
+        "text": "Er hört gerne Techno-Musik."
+      }
+    },
+    "wordIds": [
+      "17394"
+    ],
+    "sourceIndex": 7394
   },
   {
     "id": "107395",
@@ -5118,6 +6869,57 @@ const phrasesCulture = [
     "sourceIndex": 7625
   },
   {
+    "id": "107639",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Running is good for your health."
+      },
+      "de": {
+        "text": "Running ist gut für die Gesundheit."
+      }
+    },
+    "wordIds": [
+      "17639"
+    ],
+    "sourceIndex": 7639
+  },
+  {
+    "id": "107643",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The photo shoot lasted all day."
+      },
+      "de": {
+        "text": "Das Fotoshooting dauerte den ganzen Tag."
+      }
+    },
+    "wordIds": [
+      "17643"
+    ],
+    "sourceIndex": 7643
+  },
+  {
+    "id": "107644",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He made a quick sketch of the building."
+      },
+      "de": {
+        "text": "Er machte eine schnelle Skizze des Gebäudes."
+      }
+    },
+    "wordIds": [
+      "17644"
+    ],
+    "sourceIndex": 7644
+  },
+  {
     "id": "107649",
     "category": "culture",
     "level": "hard",
@@ -5220,6 +7022,23 @@ const phrasesCulture = [
     "sourceIndex": 7804
   },
   {
+    "id": "107814",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The circus is coming to town."
+      },
+      "de": {
+        "text": "Der Circus kommt in die Stadt."
+      }
+    },
+    "wordIds": [
+      "17814"
+    ],
+    "sourceIndex": 7814
+  },
+  {
     "id": "107840",
     "category": "culture",
     "level": "hard",
@@ -5252,6 +7071,23 @@ const phrasesCulture = [
       "17854"
     ],
     "sourceIndex": 7854
+  },
+  {
+    "id": "107872",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The children are running around in the garden."
+      },
+      "de": {
+        "text": "Die Kinder laufen im Garten rum."
+      }
+    },
+    "wordIds": [
+      "17872"
+    ],
+    "sourceIndex": 7872
   },
   {
     "id": "107889",
@@ -5320,6 +7156,40 @@ const phrasesCulture = [
       "17937"
     ],
     "sourceIndex": 7937
+  },
+  {
+    "id": "107947",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The main actor played his role excellently."
+      },
+      "de": {
+        "text": "Der Hauptdarsteller spielte seine Rolle hervorragend."
+      }
+    },
+    "wordIds": [
+      "17947"
+    ],
+    "sourceIndex": 7947
+  },
+  {
+    "id": "108030",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The team has an important away game."
+      },
+      "de": {
+        "text": "Das Team hat ein wichtiges Auswärtsspiel."
+      }
+    },
+    "wordIds": [
+      "18030"
+    ],
+    "sourceIndex": 8030
   },
   {
     "id": "108035",
@@ -5458,6 +7328,23 @@ const phrasesCulture = [
     "sourceIndex": 8183
   },
   {
+    "id": "108188",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She likes listening to radio plays."
+      },
+      "de": {
+        "text": "Sie hört gerne Hörspiele."
+      }
+    },
+    "wordIds": [
+      "18188"
+    ],
+    "sourceIndex": 8188
+  },
+  {
     "id": "108195",
     "category": "culture",
     "level": "hard",
@@ -5492,6 +7379,23 @@ const phrasesCulture = [
     "sourceIndex": 8268
   },
   {
+    "id": "108285",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We watched an interesting documentary film yesterday."
+      },
+      "de": {
+        "text": "Wir haben gestern einen interessanten Dokumentarfilm gesehen."
+      }
+    },
+    "wordIds": [
+      "18285"
+    ],
+    "sourceIndex": 8285
+  },
+  {
     "id": "108301",
     "category": "culture",
     "level": "hard",
@@ -5507,6 +7411,23 @@ const phrasesCulture = [
       "18301"
     ],
     "sourceIndex": 8301
+  },
+  {
+    "id": "108348",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The award ceremony will take place tomorrow evening."
+      },
+      "de": {
+        "text": "Die Preisverleihung findet morgen Abend statt."
+      }
+    },
+    "wordIds": [
+      "18348"
+    ],
+    "sourceIndex": 8348
   },
   {
     "id": "108370",
@@ -5577,6 +7498,23 @@ const phrasesCulture = [
     "sourceIndex": 8382
   },
   {
+    "id": "108404",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The water is leaking from the tap."
+      },
+      "de": {
+        "text": "Das Wasser läuft aus dem Hahn aus."
+      }
+    },
+    "wordIds": [
+      "18404"
+    ],
+    "sourceIndex": 8404
+  },
+  {
     "id": "108425",
     "category": "culture",
     "level": "hard",
@@ -5592,6 +7530,23 @@ const phrasesCulture = [
       "18425"
     ],
     "sourceIndex": 8425
+  },
+  {
+    "id": "108479",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "At Christmas, we like to eat stollen."
+      },
+      "de": {
+        "text": "Zu Weihnachten essen wir gerne Stollen."
+      }
+    },
+    "wordIds": [
+      "18479"
+    ],
+    "sourceIndex": 8479
   },
   {
     "id": "108715",
@@ -5626,6 +7581,23 @@ const phrasesCulture = [
       "18741"
     ],
     "sourceIndex": 8741
+  },
+  {
+    "id": "108745",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I bought a new puzzle."
+      },
+      "de": {
+        "text": "Ich habe ein neues Puzzle gekauft."
+      }
+    },
+    "wordIds": [
+      "18745"
+    ],
+    "sourceIndex": 8745
   },
   {
     "id": "108758",
@@ -5730,6 +7702,40 @@ const phrasesCulture = [
     "sourceIndex": 8860
   },
   {
+    "id": "108915",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We watched a good feature film last night."
+      },
+      "de": {
+        "text": "Wir haben gestern Abend einen guten Spielfilm gesehen."
+      }
+    },
+    "wordIds": [
+      "18915"
+    ],
+    "sourceIndex": 8915
+  },
+  {
+    "id": "109014",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The keeper saved the ball."
+      },
+      "de": {
+        "text": "Der Keeper hat den Ball gehalten."
+      }
+    },
+    "wordIds": [
+      "19014"
+    ],
+    "sourceIndex": 9014
+  },
+  {
     "id": "109067",
     "category": "culture",
     "level": "hard",
@@ -5832,6 +7838,23 @@ const phrasesCulture = [
     "sourceIndex": 9147
   },
   {
+    "id": "109180",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The teacher wrote with chalk on the board."
+      },
+      "de": {
+        "text": "Die Lehrerin schrieb mit Kreide an die Tafel."
+      }
+    },
+    "wordIds": [
+      "19180"
+    ],
+    "sourceIndex": 9180
+  },
+  {
     "id": "109258",
     "category": "culture",
     "level": "hard",
@@ -5898,6 +7921,23 @@ const phrasesCulture = [
       "19349"
     ],
     "sourceIndex": 9349
+  },
+  {
+    "id": "109359",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We love to ski in winter."
+      },
+      "de": {
+        "text": "Wir lieben es, im Winter Ski zu fahren."
+      }
+    },
+    "wordIds": [
+      "19359"
+    ],
+    "sourceIndex": 9359
   },
   {
     "id": "109432",
@@ -6002,6 +8042,23 @@ const phrasesCulture = [
     "sourceIndex": 9569
   },
   {
+    "id": "109613",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We saw a good movie yesterday."
+      },
+      "de": {
+        "text": "Wir haben gestern einen guten Kinofilm gesehen."
+      }
+    },
+    "wordIds": [
+      "19613"
+    ],
+    "sourceIndex": 9613
+  },
+  {
     "id": "109618",
     "category": "culture",
     "level": "hard",
@@ -6034,6 +8091,40 @@ const phrasesCulture = [
       "19655"
     ],
     "sourceIndex": 9655
+  },
+  {
+    "id": "109668",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The diver explored the underwater world."
+      },
+      "de": {
+        "text": "Der Taucher erkundete die Unterwasserwelt."
+      }
+    },
+    "wordIds": [
+      "19668"
+    ],
+    "sourceIndex": 9668
+  },
+  {
+    "id": "109712",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The draw of the winners will take place tomorrow."
+      },
+      "de": {
+        "text": "Die Auslosung der Gewinner findet morgen statt."
+      }
+    },
+    "wordIds": [
+      "19712"
+    ],
+    "sourceIndex": 9712
   },
   {
     "id": "109789",
@@ -6104,6 +8195,23 @@ const phrasesCulture = [
     "sourceIndex": 9848
   },
   {
+    "id": "109914",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We watched an interesting short film."
+      },
+      "de": {
+        "text": "Wir haben einen interessanten Kurzfilm gesehen."
+      }
+    },
+    "wordIds": [
+      "19914"
+    ],
+    "sourceIndex": 9914
+  },
+  {
     "id": "109918",
     "category": "culture",
     "level": "hard",
@@ -6119,6 +8227,23 @@ const phrasesCulture = [
       "19918"
     ],
     "sourceIndex": 9918
+  },
+  {
+    "id": "109944",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We had to row across the lake."
+      },
+      "de": {
+        "text": "Wir mussten über den See rudern."
+      }
+    },
+    "wordIds": [
+      "19944"
+    ],
+    "sourceIndex": 9944
   },
   {
     "id": "109945",
@@ -6206,6 +8331,23 @@ const phrasesCulture = [
     "sourceIndex": 10020
   },
   {
+    "id": "110053",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We celebrate Christmas Eve with the family."
+      },
+      "de": {
+        "text": "Wir feiern Heiligabend mit der Familie."
+      }
+    },
+    "wordIds": [
+      "20053"
+    ],
+    "sourceIndex": 10053
+  },
+  {
     "id": "110054",
     "category": "culture",
     "level": "hard",
@@ -6257,6 +8399,23 @@ const phrasesCulture = [
     "sourceIndex": 10097
   },
   {
+    "id": "110156",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She wanted to paint the wall."
+      },
+      "de": {
+        "text": "Sie wollte die Wand bemalen."
+      }
+    },
+    "wordIds": [
+      "20156"
+    ],
+    "sourceIndex": 10156
+  },
+  {
     "id": "110201",
     "category": "culture",
     "level": "hard",
@@ -6289,6 +8448,23 @@ const phrasesCulture = [
       "20232"
     ],
     "sourceIndex": 10232
+  },
+  {
+    "id": "110302",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The author reads from her new book."
+      },
+      "de": {
+        "text": "Die Autorin liest aus ihrem neuen Buch vor."
+      }
+    },
+    "wordIds": [
+      "20302"
+    ],
+    "sourceIndex": 10302
   },
   {
     "id": "110303",
@@ -6376,6 +8552,40 @@ const phrasesCulture = [
     "sourceIndex": 10394
   },
   {
+    "id": "110427",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We will raffle tickets for the concert."
+      },
+      "de": {
+        "text": "Wir werden Tickets für das Konzert verlosen."
+      }
+    },
+    "wordIds": [
+      "20427"
+    ],
+    "sourceIndex": 10427
+  },
+  {
+    "id": "110428",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The raffle of the prizes will take place tomorrow."
+      },
+      "de": {
+        "text": "Die Verlosung der Preise findet morgen statt."
+      }
+    },
+    "wordIds": [
+      "20428"
+    ],
+    "sourceIndex": 10428
+  },
+  {
     "id": "110438",
     "category": "culture",
     "level": "medium",
@@ -6427,6 +8637,23 @@ const phrasesCulture = [
     "sourceIndex": 10554
   },
   {
+    "id": "110622",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "They like to play billiards in the evening."
+      },
+      "de": {
+        "text": "Sie spielen gerne Billard am Abend."
+      }
+    },
+    "wordIds": [
+      "20622"
+    ],
+    "sourceIndex": 10622
+  },
+  {
     "id": "110683",
     "category": "culture",
     "level": "hard",
@@ -6459,6 +8686,23 @@ const phrasesCulture = [
       "20722"
     ],
     "sourceIndex": 10722
+  },
+  {
+    "id": "110725",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I would like a glass of soda with lemon."
+      },
+      "de": {
+        "text": "Ich hätte gerne ein Glas Soda mit Zitrone."
+      }
+    },
+    "wordIds": [
+      "20725"
+    ],
+    "sourceIndex": 10725
   },
   {
     "id": "110742",
@@ -6510,6 +8754,40 @@ const phrasesCulture = [
       "20754"
     ],
     "sourceIndex": 10754
+  },
+  {
+    "id": "110756",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The hiking trail leads through a beautiful forest."
+      },
+      "de": {
+        "text": "Der Wanderweg führt durch einen schönen Wald."
+      }
+    },
+    "wordIds": [
+      "20756"
+    ],
+    "sourceIndex": 10756
+  },
+  {
+    "id": "110810",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He immersed himself in the cold water."
+      },
+      "de": {
+        "text": "Er tauchte in das kalte Wasser ein."
+      }
+    },
+    "wordIds": [
+      "20810"
+    ],
+    "sourceIndex": 10810
   },
   {
     "id": "110821",
@@ -6597,6 +8875,23 @@ const phrasesCulture = [
     "sourceIndex": 10856
   },
   {
+    "id": "110934",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Christmas is a time of joy."
+      },
+      "de": {
+        "text": "Das Weihnachtsfest ist eine Zeit der Freude."
+      }
+    },
+    "wordIds": [
+      "20934"
+    ],
+    "sourceIndex": 10934
+  },
+  {
     "id": "111000",
     "category": "culture",
     "level": "hard",
@@ -6612,6 +8907,23 @@ const phrasesCulture = [
       "21000"
     ],
     "sourceIndex": 11000
+  },
+  {
+    "id": "111007",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We are celebrating a big party on the weekend."
+      },
+      "de": {
+        "text": "Wir feiern eine große Fiesta am Wochenende."
+      }
+    },
+    "wordIds": [
+      "21007"
+    ],
+    "sourceIndex": 11007
   },
   {
     "id": "111074",
@@ -6733,6 +9045,23 @@ const phrasesCulture = [
     "sourceIndex": 11160
   },
   {
+    "id": "111232",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She loves to make music on the weekend."
+      },
+      "de": {
+        "text": "Sie liebt es, am Wochenende zu musizieren."
+      }
+    },
+    "wordIds": [
+      "21232"
+    ],
+    "sourceIndex": 11232
+  },
+  {
     "id": "111249",
     "category": "culture",
     "level": "hard",
@@ -6782,6 +9111,23 @@ const phrasesCulture = [
       "21267"
     ],
     "sourceIndex": 11267
+  },
+  {
+    "id": "111307",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "That was a magical evening."
+      },
+      "de": {
+        "text": "Das war ein zauberhafter Abend."
+      }
+    },
+    "wordIds": [
+      "21307"
+    ],
+    "sourceIndex": 11307
   },
   {
     "id": "111330",
@@ -6835,6 +9181,23 @@ const phrasesCulture = [
     "sourceIndex": 11390
   },
   {
+    "id": "111409",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She likes to read illustrated magazines in her free time."
+      },
+      "de": {
+        "text": "Sie liest gerne Illustrierte in ihrer Freizeit."
+      }
+    },
+    "wordIds": [
+      "21409"
+    ],
+    "sourceIndex": 11409
+  },
+  {
     "id": "111455",
     "category": "culture",
     "level": "medium",
@@ -6850,6 +9213,23 @@ const phrasesCulture = [
       "21455"
     ],
     "sourceIndex": 11455
+  },
+  {
+    "id": "111496",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We got lost in the forest."
+      },
+      "de": {
+        "text": "Wir haben uns im Wald verirrt."
+      }
+    },
+    "wordIds": [
+      "21496"
+    ],
+    "sourceIndex": 11496
   },
   {
     "id": "111527",
@@ -7005,6 +9385,23 @@ const phrasesCulture = [
     "sourceIndex": 11752
   },
   {
+    "id": "111775",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The next Olympiad will take place in four years."
+      },
+      "de": {
+        "text": "Die nächste Olympiade findet in vier Jahren statt."
+      }
+    },
+    "wordIds": [
+      "21775"
+    ],
+    "sourceIndex": 11775
+  },
+  {
     "id": "111780",
     "category": "culture",
     "level": "hard",
@@ -7020,6 +9417,23 @@ const phrasesCulture = [
       "21780"
     ],
     "sourceIndex": 11780
+  },
+  {
+    "id": "111850",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The collection of the goods is possible tomorrow."
+      },
+      "de": {
+        "text": "Die Abholung der Ware ist morgen möglich."
+      }
+    },
+    "wordIds": [
+      "21850"
+    ],
+    "sourceIndex": 11850
   },
   {
     "id": "111870",
@@ -7054,6 +9468,40 @@ const phrasesCulture = [
       "21879"
     ],
     "sourceIndex": 11879
+  },
+  {
+    "id": "111891",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Women's football is becoming more and more popular."
+      },
+      "de": {
+        "text": "Frauenfussball wird immer populärer."
+      }
+    },
+    "wordIds": [
+      "21891"
+    ],
+    "sourceIndex": 11891
+  },
+  {
+    "id": "111907",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The children run around in the garden."
+      },
+      "de": {
+        "text": "Die Kinder laufen im Garten herum."
+      }
+    },
+    "wordIds": [
+      "21907"
+    ],
+    "sourceIndex": 11907
   },
   {
     "id": "111913",
@@ -7260,6 +9708,23 @@ const phrasesCulture = [
     "sourceIndex": 12188
   },
   {
+    "id": "112214",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The children were fascinated by the magic."
+      },
+      "de": {
+        "text": "Die Kinder waren fasziniert von der Zauberei."
+      }
+    },
+    "wordIds": [
+      "22214"
+    ],
+    "sourceIndex": 12214
+  },
+  {
     "id": "112234",
     "category": "culture",
     "level": "hard",
@@ -7379,6 +9844,23 @@ const phrasesCulture = [
     "sourceIndex": 12451
   },
   {
+    "id": "112475",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Our main goal is to increase customer satisfaction."
+      },
+      "de": {
+        "text": "Unser Hauptziel ist es, die Kundenzufriedenheit zu erhöhen."
+      }
+    },
+    "wordIds": [
+      "22475"
+    ],
+    "sourceIndex": 12475
+  },
+  {
     "id": "112479",
     "category": "culture",
     "level": "hard",
@@ -7462,6 +9944,23 @@ const phrasesCulture = [
       "22526"
     ],
     "sourceIndex": 12526
+  },
+  {
+    "id": "112574",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The dog wanted to run away."
+      },
+      "de": {
+        "text": "Der Hund wollte weglaufen."
+      }
+    },
+    "wordIds": [
+      "22574"
+    ],
+    "sourceIndex": 12574
   },
   {
     "id": "112576",
@@ -7770,6 +10269,57 @@ const phrasesCulture = [
     "sourceIndex": 13200
   },
   {
+    "id": "113295",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "They puzzled over the solution for a long time."
+      },
+      "de": {
+        "text": "Sie rätselten lange über die Lösung."
+      }
+    },
+    "wordIds": [
+      "23295"
+    ],
+    "sourceIndex": 13295
+  },
+  {
+    "id": "113304",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He likes to snowboard in winter."
+      },
+      "de": {
+        "text": "Er fährt gerne Snowboard im Winter."
+      }
+    },
+    "wordIds": [
+      "23304"
+    ],
+    "sourceIndex": 13304
+  },
+  {
+    "id": "113311",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The surfer waited for the perfect wave."
+      },
+      "de": {
+        "text": "Der Surfer wartete auf die perfekte Welle."
+      }
+    },
+    "wordIds": [
+      "23311"
+    ],
+    "sourceIndex": 13311
+  },
+  {
     "id": "113398",
     "category": "culture",
     "level": "hard",
@@ -7785,6 +10335,23 @@ const phrasesCulture = [
       "23398"
     ],
     "sourceIndex": 13398
+  },
+  {
+    "id": "113423",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She is a member of a fan club."
+      },
+      "de": {
+        "text": "Sie ist Mitglied in einem Fanclub."
+      }
+    },
+    "wordIds": [
+      "23423"
+    ],
+    "sourceIndex": 13423
   },
   {
     "id": "113424",
@@ -7838,6 +10405,23 @@ const phrasesCulture = [
     "sourceIndex": 13427
   },
   {
+    "id": "113474",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "My sister is a talented female musician."
+      },
+      "de": {
+        "text": "Meine Schwester ist eine talentierte Musikerin."
+      }
+    },
+    "wordIds": [
+      "23474"
+    ],
+    "sourceIndex": 13474
+  },
+  {
     "id": "113494",
     "category": "culture",
     "level": "hard",
@@ -7889,6 +10473,40 @@ const phrasesCulture = [
     "sourceIndex": 13532
   },
   {
+    "id": "113552",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The race for the new technology is tough."
+      },
+      "de": {
+        "text": "Der Wettlauf um die neue Technologie ist hart."
+      }
+    },
+    "wordIds": [
+      "23552"
+    ],
+    "sourceIndex": 13552
+  },
+  {
+    "id": "113575",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The engine will start soon."
+      },
+      "de": {
+        "text": "Der Motor wird bald anlaufen."
+      }
+    },
+    "wordIds": [
+      "23575"
+    ],
+    "sourceIndex": 13575
+  },
+  {
     "id": "113590",
     "category": "culture",
     "level": "medium",
@@ -7921,6 +10539,40 @@ const phrasesCulture = [
       "23592"
     ],
     "sourceIndex": 13592
+  },
+  {
+    "id": "113617",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I need to install the new driver for my printer."
+      },
+      "de": {
+        "text": "Ich muss den neuen Driver für meinen Drucker installieren."
+      }
+    },
+    "wordIds": [
+      "23617"
+    ],
+    "sourceIndex": 13617
+  },
+  {
+    "id": "113642",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The walking people filled the street."
+      },
+      "de": {
+        "text": "Die gehenden Menschen füllten die Straße."
+      }
+    },
+    "wordIds": [
+      "23642"
+    ],
+    "sourceIndex": 13642
   },
   {
     "id": "113696",
@@ -7972,6 +10624,23 @@ const phrasesCulture = [
       "23727"
     ],
     "sourceIndex": 13727
+  },
+  {
+    "id": "113747",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The potter shaped a beautiful vase."
+      },
+      "de": {
+        "text": "Der Töpfer formte eine schöne Vase."
+      }
+    },
+    "wordIds": [
+      "23747"
+    ],
+    "sourceIndex": 13747
   },
   {
     "id": "113815",
@@ -8040,6 +10709,23 @@ const phrasesCulture = [
       "23894"
     ],
     "sourceIndex": 13894
+  },
+  {
+    "id": "113902",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The actress played her role very convincingly."
+      },
+      "de": {
+        "text": "Die Schauspielerin spielte ihre Rolle sehr überzeugend."
+      }
+    },
+    "wordIds": [
+      "23902"
+    ],
+    "sourceIndex": 13902
   },
   {
     "id": "113942",
@@ -8159,6 +10845,23 @@ const phrasesCulture = [
       "24116"
     ],
     "sourceIndex": 14116
+  },
+  {
+    "id": "114154",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "This is just a preliminary stage to the actual project."
+      },
+      "de": {
+        "text": "Dies ist nur eine Vorstufe zum eigentlichen Projekt."
+      }
+    },
+    "wordIds": [
+      "24154"
+    ],
+    "sourceIndex": 14154
   },
   {
     "id": "114168",
@@ -8399,6 +11102,40 @@ const phrasesCulture = [
     "sourceIndex": 14738
   },
   {
+    "id": "114768",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The drawing of the lottery numbers takes place every Saturday."
+      },
+      "de": {
+        "text": "Die Ziehung der Lottozahlen findet jeden Samstag statt."
+      }
+    },
+    "wordIds": [
+      "24768"
+    ],
+    "sourceIndex": 14768
+  },
+  {
+    "id": "114851",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I prefer to wear comfortable sweatpants at home."
+      },
+      "de": {
+        "text": "Ich trage am liebsten eine bequeme Jogginghose zu Hause."
+      }
+    },
+    "wordIds": [
+      "24851"
+    ],
+    "sourceIndex": 14851
+  },
+  {
     "id": "114862",
     "category": "culture",
     "level": "hard",
@@ -8484,6 +11221,57 @@ const phrasesCulture = [
     "sourceIndex": 15006
   },
   {
+    "id": "115069",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We need charcoal for the barbecue evening."
+      },
+      "de": {
+        "text": "Wir brauchen Holzkohle für den Grillabend."
+      }
+    },
+    "wordIds": [
+      "25069"
+    ],
+    "sourceIndex": 15069
+  },
+  {
+    "id": "115183",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The children want to continue playing."
+      },
+      "de": {
+        "text": "Die Kinder wollen weiterspielen."
+      }
+    },
+    "wordIds": [
+      "25183"
+    ],
+    "sourceIndex": 15183
+  },
+  {
+    "id": "115224",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The surf was very strong today."
+      },
+      "de": {
+        "text": "Die Brandung war heute sehr stark."
+      }
+    },
+    "wordIds": [
+      "25224"
+    ],
+    "sourceIndex": 15224
+  },
+  {
     "id": "115239",
     "category": "culture",
     "level": "medium",
@@ -8516,6 +11304,23 @@ const phrasesCulture = [
       "25258"
     ],
     "sourceIndex": 15258
+  },
+  {
+    "id": "115342",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He joked about the situation."
+      },
+      "de": {
+        "text": "Er scherzte über die Situation."
+      }
+    },
+    "wordIds": [
+      "25342"
+    ],
+    "sourceIndex": 15342
   },
   {
     "id": "115405",
@@ -8654,6 +11459,23 @@ const phrasesCulture = [
     "sourceIndex": 15572
   },
   {
+    "id": "115613",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Please show your ID."
+      },
+      "de": {
+        "text": "Bitte zeigen Sie Ihren Ausweis vor."
+      }
+    },
+    "wordIds": [
+      "25613"
+    ],
+    "sourceIndex": 15613
+  },
+  {
     "id": "115622",
     "category": "culture",
     "level": "hard",
@@ -8669,6 +11491,23 @@ const phrasesCulture = [
       "25622"
     ],
     "sourceIndex": 15622
+  },
+  {
+    "id": "115650",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The lifeguard whistles if someone runs."
+      },
+      "de": {
+        "text": "Der Bademeister pfeift, wenn jemand rennt."
+      }
+    },
+    "wordIds": [
+      "25650"
+    ],
+    "sourceIndex": 15650
   },
   {
     "id": "115667",
@@ -8737,6 +11576,40 @@ const phrasesCulture = [
       "25763"
     ],
     "sourceIndex": 15763
+  },
+  {
+    "id": "115828",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Despite the rain, we had to continue walking."
+      },
+      "de": {
+        "text": "Trotz des Regens mussten wir weiterlaufen."
+      }
+    },
+    "wordIds": [
+      "25828"
+    ],
+    "sourceIndex": 15828
+  },
+  {
+    "id": "115845",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The graduation ceremony will take place next week."
+      },
+      "de": {
+        "text": "Die Abschlussfeier findet nächste Woche statt."
+      }
+    },
+    "wordIds": [
+      "25845"
+    ],
+    "sourceIndex": 15845
   },
   {
     "id": "115906",
@@ -8909,6 +11782,23 @@ const phrasesCulture = [
     "sourceIndex": 16117
   },
   {
+    "id": "116233",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The singing child delighted everyone."
+      },
+      "de": {
+        "text": "Das singende Kind erfreute alle."
+      }
+    },
+    "wordIds": [
+      "26233"
+    ],
+    "sourceIndex": 16233
+  },
+  {
     "id": "116235",
     "category": "culture",
     "level": "hard",
@@ -8924,6 +11814,23 @@ const phrasesCulture = [
       "26235"
     ],
     "sourceIndex": 16235
+  },
+  {
+    "id": "116336",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He held a baseball bat in his hand."
+      },
+      "de": {
+        "text": "Er hielt einen Baseballschläger in der Hand."
+      }
+    },
+    "wordIds": [
+      "26336"
+    ],
+    "sourceIndex": 16336
   },
   {
     "id": "116395",
@@ -8994,6 +11901,23 @@ const phrasesCulture = [
     "sourceIndex": 16458
   },
   {
+    "id": "116488",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The floating iceberg was huge."
+      },
+      "de": {
+        "text": "Der schwimmende Eisberg war riesig."
+      }
+    },
+    "wordIds": [
+      "26488"
+    ],
+    "sourceIndex": 16488
+  },
+  {
     "id": "116519",
     "category": "culture",
     "level": "hard",
@@ -9028,6 +11952,40 @@ const phrasesCulture = [
     "sourceIndex": 16634
   },
   {
+    "id": "116670",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "During carnival, the revelers dress up."
+      },
+      "de": {
+        "text": "An Karneval verkleiden sich die Jecken."
+      }
+    },
+    "wordIds": [
+      "26670"
+    ],
+    "sourceIndex": 16670
+  },
+  {
+    "id": "116671",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The jogger runs in the park every morning."
+      },
+      "de": {
+        "text": "Der Jogger läuft jeden Morgen im Park."
+      }
+    },
+    "wordIds": [
+      "26671"
+    ],
+    "sourceIndex": 16671
+  },
+  {
     "id": "116686",
     "category": "culture",
     "level": "hard",
@@ -9060,6 +12018,23 @@ const phrasesCulture = [
       "26709"
     ],
     "sourceIndex": 16709
+  },
+  {
+    "id": "116756",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The skater showed impressive tricks in the park."
+      },
+      "de": {
+        "text": "Der Skater zeigte beeindruckende Tricks im Park."
+      }
+    },
+    "wordIds": [
+      "26756"
+    ],
+    "sourceIndex": 16756
   },
   {
     "id": "116802",
@@ -9162,6 +12137,23 @@ const phrasesCulture = [
       "27087"
     ],
     "sourceIndex": 17087
+  },
+  {
+    "id": "117094",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "His name is at the top of the high score list."
+      },
+      "de": {
+        "text": "Sein Name steht ganz oben auf der Bestenliste."
+      }
+    },
+    "wordIds": [
+      "27094"
+    ],
+    "sourceIndex": 17094
   },
   {
     "id": "117100",
@@ -9283,6 +12275,23 @@ const phrasesCulture = [
     "sourceIndex": 17330
   },
   {
+    "id": "117350",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The children proudly showed their craft."
+      },
+      "de": {
+        "text": "Die Kinder zeigten stolz ihre Bastel."
+      }
+    },
+    "wordIds": [
+      "27350"
+    ],
+    "sourceIndex": 17350
+  },
+  {
     "id": "117371",
     "category": "culture",
     "level": "hard",
@@ -9298,6 +12307,23 @@ const phrasesCulture = [
       "27371"
     ],
     "sourceIndex": 17371
+  },
+  {
+    "id": "117394",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The fable of the fox and the grapes is very well known."
+      },
+      "de": {
+        "text": "Die Fabel vom Fuchs und den Trauben ist sehr bekannt."
+      }
+    },
+    "wordIds": [
+      "27394"
+    ],
+    "sourceIndex": 17394
   },
   {
     "id": "117409",
@@ -9368,6 +12394,23 @@ const phrasesCulture = [
     "sourceIndex": 17526
   },
   {
+    "id": "117542",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The skier skied quickly down the mountain."
+      },
+      "de": {
+        "text": "Der Skifahrer fuhr schnell den Berg hinunter."
+      }
+    },
+    "wordIds": [
+      "27542"
+    ],
+    "sourceIndex": 17542
+  },
+  {
     "id": "117544",
     "category": "culture",
     "level": "hard",
@@ -9400,6 +12443,23 @@ const phrasesCulture = [
       "27611"
     ],
     "sourceIndex": 17611
+  },
+  {
+    "id": "117679",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She dreams of becoming a film star."
+      },
+      "de": {
+        "text": "Sie träumt davon, ein Filmstar zu werden."
+      }
+    },
+    "wordIds": [
+      "27679"
+    ],
+    "sourceIndex": 17679
   },
   {
     "id": "117707",
@@ -9487,6 +12547,23 @@ const phrasesCulture = [
     "sourceIndex": 17792
   },
   {
+    "id": "117809",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The dancing couple looked happy."
+      },
+      "de": {
+        "text": "Das tanzende Paar sah glücklich aus."
+      }
+    },
+    "wordIds": [
+      "27809"
+    ],
+    "sourceIndex": 17809
+  },
+  {
     "id": "117824",
     "category": "culture",
     "level": "hard",
@@ -9536,6 +12613,23 @@ const phrasesCulture = [
       "27905"
     ],
     "sourceIndex": 17905
+  },
+  {
+    "id": "117947",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My grandmother loves to crochet."
+      },
+      "de": {
+        "text": "Meine Grossmutter liebt es zu häkeln."
+      }
+    },
+    "wordIds": [
+      "27947"
+    ],
+    "sourceIndex": 17947
   },
   {
     "id": "117976",
@@ -9861,6 +12955,23 @@ const phrasesCulture = [
     "sourceIndex": 18413
   },
   {
+    "id": "118416",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The festival tent was full of people."
+      },
+      "de": {
+        "text": "Das Festzelt war voller Menschen."
+      }
+    },
+    "wordIds": [
+      "28416"
+    ],
+    "sourceIndex": 18416
+  },
+  {
     "id": "118445",
     "category": "culture",
     "level": "hard",
@@ -9912,6 +13023,23 @@ const phrasesCulture = [
     "sourceIndex": 18684
   },
   {
+    "id": "118728",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The church choir sings every Sunday."
+      },
+      "de": {
+        "text": "Der Kirchenchor singt jeden Sonntag."
+      }
+    },
+    "wordIds": [
+      "28728"
+    ],
+    "sourceIndex": 18728
+  },
+  {
     "id": "118763",
     "category": "culture",
     "level": "hard",
@@ -9946,6 +13074,23 @@ const phrasesCulture = [
     "sourceIndex": 18780
   },
   {
+    "id": "118787",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The rower trains every day on the lake."
+      },
+      "de": {
+        "text": "Der Ruderer trainiert jeden Tag auf dem See."
+      }
+    },
+    "wordIds": [
+      "28787"
+    ],
+    "sourceIndex": 18787
+  },
+  {
     "id": "118858",
     "category": "culture",
     "level": "hard",
@@ -9963,6 +13108,23 @@ const phrasesCulture = [
     "sourceIndex": 18858
   },
   {
+    "id": "118923",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Many young talents dream of a career through a casting show."
+      },
+      "de": {
+        "text": "Viele junge Talente träumen von einer Karriere durch eine Castingshow."
+      }
+    },
+    "wordIds": [
+      "28923"
+    ],
+    "sourceIndex": 18923
+  },
+  {
     "id": "118927",
     "category": "culture",
     "level": "hard",
@@ -9978,6 +13140,23 @@ const phrasesCulture = [
       "28927"
     ],
     "sourceIndex": 18927
+  },
+  {
+    "id": "118943",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She trains every day for figure skating."
+      },
+      "de": {
+        "text": "Sie trainiert jeden Tag für den Eiskunstlauf."
+      }
+    },
+    "wordIds": [
+      "28943"
+    ],
+    "sourceIndex": 18943
   },
   {
     "id": "118984",
@@ -10048,6 +13227,23 @@ const phrasesCulture = [
     "sourceIndex": 19157
   },
   {
+    "id": "119180",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "She does aerobics every morning."
+      },
+      "de": {
+        "text": "Sie macht jeden Morgen Aerobic."
+      }
+    },
+    "wordIds": [
+      "29180"
+    ],
+    "sourceIndex": 19180
+  },
+  {
     "id": "119214",
     "category": "culture",
     "level": "hard",
@@ -10099,6 +13295,23 @@ const phrasesCulture = [
     "sourceIndex": 19301
   },
   {
+    "id": "119312",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I like to do crossword puzzles in my free time."
+      },
+      "de": {
+        "text": "Ich mache gerne Kreuzworträtsel in meiner Freizeit."
+      }
+    },
+    "wordIds": [
+      "29312"
+    ],
+    "sourceIndex": 19312
+  },
+  {
     "id": "119488",
     "category": "culture",
     "level": "hard",
@@ -10116,6 +13329,23 @@ const phrasesCulture = [
     "sourceIndex": 19488
   },
   {
+    "id": "119505",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She is learning to play the recorder."
+      },
+      "de": {
+        "text": "Sie lernt, Blockflöte zu spielen."
+      }
+    },
+    "wordIds": [
+      "29505"
+    ],
+    "sourceIndex": 19505
+  },
+  {
     "id": "119547",
     "category": "culture",
     "level": "hard",
@@ -10131,6 +13361,57 @@ const phrasesCulture = [
       "29547"
     ],
     "sourceIndex": 19547
+  },
+  {
+    "id": "119588",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I like listening to instrumental music to relax."
+      },
+      "de": {
+        "text": "Ich höre gerne Instrumentalmusik zum Entspannen."
+      }
+    },
+    "wordIds": [
+      "29588"
+    ],
+    "sourceIndex": 19588
+  },
+  {
+    "id": "119680",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The start of the game is scheduled for 6 PM."
+      },
+      "de": {
+        "text": "Der Spielbeginn ist für 18 Uhr angesetzt."
+      }
+    },
+    "wordIds": [
+      "29680"
+    ],
+    "sourceIndex": 19680
+  },
+  {
+    "id": "119683",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We attend a big sporting event every year."
+      },
+      "de": {
+        "text": "Wir besuchen jedes Jahr eine große Sportveranstaltung."
+      }
+    },
+    "wordIds": [
+      "29683"
+    ],
+    "sourceIndex": 19683
   },
   {
     "id": "119737",
@@ -10182,6 +13463,91 @@ const phrasesCulture = [
       "29778"
     ],
     "sourceIndex": 19778
+  },
+  {
+    "id": "119813",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The little elf danced in the moonlight."
+      },
+      "de": {
+        "text": "Die kleine Elfe tanzte im Mondlicht."
+      }
+    },
+    "wordIds": [
+      "29813"
+    ],
+    "sourceIndex": 19813
+  },
+  {
+    "id": "119904",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The local newspaper reports on events in the city."
+      },
+      "de": {
+        "text": "Die Lokalzeitung berichtet über Ereignisse in der Stadt."
+      }
+    },
+    "wordIds": [
+      "29904"
+    ],
+    "sourceIndex": 19904
+  },
+  {
+    "id": "119923",
+    "category": "culture",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The Easter Bunny brings the eggs."
+      },
+      "de": {
+        "text": "Der Osterhase bringt die Eier."
+      }
+    },
+    "wordIds": [
+      "29923"
+    ],
+    "sourceIndex": 19923
+  },
+  {
+    "id": "119935",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He loves to play poker with friends on the weekend."
+      },
+      "de": {
+        "text": "Er liebt es, am Wochenende mit Freunden zu pokern."
+      }
+    },
+    "wordIds": [
+      "29935"
+    ],
+    "sourceIndex": 19935
+  },
+  {
+    "id": "119986",
+    "category": "culture",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The embroidery on the cushion is very beautiful."
+      },
+      "de": {
+        "text": "Die Stickerei auf dem Kissen ist sehr schön."
+      }
+    },
+    "wordIds": [
+      "29986"
+    ],
+    "sourceIndex": 19986
   },
   {
     "id": "119993",

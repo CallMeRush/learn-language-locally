@@ -12,7 +12,7 @@ function mixedLevelOfPhrase(phrase) {
       : "B1";
 }
 function mixedPool(level = mixedLevel, parts = mixedParts) {
-  var levelOk = (value) => level === "all" || value === level,
+  var levelOk = (value) => Array.isArray(level) ? level.includes(value) : level === "all" || value === level,
     pool = [];
   vocab
     .filter(
@@ -130,8 +130,7 @@ function nextMixed(question = null) {
             : "Type the meaning.";
     if (article) {
       $("#mixed-article").style.display = "flex";
-      $("#mixed-article span").textContent =
-        "Choose article · 1 der · 2 die · 3 das";
+      $("#mixed-article span").textContent = "Article";
     }
     if (q.kind === "vocab-meaning")
       $("#mixed-answer").placeholder = "Type the meaning…";
@@ -246,7 +245,6 @@ function checkMixed() {
     $("#mixed-feedback").textContent =
       "Correct! Press Enter again for the next question.";
     $("#mixed-feedback").className = "feedback good";
-    registerStudy();
     save();
   } else {
     if (q.kind.startsWith("vocab") || q.kind.startsWith("phrase")) {
@@ -265,7 +263,6 @@ function checkMixed() {
                 ? "The grammar answer is wrong."
                 : "The answer is wrong. Use Hint if needed.";
     $("#mixed-feedback").className = "feedback bad";
-    registerStudy();
     save();
   }
   if (activeLesson && !ok) {
@@ -278,10 +275,13 @@ function checkMixed() {
 $$("[data-mixed-level]").forEach(
   (button) =>
     (button.onclick = () => {
-      $$("[data-mixed-level]").forEach((x) => x.classList.remove("active"));
-      button.classList.add("active");
-      mixedLevel = button.dataset.mixedLevel;
+      var level = button.dataset.mixedLevel;
+      toggleStudyLevel(level);
+      $$("[data-mixed-level]").forEach((x) =>
+        x.classList.toggle("active", x.dataset.mixedLevel === "all" ? selectedLevels.length === allStudyLevels.length : levelSelected(x.dataset.mixedLevel)),
+      );
       nextMixed();
+      savePreferences();
     }),
 );
 $$("[data-mixed-article]").forEach(

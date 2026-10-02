@@ -17,6 +17,40 @@ const phrasesTime = [
     "sourceIndex": 4
   },
   {
+    "id": "100011",
+    "category": "time",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "Just come here!"
+      },
+      "de": {
+        "text": "Komm mal her!"
+      }
+    },
+    "wordIds": [
+      "10011"
+    ],
+    "sourceIndex": 11
+  },
+  {
+    "id": "100012",
+    "category": "time",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I have been there many times."
+      },
+      "de": {
+        "text": "Ich war schon viele Male dort."
+      }
+    },
+    "wordIds": [
+      "10012"
+    ],
+    "sourceIndex": 12
+  },
+  {
     "id": "100015",
     "category": "time",
     "level": "easy",
@@ -460,6 +494,40 @@ const phrasesTime = [
     "sourceIndex": 176
   },
   {
+    "id": "100183",
+    "category": "time",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I'm coming home soon."
+      },
+      "de": {
+        "text": "Ich komme bald nach Hause."
+      }
+    },
+    "wordIds": [
+      "10183"
+    ],
+    "sourceIndex": 183
+  },
+  {
+    "id": "100188",
+    "category": "time",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "This is my second book."
+      },
+      "de": {
+        "text": "Das ist mein zweites Buch."
+      }
+    },
+    "wordIds": [
+      "10188"
+    ],
+    "sourceIndex": 188
+  },
+  {
     "id": "100196",
     "category": "time",
     "level": "hard",
@@ -528,6 +596,23 @@ const phrasesTime = [
     "sourceIndex": 207
   },
   {
+    "id": "100208",
+    "category": "time",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "In the beginning, it was difficult."
+      },
+      "de": {
+        "text": "Am Anfang war es schwierig."
+      }
+    },
+    "wordIds": [
+      "10208"
+    ],
+    "sourceIndex": 208
+  },
+  {
     "id": "100219",
     "category": "time",
     "level": "medium",
@@ -545,6 +630,23 @@ const phrasesTime = [
     "sourceIndex": 219
   },
   {
+    "id": "100222",
+    "category": "time",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "A million people live in this city."
+      },
+      "de": {
+        "text": "Eine Million Menschen leben in dieser Stadt."
+      }
+    },
+    "wordIds": [
+      "10222"
+    ],
+    "sourceIndex": 222
+  },
+  {
     "id": "100248",
     "category": "time",
     "level": "easy",
@@ -560,6 +662,40 @@ const phrasesTime = [
       "10248"
     ],
     "sourceIndex": 248
+  },
+  {
+    "id": "100249",
+    "category": "time",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Ten percent of the population are students."
+      },
+      "de": {
+        "text": "Zehn Prozent der Bevölkerung sind Studenten."
+      }
+    },
+    "wordIds": [
+      "10249"
+    ],
+    "sourceIndex": 249
+  },
+  {
+    "id": "100259",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We are planning our future."
+      },
+      "de": {
+        "text": "Wir planen unsere Zukunft."
+      }
+    },
+    "wordIds": [
+      "10259"
+    ],
+    "sourceIndex": 259
   },
   {
     "id": "100267",
@@ -594,6 +730,23 @@ const phrasesTime = [
       "10292"
     ],
     "sourceIndex": 292
+  },
+  {
+    "id": "100301",
+    "category": "time",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I saw him yesterday."
+      },
+      "de": {
+        "text": "Ich habe ihn gestern gesehen."
+      }
+    },
+    "wordIds": [
+      "10301"
+    ],
+    "sourceIndex": 301
   },
   {
     "id": "100304",
@@ -681,6 +834,23 @@ const phrasesTime = [
     "sourceIndex": 324
   },
   {
+    "id": "100331",
+    "category": "time",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "In July we go on vacation."
+      },
+      "de": {
+        "text": "Im Juli fahren wir in den Urlaub."
+      }
+    },
+    "wordIds": [
+      "10331"
+    ],
+    "sourceIndex": 331
+  },
+  {
     "id": "100332",
     "category": "time",
     "level": "easy",
@@ -713,6 +883,23 @@ const phrasesTime = [
       "10335"
     ],
     "sourceIndex": 335
+  },
+  {
+    "id": "100343",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "They sang and danced simultaneously."
+      },
+      "de": {
+        "text": "Sie sangen und tanzten gleichzeitig."
+      }
+    },
+    "wordIds": [
+      "10343"
+    ],
+    "sourceIndex": 343
   },
   {
     "id": "100354",
@@ -817,6 +1004,23 @@ const phrasesTime = [
     "sourceIndex": 397
   },
   {
+    "id": "100402",
+    "category": "time",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "In January it is very cold."
+      },
+      "de": {
+        "text": "Im Januar ist es sehr kalt."
+      }
+    },
+    "wordIds": [
+      "10402"
+    ],
+    "sourceIndex": 402
+  },
+  {
     "id": "100407",
     "category": "time",
     "level": "hard",
@@ -851,6 +1055,23 @@ const phrasesTime = [
     "sourceIndex": 409
   },
   {
+    "id": "100413",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He visits his grandparents often."
+      },
+      "de": {
+        "text": "Er besucht seine Großeltern häufig."
+      }
+    },
+    "wordIds": [
+      "10413"
+    ],
+    "sourceIndex": 413
+  },
+  {
     "id": "100423",
     "category": "time",
     "level": "easy",
@@ -868,6 +1089,23 @@ const phrasesTime = [
     "sourceIndex": 423
   },
   {
+    "id": "100429",
+    "category": "time",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Can you please say that again?"
+      },
+      "de": {
+        "text": "Können Sie das bitte nochmal sagen?"
+      }
+    },
+    "wordIds": [
+      "10429"
+    ],
+    "sourceIndex": 429
+  },
+  {
     "id": "100436",
     "category": "time",
     "level": "easy",
@@ -883,6 +1121,23 @@ const phrasesTime = [
       "10436"
     ],
     "sourceIndex": 436
+  },
+  {
+    "id": "100448",
+    "category": "time",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "Please put a period at the end of the sentence."
+      },
+      "de": {
+        "text": "Bitte setzen Sie einen Punkt am Ende des Satzes."
+      }
+    },
+    "wordIds": [
+      "10448"
+    ],
+    "sourceIndex": 448
   },
   {
     "id": "100470",
@@ -970,6 +1225,23 @@ const phrasesTime = [
     "sourceIndex": 504
   },
   {
+    "id": "100510",
+    "category": "time",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The weekend was very relaxing."
+      },
+      "de": {
+        "text": "Das Wochenende war sehr entspannend."
+      }
+    },
+    "wordIds": [
+      "10510"
+    ],
+    "sourceIndex": 510
+  },
+  {
     "id": "100511",
     "category": "time",
     "level": "easy",
@@ -985,6 +1257,23 @@ const phrasesTime = [
       "10511"
     ],
     "sourceIndex": 511
+  },
+  {
+    "id": "100520",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I will never forget that."
+      },
+      "de": {
+        "text": "Ich werde das niemals vergessen."
+      }
+    },
+    "wordIds": [
+      "10520"
+    ],
+    "sourceIndex": 520
   },
   {
     "id": "100536",
@@ -1021,6 +1310,23 @@ const phrasesTime = [
     "sourceIndex": 539
   },
   {
+    "id": "100545",
+    "category": "time",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "On Saturday we go to the cinema."
+      },
+      "de": {
+        "text": "Am Samstag gehen wir ins Kino."
+      }
+    },
+    "wordIds": [
+      "10545"
+    ],
+    "sourceIndex": 545
+  },
+  {
     "id": "100555",
     "category": "time",
     "level": "medium",
@@ -1036,6 +1342,23 @@ const phrasesTime = [
       "10555"
     ],
     "sourceIndex": 555
+  },
+  {
+    "id": "100558",
+    "category": "time",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "In the end, everything was clear."
+      },
+      "de": {
+        "text": "Am Schluss war alles klar."
+      }
+    },
+    "wordIds": [
+      "10558"
+    ],
+    "sourceIndex": 558
   },
   {
     "id": "100562",
@@ -1055,6 +1378,23 @@ const phrasesTime = [
     "sourceIndex": 562
   },
   {
+    "id": "100565",
+    "category": "time",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The ruler is 30 cm long."
+      },
+      "de": {
+        "text": "Das Lineal ist 30 Cm lang."
+      }
+    },
+    "wordIds": [
+      "10565"
+    ],
+    "sourceIndex": 565
+  },
+  {
     "id": "100566",
     "category": "time",
     "level": "medium",
@@ -1072,6 +1412,40 @@ const phrasesTime = [
     "sourceIndex": 566
   },
   {
+    "id": "100568",
+    "category": "time",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "On Friday we go to the cinema."
+      },
+      "de": {
+        "text": "Am Freitag gehen wir ins Kino."
+      }
+    },
+    "wordIds": [
+      "10568"
+    ],
+    "sourceIndex": 568
+  },
+  {
+    "id": "100585",
+    "category": "time",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "What is your phone number?"
+      },
+      "de": {
+        "text": "Wie ist deine Telefonnummer?"
+      }
+    },
+    "wordIds": [
+      "10585"
+    ],
+    "sourceIndex": 585
+  },
+  {
     "id": "100594",
     "category": "time",
     "level": "easy",
@@ -1087,6 +1461,23 @@ const phrasesTime = [
       "10594"
     ],
     "sourceIndex": 594
+  },
+  {
+    "id": "100628",
+    "category": "time",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "On Monday, I have an appointment."
+      },
+      "de": {
+        "text": "Am Montag habe ich einen Termin."
+      }
+    },
+    "wordIds": [
+      "10628"
+    ],
+    "sourceIndex": 628
   },
   {
     "id": "100638",
@@ -1138,6 +1529,23 @@ const phrasesTime = [
       "10643"
     ],
     "sourceIndex": 643
+  },
+  {
+    "id": "100649",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Today's meeting was very productive."
+      },
+      "de": {
+        "text": "Die heutige Sitzung war sehr produktiv."
+      }
+    },
+    "wordIds": [
+      "10649"
+    ],
+    "sourceIndex": 649
   },
   {
     "id": "100673",
@@ -1276,6 +1684,23 @@ const phrasesTime = [
     "sourceIndex": 766
   },
   {
+    "id": "100778",
+    "category": "time",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "Please wait a second."
+      },
+      "de": {
+        "text": "Warte bitte eine Sekunde."
+      }
+    },
+    "wordIds": [
+      "10778"
+    ],
+    "sourceIndex": 778
+  },
+  {
     "id": "100786",
     "category": "time",
     "level": "easy",
@@ -1344,6 +1769,57 @@ const phrasesTime = [
     "sourceIndex": 853
   },
   {
+    "id": "100857",
+    "category": "time",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "In autumn, the leaves fall from the trees."
+      },
+      "de": {
+        "text": "Im Herbst fallen die Blätter von den Bäumen."
+      }
+    },
+    "wordIds": [
+      "10857"
+    ],
+    "sourceIndex": 857
+  },
+  {
+    "id": "100862",
+    "category": "time",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I need five more minutes."
+      },
+      "de": {
+        "text": "Ich brauche noch fünf Min."
+      }
+    },
+    "wordIds": [
+      "10862"
+    ],
+    "sourceIndex": 862
+  },
+  {
+    "id": "100890",
+    "category": "time",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I need 2 kg of apples."
+      },
+      "de": {
+        "text": "Ich brauche 2 Kg Äpfel."
+      }
+    },
+    "wordIds": [
+      "10890"
+    ],
+    "sourceIndex": 890
+  },
+  {
     "id": "100910",
     "category": "time",
     "level": "easy",
@@ -1395,6 +1871,40 @@ const phrasesTime = [
     "sourceIndex": 966
   },
   {
+    "id": "100967",
+    "category": "time",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "On Wednesday I have an appointment."
+      },
+      "de": {
+        "text": "Am Mittwoch habe ich einen Termin."
+      }
+    },
+    "wordIds": [
+      "10967"
+    ],
+    "sourceIndex": 967
+  },
+  {
+    "id": "100979",
+    "category": "time",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "How long will that take?"
+      },
+      "de": {
+        "text": "Wie lange wird das dauern?"
+      }
+    },
+    "wordIds": [
+      "10979"
+    ],
+    "sourceIndex": 979
+  },
+  {
     "id": "100997",
     "category": "time",
     "level": "hard",
@@ -1429,6 +1939,23 @@ const phrasesTime = [
     "sourceIndex": 1022
   },
   {
+    "id": "101026",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Last week I was sick."
+      },
+      "de": {
+        "text": "In der vergangenen Woche war ich krank."
+      }
+    },
+    "wordIds": [
+      "11026"
+    ],
+    "sourceIndex": 1026
+  },
+  {
     "id": "101038",
     "category": "time",
     "level": "easy",
@@ -1444,6 +1971,108 @@ const phrasesTime = [
       "11038"
     ],
     "sourceIndex": 1038
+  },
+  {
+    "id": "101039",
+    "category": "time",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The city has 1.5 million inhabitants."
+      },
+      "de": {
+        "text": "Die Stadt hat 1,5 Mio. Einwohner."
+      }
+    },
+    "wordIds": [
+      "11039"
+    ],
+    "sourceIndex": 1039
+  },
+  {
+    "id": "101051",
+    "category": "time",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "We meet on Thursday."
+      },
+      "de": {
+        "text": "Wir treffen uns am Donnerstag."
+      }
+    },
+    "wordIds": [
+      "11051"
+    ],
+    "sourceIndex": 1051
+  },
+  {
+    "id": "101073",
+    "category": "time",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "We are meeting on Tuesday."
+      },
+      "de": {
+        "text": "Wir treffen uns am Dienstag."
+      }
+    },
+    "wordIds": [
+      "11073"
+    ],
+    "sourceIndex": 1073
+  },
+  {
+    "id": "101079",
+    "category": "time",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The length of the table is two meters."
+      },
+      "de": {
+        "text": "Die Länge des Tisches beträgt zwei Meter."
+      }
+    },
+    "wordIds": [
+      "11079"
+    ],
+    "sourceIndex": 1079
+  },
+  {
+    "id": "101108",
+    "category": "time",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "Let's take a short break."
+      },
+      "de": {
+        "text": "Machen wir eine kurze Pause."
+      }
+    },
+    "wordIds": [
+      "11108"
+    ],
+    "sourceIndex": 1108
+  },
+  {
+    "id": "101112",
+    "category": "time",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We have to start now."
+      },
+      "de": {
+        "text": "Wir müssen jetzt starten."
+      }
+    },
+    "wordIds": [
+      "11112"
+    ],
+    "sourceIndex": 1112
   },
   {
     "id": "101145",
@@ -1497,6 +2126,23 @@ const phrasesTime = [
     "sourceIndex": 1199
   },
   {
+    "id": "101210",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The annual conference takes place in May."
+      },
+      "de": {
+        "text": "Die jährliche Konferenz findet im Mai statt."
+      }
+    },
+    "wordIds": [
+      "11210"
+    ],
+    "sourceIndex": 1210
+  },
+  {
     "id": "101212",
     "category": "time",
     "level": "hard",
@@ -1512,6 +2158,23 @@ const phrasesTime = [
       "11212"
     ],
     "sourceIndex": 1212
+  },
+  {
+    "id": "101214",
+    "category": "time",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I always drink coffee in the morning."
+      },
+      "de": {
+        "text": "Ich trinke morgens immer Kaffee."
+      }
+    },
+    "wordIds": [
+      "11214"
+    ],
+    "sourceIndex": 1214
   },
   {
     "id": "101215",
@@ -1582,6 +2245,23 @@ const phrasesTime = [
     "sourceIndex": 1252
   },
   {
+    "id": "101256",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The weight of the package is five kilograms."
+      },
+      "de": {
+        "text": "Das Gewicht des Pakets ist fünf Kilogramm."
+      }
+    },
+    "wordIds": [
+      "11256"
+    ],
+    "sourceIndex": 1256
+  },
+  {
     "id": "101263",
     "category": "time",
     "level": "hard",
@@ -1597,6 +2277,74 @@ const phrasesTime = [
       "11263"
     ],
     "sourceIndex": 1263
+  },
+  {
+    "id": "101290",
+    "category": "time",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "We meet in the afternoon."
+      },
+      "de": {
+        "text": "Wir treffen uns am Nachmittag."
+      }
+    },
+    "wordIds": [
+      "11290"
+    ],
+    "sourceIndex": 1290
+  },
+  {
+    "id": "101300",
+    "category": "time",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The film will end soon."
+      },
+      "de": {
+        "text": "Der Film wird bald enden."
+      }
+    },
+    "wordIds": [
+      "11300"
+    ],
+    "sourceIndex": 1300
+  },
+  {
+    "id": "101302",
+    "category": "time",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I received a nice gift."
+      },
+      "de": {
+        "text": "Ich habe ein schönes Geschenk bekommen."
+      }
+    },
+    "wordIds": [
+      "11302"
+    ],
+    "sourceIndex": 1302
+  },
+  {
+    "id": "101364",
+    "category": "time",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "There are a hundred people here."
+      },
+      "de": {
+        "text": "Es sind hundert Leute hier."
+      }
+    },
+    "wordIds": [
+      "11364"
+    ],
+    "sourceIndex": 1364
   },
   {
     "id": "101407",
@@ -1684,6 +2432,23 @@ const phrasesTime = [
     "sourceIndex": 1494
   },
   {
+    "id": "101508",
+    "category": "time",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "The book costs a thousand euros."
+      },
+      "de": {
+        "text": "Das Buch kostet tausend Euro."
+      }
+    },
+    "wordIds": [
+      "11508"
+    ],
+    "sourceIndex": 1508
+  },
+  {
     "id": "101511",
     "category": "time",
     "level": "hard",
@@ -1716,6 +2481,23 @@ const phrasesTime = [
       "11521"
     ],
     "sourceIndex": 1521
+  },
+  {
+    "id": "101528",
+    "category": "time",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Let's watch a movie."
+      },
+      "de": {
+        "text": "Lass uns einen Film gucken."
+      }
+    },
+    "wordIds": [
+      "11528"
+    ],
+    "sourceIndex": 1528
   },
   {
     "id": "101533",
@@ -1767,6 +2549,23 @@ const phrasesTime = [
       "11546"
     ],
     "sourceIndex": 1546
+  },
+  {
+    "id": "101551",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "In spring, the flowers bloom."
+      },
+      "de": {
+        "text": "Im Frühjahr blühen die Blumen."
+      }
+    },
+    "wordIds": [
+      "11551"
+    ],
+    "sourceIndex": 1551
   },
   {
     "id": "101552",
@@ -1837,6 +2636,23 @@ const phrasesTime = [
     "sourceIndex": 1625
   },
   {
+    "id": "101654",
+    "category": "time",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "We want to watch the movie."
+      },
+      "de": {
+        "text": "Wir wollen uns den Film anschauen."
+      }
+    },
+    "wordIds": [
+      "11654"
+    ],
+    "sourceIndex": 1654
+  },
+  {
     "id": "101672",
     "category": "time",
     "level": "hard",
@@ -1888,6 +2704,40 @@ const phrasesTime = [
     "sourceIndex": 1714
   },
   {
+    "id": "101728",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Could you please explain that once more?"
+      },
+      "de": {
+        "text": "Könnten Sie das bitte nochmals erklären?"
+      }
+    },
+    "wordIds": [
+      "11728"
+    ],
+    "sourceIndex": 1728
+  },
+  {
+    "id": "101760",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "You can call me at any time."
+      },
+      "de": {
+        "text": "Sie können mich jederzeit anrufen."
+      }
+    },
+    "wordIds": [
+      "11760"
+    ],
+    "sourceIndex": 1760
+  },
+  {
     "id": "101866",
     "category": "time",
     "level": "hard",
@@ -1905,6 +2755,23 @@ const phrasesTime = [
     "sourceIndex": 1866
   },
   {
+    "id": "101942",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We have to be at the station in time."
+      },
+      "de": {
+        "text": "Wir müssen rechtzeitig am Bahnhof sein."
+      }
+    },
+    "wordIds": [
+      "11942"
+    ],
+    "sourceIndex": 1942
+  },
+  {
     "id": "102005",
     "category": "time",
     "level": "hard",
@@ -1920,6 +2787,23 @@ const phrasesTime = [
       "12005"
     ],
     "sourceIndex": 2005
+  },
+  {
+    "id": "102036",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We will meet soon."
+      },
+      "de": {
+        "text": "Wir werden uns demnächst treffen."
+      }
+    },
+    "wordIds": [
+      "12036"
+    ],
+    "sourceIndex": 2036
   },
   {
     "id": "102041",
@@ -1973,6 +2857,23 @@ const phrasesTime = [
     "sourceIndex": 2068
   },
   {
+    "id": "102194",
+    "category": "time",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I want to give you a book."
+      },
+      "de": {
+        "text": "Ich möchte dir ein Buch schenken."
+      }
+    },
+    "wordIds": [
+      "12194"
+    ],
+    "sourceIndex": 2194
+  },
+  {
     "id": "102225",
     "category": "time",
     "level": "hard",
@@ -2022,6 +2923,23 @@ const phrasesTime = [
       "12244"
     ],
     "sourceIndex": 2244
+  },
+  {
+    "id": "102249",
+    "category": "time",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "We eat lunch at twelve o'clock."
+      },
+      "de": {
+        "text": "Wir essen zu Mittag um zwölf Uhr."
+      }
+    },
+    "wordIds": [
+      "12249"
+    ],
+    "sourceIndex": 2249
   },
   {
     "id": "102273",
@@ -2143,6 +3061,23 @@ const phrasesTime = [
     "sourceIndex": 2440
   },
   {
+    "id": "102457",
+    "category": "time",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "He is always punctual for work."
+      },
+      "de": {
+        "text": "Er ist immer pünktlich zur Arbeit."
+      }
+    },
+    "wordIds": [
+      "12457"
+    ],
+    "sourceIndex": 2457
+  },
+  {
     "id": "102465",
     "category": "time",
     "level": "hard",
@@ -2175,6 +3110,23 @@ const phrasesTime = [
       "12475"
     ],
     "sourceIndex": 2475
+  },
+  {
+    "id": "102520",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I saw him a moment ago."
+      },
+      "de": {
+        "text": "Ich habe ihn vorhin gesehen."
+      }
+    },
+    "wordIds": [
+      "12520"
+    ],
+    "sourceIndex": 2520
   },
   {
     "id": "102525",
@@ -2211,6 +3163,23 @@ const phrasesTime = [
     "sourceIndex": 2547
   },
   {
+    "id": "102600",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I met him recently."
+      },
+      "de": {
+        "text": "Ich habe ihn neulich getroffen."
+      }
+    },
+    "wordIds": [
+      "12600"
+    ],
+    "sourceIndex": 2600
+  },
+  {
     "id": "102748",
     "category": "time",
     "level": "hard",
@@ -2243,6 +3212,57 @@ const phrasesTime = [
       "12815"
     ],
     "sourceIndex": 2815
+  },
+  {
+    "id": "102842",
+    "category": "time",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The calendar hangs on the wall."
+      },
+      "de": {
+        "text": "Der Kalender hängt an der Wand."
+      }
+    },
+    "wordIds": [
+      "12842"
+    ],
+    "sourceIndex": 2842
+  },
+  {
+    "id": "102860",
+    "category": "time",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Have you ever been to Berlin?"
+      },
+      "de": {
+        "text": "Warst du schonmal in Berlin?"
+      }
+    },
+    "wordIds": [
+      "12860"
+    ],
+    "sourceIndex": 2860
+  },
+  {
+    "id": "102892",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The rent is to be paid monthly."
+      },
+      "de": {
+        "text": "Die Miete ist monatlich zu zahlen."
+      }
+    },
+    "wordIds": [
+      "12892"
+    ],
+    "sourceIndex": 2892
   },
   {
     "id": "102915",
@@ -2551,6 +3571,40 @@ const phrasesTime = [
     "sourceIndex": 3617
   },
   {
+    "id": "103624",
+    "category": "time",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "We meet in the morning."
+      },
+      "de": {
+        "text": "Wir treffen uns am Vormittag."
+      }
+    },
+    "wordIds": [
+      "13624"
+    ],
+    "sourceIndex": 3624
+  },
+  {
+    "id": "103725",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The long march was exhausting."
+      },
+      "de": {
+        "text": "Der lange Marsch war anstrengend."
+      }
+    },
+    "wordIds": [
+      "13725"
+    ],
+    "sourceIndex": 3725
+  },
+  {
     "id": "103762",
     "category": "time",
     "level": "medium",
@@ -2566,6 +3620,23 @@ const phrasesTime = [
       "13762"
     ],
     "sourceIndex": 3762
+  },
+  {
+    "id": "103778",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We should depart early."
+      },
+      "de": {
+        "text": "Wir sollten frühzeitig abreisen."
+      }
+    },
+    "wordIds": [
+      "13778"
+    ],
+    "sourceIndex": 3778
   },
   {
     "id": "103813",
@@ -2704,6 +3775,23 @@ const phrasesTime = [
     "sourceIndex": 3952
   },
   {
+    "id": "103954",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We meet weekly."
+      },
+      "de": {
+        "text": "Wir treffen uns wöchentlich."
+      }
+    },
+    "wordIds": [
+      "13954"
+    ],
+    "sourceIndex": 3954
+  },
+  {
     "id": "103987",
     "category": "time",
     "level": "easy",
@@ -2738,6 +3826,57 @@ const phrasesTime = [
     "sourceIndex": 3988
   },
   {
+    "id": "103993",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The figures for the first quarter are good."
+      },
+      "de": {
+        "text": "Die Zahlen für das erste Quartal sind gut."
+      }
+    },
+    "wordIds": [
+      "13993"
+    ],
+    "sourceIndex": 3993
+  },
+  {
+    "id": "104003",
+    "category": "time",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "Can you please tell me the time?"
+      },
+      "de": {
+        "text": "Kannst du mir bitte die Uhrzeit sagen?"
+      }
+    },
+    "wordIds": [
+      "14003"
+    ],
+    "sourceIndex": 4003
+  },
+  {
+    "id": "104013",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I will watch you cook."
+      },
+      "de": {
+        "text": "Ich werde dir beim Kochen zusehen."
+      }
+    },
+    "wordIds": [
+      "14013"
+    ],
+    "sourceIndex": 4013
+  },
+  {
     "id": "104140",
     "category": "time",
     "level": "hard",
@@ -2770,6 +3909,23 @@ const phrasesTime = [
       "14290"
     ],
     "sourceIndex": 4290
+  },
+  {
+    "id": "104347",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We waited for hours."
+      },
+      "de": {
+        "text": "Wir haben stundenlang gewartet."
+      }
+    },
+    "wordIds": [
+      "14347"
+    ],
+    "sourceIndex": 4347
   },
   {
     "id": "104361",
@@ -2942,6 +4098,23 @@ const phrasesTime = [
     "sourceIndex": 4574
   },
   {
+    "id": "104673",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Yesterday's meeting was very productive."
+      },
+      "de": {
+        "text": "Die gestrige Sitzung war sehr produktiv."
+      }
+    },
+    "wordIds": [
+      "14673"
+    ],
+    "sourceIndex": 4673
+  },
+  {
     "id": "104674",
     "category": "time",
     "level": "medium",
@@ -3095,6 +4268,23 @@ const phrasesTime = [
     "sourceIndex": 4796
   },
   {
+    "id": "104813",
+    "category": "time",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The opening hours are from 9 AM to 6 PM."
+      },
+      "de": {
+        "text": "Die Öffnungszeiten sind von 9 bis 18 Uhr."
+      }
+    },
+    "wordIds": [
+      "14813"
+    ],
+    "sourceIndex": 4813
+  },
+  {
     "id": "104836",
     "category": "time",
     "level": "easy",
@@ -3229,6 +4419,23 @@ const phrasesTime = [
       "15012"
     ],
     "sourceIndex": 5012
+  },
+  {
+    "id": "105029",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The children came into the door one after another."
+      },
+      "de": {
+        "text": "Die Kinder kamen nacheinander zur Tür herein."
+      }
+    },
+    "wordIds": [
+      "15029"
+    ],
+    "sourceIndex": 5029
   },
   {
     "id": "105052",
@@ -3384,6 +4591,23 @@ const phrasesTime = [
     "sourceIndex": 5242
   },
   {
+    "id": "105280",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The first half-year was very successful."
+      },
+      "de": {
+        "text": "Das erste Halbjahr war sehr erfolgreich."
+      }
+    },
+    "wordIds": [
+      "15280"
+    ],
+    "sourceIndex": 5280
+  },
+  {
     "id": "105291",
     "category": "time",
     "level": "hard",
@@ -3467,6 +4691,23 @@ const phrasesTime = [
       "15425"
     ],
     "sourceIndex": 5425
+  },
+  {
+    "id": "105427",
+    "category": "time",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "Do you want to watch me cook?"
+      },
+      "de": {
+        "text": "Möchtest du mir beim Kochen zuschauen?"
+      }
+    },
+    "wordIds": [
+      "15427"
+    ],
+    "sourceIndex": 5427
   },
   {
     "id": "105456",
@@ -3637,6 +4878,23 @@ const phrasesTime = [
       "15774"
     ],
     "sourceIndex": 5774
+  },
+  {
+    "id": "105875",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The waiting time in the doctor's office was very long."
+      },
+      "de": {
+        "text": "Die Wartezeit in der Arztpraxis war sehr lang."
+      }
+    },
+    "wordIds": [
+      "15875"
+    ],
+    "sourceIndex": 5875
   },
   {
     "id": "105888",
@@ -4047,6 +5305,23 @@ const phrasesTime = [
     "sourceIndex": 6890
   },
   {
+    "id": "106901",
+    "category": "time",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "I need one and a half hours to drive there."
+      },
+      "de": {
+        "text": "Ich brauche eineinhalb Stunden, um dorthin zu fahren."
+      }
+    },
+    "wordIds": [
+      "16901"
+    ],
+    "sourceIndex": 6901
+  },
+  {
     "id": "106917",
     "category": "time",
     "level": "medium",
@@ -4149,6 +5424,23 @@ const phrasesTime = [
     "sourceIndex": 7198
   },
   {
+    "id": "107304",
+    "category": "time",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I need two and a half hours to drive there."
+      },
+      "de": {
+        "text": "Ich brauche zweieinhalb Stunden, um dorthin zu fahren."
+      }
+    },
+    "wordIds": [
+      "17304"
+    ],
+    "sourceIndex": 7304
+  },
+  {
     "id": "107358",
     "category": "time",
     "level": "hard",
@@ -4198,6 +5490,40 @@ const phrasesTime = [
       "17484"
     ],
     "sourceIndex": 7484
+  },
+  {
+    "id": "107511",
+    "category": "time",
+    "level": "easy",
+    "translations": {
+      "en": {
+        "text": "On Saturday we go to the cinema."
+      },
+      "de": {
+        "text": "Am Sonnabend gehen wir ins Kino."
+      }
+    },
+    "wordIds": [
+      "17511"
+    ],
+    "sourceIndex": 7511
+  },
+  {
+    "id": "107534",
+    "category": "time",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I work in the morning."
+      },
+      "de": {
+        "text": "Ich arbeite vormittags."
+      }
+    },
+    "wordIds": [
+      "17534"
+    ],
+    "sourceIndex": 7534
   },
   {
     "id": "107586",
@@ -4370,6 +5696,23 @@ const phrasesTime = [
     "sourceIndex": 8095
   },
   {
+    "id": "108125",
+    "category": "time",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "On Valentine's Day, many people give each other flowers."
+      },
+      "de": {
+        "text": "Am Valentinstag schenken sich viele Leute Blumen."
+      }
+    },
+    "wordIds": [
+      "18125"
+    ],
+    "sourceIndex": 8125
+  },
+  {
     "id": "108132",
     "category": "time",
     "level": "hard",
@@ -4436,6 +5779,23 @@ const phrasesTime = [
       "18254"
     ],
     "sourceIndex": 8254
+  },
+  {
+    "id": "108293",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Every parent has rights and duties."
+      },
+      "de": {
+        "text": "Jedes Elternteil hat Rechte und Pflichten."
+      }
+    },
+    "wordIds": [
+      "18293"
+    ],
+    "sourceIndex": 8293
   },
   {
     "id": "108317",
@@ -4538,6 +5898,23 @@ const phrasesTime = [
       "18474"
     ],
     "sourceIndex": 8474
+  },
+  {
+    "id": "108498",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "On the eve of the wedding, everyone was excited."
+      },
+      "de": {
+        "text": "Am Vorabend der Hochzeit waren alle aufgeregt."
+      }
+    },
+    "wordIds": [
+      "18498"
+    ],
+    "sourceIndex": 8498
   },
   {
     "id": "108511",
@@ -4778,6 +6155,23 @@ const phrasesTime = [
     "sourceIndex": 8967
   },
   {
+    "id": "108988",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "One fifth of the population lives in poverty."
+      },
+      "de": {
+        "text": "Ein Fünftel der Bevölkerung lebt in Armut."
+      }
+    },
+    "wordIds": [
+      "18988"
+    ],
+    "sourceIndex": 8988
+  },
+  {
     "id": "109029",
     "category": "time",
     "level": "hard",
@@ -4895,6 +6289,40 @@ const phrasesTime = [
       "19233"
     ],
     "sourceIndex": 9233
+  },
+  {
+    "id": "109394",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We are working under great time pressure."
+      },
+      "de": {
+        "text": "Wir arbeiten unter großem Zeitdruck."
+      }
+    },
+    "wordIds": [
+      "19394"
+    ],
+    "sourceIndex": 9394
+  },
+  {
+    "id": "109395",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The time span for the project is very short."
+      },
+      "de": {
+        "text": "Die Zeitspanne für das Projekt ist sehr kurz."
+      }
+    },
+    "wordIds": [
+      "19395"
+    ],
+    "sourceIndex": 9395
   },
   {
     "id": "109405",
@@ -5390,6 +6818,23 @@ const phrasesTime = [
     "sourceIndex": 10719
   },
   {
+    "id": "110726",
+    "category": "time",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "On Sunday morning, I like to sleep in."
+      },
+      "de": {
+        "text": "Am Sonntagmorgen schlafe ich gerne lange."
+      }
+    },
+    "wordIds": [
+      "20726"
+    ],
+    "sourceIndex": 10726
+  },
+  {
     "id": "110741",
     "category": "time",
     "level": "hard",
@@ -5405,6 +6850,23 @@ const phrasesTime = [
       "20741"
     ],
     "sourceIndex": 10741
+  },
+  {
+    "id": "110784",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "I wish you a speedy recovery."
+      },
+      "de": {
+        "text": "Ich wünsche Ihnen eine baldige Genesung."
+      }
+    },
+    "wordIds": [
+      "20784"
+    ],
+    "sourceIndex": 10784
   },
   {
     "id": "110895",
@@ -5509,6 +6971,23 @@ const phrasesTime = [
     "sourceIndex": 11090
   },
   {
+    "id": "111118",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "This is the penultimate page of the book."
+      },
+      "de": {
+        "text": "Das ist die vorletzte Seite des Buches."
+      }
+    },
+    "wordIds": [
+      "21118"
+    ],
+    "sourceIndex": 11118
+  },
+  {
     "id": "111125",
     "category": "time",
     "level": "hard",
@@ -5524,6 +7003,23 @@ const phrasesTime = [
       "21125"
     ],
     "sourceIndex": 11125
+  },
+  {
+    "id": "111168",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The average age of the population is rising."
+      },
+      "de": {
+        "text": "Das Durchschnittsalter der Bevölkerung steigt."
+      }
+    },
+    "wordIds": [
+      "21168"
+    ],
+    "sourceIndex": 11168
   },
   {
     "id": "111198",
@@ -5575,6 +7071,23 @@ const phrasesTime = [
       "21231"
     ],
     "sourceIndex": 11231
+  },
+  {
+    "id": "111242",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The arrival time is 2 PM local time."
+      },
+      "de": {
+        "text": "Die Ankunftszeit ist 14 Uhr Ortszeit."
+      }
+    },
+    "wordIds": [
+      "21242"
+    ],
+    "sourceIndex": 11242
   },
   {
     "id": "111376",
@@ -5645,6 +7158,23 @@ const phrasesTime = [
     "sourceIndex": 11518
   },
   {
+    "id": "111542",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "This is an annual plant."
+      },
+      "de": {
+        "text": "Das ist eine einjährige Pflanze."
+      }
+    },
+    "wordIds": [
+      "21542"
+    ],
+    "sourceIndex": 11542
+  },
+  {
     "id": "111558",
     "category": "time",
     "level": "hard",
@@ -5696,6 +7226,23 @@ const phrasesTime = [
     "sourceIndex": 11633
   },
   {
+    "id": "111668",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "She signed a two-year contract."
+      },
+      "de": {
+        "text": "Sie hat einen zweijährigen Vertrag unterschrieben."
+      }
+    },
+    "wordIds": [
+      "21668"
+    ],
+    "sourceIndex": 11668
+  },
+  {
     "id": "111683",
     "category": "time",
     "level": "hard",
@@ -5728,6 +7275,23 @@ const phrasesTime = [
       "21704"
     ],
     "sourceIndex": 11704
+  },
+  {
+    "id": "111852",
+    "category": "time",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "The children love their Advent calendar."
+      },
+      "de": {
+        "text": "Die Kinder lieben ihren Adventskalender."
+      }
+    },
+    "wordIds": [
+      "21852"
+    ],
+    "sourceIndex": 11852
   },
   {
     "id": "111881",
@@ -6017,6 +7581,23 @@ const phrasesTime = [
       "22556"
     ],
     "sourceIndex": 12556
+  },
+  {
+    "id": "112557",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The number of participants for the course is limited."
+      },
+      "de": {
+        "text": "Die Teilnehmerzahl für den Kurs ist begrenzt."
+      }
+    },
+    "wordIds": [
+      "22557"
+    ],
+    "sourceIndex": 12557
   },
   {
     "id": "112582",
@@ -6359,6 +7940,23 @@ const phrasesTime = [
     "sourceIndex": 13322
   },
   {
+    "id": "113453",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Please enter the year."
+      },
+      "de": {
+        "text": "Bitte geben Sie die Jahreszahl ein."
+      }
+    },
+    "wordIds": [
+      "23453"
+    ],
+    "sourceIndex": 13453
+  },
+  {
     "id": "113499",
     "category": "time",
     "level": "hard",
@@ -6478,6 +8076,23 @@ const phrasesTime = [
     "sourceIndex": 13898
   },
   {
+    "id": "113900",
+    "category": "time",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "On Saturday morning, I like to sleep in."
+      },
+      "de": {
+        "text": "Am Samstagmorgen schlafe ich gerne lange."
+      }
+    },
+    "wordIds": [
+      "23900"
+    ],
+    "sourceIndex": 13900
+  },
+  {
     "id": "113945",
     "category": "time",
     "level": "hard",
@@ -6544,6 +8159,23 @@ const phrasesTime = [
       "24157"
     ],
     "sourceIndex": 14157
+  },
+  {
+    "id": "114372",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We want to give presents to the children for Christmas."
+      },
+      "de": {
+        "text": "Wir wollen die Kinder zu Weihnachten beschenken."
+      }
+    },
+    "wordIds": [
+      "24372"
+    ],
+    "sourceIndex": 14372
   },
   {
     "id": "114433",
@@ -6663,6 +8295,40 @@ const phrasesTime = [
       "24671"
     ],
     "sourceIndex": 14671
+  },
+  {
+    "id": "114679",
+    "category": "time",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "At the end of the month, we receive our salary."
+      },
+      "de": {
+        "text": "Am Monatsende erhalten wir unser Gehalt."
+      }
+    },
+    "wordIds": [
+      "24679"
+    ],
+    "sourceIndex": 14679
+  },
+  {
+    "id": "114729",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "My study period was a very formative phase."
+      },
+      "de": {
+        "text": "Meine Studienzeit war eine sehr prägende Phase."
+      }
+    },
+    "wordIds": [
+      "24729"
+    ],
+    "sourceIndex": 14729
   },
   {
     "id": "114765",
@@ -6971,6 +8637,23 @@ const phrasesTime = [
     "sourceIndex": 15303
   },
   {
+    "id": "115308",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The age plays a role."
+      },
+      "de": {
+        "text": "Das Lebensalter spielt eine Rolle."
+      }
+    },
+    "wordIds": [
+      "25308"
+    ],
+    "sourceIndex": 15308
+  },
+  {
     "id": "115336",
     "category": "time",
     "level": "hard",
@@ -7003,6 +8686,23 @@ const phrasesTime = [
       "25358"
     ],
     "sourceIndex": 15358
+  },
+  {
+    "id": "115392",
+    "category": "time",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I like to watch you cook."
+      },
+      "de": {
+        "text": "Ich gucke dir gerne beim Kochen zu."
+      }
+    },
+    "wordIds": [
+      "25392"
+    ],
+    "sourceIndex": 15392
   },
   {
     "id": "115394",
@@ -7192,6 +8892,23 @@ const phrasesTime = [
     "sourceIndex": 15909
   },
   {
+    "id": "116052",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Berlin is the second largest city in Germany."
+      },
+      "de": {
+        "text": "Berlin ist die zweitgrösste Stadt Deutschlands."
+      }
+    },
+    "wordIds": [
+      "26052"
+    ],
+    "sourceIndex": 16052
+  },
+  {
     "id": "116054",
     "category": "time",
     "level": "medium",
@@ -7275,6 +8992,40 @@ const phrasesTime = [
       "26303"
     ],
     "sourceIndex": 16303
+  },
+  {
+    "id": "116305",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "He is the second best player on the team."
+      },
+      "de": {
+        "text": "Er ist der zweitbeste Spieler im Team."
+      }
+    },
+    "wordIds": [
+      "26305"
+    ],
+    "sourceIndex": 16305
+  },
+  {
+    "id": "116422",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The first half-year was very successful."
+      },
+      "de": {
+        "text": "Die erste Jahreshälfte war sehr erfolgreich."
+      }
+    },
+    "wordIds": [
+      "26422"
+    ],
+    "sourceIndex": 16422
   },
   {
     "id": "116502",
@@ -7379,6 +9130,23 @@ const phrasesTime = [
     "sourceIndex": 17000
   },
   {
+    "id": "117010",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The topic of the day in the news was the economic crisis."
+      },
+      "de": {
+        "text": "Das Tagesthema in den Nachrichten war die Wirtschaftskrise."
+      }
+    },
+    "wordIds": [
+      "27010"
+    ],
+    "sourceIndex": 17010
+  },
+  {
     "id": "117172",
     "category": "time",
     "level": "medium",
@@ -7411,6 +9179,23 @@ const phrasesTime = [
       "27221"
     ],
     "sourceIndex": 17221
+  },
+  {
+    "id": "117254",
+    "category": "time",
+    "level": "medium",
+    "translations": {
+      "en": {
+        "text": "I have heard the song seven times."
+      },
+      "de": {
+        "text": "Ich habe das Lied siebenmal gehört."
+      }
+    },
+    "wordIds": [
+      "27254"
+    ],
+    "sourceIndex": 17254
   },
   {
     "id": "117290",
@@ -7481,6 +9266,23 @@ const phrasesTime = [
     "sourceIndex": 17518
   },
   {
+    "id": "117749",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The night watchman made his rounds through the city."
+      },
+      "de": {
+        "text": "Der Nachtwächter machte seine Runde durch die Stadt."
+      }
+    },
+    "wordIds": [
+      "27749"
+    ],
+    "sourceIndex": 17749
+  },
+  {
     "id": "117864",
     "category": "time",
     "level": "medium",
@@ -7496,6 +9298,40 @@ const phrasesTime = [
       "27864"
     ],
     "sourceIndex": 17864
+  },
+  {
+    "id": "117866",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "One eighth of the cake is left."
+      },
+      "de": {
+        "text": "Ein Achtel des Kuchens ist übrig."
+      }
+    },
+    "wordIds": [
+      "27866"
+    ],
+    "sourceIndex": 17866
+  },
+  {
+    "id": "117903",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "That is a three-dimensional model."
+      },
+      "de": {
+        "text": "Das ist ein dreidimensionales Modell."
+      }
+    },
+    "wordIds": [
+      "27903"
+    ],
+    "sourceIndex": 17903
   },
   {
     "id": "118035",
@@ -7685,6 +9521,23 @@ const phrasesTime = [
     "sourceIndex": 18826
   },
   {
+    "id": "118867",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We'll meet the week after next."
+      },
+      "de": {
+        "text": "Wir treffen uns übernächste Woche."
+      }
+    },
+    "wordIds": [
+      "28867"
+    ],
+    "sourceIndex": 18867
+  },
+  {
     "id": "118875",
     "category": "time",
     "level": "medium",
@@ -7787,6 +9640,40 @@ const phrasesTime = [
     "sourceIndex": 19095
   },
   {
+    "id": "119111",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "Every runner received a starting number."
+      },
+      "de": {
+        "text": "Jeder Läufer erhielt eine Startnummer."
+      }
+    },
+    "wordIds": [
+      "29111"
+    ],
+    "sourceIndex": 19111
+  },
+  {
+    "id": "119153",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "We need more preparation time for the project."
+      },
+      "de": {
+        "text": "Wir brauchen mehr Vorbereitungszeit für das Projekt."
+      }
+    },
+    "wordIds": [
+      "29153"
+    ],
+    "sourceIndex": 19153
+  },
+  {
     "id": "119168",
     "category": "time",
     "level": "medium",
@@ -7870,6 +9757,40 @@ const phrasesTime = [
       "29336"
     ],
     "sourceIndex": 19336
+  },
+  {
+    "id": "119442",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The decision was premature."
+      },
+      "de": {
+        "text": "Die Entscheidung war verfrüht."
+      }
+    },
+    "wordIds": [
+      "29442"
+    ],
+    "sourceIndex": 19442
+  },
+  {
+    "id": "119455",
+    "category": "time",
+    "level": "hard",
+    "translations": {
+      "en": {
+        "text": "The previous week was very exhausting."
+      },
+      "de": {
+        "text": "Die Vorwoche war sehr anstrengend."
+      }
+    },
+    "wordIds": [
+      "29455"
+    ],
+    "sourceIndex": 19455
   },
   {
     "id": "119504",
