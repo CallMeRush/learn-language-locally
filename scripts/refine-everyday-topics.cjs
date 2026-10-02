@@ -1,32 +1,38 @@
-// Explicit German-headword decisions, applied only to the broad daily topic.
-// Run once after reviewing changes; importing remains reproducible from assignments.
+/* Conservatively split high-confidence entries from the broad daily category.
+   The assignments remain the source of truth; use --check in CI. */
 const fs = require('node:fs');
 const path = require('node:path');
-const file = path.join(__dirname, '../data/import/assignments.json');
-const data = JSON.parse(fs.readFileSync(file, 'utf8'));
-const groups = {
-  communication: 'erklären bestätigen schicken mitteilen berichten antworten fragen erzählen diskutieren behaupten erwähnen beschreiben versprechen bitten danken begrüßen verabschieden Kommentar Aussage Mail Hinweis Tipp Adresse Forum Blog Medium Media Kritik Thema Titel',
-  education: 'wissen erkennen entdecken entscheiden wählen lösen verstehen lernen lehren üben prüfen vergleichen zählen Buch Beispiel Idee Vergleich Entscheidung Ahnung Erfahrung Wahrheit Liste Fakt Kategorie Übersicht Abschnitt',
-  travel: 'gehen kommen bringen holen verlassen erreichen folgen fallen ziehen treten bewegen laufen reisen fahren fliegen Richtung Meter Kilometer Km Osten Westen West Nord Ost Abstand Brücke Fahrzeug Schritt Bewegung',
-  house: 'legen stellen hängen stecken öffnen schließen aufräumen putzen reinigen waschen Fenster Ordnung Glas Ecke Material',
-  feelings: 'gefallen interessieren erwarten hoffen fürchten lieben hassen fühlen träumen Interesse Eindruck Vorstellung Reaktion Schuld Streit',
-  health: 'verletzen leiden heilen atmen sterben leben Operation Praxis Temperatur Kraft',
-  work: 'gründen leisten unterstützen fördern durchführen eröffnen leiten verwalten organisieren planen einstellen kündigen Wirtschaft Leiter Führung Bedarf Antrag Förderung Experte Besitzer Fischer',
-  shopping: 'besitzen kaufen verkaufen bezahlen bestellen kosten liefern Preis Ausgabe Angebot Rechnung Zahlung',
-  culture: 'feiern spielen gewinnen verlieren trainieren Mannschaft Meister Party Publikum Training Geschichte Serie Runde',
-  people: 'helfen gehören treffen heiraten Dame Oma Amerikaner Unterstützung Hilfe',
-  city: 'Gemeinde Park Zugang Gesellschaft Frieden Gewalt Strafe',
-  nature: 'Feuer Schatten Schwanz Gas',
-  technology: 'funktionieren aufnehmen Strom Sendung Anzeige',
-  time: 'beginnen anfangen starten enden aufhören warten Ende Anfang Beginn Schluss Start Pause Phase Prozent Menge Hälfte Cm Kg Länge Höhe Gewicht Einheit',
+
+const root = path.resolve(__dirname, '..');
+const assignmentPath = path.join(root, 'data/import/assignments.json');
+const deck = JSON.parse(fs.readFileSync(path.join(root, 'dictionaries/sources/german-deck.json'), 'utf8'));
+const assignments = JSON.parse(fs.readFileSync(assignmentPath, 'utf8'));
+const words = (text) => new Set(String(text).toLowerCase().match(/[a-z]+/g) || []);
+const has = (tokens, list) => list.some(word => tokens.has(word));
+const functionParts = new Set(['pronoun', 'adverb', 'conjunction', 'interjection', 'numeral']);
+const terms = {
+  'public-services': ['authority', 'official', 'document', 'permit', 'license', 'licence', 'registration', 'register', 'insurance', 'tax', 'postal', 'parcel', 'package', 'repair', 'appointment'],
+  'daily-routines': ['routine', 'wake', 'awake', 'asleep', 'shower', 'laundry', 'tidy', 'household', 'undress', 'breakfast'],
+  'abstract-ideas': ['thing', 'fact', 'idea', 'reason', 'purpose', 'kind', 'type', 'example', 'case', 'point', 'whole', 'result', 'effect', 'cause', 'condition', 'situation', 'difference', 'possibility', 'chance', 'quality', 'meaning', 'truth'],
 };
-const mapping = new Map(Object.entries(groups).flatMap(([topic, words]) => words.split(' ').map(word => [word, topic])));
-let count = 0;
-for (const entry of data.entries) {
-  if (entry.topic !== 'daily' || !['noun','verb'].includes(entry.pos) || !mapping.has(entry.word)) continue;
-  entry.topic = mapping.get(entry.word);
-  entry.topicMethod = 'editorial';
-  count++;
+function topicFor(entry) {
+  if (functionParts.has(entry.pos)) return 'function-words';
+  const tokens = words(entry.english || deck[entry.sourceIndex].english_translation);
+  for (const topic of ['public-services', 'daily-routines', 'abstract-ideas']) if (has(tokens, terms[topic])) return topic;
+  return 'daily';
 }
-fs.writeFileSync(file, JSON.stringify(data, null, 2) + '\n');
-console.log(`Refined ${count} everyday noun/verb assignments; IDs and sentence topics unchanged.`);
+let changed = 0;
+for (const entry of assignments.entries) {
+  if (entry.status !== 'include' || !['daily', 'function-words', 'public-services', 'daily-routines', 'abstract-ideas'].includes(entry.topic)) continue;
+  const topic = topicFor(entry);
+  if (entry.topic !== topic || (topic !== 'daily' && entry.topicMethod !== 'everyday-refinement')) changed++;
+  entry.topic = topic;
+  if (topic !== 'daily') entry.topicMethod = 'everyday-refinement';
+}
+const text = JSON.stringify(assignments, null, 2) + '\n';
+if (process.argv.includes('--check')) {
+  if (fs.readFileSync(assignmentPath, 'utf8') !== text) throw Error('Everyday topic assignments differ; rerun node scripts/refine-everyday-topics.cjs');
+} else fs.writeFileSync(assignmentPath, text);
+const counts = {};
+for (const entry of assignments.entries) if (entry.status === 'include' && ['daily', 'function-words', 'public-services', 'daily-routines', 'abstract-ideas'].includes(entry.topic)) counts[entry.topic] = (counts[entry.topic] || 0) + 1;
+console.log(JSON.stringify({ changed, counts }, null, 2));

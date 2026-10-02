@@ -5,6 +5,15 @@ const contentManifest = {
     "phrases": 9124
   },
   "vocabulary": {
+    "abstract-ideas": {
+      "src": "data/vocabulary/abstract-ideas.js",
+      "count": 28,
+      "levels": {
+        "A1": 1,
+        "A2": 5,
+        "B1": 22
+      }
+    },
     "adjectives": {
       "src": "data/vocabulary/adjectives.js",
       "count": 1320,
@@ -50,13 +59,22 @@ const contentManifest = {
         "B1": 362
       }
     },
+    "daily-routines": {
+      "src": "data/vocabulary/daily-routines.js",
+      "count": 5,
+      "levels": {
+        "A1": 0,
+        "A2": 0,
+        "B1": 5
+      }
+    },
     "daily": {
       "src": "data/vocabulary/daily.js",
-      "count": 2651,
+      "count": 2326,
       "levels": {
-        "A1": 92,
-        "A2": 532,
-        "B1": 2027
+        "A1": 46,
+        "A2": 471,
+        "B1": 1809
       }
     },
     "education": {
@@ -93,6 +111,15 @@ const contentManifest = {
         "A1": 63,
         "A2": 134,
         "B1": 81
+      }
+    },
+    "function-words": {
+      "src": "data/vocabulary/function-words.js",
+      "count": 273,
+      "levels": {
+        "A1": 44,
+        "A2": 52,
+        "B1": 177
       }
     },
     "greetings": {
@@ -138,6 +165,15 @@ const contentManifest = {
         "A1": 40,
         "A2": 63,
         "B1": 149
+      }
+    },
+    "public-services": {
+      "src": "data/vocabulary/public-services.js",
+      "count": 19,
+      "levels": {
+        "A1": 1,
+        "A2": 4,
+        "B1": 14
       }
     },
     "shopping": {

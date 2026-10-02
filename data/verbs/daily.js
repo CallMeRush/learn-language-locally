@@ -515,7 +515,7 @@ const verbDaily = [
     "id": "10764",
     "level": "B1",
     "pos": "verb",
-    "topic": "daily",
+    "topic": "abstract-ideas",
     "translations": {
       "en": {
         "text": "to act / to seem / to have an effect"
@@ -695,7 +695,7 @@ const verbDaily = [
     "id": "10881",
     "level": "A2",
     "pos": "verb",
-    "topic": "daily",
+    "topic": "public-services",
     "translations": {
       "en": {
         "text": "to allow / to permit"
@@ -2543,7 +2543,7 @@ const verbDaily = [
     "id": "12233",
     "level": "B1",
     "pos": "verb",
-    "topic": "daily",
+    "topic": "abstract-ideas",
     "translations": {
       "en": {
         "text": "to prepare / to cause"
@@ -2889,7 +2889,7 @@ const verbDaily = [
     "id": "12476",
     "level": "B1",
     "pos": "verb",
-    "topic": "daily",
+    "topic": "abstract-ideas",
     "translations": {
       "en": {
         "text": "To trigger / to cause / to release"
@@ -3175,7 +3175,7 @@ const verbDaily = [
     "id": "12740",
     "level": "B1",
     "pos": "verb",
-    "topic": "daily",
+    "topic": "abstract-ideas",
     "translations": {
       "en": {
         "text": "to point out / to indicate"
@@ -3735,7 +3735,7 @@ const verbDaily = [
     "id": "13123",
     "level": "A2",
     "pos": "verb",
-    "topic": "daily",
+    "topic": "public-services",
     "translations": {
       "en": {
         "text": "to register"
@@ -3881,7 +3881,7 @@ const verbDaily = [
     "id": "13228",
     "level": "B1",
     "pos": "verb",
-    "topic": "daily",
+    "topic": "public-services",
     "translations": {
       "en": {
         "text": "to enter / to register"
@@ -4377,7 +4377,7 @@ const verbDaily = [
     "id": "13704",
     "level": "B1",
     "pos": "verb",
-    "topic": "daily",
+    "topic": "abstract-ideas",
     "translations": {
       "en": {
         "text": "to interpret / to indicate / to point"
@@ -4393,7 +4393,7 @@ const verbDaily = [
     "id": "13712",
     "level": "B1",
     "pos": "verb",
-    "topic": "daily",
+    "topic": "public-services",
     "translations": {
       "en": {
         "text": "allow / permit"
@@ -4605,7 +4605,7 @@ const verbDaily = [
     "id": "13952",
     "level": "A2",
     "pos": "verb",
-    "topic": "daily",
+    "topic": "daily-routines",
     "translations": {
       "en": {
         "text": "to wake (someone)"
@@ -4941,7 +4941,7 @@ const verbDaily = [
     "id": "14290",
     "level": "A1",
     "pos": "verb",
-    "topic": "daily",
+    "topic": "daily-routines",
     "translations": {
       "en": {
         "text": "to wake up"
@@ -5351,7 +5351,7 @@ const verbDaily = [
     "id": "14697",
     "level": "A2",
     "pos": "verb",
-    "topic": "daily",
+    "topic": "public-services",
     "translations": {
       "en": {
         "text": "to repair"
@@ -6275,7 +6275,7 @@ const verbDaily = [
     "id": "15533",
     "level": "A2",
     "pos": "verb",
-    "topic": "daily",
+    "topic": "daily-routines",
     "translations": {
       "en": {
         "text": "to fall asleep"
@@ -6917,7 +6917,7 @@ const verbDaily = [
     "id": "16105",
     "level": "B1",
     "pos": "verb",
-    "topic": "daily",
+    "topic": "daily-routines",
     "translations": {
       "en": {
         "text": "to awaken / to wake up"
@@ -9519,7 +9519,7 @@ const verbDaily = [
     "id": "19296",
     "level": "B1",
     "pos": "verb",
-    "topic": "daily",
+    "topic": "abstract-ideas",
     "translations": {
       "en": {
         "text": "to donate / to found / to cause"
@@ -10683,7 +10683,7 @@ const verbDaily = [
     "id": "20994",
     "level": "B1",
     "pos": "verb",
-    "topic": "daily",
+    "topic": "public-services",
     "translations": {
       "en": {
         "text": "to register / to enroll / to send by registered mail"

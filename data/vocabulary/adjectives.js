@@ -83,7 +83,7 @@ const vocabularyAdjectives = [
     "id": "10027",
     "level": "A1",
     "pos": "adjective",
-    "topic": "daily",
+    "topic": "abstract-ideas",
     "translations": {
       "en": {
         "text": "whole / entire / quite"
@@ -629,7 +629,7 @@ const vocabularyAdjectives = [
     "id": "10185",
     "level": "A2",
     "pos": "adjective",
-    "topic": "daily",
+    "topic": "abstract-ideas",
     "translations": {
       "en": {
         "text": "dear / kind"
@@ -2326,7 +2326,7 @@ const vocabularyAdjectives = [
     "id": "10945",
     "level": "A1",
     "pos": "adjective",
-    "topic": "daily",
+    "topic": "abstract-ideas",
     "translations": {
       "en": {
         "text": "nice / kind"
@@ -2519,7 +2519,7 @@ const vocabularyAdjectives = [
     "id": "11040",
     "level": "B1",
     "pos": "adjective",
-    "topic": "daily",
+    "topic": "public-services",
     "translations": {
       "en": {
         "text": "official"
@@ -3159,7 +3159,7 @@ const vocabularyAdjectives = [
     "id": "11410",
     "level": "B1",
     "pos": "adjective",
-    "topic": "daily",
+    "topic": "abstract-ideas",
     "translations": {
       "en": {
         "text": "by chance"
@@ -3431,7 +3431,7 @@ const vocabularyAdjectives = [
     "id": "11603",
     "level": "B1",
     "pos": "adjective",
-    "topic": "daily",
+    "topic": "daily-routines",
     "translations": {
       "en": {
         "text": "tidy / orderly / considerable"
@@ -3463,7 +3463,7 @@ const vocabularyAdjectives = [
     "id": "11614",
     "level": "A2",
     "pos": "adjective",
-    "topic": "daily",
+    "topic": "daily-routines",
     "translations": {
       "en": {
         "text": "awake"
@@ -3607,7 +3607,7 @@ const vocabularyAdjectives = [
     "id": "11663",
     "level": "A1",
     "pos": "adjective",
-    "topic": "daily",
+    "topic": "abstract-ideas",
     "translations": {
       "en": {
         "text": "friendly / kind"
@@ -4823,7 +4823,7 @@ const vocabularyAdjectives = [
     "id": "12328",
     "level": "B1",
     "pos": "adjective",
-    "topic": "daily",
+    "topic": "abstract-ideas",
     "translations": {
       "en": {
         "text": "whole / intact"
@@ -9243,7 +9243,7 @@ const vocabularyAdjectives = [
     "id": "15295",
     "level": "B1",
     "pos": "adjective",
-    "topic": "daily",
+    "topic": "daily-routines",
     "translations": {
       "en": {
         "text": "cheerful / lively / awake"
@@ -10299,7 +10299,7 @@ const vocabularyAdjectives = [
     "id": "16380",
     "level": "B1",
     "pos": "adjective",
-    "topic": "daily",
+    "topic": "public-services",
     "translations": {
       "en": {
         "text": "official / authoritative"
@@ -10363,7 +10363,7 @@ const vocabularyAdjectives = [
     "id": "16410",
     "level": "B1",
     "pos": "adjective",
-    "topic": "daily",
+    "topic": "daily-routines",
     "translations": {
       "en": {
         "text": "ordered / arranged / tidy"
@@ -11515,7 +11515,7 @@ const vocabularyAdjectives = [
     "id": "17598",
     "level": "B1",
     "pos": "adjective",
-    "topic": "daily",
+    "topic": "abstract-ideas",
     "translations": {
       "en": {
         "text": "groundless / baseless / without reason"
@@ -13724,7 +13724,7 @@ const vocabularyAdjectives = [
     "id": "19929",
     "level": "B1",
     "pos": "adjective",
-    "topic": "daily",
+    "topic": "public-services",
     "translations": {
       "en": {
         "text": "official"
@@ -16844,7 +16844,7 @@ const vocabularyAdjectives = [
     "id": "23451",
     "level": "B1",
     "pos": "adjective",
-    "topic": "daily",
+    "topic": "public-services",
     "translations": {
       "en": {
         "text": "in good repair / functional"
@@ -17404,7 +17404,7 @@ const vocabularyAdjectives = [
     "id": "24238",
     "level": "B1",
     "pos": "adjective",
-    "topic": "daily",
+    "topic": "daily-routines",
     "translations": {
       "en": {
         "text": "wide awake"
@@ -20494,7 +20494,7 @@ const vocabularyAdjectives = [
     "id": "29222",
     "level": "B1",
     "pos": "adjective",
-    "topic": "daily",
+    "topic": "public-services",
     "translations": {
       "en": {
         "text": "official / for business"

@@ -20,6 +20,16 @@ const categoryRecords = [
     "studyOrder": 9999999
   },
   {
+    "id": "abstract-ideas",
+    "type": "category",
+    "localized": {
+      "en": {
+        "label": "Ideas & concepts"
+      }
+    },
+    "studyOrder": 2752192
+  },
+  {
     "id": "adjectives",
     "type": "category",
     "localized": {
@@ -70,6 +80,16 @@ const categoryRecords = [
     "studyOrder": 2697536
   },
   {
+    "id": "daily-routines",
+    "type": "category",
+    "localized": {
+      "en": {
+        "label": "Daily routines"
+      }
+    },
+    "studyOrder": 3025989
+  },
+  {
     "id": "daily",
     "type": "category",
     "localized": {
@@ -77,7 +97,7 @@ const categoryRecords = [
         "label": "General & everyday life"
       }
     },
-    "studyOrder": 2741923
+    "studyOrder": 2771077
   },
   {
     "id": "education",
@@ -118,6 +138,16 @@ const categoryRecords = [
       }
     },
     "studyOrder": 2076895
+  },
+  {
+    "id": "function-words",
+    "type": "category",
+    "localized": {
+      "en": {
+        "label": "Function words"
+      }
+    },
+    "studyOrder": 2489051
   },
   {
     "id": "greetings",
@@ -168,6 +198,16 @@ const categoryRecords = [
       }
     },
     "studyOrder": 2440751
+  },
+  {
+    "id": "public-services",
+    "type": "category",
+    "localized": {
+      "en": {
+        "label": "Services & paperwork"
+      }
+    },
+    "studyOrder": 2690893
   },
   {
     "id": "shopping",

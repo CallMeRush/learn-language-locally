@@ -26,4 +26,5 @@ browser application.
 - `import-deck.cjs` rebuilds browser content from the pinned deck and explicit assignments.
 - `audit-deck.cjs` cross-checks included singular noun genders against the noun reference.
 - `audit-translations.cjs` produces a human-review queue from independent German Wiktionary senses; it never changes learning data automatically.
+- `refine-everyday-topics.cjs` conservatively moves high-confidence daily entries into smaller learner-facing topics; `--check` verifies its explicit assignment decisions.
 - `smoke-test.cjs` exercises the static app in Chromium.
