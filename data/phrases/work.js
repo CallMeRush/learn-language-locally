@@ -14,6 +14,10 @@ const phrasesWork = [
     "wordIds": [
       "10041"
     ],
+    "cloze": {
+      "de": "dort",
+      "en": "there"
+    },
     "sourceIndex": 41
   },
   {
@@ -31,6 +35,10 @@ const phrasesWork = [
     "wordIds": [
       "10083"
     ],
+    "cloze": {
+      "de": "Teil",
+      "en": "part"
+    },
     "sourceIndex": 83
   },
   {
@@ -48,6 +56,10 @@ const phrasesWork = [
     "wordIds": [
       "10090"
     ],
+    "cloze": {
+      "de": "Arbeit",
+      "en": "work"
+    },
     "sourceIndex": 90
   },
   {
@@ -65,6 +77,10 @@ const phrasesWork = [
     "wordIds": [
       "10107"
     ],
+    "cloze": {
+      "de": "allerdings",
+      "en": "however"
+    },
     "sourceIndex": 107
   },
   {
@@ -82,6 +98,10 @@ const phrasesWork = [
     "wordIds": [
       "10138"
     ],
+    "cloze": {
+      "de": "arbeite",
+      "en": "work"
+    },
     "sourceIndex": 138
   },
   {
@@ -99,6 +119,10 @@ const phrasesWork = [
     "wordIds": [
       "10152"
     ],
+    "cloze": {
+      "de": "Unternehmen",
+      "en": "company"
+    },
     "sourceIndex": 152
   },
   {
@@ -116,6 +140,10 @@ const phrasesWork = [
     "wordIds": [
       "10201"
     ],
+    "cloze": {
+      "de": "schwer",
+      "en": "difficult"
+    },
     "sourceIndex": 201
   },
   {
@@ -133,6 +161,10 @@ const phrasesWork = [
     "wordIds": [
       "10224"
     ],
+    "cloze": {
+      "de": "treffen",
+      "en": "meeting"
+    },
     "sourceIndex": 224
   },
   {
@@ -150,6 +182,10 @@ const phrasesWork = [
     "wordIds": [
       "10232"
     ],
+    "cloze": {
+      "de": "leicht",
+      "en": "easy"
+    },
     "sourceIndex": 232
   },
   {
@@ -167,6 +203,10 @@ const phrasesWork = [
     "wordIds": [
       "10252"
     ],
+    "cloze": {
+      "de": "Stelle",
+      "en": "job"
+    },
     "sourceIndex": 252
   },
   {
@@ -184,6 +224,10 @@ const phrasesWork = [
     "wordIds": [
       "10276"
     ],
+    "cloze": {
+      "de": "führen",
+      "en": "lead"
+    },
     "sourceIndex": 276
   },
   {
@@ -201,6 +245,10 @@ const phrasesWork = [
     "wordIds": [
       "10285"
     ],
+    "cloze": {
+      "de": "Erfolg",
+      "en": "success"
+    },
     "sourceIndex": 285
   },
   {
@@ -218,6 +266,10 @@ const phrasesWork = [
     "wordIds": [
       "10297"
     ],
+    "cloze": {
+      "de": "Rolle",
+      "en": "role"
+    },
     "sourceIndex": 297
   },
   {
@@ -235,6 +287,10 @@ const phrasesWork = [
     "wordIds": [
       "10330"
     ],
+    "cloze": {
+      "de": "gemeinsam",
+      "en": "together"
+    },
     "sourceIndex": 330
   },
   {
@@ -252,6 +308,10 @@ const phrasesWork = [
     "wordIds": [
       "10336"
     ],
+    "cloze": {
+      "de": "schaffen",
+      "en": "manage"
+    },
     "sourceIndex": 336
   },
   {
@@ -269,6 +329,10 @@ const phrasesWork = [
     "wordIds": [
       "10339"
     ],
+    "cloze": {
+      "de": "versuchen",
+      "en": "try"
+    },
     "sourceIndex": 339
   },
   {
@@ -286,6 +350,10 @@ const phrasesWork = [
     "wordIds": [
       "10352"
     ],
+    "cloze": {
+      "de": "Job",
+      "en": "job"
+    },
     "sourceIndex": 352
   },
   {
@@ -303,6 +371,10 @@ const phrasesWork = [
     "wordIds": [
       "10362"
     ],
+    "cloze": {
+      "de": "Mitarbeiter",
+      "en": "employee"
+    },
     "sourceIndex": 362
   },
   {
@@ -320,6 +392,10 @@ const phrasesWork = [
     "wordIds": [
       "10365"
     ],
+    "cloze": {
+      "de": "Zumindest",
+      "en": "At"
+    },
     "sourceIndex": 365
   },
   {
@@ -337,6 +413,10 @@ const phrasesWork = [
     "wordIds": [
       "10400"
     ],
+    "cloze": {
+      "de": "Gemeinde",
+      "en": "community"
+    },
     "sourceIndex": 400
   },
   {
@@ -354,6 +434,10 @@ const phrasesWork = [
     "wordIds": [
       "10411"
     ],
+    "cloze": {
+      "de": "fertig",
+      "en": "finished"
+    },
     "sourceIndex": 411
   },
   {
@@ -371,6 +455,10 @@ const phrasesWork = [
     "wordIds": [
       "10439"
     ],
+    "cloze": {
+      "de": "Wirtschaft",
+      "en": "economy"
+    },
     "sourceIndex": 439
   },
   {
@@ -388,6 +476,10 @@ const phrasesWork = [
     "wordIds": [
       "10442"
     ],
+    "cloze": {
+      "de": "Firma",
+      "en": "company"
+    },
     "sourceIndex": 442
   },
   {
@@ -405,6 +497,10 @@ const phrasesWork = [
     "wordIds": [
       "10452"
     ],
+    "cloze": {
+      "de": "verwenden",
+      "en": "use"
+    },
     "sourceIndex": 452
   },
   {
@@ -422,6 +518,10 @@ const phrasesWork = [
     "wordIds": [
       "10497"
     ],
+    "cloze": {
+      "de": "Projekt",
+      "en": "project"
+    },
     "sourceIndex": 497
   },
   {
@@ -439,6 +539,10 @@ const phrasesWork = [
     "wordIds": [
       "10514"
     ],
+    "cloze": {
+      "de": "dritte",
+      "en": "third"
+    },
     "sourceIndex": 514
   },
   {
@@ -456,6 +560,10 @@ const phrasesWork = [
     "wordIds": [
       "10550"
     ],
+    "cloze": {
+      "de": "Aufgabe",
+      "en": "task"
+    },
     "sourceIndex": 550
   },
   {
@@ -473,6 +581,10 @@ const phrasesWork = [
     "wordIds": [
       "10552"
     ],
+    "cloze": {
+      "de": "Chef",
+      "en": "boss"
+    },
     "sourceIndex": 552
   },
   {
@@ -490,6 +602,10 @@ const phrasesWork = [
     "wordIds": [
       "10584"
     ],
+    "cloze": {
+      "de": "gründen",
+      "en": "found"
+    },
     "sourceIndex": 584
   },
   {
@@ -507,6 +623,10 @@ const phrasesWork = [
     "wordIds": [
       "10603"
     ],
+    "cloze": {
+      "de": "Post",
+      "en": "mail"
+    },
     "sourceIndex": 603
   },
   {
@@ -524,6 +644,10 @@ const phrasesWork = [
     "wordIds": [
       "10606"
     ],
+    "cloze": {
+      "de": "Werk",
+      "en": "factory"
+    },
     "sourceIndex": 606
   },
   {
@@ -541,6 +665,10 @@ const phrasesWork = [
     "wordIds": [
       "10617"
     ],
+    "cloze": {
+      "de": "Zeichen",
+      "en": "sign"
+    },
     "sourceIndex": 617
   },
   {
@@ -558,6 +686,10 @@ const phrasesWork = [
     "wordIds": [
       "10622"
     ],
+    "cloze": {
+      "de": "erfolgreiche",
+      "en": "successful"
+    },
     "sourceIndex": 622
   },
   {
@@ -575,6 +707,10 @@ const phrasesWork = [
     "wordIds": [
       "10629"
     ],
+    "cloze": {
+      "de": "Plan",
+      "en": "plan"
+    },
     "sourceIndex": 629
   },
   {
@@ -592,6 +728,10 @@ const phrasesWork = [
     "wordIds": [
       "10631"
     ],
+    "cloze": {
+      "de": "Versuch",
+      "en": "attempt"
+    },
     "sourceIndex": 631
   },
   {
@@ -609,6 +749,10 @@ const phrasesWork = [
     "wordIds": [
       "10632"
     ],
+    "cloze": {
+      "de": "Vertrag",
+      "en": "contract"
+    },
     "sourceIndex": 632
   },
   {
@@ -626,6 +770,10 @@ const phrasesWork = [
     "wordIds": [
       "10657"
     ],
+    "cloze": {
+      "de": "unterstützen",
+      "en": "support"
+    },
     "sourceIndex": 657
   },
   {
@@ -643,6 +791,10 @@ const phrasesWork = [
     "wordIds": [
       "10670"
     ],
+    "cloze": {
+      "de": "Position",
+      "en": "position"
+    },
     "sourceIndex": 670
   },
   {
@@ -660,6 +812,10 @@ const phrasesWork = [
     "wordIds": [
       "10680"
     ],
+    "cloze": {
+      "de": "Kollege",
+      "en": "colleague"
+    },
     "sourceIndex": 680
   },
   {
@@ -677,6 +833,10 @@ const phrasesWork = [
     "wordIds": [
       "10691"
     ],
+    "cloze": {
+      "de": "Amt",
+      "en": "office"
+    },
     "sourceIndex": 691
   },
   {
@@ -694,6 +854,10 @@ const phrasesWork = [
     "wordIds": [
       "10725"
     ],
+    "cloze": {
+      "de": "Trainer",
+      "en": "coach"
+    },
     "sourceIndex": 725
   },
   {
@@ -711,6 +875,10 @@ const phrasesWork = [
     "wordIds": [
       "10730"
     ],
+    "cloze": {
+      "de": "Basis",
+      "en": "basis"
+    },
     "sourceIndex": 730
   },
   {
@@ -728,6 +896,10 @@ const phrasesWork = [
     "wordIds": [
       "10731"
     ],
+    "cloze": {
+      "de": "beschäftigt",
+      "en": "employs"
+    },
     "sourceIndex": 731
   },
   {
@@ -745,6 +917,10 @@ const phrasesWork = [
     "wordIds": [
       "10780"
     ],
+    "cloze": {
+      "de": "verantwortlich",
+      "en": "responsible"
+    },
     "sourceIndex": 780
   },
   {
@@ -762,6 +938,10 @@ const phrasesWork = [
     "wordIds": [
       "10792"
     ],
+    "cloze": {
+      "de": "Prozess",
+      "en": "process"
+    },
     "sourceIndex": 792
   },
   {
@@ -779,6 +959,10 @@ const phrasesWork = [
     "wordIds": [
       "10800"
     ],
+    "cloze": {
+      "de": "Dienst",
+      "en": "on"
+    },
     "sourceIndex": 800
   },
   {
@@ -796,6 +980,10 @@ const phrasesWork = [
     "wordIds": [
       "10810"
     ],
+    "cloze": {
+      "de": "Interview",
+      "en": "interview"
+    },
     "sourceIndex": 810
   },
   {
@@ -813,6 +1001,10 @@ const phrasesWork = [
     "wordIds": [
       "10848"
     ],
+    "cloze": {
+      "de": "Auftrag",
+      "en": "assignment"
+    },
     "sourceIndex": 848
   },
   {
@@ -830,6 +1022,10 @@ const phrasesWork = [
     "wordIds": [
       "10879"
     ],
+    "cloze": {
+      "de": "Büro",
+      "en": "office"
+    },
     "sourceIndex": 879
   },
   {
@@ -847,6 +1043,10 @@ const phrasesWork = [
     "wordIds": [
       "10883"
     ],
+    "cloze": {
+      "de": "Führung",
+      "en": "tour"
+    },
     "sourceIndex": 883
   },
   {
@@ -864,6 +1064,10 @@ const phrasesWork = [
     "wordIds": [
       "10888"
     ],
+    "cloze": {
+      "de": "Industrie",
+      "en": "Industry"
+    },
     "sourceIndex": 888
   },
   {
@@ -881,6 +1085,10 @@ const phrasesWork = [
     "wordIds": [
       "10891"
     ],
+    "cloze": {
+      "de": "Leitung",
+      "en": "management"
+    },
     "sourceIndex": 891
   },
   {
@@ -898,6 +1106,10 @@ const phrasesWork = [
     "wordIds": [
       "10908"
     ],
+    "cloze": {
+      "de": "Leiter",
+      "en": "head"
+    },
     "sourceIndex": 908
   },
   {
@@ -915,6 +1127,10 @@ const phrasesWork = [
     "wordIds": [
       "10936"
     ],
+    "cloze": {
+      "de": "übernehmen",
+      "en": "take"
+    },
     "sourceIndex": 936
   },
   {
@@ -932,6 +1148,10 @@ const phrasesWork = [
     "wordIds": [
       "10940"
     ],
+    "cloze": {
+      "de": "planen",
+      "en": "plan"
+    },
     "sourceIndex": 940
   },
   {
@@ -949,6 +1169,10 @@ const phrasesWork = [
     "wordIds": [
       "10941"
     ],
+    "cloze": {
+      "de": "Grundlage",
+      "en": "basis"
+    },
     "sourceIndex": 941
   },
   {
@@ -966,6 +1190,10 @@ const phrasesWork = [
     "wordIds": [
       "10942"
     ],
+    "cloze": {
+      "de": "Karriere",
+      "en": "career"
+    },
     "sourceIndex": 942
   },
   {
@@ -983,6 +1211,10 @@ const phrasesWork = [
     "wordIds": [
       "10944"
     ],
+    "cloze": {
+      "de": "Material",
+      "en": "material"
+    },
     "sourceIndex": 944
   },
   {
@@ -1000,6 +1232,10 @@ const phrasesWork = [
     "wordIds": [
       "10971"
     ],
+    "cloze": {
+      "de": "schwierig",
+      "en": "difficult"
+    },
     "sourceIndex": 971
   },
   {
@@ -1017,6 +1253,10 @@ const phrasesWork = [
     "wordIds": [
       "10993"
     ],
+    "cloze": {
+      "de": "Produktion",
+      "en": "production"
+    },
     "sourceIndex": 993
   },
   {
@@ -1034,6 +1274,10 @@ const phrasesWork = [
     "wordIds": [
       "11006"
     ],
+    "cloze": {
+      "de": "Bedarf",
+      "en": "need"
+    },
     "sourceIndex": 1006
   },
   {
@@ -1051,6 +1295,10 @@ const phrasesWork = [
     "wordIds": [
       "11007"
     ],
+    "cloze": {
+      "de": "Bedingung",
+      "en": "condition"
+    },
     "sourceIndex": 1007
   },
   {
@@ -1068,6 +1316,10 @@ const phrasesWork = [
     "wordIds": [
       "11012"
     ],
+    "cloze": {
+      "de": "eröffnen",
+      "en": "open"
+    },
     "sourceIndex": 1012
   },
   {
@@ -1085,6 +1337,10 @@ const phrasesWork = [
     "wordIds": [
       "11030"
     ],
+    "cloze": {
+      "de": "Beruf",
+      "en": "profession"
+    },
     "sourceIndex": 1030
   },
   {
@@ -1102,6 +1358,10 @@ const phrasesWork = [
     "wordIds": [
       "11052"
     ],
+    "cloze": {
+      "de": "durchführen",
+      "en": "conduct"
+    },
     "sourceIndex": 1052
   },
   {
@@ -1119,6 +1379,10 @@ const phrasesWork = [
     "wordIds": [
       "11077"
     ],
+    "cloze": {
+      "de": "Kommission",
+      "en": "commission"
+    },
     "sourceIndex": 1077
   },
   {
@@ -1136,6 +1400,10 @@ const phrasesWork = [
     "wordIds": [
       "11102"
     ],
+    "cloze": {
+      "de": "Gewinn",
+      "en": "profit"
+    },
     "sourceIndex": 1102
   },
   {
@@ -1153,6 +1421,10 @@ const phrasesWork = [
     "wordIds": [
       "11115"
     ],
+    "cloze": {
+      "de": "Haupttätigkeit",
+      "en": "activity"
+    },
     "sourceIndex": 1115
   },
   {
@@ -1170,6 +1442,10 @@ const phrasesWork = [
     "wordIds": [
       "11127"
     ],
+    "cloze": {
+      "de": "Antrag",
+      "en": "application"
+    },
     "sourceIndex": 1127
   },
   {
@@ -1187,6 +1463,10 @@ const phrasesWork = [
     "wordIds": [
       "11151"
     ],
+    "cloze": {
+      "de": "beteiligen",
+      "en": "participate"
+    },
     "sourceIndex": 1151
   },
   {
@@ -1204,6 +1484,10 @@ const phrasesWork = [
     "wordIds": [
       "11153"
     ],
+    "cloze": {
+      "de": "erfüllen",
+      "en": "meet"
+    },
     "sourceIndex": 1153
   },
   {
@@ -1221,6 +1505,10 @@ const phrasesWork = [
     "wordIds": [
       "11155"
     ],
+    "cloze": {
+      "de": "Förderung",
+      "en": "support"
+    },
     "sourceIndex": 1155
   },
   {
@@ -1238,6 +1526,10 @@ const phrasesWork = [
     "wordIds": [
       "11168"
     ],
+    "cloze": {
+      "de": "Service",
+      "en": "service"
+    },
     "sourceIndex": 1168
   },
   {
@@ -1255,6 +1547,10 @@ const phrasesWork = [
     "wordIds": [
       "11194"
     ],
+    "cloze": {
+      "de": "Termin",
+      "en": "appointment"
+    },
     "sourceIndex": 1194
   },
   {
@@ -1272,6 +1568,10 @@ const phrasesWork = [
     "wordIds": [
       "11203"
     ],
+    "cloze": {
+      "de": "Einrichtung",
+      "en": "furnishing"
+    },
     "sourceIndex": 1203
   },
   {
@@ -1289,6 +1589,10 @@ const phrasesWork = [
     "wordIds": [
       "11206"
     ],
+    "cloze": {
+      "de": "Experte",
+      "en": "expert"
+    },
     "sourceIndex": 1206
   },
   {
@@ -1306,6 +1610,10 @@ const phrasesWork = [
     "wordIds": [
       "11219"
     ],
+    "cloze": {
+      "de": "Posten",
+      "en": "position"
+    },
     "sourceIndex": 1219
   },
   {
@@ -1323,6 +1631,10 @@ const phrasesWork = [
     "wordIds": [
       "11257"
     ],
+    "cloze": {
+      "de": "Hersteller",
+      "en": "manufacturer"
+    },
     "sourceIndex": 1257
   },
   {
@@ -1340,6 +1652,10 @@ const phrasesWork = [
     "wordIds": [
       "11276"
     ],
+    "cloze": {
+      "de": "Marketing-Abteilung",
+      "en": "department"
+    },
     "sourceIndex": 1276
   },
   {
@@ -1357,6 +1673,10 @@ const phrasesWork = [
     "wordIds": [
       "11292"
     ],
+    "cloze": {
+      "de": "Pflicht",
+      "en": "duty"
+    },
     "sourceIndex": 1292
   },
   {
@@ -1374,6 +1694,10 @@ const phrasesWork = [
     "wordIds": [
       "11306"
     ],
+    "cloze": {
+      "de": "Manager",
+      "en": "manager"
+    },
     "sourceIndex": 1306
   },
   {
@@ -1391,6 +1715,10 @@ const phrasesWork = [
     "wordIds": [
       "11308"
     ],
+    "cloze": {
+      "de": "Mühe",
+      "en": "effort"
+    },
     "sourceIndex": 1308
   },
   {
@@ -1408,6 +1736,10 @@ const phrasesWork = [
     "wordIds": [
       "11311"
     ],
+    "cloze": {
+      "de": "Rang",
+      "en": "rank"
+    },
     "sourceIndex": 1311
   },
   {
@@ -1425,6 +1757,10 @@ const phrasesWork = [
     "wordIds": [
       "11341"
     ],
+    "cloze": {
+      "de": "Phase",
+      "en": "phase"
+    },
     "sourceIndex": 1341
   },
   {
@@ -1442,6 +1778,10 @@ const phrasesWork = [
     "wordIds": [
       "11345"
     ],
+    "cloze": {
+      "de": "womit",
+      "en": "with"
+    },
     "sourceIndex": 1345
   },
   {
@@ -1459,6 +1799,10 @@ const phrasesWork = [
     "wordIds": [
       "11371"
     ],
+    "cloze": {
+      "de": "Personal",
+      "en": "staff"
+    },
     "sourceIndex": 1371
   },
   {
@@ -1476,6 +1820,10 @@ const phrasesWork = [
     "wordIds": [
       "11375"
     ],
+    "cloze": {
+      "de": "Schwierigkeiten",
+      "en": "difficulties"
+    },
     "sourceIndex": 1375
   },
   {
@@ -1493,6 +1841,10 @@ const phrasesWork = [
     "wordIds": [
       "11395"
     ],
+    "cloze": {
+      "de": "her",
+      "en": "manufactures"
+    },
     "sourceIndex": 1395
   },
   {
@@ -1510,6 +1862,10 @@ const phrasesWork = [
     "wordIds": [
       "11404"
     ],
+    "cloze": {
+      "de": "Status",
+      "en": "status"
+    },
     "sourceIndex": 1404
   },
   {
@@ -1527,6 +1883,10 @@ const phrasesWork = [
     "wordIds": [
       "11408"
     ],
+    "cloze": {
+      "de": "verteilen",
+      "en": "distribute"
+    },
     "sourceIndex": 1408
   },
   {
@@ -1544,6 +1904,10 @@ const phrasesWork = [
     "wordIds": [
       "11461"
     ],
+    "cloze": {
+      "de": "Planung",
+      "en": "planning"
+    },
     "sourceIndex": 1461
   },
   {
@@ -1561,6 +1925,10 @@ const phrasesWork = [
     "wordIds": [
       "11467"
     ],
+    "cloze": {
+      "de": "Unternehmer",
+      "en": "entrepreneur"
+    },
     "sourceIndex": 1467
   },
   {
@@ -1578,6 +1946,10 @@ const phrasesWork = [
     "wordIds": [
       "11477"
     ],
+    "cloze": {
+      "de": "Änderung",
+      "en": "change"
+    },
     "sourceIndex": 1477
   },
   {
@@ -1595,6 +1967,10 @@ const phrasesWork = [
     "wordIds": [
       "11478"
     ],
+    "cloze": {
+      "de": "Übersicht",
+      "en": "overview"
+    },
     "sourceIndex": 1478
   },
   {
@@ -1612,6 +1988,10 @@ const phrasesWork = [
     "wordIds": [
       "11479"
     ],
+    "cloze": {
+      "de": "Arbeitgeber",
+      "en": "employer"
+    },
     "sourceIndex": 1479
   },
   {
@@ -1629,6 +2009,10 @@ const phrasesWork = [
     "wordIds": [
       "11489"
     ],
+    "cloze": {
+      "de": "Feuerwehr",
+      "en": "fire"
+    },
     "sourceIndex": 1489
   },
   {
@@ -1646,6 +2030,10 @@ const phrasesWork = [
     "wordIds": [
       "11516"
     ],
+    "cloze": {
+      "de": "Arbeiter",
+      "en": "worker"
+    },
     "sourceIndex": 1516
   },
   {
@@ -1664,6 +2052,10 @@ const phrasesWork = [
       "11537",
       "12735"
     ],
+    "cloze": {
+      "de": "produziert",
+      "en": "produces"
+    },
     "sourceIndex": 1537
   },
   {
@@ -1681,6 +2073,10 @@ const phrasesWork = [
     "wordIds": [
       "11540"
     ],
+    "cloze": {
+      "de": "Stellung",
+      "en": "a"
+    },
     "sourceIndex": 1540
   },
   {
@@ -1698,6 +2094,10 @@ const phrasesWork = [
     "wordIds": [
       "11601"
     ],
+    "cloze": {
+      "de": "Management",
+      "en": "management"
+    },
     "sourceIndex": 1601
   },
   {
@@ -1715,6 +2115,10 @@ const phrasesWork = [
     "wordIds": [
       "11617"
     ],
+    "cloze": {
+      "de": "Aktivitäten",
+      "en": "activities"
+    },
     "sourceIndex": 1617
   },
   {
@@ -1732,6 +2136,10 @@ const phrasesWork = [
     "wordIds": [
       "11620"
     ],
+    "cloze": {
+      "de": "besetzt",
+      "en": "is"
+    },
     "sourceIndex": 1620
   },
   {
@@ -1749,6 +2157,10 @@ const phrasesWork = [
     "wordIds": [
       "11622"
     ],
+    "cloze": {
+      "de": "Brand",
+      "en": "fire"
+    },
     "sourceIndex": 1622
   },
   {
@@ -1766,6 +2178,10 @@ const phrasesWork = [
     "wordIds": [
       "11697"
     ],
+    "cloze": {
+      "de": "zuständig",
+      "en": "responsible"
+    },
     "sourceIndex": 1697
   },
   {
@@ -1783,6 +2199,10 @@ const phrasesWork = [
     "wordIds": [
       "11706"
     ],
+    "cloze": {
+      "de": "bemerke",
+      "en": "notice"
+    },
     "sourceIndex": 1706
   },
   {
@@ -1800,6 +2220,10 @@ const phrasesWork = [
     "wordIds": [
       "11747"
     ],
+    "cloze": {
+      "de": "beinahe",
+      "en": "almost"
+    },
     "sourceIndex": 1747
   },
   {
@@ -1817,6 +2241,10 @@ const phrasesWork = [
     "wordIds": [
       "11757"
     ],
+    "cloze": {
+      "de": "gelungen",
+      "en": "succeeded"
+    },
     "sourceIndex": 1757
   },
   {
@@ -1834,6 +2262,10 @@ const phrasesWork = [
     "wordIds": [
       "11768"
     ],
+    "cloze": {
+      "de": "organisieren",
+      "en": "organize"
+    },
     "sourceIndex": 1768
   },
   {
@@ -1851,6 +2283,10 @@ const phrasesWork = [
     "wordIds": [
       "11779"
     ],
+    "cloze": {
+      "de": "Überblick",
+      "en": "overview"
+    },
     "sourceIndex": 1779
   },
   {
@@ -1868,6 +2304,10 @@ const phrasesWork = [
     "wordIds": [
       "11803"
     ],
+    "cloze": {
+      "de": "Sitzung",
+      "en": "meeting"
+    },
     "sourceIndex": 1803
   },
   {
@@ -1885,6 +2325,10 @@ const phrasesWork = [
     "wordIds": [
       "11827"
     ],
+    "cloze": {
+      "de": "fördern",
+      "en": "foster"
+    },
     "sourceIndex": 1827
   },
   {
@@ -1902,6 +2346,10 @@ const phrasesWork = [
     "wordIds": [
       "11849"
     ],
+    "cloze": {
+      "de": "betonte",
+      "en": "emphasized"
+    },
     "sourceIndex": 1849
   },
   {
@@ -1919,6 +2367,10 @@ const phrasesWork = [
     "wordIds": [
       "11850"
     ],
+    "cloze": {
+      "de": "Deal",
+      "en": "deal"
+    },
     "sourceIndex": 1850
   },
   {
@@ -1936,6 +2388,10 @@ const phrasesWork = [
     "wordIds": [
       "11892"
     ],
+    "cloze": {
+      "de": "Gehalt",
+      "en": "salary"
+    },
     "sourceIndex": 1892
   },
   {
@@ -1953,6 +2409,10 @@ const phrasesWork = [
     "wordIds": [
       "11956"
     ],
+    "cloze": {
+      "de": "Ärger",
+      "en": "trouble"
+    },
     "sourceIndex": 1956
   },
   {
@@ -1970,6 +2430,10 @@ const phrasesWork = [
     "wordIds": [
       "11961"
     ],
+    "cloze": {
+      "de": "Beratung",
+      "en": "consultation"
+    },
     "sourceIndex": 1961
   },
   {
@@ -1987,6 +2451,10 @@ const phrasesWork = [
     "wordIds": [
       "12044"
     ],
+    "cloze": {
+      "de": "Herausforderung",
+      "en": "challenge"
+    },
     "sourceIndex": 2044
   },
   {
@@ -2004,6 +2472,10 @@ const phrasesWork = [
     "wordIds": [
       "12080"
     ],
+    "cloze": {
+      "de": "erzeugt",
+      "en": "produces"
+    },
     "sourceIndex": 2080
   },
   {
@@ -2021,6 +2493,10 @@ const phrasesWork = [
     "wordIds": [
       "12094"
     ],
+    "cloze": {
+      "de": "Firmenlogo",
+      "en": "logo"
+    },
     "sourceIndex": 2094
   },
   {
@@ -2038,6 +2514,10 @@ const phrasesWork = [
     "wordIds": [
       "12115"
     ],
+    "cloze": {
+      "de": "Berater",
+      "en": "consultant"
+    },
     "sourceIndex": 2115
   },
   {
@@ -2055,6 +2535,10 @@ const phrasesWork = [
     "wordIds": [
       "12131"
     ],
+    "cloze": {
+      "de": "Motivation",
+      "en": "motivation"
+    },
     "sourceIndex": 2131
   },
   {
@@ -2072,6 +2556,10 @@ const phrasesWork = [
     "wordIds": [
       "12135"
     ],
+    "cloze": {
+      "de": "Profi",
+      "en": "professional"
+    },
     "sourceIndex": 2135
   },
   {
@@ -2089,6 +2577,10 @@ const phrasesWork = [
     "wordIds": [
       "12166"
     ],
+    "cloze": {
+      "de": "Konferenz",
+      "en": "conference"
+    },
     "sourceIndex": 2166
   },
   {
@@ -2106,6 +2598,10 @@ const phrasesWork = [
     "wordIds": [
       "12222"
     ],
+    "cloze": {
+      "de": "verlängern",
+      "en": "extend"
+    },
     "sourceIndex": 2222
   },
   {
@@ -2123,6 +2619,10 @@ const phrasesWork = [
     "wordIds": [
       "12290"
     ],
+    "cloze": {
+      "de": "leiten",
+      "en": "lead"
+    },
     "sourceIndex": 2290
   },
   {
@@ -2140,6 +2640,10 @@ const phrasesWork = [
     "wordIds": [
       "12339"
     ],
+    "cloze": {
+      "de": "scheitern",
+      "en": "fail"
+    },
     "sourceIndex": 2339
   },
   {
@@ -2157,6 +2661,10 @@ const phrasesWork = [
     "wordIds": [
       "12374"
     ],
+    "cloze": {
+      "de": "Schild",
+      "en": "sign"
+    },
     "sourceIndex": 2374
   },
   {
@@ -2174,6 +2682,10 @@ const phrasesWork = [
     "wordIds": [
       "12375"
     ],
+    "cloze": {
+      "de": "Schild",
+      "en": "sign"
+    },
     "sourceIndex": 2375
   },
   {
@@ -2191,6 +2703,10 @@ const phrasesWork = [
     "wordIds": [
       "12404"
     ],
+    "cloze": {
+      "de": "zielte",
+      "en": "aimed"
+    },
     "sourceIndex": 2404
   },
   {
@@ -2208,6 +2724,10 @@ const phrasesWork = [
     "wordIds": [
       "12424"
     ],
+    "cloze": {
+      "de": "Werkstatt",
+      "en": "workshop"
+    },
     "sourceIndex": 2424
   },
   {
@@ -2225,6 +2745,10 @@ const phrasesWork = [
     "wordIds": [
       "12426"
     ],
+    "cloze": {
+      "de": "Zurzeit",
+      "en": "Currently"
+    },
     "sourceIndex": 2426
   },
   {
@@ -2242,6 +2766,10 @@ const phrasesWork = [
     "wordIds": [
       "12459"
     ],
+    "cloze": {
+      "de": "restlichen",
+      "en": "remaining"
+    },
     "sourceIndex": 2459
   },
   {
@@ -2259,6 +2787,10 @@ const phrasesWork = [
     "wordIds": [
       "12473"
     ],
+    "cloze": {
+      "de": "anmelden",
+      "en": "sign"
+    },
     "sourceIndex": 2473
   },
   {
@@ -2276,6 +2808,10 @@ const phrasesWork = [
     "wordIds": [
       "12486"
     ],
+    "cloze": {
+      "de": "geplant",
+      "en": "planned"
+    },
     "sourceIndex": 2486
   },
   {
@@ -2293,6 +2829,10 @@ const phrasesWork = [
     "wordIds": [
       "12493"
     ],
+    "cloze": {
+      "de": "Kongress",
+      "en": "congress"
+    },
     "sourceIndex": 2493
   },
   {
@@ -2310,6 +2850,10 @@ const phrasesWork = [
     "wordIds": [
       "12518"
     ],
+    "cloze": {
+      "de": "Verlängerung",
+      "en": "overtime"
+    },
     "sourceIndex": 2518
   },
   {
@@ -2327,6 +2871,10 @@ const phrasesWork = [
     "wordIds": [
       "12519"
     ],
+    "cloze": {
+      "de": "vor",
+      "en": "planned"
+    },
     "sourceIndex": 2519
   },
   {
@@ -2344,6 +2892,10 @@ const phrasesWork = [
     "wordIds": [
       "12521"
     ],
+    "cloze": {
+      "de": "zurecht",
+      "en": "correctly"
+    },
     "sourceIndex": 2521
   },
   {
@@ -2361,6 +2913,10 @@ const phrasesWork = [
     "wordIds": [
       "12556"
     ],
+    "cloze": {
+      "de": "seither",
+      "en": "ever"
+    },
     "sourceIndex": 2556
   },
   {
@@ -2378,6 +2934,10 @@ const phrasesWork = [
     "wordIds": [
       "12575"
     ],
+    "cloze": {
+      "de": "Beamte",
+      "en": "official"
+    },
     "sourceIndex": 2575
   },
   {
@@ -2395,6 +2955,10 @@ const phrasesWork = [
     "wordIds": [
       "12631"
     ],
+    "cloze": {
+      "de": "Daumen",
+      "en": "thumb"
+    },
     "sourceIndex": 2631
   },
   {
@@ -2412,6 +2976,10 @@ const phrasesWork = [
     "wordIds": [
       "12642"
     ],
+    "cloze": {
+      "de": "Hauptbahnhof",
+      "en": "main"
+    },
     "sourceIndex": 2642
   },
   {
@@ -2429,6 +2997,10 @@ const phrasesWork = [
     "wordIds": [
       "12670"
     ],
+    "cloze": {
+      "de": "Angestellter",
+      "en": "employee"
+    },
     "sourceIndex": 2670
   },
   {
@@ -2446,6 +3018,10 @@ const phrasesWork = [
     "wordIds": [
       "12672"
     ],
+    "cloze": {
+      "de": "Arbeitsplatz",
+      "en": "workplace"
+    },
     "sourceIndex": 2672
   },
   {
@@ -2463,6 +3039,10 @@ const phrasesWork = [
     "wordIds": [
       "12676"
     ],
+    "cloze": {
+      "de": "begegne",
+      "en": "meet"
+    },
     "sourceIndex": 2676
   },
   {
@@ -2480,6 +3060,10 @@ const phrasesWork = [
     "wordIds": [
       "12699"
     ],
+    "cloze": {
+      "de": "Lob",
+      "en": "praise"
+    },
     "sourceIndex": 2699
   },
   {
@@ -2497,6 +3081,10 @@ const phrasesWork = [
     "wordIds": [
       "12726"
     ],
+    "cloze": {
+      "de": "Beschäftigung",
+      "en": "occupation"
+    },
     "sourceIndex": 2726
   },
   {
@@ -2514,6 +3102,10 @@ const phrasesWork = [
     "wordIds": [
       "12727"
     ],
+    "cloze": {
+      "de": "bewerben",
+      "en": "apply"
+    },
     "sourceIndex": 2727
   },
   {
@@ -2531,6 +3123,10 @@ const phrasesWork = [
     "wordIds": [
       "12744"
     ],
+    "cloze": {
+      "de": "Konzentration",
+      "en": "concentration"
+    },
     "sourceIndex": 2744
   },
   {
@@ -2548,6 +3144,10 @@ const phrasesWork = [
     "wordIds": [
       "12778"
     ],
+    "cloze": {
+      "de": "Demonstrant",
+      "en": "demonstrator"
+    },
     "sourceIndex": 2778
   },
   {
@@ -2565,6 +3165,10 @@ const phrasesWork = [
     "wordIds": [
       "12797"
     ],
+    "cloze": {
+      "de": "Nachtschicht",
+      "en": "shift"
+    },
     "sourceIndex": 2797
   },
   {
@@ -2582,6 +3186,10 @@ const phrasesWork = [
     "wordIds": [
       "12806"
     ],
+    "cloze": {
+      "de": "unterschreiben",
+      "en": "sign"
+    },
     "sourceIndex": 2806
   },
   {
@@ -2599,6 +3207,10 @@ const phrasesWork = [
     "wordIds": [
       "12821"
     ],
+    "cloze": {
+      "de": "ausprobieren",
+      "en": "try"
+    },
     "sourceIndex": 2821
   },
   {
@@ -2616,6 +3228,10 @@ const phrasesWork = [
     "wordIds": [
       "12827"
     ],
+    "cloze": {
+      "de": "Boss",
+      "en": "boss"
+    },
     "sourceIndex": 2827
   },
   {
@@ -2633,6 +3249,10 @@ const phrasesWork = [
     "wordIds": [
       "12914"
     ],
+    "cloze": {
+      "de": "verschieben",
+      "en": "postpone"
+    },
     "sourceIndex": 2914
   },
   {
@@ -2650,6 +3270,10 @@ const phrasesWork = [
     "wordIds": [
       "12921"
     ],
+    "cloze": {
+      "de": "Begleitung",
+      "en": "company"
+    },
     "sourceIndex": 2921
   },
   {
@@ -2667,6 +3291,10 @@ const phrasesWork = [
     "wordIds": [
       "12925"
     ],
+    "cloze": {
+      "de": "Coach",
+      "en": "coach"
+    },
     "sourceIndex": 2925
   },
   {
@@ -2684,6 +3312,10 @@ const phrasesWork = [
     "wordIds": [
       "12927"
     ],
+    "cloze": {
+      "de": "Einblick",
+      "en": "insight"
+    },
     "sourceIndex": 2927
   },
   {
@@ -2701,6 +3333,10 @@ const phrasesWork = [
     "wordIds": [
       "12964"
     ],
+    "cloze": {
+      "de": "Treue",
+      "en": "loyalty"
+    },
     "sourceIndex": 2964
   },
   {
@@ -2718,6 +3354,10 @@ const phrasesWork = [
     "wordIds": [
       "12988"
     ],
+    "cloze": {
+      "de": "fleissige",
+      "en": "diligent"
+    },
     "sourceIndex": 2988
   },
   {
@@ -2735,6 +3375,10 @@ const phrasesWork = [
     "wordIds": [
       "13031"
     ],
+    "cloze": {
+      "de": "Agenda",
+      "en": "agenda"
+    },
     "sourceIndex": 3031
   },
   {
@@ -2752,6 +3396,10 @@ const phrasesWork = [
     "wordIds": [
       "13037"
     ],
+    "cloze": {
+      "de": "Bewerbung",
+      "en": "application"
+    },
     "sourceIndex": 3037
   },
   {
@@ -2769,6 +3417,10 @@ const phrasesWork = [
     "wordIds": [
       "13068"
     ],
+    "cloze": {
+      "de": "Protokoll",
+      "en": "minutes"
+    },
     "sourceIndex": 3068
   },
   {
@@ -2786,6 +3438,10 @@ const phrasesWork = [
     "wordIds": [
       "13110"
     ],
+    "cloze": {
+      "de": "Kommune",
+      "en": "municipality"
+    },
     "sourceIndex": 3110
   },
   {
@@ -2803,6 +3459,10 @@ const phrasesWork = [
     "wordIds": [
       "13115"
     ],
+    "cloze": {
+      "de": "motivieren",
+      "en": "motivate"
+    },
     "sourceIndex": 3115
   },
   {
@@ -2820,6 +3480,10 @@ const phrasesWork = [
     "wordIds": [
       "13152"
     ],
+    "cloze": {
+      "de": "befassen",
+      "en": "deal"
+    },
     "sourceIndex": 3152
   },
   {
@@ -2837,6 +3501,10 @@ const phrasesWork = [
     "wordIds": [
       "13165"
     ],
+    "cloze": {
+      "de": "Feedback",
+      "en": "feedback"
+    },
     "sourceIndex": 3165
   },
   {
@@ -2854,6 +3522,10 @@ const phrasesWork = [
     "wordIds": [
       "13203"
     ],
+    "cloze": {
+      "de": "veranstalten",
+      "en": "organize"
+    },
     "sourceIndex": 3203
   },
   {
@@ -2871,6 +3543,10 @@ const phrasesWork = [
     "wordIds": [
       "13224"
     ],
+    "cloze": {
+      "de": "Disziplin",
+      "en": "Discipline"
+    },
     "sourceIndex": 3224
   },
   {
@@ -2888,6 +3564,10 @@ const phrasesWork = [
     "wordIds": [
       "13248"
     ],
+    "cloze": {
+      "de": "Kündigung",
+      "en": "termination"
+    },
     "sourceIndex": 3248
   },
   {
@@ -2905,6 +3585,10 @@ const phrasesWork = [
     "wordIds": [
       "13252"
     ],
+    "cloze": {
+      "de": "mitbekommen",
+      "en": "notice"
+    },
     "sourceIndex": 3252
   },
   {
@@ -2922,6 +3606,10 @@ const phrasesWork = [
     "wordIds": [
       "13312"
     ],
+    "cloze": {
+      "de": "vereinbaren",
+      "en": "arrange"
+    },
     "sourceIndex": 3312
   },
   {
@@ -2939,6 +3627,10 @@ const phrasesWork = [
     "wordIds": [
       "13337"
     ],
+    "cloze": {
+      "de": "beruflich",
+      "en": "a"
+    },
     "sourceIndex": 3337
   },
   {
@@ -2956,6 +3648,10 @@ const phrasesWork = [
     "wordIds": [
       "13338"
     ],
+    "cloze": {
+      "de": "betreut",
+      "en": "after"
+    },
     "sourceIndex": 3338
   },
   {
@@ -2973,6 +3669,10 @@ const phrasesWork = [
     "wordIds": [
       "13399"
     ],
+    "cloze": {
+      "de": "Belohnung",
+      "en": "reward"
+    },
     "sourceIndex": 3399
   },
   {
@@ -2990,6 +3690,10 @@ const phrasesWork = [
     "wordIds": [
       "13407"
     ],
+    "cloze": {
+      "de": "fähig",
+      "en": "capable"
+    },
     "sourceIndex": 3407
   },
   {
@@ -3007,6 +3711,10 @@ const phrasesWork = [
     "wordIds": [
       "13465"
     ],
+    "cloze": {
+      "de": "effektiv",
+      "en": "effective"
+    },
     "sourceIndex": 3465
   },
   {
@@ -3024,6 +3732,10 @@ const phrasesWork = [
     "wordIds": [
       "13505"
     ],
+    "cloze": {
+      "de": "zukommen",
+      "en": "be"
+    },
     "sourceIndex": 3505
   },
   {
@@ -3041,6 +3753,10 @@ const phrasesWork = [
     "wordIds": [
       "13546"
     ],
+    "cloze": {
+      "de": "objektiv",
+      "en": "objective"
+    },
     "sourceIndex": 3546
   },
   {
@@ -3058,6 +3774,10 @@ const phrasesWork = [
     "wordIds": [
       "13581"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "masters"
+    },
     "sourceIndex": 3581
   },
   {
@@ -3075,6 +3795,10 @@ const phrasesWork = [
     "wordIds": [
       "13606"
     ],
+    "cloze": {
+      "de": "Praktikum",
+      "en": "internship"
+    },
     "sourceIndex": 3606
   },
   {
@@ -3092,6 +3816,10 @@ const phrasesWork = [
     "wordIds": [
       "13608"
     ],
+    "cloze": {
+      "de": "professionell",
+      "en": "professionally"
+    },
     "sourceIndex": 3608
   },
   {
@@ -3109,6 +3837,10 @@ const phrasesWork = [
     "wordIds": [
       "13611"
     ],
+    "cloze": {
+      "de": "qualifiziert",
+      "en": "qualified"
+    },
     "sourceIndex": 3611
   },
   {
@@ -3126,6 +3858,10 @@ const phrasesWork = [
     "wordIds": [
       "13689"
     ],
+    "cloze": {
+      "de": "zusammenstellen",
+      "en": "compile"
+    },
     "sourceIndex": 3689
   },
   {
@@ -3143,6 +3879,10 @@ const phrasesWork = [
     "wordIds": [
       "13708"
     ],
+    "cloze": {
+      "de": "nehmen",
+      "en": "take"
+    },
     "sourceIndex": 3708
   },
   {
@@ -3160,6 +3900,10 @@ const phrasesWork = [
     "wordIds": [
       "13710"
     ],
+    "cloze": {
+      "de": "Focus",
+      "en": "focus"
+    },
     "sourceIndex": 3710
   },
   {
@@ -3177,6 +3921,10 @@ const phrasesWork = [
     "wordIds": [
       "13713"
     ],
+    "cloze": {
+      "de": "gründlich",
+      "en": "thoroughly"
+    },
     "sourceIndex": 3713
   },
   {
@@ -3194,6 +3942,10 @@ const phrasesWork = [
     "wordIds": [
       "13719"
     ],
+    "cloze": {
+      "de": "Jungfrau",
+      "en": "Virgo"
+    },
     "sourceIndex": 3719
   },
   {
@@ -3211,6 +3963,10 @@ const phrasesWork = [
     "wordIds": [
       "13742"
     ],
+    "cloze": {
+      "de": "verhandeln",
+      "en": "negotiate"
+    },
     "sourceIndex": 3742
   },
   {
@@ -3228,6 +3984,10 @@ const phrasesWork = [
     "wordIds": [
       "13792"
     ],
+    "cloze": {
+      "de": "Potenzial",
+      "en": "potential"
+    },
     "sourceIndex": 3792
   },
   {
@@ -3245,6 +4005,10 @@ const phrasesWork = [
     "wordIds": [
       "13798"
     ],
+    "cloze": {
+      "de": "selbstständig",
+      "en": "independently"
+    },
     "sourceIndex": 3798
   },
   {
@@ -3262,6 +4026,10 @@ const phrasesWork = [
     "wordIds": [
       "13803"
     ],
+    "cloze": {
+      "de": "Unterschrift",
+      "en": "signature"
+    },
     "sourceIndex": 3803
   },
   {
@@ -3279,6 +4047,10 @@ const phrasesWork = [
     "wordIds": [
       "13818"
     ],
+    "cloze": {
+      "de": "befördern",
+      "en": "promote"
+    },
     "sourceIndex": 3818
   },
   {
@@ -3296,6 +4068,10 @@ const phrasesWork = [
     "wordIds": [
       "13825"
     ],
+    "cloze": {
+      "de": "erneuern",
+      "en": "renew"
+    },
     "sourceIndex": 3825
   },
   {
@@ -3313,6 +4089,10 @@ const phrasesWork = [
     "wordIds": [
       "13830"
     ],
+    "cloze": {
+      "de": "fortsetzen",
+      "en": "continue"
+    },
     "sourceIndex": 3830
   },
   {
@@ -3330,6 +4110,10 @@ const phrasesWork = [
     "wordIds": [
       "13868"
     ],
+    "cloze": {
+      "de": "Tagsüber",
+      "en": "During"
+    },
     "sourceIndex": 3868
   },
   {
@@ -3347,6 +4131,10 @@ const phrasesWork = [
     "wordIds": [
       "13913"
     ],
+    "cloze": {
+      "de": "kündigen",
+      "en": "give"
+    },
     "sourceIndex": 3913
   },
   {
@@ -3364,6 +4152,10 @@ const phrasesWork = [
     "wordIds": [
       "13953"
     ],
+    "cloze": {
+      "de": "Work",
+      "en": "work"
+    },
     "sourceIndex": 3953
   },
   {
@@ -3381,6 +4173,10 @@ const phrasesWork = [
     "wordIds": [
       "14025"
     ],
+    "cloze": {
+      "de": "Arbeitszeit",
+      "en": "working"
+    },
     "sourceIndex": 4025
   },
   {
@@ -3398,6 +4194,10 @@ const phrasesWork = [
     "wordIds": [
       "14063"
     ],
+    "cloze": {
+      "de": "Produzent",
+      "en": "producer"
+    },
     "sourceIndex": 4063
   },
   {
@@ -3415,6 +4215,10 @@ const phrasesWork = [
     "wordIds": [
       "14073"
     ],
+    "cloze": {
+      "de": "Taktik",
+      "en": "tactic"
+    },
     "sourceIndex": 4073
   },
   {
@@ -3432,6 +4236,10 @@ const phrasesWork = [
     "wordIds": [
       "14081"
     ],
+    "cloze": {
+      "de": "wirksam",
+      "en": "effective"
+    },
     "sourceIndex": 4081
   },
   {
@@ -3449,6 +4257,10 @@ const phrasesWork = [
     "wordIds": [
       "14082"
     ],
+    "cloze": {
+      "de": "Workshop",
+      "en": "workshop"
+    },
     "sourceIndex": 4082
   },
   {
@@ -3466,6 +4278,10 @@ const phrasesWork = [
     "wordIds": [
       "14159"
     ],
+    "cloze": {
+      "de": "Aufsicht",
+      "en": "supervision"
+    },
     "sourceIndex": 4159
   },
   {
@@ -3483,6 +4299,10 @@ const phrasesWork = [
     "wordIds": [
       "14164"
     ],
+    "cloze": {
+      "de": "belohnen",
+      "en": "reward"
+    },
     "sourceIndex": 4164
   },
   {
@@ -3500,6 +4320,10 @@ const phrasesWork = [
     "wordIds": [
       "14175"
     ],
+    "cloze": {
+      "de": "Entlassung",
+      "en": "dismissal"
+    },
     "sourceIndex": 4175
   },
   {
@@ -3517,6 +4341,10 @@ const phrasesWork = [
     "wordIds": [
       "14274"
     ],
+    "cloze": {
+      "de": "Treffpunkt",
+      "en": "meeting"
+    },
     "sourceIndex": 4274
   },
   {
@@ -3534,6 +4362,10 @@ const phrasesWork = [
     "wordIds": [
       "14298"
     ],
+    "cloze": {
+      "de": "bewältigen",
+      "en": "overcome"
+    },
     "sourceIndex": 4298
   },
   {
@@ -3551,6 +4383,10 @@ const phrasesWork = [
     "wordIds": [
       "14360"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "reliable"
+    },
     "sourceIndex": 4360
   },
   {
@@ -3568,6 +4404,10 @@ const phrasesWork = [
     "wordIds": [
       "14448"
     ],
+    "cloze": {
+      "de": "abhalten",
+      "en": "hold"
+    },
     "sourceIndex": 4448
   },
   {
@@ -3585,6 +4425,10 @@ const phrasesWork = [
     "wordIds": [
       "14452"
     ],
+    "cloze": {
+      "de": "Assistent",
+      "en": "assistant"
+    },
     "sourceIndex": 4452
   },
   {
@@ -3602,6 +4446,10 @@ const phrasesWork = [
     "wordIds": [
       "14475"
     ],
+    "cloze": {
+      "de": "externen",
+      "en": "external"
+    },
     "sourceIndex": 4475
   },
   {
@@ -3619,6 +4467,10 @@ const phrasesWork = [
     "wordIds": [
       "14565"
     ],
+    "cloze": {
+      "de": "Spezialist",
+      "en": "specialist"
+    },
     "sourceIndex": 4565
   },
   {
@@ -3636,6 +4488,10 @@ const phrasesWork = [
     "wordIds": [
       "14568"
     ],
+    "cloze": {
+      "de": "Streik",
+      "en": "strike"
+    },
     "sourceIndex": 4568
   },
   {
@@ -3653,6 +4509,10 @@ const phrasesWork = [
     "wordIds": [
       "14586"
     ],
+    "cloze": {
+      "de": "aufteilen",
+      "en": "divide"
+    },
     "sourceIndex": 4586
   },
   {
@@ -3670,6 +4530,10 @@ const phrasesWork = [
     "wordIds": [
       "14720"
     ],
+    "cloze": {
+      "de": "zusammenarbeiten",
+      "en": "work"
+    },
     "sourceIndex": 4720
   },
   {
@@ -3687,6 +4551,10 @@ const phrasesWork = [
     "wordIds": [
       "14792"
     ],
+    "cloze": {
+      "de": "Stab",
+      "en": "a"
+    },
     "sourceIndex": 4792
   },
   {
@@ -3704,6 +4572,10 @@ const phrasesWork = [
     "wordIds": [
       "14808"
     ],
+    "cloze": {
+      "de": "zehnte",
+      "en": "tenth"
+    },
     "sourceIndex": 4808
   },
   {
@@ -3721,6 +4593,10 @@ const phrasesWork = [
     "wordIds": [
       "14819"
     ],
+    "cloze": {
+      "de": "arbeitslos",
+      "en": "unemployed"
+    },
     "sourceIndex": 4819
   },
   {
@@ -3738,6 +4614,10 @@ const phrasesWork = [
     "wordIds": [
       "14962"
     ],
+    "cloze": {
+      "de": "Tagesordnung",
+      "en": "agenda"
+    },
     "sourceIndex": 4962
   },
   {
@@ -3755,6 +4635,10 @@ const phrasesWork = [
     "wordIds": [
       "14981"
     ],
+    "cloze": {
+      "de": "Arbeitsbedingungen",
+      "en": "working"
+    },
     "sourceIndex": 4981
   },
   {
@@ -3772,6 +4656,10 @@ const phrasesWork = [
     "wordIds": [
       "15069"
     ],
+    "cloze": {
+      "de": "Beauty-Branche",
+      "en": "beauty"
+    },
     "sourceIndex": 5069
   },
   {
@@ -3789,6 +4677,10 @@ const phrasesWork = [
     "wordIds": [
       "15118"
     ],
+    "cloze": {
+      "de": "Profit",
+      "en": "profit"
+    },
     "sourceIndex": 5118
   },
   {
@@ -3806,6 +4698,10 @@ const phrasesWork = [
     "wordIds": [
       "15158"
     ],
+    "cloze": {
+      "de": "Anstrengung",
+      "en": "effort"
+    },
     "sourceIndex": 5158
   },
   {
@@ -3823,6 +4719,10 @@ const phrasesWork = [
     "wordIds": [
       "15160"
     ],
+    "cloze": {
+      "de": "argumentierte",
+      "en": "argued"
+    },
     "sourceIndex": 5160
   },
   {
@@ -3840,6 +4740,10 @@ const phrasesWork = [
     "wordIds": [
       "15225"
     ],
+    "cloze": {
+      "de": "selbständig",
+      "en": "now"
+    },
     "sourceIndex": 5225
   },
   {
@@ -3857,6 +4761,10 @@ const phrasesWork = [
     "wordIds": [
       "15333"
     ],
+    "cloze": {
+      "de": "ablösen",
+      "en": "relieve"
+    },
     "sourceIndex": 5333
   },
   {
@@ -3874,6 +4782,10 @@ const phrasesWork = [
     "wordIds": [
       "15335"
     ],
+    "cloze": {
+      "de": "abwechselnd",
+      "en": "alternately"
+    },
     "sourceIndex": 5335
   },
   {
@@ -3891,6 +4803,10 @@ const phrasesWork = [
     "wordIds": [
       "15338"
     ],
+    "cloze": {
+      "de": "Arbeitsgruppe",
+      "en": "working"
+    },
     "sourceIndex": 5338
   },
   {
@@ -3908,6 +4824,10 @@ const phrasesWork = [
     "wordIds": [
       "15363"
     ],
+    "cloze": {
+      "de": "gegründete",
+      "en": "founded"
+    },
     "sourceIndex": 5363
   },
   {
@@ -3925,6 +4845,10 @@ const phrasesWork = [
     "wordIds": [
       "15380"
     ],
+    "cloze": {
+      "de": "Kraftwerk",
+      "en": "power"
+    },
     "sourceIndex": 5380
   },
   {
@@ -3942,6 +4866,10 @@ const phrasesWork = [
     "wordIds": [
       "15420"
     ],
+    "cloze": {
+      "de": "verwalten",
+      "en": "manage"
+    },
     "sourceIndex": 5420
   },
   {
@@ -3959,6 +4887,10 @@ const phrasesWork = [
     "wordIds": [
       "15532"
     ],
+    "cloze": {
+      "de": "effizient",
+      "en": "efficient"
+    },
     "sourceIndex": 5532
   },
   {
@@ -3976,6 +4908,10 @@ const phrasesWork = [
     "wordIds": [
       "15540"
     ],
+    "cloze": {
+      "de": "gelungener",
+      "en": "successful"
+    },
     "sourceIndex": 5540
   },
   {
@@ -3993,6 +4929,10 @@ const phrasesWork = [
     "wordIds": [
       "15618"
     ],
+    "cloze": {
+      "de": "Betreuer",
+      "en": "supervisor"
+    },
     "sourceIndex": 5618
   },
   {
@@ -4010,6 +4950,10 @@ const phrasesWork = [
     "wordIds": [
       "15647"
     ],
+    "cloze": {
+      "de": "Kollegin",
+      "en": "female"
+    },
     "sourceIndex": 5647
   },
   {
@@ -4027,6 +4971,10 @@ const phrasesWork = [
     "wordIds": [
       "15657"
     ],
+    "cloze": {
+      "de": "passiv",
+      "en": "passive"
+    },
     "sourceIndex": 5657
   },
   {
@@ -4044,6 +4992,10 @@ const phrasesWork = [
     "wordIds": [
       "15702"
     ],
+    "cloze": {
+      "de": "Chief",
+      "en": "chief"
+    },
     "sourceIndex": 5702
   },
   {
@@ -4061,6 +5013,10 @@ const phrasesWork = [
     "wordIds": [
       "15713"
     ],
+    "cloze": {
+      "de": "Flexibilität",
+      "en": "Flexibility"
+    },
     "sourceIndex": 5713
   },
   {
@@ -4078,6 +5034,10 @@ const phrasesWork = [
     "wordIds": [
       "15742"
     ],
+    "cloze": {
+      "de": "meistern",
+      "en": "master"
+    },
     "sourceIndex": 5742
   },
   {
@@ -4095,6 +5055,10 @@ const phrasesWork = [
     "wordIds": [
       "15831"
     ],
+    "cloze": {
+      "de": "Mobbing",
+      "en": "Bullying"
+    },
     "sourceIndex": 5831
   },
   {
@@ -4112,6 +5076,10 @@ const phrasesWork = [
     "wordIds": [
       "15922"
     ],
+    "cloze": {
+      "de": "Geschäftsstelle",
+      "en": "office"
+    },
     "sourceIndex": 5922
   },
   {
@@ -4129,6 +5097,10 @@ const phrasesWork = [
     "wordIds": [
       "15986"
     ],
+    "cloze": {
+      "de": "Ablenkung",
+      "en": "distraction"
+    },
     "sourceIndex": 5986
   },
   {
@@ -4146,6 +5118,10 @@ const phrasesWork = [
     "wordIds": [
       "16029"
     ],
+    "cloze": {
+      "de": "Geschäftsmann",
+      "en": "businessman"
+    },
     "sourceIndex": 6029
   },
   {
@@ -4163,6 +5139,10 @@ const phrasesWork = [
     "wordIds": [
       "16188"
     ],
+    "cloze": {
+      "de": "Bruttogehalt",
+      "en": "gross"
+    },
     "sourceIndex": 6188
   },
   {
@@ -4180,6 +5160,10 @@ const phrasesWork = [
     "wordIds": [
       "16253"
     ],
+    "cloze": {
+      "de": "Slogan",
+      "en": "slogan"
+    },
     "sourceIndex": 6253
   },
   {
@@ -4197,6 +5181,10 @@ const phrasesWork = [
     "wordIds": [
       "16262"
     ],
+    "cloze": {
+      "de": "Treff",
+      "en": "meeting"
+    },
     "sourceIndex": 6262
   },
   {
@@ -4214,6 +5202,10 @@ const phrasesWork = [
     "wordIds": [
       "16306"
     ],
+    "cloze": {
+      "de": "Ehrgeiz",
+      "en": "ambition"
+    },
     "sourceIndex": 6306
   },
   {
@@ -4231,6 +5223,10 @@ const phrasesWork = [
     "wordIds": [
       "16325"
     ],
+    "cloze": {
+      "de": "kompetente",
+      "en": "competent"
+    },
     "sourceIndex": 6325
   },
   {
@@ -4248,6 +5244,10 @@ const phrasesWork = [
     "wordIds": [
       "16435"
     ],
+    "cloze": {
+      "de": "Potsdamer",
+      "en": "Potsdam"
+    },
     "sourceIndex": 6435
   },
   {
@@ -4265,6 +5265,10 @@ const phrasesWork = [
     "wordIds": [
       "16443"
     ],
+    "cloze": {
+      "de": "Sekretär",
+      "en": "secretary"
+    },
     "sourceIndex": 6443
   },
   {
@@ -4282,6 +5286,10 @@ const phrasesWork = [
     "wordIds": [
       "16485"
     ],
+    "cloze": {
+      "de": "bereitstellen",
+      "en": "provide"
+    },
     "sourceIndex": 6485
   },
   {
@@ -4299,6 +5307,10 @@ const phrasesWork = [
     "wordIds": [
       "16610"
     ],
+    "cloze": {
+      "de": "einschlagen",
+      "en": "take"
+    },
     "sourceIndex": 6610
   },
   {
@@ -4316,6 +5328,10 @@ const phrasesWork = [
     "wordIds": [
       "16809"
     ],
+    "cloze": {
+      "de": "Cheftrainer",
+      "en": "head"
+    },
     "sourceIndex": 6809
   },
   {
@@ -4333,6 +5349,10 @@ const phrasesWork = [
     "wordIds": [
       "16815"
     ],
+    "cloze": {
+      "de": "einteilen",
+      "en": "divide"
+    },
     "sourceIndex": 6815
   },
   {
@@ -4350,6 +5370,10 @@ const phrasesWork = [
     "wordIds": [
       "16828"
     ],
+    "cloze": {
+      "de": "geforderte",
+      "en": "a"
+    },
     "sourceIndex": 6828
   },
   {
@@ -4367,6 +5391,10 @@ const phrasesWork = [
     "wordIds": [
       "16944"
     ],
+    "cloze": {
+      "de": "Mitarbeiterin",
+      "en": "female"
+    },
     "sourceIndex": 6944
   },
   {
@@ -4384,6 +5412,10 @@ const phrasesWork = [
     "wordIds": [
       "17055"
     ],
+    "cloze": {
+      "de": "Projektleiter",
+      "en": "project"
+    },
     "sourceIndex": 7055
   },
   {
@@ -4401,6 +5433,10 @@ const phrasesWork = [
     "wordIds": [
       "17101"
     ],
+    "cloze": {
+      "de": "Berufsleben",
+      "en": "Professional"
+    },
     "sourceIndex": 7101
   },
   {
@@ -4418,6 +5454,10 @@ const phrasesWork = [
     "wordIds": [
       "17165"
     ],
+    "cloze": {
+      "de": "Sekretärin",
+      "en": "secretary"
+    },
     "sourceIndex": 7165
   },
   {
@@ -4435,6 +5475,10 @@ const phrasesWork = [
     "wordIds": [
       "17281"
     ],
+    "cloze": {
+      "de": "ungeeignet",
+      "en": "unsuitable"
+    },
     "sourceIndex": 7281
   },
   {
@@ -4452,6 +5496,10 @@ const phrasesWork = [
     "wordIds": [
       "17365"
     ],
+    "cloze": {
+      "de": "Mitspieler",
+      "en": "teammate"
+    },
     "sourceIndex": 7365
   },
   {
@@ -4469,6 +5517,10 @@ const phrasesWork = [
     "wordIds": [
       "17499"
     ],
+    "cloze": {
+      "de": "Provision",
+      "en": "commission"
+    },
     "sourceIndex": 7499
   },
   {
@@ -4486,6 +5538,10 @@ const phrasesWork = [
     "wordIds": [
       "17550"
     ],
+    "cloze": {
+      "de": "Abteilungsleiter",
+      "en": "department"
+    },
     "sourceIndex": 7550
   },
   {
@@ -4503,6 +5559,10 @@ const phrasesWork = [
     "wordIds": [
       "17564"
     ],
+    "cloze": {
+      "de": "Berufserfahrung",
+      "en": "Work"
+    },
     "sourceIndex": 7564
   },
   {
@@ -4520,6 +5580,10 @@ const phrasesWork = [
     "wordIds": [
       "17706"
     ],
+    "cloze": {
+      "de": "Department",
+      "en": "department"
+    },
     "sourceIndex": 7706
   },
   {
@@ -4537,6 +5601,10 @@ const phrasesWork = [
     "wordIds": [
       "17752"
     ],
+    "cloze": {
+      "de": "Mietvertrag",
+      "en": "rental"
+    },
     "sourceIndex": 7752
   },
   {
@@ -4554,6 +5622,10 @@ const phrasesWork = [
     "wordIds": [
       "17763"
     ],
+    "cloze": {
+      "de": "Prozentsatz",
+      "en": "percentage"
+    },
     "sourceIndex": 7763
   },
   {
@@ -4571,6 +5643,10 @@ const phrasesWork = [
     "wordIds": [
       "17819"
     ],
+    "cloze": {
+      "de": "dreifach",
+      "en": "threefold"
+    },
     "sourceIndex": 7819
   },
   {
@@ -4588,6 +5664,10 @@ const phrasesWork = [
     "wordIds": [
       "17861"
     ],
+    "cloze": {
+      "de": "ordnen",
+      "en": "organize"
+    },
     "sourceIndex": 7861
   },
   {
@@ -4605,6 +5685,10 @@ const phrasesWork = [
     "wordIds": [
       "18150"
     ],
+    "cloze": {
+      "de": "arrangieren",
+      "en": "arrange"
+    },
     "sourceIndex": 8150
   },
   {
@@ -4622,6 +5706,10 @@ const phrasesWork = [
     "wordIds": [
       "18151"
     ],
+    "cloze": {
+      "de": "Assistentin",
+      "en": "female"
+    },
     "sourceIndex": 8151
   },
   {
@@ -4639,6 +5727,10 @@ const phrasesWork = [
     "wordIds": [
       "18381"
     ],
+    "cloze": {
+      "de": "verabreden",
+      "en": "arrange"
+    },
     "sourceIndex": 8381
   },
   {
@@ -4656,6 +5748,10 @@ const phrasesWork = [
     "wordIds": [
       "18465"
     ],
+    "cloze": {
+      "de": "Sachbearbeiter",
+      "en": "clerk"
+    },
     "sourceIndex": 8465
   },
   {
@@ -4673,6 +5769,10 @@ const phrasesWork = [
     "wordIds": [
       "18548"
     ],
+    "cloze": {
+      "de": "durchzukommen",
+      "en": "get"
+    },
     "sourceIndex": 8548
   },
   {
@@ -4690,6 +5790,10 @@ const phrasesWork = [
     "wordIds": [
       "18590"
     ],
+    "cloze": {
+      "de": "mittwochs",
+      "en": "on"
+    },
     "sourceIndex": 8590
   },
   {
@@ -4707,6 +5811,10 @@ const phrasesWork = [
     "wordIds": [
       "18620"
     ],
+    "cloze": {
+      "de": "streiken",
+      "en": "strike"
+    },
     "sourceIndex": 8620
   },
   {
@@ -4724,6 +5832,10 @@ const phrasesWork = [
     "wordIds": [
       "18725"
     ],
+    "cloze": {
+      "de": "Neuzugang",
+      "en": "new"
+    },
     "sourceIndex": 8725
   },
   {
@@ -4741,6 +5853,10 @@ const phrasesWork = [
     "wordIds": [
       "18812"
     ],
+    "cloze": {
+      "de": "arbeitende",
+      "en": "working"
+    },
     "sourceIndex": 8812
   },
   {
@@ -4758,6 +5874,10 @@ const phrasesWork = [
     "wordIds": [
       "18886"
     ],
+    "cloze": {
+      "de": "Multimedia-Elemente",
+      "en": "multimedia"
+    },
     "sourceIndex": 8886
   },
   {
@@ -4775,6 +5895,10 @@ const phrasesWork = [
     "wordIds": [
       "18892"
     ],
+    "cloze": {
+      "de": "Praktikant",
+      "en": "intern"
+    },
     "sourceIndex": 8892
   },
   {
@@ -4792,6 +5916,10 @@ const phrasesWork = [
     "wordIds": [
       "18954"
     ],
+    "cloze": {
+      "de": "Arbeitsstelle",
+      "en": "job"
+    },
     "sourceIndex": 8954
   },
   {
@@ -4809,6 +5937,10 @@ const phrasesWork = [
     "wordIds": [
       "18972"
     ],
+    "cloze": {
+      "de": "Ehrenamt",
+      "en": "voluntary"
+    },
     "sourceIndex": 8972
   },
   {
@@ -4826,6 +5958,10 @@ const phrasesWork = [
     "wordIds": [
       "19083"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "reliable"
+    },
     "sourceIndex": 9083
   },
   {
@@ -4843,6 +5979,10 @@ const phrasesWork = [
     "wordIds": [
       "19088"
     ],
+    "cloze": {
+      "de": "vorgeschlagene",
+      "en": "proposed"
+    },
     "sourceIndex": 9088
   },
   {
@@ -4860,6 +6000,10 @@ const phrasesWork = [
     "wordIds": [
       "19089"
     ],
+    "cloze": {
+      "de": "vorgestellt",
+      "en": "introduced"
+    },
     "sourceIndex": 9089
   },
   {
@@ -4877,6 +6021,10 @@ const phrasesWork = [
     "wordIds": [
       "19242"
     ],
+    "cloze": {
+      "de": "Administrator",
+      "en": "administrator"
+    },
     "sourceIndex": 9242
   },
   {
@@ -4894,6 +6042,10 @@ const phrasesWork = [
     "wordIds": [
       "19415"
     ],
+    "cloze": {
+      "de": "befristeten",
+      "en": "a"
+    },
     "sourceIndex": 9415
   },
   {
@@ -4911,6 +6063,10 @@ const phrasesWork = [
     "wordIds": [
       "19483"
     ],
+    "cloze": {
+      "de": "Stadtplaner",
+      "en": "planner"
+    },
     "sourceIndex": 9483
   },
   {
@@ -4928,6 +6084,10 @@ const phrasesWork = [
     "wordIds": [
       "19498"
     ],
+    "cloze": {
+      "de": "Rückschlag",
+      "en": "setback"
+    },
     "sourceIndex": 9498
   },
   {
@@ -4945,6 +6105,10 @@ const phrasesWork = [
     "wordIds": [
       "19500"
     ],
+    "cloze": {
+      "de": "Safari",
+      "en": "safari"
+    },
     "sourceIndex": 9500
   },
   {
@@ -4962,6 +6126,10 @@ const phrasesWork = [
     "wordIds": [
       "19768"
     ],
+    "cloze": {
+      "de": "Kugelschreiber",
+      "en": "ballpoint"
+    },
     "sourceIndex": 9768
   },
   {
@@ -4979,6 +6147,10 @@ const phrasesWork = [
     "wordIds": [
       "19867"
     ],
+    "cloze": {
+      "de": "Bureau",
+      "en": "office"
+    },
     "sourceIndex": 9867
   },
   {
@@ -4996,6 +6168,10 @@ const phrasesWork = [
     "wordIds": [
       "19893"
     ],
+    "cloze": {
+      "de": "hektisch",
+      "en": "hectic"
+    },
     "sourceIndex": 9893
   },
   {
@@ -5013,6 +6189,10 @@ const phrasesWork = [
     "wordIds": [
       "19926"
     ],
+    "cloze": {
+      "de": "Nebenjob",
+      "en": "side"
+    },
     "sourceIndex": 9926
   },
   {
@@ -5030,6 +6210,10 @@ const phrasesWork = [
     "wordIds": [
       "19998"
     ],
+    "cloze": {
+      "de": "Arbeitsvertrag",
+      "en": "employment"
+    },
     "sourceIndex": 9998
   },
   {
@@ -5047,6 +6231,10 @@ const phrasesWork = [
     "wordIds": [
       "20065"
     ],
+    "cloze": {
+      "de": "Lehrling",
+      "en": "apprentice"
+    },
     "sourceIndex": 10065
   },
   {
@@ -5064,6 +6252,10 @@ const phrasesWork = [
     "wordIds": [
       "20174"
     ],
+    "cloze": {
+      "de": "einplanen",
+      "en": "schedule"
+    },
     "sourceIndex": 10174
   },
   {
@@ -5081,6 +6273,10 @@ const phrasesWork = [
     "wordIds": [
       "20306"
     ],
+    "cloze": {
+      "de": "Berufsgruppe",
+      "en": "professional"
+    },
     "sourceIndex": 10306
   },
   {
@@ -5098,6 +6294,10 @@ const phrasesWork = [
     "wordIds": [
       "20404"
     ],
+    "cloze": {
+      "de": "Sekretariat",
+      "en": "secretariat"
+    },
     "sourceIndex": 10404
   },
   {
@@ -5115,6 +6315,10 @@ const phrasesWork = [
     "wordIds": [
       "20479"
     ],
+    "cloze": {
+      "de": "eingetragen",
+      "en": "registered"
+    },
     "sourceIndex": 10479
   },
   {
@@ -5132,6 +6336,10 @@ const phrasesWork = [
     "wordIds": [
       "20513"
     ],
+    "cloze": {
+      "de": "interviewen",
+      "en": "interview"
+    },
     "sourceIndex": 10513
   },
   {
@@ -5149,6 +6357,10 @@ const phrasesWork = [
     "wordIds": [
       "20576"
     ],
+    "cloze": {
+      "de": "unregelmässige",
+      "en": "irregular"
+    },
     "sourceIndex": 10576
   },
   {
@@ -5166,6 +6378,10 @@ const phrasesWork = [
     "wordIds": [
       "20776"
     ],
+    "cloze": {
+      "de": "anstossen",
+      "en": "toast"
+    },
     "sourceIndex": 10776
   },
   {
@@ -5183,6 +6399,10 @@ const phrasesWork = [
     "wordIds": [
       "20835"
     ],
+    "cloze": {
+      "de": "Herrchen",
+      "en": "master"
+    },
     "sourceIndex": 10835
   },
   {
@@ -5200,6 +6420,10 @@ const phrasesWork = [
     "wordIds": [
       "20970"
     ],
+    "cloze": {
+      "de": "beendet",
+      "en": "finished"
+    },
     "sourceIndex": 10970
   },
   {
@@ -5217,6 +6441,10 @@ const phrasesWork = [
     "wordIds": [
       "21097"
     ],
+    "cloze": {
+      "de": "Sprechstunde",
+      "en": "office"
+    },
     "sourceIndex": 11097
   },
   {
@@ -5234,6 +6462,10 @@ const phrasesWork = [
     "wordIds": [
       "21153"
     ],
+    "cloze": {
+      "de": "beliefert",
+      "en": "supplies"
+    },
     "sourceIndex": 11153
   },
   {
@@ -5251,6 +6483,10 @@ const phrasesWork = [
     "wordIds": [
       "21276"
     ],
+    "cloze": {
+      "de": "Therapeutin",
+      "en": "female"
+    },
     "sourceIndex": 11276
   },
   {
@@ -5268,6 +6504,10 @@ const phrasesWork = [
     "wordIds": [
       "21324"
     ],
+    "cloze": {
+      "de": "Arbeitsamt",
+      "en": "employment"
+    },
     "sourceIndex": 11324
   },
   {
@@ -5285,6 +6525,10 @@ const phrasesWork = [
     "wordIds": [
       "21410"
     ],
+    "cloze": {
+      "de": "Industriegebiet",
+      "en": "industrial"
+    },
     "sourceIndex": 11410
   },
   {
@@ -5302,6 +6546,10 @@ const phrasesWork = [
     "wordIds": [
       "21418"
     ],
+    "cloze": {
+      "de": "Kaufvertrag",
+      "en": "purchase"
+    },
     "sourceIndex": 11418
   },
   {
@@ -5319,6 +6567,10 @@ const phrasesWork = [
     "wordIds": [
       "21476"
     ],
+    "cloze": {
+      "de": "Standesamt",
+      "en": "registry"
+    },
     "sourceIndex": 11476
   },
   {
@@ -5336,6 +6588,10 @@ const phrasesWork = [
     "wordIds": [
       "21530"
     ],
+    "cloze": {
+      "de": "benachrichtigen",
+      "en": "notify"
+    },
     "sourceIndex": 11530
   },
   {
@@ -5353,6 +6609,10 @@ const phrasesWork = [
     "wordIds": [
       "21677"
     ],
+    "cloze": {
+      "de": "Arbeitskollege",
+      "en": "colleague"
+    },
     "sourceIndex": 11677
   },
   {
@@ -5370,6 +6630,10 @@ const phrasesWork = [
     "wordIds": [
       "21678"
     ],
+    "cloze": {
+      "de": "Assistenz",
+      "en": "assistance"
+    },
     "sourceIndex": 11678
   },
   {
@@ -5387,6 +6651,10 @@ const phrasesWork = [
     "wordIds": [
       "21727"
     ],
+    "cloze": {
+      "de": "Geschäftsleute",
+      "en": "business"
+    },
     "sourceIndex": 11727
   },
   {
@@ -5404,6 +6672,10 @@ const phrasesWork = [
     "wordIds": [
       "21737"
     ],
+    "cloze": {
+      "de": "Handicap",
+      "en": "handicap"
+    },
     "sourceIndex": 11737
   },
   {
@@ -5421,6 +6693,10 @@ const phrasesWork = [
     "wordIds": [
       "21869"
     ],
+    "cloze": {
+      "de": "beschloss",
+      "en": "decided"
+    },
     "sourceIndex": 11869
   },
   {
@@ -5438,6 +6714,10 @@ const phrasesWork = [
     "wordIds": [
       "21933"
     ],
+    "cloze": {
+      "de": "managen",
+      "en": "manage"
+    },
     "sourceIndex": 11933
   },
   {
@@ -5455,6 +6735,10 @@ const phrasesWork = [
     "wordIds": [
       "22005"
     ],
+    "cloze": {
+      "de": "Unmöglichkeit",
+      "en": "impossibility"
+    },
     "sourceIndex": 12005
   },
   {
@@ -5472,6 +6756,10 @@ const phrasesWork = [
     "wordIds": [
       "22023"
     ],
+    "cloze": {
+      "de": "Widder",
+      "en": "Aries"
+    },
     "sourceIndex": 12023
   },
   {
@@ -5489,6 +6777,10 @@ const phrasesWork = [
     "wordIds": [
       "22040"
     ],
+    "cloze": {
+      "de": "Arbeitsleben",
+      "en": "Working"
+    },
     "sourceIndex": 12040
   },
   {
@@ -5506,6 +6798,10 @@ const phrasesWork = [
     "wordIds": [
       "22083"
     ],
+    "cloze": {
+      "de": "Facharbeiter",
+      "en": "skilled"
+    },
     "sourceIndex": 12083
   },
   {
@@ -5523,6 +6819,10 @@ const phrasesWork = [
     "wordIds": [
       "22171"
     ],
+    "cloze": {
+      "de": "Shift",
+      "en": "shift"
+    },
     "sourceIndex": 12171
   },
   {
@@ -5540,6 +6840,10 @@ const phrasesWork = [
     "wordIds": [
       "22178"
     ],
+    "cloze": {
+      "de": "Sternzeichen",
+      "en": "zodiac"
+    },
     "sourceIndex": 12178
   },
   {
@@ -5557,6 +6861,10 @@ const phrasesWork = [
     "wordIds": [
       "22263"
     ],
+    "cloze": {
+      "de": "ehrgeizige",
+      "en": "ambitious"
+    },
     "sourceIndex": 12263
   },
   {
@@ -5574,6 +6882,10 @@ const phrasesWork = [
     "wordIds": [
       "22283"
     ],
+    "cloze": {
+      "de": "geteilt",
+      "en": "shared"
+    },
     "sourceIndex": 12283
   },
   {
@@ -5591,6 +6903,10 @@ const phrasesWork = [
     "wordIds": [
       "22375"
     ],
+    "cloze": {
+      "de": "weiterzukommen",
+      "en": "make"
+    },
     "sourceIndex": 12375
   },
   {
@@ -5608,6 +6924,10 @@ const phrasesWork = [
     "wordIds": [
       "22385"
     ],
+    "cloze": {
+      "de": "zuende",
+      "en": "finished"
+    },
     "sourceIndex": 12385
   },
   {
@@ -5625,6 +6945,10 @@ const phrasesWork = [
     "wordIds": [
       "22577"
     ],
+    "cloze": {
+      "de": "Wettbewerber",
+      "en": "competitors"
+    },
     "sourceIndex": 12577
   },
   {
@@ -5642,6 +6966,10 @@ const phrasesWork = [
     "wordIds": [
       "22609"
     ],
+    "cloze": {
+      "de": "ausgebildete",
+      "en": "a"
+    },
     "sourceIndex": 12609
   },
   {
@@ -5659,6 +6987,10 @@ const phrasesWork = [
     "wordIds": [
       "22629"
     ],
+    "cloze": {
+      "de": "complete",
+      "en": "complete"
+    },
     "sourceIndex": 12629
   },
   {
@@ -5676,6 +7008,10 @@ const phrasesWork = [
     "wordIds": [
       "22727"
     ],
+    "cloze": {
+      "de": "signieren",
+      "en": "sign"
+    },
     "sourceIndex": 12727
   },
   {
@@ -5693,6 +7029,10 @@ const phrasesWork = [
     "wordIds": [
       "22847"
     ],
+    "cloze": {
+      "de": "geändert",
+      "en": "changed"
+    },
     "sourceIndex": 12847
   },
   {
@@ -5710,6 +7050,10 @@ const phrasesWork = [
     "wordIds": [
       "22849"
     ],
+    "cloze": {
+      "de": "Grundidee",
+      "en": "basic"
+    },
     "sourceIndex": 12849
   },
   {
@@ -5727,6 +7071,10 @@ const phrasesWork = [
     "wordIds": [
       "22879"
     ],
+    "cloze": {
+      "de": "Managerin",
+      "en": "manager"
+    },
     "sourceIndex": 12879
   },
   {
@@ -5744,6 +7092,10 @@ const phrasesWork = [
     "wordIds": [
       "22978"
     ],
+    "cloze": {
+      "de": "Arbeiterin",
+      "en": "female"
+    },
     "sourceIndex": 12978
   },
   {
@@ -5761,6 +7113,10 @@ const phrasesWork = [
     "wordIds": [
       "23059"
     ],
+    "cloze": {
+      "de": "Koordinator",
+      "en": "coordinator"
+    },
     "sourceIndex": 13059
   },
   {
@@ -5778,6 +7134,10 @@ const phrasesWork = [
     "wordIds": [
       "23256"
     ],
+    "cloze": {
+      "de": "Kommilitone",
+      "en": "fellow"
+    },
     "sourceIndex": 13256
   },
   {
@@ -5795,6 +7155,10 @@ const phrasesWork = [
     "wordIds": [
       "23279"
     ],
+    "cloze": {
+      "de": "Nationaltrainer",
+      "en": "national"
+    },
     "sourceIndex": 13279
   },
   {
@@ -5812,6 +7176,10 @@ const phrasesWork = [
     "wordIds": [
       "23380"
     ],
+    "cloze": {
+      "de": "Bauunternehmen",
+      "en": "construction"
+    },
     "sourceIndex": 13380
   },
   {
@@ -5829,6 +7197,10 @@ const phrasesWork = [
     "wordIds": [
       "23381"
     ],
+    "cloze": {
+      "de": "Bauunternehmer",
+      "en": "building"
+    },
     "sourceIndex": 13381
   },
   {
@@ -5846,6 +7218,10 @@ const phrasesWork = [
     "wordIds": [
       "23426"
     ],
+    "cloze": {
+      "de": "fortfahren",
+      "en": "continue"
+    },
     "sourceIndex": 13426
   },
   {
@@ -5863,6 +7239,10 @@ const phrasesWork = [
     "wordIds": [
       "23526"
     ],
+    "cloze": {
+      "de": "tagen",
+      "en": "meet"
+    },
     "sourceIndex": 13526
   },
   {
@@ -5880,6 +7260,10 @@ const phrasesWork = [
     "wordIds": [
       "23594"
     ],
+    "cloze": {
+      "de": "Bergleute",
+      "en": "miners"
+    },
     "sourceIndex": 13594
   },
   {
@@ -5897,6 +7281,10 @@ const phrasesWork = [
     "wordIds": [
       "23614"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "disciplined"
+    },
     "sourceIndex": 13614
   },
   {
@@ -5914,6 +7302,10 @@ const phrasesWork = [
     "wordIds": [
       "23691"
     ],
+    "cloze": {
+      "de": "mitarbeiten",
+      "en": "collaborate"
+    },
     "sourceIndex": 13691
   },
   {
@@ -5931,6 +7323,10 @@ const phrasesWork = [
     "wordIds": [
       "23764"
     ],
+    "cloze": {
+      "de": "weiterarbeiten",
+      "en": "continue"
+    },
     "sourceIndex": 13764
   },
   {
@@ -5948,6 +7344,10 @@ const phrasesWork = [
     "wordIds": [
       "23804"
     ],
+    "cloze": {
+      "de": "berufstätig",
+      "en": "employed"
+    },
     "sourceIndex": 13804
   },
   {
@@ -5965,6 +7365,10 @@ const phrasesWork = [
     "wordIds": [
       "23976"
     ],
+    "cloze": {
+      "de": "Arbeitsagentur",
+      "en": "employment"
+    },
     "sourceIndex": 13976
   },
   {
@@ -5982,6 +7386,10 @@ const phrasesWork = [
     "wordIds": [
       "24080"
     ],
+    "cloze": {
+      "de": "mitgekriegt",
+      "en": "notice"
+    },
     "sourceIndex": 14080
   },
   {
@@ -5999,6 +7407,10 @@ const phrasesWork = [
     "wordIds": [
       "24368"
     ],
+    "cloze": {
+      "de": "Bauleiter",
+      "en": "construction"
+    },
     "sourceIndex": 14368
   },
   {
@@ -6016,6 +7428,10 @@ const phrasesWork = [
     "wordIds": [
       "24396"
     ],
+    "cloze": {
+      "de": "Erledigung",
+      "en": "completion"
+    },
     "sourceIndex": 14396
   },
   {
@@ -6033,6 +7449,10 @@ const phrasesWork = [
     "wordIds": [
       "24506"
     ],
+    "cloze": {
+      "de": "Teamarbeit",
+      "en": "teamwork"
+    },
     "sourceIndex": 14506
   },
   {
@@ -6050,6 +7470,10 @@ const phrasesWork = [
     "wordIds": [
       "24507"
     ],
+    "cloze": {
+      "de": "Teamleiter",
+      "en": "team"
+    },
     "sourceIndex": 14507
   },
   {
@@ -6067,6 +7491,10 @@ const phrasesWork = [
     "wordIds": [
       "24509"
     ],
+    "cloze": {
+      "de": "Timer",
+      "en": "timer"
+    },
     "sourceIndex": 14509
   },
   {
@@ -6084,6 +7512,10 @@ const phrasesWork = [
     "wordIds": [
       "24611"
     ],
+    "cloze": {
+      "de": "Festanstellung",
+      "en": "permanent"
+    },
     "sourceIndex": 14611
   },
   {
@@ -6101,6 +7533,10 @@ const phrasesWork = [
     "wordIds": [
       "24615"
     ],
+    "cloze": {
+      "de": "Freiberufler",
+      "en": "freelancers"
+    },
     "sourceIndex": 14615
   },
   {
@@ -6118,6 +7554,10 @@ const phrasesWork = [
     "wordIds": [
       "24680"
     ],
+    "cloze": {
+      "de": "mässig",
+      "en": "moderate"
+    },
     "sourceIndex": 14680
   },
   {
@@ -6135,6 +7575,10 @@ const phrasesWork = [
     "wordIds": [
       "24694"
     ],
+    "cloze": {
+      "de": "Pflegepersonal",
+      "en": "nursing"
+    },
     "sourceIndex": 14694
   },
   {
@@ -6152,6 +7596,10 @@ const phrasesWork = [
     "wordIds": [
       "24924"
     ],
+    "cloze": {
+      "de": "schlampig",
+      "en": "sloppy"
+    },
     "sourceIndex": 14924
   },
   {
@@ -6169,6 +7617,10 @@ const phrasesWork = [
     "wordIds": [
       "24994"
     ],
+    "cloze": {
+      "de": "Architekturbüro",
+      "en": "architectural"
+    },
     "sourceIndex": 14994
   },
   {
@@ -6186,6 +7638,10 @@ const phrasesWork = [
     "wordIds": [
       "25014"
     ],
+    "cloze": {
+      "de": "Dart",
+      "en": "dart"
+    },
     "sourceIndex": 15014
   },
   {
@@ -6203,6 +7659,10 @@ const phrasesWork = [
     "wordIds": [
       "25047"
     ],
+    "cloze": {
+      "de": "gelobt",
+      "en": "praised"
+    },
     "sourceIndex": 15047
   },
   {
@@ -6220,6 +7680,10 @@ const phrasesWork = [
     "wordIds": [
       "25155"
     ],
+    "cloze": {
+      "de": "Studis",
+      "en": "students"
+    },
     "sourceIndex": 15155
   },
   {
@@ -6237,6 +7701,10 @@ const phrasesWork = [
     "wordIds": [
       "25220"
     ],
+    "cloze": {
+      "de": "Bewerbungsgespräch",
+      "en": "job"
+    },
     "sourceIndex": 15220
   },
   {
@@ -6254,6 +7722,10 @@ const phrasesWork = [
     "wordIds": [
       "25428"
     ],
+    "cloze": {
+      "de": "Berufstätigkeit",
+      "en": "employment"
+    },
     "sourceIndex": 15428
   },
   {
@@ -6271,6 +7743,10 @@ const phrasesWork = [
     "wordIds": [
       "25429"
     ],
+    "cloze": {
+      "de": "Betriebsleiter",
+      "en": "operations"
+    },
     "sourceIndex": 15429
   },
   {
@@ -6288,6 +7764,10 @@ const phrasesWork = [
     "wordIds": [
       "25483"
     ],
+    "cloze": {
+      "de": "Frauenarzt",
+      "en": "gynecologist"
+    },
     "sourceIndex": 15483
   },
   {
@@ -6305,6 +7785,10 @@ const phrasesWork = [
     "wordIds": [
       "25555"
     ],
+    "cloze": {
+      "de": "Postamt",
+      "en": "post"
+    },
     "sourceIndex": 15555
   },
   {
@@ -6322,6 +7806,10 @@ const phrasesWork = [
     "wordIds": [
       "25574"
     ],
+    "cloze": {
+      "de": "Schulpflicht",
+      "en": "compulsory"
+    },
     "sourceIndex": 15574
   },
   {
@@ -6339,6 +7827,10 @@ const phrasesWork = [
     "wordIds": [
       "25941"
     ],
+    "cloze": {
+      "de": "informell",
+      "en": "informal"
+    },
     "sourceIndex": 15941
   },
   {
@@ -6356,6 +7848,10 @@ const phrasesWork = [
     "wordIds": [
       "25952"
     ],
+    "cloze": {
+      "de": "konzentriert",
+      "en": "concentratedly"
+    },
     "sourceIndex": 15952
   },
   {
@@ -6373,6 +7869,10 @@ const phrasesWork = [
     "wordIds": [
       "26115"
     ],
+    "cloze": {
+      "de": "Feuerwache",
+      "en": "fire"
+    },
     "sourceIndex": 16115
   },
   {
@@ -6390,6 +7890,10 @@ const phrasesWork = [
     "wordIds": [
       "26154"
     ],
+    "cloze": {
+      "de": "Karriereende",
+      "en": "career"
+    },
     "sourceIndex": 16154
   },
   {
@@ -6407,6 +7911,10 @@ const phrasesWork = [
     "wordIds": [
       "26204"
     ],
+    "cloze": {
+      "de": "Praktikantin",
+      "en": "female"
+    },
     "sourceIndex": 16204
   },
   {
@@ -6424,6 +7932,10 @@ const phrasesWork = [
     "wordIds": [
       "26269"
     ],
+    "cloze": {
+      "de": "Unternehmerin",
+      "en": "female"
+    },
     "sourceIndex": 16269
   },
   {
@@ -6441,6 +7953,10 @@ const phrasesWork = [
     "wordIds": [
       "26302"
     ],
+    "cloze": {
+      "de": "zurückfahren",
+      "en": "reduce"
+    },
     "sourceIndex": 16302
   },
   {
@@ -6458,6 +7974,10 @@ const phrasesWork = [
     "wordIds": [
       "26327"
     ],
+    "cloze": {
+      "de": "aufschieben",
+      "en": "postpone"
+    },
     "sourceIndex": 16327
   },
   {
@@ -6475,6 +7995,10 @@ const phrasesWork = [
     "wordIds": [
       "26412"
     ],
+    "cloze": {
+      "de": "Homeoffice",
+      "en": "home"
+    },
     "sourceIndex": 16412
   },
   {
@@ -6492,6 +8016,10 @@ const phrasesWork = [
     "wordIds": [
       "26427"
     ],
+    "cloze": {
+      "de": "Klugheit",
+      "en": "wisdom"
+    },
     "sourceIndex": 16427
   },
   {
@@ -6509,6 +8037,10 @@ const phrasesWork = [
     "wordIds": [
       "26576"
     ],
+    "cloze": {
+      "de": "Ausbildungsplatz",
+      "en": "apprenticeship"
+    },
     "sourceIndex": 16576
   },
   {
@@ -6526,6 +8058,10 @@ const phrasesWork = [
     "wordIds": [
       "26594"
     ],
+    "cloze": {
+      "de": "Cheerleader",
+      "en": "cheerleaders"
+    },
     "sourceIndex": 16594
   },
   {
@@ -6543,6 +8079,10 @@ const phrasesWork = [
     "wordIds": [
       "26651"
     ],
+    "cloze": {
+      "de": "Hilfskraft",
+      "en": "assistant"
+    },
     "sourceIndex": 16651
   },
   {
@@ -6560,6 +8100,10 @@ const phrasesWork = [
     "wordIds": [
       "26681"
     ],
+    "cloze": {
+      "de": "Kocher",
+      "en": "cooker"
+    },
     "sourceIndex": 16681
   },
   {
@@ -6577,6 +8121,10 @@ const phrasesWork = [
     "wordIds": [
       "26720"
     ],
+    "cloze": {
+      "de": "Producer",
+      "en": "producer"
+    },
     "sourceIndex": 16720
   },
   {
@@ -6594,6 +8142,10 @@ const phrasesWork = [
     "wordIds": [
       "26777"
     ],
+    "cloze": {
+      "de": "Umbauarbeiten",
+      "en": "renovation"
+    },
     "sourceIndex": 16777
   },
   {
@@ -6611,6 +8163,10 @@ const phrasesWork = [
     "wordIds": [
       "26808"
     ],
+    "cloze": {
+      "de": "abgegebene",
+      "en": "submitted"
+    },
     "sourceIndex": 16808
   },
   {
@@ -6628,6 +8184,10 @@ const phrasesWork = [
     "wordIds": [
       "26815"
     ],
+    "cloze": {
+      "de": "an",
+      "en": "on"
+    },
     "sourceIndex": 16815
   },
   {
@@ -6645,6 +8205,10 @@ const phrasesWork = [
     "wordIds": [
       "26863"
     ],
+    "cloze": {
+      "de": "Feuerwehrhaus",
+      "en": "fire"
+    },
     "sourceIndex": 16863
   },
   {
@@ -6662,6 +8226,10 @@ const phrasesWork = [
     "wordIds": [
       "26932"
     ],
+    "cloze": {
+      "de": "Minijob",
+      "en": "mini-job"
+    },
     "sourceIndex": 16932
   },
   {
@@ -6679,6 +8247,10 @@ const phrasesWork = [
     "wordIds": [
       "26933"
     ],
+    "cloze": {
+      "de": "minutenlang",
+      "en": "for"
+    },
     "sourceIndex": 16933
   },
   {
@@ -6696,6 +8268,10 @@ const phrasesWork = [
     "wordIds": [
       "26938"
     ],
+    "cloze": {
+      "de": "monoton",
+      "en": "monotonous"
+    },
     "sourceIndex": 16938
   },
   {
@@ -6713,6 +8289,10 @@ const phrasesWork = [
     "wordIds": [
       "26954"
     ],
+    "cloze": {
+      "de": "paarweise",
+      "en": "in"
+    },
     "sourceIndex": 16954
   },
   {
@@ -6730,6 +8310,10 @@ const phrasesWork = [
     "wordIds": [
       "27018"
     ],
+    "cloze": {
+      "de": "unbesetzt",
+      "en": "vacant"
+    },
     "sourceIndex": 17018
   },
   {
@@ -6747,6 +8331,10 @@ const phrasesWork = [
     "wordIds": [
       "27213"
     ],
+    "cloze": {
+      "de": "misslingen",
+      "en": "fail"
+    },
     "sourceIndex": 17213
   },
   {
@@ -6764,6 +8352,10 @@ const phrasesWork = [
     "wordIds": [
       "27701"
     ],
+    "cloze": {
+      "de": "Gruppenarbeit",
+      "en": "group"
+    },
     "sourceIndex": 17701
   },
   {
@@ -6781,6 +8373,10 @@ const phrasesWork = [
     "wordIds": [
       "27851"
     ],
+    "cloze": {
+      "de": "zusammentun",
+      "en": "team"
+    },
     "sourceIndex": 17851
   },
   {
@@ -6798,6 +8394,10 @@ const phrasesWork = [
     "wordIds": [
       "27879"
     ],
+    "cloze": {
+      "de": "Ausbildungsberuf",
+      "en": "apprenticeship"
+    },
     "sourceIndex": 17879
   },
   {
@@ -6815,6 +8415,10 @@ const phrasesWork = [
     "wordIds": [
       "27941"
     ],
+    "cloze": {
+      "de": "Helferin",
+      "en": "female"
+    },
     "sourceIndex": 17941
   },
   {
@@ -6832,6 +8436,10 @@ const phrasesWork = [
     "wordIds": [
       "27948"
     ],
+    "cloze": {
+      "de": "Händedruck",
+      "en": "handshake"
+    },
     "sourceIndex": 17948
   },
   {
@@ -6849,6 +8457,10 @@ const phrasesWork = [
     "wordIds": [
       "28076"
     ],
+    "cloze": {
+      "de": "Werkstätte",
+      "en": "workshop"
+    },
     "sourceIndex": 18076
   },
   {
@@ -6866,6 +8478,10 @@ const phrasesWork = [
     "wordIds": [
       "28099"
     ],
+    "cloze": {
+      "de": "Arbeitsbereich",
+      "en": "work"
+    },
     "sourceIndex": 18099
   },
   {
@@ -6883,6 +8499,10 @@ const phrasesWork = [
     "wordIds": [
       "28164"
     ],
+    "cloze": {
+      "de": "Gehilfen",
+      "en": "assistant"
+    },
     "sourceIndex": 18164
   },
   {
@@ -6900,6 +8520,10 @@ const phrasesWork = [
     "wordIds": [
       "28348"
     ],
+    "cloze": {
+      "de": "überschneiden",
+      "en": "overlap"
+    },
     "sourceIndex": 18348
   },
   {
@@ -6917,6 +8541,10 @@ const phrasesWork = [
     "wordIds": [
       "28519"
     ],
+    "cloze": {
+      "de": "Pflegedienst",
+      "en": "nursing"
+    },
     "sourceIndex": 18519
   },
   {
@@ -6934,6 +8562,10 @@ const phrasesWork = [
     "wordIds": [
       "28698"
     ],
+    "cloze": {
+      "de": "geschlagene",
+      "en": "defeated"
+    },
     "sourceIndex": 18698
   },
   {
@@ -6951,6 +8583,10 @@ const phrasesWork = [
     "wordIds": [
       "28893"
     ],
+    "cloze": {
+      "de": "Aushang",
+      "en": "notice"
+    },
     "sourceIndex": 18893
   },
   {
@@ -6968,6 +8604,10 @@ const phrasesWork = [
     "wordIds": [
       "28917"
     ],
+    "cloze": {
+      "de": "Blogeintrag",
+      "en": "blog"
+    },
     "sourceIndex": 18917
   },
   {
@@ -6985,6 +8625,10 @@ const phrasesWork = [
     "wordIds": [
       "29037"
     ],
+    "cloze": {
+      "de": "Lehrstelle",
+      "en": "apprenticeship"
+    },
     "sourceIndex": 19037
   },
   {
@@ -7002,6 +8646,10 @@ const phrasesWork = [
     "wordIds": [
       "29066"
     ],
+    "cloze": {
+      "de": "Plattenfirma",
+      "en": "record"
+    },
     "sourceIndex": 19066
   },
   {
@@ -7019,6 +8667,10 @@ const phrasesWork = [
     "wordIds": [
       "29071"
     ],
+    "cloze": {
+      "de": "Projektarbeit",
+      "en": "project"
+    },
     "sourceIndex": 19071
   },
   {
@@ -7036,6 +8688,10 @@ const phrasesWork = [
     "wordIds": [
       "29082"
     ],
+    "cloze": {
+      "de": "Reparaturarbeiten",
+      "en": "repair"
+    },
     "sourceIndex": 19082
   },
   {
@@ -7053,6 +8709,10 @@ const phrasesWork = [
     "wordIds": [
       "29203"
     ],
+    "cloze": {
+      "de": "Betreuerin",
+      "en": "female"
+    },
     "sourceIndex": 19203
   },
   {
@@ -7070,6 +8730,10 @@ const phrasesWork = [
     "wordIds": [
       "29305"
     ],
+    "cloze": {
+      "de": "Kleingruppe",
+      "en": "small"
+    },
     "sourceIndex": 19305
   },
   {
@@ -7087,6 +8751,10 @@ const phrasesWork = [
     "wordIds": [
       "29328"
     ],
+    "cloze": {
+      "de": "Mehrarbeit",
+      "en": "overtime"
+    },
     "sourceIndex": 19328
   },
   {
@@ -7104,6 +8772,10 @@ const phrasesWork = [
     "wordIds": [
       "29757"
     ],
+    "cloze": {
+      "de": "zumindestens",
+      "en": "at"
+    },
     "sourceIndex": 19757
   },
   {
@@ -7121,6 +8793,10 @@ const phrasesWork = [
     "wordIds": [
       "29763"
     ],
+    "cloze": {
+      "de": "Übersetzerin",
+      "en": "translator"
+    },
     "sourceIndex": 19763
   },
   {
@@ -7138,6 +8814,10 @@ const phrasesWork = [
     "wordIds": [
       "29972"
     ],
+    "cloze": {
+      "de": "signiertes",
+      "en": "signed"
+    },
     "sourceIndex": 19972
   },
   {
@@ -7155,6 +8835,10 @@ const phrasesWork = [
     "wordIds": [
       "30130"
     ],
+    "cloze": {
+      "de": "Firmengründer",
+      "en": "company"
+    },
     "sourceIndex": 20130
   },
   {
@@ -7172,6 +8856,10 @@ const phrasesWork = [
     "wordIds": [
       "30148"
     ],
+    "cloze": {
+      "de": "Geschäftsfrau",
+      "en": "businesswoman"
+    },
     "sourceIndex": 20148
   },
   {
@@ -7189,6 +8877,10 @@ const phrasesWork = [
     "wordIds": [
       "30179"
     ],
+    "cloze": {
+      "de": "Konferenzraum",
+      "en": "conference"
+    },
     "sourceIndex": 20179
   }
 ];

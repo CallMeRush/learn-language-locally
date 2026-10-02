@@ -14,6 +14,10 @@ const phrasesTime = [
     "wordIds": [
       "10004"
     ],
+    "cloze": {
+      "de": "nur",
+      "en": "only"
+    },
     "sourceIndex": 4
   },
   {
@@ -31,6 +35,10 @@ const phrasesTime = [
     "wordIds": [
       "10011"
     ],
+    "cloze": {
+      "de": "mal",
+      "en": "Just"
+    },
     "sourceIndex": 11
   },
   {
@@ -48,6 +56,10 @@ const phrasesTime = [
     "wordIds": [
       "10012"
     ],
+    "cloze": {
+      "de": "Male",
+      "en": "many"
+    },
     "sourceIndex": 12
   },
   {
@@ -65,6 +77,10 @@ const phrasesTime = [
     "wordIds": [
       "10015"
     ],
+    "cloze": {
+      "de": "immer",
+      "en": "always"
+    },
     "sourceIndex": 15
   },
   {
@@ -82,6 +98,10 @@ const phrasesTime = [
     "wordIds": [
       "10026"
     ],
+    "cloze": {
+      "de": "Zeit",
+      "en": "time"
+    },
     "sourceIndex": 26
   },
   {
@@ -99,6 +119,10 @@ const phrasesTime = [
     "wordIds": [
       "10028"
     ],
+    "cloze": {
+      "de": "machst",
+      "en": "doing"
+    },
     "sourceIndex": 28
   },
   {
@@ -116,6 +140,10 @@ const phrasesTime = [
     "wordIds": [
       "10030"
     ],
+    "cloze": {
+      "de": "zwei",
+      "en": "two"
+    },
     "sourceIndex": 30
   },
   {
@@ -133,6 +161,10 @@ const phrasesTime = [
     "wordIds": [
       "10034"
     ],
+    "cloze": {
+      "de": "Heute",
+      "en": "Today"
+    },
     "sourceIndex": 34
   },
   {
@@ -151,6 +183,10 @@ const phrasesTime = [
       "10039",
       "10393"
     ],
+    "cloze": {
+      "de": "Jahr",
+      "en": "year"
+    },
     "sourceIndex": 39
   },
   {
@@ -168,6 +204,10 @@ const phrasesTime = [
     "wordIds": [
       "10044"
     ],
+    "cloze": {
+      "de": "erst",
+      "en": "not"
+    },
     "sourceIndex": 44
   },
   {
@@ -185,6 +225,10 @@ const phrasesTime = [
     "wordIds": [
       "10051"
     ],
+    "cloze": {
+      "de": "wohl",
+      "en": "probably"
+    },
     "sourceIndex": 51
   },
   {
@@ -202,6 +246,10 @@ const phrasesTime = [
     "wordIds": [
       "10052"
     ],
+    "cloze": {
+      "de": "drei",
+      "en": "three"
+    },
     "sourceIndex": 52
   },
   {
@@ -219,6 +267,10 @@ const phrasesTime = [
     "wordIds": [
       "10057"
     ],
+    "cloze": {
+      "de": "Tag",
+      "en": "day"
+    },
     "sourceIndex": 57
   },
   {
@@ -236,6 +288,10 @@ const phrasesTime = [
     "wordIds": [
       "10065"
     ],
+    "cloze": {
+      "de": "nie",
+      "en": "never"
+    },
     "sourceIndex": 65
   },
   {
@@ -253,6 +309,10 @@ const phrasesTime = [
     "wordIds": [
       "10066"
     ],
+    "cloze": {
+      "de": "Uhr",
+      "en": "o'clock"
+    },
     "sourceIndex": 66
   },
   {
@@ -270,6 +330,10 @@ const phrasesTime = [
     "wordIds": [
       "10067"
     ],
+    "cloze": {
+      "de": "einmal",
+      "en": "once"
+    },
     "sourceIndex": 67
   },
   {
@@ -287,6 +351,10 @@ const phrasesTime = [
     "wordIds": [
       "10102"
     ],
+    "cloze": {
+      "de": "letzte",
+      "en": "last"
+    },
     "sourceIndex": 102
   },
   {
@@ -304,6 +372,10 @@ const phrasesTime = [
     "wordIds": [
       "10110"
     ],
+    "cloze": {
+      "de": "spät",
+      "en": "late"
+    },
     "sourceIndex": 110
   },
   {
@@ -321,6 +393,10 @@ const phrasesTime = [
     "wordIds": [
       "10113"
     ],
+    "cloze": {
+      "de": "Spiel",
+      "en": "game"
+    },
     "sourceIndex": 113
   },
   {
@@ -338,6 +414,10 @@ const phrasesTime = [
     "wordIds": [
       "10114"
     ],
+    "cloze": {
+      "de": "wenig",
+      "en": "little"
+    },
     "sourceIndex": 114
   },
   {
@@ -355,6 +435,10 @@ const phrasesTime = [
     "wordIds": [
       "10117"
     ],
+    "cloze": {
+      "de": "oft",
+      "en": "often"
+    },
     "sourceIndex": 117
   },
   {
@@ -372,6 +456,10 @@ const phrasesTime = [
     "wordIds": [
       "10125"
     ],
+    "cloze": {
+      "de": "darüber",
+      "en": "about"
+    },
     "sourceIndex": 125
   },
   {
@@ -389,6 +477,10 @@ const phrasesTime = [
     "wordIds": [
       "10127"
     ],
+    "cloze": {
+      "de": "vier",
+      "en": "four"
+    },
     "sourceIndex": 127
   },
   {
@@ -406,6 +498,10 @@ const phrasesTime = [
     "wordIds": [
       "10146"
     ],
+    "cloze": {
+      "de": "Minute",
+      "en": "minute"
+    },
     "sourceIndex": 146
   },
   {
@@ -423,6 +519,10 @@ const phrasesTime = [
     "wordIds": [
       "10153"
     ],
+    "cloze": {
+      "de": "Woche",
+      "en": "week"
+    },
     "sourceIndex": 153
   },
   {
@@ -440,6 +540,10 @@ const phrasesTime = [
     "wordIds": [
       "10160"
     ],
+    "cloze": {
+      "de": "Nacht",
+      "en": "night"
+    },
     "sourceIndex": 160
   },
   {
@@ -457,6 +561,10 @@ const phrasesTime = [
     "wordIds": [
       "10162"
     ],
+    "cloze": {
+      "de": "Stunde",
+      "en": "hour"
+    },
     "sourceIndex": 162
   },
   {
@@ -474,6 +582,10 @@ const phrasesTime = [
     "wordIds": [
       "10170"
     ],
+    "cloze": {
+      "de": "Schule",
+      "en": "School"
+    },
     "sourceIndex": 170
   },
   {
@@ -491,6 +603,10 @@ const phrasesTime = [
     "wordIds": [
       "10176"
     ],
+    "cloze": {
+      "de": "Abend",
+      "en": "evening"
+    },
     "sourceIndex": 176
   },
   {
@@ -508,6 +624,10 @@ const phrasesTime = [
     "wordIds": [
       "10183"
     ],
+    "cloze": {
+      "de": "bald",
+      "en": "soon"
+    },
     "sourceIndex": 183
   },
   {
@@ -525,6 +645,10 @@ const phrasesTime = [
     "wordIds": [
       "10188"
     ],
+    "cloze": {
+      "de": "zweites",
+      "en": "second"
+    },
     "sourceIndex": 188
   },
   {
@@ -542,6 +666,10 @@ const phrasesTime = [
     "wordIds": [
       "10196"
     ],
+    "cloze": {
+      "de": "Damals",
+      "en": "At"
+    },
     "sourceIndex": 196
   },
   {
@@ -559,6 +687,10 @@ const phrasesTime = [
     "wordIds": [
       "10197"
     ],
+    "cloze": {
+      "de": "Endlich",
+      "en": "Finally"
+    },
     "sourceIndex": 197
   },
   {
@@ -576,6 +708,10 @@ const phrasesTime = [
     "wordIds": [
       "10198"
     ],
+    "cloze": {
+      "de": "fünf",
+      "en": "five"
+    },
     "sourceIndex": 198
   },
   {
@@ -593,6 +729,10 @@ const phrasesTime = [
     "wordIds": [
       "10207"
     ],
+    "cloze": {
+      "de": "Alter",
+      "en": "age"
+    },
     "sourceIndex": 207
   },
   {
@@ -610,6 +750,10 @@ const phrasesTime = [
     "wordIds": [
       "10208"
     ],
+    "cloze": {
+      "de": "Anfang",
+      "en": "beginning"
+    },
     "sourceIndex": 208
   },
   {
@@ -627,6 +771,10 @@ const phrasesTime = [
     "wordIds": [
       "10219"
     ],
+    "cloze": {
+      "de": "Gruppe",
+      "en": "group"
+    },
     "sourceIndex": 219
   },
   {
@@ -644,6 +792,10 @@ const phrasesTime = [
     "wordIds": [
       "10222"
     ],
+    "cloze": {
+      "de": "Million",
+      "en": "million"
+    },
     "sourceIndex": 222
   },
   {
@@ -661,6 +813,10 @@ const phrasesTime = [
     "wordIds": [
       "10248"
     ],
+    "cloze": {
+      "de": "früh",
+      "en": "early"
+    },
     "sourceIndex": 248
   },
   {
@@ -678,6 +834,10 @@ const phrasesTime = [
     "wordIds": [
       "10249"
     ],
+    "cloze": {
+      "de": "Prozent",
+      "en": "percent"
+    },
     "sourceIndex": 249
   },
   {
@@ -695,6 +855,10 @@ const phrasesTime = [
     "wordIds": [
       "10259"
     ],
+    "cloze": {
+      "de": "Zukunft",
+      "en": "future"
+    },
     "sourceIndex": 259
   },
   {
@@ -712,6 +876,10 @@ const phrasesTime = [
     "wordIds": [
       "10267"
     ],
+    "cloze": {
+      "de": "Manchmal",
+      "en": "Sometimes"
+    },
     "sourceIndex": 267
   },
   {
@@ -729,6 +897,10 @@ const phrasesTime = [
     "wordIds": [
       "10292"
     ],
+    "cloze": {
+      "de": "Wieso",
+      "en": "Why"
+    },
     "sourceIndex": 292
   },
   {
@@ -746,6 +918,10 @@ const phrasesTime = [
     "wordIds": [
       "10301"
     ],
+    "cloze": {
+      "de": "gestern",
+      "en": "yesterday"
+    },
     "sourceIndex": 301
   },
   {
@@ -763,6 +939,10 @@ const phrasesTime = [
     "wordIds": [
       "10304"
     ],
+    "cloze": {
+      "de": "März",
+      "en": "March"
+    },
     "sourceIndex": 304
   },
   {
@@ -780,6 +960,10 @@ const phrasesTime = [
     "wordIds": [
       "10308"
     ],
+    "cloze": {
+      "de": "Blick",
+      "en": "glance"
+    },
     "sourceIndex": 308
   },
   {
@@ -797,6 +981,10 @@ const phrasesTime = [
     "wordIds": [
       "10317"
     ],
+    "cloze": {
+      "de": "Moment",
+      "en": "moment"
+    },
     "sourceIndex": 317
   },
   {
@@ -814,6 +1002,10 @@ const phrasesTime = [
     "wordIds": [
       "10319"
     ],
+    "cloze": {
+      "de": "sechs",
+      "en": "six"
+    },
     "sourceIndex": 319
   },
   {
@@ -831,6 +1023,10 @@ const phrasesTime = [
     "wordIds": [
       "10324"
     ],
+    "cloze": {
+      "de": "April",
+      "en": "April"
+    },
     "sourceIndex": 324
   },
   {
@@ -848,6 +1044,10 @@ const phrasesTime = [
     "wordIds": [
       "10331"
     ],
+    "cloze": {
+      "de": "Juli",
+      "en": "July"
+    },
     "sourceIndex": 331
   },
   {
@@ -865,6 +1065,10 @@ const phrasesTime = [
     "wordIds": [
       "10332"
     ],
+    "cloze": {
+      "de": "Juni",
+      "en": "June"
+    },
     "sourceIndex": 332
   },
   {
@@ -882,6 +1086,10 @@ const phrasesTime = [
     "wordIds": [
       "10335"
     ],
+    "cloze": {
+      "de": "Oktober",
+      "en": "October"
+    },
     "sourceIndex": 335
   },
   {
@@ -899,6 +1107,10 @@ const phrasesTime = [
     "wordIds": [
       "10343"
     ],
+    "cloze": {
+      "de": "gleichzeitig",
+      "en": "simultaneously"
+    },
     "sourceIndex": 343
   },
   {
@@ -916,6 +1128,10 @@ const phrasesTime = [
     "wordIds": [
       "10354"
     ],
+    "cloze": {
+      "de": "Sommer",
+      "en": "Summer"
+    },
     "sourceIndex": 354
   },
   {
@@ -933,6 +1149,10 @@ const phrasesTime = [
     "wordIds": [
       "10358"
     ],
+    "cloze": {
+      "de": "zehn",
+      "en": "ten"
+    },
     "sourceIndex": 358
   },
   {
@@ -950,6 +1170,10 @@ const phrasesTime = [
     "wordIds": [
       "10359"
     ],
+    "cloze": {
+      "de": "handeln",
+      "en": "act"
+    },
     "sourceIndex": 359
   },
   {
@@ -967,6 +1191,10 @@ const phrasesTime = [
     "wordIds": [
       "10383"
     ],
+    "cloze": {
+      "de": "Saison",
+      "en": "season"
+    },
     "sourceIndex": 383
   },
   {
@@ -984,6 +1212,10 @@ const phrasesTime = [
     "wordIds": [
       "10391"
     ],
+    "cloze": {
+      "de": "Dezember",
+      "en": "December"
+    },
     "sourceIndex": 391
   },
   {
@@ -1001,6 +1233,10 @@ const phrasesTime = [
     "wordIds": [
       "10397"
     ],
+    "cloze": {
+      "de": "Vergleich",
+      "en": "comparison"
+    },
     "sourceIndex": 397
   },
   {
@@ -1018,6 +1254,10 @@ const phrasesTime = [
     "wordIds": [
       "10402"
     ],
+    "cloze": {
+      "de": "Januar",
+      "en": "January"
+    },
     "sourceIndex": 402
   },
   {
@@ -1035,6 +1275,10 @@ const phrasesTime = [
     "wordIds": [
       "10407"
     ],
+    "cloze": {
+      "de": "vorher",
+      "en": "before"
+    },
     "sourceIndex": 407
   },
   {
@@ -1052,6 +1296,10 @@ const phrasesTime = [
     "wordIds": [
       "10409"
     ],
+    "cloze": {
+      "de": "Datum",
+      "en": "date"
+    },
     "sourceIndex": 409
   },
   {
@@ -1069,6 +1317,10 @@ const phrasesTime = [
     "wordIds": [
       "10413"
     ],
+    "cloze": {
+      "de": "häufig",
+      "en": "often"
+    },
     "sourceIndex": 413
   },
   {
@@ -1086,6 +1338,10 @@ const phrasesTime = [
     "wordIds": [
       "10423"
     ],
+    "cloze": {
+      "de": "Februar",
+      "en": "February"
+    },
     "sourceIndex": 423
   },
   {
@@ -1103,6 +1359,10 @@ const phrasesTime = [
     "wordIds": [
       "10429"
     ],
+    "cloze": {
+      "de": "nochmal",
+      "en": "again"
+    },
     "sourceIndex": 429
   },
   {
@@ -1120,6 +1380,10 @@ const phrasesTime = [
     "wordIds": [
       "10436"
     ],
+    "cloze": {
+      "de": "Sonntag",
+      "en": "Sunday"
+    },
     "sourceIndex": 436
   },
   {
@@ -1137,6 +1401,10 @@ const phrasesTime = [
     "wordIds": [
       "10448"
     ],
+    "cloze": {
+      "de": "Punkt",
+      "en": "period"
+    },
     "sourceIndex": 448
   },
   {
@@ -1154,6 +1422,10 @@ const phrasesTime = [
     "wordIds": [
       "10470"
     ],
+    "cloze": {
+      "de": "acht",
+      "en": "eight"
+    },
     "sourceIndex": 470
   },
   {
@@ -1171,6 +1443,10 @@ const phrasesTime = [
     "wordIds": [
       "10476"
     ],
+    "cloze": {
+      "de": "Programm",
+      "en": "program"
+    },
     "sourceIndex": 476
   },
   {
@@ -1188,6 +1464,10 @@ const phrasesTime = [
     "wordIds": [
       "10480"
     ],
+    "cloze": {
+      "de": "sieben",
+      "en": "seven"
+    },
     "sourceIndex": 480
   },
   {
@@ -1205,6 +1485,10 @@ const phrasesTime = [
     "wordIds": [
       "10490"
     ],
+    "cloze": {
+      "de": "eins",
+      "en": "one"
+    },
     "sourceIndex": 490
   },
   {
@@ -1222,6 +1506,10 @@ const phrasesTime = [
     "wordIds": [
       "10504"
     ],
+    "cloze": {
+      "de": "fehlt",
+      "en": "I"
+    },
     "sourceIndex": 504
   },
   {
@@ -1239,6 +1527,10 @@ const phrasesTime = [
     "wordIds": [
       "10510"
     ],
+    "cloze": {
+      "de": "Wochenende",
+      "en": "weekend"
+    },
     "sourceIndex": 510
   },
   {
@@ -1256,6 +1548,10 @@ const phrasesTime = [
     "wordIds": [
       "10511"
     ],
+    "cloze": {
+      "de": "beginnt",
+      "en": "begins"
+    },
     "sourceIndex": 511
   },
   {
@@ -1273,6 +1569,10 @@ const phrasesTime = [
     "wordIds": [
       "10520"
     ],
+    "cloze": {
+      "de": "niemals",
+      "en": "never"
+    },
     "sourceIndex": 520
   },
   {
@@ -1290,6 +1590,10 @@ const phrasesTime = [
     "wordIds": [
       "10536"
     ],
+    "cloze": {
+      "de": "Wahrheit",
+      "en": "truth"
+    },
     "sourceIndex": 536
   },
   {
@@ -1307,6 +1611,10 @@ const phrasesTime = [
     "wordIds": [
       "10539"
     ],
+    "cloze": {
+      "de": "knapp",
+      "en": "is"
+    },
     "sourceIndex": 539
   },
   {
@@ -1324,6 +1632,10 @@ const phrasesTime = [
     "wordIds": [
       "10545"
     ],
+    "cloze": {
+      "de": "Samstag",
+      "en": "Saturday"
+    },
     "sourceIndex": 545
   },
   {
@@ -1341,6 +1653,10 @@ const phrasesTime = [
     "wordIds": [
       "10555"
     ],
+    "cloze": {
+      "de": "freue",
+      "en": "forward"
+    },
     "sourceIndex": 555
   },
   {
@@ -1358,6 +1674,10 @@ const phrasesTime = [
     "wordIds": [
       "10558"
     ],
+    "cloze": {
+      "de": "Schluss",
+      "en": "end"
+    },
     "sourceIndex": 558
   },
   {
@@ -1375,6 +1695,10 @@ const phrasesTime = [
     "wordIds": [
       "10562"
     ],
+    "cloze": {
+      "de": "ähnlich",
+      "en": "similar"
+    },
     "sourceIndex": 562
   },
   {
@@ -1392,6 +1716,10 @@ const phrasesTime = [
     "wordIds": [
       "10565"
     ],
+    "cloze": {
+      "de": "Cm",
+      "en": "is"
+    },
     "sourceIndex": 565
   },
   {
@@ -1409,6 +1737,10 @@ const phrasesTime = [
     "wordIds": [
       "10566"
     ],
+    "cloze": {
+      "de": "entscheiden",
+      "en": "decide"
+    },
     "sourceIndex": 566
   },
   {
@@ -1426,6 +1758,10 @@ const phrasesTime = [
     "wordIds": [
       "10568"
     ],
+    "cloze": {
+      "de": "Freitag",
+      "en": "Friday"
+    },
     "sourceIndex": 568
   },
   {
@@ -1443,6 +1779,10 @@ const phrasesTime = [
     "wordIds": [
       "10585"
     ],
+    "cloze": {
+      "de": "Telefonnummer",
+      "en": "number"
+    },
     "sourceIndex": 585
   },
   {
@@ -1460,6 +1800,10 @@ const phrasesTime = [
     "wordIds": [
       "10594"
     ],
+    "cloze": {
+      "de": "Besuch",
+      "en": "visitors"
+    },
     "sourceIndex": 594
   },
   {
@@ -1477,6 +1821,10 @@ const phrasesTime = [
     "wordIds": [
       "10628"
     ],
+    "cloze": {
+      "de": "Montag",
+      "en": "Monday"
+    },
     "sourceIndex": 628
   },
   {
@@ -1494,6 +1842,10 @@ const phrasesTime = [
     "wordIds": [
       "10638"
     ],
+    "cloze": {
+      "de": "erstmals",
+      "en": "for"
+    },
     "sourceIndex": 638
   },
   {
@@ -1511,6 +1863,10 @@ const phrasesTime = [
     "wordIds": [
       "10642"
     ],
+    "cloze": {
+      "de": "Zeitpunkt",
+      "en": "point"
+    },
     "sourceIndex": 642
   },
   {
@@ -1528,6 +1884,10 @@ const phrasesTime = [
     "wordIds": [
       "10643"
     ],
+    "cloze": {
+      "de": "Anzahl",
+      "en": "number"
+    },
     "sourceIndex": 643
   },
   {
@@ -1545,6 +1905,10 @@ const phrasesTime = [
     "wordIds": [
       "10649"
     ],
+    "cloze": {
+      "de": "heutige",
+      "en": "Today's"
+    },
     "sourceIndex": 649
   },
   {
@@ -1562,6 +1926,10 @@ const phrasesTime = [
     "wordIds": [
       "10673"
     ],
+    "cloze": {
+      "de": "Studium",
+      "en": "studies"
+    },
     "sourceIndex": 673
   },
   {
@@ -1579,6 +1947,10 @@ const phrasesTime = [
     "wordIds": [
       "10675"
     ],
+    "cloze": {
+      "de": "Unterschied",
+      "en": "difference"
+    },
     "sourceIndex": 675
   },
   {
@@ -1596,6 +1968,10 @@ const phrasesTime = [
     "wordIds": [
       "10676"
     ],
+    "cloze": {
+      "de": "Winter",
+      "en": "Winter"
+    },
     "sourceIndex": 676
   },
   {
@@ -1613,6 +1989,10 @@ const phrasesTime = [
     "wordIds": [
       "10702"
     ],
+    "cloze": {
+      "de": "Jahrhundert",
+      "en": "century"
+    },
     "sourceIndex": 702
   },
   {
@@ -1630,6 +2010,10 @@ const phrasesTime = [
     "wordIds": [
       "10707"
     ],
+    "cloze": {
+      "de": "Teilnehmer",
+      "en": "participants"
+    },
     "sourceIndex": 707
   },
   {
@@ -1647,6 +2031,10 @@ const phrasesTime = [
     "wordIds": [
       "10722"
     ],
+    "cloze": {
+      "de": "Show",
+      "en": "show"
+    },
     "sourceIndex": 722
   },
   {
@@ -1664,6 +2052,10 @@ const phrasesTime = [
     "wordIds": [
       "10763"
     ],
+    "cloze": {
+      "de": "Vergangenheit",
+      "en": "past"
+    },
     "sourceIndex": 763
   },
   {
@@ -1681,6 +2073,10 @@ const phrasesTime = [
     "wordIds": [
       "10766"
     ],
+    "cloze": {
+      "de": "aus",
+      "en": "look"
+    },
     "sourceIndex": 766
   },
   {
@@ -1698,6 +2094,10 @@ const phrasesTime = [
     "wordIds": [
       "10778"
     ],
+    "cloze": {
+      "de": "Sekunde",
+      "en": "second"
+    },
     "sourceIndex": 778
   },
   {
@@ -1715,6 +2115,10 @@ const phrasesTime = [
     "wordIds": [
       "10786"
     ],
+    "cloze": {
+      "de": "Geburtstag",
+      "en": "birthday"
+    },
     "sourceIndex": 786
   },
   {
@@ -1732,6 +2136,10 @@ const phrasesTime = [
     "wordIds": [
       "10791"
     ],
+    "cloze": {
+      "de": "normaler",
+      "en": "normal"
+    },
     "sourceIndex": 791
   },
   {
@@ -1749,6 +2157,10 @@ const phrasesTime = [
     "wordIds": [
       "10823"
     ],
+    "cloze": {
+      "de": "zählen",
+      "en": "count"
+    },
     "sourceIndex": 823
   },
   {
@@ -1766,6 +2178,10 @@ const phrasesTime = [
     "wordIds": [
       "10853"
     ],
+    "cloze": {
+      "de": "Diesmal",
+      "en": "This"
+    },
     "sourceIndex": 853
   },
   {
@@ -1783,6 +2199,10 @@ const phrasesTime = [
     "wordIds": [
       "10857"
     ],
+    "cloze": {
+      "de": "Herbst",
+      "en": "autumn"
+    },
     "sourceIndex": 857
   },
   {
@@ -1800,6 +2220,10 @@ const phrasesTime = [
     "wordIds": [
       "10862"
     ],
+    "cloze": {
+      "de": "Min",
+      "en": "I"
+    },
     "sourceIndex": 862
   },
   {
@@ -1817,6 +2241,10 @@ const phrasesTime = [
     "wordIds": [
       "10890"
     ],
+    "cloze": {
+      "de": "Kg",
+      "en": "I"
+    },
     "sourceIndex": 890
   },
   {
@@ -1834,6 +2262,10 @@ const phrasesTime = [
     "wordIds": [
       "10910"
     ],
+    "cloze": {
+      "de": "neun",
+      "en": "nine"
+    },
     "sourceIndex": 910
   },
   {
@@ -1851,6 +2283,10 @@ const phrasesTime = [
     "wordIds": [
       "10953"
     ],
+    "cloze": {
+      "de": "abends",
+      "en": "in"
+    },
     "sourceIndex": 953
   },
   {
@@ -1868,6 +2304,10 @@ const phrasesTime = [
     "wordIds": [
       "10966"
     ],
+    "cloze": {
+      "de": "Milliarde",
+      "en": "billion"
+    },
     "sourceIndex": 966
   },
   {
@@ -1885,6 +2325,10 @@ const phrasesTime = [
     "wordIds": [
       "10967"
     ],
+    "cloze": {
+      "de": "Mittwoch",
+      "en": "Wednesday"
+    },
     "sourceIndex": 967
   },
   {
@@ -1902,6 +2346,10 @@ const phrasesTime = [
     "wordIds": [
       "10979"
     ],
+    "cloze": {
+      "de": "dauern",
+      "en": "take"
+    },
     "sourceIndex": 979
   },
   {
@@ -1919,6 +2367,10 @@ const phrasesTime = [
     "wordIds": [
       "10997"
     ],
+    "cloze": {
+      "de": "Nachrichtensendung",
+      "en": "broadcast"
+    },
     "sourceIndex": 997
   },
   {
@@ -1936,6 +2388,10 @@ const phrasesTime = [
     "wordIds": [
       "11022"
     ],
+    "cloze": {
+      "de": "sowieso",
+      "en": "anyway"
+    },
     "sourceIndex": 1022
   },
   {
@@ -1953,6 +2409,10 @@ const phrasesTime = [
     "wordIds": [
       "11026"
     ],
+    "cloze": {
+      "de": "vergangenen",
+      "en": "I"
+    },
     "sourceIndex": 1026
   },
   {
@@ -1970,6 +2430,10 @@ const phrasesTime = [
     "wordIds": [
       "11038"
     ],
+    "cloze": {
+      "de": "halb",
+      "en": "half"
+    },
     "sourceIndex": 1038
   },
   {
@@ -1987,6 +2451,10 @@ const phrasesTime = [
     "wordIds": [
       "11039"
     ],
+    "cloze": {
+      "de": "Mio",
+      "en": "million"
+    },
     "sourceIndex": 1039
   },
   {
@@ -2004,6 +2472,10 @@ const phrasesTime = [
     "wordIds": [
       "11051"
     ],
+    "cloze": {
+      "de": "Donnerstag",
+      "en": "Thursday"
+    },
     "sourceIndex": 1051
   },
   {
@@ -2021,6 +2493,10 @@ const phrasesTime = [
     "wordIds": [
       "11073"
     ],
+    "cloze": {
+      "de": "Dienstag",
+      "en": "Tuesday"
+    },
     "sourceIndex": 1073
   },
   {
@@ -2038,6 +2514,10 @@ const phrasesTime = [
     "wordIds": [
       "11079"
     ],
+    "cloze": {
+      "de": "Länge",
+      "en": "length"
+    },
     "sourceIndex": 1079
   },
   {
@@ -2055,6 +2535,10 @@ const phrasesTime = [
     "wordIds": [
       "11108"
     ],
+    "cloze": {
+      "de": "Pause",
+      "en": "break"
+    },
     "sourceIndex": 1108
   },
   {
@@ -2072,6 +2556,10 @@ const phrasesTime = [
     "wordIds": [
       "11112"
     ],
+    "cloze": {
+      "de": "starten",
+      "en": "start"
+    },
     "sourceIndex": 1112
   },
   {
@@ -2089,6 +2577,10 @@ const phrasesTime = [
     "wordIds": [
       "11145"
     ],
+    "cloze": {
+      "de": "zwölf",
+      "en": "twelve"
+    },
     "sourceIndex": 1145
   },
   {
@@ -2106,6 +2598,10 @@ const phrasesTime = [
     "wordIds": [
       "11176"
     ],
+    "cloze": {
+      "de": "Weshalb",
+      "en": "Why"
+    },
     "sourceIndex": 1176
   },
   {
@@ -2123,6 +2619,10 @@ const phrasesTime = [
     "wordIds": [
       "11199"
     ],
+    "cloze": {
+      "de": "zweimal",
+      "en": "twice"
+    },
     "sourceIndex": 1199
   },
   {
@@ -2140,6 +2640,10 @@ const phrasesTime = [
     "wordIds": [
       "11210"
     ],
+    "cloze": {
+      "de": "jährliche",
+      "en": "annual"
+    },
     "sourceIndex": 1210
   },
   {
@@ -2157,6 +2661,10 @@ const phrasesTime = [
     "wordIds": [
       "11212"
     ],
+    "cloze": {
+      "de": "kommende",
+      "en": "coming"
+    },
     "sourceIndex": 1212
   },
   {
@@ -2174,6 +2682,10 @@ const phrasesTime = [
     "wordIds": [
       "11214"
     ],
+    "cloze": {
+      "de": "morgens",
+      "en": "in"
+    },
     "sourceIndex": 1214
   },
   {
@@ -2191,6 +2703,10 @@ const phrasesTime = [
     "wordIds": [
       "11215"
     ],
+    "cloze": {
+      "de": "nachts",
+      "en": "at"
+    },
     "sourceIndex": 1215
   },
   {
@@ -2208,6 +2724,10 @@ const phrasesTime = [
     "wordIds": [
       "11216"
     ],
+    "cloze": {
+      "de": "Nutzer",
+      "en": "users"
+    },
     "sourceIndex": 1216
   },
   {
@@ -2225,6 +2745,10 @@ const phrasesTime = [
     "wordIds": [
       "11240"
     ],
+    "cloze": {
+      "de": "Momentan",
+      "en": "Currently"
+    },
     "sourceIndex": 1240
   },
   {
@@ -2242,6 +2766,10 @@ const phrasesTime = [
     "wordIds": [
       "11252"
     ],
+    "cloze": {
+      "de": "Dauer",
+      "en": "duration"
+    },
     "sourceIndex": 1252
   },
   {
@@ -2259,6 +2787,10 @@ const phrasesTime = [
     "wordIds": [
       "11256"
     ],
+    "cloze": {
+      "de": "Gewicht",
+      "en": "weight"
+    },
     "sourceIndex": 1256
   },
   {
@@ -2276,6 +2808,10 @@ const phrasesTime = [
     "wordIds": [
       "11263"
     ],
+    "cloze": {
+      "de": "präsentieren",
+      "en": "present"
+    },
     "sourceIndex": 1263
   },
   {
@@ -2293,6 +2829,10 @@ const phrasesTime = [
     "wordIds": [
       "11290"
     ],
+    "cloze": {
+      "de": "Nachmittag",
+      "en": "afternoon"
+    },
     "sourceIndex": 1290
   },
   {
@@ -2310,6 +2850,10 @@ const phrasesTime = [
     "wordIds": [
       "11300"
     ],
+    "cloze": {
+      "de": "enden",
+      "en": "end"
+    },
     "sourceIndex": 1300
   },
   {
@@ -2327,6 +2871,10 @@ const phrasesTime = [
     "wordIds": [
       "11302"
     ],
+    "cloze": {
+      "de": "Geschenk",
+      "en": "gift"
+    },
     "sourceIndex": 1302
   },
   {
@@ -2344,6 +2892,10 @@ const phrasesTime = [
     "wordIds": [
       "11364"
     ],
+    "cloze": {
+      "de": "hundert",
+      "en": "hundred"
+    },
     "sourceIndex": 1364
   },
   {
@@ -2361,6 +2913,10 @@ const phrasesTime = [
     "wordIds": [
       "11407"
     ],
+    "cloze": {
+      "de": "unterscheiden",
+      "en": "distinguish"
+    },
     "sourceIndex": 1407
   },
   {
@@ -2378,6 +2934,10 @@ const phrasesTime = [
     "wordIds": [
       "11429"
     ],
+    "cloze": {
+      "de": "Normalerweise",
+      "en": "Normally"
+    },
     "sourceIndex": 1429
   },
   {
@@ -2395,6 +2955,10 @@ const phrasesTime = [
     "wordIds": [
       "11440"
     ],
+    "cloze": {
+      "de": "Zeitraum",
+      "en": "period"
+    },
     "sourceIndex": 1440
   },
   {
@@ -2412,6 +2976,10 @@ const phrasesTime = [
     "wordIds": [
       "11449"
     ],
+    "cloze": {
+      "de": "elf",
+      "en": "eleven"
+    },
     "sourceIndex": 1449
   },
   {
@@ -2429,6 +2997,10 @@ const phrasesTime = [
     "wordIds": [
       "11494"
     ],
+    "cloze": {
+      "de": "kritisieren",
+      "en": "criticize"
+    },
     "sourceIndex": 1494
   },
   {
@@ -2446,6 +3018,10 @@ const phrasesTime = [
     "wordIds": [
       "11508"
     ],
+    "cloze": {
+      "de": "tausend",
+      "en": "thousand"
+    },
     "sourceIndex": 1508
   },
   {
@@ -2463,6 +3039,10 @@ const phrasesTime = [
     "wordIds": [
       "11511"
     ],
+    "cloze": {
+      "de": "User",
+      "en": "users"
+    },
     "sourceIndex": 1511
   },
   {
@@ -2480,6 +3060,10 @@ const phrasesTime = [
     "wordIds": [
       "11521"
     ],
+    "cloze": {
+      "de": "Eventuell",
+      "en": "Possibly"
+    },
     "sourceIndex": 1521
   },
   {
@@ -2497,6 +3081,10 @@ const phrasesTime = [
     "wordIds": [
       "11528"
     ],
+    "cloze": {
+      "de": "gucken",
+      "en": "watch"
+    },
     "sourceIndex": 1528
   },
   {
@@ -2514,6 +3102,10 @@ const phrasesTime = [
     "wordIds": [
       "11533"
     ],
+    "cloze": {
+      "de": "Kanal",
+      "en": "canal"
+    },
     "sourceIndex": 1533
   },
   {
@@ -2531,6 +3123,10 @@ const phrasesTime = [
     "wordIds": [
       "11544"
     ],
+    "cloze": {
+      "de": "wachsen",
+      "en": "grow"
+    },
     "sourceIndex": 1544
   },
   {
@@ -2548,6 +3144,10 @@ const phrasesTime = [
     "wordIds": [
       "11546"
     ],
+    "cloze": {
+      "de": "Augenblick",
+      "en": "moment"
+    },
     "sourceIndex": 1546
   },
   {
@@ -2565,6 +3165,10 @@ const phrasesTime = [
     "wordIds": [
       "11551"
     ],
+    "cloze": {
+      "de": "Frühjahr",
+      "en": "spring"
+    },
     "sourceIndex": 1551
   },
   {
@@ -2582,6 +3186,10 @@ const phrasesTime = [
     "wordIds": [
       "11552"
     ],
+    "cloze": {
+      "de": "genügend",
+      "en": "enough"
+    },
     "sourceIndex": 1552
   },
   {
@@ -2599,6 +3207,10 @@ const phrasesTime = [
     "wordIds": [
       "11586"
     ],
+    "cloze": {
+      "de": "existieren",
+      "en": "exist"
+    },
     "sourceIndex": 1586
   },
   {
@@ -2616,6 +3228,10 @@ const phrasesTime = [
     "wordIds": [
       "11612"
     ],
+    "cloze": {
+      "de": "vierte",
+      "en": "fourth"
+    },
     "sourceIndex": 1612
   },
   {
@@ -2633,6 +3249,10 @@ const phrasesTime = [
     "wordIds": [
       "11625"
     ],
+    "cloze": {
+      "de": "drüber",
+      "en": "about"
+    },
     "sourceIndex": 1625
   },
   {
@@ -2650,6 +3270,10 @@ const phrasesTime = [
     "wordIds": [
       "11654"
     ],
+    "cloze": {
+      "de": "anschauen",
+      "en": "watch"
+    },
     "sourceIndex": 1654
   },
   {
@@ -2667,6 +3291,10 @@ const phrasesTime = [
     "wordIds": [
       "11672"
     ],
+    "cloze": {
+      "de": "Jahrzehnt",
+      "en": "decade"
+    },
     "sourceIndex": 1672
   },
   {
@@ -2684,6 +3312,10 @@ const phrasesTime = [
     "wordIds": [
       "11679"
     ],
+    "cloze": {
+      "de": "Lebensmotto",
+      "en": "motto"
+    },
     "sourceIndex": 1679
   },
   {
@@ -2701,6 +3333,10 @@ const phrasesTime = [
     "wordIds": [
       "11714"
     ],
+    "cloze": {
+      "de": "Gegenwart",
+      "en": "present"
+    },
     "sourceIndex": 1714
   },
   {
@@ -2718,6 +3354,10 @@ const phrasesTime = [
     "wordIds": [
       "11728"
     ],
+    "cloze": {
+      "de": "nochmals",
+      "en": "once"
+    },
     "sourceIndex": 1728
   },
   {
@@ -2735,6 +3375,10 @@ const phrasesTime = [
     "wordIds": [
       "11760"
     ],
+    "cloze": {
+      "de": "jederzeit",
+      "en": "at"
+    },
     "sourceIndex": 1760
   },
   {
@@ -2752,6 +3396,10 @@ const phrasesTime = [
     "wordIds": [
       "11866"
     ],
+    "cloze": {
+      "de": "Perspektive",
+      "en": "perspective"
+    },
     "sourceIndex": 1866
   },
   {
@@ -2769,6 +3417,10 @@ const phrasesTime = [
     "wordIds": [
       "11942"
     ],
+    "cloze": {
+      "de": "rechtzeitig",
+      "en": "in"
+    },
     "sourceIndex": 1942
   },
   {
@@ -2786,6 +3438,10 @@ const phrasesTime = [
     "wordIds": [
       "12005"
     ],
+    "cloze": {
+      "de": "hierfür",
+      "en": "for"
+    },
     "sourceIndex": 2005
   },
   {
@@ -2803,6 +3459,10 @@ const phrasesTime = [
     "wordIds": [
       "12036"
     ],
+    "cloze": {
+      "de": "demnächst",
+      "en": "soon"
+    },
     "sourceIndex": 2036
   },
   {
@@ -2820,6 +3480,10 @@ const phrasesTime = [
     "wordIds": [
       "12041"
     ],
+    "cloze": {
+      "de": "fit",
+      "en": "fit"
+    },
     "sourceIndex": 2041
   },
   {
@@ -2837,6 +3501,10 @@ const phrasesTime = [
     "wordIds": [
       "12055"
     ],
+    "cloze": {
+      "de": "Oftmals",
+      "en": "often"
+    },
     "sourceIndex": 2055
   },
   {
@@ -2854,6 +3522,10 @@ const phrasesTime = [
     "wordIds": [
       "12068"
     ],
+    "cloze": {
+      "de": "wird",
+      "en": "is"
+    },
     "sourceIndex": 2068
   },
   {
@@ -2871,6 +3543,10 @@ const phrasesTime = [
     "wordIds": [
       "12194"
     ],
+    "cloze": {
+      "de": "schenken",
+      "en": "give"
+    },
     "sourceIndex": 2194
   },
   {
@@ -2888,6 +3564,10 @@ const phrasesTime = [
     "wordIds": [
       "12225"
     ],
+    "cloze": {
+      "de": "Vorschriften",
+      "en": "regulations"
+    },
     "sourceIndex": 2225
   },
   {
@@ -2905,6 +3585,10 @@ const phrasesTime = [
     "wordIds": [
       "12239"
     ],
+    "cloze": {
+      "de": "dreimal",
+      "en": "three"
+    },
     "sourceIndex": 2239
   },
   {
@@ -2922,6 +3606,10 @@ const phrasesTime = [
     "wordIds": [
       "12244"
     ],
+    "cloze": {
+      "de": "Hahn",
+      "en": "rooster"
+    },
     "sourceIndex": 2244
   },
   {
@@ -2939,6 +3627,10 @@ const phrasesTime = [
     "wordIds": [
       "12249"
     ],
+    "cloze": {
+      "de": "Mittag",
+      "en": "at"
+    },
     "sourceIndex": 2249
   },
   {
@@ -2956,6 +3648,10 @@ const phrasesTime = [
     "wordIds": [
       "12273"
     ],
+    "cloze": {
+      "de": "auf",
+      "en": "give"
+    },
     "sourceIndex": 2273
   },
   {
@@ -2973,6 +3669,10 @@ const phrasesTime = [
     "wordIds": [
       "12330"
     ],
+    "cloze": {
+      "de": "klagt",
+      "en": "complains"
+    },
     "sourceIndex": 2330
   },
   {
@@ -2990,6 +3690,10 @@ const phrasesTime = [
     "wordIds": [
       "12340"
     ],
+    "cloze": {
+      "de": "Spieltag",
+      "en": "matchday"
+    },
     "sourceIndex": 2340
   },
   {
@@ -3007,6 +3711,10 @@ const phrasesTime = [
     "wordIds": [
       "12367"
     ],
+    "cloze": {
+      "de": "Medikament",
+      "en": "medication"
+    },
     "sourceIndex": 2367
   },
   {
@@ -3024,6 +3732,10 @@ const phrasesTime = [
     "wordIds": [
       "12383"
     ],
+    "cloze": {
+      "de": "Versammlung",
+      "en": "meeting"
+    },
     "sourceIndex": 2383
   },
   {
@@ -3041,6 +3753,10 @@ const phrasesTime = [
     "wordIds": [
       "12401"
     ],
+    "cloze": {
+      "de": "Frühling",
+      "en": "Spring"
+    },
     "sourceIndex": 2401
   },
   {
@@ -3058,6 +3774,10 @@ const phrasesTime = [
     "wordIds": [
       "12440"
     ],
+    "cloze": {
+      "de": "fünfte",
+      "en": "fifth"
+    },
     "sourceIndex": 2440
   },
   {
@@ -3075,6 +3795,10 @@ const phrasesTime = [
     "wordIds": [
       "12457"
     ],
+    "cloze": {
+      "de": "pünktlich",
+      "en": "punctual"
+    },
     "sourceIndex": 2457
   },
   {
@@ -3092,6 +3816,10 @@ const phrasesTime = [
     "wordIds": [
       "12465"
     ],
+    "cloze": {
+      "de": "Vorerst",
+      "en": "For"
+    },
     "sourceIndex": 2465
   },
   {
@@ -3109,6 +3837,10 @@ const phrasesTime = [
     "wordIds": [
       "12475"
     ],
+    "cloze": {
+      "de": "aufstehen",
+      "en": "get"
+    },
     "sourceIndex": 2475
   },
   {
@@ -3126,6 +3858,10 @@ const phrasesTime = [
     "wordIds": [
       "12520"
     ],
+    "cloze": {
+      "de": "vorhin",
+      "en": "moment"
+    },
     "sourceIndex": 2520
   },
   {
@@ -3143,6 +3879,10 @@ const phrasesTime = [
     "wordIds": [
       "12525"
     ],
+    "cloze": {
+      "de": "Abitur",
+      "en": "Abitur"
+    },
     "sourceIndex": 2525
   },
   {
@@ -3160,6 +3900,10 @@ const phrasesTime = [
     "wordIds": [
       "12547"
     ],
+    "cloze": {
+      "de": "just",
+      "en": "just"
+    },
     "sourceIndex": 2547
   },
   {
@@ -3177,6 +3921,10 @@ const phrasesTime = [
     "wordIds": [
       "12600"
     ],
+    "cloze": {
+      "de": "neulich",
+      "en": "recently"
+    },
     "sourceIndex": 2600
   },
   {
@@ -3194,6 +3942,10 @@ const phrasesTime = [
     "wordIds": [
       "12748"
     ],
+    "cloze": {
+      "de": "Rettung",
+      "en": "rescue"
+    },
     "sourceIndex": 2748
   },
   {
@@ -3211,6 +3963,10 @@ const phrasesTime = [
     "wordIds": [
       "12815"
     ],
+    "cloze": {
+      "de": "zwanzig",
+      "en": "twenty"
+    },
     "sourceIndex": 2815
   },
   {
@@ -3228,6 +3984,10 @@ const phrasesTime = [
     "wordIds": [
       "12842"
     ],
+    "cloze": {
+      "de": "Kalender",
+      "en": "calendar"
+    },
     "sourceIndex": 2842
   },
   {
@@ -3245,6 +4005,10 @@ const phrasesTime = [
     "wordIds": [
       "12860"
     ],
+    "cloze": {
+      "de": "schonmal",
+      "en": "ever"
+    },
     "sourceIndex": 2860
   },
   {
@@ -3262,6 +4026,10 @@ const phrasesTime = [
     "wordIds": [
       "12892"
     ],
+    "cloze": {
+      "de": "monatlich",
+      "en": "monthly"
+    },
     "sourceIndex": 2892
   },
   {
@@ -3279,6 +4047,10 @@ const phrasesTime = [
     "wordIds": [
       "12915"
     ],
+    "cloze": {
+      "de": "Zoo",
+      "en": "zoo"
+    },
     "sourceIndex": 2915
   },
   {
@@ -3296,6 +4068,10 @@ const phrasesTime = [
     "wordIds": [
       "12916"
     ],
+    "cloze": {
+      "de": "Abendessen",
+      "en": "Dinner"
+    },
     "sourceIndex": 2916
   },
   {
@@ -3313,6 +4089,10 @@ const phrasesTime = [
     "wordIds": [
       "12995"
     ],
+    "cloze": {
+      "de": "gewöhnlicher",
+      "en": "usual"
+    },
     "sourceIndex": 2995
   },
   {
@@ -3330,6 +4110,10 @@ const phrasesTime = [
     "wordIds": [
       "13076"
     ],
+    "cloze": {
+      "de": "Spielzeit",
+      "en": "season"
+    },
     "sourceIndex": 3076
   },
   {
@@ -3347,6 +4131,10 @@ const phrasesTime = [
     "wordIds": [
       "13131"
     ],
+    "cloze": {
+      "de": "Tagebuch",
+      "en": "diary"
+    },
     "sourceIndex": 3131
   },
   {
@@ -3364,6 +4152,10 @@ const phrasesTime = [
     "wordIds": [
       "13147"
     ],
+    "cloze": {
+      "de": "Alarm",
+      "en": "alarm"
+    },
     "sourceIndex": 3147
   },
   {
@@ -3381,6 +4173,10 @@ const phrasesTime = [
     "wordIds": [
       "13176"
     ],
+    "cloze": {
+      "de": "Hektar",
+      "en": "hectares"
+    },
     "sourceIndex": 3176
   },
   {
@@ -3398,6 +4194,10 @@ const phrasesTime = [
     "wordIds": [
       "13182"
     ],
+    "cloze": {
+      "de": "Journal",
+      "en": "journal"
+    },
     "sourceIndex": 3182
   },
   {
@@ -3415,6 +4215,10 @@ const phrasesTime = [
     "wordIds": [
       "13246"
     ],
+    "cloze": {
+      "de": "Kälte",
+      "en": "coldness"
+    },
     "sourceIndex": 3246
   },
   {
@@ -3432,6 +4236,10 @@ const phrasesTime = [
     "wordIds": [
       "13254"
     ],
+    "cloze": {
+      "de": "Mitternacht",
+      "en": "midnight"
+    },
     "sourceIndex": 3254
   },
   {
@@ -3449,6 +4257,10 @@ const phrasesTime = [
     "wordIds": [
       "13297"
     ],
+    "cloze": {
+      "de": "Minus",
+      "en": "minus"
+    },
     "sourceIndex": 3297
   },
   {
@@ -3466,6 +4278,10 @@ const phrasesTime = [
     "wordIds": [
       "13328"
     ],
+    "cloze": {
+      "de": "anwesend",
+      "en": "present"
+    },
     "sourceIndex": 3328
   },
   {
@@ -3483,6 +4299,10 @@ const phrasesTime = [
     "wordIds": [
       "13448"
     ],
+    "cloze": {
+      "de": "Vorjahr",
+      "en": "previous"
+    },
     "sourceIndex": 3448
   },
   {
@@ -3500,6 +4320,10 @@ const phrasesTime = [
     "wordIds": [
       "13453"
     ],
+    "cloze": {
+      "de": "übertreiben",
+      "en": "exaggerate"
+    },
     "sourceIndex": 3453
   },
   {
@@ -3517,6 +4341,10 @@ const phrasesTime = [
     "wordIds": [
       "13536"
     ],
+    "cloze": {
+      "de": "identisch",
+      "en": "identical"
+    },
     "sourceIndex": 3536
   },
   {
@@ -3534,6 +4362,10 @@ const phrasesTime = [
     "wordIds": [
       "13560"
     ],
+    "cloze": {
+      "de": "vergeht",
+      "en": "Time"
+    },
     "sourceIndex": 3560
   },
   {
@@ -3551,6 +4383,10 @@ const phrasesTime = [
     "wordIds": [
       "13595"
     ],
+    "cloze": {
+      "de": "Jänner",
+      "en": "January"
+    },
     "sourceIndex": 3595
   },
   {
@@ -3568,6 +4404,10 @@ const phrasesTime = [
     "wordIds": [
       "13617"
     ],
+    "cloze": {
+      "de": "Semester",
+      "en": "semester"
+    },
     "sourceIndex": 3617
   },
   {
@@ -3585,6 +4425,10 @@ const phrasesTime = [
     "wordIds": [
       "13624"
     ],
+    "cloze": {
+      "de": "Vormittag",
+      "en": "morning"
+    },
     "sourceIndex": 3624
   },
   {
@@ -3602,6 +4446,10 @@ const phrasesTime = [
     "wordIds": [
       "13725"
     ],
+    "cloze": {
+      "de": "Marsch",
+      "en": "march"
+    },
     "sourceIndex": 3725
   },
   {
@@ -3619,6 +4467,10 @@ const phrasesTime = [
     "wordIds": [
       "13762"
     ],
+    "cloze": {
+      "de": "betet",
+      "en": "prays"
+    },
     "sourceIndex": 3762
   },
   {
@@ -3636,6 +4488,10 @@ const phrasesTime = [
     "wordIds": [
       "13778"
     ],
+    "cloze": {
+      "de": "frühzeitig",
+      "en": "early"
+    },
     "sourceIndex": 3778
   },
   {
@@ -3653,6 +4509,10 @@ const phrasesTime = [
     "wordIds": [
       "13813"
     ],
+    "cloze": {
+      "de": "üblicherweise",
+      "en": "usually"
+    },
     "sourceIndex": 3813
   },
   {
@@ -3670,6 +4530,10 @@ const phrasesTime = [
     "wordIds": [
       "13881"
     ],
+    "cloze": {
+      "de": "Anime-Serien",
+      "en": "anime"
+    },
     "sourceIndex": 3881
   },
   {
@@ -3687,6 +4551,10 @@ const phrasesTime = [
     "wordIds": [
       "13894"
     ],
+    "cloze": {
+      "de": "Ernte",
+      "en": "harvest"
+    },
     "sourceIndex": 3894
   },
   {
@@ -3704,6 +4572,10 @@ const phrasesTime = [
     "wordIds": [
       "13904"
     ],
+    "cloze": {
+      "de": "Lieblingsjahreszeit",
+      "en": "season"
+    },
     "sourceIndex": 3904
   },
   {
@@ -3721,6 +4593,10 @@ const phrasesTime = [
     "wordIds": [
       "13905"
     ],
+    "cloze": {
+      "de": "Jedesmal",
+      "en": "Every"
+    },
     "sourceIndex": 3905
   },
   {
@@ -3738,6 +4614,10 @@ const phrasesTime = [
     "wordIds": [
       "13907"
     ],
+    "cloze": {
+      "de": "Kater",
+      "en": "tomcat"
+    },
     "sourceIndex": 3907
   },
   {
@@ -3755,6 +4635,10 @@ const phrasesTime = [
     "wordIds": [
       "13932"
     ],
+    "cloze": {
+      "de": "Schuljahr",
+      "en": "school"
+    },
     "sourceIndex": 3932
   },
   {
@@ -3772,6 +4656,10 @@ const phrasesTime = [
     "wordIds": [
       "13952"
     ],
+    "cloze": {
+      "de": "wecken",
+      "en": "wake"
+    },
     "sourceIndex": 3952
   },
   {
@@ -3789,6 +4677,10 @@ const phrasesTime = [
     "wordIds": [
       "13954"
     ],
+    "cloze": {
+      "de": "wöchentlich",
+      "en": "weekly"
+    },
     "sourceIndex": 3954
   },
   {
@@ -3806,6 +4698,10 @@ const phrasesTime = [
     "wordIds": [
       "13987"
     ],
+    "cloze": {
+      "de": "Läden",
+      "en": "shops"
+    },
     "sourceIndex": 3987
   },
   {
@@ -3823,6 +4719,10 @@ const phrasesTime = [
     "wordIds": [
       "13988"
     ],
+    "cloze": {
+      "de": "nachmittags",
+      "en": "in"
+    },
     "sourceIndex": 3988
   },
   {
@@ -3840,6 +4740,10 @@ const phrasesTime = [
     "wordIds": [
       "13993"
     ],
+    "cloze": {
+      "de": "Quartal",
+      "en": "quarter"
+    },
     "sourceIndex": 3993
   },
   {
@@ -3857,6 +4761,10 @@ const phrasesTime = [
     "wordIds": [
       "14003"
     ],
+    "cloze": {
+      "de": "Uhrzeit",
+      "en": "time"
+    },
     "sourceIndex": 4003
   },
   {
@@ -3874,6 +4782,10 @@ const phrasesTime = [
     "wordIds": [
       "14013"
     ],
+    "cloze": {
+      "de": "zusehen",
+      "en": "watch"
+    },
     "sourceIndex": 4013
   },
   {
@@ -3891,6 +4803,10 @@ const phrasesTime = [
     "wordIds": [
       "14140"
     ],
+    "cloze": {
+      "de": "Tageszeitung",
+      "en": "daily"
+    },
     "sourceIndex": 4140
   },
   {
@@ -3908,6 +4824,10 @@ const phrasesTime = [
     "wordIds": [
       "14290"
     ],
+    "cloze": {
+      "de": "aufwachen",
+      "en": "wake"
+    },
     "sourceIndex": 4290
   },
   {
@@ -3925,6 +4845,10 @@ const phrasesTime = [
     "wordIds": [
       "14347"
     ],
+    "cloze": {
+      "de": "stundenlang",
+      "en": "for"
+    },
     "sourceIndex": 4347
   },
   {
@@ -3942,6 +4866,10 @@ const phrasesTime = [
     "wordIds": [
       "14361"
     ],
+    "cloze": {
+      "de": "er",
+      "en": "annoys"
+    },
     "sourceIndex": 4361
   },
   {
@@ -3959,6 +4887,10 @@ const phrasesTime = [
     "wordIds": [
       "14374"
     ],
+    "cloze": {
+      "de": "Dosis",
+      "en": "dose"
+    },
     "sourceIndex": 4374
   },
   {
@@ -3976,6 +4908,10 @@ const phrasesTime = [
     "wordIds": [
       "14440"
     ],
+    "cloze": {
+      "de": "vollzeit",
+      "en": "full-time"
+    },
     "sourceIndex": 4440
   },
   {
@@ -3993,6 +4929,10 @@ const phrasesTime = [
     "wordIds": [
       "14470"
     ],
+    "cloze": {
+      "de": "einreichen",
+      "en": "submit"
+    },
     "sourceIndex": 4470
   },
   {
@@ -4010,6 +4950,10 @@ const phrasesTime = [
     "wordIds": [
       "14481"
     ],
+    "cloze": {
+      "de": "Kilogramm",
+      "en": "kilogram"
+    },
     "sourceIndex": 4481
   },
   {
@@ -4027,6 +4971,10 @@ const phrasesTime = [
     "wordIds": [
       "14494"
     ],
+    "cloze": {
+      "de": "Periode",
+      "en": "period"
+    },
     "sourceIndex": 4494
   },
   {
@@ -4044,6 +4992,10 @@ const phrasesTime = [
     "wordIds": [
       "14510"
     ],
+    "cloze": {
+      "de": "verwechselt",
+      "en": "I"
+    },
     "sourceIndex": 4510
   },
   {
@@ -4061,6 +5013,10 @@ const phrasesTime = [
     "wordIds": [
       "14541"
     ],
+    "cloze": {
+      "de": "höflich",
+      "en": "polite"
+    },
     "sourceIndex": 4541
   },
   {
@@ -4078,6 +5034,10 @@ const phrasesTime = [
     "wordIds": [
       "14552"
     ],
+    "cloze": {
+      "de": "Niederschlag",
+      "en": "precipitation"
+    },
     "sourceIndex": 4552
   },
   {
@@ -4095,6 +5055,10 @@ const phrasesTime = [
     "wordIds": [
       "14574"
     ],
+    "cloze": {
+      "de": "Unsicherheit",
+      "en": "uncertainty"
+    },
     "sourceIndex": 4574
   },
   {
@@ -4112,6 +5076,10 @@ const phrasesTime = [
     "wordIds": [
       "14673"
     ],
+    "cloze": {
+      "de": "gestrige",
+      "en": "Yesterday's"
+    },
     "sourceIndex": 4673
   },
   {
@@ -4129,6 +5097,10 @@ const phrasesTime = [
     "wordIds": [
       "14674"
     ],
+    "cloze": {
+      "de": "Glocke",
+      "en": "bell"
+    },
     "sourceIndex": 4674
   },
   {
@@ -4146,6 +5118,10 @@ const phrasesTime = [
     "wordIds": [
       "14677"
     ],
+    "cloze": {
+      "de": "Herd",
+      "en": "stove"
+    },
     "sourceIndex": 4677
   },
   {
@@ -4163,6 +5139,10 @@ const phrasesTime = [
     "wordIds": [
       "14746"
     ],
+    "cloze": {
+      "de": "faszinieren",
+      "en": "fascinate"
+    },
     "sourceIndex": 4746
   },
   {
@@ -4180,6 +5160,10 @@ const phrasesTime = [
     "wordIds": [
       "14747"
     ],
+    "cloze": {
+      "de": "fischen",
+      "en": "fishing"
+    },
     "sourceIndex": 4747
   },
   {
@@ -4197,6 +5181,10 @@ const phrasesTime = [
     "wordIds": [
       "14753"
     ],
+    "cloze": {
+      "de": "lügen",
+      "en": "lie"
+    },
     "sourceIndex": 4753
   },
   {
@@ -4214,6 +5202,10 @@ const phrasesTime = [
     "wordIds": [
       "14755"
     ],
+    "cloze": {
+      "de": "gleichen",
+      "en": "resemble"
+    },
     "sourceIndex": 4755
   },
   {
@@ -4231,6 +5223,10 @@ const phrasesTime = [
     "wordIds": [
       "14788"
     ],
+    "cloze": {
+      "de": "siebte",
+      "en": "seventh"
+    },
     "sourceIndex": 4788
   },
   {
@@ -4248,6 +5244,10 @@ const phrasesTime = [
     "wordIds": [
       "14789"
     ],
+    "cloze": {
+      "de": "Skala",
+      "en": "scale"
+    },
     "sourceIndex": 4789
   },
   {
@@ -4265,6 +5265,10 @@ const phrasesTime = [
     "wordIds": [
       "14796"
     ],
+    "cloze": {
+      "de": "Thriller",
+      "en": "thriller"
+    },
     "sourceIndex": 4796
   },
   {
@@ -4282,6 +5286,10 @@ const phrasesTime = [
     "wordIds": [
       "14813"
     ],
+    "cloze": {
+      "de": "Öffnungszeiten",
+      "en": "opening"
+    },
     "sourceIndex": 4813
   },
   {
@@ -4299,6 +5307,10 @@ const phrasesTime = [
     "wordIds": [
       "14836"
     ],
+    "cloze": {
+      "de": "dreissig",
+      "en": "thirty"
+    },
     "sourceIndex": 4836
   },
   {
@@ -4316,6 +5328,10 @@ const phrasesTime = [
     "wordIds": [
       "14846"
     ],
+    "cloze": {
+      "de": "Gewitter",
+      "en": "thunderstorm"
+    },
     "sourceIndex": 4846
   },
   {
@@ -4333,6 +5349,10 @@ const phrasesTime = [
     "wordIds": [
       "14847"
     ],
+    "cloze": {
+      "de": "Gleichfalls",
+      "en": "Likewise"
+    },
     "sourceIndex": 4847
   },
   {
@@ -4350,6 +5370,10 @@ const phrasesTime = [
     "wordIds": [
       "14895"
     ],
+    "cloze": {
+      "de": "vorigen",
+      "en": "last"
+    },
     "sourceIndex": 4895
   },
   {
@@ -4367,6 +5391,10 @@ const phrasesTime = [
     "wordIds": [
       "14915"
     ],
+    "cloze": {
+      "de": "Differenz",
+      "en": "difference"
+    },
     "sourceIndex": 4915
   },
   {
@@ -4384,6 +5412,10 @@ const phrasesTime = [
     "wordIds": [
       "14954"
     ],
+    "cloze": {
+      "de": "Abend",
+      "en": "much"
+    },
     "sourceIndex": 4954
   },
   {
@@ -4401,6 +5433,10 @@ const phrasesTime = [
     "wordIds": [
       "14984"
     ],
+    "cloze": {
+      "de": "Ausrede",
+      "en": "excuse"
+    },
     "sourceIndex": 4984
   },
   {
@@ -4418,6 +5454,10 @@ const phrasesTime = [
     "wordIds": [
       "15012"
     ],
+    "cloze": {
+      "de": "Jahrestag",
+      "en": "anniversary"
+    },
     "sourceIndex": 5012
   },
   {
@@ -4435,6 +5475,10 @@ const phrasesTime = [
     "wordIds": [
       "15029"
     ],
+    "cloze": {
+      "de": "nacheinander",
+      "en": "one"
+    },
     "sourceIndex": 5029
   },
   {
@@ -4452,6 +5496,10 @@ const phrasesTime = [
     "wordIds": [
       "15052"
     ],
+    "cloze": {
+      "de": "umziehen",
+      "en": "move"
+    },
     "sourceIndex": 5052
   },
   {
@@ -4469,6 +5517,10 @@ const phrasesTime = [
     "wordIds": [
       "15074"
     ],
+    "cloze": {
+      "de": "Buchhandlung",
+      "en": "bookstore"
+    },
     "sourceIndex": 5074
   },
   {
@@ -4486,6 +5538,10 @@ const phrasesTime = [
     "wordIds": [
       "15076"
     ],
+    "cloze": {
+      "de": "Casino",
+      "en": "casino"
+    },
     "sourceIndex": 5076
   },
   {
@@ -4503,6 +5559,10 @@ const phrasesTime = [
     "wordIds": [
       "15128"
     ],
+    "cloze": {
+      "de": "Spa",
+      "en": "spa"
+    },
     "sourceIndex": 5128
   },
   {
@@ -4520,6 +5580,10 @@ const phrasesTime = [
     "wordIds": [
       "15144"
     ],
+    "cloze": {
+      "de": "zu",
+      "en": "increasing"
+    },
     "sourceIndex": 5144
   },
   {
@@ -4537,6 +5601,10 @@ const phrasesTime = [
     "wordIds": [
       "15168"
     ],
+    "cloze": {
+      "de": "Cap",
+      "en": "cap"
+    },
     "sourceIndex": 5168
   },
   {
@@ -4554,6 +5622,10 @@ const phrasesTime = [
     "wordIds": [
       "15201"
     ],
+    "cloze": {
+      "de": "Meeting",
+      "en": "meeting"
+    },
     "sourceIndex": 5201
   },
   {
@@ -4571,6 +5643,10 @@ const phrasesTime = [
     "wordIds": [
       "15229"
     ],
+    "cloze": {
+      "de": "Teilzeit",
+      "en": "part-time"
+    },
     "sourceIndex": 5229
   },
   {
@@ -4588,6 +5664,10 @@ const phrasesTime = [
     "wordIds": [
       "15242"
     ],
+    "cloze": {
+      "de": "Ähnlichkeit",
+      "en": "similarity"
+    },
     "sourceIndex": 5242
   },
   {
@@ -4605,6 +5685,10 @@ const phrasesTime = [
     "wordIds": [
       "15280"
     ],
+    "cloze": {
+      "de": "Halbjahr",
+      "en": "half-year"
+    },
     "sourceIndex": 5280
   },
   {
@@ -4622,6 +5706,10 @@ const phrasesTime = [
     "wordIds": [
       "15291"
     ],
+    "cloze": {
+      "de": "Limit",
+      "en": "limit"
+    },
     "sourceIndex": 5291
   },
   {
@@ -4639,6 +5727,10 @@ const phrasesTime = [
     "wordIds": [
       "15312"
     ],
+    "cloze": {
+      "de": "sechste",
+      "en": "sixth"
+    },
     "sourceIndex": 5312
   },
   {
@@ -4656,6 +5748,10 @@ const phrasesTime = [
     "wordIds": [
       "15325"
     ],
+    "cloze": {
+      "de": "viermal",
+      "en": "four"
+    },
     "sourceIndex": 5325
   },
   {
@@ -4673,6 +5769,10 @@ const phrasesTime = [
     "wordIds": [
       "15408"
     ],
+    "cloze": {
+      "de": "Sommerferie",
+      "en": "summer"
+    },
     "sourceIndex": 5408
   },
   {
@@ -4690,6 +5790,10 @@ const phrasesTime = [
     "wordIds": [
       "15425"
     ],
+    "cloze": {
+      "de": "Western",
+      "en": "Westerns"
+    },
     "sourceIndex": 5425
   },
   {
@@ -4707,6 +5811,10 @@ const phrasesTime = [
     "wordIds": [
       "15427"
     ],
+    "cloze": {
+      "de": "zuschauen",
+      "en": "watch"
+    },
     "sourceIndex": 5427
   },
   {
@@ -4724,6 +5832,10 @@ const phrasesTime = [
     "wordIds": [
       "15456"
     ],
+    "cloze": {
+      "de": "Friseur",
+      "en": "hairdresser"
+    },
     "sourceIndex": 5456
   },
   {
@@ -4741,6 +5853,10 @@ const phrasesTime = [
     "wordIds": [
       "15515"
     ],
+    "cloze": {
+      "de": "anderthalb",
+      "en": "one"
+    },
     "sourceIndex": 5515
   },
   {
@@ -4758,6 +5874,10 @@ const phrasesTime = [
     "wordIds": [
       "15533"
     ],
+    "cloze": {
+      "de": "eingeschlafen",
+      "en": "asleep"
+    },
     "sourceIndex": 5533
   },
   {
@@ -4775,6 +5895,10 @@ const phrasesTime = [
     "wordIds": [
       "15560"
     ],
+    "cloze": {
+      "de": "Landwirt",
+      "en": "farmer"
+    },
     "sourceIndex": 5560
   },
   {
@@ -4792,6 +5916,10 @@ const phrasesTime = [
     "wordIds": [
       "15575"
     ],
+    "cloze": {
+      "de": "Morgenroutine",
+      "en": "routine"
+    },
     "sourceIndex": 5575
   },
   {
@@ -4809,6 +5937,10 @@ const phrasesTime = [
     "wordIds": [
       "15614"
     ],
+    "cloze": {
+      "de": "begrenzt",
+      "en": "limited"
+    },
     "sourceIndex": 5614
   },
   {
@@ -4826,6 +5958,10 @@ const phrasesTime = [
     "wordIds": [
       "15705"
     ],
+    "cloze": {
+      "de": "Dreieck",
+      "en": "triangle"
+    },
     "sourceIndex": 5705
   },
   {
@@ -4843,6 +5979,10 @@ const phrasesTime = [
     "wordIds": [
       "15717"
     ],
+    "cloze": {
+      "de": "gratulieren",
+      "en": "congratulate"
+    },
     "sourceIndex": 5717
   },
   {
@@ -4860,6 +6000,10 @@ const phrasesTime = [
     "wordIds": [
       "15750"
     ],
+    "cloze": {
+      "de": "Penny",
+      "en": "penny"
+    },
     "sourceIndex": 5750
   },
   {
@@ -4877,6 +6021,10 @@ const phrasesTime = [
     "wordIds": [
       "15774"
     ],
+    "cloze": {
+      "de": "Wecker",
+      "en": "alarm"
+    },
     "sourceIndex": 5774
   },
   {
@@ -4894,6 +6042,10 @@ const phrasesTime = [
     "wordIds": [
       "15875"
     ],
+    "cloze": {
+      "de": "Wartezeit",
+      "en": "waiting"
+    },
     "sourceIndex": 5875
   },
   {
@@ -4911,6 +6063,10 @@ const phrasesTime = [
     "wordIds": [
       "15888"
     ],
+    "cloze": {
+      "de": "Abreise",
+      "en": "departure"
+    },
     "sourceIndex": 5888
   },
   {
@@ -4928,6 +6084,10 @@ const phrasesTime = [
     "wordIds": [
       "15978"
     ],
+    "cloze": {
+      "de": "wundervoller",
+      "en": "wonderful"
+    },
     "sourceIndex": 5978
   },
   {
@@ -4945,6 +6105,10 @@ const phrasesTime = [
     "wordIds": [
       "16059"
     ],
+    "cloze": {
+      "de": "Season",
+      "en": "season"
+    },
     "sourceIndex": 6059
   },
   {
@@ -4962,6 +6126,10 @@ const phrasesTime = [
     "wordIds": [
       "16207"
     ],
+    "cloze": {
+      "de": "fünfzig",
+      "en": "fifty"
+    },
     "sourceIndex": 6207
   },
   {
@@ -4979,6 +6147,10 @@ const phrasesTime = [
     "wordIds": [
       "16208"
     ],
+    "cloze": {
+      "de": "kleidet",
+      "en": "dresses"
+    },
     "sourceIndex": 6208
   },
   {
@@ -4996,6 +6168,10 @@ const phrasesTime = [
     "wordIds": [
       "16222"
     ],
+    "cloze": {
+      "de": "Jahresende",
+      "en": "year-end"
+    },
     "sourceIndex": 6222
   },
   {
@@ -5013,6 +6189,10 @@ const phrasesTime = [
     "wordIds": [
       "16258"
     ],
+    "cloze": {
+      "de": "Tageslicht",
+      "en": "daylight"
+    },
     "sourceIndex": 6258
   },
   {
@@ -5030,6 +6210,10 @@ const phrasesTime = [
     "wordIds": [
       "16283"
     ],
+    "cloze": {
+      "de": "angeln",
+      "en": "fishing"
+    },
     "sourceIndex": 6283
   },
   {
@@ -5047,6 +6231,10 @@ const phrasesTime = [
     "wordIds": [
       "16296"
     ],
+    "cloze": {
+      "de": "Besichtigung",
+      "en": "viewing"
+    },
     "sourceIndex": 6296
   },
   {
@@ -5064,6 +6252,10 @@ const phrasesTime = [
     "wordIds": [
       "16332"
     ],
+    "cloze": {
+      "de": "Moslem",
+      "en": "Muslim"
+    },
     "sourceIndex": 6332
   },
   {
@@ -5081,6 +6273,10 @@ const phrasesTime = [
     "wordIds": [
       "16374"
     ],
+    "cloze": {
+      "de": "Zehntausend",
+      "en": "Ten"
+    },
     "sourceIndex": 6374
   },
   {
@@ -5098,6 +6294,10 @@ const phrasesTime = [
     "wordIds": [
       "16378"
     ],
+    "cloze": {
+      "de": "alljährliche",
+      "en": "annual"
+    },
     "sourceIndex": 6378
   },
   {
@@ -5115,6 +6315,10 @@ const phrasesTime = [
     "wordIds": [
       "16383"
     ],
+    "cloze": {
+      "de": "Arbeitstag",
+      "en": "workday"
+    },
     "sourceIndex": 6383
   },
   {
@@ -5132,6 +6336,10 @@ const phrasesTime = [
     "wordIds": [
       "16410"
     ],
+    "cloze": {
+      "de": "geordnet",
+      "en": "tidy"
+    },
     "sourceIndex": 6410
   },
   {
@@ -5149,6 +6357,10 @@ const phrasesTime = [
     "wordIds": [
       "16475"
     ],
+    "cloze": {
+      "de": "abheben",
+      "en": "off"
+    },
     "sourceIndex": 6475
   },
   {
@@ -5166,6 +6378,10 @@ const phrasesTime = [
     "wordIds": [
       "16533"
     ],
+    "cloze": {
+      "de": "marschieren",
+      "en": "march"
+    },
     "sourceIndex": 6533
   },
   {
@@ -5183,6 +6399,10 @@ const phrasesTime = [
     "wordIds": [
       "16629"
     ],
+    "cloze": {
+      "de": "Häufigkeit",
+      "en": "frequency"
+    },
     "sourceIndex": 6629
   },
   {
@@ -5200,6 +6420,10 @@ const phrasesTime = [
     "wordIds": [
       "16674"
     ],
+    "cloze": {
+      "de": "vierzig",
+      "en": "forty"
+    },
     "sourceIndex": 6674
   },
   {
@@ -5217,6 +6441,10 @@ const phrasesTime = [
     "wordIds": [
       "16688"
     ],
+    "cloze": {
+      "de": "Albtraum",
+      "en": "nightmare"
+    },
     "sourceIndex": 6688
   },
   {
@@ -5234,6 +6462,10 @@ const phrasesTime = [
     "wordIds": [
       "16784"
     ],
+    "cloze": {
+      "de": "Vampir",
+      "en": "vampire"
+    },
     "sourceIndex": 6784
   },
   {
@@ -5251,6 +6483,10 @@ const phrasesTime = [
     "wordIds": [
       "16835"
     ],
+    "cloze": {
+      "de": "Hunderttausend",
+      "en": "one"
+    },
     "sourceIndex": 6835
   },
   {
@@ -5268,6 +6504,10 @@ const phrasesTime = [
     "wordIds": [
       "16865"
     ],
+    "cloze": {
+      "de": "unterteilen",
+      "en": "divide"
+    },
     "sourceIndex": 6865
   },
   {
@@ -5285,6 +6525,10 @@ const phrasesTime = [
     "wordIds": [
       "16873"
     ],
+    "cloze": {
+      "de": "vorgestern",
+      "en": "day"
+    },
     "sourceIndex": 6873
   },
   {
@@ -5302,6 +6546,10 @@ const phrasesTime = [
     "wordIds": [
       "16890"
     ],
+    "cloze": {
+      "de": "aufregender",
+      "en": "exciting"
+    },
     "sourceIndex": 6890
   },
   {
@@ -5319,6 +6567,10 @@ const phrasesTime = [
     "wordIds": [
       "16901"
     ],
+    "cloze": {
+      "de": "eineinhalb",
+      "en": "one"
+    },
     "sourceIndex": 6901
   },
   {
@@ -5336,6 +6588,10 @@ const phrasesTime = [
     "wordIds": [
       "16917"
     ],
+    "cloze": {
+      "de": "Freitagabend",
+      "en": "Friday"
+    },
     "sourceIndex": 6917
   },
   {
@@ -5353,6 +6609,10 @@ const phrasesTime = [
     "wordIds": [
       "16940"
     ],
+    "cloze": {
+      "de": "loslassen",
+      "en": "let"
+    },
     "sourceIndex": 6940
   },
   {
@@ -5370,6 +6630,10 @@ const phrasesTime = [
     "wordIds": [
       "16960"
     ],
+    "cloze": {
+      "de": "Samstagabend",
+      "en": "Saturday"
+    },
     "sourceIndex": 6960
   },
   {
@@ -5387,6 +6651,10 @@ const phrasesTime = [
     "wordIds": [
       "17042"
     ],
+    "cloze": {
+      "de": "Mister",
+      "en": "Mister"
+    },
     "sourceIndex": 7042
   },
   {
@@ -5404,6 +6672,10 @@ const phrasesTime = [
     "wordIds": [
       "17123"
     ],
+    "cloze": {
+      "de": "gewohnt",
+      "en": "used"
+    },
     "sourceIndex": 7123
   },
   {
@@ -5421,6 +6693,10 @@ const phrasesTime = [
     "wordIds": [
       "17198"
     ],
+    "cloze": {
+      "de": "übermorgen",
+      "en": "day"
+    },
     "sourceIndex": 7198
   },
   {
@@ -5438,6 +6714,10 @@ const phrasesTime = [
     "wordIds": [
       "17304"
     ],
+    "cloze": {
+      "de": "zweieinhalb",
+      "en": "two"
+    },
     "sourceIndex": 7304
   },
   {
@@ -5455,6 +6735,10 @@ const phrasesTime = [
     "wordIds": [
       "17358"
     ],
+    "cloze": {
+      "de": "Luftfeuchtigkeit",
+      "en": "humidity"
+    },
     "sourceIndex": 7358
   },
   {
@@ -5472,6 +6756,10 @@ const phrasesTime = [
     "wordIds": [
       "17391"
     ],
+    "cloze": {
+      "de": "Sushi",
+      "en": "sushi"
+    },
     "sourceIndex": 7391
   },
   {
@@ -5489,6 +6777,10 @@ const phrasesTime = [
     "wordIds": [
       "17484"
     ],
+    "cloze": {
+      "de": "Meditation",
+      "en": "meditation"
+    },
     "sourceIndex": 7484
   },
   {
@@ -5506,6 +6798,10 @@ const phrasesTime = [
     "wordIds": [
       "17511"
     ],
+    "cloze": {
+      "de": "Sonnabend",
+      "en": "Saturday"
+    },
     "sourceIndex": 7511
   },
   {
@@ -5523,6 +6819,10 @@ const phrasesTime = [
     "wordIds": [
       "17534"
     ],
+    "cloze": {
+      "de": "vormittags",
+      "en": "in"
+    },
     "sourceIndex": 7534
   },
   {
@@ -5540,6 +6840,10 @@ const phrasesTime = [
     "wordIds": [
       "17586"
     ],
+    "cloze": {
+      "de": "frühstücken",
+      "en": "have"
+    },
     "sourceIndex": 7586
   },
   {
@@ -5557,6 +6861,10 @@ const phrasesTime = [
     "wordIds": [
       "17587"
     ],
+    "cloze": {
+      "de": "fünfmal",
+      "en": "five"
+    },
     "sourceIndex": 7587
   },
   {
@@ -5574,6 +6882,10 @@ const phrasesTime = [
     "wordIds": [
       "17764"
     ],
+    "cloze": {
+      "de": "rasieren",
+      "en": "shave"
+    },
     "sourceIndex": 7764
   },
   {
@@ -5591,6 +6903,10 @@ const phrasesTime = [
     "wordIds": [
       "17806"
     ],
+    "cloze": {
+      "de": "aufbrechen",
+      "en": "set"
+    },
     "sourceIndex": 7806
   },
   {
@@ -5608,6 +6924,10 @@ const phrasesTime = [
     "wordIds": [
       "17865"
     ],
+    "cloze": {
+      "de": "produktiven",
+      "en": "productive"
+    },
     "sourceIndex": 7865
   },
   {
@@ -5625,6 +6945,10 @@ const phrasesTime = [
     "wordIds": [
       "17879"
     ],
+    "cloze": {
+      "de": "Sommerpause",
+      "en": "summer"
+    },
     "sourceIndex": 7879
   },
   {
@@ -5642,6 +6966,10 @@ const phrasesTime = [
     "wordIds": [
       "17898"
     ],
+    "cloze": {
+      "de": "Vortag",
+      "en": "day"
+    },
     "sourceIndex": 7898
   },
   {
@@ -5659,6 +6987,10 @@ const phrasesTime = [
     "wordIds": [
       "17899"
     ],
+    "cloze": {
+      "de": "Weihnachtszeit",
+      "en": "Christmas"
+    },
     "sourceIndex": 7899
   },
   {
@@ -5676,6 +7008,10 @@ const phrasesTime = [
     "wordIds": [
       "18010"
     ],
+    "cloze": {
+      "de": "verschlafen",
+      "en": "overslept"
+    },
     "sourceIndex": 8010
   },
   {
@@ -5693,6 +7029,10 @@ const phrasesTime = [
     "wordIds": [
       "18095"
     ],
+    "cloze": {
+      "de": "ganzen",
+      "en": "chatted"
+    },
     "sourceIndex": 8095
   },
   {
@@ -5710,6 +7050,10 @@ const phrasesTime = [
     "wordIds": [
       "18125"
     ],
+    "cloze": {
+      "de": "Valentinstag",
+      "en": "Valentine's"
+    },
     "sourceIndex": 8125
   },
   {
@@ -5727,6 +7071,10 @@ const phrasesTime = [
     "wordIds": [
       "18132"
     ],
+    "cloze": {
+      "de": "verkürzen",
+      "en": "shorten"
+    },
     "sourceIndex": 8132
   },
   {
@@ -5744,6 +7092,10 @@ const phrasesTime = [
     "wordIds": [
       "18171"
     ],
+    "cloze": {
+      "de": "durchmachen",
+      "en": "go"
+    },
     "sourceIndex": 8171
   },
   {
@@ -5761,6 +7113,10 @@ const phrasesTime = [
     "wordIds": [
       "18186"
     ],
+    "cloze": {
+      "de": "hinlegen",
+      "en": "lie"
+    },
     "sourceIndex": 8186
   },
   {
@@ -5778,6 +7134,10 @@ const phrasesTime = [
     "wordIds": [
       "18254"
     ],
+    "cloze": {
+      "de": "Viertelstunde",
+      "en": "quarter"
+    },
     "sourceIndex": 8254
   },
   {
@@ -5795,6 +7155,10 @@ const phrasesTime = [
     "wordIds": [
       "18293"
     ],
+    "cloze": {
+      "de": "Elternteil",
+      "en": "parent"
+    },
     "sourceIndex": 8293
   },
   {
@@ -5812,6 +7176,10 @@ const phrasesTime = [
     "wordIds": [
       "18317"
     ],
+    "cloze": {
+      "de": "impfen",
+      "en": "vaccinated"
+    },
     "sourceIndex": 8317
   },
   {
@@ -5829,6 +7197,10 @@ const phrasesTime = [
     "wordIds": [
       "18338"
     ],
+    "cloze": {
+      "de": "Ninja",
+      "en": "ninja"
+    },
     "sourceIndex": 8338
   },
   {
@@ -5846,6 +7218,10 @@ const phrasesTime = [
     "wordIds": [
       "18394"
     ],
+    "cloze": {
+      "de": "Wintersemester",
+      "en": "winter"
+    },
     "sourceIndex": 8394
   },
   {
@@ -5863,6 +7239,10 @@ const phrasesTime = [
     "wordIds": [
       "18398"
     ],
+    "cloze": {
+      "de": "ansteigen",
+      "en": "rise"
+    },
     "sourceIndex": 8398
   },
   {
@@ -5880,6 +7260,10 @@ const phrasesTime = [
     "wordIds": [
       "18430"
     ],
+    "cloze": {
+      "de": "Gratulation",
+      "en": "congratulation"
+    },
     "sourceIndex": 8430
   },
   {
@@ -5897,6 +7281,10 @@ const phrasesTime = [
     "wordIds": [
       "18474"
     ],
+    "cloze": {
+      "de": "Sommerzeit",
+      "en": "summertime"
+    },
     "sourceIndex": 8474
   },
   {
@@ -5914,6 +7302,10 @@ const phrasesTime = [
     "wordIds": [
       "18498"
     ],
+    "cloze": {
+      "de": "Vorabend",
+      "en": "eve"
+    },
     "sourceIndex": 8498
   },
   {
@@ -5931,6 +7323,10 @@ const phrasesTime = [
     "wordIds": [
       "18511"
     ],
+    "cloze": {
+      "de": "übereinander",
+      "en": "one"
+    },
     "sourceIndex": 8511
   },
   {
@@ -5948,6 +7344,10 @@ const phrasesTime = [
     "wordIds": [
       "18538"
     ],
+    "cloze": {
+      "de": "Biker",
+      "en": "bikers"
+    },
     "sourceIndex": 8538
   },
   {
@@ -5965,6 +7365,10 @@ const phrasesTime = [
     "wordIds": [
       "18616"
     ],
+    "cloze": {
+      "de": "Sonntagabend",
+      "en": "Sunday"
+    },
     "sourceIndex": 8616
   },
   {
@@ -5982,6 +7386,10 @@ const phrasesTime = [
     "wordIds": [
       "18624"
     ],
+    "cloze": {
+      "de": "tickt",
+      "en": "ticks"
+    },
     "sourceIndex": 8624
   },
   {
@@ -5999,6 +7407,10 @@ const phrasesTime = [
     "wordIds": [
       "18627"
     ],
+    "cloze": {
+      "de": "Typischerweise",
+      "en": "Typically"
+    },
     "sourceIndex": 8627
   },
   {
@@ -6016,6 +7428,10 @@ const phrasesTime = [
     "wordIds": [
       "18641"
     ],
+    "cloze": {
+      "de": "vorbeikommen",
+      "en": "come"
+    },
     "sourceIndex": 8641
   },
   {
@@ -6033,6 +7449,10 @@ const phrasesTime = [
     "wordIds": [
       "18679"
     ],
+    "cloze": {
+      "de": "egoistisch",
+      "en": "selfish"
+    },
     "sourceIndex": 8679
   },
   {
@@ -6050,6 +7470,10 @@ const phrasesTime = [
     "wordIds": [
       "18764"
     ],
+    "cloze": {
+      "de": "Spielplan",
+      "en": "schedule"
+    },
     "sourceIndex": 8764
   },
   {
@@ -6067,6 +7491,10 @@ const phrasesTime = [
     "wordIds": [
       "18768"
     ],
+    "cloze": {
+      "de": "Startelf",
+      "en": "starting"
+    },
     "sourceIndex": 8768
   },
   {
@@ -6084,6 +7512,10 @@ const phrasesTime = [
     "wordIds": [
       "18798"
     ],
+    "cloze": {
+      "de": "zelten",
+      "en": "camping"
+    },
     "sourceIndex": 8798
   },
   {
@@ -6101,6 +7533,10 @@ const phrasesTime = [
     "wordIds": [
       "18807"
     ],
+    "cloze": {
+      "de": "Alptraum",
+      "en": "nightmare"
+    },
     "sourceIndex": 8807
   },
   {
@@ -6118,6 +7554,10 @@ const phrasesTime = [
     "wordIds": [
       "18854"
     ],
+    "cloze": {
+      "de": "geschichtlicher",
+      "en": "historical"
+    },
     "sourceIndex": 8854
   },
   {
@@ -6135,6 +7575,10 @@ const phrasesTime = [
     "wordIds": [
       "18885"
     ],
+    "cloze": {
+      "de": "Monsieur",
+      "en": "Mister"
+    },
     "sourceIndex": 8885
   },
   {
@@ -6152,6 +7596,10 @@ const phrasesTime = [
     "wordIds": [
       "18967"
     ],
+    "cloze": {
+      "de": "Biergarten",
+      "en": "beer"
+    },
     "sourceIndex": 8967
   },
   {
@@ -6169,6 +7617,10 @@ const phrasesTime = [
     "wordIds": [
       "18988"
     ],
+    "cloze": {
+      "de": "Fünftel",
+      "en": "fifth"
+    },
     "sourceIndex": 8988
   },
   {
@@ -6186,6 +7638,10 @@ const phrasesTime = [
     "wordIds": [
       "19029"
     ],
+    "cloze": {
+      "de": "Migräne",
+      "en": "migraines"
+    },
     "sourceIndex": 9029
   },
   {
@@ -6203,6 +7659,10 @@ const phrasesTime = [
     "wordIds": [
       "19035"
     ],
+    "cloze": {
+      "de": "neunte",
+      "en": "ninth"
+    },
     "sourceIndex": 9035
   },
   {
@@ -6220,6 +7680,10 @@ const phrasesTime = [
     "wordIds": [
       "19066"
     ],
+    "cloze": {
+      "de": "Startschuss",
+      "en": "starting"
+    },
     "sourceIndex": 9066
   },
   {
@@ -6237,6 +7701,10 @@ const phrasesTime = [
     "wordIds": [
       "19099"
     ],
+    "cloze": {
+      "de": "zwölfte",
+      "en": "twelfth"
+    },
     "sourceIndex": 9099
   },
   {
@@ -6254,6 +7722,10 @@ const phrasesTime = [
     "wordIds": [
       "19109"
     ],
+    "cloze": {
+      "de": "altern",
+      "en": "age"
+    },
     "sourceIndex": 9109
   },
   {
@@ -6271,6 +7743,10 @@ const phrasesTime = [
     "wordIds": [
       "19193"
     ],
+    "cloze": {
+      "de": "Neujahr",
+      "en": "New"
+    },
     "sourceIndex": 9193
   },
   {
@@ -6288,6 +7764,10 @@ const phrasesTime = [
     "wordIds": [
       "19233"
     ],
+    "cloze": {
+      "de": "Zeitreise",
+      "en": "Time"
+    },
     "sourceIndex": 9233
   },
   {
@@ -6305,6 +7785,10 @@ const phrasesTime = [
     "wordIds": [
       "19394"
     ],
+    "cloze": {
+      "de": "Zeitdruck",
+      "en": "time"
+    },
     "sourceIndex": 9394
   },
   {
@@ -6322,6 +7806,10 @@ const phrasesTime = [
     "wordIds": [
       "19395"
     ],
+    "cloze": {
+      "de": "Zeitspanne",
+      "en": "time"
+    },
     "sourceIndex": 9395
   },
   {
@@ -6339,6 +7827,10 @@ const phrasesTime = [
     "wordIds": [
       "19405"
     ],
+    "cloze": {
+      "de": "Achterbahn",
+      "en": "roller"
+    },
     "sourceIndex": 9405
   },
   {
@@ -6356,6 +7848,10 @@ const phrasesTime = [
     "wordIds": [
       "19459"
     ],
+    "cloze": {
+      "de": "Jahreswechsel",
+      "en": "turn"
+    },
     "sourceIndex": 9459
   },
   {
@@ -6373,6 +7869,10 @@ const phrasesTime = [
     "wordIds": [
       "19495"
     ],
+    "cloze": {
+      "de": "Rocker",
+      "en": "rockers"
+    },
     "sourceIndex": 9495
   },
   {
@@ -6390,6 +7890,10 @@ const phrasesTime = [
     "wordIds": [
       "19531"
     ],
+    "cloze": {
+      "de": "Winterpause",
+      "en": "winter"
+    },
     "sourceIndex": 9531
   },
   {
@@ -6407,6 +7911,10 @@ const phrasesTime = [
     "wordIds": [
       "19592"
     ],
+    "cloze": {
+      "de": "Gesamtzahl",
+      "en": "total"
+    },
     "sourceIndex": 9592
   },
   {
@@ -6424,6 +7932,10 @@ const phrasesTime = [
     "wordIds": [
       "19620"
     ],
+    "cloze": {
+      "de": "leuchtenden",
+      "en": "bright"
+    },
     "sourceIndex": 9620
   },
   {
@@ -6441,6 +7953,10 @@ const phrasesTime = [
     "wordIds": [
       "19659"
     ],
+    "cloze": {
+      "de": "Spätsommer",
+      "en": "Late"
+    },
     "sourceIndex": 9659
   },
   {
@@ -6458,6 +7974,10 @@ const phrasesTime = [
     "wordIds": [
       "19757"
     ],
+    "cloze": {
+      "de": "hinsehen",
+      "en": "look"
+    },
     "sourceIndex": 9757
   },
   {
@@ -6475,6 +7995,10 @@ const phrasesTime = [
     "wordIds": [
       "19809"
     ],
+    "cloze": {
+      "de": "Sommerfest",
+      "en": "summer"
+    },
     "sourceIndex": 9809
   },
   {
@@ -6492,6 +8016,10 @@ const phrasesTime = [
     "wordIds": [
       "19838"
     ],
+    "cloze": {
+      "de": "zusammenschließen",
+      "en": "merge"
+    },
     "sourceIndex": 9838
   },
   {
@@ -6509,6 +8037,10 @@ const phrasesTime = [
     "wordIds": [
       "19887"
     ],
+    "cloze": {
+      "de": "es",
+      "en": "ghosts"
+    },
     "sourceIndex": 9887
   },
   {
@@ -6526,6 +8058,10 @@ const phrasesTime = [
     "wordIds": [
       "19923"
     ],
+    "cloze": {
+      "de": "Nachfolgerin",
+      "en": "successor"
+    },
     "sourceIndex": 9923
   },
   {
@@ -6543,6 +8079,10 @@ const phrasesTime = [
     "wordIds": [
       "19949"
     ],
+    "cloze": {
+      "de": "Schwalbe",
+      "en": "swallow"
+    },
     "sourceIndex": 9949
   },
   {
@@ -6560,6 +8100,10 @@ const phrasesTime = [
     "wordIds": [
       "19969"
     ],
+    "cloze": {
+      "de": "verlobt",
+      "en": "engaged"
+    },
     "sourceIndex": 9969
   },
   {
@@ -6577,6 +8121,10 @@ const phrasesTime = [
     "wordIds": [
       "20205"
     ],
+    "cloze": {
+      "de": "Kirmes",
+      "en": "fair"
+    },
     "sourceIndex": 10205
   },
   {
@@ -6594,6 +8142,10 @@ const phrasesTime = [
     "wordIds": [
       "20286"
     ],
+    "cloze": {
+      "de": "Zwanziger",
+      "en": "twenties"
+    },
     "sourceIndex": 10286
   },
   {
@@ -6611,6 +8163,10 @@ const phrasesTime = [
     "wordIds": [
       "20319"
     ],
+    "cloze": {
+      "de": "Eicheln",
+      "en": "acorns"
+    },
     "sourceIndex": 10319
   },
   {
@@ -6628,6 +8184,10 @@ const phrasesTime = [
     "wordIds": [
       "20350"
     ],
+    "cloze": {
+      "de": "Hamster",
+      "en": "hamster"
+    },
     "sourceIndex": 10350
   },
   {
@@ -6645,6 +8205,10 @@ const phrasesTime = [
     "wordIds": [
       "20369"
     ],
+    "cloze": {
+      "de": "kostbar",
+      "en": "precious"
+    },
     "sourceIndex": 10369
   },
   {
@@ -6662,6 +8226,10 @@ const phrasesTime = [
     "wordIds": [
       "20486"
     ],
+    "cloze": {
+      "de": "Expo",
+      "en": "expo"
+    },
     "sourceIndex": 10486
   },
   {
@@ -6679,6 +8247,10 @@ const phrasesTime = [
     "wordIds": [
       "20510"
     ],
+    "cloze": {
+      "de": "hilfsbereit",
+      "en": "helpful"
+    },
     "sourceIndex": 10510
   },
   {
@@ -6696,6 +8268,10 @@ const phrasesTime = [
     "wordIds": [
       "20531"
     ],
+    "cloze": {
+      "de": "Montagmorgen",
+      "en": "Monday"
+    },
     "sourceIndex": 10531
   },
   {
@@ -6713,6 +8289,10 @@ const phrasesTime = [
     "wordIds": [
       "20578"
     ],
+    "cloze": {
+      "de": "Veilchen",
+      "en": "violets"
+    },
     "sourceIndex": 10578
   },
   {
@@ -6730,6 +8310,10 @@ const phrasesTime = [
     "wordIds": [
       "20587"
     ],
+    "cloze": {
+      "de": "Zehntel",
+      "en": "tenth"
+    },
     "sourceIndex": 10587
   },
   {
@@ -6747,6 +8331,10 @@ const phrasesTime = [
     "wordIds": [
       "20646"
     ],
+    "cloze": {
+      "de": "Feb",
+      "en": "Feb"
+    },
     "sourceIndex": 10646
   },
   {
@@ -6764,6 +8352,10 @@ const phrasesTime = [
     "wordIds": [
       "20648"
     ],
+    "cloze": {
+      "de": "Fledermaus",
+      "en": "bat"
+    },
     "sourceIndex": 10648
   },
   {
@@ -6781,6 +8373,10 @@ const phrasesTime = [
     "wordIds": [
       "20684"
     ],
+    "cloze": {
+      "de": "Luxemburger",
+      "en": "Luxembourger"
+    },
     "sourceIndex": 10684
   },
   {
@@ -6798,6 +8394,10 @@ const phrasesTime = [
     "wordIds": [
       "20713"
     ],
+    "cloze": {
+      "de": "Salbe",
+      "en": "ointment"
+    },
     "sourceIndex": 10713
   },
   {
@@ -6815,6 +8415,10 @@ const phrasesTime = [
     "wordIds": [
       "20719"
     ],
+    "cloze": {
+      "de": "sechzig",
+      "en": "sixty"
+    },
     "sourceIndex": 10719
   },
   {
@@ -6832,6 +8436,10 @@ const phrasesTime = [
     "wordIds": [
       "20726"
     ],
+    "cloze": {
+      "de": "Sonntagmorgen",
+      "en": "Sunday"
+    },
     "sourceIndex": 10726
   },
   {
@@ -6849,6 +8457,10 @@ const phrasesTime = [
     "wordIds": [
       "20741"
     ],
+    "cloze": {
+      "de": "tausendmal",
+      "en": "thousand"
+    },
     "sourceIndex": 10741
   },
   {
@@ -6866,6 +8478,10 @@ const phrasesTime = [
     "wordIds": [
       "20784"
     ],
+    "cloze": {
+      "de": "baldige",
+      "en": "speedy"
+    },
     "sourceIndex": 10784
   },
   {
@@ -6883,6 +8499,10 @@ const phrasesTime = [
     "wordIds": [
       "20895"
     ],
+    "cloze": {
+      "de": "Sechziger",
+      "en": "sixties"
+    },
     "sourceIndex": 10895
   },
   {
@@ -6900,6 +8520,10 @@ const phrasesTime = [
     "wordIds": [
       "20938"
     ],
+    "cloze": {
+      "de": "Zeiger",
+      "en": "hand"
+    },
     "sourceIndex": 10938
   },
   {
@@ -6917,6 +8541,10 @@ const phrasesTime = [
     "wordIds": [
       "20967"
     ],
+    "cloze": {
+      "de": "Barriere",
+      "en": "barrier"
+    },
     "sourceIndex": 10967
   },
   {
@@ -6934,6 +8562,10 @@ const phrasesTime = [
     "wordIds": [
       "20989"
     ],
+    "cloze": {
+      "de": "dreieinhalb",
+      "en": "three"
+    },
     "sourceIndex": 10989
   },
   {
@@ -6951,6 +8583,10 @@ const phrasesTime = [
     "wordIds": [
       "21064"
     ],
+    "cloze": {
+      "de": "Nachbarländer",
+      "en": "neighboring"
+    },
     "sourceIndex": 11064
   },
   {
@@ -6968,6 +8604,10 @@ const phrasesTime = [
     "wordIds": [
       "21090"
     ],
+    "cloze": {
+      "de": "Schultag",
+      "en": "school"
+    },
     "sourceIndex": 11090
   },
   {
@@ -6985,6 +8625,10 @@ const phrasesTime = [
     "wordIds": [
       "21118"
     ],
+    "cloze": {
+      "de": "vorletzte",
+      "en": "penultimate"
+    },
     "sourceIndex": 11118
   },
   {
@@ -7002,6 +8646,10 @@ const phrasesTime = [
     "wordIds": [
       "21125"
     ],
+    "cloze": {
+      "de": "Yuan",
+      "en": "Yuan"
+    },
     "sourceIndex": 11125
   },
   {
@@ -7019,6 +8667,10 @@ const phrasesTime = [
     "wordIds": [
       "21168"
     ],
+    "cloze": {
+      "de": "Durchschnittsalter",
+      "en": "average"
+    },
     "sourceIndex": 11168
   },
   {
@@ -7036,6 +8688,10 @@ const phrasesTime = [
     "wordIds": [
       "21198"
     ],
+    "cloze": {
+      "de": "Handynummer",
+      "en": "mobile"
+    },
     "sourceIndex": 11198
   },
   {
@@ -7053,6 +8709,10 @@ const phrasesTime = [
     "wordIds": [
       "21230"
     ],
+    "cloze": {
+      "de": "Montagabend",
+      "en": "Monday"
+    },
     "sourceIndex": 11230
   },
   {
@@ -7070,6 +8730,10 @@ const phrasesTime = [
     "wordIds": [
       "21231"
     ],
+    "cloze": {
+      "de": "Morgenstunde",
+      "en": "morning"
+    },
     "sourceIndex": 11231
   },
   {
@@ -7087,6 +8751,10 @@ const phrasesTime = [
     "wordIds": [
       "21242"
     ],
+    "cloze": {
+      "de": "Ortszeit",
+      "en": "time"
+    },
     "sourceIndex": 11242
   },
   {
@@ -7104,6 +8772,10 @@ const phrasesTime = [
     "wordIds": [
       "21376"
     ],
+    "cloze": {
+      "de": "Fahrverbot",
+      "en": "driving"
+    },
     "sourceIndex": 11376
   },
   {
@@ -7121,6 +8793,10 @@ const phrasesTime = [
     "wordIds": [
       "21379"
     ],
+    "cloze": {
+      "de": "finstere",
+      "en": "dark"
+    },
     "sourceIndex": 11379
   },
   {
@@ -7138,6 +8814,10 @@ const phrasesTime = [
     "wordIds": [
       "21394"
     ],
+    "cloze": {
+      "de": "Gym",
+      "en": "gym"
+    },
     "sourceIndex": 11394
   },
   {
@@ -7155,6 +8835,10 @@ const phrasesTime = [
     "wordIds": [
       "21518"
     ],
+    "cloze": {
+      "de": "Zählung",
+      "en": "counting"
+    },
     "sourceIndex": 11518
   },
   {
@@ -7172,6 +8856,10 @@ const phrasesTime = [
     "wordIds": [
       "21542"
     ],
+    "cloze": {
+      "de": "einjährige",
+      "en": "annual"
+    },
     "sourceIndex": 11542
   },
   {
@@ -7189,6 +8877,10 @@ const phrasesTime = [
     "wordIds": [
       "21558"
     ],
+    "cloze": {
+      "de": "gemeldete",
+      "en": "reported"
+    },
     "sourceIndex": 11558
   },
   {
@@ -7206,6 +8898,10 @@ const phrasesTime = [
     "wordIds": [
       "21602"
     ],
+    "cloze": {
+      "de": "Mittwochabend",
+      "en": "Wednesday"
+    },
     "sourceIndex": 11602
   },
   {
@@ -7223,6 +8919,10 @@ const phrasesTime = [
     "wordIds": [
       "21633"
     ],
+    "cloze": {
+      "de": "Sommersemester",
+      "en": "summer"
+    },
     "sourceIndex": 11633
   },
   {
@@ -7240,6 +8940,10 @@ const phrasesTime = [
     "wordIds": [
       "21668"
     ],
+    "cloze": {
+      "de": "zweijährigen",
+      "en": "two-year"
+    },
     "sourceIndex": 11668
   },
   {
@@ -7257,6 +8961,10 @@ const phrasesTime = [
     "wordIds": [
       "21683"
     ],
+    "cloze": {
+      "de": "Aushilfe",
+      "en": "temporary"
+    },
     "sourceIndex": 11683
   },
   {
@@ -7274,6 +8982,10 @@ const phrasesTime = [
     "wordIds": [
       "21704"
     ],
+    "cloze": {
+      "de": "chillen",
+      "en": "chill"
+    },
     "sourceIndex": 11704
   },
   {
@@ -7291,6 +9003,10 @@ const phrasesTime = [
     "wordIds": [
       "21852"
     ],
+    "cloze": {
+      "de": "Adventskalender",
+      "en": "Advent"
+    },
     "sourceIndex": 11852
   },
   {
@@ -7308,6 +9024,10 @@ const phrasesTime = [
     "wordIds": [
       "21881"
     ],
+    "cloze": {
+      "de": "einhundert",
+      "en": "one"
+    },
     "sourceIndex": 11881
   },
   {
@@ -7325,6 +9045,10 @@ const phrasesTime = [
     "wordIds": [
       "22072"
     ],
+    "cloze": {
+      "de": "Deutschunterricht",
+      "en": "German"
+    },
     "sourceIndex": 12072
   },
   {
@@ -7342,6 +9066,10 @@ const phrasesTime = [
     "wordIds": [
       "22073"
     ],
+    "cloze": {
+      "de": "Dienstagabend",
+      "en": "Tuesday"
+    },
     "sourceIndex": 12073
   },
   {
@@ -7359,6 +9087,10 @@ const phrasesTime = [
     "wordIds": [
       "22109"
     ],
+    "cloze": {
+      "de": "Jahresbeginn",
+      "en": "beginning"
+    },
     "sourceIndex": 12109
   },
   {
@@ -7376,6 +9108,10 @@ const phrasesTime = [
     "wordIds": [
       "22110"
     ],
+    "cloze": {
+      "de": "Juwelier",
+      "en": "jeweler"
+    },
     "sourceIndex": 12110
   },
   {
@@ -7393,6 +9129,10 @@ const phrasesTime = [
     "wordIds": [
       "22207"
     ],
+    "cloze": {
+      "de": "wachsam",
+      "en": "watchful"
+    },
     "sourceIndex": 12207
   },
   {
@@ -7410,6 +9150,10 @@ const phrasesTime = [
     "wordIds": [
       "22243"
     ],
+    "cloze": {
+      "de": "Bowling",
+      "en": "bowling"
+    },
     "sourceIndex": 12243
   },
   {
@@ -7427,6 +9171,10 @@ const phrasesTime = [
     "wordIds": [
       "22257"
     ],
+    "cloze": {
+      "de": "Donnerstagabend",
+      "en": "Thursday"
+    },
     "sourceIndex": 12257
   },
   {
@@ -7444,6 +9192,10 @@ const phrasesTime = [
     "wordIds": [
       "22321"
     ],
+    "cloze": {
+      "de": "Mittagszeit",
+      "en": "Lunchtime"
+    },
     "sourceIndex": 12321
   },
   {
@@ -7461,6 +9213,10 @@ const phrasesTime = [
     "wordIds": [
       "22332"
     ],
+    "cloze": {
+      "de": "Probezeit",
+      "en": "probation"
+    },
     "sourceIndex": 12332
   },
   {
@@ -7478,6 +9234,10 @@ const phrasesTime = [
     "wordIds": [
       "22342"
     ],
+    "cloze": {
+      "de": "schminkt",
+      "en": "on"
+    },
     "sourceIndex": 12342
   },
   {
@@ -7495,6 +9255,10 @@ const phrasesTime = [
     "wordIds": [
       "22434"
     ],
+    "cloze": {
+      "de": "dreijähriger",
+      "en": "three-year"
+    },
     "sourceIndex": 12434
   },
   {
@@ -7512,6 +9276,10 @@ const phrasesTime = [
     "wordIds": [
       "22435"
     ],
+    "cloze": {
+      "de": "dreissigjährige",
+      "en": "thirty-year"
+    },
     "sourceIndex": 12435
   },
   {
@@ -7529,6 +9297,10 @@ const phrasesTime = [
     "wordIds": [
       "22501"
     ],
+    "cloze": {
+      "de": "Lunch",
+      "en": "lunch"
+    },
     "sourceIndex": 12501
   },
   {
@@ -7546,6 +9318,10 @@ const phrasesTime = [
     "wordIds": [
       "22513"
     ],
+    "cloze": {
+      "de": "Nachtigall",
+      "en": "nightingale"
+    },
     "sourceIndex": 12513
   },
   {
@@ -7563,6 +9339,10 @@ const phrasesTime = [
     "wordIds": [
       "22543"
     ],
+    "cloze": {
+      "de": "Sommermonat",
+      "en": "summer"
+    },
     "sourceIndex": 12543
   },
   {
@@ -7580,6 +9360,10 @@ const phrasesTime = [
     "wordIds": [
       "22556"
     ],
+    "cloze": {
+      "de": "Tagesablauf",
+      "en": "daily"
+    },
     "sourceIndex": 12556
   },
   {
@@ -7597,6 +9381,10 @@ const phrasesTime = [
     "wordIds": [
       "22557"
     ],
+    "cloze": {
+      "de": "Teilnehmerzahl",
+      "en": "number"
+    },
     "sourceIndex": 12557
   },
   {
@@ -7614,6 +9402,10 @@ const phrasesTime = [
     "wordIds": [
       "22582"
     ],
+    "cloze": {
+      "de": "zeitig",
+      "en": "early"
+    },
     "sourceIndex": 12582
   },
   {
@@ -7631,6 +9423,10 @@ const phrasesTime = [
     "wordIds": [
       "22593"
     ],
+    "cloze": {
+      "de": "Addition",
+      "en": "addition"
+    },
     "sourceIndex": 12593
   },
   {
@@ -7648,6 +9444,10 @@ const phrasesTime = [
     "wordIds": [
       "22606"
     ],
+    "cloze": {
+      "de": "Aschermittwoch",
+      "en": "Ash"
+    },
     "sourceIndex": 12606
   },
   {
@@ -7665,6 +9465,10 @@ const phrasesTime = [
     "wordIds": [
       "22669"
     ],
+    "cloze": {
+      "de": "Jahrmarkt",
+      "en": "fair"
+    },
     "sourceIndex": 12669
   },
   {
@@ -7682,6 +9486,10 @@ const phrasesTime = [
     "wordIds": [
       "22760"
     ],
+    "cloze": {
+      "de": "volljährig",
+      "en": "of"
+    },
     "sourceIndex": 12760
   },
   {
@@ -7699,6 +9507,10 @@ const phrasesTime = [
     "wordIds": [
       "22776"
     ],
+    "cloze": {
+      "de": "Abendbrot",
+      "en": "supper"
+    },
     "sourceIndex": 12776
   },
   {
@@ -7716,6 +9528,10 @@ const phrasesTime = [
     "wordIds": [
       "22790"
     ],
+    "cloze": {
+      "de": "Arbeitsstunde",
+      "en": "working"
+    },
     "sourceIndex": 12790
   },
   {
@@ -7733,6 +9549,10 @@ const phrasesTime = [
     "wordIds": [
       "22844"
     ],
+    "cloze": {
+      "de": "Geburtstagsgeschenk",
+      "en": "birthday"
+    },
     "sourceIndex": 12844
   },
   {
@@ -7750,6 +9570,10 @@ const phrasesTime = [
     "wordIds": [
       "22872"
     ],
+    "cloze": {
+      "de": "limitiert",
+      "en": "limited"
+    },
     "sourceIndex": 12872
   },
   {
@@ -7767,6 +9591,10 @@ const phrasesTime = [
     "wordIds": [
       "22944"
     ],
+    "cloze": {
+      "de": "Verabredung",
+      "en": "appointment"
+    },
     "sourceIndex": 12944
   },
   {
@@ -7784,6 +9612,10 @@ const phrasesTime = [
     "wordIds": [
       "22954"
     ],
+    "cloze": {
+      "de": "vorfallen",
+      "en": "happened"
+    },
     "sourceIndex": 12954
   },
   {
@@ -7801,6 +9633,10 @@ const phrasesTime = [
     "wordIds": [
       "22970"
     ],
+    "cloze": {
+      "de": "abwesend",
+      "en": "absent"
+    },
     "sourceIndex": 12970
   },
   {
@@ -7818,6 +9654,10 @@ const phrasesTime = [
     "wordIds": [
       "23001"
     ],
+    "cloze": {
+      "de": "campen",
+      "en": "camping"
+    },
     "sourceIndex": 13001
   },
   {
@@ -7835,6 +9675,10 @@ const phrasesTime = [
     "wordIds": [
       "23039"
     ],
+    "cloze": {
+      "de": "Hauptproblem",
+      "en": "main"
+    },
     "sourceIndex": 13039
   },
   {
@@ -7852,6 +9696,10 @@ const phrasesTime = [
     "wordIds": [
       "23176"
     ],
+    "cloze": {
+      "de": "Besucherzahl",
+      "en": "number"
+    },
     "sourceIndex": 13176
   },
   {
@@ -7869,6 +9717,10 @@ const phrasesTime = [
     "wordIds": [
       "23192"
     ],
+    "cloze": {
+      "de": "Concert",
+      "en": "concert"
+    },
     "sourceIndex": 13192
   },
   {
@@ -7886,6 +9738,10 @@ const phrasesTime = [
     "wordIds": [
       "23239"
     ],
+    "cloze": {
+      "de": "Heiterkeit",
+      "en": "cheerfulness"
+    },
     "sourceIndex": 13239
   },
   {
@@ -7903,6 +9759,10 @@ const phrasesTime = [
     "wordIds": [
       "23240"
     ],
+    "cloze": {
+      "de": "Helium",
+      "en": "helium"
+    },
     "sourceIndex": 13240
   },
   {
@@ -7920,6 +9780,10 @@ const phrasesTime = [
     "wordIds": [
       "23315"
     ],
+    "cloze": {
+      "de": "Tageszeit",
+      "en": "time"
+    },
     "sourceIndex": 13315
   },
   {
@@ -7937,6 +9801,10 @@ const phrasesTime = [
     "wordIds": [
       "23322"
     ],
+    "cloze": {
+      "de": "Träumer",
+      "en": "dreamer"
+    },
     "sourceIndex": 13322
   },
   {
@@ -7954,6 +9822,10 @@ const phrasesTime = [
     "wordIds": [
       "23453"
     ],
+    "cloze": {
+      "de": "Jahreszahl",
+      "en": "year"
+    },
     "sourceIndex": 13453
   },
   {
@@ -7971,6 +9843,10 @@ const phrasesTime = [
     "wordIds": [
       "23499"
     ],
+    "cloze": {
+      "de": "Rebe",
+      "en": "vine"
+    },
     "sourceIndex": 13499
   },
   {
@@ -7988,6 +9864,10 @@ const phrasesTime = [
     "wordIds": [
       "23513"
     ],
+    "cloze": {
+      "de": "Schulunterricht",
+      "en": "School"
+    },
     "sourceIndex": 13513
   },
   {
@@ -8005,6 +9885,10 @@ const phrasesTime = [
     "wordIds": [
       "23549"
     ],
+    "cloze": {
+      "de": "Weekend",
+      "en": "weekend"
+    },
     "sourceIndex": 13549
   },
   {
@@ -8022,6 +9906,10 @@ const phrasesTime = [
     "wordIds": [
       "23562"
     ],
+    "cloze": {
+      "de": "zweihundert",
+      "en": "two"
+    },
     "sourceIndex": 13562
   },
   {
@@ -8039,6 +9927,10 @@ const phrasesTime = [
     "wordIds": [
       "23693"
     ],
+    "cloze": {
+      "de": "Müllabfuhr",
+      "en": "garbage"
+    },
     "sourceIndex": 13693
   },
   {
@@ -8056,6 +9948,10 @@ const phrasesTime = [
     "wordIds": [
       "23770"
     ],
+    "cloze": {
+      "de": "Workout",
+      "en": "workout"
+    },
     "sourceIndex": 13770
   },
   {
@@ -8073,6 +9969,10 @@ const phrasesTime = [
     "wordIds": [
       "23898"
     ],
+    "cloze": {
+      "de": "Saisonbeginn",
+      "en": "start"
+    },
     "sourceIndex": 13898
   },
   {
@@ -8090,6 +9990,10 @@ const phrasesTime = [
     "wordIds": [
       "23900"
     ],
+    "cloze": {
+      "de": "Samstagmorgen",
+      "en": "Saturday"
+    },
     "sourceIndex": 13900
   },
   {
@@ -8107,6 +10011,10 @@ const phrasesTime = [
     "wordIds": [
       "23945"
     ],
+    "cloze": {
+      "de": "wasserdicht",
+      "en": "waterproof"
+    },
     "sourceIndex": 13945
   },
   {
@@ -8124,6 +10032,10 @@ const phrasesTime = [
     "wordIds": [
       "23953"
     ],
+    "cloze": {
+      "de": "Wochenzeitung",
+      "en": "weekly"
+    },
     "sourceIndex": 13953
   },
   {
@@ -8141,6 +10053,10 @@ const phrasesTime = [
     "wordIds": [
       "23962"
     ],
+    "cloze": {
+      "de": "Abendstunde",
+      "en": "evening"
+    },
     "sourceIndex": 13962
   },
   {
@@ -8158,6 +10074,10 @@ const phrasesTime = [
     "wordIds": [
       "24157"
     ],
+    "cloze": {
+      "de": "wegziehen",
+      "en": "move"
+    },
     "sourceIndex": 14157
   },
   {
@@ -8175,6 +10095,10 @@ const phrasesTime = [
     "wordIds": [
       "24372"
     ],
+    "cloze": {
+      "de": "beschenken",
+      "en": "give"
+    },
     "sourceIndex": 14372
   },
   {
@@ -8192,6 +10116,10 @@ const phrasesTime = [
     "wordIds": [
       "24433"
     ],
+    "cloze": {
+      "de": "Kastanien",
+      "en": "chestnuts"
+    },
     "sourceIndex": 14433
   },
   {
@@ -8209,6 +10137,10 @@ const phrasesTime = [
     "wordIds": [
       "24446"
     ],
+    "cloze": {
+      "de": "Kündigungsfrist",
+      "en": "notice"
+    },
     "sourceIndex": 14446
   },
   {
@@ -8226,6 +10158,10 @@ const phrasesTime = [
     "wordIds": [
       "24452"
     ],
+    "cloze": {
+      "de": "Löwenzahn",
+      "en": "dandelion"
+    },
     "sourceIndex": 14452
   },
   {
@@ -8243,6 +10179,10 @@ const phrasesTime = [
     "wordIds": [
       "24543"
     ],
+    "cloze": {
+      "de": "Winterzeit",
+      "en": "Winter"
+    },
     "sourceIndex": 14543
   },
   {
@@ -8260,6 +10200,10 @@ const phrasesTime = [
     "wordIds": [
       "24548"
     ],
+    "cloze": {
+      "de": "zehnjähriger",
+      "en": "ten-year"
+    },
     "sourceIndex": 14548
   },
   {
@@ -8277,6 +10221,10 @@ const phrasesTime = [
     "wordIds": [
       "24550"
     ],
+    "cloze": {
+      "de": "Zeitumstellung",
+      "en": "time"
+    },
     "sourceIndex": 14550
   },
   {
@@ -8294,6 +10242,10 @@ const phrasesTime = [
     "wordIds": [
       "24671"
     ],
+    "cloze": {
+      "de": "lästern",
+      "en": "gossip"
+    },
     "sourceIndex": 14671
   },
   {
@@ -8311,6 +10263,10 @@ const phrasesTime = [
     "wordIds": [
       "24679"
     ],
+    "cloze": {
+      "de": "Monatsende",
+      "en": "end"
+    },
     "sourceIndex": 14679
   },
   {
@@ -8328,6 +10284,10 @@ const phrasesTime = [
     "wordIds": [
       "24729"
     ],
+    "cloze": {
+      "de": "Studienzeit",
+      "en": "study"
+    },
     "sourceIndex": 14729
   },
   {
@@ -8345,6 +10305,10 @@ const phrasesTime = [
     "wordIds": [
       "24765"
     ],
+    "cloze": {
+      "de": "Wochentag",
+      "en": "weekday"
+    },
     "sourceIndex": 14765
   },
   {
@@ -8362,6 +10326,10 @@ const phrasesTime = [
     "wordIds": [
       "24853"
     ],
+    "cloze": {
+      "de": "Kalenderjahr",
+      "en": "calendar"
+    },
     "sourceIndex": 14853
   },
   {
@@ -8379,6 +10347,10 @@ const phrasesTime = [
     "wordIds": [
       "24930"
     ],
+    "cloze": {
+      "de": "siebenjährige",
+      "en": "seven-year"
+    },
     "sourceIndex": 14930
   },
   {
@@ -8396,6 +10368,10 @@ const phrasesTime = [
     "wordIds": [
       "24931"
     ],
+    "cloze": {
+      "de": "siebzig",
+      "en": "seventy"
+    },
     "sourceIndex": 14931
   },
   {
@@ -8413,6 +10389,10 @@ const phrasesTime = [
     "wordIds": [
       "24932"
     ],
+    "cloze": {
+      "de": "Silvesternacht",
+      "en": "New"
+    },
     "sourceIndex": 14932
   },
   {
@@ -8430,6 +10410,10 @@ const phrasesTime = [
     "wordIds": [
       "24962"
     ],
+    "cloze": {
+      "de": "verspäte",
+      "en": "otherwise"
+    },
     "sourceIndex": 14962
   },
   {
@@ -8447,6 +10431,10 @@ const phrasesTime = [
     "wordIds": [
       "24973"
     ],
+    "cloze": {
+      "de": "Winterreifen",
+      "en": "winter"
+    },
     "sourceIndex": 14973
   },
   {
@@ -8464,6 +10452,10 @@ const phrasesTime = [
     "wordIds": [
       "24984"
     ],
+    "cloze": {
+      "de": "abendlichen",
+      "en": "evening"
+    },
     "sourceIndex": 14984
   },
   {
@@ -8481,6 +10473,10 @@ const phrasesTime = [
     "wordIds": [
       "25008"
     ],
+    "cloze": {
+      "de": "Buddhist",
+      "en": "Buddhist"
+    },
     "sourceIndex": 15008
   },
   {
@@ -8498,6 +10494,10 @@ const phrasesTime = [
     "wordIds": [
       "25039"
     ],
+    "cloze": {
+      "de": "Frühsommer",
+      "en": "early"
+    },
     "sourceIndex": 15039
   },
   {
@@ -8515,6 +10515,10 @@ const phrasesTime = [
     "wordIds": [
       "25054"
     ],
+    "cloze": {
+      "de": "gesehenes",
+      "en": "seen"
+    },
     "sourceIndex": 15054
   },
   {
@@ -8532,6 +10536,10 @@ const phrasesTime = [
     "wordIds": [
       "25156"
     ],
+    "cloze": {
+      "de": "Stuhlgang",
+      "en": "bowel"
+    },
     "sourceIndex": 15156
   },
   {
@@ -8549,6 +10557,10 @@ const phrasesTime = [
     "wordIds": [
       "25187"
     ],
+    "cloze": {
+      "de": "wiedermal",
+      "en": "again"
+    },
     "sourceIndex": 15187
   },
   {
@@ -8566,6 +10578,10 @@ const phrasesTime = [
     "wordIds": [
       "25189"
     ],
+    "cloze": {
+      "de": "Wochenstunden",
+      "en": "weekly"
+    },
     "sourceIndex": 15189
   },
   {
@@ -8583,6 +10599,10 @@ const phrasesTime = [
     "wordIds": [
       "25210"
     ],
+    "cloze": {
+      "de": "ausgelost",
+      "en": "drawn"
+    },
     "sourceIndex": 15210
   },
   {
@@ -8600,6 +10620,10 @@ const phrasesTime = [
     "wordIds": [
       "25212"
     ],
+    "cloze": {
+      "de": "Auszählung",
+      "en": "counting"
+    },
     "sourceIndex": 15212
   },
   {
@@ -8617,6 +10641,10 @@ const phrasesTime = [
     "wordIds": [
       "25299"
     ],
+    "cloze": {
+      "de": "Konfirmation",
+      "en": "confirmation"
+    },
     "sourceIndex": 15299
   },
   {
@@ -8634,6 +10662,10 @@ const phrasesTime = [
     "wordIds": [
       "25303"
     ],
+    "cloze": {
+      "de": "Kuckuck",
+      "en": "cuckoo"
+    },
     "sourceIndex": 15303
   },
   {
@@ -8651,6 +10683,10 @@ const phrasesTime = [
     "wordIds": [
       "25308"
     ],
+    "cloze": {
+      "de": "Lebensalter",
+      "en": "age"
+    },
     "sourceIndex": 15308
   },
   {
@@ -8668,6 +10704,10 @@ const phrasesTime = [
     "wordIds": [
       "25336"
     ],
+    "cloze": {
+      "de": "Regenzeit",
+      "en": "rainy"
+    },
     "sourceIndex": 15336
   },
   {
@@ -8685,6 +10725,10 @@ const phrasesTime = [
     "wordIds": [
       "25358"
     ],
+    "cloze": {
+      "de": "Sonntagnachmittag",
+      "en": "Sunday"
+    },
     "sourceIndex": 15358
   },
   {
@@ -8702,6 +10746,10 @@ const phrasesTime = [
     "wordIds": [
       "25392"
     ],
+    "cloze": {
+      "de": "gucke",
+      "en": "watch"
+    },
     "sourceIndex": 15392
   },
   {
@@ -8719,6 +10767,10 @@ const phrasesTime = [
     "wordIds": [
       "25394"
     ],
+    "cloze": {
+      "de": "zweistellig",
+      "en": "two-digit"
+    },
     "sourceIndex": 15394
   },
   {
@@ -8736,6 +10788,10 @@ const phrasesTime = [
     "wordIds": [
       "25396"
     ],
+    "cloze": {
+      "de": "zwitschern",
+      "en": "chirp"
+    },
     "sourceIndex": 15396
   },
   {
@@ -8753,6 +10809,10 @@ const phrasesTime = [
     "wordIds": [
       "25410"
     ],
+    "cloze": {
+      "de": "Angewohnheit",
+      "en": "habit"
+    },
     "sourceIndex": 15410
   },
   {
@@ -8770,6 +10830,10 @@ const phrasesTime = [
     "wordIds": [
       "25420"
     ],
+    "cloze": {
+      "de": "Badesee",
+      "en": "swimming"
+    },
     "sourceIndex": 15420
   },
   {
@@ -8787,6 +10851,10 @@ const phrasesTime = [
     "wordIds": [
       "25487"
     ],
+    "cloze": {
+      "de": "Geburtstagsparty",
+      "en": "birthday"
+    },
     "sourceIndex": 15487
   },
   {
@@ -8804,6 +10872,10 @@ const phrasesTime = [
     "wordIds": [
       "25564"
     ],
+    "cloze": {
+      "de": "Rosenmontag",
+      "en": "Rose"
+    },
     "sourceIndex": 15564
   },
   {
@@ -8821,6 +10893,10 @@ const phrasesTime = [
     "wordIds": [
       "25617"
     ],
+    "cloze": {
+      "de": "Wintermonat",
+      "en": "winter"
+    },
     "sourceIndex": 15617
   },
   {
@@ -8838,6 +10914,10 @@ const phrasesTime = [
     "wordIds": [
       "25732"
     ],
+    "cloze": {
+      "de": "Kurzurlaub",
+      "en": "short"
+    },
     "sourceIndex": 15732
   },
   {
@@ -8855,6 +10935,10 @@ const phrasesTime = [
     "wordIds": [
       "25735"
     ],
+    "cloze": {
+      "de": "Langlauf",
+      "en": "cross-country"
+    },
     "sourceIndex": 15735
   },
   {
@@ -8872,6 +10956,10 @@ const phrasesTime = [
     "wordIds": [
       "25848"
     ],
+    "cloze": {
+      "de": "achtzig",
+      "en": "eighty"
+    },
     "sourceIndex": 15848
   },
   {
@@ -8889,6 +10977,10 @@ const phrasesTime = [
     "wordIds": [
       "25909"
     ],
+    "cloze": {
+      "de": "fünfjähriger",
+      "en": "five-year"
+    },
     "sourceIndex": 15909
   },
   {
@@ -8906,6 +10998,10 @@ const phrasesTime = [
     "wordIds": [
       "26052"
     ],
+    "cloze": {
+      "de": "zweitgrösste",
+      "en": "second"
+    },
     "sourceIndex": 16052
   },
   {
@@ -8923,6 +11019,10 @@ const phrasesTime = [
     "wordIds": [
       "26054"
     ],
+    "cloze": {
+      "de": "zwölfte",
+      "en": "twelfth"
+    },
     "sourceIndex": 16054
   },
   {
@@ -8940,6 +11040,10 @@ const phrasesTime = [
     "wordIds": [
       "26104"
     ],
+    "cloze": {
+      "de": "Einsendung",
+      "en": "submission"
+    },
     "sourceIndex": 16104
   },
   {
@@ -8957,6 +11061,10 @@ const phrasesTime = [
     "wordIds": [
       "26184"
     ],
+    "cloze": {
+      "de": "meditieren",
+      "en": "meditate"
+    },
     "sourceIndex": 16184
   },
   {
@@ -8974,6 +11082,10 @@ const phrasesTime = [
     "wordIds": [
       "26268"
     ],
+    "cloze": {
+      "de": "ungerade",
+      "en": "number"
+    },
     "sourceIndex": 16268
   },
   {
@@ -8991,6 +11103,10 @@ const phrasesTime = [
     "wordIds": [
       "26303"
     ],
+    "cloze": {
+      "de": "stellen",
+      "en": "set"
+    },
     "sourceIndex": 16303
   },
   {
@@ -9008,6 +11124,10 @@ const phrasesTime = [
     "wordIds": [
       "26305"
     ],
+    "cloze": {
+      "de": "zweitbeste",
+      "en": "second"
+    },
     "sourceIndex": 16305
   },
   {
@@ -9025,6 +11145,10 @@ const phrasesTime = [
     "wordIds": [
       "26422"
     ],
+    "cloze": {
+      "de": "Jahreshälfte",
+      "en": "half-year"
+    },
     "sourceIndex": 16422
   },
   {
@@ -9042,6 +11166,10 @@ const phrasesTime = [
     "wordIds": [
       "26502"
     ],
+    "cloze": {
+      "de": "späteren",
+      "en": "later"
+    },
     "sourceIndex": 16502
   },
   {
@@ -9059,6 +11187,10 @@ const phrasesTime = [
     "wordIds": [
       "26625"
     ],
+    "cloze": {
+      "de": "Lieblingsfernsehsendung",
+      "en": "television"
+    },
     "sourceIndex": 16625
   },
   {
@@ -9076,6 +11208,10 @@ const phrasesTime = [
     "wordIds": [
       "26793"
     ],
+    "cloze": {
+      "de": "vierjähriges",
+      "en": "four-year"
+    },
     "sourceIndex": 16793
   },
   {
@@ -9093,6 +11229,10 @@ const phrasesTime = [
     "wordIds": [
       "26891"
     ],
+    "cloze": {
+      "de": "Kasino",
+      "en": "casino"
+    },
     "sourceIndex": 16891
   },
   {
@@ -9110,6 +11250,10 @@ const phrasesTime = [
     "wordIds": [
       "26903"
     ],
+    "cloze": {
+      "de": "Krafttraining",
+      "en": "strength"
+    },
     "sourceIndex": 16903
   },
   {
@@ -9127,6 +11271,10 @@ const phrasesTime = [
     "wordIds": [
       "27000"
     ],
+    "cloze": {
+      "de": "Spätherbst",
+      "en": "Late"
+    },
     "sourceIndex": 17000
   },
   {
@@ -9144,6 +11292,10 @@ const phrasesTime = [
     "wordIds": [
       "27010"
     ],
+    "cloze": {
+      "de": "Tagesthema",
+      "en": "topic"
+    },
     "sourceIndex": 17010
   },
   {
@@ -9161,6 +11313,10 @@ const phrasesTime = [
     "wordIds": [
       "27172"
     ],
+    "cloze": {
+      "de": "hundertmal",
+      "en": "hundred"
+    },
     "sourceIndex": 17172
   },
   {
@@ -9178,6 +11334,10 @@ const phrasesTime = [
     "wordIds": [
       "27221"
     ],
+    "cloze": {
+      "de": "Nachtclub",
+      "en": "nightclub"
+    },
     "sourceIndex": 17221
   },
   {
@@ -9195,6 +11355,10 @@ const phrasesTime = [
     "wordIds": [
       "27254"
     ],
+    "cloze": {
+      "de": "siebenmal",
+      "en": "seven"
+    },
     "sourceIndex": 17254
   },
   {
@@ -9212,6 +11376,10 @@ const phrasesTime = [
     "wordIds": [
       "27290"
     ],
+    "cloze": {
+      "de": "Vereinsheim",
+      "en": "club"
+    },
     "sourceIndex": 17290
   },
   {
@@ -9229,6 +11397,10 @@ const phrasesTime = [
     "wordIds": [
       "27380"
     ],
+    "cloze": {
+      "de": "Durchreise",
+      "en": "through"
+    },
     "sourceIndex": 17380
   },
   {
@@ -9246,6 +11418,10 @@ const phrasesTime = [
     "wordIds": [
       "27407"
     ],
+    "cloze": {
+      "de": "Frisör",
+      "en": "hairdresser"
+    },
     "sourceIndex": 17407
   },
   {
@@ -9263,6 +11439,10 @@ const phrasesTime = [
     "wordIds": [
       "27518"
     ],
+    "cloze": {
+      "de": "Reisezeit",
+      "en": "travel"
+    },
     "sourceIndex": 17518
   },
   {
@@ -9280,6 +11460,10 @@ const phrasesTime = [
     "wordIds": [
       "27749"
     ],
+    "cloze": {
+      "de": "Nachtwächter",
+      "en": "night"
+    },
     "sourceIndex": 17749
   },
   {
@@ -9297,6 +11481,10 @@ const phrasesTime = [
     "wordIds": [
       "27864"
     ],
+    "cloze": {
+      "de": "abreisen",
+      "en": "depart"
+    },
     "sourceIndex": 17864
   },
   {
@@ -9314,6 +11502,10 @@ const phrasesTime = [
     "wordIds": [
       "27866"
     ],
+    "cloze": {
+      "de": "Achtel",
+      "en": "One"
+    },
     "sourceIndex": 17866
   },
   {
@@ -9331,6 +11523,10 @@ const phrasesTime = [
     "wordIds": [
       "27903"
     ],
+    "cloze": {
+      "de": "dreidimensionales",
+      "en": "three-dimensional"
+    },
     "sourceIndex": 17903
   },
   {
@@ -9348,6 +11544,10 @@ const phrasesTime = [
     "wordIds": [
       "28035"
     ],
+    "cloze": {
+      "de": "Sommertag",
+      "en": "summer"
+    },
     "sourceIndex": 18035
   },
   {
@@ -9365,6 +11565,10 @@ const phrasesTime = [
     "wordIds": [
       "28154"
     ],
+    "cloze": {
+      "de": "Flieder",
+      "en": "lilac"
+    },
     "sourceIndex": 18154
   },
   {
@@ -9382,6 +11586,10 @@ const phrasesTime = [
     "wordIds": [
       "28181"
     ],
+    "cloze": {
+      "de": "hoffnungsvoll",
+      "en": "hopefully"
+    },
     "sourceIndex": 18181
   },
   {
@@ -9399,6 +11607,10 @@ const phrasesTime = [
     "wordIds": [
       "28372"
     ],
+    "cloze": {
+      "de": "Barbecue",
+      "en": "barbecue"
+    },
     "sourceIndex": 18372
   },
   {
@@ -9416,6 +11628,10 @@ const phrasesTime = [
     "wordIds": [
       "28420"
     ],
+    "cloze": {
+      "de": "frühmorgens",
+      "en": "early"
+    },
     "sourceIndex": 18420
   },
   {
@@ -9433,6 +11649,10 @@ const phrasesTime = [
     "wordIds": [
       "28499"
     ],
+    "cloze": {
+      "de": "Mondschein",
+      "en": "moonlight"
+    },
     "sourceIndex": 18499
   },
   {
@@ -9450,6 +11670,10 @@ const phrasesTime = [
     "wordIds": [
       "28559"
     ],
+    "cloze": {
+      "de": "spazierengehen",
+      "en": "go"
+    },
     "sourceIndex": 18559
   },
   {
@@ -9467,6 +11691,10 @@ const phrasesTime = [
     "wordIds": [
       "28589"
     ],
+    "cloze": {
+      "de": "Urlaubszeit",
+      "en": "holiday"
+    },
     "sourceIndex": 18589
   },
   {
@@ -9484,6 +11712,10 @@ const phrasesTime = [
     "wordIds": [
       "28727"
     ],
+    "cloze": {
+      "de": "kegeln",
+      "en": "bowling"
+    },
     "sourceIndex": 18727
   },
   {
@@ -9501,6 +11733,10 @@ const phrasesTime = [
     "wordIds": [
       "28813"
     ],
+    "cloze": {
+      "de": "Studienjahr",
+      "en": "academic"
+    },
     "sourceIndex": 18813
   },
   {
@@ -9518,6 +11754,10 @@ const phrasesTime = [
     "wordIds": [
       "28826"
     ],
+    "cloze": {
+      "de": "Uhrmacher",
+      "en": "watchmaker"
+    },
     "sourceIndex": 18826
   },
   {
@@ -9535,6 +11775,10 @@ const phrasesTime = [
     "wordIds": [
       "28867"
     ],
+    "cloze": {
+      "de": "übernächste",
+      "en": "next"
+    },
     "sourceIndex": 18867
   },
   {
@@ -9552,6 +11796,10 @@ const phrasesTime = [
     "wordIds": [
       "28875"
     ],
+    "cloze": {
+      "de": "achtmal",
+      "en": "eight"
+    },
     "sourceIndex": 18875
   },
   {
@@ -9569,6 +11817,10 @@ const phrasesTime = [
     "wordIds": [
       "28898"
     ],
+    "cloze": {
+      "de": "Bedenkzeit",
+      "en": "reflection"
+    },
     "sourceIndex": 18898
   },
   {
@@ -9586,6 +11838,10 @@ const phrasesTime = [
     "wordIds": [
       "28965"
     ],
+    "cloze": {
+      "de": "Frauentag",
+      "en": "Women's"
+    },
     "sourceIndex": 18965
   },
   {
@@ -9603,6 +11859,10 @@ const phrasesTime = [
     "wordIds": [
       "29014"
     ],
+    "cloze": {
+      "de": "jonglieren",
+      "en": "juggle"
+    },
     "sourceIndex": 19014
   },
   {
@@ -9620,6 +11880,10 @@ const phrasesTime = [
     "wordIds": [
       "29058"
     ],
+    "cloze": {
+      "de": "neunzig",
+      "en": "ninety"
+    },
     "sourceIndex": 19058
   },
   {
@@ -9637,6 +11901,10 @@ const phrasesTime = [
     "wordIds": [
       "29095"
     ],
+    "cloze": {
+      "de": "Schweigeminute",
+      "en": "minute"
+    },
     "sourceIndex": 19095
   },
   {
@@ -9654,6 +11922,10 @@ const phrasesTime = [
     "wordIds": [
       "29111"
     ],
+    "cloze": {
+      "de": "Startnummer",
+      "en": "starting"
+    },
     "sourceIndex": 19111
   },
   {
@@ -9671,6 +11943,10 @@ const phrasesTime = [
     "wordIds": [
       "29153"
     ],
+    "cloze": {
+      "de": "Vorbereitungszeit",
+      "en": "preparation"
+    },
     "sourceIndex": 19153
   },
   {
@@ -9688,6 +11964,10 @@ const phrasesTime = [
     "wordIds": [
       "29168"
     ],
+    "cloze": {
+      "de": "zwanzigste",
+      "en": "twentieth"
+    },
     "sourceIndex": 19168
   },
   {
@@ -9705,6 +11985,10 @@ const phrasesTime = [
     "wordIds": [
       "29224"
     ],
+    "cloze": {
+      "de": "dreihundert",
+      "en": "three"
+    },
     "sourceIndex": 19224
   },
   {
@@ -9722,6 +12006,10 @@ const phrasesTime = [
     "wordIds": [
       "29318"
     ],
+    "cloze": {
+      "de": "Lehrjahr",
+      "en": "apprenticeship"
+    },
     "sourceIndex": 19318
   },
   {
@@ -9739,6 +12027,10 @@ const phrasesTime = [
     "wordIds": [
       "29331"
     ],
+    "cloze": {
+      "de": "Mitgliedsbeitrag",
+      "en": "membership"
+    },
     "sourceIndex": 19331
   },
   {
@@ -9756,6 +12048,10 @@ const phrasesTime = [
     "wordIds": [
       "29336"
     ],
+    "cloze": {
+      "de": "Multiplikation",
+      "en": "Multiplication"
+    },
     "sourceIndex": 19336
   },
   {
@@ -9773,6 +12069,10 @@ const phrasesTime = [
     "wordIds": [
       "29442"
     ],
+    "cloze": {
+      "de": "verfrüht",
+      "en": "premature"
+    },
     "sourceIndex": 19442
   },
   {
@@ -9790,6 +12090,10 @@ const phrasesTime = [
     "wordIds": [
       "29455"
     ],
+    "cloze": {
+      "de": "Vorwoche",
+      "en": "previous"
+    },
     "sourceIndex": 19455
   },
   {
@@ -9807,6 +12111,10 @@ const phrasesTime = [
     "wordIds": [
       "29504"
     ],
+    "cloze": {
+      "de": "Bewölkung",
+      "en": "cloudiness"
+    },
     "sourceIndex": 19504
   },
   {
@@ -9824,6 +12132,10 @@ const phrasesTime = [
     "wordIds": [
       "29507"
     ],
+    "cloze": {
+      "de": "Briefträger",
+      "en": "postman"
+    },
     "sourceIndex": 19507
   },
   {
@@ -9841,6 +12153,10 @@ const phrasesTime = [
     "wordIds": [
       "29523"
     ],
+    "cloze": {
+      "de": "ganze",
+      "en": "thundered"
+    },
     "sourceIndex": 19523
   },
   {
@@ -9858,6 +12174,10 @@ const phrasesTime = [
     "wordIds": [
       "29659"
     ],
+    "cloze": {
+      "de": "Ruhetag",
+      "en": "day"
+    },
     "sourceIndex": 19659
   },
   {
@@ -9875,6 +12195,10 @@ const phrasesTime = [
     "wordIds": [
       "29678"
     ],
+    "cloze": {
+      "de": "Sonntagszeitung",
+      "en": "Sunday"
+    },
     "sourceIndex": 19678
   },
   {
@@ -9892,6 +12216,10 @@ const phrasesTime = [
     "wordIds": [
       "29687"
     ],
+    "cloze": {
+      "de": "Strandbad",
+      "en": "lido"
+    },
     "sourceIndex": 19687
   },
   {
@@ -9909,6 +12237,10 @@ const phrasesTime = [
     "wordIds": [
       "29896"
     ],
+    "cloze": {
+      "de": "Kämpferin",
+      "en": "fighter"
+    },
     "sourceIndex": 19896
   },
   {
@@ -9926,6 +12258,10 @@ const phrasesTime = [
     "wordIds": [
       "29957"
     ],
+    "cloze": {
+      "de": "Samstagnachmittag",
+      "en": "Saturday"
+    },
     "sourceIndex": 19957
   },
   {
@@ -9943,6 +12279,10 @@ const phrasesTime = [
     "wordIds": [
       "30035"
     ],
+    "cloze": {
+      "de": "Vorweihnachtszeit",
+      "en": "pre-Christmas"
+    },
     "sourceIndex": 20035
   },
   {
@@ -9960,6 +12300,10 @@ const phrasesTime = [
     "wordIds": [
       "30095"
     ],
+    "cloze": {
+      "de": "dazulernen",
+      "en": "learn"
+    },
     "sourceIndex": 20095
   },
   {
@@ -9977,6 +12321,10 @@ const phrasesTime = [
     "wordIds": [
       "30098"
     ],
+    "cloze": {
+      "de": "desinfizieren",
+      "en": "disinfect"
+    },
     "sourceIndex": 20098
   },
   {
@@ -9994,6 +12342,10 @@ const phrasesTime = [
     "wordIds": [
       "30107"
     ],
+    "cloze": {
+      "de": "einreiben",
+      "en": "rub"
+    },
     "sourceIndex": 20107
   },
   {
@@ -10011,6 +12363,10 @@ const phrasesTime = [
     "wordIds": [
       "30138"
     ],
+    "cloze": {
+      "de": "Freitagnachmittag",
+      "en": "Friday"
+    },
     "sourceIndex": 20138
   },
   {
@@ -10028,6 +12384,10 @@ const phrasesTime = [
     "wordIds": [
       "30184"
     ],
+    "cloze": {
+      "de": "Krankenbett",
+      "en": "sickbed"
+    },
     "sourceIndex": 20184
   },
   {
@@ -10045,6 +12405,10 @@ const phrasesTime = [
     "wordIds": [
       "30187"
     ],
+    "cloze": {
+      "de": "Kubus",
+      "en": "cube"
+    },
     "sourceIndex": 20187
   }
 ];

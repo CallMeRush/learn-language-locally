@@ -14,6 +14,10 @@ const phrasesNature = [
     "wordIds": [
       "10056"
     ],
+    "cloze": {
+      "de": "sehe",
+      "en": "see"
+    },
     "sourceIndex": 56
   },
   {
@@ -31,6 +35,10 @@ const phrasesNature = [
     "wordIds": [
       "10075"
     ],
+    "cloze": {
+      "de": "natürliche",
+      "en": "natural"
+    },
     "sourceIndex": 75
   },
   {
@@ -48,6 +56,10 @@ const phrasesNature = [
     "wordIds": [
       "10142"
     ],
+    "cloze": {
+      "de": "je",
+      "en": "ever"
+    },
     "sourceIndex": 142
   },
   {
@@ -65,6 +77,10 @@ const phrasesNature = [
     "wordIds": [
       "10205"
     ],
+    "cloze": {
+      "de": "hoch",
+      "en": "high"
+    },
     "sourceIndex": 205
   },
   {
@@ -83,6 +99,10 @@ const phrasesNature = [
       "10236",
       "10655"
     ],
+    "cloze": {
+      "de": "scheint",
+      "en": "shining"
+    },
     "sourceIndex": 236
   },
   {
@@ -100,6 +120,10 @@ const phrasesNature = [
     "wordIds": [
       "10351"
     ],
+    "cloze": {
+      "de": "Höhe",
+      "en": "height"
+    },
     "sourceIndex": 351
   },
   {
@@ -117,6 +141,10 @@ const phrasesNature = [
     "wordIds": [
       "10387"
     ],
+    "cloze": {
+      "de": "überall",
+      "en": "everywhere"
+    },
     "sourceIndex": 387
   },
   {
@@ -134,6 +162,10 @@ const phrasesNature = [
     "wordIds": [
       "10432"
     ],
+    "cloze": {
+      "de": "Plötzlich",
+      "en": "Suddenly"
+    },
     "sourceIndex": 432
   },
   {
@@ -151,6 +183,10 @@ const phrasesNature = [
     "wordIds": [
       "10434"
     ],
+    "cloze": {
+      "de": "schwarz",
+      "en": "black"
+    },
     "sourceIndex": 434
   },
   {
@@ -168,6 +204,10 @@ const phrasesNature = [
     "wordIds": [
       "10533"
     ],
+    "cloze": {
+      "de": "Natur",
+      "en": "Nature"
+    },
     "sourceIndex": 533
   },
   {
@@ -185,6 +225,10 @@ const phrasesNature = [
     "wordIds": [
       "10579"
     ],
+    "cloze": {
+      "de": "Erde",
+      "en": "Earth"
+    },
     "sourceIndex": 579
   },
   {
@@ -202,6 +246,10 @@ const phrasesNature = [
     "wordIds": [
       "10640"
     ],
+    "cloze": {
+      "de": "Hund",
+      "en": "dog"
+    },
     "sourceIndex": 640
   },
   {
@@ -219,6 +267,10 @@ const phrasesNature = [
     "wordIds": [
       "10656"
     ],
+    "cloze": {
+      "de": "Tier",
+      "en": "animal"
+    },
     "sourceIndex": 656
   },
   {
@@ -236,6 +288,10 @@ const phrasesNature = [
     "wordIds": [
       "10674"
     ],
+    "cloze": {
+      "de": "ständig",
+      "en": "constantly"
+    },
     "sourceIndex": 674
   },
   {
@@ -253,6 +309,10 @@ const phrasesNature = [
     "wordIds": [
       "10683"
     ],
+    "cloze": {
+      "de": "Quelle",
+      "en": "source"
+    },
     "sourceIndex": 683
   },
   {
@@ -270,6 +330,10 @@ const phrasesNature = [
     "wordIds": [
       "10701"
     ],
+    "cloze": {
+      "de": "Himmel",
+      "en": "sky"
+    },
     "sourceIndex": 701
   },
   {
@@ -287,6 +351,10 @@ const phrasesNature = [
     "wordIds": [
       "10708"
     ],
+    "cloze": {
+      "de": "tief",
+      "en": "deep"
+    },
     "sourceIndex": 708
   },
   {
@@ -304,6 +372,10 @@ const phrasesNature = [
     "wordIds": [
       "10727"
     ],
+    "cloze": {
+      "de": "Wald",
+      "en": "forest"
+    },
     "sourceIndex": 727
   },
   {
@@ -321,6 +393,10 @@ const phrasesNature = [
     "wordIds": [
       "10743"
     ],
+    "cloze": {
+      "de": "See",
+      "en": "lake"
+    },
     "sourceIndex": 743
   },
   {
@@ -338,6 +414,10 @@ const phrasesNature = [
     "wordIds": [
       "10752"
     ],
+    "cloze": {
+      "de": "cooles",
+      "en": "cool"
+    },
     "sourceIndex": 752
   },
   {
@@ -355,6 +435,10 @@ const phrasesNature = [
     "wordIds": [
       "10789"
     ],
+    "cloze": {
+      "de": "Insel",
+      "en": "island"
+    },
     "sourceIndex": 789
   },
   {
@@ -372,6 +456,10 @@ const phrasesNature = [
     "wordIds": [
       "10806"
     ],
+    "cloze": {
+      "de": "Feuer",
+      "en": "fire"
+    },
     "sourceIndex": 806
   },
   {
@@ -389,6 +477,10 @@ const phrasesNature = [
     "wordIds": [
       "10819"
     ],
+    "cloze": {
+      "de": "weiß",
+      "en": "white"
+    },
     "sourceIndex": 819
   },
   {
@@ -406,6 +498,10 @@ const phrasesNature = [
     "wordIds": [
       "10820"
     ],
+    "cloze": {
+      "de": "Wetter",
+      "en": "weather"
+    },
     "sourceIndex": 820
   },
   {
@@ -423,6 +519,10 @@ const phrasesNature = [
     "wordIds": [
       "10829"
     ],
+    "cloze": {
+      "de": "extrem",
+      "en": "extremely"
+    },
     "sourceIndex": 829
   },
   {
@@ -441,6 +541,10 @@ const phrasesNature = [
       "10836",
       "17557"
     ],
+    "cloze": {
+      "de": "Osten",
+      "en": "east"
+    },
     "sourceIndex": 836
   },
   {
@@ -458,6 +562,10 @@ const phrasesNature = [
     "wordIds": [
       "10869"
     ],
+    "cloze": {
+      "de": "Spitze",
+      "en": "peak"
+    },
     "sourceIndex": 869
   },
   {
@@ -475,6 +583,10 @@ const phrasesNature = [
     "wordIds": [
       "10889"
     ],
+    "cloze": {
+      "de": "innen",
+      "en": "inside"
+    },
     "sourceIndex": 889
   },
   {
@@ -492,6 +604,10 @@ const phrasesNature = [
     "wordIds": [
       "10973"
     ],
+    "cloze": {
+      "de": "Wind",
+      "en": "wind"
+    },
     "sourceIndex": 973
   },
   {
@@ -509,6 +625,10 @@ const phrasesNature = [
     "wordIds": [
       "11043"
     ],
+    "cloze": {
+      "de": "Stein",
+      "en": "stone"
+    },
     "sourceIndex": 1043
   },
   {
@@ -526,6 +646,10 @@ const phrasesNature = [
     "wordIds": [
       "11049"
     ],
+    "cloze": {
+      "de": "blau",
+      "en": "blue"
+    },
     "sourceIndex": 1049
   },
   {
@@ -543,6 +667,10 @@ const phrasesNature = [
     "wordIds": [
       "11081"
     ],
+    "cloze": {
+      "de": "Risiko",
+      "en": "risk"
+    },
     "sourceIndex": 1081
   },
   {
@@ -560,6 +688,10 @@ const phrasesNature = [
     "wordIds": [
       "11111"
     ],
+    "cloze": {
+      "de": "Regen",
+      "en": "rain"
+    },
     "sourceIndex": 1111
   },
   {
@@ -577,6 +709,10 @@ const phrasesNature = [
     "wordIds": [
       "11129"
     ],
+    "cloze": {
+      "de": "Baum",
+      "en": "tree"
+    },
     "sourceIndex": 1129
   },
   {
@@ -594,6 +730,10 @@ const phrasesNature = [
     "wordIds": [
       "11131"
     ],
+    "cloze": {
+      "de": "Berg",
+      "en": "mountain"
+    },
     "sourceIndex": 1131
   },
   {
@@ -611,6 +751,10 @@ const phrasesNature = [
     "wordIds": [
       "11159"
     ],
+    "cloze": {
+      "de": "heiss",
+      "en": "hot"
+    },
     "sourceIndex": 1159
   },
   {
@@ -628,6 +772,10 @@ const phrasesNature = [
     "wordIds": [
       "11196"
     ],
+    "cloze": {
+      "de": "verboten",
+      "en": "It"
+    },
     "sourceIndex": 1196
   },
   {
@@ -645,6 +793,10 @@ const phrasesNature = [
     "wordIds": [
       "11226"
     ],
+    "cloze": {
+      "de": "Wechsel",
+      "en": "change"
+    },
     "sourceIndex": 1226
   },
   {
@@ -662,6 +814,10 @@ const phrasesNature = [
     "wordIds": [
       "11258"
     ],
+    "cloze": {
+      "de": "jemals",
+      "en": "ever"
+    },
     "sourceIndex": 1258
   },
   {
@@ -679,6 +835,10 @@ const phrasesNature = [
     "wordIds": [
       "11274"
     ],
+    "cloze": {
+      "de": "Wolf",
+      "en": "wolf"
+    },
     "sourceIndex": 1274
   },
   {
@@ -696,6 +856,10 @@ const phrasesNature = [
     "wordIds": [
       "11369"
     ],
+    "cloze": {
+      "de": "obere",
+      "en": "upper"
+    },
     "sourceIndex": 1369
   },
   {
@@ -713,6 +877,10 @@ const phrasesNature = [
     "wordIds": [
       "11374"
     ],
+    "cloze": {
+      "de": "Schwanz",
+      "en": "tail"
+    },
     "sourceIndex": 1374
   },
   {
@@ -730,6 +898,10 @@ const phrasesNature = [
     "wordIds": [
       "11419"
     ],
+    "cloze": {
+      "de": "braun",
+      "en": "brown"
+    },
     "sourceIndex": 1419
   },
   {
@@ -747,6 +919,10 @@ const phrasesNature = [
     "wordIds": [
       "11432"
     ],
+    "cloze": {
+      "de": "Sturm",
+      "en": "storm"
+    },
     "sourceIndex": 1432
   },
   {
@@ -764,6 +940,10 @@ const phrasesNature = [
     "wordIds": [
       "11438"
     ],
+    "cloze": {
+      "de": "warm",
+      "en": "warm"
+    },
     "sourceIndex": 1438
   },
   {
@@ -781,6 +961,10 @@ const phrasesNature = [
     "wordIds": [
       "11458"
     ],
+    "cloze": {
+      "de": "Kreuz",
+      "en": "cross"
+    },
     "sourceIndex": 1458
   },
   {
@@ -798,6 +982,10 @@ const phrasesNature = [
     "wordIds": [
       "11462"
     ],
+    "cloze": {
+      "de": "Schatten",
+      "en": "shadow"
+    },
     "sourceIndex": 1462
   },
   {
@@ -815,6 +1003,10 @@ const phrasesNature = [
     "wordIds": [
       "11465"
     ],
+    "cloze": {
+      "de": "Sterne",
+      "en": "stars"
+    },
     "sourceIndex": 1465
   },
   {
@@ -832,6 +1024,10 @@ const phrasesNature = [
     "wordIds": [
       "11474"
     ],
+    "cloze": {
+      "de": "wilde",
+      "en": "wild"
+    },
     "sourceIndex": 1474
   },
   {
@@ -849,6 +1045,10 @@ const phrasesNature = [
     "wordIds": [
       "11483"
     ],
+    "cloze": {
+      "de": "Besitzer",
+      "en": "owner"
+    },
     "sourceIndex": 1483
   },
   {
@@ -866,6 +1066,10 @@ const phrasesNature = [
     "wordIds": [
       "11493"
     ],
+    "cloze": {
+      "de": "Katze",
+      "en": "cat"
+    },
     "sourceIndex": 1493
   },
   {
@@ -883,6 +1087,10 @@ const phrasesNature = [
     "wordIds": [
       "11590"
     ],
+    "cloze": {
+      "de": "gelb",
+      "en": "yellow"
+    },
     "sourceIndex": 1590
   },
   {
@@ -900,6 +1108,10 @@ const phrasesNature = [
     "wordIds": [
       "11637"
     ],
+    "cloze": {
+      "de": "Schnee",
+      "en": "snow"
+    },
     "sourceIndex": 1637
   },
   {
@@ -917,6 +1129,10 @@ const phrasesNature = [
     "wordIds": [
       "11638"
     ],
+    "cloze": {
+      "de": "sichtbar",
+      "en": "visible"
+    },
     "sourceIndex": 1638
   },
   {
@@ -934,6 +1150,10 @@ const phrasesNature = [
     "wordIds": [
       "11649"
     ],
+    "cloze": {
+      "de": "Vogel",
+      "en": "bird"
+    },
     "sourceIndex": 1649
   },
   {
@@ -951,6 +1171,10 @@ const phrasesNature = [
     "wordIds": [
       "11662"
     ],
+    "cloze": {
+      "de": "Fluss",
+      "en": "river"
+    },
     "sourceIndex": 1662
   },
   {
@@ -968,6 +1192,10 @@ const phrasesNature = [
     "wordIds": [
       "11675"
     ],
+    "cloze": {
+      "de": "Klima",
+      "en": "climate"
+    },
     "sourceIndex": 1675
   },
   {
@@ -985,6 +1213,10 @@ const phrasesNature = [
     "wordIds": [
       "11684"
     ],
+    "cloze": {
+      "de": "Strand",
+      "en": "beach"
+    },
     "sourceIndex": 1684
   },
   {
@@ -1002,6 +1234,10 @@ const phrasesNature = [
     "wordIds": [
       "11707"
     ],
+    "cloze": {
+      "de": "Blume",
+      "en": "flower"
+    },
     "sourceIndex": 1707
   },
   {
@@ -1019,6 +1255,10 @@ const phrasesNature = [
     "wordIds": [
       "11730"
     ],
+    "cloze": {
+      "de": "Pferd",
+      "en": "horse"
+    },
     "sourceIndex": 1730
   },
   {
@@ -1036,6 +1276,10 @@ const phrasesNature = [
     "wordIds": [
       "11772"
     ],
+    "cloze": {
+      "de": "Schönheit",
+      "en": "beauty"
+    },
     "sourceIndex": 1772
   },
   {
@@ -1053,6 +1297,10 @@ const phrasesNature = [
     "wordIds": [
       "11826"
     ],
+    "cloze": {
+      "de": "freiwillig",
+      "en": "voluntarily"
+    },
     "sourceIndex": 1826
   },
   {
@@ -1070,6 +1318,10 @@ const phrasesNature = [
     "wordIds": [
       "11867"
     ],
+    "cloze": {
+      "de": "rauchen",
+      "en": "smoking"
+    },
     "sourceIndex": 1867
   },
   {
@@ -1087,6 +1339,10 @@ const phrasesNature = [
     "wordIds": [
       "11884"
     ],
+    "cloze": {
+      "de": "Blatt",
+      "en": "leaf"
+    },
     "sourceIndex": 1884
   },
   {
@@ -1104,6 +1360,10 @@ const phrasesNature = [
     "wordIds": [
       "11885"
     ],
+    "cloze": {
+      "de": "Burg",
+      "en": "castle"
+    },
     "sourceIndex": 1885
   },
   {
@@ -1121,6 +1381,10 @@ const phrasesNature = [
     "wordIds": [
       "11895"
     ],
+    "cloze": {
+      "de": "Jäger",
+      "en": "hunter"
+    },
     "sourceIndex": 1895
   },
   {
@@ -1138,6 +1402,10 @@ const phrasesNature = [
     "wordIds": [
       "11944"
     ],
+    "cloze": {
+      "de": "Sand",
+      "en": "sand"
+    },
     "sourceIndex": 1944
   },
   {
@@ -1155,6 +1423,10 @@ const phrasesNature = [
     "wordIds": [
       "11977"
     ],
+    "cloze": {
+      "de": "schiesst",
+      "en": "shoots"
+    },
     "sourceIndex": 1977
   },
   {
@@ -1172,6 +1444,10 @@ const phrasesNature = [
     "wordIds": [
       "11999"
     ],
+    "cloze": {
+      "de": "Flügel",
+      "en": "wings"
+    },
     "sourceIndex": 1999
   },
   {
@@ -1189,6 +1465,10 @@ const phrasesNature = [
     "wordIds": [
       "12018"
     ],
+    "cloze": {
+      "de": "Mond",
+      "en": "moon"
+    },
     "sourceIndex": 2018
   },
   {
@@ -1206,6 +1486,10 @@ const phrasesNature = [
     "wordIds": [
       "12074"
     ],
+    "cloze": {
+      "de": "Bach",
+      "en": "stream"
+    },
     "sourceIndex": 2074
   },
   {
@@ -1223,6 +1507,10 @@ const phrasesNature = [
     "wordIds": [
       "12096"
     ],
+    "cloze": {
+      "de": "Planet",
+      "en": "planet"
+    },
     "sourceIndex": 2096
   },
   {
@@ -1240,6 +1528,10 @@ const phrasesNature = [
     "wordIds": [
       "12123"
     ],
+    "cloze": {
+      "de": "Gipfel",
+      "en": "summit"
+    },
     "sourceIndex": 2123
   },
   {
@@ -1257,6 +1549,10 @@ const phrasesNature = [
     "wordIds": [
       "12128"
     ],
+    "cloze": {
+      "de": "Löwe",
+      "en": "lion"
+    },
     "sourceIndex": 2128
   },
   {
@@ -1274,6 +1570,10 @@ const phrasesNature = [
     "wordIds": [
       "12164"
     ],
+    "cloze": {
+      "de": "Kloster",
+      "en": "monastery"
+    },
     "sourceIndex": 2164
   },
   {
@@ -1291,6 +1591,10 @@ const phrasesNature = [
     "wordIds": [
       "12186"
     ],
+    "cloze": {
+      "de": "bergen",
+      "en": "rescue"
+    },
     "sourceIndex": 2186
   },
   {
@@ -1308,6 +1612,10 @@ const phrasesNature = [
     "wordIds": [
       "12203"
     ],
+    "cloze": {
+      "de": "Küste",
+      "en": "coast"
+    },
     "sourceIndex": 2203
   },
   {
@@ -1325,6 +1633,10 @@ const phrasesNature = [
     "wordIds": [
       "12257"
     ],
+    "cloze": {
+      "de": "riesiger",
+      "en": "huge"
+    },
     "sourceIndex": 2257
   },
   {
@@ -1342,6 +1654,10 @@ const phrasesNature = [
     "wordIds": [
       "12312"
     ],
+    "cloze": {
+      "de": "Wurzeln",
+      "en": "roots"
+    },
     "sourceIndex": 2312
   },
   {
@@ -1359,6 +1675,10 @@ const phrasesNature = [
     "wordIds": [
       "12359"
     ],
+    "cloze": {
+      "de": "Gras",
+      "en": "grass"
+    },
     "sourceIndex": 2359
   },
   {
@@ -1376,6 +1696,10 @@ const phrasesNature = [
     "wordIds": [
       "12378"
     ],
+    "cloze": {
+      "de": "Stille",
+      "en": "silence"
+    },
     "sourceIndex": 2378
   },
   {
@@ -1393,6 +1717,10 @@ const phrasesNature = [
     "wordIds": [
       "12386"
     ],
+    "cloze": {
+      "de": "Wärme",
+      "en": "warmth"
+    },
     "sourceIndex": 2386
   },
   {
@@ -1410,6 +1738,10 @@ const phrasesNature = [
     "wordIds": [
       "12416"
     ],
+    "cloze": {
+      "de": "naht",
+      "en": "approaching"
+    },
     "sourceIndex": 2416
   },
   {
@@ -1427,6 +1759,10 @@ const phrasesNature = [
     "wordIds": [
       "12476"
     ],
+    "cloze": {
+      "de": "ausgelöst",
+      "en": "triggered"
+    },
     "sourceIndex": 2476
   },
   {
@@ -1444,6 +1780,10 @@ const phrasesNature = [
     "wordIds": [
       "12488"
     ],
+    "cloze": {
+      "de": "grau",
+      "en": "grey"
+    },
     "sourceIndex": 2488
   },
   {
@@ -1461,6 +1801,10 @@ const phrasesNature = [
     "wordIds": [
       "12513"
     ],
+    "cloze": {
+      "de": "Tal",
+      "en": "valley"
+    },
     "sourceIndex": 2513
   },
   {
@@ -1478,6 +1822,10 @@ const phrasesNature = [
     "wordIds": [
       "12584"
     ],
+    "cloze": {
+      "de": "Flagge",
+      "en": "flag"
+    },
     "sourceIndex": 2584
   },
   {
@@ -1495,6 +1843,10 @@ const phrasesNature = [
     "wordIds": [
       "12587"
     ],
+    "cloze": {
+      "de": "Fuchs",
+      "en": "fox"
+    },
     "sourceIndex": 2587
   },
   {
@@ -1512,6 +1864,10 @@ const phrasesNature = [
     "wordIds": [
       "12630"
     ],
+    "cloze": {
+      "de": "dauernd",
+      "en": "constantly"
+    },
     "sourceIndex": 2630
   },
   {
@@ -1529,6 +1885,10 @@ const phrasesNature = [
     "wordIds": [
       "12651"
     ],
+    "cloze": {
+      "de": "männlicher",
+      "en": "male"
+    },
     "sourceIndex": 2651
   },
   {
@@ -1546,6 +1906,10 @@ const phrasesNature = [
     "wordIds": [
       "12668"
     ],
+    "cloze": {
+      "de": "Adler",
+      "en": "eagle"
+    },
     "sourceIndex": 2668
   },
   {
@@ -1563,6 +1927,10 @@ const phrasesNature = [
     "wordIds": [
       "12794"
     ],
+    "cloze": {
+      "de": "Rauch",
+      "en": "Smoke"
+    },
     "sourceIndex": 2794
   },
   {
@@ -1580,6 +1948,10 @@ const phrasesNature = [
     "wordIds": [
       "12812"
     ],
+    "cloze": {
+      "de": "Wolke",
+      "en": "cloud"
+    },
     "sourceIndex": 2812
   },
   {
@@ -1597,6 +1969,10 @@ const phrasesNature = [
     "wordIds": [
       "12978"
     ],
+    "cloze": {
+      "de": "bedeckte",
+      "en": "covered"
+    },
     "sourceIndex": 2978
   },
   {
@@ -1614,6 +1990,10 @@ const phrasesNature = [
     "wordIds": [
       "13024"
     ],
+    "cloze": {
+      "de": "Warnung",
+      "en": "warning"
+    },
     "sourceIndex": 3024
   },
   {
@@ -1631,6 +2011,10 @@ const phrasesNature = [
     "wordIds": [
       "13061"
     ],
+    "cloze": {
+      "de": "Nebel",
+      "en": "fog"
+    },
     "sourceIndex": 3061
   },
   {
@@ -1648,6 +2032,10 @@ const phrasesNature = [
     "wordIds": [
       "13067"
     ],
+    "cloze": {
+      "de": "Orientierung",
+      "en": "orientation"
+    },
     "sourceIndex": 3067
   },
   {
@@ -1665,6 +2053,10 @@ const phrasesNature = [
     "wordIds": [
       "13124"
     ],
+    "cloze": {
+      "de": "reiten",
+      "en": "ride"
+    },
     "sourceIndex": 3124
   },
   {
@@ -1682,6 +2074,10 @@ const phrasesNature = [
     "wordIds": [
       "13128"
     ],
+    "cloze": {
+      "de": "Schwein",
+      "en": "pig"
+    },
     "sourceIndex": 3128
   },
   {
@@ -1699,6 +2095,10 @@ const phrasesNature = [
     "wordIds": [
       "13155"
     ],
+    "cloze": {
+      "de": "bläst",
+      "en": "blows"
+    },
     "sourceIndex": 3155
   },
   {
@@ -1716,6 +2116,10 @@ const phrasesNature = [
     "wordIds": [
       "13358"
     ],
+    "cloze": {
+      "de": "Hügel",
+      "en": "hill"
+    },
     "sourceIndex": 3358
   },
   {
@@ -1733,6 +2137,10 @@ const phrasesNature = [
     "wordIds": [
       "13361"
     ],
+    "cloze": {
+      "de": "Kapelle",
+      "en": "chapel"
+    },
     "sourceIndex": 3361
   },
   {
@@ -1750,6 +2158,10 @@ const phrasesNature = [
     "wordIds": [
       "13401"
     ],
+    "cloze": {
+      "de": "bunt",
+      "en": "colorful"
+    },
     "sourceIndex": 3401
   },
   {
@@ -1767,6 +2179,10 @@ const phrasesNature = [
     "wordIds": [
       "13430"
     ],
+    "cloze": {
+      "de": "Hunderasse",
+      "en": "breed"
+    },
     "sourceIndex": 3430
   },
   {
@@ -1784,6 +2200,10 @@ const phrasesNature = [
     "wordIds": [
       "13435"
     ],
+    "cloze": {
+      "de": "Schein",
+      "en": "shine"
+    },
     "sourceIndex": 3435
   },
   {
@@ -1801,6 +2221,10 @@ const phrasesNature = [
     "wordIds": [
       "13472"
     ],
+    "cloze": {
+      "de": "Flamme",
+      "en": "flame"
+    },
     "sourceIndex": 3472
   },
   {
@@ -1818,6 +2242,10 @@ const phrasesNature = [
     "wordIds": [
       "13513"
     ],
+    "cloze": {
+      "de": "allmählich",
+      "en": "gradually"
+    },
     "sourceIndex": 3513
   },
   {
@@ -1835,6 +2263,10 @@ const phrasesNature = [
     "wordIds": [
       "13530"
     ],
+    "cloze": {
+      "de": "Fahne",
+      "en": "flag"
+    },
     "sourceIndex": 3530
   },
   {
@@ -1852,6 +2284,10 @@ const phrasesNature = [
     "wordIds": [
       "13539"
     ],
+    "cloze": {
+      "de": "Kuh",
+      "en": "cow"
+    },
     "sourceIndex": 3539
   },
   {
@@ -1869,6 +2305,10 @@ const phrasesNature = [
     "wordIds": [
       "13619"
     ],
+    "cloze": {
+      "de": "Tiger",
+      "en": "tiger"
+    },
     "sourceIndex": 3619
   },
   {
@@ -1886,6 +2326,10 @@ const phrasesNature = [
     "wordIds": [
       "13638"
     ],
+    "cloze": {
+      "de": "Blüte",
+      "en": "blossom"
+    },
     "sourceIndex": 3638
   },
   {
@@ -1903,6 +2347,10 @@ const phrasesNature = [
     "wordIds": [
       "13733"
     ],
+    "cloze": {
+      "de": "Schäfer",
+      "en": "shepherd"
+    },
     "sourceIndex": 3733
   },
   {
@@ -1920,6 +2368,10 @@ const phrasesNature = [
     "wordIds": [
       "13764"
     ],
+    "cloze": {
+      "de": "Biene",
+      "en": "bee"
+    },
     "sourceIndex": 3764
   },
   {
@@ -1937,6 +2389,10 @@ const phrasesNature = [
     "wordIds": [
       "13766"
     ],
+    "cloze": {
+      "de": "Bär",
+      "en": "bear"
+    },
     "sourceIndex": 3766
   },
   {
@@ -1954,6 +2410,10 @@ const phrasesNature = [
     "wordIds": [
       "13784"
     ],
+    "cloze": {
+      "de": "Insekt",
+      "en": "insect"
+    },
     "sourceIndex": 3784
   },
   {
@@ -1971,6 +2431,10 @@ const phrasesNature = [
     "wordIds": [
       "13889"
     ],
+    "cloze": {
+      "de": "Blitz",
+      "en": "lightning"
+    },
     "sourceIndex": 3889
   },
   {
@@ -1988,6 +2452,10 @@ const phrasesNature = [
     "wordIds": [
       "13900"
     ],
+    "cloze": {
+      "de": "Glücklicherweise",
+      "en": "Fortunately"
+    },
     "sourceIndex": 3900
   },
   {
@@ -2005,6 +2473,10 @@ const phrasesNature = [
     "wordIds": [
       "13931"
     ],
+    "cloze": {
+      "de": "Schaf",
+      "en": "sheep"
+    },
     "sourceIndex": 3931
   },
   {
@@ -2022,6 +2494,10 @@ const phrasesNature = [
     "wordIds": [
       "13957"
     ],
+    "cloze": {
+      "de": "Achse",
+      "en": "axis"
+    },
     "sourceIndex": 3957
   },
   {
@@ -2039,6 +2515,10 @@ const phrasesNature = [
     "wordIds": [
       "13981"
     ],
+    "cloze": {
+      "de": "Horizont",
+      "en": "horizon"
+    },
     "sourceIndex": 3981
   },
   {
@@ -2056,6 +2536,10 @@ const phrasesNature = [
     "wordIds": [
       "14099"
     ],
+    "cloze": {
+      "de": "Buche",
+      "en": "beech"
+    },
     "sourceIndex": 4099
   },
   {
@@ -2073,6 +2557,10 @@ const phrasesNature = [
     "wordIds": [
       "14185"
     ],
+    "cloze": {
+      "de": "Alpengebirge",
+      "en": "mountain"
+    },
     "sourceIndex": 4185
   },
   {
@@ -2090,6 +2578,10 @@ const phrasesNature = [
     "wordIds": [
       "14195"
     ],
+    "cloze": {
+      "de": "Kaninchen",
+      "en": "rabbit"
+    },
     "sourceIndex": 4195
   },
   {
@@ -2107,6 +2599,10 @@ const phrasesNature = [
     "wordIds": [
       "14248"
     ],
+    "cloze": {
+      "de": "heiß",
+      "en": "hot"
+    },
     "sourceIndex": 4248
   },
   {
@@ -2124,6 +2620,10 @@ const phrasesNature = [
     "wordIds": [
       "14255"
     ],
+    "cloze": {
+      "de": "kühl",
+      "en": "cool"
+    },
     "sourceIndex": 4255
   },
   {
@@ -2141,6 +2641,10 @@ const phrasesNature = [
     "wordIds": [
       "14259"
     ],
+    "cloze": {
+      "de": "Mühle",
+      "en": "mill"
+    },
     "sourceIndex": 4259
   },
   {
@@ -2158,6 +2662,10 @@ const phrasesNature = [
     "wordIds": [
       "14292"
     ],
+    "cloze": {
+      "de": "aushalten",
+      "en": "bear"
+    },
     "sourceIndex": 4292
   },
   {
@@ -2175,6 +2683,10 @@ const phrasesNature = [
     "wordIds": [
       "14326"
     ],
+    "cloze": {
+      "de": "leuchten",
+      "en": "shine"
+    },
     "sourceIndex": 4326
   },
   {
@@ -2192,6 +2704,10 @@ const phrasesNature = [
     "wordIds": [
       "14380"
     ],
+    "cloze": {
+      "de": "Feder",
+      "en": "feather"
+    },
     "sourceIndex": 4380
   },
   {
@@ -2209,6 +2725,10 @@ const phrasesNature = [
     "wordIds": [
       "14383"
     ],
+    "cloze": {
+      "de": "Forst",
+      "en": "forest"
+    },
     "sourceIndex": 4383
   },
   {
@@ -2226,6 +2746,10 @@ const phrasesNature = [
     "wordIds": [
       "14391"
     ],
+    "cloze": {
+      "de": "harmlos",
+      "en": "harmless"
+    },
     "sourceIndex": 4391
   },
   {
@@ -2243,6 +2767,10 @@ const phrasesNature = [
     "wordIds": [
       "14408"
     ],
+    "cloze": {
+      "de": "Nest",
+      "en": "nest"
+    },
     "sourceIndex": 4408
   },
   {
@@ -2260,6 +2788,10 @@ const phrasesNature = [
     "wordIds": [
       "14412"
     ],
+    "cloze": {
+      "de": "Ozean",
+      "en": "Ocean"
+    },
     "sourceIndex": 4412
   },
   {
@@ -2277,6 +2809,10 @@ const phrasesNature = [
     "wordIds": [
       "14421"
     ],
+    "cloze": {
+      "de": "Schnauze",
+      "en": "snout"
+    },
     "sourceIndex": 4421
   },
   {
@@ -2294,6 +2830,10 @@ const phrasesNature = [
     "wordIds": [
       "14533"
     ],
+    "cloze": {
+      "de": "Fell",
+      "en": "fur"
+    },
     "sourceIndex": 4533
   },
   {
@@ -2311,6 +2851,10 @@ const phrasesNature = [
     "wordIds": [
       "14595"
     ],
+    "cloze": {
+      "de": "Duft",
+      "en": "scent"
+    },
     "sourceIndex": 4595
   },
   {
@@ -2328,6 +2872,10 @@ const phrasesNature = [
     "wordIds": [
       "14598"
     ],
+    "cloze": {
+      "de": "Elefant",
+      "en": "elephant"
+    },
     "sourceIndex": 4598
   },
   {
@@ -2345,6 +2893,10 @@ const phrasesNature = [
     "wordIds": [
       "14615"
     ],
+    "cloze": {
+      "de": "lecken",
+      "en": "lick"
+    },
     "sourceIndex": 4615
   },
   {
@@ -2362,6 +2914,10 @@ const phrasesNature = [
     "wordIds": [
       "14679"
     ],
+    "cloze": {
+      "de": "heult",
+      "en": "howls"
+    },
     "sourceIndex": 4679
   },
   {
@@ -2379,6 +2935,10 @@ const phrasesNature = [
     "wordIds": [
       "14724"
     ],
+    "cloze": {
+      "de": "anhalten",
+      "en": "last"
+    },
     "sourceIndex": 4724
   },
   {
@@ -2396,6 +2956,10 @@ const phrasesNature = [
     "wordIds": [
       "14749"
     ],
+    "cloze": {
+      "de": "flüchteten",
+      "en": "fled"
+    },
     "sourceIndex": 4749
   },
   {
@@ -2413,6 +2977,10 @@ const phrasesNature = [
     "wordIds": [
       "14850"
     ],
+    "cloze": {
+      "de": "Hirsch",
+      "en": "deer"
+    },
     "sourceIndex": 4850
   },
   {
@@ -2430,6 +2998,10 @@ const phrasesNature = [
     "wordIds": [
       "14911"
     ],
+    "cloze": {
+      "de": "blätterte",
+      "en": "through"
+    },
     "sourceIndex": 4911
   },
   {
@@ -2447,6 +3019,10 @@ const phrasesNature = [
     "wordIds": [
       "14948"
     ],
+    "cloze": {
+      "de": "regnen",
+      "en": "rain"
+    },
     "sourceIndex": 4948
   },
   {
@@ -2464,6 +3040,10 @@ const phrasesNature = [
     "wordIds": [
       "15028"
     ],
+    "cloze": {
+      "de": "Männchen",
+      "en": "male"
+    },
     "sourceIndex": 5028
   },
   {
@@ -2481,6 +3061,10 @@ const phrasesNature = [
     "wordIds": [
       "15033"
     ],
+    "cloze": {
+      "de": "Pfad",
+      "en": "path"
+    },
     "sourceIndex": 5033
   },
   {
@@ -2498,6 +3082,10 @@ const phrasesNature = [
     "wordIds": [
       "15073"
     ],
+    "cloze": {
+      "de": "Biss",
+      "en": "bite"
+    },
     "sourceIndex": 5073
   },
   {
@@ -2515,6 +3103,10 @@ const phrasesNature = [
     "wordIds": [
       "15075"
     ],
+    "cloze": {
+      "de": "Bude",
+      "en": "shack"
+    },
     "sourceIndex": 5075
   },
   {
@@ -2532,6 +3124,10 @@ const phrasesNature = [
     "wordIds": [
       "15117"
     ],
+    "cloze": {
+      "de": "Pilze",
+      "en": "mushrooms"
+    },
     "sourceIndex": 5117
   },
   {
@@ -2549,6 +3145,10 @@ const phrasesNature = [
     "wordIds": [
       "15197"
     ],
+    "cloze": {
+      "de": "kühlen",
+      "en": "cool"
+    },
     "sourceIndex": 5197
   },
   {
@@ -2566,6 +3166,10 @@ const phrasesNature = [
     "wordIds": [
       "15281"
     ],
+    "cloze": {
+      "de": "Hase",
+      "en": "hare"
+    },
     "sourceIndex": 5281
   },
   {
@@ -2583,6 +3187,10 @@ const phrasesNature = [
     "wordIds": [
       "15282"
     ],
+    "cloze": {
+      "de": "Hindernis",
+      "en": "obstacle"
+    },
     "sourceIndex": 5282
   },
   {
@@ -2600,6 +3208,10 @@ const phrasesNature = [
     "wordIds": [
       "15289"
     ],
+    "cloze": {
+      "de": "Käfer",
+      "en": "beetle"
+    },
     "sourceIndex": 5289
   },
   {
@@ -2617,6 +3229,10 @@ const phrasesNature = [
     "wordIds": [
       "15447"
     ],
+    "cloze": {
+      "de": "Ente",
+      "en": "duck"
+    },
     "sourceIndex": 5447
   },
   {
@@ -2634,6 +3250,10 @@ const phrasesNature = [
     "wordIds": [
       "15581"
     ],
+    "cloze": {
+      "de": "Tabak",
+      "en": "tobacco"
+    },
     "sourceIndex": 5581
   },
   {
@@ -2651,6 +3271,10 @@ const phrasesNature = [
     "wordIds": [
       "15591"
     ],
+    "cloze": {
+      "de": "vorüber",
+      "en": "over"
+    },
     "sourceIndex": 5591
   },
   {
@@ -2668,6 +3292,10 @@ const phrasesNature = [
     "wordIds": [
       "15600"
     ],
+    "cloze": {
+      "de": "Zweig",
+      "en": "branch"
+    },
     "sourceIndex": 5600
   },
   {
@@ -2685,6 +3313,10 @@ const phrasesNature = [
     "wordIds": [
       "15624"
     ],
+    "cloze": {
+      "de": "Eiche",
+      "en": "oak"
+    },
     "sourceIndex": 5624
   },
   {
@@ -2702,6 +3334,10 @@ const phrasesNature = [
     "wordIds": [
       "15633"
     ],
+    "cloze": {
+      "de": "Frosch",
+      "en": "frog"
+    },
     "sourceIndex": 5633
   },
   {
@@ -2719,6 +3355,10 @@ const phrasesNature = [
     "wordIds": [
       "15710"
     ],
+    "cloze": {
+      "de": "eiskalt",
+      "en": "ice-cold"
+    },
     "sourceIndex": 5710
   },
   {
@@ -2736,6 +3376,10 @@ const phrasesNature = [
     "wordIds": [
       "15724"
     ],
+    "cloze": {
+      "de": "Hexe",
+      "en": "witch"
+    },
     "sourceIndex": 5724
   },
   {
@@ -2753,6 +3397,10 @@ const phrasesNature = [
     "wordIds": [
       "15726"
     ],
+    "cloze": {
+      "de": "hindern",
+      "en": "prevent"
+    },
     "sourceIndex": 5726
   },
   {
@@ -2770,6 +3418,10 @@ const phrasesNature = [
     "wordIds": [
       "15765"
     ],
+    "cloze": {
+      "de": "Teddy",
+      "en": "teddy"
+    },
     "sourceIndex": 5765
   },
   {
@@ -2787,6 +3439,10 @@ const phrasesNature = [
     "wordIds": [
       "15801"
     ],
+    "cloze": {
+      "de": "ehrenamtlich",
+      "en": "voluntarily"
+    },
     "sourceIndex": 5801
   },
   {
@@ -2804,6 +3460,10 @@ const phrasesNature = [
     "wordIds": [
       "15895"
     ],
+    "cloze": {
+      "de": "Ast",
+      "en": "branch"
+    },
     "sourceIndex": 5895
   },
   {
@@ -2821,6 +3481,10 @@ const phrasesNature = [
     "wordIds": [
       "16070"
     ],
+    "cloze": {
+      "de": "Unwetter",
+      "en": "severe"
+    },
     "sourceIndex": 6070
   },
   {
@@ -2838,6 +3502,10 @@ const phrasesNature = [
     "wordIds": [
       "16101"
     ],
+    "cloze": {
+      "de": "Erdgas",
+      "en": "Natural"
+    },
     "sourceIndex": 6101
   },
   {
@@ -2855,6 +3523,10 @@ const phrasesNature = [
     "wordIds": [
       "16177"
     ],
+    "cloze": {
+      "de": "auf",
+      "en": "rises"
+    },
     "sourceIndex": 6177
   },
   {
@@ -2872,6 +3544,10 @@ const phrasesNature = [
     "wordIds": [
       "16260"
     ],
+    "cloze": {
+      "de": "Tierheim",
+      "en": "animal"
+    },
     "sourceIndex": 6260
   },
   {
@@ -2889,6 +3565,10 @@ const phrasesNature = [
     "wordIds": [
       "16318"
     ],
+    "cloze": {
+      "de": "Herde",
+      "en": "herd"
+    },
     "sourceIndex": 6318
   },
   {
@@ -2906,6 +3586,10 @@ const phrasesNature = [
     "wordIds": [
       "16373"
     ],
+    "cloze": {
+      "de": "weht",
+      "en": "wind"
+    },
     "sourceIndex": 6373
   },
   {
@@ -2923,6 +3607,10 @@ const phrasesNature = [
     "wordIds": [
       "16447"
     ],
+    "cloze": {
+      "de": "strahlt",
+      "en": "shines"
+    },
     "sourceIndex": 6447
   },
   {
@@ -2940,6 +3628,10 @@ const phrasesNature = [
     "wordIds": [
       "16505"
     ],
+    "cloze": {
+      "de": "Floh",
+      "en": "flea"
+    },
     "sourceIndex": 6505
   },
   {
@@ -2957,6 +3649,10 @@ const phrasesNature = [
     "wordIds": [
       "16553"
     ],
+    "cloze": {
+      "de": "Schmetterling",
+      "en": "butterfly"
+    },
     "sourceIndex": 6553
   },
   {
@@ -2974,6 +3670,10 @@ const phrasesNature = [
     "wordIds": [
       "16653"
     ],
+    "cloze": {
+      "de": "Schlamm",
+      "en": "mud"
+    },
     "sourceIndex": 6653
   },
   {
@@ -2991,6 +3691,10 @@ const phrasesNature = [
     "wordIds": [
       "16660"
     ],
+    "cloze": {
+      "de": "Tierarzt",
+      "en": "veterinarian"
+    },
     "sourceIndex": 6660
   },
   {
@@ -3008,6 +3712,10 @@ const phrasesNature = [
     "wordIds": [
       "16679"
     ],
+    "cloze": {
+      "de": "zart",
+      "en": "delicate"
+    },
     "sourceIndex": 6679
   },
   {
@@ -3025,6 +3733,10 @@ const phrasesNature = [
     "wordIds": [
       "16681"
     ],
+    "cloze": {
+      "de": "Ziege",
+      "en": "goat"
+    },
     "sourceIndex": 6681
   },
   {
@@ -3042,6 +3754,10 @@ const phrasesNature = [
     "wordIds": [
       "16731"
     ],
+    "cloze": {
+      "de": "Hai",
+      "en": "shark"
+    },
     "sourceIndex": 6731
   },
   {
@@ -3059,6 +3775,10 @@ const phrasesNature = [
     "wordIds": [
       "16764"
     ],
+    "cloze": {
+      "de": "rau",
+      "en": "rough"
+    },
     "sourceIndex": 6764
   },
   {
@@ -3076,6 +3796,10 @@ const phrasesNature = [
     "wordIds": [
       "16857"
     ],
+    "cloze": {
+      "de": "Schnabel",
+      "en": "beak"
+    },
     "sourceIndex": 6857
   },
   {
@@ -3093,6 +3817,10 @@ const phrasesNature = [
     "wordIds": [
       "16864"
     ],
+    "cloze": {
+      "de": "Tierschutz",
+      "en": "Animal"
+    },
     "sourceIndex": 6864
   },
   {
@@ -3110,6 +3838,10 @@ const phrasesNature = [
     "wordIds": [
       "16910"
     ],
+    "cloze": {
+      "de": "Falter",
+      "en": "butterfly"
+    },
     "sourceIndex": 6910
   },
   {
@@ -3127,6 +3859,10 @@ const phrasesNature = [
     "wordIds": [
       "16927"
     ],
+    "cloze": {
+      "de": "Haustier",
+      "en": "pet"
+    },
     "sourceIndex": 6927
   },
   {
@@ -3144,6 +3880,10 @@ const phrasesNature = [
     "wordIds": [
       "16938"
     ],
+    "cloze": {
+      "de": "Laub",
+      "en": "leaves"
+    },
     "sourceIndex": 6938
   },
   {
@@ -3161,6 +3901,10 @@ const phrasesNature = [
     "wordIds": [
       "16958"
     ],
+    "cloze": {
+      "de": "rutschst",
+      "en": "slip"
+    },
     "sourceIndex": 6958
   },
   {
@@ -3178,6 +3922,10 @@ const phrasesNature = [
     "wordIds": [
       "16996"
     ],
+    "cloze": {
+      "de": "Bieber",
+      "en": "beaver"
+    },
     "sourceIndex": 6996
   },
   {
@@ -3195,6 +3943,10 @@ const phrasesNature = [
     "wordIds": [
       "17044"
     ],
+    "cloze": {
+      "de": "Mündung",
+      "en": "mouth"
+    },
     "sourceIndex": 7044
   },
   {
@@ -3212,6 +3964,10 @@ const phrasesNature = [
     "wordIds": [
       "17098"
     ],
+    "cloze": {
+      "de": "bellt",
+      "en": "barks"
+    },
     "sourceIndex": 7098
   },
   {
@@ -3229,6 +3985,10 @@ const phrasesNature = [
     "wordIds": [
       "17120"
     ],
+    "cloze": {
+      "de": "freilassen",
+      "en": "release"
+    },
     "sourceIndex": 7120
   },
   {
@@ -3246,6 +4006,10 @@ const phrasesNature = [
     "wordIds": [
       "17137"
     ],
+    "cloze": {
+      "de": "Käfig",
+      "en": "cage"
+    },
     "sourceIndex": 7137
   },
   {
@@ -3263,6 +4027,10 @@ const phrasesNature = [
     "wordIds": [
       "17224"
     ],
+    "cloze": {
+      "de": "um",
+      "en": "bend"
+    },
     "sourceIndex": 7224
   },
   {
@@ -3280,6 +4048,10 @@ const phrasesNature = [
     "wordIds": [
       "17240"
     ],
+    "cloze": {
+      "de": "Kahn",
+      "en": "punt"
+    },
     "sourceIndex": 7240
   },
   {
@@ -3297,6 +4069,10 @@ const phrasesNature = [
     "wordIds": [
       "17260"
     ],
+    "cloze": {
+      "de": "Panther",
+      "en": "panther"
+    },
     "sourceIndex": 7260
   },
   {
@@ -3314,6 +4090,10 @@ const phrasesNature = [
     "wordIds": [
       "17298"
     ],
+    "cloze": {
+      "de": "winzig",
+      "en": "tiny"
+    },
     "sourceIndex": 7298
   },
   {
@@ -3331,6 +4111,10 @@ const phrasesNature = [
     "wordIds": [
       "17332"
     ],
+    "cloze": {
+      "de": "Eisbär",
+      "en": "polar"
+    },
     "sourceIndex": 7332
   },
   {
@@ -3348,6 +4132,10 @@ const phrasesNature = [
     "wordIds": [
       "17346"
     ],
+    "cloze": {
+      "de": "Halter",
+      "en": "owner"
+    },
     "sourceIndex": 7346
   },
   {
@@ -3365,6 +4153,10 @@ const phrasesNature = [
     "wordIds": [
       "17382"
     ],
+    "cloze": {
+      "de": "schmilzt",
+      "en": "melts"
+    },
     "sourceIndex": 7382
   },
   {
@@ -3382,6 +4174,10 @@ const phrasesNature = [
     "wordIds": [
       "17441"
     ],
+    "cloze": {
+      "de": "brüllen",
+      "en": "roar"
+    },
     "sourceIndex": 7441
   },
   {
@@ -3399,6 +4195,10 @@ const phrasesNature = [
     "wordIds": [
       "17488"
     ],
+    "cloze": {
+      "de": "Moos",
+      "en": "moss"
+    },
     "sourceIndex": 7488
   },
   {
@@ -3416,6 +4216,10 @@ const phrasesNature = [
     "wordIds": [
       "17491"
     ],
+    "cloze": {
+      "de": "nächtliche",
+      "en": "nightly"
+    },
     "sourceIndex": 7491
   },
   {
@@ -3433,6 +4237,10 @@ const phrasesNature = [
     "wordIds": [
       "17552"
     ],
+    "cloze": {
+      "de": "Ameise",
+      "en": "ant"
+    },
     "sourceIndex": 7552
   },
   {
@@ -3450,6 +4258,10 @@ const phrasesNature = [
     "wordIds": [
       "17565"
     ],
+    "cloze": {
+      "de": "Bikini",
+      "en": "bikini"
+    },
     "sourceIndex": 7565
   },
   {
@@ -3467,6 +4279,10 @@ const phrasesNature = [
     "wordIds": [
       "17574"
     ],
+    "cloze": {
+      "de": "Donner",
+      "en": "thunder"
+    },
     "sourceIndex": 7574
   },
   {
@@ -3484,6 +4300,10 @@ const phrasesNature = [
     "wordIds": [
       "17596"
     ],
+    "cloze": {
+      "de": "glänzen",
+      "en": "shine"
+    },
     "sourceIndex": 7596
   },
   {
@@ -3501,6 +4321,10 @@ const phrasesNature = [
     "wordIds": [
       "17631"
     ],
+    "cloze": {
+      "de": "pinkeln",
+      "en": "pee"
+    },
     "sourceIndex": 7631
   },
   {
@@ -3518,6 +4342,10 @@ const phrasesNature = [
     "wordIds": [
       "17645"
     ],
+    "cloze": {
+      "de": "sonnig",
+      "en": "sunny"
+    },
     "sourceIndex": 7645
   },
   {
@@ -3535,6 +4363,10 @@ const phrasesNature = [
     "wordIds": [
       "17780"
     ],
+    "cloze": {
+      "de": "streichelt",
+      "en": "strokes"
+    },
     "sourceIndex": 7780
   },
   {
@@ -3552,6 +4384,10 @@ const phrasesNature = [
     "wordIds": [
       "17799"
     ],
+    "cloze": {
+      "de": "Abkühlung",
+      "en": "cool-down"
+    },
     "sourceIndex": 7799
   },
   {
@@ -3569,6 +4405,10 @@ const phrasesNature = [
     "wordIds": [
       "17895"
     ],
+    "cloze": {
+      "de": "verschlechtern",
+      "en": "worsen"
+    },
     "sourceIndex": 7895
   },
   {
@@ -3586,6 +4426,10 @@ const phrasesNature = [
     "wordIds": [
       "17991"
     ],
+    "cloze": {
+      "de": "schwankte",
+      "en": "swayed"
+    },
     "sourceIndex": 7991
   },
   {
@@ -3603,6 +4447,10 @@ const phrasesNature = [
     "wordIds": [
       "18033"
     ],
+    "cloze": {
+      "de": "Ballon",
+      "en": "balloon"
+    },
     "sourceIndex": 8033
   },
   {
@@ -3620,6 +4468,10 @@ const phrasesNature = [
     "wordIds": [
       "18060"
     ],
+    "cloze": {
+      "de": "fürchterlich",
+      "en": "terrible"
+    },
     "sourceIndex": 8060
   },
   {
@@ -3637,6 +4489,10 @@ const phrasesNature = [
     "wordIds": [
       "18106"
     ],
+    "cloze": {
+      "de": "Schwan",
+      "en": "swan"
+    },
     "sourceIndex": 8106
   },
   {
@@ -3654,6 +4510,10 @@ const phrasesNature = [
     "wordIds": [
       "18163"
     ],
+    "cloze": {
+      "de": "Campingplatz",
+      "en": "campsite"
+    },
     "sourceIndex": 8163
   },
   {
@@ -3671,6 +4531,10 @@ const phrasesNature = [
     "wordIds": [
       "18288"
     ],
+    "cloze": {
+      "de": "einzufangen",
+      "en": "catch"
+    },
     "sourceIndex": 8288
   },
   {
@@ -3688,6 +4552,10 @@ const phrasesNature = [
     "wordIds": [
       "18304"
     ],
+    "cloze": {
+      "de": "Gans",
+      "en": "goose"
+    },
     "sourceIndex": 8304
   },
   {
@@ -3705,6 +4573,10 @@ const phrasesNature = [
     "wordIds": [
       "18340"
     ],
+    "cloze": {
+      "de": "Palmen",
+      "en": "palm"
+    },
     "sourceIndex": 8340
   },
   {
@@ -3722,6 +4594,10 @@ const phrasesNature = [
     "wordIds": [
       "18365"
     ],
+    "cloze": {
+      "de": "Sense",
+      "en": "scythe"
+    },
     "sourceIndex": 8365
   },
   {
@@ -3739,6 +4615,10 @@ const phrasesNature = [
     "wordIds": [
       "18422"
     ],
+    "cloze": {
+      "de": "Eule",
+      "en": "owl"
+    },
     "sourceIndex": 8422
   },
   {
@@ -3756,6 +4636,10 @@ const phrasesNature = [
     "wordIds": [
       "18429"
     ],
+    "cloze": {
+      "de": "wandeln",
+      "en": "transform"
+    },
     "sourceIndex": 8429
   },
   {
@@ -3773,6 +4657,10 @@ const phrasesNature = [
     "wordIds": [
       "18431"
     ],
+    "cloze": {
+      "de": "heiter",
+      "en": "bright"
+    },
     "sourceIndex": 8431
   },
   {
@@ -3790,6 +4678,10 @@ const phrasesNature = [
     "wordIds": [
       "18477"
     ],
+    "cloze": {
+      "de": "Steg",
+      "en": "footbridge"
+    },
     "sourceIndex": 8477
   },
   {
@@ -3807,6 +4699,10 @@ const phrasesNature = [
     "wordIds": [
       "18504"
     ],
+    "cloze": {
+      "de": "Weinberg",
+      "en": "vineyard"
+    },
     "sourceIndex": 8504
   },
   {
@@ -3824,6 +4720,10 @@ const phrasesNature = [
     "wordIds": [
       "18531"
     ],
+    "cloze": {
+      "de": "beben",
+      "en": "tremble"
+    },
     "sourceIndex": 8531
   },
   {
@@ -3841,6 +4741,10 @@ const phrasesNature = [
     "wordIds": [
       "18555"
     ],
+    "cloze": {
+      "de": "Falke",
+      "en": "falcon"
+    },
     "sourceIndex": 8555
   },
   {
@@ -3858,6 +4762,10 @@ const phrasesNature = [
     "wordIds": [
       "18573"
     ],
+    "cloze": {
+      "de": "Hummel",
+      "en": "bumblebee"
+    },
     "sourceIndex": 8573
   },
   {
@@ -3875,6 +4783,10 @@ const phrasesNature = [
     "wordIds": [
       "18706"
     ],
+    "cloze": {
+      "de": "Hündin",
+      "en": "female"
+    },
     "sourceIndex": 8706
   },
   {
@@ -3892,6 +4804,10 @@ const phrasesNature = [
     "wordIds": [
       "18723"
     ],
+    "cloze": {
+      "de": "Muschel",
+      "en": "shell"
+    },
     "sourceIndex": 8723
   },
   {
@@ -3909,6 +4825,10 @@ const phrasesNature = [
     "wordIds": [
       "18739"
     ],
+    "cloze": {
+      "de": "Pfote",
+      "en": "paw"
+    },
     "sourceIndex": 8739
   },
   {
@@ -3926,6 +4846,10 @@ const phrasesNature = [
     "wordIds": [
       "18796"
     ],
+    "cloze": {
+      "de": "Windräder",
+      "en": "wind"
+    },
     "sourceIndex": 8796
   },
   {
@@ -3943,6 +4867,10 @@ const phrasesNature = [
     "wordIds": [
       "18838"
     ],
+    "cloze": {
+      "de": "exotischen",
+      "en": "exotic"
+    },
     "sourceIndex": 8838
   },
   {
@@ -3960,6 +4888,10 @@ const phrasesNature = [
     "wordIds": [
       "18844"
     ],
+    "cloze": {
+      "de": "Fichten",
+      "en": "spruces"
+    },
     "sourceIndex": 8844
   },
   {
@@ -3977,6 +4909,10 @@ const phrasesNature = [
     "wordIds": [
       "18891"
     ],
+    "cloze": {
+      "de": "Pelz",
+      "en": "fur"
+    },
     "sourceIndex": 8891
   },
   {
@@ -3994,6 +4930,10 @@ const phrasesNature = [
     "wordIds": [
       "18903"
     ],
+    "cloze": {
+      "de": "Regenwald",
+      "en": "rainforest"
+    },
     "sourceIndex": 8903
   },
   {
@@ -4011,6 +4951,10 @@ const phrasesNature = [
     "wordIds": [
       "18904"
     ],
+    "cloze": {
+      "de": "Reh",
+      "en": "roe"
+    },
     "sourceIndex": 8904
   },
   {
@@ -4028,6 +4972,10 @@ const phrasesNature = [
     "wordIds": [
       "18923"
     ],
+    "cloze": {
+      "de": "ungefährlich",
+      "en": "harmless"
+    },
     "sourceIndex": 8923
   },
   {
@@ -4045,6 +4993,10 @@ const phrasesNature = [
     "wordIds": [
       "18925"
     ],
+    "cloze": {
+      "de": "uralter",
+      "en": "ancient"
+    },
     "sourceIndex": 8925
   },
   {
@@ -4062,6 +5014,10 @@ const phrasesNature = [
     "wordIds": [
       "18932"
     ],
+    "cloze": {
+      "de": "violette",
+      "en": "violet"
+    },
     "sourceIndex": 8932
   },
   {
@@ -4079,6 +5035,10 @@ const phrasesNature = [
     "wordIds": [
       "18934"
     ],
+    "cloze": {
+      "de": "Vollmond",
+      "en": "full"
+    },
     "sourceIndex": 8934
   },
   {
@@ -4096,6 +5056,10 @@ const phrasesNature = [
     "wordIds": [
       "18990"
     ],
+    "cloze": {
+      "de": "beißen",
+      "en": "bite"
+    },
     "sourceIndex": 8990
   },
   {
@@ -4113,6 +5077,10 @@ const phrasesNature = [
     "wordIds": [
       "18991"
     ],
+    "cloze": {
+      "de": "Gebüsch",
+      "en": "bush"
+    },
     "sourceIndex": 8991
   },
   {
@@ -4130,6 +5098,10 @@ const phrasesNature = [
     "wordIds": [
       "19047"
     ],
+    "cloze": {
+      "de": "Puma",
+      "en": "puma"
+    },
     "sourceIndex": 9047
   },
   {
@@ -4147,6 +5119,10 @@ const phrasesNature = [
     "wordIds": [
       "19068"
     ],
+    "cloze": {
+      "de": "Sternchen",
+      "en": "asterisk"
+    },
     "sourceIndex": 9068
   },
   {
@@ -4164,6 +5140,10 @@ const phrasesNature = [
     "wordIds": [
       "19119"
     ],
+    "cloze": {
+      "de": "barfuss",
+      "en": "barefoot"
+    },
     "sourceIndex": 9119
   },
   {
@@ -4181,6 +5161,10 @@ const phrasesNature = [
     "wordIds": [
       "19155"
     ],
+    "cloze": {
+      "de": "getötete",
+      "en": "killed"
+    },
     "sourceIndex": 9155
   },
   {
@@ -4198,6 +5182,10 @@ const phrasesNature = [
     "wordIds": [
       "19278"
     ],
+    "cloze": {
+      "de": "Feuerwehrmann",
+      "en": "firefighter"
+    },
     "sourceIndex": 9278
   },
   {
@@ -4215,6 +5203,10 @@ const phrasesNature = [
     "wordIds": [
       "19323"
     ],
+    "cloze": {
+      "de": "Mücke",
+      "en": "mosquito"
+    },
     "sourceIndex": 9323
   },
   {
@@ -4232,6 +5224,10 @@ const phrasesNature = [
     "wordIds": [
       "19403"
     ],
+    "cloze": {
+      "de": "abkühlen",
+      "en": "cool"
+    },
     "sourceIndex": 9403
   },
   {
@@ -4249,6 +5245,10 @@ const phrasesNature = [
     "wordIds": [
       "19425"
     ],
+    "cloze": {
+      "de": "Dünger",
+      "en": "fertilizer"
+    },
     "sourceIndex": 9425
   },
   {
@@ -4266,6 +5266,10 @@ const phrasesNature = [
     "wordIds": [
       "19481"
     ],
+    "cloze": {
+      "de": "Panda",
+      "en": "panda"
+    },
     "sourceIndex": 9481
   },
   {
@@ -4283,6 +5287,10 @@ const phrasesNature = [
     "wordIds": [
       "19641"
     ],
+    "cloze": {
+      "de": "Rabe",
+      "en": "raven"
+    },
     "sourceIndex": 9641
   },
   {
@@ -4300,6 +5308,10 @@ const phrasesNature = [
     "wordIds": [
       "19650"
     ],
+    "cloze": {
+      "de": "Schildkröte",
+      "en": "turtle"
+    },
     "sourceIndex": 9650
   },
   {
@@ -4317,6 +5329,10 @@ const phrasesNature = [
     "wordIds": [
       "19723"
     ],
+    "cloze": {
+      "de": "bewölkt",
+      "en": "cloudy"
+    },
     "sourceIndex": 9723
   },
   {
@@ -4334,6 +5350,10 @@ const phrasesNature = [
     "wordIds": [
       "19760"
     ],
+    "cloze": {
+      "de": "hockte",
+      "en": "perched"
+    },
     "sourceIndex": 9760
   },
   {
@@ -4351,6 +5371,10 @@ const phrasesNature = [
     "wordIds": [
       "19864"
     ],
+    "cloze": {
+      "de": "blendet",
+      "en": "blinding"
+    },
     "sourceIndex": 9864
   },
   {
@@ -4368,6 +5392,10 @@ const phrasesNature = [
     "wordIds": [
       "19888"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "stumbled"
+    },
     "sourceIndex": 9888
   },
   {
@@ -4385,6 +5413,10 @@ const phrasesNature = [
     "wordIds": [
       "19916"
     ],
+    "cloze": {
+      "de": "Lilie",
+      "en": "lily"
+    },
     "sourceIndex": 9916
   },
   {
@@ -4402,6 +5434,10 @@ const phrasesNature = [
     "wordIds": [
       "19925"
     ],
+    "cloze": {
+      "de": "Naturschutzgebiet",
+      "en": "nature"
+    },
     "sourceIndex": 9925
   },
   {
@@ -4419,6 +5455,10 @@ const phrasesNature = [
     "wordIds": [
       "19946"
     ],
+    "cloze": {
+      "de": "Sandalen",
+      "en": "sandals"
+    },
     "sourceIndex": 9946
   },
   {
@@ -4436,6 +5476,10 @@ const phrasesNature = [
     "wordIds": [
       "20030"
     ],
+    "cloze": {
+      "de": "einfrieren",
+      "en": "freeze"
+    },
     "sourceIndex": 10030
   },
   {
@@ -4453,6 +5497,10 @@ const phrasesNature = [
     "wordIds": [
       "20032"
     ],
+    "cloze": {
+      "de": "Entdecker",
+      "en": "discoverer"
+    },
     "sourceIndex": 10032
   },
   {
@@ -4470,6 +5518,10 @@ const phrasesNature = [
     "wordIds": [
       "20045"
     ],
+    "cloze": {
+      "de": "Flag",
+      "en": "flag"
+    },
     "sourceIndex": 10045
   },
   {
@@ -4487,6 +5539,10 @@ const phrasesNature = [
     "wordIds": [
       "20135"
     ],
+    "cloze": {
+      "de": "Abdruck",
+      "en": "imprint"
+    },
     "sourceIndex": 10135
   },
   {
@@ -4504,6 +5560,10 @@ const phrasesNature = [
     "wordIds": [
       "20157"
     ],
+    "cloze": {
+      "de": "Besitzerin",
+      "en": "owner"
+    },
     "sourceIndex": 10157
   },
   {
@@ -4521,6 +5581,10 @@ const phrasesNature = [
     "wordIds": [
       "20187"
     ],
+    "cloze": {
+      "de": "Frauchen",
+      "en": "owner"
+    },
     "sourceIndex": 10187
   },
   {
@@ -4538,6 +5602,10 @@ const phrasesNature = [
     "wordIds": [
       "20198"
     ],
+    "cloze": {
+      "de": "Henne",
+      "en": "hen"
+    },
     "sourceIndex": 10198
   },
   {
@@ -4555,6 +5623,10 @@ const phrasesNature = [
     "wordIds": [
       "20284"
     ],
+    "cloze": {
+      "de": "Zecke",
+      "en": "tick"
+    },
     "sourceIndex": 10284
   },
   {
@@ -4572,6 +5644,10 @@ const phrasesNature = [
     "wordIds": [
       "20287"
     ],
+    "cloze": {
+      "de": "abgebildete",
+      "en": "depicted"
+    },
     "sourceIndex": 10287
   },
   {
@@ -4589,6 +5665,10 @@ const phrasesNature = [
     "wordIds": [
       "20360"
     ],
+    "cloze": {
+      "de": "Jungle",
+      "en": "jungle"
+    },
     "sourceIndex": 10360
   },
   {
@@ -4606,6 +5686,10 @@ const phrasesNature = [
     "wordIds": [
       "20466"
     ],
+    "cloze": {
+      "de": "Biest",
+      "en": "beast"
+    },
     "sourceIndex": 10466
   },
   {
@@ -4623,6 +5707,10 @@ const phrasesNature = [
     "wordIds": [
       "20489"
     ],
+    "cloze": {
+      "de": "fruchtbar",
+      "en": "fertile"
+    },
     "sourceIndex": 10489
   },
   {
@@ -4640,6 +5728,10 @@ const phrasesNature = [
     "wordIds": [
       "20628"
     ],
+    "cloze": {
+      "de": "Dampfer",
+      "en": "steamboat"
+    },
     "sourceIndex": 10628
   },
   {
@@ -4657,6 +5749,10 @@ const phrasesNature = [
     "wordIds": [
       "20738"
     ],
+    "cloze": {
+      "de": "Strümpfe",
+      "en": "stockings"
+    },
     "sourceIndex": 10738
   },
   {
@@ -4674,6 +5770,10 @@ const phrasesNature = [
     "wordIds": [
       "20853"
     ],
+    "cloze": {
+      "de": "Krater",
+      "en": "craters"
+    },
     "sourceIndex": 10853
   },
   {
@@ -4691,6 +5791,10 @@ const phrasesNature = [
     "wordIds": [
       "20886"
     ],
+    "cloze": {
+      "de": "Rockstar",
+      "en": "rock"
+    },
     "sourceIndex": 10886
   },
   {
@@ -4708,6 +5812,10 @@ const phrasesNature = [
     "wordIds": [
       "20891"
     ],
+    "cloze": {
+      "de": "schneien",
+      "en": "snow"
+    },
     "sourceIndex": 10891
   },
   {
@@ -4725,6 +5833,10 @@ const phrasesNature = [
     "wordIds": [
       "20917"
     ],
+    "cloze": {
+      "de": "umgefallen",
+      "en": "over"
+    },
     "sourceIndex": 10917
   },
   {
@@ -4742,6 +5854,10 @@ const phrasesNature = [
     "wordIds": [
       "21179"
     ],
+    "cloze": {
+      "de": "erwärmen",
+      "en": "warm"
+    },
     "sourceIndex": 11179
   },
   {
@@ -4759,6 +5875,10 @@ const phrasesNature = [
     "wordIds": [
       "21185"
     ],
+    "cloze": {
+      "de": "friert",
+      "en": "freezing"
+    },
     "sourceIndex": 11185
   },
   {
@@ -4776,6 +5896,10 @@ const phrasesNature = [
     "wordIds": [
       "21221"
     ],
+    "cloze": {
+      "de": "Leopard",
+      "en": "leopard"
+    },
     "sourceIndex": 11221
   },
   {
@@ -4793,6 +5917,10 @@ const phrasesNature = [
     "wordIds": [
       "21226"
     ],
+    "cloze": {
+      "de": "Meerschweinchen",
+      "en": "guinea"
+    },
     "sourceIndex": 11226
   },
   {
@@ -4810,6 +5938,10 @@ const phrasesNature = [
     "wordIds": [
       "21350"
     ],
+    "cloze": {
+      "de": "Cobra",
+      "en": "cobra"
+    },
     "sourceIndex": 11350
   },
   {
@@ -4827,6 +5959,10 @@ const phrasesNature = [
     "wordIds": [
       "21458"
     ],
+    "cloze": {
+      "de": "Saat",
+      "en": "seeds"
+    },
     "sourceIndex": 11458
   },
   {
@@ -4844,6 +5980,10 @@ const phrasesNature = [
     "wordIds": [
       "21592"
     ],
+    "cloze": {
+      "de": "krumm",
+      "en": "crooked"
+    },
     "sourceIndex": 11592
   },
   {
@@ -4861,6 +6001,10 @@ const phrasesNature = [
     "wordIds": [
       "21680"
     ],
+    "cloze": {
+      "de": "Astronom",
+      "en": "astronomer"
+    },
     "sourceIndex": 11680
   },
   {
@@ -4878,6 +6022,10 @@ const phrasesNature = [
     "wordIds": [
       "21696"
     ],
+    "cloze": {
+      "de": "Brennstoff",
+      "en": "fuel"
+    },
     "sourceIndex": 11696
   },
   {
@@ -4895,6 +6043,10 @@ const phrasesNature = [
     "wordIds": [
       "21812"
     ],
+    "cloze": {
+      "de": "stürmisch",
+      "en": "stormy"
+    },
     "sourceIndex": 11812
   },
   {
@@ -4912,6 +6064,10 @@ const phrasesNature = [
     "wordIds": [
       "21828"
     ],
+    "cloze": {
+      "de": "Urwald",
+      "en": "primeval"
+    },
     "sourceIndex": 11828
   },
   {
@@ -4929,6 +6085,10 @@ const phrasesNature = [
     "wordIds": [
       "21961"
     ],
+    "cloze": {
+      "de": "Rauchmelder",
+      "en": "smoke"
+    },
     "sourceIndex": 11961
   },
   {
@@ -4946,6 +6106,10 @@ const phrasesNature = [
     "wordIds": [
       "21994"
     ],
+    "cloze": {
+      "de": "Trab",
+      "en": "trot"
+    },
     "sourceIndex": 11994
   },
   {
@@ -4963,6 +6127,10 @@ const phrasesNature = [
     "wordIds": [
       "22017"
     ],
+    "cloze": {
+      "de": "Vierbeiner",
+      "en": "quadruped"
+    },
     "sourceIndex": 12017
   },
   {
@@ -4980,6 +6148,10 @@ const phrasesNature = [
     "wordIds": [
       "22141"
     ],
+    "cloze": {
+      "de": "Nässe",
+      "en": "wetness"
+    },
     "sourceIndex": 12141
   },
   {
@@ -4997,6 +6169,10 @@ const phrasesNature = [
     "wordIds": [
       "22260"
     ],
+    "cloze": {
+      "de": "duften",
+      "en": "smell"
+    },
     "sourceIndex": 12260
   },
   {
@@ -5014,6 +6190,10 @@ const phrasesNature = [
     "wordIds": [
       "22282"
     ],
+    "cloze": {
+      "de": "Gehege",
+      "en": "enclosure"
+    },
     "sourceIndex": 12282
   },
   {
@@ -5031,6 +6211,10 @@ const phrasesNature = [
     "wordIds": [
       "22344"
     ],
+    "cloze": {
+      "de": "schwarzwälder",
+      "en": "Black"
+    },
     "sourceIndex": 12344
   },
   {
@@ -5048,6 +6232,10 @@ const phrasesNature = [
     "wordIds": [
       "22358"
     ],
+    "cloze": {
+      "de": "Tannen",
+      "en": "fir"
+    },
     "sourceIndex": 12358
   },
   {
@@ -5065,6 +6253,10 @@ const phrasesNature = [
     "wordIds": [
       "22421"
     ],
+    "cloze": {
+      "de": "Biologe",
+      "en": "biologist"
+    },
     "sourceIndex": 12421
   },
   {
@@ -5082,6 +6274,10 @@ const phrasesNature = [
     "wordIds": [
       "22424"
     ],
+    "cloze": {
+      "de": "blitzt",
+      "en": "and"
+    },
     "sourceIndex": 12424
   },
   {
@@ -5099,6 +6295,10 @@ const phrasesNature = [
     "wordIds": [
       "22437"
     ],
+    "cloze": {
+      "de": "Sanddünen",
+      "en": "dunes"
+    },
     "sourceIndex": 12437
   },
   {
@@ -5116,6 +6316,10 @@ const phrasesNature = [
     "wordIds": [
       "22621"
     ],
+    "cloze": {
+      "de": "Blümchen",
+      "en": "little"
+    },
     "sourceIndex": 12621
   },
   {
@@ -5133,6 +6337,10 @@ const phrasesNature = [
     "wordIds": [
       "22706"
     ],
+    "cloze": {
+      "de": "rauh",
+      "en": "rough"
+    },
     "sourceIndex": 12706
   },
   {
@@ -5150,6 +6358,10 @@ const phrasesNature = [
     "wordIds": [
       "22734"
     ],
+    "cloze": {
+      "de": "steinerne",
+      "en": "stone"
+    },
     "sourceIndex": 12734
   },
   {
@@ -5167,6 +6379,10 @@ const phrasesNature = [
     "wordIds": [
       "22774"
     ],
+    "cloze": {
+      "de": "überschwemmt",
+      "en": "flooded"
+    },
     "sourceIndex": 12774
   },
   {
@@ -5184,6 +6400,10 @@ const phrasesNature = [
     "wordIds": [
       "22779"
     ],
+    "cloze": {
+      "de": "viele",
+      "en": "yielded"
+    },
     "sourceIndex": 12779
   },
   {
@@ -5201,6 +6421,10 @@ const phrasesNature = [
     "wordIds": [
       "22787"
     ],
+    "cloze": {
+      "de": "Angler",
+      "en": "angler"
+    },
     "sourceIndex": 12787
   },
   {
@@ -5218,6 +6442,10 @@ const phrasesNature = [
     "wordIds": [
       "22906"
     ],
+    "cloze": {
+      "de": "rauslassen",
+      "en": "let"
+    },
     "sourceIndex": 12906
   },
   {
@@ -5235,6 +6463,10 @@ const phrasesNature = [
     "wordIds": [
       "22963"
     ],
+    "cloze": {
+      "de": "wärmt",
+      "en": "warms"
+    },
     "sourceIndex": 12963
   },
   {
@@ -5252,6 +6484,10 @@ const phrasesNature = [
     "wordIds": [
       "23069"
     ],
+    "cloze": {
+      "de": "Matsch",
+      "en": "mud"
+    },
     "sourceIndex": 13069
   },
   {
@@ -5269,6 +6505,10 @@ const phrasesNature = [
     "wordIds": [
       "23100"
     ],
+    "cloze": {
+      "de": "schnupperte",
+      "en": "sniffed"
+    },
     "sourceIndex": 13100
   },
   {
@@ -5286,6 +6526,10 @@ const phrasesNature = [
     "wordIds": [
       "23189"
     ],
+    "cloze": {
+      "de": "Camper",
+      "en": "campers"
+    },
     "sourceIndex": 13189
   },
   {
@@ -5303,6 +6547,10 @@ const phrasesNature = [
     "wordIds": [
       "23233"
     ],
+    "cloze": {
+      "de": "Gnu",
+      "en": "wildebeest"
+    },
     "sourceIndex": 13233
   },
   {
@@ -5320,6 +6568,10 @@ const phrasesNature = [
     "wordIds": [
       "23282"
     ],
+    "cloze": {
+      "de": "Orchidee",
+      "en": "orchid"
+    },
     "sourceIndex": 13282
   },
   {
@@ -5337,6 +6589,10 @@ const phrasesNature = [
     "wordIds": [
       "23352"
     ],
+    "cloze": {
+      "de": "Wildschwein",
+      "en": "wild"
+    },
     "sourceIndex": 13352
   },
   {
@@ -5354,6 +6610,10 @@ const phrasesNature = [
     "wordIds": [
       "23445"
     ],
+    "cloze": {
+      "de": "haariges",
+      "en": "hairy"
+    },
     "sourceIndex": 13445
   },
   {
@@ -5371,6 +6631,10 @@ const phrasesNature = [
     "wordIds": [
       "23547"
     ],
+    "cloze": {
+      "de": "Waldrand",
+      "en": "edge"
+    },
     "sourceIndex": 13547
   },
   {
@@ -5388,6 +6652,10 @@ const phrasesNature = [
     "wordIds": [
       "23573"
     ],
+    "cloze": {
+      "de": "Ahornbaum",
+      "en": "maple"
+    },
     "sourceIndex": 13573
   },
   {
@@ -5405,6 +6673,10 @@ const phrasesNature = [
     "wordIds": [
       "23733"
     ],
+    "cloze": {
+      "de": "Sternenhimmel",
+      "en": "starry"
+    },
     "sourceIndex": 13733
   },
   {
@@ -5422,6 +6694,10 @@ const phrasesNature = [
     "wordIds": [
       "23740"
     ],
+    "cloze": {
+      "de": "Tierchen",
+      "en": "little"
+    },
     "sourceIndex": 13740
   },
   {
@@ -5439,6 +6715,10 @@ const phrasesNature = [
     "wordIds": [
       "23807"
     ],
+    "cloze": {
+      "de": "bewohnt",
+      "en": "inhabited"
+    },
     "sourceIndex": 13807
   },
   {
@@ -5456,6 +6736,10 @@ const phrasesNature = [
     "wordIds": [
       "23810"
     ],
+    "cloze": {
+      "de": "Blumenstrauss",
+      "en": "bouquet"
+    },
     "sourceIndex": 13810
   },
   {
@@ -5473,6 +6757,10 @@ const phrasesNature = [
     "wordIds": [
       "23950"
     ],
+    "cloze": {
+      "de": "Wettervorhersage",
+      "en": "weather"
+    },
     "sourceIndex": 13950
   },
   {
@@ -5490,6 +6778,10 @@ const phrasesNature = [
     "wordIds": [
       "24028"
     ],
+    "cloze": {
+      "de": "Fähnchen",
+      "en": "small"
+    },
     "sourceIndex": 14028
   },
   {
@@ -5507,6 +6799,10 @@ const phrasesNature = [
     "wordIds": [
       "24235"
     ],
+    "cloze": {
+      "de": "Gummibärchen",
+      "en": "gummy"
+    },
     "sourceIndex": 14235
   },
   {
@@ -5524,6 +6820,10 @@ const phrasesNature = [
     "wordIds": [
       "24297"
     ],
+    "cloze": {
+      "de": "schwenkte",
+      "en": "waved"
+    },
     "sourceIndex": 14297
   },
   {
@@ -5541,6 +6841,10 @@ const phrasesNature = [
     "wordIds": [
       "24352"
     ],
+    "cloze": {
+      "de": "Aal",
+      "en": "eel"
+    },
     "sourceIndex": 14352
   },
   {
@@ -5558,6 +6862,10 @@ const phrasesNature = [
     "wordIds": [
       "24404"
     ],
+    "cloze": {
+      "de": "flatterte",
+      "en": "fluttered"
+    },
     "sourceIndex": 14404
   },
   {
@@ -5575,6 +6883,10 @@ const phrasesNature = [
     "wordIds": [
       "24409"
     ],
+    "cloze": {
+      "de": "gefrieren",
+      "en": "freeze"
+    },
     "sourceIndex": 14409
   },
   {
@@ -5592,6 +6904,10 @@ const phrasesNature = [
     "wordIds": [
       "24442"
     ],
+    "cloze": {
+      "de": "kreischen",
+      "en": "screeching"
+    },
     "sourceIndex": 14442
   },
   {
@@ -5609,6 +6925,10 @@ const phrasesNature = [
     "wordIds": [
       "24601"
     ],
+    "cloze": {
+      "de": "Delfin",
+      "en": "dolphin"
+    },
     "sourceIndex": 14601
   },
   {
@@ -5626,6 +6946,10 @@ const phrasesNature = [
     "wordIds": [
       "24709"
     ],
+    "cloze": {
+      "de": "Schimpanse",
+      "en": "chimpanzee"
+    },
     "sourceIndex": 14709
   },
   {
@@ -5643,6 +6967,10 @@ const phrasesNature = [
     "wordIds": [
       "24761"
     ],
+    "cloze": {
+      "de": "Wetterdienst",
+      "en": "weather"
+    },
     "sourceIndex": 14761
   },
   {
@@ -5660,6 +6988,10 @@ const phrasesNature = [
     "wordIds": [
       "24815"
     ],
+    "cloze": {
+      "de": "Eichhorn",
+      "en": "squirrel"
+    },
     "sourceIndex": 14815
   },
   {
@@ -5677,6 +7009,10 @@ const phrasesNature = [
     "wordIds": [
       "25077"
     ],
+    "cloze": {
+      "de": "Kettensäge",
+      "en": "chainsaw"
+    },
     "sourceIndex": 15077
   },
   {
@@ -5694,6 +7030,10 @@ const phrasesNature = [
     "wordIds": [
       "25152"
     ],
+    "cloze": {
+      "de": "Stausee",
+      "en": "reservoir"
+    },
     "sourceIndex": 15152
   },
   {
@@ -5711,6 +7051,10 @@ const phrasesNature = [
     "wordIds": [
       "25186"
     ],
+    "cloze": {
+      "de": "Wetterlage",
+      "en": "weather"
+    },
     "sourceIndex": 15186
   },
   {
@@ -5728,6 +7072,10 @@ const phrasesNature = [
     "wordIds": [
       "25188"
     ],
+    "cloze": {
+      "de": "windig",
+      "en": "windy"
+    },
     "sourceIndex": 15188
   },
   {
@@ -5745,6 +7093,10 @@ const phrasesNature = [
     "wordIds": [
       "25287"
     ],
+    "cloze": {
+      "de": "Hundehalter",
+      "en": "dog"
+    },
     "sourceIndex": 15287
   },
   {
@@ -5762,6 +7114,10 @@ const phrasesNature = [
     "wordIds": [
       "25296"
     ],
+    "cloze": {
+      "de": "keimen",
+      "en": "germinate"
+    },
     "sourceIndex": 15296
   },
   {
@@ -5779,6 +7135,10 @@ const phrasesNature = [
     "wordIds": [
       "25345"
     ],
+    "cloze": {
+      "de": "Schnitzer",
+      "en": "carver"
+    },
     "sourceIndex": 15345
   },
   {
@@ -5796,6 +7156,10 @@ const phrasesNature = [
     "wordIds": [
       "25464"
     ],
+    "cloze": {
+      "de": "Elch",
+      "en": "moose"
+    },
     "sourceIndex": 15464
   },
   {
@@ -5813,6 +7177,10 @@ const phrasesNature = [
     "wordIds": [
       "25616"
     ],
+    "cloze": {
+      "de": "Windmühle",
+      "en": "windmill"
+    },
     "sourceIndex": 15616
   },
   {
@@ -5830,6 +7198,10 @@ const phrasesNature = [
     "wordIds": [
       "25688"
     ],
+    "cloze": {
+      "de": "funkeln",
+      "en": "twinkle"
+    },
     "sourceIndex": 15688
   },
   {
@@ -5847,6 +7219,10 @@ const phrasesNature = [
     "wordIds": [
       "25709"
     ],
+    "cloze": {
+      "de": "Hundebesitzer",
+      "en": "dog"
+    },
     "sourceIndex": 15709
   },
   {
@@ -5864,6 +7240,10 @@ const phrasesNature = [
     "wordIds": [
       "25722"
     ],
+    "cloze": {
+      "de": "Jungtier",
+      "en": "young"
+    },
     "sourceIndex": 15722
   },
   {
@@ -5881,6 +7261,10 @@ const phrasesNature = [
     "wordIds": [
       "25749"
     ],
+    "cloze": {
+      "de": "Mops",
+      "en": "pug"
+    },
     "sourceIndex": 15749
   },
   {
@@ -5898,6 +7282,10 @@ const phrasesNature = [
     "wordIds": [
       "25802"
     ],
+    "cloze": {
+      "de": "trüb",
+      "en": "the"
+    },
     "sourceIndex": 15802
   },
   {
@@ -5915,6 +7303,10 @@ const phrasesNature = [
     "wordIds": [
       "25830"
     ],
+    "cloze": {
+      "de": "Wildtiere",
+      "en": "wild"
+    },
     "sourceIndex": 15830
   },
   {
@@ -5932,6 +7324,10 @@ const phrasesNature = [
     "wordIds": [
       "25875"
     ],
+    "cloze": {
+      "de": "Dackel",
+      "en": "dachshund"
+    },
     "sourceIndex": 15875
   },
   {
@@ -5949,6 +7345,10 @@ const phrasesNature = [
     "wordIds": [
       "25923"
     ],
+    "cloze": {
+      "de": "Gondel",
+      "en": "gondola"
+    },
     "sourceIndex": 15923
   },
   {
@@ -5966,6 +7366,10 @@ const phrasesNature = [
     "wordIds": [
       "25974"
     ],
+    "cloze": {
+      "de": "mollig",
+      "en": "plump"
+    },
     "sourceIndex": 15974
   },
   {
@@ -5983,6 +7387,10 @@ const phrasesNature = [
     "wordIds": [
       "26017"
     ],
+    "cloze": {
+      "de": "Terrier",
+      "en": "terrier"
+    },
     "sourceIndex": 16017
   },
   {
@@ -6000,6 +7408,10 @@ const phrasesNature = [
     "wordIds": [
       "26021"
     ],
+    "cloze": {
+      "de": "Tulpe",
+      "en": "tulip"
+    },
     "sourceIndex": 16021
   },
   {
@@ -6017,6 +7429,10 @@ const phrasesNature = [
     "wordIds": [
       "26351"
     ],
+    "cloze": {
+      "de": "Bungalow",
+      "en": "bungalow"
+    },
     "sourceIndex": 16351
   },
   {
@@ -6034,6 +7450,10 @@ const phrasesNature = [
     "wordIds": [
       "26375"
     ],
+    "cloze": {
+      "de": "Eiswürfel",
+      "en": "ice"
+    },
     "sourceIndex": 16375
   },
   {
@@ -6051,6 +7471,10 @@ const phrasesNature = [
     "wordIds": [
       "26489"
     ],
+    "cloze": {
+      "de": "Schäfchen",
+      "en": "little"
+    },
     "sourceIndex": 16489
   },
   {
@@ -6068,6 +7492,10 @@ const phrasesNature = [
     "wordIds": [
       "26517"
     ],
+    "cloze": {
+      "de": "Tierärztin",
+      "en": "female"
+    },
     "sourceIndex": 16517
   },
   {
@@ -6085,6 +7513,10 @@ const phrasesNature = [
     "wordIds": [
       "26615"
     ],
+    "cloze": {
+      "de": "erfrieren",
+      "en": "freeze"
+    },
     "sourceIndex": 16615
   },
   {
@@ -6102,6 +7534,10 @@ const phrasesNature = [
     "wordIds": [
       "26757"
     ],
+    "cloze": {
+      "de": "Sonnenschutz",
+      "en": "sun"
+    },
     "sourceIndex": 16757
   },
   {
@@ -6119,6 +7555,10 @@ const phrasesNature = [
     "wordIds": [
       "26824"
     ],
+    "cloze": {
+      "de": "ausgewachsen",
+      "en": "grown-up"
+    },
     "sourceIndex": 16824
   },
   {
@@ -6136,6 +7576,10 @@ const phrasesNature = [
     "wordIds": [
       "26840"
     ],
+    "cloze": {
+      "de": "Dauerregen",
+      "en": "continuous"
+    },
     "sourceIndex": 16840
   },
   {
@@ -6153,6 +7597,10 @@ const phrasesNature = [
     "wordIds": [
       "26918"
     ],
+    "cloze": {
+      "de": "Lichtquelle",
+      "en": "light"
+    },
     "sourceIndex": 16918
   },
   {
@@ -6170,6 +7618,10 @@ const phrasesNature = [
     "wordIds": [
       "26942"
     ],
+    "cloze": {
+      "de": "Mähne",
+      "en": "mane"
+    },
     "sourceIndex": 16942
   },
   {
@@ -6187,6 +7639,10 @@ const phrasesNature = [
     "wordIds": [
       "26946"
     ],
+    "cloze": {
+      "de": "nachlegen",
+      "en": "add"
+    },
     "sourceIndex": 16946
   },
   {
@@ -6204,6 +7660,10 @@ const phrasesNature = [
     "wordIds": [
       "27078"
     ],
+    "cloze": {
+      "de": "ausgerutscht",
+      "en": "slipped"
+    },
     "sourceIndex": 17078
   },
   {
@@ -6221,6 +7681,10 @@ const phrasesNature = [
     "wordIds": [
       "27101"
     ],
+    "cloze": {
+      "de": "Blumentopf",
+      "en": "flowerpot"
+    },
     "sourceIndex": 17101
   },
   {
@@ -6238,6 +7702,10 @@ const phrasesNature = [
     "wordIds": [
       "27104"
     ],
+    "cloze": {
+      "de": "bräunlich",
+      "en": "brownish"
+    },
     "sourceIndex": 17104
   },
   {
@@ -6255,6 +7723,10 @@ const phrasesNature = [
     "wordIds": [
       "27111"
     ],
+    "cloze": {
+      "de": "Delphin",
+      "en": "dolphin"
+    },
     "sourceIndex": 17111
   },
   {
@@ -6272,6 +7744,10 @@ const phrasesNature = [
     "wordIds": [
       "27129"
     ],
+    "cloze": {
+      "de": "eisig",
+      "en": "icy"
+    },
     "sourceIndex": 17129
   },
   {
@@ -6289,6 +7765,10 @@ const phrasesNature = [
     "wordIds": [
       "27182"
     ],
+    "cloze": {
+      "de": "Kiesel",
+      "en": "pebble"
+    },
     "sourceIndex": 17182
   },
   {
@@ -6306,6 +7786,10 @@ const phrasesNature = [
     "wordIds": [
       "27197"
     ],
+    "cloze": {
+      "de": "Labrador",
+      "en": "Labrador"
+    },
     "sourceIndex": 17197
   },
   {
@@ -6323,6 +7807,10 @@ const phrasesNature = [
     "wordIds": [
       "27242"
     ],
+    "cloze": {
+      "de": "Rute",
+      "en": "tail"
+    },
     "sourceIndex": 17242
   },
   {
@@ -6340,6 +7828,10 @@ const phrasesNature = [
     "wordIds": [
       "27245"
     ],
+    "cloze": {
+      "de": "Schlossberg",
+      "en": "castle"
+    },
     "sourceIndex": 17245
   },
   {
@@ -6357,6 +7849,10 @@ const phrasesNature = [
     "wordIds": [
       "27262"
     ],
+    "cloze": {
+      "de": "Steinchen",
+      "en": "small"
+    },
     "sourceIndex": 17262
   },
   {
@@ -6374,6 +7870,10 @@ const phrasesNature = [
     "wordIds": [
       "27412"
     ],
+    "cloze": {
+      "de": "Galopp",
+      "en": "gallop"
+    },
     "sourceIndex": 17412
   },
   {
@@ -6391,6 +7891,10 @@ const phrasesNature = [
     "wordIds": [
       "27427"
     ],
+    "cloze": {
+      "de": "Halbmond",
+      "en": "crescent"
+    },
     "sourceIndex": 17427
   },
   {
@@ -6408,6 +7912,10 @@ const phrasesNature = [
     "wordIds": [
       "27565"
     ],
+    "cloze": {
+      "de": "Uhu",
+      "en": "eagle"
+    },
     "sourceIndex": 17565
   },
   {
@@ -6425,6 +7933,10 @@ const phrasesNature = [
     "wordIds": [
       "27595"
     ],
+    "cloze": {
+      "de": "Windgeschwindigkeit",
+      "en": "wind"
+    },
     "sourceIndex": 17595
   },
   {
@@ -6442,6 +7954,10 @@ const phrasesNature = [
     "wordIds": [
       "27834"
     ],
+    "cloze": {
+      "de": "Vögelchen",
+      "en": "little"
+    },
     "sourceIndex": 17834
   },
   {
@@ -6459,6 +7975,10 @@ const phrasesNature = [
     "wordIds": [
       "27835"
     ],
+    "cloze": {
+      "de": "Waldstück",
+      "en": "small"
+    },
     "sourceIndex": 17835
   },
   {
@@ -6476,6 +7996,10 @@ const phrasesNature = [
     "wordIds": [
       "27845"
     ],
+    "cloze": {
+      "de": "Wilderer",
+      "en": "poacher"
+    },
     "sourceIndex": 17845
   },
   {
@@ -6493,6 +8017,10 @@ const phrasesNature = [
     "wordIds": [
       "27876"
     ],
+    "cloze": {
+      "de": "Aufgang",
+      "en": "ascent"
+    },
     "sourceIndex": 17876
   },
   {
@@ -6510,6 +8038,10 @@ const phrasesNature = [
     "wordIds": [
       "27925"
     ],
+    "cloze": {
+      "de": "gefroren",
+      "en": "frozen"
+    },
     "sourceIndex": 17925
   },
   {
@@ -6527,6 +8059,10 @@ const phrasesNature = [
     "wordIds": [
       "27999"
     ],
+    "cloze": {
+      "de": "Nutztiere",
+      "en": "farm"
+    },
     "sourceIndex": 17999
   },
   {
@@ -6544,6 +8080,10 @@ const phrasesNature = [
     "wordIds": [
       "28005"
     ],
+    "cloze": {
+      "de": "Planetarium",
+      "en": "planetarium"
+    },
     "sourceIndex": 18005
   },
   {
@@ -6561,6 +8101,10 @@ const phrasesNature = [
     "wordIds": [
       "28022"
     ],
+    "cloze": {
+      "de": "sandig",
+      "en": "sandy"
+    },
     "sourceIndex": 18022
   },
   {
@@ -6578,6 +8122,10 @@ const phrasesNature = [
     "wordIds": [
       "28070"
     ],
+    "cloze": {
+      "de": "Waldbrand",
+      "en": "forest"
+    },
     "sourceIndex": 18070
   },
   {
@@ -6595,6 +8143,10 @@ const phrasesNature = [
     "wordIds": [
       "28072"
     ],
+    "cloze": {
+      "de": "Waldsee",
+      "en": "forest"
+    },
     "sourceIndex": 18072
   },
   {
@@ -6612,6 +8164,10 @@ const phrasesNature = [
     "wordIds": [
       "28125"
     ],
+    "cloze": {
+      "de": "Bäumchen",
+      "en": "small"
+    },
     "sourceIndex": 18125
   },
   {
@@ -6629,6 +8185,10 @@ const phrasesNature = [
     "wordIds": [
       "28183"
     ],
+    "cloze": {
+      "de": "Husky",
+      "en": "husky"
+    },
     "sourceIndex": 18183
   },
   {
@@ -6646,6 +8206,10 @@ const phrasesNature = [
     "wordIds": [
       "28209"
     ],
+    "cloze": {
+      "de": "Lorbeer",
+      "en": "bay"
+    },
     "sourceIndex": 18209
   },
   {
@@ -6663,6 +8227,10 @@ const phrasesNature = [
     "wordIds": [
       "28212"
     ],
+    "cloze": {
+      "de": "Magma",
+      "en": "Magma"
+    },
     "sourceIndex": 18212
   },
   {
@@ -6680,6 +8248,10 @@ const phrasesNature = [
     "wordIds": [
       "28222"
     ],
+    "cloze": {
+      "de": "Nashorn",
+      "en": "rhinoceros"
+    },
     "sourceIndex": 18222
   },
   {
@@ -6697,6 +8269,10 @@ const phrasesNature = [
     "wordIds": [
       "28230"
     ],
+    "cloze": {
+      "de": "Ostseeküste",
+      "en": "Baltic"
+    },
     "sourceIndex": 18230
   },
   {
@@ -6714,6 +8290,10 @@ const phrasesNature = [
     "wordIds": [
       "28379"
     ],
+    "cloze": {
+      "de": "Blättchen",
+      "en": "small"
+    },
     "sourceIndex": 18379
   },
   {
@@ -6731,6 +8311,10 @@ const phrasesNature = [
     "wordIds": [
       "28380"
     ],
+    "cloze": {
+      "de": "Bootshaus",
+      "en": "boathouse"
+    },
     "sourceIndex": 18380
   },
   {
@@ -6748,6 +8332,10 @@ const phrasesNature = [
     "wordIds": [
       "28396"
     ],
+    "cloze": {
+      "de": "eingegangen",
+      "en": "withered"
+    },
     "sourceIndex": 18396
   },
   {
@@ -6765,6 +8353,10 @@ const phrasesNature = [
     "wordIds": [
       "28505"
     ],
+    "cloze": {
+      "de": "Nachthimmel",
+      "en": "night"
+    },
     "sourceIndex": 18505
   },
   {
@@ -6782,6 +8374,10 @@ const phrasesNature = [
     "wordIds": [
       "28533"
     ],
+    "cloze": {
+      "de": "Qualm",
+      "en": "Thick"
+    },
     "sourceIndex": 18533
   },
   {
@@ -6799,6 +8395,10 @@ const phrasesNature = [
     "wordIds": [
       "28800"
     ],
+    "cloze": {
+      "de": "Schneeberg",
+      "en": "snow"
+    },
     "sourceIndex": 18800
   },
   {
@@ -6816,6 +8416,10 @@ const phrasesNature = [
     "wordIds": [
       "28862"
     ],
+    "cloze": {
+      "de": "zischte",
+      "en": "hissed"
+    },
     "sourceIndex": 18862
   },
   {
@@ -6833,6 +8437,10 @@ const phrasesNature = [
     "wordIds": [
       "28924"
     ],
+    "cloze": {
+      "de": "Cottage",
+      "en": "cottage"
+    },
     "sourceIndex": 18924
   },
   {
@@ -6850,6 +8458,10 @@ const phrasesNature = [
     "wordIds": [
       "28971"
     ],
+    "cloze": {
+      "de": "krümmen",
+      "en": "bend"
+    },
     "sourceIndex": 18971
   },
   {
@@ -6867,6 +8479,10 @@ const phrasesNature = [
     "wordIds": [
       "29184"
     ],
+    "cloze": {
+      "de": "Amsel",
+      "en": "blackbird"
+    },
     "sourceIndex": 19184
   },
   {
@@ -6884,6 +8500,10 @@ const phrasesNature = [
     "wordIds": [
       "29231"
     ],
+    "cloze": {
+      "de": "Düngung",
+      "en": "fertilization"
+    },
     "sourceIndex": 19231
   },
   {
@@ -6901,6 +8521,10 @@ const phrasesNature = [
     "wordIds": [
       "29306"
     ],
+    "cloze": {
+      "de": "Kleintier",
+      "en": "small"
+    },
     "sourceIndex": 19306
   },
   {
@@ -6918,6 +8542,10 @@ const phrasesNature = [
     "wordIds": [
       "29374"
     ],
+    "cloze": {
+      "de": "riesengross",
+      "en": "gigantic"
+    },
     "sourceIndex": 19374
   },
   {
@@ -6935,6 +8563,10 @@ const phrasesNature = [
     "wordIds": [
       "29383"
     ],
+    "cloze": {
+      "de": "Sandstrand",
+      "en": "sandy"
+    },
     "sourceIndex": 19383
   },
   {
@@ -6952,6 +8584,10 @@ const phrasesNature = [
     "wordIds": [
       "29462"
     ],
+    "cloze": {
+      "de": "Wiesel",
+      "en": "weasel"
+    },
     "sourceIndex": 19462
   },
   {
@@ -6969,6 +8605,10 @@ const phrasesNature = [
     "wordIds": [
       "29506"
     ],
+    "cloze": {
+      "de": "bläulichen",
+      "en": "bluish"
+    },
     "sourceIndex": 19506
   },
   {
@@ -6986,6 +8626,10 @@ const phrasesNature = [
     "wordIds": [
       "29549"
     ],
+    "cloze": {
+      "de": "flauschiges",
+      "en": "fluffy"
+    },
     "sourceIndex": 19549
   },
   {
@@ -7003,6 +8647,10 @@ const phrasesNature = [
     "wordIds": [
       "29663"
     ],
+    "cloze": {
+      "de": "schattig",
+      "en": "shady"
+    },
     "sourceIndex": 19663
   },
   {
@@ -7020,6 +8668,10 @@ const phrasesNature = [
     "wordIds": [
       "29677"
     ],
+    "cloze": {
+      "de": "Sonnenschirm",
+      "en": "parasol"
+    },
     "sourceIndex": 19677
   },
   {
@@ -7037,6 +8689,10 @@ const phrasesNature = [
     "wordIds": [
       "29752"
     ],
+    "cloze": {
+      "de": "zahm",
+      "en": "tame"
+    },
     "sourceIndex": 19752
   },
   {
@@ -7054,6 +8710,10 @@ const phrasesNature = [
     "wordIds": [
       "30044"
     ],
+    "cloze": {
+      "de": "Wetterstation",
+      "en": "weather"
+    },
     "sourceIndex": 20044
   },
   {
@@ -7071,6 +8731,10 @@ const phrasesNature = [
     "wordIds": [
       "30164"
     ],
+    "cloze": {
+      "de": "Holzfäller",
+      "en": "lumberjack"
+    },
     "sourceIndex": 20164
   },
   {
@@ -7088,6 +8752,10 @@ const phrasesNature = [
     "wordIds": [
       "30203"
     ],
+    "cloze": {
+      "de": "Mittelgebirge",
+      "en": "low"
+    },
     "sourceIndex": 20203
   }
 ];

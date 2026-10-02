@@ -9,9 +9,7 @@ function updateStats() {
   $("#issue-big").textContent = state.issues.length;
 }
 function setView(view) {
-  if (view === "adjectives" && selectedCategory !== "adjectives" && !selectedCategory.startsWith("adjective-")) selectedCategory = "adjectives";
-  if (view === "verbs" && selectedCategory !== "verbs" && !selectedCategory.startsWith("verb-")) selectedCategory = "verbs";
-  if (view === "vocabulary" && (selectedCategory === "verbs" || selectedCategory.startsWith("verb-") || selectedCategory === "adjectives" || selectedCategory.startsWith("adjective-"))) selectedCategory = "all";
+  normalizeVocabularySelectionForView(view);
   var requests = [];
   if (["vocabulary", "verbs", "adjectives"].includes(view)) {
     var kind = view === "verbs" ? "verbs" : "vocabulary",
@@ -29,18 +27,7 @@ function setView(view) {
 }
 function renderView(view) {
   if (view === "mixed") restoreMixedDesk();
-  if (view === "adjectives" && selectedCategory !== "adjectives" && !selectedCategory.startsWith("adjective-")) selectedCategory = "adjectives";
-  if (
-    view === "verbs" &&
-    selectedCategory !== "verbs" &&
-    !selectedCategory.startsWith("verb-")
-  )
-    selectedCategory = "verbs";
-  if (
-    view === "vocabulary" &&
-    (selectedCategory === "verbs" || selectedCategory.startsWith("verb-") || selectedCategory === "adjectives" || selectedCategory.startsWith("adjective-"))
-  )
-    selectedCategory = "all";
+  normalizeVocabularySelectionForView(view);
   $$(".view").forEach((x) => x.classList.remove("active-view"));
   $("#" + view + "-view").classList.add("active-view");
   $$(".nav-item").forEach((x) =>
@@ -70,6 +57,18 @@ function ensureVocabularyFor(view, category) {
   var kind = view === "verbs" ? "verbs" : "vocabulary";
   return ensureContent(kind, vocabularyManifestGroup(view, category));
 }
+function normalizeVocabularySelectionForView(view) {
+  if (view === "adjectives") {
+    if (!selectedCategories.some(key => key === "adjectives" || key.startsWith("adjective-"))) selectedCategories = ["adjectives"];
+    selectedCategory = "adjectives";
+  } else if (view === "verbs") {
+    if (!selectedCategories.some(key => key === "verbs" || key.startsWith("verb-"))) selectedCategories = ["verbs"];
+    selectedCategory = "verbs";
+  } else if (view === "vocabulary") {
+    if (!selectedCategories.some(key => !["verbs", "adjectives"].includes(key) && !key.startsWith("verb-") && !key.startsWith("adjective-"))) selectedCategories = ["all"];
+    selectedCategory = "all";
+  }
+}
 function toast(msg) {
   var t = $("#toast");
   t.textContent = msg;
@@ -89,6 +88,25 @@ function categoryMatches(word, key) {
         (key.startsWith("adjective-") &&
           word.adjectiveCategory === key.slice(10)) ||
         word.category === key;
+}
+function activeAllCategory() {
+  return isAdjectiveView() ? "adjectives" : isVerbView() ? "verbs" : "all";
+}
+function vocabularyCategorySelected(key) {
+  return selectedCategories.includes(activeAllCategory()) || selectedCategories.includes(key);
+}
+function selectedVocabularyCategoryMatches(word) {
+  return selectedCategories.some(key => categoryMatches(word, key));
+}
+function toggleVocabularyCategory(key, entries) {
+  var allKey = activeAllCategory();
+  selectedCategories = toggleCategorySelection(
+    selectedCategories,
+    allKey,
+    entries.map((entry) => entry.id),
+    key,
+  );
+  selectedCategory = allKey;
 }
 function categoryCount(key) {
   var view = isVerbView() ? "verbs" : isAdjectiveView() ? "adjectives" : "vocabulary",
@@ -123,21 +141,21 @@ function renderCategories() {
       ? record.id === "verbs" || record.id.startsWith("verb-")
       : !(record.id === "verbs" || record.id.startsWith("verb-") || record.id === "adjectives" || record.id.startsWith("adjective-")),
   );
-  var allCategory = isAdjectiveView() ? "adjectives" : isVerbView() ? "verbs" : "all";
+  var allCategory = activeAllCategory();
   el.innerHTML = entries
     .sort((a, b) => a.id === allCategory ? -1 : b.id === allCategory ? 1 : (a.studyOrder ?? 999) - (b.studyOrder ?? 999))
     .map((record) => {
       var key = record.id,
         displayLabel = categoryLabel(key);
-      return `<button class="${selectedCategory === key ? "active" : ""}" data-cat="${key}">${displayLabel} <small>${categoryCount(key)}</small></button>`;
+      return `<button class="${vocabularyCategorySelected(key) ? "selected" : ""}" data-cat="${key}" aria-pressed="${vocabularyCategorySelected(key)}"><i>✓</i>${displayLabel} <small>${categoryCount(key)}</small></button>`;
     })
     .join("");
   $$("[data-cat]").forEach(
     (b) =>
       (b.onclick = async () => {
-        selectedCategory = b.dataset.cat;
+        toggleVocabularyCategory(b.dataset.cat, entries);
         vocabIndex = 0;
-        await ensureVocabularyFor(isVerbView() ? "verbs" : isAdjectiveView() ? "adjectives" : "vocabulary", selectedCategory);
+        await ensureVocabularyFor(isVerbView() ? "verbs" : isAdjectiveView() ? "adjectives" : "vocabulary", activeAllCategory());
         renderVocabulary();
         savePreferences();
       }),
@@ -165,29 +183,49 @@ function renderVocabularyLevels() {
     };
   });
 }
-function currentWords(ignoreStatus = false) {
+var vocabStudyStatus = "pending";
+var vocabStudyStatusLabels = {
+  pending: "pending",
+  "first-shot": "first-try",
+  corrected: "corrected",
+  article: "article review",
+  wrong: "incorrect",
+};
+function vocabularyRecords() {
   return vocab.filter((w) => {
     var levelOk = levelSelected(w.level),
-      categoryOk = categoryMatches(w, selectedCategory),
-      done = state.learned.includes(w.id),
-      wrong = state.issues.includes(w.id),
-      statusOk =
-        vocabStatus === "all" ||
-        (vocabStatus === "unseen" && !done && !wrong) ||
-        (vocabStatus === "correct" && done) ||
-        (vocabStatus === "wrong" && wrong && !done);
-    return levelOk && categoryOk && (ignoreStatus || statusOk);
+      categoryOk = selectedVocabularyCategoryMatches(w);
+    return levelOk && categoryOk;
   });
+}
+function vocabularyStudyGroups(records) {
+  var correct = new Set(state.learned),
+    wrong = new Set(state.issues),
+    mistakes = new Set(state.mistakes),
+    articleOnly = new Set(state.articleOnlyMistakes),
+    groups = { pending: [], "first-shot": [], corrected: [], article: [], wrong: [] };
+  records.forEach((record) => {
+    var group = wrong.has(record.id) ? "wrong"
+      : !correct.has(record.id) ? "pending"
+      : mistakes.has(record.id) ? "corrected"
+      : articleOnly.has(record.id) ? "article"
+      : "first-shot";
+    groups[group].push(record);
+  });
+  return groups;
+}
+function currentWords() {
+  return vocabularyStudyGroups(vocabularyRecords())[vocabStudyStatus];
 }
 function renderVocabulary() {
   renderCategories();
-  var words = currentWords();
+  var words = vocabularyRecords();
   if (randomMode && words.length)
     vocabIndex = Math.floor(Math.random() * words.length);
   showVocabCard();
 }
 function renderVocabularyList() {
-  var words = currentWords(true);
+  var words = vocabularyRecords();
   $$('[data-hide-vocabulary-answer]').forEach(input => input.checked = hideVocabularyAnswers);
   renderVocabularyStudyPanel($("#word-list"), words, state.learned, activeVocabWord, (w) => {
           var article = targetArticle(w),
@@ -203,24 +241,21 @@ function renderVocabularyList() {
           var answer = vocabMode === "translate" ? targetText(w) : sourceText(w);
           return `<button type="button" class="word-row ${w === activeVocabWord ? "current" : ""}" data-word="${w.id}" aria-pressed="${w === activeVocabWord}"><div><strong>${prompt}</strong><small>${hideVocabularyAnswers ? "Answer hidden" : answer}</small></div><span class="word-check ${mark === "✓" ? "correct" : mark === "✕" ? "wrong" : ""}" aria-label="${mark === "✓" ? "Correct" : mark === "✕" ? "Incorrect" : "Not tested"}">${mark}</span></button>`;
         }, w => {
-        vocabStatus = "all";
         vocabIndex = currentWords().indexOf(w);
       showVocabCard();
       });
 }
-var vocabStudyStatus = "pending";
 function renderVocabularyStudyPanel(container, records, correctIds, active, rowHTML, select) {
-  var correct = new Set(correctIds), wrong = new Set(state.issues);
-  var groups = { pending: [], correct: [], wrong: [] };
-  records.forEach(record => groups[correct.has(record.id) ? "correct" : wrong.has(record.id) ? "wrong" : "pending"].push(record));
-  var labels = { pending: "Pending", correct: "Correct", wrong: "Incorrect" },
+  var groups = vocabularyStudyGroups(records);
+  var labels = { pending: "Pending", "first-shot": "First try", corrected: "After error", article: "Article", wrong: "Incorrect" },
     items = groups[vocabStudyStatus],
     activeItems = items.includes(active) ? [active, ...items.filter(item => item !== active)] : items;
   container.className = "word-list vocabulary-study-panel";
   container.innerHTML = `<div class="study-switch" role="tablist">${Object.keys(groups).map(status => `<button class="${status === vocabStudyStatus ? "active" : ""}" data-vocab-study-status="${status}" role="tab" aria-selected="${status === vocabStudyStatus}">${labels[status]} <small>${groups[status].length}</small></button>`).join("")}</div><div class="study-list-rows"></div><button class="secondary-btn study-more">Show more</button>`;
   container.querySelectorAll("[data-vocab-study-status]").forEach(button => button.onclick = () => {
     vocabStudyStatus = button.dataset.vocabStudyStatus;
-    renderVocabularyList();
+    vocabIndex = 0;
+    showVocabCard();
   });
   var rows = container.querySelector(".study-list-rows"), shown = 0, more = container.querySelector(".study-more");
   function appendPage() {
@@ -266,17 +301,13 @@ function renderStudyLists(container, records, correctIds, active, rowHTML, selec
 }
 function showVocabCard() {
   $$(".vocab-mode").forEach(button => button.classList.toggle("active", button.dataset.vocabMode === vocabMode));
-  $$('[id$="vocab-status-filter"]').forEach(select => select.value = vocabStatus);
   refreshArticleChoices();
   var words = currentWords();
   activeVocabWord = words[vocabIndex % words.length] || null;
   renderVocabularyList();
   if (!words.length) {
-    $("#practice-word").textContent = "—";
-    $("#practice-prompt").textContent =
-      vocabStatus === "unseen"
-        ? "You have completed these words. Choose another filter."
-        : "No words match this filter.";
+    $("#practice-word").textContent = "Nothing here";
+    $("#practice-prompt").textContent = `No ${vocabStudyStatusLabels[vocabStudyStatus]} words match these levels and categories.`;
     $("#article-choices").style.display = "none";
     $("#vocab-answer").value = "";
     $("#vocab-answer").disabled = true;
@@ -461,6 +492,7 @@ function checkVocab() {
   } else {
     state.learned = state.learned.filter(id => id !== w.id);
     if (!state.issues.includes(w.id)) state.issues.push(w.id);
+    recordMistake(w.id, !articleCorrect && wordCorrect);
     var message;
     if (article && !articleCorrect && !selectedArticle)
       message = "The article is missing.";

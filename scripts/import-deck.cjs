@@ -14,6 +14,25 @@ const posAliases={adjektiv:'adjective',adj:'adjective',adv:'adverb',num:'numeral
 const validPos=new Set(['noun','verb','adjective','adverb','pronoun','conjunction','numeral','interjection']);
 const clean=s=>String(s??'').normalize('NFC').trim().replace(/\s+/g,' ');
 function alt(s){let depth=0,part='',parts=[];for(const c of clean(s)){if(c==='(')depth++;if(c===')')depth--;if((c===';'||c==='/')&&depth===0){parts.push(part.trim());part='';}else part+=c;}parts.push(part.trim());return [...new Set(parts.filter(Boolean))].join(' / ');}
+const sentenceTokens=text=>clean(text).match(/[\p{L}]+(?:['’-][\p{L}]+)?/gu)||[];
+const comparable=text=>clean(text).toLocaleLowerCase('de').normalize('NFD').replace(/\p{M}/gu,'').replace(/[^\p{L}]/gu,'');
+const commonPrefix=(left,right)=>{let index=0;while(index<left.length&&index<right.length&&left[index]===right[index])index++;return index;};
+function clozeWord(sentence, terms) {
+  const tokens=sentenceTokens(sentence), candidates=terms.flatMap(term=>sentenceTokens(term)).filter(token=>!['to','a','an','the'].includes(comparable(token)));
+  let best={score:-1,index:0};
+  for(const [index,token] of tokens.entries())for(const term of candidates){
+    const actual=comparable(token), source=comparable(term), prefix=commonPrefix(actual,source);
+    const score=actual===source?1000:actual.includes(source)||source.includes(actual)?900:prefix>=3?prefix*100-Math.abs(actual.length-source.length):0;
+    if(score>best.score)best={score,index};
+  }
+  // An irregular or idiomatic source form cannot be matched mechanically.
+  // Preserve a deterministic sentence-word fallback for those rare records.
+  return tokens[best.score>0?best.index:Math.min(tokens.length-1,Math.max(0,Math.floor(tokens.length/2)))]||'';
+}
+const phraseCloze=(native,english,row,word,en)=>({
+  de:clozeWord(native,[word,row.base_verb]),
+  en:clozeWord(english,[en,row.english_translation]),
+});
 const candidates=deck.map((row,index)=>({row,index})).filter(({row})=>levels.has(row.cefr_level));
 const folder='data/import';
 function write(p,text){const full=path.join(root,p);if(process.argv.includes('--check')){if(!fs.existsSync(full)||fs.readFileSync(full,'utf8')!==text)throw Error('Generated data differs: '+p);}else {fs.mkdirSync(path.dirname(full),{recursive:true});fs.writeFileSync(full,text);}}
@@ -76,14 +95,14 @@ for(const a of assignments.entries){
   if(sentenceKeys.has(sentenceKey)){sentenceKeys.get(sentenceKey).wordIds.push(a.id);continue;}
   if(sentenceTranslations.has(native)&&sentenceTranslations.get(native)!==english){held.push({id:a.id,word,scope:'sentence',reasons:['Conflicting English translations of identical German sentence']});continue;}
   if(!topics.has(a.sentenceTopic))throw Error('Invalid sentence topic '+a.sentenceTopic);
-  const phrase={id:String(100000+a.sourceIndex),category:a.sentenceTopic,level:{A1:'easy',A2:'medium',B1:'hard'}[row.cefr_level],translations:{en:{text:english},de:{text:native}},wordIds:[a.id],sourceIndex:a.sourceIndex};
+  const phrase={id:String(100000+a.sourceIndex),category:a.sentenceTopic,level:{A1:'easy',A2:'medium',B1:'hard'}[row.cefr_level],translations:{en:{text:english},de:{text:native}},wordIds:[a.id],cloze:phraseCloze(native,english,row,word,en),sourceIndex:a.sourceIndex};
   phrases.push(phrase);sentenceKeys.set(sentenceKey,phrase);sentenceTranslations.set(native,english);
 }
 const supplements=JSON.parse(read(folder+'/supplements.json'));
 for(const s of supplements){
   if(ids.has(s.id))throw Error('Duplicate supplement ID');ids.add(s.id);
   files['data/verbs/modal.js'].records.push({id:s.id,level:s.level,pos:'verb',topic:s.topic,translations:{en:{text:s.english},de:{text:s.word,separable:false}},source:'editorial'});
-  phrases.push({id:String(100000+Number(s.id)),category:'daily',level:'easy',translations:{en:{text:s.sentenceEnglish},de:{text:s.sentenceGerman}},wordIds:[s.id],source:'editorial'});
+  phrases.push({id:String(100000+Number(s.id)),category:'daily',level:'easy',translations:{en:{text:s.sentenceEnglish},de:{text:s.sentenceGerman}},wordIds:[s.id],cloze:{de:clozeWord(s.sentenceGerman,[s.word]),en:clozeWord(s.sentenceEnglish,[s.english])},source:'editorial'});
 }
 const contentFile=(name,records,kind,group)=>
   `const ${name} = ${JSON.stringify(records,null,2)};\n`+

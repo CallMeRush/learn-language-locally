@@ -14,6 +14,10 @@ const phrasesCulture = [
     "wordIds": [
       "10064"
     ],
+    "cloze": {
+      "de": "Ende",
+      "en": "end"
+    },
     "sourceIndex": 64
   },
   {
@@ -31,6 +35,10 @@ const phrasesCulture = [
     "wordIds": [
       "10123"
     ],
+    "cloze": {
+      "de": "Ich",
+      "en": "I"
+    },
     "sourceIndex": 123
   },
   {
@@ -48,6 +56,10 @@ const phrasesCulture = [
     "wordIds": [
       "10135"
     ],
+    "cloze": {
+      "de": "spielen",
+      "en": "play"
+    },
     "sourceIndex": 135
   },
   {
@@ -65,6 +77,10 @@ const phrasesCulture = [
     "wordIds": [
       "10172"
     ],
+    "cloze": {
+      "de": "zeigen",
+      "en": "show"
+    },
     "sourceIndex": 172
   },
   {
@@ -82,6 +98,10 @@ const phrasesCulture = [
     "wordIds": [
       "10180"
     ],
+    "cloze": {
+      "de": "Musik",
+      "en": "music"
+    },
     "sourceIndex": 180
   },
   {
@@ -99,6 +119,10 @@ const phrasesCulture = [
     "wordIds": [
       "10191"
     ],
+    "cloze": {
+      "de": "danach",
+      "en": "afterwards"
+    },
     "sourceIndex": 191
   },
   {
@@ -116,6 +140,10 @@ const phrasesCulture = [
     "wordIds": [
       "10211"
     ],
+    "cloze": {
+      "de": "bekannter",
+      "en": "a"
+    },
     "sourceIndex": 211
   },
   {
@@ -133,6 +161,10 @@ const phrasesCulture = [
     "wordIds": [
       "10213"
     ],
+    "cloze": {
+      "de": "Gott",
+      "en": "God"
+    },
     "sourceIndex": 213
   },
   {
@@ -150,6 +182,10 @@ const phrasesCulture = [
     "wordIds": [
       "10238"
     ],
+    "cloze": {
+      "de": "Film",
+      "en": "movie"
+    },
     "sourceIndex": 238
   },
   {
@@ -167,6 +203,10 @@ const phrasesCulture = [
     "wordIds": [
       "10240"
     ],
+    "cloze": {
+      "de": "laut",
+      "en": "loud"
+    },
     "sourceIndex": 240
   },
   {
@@ -184,6 +224,10 @@ const phrasesCulture = [
     "wordIds": [
       "10245"
     ],
+    "cloze": {
+      "de": "Team",
+      "en": "team"
+    },
     "sourceIndex": 245
   },
   {
@@ -201,6 +245,10 @@ const phrasesCulture = [
     "wordIds": [
       "10251"
     ],
+    "cloze": {
+      "de": "Spass",
+      "en": "fun"
+    },
     "sourceIndex": 251
   },
   {
@@ -218,6 +266,10 @@ const phrasesCulture = [
     "wordIds": [
       "10288"
     ],
+    "cloze": {
+      "de": "laufe",
+      "en": "run"
+    },
     "sourceIndex": 288
   },
   {
@@ -235,6 +287,10 @@ const phrasesCulture = [
     "wordIds": [
       "10303"
     ],
+    "cloze": {
+      "de": "Kirche",
+      "en": "church"
+    },
     "sourceIndex": 303
   },
   {
@@ -252,6 +308,10 @@ const phrasesCulture = [
     "wordIds": [
       "10329"
     ],
+    "cloze": {
+      "de": "erreichen",
+      "en": "reach"
+    },
     "sourceIndex": 329
   },
   {
@@ -269,6 +329,10 @@ const phrasesCulture = [
     "wordIds": [
       "10361"
     ],
+    "cloze": {
+      "de": "Kunst",
+      "en": "Art"
+    },
     "sourceIndex": 361
   },
   {
@@ -286,6 +350,10 @@ const phrasesCulture = [
     "wordIds": [
       "10364"
     ],
+    "cloze": {
+      "de": "verlieren",
+      "en": "lose"
+    },
     "sourceIndex": 364
   },
   {
@@ -303,6 +371,10 @@ const phrasesCulture = [
     "wordIds": [
       "10377"
     ],
+    "cloze": {
+      "de": "Spieler",
+      "en": "player"
+    },
     "sourceIndex": 377
   },
   {
@@ -320,6 +392,10 @@ const phrasesCulture = [
     "wordIds": [
       "10415"
     ],
+    "cloze": {
+      "de": "Kultur",
+      "en": "culture"
+    },
     "sourceIndex": 415
   },
   {
@@ -337,6 +413,10 @@ const phrasesCulture = [
     "wordIds": [
       "10419"
     ],
+    "cloze": {
+      "de": "Reihe",
+      "en": "row"
+    },
     "sourceIndex": 419
   },
   {
@@ -354,6 +434,10 @@ const phrasesCulture = [
     "wordIds": [
       "10424"
     ],
+    "cloze": {
+      "de": "Fussball",
+      "en": "football"
+    },
     "sourceIndex": 424
   },
   {
@@ -371,6 +455,10 @@ const phrasesCulture = [
     "wordIds": [
       "10427"
     ],
+    "cloze": {
+      "de": "Kritik",
+      "en": "criticism"
+    },
     "sourceIndex": 427
   },
   {
@@ -388,6 +476,10 @@ const phrasesCulture = [
     "wordIds": [
       "10443"
     ],
+    "cloze": {
+      "de": "gewinnen",
+      "en": "win"
+    },
     "sourceIndex": 443
   },
   {
@@ -405,6 +497,10 @@ const phrasesCulture = [
     "wordIds": [
       "10451"
     ],
+    "cloze": {
+      "de": "in",
+      "en": "club"
+    },
     "sourceIndex": 451
   },
   {
@@ -422,6 +518,10 @@ const phrasesCulture = [
     "wordIds": [
       "10454"
     ],
+    "cloze": {
+      "de": "Beginn",
+      "en": "beginning"
+    },
     "sourceIndex": 454
   },
   {
@@ -439,6 +539,10 @@ const phrasesCulture = [
     "wordIds": [
       "10486"
     ],
+    "cloze": {
+      "de": "Zeitung",
+      "en": "newspaper"
+    },
     "sourceIndex": 486
   },
   {
@@ -456,6 +560,10 @@ const phrasesCulture = [
     "wordIds": [
       "10499"
     ],
+    "cloze": {
+      "de": "Sport",
+      "en": "sports"
+    },
     "sourceIndex": 499
   },
   {
@@ -473,6 +581,10 @@ const phrasesCulture = [
     "wordIds": [
       "10508"
     ],
+    "cloze": {
+      "de": "schauen",
+      "en": "watching"
+    },
     "sourceIndex": 508
   },
   {
@@ -490,6 +602,10 @@ const phrasesCulture = [
     "wordIds": [
       "10532"
     ],
+    "cloze": {
+      "de": "Linie",
+      "en": "line"
+    },
     "sourceIndex": 532
   },
   {
@@ -507,6 +623,10 @@ const phrasesCulture = [
     "wordIds": [
       "10541"
     ],
+    "cloze": {
+      "de": "Mannschaft",
+      "en": "team"
+    },
     "sourceIndex": 541
   },
   {
@@ -524,6 +644,10 @@ const phrasesCulture = [
     "wordIds": [
       "10557"
     ],
+    "cloze": {
+      "de": "Runde",
+      "en": "for"
+    },
     "sourceIndex": 557
   },
   {
@@ -541,6 +665,10 @@ const phrasesCulture = [
     "wordIds": [
       "10559"
     ],
+    "cloze": {
+      "de": "Serie",
+      "en": "series"
+    },
     "sourceIndex": 559
   },
   {
@@ -558,6 +686,10 @@ const phrasesCulture = [
     "wordIds": [
       "10575"
     ],
+    "cloze": {
+      "de": "aktuelle",
+      "en": "current"
+    },
     "sourceIndex": 575
   },
   {
@@ -575,6 +707,10 @@ const phrasesCulture = [
     "wordIds": [
       "10576"
     ],
+    "cloze": {
+      "de": "Bewegung",
+      "en": "movement"
+    },
     "sourceIndex": 576
   },
   {
@@ -592,6 +728,10 @@ const phrasesCulture = [
     "wordIds": [
       "10589"
     ],
+    "cloze": {
+      "de": "Start",
+      "en": "start"
+    },
     "sourceIndex": 589
   },
   {
@@ -609,6 +749,10 @@ const phrasesCulture = [
     "wordIds": [
       "10610"
     ],
+    "cloze": {
+      "de": "Fan",
+      "en": "fan"
+    },
     "sourceIndex": 610
   },
   {
@@ -626,6 +770,10 @@ const phrasesCulture = [
     "wordIds": [
       "10616"
     ],
+    "cloze": {
+      "de": "Zahlreiche",
+      "en": "Numerous"
+    },
     "sourceIndex": 616
   },
   {
@@ -643,6 +791,10 @@ const phrasesCulture = [
     "wordIds": [
       "10625"
     ],
+    "cloze": {
+      "de": "Leistung",
+      "en": "performance"
+    },
     "sourceIndex": 625
   },
   {
@@ -660,6 +812,10 @@ const phrasesCulture = [
     "wordIds": [
       "10644"
     ],
+    "cloze": {
+      "de": "baden",
+      "en": "swim"
+    },
     "sourceIndex": 644
   },
   {
@@ -677,6 +833,10 @@ const phrasesCulture = [
     "wordIds": [
       "10654"
     ],
+    "cloze": {
+      "de": "Meister",
+      "en": "master"
+    },
     "sourceIndex": 654
   },
   {
@@ -694,6 +854,10 @@ const phrasesCulture = [
     "wordIds": [
       "10667"
     ],
+    "cloze": {
+      "de": "lustig",
+      "en": "funny"
+    },
     "sourceIndex": 667
   },
   {
@@ -711,6 +875,10 @@ const phrasesCulture = [
     "wordIds": [
       "10694"
     ],
+    "cloze": {
+      "de": "Club",
+      "en": "club"
+    },
     "sourceIndex": 694
   },
   {
@@ -728,6 +896,10 @@ const phrasesCulture = [
     "wordIds": [
       "10729"
     ],
+    "cloze": {
+      "de": "aufnehmen",
+      "en": "record"
+    },
     "sourceIndex": 729
   },
   {
@@ -745,6 +917,10 @@ const phrasesCulture = [
     "wordIds": [
       "10732"
     ],
+    "cloze": {
+      "de": "dahin",
+      "en": "there"
+    },
     "sourceIndex": 732
   },
   {
@@ -762,6 +938,10 @@ const phrasesCulture = [
     "wordIds": [
       "10735"
     ],
+    "cloze": {
+      "de": "irgendwo",
+      "en": "somewhere"
+    },
     "sourceIndex": 735
   },
   {
@@ -779,6 +959,10 @@ const phrasesCulture = [
     "wordIds": [
       "10738"
     ],
+    "cloze": {
+      "de": "Party",
+      "en": "party"
+    },
     "sourceIndex": 738
   },
   {
@@ -796,6 +980,10 @@ const phrasesCulture = [
     "wordIds": [
       "10744"
     ],
+    "cloze": {
+      "de": "Tor",
+      "en": "goal"
+    },
     "sourceIndex": 744
   },
   {
@@ -813,6 +1001,10 @@ const phrasesCulture = [
     "wordIds": [
       "10746"
     ],
+    "cloze": {
+      "de": "wahre",
+      "en": "true"
+    },
     "sourceIndex": 746
   },
   {
@@ -830,6 +1022,10 @@ const phrasesCulture = [
     "wordIds": [
       "10771"
     ],
+    "cloze": {
+      "de": "Künstler",
+      "en": "artist"
+    },
     "sourceIndex": 771
   },
   {
@@ -847,6 +1043,10 @@ const phrasesCulture = [
     "wordIds": [
       "10775"
     ],
+    "cloze": {
+      "de": "rennen",
+      "en": "run"
+    },
     "sourceIndex": 775
   },
   {
@@ -864,6 +1064,10 @@ const phrasesCulture = [
     "wordIds": [
       "10798"
     ],
+    "cloze": {
+      "de": "Autor",
+      "en": "author"
+    },
     "sourceIndex": 798
   },
   {
@@ -881,6 +1085,10 @@ const phrasesCulture = [
     "wordIds": [
       "10805"
     ],
+    "cloze": {
+      "de": "feiern",
+      "en": "celebrate"
+    },
     "sourceIndex": 805
   },
   {
@@ -898,6 +1106,10 @@ const phrasesCulture = [
     "wordIds": [
       "10815"
     ],
+    "cloze": {
+      "de": "Szene",
+      "en": "scene"
+    },
     "sourceIndex": 815
   },
   {
@@ -915,6 +1127,10 @@ const phrasesCulture = [
     "wordIds": [
       "10824"
     ],
+    "cloze": {
+      "de": "Fotoalbum",
+      "en": "album"
+    },
     "sourceIndex": 824
   },
   {
@@ -932,6 +1148,10 @@ const phrasesCulture = [
     "wordIds": [
       "10885"
     ],
+    "cloze": {
+      "de": "Gegner",
+      "en": "opponent"
+    },
     "sourceIndex": 885
   },
   {
@@ -949,6 +1169,10 @@ const phrasesCulture = [
     "wordIds": [
       "10892"
     ],
+    "cloze": {
+      "de": "Lied",
+      "en": "song"
+    },
     "sourceIndex": 892
   },
   {
@@ -966,6 +1190,10 @@ const phrasesCulture = [
     "wordIds": [
       "10893"
     ],
+    "cloze": {
+      "de": "Liga",
+      "en": "league"
+    },
     "sourceIndex": 893
   },
   {
@@ -983,6 +1211,10 @@ const phrasesCulture = [
     "wordIds": [
       "10905"
     ],
+    "cloze": {
+      "de": "Finale",
+      "en": "final"
+    },
     "sourceIndex": 905
   },
   {
@@ -1000,6 +1232,10 @@ const phrasesCulture = [
     "wordIds": [
       "10912"
     ],
+    "cloze": {
+      "de": "Theater",
+      "en": "theater"
+    },
     "sourceIndex": 912
   },
   {
@@ -1017,6 +1253,10 @@ const phrasesCulture = [
     "wordIds": [
       "10923"
     ],
+    "cloze": {
+      "de": "Jude",
+      "en": "Jew"
+    },
     "sourceIndex": 923
   },
   {
@@ -1034,6 +1274,10 @@ const phrasesCulture = [
     "wordIds": [
       "10927"
     ],
+    "cloze": {
+      "de": "Modell",
+      "en": "model"
+    },
     "sourceIndex": 927
   },
   {
@@ -1051,6 +1295,10 @@ const phrasesCulture = [
     "wordIds": [
       "10928"
     ],
+    "cloze": {
+      "de": "Museum",
+      "en": "museum"
+    },
     "sourceIndex": 928
   },
   {
@@ -1068,6 +1316,10 @@ const phrasesCulture = [
     "wordIds": [
       "10930"
     ],
+    "cloze": {
+      "de": "Religion",
+      "en": "Religion"
+    },
     "sourceIndex": 930
   },
   {
@@ -1085,6 +1337,10 @@ const phrasesCulture = [
     "wordIds": [
       "10932"
     ],
+    "cloze": {
+      "de": "Veranstaltung",
+      "en": "event"
+    },
     "sourceIndex": 932
   },
   {
@@ -1102,6 +1358,10 @@ const phrasesCulture = [
     "wordIds": [
       "10948"
     ],
+    "cloze": {
+      "de": "Seele",
+      "en": "soul"
+    },
     "sourceIndex": 948
   },
   {
@@ -1119,6 +1379,10 @@ const phrasesCulture = [
     "wordIds": [
       "10955"
     ],
+    "cloze": {
+      "de": "Ausstellung",
+      "en": "exhibition"
+    },
     "sourceIndex": 955
   },
   {
@@ -1136,6 +1400,10 @@ const phrasesCulture = [
     "wordIds": [
       "10992"
     ],
+    "cloze": {
+      "de": "Presse",
+      "en": "press"
+    },
     "sourceIndex": 992
   },
   {
@@ -1153,6 +1421,10 @@ const phrasesCulture = [
     "wordIds": [
       "10999"
     ],
+    "cloze": {
+      "de": "Lieblingssong",
+      "en": "song"
+    },
     "sourceIndex": 999
   },
   {
@@ -1170,6 +1442,10 @@ const phrasesCulture = [
     "wordIds": [
       "11003"
     ],
+    "cloze": {
+      "de": "Wunder",
+      "en": "miracle"
+    },
     "sourceIndex": 1003
   },
   {
@@ -1187,6 +1463,10 @@ const phrasesCulture = [
     "wordIds": [
       "11029"
     ],
+    "cloze": {
+      "de": "an",
+      "en": "starts"
+    },
     "sourceIndex": 1029
   },
   {
@@ -1204,6 +1484,10 @@ const phrasesCulture = [
     "wordIds": [
       "11037"
     ],
+    "cloze": {
+      "de": "Geist",
+      "en": "spirit"
+    },
     "sourceIndex": 1037
   },
   {
@@ -1221,6 +1505,10 @@ const phrasesCulture = [
     "wordIds": [
       "11041"
     ],
+    "cloze": {
+      "de": "Roman",
+      "en": "novel"
+    },
     "sourceIndex": 1041
   },
   {
@@ -1238,6 +1526,10 @@ const phrasesCulture = [
     "wordIds": [
       "11065"
     ],
+    "cloze": {
+      "de": "schlägt",
+      "en": "hits"
+    },
     "sourceIndex": 1065
   },
   {
@@ -1255,6 +1547,10 @@ const phrasesCulture = [
     "wordIds": [
       "11071"
     ],
+    "cloze": {
+      "de": "Ball",
+      "en": "ball"
+    },
     "sourceIndex": 1071
   },
   {
@@ -1272,6 +1568,10 @@ const phrasesCulture = [
     "wordIds": [
       "11084"
     ],
+    "cloze": {
+      "de": "Stil",
+      "en": "style"
+    },
     "sourceIndex": 1084
   },
   {
@@ -1289,6 +1589,10 @@ const phrasesCulture = [
     "wordIds": [
       "11092"
     ],
+    "cloze": {
+      "de": "Zuschauer",
+      "en": "spectators"
+    },
     "sourceIndex": 1092
   },
   {
@@ -1306,6 +1610,10 @@ const phrasesCulture = [
     "wordIds": [
       "11104"
     ],
+    "cloze": {
+      "de": "Kino",
+      "en": "cinema"
+    },
     "sourceIndex": 1104
   },
   {
@@ -1323,6 +1631,10 @@ const phrasesCulture = [
     "wordIds": [
       "11113"
     ],
+    "cloze": {
+      "de": "Tradition",
+      "en": "tradition"
+    },
     "sourceIndex": 1113
   },
   {
@@ -1340,6 +1652,10 @@ const phrasesCulture = [
     "wordIds": [
       "11114"
     ],
+    "cloze": {
+      "de": "Training",
+      "en": "training"
+    },
     "sourceIndex": 1114
   },
   {
@@ -1357,6 +1673,10 @@ const phrasesCulture = [
     "wordIds": [
       "11120"
     ],
+    "cloze": {
+      "de": "Weihnachten",
+      "en": "Christmas"
+    },
     "sourceIndex": 1120
   },
   {
@@ -1374,6 +1694,10 @@ const phrasesCulture = [
     "wordIds": [
       "11133"
     ],
+    "cloze": {
+      "de": "Bühne",
+      "en": "stage"
+    },
     "sourceIndex": 1133
   },
   {
@@ -1391,6 +1715,10 @@ const phrasesCulture = [
     "wordIds": [
       "11137"
     ],
+    "cloze": {
+      "de": "komische",
+      "en": "funny"
+    },
     "sourceIndex": 1137
   },
   {
@@ -1408,6 +1736,10 @@ const phrasesCulture = [
     "wordIds": [
       "11149"
     ],
+    "cloze": {
+      "de": "Auftritt",
+      "en": "performance"
+    },
     "sourceIndex": 1149
   },
   {
@@ -1425,6 +1757,10 @@ const phrasesCulture = [
     "wordIds": [
       "11161"
     ],
+    "cloze": {
+      "de": "Konzert",
+      "en": "concert"
+    },
     "sourceIndex": 1161
   },
   {
@@ -1442,6 +1778,10 @@ const phrasesCulture = [
     "wordIds": [
       "11163"
     ],
+    "cloze": {
+      "de": "News",
+      "en": "news"
+    },
     "sourceIndex": 1163
   },
   {
@@ -1459,6 +1799,10 @@ const phrasesCulture = [
     "wordIds": [
       "11164"
     ],
+    "cloze": {
+      "de": "Publikum",
+      "en": "audience"
+    },
     "sourceIndex": 1164
   },
   {
@@ -1476,6 +1820,10 @@ const phrasesCulture = [
     "wordIds": [
       "11165"
     ],
+    "cloze": {
+      "de": "reale",
+      "en": "real"
+    },
     "sourceIndex": 1165
   },
   {
@@ -1493,6 +1841,10 @@ const phrasesCulture = [
     "wordIds": [
       "11167"
     ],
+    "cloze": {
+      "de": "Sammlung",
+      "en": "collection"
+    },
     "sourceIndex": 1167
   },
   {
@@ -1510,6 +1862,10 @@ const phrasesCulture = [
     "wordIds": [
       "11175"
     ],
+    "cloze": {
+      "de": "werfen",
+      "en": "throw"
+    },
     "sourceIndex": 1175
   },
   {
@@ -1527,6 +1883,10 @@ const phrasesCulture = [
     "wordIds": [
       "11180"
     ],
+    "cloze": {
+      "de": "daneben",
+      "en": "went"
+    },
     "sourceIndex": 1180
   },
   {
@@ -1544,6 +1904,10 @@ const phrasesCulture = [
     "wordIds": [
       "11189"
     ],
+    "cloze": {
+      "de": "leer",
+      "en": "empty"
+    },
     "sourceIndex": 1189
   },
   {
@@ -1561,6 +1925,10 @@ const phrasesCulture = [
     "wordIds": [
       "11197"
     ],
+    "cloze": {
+      "de": "Witz",
+      "en": "joke"
+    },
     "sourceIndex": 1197
   },
   {
@@ -1578,6 +1946,10 @@ const phrasesCulture = [
     "wordIds": [
       "11234"
     ],
+    "cloze": {
+      "de": "Design",
+      "en": "design"
+    },
     "sourceIndex": 1234
   },
   {
@@ -1595,6 +1967,10 @@ const phrasesCulture = [
     "wordIds": [
       "11245"
     ],
+    "cloze": {
+      "de": "stammt",
+      "en": "from"
+    },
     "sourceIndex": 1245
   },
   {
@@ -1612,6 +1988,10 @@ const phrasesCulture = [
     "wordIds": [
       "11295"
     ],
+    "cloze": {
+      "de": "singt",
+      "en": "sings"
+    },
     "sourceIndex": 1295
   },
   {
@@ -1629,6 +2009,10 @@ const phrasesCulture = [
     "wordIds": [
       "11313"
     ],
+    "cloze": {
+      "de": "Schauspieler",
+      "en": "actor"
+    },
     "sourceIndex": 1313
   },
   {
@@ -1646,6 +2030,10 @@ const phrasesCulture = [
     "wordIds": [
       "11317"
     ],
+    "cloze": {
+      "de": "verbreiten",
+      "en": "spreads"
+    },
     "sourceIndex": 1317
   },
   {
@@ -1663,6 +2051,10 @@ const phrasesCulture = [
     "wordIds": [
       "11355"
     ],
+    "cloze": {
+      "de": "definitiv",
+      "en": "definite"
+    },
     "sourceIndex": 1355
   },
   {
@@ -1680,6 +2072,10 @@ const phrasesCulture = [
     "wordIds": [
       "11357"
     ],
+    "cloze": {
+      "de": "Ehre",
+      "en": "honor"
+    },
     "sourceIndex": 1357
   },
   {
@@ -1697,6 +2093,10 @@ const phrasesCulture = [
     "wordIds": [
       "11380"
     ],
+    "cloze": {
+      "de": "witziger",
+      "en": "funny"
+    },
     "sourceIndex": 1380
   },
   {
@@ -1714,6 +2114,10 @@ const phrasesCulture = [
     "wordIds": [
       "11399"
     ],
+    "cloze": {
+      "de": "Musiker",
+      "en": "musician"
+    },
     "sourceIndex": 1399
   },
   {
@@ -1731,6 +2135,10 @@ const phrasesCulture = [
     "wordIds": [
       "11503"
     ],
+    "cloze": {
+      "de": "Sender",
+      "en": "showing"
+    },
     "sourceIndex": 1503
   },
   {
@@ -1748,6 +2156,10 @@ const phrasesCulture = [
     "wordIds": [
       "11504"
     ],
+    "cloze": {
+      "de": "Sieger",
+      "en": "winner"
+    },
     "sourceIndex": 1504
   },
   {
@@ -1765,6 +2177,10 @@ const phrasesCulture = [
     "wordIds": [
       "11506"
     ],
+    "cloze": {
+      "de": "Statistik",
+      "en": "statistics"
+    },
     "sourceIndex": 1506
   },
   {
@@ -1782,6 +2198,10 @@ const phrasesCulture = [
     "wordIds": [
       "11512"
     ],
+    "cloze": {
+      "de": "vergeben",
+      "en": "forgive"
+    },
     "sourceIndex": 1512
   },
   {
@@ -1799,6 +2219,10 @@ const phrasesCulture = [
     "wordIds": [
       "11523"
     ],
+    "cloze": {
+      "de": "Musikfestival",
+      "en": "festival"
+    },
     "sourceIndex": 1523
   },
   {
@@ -1816,6 +2240,10 @@ const phrasesCulture = [
     "wordIds": [
       "11531"
     ],
+    "cloze": {
+      "de": "Humor",
+      "en": "humor"
+    },
     "sourceIndex": 1531
   },
   {
@@ -1833,6 +2261,10 @@ const phrasesCulture = [
     "wordIds": [
       "11542"
     ],
+    "cloze": {
+      "de": "Varianten",
+      "en": "variants"
+    },
     "sourceIndex": 1542
   },
   {
@@ -1850,6 +2282,10 @@ const phrasesCulture = [
     "wordIds": [
       "11545"
     ],
+    "cloze": {
+      "de": "Zeitschrift",
+      "en": "magazine"
+    },
     "sourceIndex": 1545
   },
   {
@@ -1867,6 +2303,10 @@ const phrasesCulture = [
     "wordIds": [
       "11582"
     ],
+    "cloze": {
+      "de": "Christ",
+      "en": "Christian"
+    },
     "sourceIndex": 1582
   },
   {
@@ -1884,6 +2324,10 @@ const phrasesCulture = [
     "wordIds": [
       "11593"
     ],
+    "cloze": {
+      "de": "klassische",
+      "en": "classical"
+    },
     "sourceIndex": 1593
   },
   {
@@ -1901,6 +2345,10 @@ const phrasesCulture = [
     "wordIds": [
       "11596"
     ],
+    "cloze": {
+      "de": "Landschaft",
+      "en": "landscape"
+    },
     "sourceIndex": 1596
   },
   {
@@ -1918,6 +2366,10 @@ const phrasesCulture = [
     "wordIds": [
       "11648"
     ],
+    "cloze": {
+      "de": "Sportverband",
+      "en": "association"
+    },
     "sourceIndex": 1648
   },
   {
@@ -1935,6 +2387,10 @@ const phrasesCulture = [
     "wordIds": [
       "11720"
     ],
+    "cloze": {
+      "de": "Handlung",
+      "en": "plot"
+    },
     "sourceIndex": 1720
   },
   {
@@ -1952,6 +2408,10 @@ const phrasesCulture = [
     "wordIds": [
       "11722"
     ],
+    "cloze": {
+      "de": "Konkurrenz",
+      "en": "competition"
+    },
     "sourceIndex": 1722
   },
   {
@@ -1969,6 +2429,10 @@ const phrasesCulture = [
     "wordIds": [
       "11731"
     ],
+    "cloze": {
+      "de": "reagieren",
+      "en": "react"
+    },
     "sourceIndex": 1731
   },
   {
@@ -1986,6 +2450,10 @@ const phrasesCulture = [
     "wordIds": [
       "11733"
     ],
+    "cloze": {
+      "de": "Schlag",
+      "en": "hit"
+    },
     "sourceIndex": 1733
   },
   {
@@ -2003,6 +2471,10 @@ const phrasesCulture = [
     "wordIds": [
       "11739"
     ],
+    "cloze": {
+      "de": "Turnier",
+      "en": "tournament"
+    },
     "sourceIndex": 1739
   },
   {
@@ -2020,6 +2492,10 @@ const phrasesCulture = [
     "wordIds": [
       "11750"
     ],
+    "cloze": {
+      "de": "Ereignis",
+      "en": "event"
+    },
     "sourceIndex": 1750
   },
   {
@@ -2037,6 +2513,10 @@ const phrasesCulture = [
     "wordIds": [
       "11753"
     ],
+    "cloze": {
+      "de": "fassen",
+      "en": "grasp"
+    },
     "sourceIndex": 1753
   },
   {
@@ -2054,6 +2534,10 @@ const phrasesCulture = [
     "wordIds": [
       "11755"
     ],
+    "cloze": {
+      "de": "Game",
+      "en": "game"
+    },
     "sourceIndex": 1755
   },
   {
@@ -2071,6 +2555,10 @@ const phrasesCulture = [
     "wordIds": [
       "11765"
     ],
+    "cloze": {
+      "de": "Magazin",
+      "en": "magazine"
+    },
     "sourceIndex": 1765
   },
   {
@@ -2088,6 +2576,10 @@ const phrasesCulture = [
     "wordIds": [
       "11771"
     ],
+    "cloze": {
+      "de": "Schuss",
+      "en": "shot"
+    },
     "sourceIndex": 1771
   },
   {
@@ -2105,6 +2597,10 @@ const phrasesCulture = [
     "wordIds": [
       "11776"
     ],
+    "cloze": {
+      "de": "Unterhaltung",
+      "en": "entertainment"
+    },
     "sourceIndex": 1776
   },
   {
@@ -2123,6 +2619,10 @@ const phrasesCulture = [
       "11800",
       "20241"
     ],
+    "cloze": {
+      "de": "Popmusik",
+      "en": "pop"
+    },
     "sourceIndex": 1800
   },
   {
@@ -2140,6 +2640,10 @@ const phrasesCulture = [
     "wordIds": [
       "11807"
     ],
+    "cloze": {
+      "de": "unterhalten",
+      "en": "a"
+    },
     "sourceIndex": 1807
   },
   {
@@ -2157,6 +2661,10 @@ const phrasesCulture = [
     "wordIds": [
       "11840"
     ],
+    "cloze": {
+      "de": "Sänger",
+      "en": "singer"
+    },
     "sourceIndex": 1840
   },
   {
@@ -2174,6 +2682,10 @@ const phrasesCulture = [
     "wordIds": [
       "11841"
     ],
+    "cloze": {
+      "de": "tanzen",
+      "en": "dance"
+    },
     "sourceIndex": 1841
   },
   {
@@ -2191,6 +2703,10 @@ const phrasesCulture = [
     "wordIds": [
       "11893"
     ],
+    "cloze": {
+      "de": "Gewinner",
+      "en": "winner"
+    },
     "sourceIndex": 1893
   },
   {
@@ -2208,6 +2724,10 @@ const phrasesCulture = [
     "wordIds": [
       "11902"
     ],
+    "cloze": {
+      "de": "schwimmen",
+      "en": "swim"
+    },
     "sourceIndex": 1902
   },
   {
@@ -2225,6 +2745,10 @@ const phrasesCulture = [
     "wordIds": [
       "11912"
     ],
+    "cloze": {
+      "de": "übliche",
+      "en": "usual"
+    },
     "sourceIndex": 1912
   },
   {
@@ -2242,6 +2766,10 @@ const phrasesCulture = [
     "wordIds": [
       "11925"
     ],
+    "cloze": {
+      "de": "Feier",
+      "en": "celebration"
+    },
     "sourceIndex": 1925
   },
   {
@@ -2259,6 +2787,10 @@ const phrasesCulture = [
     "wordIds": [
       "11926"
     ],
+    "cloze": {
+      "de": "filmt",
+      "en": "filming"
+    },
     "sourceIndex": 1926
   },
   {
@@ -2276,6 +2808,10 @@ const phrasesCulture = [
     "wordIds": [
       "11949"
     ],
+    "cloze": {
+      "de": "Tanz",
+      "en": "dance"
+    },
     "sourceIndex": 1949
   },
   {
@@ -2293,6 +2829,10 @@ const phrasesCulture = [
     "wordIds": [
       "11975"
     ],
+    "cloze": {
+      "de": "Nation",
+      "en": "nation"
+    },
     "sourceIndex": 1975
   },
   {
@@ -2310,6 +2850,10 @@ const phrasesCulture = [
     "wordIds": [
       "11978"
     ],
+    "cloze": {
+      "de": "Spannung",
+      "en": "suspense"
+    },
     "sourceIndex": 1978
   },
   {
@@ -2327,6 +2871,10 @@ const phrasesCulture = [
     "wordIds": [
       "11990"
     ],
+    "cloze": {
+      "de": "Bewertung",
+      "en": "film"
+    },
     "sourceIndex": 1990
   },
   {
@@ -2344,6 +2892,10 @@ const phrasesCulture = [
     "wordIds": [
       "12023"
     ],
+    "cloze": {
+      "de": "Schriftsteller",
+      "en": "writer"
+    },
     "sourceIndex": 2023
   },
   {
@@ -2361,6 +2913,10 @@ const phrasesCulture = [
     "wordIds": [
       "12037"
     ],
+    "cloze": {
+      "de": "Event",
+      "en": "event"
+    },
     "sourceIndex": 2037
   },
   {
@@ -2378,6 +2934,10 @@ const phrasesCulture = [
     "wordIds": [
       "12042"
     ],
+    "cloze": {
+      "de": "Galerie",
+      "en": "gallery"
+    },
     "sourceIndex": 2042
   },
   {
@@ -2395,6 +2955,10 @@ const phrasesCulture = [
     "wordIds": [
       "12056"
     ],
+    "cloze": {
+      "de": "Priester",
+      "en": "priest"
+    },
     "sourceIndex": 2056
   },
   {
@@ -2412,6 +2976,10 @@ const phrasesCulture = [
     "wordIds": [
       "12058"
     ],
+    "cloze": {
+      "de": "siegen",
+      "en": "win"
+    },
     "sourceIndex": 2058
   },
   {
@@ -2429,6 +2997,10 @@ const phrasesCulture = [
     "wordIds": [
       "12084"
     ],
+    "cloze": {
+      "de": "Golf",
+      "en": "golf"
+    },
     "sourceIndex": 2084
   },
   {
@@ -2446,6 +3018,10 @@ const phrasesCulture = [
     "wordIds": [
       "12154"
     ],
+    "cloze": {
+      "de": "Drama",
+      "en": "drama"
+    },
     "sourceIndex": 2154
   },
   {
@@ -2463,6 +3039,10 @@ const phrasesCulture = [
     "wordIds": [
       "12158"
     ],
+    "cloze": {
+      "de": "evangelischen",
+      "en": "Protestant"
+    },
     "sourceIndex": 2158
   },
   {
@@ -2480,6 +3060,10 @@ const phrasesCulture = [
     "wordIds": [
       "12160"
     ],
+    "cloze": {
+      "de": "Halbfinale",
+      "en": "semi-final"
+    },
     "sourceIndex": 2160
   },
   {
@@ -2497,6 +3081,10 @@ const phrasesCulture = [
     "wordIds": [
       "12180"
     ],
+    "cloze": {
+      "de": "Weltmeister",
+      "en": "world"
+    },
     "sourceIndex": 2180
   },
   {
@@ -2514,6 +3102,10 @@ const phrasesCulture = [
     "wordIds": [
       "12205"
     ],
+    "cloze": {
+      "de": "mega",
+      "en": "was"
+    },
     "sourceIndex": 2205
   },
   {
@@ -2531,6 +3123,10 @@ const phrasesCulture = [
     "wordIds": [
       "12212"
     ],
+    "cloze": {
+      "de": "seltsame",
+      "en": "strange"
+    },
     "sourceIndex": 2212
   },
   {
@@ -2548,6 +3144,10 @@ const phrasesCulture = [
     "wordIds": [
       "12224"
     ],
+    "cloze": {
+      "de": "Vorlage",
+      "en": "template"
+    },
     "sourceIndex": 2224
   },
   {
@@ -2565,6 +3165,10 @@ const phrasesCulture = [
     "wordIds": [
       "12230"
     ],
+    "cloze": {
+      "de": "Arena",
+      "en": "arena"
+    },
     "sourceIndex": 2230
   },
   {
@@ -2582,6 +3186,10 @@ const phrasesCulture = [
     "wordIds": [
       "12237"
     ],
+    "cloze": {
+      "de": "christliche",
+      "en": "Christian"
+    },
     "sourceIndex": 2237
   },
   {
@@ -2599,6 +3207,10 @@ const phrasesCulture = [
     "wordIds": [
       "12295"
     ],
+    "cloze": {
+      "de": "Pokal",
+      "en": "cup"
+    },
     "sourceIndex": 2295
   },
   {
@@ -2616,6 +3228,10 @@ const phrasesCulture = [
     "wordIds": [
       "12300"
     ],
+    "cloze": {
+      "de": "Regisseur",
+      "en": "director"
+    },
     "sourceIndex": 2300
   },
   {
@@ -2633,6 +3249,10 @@ const phrasesCulture = [
     "wordIds": [
       "12305"
     ],
+    "cloze": {
+      "de": "Talent",
+      "en": "talent"
+    },
     "sourceIndex": 2305
   },
   {
@@ -2650,6 +3270,10 @@ const phrasesCulture = [
     "wordIds": [
       "12334"
     ],
+    "cloze": {
+      "de": "Muslim",
+      "en": "Muslim"
+    },
     "sourceIndex": 2334
   },
   {
@@ -2667,6 +3291,10 @@ const phrasesCulture = [
     "wordIds": [
       "12365"
     ],
+    "cloze": {
+      "de": "Legende",
+      "en": "legend"
+    },
     "sourceIndex": 2365
   },
   {
@@ -2684,6 +3312,10 @@ const phrasesCulture = [
     "wordIds": [
       "12368"
     ],
+    "cloze": {
+      "de": "mitmachen",
+      "en": "join"
+    },
     "sourceIndex": 2368
   },
   {
@@ -2701,6 +3333,10 @@ const phrasesCulture = [
     "wordIds": [
       "12387"
     ],
+    "cloze": {
+      "de": "zeichnen",
+      "en": "draw"
+    },
     "sourceIndex": 2387
   },
   {
@@ -2718,6 +3354,10 @@ const phrasesCulture = [
     "wordIds": [
       "12407"
     ],
+    "cloze": {
+      "de": "Hobby",
+      "en": "hobby"
+    },
     "sourceIndex": 2407
   },
   {
@@ -2735,6 +3375,10 @@ const phrasesCulture = [
     "wordIds": [
       "12408"
     ],
+    "cloze": {
+      "de": "Instrument",
+      "en": "instrument"
+    },
     "sourceIndex": 2408
   },
   {
@@ -2752,6 +3396,10 @@ const phrasesCulture = [
     "wordIds": [
       "12448"
     ],
+    "cloze": {
+      "de": "kulturelle",
+      "en": "cultural"
+    },
     "sourceIndex": 2448
   },
   {
@@ -2769,6 +3417,10 @@ const phrasesCulture = [
     "wordIds": [
       "12451"
     ],
+    "cloze": {
+      "de": "Meisterschaft",
+      "en": "championship"
+    },
     "sourceIndex": 2451
   },
   {
@@ -2786,6 +3438,10 @@ const phrasesCulture = [
     "wordIds": [
       "12452"
     ],
+    "cloze": {
+      "de": "Metall",
+      "en": "metal"
+    },
     "sourceIndex": 2452
   },
   {
@@ -2803,6 +3459,10 @@ const phrasesCulture = [
     "wordIds": [
       "12453"
     ],
+    "cloze": {
+      "de": "Model",
+      "en": "model"
+    },
     "sourceIndex": 2453
   },
   {
@@ -2820,6 +3480,10 @@ const phrasesCulture = [
     "wordIds": [
       "12455"
     ],
+    "cloze": {
+      "de": "Märchen",
+      "en": "fairy"
+    },
     "sourceIndex": 2455
   },
   {
@@ -2837,6 +3501,10 @@ const phrasesCulture = [
     "wordIds": [
       "12462"
     ],
+    "cloze": {
+      "de": "Tempo",
+      "en": "tempo"
+    },
     "sourceIndex": 2462
   },
   {
@@ -2854,6 +3522,10 @@ const phrasesCulture = [
     "wordIds": [
       "12471"
     ],
+    "cloze": {
+      "de": "Action",
+      "en": "action"
+    },
     "sourceIndex": 2471
   },
   {
@@ -2871,6 +3543,10 @@ const phrasesCulture = [
     "wordIds": [
       "12483"
     ],
+    "cloze": {
+      "de": "Champion",
+      "en": "champion"
+    },
     "sourceIndex": 2483
   },
   {
@@ -2888,6 +3564,10 @@ const phrasesCulture = [
     "wordIds": [
       "12516"
     ],
+    "cloze": {
+      "de": "Treffer",
+      "en": "hit"
+    },
     "sourceIndex": 2516
   },
   {
@@ -2905,6 +3585,10 @@ const phrasesCulture = [
     "wordIds": [
       "12532"
     ],
+    "cloze": {
+      "de": "Dj",
+      "en": "DJ"
+    },
     "sourceIndex": 2532
   },
   {
@@ -2922,6 +3606,10 @@ const phrasesCulture = [
     "wordIds": [
       "12540"
     ],
+    "cloze": {
+      "de": "Gesang",
+      "en": "singing"
+    },
     "sourceIndex": 2540
   },
   {
@@ -2939,6 +3627,10 @@ const phrasesCulture = [
     "wordIds": [
       "12552"
     ],
+    "cloze": {
+      "de": "Platte",
+      "en": "record"
+    },
     "sourceIndex": 2552
   },
   {
@@ -2956,6 +3648,10 @@ const phrasesCulture = [
     "wordIds": [
       "12562"
     ],
+    "cloze": {
+      "de": "Tempel",
+      "en": "temple"
+    },
     "sourceIndex": 2562
   },
   {
@@ -2973,6 +3669,10 @@ const phrasesCulture = [
     "wordIds": [
       "12588"
     ],
+    "cloze": {
+      "de": "Gitarre",
+      "en": "guitar"
+    },
     "sourceIndex": 2588
   },
   {
@@ -2990,6 +3690,10 @@ const phrasesCulture = [
     "wordIds": [
       "12596"
     ],
+    "cloze": {
+      "de": "Kugel",
+      "en": "ball"
+    },
     "sourceIndex": 2596
   },
   {
@@ -3007,6 +3711,10 @@ const phrasesCulture = [
     "wordIds": [
       "12616"
     ],
+    "cloze": {
+      "de": "abnehmen",
+      "en": "lose"
+    },
     "sourceIndex": 2616
   },
   {
@@ -3024,6 +3732,10 @@ const phrasesCulture = [
     "wordIds": [
       "12624"
     ],
+    "cloze": {
+      "de": "berühmte",
+      "en": "famous"
+    },
     "sourceIndex": 2624
   },
   {
@@ -3041,6 +3753,10 @@ const phrasesCulture = [
     "wordIds": [
       "12640"
     ],
+    "cloze": {
+      "de": "schießt",
+      "en": "shoots"
+    },
     "sourceIndex": 2640
   },
   {
@@ -3058,6 +3774,10 @@ const phrasesCulture = [
     "wordIds": [
       "12645"
     ],
+    "cloze": {
+      "de": "Klavier",
+      "en": "piano"
+    },
     "sourceIndex": 2645
   },
   {
@@ -3075,6 +3795,10 @@ const phrasesCulture = [
     "wordIds": [
       "12648"
     ],
+    "cloze": {
+      "de": "Maler",
+      "en": "painter"
+    },
     "sourceIndex": 2648
   },
   {
@@ -3092,6 +3816,10 @@ const phrasesCulture = [
     "wordIds": [
       "12662"
     ],
+    "cloze": {
+      "de": "wandern",
+      "en": "hike"
+    },
     "sourceIndex": 2662
   },
   {
@@ -3109,6 +3837,10 @@ const phrasesCulture = [
     "wordIds": [
       "12665"
     ],
+    "cloze": {
+      "de": "Wette",
+      "en": "bet"
+    },
     "sourceIndex": 2665
   },
   {
@@ -3126,6 +3858,10 @@ const phrasesCulture = [
     "wordIds": [
       "12681"
     ],
+    "cloze": {
+      "de": "Erbe",
+      "en": "heritage"
+    },
     "sourceIndex": 2681
   },
   {
@@ -3143,6 +3879,10 @@ const phrasesCulture = [
     "wordIds": [
       "12695"
     ],
+    "cloze": {
+      "de": "Jazz",
+      "en": "jazz"
+    },
     "sourceIndex": 2695
   },
   {
@@ -3160,6 +3900,10 @@ const phrasesCulture = [
     "wordIds": [
       "12751"
     ],
+    "cloze": {
+      "de": "Sportler",
+      "en": "athlete"
+    },
     "sourceIndex": 2751
   },
   {
@@ -3177,6 +3921,10 @@ const phrasesCulture = [
     "wordIds": [
       "12753"
     ],
+    "cloze": {
+      "de": "Strich",
+      "en": "line"
+    },
     "sourceIndex": 2753
   },
   {
@@ -3194,6 +3942,10 @@ const phrasesCulture = [
     "wordIds": [
       "12780"
     ],
+    "cloze": {
+      "de": "erreichbar",
+      "en": "reachable"
+    },
     "sourceIndex": 2780
   },
   {
@@ -3211,6 +3963,10 @@ const phrasesCulture = [
     "wordIds": [
       "12783"
     ],
+    "cloze": {
+      "de": "Gemälde",
+      "en": "painting"
+    },
     "sourceIndex": 2783
   },
   {
@@ -3228,6 +3984,10 @@ const phrasesCulture = [
     "wordIds": [
       "12798"
     ],
+    "cloze": {
+      "de": "Springer",
+      "en": "knight"
+    },
     "sourceIndex": 2798
   },
   {
@@ -3245,6 +4005,10 @@ const phrasesCulture = [
     "wordIds": [
       "12802"
     ],
+    "cloze": {
+      "de": "Tennis",
+      "en": "tennis"
+    },
     "sourceIndex": 2802
   },
   {
@@ -3262,6 +4026,10 @@ const phrasesCulture = [
     "wordIds": [
       "12808"
     ],
+    "cloze": {
+      "de": "verlaufen",
+      "en": "lost"
+    },
     "sourceIndex": 2808
   },
   {
@@ -3279,6 +4047,10 @@ const phrasesCulture = [
     "wordIds": [
       "12828"
     ],
+    "cloze": {
+      "de": "Check",
+      "en": "check"
+    },
     "sourceIndex": 2828
   },
   {
@@ -3296,6 +4068,10 @@ const phrasesCulture = [
     "wordIds": [
       "12839"
     ],
+    "cloze": {
+      "de": "Handwerk",
+      "en": "craft"
+    },
     "sourceIndex": 2839
   },
   {
@@ -3313,6 +4089,10 @@ const phrasesCulture = [
     "wordIds": [
       "12844"
     ],
+    "cloze": {
+      "de": "Klub",
+      "en": "club"
+    },
     "sourceIndex": 2844
   },
   {
@@ -3330,6 +4110,10 @@ const phrasesCulture = [
     "wordIds": [
       "12854"
     ],
+    "cloze": {
+      "de": "Probe",
+      "en": "rehearsal"
+    },
     "sourceIndex": 2854
   },
   {
@@ -3347,6 +4131,10 @@ const phrasesCulture = [
     "wordIds": [
       "12861"
     ],
+    "cloze": {
+      "de": "Solo",
+      "en": "solo"
+    },
     "sourceIndex": 2861
   },
   {
@@ -3364,6 +4152,10 @@ const phrasesCulture = [
     "wordIds": [
       "12872"
     ],
+    "cloze": {
+      "de": "Ausrüstung",
+      "en": "equipment"
+    },
     "sourceIndex": 2872
   },
   {
@@ -3381,6 +4173,10 @@ const phrasesCulture = [
     "wordIds": [
       "12873"
     ],
+    "cloze": {
+      "de": "Basketball",
+      "en": "basketball"
+    },
     "sourceIndex": 2873
   },
   {
@@ -3398,6 +4194,10 @@ const phrasesCulture = [
     "wordIds": [
       "12895"
     ],
+    "cloze": {
+      "de": "Orchester",
+      "en": "orchestra"
+    },
     "sourceIndex": 2895
   },
   {
@@ -3415,6 +4215,10 @@ const phrasesCulture = [
     "wordIds": [
       "12946"
     ],
+    "cloze": {
+      "de": "musikalisch",
+      "en": "musical"
+    },
     "sourceIndex": 2946
   },
   {
@@ -3432,6 +4236,10 @@ const phrasesCulture = [
     "wordIds": [
       "12951"
     ],
+    "cloze": {
+      "de": "Pool",
+      "en": "pool"
+    },
     "sourceIndex": 2951
   },
   {
@@ -3449,6 +4257,10 @@ const phrasesCulture = [
     "wordIds": [
       "12961"
     ],
+    "cloze": {
+      "de": "steigern",
+      "en": "increase"
+    },
     "sourceIndex": 2961
   },
   {
@@ -3466,6 +4278,10 @@ const phrasesCulture = [
     "wordIds": [
       "12965"
     ],
+    "cloze": {
+      "de": "Trick",
+      "en": "trick"
+    },
     "sourceIndex": 2965
   },
   {
@@ -3483,6 +4299,10 @@ const phrasesCulture = [
     "wordIds": [
       "13026"
     ],
+    "cloze": {
+      "de": "er",
+      "en": "wonder"
+    },
     "sourceIndex": 3026
   },
   {
@@ -3500,6 +4320,10 @@ const phrasesCulture = [
     "wordIds": [
       "13040"
     ],
+    "cloze": {
+      "de": "Designer",
+      "en": "designer"
+    },
     "sourceIndex": 3040
   },
   {
@@ -3517,6 +4341,10 @@ const phrasesCulture = [
     "wordIds": [
       "13042"
     ],
+    "cloze": {
+      "de": "Eisen",
+      "en": "Iron"
+    },
     "sourceIndex": 3042
   },
   {
@@ -3534,6 +4362,10 @@ const phrasesCulture = [
     "wordIds": [
       "13051"
     ],
+    "cloze": {
+      "de": "Heut",
+      "en": "to"
+    },
     "sourceIndex": 3051
   },
   {
@@ -3551,6 +4383,10 @@ const phrasesCulture = [
     "wordIds": [
       "13078"
     ],
+    "cloze": {
+      "de": "Sängerin",
+      "en": "singer"
+    },
     "sourceIndex": 3078
   },
   {
@@ -3568,6 +4404,10 @@ const phrasesCulture = [
     "wordIds": [
       "13113"
     ],
+    "cloze": {
+      "de": "malt",
+      "en": "paint"
+    },
     "sourceIndex": 3113
   },
   {
@@ -3585,6 +4425,10 @@ const phrasesCulture = [
     "wordIds": [
       "13127"
     ],
+    "cloze": {
+      "de": "Schlange",
+      "en": "queue"
+    },
     "sourceIndex": 3127
   },
   {
@@ -3602,6 +4446,10 @@ const phrasesCulture = [
     "wordIds": [
       "13144"
     ],
+    "cloze": {
+      "de": "Zeichnung",
+      "en": "drawing"
+    },
     "sourceIndex": 3144
   },
   {
@@ -3619,6 +4467,10 @@ const phrasesCulture = [
     "wordIds": [
       "13146"
     ],
+    "cloze": {
+      "de": "abholen",
+      "en": "pick"
+    },
     "sourceIndex": 3146
   },
   {
@@ -3636,6 +4488,10 @@ const phrasesCulture = [
     "wordIds": [
       "13162"
     ],
+    "cloze": {
+      "de": "Duo",
+      "en": "duo"
+    },
     "sourceIndex": 3162
   },
   {
@@ -3653,6 +4509,10 @@ const phrasesCulture = [
     "wordIds": [
       "13188"
     ],
+    "cloze": {
+      "de": "Malerei",
+      "en": "Painting"
+    },
     "sourceIndex": 3188
   },
   {
@@ -3670,6 +4530,10 @@ const phrasesCulture = [
     "wordIds": [
       "13193"
     ],
+    "cloze": {
+      "de": "Scherz",
+      "en": "joke"
+    },
     "sourceIndex": 3193
   },
   {
@@ -3687,6 +4551,10 @@ const phrasesCulture = [
     "wordIds": [
       "13272"
     ],
+    "cloze": {
+      "de": "anstrengend",
+      "en": "strenuous"
+    },
     "sourceIndex": 3272
   },
   {
@@ -3704,6 +4572,10 @@ const phrasesCulture = [
     "wordIds": [
       "13275"
     ],
+    "cloze": {
+      "de": "Schwimmbecken",
+      "en": "pool"
+    },
     "sourceIndex": 3275
   },
   {
@@ -3721,6 +4593,10 @@ const phrasesCulture = [
     "wordIds": [
       "13293"
     ],
+    "cloze": {
+      "de": "Leinwand",
+      "en": "canvas"
+    },
     "sourceIndex": 3293
   },
   {
@@ -3738,6 +4614,10 @@ const phrasesCulture = [
     "wordIds": [
       "13295"
     ],
+    "cloze": {
+      "de": "Marathon",
+      "en": "marathon"
+    },
     "sourceIndex": 3295
   },
   {
@@ -3755,6 +4635,10 @@ const phrasesCulture = [
     "wordIds": [
       "13296"
     ],
+    "cloze": {
+      "de": "merkwürdige",
+      "en": "strange"
+    },
     "sourceIndex": 3296
   },
   {
@@ -3772,6 +4656,10 @@ const phrasesCulture = [
     "wordIds": [
       "13307"
     ],
+    "cloze": {
+      "de": "tauchen",
+      "en": "dive"
+    },
     "sourceIndex": 3307
   },
   {
@@ -3789,6 +4677,10 @@ const phrasesCulture = [
     "wordIds": [
       "13340"
     ],
+    "cloze": {
+      "de": "Boxen",
+      "en": "boxing"
+    },
     "sourceIndex": 3340
   },
   {
@@ -3806,6 +4698,10 @@ const phrasesCulture = [
     "wordIds": [
       "13349"
     ],
+    "cloze": {
+      "de": "Erzählung",
+      "en": "story"
+    },
     "sourceIndex": 3349
   },
   {
@@ -3823,6 +4719,10 @@ const phrasesCulture = [
     "wordIds": [
       "13350"
     ],
+    "cloze": {
+      "de": "Football",
+      "en": "American"
+    },
     "sourceIndex": 3350
   },
   {
@@ -3840,6 +4740,10 @@ const phrasesCulture = [
     "wordIds": [
       "13356"
     ],
+    "cloze": {
+      "de": "Helm",
+      "en": "helmet"
+    },
     "sourceIndex": 3356
   },
   {
@@ -3857,6 +4761,10 @@ const phrasesCulture = [
     "wordIds": [
       "13366"
     ],
+    "cloze": {
+      "de": "Fußball-Match",
+      "en": "match"
+    },
     "sourceIndex": 3366
   },
   {
@@ -3874,6 +4782,10 @@ const phrasesCulture = [
     "wordIds": [
       "13383"
     ],
+    "cloze": {
+      "de": "Viertelfinale",
+      "en": "quarter-final"
+    },
     "sourceIndex": 3383
   },
   {
@@ -3891,6 +4803,10 @@ const phrasesCulture = [
     "wordIds": [
       "13395"
     ],
+    "cloze": {
+      "de": "Bass",
+      "en": "bass"
+    },
     "sourceIndex": 3395
   },
   {
@@ -3908,6 +4824,10 @@ const phrasesCulture = [
     "wordIds": [
       "13410"
     ],
+    "cloze": {
+      "de": "Handball",
+      "en": "handball"
+    },
     "sourceIndex": 3410
   },
   {
@@ -3925,6 +4845,10 @@ const phrasesCulture = [
     "wordIds": [
       "13419"
     ],
+    "cloze": {
+      "de": "Künstlerin",
+      "en": "artist"
+    },
     "sourceIndex": 3419
   },
   {
@@ -3942,6 +4866,10 @@ const phrasesCulture = [
     "wordIds": [
       "13558"
     ],
+    "cloze": {
+      "de": "Style",
+      "en": "style"
+    },
     "sourceIndex": 3558
   },
   {
@@ -3959,6 +4887,10 @@ const phrasesCulture = [
     "wordIds": [
       "13575"
     ],
+    "cloze": {
+      "de": "Aufführung",
+      "en": "performance"
+    },
     "sourceIndex": 3575
   },
   {
@@ -3976,6 +4908,10 @@ const phrasesCulture = [
     "wordIds": [
       "13578"
     ],
+    "cloze": {
+      "de": "ausstellen",
+      "en": "exhibit"
+    },
     "sourceIndex": 3578
   },
   {
@@ -3993,6 +4929,10 @@ const phrasesCulture = [
     "wordIds": [
       "13589"
     ],
+    "cloze": {
+      "de": "emotional",
+      "en": "emotionally"
+    },
     "sourceIndex": 3589
   },
   {
@@ -4010,6 +4950,10 @@ const phrasesCulture = [
     "wordIds": [
       "13618"
     ],
+    "cloze": {
+      "de": "Stich",
+      "en": "needle"
+    },
     "sourceIndex": 3618
   },
   {
@@ -4027,6 +4971,10 @@ const phrasesCulture = [
     "wordIds": [
       "13642"
     ],
+    "cloze": {
+      "de": "Dance",
+      "en": "dance"
+    },
     "sourceIndex": 3642
   },
   {
@@ -4044,6 +4992,10 @@ const phrasesCulture = [
     "wordIds": [
       "13643"
     ],
+    "cloze": {
+      "de": "dresdner",
+      "en": "Dresden"
+    },
     "sourceIndex": 3643
   },
   {
@@ -4061,6 +5013,10 @@ const phrasesCulture = [
     "wordIds": [
       "13667"
     ],
+    "cloze": {
+      "de": "Goldmedaille",
+      "en": "medal"
+    },
     "sourceIndex": 3667
   },
   {
@@ -4078,6 +5034,10 @@ const phrasesCulture = [
     "wordIds": [
       "13669"
     ],
+    "cloze": {
+      "de": "Neuigkeiten",
+      "en": "news"
+    },
     "sourceIndex": 3669
   },
   {
@@ -4095,6 +5055,10 @@ const phrasesCulture = [
     "wordIds": [
       "13674"
     ],
+    "cloze": {
+      "de": "Rhythmus",
+      "en": "rhythm"
+    },
     "sourceIndex": 3674
   },
   {
@@ -4112,6 +5076,10 @@ const phrasesCulture = [
     "wordIds": [
       "13711"
     ],
+    "cloze": {
+      "de": "Fun",
+      "en": "fun"
+    },
     "sourceIndex": 3711
   },
   {
@@ -4129,6 +5097,10 @@ const phrasesCulture = [
     "wordIds": [
       "13724"
     ],
+    "cloze": {
+      "de": "künstlerische",
+      "en": "artistic"
+    },
     "sourceIndex": 3724
   },
   {
@@ -4146,6 +5118,10 @@ const phrasesCulture = [
     "wordIds": [
       "13728"
     ],
+    "cloze": {
+      "de": "Moschee",
+      "en": "mosque"
+    },
     "sourceIndex": 3728
   },
   {
@@ -4163,6 +5139,10 @@ const phrasesCulture = [
     "wordIds": [
       "13729"
     ],
+    "cloze": {
+      "de": "Musical",
+      "en": "musical"
+    },
     "sourceIndex": 3729
   },
   {
@@ -4180,6 +5160,10 @@ const phrasesCulture = [
     "wordIds": [
       "13740"
     ],
+    "cloze": {
+      "de": "unentschieden",
+      "en": "in"
+    },
     "sourceIndex": 3740
   },
   {
@@ -4197,6 +5181,10 @@ const phrasesCulture = [
     "wordIds": [
       "13756"
     ],
+    "cloze": {
+      "de": "auf",
+      "en": "asked"
+    },
     "sourceIndex": 3756
   },
   {
@@ -4214,6 +5202,10 @@ const phrasesCulture = [
     "wordIds": [
       "13776"
     ],
+    "cloze": {
+      "de": "Favorit",
+      "en": "favorite"
+    },
     "sourceIndex": 3776
   },
   {
@@ -4231,6 +5223,10 @@ const phrasesCulture = [
     "wordIds": [
       "13794"
     ],
+    "cloze": {
+      "de": "Rapper",
+      "en": "rapper"
+    },
     "sourceIndex": 3794
   },
   {
@@ -4248,6 +5244,10 @@ const phrasesCulture = [
     "wordIds": [
       "13802"
     ],
+    "cloze": {
+      "de": "Trio",
+      "en": "trio"
+    },
     "sourceIndex": 3802
   },
   {
@@ -4265,6 +5265,10 @@ const phrasesCulture = [
     "wordIds": [
       "13817"
     ],
+    "cloze": {
+      "de": "Applaus",
+      "en": "applause"
+    },
     "sourceIndex": 3817
   },
   {
@@ -4282,6 +5286,10 @@ const phrasesCulture = [
     "wordIds": [
       "13848"
     ],
+    "cloze": {
+      "de": "Melodie",
+      "en": "melody"
+    },
     "sourceIndex": 3848
   },
   {
@@ -4299,6 +5307,10 @@ const phrasesCulture = [
     "wordIds": [
       "13854"
     ],
+    "cloze": {
+      "de": "Orgel",
+      "en": "organ"
+    },
     "sourceIndex": 3854
   },
   {
@@ -4316,6 +5328,10 @@ const phrasesCulture = [
     "wordIds": [
       "13856"
     ],
+    "cloze": {
+      "de": "Player",
+      "en": "player"
+    },
     "sourceIndex": 3856
   },
   {
@@ -4333,6 +5349,10 @@ const phrasesCulture = [
     "wordIds": [
       "13891"
     ],
+    "cloze": {
+      "de": "düsseldorfer",
+      "en": "Düsseldorfian"
+    },
     "sourceIndex": 3891
   },
   {
@@ -4350,6 +5370,10 @@ const phrasesCulture = [
     "wordIds": [
       "13892"
     ],
+    "cloze": {
+      "de": "einziehen",
+      "en": "move"
+    },
     "sourceIndex": 3892
   },
   {
@@ -4367,6 +5391,10 @@ const phrasesCulture = [
     "wordIds": [
       "13911"
     ],
+    "cloze": {
+      "de": "Komödie",
+      "en": "comedy"
+    },
     "sourceIndex": 3911
   },
   {
@@ -4384,6 +5412,10 @@ const phrasesCulture = [
     "wordIds": [
       "13940"
     ],
+    "cloze": {
+      "de": "Stürmer",
+      "en": "striker"
+    },
     "sourceIndex": 3940
   },
   {
@@ -4401,6 +5433,10 @@ const phrasesCulture = [
     "wordIds": [
       "13942"
     ],
+    "cloze": {
+      "de": "Takt",
+      "en": "beat"
+    },
     "sourceIndex": 3942
   },
   {
@@ -4418,6 +5454,10 @@ const phrasesCulture = [
     "wordIds": [
       "13947"
     ],
+    "cloze": {
+      "de": "Verlierer",
+      "en": "loser"
+    },
     "sourceIndex": 3947
   },
   {
@@ -4435,6 +5475,10 @@ const phrasesCulture = [
     "wordIds": [
       "13958"
     ],
+    "cloze": {
+      "de": "afrikanische",
+      "en": "African"
+    },
     "sourceIndex": 3958
   },
   {
@@ -4452,6 +5496,10 @@ const phrasesCulture = [
     "wordIds": [
       "13995"
     ],
+    "cloze": {
+      "de": "Rap-Musik",
+      "en": "rap"
+    },
     "sourceIndex": 3995
   },
   {
@@ -4469,6 +5517,10 @@ const phrasesCulture = [
     "wordIds": [
       "13997"
     ],
+    "cloze": {
+      "de": "Schach",
+      "en": "chess"
+    },
     "sourceIndex": 3997
   },
   {
@@ -4486,6 +5538,10 @@ const phrasesCulture = [
     "wordIds": [
       "14057"
     ],
+    "cloze": {
+      "de": "Krimis",
+      "en": "crime"
+    },
     "sourceIndex": 4057
   },
   {
@@ -4503,6 +5559,10 @@ const phrasesCulture = [
     "wordIds": [
       "14059"
     ],
+    "cloze": {
+      "de": "Läufer",
+      "en": "runner"
+    },
     "sourceIndex": 4059
   },
   {
@@ -4520,6 +5580,10 @@ const phrasesCulture = [
     "wordIds": [
       "14064"
     ],
+    "cloze": {
+      "de": "ist",
+      "en": "realistic"
+    },
     "sourceIndex": 4064
   },
   {
@@ -4537,6 +5601,10 @@ const phrasesCulture = [
     "wordIds": [
       "14118"
     ],
+    "cloze": {
+      "de": "Horror",
+      "en": "horror"
+    },
     "sourceIndex": 4118
   },
   {
@@ -4554,6 +5622,10 @@ const phrasesCulture = [
     "wordIds": [
       "14120"
     ],
+    "cloze": {
+      "de": "Komponist",
+      "en": "composer"
+    },
     "sourceIndex": 4120
   },
   {
@@ -4571,6 +5643,10 @@ const phrasesCulture = [
     "wordIds": [
       "14135"
     ],
+    "cloze": {
+      "de": "Sauna",
+      "en": "sauna"
+    },
     "sourceIndex": 4135
   },
   {
@@ -4588,6 +5664,10 @@ const phrasesCulture = [
     "wordIds": [
       "14136"
     ],
+    "cloze": {
+      "de": "Schiedsrichter",
+      "en": "referee"
+    },
     "sourceIndex": 4136
   },
   {
@@ -4605,6 +5685,10 @@ const phrasesCulture = [
     "wordIds": [
       "14137"
     ],
+    "cloze": {
+      "de": "Schreiber",
+      "en": "all"
+    },
     "sourceIndex": 4137
   },
   {
@@ -4622,6 +5706,10 @@ const phrasesCulture = [
     "wordIds": [
       "14168"
     ],
+    "cloze": {
+      "de": "Comedy-Shows",
+      "en": "comedy"
+    },
     "sourceIndex": 4168
   },
   {
@@ -4639,6 +5727,10 @@ const phrasesCulture = [
     "wordIds": [
       "14198"
     ],
+    "cloze": {
+      "de": "Karneval",
+      "en": "carnival"
+    },
     "sourceIndex": 4198
   },
   {
@@ -4656,6 +5748,10 @@ const phrasesCulture = [
     "wordIds": [
       "14233"
     ],
+    "cloze": {
+      "de": "Darsteller",
+      "en": "actor"
+    },
     "sourceIndex": 4233
   },
   {
@@ -4673,6 +5769,10 @@ const phrasesCulture = [
     "wordIds": [
       "14238"
     ],
+    "cloze": {
+      "de": "fantastischer",
+      "en": "fantastic"
+    },
     "sourceIndex": 4238
   },
   {
@@ -4690,6 +5790,10 @@ const phrasesCulture = [
     "wordIds": [
       "14265"
     ],
+    "cloze": {
+      "de": "Radweg",
+      "en": "cycle"
+    },
     "sourceIndex": 4265
   },
   {
@@ -4707,6 +5811,10 @@ const phrasesCulture = [
     "wordIds": [
       "14283"
     ],
+    "cloze": {
+      "de": "Yoga",
+      "en": "yoga"
+    },
     "sourceIndex": 4283
   },
   {
@@ -4724,6 +5832,10 @@ const phrasesCulture = [
     "wordIds": [
       "14336"
     ],
+    "cloze": {
+      "de": "nützen",
+      "en": "you"
+    },
     "sourceIndex": 4336
   },
   {
@@ -4741,6 +5853,10 @@ const phrasesCulture = [
     "wordIds": [
       "14337"
     ],
+    "cloze": {
+      "de": "Punk-Musik",
+      "en": "punk"
+    },
     "sourceIndex": 4337
   },
   {
@@ -4758,6 +5874,10 @@ const phrasesCulture = [
     "wordIds": [
       "14344"
     ],
+    "cloze": {
+      "de": "Schauspiel",
+      "en": "play"
+    },
     "sourceIndex": 4344
   },
   {
@@ -4775,6 +5895,10 @@ const phrasesCulture = [
     "wordIds": [
       "14372"
     ],
+    "cloze": {
+      "de": "Diät",
+      "en": "diet"
+    },
     "sourceIndex": 4372
   },
   {
@@ -4792,6 +5916,10 @@ const phrasesCulture = [
     "wordIds": [
       "14423"
     ],
+    "cloze": {
+      "de": "solide",
+      "en": "solid"
+    },
     "sourceIndex": 4423
   },
   {
@@ -4809,6 +5937,10 @@ const phrasesCulture = [
     "wordIds": [
       "14459"
     ],
+    "cloze": {
+      "de": "Blues-Musik",
+      "en": "blues"
+    },
     "sourceIndex": 4459
   },
   {
@@ -4826,6 +5958,10 @@ const phrasesCulture = [
     "wordIds": [
       "14495"
     ],
+    "cloze": {
+      "de": "Porträt",
+      "en": "portrait"
+    },
     "sourceIndex": 4495
   },
   {
@@ -4843,6 +5979,10 @@ const phrasesCulture = [
     "wordIds": [
       "14511"
     ],
+    "cloze": {
+      "de": "vorallem",
+      "en": "especially"
+    },
     "sourceIndex": 4511
   },
   {
@@ -4860,6 +6000,10 @@ const phrasesCulture = [
     "wordIds": [
       "14512"
     ],
+    "cloze": {
+      "de": "Wettkampf",
+      "en": "competition"
+    },
     "sourceIndex": 4512
   },
   {
@@ -4877,6 +6021,10 @@ const phrasesCulture = [
     "wordIds": [
       "14523"
     ],
+    "cloze": {
+      "de": "ausverkauft",
+      "en": "sold"
+    },
     "sourceIndex": 4523
   },
   {
@@ -4894,6 +6042,10 @@ const phrasesCulture = [
     "wordIds": [
       "14545"
     ],
+    "cloze": {
+      "de": "Kostüm",
+      "en": "costume"
+    },
     "sourceIndex": 4545
   },
   {
@@ -4911,6 +6063,10 @@ const phrasesCulture = [
     "wordIds": [
       "14576"
     ],
+    "cloze": {
+      "de": "Wanderung",
+      "en": "hike"
+    },
     "sourceIndex": 4576
   },
   {
@@ -4928,6 +6084,10 @@ const phrasesCulture = [
     "wordIds": [
       "14591"
     ],
+    "cloze": {
+      "de": "beigebracht",
+      "en": "how"
+    },
     "sourceIndex": 4591
   },
   {
@@ -4945,6 +6105,10 @@ const phrasesCulture = [
     "wordIds": [
       "14636"
     ],
+    "cloze": {
+      "de": "Olympiastadium",
+      "en": "Stadium"
+    },
     "sourceIndex": 4636
   },
   {
@@ -4962,6 +6126,10 @@ const phrasesCulture = [
     "wordIds": [
       "14676"
     ],
+    "cloze": {
+      "de": "Harmonie",
+      "en": "harmony"
+    },
     "sourceIndex": 4676
   },
   {
@@ -4979,6 +6147,10 @@ const phrasesCulture = [
     "wordIds": [
       "14683"
     ],
+    "cloze": {
+      "de": "klettern",
+      "en": "climb"
+    },
     "sourceIndex": 4683
   },
   {
@@ -4996,6 +6168,10 @@ const phrasesCulture = [
     "wordIds": [
       "14731"
     ],
+    "cloze": {
+      "de": "Beat",
+      "en": "beat"
+    },
     "sourceIndex": 4731
   },
   {
@@ -5013,6 +6189,10 @@ const phrasesCulture = [
     "wordIds": [
       "14761"
     ],
+    "cloze": {
+      "de": "hingehen",
+      "en": "go"
+    },
     "sourceIndex": 4761
   },
   {
@@ -5030,6 +6210,10 @@ const phrasesCulture = [
     "wordIds": [
       "14768"
     ],
+    "cloze": {
+      "de": "Klassik",
+      "en": "classical"
+    },
     "sourceIndex": 4768
   },
   {
@@ -5047,6 +6231,10 @@ const phrasesCulture = [
     "wordIds": [
       "14776"
     ],
+    "cloze": {
+      "de": "muslimische",
+      "en": "Muslim"
+    },
     "sourceIndex": 4776
   },
   {
@@ -5064,6 +6252,10 @@ const phrasesCulture = [
     "wordIds": [
       "14783"
     ],
+    "cloze": {
+      "de": "Briefmarkensammler",
+      "en": "collector"
+    },
     "sourceIndex": 4783
   },
   {
@@ -5081,6 +6273,10 @@ const phrasesCulture = [
     "wordIds": [
       "14809"
     ],
+    "cloze": {
+      "de": "Zirkus",
+      "en": "circus"
+    },
     "sourceIndex": 4809
   },
   {
@@ -5098,6 +6294,10 @@ const phrasesCulture = [
     "wordIds": [
       "14827"
     ],
+    "cloze": {
+      "de": "beleuchten",
+      "en": "illuminate"
+    },
     "sourceIndex": 4827
   },
   {
@@ -5115,6 +6315,10 @@ const phrasesCulture = [
     "wordIds": [
       "14841"
     ],
+    "cloze": {
+      "de": "Flyer",
+      "en": "flyers"
+    },
     "sourceIndex": 4841
   },
   {
@@ -5132,6 +6336,10 @@ const phrasesCulture = [
     "wordIds": [
       "14843"
     ],
+    "cloze": {
+      "de": "Fussballer",
+      "en": "footballer"
+    },
     "sourceIndex": 4843
   },
   {
@@ -5149,6 +6357,10 @@ const phrasesCulture = [
     "wordIds": [
       "14935"
     ],
+    "cloze": {
+      "de": "Kunstwerke",
+      "en": "artworks"
+    },
     "sourceIndex": 4935
   },
   {
@@ -5166,6 +6378,10 @@ const phrasesCulture = [
     "wordIds": [
       "15017"
     ],
+    "cloze": {
+      "de": "Kollektion",
+      "en": "collection"
+    },
     "sourceIndex": 5017
   },
   {
@@ -5183,6 +6399,10 @@ const phrasesCulture = [
     "wordIds": [
       "15044"
     ],
+    "cloze": {
+      "de": "Schwimmbad",
+      "en": "swimming"
+    },
     "sourceIndex": 5044
   },
   {
@@ -5200,6 +6420,10 @@ const phrasesCulture = [
     "wordIds": [
       "15055"
     ],
+    "cloze": {
+      "de": "verloren",
+      "en": "lost"
+    },
     "sourceIndex": 5055
   },
   {
@@ -5217,6 +6441,10 @@ const phrasesCulture = [
     "wordIds": [
       "15058"
     ],
+    "cloze": {
+      "de": "Volleyball",
+      "en": "volleyball"
+    },
     "sourceIndex": 5058
   },
   {
@@ -5234,6 +6462,10 @@ const phrasesCulture = [
     "wordIds": [
       "15087"
     ],
+    "cloze": {
+      "de": "Erfinder",
+      "en": "inventor"
+    },
     "sourceIndex": 5087
   },
   {
@@ -5251,6 +6483,10 @@ const phrasesCulture = [
     "wordIds": [
       "15161"
     ],
+    "cloze": {
+      "de": "Atelier",
+      "en": "studio"
+    },
     "sourceIndex": 5161
   },
   {
@@ -5268,6 +6504,10 @@ const phrasesCulture = [
     "wordIds": [
       "15193"
     ],
+    "cloze": {
+      "de": "Journalistin",
+      "en": "journalist"
+    },
     "sourceIndex": 5193
   },
   {
@@ -5285,6 +6525,10 @@ const phrasesCulture = [
     "wordIds": [
       "15194"
     ],
+    "cloze": {
+      "de": "Keramik",
+      "en": "ceramics"
+    },
     "sourceIndex": 5194
   },
   {
@@ -5302,6 +6546,10 @@ const phrasesCulture = [
     "wordIds": [
       "15204"
     ],
+    "cloze": {
+      "de": "mitspielen",
+      "en": "play"
+    },
     "sourceIndex": 5204
   },
   {
@@ -5319,6 +6567,10 @@ const phrasesCulture = [
     "wordIds": [
       "15214"
     ],
+    "cloze": {
+      "de": "Poker",
+      "en": "poker"
+    },
     "sourceIndex": 5214
   },
   {
@@ -5336,6 +6588,10 @@ const phrasesCulture = [
     "wordIds": [
       "15244"
     ],
+    "cloze": {
+      "de": "Achtelfinale",
+      "en": "round"
+    },
     "sourceIndex": 5244
   },
   {
@@ -5353,6 +6609,10 @@ const phrasesCulture = [
     "wordIds": [
       "15249"
     ],
+    "cloze": {
+      "de": "Anstoss",
+      "en": "kick-off"
+    },
     "sourceIndex": 5249
   },
   {
@@ -5370,6 +6630,10 @@ const phrasesCulture = [
     "wordIds": [
       "15296"
     ],
+    "cloze": {
+      "de": "Poesie",
+      "en": "poetry"
+    },
     "sourceIndex": 5296
   },
   {
@@ -5387,6 +6651,10 @@ const phrasesCulture = [
     "wordIds": [
       "15307"
     ],
+    "cloze": {
+      "de": "Schlager",
+      "en": "hit"
+    },
     "sourceIndex": 5307
   },
   {
@@ -5404,6 +6672,10 @@ const phrasesCulture = [
     "wordIds": [
       "15346"
     ],
+    "cloze": {
+      "de": "Musik-Clip",
+      "en": "clip"
+    },
     "sourceIndex": 5346
   },
   {
@@ -5421,6 +6693,10 @@ const phrasesCulture = [
     "wordIds": [
       "15349"
     ],
+    "cloze": {
+      "de": "Disco",
+      "en": "disco"
+    },
     "sourceIndex": 5349
   },
   {
@@ -5438,6 +6714,10 @@ const phrasesCulture = [
     "wordIds": [
       "15383"
     ],
+    "cloze": {
+      "de": "magische",
+      "en": "magical"
+    },
     "sourceIndex": 5383
   },
   {
@@ -5455,6 +6735,10 @@ const phrasesCulture = [
     "wordIds": [
       "15409"
     ],
+    "cloze": {
+      "de": "Lieblingssportart",
+      "en": "type"
+    },
     "sourceIndex": 5409
   },
   {
@@ -5472,6 +6756,10 @@ const phrasesCulture = [
     "wordIds": [
       "15426"
     ],
+    "cloze": {
+      "de": "Zuhörer",
+      "en": "listeners"
+    },
     "sourceIndex": 5426
   },
   {
@@ -5489,6 +6777,10 @@ const phrasesCulture = [
     "wordIds": [
       "15446"
     ],
+    "cloze": {
+      "de": "Endspiel",
+      "en": "final"
+    },
     "sourceIndex": 5446
   },
   {
@@ -5506,6 +6798,10 @@ const phrasesCulture = [
     "wordIds": [
       "15494"
     ],
+    "cloze": {
+      "de": "Soul-Musik",
+      "en": "soul"
+    },
     "sourceIndex": 5494
   },
   {
@@ -5523,6 +6819,10 @@ const phrasesCulture = [
     "wordIds": [
       "15507"
     ],
+    "cloze": {
+      "de": "Wanderer",
+      "en": "hiker"
+    },
     "sourceIndex": 5507
   },
   {
@@ -5540,6 +6840,10 @@ const phrasesCulture = [
     "wordIds": [
       "15561"
     ],
+    "cloze": {
+      "de": "Leichtathletik-Meisterschaften",
+      "en": "athletics"
+    },
     "sourceIndex": 5561
   },
   {
@@ -5557,6 +6861,10 @@ const phrasesCulture = [
     "wordIds": [
       "15672"
     ],
+    "cloze": {
+      "de": "Tänzer",
+      "en": "dancer"
+    },
     "sourceIndex": 5672
   },
   {
@@ -5574,6 +6882,10 @@ const phrasesCulture = [
     "wordIds": [
       "15675"
     ],
+    "cloze": {
+      "de": "unsichtbar",
+      "en": "invisible"
+    },
     "sourceIndex": 5675
   },
   {
@@ -5591,6 +6903,10 @@ const phrasesCulture = [
     "wordIds": [
       "15740"
     ],
+    "cloze": {
+      "de": "Lotto",
+      "en": "lottery"
+    },
     "sourceIndex": 5740
   },
   {
@@ -5608,6 +6924,10 @@ const phrasesCulture = [
     "wordIds": [
       "15746"
     ],
+    "cloze": {
+      "de": "Neigung",
+      "en": "inclination"
+    },
     "sourceIndex": 5746
   },
   {
@@ -5625,6 +6945,10 @@ const phrasesCulture = [
     "wordIds": [
       "15752"
     ],
+    "cloze": {
+      "de": "populär",
+      "en": "popular"
+    },
     "sourceIndex": 5752
   },
   {
@@ -5642,6 +6966,10 @@ const phrasesCulture = [
     "wordIds": [
       "15838"
     ],
+    "cloze": {
+      "de": "Physiker",
+      "en": "physicist"
+    },
     "sourceIndex": 5838
   },
   {
@@ -5659,6 +6987,10 @@ const phrasesCulture = [
     "wordIds": [
       "15855"
     ],
+    "cloze": {
+      "de": "Sprint",
+      "en": "sprint"
+    },
     "sourceIndex": 5855
   },
   {
@@ -5676,6 +7008,10 @@ const phrasesCulture = [
     "wordIds": [
       "15906"
     ],
+    "cloze": {
+      "de": "Blei",
+      "en": "Lead"
+    },
     "sourceIndex": 5906
   },
   {
@@ -5693,6 +7029,10 @@ const phrasesCulture = [
     "wordIds": [
       "15909"
     ],
+    "cloze": {
+      "de": "Clown",
+      "en": "clown"
+    },
     "sourceIndex": 5909
   },
   {
@@ -5710,6 +7050,10 @@ const phrasesCulture = [
     "wordIds": [
       "15937"
     ],
+    "cloze": {
+      "de": "Konsole",
+      "en": "console"
+    },
     "sourceIndex": 5937
   },
   {
@@ -5727,6 +7071,10 @@ const phrasesCulture = [
     "wordIds": [
       "15951"
     ],
+    "cloze": {
+      "de": "Movie",
+      "en": "movie"
+    },
     "sourceIndex": 5951
   },
   {
@@ -5744,6 +7092,10 @@ const phrasesCulture = [
     "wordIds": [
       "15956"
     ],
+    "cloze": {
+      "de": "Parade",
+      "en": "parade"
+    },
     "sourceIndex": 5956
   },
   {
@@ -5761,6 +7113,10 @@ const phrasesCulture = [
     "wordIds": [
       "15957"
     ],
+    "cloze": {
+      "de": "Promis",
+      "en": "celebrities"
+    },
     "sourceIndex": 5957
   },
   {
@@ -5778,6 +7134,10 @@ const phrasesCulture = [
     "wordIds": [
       "15961"
     ],
+    "cloze": {
+      "de": "stürmten",
+      "en": "stormed"
+    },
     "sourceIndex": 5961
   },
   {
@@ -5795,6 +7155,10 @@ const phrasesCulture = [
     "wordIds": [
       "15962"
     ],
+    "cloze": {
+      "de": "surft",
+      "en": "surf"
+    },
     "sourceIndex": 5962
   },
   {
@@ -5812,6 +7176,10 @@ const phrasesCulture = [
     "wordIds": [
       "15964"
     ],
+    "cloze": {
+      "de": "Torwart",
+      "en": "goalkeeper"
+    },
     "sourceIndex": 5964
   },
   {
@@ -5829,6 +7197,10 @@ const phrasesCulture = [
     "wordIds": [
       "16018"
     ],
+    "cloze": {
+      "de": "Fels",
+      "en": "rock"
+    },
     "sourceIndex": 6018
   },
   {
@@ -5846,6 +7218,10 @@ const phrasesCulture = [
     "wordIds": [
       "16022"
     ],
+    "cloze": {
+      "de": "Freibad",
+      "en": "outdoor"
+    },
     "sourceIndex": 6022
   },
   {
@@ -5863,6 +7239,10 @@ const phrasesCulture = [
     "wordIds": [
       "16033"
     ],
+    "cloze": {
+      "de": "gewonnenes",
+      "en": "won"
+    },
     "sourceIndex": 6033
   },
   {
@@ -5880,6 +7260,10 @@ const phrasesCulture = [
     "wordIds": [
       "16064"
     ],
+    "cloze": {
+      "de": "Soundtrack",
+      "en": "soundtrack"
+    },
     "sourceIndex": 6064
   },
   {
@@ -5897,6 +7281,10 @@ const phrasesCulture = [
     "wordIds": [
       "16080"
     ],
+    "cloze": {
+      "de": "Zombies",
+      "en": "zombies"
+    },
     "sourceIndex": 6080
   },
   {
@@ -5914,6 +7302,10 @@ const phrasesCulture = [
     "wordIds": [
       "16117"
     ],
+    "cloze": {
+      "de": "Lack",
+      "en": "paint"
+    },
     "sourceIndex": 6117
   },
   {
@@ -5931,6 +7323,10 @@ const phrasesCulture = [
     "wordIds": [
       "16129"
     ],
+    "cloze": {
+      "de": "Quartett",
+      "en": "quartet"
+    },
     "sourceIndex": 6129
   },
   {
@@ -5948,6 +7344,10 @@ const phrasesCulture = [
     "wordIds": [
       "16130"
     ],
+    "cloze": {
+      "de": "Race",
+      "en": "race"
+    },
     "sourceIndex": 6130
   },
   {
@@ -5965,6 +7365,10 @@ const phrasesCulture = [
     "wordIds": [
       "16156"
     ],
+    "cloze": {
+      "de": "Vips",
+      "en": "VIPs"
+    },
     "sourceIndex": 6156
   },
   {
@@ -5982,6 +7386,10 @@ const phrasesCulture = [
     "wordIds": [
       "16161"
     ],
+    "cloze": {
+      "de": "Zauberer",
+      "en": "magician"
+    },
     "sourceIndex": 6161
   },
   {
@@ -5999,6 +7407,10 @@ const phrasesCulture = [
     "wordIds": [
       "16163"
     ],
+    "cloze": {
+      "de": "ägyptisches",
+      "en": "Egyptian"
+    },
     "sourceIndex": 6163
   },
   {
@@ -6016,6 +7428,10 @@ const phrasesCulture = [
     "wordIds": [
       "16165"
     ],
+    "cloze": {
+      "de": "überfahren",
+      "en": "over"
+    },
     "sourceIndex": 6165
   },
   {
@@ -6033,6 +7449,10 @@ const phrasesCulture = [
     "wordIds": [
       "16211"
     ],
+    "cloze": {
+      "de": "glänzende",
+      "en": "brilliant"
+    },
     "sourceIndex": 6211
   },
   {
@@ -6050,6 +7470,10 @@ const phrasesCulture = [
     "wordIds": [
       "16218"
     ],
+    "cloze": {
+      "de": "Hockey",
+      "en": "hockey"
+    },
     "sourceIndex": 6218
   },
   {
@@ -6067,6 +7491,10 @@ const phrasesCulture = [
     "wordIds": [
       "16244"
     ],
+    "cloze": {
+      "de": "Piano",
+      "en": "piano"
+    },
     "sourceIndex": 6244
   },
   {
@@ -6084,6 +7512,10 @@ const phrasesCulture = [
     "wordIds": [
       "16261"
     ],
+    "cloze": {
+      "de": "Tischtennis",
+      "en": "table"
+    },
     "sourceIndex": 6261
   },
   {
@@ -6101,6 +7533,10 @@ const phrasesCulture = [
     "wordIds": [
       "16314"
     ],
+    "cloze": {
+      "de": "gemischtes",
+      "en": "mixed"
+    },
     "sourceIndex": 6314
   },
   {
@@ -6118,6 +7554,10 @@ const phrasesCulture = [
     "wordIds": [
       "16331"
     ],
+    "cloze": {
+      "de": "Moderation",
+      "en": "moderation"
+    },
     "sourceIndex": 6331
   },
   {
@@ -6135,6 +7575,10 @@ const phrasesCulture = [
     "wordIds": [
       "16362"
     ],
+    "cloze": {
+      "de": "tragisch",
+      "en": "tragic"
+    },
     "sourceIndex": 6362
   },
   {
@@ -6152,6 +7596,10 @@ const phrasesCulture = [
     "wordIds": [
       "16411"
     ],
+    "cloze": {
+      "de": "Gewinnspiel",
+      "en": "competition"
+    },
     "sourceIndex": 6411
   },
   {
@@ -6169,6 +7617,10 @@ const phrasesCulture = [
     "wordIds": [
       "16417"
     ],
+    "cloze": {
+      "de": "klatschen",
+      "en": "clap"
+    },
     "sourceIndex": 6417
   },
   {
@@ -6186,6 +7638,10 @@ const phrasesCulture = [
     "wordIds": [
       "16441"
     ],
+    "cloze": {
+      "de": "Schlagzeug",
+      "en": "drums"
+    },
     "sourceIndex": 6441
   },
   {
@@ -6203,6 +7659,10 @@ const phrasesCulture = [
     "wordIds": [
       "16454"
     ],
+    "cloze": {
+      "de": "Torhüter",
+      "en": "goalkeeper"
+    },
     "sourceIndex": 6454
   },
   {
@@ -6220,6 +7680,10 @@ const phrasesCulture = [
     "wordIds": [
       "16469"
     ],
+    "cloze": {
+      "de": "zaubern",
+      "en": "conjure"
+    },
     "sourceIndex": 6469
   },
   {
@@ -6237,6 +7701,10 @@ const phrasesCulture = [
     "wordIds": [
       "16483"
     ],
+    "cloze": {
+      "de": "Ballett",
+      "en": "ballet"
+    },
     "sourceIndex": 6483
   },
   {
@@ -6254,6 +7722,10 @@ const phrasesCulture = [
     "wordIds": [
       "16503"
     ],
+    "cloze": {
+      "de": "Flanke",
+      "en": "ball"
+    },
     "sourceIndex": 6503
   },
   {
@@ -6271,6 +7743,10 @@ const phrasesCulture = [
     "wordIds": [
       "16549"
     ],
+    "cloze": {
+      "de": "Ritual",
+      "en": "ritual"
+    },
     "sourceIndex": 6549
   },
   {
@@ -6288,6 +7764,10 @@ const phrasesCulture = [
     "wordIds": [
       "16583"
     ],
+    "cloze": {
+      "de": "Weihnachtsmann",
+      "en": "Santa"
+    },
     "sourceIndex": 6583
   },
   {
@@ -6305,6 +7785,10 @@ const phrasesCulture = [
     "wordIds": [
       "16603"
     ],
+    "cloze": {
+      "de": "Ausdauer",
+      "en": "endurance"
+    },
     "sourceIndex": 6603
   },
   {
@@ -6322,6 +7806,10 @@ const phrasesCulture = [
     "wordIds": [
       "16614"
     ],
+    "cloze": {
+      "de": "Elfmeter",
+      "en": "penalty"
+    },
     "sourceIndex": 6614
   },
   {
@@ -6339,6 +7827,10 @@ const phrasesCulture = [
     "wordIds": [
       "16690"
     ],
+    "cloze": {
+      "de": "Animation",
+      "en": "animation"
+    },
     "sourceIndex": 6690
   },
   {
@@ -6356,6 +7848,10 @@ const phrasesCulture = [
     "wordIds": [
       "16723"
     ],
+    "cloze": {
+      "de": "formen",
+      "en": "form"
+    },
     "sourceIndex": 6723
   },
   {
@@ -6373,6 +7869,10 @@ const phrasesCulture = [
     "wordIds": [
       "16738"
     ],
+    "cloze": {
+      "de": "jubeln",
+      "en": "cheer"
+    },
     "sourceIndex": 6738
   },
   {
@@ -6390,6 +7890,10 @@ const phrasesCulture = [
     "wordIds": [
       "16762"
     ],
+    "cloze": {
+      "de": "Porzellan",
+      "en": "porcelain"
+    },
     "sourceIndex": 6762
   },
   {
@@ -6407,6 +7911,10 @@ const phrasesCulture = [
     "wordIds": [
       "16771"
     ],
+    "cloze": {
+      "de": "Singer",
+      "en": "singer"
+    },
     "sourceIndex": 6771
   },
   {
@@ -6424,6 +7932,10 @@ const phrasesCulture = [
     "wordIds": [
       "16772"
     ],
+    "cloze": {
+      "de": "Spielfeld",
+      "en": "playing"
+    },
     "sourceIndex": 6772
   },
   {
@@ -6441,6 +7953,10 @@ const phrasesCulture = [
     "wordIds": [
       "16790"
     ],
+    "cloze": {
+      "de": "Vorzug",
+      "en": "advantage"
+    },
     "sourceIndex": 6790
   },
   {
@@ -6458,6 +7974,10 @@ const phrasesCulture = [
     "wordIds": [
       "16859"
     ],
+    "cloze": {
+      "de": "Schwimmer",
+      "en": "swimmer"
+    },
     "sourceIndex": 6859
   },
   {
@@ -6475,6 +7995,10 @@ const phrasesCulture = [
     "wordIds": [
       "16916"
     ],
+    "cloze": {
+      "de": "Folien",
+      "en": "presentation"
+    },
     "sourceIndex": 6916
   },
   {
@@ -6492,6 +8016,10 @@ const phrasesCulture = [
     "wordIds": [
       "16939"
     ],
+    "cloze": {
+      "de": "Loser",
+      "en": "loser"
+    },
     "sourceIndex": 6939
   },
   {
@@ -6509,6 +8037,10 @@ const phrasesCulture = [
     "wordIds": [
       "16965"
     ],
+    "cloze": {
+      "de": "steif",
+      "en": "stiff"
+    },
     "sourceIndex": 6965
   },
   {
@@ -6526,6 +8058,10 @@ const phrasesCulture = [
     "wordIds": [
       "16983"
     ],
+    "cloze": {
+      "de": "amüsant",
+      "en": "amusing"
+    },
     "sourceIndex": 6983
   },
   {
@@ -6543,6 +8079,10 @@ const phrasesCulture = [
     "wordIds": [
       "17029"
     ],
+    "cloze": {
+      "de": "joggen",
+      "en": "jogging"
+    },
     "sourceIndex": 7029
   },
   {
@@ -6560,6 +8100,10 @@ const phrasesCulture = [
     "wordIds": [
       "17058"
     ],
+    "cloze": {
+      "de": "Remix",
+      "en": "remix"
+    },
     "sourceIndex": 7058
   },
   {
@@ -6577,6 +8121,10 @@ const phrasesCulture = [
     "wordIds": [
       "17074"
     ],
+    "cloze": {
+      "de": "Turn",
+      "en": "turn"
+    },
     "sourceIndex": 7074
   },
   {
@@ -6594,6 +8142,10 @@ const phrasesCulture = [
     "wordIds": [
       "17100"
     ],
+    "cloze": {
+      "de": "bergische",
+      "en": "Bergisch"
+    },
     "sourceIndex": 7100
   },
   {
@@ -6611,6 +8163,10 @@ const phrasesCulture = [
     "wordIds": [
       "17138"
     ],
+    "cloze": {
+      "de": "Kätzchen",
+      "en": "kitten"
+    },
     "sourceIndex": 7138
   },
   {
@@ -6628,6 +8184,10 @@ const phrasesCulture = [
     "wordIds": [
       "17175"
     ],
+    "cloze": {
+      "de": "Superstar",
+      "en": "superstar"
+    },
     "sourceIndex": 7175
   },
   {
@@ -6645,6 +8205,10 @@ const phrasesCulture = [
     "wordIds": [
       "17218"
     ],
+    "cloze": {
+      "de": "Baseball",
+      "en": "Baseball"
+    },
     "sourceIndex": 7218
   },
   {
@@ -6662,6 +8226,10 @@ const phrasesCulture = [
     "wordIds": [
       "17336"
     ],
+    "cloze": {
+      "de": "Fee",
+      "en": "fairy"
+    },
     "sourceIndex": 7336
   },
   {
@@ -6679,6 +8247,10 @@ const phrasesCulture = [
     "wordIds": [
       "17360"
     ],
+    "cloze": {
+      "de": "Magier",
+      "en": "magician"
+    },
     "sourceIndex": 7360
   },
   {
@@ -6696,6 +8268,10 @@ const phrasesCulture = [
     "wordIds": [
       "17371"
     ],
+    "cloze": {
+      "de": "Portrait",
+      "en": "portrait"
+    },
     "sourceIndex": 7371
   },
   {
@@ -6713,6 +8289,10 @@ const phrasesCulture = [
     "wordIds": [
       "17388"
     ],
+    "cloze": {
+      "de": "Sportverein",
+      "en": "sports"
+    },
     "sourceIndex": 7388
   },
   {
@@ -6730,6 +8310,10 @@ const phrasesCulture = [
     "wordIds": [
       "17394"
     ],
+    "cloze": {
+      "de": "Techno-Musik",
+      "en": "techno"
+    },
     "sourceIndex": 7394
   },
   {
@@ -6747,6 +8331,10 @@ const phrasesCulture = [
     "wordIds": [
       "17395"
     ],
+    "cloze": {
+      "de": "Theaterstück",
+      "en": "play"
+    },
     "sourceIndex": 7395
   },
   {
@@ -6764,6 +8352,10 @@ const phrasesCulture = [
     "wordIds": [
       "17457"
     ],
+    "cloze": {
+      "de": "Filmemacher",
+      "en": "filmmaker"
+    },
     "sourceIndex": 7457
   },
   {
@@ -6781,6 +8373,10 @@ const phrasesCulture = [
     "wordIds": [
       "17482"
     ],
+    "cloze": {
+      "de": "Länderspiel",
+      "en": "international"
+    },
     "sourceIndex": 7482
   },
   {
@@ -6798,6 +8394,10 @@ const phrasesCulture = [
     "wordIds": [
       "17508"
     ],
+    "cloze": {
+      "de": "Schriftstellerin",
+      "en": "female"
+    },
     "sourceIndex": 7508
   },
   {
@@ -6815,6 +8415,10 @@ const phrasesCulture = [
     "wordIds": [
       "17521"
     ],
+    "cloze": {
+      "de": "Testspiel",
+      "en": "friendly"
+    },
     "sourceIndex": 7521
   },
   {
@@ -6832,6 +8436,10 @@ const phrasesCulture = [
     "wordIds": [
       "17605"
     ],
+    "cloze": {
+      "de": "Intro",
+      "en": "intro"
+    },
     "sourceIndex": 7605
   },
   {
@@ -6849,6 +8457,10 @@ const phrasesCulture = [
     "wordIds": [
       "17609"
     ],
+    "cloze": {
+      "de": "Komiker",
+      "en": "comedian"
+    },
     "sourceIndex": 7609
   },
   {
@@ -6866,6 +8478,10 @@ const phrasesCulture = [
     "wordIds": [
       "17625"
     ],
+    "cloze": {
+      "de": "nordische",
+      "en": "Nordic"
+    },
     "sourceIndex": 7625
   },
   {
@@ -6883,6 +8499,10 @@ const phrasesCulture = [
     "wordIds": [
       "17639"
     ],
+    "cloze": {
+      "de": "Running",
+      "en": "Running"
+    },
     "sourceIndex": 7639
   },
   {
@@ -6900,6 +8520,10 @@ const phrasesCulture = [
     "wordIds": [
       "17643"
     ],
+    "cloze": {
+      "de": "Fotoshooting",
+      "en": "photo"
+    },
     "sourceIndex": 7643
   },
   {
@@ -6917,6 +8541,10 @@ const phrasesCulture = [
     "wordIds": [
       "17644"
     ],
+    "cloze": {
+      "de": "Skizze",
+      "en": "sketch"
+    },
     "sourceIndex": 7644
   },
   {
@@ -6934,6 +8562,10 @@ const phrasesCulture = [
     "wordIds": [
       "17649"
     ],
+    "cloze": {
+      "de": "streamen",
+      "en": "stream"
+    },
     "sourceIndex": 7649
   },
   {
@@ -6951,6 +8583,10 @@ const phrasesCulture = [
     "wordIds": [
       "17717"
     ],
+    "cloze": {
+      "de": "Folk-Musik",
+      "en": "folk"
+    },
     "sourceIndex": 7717
   },
   {
@@ -6968,6 +8604,10 @@ const phrasesCulture = [
     "wordIds": [
       "17726"
     ],
+    "cloze": {
+      "de": "Geige",
+      "en": "violin"
+    },
     "sourceIndex": 7726
   },
   {
@@ -6985,6 +8625,10 @@ const phrasesCulture = [
     "wordIds": [
       "17779"
     ],
+    "cloze": {
+      "de": "Stage",
+      "en": "stage"
+    },
     "sourceIndex": 7779
   },
   {
@@ -7002,6 +8646,10 @@ const phrasesCulture = [
     "wordIds": [
       "17791"
     ],
+    "cloze": {
+      "de": "Violine",
+      "en": "violin"
+    },
     "sourceIndex": 7791
   },
   {
@@ -7019,6 +8667,10 @@ const phrasesCulture = [
     "wordIds": [
       "17804"
     ],
+    "cloze": {
+      "de": "Arche",
+      "en": "Ark"
+    },
     "sourceIndex": 7804
   },
   {
@@ -7036,6 +8688,10 @@ const phrasesCulture = [
     "wordIds": [
       "17814"
     ],
+    "cloze": {
+      "de": "Circus",
+      "en": "circus"
+    },
     "sourceIndex": 7814
   },
   {
@@ -7053,6 +8709,10 @@ const phrasesCulture = [
     "wordIds": [
       "17840"
     ],
+    "cloze": {
+      "de": "Gänsehaut",
+      "en": "goosebumps"
+    },
     "sourceIndex": 7840
   },
   {
@@ -7070,6 +8730,10 @@ const phrasesCulture = [
     "wordIds": [
       "17854"
     ],
+    "cloze": {
+      "de": "Livestream",
+      "en": "livestream"
+    },
     "sourceIndex": 7854
   },
   {
@@ -7087,6 +8751,10 @@ const phrasesCulture = [
     "wordIds": [
       "17872"
     ],
+    "cloze": {
+      "de": "laufen",
+      "en": "around"
+    },
     "sourceIndex": 7872
   },
   {
@@ -7104,6 +8772,10 @@ const phrasesCulture = [
     "wordIds": [
       "17889"
     ],
+    "cloze": {
+      "de": "Tänzerin",
+      "en": "dancer"
+    },
     "sourceIndex": 7889
   },
   {
@@ -7121,6 +8793,10 @@ const phrasesCulture = [
     "wordIds": [
       "17904"
     ],
+    "cloze": {
+      "de": "Wohlbefinden",
+      "en": "well-being"
+    },
     "sourceIndex": 7904
   },
   {
@@ -7138,6 +8814,10 @@ const phrasesCulture = [
     "wordIds": [
       "17927"
     ],
+    "cloze": {
+      "de": "Endstand",
+      "en": "final"
+    },
     "sourceIndex": 7927
   },
   {
@@ -7155,6 +8835,10 @@ const phrasesCulture = [
     "wordIds": [
       "17937"
     ],
+    "cloze": {
+      "de": "Flöte",
+      "en": "flute"
+    },
     "sourceIndex": 7937
   },
   {
@@ -7172,6 +8856,10 @@ const phrasesCulture = [
     "wordIds": [
       "17947"
     ],
+    "cloze": {
+      "de": "Hauptdarsteller",
+      "en": "main"
+    },
     "sourceIndex": 7947
   },
   {
@@ -7189,6 +8877,10 @@ const phrasesCulture = [
     "wordIds": [
       "18030"
     ],
+    "cloze": {
+      "de": "Auswärtsspiel",
+      "en": "away"
+    },
     "sourceIndex": 8030
   },
   {
@@ -7206,6 +8898,10 @@ const phrasesCulture = [
     "wordIds": [
       "18035"
     ],
+    "cloze": {
+      "de": "beitreten",
+      "en": "join"
+    },
     "sourceIndex": 8035
   },
   {
@@ -7223,6 +8919,10 @@ const phrasesCulture = [
     "wordIds": [
       "18069"
     ],
+    "cloze": {
+      "de": "Kameramann",
+      "en": "cameraman"
+    },
     "sourceIndex": 8069
   },
   {
@@ -7240,6 +8940,10 @@ const phrasesCulture = [
     "wordIds": [
       "18073"
     ],
+    "cloze": {
+      "de": "Kommentator",
+      "en": "commentator"
+    },
     "sourceIndex": 8073
   },
   {
@@ -7257,6 +8961,10 @@ const phrasesCulture = [
     "wordIds": [
       "18123"
     ],
+    "cloze": {
+      "de": "Trompete",
+      "en": "trumpet"
+    },
     "sourceIndex": 8123
   },
   {
@@ -7274,6 +8982,10 @@ const phrasesCulture = [
     "wordIds": [
       "18146"
     ],
+    "cloze": {
+      "de": "Winterspiel",
+      "en": "winter"
+    },
     "sourceIndex": 8146
   },
   {
@@ -7291,6 +9003,10 @@ const phrasesCulture = [
     "wordIds": [
       "18149"
     ],
+    "cloze": {
+      "de": "abspielen",
+      "en": "play"
+    },
     "sourceIndex": 8149
   },
   {
@@ -7308,6 +9024,10 @@ const phrasesCulture = [
     "wordIds": [
       "18159"
     ],
+    "cloze": {
+      "de": "Bleistift",
+      "en": "pencil"
+    },
     "sourceIndex": 8159
   },
   {
@@ -7325,6 +9045,10 @@ const phrasesCulture = [
     "wordIds": [
       "18183"
     ],
+    "cloze": {
+      "de": "Gitarrist",
+      "en": "guitarist"
+    },
     "sourceIndex": 8183
   },
   {
@@ -7342,6 +9066,10 @@ const phrasesCulture = [
     "wordIds": [
       "18188"
     ],
+    "cloze": {
+      "de": "Hörspiele",
+      "en": "radio"
+    },
     "sourceIndex": 8188
   },
   {
@@ -7359,6 +9087,10 @@ const phrasesCulture = [
     "wordIds": [
       "18195"
     ],
+    "cloze": {
+      "de": "Keyboard",
+      "en": "keyboard"
+    },
     "sourceIndex": 8195
   },
   {
@@ -7376,6 +9108,10 @@ const phrasesCulture = [
     "wordIds": [
       "18268"
     ],
+    "cloze": {
+      "de": "Anpfiff",
+      "en": "kick-off"
+    },
     "sourceIndex": 8268
   },
   {
@@ -7393,6 +9129,10 @@ const phrasesCulture = [
     "wordIds": [
       "18285"
     ],
+    "cloze": {
+      "de": "Dokumentarfilm",
+      "en": "documentary"
+    },
     "sourceIndex": 8285
   },
   {
@@ -7410,6 +9150,10 @@ const phrasesCulture = [
     "wordIds": [
       "18301"
     ],
+    "cloze": {
+      "de": "Foul",
+      "en": "foul"
+    },
     "sourceIndex": 8301
   },
   {
@@ -7427,6 +9171,10 @@ const phrasesCulture = [
     "wordIds": [
       "18348"
     ],
+    "cloze": {
+      "de": "Preisverleihung",
+      "en": "award"
+    },
     "sourceIndex": 8348
   },
   {
@@ -7444,6 +9192,10 @@ const phrasesCulture = [
     "wordIds": [
       "18370"
     ],
+    "cloze": {
+      "de": "Spielerin",
+      "en": "player"
+    },
     "sourceIndex": 8370
   },
   {
@@ -7461,6 +9213,10 @@ const phrasesCulture = [
     "wordIds": [
       "18371"
     ],
+    "cloze": {
+      "de": "Sportplatz",
+      "en": "sports"
+    },
     "sourceIndex": 8371
   },
   {
@@ -7478,6 +9234,10 @@ const phrasesCulture = [
     "wordIds": [
       "18373"
     ],
+    "cloze": {
+      "de": "Talkshow",
+      "en": "talk"
+    },
     "sourceIndex": 8373
   },
   {
@@ -7495,6 +9255,10 @@ const phrasesCulture = [
     "wordIds": [
       "18382"
     ],
+    "cloze": {
+      "de": "Verkleidung",
+      "en": "costume"
+    },
     "sourceIndex": 8382
   },
   {
@@ -7512,6 +9276,10 @@ const phrasesCulture = [
     "wordIds": [
       "18404"
     ],
+    "cloze": {
+      "de": "aus",
+      "en": "leaking"
+    },
     "sourceIndex": 8404
   },
   {
@@ -7529,6 +9297,10 @@ const phrasesCulture = [
     "wordIds": [
       "18425"
     ],
+    "cloze": {
+      "de": "fieser",
+      "en": "nasty"
+    },
     "sourceIndex": 8425
   },
   {
@@ -7546,6 +9318,10 @@ const phrasesCulture = [
     "wordIds": [
       "18479"
     ],
+    "cloze": {
+      "de": "Stollen",
+      "en": "Christmas"
+    },
     "sourceIndex": 8479
   },
   {
@@ -7563,6 +9339,10 @@ const phrasesCulture = [
     "wordIds": [
       "18715"
     ],
+    "cloze": {
+      "de": "komponieren",
+      "en": "compose"
+    },
     "sourceIndex": 8715
   },
   {
@@ -7580,6 +9360,10 @@ const phrasesCulture = [
     "wordIds": [
       "18741"
     ],
+    "cloze": {
+      "de": "Pianist",
+      "en": "pianist"
+    },
     "sourceIndex": 8741
   },
   {
@@ -7597,6 +9381,10 @@ const phrasesCulture = [
     "wordIds": [
       "18745"
     ],
+    "cloze": {
+      "de": "Puzzle",
+      "en": "puzzle"
+    },
     "sourceIndex": 8745
   },
   {
@@ -7614,6 +9402,10 @@ const phrasesCulture = [
     "wordIds": [
       "18758"
     ],
+    "cloze": {
+      "de": "End-Score",
+      "en": "score"
+    },
     "sourceIndex": 8758
   },
   {
@@ -7631,6 +9423,10 @@ const phrasesCulture = [
     "wordIds": [
       "18776"
     ],
+    "cloze": {
+      "de": "Toto",
+      "en": "lottery"
+    },
     "sourceIndex": 8776
   },
   {
@@ -7648,6 +9444,10 @@ const phrasesCulture = [
     "wordIds": [
       "18790"
     ],
+    "cloze": {
+      "de": "Volksmusik",
+      "en": "folk"
+    },
     "sourceIndex": 8790
   },
   {
@@ -7665,6 +9465,10 @@ const phrasesCulture = [
     "wordIds": [
       "18834"
     ],
+    "cloze": {
+      "de": "Endergebnis",
+      "en": "final"
+    },
     "sourceIndex": 8834
   },
   {
@@ -7682,6 +9486,10 @@ const phrasesCulture = [
     "wordIds": [
       "18841"
     ],
+    "cloze": {
+      "de": "Fasching",
+      "en": "Carnival"
+    },
     "sourceIndex": 8841
   },
   {
@@ -7699,6 +9507,10 @@ const phrasesCulture = [
     "wordIds": [
       "18860"
     ],
+    "cloze": {
+      "de": "Goldmedaille",
+      "en": "gold"
+    },
     "sourceIndex": 8860
   },
   {
@@ -7716,6 +9528,10 @@ const phrasesCulture = [
     "wordIds": [
       "18915"
     ],
+    "cloze": {
+      "de": "Spielfilm",
+      "en": "feature"
+    },
     "sourceIndex": 8915
   },
   {
@@ -7733,6 +9549,10 @@ const phrasesCulture = [
     "wordIds": [
       "19014"
     ],
+    "cloze": {
+      "de": "Keeper",
+      "en": "keeper"
+    },
     "sourceIndex": 9014
   },
   {
@@ -7750,6 +9570,10 @@ const phrasesCulture = [
     "wordIds": [
       "19067"
     ],
+    "cloze": {
+      "de": "Steps",
+      "en": "steps"
+    },
     "sourceIndex": 9067
   },
   {
@@ -7767,6 +9591,10 @@ const phrasesCulture = [
     "wordIds": [
       "19071"
     ],
+    "cloze": {
+      "de": "Tabellenplatz",
+      "en": "league"
+    },
     "sourceIndex": 9071
   },
   {
@@ -7784,6 +9612,10 @@ const phrasesCulture = [
     "wordIds": [
       "19101"
     ],
+    "cloze": {
+      "de": "öde",
+      "en": "desolate"
+    },
     "sourceIndex": 9101
   },
   {
@@ -7801,6 +9633,10 @@ const phrasesCulture = [
     "wordIds": [
       "19116"
     ],
+    "cloze": {
+      "de": "Artist",
+      "en": "artist"
+    },
     "sourceIndex": 9116
   },
   {
@@ -7818,6 +9654,10 @@ const phrasesCulture = [
     "wordIds": [
       "19138"
     ],
+    "cloze": {
+      "de": "Erdboden",
+      "en": "ground"
+    },
     "sourceIndex": 9138
   },
   {
@@ -7835,6 +9675,10 @@ const phrasesCulture = [
     "wordIds": [
       "19147"
     ],
+    "cloze": {
+      "de": "Fussballfan",
+      "en": "football"
+    },
     "sourceIndex": 9147
   },
   {
@@ -7852,6 +9696,10 @@ const phrasesCulture = [
     "wordIds": [
       "19180"
     ],
+    "cloze": {
+      "de": "Kreide",
+      "en": "chalk"
+    },
     "sourceIndex": 9180
   },
   {
@@ -7869,6 +9717,10 @@ const phrasesCulture = [
     "wordIds": [
       "19258"
     ],
+    "cloze": {
+      "de": "Bildergalerie",
+      "en": "picture"
+    },
     "sourceIndex": 9258
   },
   {
@@ -7886,6 +9738,10 @@ const phrasesCulture = [
     "wordIds": [
       "19285"
     ],
+    "cloze": {
+      "de": "Freistil-Schwimmen",
+      "en": "freestyle"
+    },
     "sourceIndex": 9285
   },
   {
@@ -7903,6 +9759,10 @@ const phrasesCulture = [
     "wordIds": [
       "19343"
     ],
+    "cloze": {
+      "de": "Radsport",
+      "en": "Cycling"
+    },
     "sourceIndex": 9343
   },
   {
@@ -7920,6 +9780,10 @@ const phrasesCulture = [
     "wordIds": [
       "19349"
     ],
+    "cloze": {
+      "de": "Saite",
+      "en": "string"
+    },
     "sourceIndex": 9349
   },
   {
@@ -7937,6 +9801,10 @@ const phrasesCulture = [
     "wordIds": [
       "19359"
     ],
+    "cloze": {
+      "de": "Ski",
+      "en": "ski"
+    },
     "sourceIndex": 9359
   },
   {
@@ -7954,6 +9822,10 @@ const phrasesCulture = [
     "wordIds": [
       "19432"
     ],
+    "cloze": {
+      "de": "Elfmeterschiessen",
+      "en": "penalty"
+    },
     "sourceIndex": 9432
   },
   {
@@ -7971,6 +9843,10 @@ const phrasesCulture = [
     "wordIds": [
       "19437"
     ],
+    "cloze": {
+      "de": "Fairness",
+      "en": "Fairness"
+    },
     "sourceIndex": 9437
   },
   {
@@ -7988,6 +9864,10 @@ const phrasesCulture = [
     "wordIds": [
       "19478"
     ],
+    "cloze": {
+      "de": "Nationalhymne",
+      "en": "national"
+    },
     "sourceIndex": 9478
   },
   {
@@ -8005,6 +9885,10 @@ const phrasesCulture = [
     "wordIds": [
       "19492"
     ],
+    "cloze": {
+      "de": "Refrain",
+      "en": "chorus"
+    },
     "sourceIndex": 9492
   },
   {
@@ -8022,6 +9906,10 @@ const phrasesCulture = [
     "wordIds": [
       "19494"
     ],
+    "cloze": {
+      "de": "Ringer",
+      "en": "wrestler"
+    },
     "sourceIndex": 9494
   },
   {
@@ -8039,6 +9927,10 @@ const phrasesCulture = [
     "wordIds": [
       "19569"
     ],
+    "cloze": {
+      "de": "Cello",
+      "en": "cello"
+    },
     "sourceIndex": 9569
   },
   {
@@ -8056,6 +9948,10 @@ const phrasesCulture = [
     "wordIds": [
       "19613"
     ],
+    "cloze": {
+      "de": "Kinofilm",
+      "en": "movie"
+    },
     "sourceIndex": 9613
   },
   {
@@ -8073,6 +9969,10 @@ const phrasesCulture = [
     "wordIds": [
       "19618"
     ],
+    "cloze": {
+      "de": "Kunsthalle",
+      "en": "art"
+    },
     "sourceIndex": 9618
   },
   {
@@ -8090,6 +9990,10 @@ const phrasesCulture = [
     "wordIds": [
       "19655"
     ],
+    "cloze": {
+      "de": "sensationelle",
+      "en": "sensational"
+    },
     "sourceIndex": 9655
   },
   {
@@ -8107,6 +10011,10 @@ const phrasesCulture = [
     "wordIds": [
       "19668"
     ],
+    "cloze": {
+      "de": "Taucher",
+      "en": "diver"
+    },
     "sourceIndex": 9668
   },
   {
@@ -8124,6 +10032,10 @@ const phrasesCulture = [
     "wordIds": [
       "19712"
     ],
+    "cloze": {
+      "de": "Auslosung",
+      "en": "draw"
+    },
     "sourceIndex": 9712
   },
   {
@@ -8141,6 +10053,10 @@ const phrasesCulture = [
     "wordIds": [
       "19789"
     ],
+    "cloze": {
+      "de": "Pfiff",
+      "en": "whistle"
+    },
     "sourceIndex": 9789
   },
   {
@@ -8158,6 +10074,10 @@ const phrasesCulture = [
     "wordIds": [
       "19808"
     ],
+    "cloze": {
+      "de": "Sketch",
+      "en": "sketch"
+    },
     "sourceIndex": 9808
   },
   {
@@ -8175,6 +10095,10 @@ const phrasesCulture = [
     "wordIds": [
       "19822"
     ],
+    "cloze": {
+      "de": "Trophäe",
+      "en": "trophy"
+    },
     "sourceIndex": 9822
   },
   {
@@ -8192,6 +10116,10 @@ const phrasesCulture = [
     "wordIds": [
       "19848"
     ],
+    "cloze": {
+      "de": "alpinen",
+      "en": "alpine"
+    },
     "sourceIndex": 9848
   },
   {
@@ -8209,6 +10137,10 @@ const phrasesCulture = [
     "wordIds": [
       "19914"
     ],
+    "cloze": {
+      "de": "Kurzfilm",
+      "en": "short"
+    },
     "sourceIndex": 9914
   },
   {
@@ -8226,6 +10158,10 @@ const phrasesCulture = [
     "wordIds": [
       "19918"
     ],
+    "cloze": {
+      "de": "loslegen",
+      "en": "get"
+    },
     "sourceIndex": 9918
   },
   {
@@ -8243,6 +10179,10 @@ const phrasesCulture = [
     "wordIds": [
       "19944"
     ],
+    "cloze": {
+      "de": "rudern",
+      "en": "row"
+    },
     "sourceIndex": 9944
   },
   {
@@ -8260,6 +10200,10 @@ const phrasesCulture = [
     "wordIds": [
       "19945"
     ],
+    "cloze": {
+      "de": "Rugby",
+      "en": "Rugby"
+    },
     "sourceIndex": 9945
   },
   {
@@ -8277,6 +10221,10 @@ const phrasesCulture = [
     "wordIds": [
       "19996"
     ],
+    "cloze": {
+      "de": "angekündigte",
+      "en": "announced"
+    },
     "sourceIndex": 9996
   },
   {
@@ -8294,6 +10242,10 @@ const phrasesCulture = [
     "wordIds": [
       "20003"
     ],
+    "cloze": {
+      "de": "Autogramm",
+      "en": "autograph"
+    },
     "sourceIndex": 10003
   },
   {
@@ -8311,6 +10263,10 @@ const phrasesCulture = [
     "wordIds": [
       "20018"
     ],
+    "cloze": {
+      "de": "bündeln",
+      "en": "pool"
+    },
     "sourceIndex": 10018
   },
   {
@@ -8328,6 +10284,10 @@ const phrasesCulture = [
     "wordIds": [
       "20020"
     ],
+    "cloze": {
+      "de": "Cartoons",
+      "en": "to"
+    },
     "sourceIndex": 10020
   },
   {
@@ -8345,6 +10305,10 @@ const phrasesCulture = [
     "wordIds": [
       "20053"
     ],
+    "cloze": {
+      "de": "Heiligabend",
+      "en": "Christmas"
+    },
     "sourceIndex": 10053
   },
   {
@@ -8362,6 +10326,10 @@ const phrasesCulture = [
     "wordIds": [
       "20054"
     ],
+    "cloze": {
+      "de": "Heldin",
+      "en": "heroine"
+    },
     "sourceIndex": 10054
   },
   {
@@ -8379,6 +10347,10 @@ const phrasesCulture = [
     "wordIds": [
       "20094"
     ],
+    "cloze": {
+      "de": "Schlagzeuger",
+      "en": "drummer"
+    },
     "sourceIndex": 10094
   },
   {
@@ -8396,6 +10368,10 @@ const phrasesCulture = [
     "wordIds": [
       "20097"
     ],
+    "cloze": {
+      "de": "Sinfonie",
+      "en": "symphony"
+    },
     "sourceIndex": 10097
   },
   {
@@ -8413,6 +10389,10 @@ const phrasesCulture = [
     "wordIds": [
       "20156"
     ],
+    "cloze": {
+      "de": "bemalen",
+      "en": "paint"
+    },
     "sourceIndex": 10156
   },
   {
@@ -8430,6 +10410,10 @@ const phrasesCulture = [
     "wordIds": [
       "20201"
     ],
+    "cloze": {
+      "de": "Interpret",
+      "en": "performer"
+    },
     "sourceIndex": 10201
   },
   {
@@ -8447,6 +10431,10 @@ const phrasesCulture = [
     "wordIds": [
       "20232"
     ],
+    "cloze": {
+      "de": "Neunzigern",
+      "en": "In"
+    },
     "sourceIndex": 10232
   },
   {
@@ -8464,6 +10452,10 @@ const phrasesCulture = [
     "wordIds": [
       "20302"
     ],
+    "cloze": {
+      "de": "Autorin",
+      "en": "author"
+    },
     "sourceIndex": 10302
   },
   {
@@ -8481,6 +10473,10 @@ const phrasesCulture = [
     "wordIds": [
       "20303"
     ],
+    "cloze": {
+      "de": "Baureihe",
+      "en": "model"
+    },
     "sourceIndex": 10303
   },
   {
@@ -8498,6 +10494,10 @@ const phrasesCulture = [
     "wordIds": [
       "20313"
     ],
+    "cloze": {
+      "de": "Comedian",
+      "en": "comedian"
+    },
     "sourceIndex": 10313
   },
   {
@@ -8515,6 +10515,10 @@ const phrasesCulture = [
     "wordIds": [
       "20349"
     ],
+    "cloze": {
+      "de": "Halbmarathon",
+      "en": "half"
+    },
     "sourceIndex": 10349
   },
   {
@@ -8532,6 +10536,10 @@ const phrasesCulture = [
     "wordIds": [
       "20363"
     ],
+    "cloze": {
+      "de": "Klarinette",
+      "en": "clarinet"
+    },
     "sourceIndex": 10363
   },
   {
@@ -8549,6 +10557,10 @@ const phrasesCulture = [
     "wordIds": [
       "20394"
     ],
+    "cloze": {
+      "de": "Punktzahl",
+      "en": "score"
+    },
     "sourceIndex": 10394
   },
   {
@@ -8566,6 +10578,10 @@ const phrasesCulture = [
     "wordIds": [
       "20427"
     ],
+    "cloze": {
+      "de": "verlosen",
+      "en": "raffle"
+    },
     "sourceIndex": 10427
   },
   {
@@ -8583,6 +10599,10 @@ const phrasesCulture = [
     "wordIds": [
       "20428"
     ],
+    "cloze": {
+      "de": "Verlosung",
+      "en": "raffle"
+    },
     "sourceIndex": 10428
   },
   {
@@ -8600,6 +10620,10 @@ const phrasesCulture = [
     "wordIds": [
       "20438"
     ],
+    "cloze": {
+      "de": "Weihnachtsfeier",
+      "en": "Christmas"
+    },
     "sourceIndex": 10438
   },
   {
@@ -8617,6 +10641,10 @@ const phrasesCulture = [
     "wordIds": [
       "20542"
     ],
+    "cloze": {
+      "de": "Prospekt",
+      "en": "brochure"
+    },
     "sourceIndex": 10542
   },
   {
@@ -8634,6 +10662,10 @@ const phrasesCulture = [
     "wordIds": [
       "20554"
     ],
+    "cloze": {
+      "de": "Schiri",
+      "en": "ref"
+    },
     "sourceIndex": 10554
   },
   {
@@ -8651,6 +10683,10 @@ const phrasesCulture = [
     "wordIds": [
       "20622"
     ],
+    "cloze": {
+      "de": "Billard",
+      "en": "billiards"
+    },
     "sourceIndex": 10622
   },
   {
@@ -8668,6 +10704,10 @@ const phrasesCulture = [
     "wordIds": [
       "20683"
     ],
+    "cloze": {
+      "de": "losen",
+      "en": "draw"
+    },
     "sourceIndex": 10683
   },
   {
@@ -8685,6 +10725,10 @@ const phrasesCulture = [
     "wordIds": [
       "20722"
     ],
+    "cloze": {
+      "de": "Siegerin",
+      "en": "female"
+    },
     "sourceIndex": 10722
   },
   {
@@ -8702,6 +10746,10 @@ const phrasesCulture = [
     "wordIds": [
       "20725"
     ],
+    "cloze": {
+      "de": "Soda",
+      "en": "soda"
+    },
     "sourceIndex": 10725
   },
   {
@@ -8719,6 +10767,10 @@ const phrasesCulture = [
     "wordIds": [
       "20742"
     ],
+    "cloze": {
+      "de": "Teamkollege",
+      "en": "teammate"
+    },
     "sourceIndex": 10742
   },
   {
@@ -8736,6 +10788,10 @@ const phrasesCulture = [
     "wordIds": [
       "20749"
     ],
+    "cloze": {
+      "de": "Veranstaltungsort",
+      "en": "venue"
+    },
     "sourceIndex": 10749
   },
   {
@@ -8753,6 +10809,10 @@ const phrasesCulture = [
     "wordIds": [
       "20754"
     ],
+    "cloze": {
+      "de": "Voting",
+      "en": "voting"
+    },
     "sourceIndex": 10754
   },
   {
@@ -8770,6 +10830,10 @@ const phrasesCulture = [
     "wordIds": [
       "20756"
     ],
+    "cloze": {
+      "de": "Wanderweg",
+      "en": "hiking"
+    },
     "sourceIndex": 10756
   },
   {
@@ -8787,6 +10851,10 @@ const phrasesCulture = [
     "wordIds": [
       "20810"
     ],
+    "cloze": {
+      "de": "in",
+      "en": "in"
+    },
     "sourceIndex": 10810
   },
   {
@@ -8804,6 +10872,10 @@ const phrasesCulture = [
     "wordIds": [
       "20821"
     ],
+    "cloze": {
+      "de": "Flop",
+      "en": "flop"
+    },
     "sourceIndex": 10821
   },
   {
@@ -8821,6 +10893,10 @@ const phrasesCulture = [
     "wordIds": [
       "20824"
     ],
+    "cloze": {
+      "de": "blocken",
+      "en": "block"
+    },
     "sourceIndex": 10824
   },
   {
@@ -8838,6 +10914,10 @@ const phrasesCulture = [
     "wordIds": [
       "20828"
     ],
+    "cloze": {
+      "de": "Gewinnerin",
+      "en": "female"
+    },
     "sourceIndex": 10828
   },
   {
@@ -8855,6 +10935,10 @@ const phrasesCulture = [
     "wordIds": [
       "20831"
     ],
+    "cloze": {
+      "de": "Hallenbad",
+      "en": "indoor"
+    },
     "sourceIndex": 10831
   },
   {
@@ -8872,6 +10956,10 @@ const phrasesCulture = [
     "wordIds": [
       "20856"
     ],
+    "cloze": {
+      "de": "langweilen",
+      "en": "bore"
+    },
     "sourceIndex": 10856
   },
   {
@@ -8889,6 +10977,10 @@ const phrasesCulture = [
     "wordIds": [
       "20934"
     ],
+    "cloze": {
+      "de": "Weihnachtsfest",
+      "en": "Christmas"
+    },
     "sourceIndex": 10934
   },
   {
@@ -8906,6 +10998,10 @@ const phrasesCulture = [
     "wordIds": [
       "21000"
     ],
+    "cloze": {
+      "de": "Entertainer",
+      "en": "entertainer"
+    },
     "sourceIndex": 11000
   },
   {
@@ -8923,6 +11019,10 @@ const phrasesCulture = [
     "wordIds": [
       "21007"
     ],
+    "cloze": {
+      "de": "Fiesta",
+      "en": "party"
+    },
     "sourceIndex": 11007
   },
   {
@@ -8940,6 +11040,10 @@ const phrasesCulture = [
     "wordIds": [
       "21074"
     ],
+    "cloze": {
+      "de": "Poet",
+      "en": "poet"
+    },
     "sourceIndex": 11074
   },
   {
@@ -8957,6 +11061,10 @@ const phrasesCulture = [
     "wordIds": [
       "21083"
     ],
+    "cloze": {
+      "de": "Rennfahrer",
+      "en": "racing"
+    },
     "sourceIndex": 11083
   },
   {
@@ -8974,6 +11082,10 @@ const phrasesCulture = [
     "wordIds": [
       "21122"
     ],
+    "cloze": {
+      "de": "Weitsprung",
+      "en": "long"
+    },
     "sourceIndex": 11122
   },
   {
@@ -8991,6 +11103,10 @@ const phrasesCulture = [
     "wordIds": [
       "21136"
     ],
+    "cloze": {
+      "de": "Akkordeon",
+      "en": "accordion"
+    },
     "sourceIndex": 11136
   },
   {
@@ -9008,6 +11124,10 @@ const phrasesCulture = [
     "wordIds": [
       "21146"
     ],
+    "cloze": {
+      "de": "auswechseln",
+      "en": "substitute"
+    },
     "sourceIndex": 11146
   },
   {
@@ -9025,6 +11145,10 @@ const phrasesCulture = [
     "wordIds": [
       "21150"
     ],
+    "cloze": {
+      "de": "begabte",
+      "en": "talented"
+    },
     "sourceIndex": 11150
   },
   {
@@ -9042,6 +11166,10 @@ const phrasesCulture = [
     "wordIds": [
       "21160"
     ],
+    "cloze": {
+      "de": "Dancing",
+      "en": "dancing"
+    },
     "sourceIndex": 11160
   },
   {
@@ -9059,6 +11187,10 @@ const phrasesCulture = [
     "wordIds": [
       "21232"
     ],
+    "cloze": {
+      "de": "musizieren",
+      "en": "make"
+    },
     "sourceIndex": 11232
   },
   {
@@ -9076,6 +11208,10 @@ const phrasesCulture = [
     "wordIds": [
       "21249"
     ],
+    "cloze": {
+      "de": "Promo",
+      "en": "promo"
+    },
     "sourceIndex": 11249
   },
   {
@@ -9093,6 +11229,10 @@ const phrasesCulture = [
     "wordIds": [
       "21250"
     ],
+    "cloze": {
+      "de": "Publisher",
+      "en": "publisher"
+    },
     "sourceIndex": 11250
   },
   {
@@ -9110,6 +11250,10 @@ const phrasesCulture = [
     "wordIds": [
       "21267"
     ],
+    "cloze": {
+      "de": "Siegerehrung",
+      "en": "award"
+    },
     "sourceIndex": 11267
   },
   {
@@ -9127,6 +11271,10 @@ const phrasesCulture = [
     "wordIds": [
       "21307"
     ],
+    "cloze": {
+      "de": "zauberhafter",
+      "en": "magical"
+    },
     "sourceIndex": 11307
   },
   {
@@ -9144,6 +11292,10 @@ const phrasesCulture = [
     "wordIds": [
       "21330"
     ],
+    "cloze": {
+      "de": "Badminton",
+      "en": "badminton"
+    },
     "sourceIndex": 11330
   },
   {
@@ -9161,6 +11313,10 @@ const phrasesCulture = [
     "wordIds": [
       "21338"
     ],
+    "cloze": {
+      "de": "beweglich",
+      "en": "agile"
+    },
     "sourceIndex": 11338
   },
   {
@@ -9178,6 +11334,10 @@ const phrasesCulture = [
     "wordIds": [
       "21390"
     ],
+    "cloze": {
+      "de": "gläsernen",
+      "en": "glass"
+    },
     "sourceIndex": 11390
   },
   {
@@ -9195,6 +11355,10 @@ const phrasesCulture = [
     "wordIds": [
       "21409"
     ],
+    "cloze": {
+      "de": "Illustrierte",
+      "en": "illustrated"
+    },
     "sourceIndex": 11409
   },
   {
@@ -9212,6 +11376,10 @@ const phrasesCulture = [
     "wordIds": [
       "21455"
     ],
+    "cloze": {
+      "de": "Rockmusik",
+      "en": "rock"
+    },
     "sourceIndex": 11455
   },
   {
@@ -9229,6 +11397,10 @@ const phrasesCulture = [
     "wordIds": [
       "21496"
     ],
+    "cloze": {
+      "de": "verirrt",
+      "en": "lost"
+    },
     "sourceIndex": 11496
   },
   {
@@ -9246,6 +11418,10 @@ const phrasesCulture = [
     "wordIds": [
       "21527"
     ],
+    "cloze": {
+      "de": "auffangen",
+      "en": "catch"
+    },
     "sourceIndex": 11527
   },
   {
@@ -9263,6 +11439,10 @@ const phrasesCulture = [
     "wordIds": [
       "21528"
     ],
+    "cloze": {
+      "de": "ausgestellt",
+      "en": "exhibited"
+    },
     "sourceIndex": 11528
   },
   {
@@ -9280,6 +11460,10 @@ const phrasesCulture = [
     "wordIds": [
       "21580"
     ],
+    "cloze": {
+      "de": "Joke",
+      "en": "joke"
+    },
     "sourceIndex": 11580
   },
   {
@@ -9297,6 +11481,10 @@ const phrasesCulture = [
     "wordIds": [
       "21635"
     ],
+    "cloze": {
+      "de": "Spielminute",
+      "en": "minute"
+    },
     "sourceIndex": 11635
   },
   {
@@ -9314,6 +11502,10 @@ const phrasesCulture = [
     "wordIds": [
       "21648"
     ],
+    "cloze": {
+      "de": "Topmodel",
+      "en": "top"
+    },
     "sourceIndex": 11648
   },
   {
@@ -9331,6 +11523,10 @@ const phrasesCulture = [
     "wordIds": [
       "21672"
     ],
+    "cloze": {
+      "de": "Abwehrspieler",
+      "en": "defender"
+    },
     "sourceIndex": 11672
   },
   {
@@ -9348,6 +11544,10 @@ const phrasesCulture = [
     "wordIds": [
       "21701"
     ],
+    "cloze": {
+      "de": "casual",
+      "en": "casual"
+    },
     "sourceIndex": 11701
   },
   {
@@ -9365,6 +11565,10 @@ const phrasesCulture = [
     "wordIds": [
       "21702"
     ],
+    "cloze": {
+      "de": "Championship",
+      "en": "championship"
+    },
     "sourceIndex": 11702
   },
   {
@@ -9382,6 +11586,10 @@ const phrasesCulture = [
     "wordIds": [
       "21752"
     ],
+    "cloze": {
+      "de": "Musikkassetten",
+      "en": "cassettes"
+    },
     "sourceIndex": 11752
   },
   {
@@ -9399,6 +11607,10 @@ const phrasesCulture = [
     "wordIds": [
       "21775"
     ],
+    "cloze": {
+      "de": "Olympiade",
+      "en": "Olympiad"
+    },
     "sourceIndex": 11775
   },
   {
@@ -9416,6 +11628,10 @@ const phrasesCulture = [
     "wordIds": [
       "21780"
     ],
+    "cloze": {
+      "de": "Pokalsieger",
+      "en": "cup"
+    },
     "sourceIndex": 11780
   },
   {
@@ -9433,6 +11649,10 @@ const phrasesCulture = [
     "wordIds": [
       "21850"
     ],
+    "cloze": {
+      "de": "Abholung",
+      "en": "collection"
+    },
     "sourceIndex": 11850
   },
   {
@@ -9450,6 +11670,10 @@ const phrasesCulture = [
     "wordIds": [
       "21870"
     ],
+    "cloze": {
+      "de": "Bestzeit",
+      "en": "personal"
+    },
     "sourceIndex": 11870
   },
   {
@@ -9467,6 +11691,10 @@ const phrasesCulture = [
     "wordIds": [
       "21879"
     ],
+    "cloze": {
+      "de": "Eigentor",
+      "en": "own"
+    },
     "sourceIndex": 11879
   },
   {
@@ -9484,6 +11712,10 @@ const phrasesCulture = [
     "wordIds": [
       "21891"
     ],
+    "cloze": {
+      "de": "Frauenfussball",
+      "en": "Women's"
+    },
     "sourceIndex": 11891
   },
   {
@@ -9501,6 +11733,10 @@ const phrasesCulture = [
     "wordIds": [
       "21907"
     ],
+    "cloze": {
+      "de": "laufen",
+      "en": "run"
+    },
     "sourceIndex": 11907
   },
   {
@@ -9518,6 +11754,10 @@ const phrasesCulture = [
     "wordIds": [
       "21913"
     ],
+    "cloze": {
+      "de": "illen",
+      "en": "bad"
+    },
     "sourceIndex": 11913
   },
   {
@@ -9535,6 +11775,10 @@ const phrasesCulture = [
     "wordIds": [
       "21920"
     ],
+    "cloze": {
+      "de": "Kirchenmusik",
+      "en": "church"
+    },
     "sourceIndex": 11920
   },
   {
@@ -9552,6 +11796,10 @@ const phrasesCulture = [
     "wordIds": [
       "21926"
     ],
+    "cloze": {
+      "de": "Kunstmuseum",
+      "en": "art"
+    },
     "sourceIndex": 11926
   },
   {
@@ -9569,6 +11817,10 @@ const phrasesCulture = [
     "wordIds": [
       "21937"
     ],
+    "cloze": {
+      "de": "mitsingen",
+      "en": "sing"
+    },
     "sourceIndex": 11937
   },
   {
@@ -9586,6 +11838,10 @@ const phrasesCulture = [
     "wordIds": [
       "21946"
     ],
+    "cloze": {
+      "de": "Ohrwurm",
+      "en": "earworm"
+    },
     "sourceIndex": 11946
   },
   {
@@ -9603,6 +11859,10 @@ const phrasesCulture = [
     "wordIds": [
       "21947"
     ],
+    "cloze": {
+      "de": "Olympiastadion",
+      "en": "Olympic"
+    },
     "sourceIndex": 11947
   },
   {
@@ -9620,6 +11880,10 @@ const phrasesCulture = [
     "wordIds": [
       "21978"
     ],
+    "cloze": {
+      "de": "spassige",
+      "en": "funny"
+    },
     "sourceIndex": 11978
   },
   {
@@ -9637,6 +11901,10 @@ const phrasesCulture = [
     "wordIds": [
       "22054"
     ],
+    "cloze": {
+      "de": "Bergsteiger",
+      "en": "mountaineer"
+    },
     "sourceIndex": 12054
   },
   {
@@ -9654,6 +11922,10 @@ const phrasesCulture = [
     "wordIds": [
       "22062"
     ],
+    "cloze": {
+      "de": "Bronzemedaille",
+      "en": "bronze"
+    },
     "sourceIndex": 12062
   },
   {
@@ -9671,6 +11943,10 @@ const phrasesCulture = [
     "wordIds": [
       "22068"
     ],
+    "cloze": {
+      "de": "Cinema",
+      "en": "cinema"
+    },
     "sourceIndex": 12068
   },
   {
@@ -9688,6 +11964,10 @@ const phrasesCulture = [
     "wordIds": [
       "22099"
     ],
+    "cloze": {
+      "de": "Harfe",
+      "en": "harp"
+    },
     "sourceIndex": 12099
   },
   {
@@ -9705,6 +11985,10 @@ const phrasesCulture = [
     "wordIds": [
       "22188"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "underground"
+    },
     "sourceIndex": 12188
   },
   {
@@ -9722,6 +12006,10 @@ const phrasesCulture = [
     "wordIds": [
       "22214"
     ],
+    "cloze": {
+      "de": "Zauberei",
+      "en": "magic"
+    },
     "sourceIndex": 12214
   },
   {
@@ -9739,6 +12027,10 @@ const phrasesCulture = [
     "wordIds": [
       "22234"
     ],
+    "cloze": {
+      "de": "atemlos",
+      "en": "breathless"
+    },
     "sourceIndex": 12234
   },
   {
@@ -9756,6 +12048,10 @@ const phrasesCulture = [
     "wordIds": [
       "22279"
     ],
+    "cloze": {
+      "de": "Filmmusik",
+      "en": "film"
+    },
     "sourceIndex": 12279
   },
   {
@@ -9773,6 +12069,10 @@ const phrasesCulture = [
     "wordIds": [
       "22335"
     ],
+    "cloze": {
+      "de": "rappen",
+      "en": "rap"
+    },
     "sourceIndex": 12335
   },
   {
@@ -9790,6 +12090,10 @@ const phrasesCulture = [
     "wordIds": [
       "22338"
     ],
+    "cloze": {
+      "de": "rocken",
+      "en": "rock"
+    },
     "sourceIndex": 12338
   },
   {
@@ -9807,6 +12111,10 @@ const phrasesCulture = [
     "wordIds": [
       "22357"
     ],
+    "cloze": {
+      "de": "talentierte",
+      "en": "talented"
+    },
     "sourceIndex": 12357
   },
   {
@@ -9824,6 +12132,10 @@ const phrasesCulture = [
     "wordIds": [
       "22398"
     ],
+    "cloze": {
+      "de": "Abpfiff",
+      "en": "final"
+    },
     "sourceIndex": 12398
   },
   {
@@ -9841,6 +12153,10 @@ const phrasesCulture = [
     "wordIds": [
       "22451"
     ],
+    "cloze": {
+      "de": "Eröffnungsfeier",
+      "en": "opening"
+    },
     "sourceIndex": 12451
   },
   {
@@ -9858,6 +12174,10 @@ const phrasesCulture = [
     "wordIds": [
       "22475"
     ],
+    "cloze": {
+      "de": "Hauptziel",
+      "en": "main"
+    },
     "sourceIndex": 12475
   },
   {
@@ -9875,6 +12195,10 @@ const phrasesCulture = [
     "wordIds": [
       "22479"
     ],
+    "cloze": {
+      "de": "Indoor-Sportart",
+      "en": "indoor"
+    },
     "sourceIndex": 12479
   },
   {
@@ -9892,6 +12216,10 @@ const phrasesCulture = [
     "wordIds": [
       "22482"
     ],
+    "cloze": {
+      "de": "Kartenspiel",
+      "en": "card"
+    },
     "sourceIndex": 12482
   },
   {
@@ -9909,6 +12237,10 @@ const phrasesCulture = [
     "wordIds": [
       "22500"
     ],
+    "cloze": {
+      "de": "Lotterie",
+      "en": "lottery"
+    },
     "sourceIndex": 12500
   },
   {
@@ -9926,6 +12258,10 @@ const phrasesCulture = [
     "wordIds": [
       "22511"
     ],
+    "cloze": {
+      "de": "Monolog",
+      "en": "monologue"
+    },
     "sourceIndex": 12511
   },
   {
@@ -9943,6 +12279,10 @@ const phrasesCulture = [
     "wordIds": [
       "22526"
     ],
+    "cloze": {
+      "de": "phantastischer",
+      "en": "fantastic"
+    },
     "sourceIndex": 12526
   },
   {
@@ -9960,6 +12300,10 @@ const phrasesCulture = [
     "wordIds": [
       "22574"
     ],
+    "cloze": {
+      "de": "weglaufen",
+      "en": "run"
+    },
     "sourceIndex": 12574
   },
   {
@@ -9977,6 +12321,10 @@ const phrasesCulture = [
     "wordIds": [
       "22576"
     ],
+    "cloze": {
+      "de": "Weltpremiere",
+      "en": "world"
+    },
     "sourceIndex": 12576
   },
   {
@@ -9994,6 +12342,10 @@ const phrasesCulture = [
     "wordIds": [
       "22644"
     ],
+    "cloze": {
+      "de": "Einwurf",
+      "en": "throw-in"
+    },
     "sourceIndex": 12644
   },
   {
@@ -10011,6 +12363,10 @@ const phrasesCulture = [
     "wordIds": [
       "22715"
     ],
+    "cloze": {
+      "de": "Saxophon",
+      "en": "saxophone"
+    },
     "sourceIndex": 12715
   },
   {
@@ -10028,6 +12384,10 @@ const phrasesCulture = [
     "wordIds": [
       "22748"
     ],
+    "cloze": {
+      "de": "Turnschuhe",
+      "en": "sneakers"
+    },
     "sourceIndex": 12748
   },
   {
@@ -10045,6 +12405,10 @@ const phrasesCulture = [
     "wordIds": [
       "22804"
     ],
+    "cloze": {
+      "de": "Bogenschiessen",
+      "en": "Archery"
+    },
     "sourceIndex": 12804
   },
   {
@@ -10062,6 +12426,10 @@ const phrasesCulture = [
     "wordIds": [
       "22831"
     ],
+    "cloze": {
+      "de": "Filmfestival",
+      "en": "film"
+    },
     "sourceIndex": 12831
   },
   {
@@ -10079,6 +12447,10 @@ const phrasesCulture = [
     "wordIds": [
       "22840"
     ],
+    "cloze": {
+      "de": "Freestyle-Rap",
+      "en": "freestyle"
+    },
     "sourceIndex": 12840
   },
   {
@@ -10096,6 +12468,10 @@ const phrasesCulture = [
     "wordIds": [
       "22877"
     ],
+    "cloze": {
+      "de": "Lyrics",
+      "en": "lyrics"
+    },
     "sourceIndex": 12877
   },
   {
@@ -10113,6 +12489,10 @@ const phrasesCulture = [
     "wordIds": [
       "22878"
     ],
+    "cloze": {
+      "de": "Malerin",
+      "en": "painter"
+    },
     "sourceIndex": 12878
   },
   {
@@ -10130,6 +12510,10 @@ const phrasesCulture = [
     "wordIds": [
       "22886"
     ],
+    "cloze": {
+      "de": "Musikverein",
+      "en": "music"
+    },
     "sourceIndex": 12886
   },
   {
@@ -10147,6 +12531,10 @@ const phrasesCulture = [
     "wordIds": [
       "22907"
     ],
+    "cloze": {
+      "de": "Reck",
+      "en": "horizontal"
+    },
     "sourceIndex": 12907
   },
   {
@@ -10164,6 +12552,10 @@ const phrasesCulture = [
     "wordIds": [
       "22969"
     ],
+    "cloze": {
+      "de": "überglücklich",
+      "en": "overjoyed"
+    },
     "sourceIndex": 12969
   },
   {
@@ -10181,6 +12573,10 @@ const phrasesCulture = [
     "wordIds": [
       "22997"
     ],
+    "cloze": {
+      "de": "beunruhigend",
+      "en": "unsettling"
+    },
     "sourceIndex": 12997
   },
   {
@@ -10198,6 +12594,10 @@ const phrasesCulture = [
     "wordIds": [
       "23106"
     ],
+    "cloze": {
+      "de": "seufzte",
+      "en": "sighed"
+    },
     "sourceIndex": 13106
   },
   {
@@ -10215,6 +12615,10 @@ const phrasesCulture = [
     "wordIds": [
       "23116"
     ],
+    "cloze": {
+      "de": "Stadttheater",
+      "en": "city"
+    },
     "sourceIndex": 13116
   },
   {
@@ -10232,6 +12636,10 @@ const phrasesCulture = [
     "wordIds": [
       "23122"
     ],
+    "cloze": {
+      "de": "Tanzmusik",
+      "en": "dance"
+    },
     "sourceIndex": 13122
   },
   {
@@ -10249,6 +12657,10 @@ const phrasesCulture = [
     "wordIds": [
       "23190"
     ],
+    "cloze": {
+      "de": "Cell",
+      "en": "cello"
+    },
     "sourceIndex": 13190
   },
   {
@@ -10266,6 +12678,10 @@ const phrasesCulture = [
     "wordIds": [
       "23200"
     ],
+    "cloze": {
+      "de": "Drummer",
+      "en": "drummer"
+    },
     "sourceIndex": 13200
   },
   {
@@ -10283,6 +12699,10 @@ const phrasesCulture = [
     "wordIds": [
       "23295"
     ],
+    "cloze": {
+      "de": "rätselten",
+      "en": "puzzled"
+    },
     "sourceIndex": 13295
   },
   {
@@ -10300,6 +12720,10 @@ const phrasesCulture = [
     "wordIds": [
       "23304"
     ],
+    "cloze": {
+      "de": "Snowboard",
+      "en": "snowboard"
+    },
     "sourceIndex": 13304
   },
   {
@@ -10317,6 +12741,10 @@ const phrasesCulture = [
     "wordIds": [
       "23311"
     ],
+    "cloze": {
+      "de": "Surfer",
+      "en": "surfer"
+    },
     "sourceIndex": 13311
   },
   {
@@ -10334,6 +12762,10 @@ const phrasesCulture = [
     "wordIds": [
       "23398"
     ],
+    "cloze": {
+      "de": "Christin",
+      "en": "Christian"
+    },
     "sourceIndex": 13398
   },
   {
@@ -10351,6 +12783,10 @@ const phrasesCulture = [
     "wordIds": [
       "23423"
     ],
+    "cloze": {
+      "de": "Fanclub",
+      "en": "fan"
+    },
     "sourceIndex": 13423
   },
   {
@@ -10368,6 +12804,10 @@ const phrasesCulture = [
     "wordIds": [
       "23424"
     ],
+    "cloze": {
+      "de": "Finalist",
+      "en": "finalist"
+    },
     "sourceIndex": 13424
   },
   {
@@ -10385,6 +12825,10 @@ const phrasesCulture = [
     "wordIds": [
       "23425"
     ],
+    "cloze": {
+      "de": "Finish",
+      "en": "finish"
+    },
     "sourceIndex": 13425
   },
   {
@@ -10402,6 +12846,10 @@ const phrasesCulture = [
     "wordIds": [
       "23427"
     ],
+    "cloze": {
+      "de": "Fotoshooting",
+      "en": "photoshoot"
+    },
     "sourceIndex": 13427
   },
   {
@@ -10419,6 +12867,10 @@ const phrasesCulture = [
     "wordIds": [
       "23474"
     ],
+    "cloze": {
+      "de": "Musikerin",
+      "en": "female"
+    },
     "sourceIndex": 13474
   },
   {
@@ -10436,6 +12888,10 @@ const phrasesCulture = [
     "wordIds": [
       "23494"
     ],
+    "cloze": {
+      "de": "Posaune",
+      "en": "trombone"
+    },
     "sourceIndex": 13494
   },
   {
@@ -10453,6 +12909,10 @@ const phrasesCulture = [
     "wordIds": [
       "23505"
     ],
+    "cloze": {
+      "de": "Lieblings-Rockband",
+      "en": "rock"
+    },
     "sourceIndex": 13505
   },
   {
@@ -10470,6 +12930,10 @@ const phrasesCulture = [
     "wordIds": [
       "23532"
     ],
+    "cloze": {
+      "de": "ungenügend",
+      "en": "insufficient"
+    },
     "sourceIndex": 13532
   },
   {
@@ -10487,6 +12951,10 @@ const phrasesCulture = [
     "wordIds": [
       "23552"
     ],
+    "cloze": {
+      "de": "Wettlauf",
+      "en": "race"
+    },
     "sourceIndex": 13552
   },
   {
@@ -10504,6 +12972,10 @@ const phrasesCulture = [
     "wordIds": [
       "23575"
     ],
+    "cloze": {
+      "de": "anlaufen",
+      "en": "start"
+    },
     "sourceIndex": 13575
   },
   {
@@ -10521,6 +12993,10 @@ const phrasesCulture = [
     "wordIds": [
       "23590"
     ],
+    "cloze": {
+      "de": "Badehose",
+      "en": "swimming"
+    },
     "sourceIndex": 13590
   },
   {
@@ -10538,6 +13014,10 @@ const phrasesCulture = [
     "wordIds": [
       "23592"
     ],
+    "cloze": {
+      "de": "Bassist",
+      "en": "bassist"
+    },
     "sourceIndex": 13592
   },
   {
@@ -10555,6 +13035,10 @@ const phrasesCulture = [
     "wordIds": [
       "23617"
     ],
+    "cloze": {
+      "de": "Driver",
+      "en": "driver"
+    },
     "sourceIndex": 13617
   },
   {
@@ -10572,6 +13056,10 @@ const phrasesCulture = [
     "wordIds": [
       "23642"
     ],
+    "cloze": {
+      "de": "gehenden",
+      "en": "walking"
+    },
     "sourceIndex": 13642
   },
   {
@@ -10589,6 +13077,10 @@ const phrasesCulture = [
     "wordIds": [
       "23696"
     ],
+    "cloze": {
+      "de": "Nationalteam",
+      "en": "national"
+    },
     "sourceIndex": 13696
   },
   {
@@ -10606,6 +13098,10 @@ const phrasesCulture = [
     "wordIds": [
       "23724"
     ],
+    "cloze": {
+      "de": "Silbermedaille",
+      "en": "silver"
+    },
     "sourceIndex": 13724
   },
   {
@@ -10623,6 +13119,10 @@ const phrasesCulture = [
     "wordIds": [
       "23727"
     ],
+    "cloze": {
+      "de": "sonderbare",
+      "en": "strange"
+    },
     "sourceIndex": 13727
   },
   {
@@ -10640,6 +13140,10 @@ const phrasesCulture = [
     "wordIds": [
       "23747"
     ],
+    "cloze": {
+      "de": "Töpfer",
+      "en": "potter"
+    },
     "sourceIndex": 13747
   },
   {
@@ -10657,6 +13161,10 @@ const phrasesCulture = [
     "wordIds": [
       "23815"
     ],
+    "cloze": {
+      "de": "Bühnenbild",
+      "en": "stage"
+    },
     "sourceIndex": 13815
   },
   {
@@ -10674,6 +13182,10 @@ const phrasesCulture = [
     "wordIds": [
       "23834"
     ],
+    "cloze": {
+      "de": "Fussballspieler",
+      "en": "football"
+    },
     "sourceIndex": 13834
   },
   {
@@ -10691,6 +13203,10 @@ const phrasesCulture = [
     "wordIds": [
       "23854"
     ],
+    "cloze": {
+      "de": "Karaoke",
+      "en": "karaoke"
+    },
     "sourceIndex": 13854
   },
   {
@@ -10708,6 +13224,10 @@ const phrasesCulture = [
     "wordIds": [
       "23894"
     ],
+    "cloze": {
+      "de": "reinfallen",
+      "en": "fall"
+    },
     "sourceIndex": 13894
   },
   {
@@ -10725,6 +13245,10 @@ const phrasesCulture = [
     "wordIds": [
       "23902"
     ],
+    "cloze": {
+      "de": "Schauspielerin",
+      "en": "actress"
+    },
     "sourceIndex": 13902
   },
   {
@@ -10742,6 +13266,10 @@ const phrasesCulture = [
     "wordIds": [
       "23942"
     ],
+    "cloze": {
+      "de": "Volkslied",
+      "en": "folk"
+    },
     "sourceIndex": 13942
   },
   {
@@ -10759,6 +13287,10 @@ const phrasesCulture = [
     "wordIds": [
       "24041"
     ],
+    "cloze": {
+      "de": "Gruppenspiel",
+      "en": "group"
+    },
     "sourceIndex": 14041
   },
   {
@@ -10776,6 +13308,10 @@ const phrasesCulture = [
     "wordIds": [
       "24065"
     ],
+    "cloze": {
+      "de": "Kunstausstellung",
+      "en": "art"
+    },
     "sourceIndex": 14065
   },
   {
@@ -10793,6 +13329,10 @@ const phrasesCulture = [
     "wordIds": [
       "24086"
     ],
+    "cloze": {
+      "de": "Musikant",
+      "en": "musician"
+    },
     "sourceIndex": 14086
   },
   {
@@ -10810,6 +13350,10 @@ const phrasesCulture = [
     "wordIds": [
       "24094"
     ],
+    "cloze": {
+      "de": "Pianistin",
+      "en": "female"
+    },
     "sourceIndex": 14094
   },
   {
@@ -10827,6 +13371,10 @@ const phrasesCulture = [
     "wordIds": [
       "24108"
     ],
+    "cloze": {
+      "de": "rührende",
+      "en": "touching"
+    },
     "sourceIndex": 14108
   },
   {
@@ -10844,6 +13392,10 @@ const phrasesCulture = [
     "wordIds": [
       "24116"
     ],
+    "cloze": {
+      "de": "Skispringen",
+      "en": "Ski"
+    },
     "sourceIndex": 14116
   },
   {
@@ -10861,6 +13413,10 @@ const phrasesCulture = [
     "wordIds": [
       "24154"
     ],
+    "cloze": {
+      "de": "Vorstufe",
+      "en": "preliminary"
+    },
     "sourceIndex": 14154
   },
   {
@@ -10878,6 +13434,10 @@ const phrasesCulture = [
     "wordIds": [
       "24168"
     ],
+    "cloze": {
+      "de": "Ölgemälde",
+      "en": "oil"
+    },
     "sourceIndex": 14168
   },
   {
@@ -10895,6 +13455,10 @@ const phrasesCulture = [
     "wordIds": [
       "24182"
     ],
+    "cloze": {
+      "de": "auffindbar",
+      "en": "findable"
+    },
     "sourceIndex": 14182
   },
   {
@@ -10912,6 +13476,10 @@ const phrasesCulture = [
     "wordIds": [
       "24206"
     ],
+    "cloze": {
+      "de": "Elfer",
+      "en": "penalty"
+    },
     "sourceIndex": 14206
   },
   {
@@ -10929,6 +13497,10 @@ const phrasesCulture = [
     "wordIds": [
       "24220"
     ],
+    "cloze": {
+      "de": "Lieblings-Fussballverein",
+      "en": "football"
+    },
     "sourceIndex": 14220
   },
   {
@@ -10946,6 +13518,10 @@ const phrasesCulture = [
     "wordIds": [
       "24270"
     ],
+    "cloze": {
+      "de": "Musikinstrument",
+      "en": "musical"
+    },
     "sourceIndex": 14270
   },
   {
@@ -10963,6 +13539,10 @@ const phrasesCulture = [
     "wordIds": [
       "24418"
     ],
+    "cloze": {
+      "de": "Golfer",
+      "en": "golfer"
+    },
     "sourceIndex": 14418
   },
   {
@@ -10980,6 +13560,10 @@ const phrasesCulture = [
     "wordIds": [
       "24468"
     ],
+    "cloze": {
+      "de": "Puck",
+      "en": "puck"
+    },
     "sourceIndex": 14468
   },
   {
@@ -10997,6 +13581,10 @@ const phrasesCulture = [
     "wordIds": [
       "24487"
     ],
+    "cloze": {
+      "de": "Schwimmbecken",
+      "en": "swimming"
+    },
     "sourceIndex": 14487
   },
   {
@@ -11014,6 +13602,10 @@ const phrasesCulture = [
     "wordIds": [
       "24588"
     ],
+    "cloze": {
+      "de": "Blasmusik",
+      "en": "brass"
+    },
     "sourceIndex": 14588
   },
   {
@@ -11031,6 +13623,10 @@ const phrasesCulture = [
     "wordIds": [
       "24621"
     ],
+    "cloze": {
+      "de": "Gedränge",
+      "en": "crowd"
+    },
     "sourceIndex": 14621
   },
   {
@@ -11048,6 +13644,10 @@ const phrasesCulture = [
     "wordIds": [
       "24633"
     ],
+    "cloze": {
+      "de": "Goal",
+      "en": "goal"
+    },
     "sourceIndex": 14633
   },
   {
@@ -11065,6 +13665,10 @@ const phrasesCulture = [
     "wordIds": [
       "24642"
     ],
+    "cloze": {
+      "de": "Headline",
+      "en": "headline"
+    },
     "sourceIndex": 14642
   },
   {
@@ -11082,6 +13686,10 @@ const phrasesCulture = [
     "wordIds": [
       "24713"
     ],
+    "cloze": {
+      "de": "schweissen",
+      "en": "weld"
+    },
     "sourceIndex": 14713
   },
   {
@@ -11099,6 +13707,10 @@ const phrasesCulture = [
     "wordIds": [
       "24738"
     ],
+    "cloze": {
+      "de": "Tuba",
+      "en": "tuba"
+    },
     "sourceIndex": 14738
   },
   {
@@ -11116,6 +13728,10 @@ const phrasesCulture = [
     "wordIds": [
       "24768"
     ],
+    "cloze": {
+      "de": "Ziehung",
+      "en": "drawing"
+    },
     "sourceIndex": 14768
   },
   {
@@ -11133,6 +13749,10 @@ const phrasesCulture = [
     "wordIds": [
       "24851"
     ],
+    "cloze": {
+      "de": "Jogginghose",
+      "en": "sweatpants"
+    },
     "sourceIndex": 14851
   },
   {
@@ -11150,6 +13770,10 @@ const phrasesCulture = [
     "wordIds": [
       "24862"
     ],
+    "cloze": {
+      "de": "Kopfball",
+      "en": "header"
+    },
     "sourceIndex": 14862
   },
   {
@@ -11167,6 +13791,10 @@ const phrasesCulture = [
     "wordIds": [
       "24884"
     ],
+    "cloze": {
+      "de": "mittelmässig",
+      "en": "mediocre"
+    },
     "sourceIndex": 14884
   },
   {
@@ -11184,6 +13812,10 @@ const phrasesCulture = [
     "wordIds": [
       "24907"
     ],
+    "cloze": {
+      "de": "Proviant",
+      "en": "provisions"
+    },
     "sourceIndex": 14907
   },
   {
@@ -11201,6 +13833,10 @@ const phrasesCulture = [
     "wordIds": [
       "24936"
     ],
+    "cloze": {
+      "de": "Spielstand",
+      "en": "score"
+    },
     "sourceIndex": 14936
   },
   {
@@ -11218,6 +13854,10 @@ const phrasesCulture = [
     "wordIds": [
       "25006"
     ],
+    "cloze": {
+      "de": "Brettspiele",
+      "en": "board"
+    },
     "sourceIndex": 15006
   },
   {
@@ -11235,6 +13875,10 @@ const phrasesCulture = [
     "wordIds": [
       "25069"
     ],
+    "cloze": {
+      "de": "Holzkohle",
+      "en": "charcoal"
+    },
     "sourceIndex": 15069
   },
   {
@@ -11252,6 +13896,10 @@ const phrasesCulture = [
     "wordIds": [
       "25183"
     ],
+    "cloze": {
+      "de": "weiterspielen",
+      "en": "continue"
+    },
     "sourceIndex": 15183
   },
   {
@@ -11269,6 +13917,10 @@ const phrasesCulture = [
     "wordIds": [
       "25224"
     ],
+    "cloze": {
+      "de": "Brandung",
+      "en": "surf"
+    },
     "sourceIndex": 15224
   },
   {
@@ -11286,6 +13938,10 @@ const phrasesCulture = [
     "wordIds": [
       "25239"
     ],
+    "cloze": {
+      "de": "Disko",
+      "en": "disco"
+    },
     "sourceIndex": 15239
   },
   {
@@ -11303,6 +13959,10 @@ const phrasesCulture = [
     "wordIds": [
       "25258"
     ],
+    "cloze": {
+      "de": "Fighter",
+      "en": "fighter"
+    },
     "sourceIndex": 15258
   },
   {
@@ -11320,6 +13980,10 @@ const phrasesCulture = [
     "wordIds": [
       "25342"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "joked"
+    },
     "sourceIndex": 15342
   },
   {
@@ -11337,6 +14001,10 @@ const phrasesCulture = [
     "wordIds": [
       "25405"
     ],
+    "cloze": {
+      "de": "Akkord",
+      "en": "chord"
+    },
     "sourceIndex": 15405
   },
   {
@@ -11354,6 +14022,10 @@ const phrasesCulture = [
     "wordIds": [
       "25434"
     ],
+    "cloze": {
+      "de": "Bläser",
+      "en": "wind"
+    },
     "sourceIndex": 15434
   },
   {
@@ -11371,6 +14043,10 @@ const phrasesCulture = [
     "wordIds": [
       "25516"
     ],
+    "cloze": {
+      "de": "Kinostart",
+      "en": "cinema"
+    },
     "sourceIndex": 15516
   },
   {
@@ -11388,6 +14064,10 @@ const phrasesCulture = [
     "wordIds": [
       "25526"
     ],
+    "cloze": {
+      "de": "Kunststück",
+      "en": "trick"
+    },
     "sourceIndex": 15526
   },
   {
@@ -11405,6 +14085,10 @@ const phrasesCulture = [
     "wordIds": [
       "25530"
     ],
+    "cloze": {
+      "de": "lateinamerikanische",
+      "en": "Latin"
+    },
     "sourceIndex": 15530
   },
   {
@@ -11422,6 +14106,10 @@ const phrasesCulture = [
     "wordIds": [
       "25539"
     ],
+    "cloze": {
+      "de": "Meerjungfrau",
+      "en": "Mermaid"
+    },
     "sourceIndex": 15539
   },
   {
@@ -11439,6 +14127,10 @@ const phrasesCulture = [
     "wordIds": [
       "25565"
     ],
+    "cloze": {
+      "de": "Rückenwind",
+      "en": "tailwind"
+    },
     "sourceIndex": 15565
   },
   {
@@ -11456,6 +14148,10 @@ const phrasesCulture = [
     "wordIds": [
       "25572"
     ],
+    "cloze": {
+      "de": "Schlusspfiff",
+      "en": "final"
+    },
     "sourceIndex": 15572
   },
   {
@@ -11473,6 +14169,10 @@ const phrasesCulture = [
     "wordIds": [
       "25613"
     ],
+    "cloze": {
+      "de": "zeigen",
+      "en": "show"
+    },
     "sourceIndex": 15613
   },
   {
@@ -11490,6 +14190,10 @@ const phrasesCulture = [
     "wordIds": [
       "25622"
     ],
+    "cloze": {
+      "de": "Ziellinie",
+      "en": "finish"
+    },
     "sourceIndex": 15622
   },
   {
@@ -11507,6 +14211,10 @@ const phrasesCulture = [
     "wordIds": [
       "25650"
     ],
+    "cloze": {
+      "de": "Bademeister",
+      "en": "lifeguard"
+    },
     "sourceIndex": 15650
   },
   {
@@ -11524,6 +14232,10 @@ const phrasesCulture = [
     "wordIds": [
       "25667"
     ],
+    "cloze": {
+      "de": "Diagonale",
+      "en": "diagonal"
+    },
     "sourceIndex": 15667
   },
   {
@@ -11541,6 +14253,10 @@ const phrasesCulture = [
     "wordIds": [
       "25706"
     ],
+    "cloze": {
+      "de": "Herrenmannschaft",
+      "en": "men's"
+    },
     "sourceIndex": 15706
   },
   {
@@ -11558,6 +14274,10 @@ const phrasesCulture = [
     "wordIds": [
       "25731"
     ],
+    "cloze": {
+      "de": "kubanische",
+      "en": "Cuban"
+    },
     "sourceIndex": 15731
   },
   {
@@ -11575,6 +14295,10 @@ const phrasesCulture = [
     "wordIds": [
       "25763"
     ],
+    "cloze": {
+      "de": "Pflichtspiel",
+      "en": "competitive"
+    },
     "sourceIndex": 15763
   },
   {
@@ -11592,6 +14316,10 @@ const phrasesCulture = [
     "wordIds": [
       "25828"
     ],
+    "cloze": {
+      "de": "weiterlaufen",
+      "en": "continue"
+    },
     "sourceIndex": 15828
   },
   {
@@ -11609,6 +14337,10 @@ const phrasesCulture = [
     "wordIds": [
       "25845"
     ],
+    "cloze": {
+      "de": "Abschlussfeier",
+      "en": "graduation"
+    },
     "sourceIndex": 15845
   },
   {
@@ -11626,6 +14358,10 @@ const phrasesCulture = [
     "wordIds": [
       "25906"
     ],
+    "cloze": {
+      "de": "Frontmann",
+      "en": "frontman"
+    },
     "sourceIndex": 15906
   },
   {
@@ -11643,6 +14379,10 @@ const phrasesCulture = [
     "wordIds": [
       "25929"
     ],
+    "cloze": {
+      "de": "Harmony",
+      "en": "harmony"
+    },
     "sourceIndex": 15929
   },
   {
@@ -11660,6 +14400,10 @@ const phrasesCulture = [
     "wordIds": [
       "25975"
     ],
+    "cloze": {
+      "de": "Musiklehrer",
+      "en": "music"
+    },
     "sourceIndex": 15975
   },
   {
@@ -11677,6 +14421,10 @@ const phrasesCulture = [
     "wordIds": [
       "26020"
     ],
+    "cloze": {
+      "de": "Touchdown",
+      "en": "touchdown"
+    },
     "sourceIndex": 16020
   },
   {
@@ -11694,6 +14442,10 @@ const phrasesCulture = [
     "wordIds": [
       "26027"
     ],
+    "cloze": {
+      "de": "unlustigen",
+      "en": "unamusing"
+    },
     "sourceIndex": 16027
   },
   {
@@ -11711,6 +14463,10 @@ const phrasesCulture = [
     "wordIds": [
       "26028"
     ],
+    "cloze": {
+      "de": "unplugged",
+      "en": "unplugged"
+    },
     "sourceIndex": 16028
   },
   {
@@ -11728,6 +14484,10 @@ const phrasesCulture = [
     "wordIds": [
       "26037"
     ],
+    "cloze": {
+      "de": "vorangehen",
+      "en": "go"
+    },
     "sourceIndex": 16037
   },
   {
@@ -11745,6 +14505,10 @@ const phrasesCulture = [
     "wordIds": [
       "26091"
     ],
+    "cloze": {
+      "de": "Blocker",
+      "en": "blocker"
+    },
     "sourceIndex": 16091
   },
   {
@@ -11762,6 +14526,10 @@ const phrasesCulture = [
     "wordIds": [
       "26113"
     ],
+    "cloze": {
+      "de": "Fasnacht",
+      "en": "Carnival"
+    },
     "sourceIndex": 16113
   },
   {
@@ -11779,6 +14547,10 @@ const phrasesCulture = [
     "wordIds": [
       "26117"
     ],
+    "cloze": {
+      "de": "Flamenco",
+      "en": "flamenco"
+    },
     "sourceIndex": 16117
   },
   {
@@ -11796,6 +14568,10 @@ const phrasesCulture = [
     "wordIds": [
       "26233"
     ],
+    "cloze": {
+      "de": "singende",
+      "en": "singing"
+    },
     "sourceIndex": 16233
   },
   {
@@ -11813,6 +14589,10 @@ const phrasesCulture = [
     "wordIds": [
       "26235"
     ],
+    "cloze": {
+      "de": "Snooker",
+      "en": "snooker"
+    },
     "sourceIndex": 16235
   },
   {
@@ -11830,6 +14610,10 @@ const phrasesCulture = [
     "wordIds": [
       "26336"
     ],
+    "cloze": {
+      "de": "Baseballschläger",
+      "en": "baseball"
+    },
     "sourceIndex": 16336
   },
   {
@@ -11847,6 +14631,10 @@ const phrasesCulture = [
     "wordIds": [
       "26395"
     ],
+    "cloze": {
+      "de": "geigen",
+      "en": "play"
+    },
     "sourceIndex": 16395
   },
   {
@@ -11864,6 +14652,10 @@ const phrasesCulture = [
     "wordIds": [
       "26432"
     ],
+    "cloze": {
+      "de": "Kunstsammlung",
+      "en": "art"
+    },
     "sourceIndex": 16432
   },
   {
@@ -11881,6 +14673,10 @@ const phrasesCulture = [
     "wordIds": [
       "26437"
     ],
+    "cloze": {
+      "de": "Marzipan",
+      "en": "marzipan"
+    },
     "sourceIndex": 16437
   },
   {
@@ -11898,6 +14694,10 @@ const phrasesCulture = [
     "wordIds": [
       "26458"
     ],
+    "cloze": {
+      "de": "Otter",
+      "en": "otter"
+    },
     "sourceIndex": 16458
   },
   {
@@ -11915,6 +14715,10 @@ const phrasesCulture = [
     "wordIds": [
       "26488"
     ],
+    "cloze": {
+      "de": "schwimmende",
+      "en": "iceberg"
+    },
     "sourceIndex": 16488
   },
   {
@@ -11932,6 +14736,10 @@ const phrasesCulture = [
     "wordIds": [
       "26519"
     ],
+    "cloze": {
+      "de": "Turnverein",
+      "en": "gymnastics"
+    },
     "sourceIndex": 16519
   },
   {
@@ -11949,6 +14757,10 @@ const phrasesCulture = [
     "wordIds": [
       "26634"
     ],
+    "cloze": {
+      "de": "Futsal",
+      "en": "Futsal"
+    },
     "sourceIndex": 16634
   },
   {
@@ -11966,6 +14778,10 @@ const phrasesCulture = [
     "wordIds": [
       "26670"
     ],
+    "cloze": {
+      "de": "Jecken",
+      "en": "carnival"
+    },
     "sourceIndex": 16670
   },
   {
@@ -11983,6 +14799,10 @@ const phrasesCulture = [
     "wordIds": [
       "26671"
     ],
+    "cloze": {
+      "de": "Jogger",
+      "en": "jogger"
+    },
     "sourceIndex": 16671
   },
   {
@@ -12000,6 +14820,10 @@ const phrasesCulture = [
     "wordIds": [
       "26686"
     ],
+    "cloze": {
+      "de": "Kunsthaus",
+      "en": "art"
+    },
     "sourceIndex": 16686
   },
   {
@@ -12017,6 +14841,10 @@ const phrasesCulture = [
     "wordIds": [
       "26709"
     ],
+    "cloze": {
+      "de": "Oboe",
+      "en": "oboe"
+    },
     "sourceIndex": 16709
   },
   {
@@ -12034,6 +14862,10 @@ const phrasesCulture = [
     "wordIds": [
       "26756"
     ],
+    "cloze": {
+      "de": "Skater",
+      "en": "skater"
+    },
     "sourceIndex": 16756
   },
   {
@@ -12051,6 +14883,10 @@ const phrasesCulture = [
     "wordIds": [
       "26802"
     ],
+    "cloze": {
+      "de": "Zauberstab",
+      "en": "magic"
+    },
     "sourceIndex": 16802
   },
   {
@@ -12068,6 +14904,10 @@ const phrasesCulture = [
     "wordIds": [
       "26940"
     ],
+    "cloze": {
+      "de": "Mundharmonika",
+      "en": "harmonica"
+    },
     "sourceIndex": 16940
   },
   {
@@ -12085,6 +14925,10 @@ const phrasesCulture = [
     "wordIds": [
       "26985"
     ],
+    "cloze": {
+      "de": "Schnappschuss",
+      "en": "snapshot"
+    },
     "sourceIndex": 16985
   },
   {
@@ -12102,6 +14946,10 @@ const phrasesCulture = [
     "wordIds": [
       "27021"
     ],
+    "cloze": {
+      "de": "unpraktisch",
+      "en": "impractical"
+    },
     "sourceIndex": 17021
   },
   {
@@ -12119,6 +14967,10 @@ const phrasesCulture = [
     "wordIds": [
       "27044"
     ],
+    "cloze": {
+      "de": "Warteschlange",
+      "en": "queue"
+    },
     "sourceIndex": 17044
   },
   {
@@ -12136,6 +14988,10 @@ const phrasesCulture = [
     "wordIds": [
       "27087"
     ],
+    "cloze": {
+      "de": "Ballerina",
+      "en": "ballerina"
+    },
     "sourceIndex": 17087
   },
   {
@@ -12153,6 +15009,10 @@ const phrasesCulture = [
     "wordIds": [
       "27094"
     ],
+    "cloze": {
+      "de": "Bestenliste",
+      "en": "high"
+    },
     "sourceIndex": 17094
   },
   {
@@ -12170,6 +15030,10 @@ const phrasesCulture = [
     "wordIds": [
       "27100"
     ],
+    "cloze": {
+      "de": "Blasorchester",
+      "en": "wind"
+    },
     "sourceIndex": 17100
   },
   {
@@ -12187,6 +15051,10 @@ const phrasesCulture = [
     "wordIds": [
       "27160"
     ],
+    "cloze": {
+      "de": "Handballer",
+      "en": "handball"
+    },
     "sourceIndex": 17160
   },
   {
@@ -12204,6 +15072,10 @@ const phrasesCulture = [
     "wordIds": [
       "27193"
     ],
+    "cloze": {
+      "de": "Krapfen",
+      "en": "doughnuts"
+    },
     "sourceIndex": 17193
   },
   {
@@ -12221,6 +15093,10 @@ const phrasesCulture = [
     "wordIds": [
       "27231"
     ],
+    "cloze": {
+      "de": "Osterfeuer",
+      "en": "Easter"
+    },
     "sourceIndex": 17231
   },
   {
@@ -12238,6 +15114,10 @@ const phrasesCulture = [
     "wordIds": [
       "27234"
     ],
+    "cloze": {
+      "de": "Plattenspieler",
+      "en": "record"
+    },
     "sourceIndex": 17234
   },
   {
@@ -12255,6 +15135,10 @@ const phrasesCulture = [
     "wordIds": [
       "27256"
     ],
+    "cloze": {
+      "de": "Skispringer",
+      "en": "ski"
+    },
     "sourceIndex": 17256
   },
   {
@@ -12272,6 +15156,10 @@ const phrasesCulture = [
     "wordIds": [
       "27330"
     ],
+    "cloze": {
+      "de": "Taucher",
+      "en": "diver"
+    },
     "sourceIndex": 17330
   },
   {
@@ -12289,6 +15177,10 @@ const phrasesCulture = [
     "wordIds": [
       "27350"
     ],
+    "cloze": {
+      "de": "Bastel",
+      "en": "craft"
+    },
     "sourceIndex": 17350
   },
   {
@@ -12306,6 +15198,10 @@ const phrasesCulture = [
     "wordIds": [
       "27371"
     ],
+    "cloze": {
+      "de": "Debütalbum",
+      "en": "debut"
+    },
     "sourceIndex": 17371
   },
   {
@@ -12323,6 +15219,10 @@ const phrasesCulture = [
     "wordIds": [
       "27394"
     ],
+    "cloze": {
+      "de": "Fabel",
+      "en": "fable"
+    },
     "sourceIndex": 17394
   },
   {
@@ -12340,6 +15240,10 @@ const phrasesCulture = [
     "wordIds": [
       "27409"
     ],
+    "cloze": {
+      "de": "Fussballplatz",
+      "en": "football"
+    },
     "sourceIndex": 17409
   },
   {
@@ -12357,6 +15261,10 @@ const phrasesCulture = [
     "wordIds": [
       "27410"
     ],
+    "cloze": {
+      "de": "Fussballstadion",
+      "en": "football"
+    },
     "sourceIndex": 17410
   },
   {
@@ -12374,6 +15282,10 @@ const phrasesCulture = [
     "wordIds": [
       "27493"
     ],
+    "cloze": {
+      "de": "modelliert",
+      "en": "models"
+    },
     "sourceIndex": 17493
   },
   {
@@ -12391,6 +15303,10 @@ const phrasesCulture = [
     "wordIds": [
       "27526"
     ],
+    "cloze": {
+      "de": "Salto",
+      "en": "somersault"
+    },
     "sourceIndex": 17526
   },
   {
@@ -12408,6 +15324,10 @@ const phrasesCulture = [
     "wordIds": [
       "27542"
     ],
+    "cloze": {
+      "de": "Skifahrer",
+      "en": "skier"
+    },
     "sourceIndex": 17542
   },
   {
@@ -12425,6 +15345,10 @@ const phrasesCulture = [
     "wordIds": [
       "27544"
     ],
+    "cloze": {
+      "de": "Spaziergänger",
+      "en": "walker"
+    },
     "sourceIndex": 17544
   },
   {
@@ -12442,6 +15366,10 @@ const phrasesCulture = [
     "wordIds": [
       "27611"
     ],
+    "cloze": {
+      "de": "Algerier",
+      "en": "Algerian"
+    },
     "sourceIndex": 17611
   },
   {
@@ -12459,6 +15387,10 @@ const phrasesCulture = [
     "wordIds": [
       "27679"
     ],
+    "cloze": {
+      "de": "Filmstar",
+      "en": "film"
+    },
     "sourceIndex": 17679
   },
   {
@@ -12476,6 +15408,10 @@ const phrasesCulture = [
     "wordIds": [
       "27707"
     ],
+    "cloze": {
+      "de": "Hauptpreis",
+      "en": "main"
+    },
     "sourceIndex": 17707
   },
   {
@@ -12493,6 +15429,10 @@ const phrasesCulture = [
     "wordIds": [
       "27717"
     ],
+    "cloze": {
+      "de": "Jugendmannschaft",
+      "en": "youth"
+    },
     "sourceIndex": 17717
   },
   {
@@ -12510,6 +15450,10 @@ const phrasesCulture = [
     "wordIds": [
       "27738"
     ],
+    "cloze": {
+      "de": "Lineal",
+      "en": "ruler"
+    },
     "sourceIndex": 17738
   },
   {
@@ -12527,6 +15471,10 @@ const phrasesCulture = [
     "wordIds": [
       "27783"
     ],
+    "cloze": {
+      "de": "Schuhwerk",
+      "en": "footwear"
+    },
     "sourceIndex": 17783
   },
   {
@@ -12544,6 +15492,10 @@ const phrasesCulture = [
     "wordIds": [
       "27792"
     ],
+    "cloze": {
+      "de": "Siegtreffer",
+      "en": "winning"
+    },
     "sourceIndex": 17792
   },
   {
@@ -12561,6 +15513,10 @@ const phrasesCulture = [
     "wordIds": [
       "27809"
     ],
+    "cloze": {
+      "de": "tanzende",
+      "en": "dancing"
+    },
     "sourceIndex": 17809
   },
   {
@@ -12578,6 +15534,10 @@ const phrasesCulture = [
     "wordIds": [
       "27824"
     ],
+    "cloze": {
+      "de": "Vereinsleben",
+      "en": "Club"
+    },
     "sourceIndex": 17824
   },
   {
@@ -12595,6 +15555,10 @@ const phrasesCulture = [
     "wordIds": [
       "27862"
     ],
+    "cloze": {
+      "de": "abgerundet",
+      "en": "rounded"
+    },
     "sourceIndex": 17862
   },
   {
@@ -12612,6 +15576,10 @@ const phrasesCulture = [
     "wordIds": [
       "27905"
     ],
+    "cloze": {
+      "de": "Engelchen",
+      "en": "little"
+    },
     "sourceIndex": 17905
   },
   {
@@ -12629,6 +15597,10 @@ const phrasesCulture = [
     "wordIds": [
       "27947"
     ],
+    "cloze": {
+      "de": "häkeln",
+      "en": "crochet"
+    },
     "sourceIndex": 17947
   },
   {
@@ -12646,6 +15618,10 @@ const phrasesCulture = [
     "wordIds": [
       "27976"
     ],
+    "cloze": {
+      "de": "Laufsteg",
+      "en": "catwalk"
+    },
     "sourceIndex": 17976
   },
   {
@@ -12663,6 +15639,10 @@ const phrasesCulture = [
     "wordIds": [
       "27985"
     ],
+    "cloze": {
+      "de": "Läuferin",
+      "en": "runner"
+    },
     "sourceIndex": 17985
   },
   {
@@ -12680,6 +15660,10 @@ const phrasesCulture = [
     "wordIds": [
       "27989"
     ],
+    "cloze": {
+      "de": "mitlaufen",
+      "en": "run"
+    },
     "sourceIndex": 17989
   },
   {
@@ -12697,6 +15681,10 @@ const phrasesCulture = [
     "wordIds": [
       "28000"
     ],
+    "cloze": {
+      "de": "Osterfest",
+      "en": "Easter"
+    },
     "sourceIndex": 18000
   },
   {
@@ -12714,6 +15702,10 @@ const phrasesCulture = [
     "wordIds": [
       "28037"
     ],
+    "cloze": {
+      "de": "Spielstätte",
+      "en": "venue"
+    },
     "sourceIndex": 18037
   },
   {
@@ -12731,6 +15723,10 @@ const phrasesCulture = [
     "wordIds": [
       "28045"
     ],
+    "cloze": {
+      "de": "Swimmingpool",
+      "en": "swimming"
+    },
     "sourceIndex": 18045
   },
   {
@@ -12748,6 +15744,10 @@ const phrasesCulture = [
     "wordIds": [
       "28050"
     ],
+    "cloze": {
+      "de": "Tonstudio",
+      "en": "recording"
+    },
     "sourceIndex": 18050
   },
   {
@@ -12765,6 +15765,10 @@ const phrasesCulture = [
     "wordIds": [
       "28061"
     ],
+    "cloze": {
+      "de": "verschwitzt",
+      "en": "sweaty"
+    },
     "sourceIndex": 18061
   },
   {
@@ -12782,6 +15786,10 @@ const phrasesCulture = [
     "wordIds": [
       "28068"
     ],
+    "cloze": {
+      "de": "Vorspann",
+      "en": "opening"
+    },
     "sourceIndex": 18068
   },
   {
@@ -12799,6 +15807,10 @@ const phrasesCulture = [
     "wordIds": [
       "28127"
     ],
+    "cloze": {
+      "de": "Caddy",
+      "en": "caddy"
+    },
     "sourceIndex": 18127
   },
   {
@@ -12816,6 +15828,10 @@ const phrasesCulture = [
     "wordIds": [
       "28133"
     ],
+    "cloze": {
+      "de": "Commercial",
+      "en": "commercial"
+    },
     "sourceIndex": 18133
   },
   {
@@ -12833,6 +15849,10 @@ const phrasesCulture = [
     "wordIds": [
       "28158"
     ],
+    "cloze": {
+      "de": "Lieblingsfussballmannschaft",
+      "en": "football"
+    },
     "sourceIndex": 18158
   },
   {
@@ -12850,6 +15870,10 @@ const phrasesCulture = [
     "wordIds": [
       "28218"
     ],
+    "cloze": {
+      "de": "Modellbau",
+      "en": "model"
+    },
     "sourceIndex": 18218
   },
   {
@@ -12867,6 +15891,10 @@ const phrasesCulture = [
     "wordIds": [
       "28231"
     ],
+    "cloze": {
+      "de": "Penalty",
+      "en": "penalty"
+    },
     "sourceIndex": 18231
   },
   {
@@ -12884,6 +15912,10 @@ const phrasesCulture = [
     "wordIds": [
       "28329"
     ],
+    "cloze": {
+      "de": "Weihnachtslied",
+      "en": "Christmas"
+    },
     "sourceIndex": 18329
   },
   {
@@ -12901,6 +15933,10 @@ const phrasesCulture = [
     "wordIds": [
       "28352"
     ],
+    "cloze": {
+      "de": "Absprung",
+      "en": "take-off"
+    },
     "sourceIndex": 18352
   },
   {
@@ -12918,6 +15954,10 @@ const phrasesCulture = [
     "wordIds": [
       "28353"
     ],
+    "cloze": {
+      "de": "angeführt",
+      "en": "led"
+    },
     "sourceIndex": 18353
   },
   {
@@ -12935,6 +15975,10 @@ const phrasesCulture = [
     "wordIds": [
       "28394"
     ],
+    "cloze": {
+      "de": "Ehrengast",
+      "en": "guest"
+    },
     "sourceIndex": 18394
   },
   {
@@ -12952,6 +15996,10 @@ const phrasesCulture = [
     "wordIds": [
       "28413"
     ],
+    "cloze": {
+      "de": "Fechter",
+      "en": "fencer"
+    },
     "sourceIndex": 18413
   },
   {
@@ -12969,6 +16017,10 @@ const phrasesCulture = [
     "wordIds": [
       "28416"
     ],
+    "cloze": {
+      "de": "Festzelt",
+      "en": "festival"
+    },
     "sourceIndex": 18416
   },
   {
@@ -12986,6 +16038,10 @@ const phrasesCulture = [
     "wordIds": [
       "28445"
     ],
+    "cloze": {
+      "de": "Heimmannschaft",
+      "en": "home"
+    },
     "sourceIndex": 18445
   },
   {
@@ -13003,6 +16059,10 @@ const phrasesCulture = [
     "wordIds": [
       "28561"
     ],
+    "cloze": {
+      "de": "Sportclub",
+      "en": "sports"
+    },
     "sourceIndex": 18561
   },
   {
@@ -13020,6 +16080,10 @@ const phrasesCulture = [
     "wordIds": [
       "28684"
     ],
+    "cloze": {
+      "de": "Filmpreis",
+      "en": "film"
+    },
     "sourceIndex": 18684
   },
   {
@@ -13037,6 +16101,10 @@ const phrasesCulture = [
     "wordIds": [
       "28728"
     ],
+    "cloze": {
+      "de": "Kirchenchor",
+      "en": "church"
+    },
     "sourceIndex": 18728
   },
   {
@@ -13054,6 +16122,10 @@ const phrasesCulture = [
     "wordIds": [
       "28763"
     ],
+    "cloze": {
+      "de": "Lieblingsmusikstück",
+      "en": "piece"
+    },
     "sourceIndex": 18763
   },
   {
@@ -13071,6 +16143,10 @@ const phrasesCulture = [
     "wordIds": [
       "28780"
     ],
+    "cloze": {
+      "de": "Puppenspieler",
+      "en": "puppeteer"
+    },
     "sourceIndex": 18780
   },
   {
@@ -13088,6 +16164,10 @@ const phrasesCulture = [
     "wordIds": [
       "28787"
     ],
+    "cloze": {
+      "de": "Ruderer",
+      "en": "rower"
+    },
     "sourceIndex": 18787
   },
   {
@@ -13105,6 +16185,10 @@ const phrasesCulture = [
     "wordIds": [
       "28858"
     ],
+    "cloze": {
+      "de": "Wrestler",
+      "en": "wrestler"
+    },
     "sourceIndex": 18858
   },
   {
@@ -13122,6 +16206,10 @@ const phrasesCulture = [
     "wordIds": [
       "28923"
     ],
+    "cloze": {
+      "de": "Castingshow",
+      "en": "casting"
+    },
     "sourceIndex": 18923
   },
   {
@@ -13139,6 +16227,10 @@ const phrasesCulture = [
     "wordIds": [
       "28927"
     ],
+    "cloze": {
+      "de": "designen",
+      "en": "design"
+    },
     "sourceIndex": 18927
   },
   {
@@ -13156,6 +16248,10 @@ const phrasesCulture = [
     "wordIds": [
       "28943"
     ],
+    "cloze": {
+      "de": "Eiskunstlauf",
+      "en": "figure"
+    },
     "sourceIndex": 18943
   },
   {
@@ -13173,6 +16269,10 @@ const phrasesCulture = [
     "wordIds": [
       "28984"
     ],
+    "cloze": {
+      "de": "geübt",
+      "en": "skilled"
+    },
     "sourceIndex": 18984
   },
   {
@@ -13190,6 +16290,10 @@ const phrasesCulture = [
     "wordIds": [
       "29021"
     ],
+    "cloze": {
+      "de": "Kletterer",
+      "en": "climber"
+    },
     "sourceIndex": 19021
   },
   {
@@ -13207,6 +16311,10 @@ const phrasesCulture = [
     "wordIds": [
       "29105"
     ],
+    "cloze": {
+      "de": "Sportschuhe",
+      "en": "sports"
+    },
     "sourceIndex": 19105
   },
   {
@@ -13224,6 +16332,10 @@ const phrasesCulture = [
     "wordIds": [
       "29157"
     ],
+    "cloze": {
+      "de": "Wanderausstellung",
+      "en": "traveling"
+    },
     "sourceIndex": 19157
   },
   {
@@ -13241,6 +16353,10 @@ const phrasesCulture = [
     "wordIds": [
       "29180"
     ],
+    "cloze": {
+      "de": "Aerobic",
+      "en": "aerobics"
+    },
     "sourceIndex": 19180
   },
   {
@@ -13258,6 +16374,10 @@ const phrasesCulture = [
     "wordIds": [
       "29214"
     ],
+    "cloze": {
+      "de": "Clubhaus",
+      "en": "clubhouse"
+    },
     "sourceIndex": 19214
   },
   {
@@ -13275,6 +16395,10 @@ const phrasesCulture = [
     "wordIds": [
       "29248"
     ],
+    "cloze": {
+      "de": "Filmchen",
+      "en": "short"
+    },
     "sourceIndex": 19248
   },
   {
@@ -13292,6 +16416,10 @@ const phrasesCulture = [
     "wordIds": [
       "29301"
     ],
+    "cloze": {
+      "de": "Isländer",
+      "en": "Icelander"
+    },
     "sourceIndex": 19301
   },
   {
@@ -13309,6 +16437,10 @@ const phrasesCulture = [
     "wordIds": [
       "29312"
     ],
+    "cloze": {
+      "de": "Kreuzworträtsel",
+      "en": "crossword"
+    },
     "sourceIndex": 19312
   },
   {
@@ -13326,6 +16458,10 @@ const phrasesCulture = [
     "wordIds": [
       "29488"
     ],
+    "cloze": {
+      "de": "aufspringen",
+      "en": "jump"
+    },
     "sourceIndex": 19488
   },
   {
@@ -13343,6 +16479,10 @@ const phrasesCulture = [
     "wordIds": [
       "29505"
     ],
+    "cloze": {
+      "de": "Blockflöte",
+      "en": "recorder"
+    },
     "sourceIndex": 19505
   },
   {
@@ -13360,6 +16500,10 @@ const phrasesCulture = [
     "wordIds": [
       "29547"
     ],
+    "cloze": {
+      "de": "Finalrunde",
+      "en": "final"
+    },
     "sourceIndex": 19547
   },
   {
@@ -13377,6 +16521,10 @@ const phrasesCulture = [
     "wordIds": [
       "29588"
     ],
+    "cloze": {
+      "de": "Instrumentalmusik",
+      "en": "instrumental"
+    },
     "sourceIndex": 19588
   },
   {
@@ -13394,6 +16542,10 @@ const phrasesCulture = [
     "wordIds": [
       "29680"
     ],
+    "cloze": {
+      "de": "Spielbeginn",
+      "en": "start"
+    },
     "sourceIndex": 19680
   },
   {
@@ -13411,6 +16563,10 @@ const phrasesCulture = [
     "wordIds": [
       "29683"
     ],
+    "cloze": {
+      "de": "Sportveranstaltung",
+      "en": "sporting"
+    },
     "sourceIndex": 19683
   },
   {
@@ -13428,6 +16584,10 @@ const phrasesCulture = [
     "wordIds": [
       "29737"
     ],
+    "cloze": {
+      "de": "vorspielen",
+      "en": "play"
+    },
     "sourceIndex": 19737
   },
   {
@@ -13445,6 +16605,10 @@ const phrasesCulture = [
     "wordIds": [
       "29747"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "world-famous"
+    },
     "sourceIndex": 19747
   },
   {
@@ -13462,6 +16626,10 @@ const phrasesCulture = [
     "wordIds": [
       "29778"
     ],
+    "cloze": {
+      "de": "Athletin",
+      "en": "female"
+    },
     "sourceIndex": 19778
   },
   {
@@ -13479,6 +16647,10 @@ const phrasesCulture = [
     "wordIds": [
       "29813"
     ],
+    "cloze": {
+      "de": "Elfe",
+      "en": "elf"
+    },
     "sourceIndex": 19813
   },
   {
@@ -13496,6 +16668,10 @@ const phrasesCulture = [
     "wordIds": [
       "29904"
     ],
+    "cloze": {
+      "de": "Lokalzeitung",
+      "en": "local"
+    },
     "sourceIndex": 19904
   },
   {
@@ -13513,6 +16689,10 @@ const phrasesCulture = [
     "wordIds": [
       "29923"
     ],
+    "cloze": {
+      "de": "Osterhase",
+      "en": "Easter"
+    },
     "sourceIndex": 19923
   },
   {
@@ -13530,6 +16710,10 @@ const phrasesCulture = [
     "wordIds": [
       "29935"
     ],
+    "cloze": {
+      "de": "pokern",
+      "en": "play"
+    },
     "sourceIndex": 19935
   },
   {
@@ -13547,6 +16731,10 @@ const phrasesCulture = [
     "wordIds": [
       "29986"
     ],
+    "cloze": {
+      "de": "Stickerei",
+      "en": "embroidery"
+    },
     "sourceIndex": 19986
   },
   {
@@ -13564,6 +16752,10 @@ const phrasesCulture = [
     "wordIds": [
       "29993"
     ],
+    "cloze": {
+      "de": "Tennisspieler",
+      "en": "tennis"
+    },
     "sourceIndex": 19993
   },
   {
@@ -13581,6 +16773,10 @@ const phrasesCulture = [
     "wordIds": [
       "30045"
     ],
+    "cloze": {
+      "de": "Wettrennen",
+      "en": "race"
+    },
     "sourceIndex": 20045
   },
   {
@@ -13598,6 +16794,10 @@ const phrasesCulture = [
     "wordIds": [
       "30089"
     ],
+    "cloze": {
+      "de": "Bigband",
+      "en": "big"
+    },
     "sourceIndex": 20089
   },
   {
@@ -13615,6 +16815,10 @@ const phrasesCulture = [
     "wordIds": [
       "30220"
     ],
+    "cloze": {
+      "de": "Orgelmusik",
+      "en": "organ"
+    },
     "sourceIndex": 20220
   }
 ];

@@ -14,6 +14,10 @@ const phrasesEducation = [
     "wordIds": [
       "10047"
     ],
+    "cloze": {
+      "de": "es",
+      "en": "know"
+    },
     "sourceIndex": 47
   },
   {
@@ -31,6 +35,10 @@ const phrasesEducation = [
     "wordIds": [
       "10050"
     ],
+    "cloze": {
+      "de": "Mann",
+      "en": "man"
+    },
     "sourceIndex": 50
   },
   {
@@ -48,6 +56,10 @@ const phrasesEducation = [
     "wordIds": [
       "10062"
     ],
+    "cloze": {
+      "de": "Deutsch",
+      "en": "German"
+    },
     "sourceIndex": 62
   },
   {
@@ -65,6 +77,10 @@ const phrasesEducation = [
     "wordIds": [
       "10063"
     ],
+    "cloze": {
+      "de": "Deutsch",
+      "en": "German"
+    },
     "sourceIndex": 63
   },
   {
@@ -82,6 +98,10 @@ const phrasesEducation = [
     "wordIds": [
       "10068"
     ],
+    "cloze": {
+      "de": "Frau",
+      "en": "woman"
+    },
     "sourceIndex": 68
   },
   {
@@ -99,6 +119,10 @@ const phrasesEducation = [
     "wordIds": [
       "10088"
     ],
+    "cloze": {
+      "de": "richtige",
+      "en": "correct"
+    },
     "sourceIndex": 88
   },
   {
@@ -116,6 +140,10 @@ const phrasesEducation = [
     "wordIds": [
       "10099"
     ],
+    "cloze": {
+      "de": "einige",
+      "en": "some"
+    },
     "sourceIndex": 99
   },
   {
@@ -133,6 +161,10 @@ const phrasesEducation = [
     "wordIds": [
       "10100"
     ],
+    "cloze": {
+      "de": "Fall",
+      "en": "case"
+    },
     "sourceIndex": 100
   },
   {
@@ -150,6 +182,10 @@ const phrasesEducation = [
     "wordIds": [
       "10164"
     ],
+    "cloze": {
+      "de": "Beispiel",
+      "en": "example"
+    },
     "sourceIndex": 164
   },
   {
@@ -167,6 +203,10 @@ const phrasesEducation = [
     "wordIds": [
       "10184"
     ],
+    "cloze": {
+      "de": "erhalten",
+      "en": "I"
+    },
     "sourceIndex": 184
   },
   {
@@ -184,6 +224,10 @@ const phrasesEducation = [
     "wordIds": [
       "10203"
     ],
+    "cloze": {
+      "de": "egal",
+      "en": "all"
+    },
     "sourceIndex": 203
   },
   {
@@ -201,6 +245,10 @@ const phrasesEducation = [
     "wordIds": [
       "10223"
     ],
+    "cloze": {
+      "de": "schreibe",
+      "en": "I"
+    },
     "sourceIndex": 223
   },
   {
@@ -218,6 +266,10 @@ const phrasesEducation = [
     "wordIds": [
       "10226"
     ],
+    "cloze": {
+      "de": "Artikel",
+      "en": "article"
+    },
     "sourceIndex": 226
   },
   {
@@ -235,6 +287,10 @@ const phrasesEducation = [
     "wordIds": [
       "10227"
     ],
+    "cloze": {
+      "de": "bestimmt",
+      "en": "certainly"
+    },
     "sourceIndex": 227
   },
   {
@@ -252,6 +308,10 @@ const phrasesEducation = [
     "wordIds": [
       "10233"
     ],
+    "cloze": {
+      "de": "mehrere",
+      "en": "several"
+    },
     "sourceIndex": 233
   },
   {
@@ -269,6 +329,10 @@ const phrasesEducation = [
     "wordIds": [
       "10235"
     ],
+    "cloze": {
+      "de": "Sache",
+      "en": "matter"
+    },
     "sourceIndex": 235
   },
   {
@@ -286,6 +350,10 @@ const phrasesEducation = [
     "wordIds": [
       "10241"
     ],
+    "cloze": {
+      "de": "lese",
+      "en": "read"
+    },
     "sourceIndex": 241
   },
   {
@@ -303,6 +371,10 @@ const phrasesEducation = [
     "wordIds": [
       "10244"
     ],
+    "cloze": {
+      "de": "Schliesslich",
+      "en": "Finally"
+    },
     "sourceIndex": 244
   },
   {
@@ -320,6 +392,10 @@ const phrasesEducation = [
     "wordIds": [
       "10246"
     ],
+    "cloze": {
+      "de": "Buch",
+      "en": "book"
+    },
     "sourceIndex": 246
   },
   {
@@ -337,6 +413,10 @@ const phrasesEducation = [
     "wordIds": [
       "10255"
     ],
+    "cloze": {
+      "de": "bestehen",
+      "en": "pass"
+    },
     "sourceIndex": 255
   },
   {
@@ -354,6 +434,10 @@ const phrasesEducation = [
     "wordIds": [
       "10256"
     ],
+    "cloze": {
+      "de": "ernste",
+      "en": "serious"
+    },
     "sourceIndex": 256
   },
   {
@@ -371,6 +455,10 @@ const phrasesEducation = [
     "wordIds": [
       "10265"
     ],
+    "cloze": {
+      "de": "Idee",
+      "en": "idea"
+    },
     "sourceIndex": 265
   },
   {
@@ -388,6 +476,10 @@ const phrasesEducation = [
     "wordIds": [
       "10284"
     ],
+    "cloze": {
+      "de": "dadurch",
+      "en": "thereby"
+    },
     "sourceIndex": 284
   },
   {
@@ -405,6 +497,10 @@ const phrasesEducation = [
     "wordIds": [
       "10294"
     ],
+    "cloze": {
+      "de": "Klasse",
+      "en": "class"
+    },
     "sourceIndex": 294
   },
   {
@@ -422,6 +518,10 @@ const phrasesEducation = [
     "wordIds": [
       "10298"
     ],
+    "cloze": {
+      "de": "stimmt",
+      "en": "correct"
+    },
     "sourceIndex": 298
   },
   {
@@ -439,6 +539,10 @@ const phrasesEducation = [
     "wordIds": [
       "10312"
     ],
+    "cloze": {
+      "de": "lernen",
+      "en": "learning"
+    },
     "sourceIndex": 312
   },
   {
@@ -456,6 +560,10 @@ const phrasesEducation = [
     "wordIds": [
       "10363"
     ],
+    "cloze": {
+      "de": "Sprache",
+      "en": "language"
+    },
     "sourceIndex": 363
   },
   {
@@ -473,6 +581,10 @@ const phrasesEducation = [
     "wordIds": [
       "10370"
     ],
+    "cloze": {
+      "de": "Fehler",
+      "en": "mistake"
+    },
     "sourceIndex": 370
   },
   {
@@ -490,6 +602,10 @@ const phrasesEducation = [
     "wordIds": [
       "10398"
     ],
+    "cloze": {
+      "de": "Entscheidung",
+      "en": "decision"
+    },
     "sourceIndex": 398
   },
   {
@@ -507,6 +623,10 @@ const phrasesEducation = [
     "wordIds": [
       "10408"
     ],
+    "cloze": {
+      "de": "bereit",
+      "en": "ready"
+    },
     "sourceIndex": 408
   },
   {
@@ -524,6 +644,10 @@ const phrasesEducation = [
     "wordIds": [
       "10418"
     ],
+    "cloze": {
+      "de": "Lösung",
+      "en": "solution"
+    },
     "sourceIndex": 418
   },
   {
@@ -541,6 +665,10 @@ const phrasesEducation = [
     "wordIds": [
       "10453"
     ],
+    "cloze": {
+      "de": "Ausbildung",
+      "en": "education"
+    },
     "sourceIndex": 453
   },
   {
@@ -558,6 +686,10 @@ const phrasesEducation = [
     "wordIds": [
       "10455"
     ],
+    "cloze": {
+      "de": "beispielsweise",
+      "en": "for"
+    },
     "sourceIndex": 455
   },
   {
@@ -575,6 +707,10 @@ const phrasesEducation = [
     "wordIds": [
       "10457"
     ],
+    "cloze": {
+      "de": "Ergebnis",
+      "en": "result"
+    },
     "sourceIndex": 457
   },
   {
@@ -592,6 +728,10 @@ const phrasesEducation = [
     "wordIds": [
       "10478"
     ],
+    "cloze": {
+      "de": "Schüler",
+      "en": "student"
+    },
     "sourceIndex": 478
   },
   {
@@ -609,6 +749,10 @@ const phrasesEducation = [
     "wordIds": [
       "10481"
     ],
+    "cloze": {
+      "de": "Text",
+      "en": "text"
+    },
     "sourceIndex": 481
   },
   {
@@ -626,6 +770,10 @@ const phrasesEducation = [
     "wordIds": [
       "10488"
     ],
+    "cloze": {
+      "de": "Ahnung",
+      "en": "idea"
+    },
     "sourceIndex": 488
   },
   {
@@ -643,6 +791,10 @@ const phrasesEducation = [
     "wordIds": [
       "10494"
     ],
+    "cloze": {
+      "de": "Grad",
+      "en": "degrees"
+    },
     "sourceIndex": 494
   },
   {
@@ -660,6 +812,10 @@ const phrasesEducation = [
     "wordIds": [
       "10525"
     ],
+    "cloze": {
+      "de": "wählen",
+      "en": "choose"
+    },
     "sourceIndex": 525
   },
   {
@@ -677,6 +833,10 @@ const phrasesEducation = [
     "wordIds": [
       "10556"
     ],
+    "cloze": {
+      "de": "Lehrer",
+      "en": "teacher"
+    },
     "sourceIndex": 556
   },
   {
@@ -694,6 +854,10 @@ const phrasesEducation = [
     "wordIds": [
       "10567"
     ],
+    "cloze": {
+      "de": "wiedererkennen",
+      "en": "recognize"
+    },
     "sourceIndex": 567
   },
   {
@@ -711,6 +875,10 @@ const phrasesEducation = [
     "wordIds": [
       "10572"
     ],
+    "cloze": {
+      "de": "Jedenfalls",
+      "en": "In"
+    },
     "sourceIndex": 572
   },
   {
@@ -728,6 +896,10 @@ const phrasesEducation = [
     "wordIds": [
       "10580"
     ],
+    "cloze": {
+      "de": "erfahren",
+      "en": "learn"
+    },
     "sourceIndex": 580
   },
   {
@@ -745,6 +917,10 @@ const phrasesEducation = [
     "wordIds": [
       "10591"
     ],
+    "cloze": {
+      "de": "Universität",
+      "en": "university"
+    },
     "sourceIndex": 591
   },
   {
@@ -762,6 +938,10 @@ const phrasesEducation = [
     "wordIds": [
       "10595"
     ],
+    "cloze": {
+      "de": "Bildung",
+      "en": "Education"
+    },
     "sourceIndex": 595
   },
   {
@@ -779,6 +959,10 @@ const phrasesEducation = [
     "wordIds": [
       "10597"
     ],
+    "cloze": {
+      "de": "englisches",
+      "en": "English"
+    },
     "sourceIndex": 597
   },
   {
@@ -796,6 +980,10 @@ const phrasesEducation = [
     "wordIds": [
       "10607"
     ],
+    "cloze": {
+      "de": "Begriff",
+      "en": "concept"
+    },
     "sourceIndex": 607
   },
   {
@@ -813,6 +1001,10 @@ const phrasesEducation = [
     "wordIds": [
       "10619"
     ],
+    "cloze": {
+      "de": "absolut",
+      "en": "absolutely"
+    },
     "sourceIndex": 619
   },
   {
@@ -830,6 +1022,10 @@ const phrasesEducation = [
     "wordIds": [
       "10637"
     ],
+    "cloze": {
+      "de": "daraus",
+      "en": "from"
+    },
     "sourceIndex": 637
   },
   {
@@ -847,6 +1043,10 @@ const phrasesEducation = [
     "wordIds": [
       "10669"
     ],
+    "cloze": {
+      "de": "perfekte",
+      "en": "perfect"
+    },
     "sourceIndex": 669
   },
   {
@@ -864,6 +1064,10 @@ const phrasesEducation = [
     "wordIds": [
       "10684"
     ],
+    "cloze": {
+      "de": "Studie",
+      "en": "study"
+    },
     "sourceIndex": 684
   },
   {
@@ -881,6 +1085,10 @@ const phrasesEducation = [
     "wordIds": [
       "10728"
     ],
+    "cloze": {
+      "de": "Abschluss",
+      "en": "degree"
+    },
     "sourceIndex": 728
   },
   {
@@ -898,6 +1106,10 @@ const phrasesEducation = [
     "wordIds": [
       "10828"
     ],
+    "cloze": {
+      "de": "entdecken",
+      "en": "discover"
+    },
     "sourceIndex": 828
   },
   {
@@ -915,6 +1127,10 @@ const phrasesEducation = [
     "wordIds": [
       "10860"
     ],
+    "cloze": {
+      "de": "Konzept",
+      "en": "concept"
+    },
     "sourceIndex": 860
   },
   {
@@ -932,6 +1148,10 @@ const phrasesEducation = [
     "wordIds": [
       "10863"
     ],
+    "cloze": {
+      "de": "notwendig",
+      "en": "necessary"
+    },
     "sourceIndex": 863
   },
   {
@@ -949,6 +1169,10 @@ const phrasesEducation = [
     "wordIds": [
       "10866"
     ],
+    "cloze": {
+      "de": "Professor",
+      "en": "professor"
+    },
     "sourceIndex": 866
   },
   {
@@ -966,6 +1190,10 @@ const phrasesEducation = [
     "wordIds": [
       "10871"
     ],
+    "cloze": {
+      "de": "Test",
+      "en": "test"
+    },
     "sourceIndex": 871
   },
   {
@@ -983,6 +1211,10 @@ const phrasesEducation = [
     "wordIds": [
       "10920"
     ],
+    "cloze": {
+      "de": "Brief",
+      "en": "letter"
+    },
     "sourceIndex": 920
   },
   {
@@ -1000,6 +1232,10 @@ const phrasesEducation = [
     "wordIds": [
       "10925"
     ],
+    "cloze": {
+      "de": "Kommentar",
+      "en": "comment"
+    },
     "sourceIndex": 925
   },
   {
@@ -1017,6 +1253,10 @@ const phrasesEducation = [
     "wordIds": [
       "10939"
     ],
+    "cloze": {
+      "de": "Forschung",
+      "en": "research"
+    },
     "sourceIndex": 939
   },
   {
@@ -1034,6 +1274,10 @@ const phrasesEducation = [
     "wordIds": [
       "10960"
     ],
+    "cloze": {
+      "de": "Gelegenheit",
+      "en": "opportunity"
+    },
     "sourceIndex": 960
   },
   {
@@ -1051,6 +1295,10 @@ const phrasesEducation = [
     "wordIds": [
       "10983"
     ],
+    "cloze": {
+      "de": "französisches",
+      "en": "French"
+    },
     "sourceIndex": 983
   },
   {
@@ -1068,6 +1316,10 @@ const phrasesEducation = [
     "wordIds": [
       "10984"
     ],
+    "cloze": {
+      "de": "Französisch",
+      "en": "French"
+    },
     "sourceIndex": 984
   },
   {
@@ -1085,6 +1337,10 @@ const phrasesEducation = [
     "wordIds": [
       "11002"
     ],
+    "cloze": {
+      "de": "Wissenschaft",
+      "en": "Science"
+    },
     "sourceIndex": 1002
   },
   {
@@ -1102,6 +1358,10 @@ const phrasesEducation = [
     "wordIds": [
       "11010"
     ],
+    "cloze": {
+      "de": "Einführung",
+      "en": "introduction"
+    },
     "sourceIndex": 1010
   },
   {
@@ -1119,6 +1379,10 @@ const phrasesEducation = [
     "wordIds": [
       "11015"
     ],
+    "cloze": {
+      "de": "Mail",
+      "en": "mail"
+    },
     "sourceIndex": 1015
   },
   {
@@ -1136,6 +1400,10 @@ const phrasesEducation = [
     "wordIds": [
       "11016"
     ],
+    "cloze": {
+      "de": "Masse",
+      "en": "mass"
+    },
     "sourceIndex": 1016
   },
   {
@@ -1153,6 +1421,10 @@ const phrasesEducation = [
     "wordIds": [
       "11033"
     ],
+    "cloze": {
+      "de": "entsprechen",
+      "en": "correspond"
+    },
     "sourceIndex": 1033
   },
   {
@@ -1170,6 +1442,10 @@ const phrasesEducation = [
     "wordIds": [
       "11059"
     ],
+    "cloze": {
+      "de": "in",
+      "en": "institute"
+    },
     "sourceIndex": 1059
   },
   {
@@ -1187,6 +1463,10 @@ const phrasesEducation = [
     "wordIds": [
       "11061"
     ],
+    "cloze": {
+      "de": "Deutschkurs",
+      "en": "course"
+    },
     "sourceIndex": 1061
   },
   {
@@ -1204,6 +1484,10 @@ const phrasesEducation = [
     "wordIds": [
       "11068"
     ],
+    "cloze": {
+      "de": "Student",
+      "en": "student"
+    },
     "sourceIndex": 1068
   },
   {
@@ -1221,6 +1505,10 @@ const phrasesEducation = [
     "wordIds": [
       "11105"
     ],
+    "cloze": {
+      "de": "lösen",
+      "en": "solve"
+    },
     "sourceIndex": 1105
   },
   {
@@ -1238,6 +1526,10 @@ const phrasesEducation = [
     "wordIds": [
       "11110"
     ],
+    "cloze": {
+      "de": "Prüfung",
+      "en": "exam"
+    },
     "sourceIndex": 1110
   },
   {
@@ -1255,6 +1547,10 @@ const phrasesEducation = [
     "wordIds": [
       "11171"
     ],
+    "cloze": {
+      "de": "Theorie",
+      "en": "theory"
+    },
     "sourceIndex": 1171
   },
   {
@@ -1272,6 +1568,10 @@ const phrasesEducation = [
     "wordIds": [
       "11181"
     ],
+    "cloze": {
+      "de": "desto",
+      "en": "more"
+    },
     "sourceIndex": 1181
   },
   {
@@ -1289,6 +1589,10 @@ const phrasesEducation = [
     "wordIds": [
       "11207"
     ],
+    "cloze": {
+      "de": "Gegenteil",
+      "en": "opposite"
+    },
     "sourceIndex": 1207
   },
   {
@@ -1306,6 +1610,10 @@ const phrasesEducation = [
     "wordIds": [
       "11218"
     ],
+    "cloze": {
+      "de": "Papier",
+      "en": "paper"
+    },
     "sourceIndex": 1218
   },
   {
@@ -1323,6 +1631,10 @@ const phrasesEducation = [
     "wordIds": [
       "11264"
     ],
+    "cloze": {
+      "de": "rechnen",
+      "en": "calculate"
+    },
     "sourceIndex": 1264
   },
   {
@@ -1340,6 +1652,10 @@ const phrasesEducation = [
     "wordIds": [
       "11269"
     ],
+    "cloze": {
+      "de": "Unterricht",
+      "en": "lesson"
+    },
     "sourceIndex": 1269
   },
   {
@@ -1357,6 +1673,10 @@ const phrasesEducation = [
     "wordIds": [
       "11298"
     ],
+    "cloze": {
+      "de": "Beweis",
+      "en": "proof"
+    },
     "sourceIndex": 1298
   },
   {
@@ -1374,6 +1694,10 @@ const phrasesEducation = [
     "wordIds": [
       "11305"
     ],
+    "cloze": {
+      "de": "Leser",
+      "en": "reader"
+    },
     "sourceIndex": 1305
   },
   {
@@ -1391,6 +1715,10 @@ const phrasesEducation = [
     "wordIds": [
       "11316"
     ],
+    "cloze": {
+      "de": "Uni",
+      "en": "university"
+    },
     "sourceIndex": 1316
   },
   {
@@ -1408,6 +1736,10 @@ const phrasesEducation = [
     "wordIds": [
       "11333"
     ],
+    "cloze": {
+      "de": "Formel",
+      "en": "formula"
+    },
     "sourceIndex": 1333
   },
   {
@@ -1425,6 +1757,10 @@ const phrasesEducation = [
     "wordIds": [
       "11342"
     ],
+    "cloze": {
+      "de": "Prof",
+      "en": "professor"
+    },
     "sourceIndex": 1342
   },
   {
@@ -1442,6 +1778,10 @@ const phrasesEducation = [
     "wordIds": [
       "11365"
     ],
+    "cloze": {
+      "de": "Journalist",
+      "en": "journalist"
+    },
     "sourceIndex": 1365
   },
   {
@@ -1459,6 +1799,10 @@ const phrasesEducation = [
     "wordIds": [
       "11426"
     ],
+    "cloze": {
+      "de": "Methode",
+      "en": "method"
+    },
     "sourceIndex": 1426
   },
   {
@@ -1476,6 +1820,10 @@ const phrasesEducation = [
     "wordIds": [
       "11442"
     ],
+    "cloze": {
+      "de": "Abschnitt",
+      "en": "section"
+    },
     "sourceIndex": 1442
   },
   {
@@ -1493,6 +1841,10 @@ const phrasesEducation = [
     "wordIds": [
       "11473"
     ],
+    "cloze": {
+      "de": "vorbereiten",
+      "en": "prepare"
+    },
     "sourceIndex": 1473
   },
   {
@@ -1510,6 +1862,10 @@ const phrasesEducation = [
     "wordIds": [
       "11488"
     ],
+    "cloze": {
+      "de": "Fakt",
+      "en": "fact"
+    },
     "sourceIndex": 1488
   },
   {
@@ -1527,6 +1883,10 @@ const phrasesEducation = [
     "wordIds": [
       "11491"
     ],
+    "cloze": {
+      "de": "Hochschule",
+      "en": "university"
+    },
     "sourceIndex": 1491
   },
   {
@@ -1544,6 +1904,10 @@ const phrasesEducation = [
     "wordIds": [
       "11543"
     ],
+    "cloze": {
+      "de": "verbessern",
+      "en": "improve"
+    },
     "sourceIndex": 1543
   },
   {
@@ -1561,6 +1925,10 @@ const phrasesEducation = [
     "wordIds": [
       "11562"
     ],
+    "cloze": {
+      "de": "prüfen",
+      "en": "check"
+    },
     "sourceIndex": 1562
   },
   {
@@ -1578,6 +1946,10 @@ const phrasesEducation = [
     "wordIds": [
       "11572"
     ],
+    "cloze": {
+      "de": "Vortrag",
+      "en": "lecture"
+    },
     "sourceIndex": 1572
   },
   {
@@ -1595,6 +1967,10 @@ const phrasesEducation = [
     "wordIds": [
       "11613"
     ],
+    "cloze": {
+      "de": "Vorbereitung",
+      "en": "preparation"
+    },
     "sourceIndex": 1613
   },
   {
@@ -1612,6 +1988,10 @@ const phrasesEducation = [
     "wordIds": [
       "11666"
     ],
+    "cloze": {
+      "de": "zwingen",
+      "en": "force"
+    },
     "sourceIndex": 1666
   },
   {
@@ -1629,6 +2009,10 @@ const phrasesEducation = [
     "wordIds": [
       "11691"
     ],
+    "cloze": {
+      "de": "vergleichen",
+      "en": "compare"
+    },
     "sourceIndex": 1691
   },
   {
@@ -1646,6 +2030,10 @@ const phrasesEducation = [
     "wordIds": [
       "11719"
     ],
+    "cloze": {
+      "de": "Gymnasium",
+      "en": "grammar"
+    },
     "sourceIndex": 1719
   },
   {
@@ -1663,6 +2051,10 @@ const phrasesEducation = [
     "wordIds": [
       "11743"
     ],
+    "cloze": {
+      "de": "Wissenschaftler",
+      "en": "scientist"
+    },
     "sourceIndex": 1743
   },
   {
@@ -1680,6 +2072,10 @@ const phrasesEducation = [
     "wordIds": [
       "11749"
     ],
+    "cloze": {
+      "de": "Element",
+      "en": "element"
+    },
     "sourceIndex": 1749
   },
   {
@@ -1697,6 +2093,10 @@ const phrasesEducation = [
     "wordIds": [
       "11754"
     ],
+    "cloze": {
+      "de": "Fähigkeit",
+      "en": "ability"
+    },
     "sourceIndex": 1754
   },
   {
@@ -1714,6 +2114,10 @@ const phrasesEducation = [
     "wordIds": [
       "11786"
     ],
+    "cloze": {
+      "de": "Chemie",
+      "en": "chemistry"
+    },
     "sourceIndex": 1786
   },
   {
@@ -1731,6 +2135,10 @@ const phrasesEducation = [
     "wordIds": [
       "11818"
     ],
+    "cloze": {
+      "de": "Bibliothek",
+      "en": "library"
+    },
     "sourceIndex": 1818
   },
   {
@@ -1748,6 +2156,10 @@ const phrasesEducation = [
     "wordIds": [
       "11820"
     ],
+    "cloze": {
+      "de": "dritte",
+      "en": "third"
+    },
     "sourceIndex": 1820
   },
   {
@@ -1765,6 +2177,10 @@ const phrasesEducation = [
     "wordIds": [
       "11824"
     ],
+    "cloze": {
+      "de": "erweitern",
+      "en": "broaden"
+    },
     "sourceIndex": 1824
   },
   {
@@ -1782,6 +2198,10 @@ const phrasesEducation = [
     "wordIds": [
       "11875"
     ],
+    "cloze": {
+      "de": "wiederholen",
+      "en": "repeat"
+    },
     "sourceIndex": 1875
   },
   {
@@ -1799,6 +2219,10 @@ const phrasesEducation = [
     "wordIds": [
       "11876"
     ],
+    "cloze": {
+      "de": "übersetzen",
+      "en": "translate"
+    },
     "sourceIndex": 1876
   },
   {
@@ -1816,6 +2240,10 @@ const phrasesEducation = [
     "wordIds": [
       "11951"
     ],
+    "cloze": {
+      "de": "testen",
+      "en": "test"
+    },
     "sourceIndex": 1951
   },
   {
@@ -1833,6 +2261,10 @@ const phrasesEducation = [
     "wordIds": [
       "11957"
     ],
+    "cloze": {
+      "de": "überraschend",
+      "en": "surprisingly"
+    },
     "sourceIndex": 1957
   },
   {
@@ -1850,6 +2282,10 @@ const phrasesEducation = [
     "wordIds": [
       "11970"
     ],
+    "cloze": {
+      "de": "Forscher",
+      "en": "researchers"
+    },
     "sourceIndex": 1970
   },
   {
@@ -1867,6 +2303,10 @@ const phrasesEducation = [
     "wordIds": [
       "11993"
     ],
+    "cloze": {
+      "de": "definieren",
+      "en": "define"
+    },
     "sourceIndex": 1993
   },
   {
@@ -1884,6 +2324,10 @@ const phrasesEducation = [
     "wordIds": [
       "12000"
     ],
+    "cloze": {
+      "de": "Franzose",
+      "en": "Frenchman"
+    },
     "sourceIndex": 2000
   },
   {
@@ -1901,6 +2345,10 @@ const phrasesEducation = [
     "wordIds": [
       "12032"
     ],
+    "cloze": {
+      "de": "Anhalt",
+      "en": "clue"
+    },
     "sourceIndex": 2032
   },
   {
@@ -1918,6 +2366,10 @@ const phrasesEducation = [
     "wordIds": [
       "12049"
     ],
+    "cloze": {
+      "de": "korrekt",
+      "en": "correct"
+    },
     "sourceIndex": 2049
   },
   {
@@ -1935,6 +2387,10 @@ const phrasesEducation = [
     "wordIds": [
       "12066"
     ],
+    "cloze": {
+      "de": "üben",
+      "en": "practice"
+    },
     "sourceIndex": 2066
   },
   {
@@ -1952,6 +2408,10 @@ const phrasesEducation = [
     "wordIds": [
       "12075"
     ],
+    "cloze": {
+      "de": "Bachelor",
+      "en": "degree"
+    },
     "sourceIndex": 2075
   },
   {
@@ -1969,6 +2429,10 @@ const phrasesEducation = [
     "wordIds": [
       "12090"
     ],
+    "cloze": {
+      "de": "italienisches",
+      "en": "Italian"
+    },
     "sourceIndex": 2090
   },
   {
@@ -1986,6 +2450,10 @@ const phrasesEducation = [
     "wordIds": [
       "12102"
     ],
+    "cloze": {
+      "de": "streng",
+      "en": "strict"
+    },
     "sourceIndex": 2102
   },
   {
@@ -2003,6 +2471,10 @@ const phrasesEducation = [
     "wordIds": [
       "12118"
     ],
+    "cloze": {
+      "de": "Durchschnitt",
+      "en": "average"
+    },
     "sourceIndex": 2118
   },
   {
@@ -2020,6 +2492,10 @@ const phrasesEducation = [
     "wordIds": [
       "12121"
     ],
+    "cloze": {
+      "de": "erstaunlich",
+      "en": "astonishing"
+    },
     "sourceIndex": 2121
   },
   {
@@ -2037,6 +2513,10 @@ const phrasesEducation = [
     "wordIds": [
       "12129"
     ],
+    "cloze": {
+      "de": "Mathematik",
+      "en": "Mathematics"
+    },
     "sourceIndex": 2129
   },
   {
@@ -2054,6 +2534,10 @@ const phrasesEducation = [
     "wordIds": [
       "12165"
     ],
+    "cloze": {
+      "de": "klären",
+      "en": "clarify"
+    },
     "sourceIndex": 2165
   },
   {
@@ -2071,6 +2555,10 @@ const phrasesEducation = [
     "wordIds": [
       "12207"
     ],
+    "cloze": {
+      "de": "Note",
+      "en": "grade"
+    },
     "sourceIndex": 2207
   },
   {
@@ -2088,6 +2576,10 @@ const phrasesEducation = [
     "wordIds": [
       "12234"
     ],
+    "cloze": {
+      "de": "bewertet",
+      "en": "evaluates"
+    },
     "sourceIndex": 2234
   },
   {
@@ -2105,6 +2597,10 @@ const phrasesEducation = [
     "wordIds": [
       "12236"
     ],
+    "cloze": {
+      "de": "Buchstabe",
+      "en": "letter"
+    },
     "sourceIndex": 2236
   },
   {
@@ -2122,6 +2618,10 @@ const phrasesEducation = [
     "wordIds": [
       "12270"
     ],
+    "cloze": {
+      "de": "anerkennen",
+      "en": "acknowledge"
+    },
     "sourceIndex": 2270
   },
   {
@@ -2139,6 +2639,10 @@ const phrasesEducation = [
     "wordIds": [
       "12327"
     ],
+    "cloze": {
+      "de": "Grundschule",
+      "en": "primary"
+    },
     "sourceIndex": 2327
   },
   {
@@ -2156,6 +2660,10 @@ const phrasesEducation = [
     "wordIds": [
       "12394"
     ],
+    "cloze": {
+      "de": "College",
+      "en": "college"
+    },
     "sourceIndex": 2394
   },
   {
@@ -2173,6 +2681,10 @@ const phrasesEducation = [
     "wordIds": [
       "12402"
     ],
+    "cloze": {
+      "de": "Geduld",
+      "en": "patience"
+    },
     "sourceIndex": 2402
   },
   {
@@ -2190,6 +2702,10 @@ const phrasesEducation = [
     "wordIds": [
       "12450"
     ],
+    "cloze": {
+      "de": "Lehrerin",
+      "en": "teacher"
+    },
     "sourceIndex": 2450
   },
   {
@@ -2207,6 +2723,10 @@ const phrasesEducation = [
     "wordIds": [
       "12461"
     ],
+    "cloze": {
+      "de": "studiere",
+      "en": "study"
+    },
     "sourceIndex": 2461
   },
   {
@@ -2224,6 +2744,10 @@ const phrasesEducation = [
     "wordIds": [
       "12481"
     ],
+    "cloze": {
+      "de": "Brille",
+      "en": "glasses"
+    },
     "sourceIndex": 2481
   },
   {
@@ -2241,6 +2765,10 @@ const phrasesEducation = [
     "wordIds": [
       "12509"
     ],
+    "cloze": {
+      "de": "Spanisch",
+      "en": "Spanish"
+    },
     "sourceIndex": 2509
   },
   {
@@ -2258,6 +2786,10 @@ const phrasesEducation = [
     "wordIds": [
       "12510"
     ],
+    "cloze": {
+      "de": "Spanisch",
+      "en": "Spanish"
+    },
     "sourceIndex": 2510
   },
   {
@@ -2275,6 +2807,10 @@ const phrasesEducation = [
     "wordIds": [
       "12522"
     ],
+    "cloze": {
+      "de": "übersehen",
+      "en": "I"
+    },
     "sourceIndex": 2522
   },
   {
@@ -2292,6 +2828,10 @@ const phrasesEducation = [
     "wordIds": [
       "12524"
     ],
+    "cloze": {
+      "de": "Übung",
+      "en": "exercise"
+    },
     "sourceIndex": 2524
   },
   {
@@ -2309,6 +2849,10 @@ const phrasesEducation = [
     "wordIds": [
       "12533"
     ],
+    "cloze": {
+      "de": "Dokumentation",
+      "en": "documentary"
+    },
     "sourceIndex": 2533
   },
   {
@@ -2326,6 +2870,10 @@ const phrasesEducation = [
     "wordIds": [
       "12590"
     ],
+    "cloze": {
+      "de": "ideale",
+      "en": "ideal"
+    },
     "sourceIndex": 2590
   },
   {
@@ -2343,6 +2891,10 @@ const phrasesEducation = [
     "wordIds": [
       "12619"
     ],
+    "cloze": {
+      "de": "arabische",
+      "en": "Arabic"
+    },
     "sourceIndex": 2619
   },
   {
@@ -2360,6 +2912,10 @@ const phrasesEducation = [
     "wordIds": [
       "12638"
     ],
+    "cloze": {
+      "de": "Gedichte",
+      "en": "poems"
+    },
     "sourceIndex": 2638
   },
   {
@@ -2377,6 +2933,10 @@ const phrasesEducation = [
     "wordIds": [
       "12698"
     ],
+    "cloze": {
+      "de": "kurzfristige",
+      "en": "short-term"
+    },
     "sourceIndex": 2698
   },
   {
@@ -2394,6 +2954,10 @@ const phrasesEducation = [
     "wordIds": [
       "12740"
     ],
+    "cloze": {
+      "de": "hinweisen",
+      "en": "point"
+    },
     "sourceIndex": 2740
   },
   {
@@ -2411,6 +2975,10 @@ const phrasesEducation = [
     "wordIds": [
       "12742"
     ],
+    "cloze": {
+      "de": "japanische",
+      "en": "Japanese"
+    },
     "sourceIndex": 2742
   },
   {
@@ -2428,6 +2996,10 @@ const phrasesEducation = [
     "wordIds": [
       "12766"
     ],
+    "cloze": {
+      "de": "Übergang",
+      "en": "transition"
+    },
     "sourceIndex": 2766
   },
   {
@@ -2445,6 +3017,10 @@ const phrasesEducation = [
     "wordIds": [
       "12801"
     ],
+    "cloze": {
+      "de": "Tafel",
+      "en": "blackboard"
+    },
     "sourceIndex": 2801
   },
   {
@@ -2462,6 +3038,10 @@ const phrasesEducation = [
     "wordIds": [
       "12814"
     ],
+    "cloze": {
+      "de": "zugeben",
+      "en": "admit"
+    },
     "sourceIndex": 2814
   },
   {
@@ -2479,6 +3059,10 @@ const phrasesEducation = [
     "wordIds": [
       "12862"
     ],
+    "cloze": {
+      "de": "texten",
+      "en": "text"
+    },
     "sourceIndex": 2862
   },
   {
@@ -2496,6 +3080,10 @@ const phrasesEducation = [
     "wordIds": [
       "12887"
     ],
+    "cloze": {
+      "de": "Kanzler",
+      "en": "chancellor"
+    },
     "sourceIndex": 2887
   },
   {
@@ -2513,6 +3101,10 @@ const phrasesEducation = [
     "wordIds": [
       "12899"
     ],
+    "cloze": {
+      "de": "Polnisch",
+      "en": "Polish"
+    },
     "sourceIndex": 2899
   },
   {
@@ -2530,6 +3122,10 @@ const phrasesEducation = [
     "wordIds": [
       "12987"
     ],
+    "cloze": {
+      "de": "Experiment",
+      "en": "experiment"
+    },
     "sourceIndex": 2987
   },
   {
@@ -2547,6 +3143,10 @@ const phrasesEducation = [
     "wordIds": [
       "13059"
     ],
+    "cloze": {
+      "de": "Mathe",
+      "en": "math"
+    },
     "sourceIndex": 3059
   },
   {
@@ -2564,6 +3164,10 @@ const phrasesEducation = [
     "wordIds": [
       "13071"
     ],
+    "cloze": {
+      "de": "Seminar",
+      "en": "seminar"
+    },
     "sourceIndex": 3071
   },
   {
@@ -2581,6 +3185,10 @@ const phrasesEducation = [
     "wordIds": [
       "13086"
     ],
+    "cloze": {
+      "de": "Anleitung",
+      "en": "instructions"
+    },
     "sourceIndex": 3086
   },
   {
@@ -2598,6 +3206,10 @@ const phrasesEducation = [
     "wordIds": [
       "13098"
     ],
+    "cloze": {
+      "de": "Einstieg",
+      "en": "introduction"
+    },
     "sourceIndex": 3098
   },
   {
@@ -2615,6 +3227,10 @@ const phrasesEducation = [
     "wordIds": [
       "13163"
     ],
+    "cloze": {
+      "de": "Engländer",
+      "en": "Englishman"
+    },
     "sourceIndex": 3163
   },
   {
@@ -2632,6 +3248,10 @@ const phrasesEducation = [
     "wordIds": [
       "13179"
     ],
+    "cloze": {
+      "de": "Italiener",
+      "en": "Italian"
+    },
     "sourceIndex": 3179
   },
   {
@@ -2649,6 +3269,10 @@ const phrasesEducation = [
     "wordIds": [
       "13201"
     ],
+    "cloze": {
+      "de": "unterrichtet",
+      "en": "teaches"
+    },
     "sourceIndex": 3201
   },
   {
@@ -2666,6 +3290,10 @@ const phrasesEducation = [
     "wordIds": [
       "13227"
     ],
+    "cloze": {
+      "de": "dünn",
+      "en": "thin"
+    },
     "sourceIndex": 3227
   },
   {
@@ -2683,6 +3311,10 @@ const phrasesEducation = [
     "wordIds": [
       "13249"
     ],
+    "cloze": {
+      "de": "Labor",
+      "en": "laboratory"
+    },
     "sourceIndex": 3249
   },
   {
@@ -2700,6 +3332,10 @@ const phrasesEducation = [
     "wordIds": [
       "13250"
     ],
+    "cloze": {
+      "de": "logische",
+      "en": "logical"
+    },
     "sourceIndex": 3250
   },
   {
@@ -2717,6 +3353,10 @@ const phrasesEducation = [
     "wordIds": [
       "13260"
     ],
+    "cloze": {
+      "de": "Resultat",
+      "en": "result"
+    },
     "sourceIndex": 3260
   },
   {
@@ -2734,6 +3374,10 @@ const phrasesEducation = [
     "wordIds": [
       "13269"
     ],
+    "cloze": {
+      "de": "vorübergehende",
+      "en": "temporary"
+    },
     "sourceIndex": 3269
   },
   {
@@ -2751,6 +3395,10 @@ const phrasesEducation = [
     "wordIds": [
       "13304"
     ],
+    "cloze": {
+      "de": "schriftlich",
+      "en": "in"
+    },
     "sourceIndex": 3304
   },
   {
@@ -2768,6 +3416,10 @@ const phrasesEducation = [
     "wordIds": [
       "13306"
     ],
+    "cloze": {
+      "de": "Stift",
+      "en": "pen"
+    },
     "sourceIndex": 3306
   },
   {
@@ -2785,6 +3437,10 @@ const phrasesEducation = [
     "wordIds": [
       "13323"
     ],
+    "cloze": {
+      "de": "alternative",
+      "en": "alternative"
+    },
     "sourceIndex": 3323
   },
   {
@@ -2802,6 +3458,10 @@ const phrasesEducation = [
     "wordIds": [
       "13359"
     ],
+    "cloze": {
+      "de": "Ingenieur",
+      "en": "engineer"
+    },
     "sourceIndex": 3359
   },
   {
@@ -2819,6 +3479,10 @@ const phrasesEducation = [
     "wordIds": [
       "13376"
     ],
+    "cloze": {
+      "de": "Schülerin",
+      "en": "female"
+    },
     "sourceIndex": 3376
   },
   {
@@ -2836,6 +3500,10 @@ const phrasesEducation = [
     "wordIds": [
       "13403"
     ],
+    "cloze": {
+      "de": "Einleitung",
+      "en": "introduction"
+    },
     "sourceIndex": 3403
   },
   {
@@ -2853,6 +3521,10 @@ const phrasesEducation = [
     "wordIds": [
       "13412"
     ],
+    "cloze": {
+      "de": "interne",
+      "en": "internal"
+    },
     "sourceIndex": 3412
   },
   {
@@ -2870,6 +3542,10 @@ const phrasesEducation = [
     "wordIds": [
       "13418"
     ],
+    "cloze": {
+      "de": "Korrekturen",
+      "en": "corrections"
+    },
     "sourceIndex": 3418
   },
   {
@@ -2887,6 +3563,10 @@ const phrasesEducation = [
     "wordIds": [
       "13421"
     ],
+    "cloze": {
+      "de": "lehrt",
+      "en": "teaches"
+    },
     "sourceIndex": 3421
   },
   {
@@ -2904,6 +3584,10 @@ const phrasesEducation = [
     "wordIds": [
       "13572"
     ],
+    "cloze": {
+      "de": "Anfänger",
+      "en": "beginner"
+    },
     "sourceIndex": 3572
   },
   {
@@ -2921,6 +3605,10 @@ const phrasesEducation = [
     "wordIds": [
       "13646"
     ],
+    "cloze": {
+      "de": "Fakultät",
+      "en": "Faculty"
+    },
     "sourceIndex": 3646
   },
   {
@@ -2938,6 +3626,10 @@ const phrasesEducation = [
     "wordIds": [
       "13673"
     ],
+    "cloze": {
+      "de": "Review",
+      "en": "review"
+    },
     "sourceIndex": 3673
   },
   {
@@ -2955,6 +3647,10 @@ const phrasesEducation = [
     "wordIds": [
       "13679"
     ],
+    "cloze": {
+      "de": "Techniker",
+      "en": "technician"
+    },
     "sourceIndex": 3679
   },
   {
@@ -2972,6 +3668,10 @@ const phrasesEducation = [
     "wordIds": [
       "13690"
     ],
+    "cloze": {
+      "de": "Übersetzer",
+      "en": "translator"
+    },
     "sourceIndex": 3690
   },
   {
@@ -2989,6 +3689,10 @@ const phrasesEducation = [
     "wordIds": [
       "13701"
     ],
+    "cloze": {
+      "de": "Campus",
+      "en": "campus"
+    },
     "sourceIndex": 3701
   },
   {
@@ -3006,6 +3710,10 @@ const phrasesEducation = [
     "wordIds": [
       "13720"
     ],
+    "cloze": {
+      "de": "Kamerad",
+      "en": "comrade"
+    },
     "sourceIndex": 3720
   },
   {
@@ -3023,6 +3731,10 @@ const phrasesEducation = [
     "wordIds": [
       "13767"
     ],
+    "cloze": {
+      "de": "chemische",
+      "en": "chemical"
+    },
     "sourceIndex": 3767
   },
   {
@@ -3040,6 +3752,10 @@ const phrasesEducation = [
     "wordIds": [
       "13835"
     ],
+    "cloze": {
+      "de": "Grammatik",
+      "en": "grammar"
+    },
     "sourceIndex": 3835
   },
   {
@@ -3057,6 +3773,10 @@ const phrasesEducation = [
     "wordIds": [
       "13873"
     ],
+    "cloze": {
+      "de": "Wiederholung",
+      "en": "repetition"
+    },
     "sourceIndex": 3873
   },
   {
@@ -3074,6 +3794,10 @@ const phrasesEducation = [
     "wordIds": [
       "13920"
     ],
+    "cloze": {
+      "de": "optimale",
+      "en": "optimal"
+    },
     "sourceIndex": 3920
   },
   {
@@ -3091,6 +3815,10 @@ const phrasesEducation = [
     "wordIds": [
       "13964"
     ],
+    "cloze": {
+      "de": "Biologie",
+      "en": "biology"
+    },
     "sourceIndex": 3964
   },
   {
@@ -3108,6 +3836,10 @@ const phrasesEducation = [
     "wordIds": [
       "13978"
     ],
+    "cloze": {
+      "de": "Hausaufgaben",
+      "en": "homework"
+    },
     "sourceIndex": 3978
   },
   {
@@ -3125,6 +3857,10 @@ const phrasesEducation = [
     "wordIds": [
       "13996"
     ],
+    "cloze": {
+      "de": "Sauerstoff",
+      "en": "oxygen"
+    },
     "sourceIndex": 3996
   },
   {
@@ -3142,6 +3878,10 @@ const phrasesEducation = [
     "wordIds": [
       "14079"
     ],
+    "cloze": {
+      "de": "Vorlesung",
+      "en": "lecture"
+    },
     "sourceIndex": 4079
   },
   {
@@ -3159,6 +3899,10 @@ const phrasesEducation = [
     "wordIds": [
       "14092"
     ],
+    "cloze": {
+      "de": "Anweisungen",
+      "en": "instructions"
+    },
     "sourceIndex": 4092
   },
   {
@@ -3176,6 +3920,10 @@ const phrasesEducation = [
     "wordIds": [
       "14093"
     ],
+    "cloze": {
+      "de": "Aufsatz",
+      "en": "essay"
+    },
     "sourceIndex": 4093
   },
   {
@@ -3193,6 +3941,10 @@ const phrasesEducation = [
     "wordIds": [
       "14108"
     ],
+    "cloze": {
+      "de": "Diplom",
+      "en": "diploma"
+    },
     "sourceIndex": 4108
   },
   {
@@ -3210,6 +3962,10 @@ const phrasesEducation = [
     "wordIds": [
       "14129"
     ],
+    "cloze": {
+      "de": "Porto",
+      "en": "postage"
+    },
     "sourceIndex": 4129
   },
   {
@@ -3227,6 +3983,10 @@ const phrasesEducation = [
     "wordIds": [
       "14184"
     ],
+    "cloze": {
+      "de": "der",
+      "en": "subject"
+    },
     "sourceIndex": 4184
   },
   {
@@ -3244,6 +4004,10 @@ const phrasesEducation = [
     "wordIds": [
       "14201"
     ],
+    "cloze": {
+      "de": "korrigieren",
+      "en": "correct"
+    },
     "sourceIndex": 4201
   },
   {
@@ -3261,6 +4025,10 @@ const phrasesEducation = [
     "wordIds": [
       "14207"
     ],
+    "cloze": {
+      "de": "publizieren",
+      "en": "publish"
+    },
     "sourceIndex": 4207
   },
   {
@@ -3278,6 +4046,10 @@ const phrasesEducation = [
     "wordIds": [
       "14208"
     ],
+    "cloze": {
+      "de": "Redakteur",
+      "en": "editor"
+    },
     "sourceIndex": 4208
   },
   {
@@ -3295,6 +4067,10 @@ const phrasesEducation = [
     "wordIds": [
       "14270"
     ],
+    "cloze": {
+      "de": "Die",
+      "en": "studying"
+    },
     "sourceIndex": 4270
   },
   {
@@ -3312,6 +4088,10 @@ const phrasesEducation = [
     "wordIds": [
       "14311"
     ],
+    "cloze": {
+      "de": "war",
+      "en": "expected"
+    },
     "sourceIndex": 4311
   },
   {
@@ -3329,6 +4109,10 @@ const phrasesEducation = [
     "wordIds": [
       "14443"
     ],
+    "cloze": {
+      "de": "wörtlich",
+      "en": "literally"
+    },
     "sourceIndex": 4443
   },
   {
@@ -3346,6 +4130,10 @@ const phrasesEducation = [
     "wordIds": [
       "14514"
     ],
+    "cloze": {
+      "de": "Wörterbuch",
+      "en": "dictionary"
+    },
     "sourceIndex": 4514
   },
   {
@@ -3363,6 +4151,10 @@ const phrasesEducation = [
     "wordIds": [
       "14517"
     ],
+    "cloze": {
+      "de": "Überschrift",
+      "en": "headline"
+    },
     "sourceIndex": 4517
   },
   {
@@ -3380,6 +4172,10 @@ const phrasesEducation = [
     "wordIds": [
       "14518"
     ],
+    "cloze": {
+      "de": "Akzent",
+      "en": "accent"
+    },
     "sourceIndex": 4518
   },
   {
@@ -3397,6 +4193,10 @@ const phrasesEducation = [
     "wordIds": [
       "14547"
     ],
+    "cloze": {
+      "de": "Lesung",
+      "en": "reading"
+    },
     "sourceIndex": 4547
   },
   {
@@ -3414,6 +4214,10 @@ const phrasesEducation = [
     "wordIds": [
       "14581"
     ],
+    "cloze": {
+      "de": "ab",
+      "en": "depicts"
+    },
     "sourceIndex": 4581
   },
   {
@@ -3431,6 +4235,10 @@ const phrasesEducation = [
     "wordIds": [
       "14587"
     ],
+    "cloze": {
+      "de": "Aussprache",
+      "en": "pronunciation"
+    },
     "sourceIndex": 4587
   },
   {
@@ -3448,6 +4256,10 @@ const phrasesEducation = [
     "wordIds": [
       "14721"
     ],
+    "cloze": {
+      "de": "ablegen",
+      "en": "take"
+    },
     "sourceIndex": 4721
   },
   {
@@ -3465,6 +4277,10 @@ const phrasesEducation = [
     "wordIds": [
       "14725"
     ],
+    "cloze": {
+      "de": "Araber",
+      "en": "Arab"
+    },
     "sourceIndex": 4725
   },
   {
@@ -3482,6 +4298,10 @@ const phrasesEducation = [
     "wordIds": [
       "14734"
     ],
+    "cloze": {
+      "de": "beschriebene",
+      "en": "described"
+    },
     "sourceIndex": 4734
   },
   {
@@ -3499,6 +4319,10 @@ const phrasesEducation = [
     "wordIds": [
       "14815"
     ],
+    "cloze": {
+      "de": "Abi",
+      "en": "high"
+    },
     "sourceIndex": 4815
   },
   {
@@ -3516,6 +4340,10 @@ const phrasesEducation = [
     "wordIds": [
       "14867"
     ],
+    "cloze": {
+      "de": "nachlesen",
+      "en": "look"
+    },
     "sourceIndex": 4867
   },
   {
@@ -3533,6 +4361,10 @@ const phrasesEducation = [
     "wordIds": [
       "14875"
     ],
+    "cloze": {
+      "de": "Realschule",
+      "en": "school"
+    },
     "sourceIndex": 4875
   },
   {
@@ -3550,6 +4382,10 @@ const phrasesEducation = [
     "wordIds": [
       "14969"
     ],
+    "cloze": {
+      "de": "verkürzt",
+      "en": "shortened"
+    },
     "sourceIndex": 4969
   },
   {
@@ -3567,6 +4403,10 @@ const phrasesEducation = [
     "wordIds": [
       "15007"
     ],
+    "cloze": {
+      "de": "gewünschte",
+      "en": "desired"
+    },
     "sourceIndex": 5007
   },
   {
@@ -3584,6 +4424,10 @@ const phrasesEducation = [
     "wordIds": [
       "15294"
     ],
+    "cloze": {
+      "de": "Manga",
+      "en": "manga"
+    },
     "sourceIndex": 5294
   },
   {
@@ -3601,6 +4445,10 @@ const phrasesEducation = [
     "wordIds": [
       "15317"
     ],
+    "cloze": {
+      "de": "Studentin",
+      "en": "female"
+    },
     "sourceIndex": 5317
   },
   {
@@ -3618,6 +4466,10 @@ const phrasesEducation = [
     "wordIds": [
       "15318"
     ],
+    "cloze": {
+      "de": "Studiengang",
+      "en": "course"
+    },
     "sourceIndex": 5318
   },
   {
@@ -3635,6 +4487,10 @@ const phrasesEducation = [
     "wordIds": [
       "15332"
     ],
+    "cloze": {
+      "de": "Abc",
+      "en": "alphabet"
+    },
     "sourceIndex": 5332
   },
   {
@@ -3652,6 +4508,10 @@ const phrasesEducation = [
     "wordIds": [
       "15450"
     ],
+    "cloze": {
+      "de": "erlernen",
+      "en": "learn"
+    },
     "sourceIndex": 5450
   },
   {
@@ -3669,6 +4529,10 @@ const phrasesEducation = [
     "wordIds": [
       "15491"
     ],
+    "cloze": {
+      "de": "Schere",
+      "en": "scissors"
+    },
     "sourceIndex": 5491
   },
   {
@@ -3686,6 +4550,10 @@ const phrasesEducation = [
     "wordIds": [
       "15619"
     ],
+    "cloze": {
+      "de": "Briefkasten",
+      "en": "mailbox"
+    },
     "sourceIndex": 5619
   },
   {
@@ -3703,6 +4571,10 @@ const phrasesEducation = [
     "wordIds": [
       "15648"
     ],
+    "cloze": {
+      "de": "Lehrbuch",
+      "en": "textbook"
+    },
     "sourceIndex": 5648
   },
   {
@@ -3720,6 +4592,10 @@ const phrasesEducation = [
     "wordIds": [
       "15649"
     ],
+    "cloze": {
+      "de": "Lupe",
+      "en": "magnifying"
+    },
     "sourceIndex": 5649
   },
   {
@@ -3737,6 +4613,10 @@ const phrasesEducation = [
     "wordIds": [
       "15651"
     ],
+    "cloze": {
+      "de": "Muttersprache",
+      "en": "native"
+    },
     "sourceIndex": 5651
   },
   {
@@ -3754,6 +4634,10 @@ const phrasesEducation = [
     "wordIds": [
       "15706"
     ],
+    "cloze": {
+      "de": "durchgehen",
+      "en": "pass"
+    },
     "sourceIndex": 5706
   },
   {
@@ -3771,6 +4655,10 @@ const phrasesEducation = [
     "wordIds": [
       "15760"
     ],
+    "cloze": {
+      "de": "Sichtweise",
+      "en": "viewpoint"
+    },
     "sourceIndex": 5760
   },
   {
@@ -3788,6 +4676,10 @@ const phrasesEducation = [
     "wordIds": [
       "15810"
     ],
+    "cloze": {
+      "de": "kürzen",
+      "en": "shorten"
+    },
     "sourceIndex": 5810
   },
   {
@@ -3805,6 +4697,10 @@ const phrasesEducation = [
     "wordIds": [
       "15851"
     ],
+    "cloze": {
+      "de": "simple",
+      "en": "simple"
+    },
     "sourceIndex": 5851
   },
   {
@@ -3822,6 +4718,10 @@ const phrasesEducation = [
     "wordIds": [
       "15934"
     ],
+    "cloze": {
+      "de": "Klausur",
+      "en": "exam"
+    },
     "sourceIndex": 5934
   },
   {
@@ -3839,6 +4739,10 @@ const phrasesEducation = [
     "wordIds": [
       "16010"
     ],
+    "cloze": {
+      "de": "durchziehen",
+      "en": "pull"
+    },
     "sourceIndex": 6010
   },
   {
@@ -3856,6 +4760,10 @@ const phrasesEducation = [
     "wordIds": [
       "16011"
     ],
+    "cloze": {
+      "de": "Ebook",
+      "en": "e-book"
+    },
     "sourceIndex": 6011
   },
   {
@@ -3873,6 +4781,10 @@ const phrasesEducation = [
     "wordIds": [
       "16028"
     ],
+    "cloze": {
+      "de": "Geographie",
+      "en": "geography"
+    },
     "sourceIndex": 6028
   },
   {
@@ -3890,6 +4802,10 @@ const phrasesEducation = [
     "wordIds": [
       "16071"
     ],
+    "cloze": {
+      "de": "Verb",
+      "en": "verb"
+    },
     "sourceIndex": 6071
   },
   {
@@ -3907,6 +4823,10 @@ const phrasesEducation = [
     "wordIds": [
       "16121"
     ],
+    "cloze": {
+      "de": "nachgehen",
+      "en": "follow"
+    },
     "sourceIndex": 6121
   },
   {
@@ -3924,6 +4844,10 @@ const phrasesEducation = [
     "wordIds": [
       "16268"
     ],
+    "cloze": {
+      "de": "vorlesen",
+      "en": "read"
+    },
     "sourceIndex": 6268
   },
   {
@@ -3941,6 +4865,10 @@ const phrasesEducation = [
     "wordIds": [
       "16288"
     ],
+    "cloze": {
+      "de": "Aufschrift",
+      "en": "inscription"
+    },
     "sourceIndex": 6288
   },
   {
@@ -3958,6 +4886,10 @@ const phrasesEducation = [
     "wordIds": [
       "16345"
     ],
+    "cloze": {
+      "de": "Rechtschreibung",
+      "en": "spelling"
+    },
     "sourceIndex": 6345
   },
   {
@@ -3975,6 +4907,10 @@ const phrasesEducation = [
     "wordIds": [
       "16398"
     ],
+    "cloze": {
+      "de": "durchgeführt",
+      "en": "carried"
+    },
     "sourceIndex": 6398
   },
   {
@@ -3992,6 +4928,10 @@ const phrasesEducation = [
     "wordIds": [
       "16432"
     ],
+    "cloze": {
+      "de": "Oberstufe",
+      "en": "upper"
+    },
     "sourceIndex": 6432
   },
   {
@@ -4009,6 +4949,10 @@ const phrasesEducation = [
     "wordIds": [
       "16455"
     ],
+    "cloze": {
+      "de": "Umschlag",
+      "en": "envelope"
+    },
     "sourceIndex": 6455
   },
   {
@@ -4026,6 +4970,10 @@ const phrasesEducation = [
     "wordIds": [
       "16559"
     ],
+    "cloze": {
+      "de": "simpel",
+      "en": "simple"
+    },
     "sourceIndex": 6559
   },
   {
@@ -4043,6 +4991,10 @@ const phrasesEducation = [
     "wordIds": [
       "16587"
     ],
+    "cloze": {
+      "de": "wiederholt",
+      "en": "repeatedly"
+    },
     "sourceIndex": 6587
   },
   {
@@ -4060,6 +5012,10 @@ const phrasesEducation = [
     "wordIds": [
       "16732"
     ],
+    "cloze": {
+      "de": "Hauptschule",
+      "en": "school"
+    },
     "sourceIndex": 6732
   },
   {
@@ -4077,6 +5033,10 @@ const phrasesEducation = [
     "wordIds": [
       "16733"
     ],
+    "cloze": {
+      "de": "Hausarbeit",
+      "en": "term"
+    },
     "sourceIndex": 6733
   },
   {
@@ -4094,6 +5054,10 @@ const phrasesEducation = [
     "wordIds": [
       "16755"
     ],
+    "cloze": {
+      "de": "Nachhilfe",
+      "en": "tutoring"
+    },
     "sourceIndex": 6755
   },
   {
@@ -4111,6 +5075,10 @@ const phrasesEducation = [
     "wordIds": [
       "16812"
     ],
+    "cloze": {
+      "de": "Dozent",
+      "en": "lecturer"
+    },
     "sourceIndex": 6812
   },
   {
@@ -4128,6 +5096,10 @@ const phrasesEducation = [
     "wordIds": [
       "16843"
     ],
+    "cloze": {
+      "de": "Lektion",
+      "en": "lesson"
+    },
     "sourceIndex": 6843
   },
   {
@@ -4145,6 +5117,10 @@ const phrasesEducation = [
     "wordIds": [
       "16914"
     ],
+    "cloze": {
+      "de": "fliessend",
+      "en": "fluent"
+    },
     "sourceIndex": 6914
   },
   {
@@ -4162,6 +5138,10 @@ const phrasesEducation = [
     "wordIds": [
       "16945"
     ],
+    "cloze": {
+      "de": "Mitschüler",
+      "en": "fellow"
+    },
     "sourceIndex": 6945
   },
   {
@@ -4179,6 +5159,10 @@ const phrasesEducation = [
     "wordIds": [
       "16953"
     ],
+    "cloze": {
+      "de": "Quiz",
+      "en": "quiz"
+    },
     "sourceIndex": 6953
   },
   {
@@ -4196,6 +5180,10 @@ const phrasesEducation = [
     "wordIds": [
       "17088"
     ],
+    "cloze": {
+      "de": "ablesen",
+      "en": "read"
+    },
     "sourceIndex": 7088
   },
   {
@@ -4213,6 +5201,10 @@ const phrasesEducation = [
     "wordIds": [
       "17121"
     ],
+    "cloze": {
+      "de": "Fremdsprache",
+      "en": "foreign"
+    },
     "sourceIndex": 7121
   },
   {
@@ -4230,6 +5222,10 @@ const phrasesEducation = [
     "wordIds": [
       "17139"
     ],
+    "cloze": {
+      "de": "Lehrkraft",
+      "en": "teacher"
+    },
     "sourceIndex": 7139
   },
   {
@@ -4247,6 +5243,10 @@ const phrasesEducation = [
     "wordIds": [
       "17144"
     ],
+    "cloze": {
+      "de": "mündliche",
+      "en": "oral"
+    },
     "sourceIndex": 7144
   },
   {
@@ -4264,6 +5264,10 @@ const phrasesEducation = [
     "wordIds": [
       "17146"
     ],
+    "cloze": {
+      "de": "nachsehen",
+      "en": "it"
+    },
     "sourceIndex": 7146
   },
   {
@@ -4281,6 +5285,10 @@ const phrasesEducation = [
     "wordIds": [
       "17174"
     ],
+    "cloze": {
+      "de": "Stipendium",
+      "en": "scholarship"
+    },
     "sourceIndex": 7174
   },
   {
@@ -4298,6 +5306,10 @@ const phrasesEducation = [
     "wordIds": [
       "17188"
     ],
+    "cloze": {
+      "de": "Volksschule",
+      "en": "primary"
+    },
     "sourceIndex": 7188
   },
   {
@@ -4315,6 +5327,10 @@ const phrasesEducation = [
     "wordIds": [
       "17251"
     ],
+    "cloze": {
+      "de": "Mediathek",
+      "en": "media"
+    },
     "sourceIndex": 7251
   },
   {
@@ -4332,6 +5348,10 @@ const phrasesEducation = [
     "wordIds": [
       "17253"
     ],
+    "cloze": {
+      "de": "Modul",
+      "en": "module"
+    },
     "sourceIndex": 7253
   },
   {
@@ -4349,6 +5369,10 @@ const phrasesEducation = [
     "wordIds": [
       "17301"
     ],
+    "cloze": {
+      "de": "Wortschatz",
+      "en": "vocabulary"
+    },
     "sourceIndex": 7301
   },
   {
@@ -4366,6 +5390,10 @@ const phrasesEducation = [
     "wordIds": [
       "17400"
     ],
+    "cloze": {
+      "de": "unregelmäßig",
+      "en": "irregularly"
+    },
     "sourceIndex": 7400
   },
   {
@@ -4383,6 +5411,10 @@ const phrasesEducation = [
     "wordIds": [
       "17418"
     ],
+    "cloze": {
+      "de": "Sprachzertifikat",
+      "en": "certificate"
+    },
     "sourceIndex": 7418
   },
   {
@@ -4400,6 +5432,10 @@ const phrasesEducation = [
     "wordIds": [
       "17422"
     ],
+    "cloze": {
+      "de": "zutun",
+      "en": "do"
+    },
     "sourceIndex": 7422
   },
   {
@@ -4417,6 +5453,10 @@ const phrasesEducation = [
     "wordIds": [
       "17642"
     ],
+    "cloze": {
+      "de": "Schulabschluss",
+      "en": "graduation"
+    },
     "sourceIndex": 7642
   },
   {
@@ -4434,6 +5474,10 @@ const phrasesEducation = [
     "wordIds": [
       "17683"
     ],
+    "cloze": {
+      "de": "Alphabet",
+      "en": "alphabet"
+    },
     "sourceIndex": 7683
   },
   {
@@ -4451,6 +5495,10 @@ const phrasesEducation = [
     "wordIds": [
       "17718"
     ],
+    "cloze": {
+      "de": "forschen",
+      "en": "research"
+    },
     "sourceIndex": 7718
   },
   {
@@ -4468,6 +5516,10 @@ const phrasesEducation = [
     "wordIds": [
       "17789"
     ],
+    "cloze": {
+      "de": "verwirrend",
+      "en": "confusing"
+    },
     "sourceIndex": 7789
   },
   {
@@ -4485,6 +5537,10 @@ const phrasesEducation = [
     "wordIds": [
       "17800"
     ],
+    "cloze": {
+      "de": "Absender",
+      "en": "sender"
+    },
     "sourceIndex": 7800
   },
   {
@@ -4502,6 +5558,10 @@ const phrasesEducation = [
     "wordIds": [
       "17815"
     ],
+    "cloze": {
+      "de": "Culture",
+      "en": "culture"
+    },
     "sourceIndex": 7815
   },
   {
@@ -4519,6 +5579,10 @@ const phrasesEducation = [
     "wordIds": [
       "17832"
     ],
+    "cloze": {
+      "de": "funktionierende",
+      "en": "functioning"
+    },
     "sourceIndex": 7832
   },
   {
@@ -4536,6 +5600,10 @@ const phrasesEducation = [
     "wordIds": [
       "17870"
     ],
+    "cloze": {
+      "de": "Religionsunterricht",
+      "en": "religious"
+    },
     "sourceIndex": 7870
   },
   {
@@ -4553,6 +5621,10 @@ const phrasesEducation = [
     "wordIds": [
       "17907"
     ],
+    "cloze": {
+      "de": "zerreißen",
+      "en": "tear"
+    },
     "sourceIndex": 7907
   },
   {
@@ -4570,6 +5642,10 @@ const phrasesEducation = [
     "wordIds": [
       "17957"
     ],
+    "cloze": {
+      "de": "Klassenzimmer",
+      "en": "classroom"
+    },
     "sourceIndex": 7957
   },
   {
@@ -4587,6 +5663,10 @@ const phrasesEducation = [
     "wordIds": [
       "17984"
     ],
+    "cloze": {
+      "de": "Prüfer",
+      "en": "examiner"
+    },
     "sourceIndex": 7984
   },
   {
@@ -4604,6 +5684,10 @@ const phrasesEducation = [
     "wordIds": [
       "18140"
     ],
+    "cloze": {
+      "de": "vorteilhaft",
+      "en": "advantageous"
+    },
     "sourceIndex": 8140
   },
   {
@@ -4621,6 +5705,10 @@ const phrasesEducation = [
     "wordIds": [
       "18333"
     ],
+    "cloze": {
+      "de": "Mittelschule",
+      "en": "middle"
+    },
     "sourceIndex": 8333
   },
   {
@@ -4638,6 +5726,10 @@ const phrasesEducation = [
     "wordIds": [
       "18361"
     ],
+    "cloze": {
+      "de": "Schulleiter",
+      "en": "school"
+    },
     "sourceIndex": 8361
   },
   {
@@ -4655,6 +5747,10 @@ const phrasesEducation = [
     "wordIds": [
       "18403"
     ],
+    "cloze": {
+      "de": "schreiben",
+      "en": "write"
+    },
     "sourceIndex": 8403
   },
   {
@@ -4672,6 +5768,10 @@ const phrasesEducation = [
     "wordIds": [
       "18410"
     ],
+    "cloze": {
+      "de": "Belgier",
+      "en": "Belgian"
+    },
     "sourceIndex": 8410
   },
   {
@@ -4689,6 +5789,10 @@ const phrasesEducation = [
     "wordIds": [
       "18416"
     ],
+    "cloze": {
+      "de": "Diagramm",
+      "en": "diagram"
+    },
     "sourceIndex": 8416
   },
   {
@@ -4706,6 +5810,10 @@ const phrasesEducation = [
     "wordIds": [
       "18553"
     ],
+    "cloze": {
+      "de": "Examen",
+      "en": "exam"
+    },
     "sourceIndex": 8553
   },
   {
@@ -4723,6 +5831,10 @@ const phrasesEducation = [
     "wordIds": [
       "18565"
     ],
+    "cloze": {
+      "de": "Gesamtschule",
+      "en": "comprehensive"
+    },
     "sourceIndex": 8565
   },
   {
@@ -4740,6 +5852,10 @@ const phrasesEducation = [
     "wordIds": [
       "18585"
     ],
+    "cloze": {
+      "de": "Lehrplan",
+      "en": "curriculum"
+    },
     "sourceIndex": 8585
   },
   {
@@ -4757,6 +5873,10 @@ const phrasesEducation = [
     "wordIds": [
       "18591"
     ],
+    "cloze": {
+      "de": "nachschauen",
+      "en": "look"
+    },
     "sourceIndex": 8591
   },
   {
@@ -4774,6 +5894,10 @@ const phrasesEducation = [
     "wordIds": [
       "18655"
     ],
+    "cloze": {
+      "de": "Afghane",
+      "en": "Afghan"
+    },
     "sourceIndex": 8655
   },
   {
@@ -4791,6 +5915,10 @@ const phrasesEducation = [
     "wordIds": [
       "18818"
     ],
+    "cloze": {
+      "de": "Ausnahmefall",
+      "en": "exceptional"
+    },
     "sourceIndex": 8818
   },
   {
@@ -4808,6 +5936,10 @@ const phrasesEducation = [
     "wordIds": [
       "18874"
     ],
+    "cloze": {
+      "de": "Kurzgeschichten",
+      "en": "short"
+    },
     "sourceIndex": 8874
   },
   {
@@ -4825,6 +5957,10 @@ const phrasesEducation = [
     "wordIds": [
       "18897"
     ],
+    "cloze": {
+      "de": "Quali",
+      "en": "qualification"
+    },
     "sourceIndex": 8897
   },
   {
@@ -4842,6 +5978,10 @@ const phrasesEducation = [
     "wordIds": [
       "19027"
     ],
+    "cloze": {
+      "de": "Matura",
+      "en": "high"
+    },
     "sourceIndex": 9027
   },
   {
@@ -4859,6 +5999,10 @@ const phrasesEducation = [
     "wordIds": [
       "19076"
     ],
+    "cloze": {
+      "de": "Tscheche",
+      "en": "Czech"
+    },
     "sourceIndex": 9076
   },
   {
@@ -4876,6 +6020,10 @@ const phrasesEducation = [
     "wordIds": [
       "19183"
     ],
+    "cloze": {
+      "de": "kurdische",
+      "en": "Kurdish"
+    },
     "sourceIndex": 9183
   },
   {
@@ -4893,6 +6041,10 @@ const phrasesEducation = [
     "wordIds": [
       "19231"
     ],
+    "cloze": {
+      "de": "Volkshochschule",
+      "en": "adult"
+    },
     "sourceIndex": 9231
   },
   {
@@ -4910,6 +6062,10 @@ const phrasesEducation = [
     "wordIds": [
       "19338"
     ],
+    "cloze": {
+      "de": "Portugiesisch",
+      "en": "Portuguese"
+    },
     "sourceIndex": 9338
   },
   {
@@ -4927,6 +6083,10 @@ const phrasesEducation = [
     "wordIds": [
       "19340"
     ],
+    "cloze": {
+      "de": "Professorin",
+      "en": "female"
+    },
     "sourceIndex": 9340
   },
   {
@@ -4944,6 +6104,10 @@ const phrasesEducation = [
     "wordIds": [
       "19544"
     ],
+    "cloze": {
+      "de": "abschreiben",
+      "en": "copy"
+    },
     "sourceIndex": 9544
   },
   {
@@ -4961,6 +6125,10 @@ const phrasesEducation = [
     "wordIds": [
       "19705"
     ],
+    "cloze": {
+      "de": "Arbeitszimmer",
+      "en": "study"
+    },
     "sourceIndex": 9705
   },
   {
@@ -4978,6 +6146,10 @@ const phrasesEducation = [
     "wordIds": [
       "19734"
     ],
+    "cloze": {
+      "de": "durchlesen",
+      "en": "read"
+    },
     "sourceIndex": 9734
   },
   {
@@ -4995,6 +6167,10 @@ const phrasesEducation = [
     "wordIds": [
       "19896"
     ],
+    "cloze": {
+      "de": "Idealfall",
+      "en": "ideal"
+    },
     "sourceIndex": 9896
   },
   {
@@ -5012,6 +6188,10 @@ const phrasesEducation = [
     "wordIds": [
       "20040"
     ],
+    "cloze": {
+      "de": "experimentieren",
+      "en": "experimenting"
+    },
     "sourceIndex": 10040
   },
   {
@@ -5029,6 +6209,10 @@ const phrasesEducation = [
     "wordIds": [
       "20043"
     ],
+    "cloze": {
+      "de": "fehlerfrei",
+      "en": "error-free"
+    },
     "sourceIndex": 10043
   },
   {
@@ -5046,6 +6230,10 @@ const phrasesEducation = [
     "wordIds": [
       "20131"
     ],
+    "cloze": {
+      "de": "im",
+      "en": "dormitory"
+    },
     "sourceIndex": 10131
   },
   {
@@ -5063,6 +6251,10 @@ const phrasesEducation = [
     "wordIds": [
       "20139"
     ],
+    "cloze": {
+      "de": "Adjektiv",
+      "en": "adjective"
+    },
     "sourceIndex": 10139
   },
   {
@@ -5080,6 +6272,10 @@ const phrasesEducation = [
     "wordIds": [
       "20265"
     ],
+    "cloze": {
+      "de": "tragbare",
+      "en": "portable"
+    },
     "sourceIndex": 10265
   },
   {
@@ -5097,6 +6293,10 @@ const phrasesEducation = [
     "wordIds": [
       "20421"
     ],
+    "cloze": {
+      "de": "Tutorial",
+      "en": "tutorial"
+    },
     "sourceIndex": 10421
   },
   {
@@ -5114,6 +6314,10 @@ const phrasesEducation = [
     "wordIds": [
       "20433"
     ],
+    "cloze": {
+      "de": "Vokabeln",
+      "en": "vocabulary"
+    },
     "sourceIndex": 10433
   },
   {
@@ -5131,6 +6335,10 @@ const phrasesEducation = [
     "wordIds": [
       "20446"
     ],
+    "cloze": {
+      "de": "Abiturient",
+      "en": "high"
+    },
     "sourceIndex": 10446
   },
   {
@@ -5148,6 +6356,10 @@ const phrasesEducation = [
     "wordIds": [
       "20503"
     ],
+    "cloze": {
+      "de": "hebräisch",
+      "en": "Hebrew"
+    },
     "sourceIndex": 10503
   },
   {
@@ -5165,6 +6377,10 @@ const phrasesEducation = [
     "wordIds": [
       "20509"
     ],
+    "cloze": {
+      "de": "Highschool",
+      "en": "high"
+    },
     "sourceIndex": 10509
   },
   {
@@ -5182,6 +6398,10 @@ const phrasesEducation = [
     "wordIds": [
       "20536"
     ],
+    "cloze": {
+      "de": "Oberschule",
+      "en": "secondary"
+    },
     "sourceIndex": 10536
   },
   {
@@ -5199,6 +6419,10 @@ const phrasesEducation = [
     "wordIds": [
       "20557"
     ],
+    "cloze": {
+      "de": "Schulbildung",
+      "en": "education"
+    },
     "sourceIndex": 10557
   },
   {
@@ -5216,6 +6440,10 @@ const phrasesEducation = [
     "wordIds": [
       "20566"
     ],
+    "cloze": {
+      "de": "studentischen",
+      "en": "student"
+    },
     "sourceIndex": 10566
   },
   {
@@ -5233,6 +6461,10 @@ const phrasesEducation = [
     "wordIds": [
       "20716"
     ],
+    "cloze": {
+      "de": "Schulsystem",
+      "en": "school"
+    },
     "sourceIndex": 10716
   },
   {
@@ -5250,6 +6482,10 @@ const phrasesEducation = [
     "wordIds": [
       "20775"
     ],
+    "cloze": {
+      "de": "Anrede",
+      "en": "form"
+    },
     "sourceIndex": 10775
   },
   {
@@ -5267,6 +6503,10 @@ const phrasesEducation = [
     "wordIds": [
       "20995"
     ],
+    "cloze": {
+      "de": "einsammeln",
+      "en": "collect"
+    },
     "sourceIndex": 10995
   },
   {
@@ -5284,6 +6524,10 @@ const phrasesEducation = [
     "wordIds": [
       "21013"
     ],
+    "cloze": {
+      "de": "Gartenbau",
+      "en": "horticulture"
+    },
     "sourceIndex": 11013
   },
   {
@@ -5301,6 +6545,10 @@ const phrasesEducation = [
     "wordIds": [
       "21054"
     ],
+    "cloze": {
+      "de": "lesenswert",
+      "en": "worth"
+    },
     "sourceIndex": 11054
   },
   {
@@ -5318,6 +6566,10 @@ const phrasesEducation = [
     "wordIds": [
       "21067"
     ],
+    "cloze": {
+      "de": "Nomen",
+      "en": "noun"
+    },
     "sourceIndex": 11067
   },
   {
@@ -5335,6 +6587,10 @@ const phrasesEducation = [
     "wordIds": [
       "21137"
     ],
+    "cloze": {
+      "de": "Algebra",
+      "en": "algebra"
+    },
     "sourceIndex": 11137
   },
   {
@@ -5352,6 +6608,10 @@ const phrasesEducation = [
     "wordIds": [
       "21351"
     ],
+    "cloze": {
+      "de": "Course",
+      "en": "course"
+    },
     "sourceIndex": 11351
   },
   {
@@ -5369,6 +6629,10 @@ const phrasesEducation = [
     "wordIds": [
       "21380"
     ],
+    "cloze": {
+      "de": "fluchen",
+      "en": "curse"
+    },
     "sourceIndex": 11380
   },
   {
@@ -5386,6 +6650,10 @@ const phrasesEducation = [
     "wordIds": [
       "21487"
     ],
+    "cloze": {
+      "de": "Universitätsbibliothek",
+      "en": "university"
+    },
     "sourceIndex": 11487
   },
   {
@@ -5403,6 +6671,10 @@ const phrasesEducation = [
     "wordIds": [
       "21531"
     ],
+    "cloze": {
+      "de": "Bescheinigung",
+      "en": "certificate"
+    },
     "sourceIndex": 11531
   },
   {
@@ -5420,6 +6692,10 @@ const phrasesEducation = [
     "wordIds": [
       "21546"
     ],
+    "cloze": {
+      "de": "Endung",
+      "en": "ending"
+    },
     "sourceIndex": 11546
   },
   {
@@ -5437,6 +6713,10 @@ const phrasesEducation = [
     "wordIds": [
       "21627"
     ],
+    "cloze": {
+      "de": "Schulkind",
+      "en": "school"
+    },
     "sourceIndex": 11627
   },
   {
@@ -5454,6 +6734,10 @@ const phrasesEducation = [
     "wordIds": [
       "21631"
     ],
+    "cloze": {
+      "de": "Silben",
+      "en": "syllables"
+    },
     "sourceIndex": 11631
   },
   {
@@ -5471,6 +6755,10 @@ const phrasesEducation = [
     "wordIds": [
       "21645"
     ],
+    "cloze": {
+      "de": "Teleskop",
+      "en": "telescope"
+    },
     "sourceIndex": 11645
   },
   {
@@ -5488,6 +6776,10 @@ const phrasesEducation = [
     "wordIds": [
       "21716"
     ],
+    "cloze": {
+      "de": "Erzieherin",
+      "en": "kindergarten"
+    },
     "sourceIndex": 11716
   },
   {
@@ -5505,6 +6797,10 @@ const phrasesEducation = [
     "wordIds": [
       "21844"
     ],
+    "cloze": {
+      "de": "zurückholen",
+      "en": "retrieve"
+    },
     "sourceIndex": 11844
   },
   {
@@ -5522,6 +6818,10 @@ const phrasesEducation = [
     "wordIds": [
       "21924"
     ],
+    "cloze": {
+      "de": "Krankenpflege",
+      "en": "nursing"
+    },
     "sourceIndex": 11924
   },
   {
@@ -5539,6 +6839,10 @@ const phrasesEducation = [
     "wordIds": [
       "21964"
     ],
+    "cloze": {
+      "de": "Rechtschreibfehler",
+      "en": "spelling"
+    },
     "sourceIndex": 11964
   },
   {
@@ -5556,6 +6860,10 @@ const phrasesEducation = [
     "wordIds": [
       "21973"
     ],
+    "cloze": {
+      "de": "Schulklasse",
+      "en": "school"
+    },
     "sourceIndex": 11973
   },
   {
@@ -5573,6 +6881,10 @@ const phrasesEducation = [
     "wordIds": [
       "21976"
     ],
+    "cloze": {
+      "de": "sitzende",
+      "en": "sitting"
+    },
     "sourceIndex": 11976
   },
   {
@@ -5590,6 +6902,10 @@ const phrasesEducation = [
     "wordIds": [
       "22021"
     ],
+    "cloze": {
+      "de": "weiterlesen",
+      "en": "continue"
+    },
     "sourceIndex": 12021
   },
   {
@@ -5607,6 +6923,10 @@ const phrasesEducation = [
     "wordIds": [
       "22345"
     ],
+    "cloze": {
+      "de": "sechsmal",
+      "en": "six"
+    },
     "sourceIndex": 12345
   },
   {
@@ -5624,6 +6944,10 @@ const phrasesEducation = [
     "wordIds": [
       "22383"
     ],
+    "cloze": {
+      "de": "Zeitungsartikel",
+      "en": "newspaper"
+    },
     "sourceIndex": 12383
   },
   {
@@ -5641,6 +6965,10 @@ const phrasesEducation = [
     "wordIds": [
       "22387"
     ],
+    "cloze": {
+      "de": "zurückbringen",
+      "en": "return"
+    },
     "sourceIndex": 12387
   },
   {
@@ -5658,6 +6986,10 @@ const phrasesEducation = [
     "wordIds": [
       "22490"
     ],
+    "cloze": {
+      "de": "koreanische",
+      "en": "Korean"
+    },
     "sourceIndex": 12490
   },
   {
@@ -5675,6 +7007,10 @@ const phrasesEducation = [
     "wordIds": [
       "22507"
     ],
+    "cloze": {
+      "de": "Mikroskop",
+      "en": "microscope"
+    },
     "sourceIndex": 12507
   },
   {
@@ -5692,6 +7028,10 @@ const phrasesEducation = [
     "wordIds": [
       "22722"
     ],
+    "cloze": {
+      "de": "Schwierigkeitsgrad",
+      "en": "degree"
+    },
     "sourceIndex": 12722
   },
   {
@@ -5709,6 +7049,10 @@ const phrasesEducation = [
     "wordIds": [
       "22769"
     ],
+    "cloze": {
+      "de": "Zeitvertreib",
+      "en": "pastime"
+    },
     "sourceIndex": 12769
   },
   {
@@ -5726,6 +7070,10 @@ const phrasesEducation = [
     "wordIds": [
       "22777"
     ],
+    "cloze": {
+      "de": "abfragen",
+      "en": "test"
+    },
     "sourceIndex": 12777
   },
   {
@@ -5743,6 +7091,10 @@ const phrasesEducation = [
     "wordIds": [
       "22792"
     ],
+    "cloze": {
+      "de": "Aufjedenfall",
+      "en": "In"
+    },
     "sourceIndex": 12792
   },
   {
@@ -5760,6 +7112,10 @@ const phrasesEducation = [
     "wordIds": [
       "23003"
     ],
+    "cloze": {
+      "de": "Dativ",
+      "en": "dative"
+    },
     "sourceIndex": 13003
   },
   {
@@ -5777,6 +7133,10 @@ const phrasesEducation = [
     "wordIds": [
       "23040"
     ],
+    "cloze": {
+      "de": "Hauptthema",
+      "en": "main"
+    },
     "sourceIndex": 13040
   },
   {
@@ -5794,6 +7154,10 @@ const phrasesEducation = [
     "wordIds": [
       "23063"
     ],
+    "cloze": {
+      "de": "Leserin",
+      "en": "female"
+    },
     "sourceIndex": 13063
   },
   {
@@ -5811,6 +7175,10 @@ const phrasesEducation = [
     "wordIds": [
       "23078"
     ],
+    "cloze": {
+      "de": "Notizbuch",
+      "en": "notebook"
+    },
     "sourceIndex": 13078
   },
   {
@@ -5828,6 +7196,10 @@ const phrasesEducation = [
     "wordIds": [
       "23127"
     ],
+    "cloze": {
+      "de": "undeutlich",
+      "en": "unclear"
+    },
     "sourceIndex": 13127
   },
   {
@@ -5845,6 +7217,10 @@ const phrasesEducation = [
     "wordIds": [
       "23340"
     ],
+    "cloze": {
+      "de": "Vokabular",
+      "en": "vocabulary"
+    },
     "sourceIndex": 13340
   },
   {
@@ -5862,6 +7238,10 @@ const phrasesEducation = [
     "wordIds": [
       "23407"
     ],
+    "cloze": {
+      "de": "Dozentin",
+      "en": "female"
+    },
     "sourceIndex": 13407
   },
   {
@@ -5879,6 +7259,10 @@ const phrasesEducation = [
     "wordIds": [
       "23413"
     ],
+    "cloze": {
+      "de": "Einschulung",
+      "en": "school"
+    },
     "sourceIndex": 13413
   },
   {
@@ -5896,6 +7280,10 @@ const phrasesEducation = [
     "wordIds": [
       "23436"
     ],
+    "cloze": {
+      "de": "Geschichtsunterricht",
+      "en": "history"
+    },
     "sourceIndex": 13436
   },
   {
@@ -5913,6 +7301,10 @@ const phrasesEducation = [
     "wordIds": [
       "23446"
     ],
+    "cloze": {
+      "de": "Heimatmuseum",
+      "en": "local"
+    },
     "sourceIndex": 13446
   },
   {
@@ -5930,6 +7322,10 @@ const phrasesEducation = [
     "wordIds": [
       "23459"
     ],
+    "cloze": {
+      "de": "Kommissarin",
+      "en": "commissioner"
+    },
     "sourceIndex": 13459
   },
   {
@@ -5947,6 +7343,10 @@ const phrasesEducation = [
     "wordIds": [
       "23546"
     ],
+    "cloze": {
+      "de": "Wahlzettel",
+      "en": "ballot"
+    },
     "sourceIndex": 13546
   },
   {
@@ -5964,6 +7364,10 @@ const phrasesEducation = [
     "wordIds": [
       "23625"
     ],
+    "cloze": {
+      "de": "Erdkunde",
+      "en": "geography"
+    },
     "sourceIndex": 13625
   },
   {
@@ -5981,6 +7385,10 @@ const phrasesEducation = [
     "wordIds": [
       "23680"
     ],
+    "cloze": {
+      "de": "lernende",
+      "en": "learning"
+    },
     "sourceIndex": 13680
   },
   {
@@ -5998,6 +7406,10 @@ const phrasesEducation = [
     "wordIds": [
       "23692"
     ],
+    "cloze": {
+      "de": "Musikgeschichte",
+      "en": "music"
+    },
     "sourceIndex": 13692
   },
   {
@@ -6015,6 +7427,10 @@ const phrasesEducation = [
     "wordIds": [
       "23824"
     ],
+    "cloze": {
+      "de": "durchgefallen",
+      "en": "exam"
+    },
     "sourceIndex": 13824
   },
   {
@@ -6032,6 +7448,10 @@ const phrasesEducation = [
     "wordIds": [
       "23850"
     ],
+    "cloze": {
+      "de": "Instruktionen",
+      "en": "instructions"
+    },
     "sourceIndex": 13850
   },
   {
@@ -6049,6 +7469,10 @@ const phrasesEducation = [
     "wordIds": [
       "23982"
     ],
+    "cloze": {
+      "de": "ausrechnen",
+      "en": "calculate"
+    },
     "sourceIndex": 13982
   },
   {
@@ -6066,6 +7490,10 @@ const phrasesEducation = [
     "wordIds": [
       "24060"
     ],
+    "cloze": {
+      "de": "Knick",
+      "en": "crease"
+    },
     "sourceIndex": 14060
   },
   {
@@ -6083,6 +7511,10 @@ const phrasesEducation = [
     "wordIds": [
       "24109"
     ],
+    "cloze": {
+      "de": "Sachbücher",
+      "en": "non-fiction"
+    },
     "sourceIndex": 14109
   },
   {
@@ -6100,6 +7532,10 @@ const phrasesEducation = [
     "wordIds": [
       "24129"
     ],
+    "cloze": {
+      "de": "Taschenrechner",
+      "en": "calculator"
+    },
     "sourceIndex": 14129
   },
   {
@@ -6117,6 +7553,10 @@ const phrasesEducation = [
     "wordIds": [
       "24138"
     ],
+    "cloze": {
+      "de": "unvorbereitet",
+      "en": "unprepared"
+    },
     "sourceIndex": 14138
   },
   {
@@ -6134,6 +7574,10 @@ const phrasesEducation = [
     "wordIds": [
       "24175"
     ],
+    "cloze": {
+      "de": "adressieren",
+      "en": "address"
+    },
     "sourceIndex": 14175
   },
   {
@@ -6151,6 +7595,10 @@ const phrasesEducation = [
     "wordIds": [
       "24298"
     ],
+    "cloze": {
+      "de": "Schäferhund",
+      "en": "German"
+    },
     "sourceIndex": 14298
   },
   {
@@ -6168,6 +7616,10 @@ const phrasesEducation = [
     "wordIds": [
       "24307"
     ],
+    "cloze": {
+      "de": "Sprachkurs",
+      "en": "language"
+    },
     "sourceIndex": 14307
   },
   {
@@ -6185,6 +7637,10 @@ const phrasesEducation = [
     "wordIds": [
       "24432"
     ],
+    "cloze": {
+      "de": "Jahrgangsstufe",
+      "en": "grade"
+    },
     "sourceIndex": 14432
   },
   {
@@ -6202,6 +7658,10 @@ const phrasesEducation = [
     "wordIds": [
       "24465"
     ],
+    "cloze": {
+      "de": "Postbote",
+      "en": "postman"
+    },
     "sourceIndex": 14465
   },
   {
@@ -6219,6 +7679,10 @@ const phrasesEducation = [
     "wordIds": [
       "24495"
     ],
+    "cloze": {
+      "de": "Sportunterricht",
+      "en": "physical"
+    },
     "sourceIndex": 14495
   },
   {
@@ -6236,6 +7700,10 @@ const phrasesEducation = [
     "wordIds": [
       "24628"
     ],
+    "cloze": {
+      "de": "Genitiv",
+      "en": "genitive"
+    },
     "sourceIndex": 14628
   },
   {
@@ -6253,6 +7721,10 @@ const phrasesEducation = [
     "wordIds": [
       "24773"
     ],
+    "cloze": {
+      "de": "Abendblatt",
+      "en": "evening"
+    },
     "sourceIndex": 14773
   },
   {
@@ -6270,6 +7742,10 @@ const phrasesEducation = [
     "wordIds": [
       "24821"
     ],
+    "cloze": {
+      "de": "Fachschule",
+      "en": "school"
+    },
     "sourceIndex": 14821
   },
   {
@@ -6287,6 +7763,10 @@ const phrasesEducation = [
     "wordIds": [
       "24870"
     ],
+    "cloze": {
+      "de": "langzeitige",
+      "en": "long-term"
+    },
     "sourceIndex": 14870
   },
   {
@@ -6304,6 +7784,10 @@ const phrasesEducation = [
     "wordIds": [
       "24874"
     ],
+    "cloze": {
+      "de": "Leserbrief",
+      "en": "letter"
+    },
     "sourceIndex": 14874
   },
   {
@@ -6321,6 +7805,10 @@ const phrasesEducation = [
     "wordIds": [
       "24886"
     ],
+    "cloze": {
+      "de": "nachschlagen",
+      "en": "look"
+    },
     "sourceIndex": 14886
   },
   {
@@ -6338,6 +7826,10 @@ const phrasesEducation = [
     "wordIds": [
       "25282"
     ],
+    "cloze": {
+      "de": "Grundschüler",
+      "en": "primary"
+    },
     "sourceIndex": 15282
   },
   {
@@ -6355,6 +7847,10 @@ const phrasesEducation = [
     "wordIds": [
       "25575"
     ],
+    "cloze": {
+      "de": "Schulweg",
+      "en": "way"
+    },
     "sourceIndex": 15575
   },
   {
@@ -6372,6 +7868,10 @@ const phrasesEducation = [
     "wordIds": [
       "25799"
     ],
+    "cloze": {
+      "de": "Testergebnis",
+      "en": "test"
+    },
     "sourceIndex": 15799
   },
   {
@@ -6389,6 +7889,10 @@ const phrasesEducation = [
     "wordIds": [
       "25904"
     ],
+    "cloze": {
+      "de": "Fremdwörter",
+      "en": "words"
+    },
     "sourceIndex": 15904
   },
   {
@@ -6406,6 +7910,10 @@ const phrasesEducation = [
     "wordIds": [
       "25916"
     ],
+    "cloze": {
+      "de": "spicken",
+      "en": "cheat"
+    },
     "sourceIndex": 15916
   },
   {
@@ -6423,6 +7931,10 @@ const phrasesEducation = [
     "wordIds": [
       "25931"
     ],
+    "cloze": {
+      "de": "Hauptfach",
+      "en": "major"
+    },
     "sourceIndex": 15931
   },
   {
@@ -6440,6 +7952,10 @@ const phrasesEducation = [
     "wordIds": [
       "25958"
     ],
+    "cloze": {
+      "de": "Lesebuch",
+      "en": "reading"
+    },
     "sourceIndex": 15958
   },
   {
@@ -6457,6 +7973,10 @@ const phrasesEducation = [
     "wordIds": [
       "26002"
     ],
+    "cloze": {
+      "de": "Schreibfehler",
+      "en": "typo"
+    },
     "sourceIndex": 16002
   },
   {
@@ -6474,6 +7994,10 @@ const phrasesEducation = [
     "wordIds": [
       "26048"
     ],
+    "cloze": {
+      "de": "Wissenschaftlerin",
+      "en": "female"
+    },
     "sourceIndex": 16048
   },
   {
@@ -6491,6 +8015,10 @@ const phrasesEducation = [
     "wordIds": [
       "26135"
     ],
+    "cloze": {
+      "de": "Grundkurs",
+      "en": "basic"
+    },
     "sourceIndex": 16135
   },
   {
@@ -6508,6 +8036,10 @@ const phrasesEducation = [
     "wordIds": [
       "26445"
     ],
+    "cloze": {
+      "de": "Mittelstufe",
+      "en": "middle"
+    },
     "sourceIndex": 16445
   },
   {
@@ -6525,6 +8057,10 @@ const phrasesEducation = [
     "wordIds": [
       "26705"
     ],
+    "cloze": {
+      "de": "niederschreiben",
+      "en": "write"
+    },
     "sourceIndex": 16705
   },
   {
@@ -6542,6 +8078,10 @@ const phrasesEducation = [
     "wordIds": [
       "26782"
     ],
+    "cloze": {
+      "de": "Unterrichtsstunde",
+      "en": "lesson"
+    },
     "sourceIndex": 16782
   },
   {
@@ -6559,6 +8099,10 @@ const phrasesEducation = [
     "wordIds": [
       "26844"
     ],
+    "cloze": {
+      "de": "Dichterin",
+      "en": "poetess"
+    },
     "sourceIndex": 16844
   },
   {
@@ -6576,6 +8120,10 @@ const phrasesEducation = [
     "wordIds": [
       "26894"
     ],
+    "cloze": {
+      "de": "Klassenraum",
+      "en": "classroom"
+    },
     "sourceIndex": 16894
   },
   {
@@ -6593,6 +8141,10 @@ const phrasesEducation = [
     "wordIds": [
       "26915"
     ],
+    "cloze": {
+      "de": "Der",
+      "en": "teacher"
+    },
     "sourceIndex": 16915
   },
   {
@@ -6610,6 +8162,10 @@ const phrasesEducation = [
     "wordIds": [
       "26917"
     ],
+    "cloze": {
+      "de": "Der",
+      "en": "learner"
+    },
     "sourceIndex": 16917
   },
   {
@@ -6627,6 +8183,10 @@ const phrasesEducation = [
     "wordIds": [
       "26923"
     ],
+    "cloze": {
+      "de": "Litauisch",
+      "en": "Lithuanian"
+    },
     "sourceIndex": 16923
   },
   {
@@ -6644,6 +8204,10 @@ const phrasesEducation = [
     "wordIds": [
       "26935"
     ],
+    "cloze": {
+      "de": "mitlesen",
+      "en": "read"
+    },
     "sourceIndex": 16935
   },
   {
@@ -6661,6 +8225,10 @@ const phrasesEducation = [
     "wordIds": [
       "27068"
     ],
+    "cloze": {
+      "de": "Anfangsbuchstabe",
+      "en": "initial"
+    },
     "sourceIndex": 17068
   },
   {
@@ -6678,6 +8246,10 @@ const phrasesEducation = [
     "wordIds": [
       "27121"
     ],
+    "cloze": {
+      "de": "eingeschult",
+      "en": "start"
+    },
     "sourceIndex": 17121
   },
   {
@@ -6695,6 +8267,10 @@ const phrasesEducation = [
     "wordIds": [
       "27205"
     ],
+    "cloze": {
+      "de": "Leseprobe",
+      "en": "reading"
+    },
     "sourceIndex": 17205
   },
   {
@@ -6712,6 +8288,10 @@ const phrasesEducation = [
     "wordIds": [
       "27349"
     ],
+    "cloze": {
+      "de": "auszuteilen",
+      "en": "distribute"
+    },
     "sourceIndex": 17349
   },
   {
@@ -6729,6 +8309,10 @@ const phrasesEducation = [
     "wordIds": [
       "27475"
     ],
+    "cloze": {
+      "de": "Lerner",
+      "en": "learners"
+    },
     "sourceIndex": 17475
   },
   {
@@ -6746,6 +8330,10 @@ const phrasesEducation = [
     "wordIds": [
       "27534"
     ],
+    "cloze": {
+      "de": "Schulbuch",
+      "en": "school"
+    },
     "sourceIndex": 17534
   },
   {
@@ -6763,6 +8351,10 @@ const phrasesEducation = [
     "wordIds": [
       "27554"
     ],
+    "cloze": {
+      "de": "Tanzschule",
+      "en": "dance"
+    },
     "sourceIndex": 17554
   },
   {
@@ -6780,6 +8372,10 @@ const phrasesEducation = [
     "wordIds": [
       "27712"
     ],
+    "cloze": {
+      "de": "Hochschullehrer",
+      "en": "university"
+    },
     "sourceIndex": 17712
   },
   {
@@ -6797,6 +8393,10 @@ const phrasesEducation = [
     "wordIds": [
       "27767"
     ],
+    "cloze": {
+      "de": "raushalten",
+      "en": "out"
+    },
     "sourceIndex": 17767
   },
   {
@@ -6814,6 +8414,10 @@ const phrasesEducation = [
     "wordIds": [
       "27785"
     ],
+    "cloze": {
+      "de": "Schulferien",
+      "en": "school"
+    },
     "sourceIndex": 17785
   },
   {
@@ -6831,6 +8435,10 @@ const phrasesEducation = [
     "wordIds": [
       "27902"
     ],
+    "cloze": {
+      "de": "Deutschlehrer",
+      "en": "German"
+    },
     "sourceIndex": 17902
   },
   {
@@ -6848,6 +8456,10 @@ const phrasesEducation = [
     "wordIds": [
       "27982"
     ],
+    "cloze": {
+      "de": "Lernprozess",
+      "en": "learning"
+    },
     "sourceIndex": 17982
   },
   {
@@ -6865,6 +8477,10 @@ const phrasesEducation = [
     "wordIds": [
       "28032"
     ],
+    "cloze": {
+      "de": "Sekundarschule",
+      "en": "secondary"
+    },
     "sourceIndex": 18032
   },
   {
@@ -6882,6 +8498,10 @@ const phrasesEducation = [
     "wordIds": [
       "28166"
     ],
+    "cloze": {
+      "de": "Geografie",
+      "en": "geography"
+    },
     "sourceIndex": 18166
   },
   {
@@ -6899,6 +8519,10 @@ const phrasesEducation = [
     "wordIds": [
       "28174"
     ],
+    "cloze": {
+      "de": "Gymnasiast",
+      "en": "high"
+    },
     "sourceIndex": 18174
   },
   {
@@ -6916,6 +8540,10 @@ const phrasesEducation = [
     "wordIds": [
       "28431"
     ],
+    "cloze": {
+      "de": "Geschichtsbuch",
+      "en": "history"
+    },
     "sourceIndex": 18431
   },
   {
@@ -6933,6 +8561,10 @@ const phrasesEducation = [
     "wordIds": [
       "28438"
     ],
+    "cloze": {
+      "de": "Grundbegriff",
+      "en": "basic"
+    },
     "sourceIndex": 18438
   },
   {
@@ -6950,6 +8582,10 @@ const phrasesEducation = [
     "wordIds": [
       "28440"
     ],
+    "cloze": {
+      "de": "Grundwissen",
+      "en": "basic"
+    },
     "sourceIndex": 18440
   },
   {
@@ -6967,6 +8603,10 @@ const phrasesEducation = [
     "wordIds": [
       "28530"
     ],
+    "cloze": {
+      "de": "Privatsache",
+      "en": "private"
+    },
     "sourceIndex": 18530
   },
   {
@@ -6984,6 +8624,10 @@ const phrasesEducation = [
     "wordIds": [
       "28558"
     ],
+    "cloze": {
+      "de": "Slowene",
+      "en": "Slovene"
+    },
     "sourceIndex": 18558
   },
   {
@@ -7001,6 +8645,10 @@ const phrasesEducation = [
     "wordIds": [
       "28649"
     ],
+    "cloze": {
+      "de": "berichtigen",
+      "en": "correct"
+    },
     "sourceIndex": 18649
   },
   {
@@ -7018,6 +8666,10 @@ const phrasesEducation = [
     "wordIds": [
       "28661"
     ],
+    "cloze": {
+      "de": "Deutschkenntnisse",
+      "en": "knowledge"
+    },
     "sourceIndex": 18661
   },
   {
@@ -7035,6 +8687,10 @@ const phrasesEducation = [
     "wordIds": [
       "28666"
     ],
+    "cloze": {
+      "de": "editieren",
+      "en": "edit"
+    },
     "sourceIndex": 18666
   },
   {
@@ -7052,6 +8708,10 @@ const phrasesEducation = [
     "wordIds": [
       "28683"
     ],
+    "cloze": {
+      "de": "Fernstudium",
+      "en": "distance"
+    },
     "sourceIndex": 18683
   },
   {
@@ -7069,6 +8729,10 @@ const phrasesEducation = [
     "wordIds": [
       "28747"
     ],
+    "cloze": {
+      "de": "Lesestoff",
+      "en": "reading"
+    },
     "sourceIndex": 18747
   },
   {
@@ -7086,6 +8750,10 @@ const phrasesEducation = [
     "wordIds": [
       "28781"
     ],
+    "cloze": {
+      "de": "aus",
+      "en": "kicked"
+    },
     "sourceIndex": 18781
   },
   {
@@ -7103,6 +8771,10 @@ const phrasesEducation = [
     "wordIds": [
       "28803"
     ],
+    "cloze": {
+      "de": "Schulzentrum",
+      "en": "school"
+    },
     "sourceIndex": 18803
   },
   {
@@ -7120,6 +8792,10 @@ const phrasesEducation = [
     "wordIds": [
       "28915"
     ],
+    "cloze": {
+      "de": "Bildungsbereich",
+      "en": "education"
+    },
     "sourceIndex": 18915
   },
   {
@@ -7137,6 +8813,10 @@ const phrasesEducation = [
     "wordIds": [
       "29329"
     ],
+    "cloze": {
+      "de": "Migrantin",
+      "en": "female"
+    },
     "sourceIndex": 19329
   },
   {
@@ -7154,6 +8834,10 @@ const phrasesEducation = [
     "wordIds": [
       "29392"
     ],
+    "cloze": {
+      "de": "schummeln",
+      "en": "cheat"
+    },
     "sourceIndex": 19392
   },
   {
@@ -7171,6 +8855,10 @@ const phrasesEducation = [
     "wordIds": [
       "29496"
     ],
+    "cloze": {
+      "de": "Autokorrektur",
+      "en": "autocorrection"
+    },
     "sourceIndex": 19496
   },
   {
@@ -7188,6 +8876,10 @@ const phrasesEducation = [
     "wordIds": [
       "30276"
     ],
+    "cloze": {
+      "de": "Studentenwohnheim",
+      "en": "student"
+    },
     "sourceIndex": 20276
   }
 ];

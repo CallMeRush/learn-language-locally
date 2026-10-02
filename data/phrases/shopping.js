@@ -15,6 +15,10 @@ const phrasesShopping = [
       "10018",
       "10080"
     ],
+    "cloze": {
+      "de": "kein",
+      "en": "no"
+    },
     "sourceIndex": 18
   },
   {
@@ -32,6 +36,10 @@ const phrasesShopping = [
     "wordIds": [
       "10025"
     ],
+    "cloze": {
+      "de": "viel",
+      "en": "much"
+    },
     "sourceIndex": 25
   },
   {
@@ -49,6 +57,10 @@ const phrasesShopping = [
     "wordIds": [
       "10058"
     ],
+    "cloze": {
+      "de": "dafür",
+      "en": "for"
+    },
     "sourceIndex": 58
   },
   {
@@ -66,6 +78,10 @@ const phrasesShopping = [
     "wordIds": [
       "10072"
     ],
+    "cloze": {
+      "de": "gar",
+      "en": "at"
+    },
     "sourceIndex": 72
   },
   {
@@ -83,6 +99,10 @@ const phrasesShopping = [
     "wordIds": [
       "10133"
     ],
+    "cloze": {
+      "de": "Euro",
+      "en": "Euros"
+    },
     "sourceIndex": 133
   },
   {
@@ -100,6 +120,10 @@ const phrasesShopping = [
     "wordIds": [
       "10165"
     ],
+    "cloze": {
+      "de": "genug",
+      "en": "enough"
+    },
     "sourceIndex": 165
   },
   {
@@ -117,6 +141,10 @@ const phrasesShopping = [
     "wordIds": [
       "10264"
     ],
+    "cloze": {
+      "de": "frei",
+      "en": "free"
+    },
     "sourceIndex": 264
   },
   {
@@ -134,6 +162,10 @@ const phrasesShopping = [
     "wordIds": [
       "10271"
     ],
+    "cloze": {
+      "de": "Wert",
+      "en": "value"
+    },
     "sourceIndex": 271
   },
   {
@@ -151,6 +183,10 @@ const phrasesShopping = [
     "wordIds": [
       "10278"
     ],
+    "cloze": {
+      "de": "kostet",
+      "en": "cost"
+    },
     "sourceIndex": 278
   },
   {
@@ -168,6 +204,10 @@ const phrasesShopping = [
     "wordIds": [
       "10295"
     ],
+    "cloze": {
+      "de": "Preis",
+      "en": "price"
+    },
     "sourceIndex": 295
   },
   {
@@ -185,6 +225,10 @@ const phrasesShopping = [
     "wordIds": [
       "10311"
     ],
+    "cloze": {
+      "de": "kaufen",
+      "en": "buy"
+    },
     "sourceIndex": 311
   },
   {
@@ -202,6 +246,10 @@ const phrasesShopping = [
     "wordIds": [
       "10461"
     ],
+    "cloze": {
+      "de": "Markt",
+      "en": "market"
+    },
     "sourceIndex": 461
   },
   {
@@ -219,6 +267,10 @@ const phrasesShopping = [
     "wordIds": [
       "10477"
     ],
+    "cloze": {
+      "de": "reichen",
+      "en": "be"
+    },
     "sourceIndex": 477
   },
   {
@@ -236,6 +288,10 @@ const phrasesShopping = [
     "wordIds": [
       "10512"
     ],
+    "cloze": {
+      "de": "bieten",
+      "en": "offer"
+    },
     "sourceIndex": 512
   },
   {
@@ -253,6 +309,10 @@ const phrasesShopping = [
     "wordIds": [
       "10519"
     ],
+    "cloze": {
+      "de": "Kunde",
+      "en": "customer"
+    },
     "sourceIndex": 519
   },
   {
@@ -270,6 +330,10 @@ const phrasesShopping = [
     "wordIds": [
       "10526"
     ],
+    "cloze": {
+      "de": "Angebot",
+      "en": "offer"
+    },
     "sourceIndex": 526
   },
   {
@@ -287,6 +351,10 @@ const phrasesShopping = [
     "wordIds": [
       "10543"
     ],
+    "cloze": {
+      "de": "reicher",
+      "en": "rich"
+    },
     "sourceIndex": 543
   },
   {
@@ -304,6 +372,10 @@ const phrasesShopping = [
     "wordIds": [
       "10547"
     ],
+    "cloze": {
+      "de": "teilen",
+      "en": "share"
+    },
     "sourceIndex": 547
   },
   {
@@ -321,6 +393,10 @@ const phrasesShopping = [
     "wordIds": [
       "10553"
     ],
+    "cloze": {
+      "de": "Dollar",
+      "en": "dollars"
+    },
     "sourceIndex": 553
   },
   {
@@ -338,6 +414,10 @@ const phrasesShopping = [
     "wordIds": [
       "10583"
     ],
+    "cloze": {
+      "de": "Gold",
+      "en": "gold"
+    },
     "sourceIndex": 583
   },
   {
@@ -355,6 +435,10 @@ const phrasesShopping = [
     "wordIds": [
       "10592"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "earns"
+    },
     "sourceIndex": 592
   },
   {
@@ -372,6 +456,10 @@ const phrasesShopping = [
     "wordIds": [
       "10614"
     ],
+    "cloze": {
+      "de": "verkaufen",
+      "en": "sell"
+    },
     "sourceIndex": 614
   },
   {
@@ -389,6 +477,10 @@ const phrasesShopping = [
     "wordIds": [
       "10690"
     ],
+    "cloze": {
+      "de": "Werbung",
+      "en": "advertising"
+    },
     "sourceIndex": 690
   },
   {
@@ -406,6 +498,10 @@ const phrasesShopping = [
     "wordIds": [
       "10739"
     ],
+    "cloze": {
+      "de": "Qualität",
+      "en": "quality"
+    },
     "sourceIndex": 739
   },
   {
@@ -423,6 +519,10 @@ const phrasesShopping = [
     "wordIds": [
       "10748"
     ],
+    "cloze": {
+      "de": "Anteil",
+      "en": "share"
+    },
     "sourceIndex": 748
   },
   {
@@ -440,6 +540,10 @@ const phrasesShopping = [
     "wordIds": [
       "10781"
     ],
+    "cloze": {
+      "de": "weltweit",
+      "en": "worldwide"
+    },
     "sourceIndex": 781
   },
   {
@@ -457,6 +561,10 @@ const phrasesShopping = [
     "wordIds": [
       "10799"
     ],
+    "cloze": {
+      "de": "bezahlen",
+      "en": "pay"
+    },
     "sourceIndex": 799
   },
   {
@@ -474,6 +582,10 @@ const phrasesShopping = [
     "wordIds": [
       "10832"
     ],
+    "cloze": {
+      "de": "kostenlos",
+      "en": "free"
+    },
     "sourceIndex": 832
   },
   {
@@ -491,6 +603,10 @@ const phrasesShopping = [
     "wordIds": [
       "10845"
     ],
+    "cloze": {
+      "de": "arm",
+      "en": "poor"
+    },
     "sourceIndex": 845
   },
   {
@@ -508,6 +624,10 @@ const phrasesShopping = [
     "wordIds": [
       "10917"
     ],
+    "cloze": {
+      "de": "Ausgaben",
+      "en": "expenses"
+    },
     "sourceIndex": 917
   },
   {
@@ -525,6 +645,10 @@ const phrasesShopping = [
     "wordIds": [
       "10919"
     ],
+    "cloze": {
+      "de": "betragen",
+      "en": "amount"
+    },
     "sourceIndex": 919
   },
   {
@@ -542,6 +666,10 @@ const phrasesShopping = [
     "wordIds": [
       "10924"
     ],
+    "cloze": {
+      "de": "Kauf",
+      "en": "purchase"
+    },
     "sourceIndex": 924
   },
   {
@@ -559,6 +687,10 @@ const phrasesShopping = [
     "wordIds": [
       "10929"
     ],
+    "cloze": {
+      "de": "Produkt",
+      "en": "product"
+    },
     "sourceIndex": 929
   },
   {
@@ -576,6 +708,10 @@ const phrasesShopping = [
     "wordIds": [
       "10961"
     ],
+    "cloze": {
+      "de": "Geschäft",
+      "en": "shop"
+    },
     "sourceIndex": 961
   },
   {
@@ -593,6 +729,10 @@ const phrasesShopping = [
     "wordIds": [
       "10976"
     ],
+    "cloze": {
+      "de": "anbieten",
+      "en": "offer"
+    },
     "sourceIndex": 976
   },
   {
@@ -610,6 +750,10 @@ const phrasesShopping = [
     "wordIds": [
       "11057"
     ],
+    "cloze": {
+      "de": "Handel",
+      "en": "trade"
+    },
     "sourceIndex": 1057
   },
   {
@@ -627,6 +771,10 @@ const phrasesShopping = [
     "wordIds": [
       "11062"
     ],
+    "cloze": {
+      "de": "Lager",
+      "en": "warehouse"
+    },
     "sourceIndex": 1062
   },
   {
@@ -644,6 +792,10 @@ const phrasesShopping = [
     "wordIds": [
       "11066"
     ],
+    "cloze": {
+      "de": "sparen",
+      "en": "save"
+    },
     "sourceIndex": 1066
   },
   {
@@ -661,6 +813,10 @@ const phrasesShopping = [
     "wordIds": [
       "11067"
     ],
+    "cloze": {
+      "de": "steigen",
+      "en": "rising"
+    },
     "sourceIndex": 1067
   },
   {
@@ -678,6 +834,10 @@ const phrasesShopping = [
     "wordIds": [
       "11134"
     ],
+    "cloze": {
+      "de": "City",
+      "en": "downtown"
+    },
     "sourceIndex": 1134
   },
   {
@@ -695,6 +855,10 @@ const phrasesShopping = [
     "wordIds": [
       "11144"
     ],
+    "cloze": {
+      "de": "Steuer",
+      "en": "tax"
+    },
     "sourceIndex": 1144
   },
   {
@@ -712,6 +876,10 @@ const phrasesShopping = [
     "wordIds": [
       "11166"
     ],
+    "cloze": {
+      "de": "Rechnung",
+      "en": "bill"
+    },
     "sourceIndex": 1166
   },
   {
@@ -729,6 +897,10 @@ const phrasesShopping = [
     "wordIds": [
       "11173"
     ],
+    "cloze": {
+      "de": "Verkauf",
+      "en": "sale"
+    },
     "sourceIndex": 1173
   },
   {
@@ -746,6 +918,10 @@ const phrasesShopping = [
     "wordIds": [
       "11192"
     ],
+    "cloze": {
+      "de": "retten",
+      "en": "save"
+    },
     "sourceIndex": 1192
   },
   {
@@ -763,6 +939,10 @@ const phrasesShopping = [
     "wordIds": [
       "11205"
     ],
+    "cloze": {
+      "de": "erhöhen",
+      "en": "increase"
+    },
     "sourceIndex": 1205
   },
   {
@@ -780,6 +960,10 @@ const phrasesShopping = [
     "wordIds": [
       "11239"
     ],
+    "cloze": {
+      "de": "lohnt",
+      "en": "worth"
+    },
     "sourceIndex": 1239
   },
   {
@@ -797,6 +981,10 @@ const phrasesShopping = [
     "wordIds": [
       "11254"
     ],
+    "cloze": {
+      "de": "Einheit",
+      "en": "unit"
+    },
     "sourceIndex": 1254
   },
   {
@@ -814,6 +1002,10 @@ const phrasesShopping = [
     "wordIds": [
       "11267"
     ],
+    "cloze": {
+      "de": "teuer",
+      "en": "expensive"
+    },
     "sourceIndex": 1267
   },
   {
@@ -831,6 +1023,10 @@ const phrasesShopping = [
     "wordIds": [
       "11343"
     ],
+    "cloze": {
+      "de": "Ring",
+      "en": "ring"
+    },
     "sourceIndex": 1343
   },
   {
@@ -848,6 +1044,10 @@ const phrasesShopping = [
     "wordIds": [
       "11349"
     ],
+    "cloze": {
+      "de": "bestellen",
+      "en": "order"
+    },
     "sourceIndex": 1349
   },
   {
@@ -865,6 +1065,10 @@ const phrasesShopping = [
     "wordIds": [
       "11363"
     ],
+    "cloze": {
+      "de": "gratis",
+      "en": "free"
+    },
     "sourceIndex": 1363
   },
   {
@@ -882,6 +1086,10 @@ const phrasesShopping = [
     "wordIds": [
       "11367"
     ],
+    "cloze": {
+      "de": "liefern",
+      "en": "deliver"
+    },
     "sourceIndex": 1367
   },
   {
@@ -899,6 +1107,10 @@ const phrasesShopping = [
     "wordIds": [
       "11398"
     ],
+    "cloze": {
+      "de": "Marke",
+      "en": "brand"
+    },
     "sourceIndex": 1398
   },
   {
@@ -916,6 +1128,10 @@ const phrasesShopping = [
     "wordIds": [
       "11402"
     ],
+    "cloze": {
+      "de": "Silber",
+      "en": "silver"
+    },
     "sourceIndex": 1402
   },
   {
@@ -933,6 +1149,10 @@ const phrasesShopping = [
     "wordIds": [
       "11406"
     ],
+    "cloze": {
+      "de": "Tasche",
+      "en": "bag"
+    },
     "sourceIndex": 1406
   },
   {
@@ -950,6 +1170,10 @@ const phrasesShopping = [
     "wordIds": [
       "11425"
     ],
+    "cloze": {
+      "de": "Krise",
+      "en": "crisis"
+    },
     "sourceIndex": 1425
   },
   {
@@ -967,6 +1191,10 @@ const phrasesShopping = [
     "wordIds": [
       "11430"
     ],
+    "cloze": {
+      "de": "spezielles",
+      "en": "special"
+    },
     "sourceIndex": 1430
   },
   {
@@ -984,6 +1212,10 @@ const phrasesShopping = [
     "wordIds": [
       "11460"
     ],
+    "cloze": {
+      "de": "open",
+      "en": "open"
+    },
     "sourceIndex": 1460
   },
   {
@@ -1001,6 +1233,10 @@ const phrasesShopping = [
     "wordIds": [
       "11464"
     ],
+    "cloze": {
+      "de": "Shop",
+      "en": "shop"
+    },
     "sourceIndex": 1464
   },
   {
@@ -1018,6 +1254,10 @@ const phrasesShopping = [
     "wordIds": [
       "11564"
     ],
+    "cloze": {
+      "de": "sammelt",
+      "en": "collects"
+    },
     "sourceIndex": 1564
   },
   {
@@ -1035,6 +1275,10 @@ const phrasesShopping = [
     "wordIds": [
       "11584"
     ],
+    "cloze": {
+      "de": "einführen",
+      "en": "introduce"
+    },
     "sourceIndex": 1584
   },
   {
@@ -1052,6 +1296,10 @@ const phrasesShopping = [
     "wordIds": [
       "11585"
     ],
+    "cloze": {
+      "de": "Eintritt",
+      "en": "Admission"
+    },
     "sourceIndex": 1585
   },
   {
@@ -1069,6 +1317,10 @@ const phrasesShopping = [
     "wordIds": [
       "11632"
     ],
+    "cloze": {
+      "de": "Landwirtschaft",
+      "en": "Agriculture"
+    },
     "sourceIndex": 1632
   },
   {
@@ -1086,6 +1338,10 @@ const phrasesShopping = [
     "wordIds": [
       "11641"
     ],
+    "cloze": {
+      "de": "Summe",
+      "en": "sum"
+    },
     "sourceIndex": 1641
   },
   {
@@ -1103,6 +1359,10 @@ const phrasesShopping = [
     "wordIds": [
       "11667"
     ],
+    "cloze": {
+      "de": "günstig",
+      "en": "favorable"
+    },
     "sourceIndex": 1667
   },
   {
@@ -1120,6 +1380,10 @@ const phrasesShopping = [
     "wordIds": [
       "11671"
     ],
+    "cloze": {
+      "de": "inklusive",
+      "en": "including"
+    },
     "sourceIndex": 1671
   },
   {
@@ -1137,6 +1401,10 @@ const phrasesShopping = [
     "wordIds": [
       "11677"
     ],
+    "cloze": {
+      "de": "Bankkonto",
+      "en": "account"
+    },
     "sourceIndex": 1677
   },
   {
@@ -1154,6 +1422,10 @@ const phrasesShopping = [
     "wordIds": [
       "11699"
     ],
+    "cloze": {
+      "de": "Anbieter",
+      "en": "provider"
+    },
     "sourceIndex": 1699
   },
   {
@@ -1171,6 +1443,10 @@ const phrasesShopping = [
     "wordIds": [
       "11811"
     ],
+    "cloze": {
+      "de": "Wachstum",
+      "en": "growth"
+    },
     "sourceIndex": 1811
   },
   {
@@ -1188,6 +1464,10 @@ const phrasesShopping = [
     "wordIds": [
       "11812"
     ],
+    "cloze": {
+      "de": "wirtschaftliche",
+      "en": "economic"
+    },
     "sourceIndex": 1812
   },
   {
@@ -1205,6 +1485,10 @@ const phrasesShopping = [
     "wordIds": [
       "11815"
     ],
+    "cloze": {
+      "de": "Account",
+      "en": "account"
+    },
     "sourceIndex": 1815
   },
   {
@@ -1222,6 +1506,10 @@ const phrasesShopping = [
     "wordIds": [
       "11822"
     ],
+    "cloze": {
+      "de": "erheben",
+      "en": "a"
+    },
     "sourceIndex": 1822
   },
   {
@@ -1239,6 +1527,10 @@ const phrasesShopping = [
     "wordIds": [
       "11828"
     ],
+    "cloze": {
+      "de": "garantieren",
+      "en": "guarantee"
+    },
     "sourceIndex": 1828
   },
   {
@@ -1256,6 +1548,10 @@ const phrasesShopping = [
     "wordIds": [
       "11845"
     ],
+    "cloze": {
+      "de": "zahlen",
+      "en": "pay"
+    },
     "sourceIndex": 1845
   },
   {
@@ -1273,6 +1569,10 @@ const phrasesShopping = [
     "wordIds": [
       "11855"
     ],
+    "cloze": {
+      "de": "fairer",
+      "en": "fair"
+    },
     "sourceIndex": 1855
   },
   {
@@ -1290,6 +1590,10 @@ const phrasesShopping = [
     "wordIds": [
       "11865"
     ],
+    "cloze": {
+      "de": "Paket",
+      "en": "package"
+    },
     "sourceIndex": 1865
   },
   {
@@ -1307,6 +1611,10 @@ const phrasesShopping = [
     "wordIds": [
       "11877"
     ],
+    "cloze": {
+      "de": "ab",
+      "en": "rejected"
+    },
     "sourceIndex": 1877
   },
   {
@@ -1324,6 +1632,10 @@ const phrasesShopping = [
     "wordIds": [
       "11899"
     ],
+    "cloze": {
+      "de": "Rente",
+      "en": "retire"
+    },
     "sourceIndex": 1899
   },
   {
@@ -1341,6 +1653,10 @@ const phrasesShopping = [
     "wordIds": [
       "11906"
     ],
+    "cloze": {
+      "de": "Reiseversicherung",
+      "en": "insurance"
+    },
     "sourceIndex": 1906
   },
   {
@@ -1358,6 +1674,10 @@ const phrasesShopping = [
     "wordIds": [
       "11917"
     ],
+    "cloze": {
+      "de": "Cent",
+      "en": "cent"
+    },
     "sourceIndex": 1917
   },
   {
@@ -1375,6 +1695,10 @@ const phrasesShopping = [
     "wordIds": [
       "11946"
     ],
+    "cloze": {
+      "de": "schätze",
+      "en": "appreciate"
+    },
     "sourceIndex": 1946
   },
   {
@@ -1392,6 +1716,10 @@ const phrasesShopping = [
     "wordIds": [
       "12052"
     ],
+    "cloze": {
+      "de": "Lebensmittel",
+      "en": "groceries"
+    },
     "sourceIndex": 2052
   },
   {
@@ -1409,6 +1737,10 @@ const phrasesShopping = [
     "wordIds": [
       "12060"
     ],
+    "cloze": {
+      "de": "Träger",
+      "en": "carrier"
+    },
     "sourceIndex": 2060
   },
   {
@@ -1426,6 +1758,10 @@ const phrasesShopping = [
     "wordIds": [
       "12079"
     ],
+    "cloze": {
+      "de": "einkaufen",
+      "en": "shopping"
+    },
     "sourceIndex": 2079
   },
   {
@@ -1443,6 +1779,10 @@ const phrasesShopping = [
     "wordIds": [
       "12089"
     ],
+    "cloze": {
+      "de": "Händler",
+      "en": "dealer"
+    },
     "sourceIndex": 2089
   },
   {
@@ -1460,6 +1800,10 @@ const phrasesShopping = [
     "wordIds": [
       "12107"
     ],
+    "cloze": {
+      "de": "Wieviel",
+      "en": "How"
+    },
     "sourceIndex": 2107
   },
   {
@@ -1477,6 +1821,10 @@ const phrasesShopping = [
     "wordIds": [
       "12122"
     ],
+    "cloze": {
+      "de": "finanzielle",
+      "en": "financial"
+    },
     "sourceIndex": 2122
   },
   {
@@ -1494,6 +1842,10 @@ const phrasesShopping = [
     "wordIds": [
       "12149"
     ],
+    "cloze": {
+      "de": "begrenzen",
+      "en": "limit"
+    },
     "sourceIndex": 2149
   },
   {
@@ -1511,6 +1863,10 @@ const phrasesShopping = [
     "wordIds": [
       "12184"
     ],
+    "cloze": {
+      "de": "Austausch",
+      "en": "exchange"
+    },
     "sourceIndex": 2184
   },
   {
@@ -1528,6 +1884,10 @@ const phrasesShopping = [
     "wordIds": [
       "12199"
     ],
+    "cloze": {
+      "de": "investieren",
+      "en": "invest"
+    },
     "sourceIndex": 2199
   },
   {
@@ -1545,6 +1905,10 @@ const phrasesShopping = [
     "wordIds": [
       "12208"
     ],
+    "cloze": {
+      "de": "Pizza",
+      "en": "pizza"
+    },
     "sourceIndex": 2208
   },
   {
@@ -1562,6 +1926,10 @@ const phrasesShopping = [
     "wordIds": [
       "12232"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "advises"
+    },
     "sourceIndex": 2232
   },
   {
@@ -1579,6 +1947,10 @@ const phrasesShopping = [
     "wordIds": [
       "12242"
     ],
+    "cloze": {
+      "de": "finanzieren",
+      "en": "finance"
+    },
     "sourceIndex": 2242
   },
   {
@@ -1596,6 +1968,10 @@ const phrasesShopping = [
     "wordIds": [
       "12267"
     ],
+    "cloze": {
+      "de": "Wlan",
+      "en": "Wi-Fi"
+    },
     "sourceIndex": 2267
   },
   {
@@ -1613,6 +1989,10 @@ const phrasesShopping = [
     "wordIds": [
       "12281"
     ],
+    "cloze": {
+      "de": "goldenen",
+      "en": "golden"
+    },
     "sourceIndex": 2281
   },
   {
@@ -1630,6 +2010,10 @@ const phrasesShopping = [
     "wordIds": [
       "12285"
     ],
+    "cloze": {
+      "de": "Kasse",
+      "en": "cash"
+    },
     "sourceIndex": 2285
   },
   {
@@ -1647,6 +2031,10 @@ const phrasesShopping = [
     "wordIds": [
       "12309"
     ],
+    "cloze": {
+      "de": "Ware",
+      "en": "goods"
+    },
     "sourceIndex": 2309
   },
   {
@@ -1664,6 +2052,10 @@ const phrasesShopping = [
     "wordIds": [
       "12345"
     ],
+    "cloze": {
+      "de": "Werbeagentur",
+      "en": "agency"
+    },
     "sourceIndex": 2345
   },
   {
@@ -1681,6 +2073,10 @@ const phrasesShopping = [
     "wordIds": [
       "12348"
     ],
+    "cloze": {
+      "de": "billiges",
+      "en": "cheap"
+    },
     "sourceIndex": 2348
   },
   {
@@ -1698,6 +2094,10 @@ const phrasesShopping = [
     "wordIds": [
       "12413"
     ],
+    "cloze": {
+      "de": "Lohn",
+      "en": "wage"
+    },
     "sourceIndex": 2413
   },
   {
@@ -1715,6 +2115,10 @@ const phrasesShopping = [
     "wordIds": [
       "12439"
     ],
+    "cloze": {
+      "de": "Finanz",
+      "en": "Finance"
+    },
     "sourceIndex": 2439
   },
   {
@@ -1732,6 +2136,10 @@ const phrasesShopping = [
     "wordIds": [
       "12441"
     ],
+    "cloze": {
+      "de": "Gebühr",
+      "en": "fee"
+    },
     "sourceIndex": 2441
   },
   {
@@ -1749,6 +2157,10 @@ const phrasesShopping = [
     "wordIds": [
       "12514"
     ],
+    "cloze": {
+      "de": "Tendenz",
+      "en": "tendency"
+    },
     "sourceIndex": 2514
   },
   {
@@ -1766,6 +2178,10 @@ const phrasesShopping = [
     "wordIds": [
       "12595"
     ],
+    "cloze": {
+      "de": "Kredit",
+      "en": "loan"
+    },
     "sourceIndex": 2595
   },
   {
@@ -1783,6 +2199,10 @@ const phrasesShopping = [
     "wordIds": [
       "12605"
     ],
+    "cloze": {
+      "de": "Schmuck",
+      "en": "jewelry"
+    },
     "sourceIndex": 2605
   },
   {
@@ -1800,6 +2220,10 @@ const phrasesShopping = [
     "wordIds": [
       "12716"
     ],
+    "cloze": {
+      "de": "Verbraucher",
+      "en": "Consumers"
+    },
     "sourceIndex": 2716
   },
   {
@@ -1817,6 +2241,10 @@ const phrasesShopping = [
     "wordIds": [
       "12721"
     ],
+    "cloze": {
+      "de": "zweitens",
+      "en": "secondly"
+    },
     "sourceIndex": 2721
   },
   {
@@ -1834,6 +2262,10 @@ const phrasesShopping = [
     "wordIds": [
       "12738"
     ],
+    "cloze": {
+      "de": "Gegenstand",
+      "en": "object"
+    },
     "sourceIndex": 2738
   },
   {
@@ -1851,6 +2283,10 @@ const phrasesShopping = [
     "wordIds": [
       "12747"
     ],
+    "cloze": {
+      "de": "Pfund",
+      "en": "pound"
+    },
     "sourceIndex": 2747
   },
   {
@@ -1868,6 +2304,10 @@ const phrasesShopping = [
     "wordIds": [
       "12777"
     ],
+    "cloze": {
+      "de": "Budget",
+      "en": "budget"
+    },
     "sourceIndex": 2777
   },
   {
@@ -1885,6 +2325,10 @@ const phrasesShopping = [
     "wordIds": [
       "12800"
     ],
+    "cloze": {
+      "de": "Supermarkt",
+      "en": "supermarket"
+    },
     "sourceIndex": 2800
   },
   {
@@ -1902,6 +2346,10 @@ const phrasesShopping = [
     "wordIds": [
       "12870"
     ],
+    "cloze": {
+      "de": "ausgeben",
+      "en": "spend"
+    },
     "sourceIndex": 2870
   },
   {
@@ -1919,6 +2367,10 @@ const phrasesShopping = [
     "wordIds": [
       "12968"
     ],
+    "cloze": {
+      "de": "Verkäufer",
+      "en": "salesperson"
+    },
     "sourceIndex": 2968
   },
   {
@@ -1936,6 +2388,10 @@ const phrasesShopping = [
     "wordIds": [
       "12986"
     ],
+    "cloze": {
+      "de": "Empfänger",
+      "en": "recipient"
+    },
     "sourceIndex": 2986
   },
   {
@@ -1953,6 +2409,10 @@ const phrasesShopping = [
     "wordIds": [
       "13004"
     ],
+    "cloze": {
+      "de": "Lieferung",
+      "en": "delivery"
+    },
     "sourceIndex": 3004
   },
   {
@@ -1970,6 +2430,10 @@ const phrasesShopping = [
     "wordIds": [
       "13010"
     ],
+    "cloze": {
+      "de": "problemlos",
+      "en": "went"
+    },
     "sourceIndex": 3010
   },
   {
@@ -1987,6 +2451,10 @@ const phrasesShopping = [
     "wordIds": [
       "13090"
     ],
+    "cloze": {
+      "de": "Bargeld",
+      "en": "cash"
+    },
     "sourceIndex": 3090
   },
   {
@@ -2004,6 +2472,10 @@ const phrasesShopping = [
     "wordIds": [
       "13106"
     ],
+    "cloze": {
+      "de": "Gutschein",
+      "en": "voucher"
+    },
     "sourceIndex": 3106
   },
   {
@@ -2021,6 +2493,10 @@ const phrasesShopping = [
     "wordIds": [
       "13117"
     ],
+    "cloze": {
+      "de": "Nachteil",
+      "en": "disadvantage"
+    },
     "sourceIndex": 3117
   },
   {
@@ -2038,6 +2514,10 @@ const phrasesShopping = [
     "wordIds": [
       "13154"
     ],
+    "cloze": {
+      "de": "Bezahlung",
+      "en": "payment"
+    },
     "sourceIndex": 3154
   },
   {
@@ -2055,6 +2535,10 @@ const phrasesShopping = [
     "wordIds": [
       "13171"
     ],
+    "cloze": {
+      "de": "genügen",
+      "en": "be"
+    },
     "sourceIndex": 3171
   },
   {
@@ -2072,6 +2556,10 @@ const phrasesShopping = [
     "wordIds": [
       "13187"
     ],
+    "cloze": {
+      "de": "Leder",
+      "en": "leather"
+    },
     "sourceIndex": 3187
   },
   {
@@ -2089,6 +2577,10 @@ const phrasesShopping = [
     "wordIds": [
       "13196"
     ],
+    "cloze": {
+      "de": "senken",
+      "en": "lower"
+    },
     "sourceIndex": 3196
   },
   {
@@ -2106,6 +2598,10 @@ const phrasesShopping = [
     "wordIds": [
       "13197"
     ],
+    "cloze": {
+      "de": "Ski",
+      "en": "skis"
+    },
     "sourceIndex": 3197
   },
   {
@@ -2123,6 +2619,10 @@ const phrasesShopping = [
     "wordIds": [
       "13210"
     ],
+    "cloze": {
+      "de": "Zahlung",
+      "en": "payment"
+    },
     "sourceIndex": 3210
   },
   {
@@ -2140,6 +2640,10 @@ const phrasesShopping = [
     "wordIds": [
       "13261"
     ],
+    "cloze": {
+      "de": "Sparkasse",
+      "en": "savings"
+    },
     "sourceIndex": 3261
   },
   {
@@ -2157,6 +2661,10 @@ const phrasesShopping = [
     "wordIds": [
       "13280"
     ],
+    "cloze": {
+      "de": "Bestellung",
+      "en": "order"
+    },
     "sourceIndex": 3280
   },
   {
@@ -2174,6 +2682,10 @@ const phrasesShopping = [
     "wordIds": [
       "13308"
     ],
+    "cloze": {
+      "de": "tauschen",
+      "en": "swap"
+    },
     "sourceIndex": 3308
   },
   {
@@ -2191,6 +2703,10 @@ const phrasesShopping = [
     "wordIds": [
       "13369"
     ],
+    "cloze": {
+      "de": "Münze",
+      "en": "coin"
+    },
     "sourceIndex": 3369
   },
   {
@@ -2208,6 +2724,10 @@ const phrasesShopping = [
     "wordIds": [
       "13372"
     ],
+    "cloze": {
+      "de": "Ruhestand",
+      "en": "retirement"
+    },
     "sourceIndex": 3372
   },
   {
@@ -2225,6 +2745,10 @@ const phrasesShopping = [
     "wordIds": [
       "13385"
     ],
+    "cloze": {
+      "de": "wertvolles",
+      "en": "valuable"
+    },
     "sourceIndex": 3385
   },
   {
@@ -2242,6 +2766,10 @@ const phrasesShopping = [
     "wordIds": [
       "13429"
     ],
+    "cloze": {
+      "de": "Rabatt",
+      "en": "discount"
+    },
     "sourceIndex": 3429
   },
   {
@@ -2259,6 +2787,10 @@ const phrasesShopping = [
     "wordIds": [
       "13532"
     ],
+    "cloze": {
+      "de": "Garantie",
+      "en": "a"
+    },
     "sourceIndex": 3532
   },
   {
@@ -2276,6 +2808,10 @@ const phrasesShopping = [
     "wordIds": [
       "13556"
     ],
+    "cloze": {
+      "de": "Store",
+      "en": "store"
+    },
     "sourceIndex": 3556
   },
   {
@@ -2293,6 +2829,10 @@ const phrasesShopping = [
     "wordIds": [
       "13562"
     ],
+    "cloze": {
+      "de": "für",
+      "en": "advertises"
+    },
     "sourceIndex": 3562
   },
   {
@@ -2310,6 +2850,10 @@ const phrasesShopping = [
     "wordIds": [
       "13635"
     ],
+    "cloze": {
+      "de": "Beleg",
+      "en": "receipt"
+    },
     "sourceIndex": 3635
   },
   {
@@ -2327,6 +2871,10 @@ const phrasesShopping = [
     "wordIds": [
       "13722"
     ],
+    "cloze": {
+      "de": "Konsum",
+      "en": "consumption"
+    },
     "sourceIndex": 3722
   },
   {
@@ -2344,6 +2892,10 @@ const phrasesShopping = [
     "wordIds": [
       "13773"
     ],
+    "cloze": {
+      "de": "Einkauf",
+      "en": "shopping"
+    },
     "sourceIndex": 3773
   },
   {
@@ -2361,6 +2913,10 @@ const phrasesShopping = [
     "wordIds": [
       "13780"
     ],
+    "cloze": {
+      "de": "Glanz",
+      "en": "the"
+    },
     "sourceIndex": 3780
   },
   {
@@ -2378,6 +2934,10 @@ const phrasesShopping = [
     "wordIds": [
       "13806"
     ],
+    "cloze": {
+      "de": "Versand",
+      "en": "shipping"
+    },
     "sourceIndex": 3806
   },
   {
@@ -2395,6 +2955,10 @@ const phrasesShopping = [
     "wordIds": [
       "13874"
     ],
+    "cloze": {
+      "de": "Währung",
+      "en": "currency"
+    },
     "sourceIndex": 3874
   },
   {
@@ -2412,6 +2976,10 @@ const phrasesShopping = [
     "wordIds": [
       "13898"
     ],
+    "cloze": {
+      "de": "speichern",
+      "en": "save"
+    },
     "sourceIndex": 3898
   },
   {
@@ -2429,6 +2997,10 @@ const phrasesShopping = [
     "wordIds": [
       "14019"
     ],
+    "cloze": {
+      "de": "Abo",
+      "en": "subscription"
+    },
     "sourceIndex": 4019
   },
   {
@@ -2446,6 +3018,10 @@ const phrasesShopping = [
     "wordIds": [
       "14021"
     ],
+    "cloze": {
+      "de": "aktivieren",
+      "en": "activate"
+    },
     "sourceIndex": 4021
   },
   {
@@ -2463,6 +3039,10 @@ const phrasesShopping = [
     "wordIds": [
       "14071"
     ],
+    "cloze": {
+      "de": "Steuerzahler",
+      "en": "taxpayers"
+    },
     "sourceIndex": 4071
   },
   {
@@ -2480,6 +3060,10 @@ const phrasesShopping = [
     "wordIds": [
       "14202"
     ],
+    "cloze": {
+      "de": "Krankenkasse",
+      "en": "health"
+    },
     "sourceIndex": 4202
   },
   {
@@ -2497,6 +3081,10 @@ const phrasesShopping = [
     "wordIds": [
       "14241"
     ],
+    "cloze": {
+      "de": "fällig",
+      "en": "due"
+    },
     "sourceIndex": 4241
   },
   {
@@ -2514,6 +3102,10 @@ const phrasesShopping = [
     "wordIds": [
       "14267"
     ],
+    "cloze": {
+      "de": "steigenden",
+      "en": "rising"
+    },
     "sourceIndex": 4267
   },
   {
@@ -2531,6 +3123,10 @@ const phrasesShopping = [
     "wordIds": [
       "14305"
     ],
+    "cloze": {
+      "de": "Einzelhandel",
+      "en": "Retail"
+    },
     "sourceIndex": 4305
   },
   {
@@ -2548,6 +3144,10 @@ const phrasesShopping = [
     "wordIds": [
       "14313"
     ],
+    "cloze": {
+      "de": "Export",
+      "en": "export"
+    },
     "sourceIndex": 4313
   },
   {
@@ -2565,6 +3165,10 @@ const phrasesShopping = [
     "wordIds": [
       "14334"
     ],
+    "cloze": {
+      "de": "Nettopreis",
+      "en": "net"
+    },
     "sourceIndex": 4334
   },
   {
@@ -2582,6 +3186,10 @@ const phrasesShopping = [
     "wordIds": [
       "14358"
     ],
+    "cloze": {
+      "de": "verringern",
+      "en": "reduce"
+    },
     "sourceIndex": 4358
   },
   {
@@ -2599,6 +3207,10 @@ const phrasesShopping = [
     "wordIds": [
       "14375"
     ],
+    "cloze": {
+      "de": "ein",
+      "en": "includes"
+    },
     "sourceIndex": 4375
   },
   {
@@ -2616,6 +3228,10 @@ const phrasesShopping = [
     "wordIds": [
       "14434"
     ],
+    "cloze": {
+      "de": "verbrauchen",
+      "en": "consume"
+    },
     "sourceIndex": 4434
   },
   {
@@ -2633,6 +3249,10 @@ const phrasesShopping = [
     "wordIds": [
       "14451"
     ],
+    "cloze": {
+      "de": "Angel",
+      "en": "fishing"
+    },
     "sourceIndex": 4451
   },
   {
@@ -2650,6 +3270,10 @@ const phrasesShopping = [
     "wordIds": [
       "14484"
     ],
+    "cloze": {
+      "de": "Kreditkarte",
+      "en": "credit"
+    },
     "sourceIndex": 4484
   },
   {
@@ -2667,6 +3291,10 @@ const phrasesShopping = [
     "wordIds": [
       "14496"
     ],
+    "cloze": {
+      "de": "reguläre",
+      "en": "regular"
+    },
     "sourceIndex": 4496
   },
   {
@@ -2684,6 +3312,10 @@ const phrasesShopping = [
     "wordIds": [
       "14580"
     ],
+    "cloze": {
+      "de": "Übergabe",
+      "en": "handover"
+    },
     "sourceIndex": 4580
   },
   {
@@ -2701,6 +3333,10 @@ const phrasesShopping = [
     "wordIds": [
       "14685"
     ],
+    "cloze": {
+      "de": "Korb",
+      "en": "basket"
+    },
     "sourceIndex": 4685
   },
   {
@@ -2718,6 +3354,10 @@ const phrasesShopping = [
     "wordIds": [
       "14701"
     ],
+    "cloze": {
+      "de": "schweizerisches",
+      "en": "Swiss"
+    },
     "sourceIndex": 4701
   },
   {
@@ -2735,6 +3375,10 @@ const phrasesShopping = [
     "wordIds": [
       "14729"
     ],
+    "cloze": {
+      "de": "Balance",
+      "en": "balance"
+    },
     "sourceIndex": 4729
   },
   {
@@ -2752,6 +3396,10 @@ const phrasesShopping = [
     "wordIds": [
       "14801"
     ],
+    "cloze": {
+      "de": "verschicken",
+      "en": "send"
+    },
     "sourceIndex": 4801
   },
   {
@@ -2769,6 +3417,10 @@ const phrasesShopping = [
     "wordIds": [
       "14804"
     ],
+    "cloze": {
+      "de": "Wellness-Angebote",
+      "en": "wellness"
+    },
     "sourceIndex": 4804
   },
   {
@@ -2787,6 +3439,10 @@ const phrasesShopping = [
       "14820",
       "19489"
     ],
+    "cloze": {
+      "de": "bewahren",
+      "en": "keep"
+    },
     "sourceIndex": 4820
   },
   {
@@ -2804,6 +3460,10 @@ const phrasesShopping = [
     "wordIds": [
       "14831"
     ],
+    "cloze": {
+      "de": "Cash",
+      "en": "cash"
+    },
     "sourceIndex": 4831
   },
   {
@@ -2821,6 +3481,10 @@ const phrasesShopping = [
     "wordIds": [
       "14879"
     ],
+    "cloze": {
+      "de": "Shopping",
+      "en": "shopping"
+    },
     "sourceIndex": 4879
   },
   {
@@ -2838,6 +3502,10 @@ const phrasesShopping = [
     "wordIds": [
       "14888"
     ],
+    "cloze": {
+      "de": "Tüte",
+      "en": "bag"
+    },
     "sourceIndex": 4888
   },
   {
@@ -2855,6 +3523,10 @@ const phrasesShopping = [
     "wordIds": [
       "14932"
     ],
+    "cloze": {
+      "de": "Kompliment",
+      "en": "compliment"
+    },
     "sourceIndex": 4932
   },
   {
@@ -2872,6 +3544,10 @@ const phrasesShopping = [
     "wordIds": [
       "15013"
     ],
+    "cloze": {
+      "de": "kassiert",
+      "en": "money"
+    },
     "sourceIndex": 5013
   },
   {
@@ -2889,6 +3565,10 @@ const phrasesShopping = [
     "wordIds": [
       "15235"
     ],
+    "cloze": {
+      "de": "Verpackung",
+      "en": "packaging"
+    },
     "sourceIndex": 5235
   },
   {
@@ -2906,6 +3586,10 @@ const phrasesShopping = [
     "wordIds": [
       "15319"
     ],
+    "cloze": {
+      "de": "Tausch",
+      "en": "exchange"
+    },
     "sourceIndex": 5319
   },
   {
@@ -2923,6 +3607,10 @@ const phrasesShopping = [
     "wordIds": [
       "15411"
     ],
+    "cloze": {
+      "de": "Stempel",
+      "en": "stamp"
+    },
     "sourceIndex": 5411
   },
   {
@@ -2940,6 +3628,10 @@ const phrasesShopping = [
     "wordIds": [
       "15436"
     ],
+    "cloze": {
+      "de": "Beutel",
+      "en": "bag"
+    },
     "sourceIndex": 5436
   },
   {
@@ -2957,6 +3649,10 @@ const phrasesShopping = [
     "wordIds": [
       "15437"
     ],
+    "cloze": {
+      "de": "bezahlt",
+      "en": "paid"
+    },
     "sourceIndex": 5437
   },
   {
@@ -2974,6 +3670,10 @@ const phrasesShopping = [
     "wordIds": [
       "15482"
     ],
+    "cloze": {
+      "de": "Perlen",
+      "en": "a"
+    },
     "sourceIndex": 5482
   },
   {
@@ -2991,6 +3691,10 @@ const phrasesShopping = [
     "wordIds": [
       "15552"
     ],
+    "cloze": {
+      "de": "Inland",
+      "en": "interior"
+    },
     "sourceIndex": 5552
   },
   {
@@ -3008,6 +3712,10 @@ const phrasesShopping = [
     "wordIds": [
       "15592"
     ],
+    "cloze": {
+      "de": "Waage",
+      "en": "scales"
+    },
     "sourceIndex": 5592
   },
   {
@@ -3025,6 +3733,10 @@ const phrasesShopping = [
     "wordIds": [
       "15700"
     ],
+    "cloze": {
+      "de": "Bon",
+      "en": "receipt"
+    },
     "sourceIndex": 5700
   },
   {
@@ -3042,6 +3754,10 @@ const phrasesShopping = [
     "wordIds": [
       "15739"
     ],
+    "cloze": {
+      "de": "leihen",
+      "en": "lend"
+    },
     "sourceIndex": 5739
   },
   {
@@ -3059,6 +3775,10 @@ const phrasesShopping = [
     "wordIds": [
       "15762"
     ],
+    "cloze": {
+      "de": "spezielles",
+      "en": "special"
+    },
     "sourceIndex": 5762
   },
   {
@@ -3076,6 +3796,10 @@ const phrasesShopping = [
     "wordIds": [
       "15870"
     ],
+    "cloze": {
+      "de": "verpacken",
+      "en": "wrap"
+    },
     "sourceIndex": 5870
   },
   {
@@ -3093,6 +3817,10 @@ const phrasesShopping = [
     "wordIds": [
       "15892"
     ],
+    "cloze": {
+      "de": "Anschaffung",
+      "en": "acquisition"
+    },
     "sourceIndex": 5892
   },
   {
@@ -3110,6 +3838,10 @@ const phrasesShopping = [
     "wordIds": [
       "15998"
     ],
+    "cloze": {
+      "de": "Beschaffung",
+      "en": "procurement"
+    },
     "sourceIndex": 5998
   },
   {
@@ -3127,6 +3859,10 @@ const phrasesShopping = [
     "wordIds": [
       "16009"
     ],
+    "cloze": {
+      "de": "Card",
+      "en": "card"
+    },
     "sourceIndex": 6009
   },
   {
@@ -3144,6 +3880,10 @@ const phrasesShopping = [
     "wordIds": [
       "16027"
     ],
+    "cloze": {
+      "de": "Geldbeutel",
+      "en": "wallet"
+    },
     "sourceIndex": 6027
   },
   {
@@ -3161,6 +3901,10 @@ const phrasesShopping = [
     "wordIds": [
       "16220"
     ],
+    "cloze": {
+      "de": "Import",
+      "en": "import"
+    },
     "sourceIndex": 6220
   },
   {
@@ -3178,6 +3922,10 @@ const phrasesShopping = [
     "wordIds": [
       "16230"
     ],
+    "cloze": {
+      "de": "kostenfrei",
+      "en": "free"
+    },
     "sourceIndex": 6230
   },
   {
@@ -3195,6 +3943,10 @@ const phrasesShopping = [
     "wordIds": [
       "16233"
     ],
+    "cloze": {
+      "de": "Lieferanten",
+      "en": "supplier"
+    },
     "sourceIndex": 6233
   },
   {
@@ -3212,6 +3964,10 @@ const phrasesShopping = [
     "wordIds": [
       "16251"
     ],
+    "cloze": {
+      "de": "shoppen",
+      "en": "shopping"
+    },
     "sourceIndex": 6251
   },
   {
@@ -3229,6 +3985,10 @@ const phrasesShopping = [
     "wordIds": [
       "16353"
     ],
+    "cloze": {
+      "de": "sehenswert",
+      "en": "worth"
+    },
     "sourceIndex": 6353
   },
   {
@@ -3246,6 +4006,10 @@ const phrasesShopping = [
     "wordIds": [
       "16558"
     ],
+    "cloze": {
+      "de": "silberne",
+      "en": "silver"
+    },
     "sourceIndex": 6558
   },
   {
@@ -3263,6 +4027,10 @@ const phrasesShopping = [
     "wordIds": [
       "16597"
     ],
+    "cloze": {
+      "de": "Abonnent",
+      "en": "subscriber"
+    },
     "sourceIndex": 6597
   },
   {
@@ -3280,6 +4048,10 @@ const phrasesShopping = [
     "wordIds": [
       "16605"
     ],
+    "cloze": {
+      "de": "auszahlen",
+      "en": "pay"
+    },
     "sourceIndex": 6605
   },
   {
@@ -3297,6 +4069,10 @@ const phrasesShopping = [
     "wordIds": [
       "16624"
     ],
+    "cloze": {
+      "de": "Guthaben",
+      "en": "balance"
+    },
     "sourceIndex": 6624
   },
   {
@@ -3314,6 +4090,10 @@ const phrasesShopping = [
     "wordIds": [
       "16668"
     ],
+    "cloze": {
+      "de": "Verfügbarkeit",
+      "en": "availability"
+    },
     "sourceIndex": 6668
   },
   {
@@ -3331,6 +4111,10 @@ const phrasesShopping = [
     "wordIds": [
       "16749"
     ],
+    "cloze": {
+      "de": "Market",
+      "en": "market"
+    },
     "sourceIndex": 6749
   },
   {
@@ -3348,6 +4132,10 @@ const phrasesShopping = [
     "wordIds": [
       "16768"
     ],
+    "cloze": {
+      "de": "Sale",
+      "en": "sale"
+    },
     "sourceIndex": 6768
   },
   {
@@ -3365,6 +4153,10 @@ const phrasesShopping = [
     "wordIds": [
       "16796"
     ],
+    "cloze": {
+      "de": "überweisen",
+      "en": "transfer"
+    },
     "sourceIndex": 6796
   },
   {
@@ -3382,6 +4174,10 @@ const phrasesShopping = [
     "wordIds": [
       "16802"
     ],
+    "cloze": {
+      "de": "Baumarkt",
+      "en": "DIY"
+    },
     "sourceIndex": 6802
   },
   {
@@ -3399,6 +4195,10 @@ const phrasesShopping = [
     "wordIds": [
       "16870"
     ],
+    "cloze": {
+      "de": "Versicherer",
+      "en": "insurer"
+    },
     "sourceIndex": 6870
   },
   {
@@ -3416,6 +4216,10 @@ const phrasesShopping = [
     "wordIds": [
       "16874"
     ],
+    "cloze": {
+      "de": "Vorrat",
+      "en": "supply"
+    },
     "sourceIndex": 6874
   },
   {
@@ -3433,6 +4237,10 @@ const phrasesShopping = [
     "wordIds": [
       "16921"
     ],
+    "cloze": {
+      "de": "schuldet",
+      "en": "owes"
+    },
     "sourceIndex": 6921
   },
   {
@@ -3450,6 +4258,10 @@ const phrasesShopping = [
     "wordIds": [
       "17013"
     ],
+    "cloze": {
+      "de": "Flohmarkt",
+      "en": "flea"
+    },
     "sourceIndex": 7013
   },
   {
@@ -3467,6 +4279,10 @@ const phrasesShopping = [
     "wordIds": [
       "17093"
     ],
+    "cloze": {
+      "de": "ausleihen",
+      "en": "lend"
+    },
     "sourceIndex": 7093
   },
   {
@@ -3484,6 +4300,10 @@ const phrasesShopping = [
     "wordIds": [
       "17127"
     ],
+    "cloze": {
+      "de": "haltbar",
+      "en": "durable"
+    },
     "sourceIndex": 7127
   },
   {
@@ -3501,6 +4321,10 @@ const phrasesShopping = [
     "wordIds": [
       "17150"
     ],
+    "cloze": {
+      "de": "Paletten",
+      "en": "pallets"
+    },
     "sourceIndex": 7150
   },
   {
@@ -3518,6 +4342,10 @@ const phrasesShopping = [
     "wordIds": [
       "17327"
     ],
+    "cloze": {
+      "de": "Drittens",
+      "en": "Thirdly"
+    },
     "sourceIndex": 7327
   },
   {
@@ -3535,6 +4363,10 @@ const phrasesShopping = [
     "wordIds": [
       "17417"
     ],
+    "cloze": {
+      "de": "Yen",
+      "en": "Japanese"
+    },
     "sourceIndex": 7417
   },
   {
@@ -3552,6 +4384,10 @@ const phrasesShopping = [
     "wordIds": [
       "17662"
     ],
+    "cloze": {
+      "de": "verstärkte",
+      "en": "increased"
+    },
     "sourceIndex": 7662
   },
   {
@@ -3569,6 +4405,10 @@ const phrasesShopping = [
     "wordIds": [
       "17670"
     ],
+    "cloze": {
+      "de": "wertlos",
+      "en": "worthless"
+    },
     "sourceIndex": 7670
   },
   {
@@ -3586,6 +4426,10 @@ const phrasesShopping = [
     "wordIds": [
       "17741"
     ],
+    "cloze": {
+      "de": "Kosmetik",
+      "en": "cosmetics"
+    },
     "sourceIndex": 7741
   },
   {
@@ -3603,6 +4447,10 @@ const phrasesShopping = [
     "wordIds": [
       "17770"
     ],
+    "cloze": {
+      "de": "Rückgabe",
+      "en": "return"
+    },
     "sourceIndex": 7770
   },
   {
@@ -3620,6 +4468,10 @@ const phrasesShopping = [
     "wordIds": [
       "17825"
     ],
+    "cloze": {
+      "de": "erhöht",
+      "en": "increased"
+    },
     "sourceIndex": 7825
   },
   {
@@ -3637,6 +4489,10 @@ const phrasesShopping = [
     "wordIds": [
       "17834"
     ],
+    "cloze": {
+      "de": "gefüllt",
+      "en": "filled"
+    },
     "sourceIndex": 7834
   },
   {
@@ -3654,6 +4510,10 @@ const phrasesShopping = [
     "wordIds": [
       "17923"
     ],
+    "cloze": {
+      "de": "Defizit",
+      "en": "deficit"
+    },
     "sourceIndex": 7923
   },
   {
@@ -3671,6 +4531,10 @@ const phrasesShopping = [
     "wordIds": [
       "17997"
     ],
+    "cloze": {
+      "de": "sparsam",
+      "en": "thriftily"
+    },
     "sourceIndex": 7997
   },
   {
@@ -3688,6 +4552,10 @@ const phrasesShopping = [
     "wordIds": [
       "18037"
     ],
+    "cloze": {
+      "de": "Bernstein",
+      "en": "amber"
+    },
     "sourceIndex": 8037
   },
   {
@@ -3705,6 +4573,10 @@ const phrasesShopping = [
     "wordIds": [
       "18042"
     ],
+    "cloze": {
+      "de": "Discounter",
+      "en": "discount"
+    },
     "sourceIndex": 8042
   },
   {
@@ -3722,6 +4594,10 @@ const phrasesShopping = [
     "wordIds": [
       "18097"
     ],
+    "cloze": {
+      "de": "die",
+      "en": "robbed"
+    },
     "sourceIndex": 8097
   },
   {
@@ -3739,6 +4615,10 @@ const phrasesShopping = [
     "wordIds": [
       "18113"
     ],
+    "cloze": {
+      "de": "Steuererklärung",
+      "en": "tax"
+    },
     "sourceIndex": 8113
   },
   {
@@ -3756,6 +4636,10 @@ const phrasesShopping = [
     "wordIds": [
       "18148"
     ],
+    "cloze": {
+      "de": "zustellen",
+      "en": "deliver"
+    },
     "sourceIndex": 8148
   },
   {
@@ -3773,6 +4657,10 @@ const phrasesShopping = [
     "wordIds": [
       "18154"
     ],
+    "cloze": {
+      "de": "auspacken",
+      "en": "unpack"
+    },
     "sourceIndex": 8154
   },
   {
@@ -3790,6 +4678,10 @@ const phrasesShopping = [
     "wordIds": [
       "18193"
     ],
+    "cloze": {
+      "de": "Kassierer",
+      "en": "cashier"
+    },
     "sourceIndex": 8193
   },
   {
@@ -3807,6 +4699,10 @@ const phrasesShopping = [
     "wordIds": [
       "18224"
     ],
+    "cloze": {
+      "de": "Scheck",
+      "en": "check"
+    },
     "sourceIndex": 8224
   },
   {
@@ -3824,6 +4720,10 @@ const phrasesShopping = [
     "wordIds": [
       "18253"
     ],
+    "cloze": {
+      "de": "versenden",
+      "en": "send"
+    },
     "sourceIndex": 8253
   },
   {
@@ -3841,6 +4741,10 @@ const phrasesShopping = [
     "wordIds": [
       "18262"
     ],
+    "cloze": {
+      "de": "abonnieren",
+      "en": "subscribe"
+    },
     "sourceIndex": 8262
   },
   {
@@ -3858,6 +4762,10 @@ const phrasesShopping = [
     "wordIds": [
       "18273"
     ],
+    "cloze": {
+      "de": "Banker",
+      "en": "banker"
+    },
     "sourceIndex": 8273
   },
   {
@@ -3875,6 +4783,10 @@ const phrasesShopping = [
     "wordIds": [
       "18281"
     ],
+    "cloze": {
+      "de": "Briefmarke",
+      "en": "stamp"
+    },
     "sourceIndex": 8281
   },
   {
@@ -3892,6 +4804,10 @@ const phrasesShopping = [
     "wordIds": [
       "18315"
     ],
+    "cloze": {
+      "de": "Hauptgrund",
+      "en": "main"
+    },
     "sourceIndex": 8315
   },
   {
@@ -3909,6 +4825,10 @@ const phrasesShopping = [
     "wordIds": [
       "18347"
     ],
+    "cloze": {
+      "de": "Portemonnaie",
+      "en": "wallet"
+    },
     "sourceIndex": 8347
   },
   {
@@ -3926,6 +4846,10 @@ const phrasesShopping = [
     "wordIds": [
       "18375"
     ],
+    "cloze": {
+      "de": "Tresor",
+      "en": "safe"
+    },
     "sourceIndex": 8375
   },
   {
@@ -3943,6 +4867,10 @@ const phrasesShopping = [
     "wordIds": [
       "18400"
     ],
+    "cloze": {
+      "de": "Armband",
+      "en": "bracelet"
+    },
     "sourceIndex": 8400
   },
   {
@@ -3960,6 +4888,10 @@ const phrasesShopping = [
     "wordIds": [
       "18437"
     ],
+    "cloze": {
+      "de": "Kaufhaus",
+      "en": "department"
+    },
     "sourceIndex": 8437
   },
   {
@@ -3977,6 +4909,10 @@ const phrasesShopping = [
     "wordIds": [
       "18642"
     ],
+    "cloze": {
+      "de": "Vorführung",
+      "en": "demonstration"
+    },
     "sourceIndex": 8642
   },
   {
@@ -3994,6 +4930,10 @@ const phrasesShopping = [
     "wordIds": [
       "18649"
     ],
+    "cloze": {
+      "de": "zurückzahlen",
+      "en": "pay"
+    },
     "sourceIndex": 8649
   },
   {
@@ -4011,6 +4951,10 @@ const phrasesShopping = [
     "wordIds": [
       "18717"
     ],
+    "cloze": {
+      "de": "Kundin",
+      "en": "female"
+    },
     "sourceIndex": 8717
   },
   {
@@ -4028,6 +4972,10 @@ const phrasesShopping = [
     "wordIds": [
       "18731"
     ],
+    "cloze": {
+      "de": "Onlineshop",
+      "en": "online"
+    },
     "sourceIndex": 8731
   },
   {
@@ -4045,6 +4993,10 @@ const phrasesShopping = [
     "wordIds": [
       "18754"
     ],
+    "cloze": {
+      "de": "Rubel",
+      "en": "ruble"
+    },
     "sourceIndex": 8754
   },
   {
@@ -4062,6 +5014,10 @@ const phrasesShopping = [
     "wordIds": [
       "18803"
     ],
+    "cloze": {
+      "de": "abliefern",
+      "en": "deliver"
+    },
     "sourceIndex": 8803
   },
   {
@@ -4079,6 +5035,10 @@ const phrasesShopping = [
     "wordIds": [
       "18809"
     ],
+    "cloze": {
+      "de": "anschaffen",
+      "en": "a"
+    },
     "sourceIndex": 8809
   },
   {
@@ -4096,6 +5056,10 @@ const phrasesShopping = [
     "wordIds": [
       "18866"
     ],
+    "cloze": {
+      "de": "Innenseite",
+      "en": "inside"
+    },
     "sourceIndex": 8866
   },
   {
@@ -4113,6 +5077,10 @@ const phrasesShopping = [
     "wordIds": [
       "18898"
     ],
+    "cloze": {
+      "de": "Quality",
+      "en": "quality"
+    },
     "sourceIndex": 8898
   },
   {
@@ -4130,6 +5098,10 @@ const phrasesShopping = [
     "wordIds": [
       "19005"
     ],
+    "cloze": {
+      "de": "hergestellt",
+      "en": "manufactured"
+    },
     "sourceIndex": 9005
   },
   {
@@ -4147,6 +5119,10 @@ const phrasesShopping = [
     "wordIds": [
       "19028"
     ],
+    "cloze": {
+      "de": "Mehrkosten",
+      "en": "additional"
+    },
     "sourceIndex": 9028
   },
   {
@@ -4164,6 +5140,10 @@ const phrasesShopping = [
     "wordIds": [
       "19048"
     ],
+    "cloze": {
+      "de": "reduziert",
+      "en": "reduced"
+    },
     "sourceIndex": 9048
   },
   {
@@ -4181,6 +5161,10 @@ const phrasesShopping = [
     "wordIds": [
       "19175"
     ],
+    "cloze": {
+      "de": "Kies",
+      "en": "gravel"
+    },
     "sourceIndex": 9175
   },
   {
@@ -4198,6 +5182,10 @@ const phrasesShopping = [
     "wordIds": [
       "19283"
     ],
+    "cloze": {
+      "de": "freischalten",
+      "en": "activate"
+    },
     "sourceIndex": 9283
   },
   {
@@ -4215,6 +5203,10 @@ const phrasesShopping = [
     "wordIds": [
       "19292"
     ],
+    "cloze": {
+      "de": "Geldbörse",
+      "en": "wallet"
+    },
     "sourceIndex": 9292
   },
   {
@@ -4232,6 +5224,10 @@ const phrasesShopping = [
     "wordIds": [
       "19296"
     ],
+    "cloze": {
+      "de": "stiften",
+      "en": "donate"
+    },
     "sourceIndex": 9296
   },
   {
@@ -4249,6 +5245,10 @@ const phrasesShopping = [
     "wordIds": [
       "19316"
     ],
+    "cloze": {
+      "de": "Mall",
+      "en": "mall"
+    },
     "sourceIndex": 9316
   },
   {
@@ -4266,6 +5266,10 @@ const phrasesShopping = [
     "wordIds": [
       "19402"
     ],
+    "cloze": {
+      "de": "abrechnen",
+      "en": "settle"
+    },
     "sourceIndex": 9402
   },
   {
@@ -4283,6 +5287,10 @@ const phrasesShopping = [
     "wordIds": [
       "19420"
     ],
+    "cloze": {
+      "de": "Billionen",
+      "en": "trillion"
+    },
     "sourceIndex": 9420
   },
   {
@@ -4300,6 +5308,10 @@ const phrasesShopping = [
     "wordIds": [
       "19614"
     ],
+    "cloze": {
+      "de": "konkurrieren",
+      "en": "compete"
+    },
     "sourceIndex": 9614
   },
   {
@@ -4317,6 +5329,10 @@ const phrasesShopping = [
     "wordIds": [
       "19639"
     ],
+    "cloze": {
+      "de": "preiswerte",
+      "en": "inexpensive"
+    },
     "sourceIndex": 9639
   },
   {
@@ -4334,6 +5350,10 @@ const phrasesShopping = [
     "wordIds": [
       "19798"
     ],
+    "cloze": {
+      "de": "Rubin",
+      "en": "ruby"
+    },
     "sourceIndex": 9798
   },
   {
@@ -4351,6 +5371,10 @@ const phrasesShopping = [
     "wordIds": [
       "19810"
     ],
+    "cloze": {
+      "de": "Sonderpreis",
+      "en": "special"
+    },
     "sourceIndex": 9810
   },
   {
@@ -4368,6 +5392,10 @@ const phrasesShopping = [
     "wordIds": [
       "19845"
     ],
+    "cloze": {
+      "de": "schrecken",
+      "en": "deter"
+    },
     "sourceIndex": 9845
   },
   {
@@ -4385,6 +5413,10 @@ const phrasesShopping = [
     "wordIds": [
       "19875"
     ],
+    "cloze": {
+      "de": "erkundigen",
+      "en": "inquire"
+    },
     "sourceIndex": 9875
   },
   {
@@ -4402,6 +5434,10 @@ const phrasesShopping = [
     "wordIds": [
       "19908"
     ],
+    "cloze": {
+      "de": "Kassiererin",
+      "en": "cashier"
+    },
     "sourceIndex": 9908
   },
   {
@@ -4419,6 +5455,10 @@ const phrasesShopping = [
     "wordIds": [
       "19931"
     ],
+    "cloze": {
+      "de": "Outlet",
+      "en": "outlet"
+    },
     "sourceIndex": 9931
   },
   {
@@ -4436,6 +5476,10 @@ const phrasesShopping = [
     "wordIds": [
       "20144"
     ],
+    "cloze": {
+      "de": "Aufpreis",
+      "en": "surcharge"
+    },
     "sourceIndex": 10144
   },
   {
@@ -4453,6 +5497,10 @@ const phrasesShopping = [
     "wordIds": [
       "20221"
     ],
+    "cloze": {
+      "de": "Lippenstift",
+      "en": "lipstick"
+    },
     "sourceIndex": 10221
   },
   {
@@ -4470,6 +5518,10 @@ const phrasesShopping = [
     "wordIds": [
       "20236"
     ],
+    "cloze": {
+      "de": "Parfum",
+      "en": "perfume"
+    },
     "sourceIndex": 10236
   },
   {
@@ -4487,6 +5539,10 @@ const phrasesShopping = [
     "wordIds": [
       "20246"
     ],
+    "cloze": {
+      "de": "Riemen",
+      "en": "strap"
+    },
     "sourceIndex": 10246
   },
   {
@@ -4504,6 +5560,10 @@ const phrasesShopping = [
     "wordIds": [
       "20320"
     ],
+    "cloze": {
+      "de": "Einkaufswagen",
+      "en": "shopping"
+    },
     "sourceIndex": 10320
   },
   {
@@ -4521,6 +5581,10 @@ const phrasesShopping = [
     "wordIds": [
       "20374"
     ],
+    "cloze": {
+      "de": "läuten",
+      "en": "ring"
+    },
     "sourceIndex": 10374
   },
   {
@@ -4538,6 +5602,10 @@ const phrasesShopping = [
     "wordIds": [
       "20390"
     ],
+    "cloze": {
+      "de": "Ohrring",
+      "en": "earring"
+    },
     "sourceIndex": 10390
   },
   {
@@ -4555,6 +5623,10 @@ const phrasesShopping = [
     "wordIds": [
       "20459"
     ],
+    "cloze": {
+      "de": "barrierefrei",
+      "en": "barrier-free"
+    },
     "sourceIndex": 10459
   },
   {
@@ -4572,6 +5644,10 @@ const phrasesShopping = [
     "wordIds": [
       "20469"
     ],
+    "cloze": {
+      "de": "Buchhalter",
+      "en": "accountant"
+    },
     "sourceIndex": 10469
   },
   {
@@ -4589,6 +5665,10 @@ const phrasesShopping = [
     "wordIds": [
       "20497"
     ],
+    "cloze": {
+      "de": "Girokonto",
+      "en": "current"
+    },
     "sourceIndex": 10497
   },
   {
@@ -4606,6 +5686,10 @@ const phrasesShopping = [
     "wordIds": [
       "20555"
     ],
+    "cloze": {
+      "de": "Schlitz",
+      "en": "into"
+    },
     "sourceIndex": 10555
   },
   {
@@ -4623,6 +5707,10 @@ const phrasesShopping = [
     "wordIds": [
       "20699"
     ],
+    "cloze": {
+      "de": "Nebenkosten",
+      "en": "incidental"
+    },
     "sourceIndex": 10699
   },
   {
@@ -4640,6 +5728,10 @@ const phrasesShopping = [
     "wordIds": [
       "20705"
     ],
+    "cloze": {
+      "de": "Preisvergleich",
+      "en": "price"
+    },
     "sourceIndex": 10705
   },
   {
@@ -4657,6 +5749,10 @@ const phrasesShopping = [
     "wordIds": [
       "20899"
     ],
+    "cloze": {
+      "de": "Sneaker",
+      "en": "I"
+    },
     "sourceIndex": 10899
   },
   {
@@ -4674,6 +5770,10 @@ const phrasesShopping = [
     "wordIds": [
       "20936"
     ],
+    "cloze": {
+      "de": "Werbespot",
+      "en": "commercial"
+    },
     "sourceIndex": 10936
   },
   {
@@ -4691,6 +5791,10 @@ const phrasesShopping = [
     "wordIds": [
       "21016"
     ],
+    "cloze": {
+      "de": "gekaufte",
+      "en": "was"
+    },
     "sourceIndex": 11016
   },
   {
@@ -4708,6 +5812,10 @@ const phrasesShopping = [
     "wordIds": [
       "21123"
     ],
+    "cloze": {
+      "de": "Werbeagentur",
+      "en": "advertising"
+    },
     "sourceIndex": 11123
   },
   {
@@ -4725,6 +5833,10 @@ const phrasesShopping = [
     "wordIds": [
       "21124"
     ],
+    "cloze": {
+      "de": "Wohnungsmarkt",
+      "en": "housing"
+    },
     "sourceIndex": 11124
   },
   {
@@ -4742,6 +5854,10 @@ const phrasesShopping = [
     "wordIds": [
       "21176"
     ],
+    "cloze": {
+      "de": "Ersparnis",
+      "en": "saving"
+    },
     "sourceIndex": 11176
   },
   {
@@ -4759,6 +5875,10 @@ const phrasesShopping = [
     "wordIds": [
       "21366"
     ],
+    "cloze": {
+      "de": "einlösen",
+      "en": "redeem"
+    },
     "sourceIndex": 11366
   },
   {
@@ -4776,6 +5896,10 @@ const phrasesShopping = [
     "wordIds": [
       "21554"
     ],
+    "cloze": {
+      "de": "Geldautomat",
+      "en": "ATM"
+    },
     "sourceIndex": 11554
   },
   {
@@ -4793,6 +5917,10 @@ const phrasesShopping = [
     "wordIds": [
       "21564"
     ],
+    "cloze": {
+      "de": "gestiegen",
+      "en": "risen"
+    },
     "sourceIndex": 11564
   },
   {
@@ -4810,6 +5938,10 @@ const phrasesShopping = [
     "wordIds": [
       "21596"
     ],
+    "cloze": {
+      "de": "lieferbar",
+      "en": "available"
+    },
     "sourceIndex": 11596
   },
   {
@@ -4827,6 +5959,10 @@ const phrasesShopping = [
     "wordIds": [
       "21705"
     ],
+    "cloze": {
+      "de": "Coins",
+      "en": "coins"
+    },
     "sourceIndex": 11705
   },
   {
@@ -4844,6 +5980,10 @@ const phrasesShopping = [
     "wordIds": [
       "21735"
     ],
+    "cloze": {
+      "de": "Groschen",
+      "en": "groschen"
+    },
     "sourceIndex": 11735
   },
   {
@@ -4861,6 +6001,10 @@ const phrasesShopping = [
     "wordIds": [
       "21831"
     ],
+    "cloze": {
+      "de": "Versandkosten",
+      "en": "shipping"
+    },
     "sourceIndex": 11831
   },
   {
@@ -4878,6 +6022,10 @@ const phrasesShopping = [
     "wordIds": [
       "21899"
     ],
+    "cloze": {
+      "de": "wickelt",
+      "en": "wraps"
+    },
     "sourceIndex": 11899
   },
   {
@@ -4895,6 +6043,10 @@ const phrasesShopping = [
     "wordIds": [
       "21951"
     ],
+    "cloze": {
+      "de": "pochte",
+      "en": "pounding"
+    },
     "sourceIndex": 11951
   },
   {
@@ -4912,6 +6064,10 @@ const phrasesShopping = [
     "wordIds": [
       "21972"
     ],
+    "cloze": {
+      "de": "Schmuckstück",
+      "en": "piece"
+    },
     "sourceIndex": 11972
   },
   {
@@ -4929,6 +6085,10 @@ const phrasesShopping = [
     "wordIds": [
       "22117"
     ],
+    "cloze": {
+      "de": "Kästchen",
+      "en": "small"
+    },
     "sourceIndex": 12117
   },
   {
@@ -4946,6 +6106,10 @@ const phrasesShopping = [
     "wordIds": [
       "22238"
     ],
+    "cloze": {
+      "de": "Bankkonto",
+      "en": "bank"
+    },
     "sourceIndex": 12238
   },
   {
@@ -4963,6 +6127,10 @@ const phrasesShopping = [
     "wordIds": [
       "22267"
     ],
+    "cloze": {
+      "de": "einzahlen",
+      "en": "deposit"
+    },
     "sourceIndex": 12267
   },
   {
@@ -4980,6 +6148,10 @@ const phrasesShopping = [
     "wordIds": [
       "22330"
     ],
+    "cloze": {
+      "de": "Preislich",
+      "en": "In"
+    },
     "sourceIndex": 12330
   },
   {
@@ -4997,6 +6169,10 @@ const phrasesShopping = [
     "wordIds": [
       "22397"
     ],
+    "cloze": {
+      "de": "Abonnement",
+      "en": "subscription"
+    },
     "sourceIndex": 12397
   },
   {
@@ -5014,6 +6190,10 @@ const phrasesShopping = [
     "wordIds": [
       "22469"
     ],
+    "cloze": {
+      "de": "Giro",
+      "en": "giro"
+    },
     "sourceIndex": 12469
   },
   {
@@ -5031,6 +6211,10 @@ const phrasesShopping = [
     "wordIds": [
       "22473"
     ],
+    "cloze": {
+      "de": "Halskette",
+      "en": "necklace"
+    },
     "sourceIndex": 12473
   },
   {
@@ -5048,6 +6232,10 @@ const phrasesShopping = [
     "wordIds": [
       "22515"
     ],
+    "cloze": {
+      "de": "Neukunde",
+      "en": "new"
+    },
     "sourceIndex": 12515
   },
   {
@@ -5065,6 +6253,10 @@ const phrasesShopping = [
     "wordIds": [
       "22611"
     ],
+    "cloze": {
+      "de": "Ausverkauf",
+      "en": "clearance"
+    },
     "sourceIndex": 12611
   },
   {
@@ -5082,6 +6274,10 @@ const phrasesShopping = [
     "wordIds": [
       "22623"
     ],
+    "cloze": {
+      "de": "Bottom",
+      "en": "bottom"
+    },
     "sourceIndex": 12623
   },
   {
@@ -5099,6 +6295,10 @@ const phrasesShopping = [
     "wordIds": [
       "22639"
     ],
+    "cloze": {
+      "de": "einlagern",
+      "en": "store"
+    },
     "sourceIndex": 12639
   },
   {
@@ -5116,6 +6316,10 @@ const phrasesShopping = [
     "wordIds": [
       "22710"
     ],
+    "cloze": {
+      "de": "Reklame",
+      "en": "advertisements"
+    },
     "sourceIndex": 12710
   },
   {
@@ -5133,6 +6337,10 @@ const phrasesShopping = [
     "wordIds": [
       "22795"
     ],
+    "cloze": {
+      "de": "ausbezahlen",
+      "en": "pay"
+    },
     "sourceIndex": 12795
   },
   {
@@ -5150,6 +6358,10 @@ const phrasesShopping = [
     "wordIds": [
       "22802"
     ],
+    "cloze": {
+      "de": "bezahlbar",
+      "en": "affordable"
+    },
     "sourceIndex": 12802
   },
   {
@@ -5167,6 +6379,10 @@ const phrasesShopping = [
     "wordIds": [
       "22806"
     ],
+    "cloze": {
+      "de": "Brieftasche",
+      "en": "wallet"
+    },
     "sourceIndex": 12806
   },
   {
@@ -5184,6 +6400,10 @@ const phrasesShopping = [
     "wordIds": [
       "22850"
     ],
+    "cloze": {
+      "de": "Gutscheincode",
+      "en": "voucher"
+    },
     "sourceIndex": 12850
   },
   {
@@ -5201,6 +6421,10 @@ const phrasesShopping = [
     "wordIds": [
       "22976"
     ],
+    "cloze": {
+      "de": "Anzahlung",
+      "en": "down"
+    },
     "sourceIndex": 12976
   },
   {
@@ -5218,6 +6442,10 @@ const phrasesShopping = [
     "wordIds": [
       "23145"
     ],
+    "cloze": {
+      "de": "Wochenmarkt",
+      "en": "weekly"
+    },
     "sourceIndex": 13145
   },
   {
@@ -5235,6 +6463,10 @@ const phrasesShopping = [
     "wordIds": [
       "23155"
     ],
+    "cloze": {
+      "de": "abschicken",
+      "en": "send"
+    },
     "sourceIndex": 13155
   },
   {
@@ -5252,6 +6484,10 @@ const phrasesShopping = [
     "wordIds": [
       "23228"
     ],
+    "cloze": {
+      "de": "getrocknete",
+      "en": "dried"
+    },
     "sourceIndex": 13228
   },
   {
@@ -5269,6 +6505,10 @@ const phrasesShopping = [
     "wordIds": [
       "23486"
     ],
+    "cloze": {
+      "de": "Pensionierung",
+      "en": "retirement"
+    },
     "sourceIndex": 13486
   },
   {
@@ -5286,6 +6526,10 @@ const phrasesShopping = [
     "wordIds": [
       "23561"
     ],
+    "cloze": {
+      "de": "zusammenlegen",
+      "en": "pool"
+    },
     "sourceIndex": 13561
   },
   {
@@ -5303,6 +6547,10 @@ const phrasesShopping = [
     "wordIds": [
       "23619"
     ],
+    "cloze": {
+      "de": "Eau",
+      "en": "a"
+    },
     "sourceIndex": 13619
   },
   {
@@ -5320,6 +6568,10 @@ const phrasesShopping = [
     "wordIds": [
       "23646"
     ],
+    "cloze": {
+      "de": "geprüft",
+      "en": "tested"
+    },
     "sourceIndex": 13646
   },
   {
@@ -5337,6 +6589,10 @@ const phrasesShopping = [
     "wordIds": [
       "23707"
     ],
+    "cloze": {
+      "de": "profitabel",
+      "en": "profitable"
+    },
     "sourceIndex": 13707
   },
   {
@@ -5354,6 +6610,10 @@ const phrasesShopping = [
     "wordIds": [
       "23799"
     ],
+    "cloze": {
+      "de": "Euro-Banknote",
+      "en": "banknote"
+    },
     "sourceIndex": 13799
   },
   {
@@ -5371,6 +6631,10 @@ const phrasesShopping = [
     "wordIds": [
       "23959"
     ],
+    "cloze": {
+      "de": "zufälligerweise",
+      "en": "coincidentally"
+    },
     "sourceIndex": 13959
   },
   {
@@ -5388,6 +6652,10 @@ const phrasesShopping = [
     "wordIds": [
       "24008"
     ],
+    "cloze": {
+      "de": "Edelstein",
+      "en": "gemstone"
+    },
     "sourceIndex": 14008
   },
   {
@@ -5405,6 +6673,10 @@ const phrasesShopping = [
     "wordIds": [
       "24033"
     ],
+    "cloze": {
+      "de": "geizig",
+      "en": "stingy"
+    },
     "sourceIndex": 14033
   },
   {
@@ -5422,6 +6694,10 @@ const phrasesShopping = [
     "wordIds": [
       "24162"
     ],
+    "cloze": {
+      "de": "Zehner",
+      "en": "ten-euro"
+    },
     "sourceIndex": 14162
   },
   {
@@ -5439,6 +6715,10 @@ const phrasesShopping = [
     "wordIds": [
       "24185"
     ],
+    "cloze": {
+      "de": "Bankier",
+      "en": "banker"
+    },
     "sourceIndex": 14185
   },
   {
@@ -5456,6 +6736,10 @@ const phrasesShopping = [
     "wordIds": [
       "24391"
     ],
+    "cloze": {
+      "de": "Einzahlung",
+      "en": "deposit"
+    },
     "sourceIndex": 14391
   },
   {
@@ -5473,6 +6757,10 @@ const phrasesShopping = [
     "wordIds": [
       "24445"
     ],
+    "cloze": {
+      "de": "Körbchen",
+      "en": "small"
+    },
     "sourceIndex": 14445
   },
   {
@@ -5490,6 +6778,10 @@ const phrasesShopping = [
     "wordIds": [
       "24538"
     ],
+    "cloze": {
+      "de": "Vorsaison",
+      "en": "preseason"
+    },
     "sourceIndex": 14538
   },
   {
@@ -5507,6 +6799,10 @@ const phrasesShopping = [
     "wordIds": [
       "24559"
     ],
+    "cloze": {
+      "de": "abkaufen",
+      "en": "buy"
+    },
     "sourceIndex": 14559
   },
   {
@@ -5524,6 +6820,10 @@ const phrasesShopping = [
     "wordIds": [
       "24598"
     ],
+    "cloze": {
+      "de": "Coupon",
+      "en": "coupon"
+    },
     "sourceIndex": 14598
   },
   {
@@ -5541,6 +6841,10 @@ const phrasesShopping = [
     "wordIds": [
       "24630"
     ],
+    "cloze": {
+      "de": "Gesamtgewicht",
+      "en": "total"
+    },
     "sourceIndex": 14630
   },
   {
@@ -5558,6 +6862,10 @@ const phrasesShopping = [
     "wordIds": [
       "24657"
     ],
+    "cloze": {
+      "de": "Karo",
+      "en": "diamond"
+    },
     "sourceIndex": 14657
   },
   {
@@ -5575,6 +6883,10 @@ const phrasesShopping = [
     "wordIds": [
       "24951"
     ],
+    "cloze": {
+      "de": "umweltfreundliche",
+      "en": "environmentally"
+    },
     "sourceIndex": 14951
   },
   {
@@ -5592,6 +6904,10 @@ const phrasesShopping = [
     "wordIds": [
       "24961"
     ],
+    "cloze": {
+      "de": "Verkaufspreis",
+      "en": "selling"
+    },
     "sourceIndex": 14961
   },
   {
@@ -5609,6 +6925,10 @@ const phrasesShopping = [
     "wordIds": [
       "24966"
     ],
+    "cloze": {
+      "de": "Vitrine",
+      "en": "displayed"
+    },
     "sourceIndex": 14966
   },
   {
@@ -5626,6 +6946,10 @@ const phrasesShopping = [
     "wordIds": [
       "24971"
     ],
+    "cloze": {
+      "de": "Wechselkurs",
+      "en": "exchange"
+    },
     "sourceIndex": 14971
   },
   {
@@ -5643,6 +6967,10 @@ const phrasesShopping = [
     "wordIds": [
       "25022"
     ],
+    "cloze": {
+      "de": "eintauschen",
+      "en": "trade"
+    },
     "sourceIndex": 15022
   },
   {
@@ -5660,6 +6988,10 @@ const phrasesShopping = [
     "wordIds": [
       "25092"
     ],
+    "cloze": {
+      "de": "Lira",
+      "en": "lira"
+    },
     "sourceIndex": 15092
   },
   {
@@ -5677,6 +7009,10 @@ const phrasesShopping = [
     "wordIds": [
       "25096"
     ],
+    "cloze": {
+      "de": "Milchprodukt",
+      "en": "dairy"
+    },
     "sourceIndex": 15096
   },
   {
@@ -5694,6 +7030,10 @@ const phrasesShopping = [
     "wordIds": [
       "25123"
     ],
+    "cloze": {
+      "de": "Raute",
+      "en": "diamond"
+    },
     "sourceIndex": 15123
   },
   {
@@ -5711,6 +7051,10 @@ const phrasesShopping = [
     "wordIds": [
       "25130"
     ],
+    "cloze": {
+      "de": "Rundfunkbeitrag",
+      "en": "broadcasting"
+    },
     "sourceIndex": 15130
   },
   {
@@ -5728,6 +7072,10 @@ const phrasesShopping = [
     "wordIds": [
       "25144"
     ],
+    "cloze": {
+      "de": "Sparbuch",
+      "en": "savings"
+    },
     "sourceIndex": 15144
   },
   {
@@ -5745,6 +7093,10 @@ const phrasesShopping = [
     "wordIds": [
       "25149"
     ],
+    "cloze": {
+      "de": "stampfen",
+      "en": "stamp"
+    },
     "sourceIndex": 15149
   },
   {
@@ -5762,6 +7114,10 @@ const phrasesShopping = [
     "wordIds": [
       "25262"
     ],
+    "cloze": {
+      "de": "futsch",
+      "en": "gone"
+    },
     "sourceIndex": 15262
   },
   {
@@ -5779,6 +7135,10 @@ const phrasesShopping = [
     "wordIds": [
       "25355"
     ],
+    "cloze": {
+      "de": "Smartwatch",
+      "en": "smartwatch"
+    },
     "sourceIndex": 15355
   },
   {
@@ -5796,6 +7156,10 @@ const phrasesShopping = [
     "wordIds": [
       "25438"
     ],
+    "cloze": {
+      "de": "Boutique",
+      "en": "boutique"
+    },
     "sourceIndex": 15438
   },
   {
@@ -5813,6 +7177,10 @@ const phrasesShopping = [
     "wordIds": [
       "25571"
     ],
+    "cloze": {
+      "de": "Schlafsack",
+      "en": "sleeping"
+    },
     "sourceIndex": 15571
   },
   {
@@ -5830,6 +7198,10 @@ const phrasesShopping = [
     "wordIds": [
       "25597"
     ],
+    "cloze": {
+      "de": "unattraktiv",
+      "en": "unattractive"
+    },
     "sourceIndex": 15597
   },
   {
@@ -5847,6 +7219,10 @@ const phrasesShopping = [
     "wordIds": [
       "25649"
     ],
+    "cloze": {
+      "de": "Backwaren",
+      "en": "baked"
+    },
     "sourceIndex": 15649
   },
   {
@@ -5864,6 +7240,10 @@ const phrasesShopping = [
     "wordIds": [
       "25807"
     ],
+    "cloze": {
+      "de": "umtauschen",
+      "en": "exchange"
+    },
     "sourceIndex": 15807
   },
   {
@@ -5881,6 +7261,10 @@ const phrasesShopping = [
     "wordIds": [
       "25857"
     ],
+    "cloze": {
+      "de": "Basar",
+      "en": "bazaar"
+    },
     "sourceIndex": 15857
   },
   {
@@ -5898,6 +7282,10 @@ const phrasesShopping = [
     "wordIds": [
       "25922"
     ],
+    "cloze": {
+      "de": "Goldmünze",
+      "en": "gold"
+    },
     "sourceIndex": 15922
   },
   {
@@ -5915,6 +7303,10 @@ const phrasesShopping = [
     "wordIds": [
       "26024"
     ],
+    "cloze": {
+      "de": "unbezahlte",
+      "en": "unpaid"
+    },
     "sourceIndex": 16024
   },
   {
@@ -5932,6 +7324,10 @@ const phrasesShopping = [
     "wordIds": [
       "26129"
     ],
+    "cloze": {
+      "de": "Geldbusse",
+      "en": "fine"
+    },
     "sourceIndex": 16129
   },
   {
@@ -5949,6 +7345,10 @@ const phrasesShopping = [
     "wordIds": [
       "26142"
     ],
+    "cloze": {
+      "de": "Hausrat",
+      "en": "household"
+    },
     "sourceIndex": 16142
   },
   {
@@ -5966,6 +7366,10 @@ const phrasesShopping = [
     "wordIds": [
       "26236"
     ],
+    "cloze": {
+      "de": "Sonderangebot",
+      "en": "special"
+    },
     "sourceIndex": 16236
   },
   {
@@ -5983,6 +7387,10 @@ const phrasesShopping = [
     "wordIds": [
       "26370"
     ],
+    "cloze": {
+      "de": "Einkäufer",
+      "en": "buyer"
+    },
     "sourceIndex": 16370
   },
   {
@@ -6000,6 +7408,10 @@ const phrasesShopping = [
     "wordIds": [
       "26400"
     ],
+    "cloze": {
+      "de": "gerettet",
+      "en": "rescued"
+    },
     "sourceIndex": 16400
   },
   {
@@ -6017,6 +7429,10 @@ const phrasesShopping = [
     "wordIds": [
       "26429"
     ],
+    "cloze": {
+      "de": "Kontostand",
+      "en": "account"
+    },
     "sourceIndex": 16429
   },
   {
@@ -6034,6 +7450,10 @@ const phrasesShopping = [
     "wordIds": [
       "26436"
     ],
+    "cloze": {
+      "de": "Markthalle",
+      "en": "market"
+    },
     "sourceIndex": 16436
   },
   {
@@ -6051,6 +7471,10 @@ const phrasesShopping = [
     "wordIds": [
       "26640"
     ],
+    "cloze": {
+      "de": "Geschirrspüler",
+      "en": "dishwasher"
+    },
     "sourceIndex": 16640
   },
   {
@@ -6068,6 +7492,10 @@ const phrasesShopping = [
     "wordIds": [
       "26746"
     ],
+    "cloze": {
+      "de": "Schlüsselanhänger",
+      "en": "keyring"
+    },
     "sourceIndex": 16746
   },
   {
@@ -6085,6 +7513,10 @@ const phrasesShopping = [
     "wordIds": [
       "26767"
     ],
+    "cloze": {
+      "de": "stempeln",
+      "en": "stamp"
+    },
     "sourceIndex": 16767
   },
   {
@@ -6102,6 +7534,10 @@ const phrasesShopping = [
     "wordIds": [
       "26796"
     ],
+    "cloze": {
+      "de": "vorrätig",
+      "en": "in"
+    },
     "sourceIndex": 16796
   },
   {
@@ -6119,6 +7555,10 @@ const phrasesShopping = [
     "wordIds": [
       "27043"
     ],
+    "cloze": {
+      "de": "Warenhaus",
+      "en": "department"
+    },
     "sourceIndex": 17043
   },
   {
@@ -6136,6 +7576,10 @@ const phrasesShopping = [
     "wordIds": [
       "27322"
     ],
+    "cloze": {
+      "de": "Zusteller",
+      "en": "deliverer"
+    },
     "sourceIndex": 17322
   },
   {
@@ -6153,6 +7597,10 @@ const phrasesShopping = [
     "wordIds": [
       "27368"
     ],
+    "cloze": {
+      "de": "Collier",
+      "en": "necklace"
+    },
     "sourceIndex": 17368
   },
   {
@@ -6170,6 +7618,10 @@ const phrasesShopping = [
     "wordIds": [
       "27372"
     ],
+    "cloze": {
+      "de": "Delivery",
+      "en": "delivery"
+    },
     "sourceIndex": 17372
   },
   {
@@ -6187,6 +7639,10 @@ const phrasesShopping = [
     "wordIds": [
       "27376"
     ],
+    "cloze": {
+      "de": "Discount",
+      "en": "discount"
+    },
     "sourceIndex": 17376
   },
   {
@@ -6204,6 +7660,10 @@ const phrasesShopping = [
     "wordIds": [
       "27448"
     ],
+    "cloze": {
+      "de": "importiert",
+      "en": "imported"
+    },
     "sourceIndex": 17448
   },
   {
@@ -6221,6 +7681,10 @@ const phrasesShopping = [
     "wordIds": [
       "27714"
     ],
+    "cloze": {
+      "de": "Hunderter",
+      "en": "a"
+    },
     "sourceIndex": 17714
   },
   {
@@ -6238,6 +7702,10 @@ const phrasesShopping = [
     "wordIds": [
       "27779"
     ],
+    "cloze": {
+      "de": "Schilf",
+      "en": "reeds"
+    },
     "sourceIndex": 17779
   },
   {
@@ -6255,6 +7723,10 @@ const phrasesShopping = [
     "wordIds": [
       "27880"
     ],
+    "cloze": {
+      "de": "Bankräuber",
+      "en": "bank"
+    },
     "sourceIndex": 17880
   },
   {
@@ -6272,6 +7744,10 @@ const phrasesShopping = [
     "wordIds": [
       "27927"
     ],
+    "cloze": {
+      "de": "Geldbetrag",
+      "en": "amount"
+    },
     "sourceIndex": 17927
   },
   {
@@ -6289,6 +7765,10 @@ const phrasesShopping = [
     "wordIds": [
       "28007"
     ],
+    "cloze": {
+      "de": "Preiserhöhung",
+      "en": "price"
+    },
     "sourceIndex": 18007
   },
   {
@@ -6306,6 +7786,10 @@ const phrasesShopping = [
     "wordIds": [
       "28073"
     ],
+    "cloze": {
+      "de": "Warenkorb",
+      "en": "shopping"
+    },
     "sourceIndex": 18073
   },
   {
@@ -6323,6 +7807,10 @@ const phrasesShopping = [
     "wordIds": [
       "28107"
     ],
+    "cloze": {
+      "de": "Ausleihe",
+      "en": "borrowing"
+    },
     "sourceIndex": 18107
   },
   {
@@ -6340,6 +7828,10 @@ const phrasesShopping = [
     "wordIds": [
       "28110"
     ],
+    "cloze": {
+      "de": "Bankkaufmann",
+      "en": "bank"
+    },
     "sourceIndex": 18110
   },
   {
@@ -6357,6 +7849,10 @@ const phrasesShopping = [
     "wordIds": [
       "28129"
     ],
+    "cloze": {
+      "de": "Cashback-Programme",
+      "en": "cashback"
+    },
     "sourceIndex": 18129
   },
   {
@@ -6374,6 +7870,10 @@ const phrasesShopping = [
     "wordIds": [
       "28397"
     ],
+    "cloze": {
+      "de": "eingeschlossen",
+      "en": "included"
+    },
     "sourceIndex": 18397
   },
   {
@@ -6391,6 +7891,10 @@ const phrasesShopping = [
     "wordIds": [
       "28528"
     ],
+    "cloze": {
+      "de": "Preisklasse",
+      "en": "price"
+    },
     "sourceIndex": 18528
   },
   {
@@ -6408,6 +7912,10 @@ const phrasesShopping = [
     "wordIds": [
       "28670"
     ],
+    "cloze": {
+      "de": "eingewickelt",
+      "en": "wrapped"
+    },
     "sourceIndex": 18670
   },
   {
@@ -6425,6 +7933,10 @@ const phrasesShopping = [
     "wordIds": [
       "28673"
     ],
+    "cloze": {
+      "de": "ermässigte",
+      "en": "discounted"
+    },
     "sourceIndex": 18673
   },
   {
@@ -6442,6 +7954,10 @@ const phrasesShopping = [
     "wordIds": [
       "28870"
     ],
+    "cloze": {
+      "de": "abladen",
+      "en": "unload"
+    },
     "sourceIndex": 18870
   },
   {
@@ -6459,6 +7975,10 @@ const phrasesShopping = [
     "wordIds": [
       "29158"
     ],
+    "cloze": {
+      "de": "Wechselgeld",
+      "en": "change"
+    },
     "sourceIndex": 19158
   },
   {
@@ -6476,6 +7996,10 @@ const phrasesShopping = [
     "wordIds": [
       "29242"
     ],
+    "cloze": {
+      "de": "erschwinglich",
+      "en": "affordable"
+    },
     "sourceIndex": 19242
   },
   {
@@ -6493,6 +8017,10 @@ const phrasesShopping = [
     "wordIds": [
       "29264"
     ],
+    "cloze": {
+      "de": "gelistet",
+      "en": "listed"
+    },
     "sourceIndex": 19264
   },
   {
@@ -6510,6 +8038,10 @@ const phrasesShopping = [
     "wordIds": [
       "29765"
     ],
+    "cloze": {
+      "de": "von",
+      "en": "account"
+    },
     "sourceIndex": 19765
   },
   {
@@ -6527,6 +8059,10 @@ const phrasesShopping = [
     "wordIds": [
       "29782"
     ],
+    "cloze": {
+      "de": "Barcode",
+      "en": "barcode"
+    },
     "sourceIndex": 19782
   },
   {
@@ -6544,6 +8080,10 @@ const phrasesShopping = [
     "wordIds": [
       "29840"
     ],
+    "cloze": {
+      "de": "Geldschein",
+      "en": "banknote"
+    },
     "sourceIndex": 19840
   },
   {
@@ -6561,6 +8101,10 @@ const phrasesShopping = [
     "wordIds": [
       "29999"
     ],
+    "cloze": {
+      "de": "Transportkosten",
+      "en": "transport"
+    },
     "sourceIndex": 19999
   },
   {
@@ -6578,6 +8122,10 @@ const phrasesShopping = [
     "wordIds": [
       "30007"
     ],
+    "cloze": {
+      "de": "Umtausch",
+      "en": "exchange"
+    },
     "sourceIndex": 20007
   },
   {
@@ -6595,6 +8143,10 @@ const phrasesShopping = [
     "wordIds": [
       "30182"
     ],
+    "cloze": {
+      "de": "Kontoauszug",
+      "en": "bank"
+    },
     "sourceIndex": 20182
   },
   {
@@ -6612,6 +8164,10 @@ const phrasesShopping = [
     "wordIds": [
       "30197"
     ],
+    "cloze": {
+      "de": "Lohnerhöhung",
+      "en": "pay"
+    },
     "sourceIndex": 20197
   },
   {
@@ -6629,6 +8185,10 @@ const phrasesShopping = [
     "wordIds": [
       "30221"
     ],
+    "cloze": {
+      "de": "Packstation",
+      "en": "parcel"
+    },
     "sourceIndex": 20221
   },
   {
@@ -6646,6 +8206,10 @@ const phrasesShopping = [
     "wordIds": [
       "30261"
     ],
+    "cloze": {
+      "de": "Spielwaren",
+      "en": "toys"
+    },
     "sourceIndex": 20261
   }
 ];

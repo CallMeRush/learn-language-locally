@@ -86,15 +86,6 @@ function importCurrentProgress(imported) {
   } catch { toast("Could not save the imported progress."); }
 }
 function bindGlobalVocabularyControls() {
-  $$('[id$="vocab-status-filter"]').forEach((select) => {
-    select.value = vocabStatus;
-    select.onchange = (event) => {
-      vocabStatus = event.target.value;
-      vocabIndex = 0;
-      renderVocabulary();
-    };
-  });
-  $$('[id$="random-vocab"]').forEach((button) => (button.onclick = nextVocab));
   $$('[id$="vocab-hint"]').forEach((button) => {
     button.textContent = "Word hint";
     button.onclick = () => showVocabHint("word");

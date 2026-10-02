@@ -14,6 +14,10 @@ const phrasesAbstractIdeas = [
     "wordIds": [
       "10027"
     ],
+    "cloze": {
+      "de": "ganz",
+      "en": "completely"
+    },
     "sourceIndex": 27
   },
   {
@@ -31,6 +35,10 @@ const phrasesAbstractIdeas = [
     "wordIds": [
       "10108"
     ],
+    "cloze": {
+      "de": "Art",
+      "en": "kind"
+    },
     "sourceIndex": 108
   },
   {
@@ -48,6 +56,10 @@ const phrasesAbstractIdeas = [
     "wordIds": [
       "10155"
     ],
+    "cloze": {
+      "de": "Grund",
+      "en": "reason"
+    },
     "sourceIndex": 155
   },
   {
@@ -65,6 +77,10 @@ const phrasesAbstractIdeas = [
     "wordIds": [
       "10185"
     ],
+    "cloze": {
+      "de": "lieb",
+      "en": "kind"
+    },
     "sourceIndex": 185
   },
   {
@@ -82,6 +98,10 @@ const phrasesAbstractIdeas = [
     "wordIds": [
       "10247"
     ],
+    "cloze": {
+      "de": "Ding",
+      "en": "thing"
+    },
     "sourceIndex": 247
   },
   {
@@ -99,6 +119,10 @@ const phrasesAbstractIdeas = [
     "wordIds": [
       "10287"
     ],
+    "cloze": {
+      "de": "Lage",
+      "en": "situation"
+    },
     "sourceIndex": 287
   },
   {
@@ -116,6 +140,10 @@ const phrasesAbstractIdeas = [
     "wordIds": [
       "10345"
     ],
+    "cloze": {
+      "de": "Möglichkeiten",
+      "en": "possibilities"
+    },
     "sourceIndex": 345
   },
   {
@@ -133,6 +161,10 @@ const phrasesAbstractIdeas = [
     "wordIds": [
       "10369"
     ],
+    "cloze": {
+      "de": "Chance",
+      "en": "chance"
+    },
     "sourceIndex": 369
   },
   {
@@ -150,6 +182,10 @@ const phrasesAbstractIdeas = [
     "wordIds": [
       "10435"
     ],
+    "cloze": {
+      "de": "Situation",
+      "en": "situation"
+    },
     "sourceIndex": 435
   },
   {
@@ -167,6 +203,10 @@ const phrasesAbstractIdeas = [
     "wordIds": [
       "10450"
     ],
+    "cloze": {
+      "de": "Typ",
+      "en": "guy"
+    },
     "sourceIndex": 450
   },
   {
@@ -184,6 +224,10 @@ const phrasesAbstractIdeas = [
     "wordIds": [
       "11249"
     ],
+    "cloze": {
+      "de": "Anlass",
+      "en": "occasion"
+    },
     "sourceIndex": 1249
   },
   {
@@ -201,6 +245,10 @@ const phrasesAbstractIdeas = [
     "wordIds": [
       "11410"
     ],
+    "cloze": {
+      "de": "zufällig",
+      "en": "by"
+    },
     "sourceIndex": 1410
   },
   {
@@ -218,6 +266,10 @@ const phrasesAbstractIdeas = [
     "wordIds": [
       "11740"
     ],
+    "cloze": {
+      "de": "Vorbild",
+      "en": "role"
+    },
     "sourceIndex": 1740
   },
   {
@@ -235,6 +287,10 @@ const phrasesAbstractIdeas = [
     "wordIds": [
       "11748"
     ],
+    "cloze": {
+      "de": "Effekt",
+      "en": "effect"
+    },
     "sourceIndex": 1748
   },
   {
@@ -252,6 +308,10 @@ const phrasesAbstractIdeas = [
     "wordIds": [
       "12233"
     ],
+    "cloze": {
+      "de": "bereitet",
+      "en": "a"
+    },
     "sourceIndex": 2233
   },
   {
@@ -269,6 +329,10 @@ const phrasesAbstractIdeas = [
     "wordIds": [
       "12328"
     ],
+    "cloze": {
+      "de": "heil",
+      "en": "intact"
+    },
     "sourceIndex": 2328
   },
   {
@@ -286,6 +350,10 @@ const phrasesAbstractIdeas = [
     "wordIds": [
       "14617"
     ],
+    "cloze": {
+      "de": "Nebenwirkungen",
+      "en": "side"
+    },
     "sourceIndex": 4617
   },
   {
@@ -303,6 +371,10 @@ const phrasesAbstractIdeas = [
     "wordIds": [
       "18962"
     ],
+    "cloze": {
+      "de": "Bauart",
+      "en": "design"
+    },
     "sourceIndex": 8962
   },
   {
@@ -320,6 +392,10 @@ const phrasesAbstractIdeas = [
     "wordIds": [
       "21761"
     ],
+    "cloze": {
+      "de": "Lebenssituation",
+      "en": "life"
+    },
     "sourceIndex": 11761
   },
   {
@@ -337,6 +413,10 @@ const phrasesAbstractIdeas = [
     "wordIds": [
       "23838"
     ],
+    "cloze": {
+      "de": "Geschäftsidee",
+      "en": "business"
+    },
     "sourceIndex": 13838
   },
   {
@@ -354,6 +434,10 @@ const phrasesAbstractIdeas = [
     "wordIds": [
       "25151"
     ],
+    "cloze": {
+      "de": "Startpunkt",
+      "en": "starting"
+    },
     "sourceIndex": 15151
   },
   {
@@ -371,6 +455,10 @@ const phrasesAbstractIdeas = [
     "wordIds": [
       "25552"
     ],
+    "cloze": {
+      "de": "Pluspunkt",
+      "en": "advantage"
+    },
     "sourceIndex": 15552
   },
   {
@@ -388,6 +476,10 @@ const phrasesAbstractIdeas = [
     "wordIds": [
       "26825"
     ],
+    "cloze": {
+      "de": "Aussichtspunkt",
+      "en": "viewpoint"
+    },
     "sourceIndex": 16825
   }
 ];

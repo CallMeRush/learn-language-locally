@@ -14,6 +14,10 @@ const phrasesDaily = [
     "wordIds": [
       "10001"
     ],
+    "cloze": {
+      "de": "Sie",
+      "en": "you"
+    },
     "sourceIndex": 1
   },
   {
@@ -31,6 +35,10 @@ const phrasesDaily = [
     "wordIds": [
       "10002"
     ],
+    "cloze": {
+      "de": "auch",
+      "en": "too"
+    },
     "sourceIndex": 2
   },
   {
@@ -48,6 +56,10 @@ const phrasesDaily = [
     "wordIds": [
       "10003"
     ],
+    "cloze": {
+      "de": "habe",
+      "en": "have"
+    },
     "sourceIndex": 3
   },
   {
@@ -65,6 +77,10 @@ const phrasesDaily = [
     "wordIds": [
       "10006"
     ],
+    "cloze": {
+      "de": "Deutsch",
+      "en": "can"
+    },
     "sourceIndex": 6
   },
   {
@@ -82,6 +98,10 @@ const phrasesDaily = [
     "wordIds": [
       "10007"
     ],
+    "cloze": {
+      "de": "da",
+      "en": "there"
+    },
     "sourceIndex": 7
   },
   {
@@ -99,6 +119,10 @@ const phrasesDaily = [
     "wordIds": [
       "10009"
     ],
+    "cloze": {
+      "de": "schon",
+      "en": "already"
+    },
     "sourceIndex": 9
   },
   {
@@ -116,6 +140,10 @@ const phrasesDaily = [
     "wordIds": [
       "10010"
     ],
+    "cloze": {
+      "de": "mehr",
+      "en": "more"
+    },
     "sourceIndex": 10
   },
   {
@@ -133,6 +161,10 @@ const phrasesDaily = [
     "wordIds": [
       "10013"
     ],
+    "cloze": {
+      "de": "hier",
+      "en": "here"
+    },
     "sourceIndex": 13
   },
   {
@@ -150,6 +182,10 @@ const phrasesDaily = [
     "wordIds": [
       "10016"
     ],
+    "cloze": {
+      "de": "jetzt",
+      "en": "now"
+    },
     "sourceIndex": 16
   },
   {
@@ -167,6 +203,10 @@ const phrasesDaily = [
     "wordIds": [
       "10017"
     ],
+    "cloze": {
+      "de": "wieder",
+      "en": "again"
+    },
     "sourceIndex": 17
   },
   {
@@ -184,6 +224,10 @@ const phrasesDaily = [
     "wordIds": [
       "10019"
     ],
+    "cloze": {
+      "de": "Alle",
+      "en": "All"
+    },
     "sourceIndex": 19
   },
   {
@@ -201,6 +245,10 @@ const phrasesDaily = [
     "wordIds": [
       "10020"
     ],
+    "cloze": {
+      "de": "sehr",
+      "en": "very"
+    },
     "sourceIndex": 20
   },
   {
@@ -218,6 +266,10 @@ const phrasesDaily = [
     "wordIds": [
       "10021"
     ],
+    "cloze": {
+      "de": "gutes",
+      "en": "good"
+    },
     "sourceIndex": 21
   },
   {
@@ -235,6 +287,10 @@ const phrasesDaily = [
     "wordIds": [
       "10022"
     ],
+    "cloze": {
+      "de": "gebe",
+      "en": "give"
+    },
     "sourceIndex": 22
   },
   {
@@ -252,6 +308,10 @@ const phrasesDaily = [
     "wordIds": [
       "10023"
     ],
+    "cloze": {
+      "de": "Also",
+      "en": "So"
+    },
     "sourceIndex": 23
   },
   {
@@ -269,6 +329,10 @@ const phrasesDaily = [
     "wordIds": [
       "10032"
     ],
+    "cloze": {
+      "de": "Wo",
+      "en": "Where"
+    },
     "sourceIndex": 32
   },
   {
@@ -286,6 +350,10 @@ const phrasesDaily = [
     "wordIds": [
       "10036"
     ],
+    "cloze": {
+      "de": "Nun",
+      "en": "now"
+    },
     "sourceIndex": 36
   },
   {
@@ -303,6 +371,10 @@ const phrasesDaily = [
     "wordIds": [
       "10038"
     ],
+    "cloze": {
+      "de": "anderes",
+      "en": "another"
+    },
     "sourceIndex": 38
   },
   {
@@ -320,6 +392,10 @@ const phrasesDaily = [
     "wordIds": [
       "10042"
     ],
+    "cloze": {
+      "de": "gerade",
+      "en": "straight"
+    },
     "sourceIndex": 42
   },
   {
@@ -337,6 +413,10 @@ const phrasesDaily = [
     "wordIds": [
       "10045"
     ],
+    "cloze": {
+      "de": "Lass",
+      "en": "Let"
+    },
     "sourceIndex": 45
   },
   {
@@ -354,6 +434,10 @@ const phrasesDaily = [
     "wordIds": [
       "10048"
     ],
+    "cloze": {
+      "de": "weit",
+      "en": "far"
+    },
     "sourceIndex": 48
   },
   {
@@ -371,6 +455,10 @@ const phrasesDaily = [
     "wordIds": [
       "10049"
     ],
+    "cloze": {
+      "de": "wirklich",
+      "en": "really"
+    },
     "sourceIndex": 49
   },
   {
@@ -388,6 +476,10 @@ const phrasesDaily = [
     "wordIds": [
       "10053"
     ],
+    "cloze": {
+      "de": "Vielleicht",
+      "en": "Perhaps"
+    },
     "sourceIndex": 53
   },
   {
@@ -405,6 +497,10 @@ const phrasesDaily = [
     "wordIds": [
       "10060"
     ],
+    "cloze": {
+      "de": "steht",
+      "en": "stands"
+    },
     "sourceIndex": 60
   },
   {
@@ -422,6 +518,10 @@ const phrasesDaily = [
     "wordIds": [
       "10061"
     ],
+    "cloze": {
+      "de": "bereits",
+      "en": "already"
+    },
     "sourceIndex": 61
   },
   {
@@ -439,6 +539,10 @@ const phrasesDaily = [
     "wordIds": [
       "10071"
     ],
+    "cloze": {
+      "de": "genau",
+      "en": "exactly"
+    },
     "sourceIndex": 71
   },
   {
@@ -456,6 +560,10 @@ const phrasesDaily = [
     "wordIds": [
       "10074"
     ],
+    "cloze": {
+      "de": "etwa",
+      "en": "about"
+    },
     "sourceIndex": 74
   },
   {
@@ -473,6 +581,10 @@ const phrasesDaily = [
     "wordIds": [
       "10076"
     ],
+    "cloze": {
+      "de": "recht",
+      "en": "right"
+    },
     "sourceIndex": 76
   },
   {
@@ -490,6 +602,10 @@ const phrasesDaily = [
     "wordIds": [
       "10078"
     ],
+    "cloze": {
+      "de": "finden",
+      "en": "find"
+    },
     "sourceIndex": 78
   },
   {
@@ -507,6 +623,10 @@ const phrasesDaily = [
     "wordIds": [
       "10082"
     ],
+    "cloze": {
+      "de": "lang",
+      "en": "long"
+    },
     "sourceIndex": 82
   },
   {
@@ -524,6 +644,10 @@ const phrasesDaily = [
     "wordIds": [
       "10084"
     ],
+    "cloze": {
+      "de": "Beide",
+      "en": "Both"
+    },
     "sourceIndex": 84
   },
   {
@@ -541,6 +665,10 @@ const phrasesDaily = [
     "wordIds": [
       "10085"
     ],
+    "cloze": {
+      "de": "davon",
+      "en": "about"
+    },
     "sourceIndex": 85
   },
   {
@@ -558,6 +686,10 @@ const phrasesDaily = [
     "wordIds": [
       "10086"
     ],
+    "cloze": {
+      "de": "eigentlich",
+      "en": "actually"
+    },
     "sourceIndex": 86
   },
   {
@@ -575,6 +707,10 @@ const phrasesDaily = [
     "wordIds": [
       "10087"
     ],
+    "cloze": {
+      "de": "fast",
+      "en": "almost"
+    },
     "sourceIndex": 87
   },
   {
@@ -592,6 +728,10 @@ const phrasesDaily = [
     "wordIds": [
       "10089"
     ],
+    "cloze": {
+      "de": "tun",
+      "en": "do"
+    },
     "sourceIndex": 89
   },
   {
@@ -609,6 +749,10 @@ const phrasesDaily = [
     "wordIds": [
       "10093"
     ],
+    "cloze": {
+      "de": "klar",
+      "en": "clear"
+    },
     "sourceIndex": 93
   },
   {
@@ -626,6 +770,10 @@ const phrasesDaily = [
     "wordIds": [
       "10097"
     ],
+    "cloze": {
+      "de": "liegt",
+      "en": "lying"
+    },
     "sourceIndex": 97
   },
   {
@@ -643,6 +791,10 @@ const phrasesDaily = [
     "wordIds": [
       "10101"
     ],
+    "cloze": {
+      "de": "sicher",
+      "en": "sure"
+    },
     "sourceIndex": 101
   },
   {
@@ -660,6 +812,10 @@ const phrasesDaily = [
     "wordIds": [
       "10103"
     ],
+    "cloze": {
+      "de": "Nein",
+      "en": "No"
+    },
     "sourceIndex": 103
   },
   {
@@ -677,6 +833,10 @@ const phrasesDaily = [
     "wordIds": [
       "10105"
     ],
+    "cloze": {
+      "de": "sogar",
+      "en": "even"
+    },
     "sourceIndex": 105
   },
   {
@@ -694,6 +854,10 @@ const phrasesDaily = [
     "wordIds": [
       "10106"
     ],
+    "cloze": {
+      "de": "zwar",
+      "en": "indeed"
+    },
     "sourceIndex": 106
   },
   {
@@ -711,6 +875,10 @@ const phrasesDaily = [
     "wordIds": [
       "10112"
     ],
+    "cloze": {
+      "de": "Seite",
+      "en": "page"
+    },
     "sourceIndex": 112
   },
   {
@@ -728,6 +896,10 @@ const phrasesDaily = [
     "wordIds": [
       "10128"
     ],
+    "cloze": {
+      "de": "kurzes",
+      "en": "short"
+    },
     "sourceIndex": 128
   },
   {
@@ -745,6 +917,10 @@ const phrasesDaily = [
     "wordIds": [
       "10131"
     ],
+    "cloze": {
+      "de": "sonst",
+      "en": "otherwise"
+    },
     "sourceIndex": 131
   },
   {
@@ -762,6 +938,10 @@ const phrasesDaily = [
     "wordIds": [
       "10140"
     ],
+    "cloze": {
+      "de": "bleiben",
+      "en": "stay"
+    },
     "sourceIndex": 140
   },
   {
@@ -779,6 +959,10 @@ const phrasesDaily = [
     "wordIds": [
       "10143"
     ],
+    "cloze": {
+      "de": "möglich",
+      "en": "possible"
+    },
     "sourceIndex": 143
   },
   {
@@ -796,6 +980,10 @@ const phrasesDaily = [
     "wordIds": [
       "10145"
     ],
+    "cloze": {
+      "de": "eben",
+      "en": "just"
+    },
     "sourceIndex": 145
   },
   {
@@ -813,6 +1001,10 @@ const phrasesDaily = [
     "wordIds": [
       "10149"
     ],
+    "cloze": {
+      "de": "Leider",
+      "en": "Unfortunately"
+    },
     "sourceIndex": 149
   },
   {
@@ -830,6 +1022,10 @@ const phrasesDaily = [
     "wordIds": [
       "10156"
     ],
+    "cloze": {
+      "de": "kaum",
+      "en": "hardly"
+    },
     "sourceIndex": 156
   },
   {
@@ -847,6 +1043,10 @@ const phrasesDaily = [
     "wordIds": [
       "10158"
     ],
+    "cloze": {
+      "de": "Problem",
+      "en": "problem"
+    },
     "sourceIndex": 158
   },
   {
@@ -864,6 +1064,10 @@ const phrasesDaily = [
     "wordIds": [
       "10159"
     ],
+    "cloze": {
+      "de": "daran",
+      "en": "about"
+    },
     "sourceIndex": 159
   },
   {
@@ -881,6 +1085,10 @@ const phrasesDaily = [
     "wordIds": [
       "10166"
     ],
+    "cloze": {
+      "de": "allein",
+      "en": "alone"
+    },
     "sourceIndex": 166
   },
   {
@@ -898,6 +1106,10 @@ const phrasesDaily = [
     "wordIds": [
       "10167"
     ],
+    "cloze": {
+      "de": "direkt",
+      "en": "direct"
+    },
     "sourceIndex": 167
   },
   {
@@ -915,6 +1127,10 @@ const phrasesDaily = [
     "wordIds": [
       "10168"
     ],
+    "cloze": {
+      "de": "echte",
+      "en": "real"
+    },
     "sourceIndex": 168
   },
   {
@@ -932,6 +1148,10 @@ const phrasesDaily = [
     "wordIds": [
       "10171"
     ],
+    "cloze": {
+      "de": "Solche",
+      "en": "Such"
+    },
     "sourceIndex": 171
   },
   {
@@ -949,6 +1169,10 @@ const phrasesDaily = [
     "wordIds": [
       "10174"
     ],
+    "cloze": {
+      "de": "anders",
+      "en": "different"
+    },
     "sourceIndex": 174
   },
   {
@@ -966,6 +1190,10 @@ const phrasesDaily = [
     "wordIds": [
       "10178"
     ],
+    "cloze": {
+      "de": "ebenfalls",
+      "en": "likewise"
+    },
     "sourceIndex": 178
   },
   {
@@ -983,6 +1211,10 @@ const phrasesDaily = [
     "wordIds": [
       "10187"
     ],
+    "cloze": {
+      "de": "sofort",
+      "en": "immediately"
+    },
     "sourceIndex": 187
   },
   {
@@ -1000,6 +1232,10 @@ const phrasesDaily = [
     "wordIds": [
       "10192"
     ],
+    "cloze": {
+      "de": "deutlich",
+      "en": "clearly"
+    },
     "sourceIndex": 192
   },
   {
@@ -1017,6 +1253,10 @@ const phrasesDaily = [
     "wordIds": [
       "10195"
     ],
+    "cloze": {
+      "de": "nächste",
+      "en": "next"
+    },
     "sourceIndex": 195
   },
   {
@@ -1034,6 +1274,10 @@ const phrasesDaily = [
     "wordIds": [
       "10209"
     ],
+    "cloze": {
+      "de": "oben",
+      "en": "at"
+    },
     "sourceIndex": 209
   },
   {
@@ -1051,6 +1295,10 @@ const phrasesDaily = [
     "wordIds": [
       "10212"
     ],
+    "cloze": {
+      "de": "Bisher",
+      "en": "So"
+    },
     "sourceIndex": 212
   },
   {
@@ -1068,6 +1316,10 @@ const phrasesDaily = [
     "wordIds": [
       "10214"
     ],
+    "cloze": {
+      "de": "los",
+      "en": "on"
+    },
     "sourceIndex": 214
   },
   {
@@ -1085,6 +1337,10 @@ const phrasesDaily = [
     "wordIds": [
       "10217"
     ],
+    "cloze": {
+      "de": "brauche",
+      "en": "need"
+    },
     "sourceIndex": 217
   },
   {
@@ -1102,6 +1358,10 @@ const phrasesDaily = [
     "wordIds": [
       "10221"
     ],
+    "cloze": {
+      "de": "meisten",
+      "en": "Most"
+    },
     "sourceIndex": 221
   },
   {
@@ -1119,6 +1379,10 @@ const phrasesDaily = [
     "wordIds": [
       "10225"
     ],
+    "cloze": {
+      "de": "trotzdem",
+      "en": "nevertheless"
+    },
     "sourceIndex": 225
   },
   {
@@ -1136,6 +1400,10 @@ const phrasesDaily = [
     "wordIds": [
       "10228"
     ],
+    "cloze": {
+      "de": "Folge",
+      "en": "episode"
+    },
     "sourceIndex": 228
   },
   {
@@ -1153,6 +1421,10 @@ const phrasesDaily = [
     "wordIds": [
       "10237"
     ],
+    "cloze": {
+      "de": "Zunächst",
+      "en": "First"
+    },
     "sourceIndex": 237
   },
   {
@@ -1170,6 +1442,10 @@ const phrasesDaily = [
     "wordIds": [
       "10254"
     ],
+    "cloze": {
+      "de": "Bereich",
+      "en": "area"
+    },
     "sourceIndex": 254
   },
   {
@@ -1187,6 +1463,10 @@ const phrasesDaily = [
     "wordIds": [
       "10266"
     ],
+    "cloze": {
+      "de": "passiert",
+      "en": "happened"
+    },
     "sourceIndex": 266
   },
   {
@@ -1204,6 +1484,10 @@ const phrasesDaily = [
     "wordIds": [
       "10268"
     ],
+    "cloze": {
+      "de": "raus",
+      "en": "out"
+    },
     "sourceIndex": 268
   },
   {
@@ -1221,6 +1505,10 @@ const phrasesDaily = [
     "wordIds": [
       "10269"
     ],
+    "cloze": {
+      "de": "super",
+      "en": "great"
+    },
     "sourceIndex": 269
   },
   {
@@ -1238,6 +1526,10 @@ const phrasesDaily = [
     "wordIds": [
       "10272"
     ],
+    "cloze": {
+      "de": "einzige",
+      "en": "only"
+    },
     "sourceIndex": 272
   },
   {
@@ -1255,6 +1547,10 @@ const phrasesDaily = [
     "wordIds": [
       "10280"
     ],
+    "cloze": {
+      "de": "Ziel",
+      "en": "goal"
+    },
     "sourceIndex": 280
   },
   {
@@ -1272,6 +1568,10 @@ const phrasesDaily = [
     "wordIds": [
       "10281"
     ],
+    "cloze": {
+      "de": "ziemlich",
+      "en": "quite"
+    },
     "sourceIndex": 281
   },
   {
@@ -1289,6 +1589,10 @@ const phrasesDaily = [
     "wordIds": [
       "10283"
     ],
+    "cloze": {
+      "de": "ca",
+      "en": "approx"
+    },
     "sourceIndex": 283
   },
   {
@@ -1306,6 +1610,10 @@ const phrasesDaily = [
     "wordIds": [
       "10293"
     ],
+    "cloze": {
+      "de": "Insgesamt",
+      "en": "Overall"
+    },
     "sourceIndex": 293
   },
   {
@@ -1323,6 +1631,10 @@ const phrasesDaily = [
     "wordIds": [
       "10302"
     ],
+    "cloze": {
+      "de": "irgendwie",
+      "en": "somehow"
+    },
     "sourceIndex": 302
   },
   {
@@ -1340,6 +1652,10 @@ const phrasesDaily = [
     "wordIds": [
       "10306"
     ],
+    "cloze": {
+      "de": "verschiedene",
+      "en": "different"
+    },
     "sourceIndex": 306
   },
   {
@@ -1357,6 +1673,10 @@ const phrasesDaily = [
     "wordIds": [
       "10309"
     ],
+    "cloze": {
+      "de": "dagegen",
+      "en": "against"
+    },
     "sourceIndex": 309
   },
   {
@@ -1374,6 +1694,10 @@ const phrasesDaily = [
     "wordIds": [
       "10318"
     ],
+    "cloze": {
+      "de": "schlecht",
+      "en": "bad"
+    },
     "sourceIndex": 318
   },
   {
@@ -1391,6 +1715,10 @@ const phrasesDaily = [
     "wordIds": [
       "10323"
     ],
+    "cloze": {
+      "de": "wahrscheinlich",
+      "en": "probable"
+    },
     "sourceIndex": 323
   },
   {
@@ -1408,6 +1736,10 @@ const phrasesDaily = [
     "wordIds": [
       "10347"
     ],
+    "cloze": {
+      "de": "rechts",
+      "en": "right"
+    },
     "sourceIndex": 347
   },
   {
@@ -1425,6 +1757,10 @@ const phrasesDaily = [
     "wordIds": [
       "10348"
     ],
+    "cloze": {
+      "de": "Stück",
+      "en": "piece"
+    },
     "sourceIndex": 348
   },
   {
@@ -1442,6 +1778,10 @@ const phrasesDaily = [
     "wordIds": [
       "10366"
     ],
+    "cloze": {
+      "de": "Übrigens",
+      "en": "By"
+    },
     "sourceIndex": 366
   },
   {
@@ -1459,6 +1799,10 @@ const phrasesDaily = [
     "wordIds": [
       "10368"
     ],
+    "cloze": {
+      "de": "Band",
+      "en": "ribbon"
+    },
     "sourceIndex": 368
   },
   {
@@ -1476,6 +1820,10 @@ const phrasesDaily = [
     "wordIds": [
       "10375"
     ],
+    "cloze": {
+      "de": "mindestens",
+      "en": "at"
+    },
     "sourceIndex": 375
   },
   {
@@ -1493,6 +1841,10 @@ const phrasesDaily = [
     "wordIds": [
       "10378"
     ],
+    "cloze": {
+      "de": "drauf",
+      "en": "on"
+    },
     "sourceIndex": 378
   },
   {
@@ -1510,6 +1862,10 @@ const phrasesDaily = [
     "wordIds": [
       "10390"
     ],
+    "cloze": {
+      "de": "dennoch",
+      "en": "nevertheless"
+    },
     "sourceIndex": 390
   },
   {
@@ -1527,6 +1883,10 @@ const phrasesDaily = [
     "wordIds": [
       "10395"
     ],
+    "cloze": {
+      "de": "tolle",
+      "en": "great"
+    },
     "sourceIndex": 395
   },
   {
@@ -1544,6 +1904,10 @@ const phrasesDaily = [
     "wordIds": [
       "10404"
     ],
+    "cloze": {
+      "de": "nutzen",
+      "en": "seize"
+    },
     "sourceIndex": 404
   },
   {
@@ -1561,6 +1925,10 @@ const phrasesDaily = [
     "wordIds": [
       "10428"
     ],
+    "cloze": {
+      "de": "Manch",
+      "en": "Some"
+    },
     "sourceIndex": 428
   },
   {
@@ -1578,6 +1946,10 @@ const phrasesDaily = [
     "wordIds": [
       "10437"
     ],
+    "cloze": {
+      "de": "unten",
+      "en": "downstairs"
+    },
     "sourceIndex": 437
   },
   {
@@ -1595,6 +1967,10 @@ const phrasesDaily = [
     "wordIds": [
       "10441"
     ],
+    "cloze": {
+      "de": "darin",
+      "en": "therein"
+    },
     "sourceIndex": 441
   },
   {
@@ -1612,6 +1988,10 @@ const phrasesDaily = [
     "wordIds": [
       "10444"
     ],
+    "cloze": {
+      "de": "Kreis",
+      "en": "circle"
+    },
     "sourceIndex": 444
   },
   {
@@ -1629,6 +2009,10 @@ const phrasesDaily = [
     "wordIds": [
       "10462"
     ],
+    "cloze": {
+      "de": "Mittlerweile",
+      "en": "Meanwhile"
+    },
     "sourceIndex": 462
   },
   {
@@ -1646,6 +2030,10 @@ const phrasesDaily = [
     "wordIds": [
       "10467"
     ],
+    "cloze": {
+      "de": "Solch",
+      "en": "such"
+    },
     "sourceIndex": 467
   },
   {
@@ -1663,6 +2051,10 @@ const phrasesDaily = [
     "wordIds": [
       "10472"
     ],
+    "cloze": {
+      "de": "europäischer",
+      "en": "European"
+    },
     "sourceIndex": 472
   },
   {
@@ -1680,6 +2072,10 @@ const phrasesDaily = [
     "wordIds": [
       "10479"
     ],
+    "cloze": {
+      "de": "selten",
+      "en": "rarely"
+    },
     "sourceIndex": 479
   },
   {
@@ -1697,6 +2093,10 @@ const phrasesDaily = [
     "wordIds": [
       "10482"
     ],
+    "cloze": {
+      "de": "unbedingt",
+      "en": "absolutely"
+    },
     "sourceIndex": 482
   },
   {
@@ -1714,6 +2114,10 @@ const phrasesDaily = [
     "wordIds": [
       "10485"
     ],
+    "cloze": {
+      "de": "Wenigstens",
+      "en": "At"
+    },
     "sourceIndex": 485
   },
   {
@@ -1731,6 +2135,10 @@ const phrasesDaily = [
     "wordIds": [
       "10503"
     ],
+    "cloze": {
+      "de": "entfernen",
+      "en": "remove"
+    },
     "sourceIndex": 503
   },
   {
@@ -1748,6 +2156,10 @@ const phrasesDaily = [
     "wordIds": [
       "10505"
     ],
+    "cloze": {
+      "de": "genauso",
+      "en": "me"
+    },
     "sourceIndex": 505
   },
   {
@@ -1765,6 +2177,10 @@ const phrasesDaily = [
     "wordIds": [
       "10509"
     ],
+    "cloze": {
+      "de": "Soweit",
+      "en": "As"
+    },
     "sourceIndex": 509
   },
   {
@@ -1782,6 +2198,10 @@ const phrasesDaily = [
     "wordIds": [
       "10517"
     ],
+    "cloze": {
+      "de": "Inzwischen",
+      "en": "Meanwhile"
+    },
     "sourceIndex": 517
   },
   {
@@ -1799,6 +2219,10 @@ const phrasesDaily = [
     "wordIds": [
       "10538"
     ],
+    "cloze": {
+      "de": "klingen",
+      "en": "rings"
+    },
     "sourceIndex": 538
   },
   {
@@ -1816,6 +2240,10 @@ const phrasesDaily = [
     "wordIds": [
       "10546"
     ],
+    "cloze": {
+      "de": "Satz",
+      "en": "sentence"
+    },
     "sourceIndex": 546
   },
   {
@@ -1833,6 +2261,10 @@ const phrasesDaily = [
     "wordIds": [
       "10549"
     ],
+    "cloze": {
+      "de": "ändern",
+      "en": "change"
+    },
     "sourceIndex": 549
   },
   {
@@ -1850,6 +2282,10 @@ const phrasesDaily = [
     "wordIds": [
       "10554"
     ],
+    "cloze": {
+      "de": "entwickeln",
+      "en": "develop"
+    },
     "sourceIndex": 554
   },
   {
@@ -1867,6 +2303,10 @@ const phrasesDaily = [
     "wordIds": [
       "10560"
     ],
+    "cloze": {
+      "de": "total",
+      "en": "totally"
+    },
     "sourceIndex": 560
   },
   {
@@ -1884,6 +2324,10 @@ const phrasesDaily = [
     "wordIds": [
       "10564"
     ],
+    "cloze": {
+      "de": "Beitrag",
+      "en": "contribution"
+    },
     "sourceIndex": 564
   },
   {
@@ -1901,6 +2345,10 @@ const phrasesDaily = [
     "wordIds": [
       "10573"
     ],
+    "cloze": {
+      "de": "nahe",
+      "en": "close"
+    },
     "sourceIndex": 573
   },
   {
@@ -1918,6 +2366,10 @@ const phrasesDaily = [
     "wordIds": [
       "10596"
     ],
+    "cloze": {
+      "de": "darunter",
+      "en": "among"
+    },
     "sourceIndex": 596
   },
   {
@@ -1935,6 +2387,10 @@ const phrasesDaily = [
     "wordIds": [
       "10600"
     ],
+    "cloze": {
+      "de": "irgendwann",
+      "en": "sometime"
+    },
     "sourceIndex": 600
   },
   {
@@ -1952,6 +2408,10 @@ const phrasesDaily = [
     "wordIds": [
       "10618"
     ],
+    "cloze": {
+      "de": "Zuletzt",
+      "en": "last"
+    },
     "sourceIndex": 618
   },
   {
@@ -1969,6 +2429,10 @@ const phrasesDaily = [
     "wordIds": [
       "10620"
     ],
+    "cloze": {
+      "de": "Auswahl",
+      "en": "selection"
+    },
     "sourceIndex": 620
   },
   {
@@ -1986,6 +2450,10 @@ const phrasesDaily = [
     "wordIds": [
       "10630"
     ],
+    "cloze": {
+      "de": "regelmässig",
+      "en": "regularly"
+    },
     "sourceIndex": 630
   },
   {
@@ -2003,6 +2471,10 @@ const phrasesDaily = [
     "wordIds": [
       "10641"
     ],
+    "cloze": {
+      "de": "Sicht",
+      "en": "perspective"
+    },
     "sourceIndex": 641
   },
   {
@@ -2020,6 +2492,10 @@ const phrasesDaily = [
     "wordIds": [
       "10650"
     ],
+    "cloze": {
+      "de": "Hintergrund",
+      "en": "background"
+    },
     "sourceIndex": 650
   },
   {
@@ -2037,6 +2513,10 @@ const phrasesDaily = [
     "wordIds": [
       "10661"
     ],
+    "cloze": {
+      "de": "ausserhalb",
+      "en": "outside"
+    },
     "sourceIndex": 661
   },
   {
@@ -2054,6 +2534,10 @@ const phrasesDaily = [
     "wordIds": [
       "10662"
     ],
+    "cloze": {
+      "de": "gesamte",
+      "en": "entire"
+    },
     "sourceIndex": 662
   },
   {
@@ -2071,6 +2555,10 @@ const phrasesDaily = [
     "wordIds": [
       "10695"
     ],
+    "cloze": {
+      "de": "draussen",
+      "en": "outside"
+    },
     "sourceIndex": 695
   },
   {
@@ -2088,6 +2576,10 @@ const phrasesDaily = [
     "wordIds": [
       "10696"
     ],
+    "cloze": {
+      "de": "Einfluss",
+      "en": "influence"
+    },
     "sourceIndex": 696
   },
   {
@@ -2105,6 +2597,10 @@ const phrasesDaily = [
     "wordIds": [
       "10716"
     ],
+    "cloze": {
+      "de": "geboren",
+      "en": "born"
+    },
     "sourceIndex": 716
   },
   {
@@ -2122,6 +2618,10 @@ const phrasesDaily = [
     "wordIds": [
       "10720"
     ],
+    "cloze": {
+      "de": "relativ",
+      "en": "relatively"
+    },
     "sourceIndex": 720
   },
   {
@@ -2139,6 +2639,10 @@ const phrasesDaily = [
     "wordIds": [
       "10736"
     ],
+    "cloze": {
+      "de": "nötig",
+      "en": "necessary"
+    },
     "sourceIndex": 736
   },
   {
@@ -2156,6 +2660,10 @@ const phrasesDaily = [
     "wordIds": [
       "10747"
     ],
+    "cloze": {
+      "de": "Aktion",
+      "en": "action"
+    },
     "sourceIndex": 747
   },
   {
@@ -2173,6 +2681,10 @@ const phrasesDaily = [
     "wordIds": [
       "10758"
     ],
+    "cloze": {
+      "de": "Kontrolle",
+      "en": "control"
+    },
     "sourceIndex": 758
   },
   {
@@ -2190,6 +2702,10 @@ const phrasesDaily = [
     "wordIds": [
       "10770"
     ],
+    "cloze": {
+      "de": "fortgegangen",
+      "en": "gone"
+    },
     "sourceIndex": 770
   },
   {
@@ -2207,6 +2723,10 @@ const phrasesDaily = [
     "wordIds": [
       "10777"
     ],
+    "cloze": {
+      "de": "schlimm",
+      "en": "bad"
+    },
     "sourceIndex": 777
   },
   {
@@ -2224,6 +2744,10 @@ const phrasesDaily = [
     "wordIds": [
       "10779"
     ],
+    "cloze": {
+      "de": "Umgebung",
+      "en": "surroundings"
+    },
     "sourceIndex": 779
   },
   {
@@ -2241,6 +2765,10 @@ const phrasesDaily = [
     "wordIds": [
       "10787"
     ],
+    "cloze": {
+      "de": "Gegensatz",
+      "en": "contrast"
+    },
     "sourceIndex": 787
   },
   {
@@ -2258,6 +2786,10 @@ const phrasesDaily = [
     "wordIds": [
       "10801"
     ],
+    "cloze": {
+      "de": "dumme",
+      "en": "stupid"
+    },
     "sourceIndex": 801
   },
   {
@@ -2275,6 +2807,10 @@ const phrasesDaily = [
     "wordIds": [
       "10804"
     ],
+    "cloze": {
+      "de": "entstehen",
+      "en": "arise"
+    },
     "sourceIndex": 804
   },
   {
@@ -2292,6 +2828,10 @@ const phrasesDaily = [
     "wordIds": [
       "10807"
     ],
+    "cloze": {
+      "de": "geschehen",
+      "en": "happened"
+    },
     "sourceIndex": 807
   },
   {
@@ -2309,6 +2849,10 @@ const phrasesDaily = [
     "wordIds": [
       "10818"
     ],
+    "cloze": {
+      "de": "verhindern",
+      "en": "prevent"
+    },
     "sourceIndex": 818
   },
   {
@@ -2326,6 +2870,10 @@ const phrasesDaily = [
     "wordIds": [
       "10834"
     ],
+    "cloze": {
+      "de": "längst",
+      "en": "long"
+    },
     "sourceIndex": 834
   },
   {
@@ -2343,6 +2891,10 @@ const phrasesDaily = [
     "wordIds": [
       "10837"
     ],
+    "cloze": {
+      "de": "positive",
+      "en": "positive"
+    },
     "sourceIndex": 837
   },
   {
@@ -2360,6 +2912,10 @@ const phrasesDaily = [
     "wordIds": [
       "10842"
     ],
+    "cloze": {
+      "de": "Wiener",
+      "en": "Viennese"
+    },
     "sourceIndex": 842
   },
   {
@@ -2377,6 +2933,10 @@ const phrasesDaily = [
     "wordIds": [
       "10856"
     ],
+    "cloze": {
+      "de": "Erscheint",
+      "en": "Seems"
+    },
     "sourceIndex": 856
   },
   {
@@ -2394,6 +2954,10 @@ const phrasesDaily = [
     "wordIds": [
       "10858"
     ],
+    "cloze": {
+      "de": "Hoffentlich",
+      "en": "Hopefully"
+    },
     "sourceIndex": 858
   },
   {
@@ -2411,6 +2975,10 @@ const phrasesDaily = [
     "wordIds": [
       "10865"
     ],
+    "cloze": {
+      "de": "Plus",
+      "en": "plus"
+    },
     "sourceIndex": 865
   },
   {
@@ -2428,6 +2996,10 @@ const phrasesDaily = [
     "wordIds": [
       "10870"
     ],
+    "cloze": {
+      "de": "Star",
+      "en": "star"
+    },
     "sourceIndex": 870
   },
   {
@@ -2445,6 +3017,10 @@ const phrasesDaily = [
     "wordIds": [
       "10874"
     ],
+    "cloze": {
+      "de": "wesentlicher",
+      "en": "essential"
+    },
     "sourceIndex": 874
   },
   {
@@ -2462,6 +3038,10 @@ const phrasesDaily = [
     "wordIds": [
       "10875"
     ],
+    "cloze": {
+      "de": "aussen",
+      "en": "outside"
+    },
     "sourceIndex": 875
   },
   {
@@ -2479,6 +3059,10 @@ const phrasesDaily = [
     "wordIds": [
       "10895"
     ],
+    "cloze": {
+      "de": "offensichtlich",
+      "en": "obvious"
+    },
     "sourceIndex": 895
   },
   {
@@ -2496,6 +3080,10 @@ const phrasesDaily = [
     "wordIds": [
       "10896"
     ],
+    "cloze": {
+      "de": "unglaublich",
+      "en": "incredible"
+    },
     "sourceIndex": 896
   },
   {
@@ -2513,6 +3101,10 @@ const phrasesDaily = [
     "wordIds": [
       "10898"
     ],
+    "cloze": {
+      "de": "vorne",
+      "en": "front"
+    },
     "sourceIndex": 898
   },
   {
@@ -2530,6 +3122,10 @@ const phrasesDaily = [
     "wordIds": [
       "10903"
     ],
+    "cloze": {
+      "de": "bilden",
+      "en": "form"
+    },
     "sourceIndex": 903
   },
   {
@@ -2547,6 +3143,10 @@ const phrasesDaily = [
     "wordIds": [
       "10914"
     ],
+    "cloze": {
+      "de": "Verwendung",
+      "en": "use"
+    },
     "sourceIndex": 914
   },
   {
@@ -2564,6 +3164,10 @@ const phrasesDaily = [
     "wordIds": [
       "10922"
     ],
+    "cloze": {
+      "de": "herum",
+      "en": "around"
+    },
     "sourceIndex": 922
   },
   {
@@ -2581,6 +3185,10 @@ const phrasesDaily = [
     "wordIds": [
       "10935"
     ],
+    "cloze": {
+      "de": "verändern",
+      "en": "change"
+    },
     "sourceIndex": 935
   },
   {
@@ -2598,6 +3206,10 @@ const phrasesDaily = [
     "wordIds": [
       "10938"
     ],
+    "cloze": {
+      "de": "einig",
+      "en": "united"
+    },
     "sourceIndex": 938
   },
   {
@@ -2615,6 +3227,10 @@ const phrasesDaily = [
     "wordIds": [
       "10952"
     ],
+    "cloze": {
+      "de": "ungefähr",
+      "en": "about"
+    },
     "sourceIndex": 952
   },
   {
@@ -2632,6 +3248,10 @@ const phrasesDaily = [
     "wordIds": [
       "10957"
     ],
+    "cloze": {
+      "de": "Falle",
+      "en": "trap"
+    },
     "sourceIndex": 957
   },
   {
@@ -2649,6 +3269,10 @@ const phrasesDaily = [
     "wordIds": [
       "10965"
     ],
+    "cloze": {
+      "de": "Lauf",
+      "en": "course"
+    },
     "sourceIndex": 965
   },
   {
@@ -2666,6 +3290,10 @@ const phrasesDaily = [
     "wordIds": [
       "10969"
     ],
+    "cloze": {
+      "de": "Möglicherweise",
+      "en": "Possibly"
+    },
     "sourceIndex": 969
   },
   {
@@ -2683,6 +3311,10 @@ const phrasesDaily = [
     "wordIds": [
       "10977"
     ],
+    "cloze": {
+      "de": "an",
+      "en": "look"
+    },
     "sourceIndex": 977
   },
   {
@@ -2700,6 +3332,10 @@ const phrasesDaily = [
     "wordIds": [
       "10980"
     ],
+    "cloze": {
+      "de": "davor",
+      "en": "in"
+    },
     "sourceIndex": 980
   },
   {
@@ -2717,6 +3353,10 @@ const phrasesDaily = [
     "wordIds": [
       "10981"
     ],
+    "cloze": {
+      "de": "extra",
+      "en": "extra"
+    },
     "sourceIndex": 981
   },
   {
@@ -2734,6 +3374,10 @@ const phrasesDaily = [
     "wordIds": [
       "10985"
     ],
+    "cloze": {
+      "de": "genannt",
+      "en": "called"
+    },
     "sourceIndex": 985
   },
   {
@@ -2751,6 +3395,10 @@ const phrasesDaily = [
     "wordIds": [
       "10996"
     ],
+    "cloze": {
+      "de": "selbstverständlich",
+      "en": "obvious"
+    },
     "sourceIndex": 996
   },
   {
@@ -2768,6 +3416,10 @@ const phrasesDaily = [
     "wordIds": [
       "10998"
     ],
+    "cloze": {
+      "de": "sicherlich",
+      "en": "certainly"
+    },
     "sourceIndex": 998
   },
   {
@@ -2785,6 +3437,10 @@ const phrasesDaily = [
     "wordIds": [
       "11020"
     ],
+    "cloze": {
+      "de": "seitdem",
+      "en": "since"
+    },
     "sourceIndex": 1020
   },
   {
@@ -2802,6 +3458,10 @@ const phrasesDaily = [
     "wordIds": [
       "11024"
     ],
+    "cloze": {
+      "de": "unmöglich",
+      "en": "impossible"
+    },
     "sourceIndex": 1024
   },
   {
@@ -2819,6 +3479,10 @@ const phrasesDaily = [
     "wordIds": [
       "11027"
     ],
+    "cloze": {
+      "de": "vollständig",
+      "en": "complete"
+    },
     "sourceIndex": 1027
   },
   {
@@ -2836,6 +3500,10 @@ const phrasesDaily = [
     "wordIds": [
       "11044"
     ],
+    "cloze": {
+      "de": "technische",
+      "en": "technical"
+    },
     "sourceIndex": 1044
   },
   {
@@ -2853,6 +3521,10 @@ const phrasesDaily = [
     "wordIds": [
       "11053"
     ],
+    "cloze": {
+      "de": "Ebene",
+      "en": "plain"
+    },
     "sourceIndex": 1053
   },
   {
@@ -2870,6 +3542,10 @@ const phrasesDaily = [
     "wordIds": [
       "11055"
     ],
+    "cloze": {
+      "de": "erleben",
+      "en": "experience"
+    },
     "sourceIndex": 1055
   },
   {
@@ -2887,6 +3563,10 @@ const phrasesDaily = [
     "wordIds": [
       "11082"
     ],
+    "cloze": {
+      "de": "runter",
+      "en": "down"
+    },
     "sourceIndex": 1082
   },
   {
@@ -2904,6 +3584,10 @@ const phrasesDaily = [
     "wordIds": [
       "11083"
     ],
+    "cloze": {
+      "de": "Russisch",
+      "en": "Russian"
+    },
     "sourceIndex": 1083
   },
   {
@@ -2921,6 +3605,10 @@ const phrasesDaily = [
     "wordIds": [
       "11091"
     ],
+    "cloze": {
+      "de": "Woher",
+      "en": "Where"
+    },
     "sourceIndex": 1091
   },
   {
@@ -2938,6 +3626,10 @@ const phrasesDaily = [
     "wordIds": [
       "11095"
     ],
+    "cloze": {
+      "de": "nehme",
+      "en": "assume"
+    },
     "sourceIndex": 1095
   },
   {
@@ -2955,6 +3647,10 @@ const phrasesDaily = [
     "wordIds": [
       "11100"
     ],
+    "cloze": {
+      "de": "dient",
+      "en": "serves"
+    },
     "sourceIndex": 1100
   },
   {
@@ -2972,6 +3668,10 @@ const phrasesDaily = [
     "wordIds": [
       "11101"
     ],
+    "cloze": {
+      "de": "Feld",
+      "en": "field"
+    },
     "sourceIndex": 1101
   },
   {
@@ -2989,6 +3689,10 @@ const phrasesDaily = [
     "wordIds": [
       "11109"
     ],
+    "cloze": {
+      "de": "Prinzip",
+      "en": "principle"
+    },
     "sourceIndex": 1109
   },
   {
@@ -3006,6 +3710,10 @@ const phrasesDaily = [
     "wordIds": [
       "11119"
     ],
+    "cloze": {
+      "de": "Vorteil",
+      "en": "advantage"
+    },
     "sourceIndex": 1119
   },
   {
@@ -3023,6 +3731,10 @@ const phrasesDaily = [
     "wordIds": [
       "11130"
     ],
+    "cloze": {
+      "de": "behalten",
+      "en": "keep"
+    },
     "sourceIndex": 1130
   },
   {
@@ -3040,6 +3752,10 @@ const phrasesDaily = [
     "wordIds": [
       "11138"
     ],
+    "cloze": {
+      "de": "mehrfach",
+      "en": "multiple"
+    },
     "sourceIndex": 1138
   },
   {
@@ -3057,6 +3773,10 @@ const phrasesDaily = [
     "wordIds": [
       "11140"
     ],
+    "cloze": {
+      "de": "praktisch",
+      "en": "practical"
+    },
     "sourceIndex": 1140
   },
   {
@@ -3074,6 +3794,10 @@ const phrasesDaily = [
     "wordIds": [
       "11169"
     ],
+    "cloze": {
+      "de": "Standard",
+      "en": "standard"
+    },
     "sourceIndex": 1169
   },
   {
@@ -3091,6 +3815,10 @@ const phrasesDaily = [
     "wordIds": [
       "11190"
     ],
+    "cloze": {
+      "de": "Realität",
+      "en": "Reality"
+    },
     "sourceIndex": 1190
   },
   {
@@ -3108,6 +3836,10 @@ const phrasesDaily = [
     "wordIds": [
       "11193"
     ],
+    "cloze": {
+      "de": "stattdessen",
+      "en": "instead"
+    },
     "sourceIndex": 1193
   },
   {
@@ -3125,6 +3857,10 @@ const phrasesDaily = [
     "wordIds": [
       "11223"
     ],
+    "cloze": {
+      "de": "unterschiedliche",
+      "en": "different"
+    },
     "sourceIndex": 1223
   },
   {
@@ -3142,6 +3878,10 @@ const phrasesDaily = [
     "wordIds": [
       "11230"
     ],
+    "cloze": {
+      "de": "beenden",
+      "en": "finish"
+    },
     "sourceIndex": 1230
   },
   {
@@ -3159,6 +3899,10 @@ const phrasesDaily = [
     "wordIds": [
       "11251"
     ],
+    "cloze": {
+      "de": "darstellen",
+      "en": "represent"
+    },
     "sourceIndex": 1251
   },
   {
@@ -3176,6 +3920,10 @@ const phrasesDaily = [
     "wordIds": [
       "11261"
     ],
+    "cloze": {
+      "de": "Niveau",
+      "en": "level"
+    },
     "sourceIndex": 1261
   },
   {
@@ -3193,6 +3941,10 @@ const phrasesDaily = [
     "wordIds": [
       "11275"
     ],
+    "cloze": {
+      "de": "zentraler",
+      "en": "central"
+    },
     "sourceIndex": 1275
   },
   {
@@ -3210,6 +3962,10 @@ const phrasesDaily = [
     "wordIds": [
       "11287"
     ],
+    "cloze": {
+      "de": "kalt",
+      "en": "cold"
+    },
     "sourceIndex": 1287
   },
   {
@@ -3227,6 +3983,10 @@ const phrasesDaily = [
     "wordIds": [
       "11318"
     ],
+    "cloze": {
+      "de": "vermeiden",
+      "en": "avoid"
+    },
     "sourceIndex": 1318
   },
   {
@@ -3244,6 +4004,10 @@ const phrasesDaily = [
     "wordIds": [
       "11319"
     ],
+    "cloze": {
+      "de": "voraus",
+      "en": "ahead"
+    },
     "sourceIndex": 1319
   },
   {
@@ -3261,6 +4025,10 @@ const phrasesDaily = [
     "wordIds": [
       "11381"
     ],
+    "cloze": {
+      "de": "Worauf",
+      "en": "What"
+    },
     "sourceIndex": 1381
   },
   {
@@ -3278,6 +4046,10 @@ const phrasesDaily = [
     "wordIds": [
       "11385"
     ],
+    "cloze": {
+      "de": "aufmerksame",
+      "en": "attentive"
+    },
     "sourceIndex": 1385
   },
   {
@@ -3295,6 +4067,10 @@ const phrasesDaily = [
     "wordIds": [
       "11391"
     ],
+    "cloze": {
+      "de": "erforderlich",
+      "en": "necessary"
+    },
     "sourceIndex": 1391
   },
   {
@@ -3312,6 +4088,10 @@ const phrasesDaily = [
     "wordIds": [
       "11409"
     ],
+    "cloze": {
+      "de": "wechseln",
+      "en": "change"
+    },
     "sourceIndex": 1409
   },
   {
@@ -3329,6 +4109,10 @@ const phrasesDaily = [
     "wordIds": [
       "11421"
     ],
+    "cloze": {
+      "de": "Engel",
+      "en": "angel"
+    },
     "sourceIndex": 1421
   },
   {
@@ -3346,6 +4130,10 @@ const phrasesDaily = [
     "wordIds": [
       "11428"
     ],
+    "cloze": {
+      "de": "Mist",
+      "en": "crap"
+    },
     "sourceIndex": 1428
   },
   {
@@ -3363,6 +4151,10 @@ const phrasesDaily = [
     "wordIds": [
       "11435"
     ],
+    "cloze": {
+      "de": "verpassen",
+      "en": "miss"
+    },
     "sourceIndex": 1435
   },
   {
@@ -3380,6 +4172,10 @@ const phrasesDaily = [
     "wordIds": [
       "11443"
     ],
+    "cloze": {
+      "de": "Alltag",
+      "en": "everyday"
+    },
     "sourceIndex": 1443
   },
   {
@@ -3397,6 +4193,10 @@ const phrasesDaily = [
     "wordIds": [
       "11444"
     ],
+    "cloze": {
+      "de": "Anfangs",
+      "en": "Initially"
+    },
     "sourceIndex": 1444
   },
   {
@@ -3414,6 +4214,10 @@ const phrasesDaily = [
     "wordIds": [
       "11446"
     ],
+    "cloze": {
+      "de": "ausreichend",
+      "en": "sufficient"
+    },
     "sourceIndex": 1446
   },
   {
@@ -3431,6 +4235,10 @@ const phrasesDaily = [
     "wordIds": [
       "11451"
     ],
+    "cloze": {
+      "de": "feststellen",
+      "en": "determine"
+    },
     "sourceIndex": 1451
   },
   {
@@ -3448,6 +4256,10 @@ const phrasesDaily = [
     "wordIds": [
       "11457"
     ],
+    "cloze": {
+      "de": "Kern",
+      "en": "core"
+    },
     "sourceIndex": 1457
   },
   {
@@ -3465,6 +4277,10 @@ const phrasesDaily = [
     "wordIds": [
       "11471"
     ],
+    "cloze": {
+      "de": "Veränderung",
+      "en": "change"
+    },
     "sourceIndex": 1471
   },
   {
@@ -3482,6 +4298,10 @@ const phrasesDaily = [
     "wordIds": [
       "11475"
     ],
+    "cloze": {
+      "de": "Wohin",
+      "en": "Where"
+    },
     "sourceIndex": 1475
   },
   {
@@ -3499,6 +4319,10 @@ const phrasesDaily = [
     "wordIds": [
       "11481"
     ],
+    "cloze": {
+      "de": "begleiten",
+      "en": "accompany"
+    },
     "sourceIndex": 1481
   },
   {
@@ -3516,6 +4340,10 @@ const phrasesDaily = [
     "wordIds": [
       "11482"
     ],
+    "cloze": {
+      "de": "benötigen",
+      "en": "need"
+    },
     "sourceIndex": 1482
   },
   {
@@ -3533,6 +4361,10 @@ const phrasesDaily = [
     "wordIds": [
       "11499"
     ],
+    "cloze": {
+      "de": "Pfarrer",
+      "en": "pastor"
+    },
     "sourceIndex": 1499
   },
   {
@@ -3550,6 +4382,10 @@ const phrasesDaily = [
     "wordIds": [
       "11505"
     ],
+    "cloze": {
+      "de": "sinnvolle",
+      "en": "sensible"
+    },
     "sourceIndex": 1505
   },
   {
@@ -3567,6 +4403,10 @@ const phrasesDaily = [
     "wordIds": [
       "11510"
     ],
+    "cloze": {
+      "de": "Umfeld",
+      "en": "environment"
+    },
     "sourceIndex": 1510
   },
   {
@@ -3584,6 +4424,10 @@ const phrasesDaily = [
     "wordIds": [
       "11517"
     ],
+    "cloze": {
+      "de": "beschliessen",
+      "en": "decision"
+    },
     "sourceIndex": 1517
   },
   {
@@ -3601,6 +4445,10 @@ const phrasesDaily = [
     "wordIds": [
       "11518"
     ],
+    "cloze": {
+      "de": "Botschaft",
+      "en": "embassy"
+    },
     "sourceIndex": 1518
   },
   {
@@ -3618,6 +4466,10 @@ const phrasesDaily = [
     "wordIds": [
       "11520"
     ],
+    "cloze": {
+      "de": "Einerseits",
+      "en": "On"
+    },
     "sourceIndex": 1520
   },
   {
@@ -3635,6 +4487,10 @@ const phrasesDaily = [
     "wordIds": [
       "11522"
     ],
+    "cloze": {
+      "de": "Fahrrad",
+      "en": "bicycle"
+    },
     "sourceIndex": 1522
   },
   {
@@ -3652,6 +4508,10 @@ const phrasesDaily = [
     "wordIds": [
       "11529"
     ],
+    "cloze": {
+      "de": "Herkunft",
+      "en": "origin"
+    },
     "sourceIndex": 1529
   },
   {
@@ -3669,6 +4529,10 @@ const phrasesDaily = [
     "wordIds": [
       "11541"
     ],
+    "cloze": {
+      "de": "umfassen",
+      "en": "comprise"
+    },
     "sourceIndex": 1541
   },
   {
@@ -3686,6 +4550,10 @@ const phrasesDaily = [
     "wordIds": [
       "11553"
     ],
+    "cloze": {
+      "de": "Graf",
+      "en": "count"
+    },
     "sourceIndex": 1553
   },
   {
@@ -3703,6 +4571,10 @@ const phrasesDaily = [
     "wordIds": [
       "11567"
     ],
+    "cloze": {
+      "de": "Stadion",
+      "en": "stadium"
+    },
     "sourceIndex": 1567
   },
   {
@@ -3720,6 +4592,10 @@ const phrasesDaily = [
     "wordIds": [
       "11569"
     ],
+    "cloze": {
+      "de": "Verbot",
+      "en": "ban"
+    },
     "sourceIndex": 1569
   },
   {
@@ -3737,6 +4613,10 @@ const phrasesDaily = [
     "wordIds": [
       "11574"
     ],
+    "cloze": {
+      "de": "aufstellen",
+      "en": "set"
+    },
     "sourceIndex": 1574
   },
   {
@@ -3754,6 +4634,10 @@ const phrasesDaily = [
     "wordIds": [
       "11580"
     ],
+    "cloze": {
+      "de": "blöde",
+      "en": "stupid"
+    },
     "sourceIndex": 1580
   },
   {
@@ -3771,6 +4655,10 @@ const phrasesDaily = [
     "wordIds": [
       "11583"
     ],
+    "cloze": {
+      "de": "Direktor",
+      "en": "director"
+    },
     "sourceIndex": 1583
   },
   {
@@ -3788,6 +4676,10 @@ const phrasesDaily = [
     "wordIds": [
       "11588"
     ],
+    "cloze": {
+      "de": "Bergführer",
+      "en": "guide"
+    },
     "sourceIndex": 1588
   },
   {
@@ -3805,6 +4697,10 @@ const phrasesDaily = [
     "wordIds": [
       "11597"
     ],
+    "cloze": {
+      "de": "Lehre",
+      "en": "apprenticeship"
+    },
     "sourceIndex": 1597
   },
   {
@@ -3822,6 +4718,10 @@ const phrasesDaily = [
     "wordIds": [
       "11599"
     ],
+    "cloze": {
+      "de": "Lkw",
+      "en": "truck"
+    },
     "sourceIndex": 1599
   },
   {
@@ -3839,6 +4739,10 @@ const phrasesDaily = [
     "wordIds": [
       "11606"
     ],
+    "cloze": {
+      "de": "sichern",
+      "en": "save"
+    },
     "sourceIndex": 1606
   },
   {
@@ -3856,6 +4760,10 @@ const phrasesDaily = [
     "wordIds": [
       "11607"
     ],
+    "cloze": {
+      "de": "Tat",
+      "en": "deed"
+    },
     "sourceIndex": 1607
   },
   {
@@ -3873,6 +4781,10 @@ const phrasesDaily = [
     "wordIds": [
       "11608"
     ],
+    "cloze": {
+      "de": "Trend",
+      "en": "trend"
+    },
     "sourceIndex": 1608
   },
   {
@@ -3890,6 +4802,10 @@ const phrasesDaily = [
     "wordIds": [
       "11615"
     ],
+    "cloze": {
+      "de": "wunderbar",
+      "en": "wonderful"
+    },
     "sourceIndex": 1615
   },
   {
@@ -3907,6 +4823,10 @@ const phrasesDaily = [
     "wordIds": [
       "11616"
     ],
+    "cloze": {
+      "de": "Zufall",
+      "en": "coincidence"
+    },
     "sourceIndex": 1616
   },
   {
@@ -3924,6 +4844,10 @@ const phrasesDaily = [
     "wordIds": [
       "11624"
     ],
+    "cloze": {
+      "de": "dahinter",
+      "en": "behind"
+    },
     "sourceIndex": 1624
   },
   {
@@ -3941,6 +4865,10 @@ const phrasesDaily = [
     "wordIds": [
       "11626"
     ],
+    "cloze": {
+      "de": "drücken",
+      "en": "press"
+    },
     "sourceIndex": 1626
   },
   {
@@ -3958,6 +4886,10 @@ const phrasesDaily = [
     "wordIds": [
       "11629"
     ],
+    "cloze": {
+      "de": "greift",
+      "en": "for"
+    },
     "sourceIndex": 1629
   },
   {
@@ -3975,6 +4907,10 @@ const phrasesDaily = [
     "wordIds": [
       "11640"
     ],
+    "cloze": {
+      "de": "Studio",
+      "en": "studio"
+    },
     "sourceIndex": 1640
   },
   {
@@ -3992,6 +4928,10 @@ const phrasesDaily = [
     "wordIds": [
       "11655"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "Bavarian"
+    },
     "sourceIndex": 1655
   },
   {
@@ -4009,6 +4949,10 @@ const phrasesDaily = [
     "wordIds": [
       "11658"
     ],
+    "cloze": {
+      "de": "dankbar",
+      "en": "grateful"
+    },
     "sourceIndex": 1658
   },
   {
@@ -4026,6 +4970,10 @@ const phrasesDaily = [
     "wordIds": [
       "11661"
     ],
+    "cloze": {
+      "de": "Drittel",
+      "en": "third"
+    },
     "sourceIndex": 1661
   },
   {
@@ -4043,6 +4991,10 @@ const phrasesDaily = [
     "wordIds": [
       "11673"
     ],
+    "cloze": {
+      "de": "Kapitel",
+      "en": "chapter"
+    },
     "sourceIndex": 1673
   },
   {
@@ -4060,6 +5012,10 @@ const phrasesDaily = [
     "wordIds": [
       "11682"
     ],
+    "cloze": {
+      "de": "Schrift",
+      "en": "script"
+    },
     "sourceIndex": 1682
   },
   {
@@ -4077,6 +5033,10 @@ const phrasesDaily = [
     "wordIds": [
       "11685"
     ],
+    "cloze": {
+      "de": "Strategie",
+      "en": "strategy"
+    },
     "sourceIndex": 1685
   },
   {
@@ -4094,6 +5054,10 @@ const phrasesDaily = [
     "wordIds": [
       "11688"
     ],
+    "cloze": {
+      "de": "Stärke",
+      "en": "strength"
+    },
     "sourceIndex": 1688
   },
   {
@@ -4111,6 +5075,10 @@ const phrasesDaily = [
     "wordIds": [
       "11701"
     ],
+    "cloze": {
+      "de": "Anfrage",
+      "en": "inquiry"
+    },
     "sourceIndex": 1701
   },
   {
@@ -4128,6 +5096,10 @@ const phrasesDaily = [
     "wordIds": [
       "11705"
     ],
+    "cloze": {
+      "de": "Bauer",
+      "en": "farmer"
+    },
     "sourceIndex": 1705
   },
   {
@@ -4145,6 +5117,10 @@ const phrasesDaily = [
     "wordIds": [
       "11708"
     ],
+    "cloze": {
+      "de": "dunkel",
+      "en": "dark"
+    },
     "sourceIndex": 1708
   },
   {
@@ -4162,6 +5138,10 @@ const phrasesDaily = [
     "wordIds": [
       "11712"
     ],
+    "cloze": {
+      "de": "fängt",
+      "en": "catches"
+    },
     "sourceIndex": 1712
   },
   {
@@ -4179,6 +5159,10 @@ const phrasesDaily = [
     "wordIds": [
       "11716"
     ],
+    "cloze": {
+      "de": "löschen",
+      "en": "delete"
+    },
     "sourceIndex": 1716
   },
   {
@@ -4197,6 +5181,10 @@ const phrasesDaily = [
       "11723",
       "12731"
     ],
+    "cloze": {
+      "de": "Kölner",
+      "en": "Cologne"
+    },
     "sourceIndex": 1723
   },
   {
@@ -4214,6 +5202,10 @@ const phrasesDaily = [
     "wordIds": [
       "11729"
     ],
+    "cloze": {
+      "de": "parallel",
+      "en": "parallel"
+    },
     "sourceIndex": 1729
   },
   {
@@ -4231,6 +5223,10 @@ const phrasesDaily = [
     "wordIds": [
       "11734"
     ],
+    "cloze": {
+      "de": "schwach",
+      "en": "weak"
+    },
     "sourceIndex": 1734
   },
   {
@@ -4248,6 +5244,10 @@ const phrasesDaily = [
     "wordIds": [
       "11736"
     ],
+    "cloze": {
+      "de": "spannend",
+      "en": "exciting"
+    },
     "sourceIndex": 1736
   },
   {
@@ -4265,6 +5265,10 @@ const phrasesDaily = [
     "wordIds": [
       "11737"
     ],
+    "cloze": {
+      "de": "Süd",
+      "en": "South"
+    },
     "sourceIndex": 1737
   },
   {
@@ -4282,6 +5286,10 @@ const phrasesDaily = [
     "wordIds": [
       "11738"
     ],
+    "cloze": {
+      "de": "treibt",
+      "en": "floats"
+    },
     "sourceIndex": 1738
   },
   {
@@ -4299,6 +5307,10 @@ const phrasesDaily = [
     "wordIds": [
       "11746"
     ],
+    "cloze": {
+      "de": "Archiv",
+      "en": "archive"
+    },
     "sourceIndex": 1746
   },
   {
@@ -4316,6 +5328,10 @@ const phrasesDaily = [
     "wordIds": [
       "11761"
     ],
+    "cloze": {
+      "de": "katholisch",
+      "en": "Catholic"
+    },
     "sourceIndex": 1761
   },
   {
@@ -4333,6 +5349,10 @@ const phrasesDaily = [
     "wordIds": [
       "11762"
     ],
+    "cloze": {
+      "de": "Kerl",
+      "en": "guy"
+    },
     "sourceIndex": 1762
   },
   {
@@ -4350,6 +5370,10 @@ const phrasesDaily = [
     "wordIds": [
       "11764"
     ],
+    "cloze": {
+      "de": "Liter",
+      "en": "liter"
+    },
     "sourceIndex": 1764
   },
   {
@@ -4367,6 +5391,10 @@ const phrasesDaily = [
     "wordIds": [
       "11766"
     ],
+    "cloze": {
+      "de": "Buchmesse",
+      "en": "fair"
+    },
     "sourceIndex": 1766
   },
   {
@@ -4384,6 +5412,10 @@ const phrasesDaily = [
     "wordIds": [
       "11774"
     ],
+    "cloze": {
+      "de": "spenden",
+      "en": "donate"
+    },
     "sourceIndex": 1774
   },
   {
@@ -4401,6 +5433,10 @@ const phrasesDaily = [
     "wordIds": [
       "11785"
     ],
+    "cloze": {
+      "de": "Chat",
+      "en": "chat"
+    },
     "sourceIndex": 1785
   },
   {
@@ -4418,6 +5454,10 @@ const phrasesDaily = [
     "wordIds": [
       "11790"
     ],
+    "cloze": {
+      "de": "Flasche",
+      "en": "bottle"
+    },
     "sourceIndex": 1790
   },
   {
@@ -4435,6 +5475,10 @@ const phrasesDaily = [
     "wordIds": [
       "11793"
     ],
+    "cloze": {
+      "de": "hinterher",
+      "en": "afterwards"
+    },
     "sourceIndex": 1793
   },
   {
@@ -4452,6 +5496,10 @@ const phrasesDaily = [
     "wordIds": [
       "11794"
     ],
+    "cloze": {
+      "de": "Kandidat",
+      "en": "candidate"
+    },
     "sourceIndex": 1794
   },
   {
@@ -4469,6 +5517,10 @@ const phrasesDaily = [
     "wordIds": [
       "11798"
     ],
+    "cloze": {
+      "de": "münchner",
+      "en": "Munich"
+    },
     "sourceIndex": 1798
   },
   {
@@ -4486,6 +5538,10 @@ const phrasesDaily = [
     "wordIds": [
       "11802"
     ],
+    "cloze": {
+      "de": "reduzieren",
+      "en": "reduce"
+    },
     "sourceIndex": 1802
   },
   {
@@ -4503,6 +5559,10 @@ const phrasesDaily = [
     "wordIds": [
       "11804"
     ],
+    "cloze": {
+      "de": "Tabelle",
+      "en": "table"
+    },
     "sourceIndex": 1804
   },
   {
@@ -4520,6 +5580,10 @@ const phrasesDaily = [
     "wordIds": [
       "11805"
     ],
+    "cloze": {
+      "de": "türkischen",
+      "en": "Turkish"
+    },
     "sourceIndex": 1805
   },
   {
@@ -4537,6 +5601,10 @@ const phrasesDaily = [
     "wordIds": [
       "11809"
     ],
+    "cloze": {
+      "de": "verfügbar",
+      "en": "available"
+    },
     "sourceIndex": 1809
   },
   {
@@ -4554,6 +5622,10 @@ const phrasesDaily = [
     "wordIds": [
       "11810"
     ],
+    "cloze": {
+      "de": "verstärken",
+      "en": "strengthen"
+    },
     "sourceIndex": 1810
   },
   {
@@ -4571,6 +5643,10 @@ const phrasesDaily = [
     "wordIds": [
       "11816"
     ],
+    "cloze": {
+      "de": "Atmosphäre",
+      "en": "atmosphere"
+    },
     "sourceIndex": 1816
   },
   {
@@ -4588,6 +5664,10 @@ const phrasesDaily = [
     "wordIds": [
       "11819"
     ],
+    "cloze": {
+      "de": "Brust",
+      "en": "chest"
+    },
     "sourceIndex": 1819
   },
   {
@@ -4605,6 +5685,10 @@ const phrasesDaily = [
     "wordIds": [
       "11830"
     ],
+    "cloze": {
+      "de": "gewöhnen",
+      "en": "get"
+    },
     "sourceIndex": 1830
   },
   {
@@ -4622,6 +5706,10 @@ const phrasesDaily = [
     "wordIds": [
       "11832"
     ],
+    "cloze": {
+      "de": "Held",
+      "en": "hero"
+    },
     "sourceIndex": 1832
   },
   {
@@ -4639,6 +5727,10 @@ const phrasesDaily = [
     "wordIds": [
       "11835"
     ],
+    "cloze": {
+      "de": "lächerliche",
+      "en": "ridiculous"
+    },
     "sourceIndex": 1835
   },
   {
@@ -4656,6 +5748,10 @@ const phrasesDaily = [
     "wordIds": [
       "11837"
     ],
+    "cloze": {
+      "de": "negative",
+      "en": "negative"
+    },
     "sourceIndex": 1837
   },
   {
@@ -4673,6 +5769,10 @@ const phrasesDaily = [
     "wordIds": [
       "11838"
     ],
+    "cloze": {
+      "de": "richtete",
+      "en": "directed"
+    },
     "sourceIndex": 1838
   },
   {
@@ -4690,6 +5790,10 @@ const phrasesDaily = [
     "wordIds": [
       "11848"
     ],
+    "cloze": {
+      "de": "ausgehen",
+      "en": "go"
+    },
     "sourceIndex": 1848
   },
   {
@@ -4707,6 +5811,10 @@ const phrasesDaily = [
     "wordIds": [
       "11869"
     ],
+    "cloze": {
+      "de": "Teufel",
+      "en": "devil"
+    },
     "sourceIndex": 1869
   },
   {
@@ -4724,6 +5832,10 @@ const phrasesDaily = [
     "wordIds": [
       "11870"
     ],
+    "cloze": {
+      "de": "mit",
+      "en": "deal"
+    },
     "sourceIndex": 1870
   },
   {
@@ -4741,6 +5853,10 @@ const phrasesDaily = [
     "wordIds": [
       "11878"
     ],
+    "cloze": {
+      "de": "akzeptieren",
+      "en": "accept"
+    },
     "sourceIndex": 1878
   },
   {
@@ -4758,6 +5874,10 @@ const phrasesDaily = [
     "wordIds": [
       "11880"
     ],
+    "cloze": {
+      "de": "Aufstieg",
+      "en": "ascent"
+    },
     "sourceIndex": 1880
   },
   {
@@ -4775,6 +5895,10 @@ const phrasesDaily = [
     "wordIds": [
       "11883"
     ],
+    "cloze": {
+      "de": "bestimmen",
+      "en": "determine"
+    },
     "sourceIndex": 1883
   },
   {
@@ -4792,6 +5916,10 @@ const phrasesDaily = [
     "wordIds": [
       "11886"
     ],
+    "cloze": {
+      "de": "Edition",
+      "en": "edition"
+    },
     "sourceIndex": 1886
   },
   {
@@ -4809,6 +5937,10 @@ const phrasesDaily = [
     "wordIds": [
       "11890"
     ],
+    "cloze": {
+      "de": "Freizeit",
+      "en": "free"
+    },
     "sourceIndex": 1890
   },
   {
@@ -4826,6 +5958,10 @@ const phrasesDaily = [
     "wordIds": [
       "11898"
     ],
+    "cloze": {
+      "de": "mehrmals",
+      "en": "several"
+    },
     "sourceIndex": 1898
   },
   {
@@ -4843,6 +5979,10 @@ const phrasesDaily = [
     "wordIds": [
       "11905"
     ],
+    "cloze": {
+      "de": "Verbesserung",
+      "en": "improvement"
+    },
     "sourceIndex": 1905
   },
   {
@@ -4860,6 +6000,10 @@ const phrasesDaily = [
     "wordIds": [
       "11923"
     ],
+    "cloze": {
+      "de": "Eröffnung",
+      "en": "opening"
+    },
     "sourceIndex": 1923
   },
   {
@@ -4877,6 +6021,10 @@ const phrasesDaily = [
     "wordIds": [
       "11927"
     ],
+    "cloze": {
+      "de": "Geheimnis",
+      "en": "secret"
+    },
     "sourceIndex": 1927
   },
   {
@@ -4894,6 +6042,10 @@ const phrasesDaily = [
     "wordIds": [
       "11933"
     ],
+    "cloze": {
+      "de": "höchstens",
+      "en": "at"
+    },
     "sourceIndex": 1933
   },
   {
@@ -4911,6 +6063,10 @@ const phrasesDaily = [
     "wordIds": [
       "11935"
     ],
+    "cloze": {
+      "de": "kritisch",
+      "en": "critical"
+    },
     "sourceIndex": 1935
   },
   {
@@ -4928,6 +6084,10 @@ const phrasesDaily = [
     "wordIds": [
       "11940"
     ],
+    "cloze": {
+      "de": "Optionen",
+      "en": "options"
+    },
     "sourceIndex": 1940
   },
   {
@@ -4945,6 +6105,10 @@ const phrasesDaily = [
     "wordIds": [
       "11954"
     ],
+    "cloze": {
+      "de": "verrückte",
+      "en": "crazy"
+    },
     "sourceIndex": 1954
   },
   {
@@ -4962,6 +6126,10 @@ const phrasesDaily = [
     "wordIds": [
       "11960"
     ],
+    "cloze": {
+      "de": "beliebt",
+      "en": "popular"
+    },
     "sourceIndex": 1960
   },
   {
@@ -4979,6 +6147,10 @@ const phrasesDaily = [
     "wordIds": [
       "11964"
     ],
+    "cloze": {
+      "de": "britischer",
+      "en": "British"
+    },
     "sourceIndex": 1964
   },
   {
@@ -4996,6 +6168,10 @@ const phrasesDaily = [
     "wordIds": [
       "11967"
     ],
+    "cloze": {
+      "de": "Einkommen",
+      "en": "income"
+    },
     "sourceIndex": 1967
   },
   {
@@ -5013,6 +6189,10 @@ const phrasesDaily = [
     "wordIds": [
       "11969"
     ],
+    "cloze": {
+      "de": "Fokus",
+      "en": "focus"
+    },
     "sourceIndex": 1969
   },
   {
@@ -5030,6 +6210,10 @@ const phrasesDaily = [
     "wordIds": [
       "11971"
     ],
+    "cloze": {
+      "de": "gelegentlich",
+      "en": "occasionally"
+    },
     "sourceIndex": 1971
   },
   {
@@ -5047,6 +6231,10 @@ const phrasesDaily = [
     "wordIds": [
       "11973"
     ],
+    "cloze": {
+      "de": "Glückwunsch",
+      "en": "birthday"
+    },
     "sourceIndex": 1973
   },
   {
@@ -5064,6 +6252,10 @@ const phrasesDaily = [
     "wordIds": [
       "11980"
     ],
+    "cloze": {
+      "de": "typisch",
+      "en": "typical"
+    },
     "sourceIndex": 1980
   },
   {
@@ -5081,6 +6273,10 @@ const phrasesDaily = [
     "wordIds": [
       "11992"
     ],
+    "cloze": {
+      "de": "Chaos",
+      "en": "chaos"
+    },
     "sourceIndex": 1992
   },
   {
@@ -5098,6 +6294,10 @@ const phrasesDaily = [
     "wordIds": [
       "11995"
     ],
+    "cloze": {
+      "de": "ergänzen",
+      "en": "complete"
+    },
     "sourceIndex": 1995
   },
   {
@@ -5115,6 +6315,10 @@ const phrasesDaily = [
     "wordIds": [
       "11998"
     ],
+    "cloze": {
+      "de": "Feind",
+      "en": "enemy"
+    },
     "sourceIndex": 1998
   },
   {
@@ -5132,6 +6336,10 @@ const phrasesDaily = [
     "wordIds": [
       "12002"
     ],
+    "cloze": {
+      "de": "Haufen",
+      "en": "pile"
+    },
     "sourceIndex": 2002
   },
   {
@@ -5149,6 +6357,10 @@ const phrasesDaily = [
     "wordIds": [
       "12013"
     ],
+    "cloze": {
+      "de": "lokales",
+      "en": "local"
+    },
     "sourceIndex": 2013
   },
   {
@@ -5166,6 +6378,10 @@ const phrasesDaily = [
     "wordIds": [
       "12017"
     ],
+    "cloze": {
+      "de": "mobil",
+      "en": "mobile"
+    },
     "sourceIndex": 2017
   },
   {
@@ -5183,6 +6399,10 @@ const phrasesDaily = [
     "wordIds": [
       "12022"
     ],
+    "cloze": {
+      "de": "Rose",
+      "en": "rose"
+    },
     "sourceIndex": 2022
   },
   {
@@ -5200,6 +6420,10 @@ const phrasesDaily = [
     "wordIds": [
       "12027"
     ],
+    "cloze": {
+      "de": "vorkommen",
+      "en": "occur"
+    },
     "sourceIndex": 2027
   },
   {
@@ -5217,6 +6441,10 @@ const phrasesDaily = [
     "wordIds": [
       "12034"
     ],
+    "cloze": {
+      "de": "Box",
+      "en": "box"
+    },
     "sourceIndex": 2034
   },
   {
@@ -5234,6 +6462,10 @@ const phrasesDaily = [
     "wordIds": [
       "12035"
     ],
+    "cloze": {
+      "de": "Finanzbranche",
+      "en": "industry"
+    },
     "sourceIndex": 2035
   },
   {
@@ -5251,6 +6483,10 @@ const phrasesDaily = [
     "wordIds": [
       "12047"
     ],
+    "cloze": {
+      "de": "Kampagne",
+      "en": "campaign"
+    },
     "sourceIndex": 2047
   },
   {
@@ -5268,6 +6504,10 @@ const phrasesDaily = [
     "wordIds": [
       "12053"
     ],
+    "cloze": {
+      "de": "Level",
+      "en": "level"
+    },
     "sourceIndex": 2053
   },
   {
@@ -5285,6 +6525,10 @@ const phrasesDaily = [
     "wordIds": [
       "12059"
     ],
+    "cloze": {
+      "de": "Stock",
+      "en": "stick"
+    },
     "sourceIndex": 2059
   },
   {
@@ -5302,6 +6546,10 @@ const phrasesDaily = [
     "wordIds": [
       "12076"
     ],
+    "cloze": {
+      "de": "begründen",
+      "en": "justify"
+    },
     "sourceIndex": 2076
   },
   {
@@ -5319,6 +6567,10 @@ const phrasesDaily = [
     "wordIds": [
       "12077"
     ],
+    "cloze": {
+      "de": "Chor",
+      "en": "choir"
+    },
     "sourceIndex": 2077
   },
   {
@@ -5336,6 +6588,10 @@ const phrasesDaily = [
     "wordIds": [
       "12082"
     ],
+    "cloze": {
+      "de": "Faktor",
+      "en": "factor"
+    },
     "sourceIndex": 2082
   },
   {
@@ -5353,6 +6609,10 @@ const phrasesDaily = [
     "wordIds": [
       "12087"
     ],
+    "cloze": {
+      "de": "Hitze",
+      "en": "heat"
+    },
     "sourceIndex": 2087
   },
   {
@@ -5370,6 +6630,10 @@ const phrasesDaily = [
     "wordIds": [
       "12104"
     ],
+    "cloze": {
+      "de": "umsonst",
+      "en": "for"
+    },
     "sourceIndex": 2104
   },
   {
@@ -5387,6 +6651,10 @@ const phrasesDaily = [
     "wordIds": [
       "12106"
     ],
+    "cloze": {
+      "de": "Wandel",
+      "en": "change"
+    },
     "sourceIndex": 2106
   },
   {
@@ -5404,6 +6672,10 @@ const phrasesDaily = [
     "wordIds": [
       "12108"
     ],
+    "cloze": {
+      "de": "Österreicher",
+      "en": "Austrian"
+    },
     "sourceIndex": 2108
   },
   {
@@ -5421,6 +6693,10 @@ const phrasesDaily = [
     "wordIds": [
       "12110"
     ],
+    "cloze": {
+      "de": "Annahme",
+      "en": "assumption"
+    },
     "sourceIndex": 2110
   },
   {
@@ -5438,6 +6714,10 @@ const phrasesDaily = [
     "wordIds": [
       "12111"
     ],
+    "cloze": {
+      "de": "aufgefallen",
+      "en": "out"
+    },
     "sourceIndex": 2111
   },
   {
@@ -5455,6 +6735,10 @@ const phrasesDaily = [
     "wordIds": [
       "12114"
     ],
+    "cloze": {
+      "de": "Befehl",
+      "en": "order"
+    },
     "sourceIndex": 2114
   },
   {
@@ -5472,6 +6756,10 @@ const phrasesDaily = [
     "wordIds": [
       "12116"
     ],
+    "cloze": {
+      "de": "Betrag",
+      "en": "amount"
+    },
     "sourceIndex": 2116
   },
   {
@@ -5489,6 +6777,10 @@ const phrasesDaily = [
     "wordIds": [
       "12125"
     ],
+    "cloze": {
+      "de": "intensiv",
+      "en": "intensively"
+    },
     "sourceIndex": 2125
   },
   {
@@ -5506,6 +6798,10 @@ const phrasesDaily = [
     "wordIds": [
       "12130"
     ],
+    "cloze": {
+      "de": "mitnehmen",
+      "en": "take"
+    },
     "sourceIndex": 2130
   },
   {
@@ -5523,6 +6819,10 @@ const phrasesDaily = [
     "wordIds": [
       "12134"
     ],
+    "cloze": {
+      "de": "probieren",
+      "en": "try"
+    },
     "sourceIndex": 2134
   },
   {
@@ -5540,6 +6840,10 @@ const phrasesDaily = [
     "wordIds": [
       "12136"
     ],
+    "cloze": {
+      "de": "Quatsch",
+      "en": "nonsense"
+    },
     "sourceIndex": 2136
   },
   {
@@ -5557,6 +6861,10 @@ const phrasesDaily = [
     "wordIds": [
       "12137"
     ],
+    "cloze": {
+      "de": "römische",
+      "en": "Roman"
+    },
     "sourceIndex": 2137
   },
   {
@@ -5574,6 +6882,10 @@ const phrasesDaily = [
     "wordIds": [
       "12139"
     ],
+    "cloze": {
+      "de": "teilnehmen",
+      "en": "participate"
+    },
     "sourceIndex": 2139
   },
   {
@@ -5591,6 +6903,10 @@ const phrasesDaily = [
     "wordIds": [
       "12145"
     ],
+    "cloze": {
+      "de": "Aspekt",
+      "en": "aspect"
+    },
     "sourceIndex": 2145
   },
   {
@@ -5608,6 +6924,10 @@ const phrasesDaily = [
     "wordIds": [
       "12146"
     ],
+    "cloze": {
+      "de": "ausführen",
+      "en": "execute"
+    },
     "sourceIndex": 2146
   },
   {
@@ -5625,6 +6945,10 @@ const phrasesDaily = [
     "wordIds": [
       "12148"
     ],
+    "cloze": {
+      "de": "beeinflussen",
+      "en": "influence"
+    },
     "sourceIndex": 2148
   },
   {
@@ -5642,6 +6966,10 @@ const phrasesDaily = [
     "wordIds": [
       "12152"
     ],
+    "cloze": {
+      "de": "brechen",
+      "en": "break"
+    },
     "sourceIndex": 2152
   },
   {
@@ -5659,6 +6987,10 @@ const phrasesDaily = [
     "wordIds": [
       "12155"
     ],
+    "cloze": {
+      "de": "empfangen",
+      "en": "welcome"
+    },
     "sourceIndex": 2155
   },
   {
@@ -5676,6 +7008,10 @@ const phrasesDaily = [
     "wordIds": [
       "12161"
     ],
+    "cloze": {
+      "de": "Jagd",
+      "en": "hunt"
+    },
     "sourceIndex": 2161
   },
   {
@@ -5693,6 +7029,10 @@ const phrasesDaily = [
     "wordIds": [
       "12167"
     ],
+    "cloze": {
+      "de": "konzentrieren",
+      "en": "concentrate"
+    },
     "sourceIndex": 2167
   },
   {
@@ -5710,6 +7050,10 @@ const phrasesDaily = [
     "wordIds": [
       "12168"
     ],
+    "cloze": {
+      "de": "kürzlich",
+      "en": "recently"
+    },
     "sourceIndex": 2168
   },
   {
@@ -5727,6 +7071,10 @@ const phrasesDaily = [
     "wordIds": [
       "12171"
     ],
+    "cloze": {
+      "de": "Objekt",
+      "en": "object"
+    },
     "sourceIndex": 2171
   },
   {
@@ -5744,6 +7092,10 @@ const phrasesDaily = [
     "wordIds": [
       "12173"
     ],
+    "cloze": {
+      "de": "spontane",
+      "en": "spontaneous"
+    },
     "sourceIndex": 2173
   },
   {
@@ -5761,6 +7113,10 @@ const phrasesDaily = [
     "wordIds": [
       "12181"
     ],
+    "cloze": {
+      "de": "Zone",
+      "en": "zone"
+    },
     "sourceIndex": 2181
   },
   {
@@ -5778,6 +7134,10 @@ const phrasesDaily = [
     "wordIds": [
       "12191"
     ],
+    "cloze": {
+      "de": "erhältlich",
+      "en": "available"
+    },
     "sourceIndex": 2191
   },
   {
@@ -5795,6 +7155,10 @@ const phrasesDaily = [
     "wordIds": [
       "12200"
     ],
+    "cloze": {
+      "de": "irgendwelche",
+      "en": "any"
+    },
     "sourceIndex": 2200
   },
   {
@@ -5812,6 +7176,10 @@ const phrasesDaily = [
     "wordIds": [
       "12211"
     ],
+    "cloze": {
+      "de": "schneiden",
+      "en": "cut"
+    },
     "sourceIndex": 2211
   },
   {
@@ -5829,6 +7197,10 @@ const phrasesDaily = [
     "wordIds": [
       "12221"
     ],
+    "cloze": {
+      "de": "Update",
+      "en": "update"
+    },
     "sourceIndex": 2221
   },
   {
@@ -5846,6 +7218,10 @@ const phrasesDaily = [
     "wordIds": [
       "12223"
     ],
+    "cloze": {
+      "de": "versteckt",
+      "en": "hides"
+    },
     "sourceIndex": 2223
   },
   {
@@ -5863,6 +7239,10 @@ const phrasesDaily = [
     "wordIds": [
       "12231"
     ],
+    "cloze": {
+      "de": "die",
+      "en": "serves"
+    },
     "sourceIndex": 2231
   },
   {
@@ -5880,6 +7260,10 @@ const phrasesDaily = [
     "wordIds": [
       "12241"
     ],
+    "cloze": {
+      "de": "Erwartungen",
+      "en": "expectations"
+    },
     "sourceIndex": 2241
   },
   {
@@ -5897,6 +7281,10 @@ const phrasesDaily = [
     "wordIds": [
       "12247"
     ],
+    "cloze": {
+      "de": "kontrollieren",
+      "en": "check"
+    },
     "sourceIndex": 2247
   },
   {
@@ -5914,6 +7302,10 @@ const phrasesDaily = [
     "wordIds": [
       "12252"
     ],
+    "cloze": {
+      "de": "Parkplatz",
+      "en": "parking"
+    },
     "sourceIndex": 2252
   },
   {
@@ -5931,6 +7323,10 @@ const phrasesDaily = [
     "wordIds": [
       "12261"
     ],
+    "cloze": {
+      "de": "unbekannt",
+      "en": "unknown"
+    },
     "sourceIndex": 2261
   },
   {
@@ -5948,6 +7344,10 @@ const phrasesDaily = [
     "wordIds": [
       "12265"
     ],
+    "cloze": {
+      "de": "Virus",
+      "en": "virus"
+    },
     "sourceIndex": 2265
   },
   {
@@ -5965,6 +7365,10 @@ const phrasesDaily = [
     "wordIds": [
       "12268"
     ],
+    "cloze": {
+      "de": "zugänglich",
+      "en": "accessible"
+    },
     "sourceIndex": 2268
   },
   {
@@ -5982,6 +7386,10 @@ const phrasesDaily = [
     "wordIds": [
       "12274"
     ],
+    "cloze": {
+      "de": "beachten",
+      "en": "observe"
+    },
     "sourceIndex": 2274
   },
   {
@@ -5999,6 +7407,10 @@ const phrasesDaily = [
     "wordIds": [
       "12280"
     ],
+    "cloze": {
+      "de": "festlegen",
+      "en": "set"
+    },
     "sourceIndex": 2280
   },
   {
@@ -6016,6 +7428,10 @@ const phrasesDaily = [
     "wordIds": [
       "12282"
     ],
+    "cloze": {
+      "de": "Grundstück",
+      "en": "plot"
+    },
     "sourceIndex": 2282
   },
   {
@@ -6033,6 +7449,10 @@ const phrasesDaily = [
     "wordIds": [
       "12308"
     ],
+    "cloze": {
+      "de": "Vorwurf",
+      "en": "accusation"
+    },
     "sourceIndex": 2308
   },
   {
@@ -6050,6 +7470,10 @@ const phrasesDaily = [
     "wordIds": [
       "12310"
     ],
+    "cloze": {
+      "de": "weibliche",
+      "en": "feminine"
+    },
     "sourceIndex": 2310
   },
   {
@@ -6067,6 +7491,10 @@ const phrasesDaily = [
     "wordIds": [
       "12311"
     ],
+    "cloze": {
+      "de": "wette",
+      "en": "bet"
+    },
     "sourceIndex": 2311
   },
   {
@@ -6084,6 +7512,10 @@ const phrasesDaily = [
     "wordIds": [
       "12313"
     ],
+    "cloze": {
+      "de": "Wut",
+      "en": "rage"
+    },
     "sourceIndex": 2313
   },
   {
@@ -6101,6 +7533,10 @@ const phrasesDaily = [
     "wordIds": [
       "12316"
     ],
+    "cloze": {
+      "de": "Anruf",
+      "en": "call"
+    },
     "sourceIndex": 2316
   },
   {
@@ -6118,6 +7554,10 @@ const phrasesDaily = [
     "wordIds": [
       "12351"
     ],
+    "cloze": {
+      "de": "chinesisches",
+      "en": "Chinese"
+    },
     "sourceIndex": 2351
   },
   {
@@ -6135,6 +7575,10 @@ const phrasesDaily = [
     "wordIds": [
       "12366"
     ],
+    "cloze": {
+      "de": "Mangel",
+      "en": "shortage"
+    },
     "sourceIndex": 2366
   },
   {
@@ -6152,6 +7596,10 @@ const phrasesDaily = [
     "wordIds": [
       "12377"
     ],
+    "cloze": {
+      "de": "springen",
+      "en": "jump"
+    },
     "sourceIndex": 2377
   },
   {
@@ -6169,6 +7617,10 @@ const phrasesDaily = [
     "wordIds": [
       "12382"
     ],
+    "cloze": {
+      "de": "verlegt",
+      "en": "I"
+    },
     "sourceIndex": 2382
   },
   {
@@ -6186,6 +7638,10 @@ const phrasesDaily = [
     "wordIds": [
       "12400"
     ],
+    "cloze": {
+      "de": "Erziehung",
+      "en": "upbringing"
+    },
     "sourceIndex": 2400
   },
   {
@@ -6203,6 +7659,10 @@ const phrasesDaily = [
     "wordIds": [
       "12411"
     ],
+    "cloze": {
+      "de": "Kämpfer",
+      "en": "fighter"
+    },
     "sourceIndex": 2411
   },
   {
@@ -6220,6 +7680,10 @@ const phrasesDaily = [
     "wordIds": [
       "12419"
     ],
+    "cloze": {
+      "de": "soeben",
+      "en": "just"
+    },
     "sourceIndex": 2419
   },
   {
@@ -6237,6 +7701,10 @@ const phrasesDaily = [
     "wordIds": [
       "12431"
     ],
+    "cloze": {
+      "de": "Betreuung",
+      "en": "care"
+    },
     "sourceIndex": 2431
   },
   {
@@ -6254,6 +7722,10 @@ const phrasesDaily = [
     "wordIds": [
       "12433"
     ],
+    "cloze": {
+      "de": "doofe",
+      "en": "stupid"
+    },
     "sourceIndex": 2433
   },
   {
@@ -6271,6 +7743,10 @@ const phrasesDaily = [
     "wordIds": [
       "12438"
     ],
+    "cloze": {
+      "de": "evtl",
+      "en": "possibly"
+    },
     "sourceIndex": 2438
   },
   {
@@ -6288,6 +7764,10 @@ const phrasesDaily = [
     "wordIds": [
       "12443"
     ],
+    "cloze": {
+      "de": "glatt",
+      "en": "smooth"
+    },
     "sourceIndex": 2443
   },
   {
@@ -6305,6 +7785,10 @@ const phrasesDaily = [
     "wordIds": [
       "12456"
     ],
+    "cloze": {
+      "de": "Oper",
+      "en": "opera"
+    },
     "sourceIndex": 2456
   },
   {
@@ -6322,6 +7806,10 @@ const phrasesDaily = [
     "wordIds": [
       "12468"
     ],
+    "cloze": {
+      "de": "zulassen",
+      "en": "allow"
+    },
     "sourceIndex": 2468
   },
   {
@@ -6339,6 +7827,10 @@ const phrasesDaily = [
     "wordIds": [
       "12485"
     ],
+    "cloze": {
+      "de": "Fortsetzung",
+      "en": "sequel"
+    },
     "sourceIndex": 2485
   },
   {
@@ -6356,6 +7848,10 @@ const phrasesDaily = [
     "wordIds": [
       "12487"
     ],
+    "cloze": {
+      "de": "stehlen",
+      "en": "steal"
+    },
     "sourceIndex": 2487
   },
   {
@@ -6373,6 +7869,10 @@ const phrasesDaily = [
     "wordIds": [
       "12489"
     ],
+    "cloze": {
+      "de": "Intelligenz",
+      "en": "intelligence"
+    },
     "sourceIndex": 2489
   },
   {
@@ -6390,6 +7890,10 @@ const phrasesDaily = [
     "wordIds": [
       "12502"
     ],
+    "cloze": {
+      "de": "Pech",
+      "en": "bad"
+    },
     "sourceIndex": 2502
   },
   {
@@ -6407,6 +7911,10 @@ const phrasesDaily = [
     "wordIds": [
       "12503"
     ],
+    "cloze": {
+      "de": "Pirat",
+      "en": "pirate"
+    },
     "sourceIndex": 2503
   },
   {
@@ -6424,6 +7932,10 @@ const phrasesDaily = [
     "wordIds": [
       "12505"
     ],
+    "cloze": {
+      "de": "regionale",
+      "en": "regional"
+    },
     "sourceIndex": 2505
   },
   {
@@ -6441,6 +7953,10 @@ const phrasesDaily = [
     "wordIds": [
       "12511"
     ],
+    "cloze": {
+      "de": "stehende",
+      "en": "standing"
+    },
     "sourceIndex": 2511
   },
   {
@@ -6458,6 +7974,10 @@ const phrasesDaily = [
     "wordIds": [
       "12528"
     ],
+    "cloze": {
+      "de": "aufführen",
+      "en": "perform"
+    },
     "sourceIndex": 2528
   },
   {
@@ -6475,6 +7995,10 @@ const phrasesDaily = [
     "wordIds": [
       "12537"
     ],
+    "cloze": {
+      "de": "exakt",
+      "en": "exact"
+    },
     "sourceIndex": 2537
   },
   {
@@ -6492,6 +8016,10 @@ const phrasesDaily = [
     "wordIds": [
       "12539"
     ],
+    "cloze": {
+      "de": "regeln",
+      "en": "regulate"
+    },
     "sourceIndex": 2539
   },
   {
@@ -6509,6 +8037,10 @@ const phrasesDaily = [
     "wordIds": [
       "12542"
     ],
+    "cloze": {
+      "de": "Halbzeit",
+      "en": "halftime"
+    },
     "sourceIndex": 2542
   },
   {
@@ -6526,6 +8058,10 @@ const phrasesDaily = [
     "wordIds": [
       "12549"
     ],
+    "cloze": {
+      "de": "Maus",
+      "en": "mouse"
+    },
     "sourceIndex": 2549
   },
   {
@@ -6543,6 +8079,10 @@ const phrasesDaily = [
     "wordIds": [
       "12550"
     ],
+    "cloze": {
+      "de": "Monster",
+      "en": "monster"
+    },
     "sourceIndex": 2550
   },
   {
@@ -6560,6 +8100,10 @@ const phrasesDaily = [
     "wordIds": [
       "12555"
     ],
+    "cloze": {
+      "de": "schrecklich",
+      "en": "terrible"
+    },
     "sourceIndex": 2555
   },
   {
@@ -6577,6 +8121,10 @@ const phrasesDaily = [
     "wordIds": [
       "12563"
     ],
+    "cloze": {
+      "de": "Ufer",
+      "en": "bank"
+    },
     "sourceIndex": 2563
   },
   {
@@ -6594,6 +8142,10 @@ const phrasesDaily = [
     "wordIds": [
       "12566"
     ],
+    "cloze": {
+      "de": "Zentimeter",
+      "en": "centimeters"
+    },
     "sourceIndex": 2566
   },
   {
@@ -6611,6 +8163,10 @@ const phrasesDaily = [
     "wordIds": [
       "12569"
     ],
+    "cloze": {
+      "de": "aufeinander",
+      "en": "on"
+    },
     "sourceIndex": 2569
   },
   {
@@ -6628,6 +8184,10 @@ const phrasesDaily = [
     "wordIds": [
       "12576"
     ],
+    "cloze": {
+      "de": "bearbeiten",
+      "en": "process"
+    },
     "sourceIndex": 2576
   },
   {
@@ -6645,6 +8205,10 @@ const phrasesDaily = [
     "wordIds": [
       "12585"
     ],
+    "cloze": {
+      "de": "Fortschritte",
+      "en": "progress"
+    },
     "sourceIndex": 2585
   },
   {
@@ -6662,6 +8226,10 @@ const phrasesDaily = [
     "wordIds": [
       "12593"
     ],
+    "cloze": {
+      "de": "Kilo",
+      "en": "kilo"
+    },
     "sourceIndex": 2593
   },
   {
@@ -6679,6 +8247,10 @@ const phrasesDaily = [
     "wordIds": [
       "12594"
     ],
+    "cloze": {
+      "de": "kompliziert",
+      "en": "complicated"
+    },
     "sourceIndex": 2594
   },
   {
@@ -6696,6 +8268,10 @@ const phrasesDaily = [
     "wordIds": [
       "12608"
     ],
+    "cloze": {
+      "de": "Umzug",
+      "en": "move"
+    },
     "sourceIndex": 2608
   },
   {
@@ -6713,6 +8289,10 @@ const phrasesDaily = [
     "wordIds": [
       "12609"
     ],
+    "cloze": {
+      "de": "ungewöhnliche",
+      "en": "unusual"
+    },
     "sourceIndex": 2609
   },
   {
@@ -6730,6 +8310,10 @@ const phrasesDaily = [
     "wordIds": [
       "12620"
     ],
+    "cloze": {
+      "de": "Ausgang",
+      "en": "exit"
+    },
     "sourceIndex": 2620
   },
   {
@@ -6747,6 +8331,10 @@ const phrasesDaily = [
     "wordIds": [
       "12622"
     ],
+    "cloze": {
+      "de": "beitragen",
+      "en": "contribute"
+    },
     "sourceIndex": 2622
   },
   {
@@ -6764,6 +8352,10 @@ const phrasesDaily = [
     "wordIds": [
       "12627"
     ],
+    "cloze": {
+      "de": "betreten",
+      "en": "step"
+    },
     "sourceIndex": 2627
   },
   {
@@ -6781,6 +8373,10 @@ const phrasesDaily = [
     "wordIds": [
       "12636"
     ],
+    "cloze": {
+      "de": "Erlebnis",
+      "en": "experience"
+    },
     "sourceIndex": 2636
   },
   {
@@ -6798,6 +8394,10 @@ const phrasesDaily = [
     "wordIds": [
       "12637"
     ],
+    "cloze": {
+      "de": "Erstens",
+      "en": "Firstly"
+    },
     "sourceIndex": 2637
   },
   {
@@ -6815,6 +8415,10 @@ const phrasesDaily = [
     "wordIds": [
       "12647"
     ],
+    "cloze": {
+      "de": "kräftigen",
+      "en": "strong"
+    },
     "sourceIndex": 2647
   },
   {
@@ -6832,6 +8436,10 @@ const phrasesDaily = [
     "wordIds": [
       "12650"
     ],
+    "cloze": {
+      "de": "Motorrad",
+      "en": "motorcycle"
+    },
     "sourceIndex": 2650
   },
   {
@@ -6849,6 +8457,10 @@ const phrasesDaily = [
     "wordIds": [
       "12655"
     ],
+    "cloze": {
+      "de": "prima",
+      "en": "great"
+    },
     "sourceIndex": 2655
   },
   {
@@ -6866,6 +8478,10 @@ const phrasesDaily = [
     "wordIds": [
       "12667"
     ],
+    "cloze": {
+      "de": "Zellen",
+      "en": "cells"
+    },
     "sourceIndex": 2667
   },
   {
@@ -6883,6 +8499,10 @@ const phrasesDaily = [
     "wordIds": [
       "12679"
     ],
+    "cloze": {
+      "de": "Bogen",
+      "en": "arch"
+    },
     "sourceIndex": 2679
   },
   {
@@ -6900,6 +8520,10 @@ const phrasesDaily = [
     "wordIds": [
       "12688"
     ],
+    "cloze": {
+      "de": "formulieren",
+      "en": "formulate"
+    },
     "sourceIndex": 2688
   },
   {
@@ -6917,6 +8541,10 @@ const phrasesDaily = [
     "wordIds": [
       "12693"
     ],
+    "cloze": {
+      "de": "Helfer",
+      "en": "helper"
+    },
     "sourceIndex": 2693
   },
   {
@@ -6934,6 +8562,10 @@ const phrasesDaily = [
     "wordIds": [
       "12700"
     ],
+    "cloze": {
+      "de": "Luxus",
+      "en": "luxury"
+    },
     "sourceIndex": 2700
   },
   {
@@ -6951,6 +8583,10 @@ const phrasesDaily = [
     "wordIds": [
       "12706"
     ],
+    "cloze": {
+      "de": "Radfahrer",
+      "en": "cyclist"
+    },
     "sourceIndex": 2706
   },
   {
@@ -6968,6 +8604,10 @@ const phrasesDaily = [
     "wordIds": [
       "12711"
     ],
+    "cloze": {
+      "de": "Live-Stream",
+      "en": "stream"
+    },
     "sourceIndex": 2711
   },
   {
@@ -6985,6 +8625,10 @@ const phrasesDaily = [
     "wordIds": [
       "12715"
     ],
+    "cloze": {
+      "de": "unterbringen",
+      "en": "accommodate"
+    },
     "sourceIndex": 2715
   },
   {
@@ -7002,6 +8646,10 @@ const phrasesDaily = [
     "wordIds": [
       "12719"
     ],
+    "cloze": {
+      "de": "woanders",
+      "en": "somewhere"
+    },
     "sourceIndex": 2719
   },
   {
@@ -7019,6 +8667,10 @@ const phrasesDaily = [
     "wordIds": [
       "12722"
     ],
+    "cloze": {
+      "de": "auswählen",
+      "en": "select"
+    },
     "sourceIndex": 2722
   },
   {
@@ -7036,6 +8688,10 @@ const phrasesDaily = [
     "wordIds": [
       "12737"
     ],
+    "cloze": {
+      "de": "gebrauchen",
+      "en": "use"
+    },
     "sourceIndex": 2737
   },
   {
@@ -7053,6 +8709,10 @@ const phrasesDaily = [
     "wordIds": [
       "12755"
     ],
+    "cloze": {
+      "de": "theoretisches",
+      "en": "theoretical"
+    },
     "sourceIndex": 2755
   },
   {
@@ -7070,6 +8730,10 @@ const phrasesDaily = [
     "wordIds": [
       "12760"
     ],
+    "cloze": {
+      "de": "wahnsinnig",
+      "en": "incredibly"
+    },
     "sourceIndex": 2760
   },
   {
@@ -7087,6 +8751,10 @@ const phrasesDaily = [
     "wordIds": [
       "12762"
     ],
+    "cloze": {
+      "de": "warnen",
+      "en": "warn"
+    },
     "sourceIndex": 2762
   },
   {
@@ -7104,6 +8772,10 @@ const phrasesDaily = [
     "wordIds": [
       "12764"
     ],
+    "cloze": {
+      "de": "Winkel",
+      "en": "angle"
+    },
     "sourceIndex": 2764
   },
   {
@@ -7121,6 +8793,10 @@ const phrasesDaily = [
     "wordIds": [
       "12765"
     ],
+    "cloze": {
+      "de": "zuviel",
+      "en": "too"
+    },
     "sourceIndex": 2765
   },
   {
@@ -7138,6 +8814,10 @@ const phrasesDaily = [
     "wordIds": [
       "12769"
     ],
+    "cloze": {
+      "de": "Alpe",
+      "en": "alpine"
+    },
     "sourceIndex": 2769
   },
   {
@@ -7155,6 +8835,10 @@ const phrasesDaily = [
     "wordIds": [
       "12770"
     ],
+    "cloze": {
+      "de": "Bart",
+      "en": "beard"
+    },
     "sourceIndex": 2770
   },
   {
@@ -7172,6 +8856,10 @@ const phrasesDaily = [
     "wordIds": [
       "12773"
     ],
+    "cloze": {
+      "de": "berechnen",
+      "en": "calculate"
+    },
     "sourceIndex": 2773
   },
   {
@@ -7189,6 +8877,10 @@ const phrasesDaily = [
     "wordIds": [
       "12776"
     ],
+    "cloze": {
+      "de": "blickte",
+      "en": "looked"
+    },
     "sourceIndex": 2776
   },
   {
@@ -7206,6 +8898,10 @@ const phrasesDaily = [
     "wordIds": [
       "12785"
     ],
+    "cloze": {
+      "de": "ignorieren",
+      "en": "ignore"
+    },
     "sourceIndex": 2785
   },
   {
@@ -7223,6 +8919,10 @@ const phrasesDaily = [
     "wordIds": [
       "12791"
     ],
+    "cloze": {
+      "de": "Moderator",
+      "en": "moderator"
+    },
     "sourceIndex": 2791
   },
   {
@@ -7240,6 +8940,10 @@ const phrasesDaily = [
     "wordIds": [
       "12795"
     ],
+    "cloze": {
+      "de": "Reiter",
+      "en": "rider"
+    },
     "sourceIndex": 2795
   },
   {
@@ -7257,6 +8961,10 @@ const phrasesDaily = [
     "wordIds": [
       "12799"
     ],
+    "cloze": {
+      "de": "Sprung",
+      "en": "jump"
+    },
     "sourceIndex": 2799
   },
   {
@@ -7274,6 +8982,10 @@ const phrasesDaily = [
     "wordIds": [
       "12813"
     ],
+    "cloze": {
+      "de": "wütend",
+      "en": "furious"
+    },
     "sourceIndex": 2813
   },
   {
@@ -7291,6 +9003,10 @@ const phrasesDaily = [
     "wordIds": [
       "12823"
     ],
+    "cloze": {
+      "de": "beleidigen",
+      "en": "insult"
+    },
     "sourceIndex": 2823
   },
   {
@@ -7308,6 +9024,10 @@ const phrasesDaily = [
     "wordIds": [
       "12840"
     ],
+    "cloze": {
+      "de": "herrlich",
+      "en": "wonderful"
+    },
     "sourceIndex": 2840
   },
   {
@@ -7325,6 +9045,10 @@ const phrasesDaily = [
     "wordIds": [
       "12843"
     ],
+    "cloze": {
+      "de": "Kfz-Zulassungsstelle",
+      "en": "motor"
+    },
     "sourceIndex": 2843
   },
   {
@@ -7342,6 +9066,10 @@ const phrasesDaily = [
     "wordIds": [
       "12846"
     ],
+    "cloze": {
+      "de": "kreisen",
+      "en": "circling"
+    },
     "sourceIndex": 2846
   },
   {
@@ -7359,6 +9087,10 @@ const phrasesDaily = [
     "wordIds": [
       "12847"
     ],
+    "cloze": {
+      "de": "Käufer",
+      "en": "buyer"
+    },
     "sourceIndex": 2847
   },
   {
@@ -7376,6 +9108,10 @@ const phrasesDaily = [
     "wordIds": [
       "12848"
     ],
+    "cloze": {
+      "de": "leeren",
+      "en": "empty"
+    },
     "sourceIndex": 2848
   },
   {
@@ -7393,6 +9129,10 @@ const phrasesDaily = [
     "wordIds": [
       "12856"
     ],
+    "cloze": {
+      "de": "rüber",
+      "en": "over"
+    },
     "sourceIndex": 2856
   },
   {
@@ -7410,6 +9150,10 @@ const phrasesDaily = [
     "wordIds": [
       "12867"
     ],
+    "cloze": {
+      "de": "aufpassen",
+      "en": "pay"
+    },
     "sourceIndex": 2867
   },
   {
@@ -7427,6 +9171,10 @@ const phrasesDaily = [
     "wordIds": [
       "12871"
     ],
+    "cloze": {
+      "de": "ausländische",
+      "en": "foreign"
+    },
     "sourceIndex": 2871
   },
   {
@@ -7444,6 +9192,10 @@ const phrasesDaily = [
     "wordIds": [
       "12881"
     ],
+    "cloze": {
+      "de": "geniale",
+      "en": "brilliant"
+    },
     "sourceIndex": 2881
   },
   {
@@ -7461,6 +9213,10 @@ const phrasesDaily = [
     "wordIds": [
       "12885"
     ],
+    "cloze": {
+      "de": "Höhle",
+      "en": "cave"
+    },
     "sourceIndex": 2885
   },
   {
@@ -7478,6 +9234,10 @@ const phrasesDaily = [
     "wordIds": [
       "12886"
     ],
+    "cloze": {
+      "de": "Image",
+      "en": "image"
+    },
     "sourceIndex": 2886
   },
   {
@@ -7495,6 +9255,10 @@ const phrasesDaily = [
     "wordIds": [
       "12893"
     ],
+    "cloze": {
+      "de": "neugierig",
+      "en": "curious"
+    },
     "sourceIndex": 2893
   },
   {
@@ -7512,6 +9276,10 @@ const phrasesDaily = [
     "wordIds": [
       "12898"
     ],
+    "cloze": {
+      "de": "Polnisch",
+      "en": "Polish"
+    },
     "sourceIndex": 2898
   },
   {
@@ -7529,6 +9297,10 @@ const phrasesDaily = [
     "wordIds": [
       "12917"
     ],
+    "cloze": {
+      "de": "abwarten",
+      "en": "wait"
+    },
     "sourceIndex": 2917
   },
   {
@@ -7546,6 +9318,10 @@ const phrasesDaily = [
     "wordIds": [
       "12924"
     ],
+    "cloze": {
+      "de": "Brite",
+      "en": "Briton"
+    },
     "sourceIndex": 2924
   },
   {
@@ -7563,6 +9339,10 @@ const phrasesDaily = [
     "wordIds": [
       "12929"
     ],
+    "cloze": {
+      "de": "Episode",
+      "en": "episode"
+    },
     "sourceIndex": 2929
   },
   {
@@ -7580,6 +9360,10 @@ const phrasesDaily = [
     "wordIds": [
       "12931"
     ],
+    "cloze": {
+      "de": "festhalten",
+      "en": "hold"
+    },
     "sourceIndex": 2931
   },
   {
@@ -7597,6 +9381,10 @@ const phrasesDaily = [
     "wordIds": [
       "12932"
     ],
+    "cloze": {
+      "de": "Fitness",
+      "en": "fitness"
+    },
     "sourceIndex": 2932
   },
   {
@@ -7614,6 +9402,10 @@ const phrasesDaily = [
     "wordIds": [
       "12936"
     ],
+    "cloze": {
+      "de": "heben",
+      "en": "lift"
+    },
     "sourceIndex": 2936
   },
   {
@@ -7631,6 +9423,10 @@ const phrasesDaily = [
     "wordIds": [
       "12937"
     ],
+    "cloze": {
+      "de": "heimlich",
+      "en": "secretly"
+    },
     "sourceIndex": 2937
   },
   {
@@ -7648,6 +9444,10 @@ const phrasesDaily = [
     "wordIds": [
       "12941"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "conservative"
+    },
     "sourceIndex": 2941
   },
   {
@@ -7666,6 +9466,10 @@ const phrasesDaily = [
       "12953",
       "19304"
     ],
+    "cloze": {
+      "de": "Präsentation",
+      "en": "presentation"
+    },
     "sourceIndex": 2953
   },
   {
@@ -7683,6 +9487,10 @@ const phrasesDaily = [
     "wordIds": [
       "12956"
     ],
+    "cloze": {
+      "de": "Reihenfolge",
+      "en": "order"
+    },
     "sourceIndex": 2956
   },
   {
@@ -7700,6 +9508,10 @@ const phrasesDaily = [
     "wordIds": [
       "12962"
     ],
+    "cloze": {
+      "de": "stossen",
+      "en": "push"
+    },
     "sourceIndex": 2962
   },
   {
@@ -7717,6 +9529,10 @@ const phrasesDaily = [
     "wordIds": [
       "12963"
     ],
+    "cloze": {
+      "de": "streichen",
+      "en": "paint"
+    },
     "sourceIndex": 2963
   },
   {
@@ -7734,6 +9550,10 @@ const phrasesDaily = [
     "wordIds": [
       "12966"
     ],
+    "cloze": {
+      "de": "untereinander",
+      "en": "amongst"
+    },
     "sourceIndex": 2966
   },
   {
@@ -7751,6 +9571,10 @@ const phrasesDaily = [
     "wordIds": [
       "12969"
     ],
+    "cloze": {
+      "de": "Vision",
+      "en": "vision"
+    },
     "sourceIndex": 2969
   },
   {
@@ -7768,6 +9592,10 @@ const phrasesDaily = [
     "wordIds": [
       "12976"
     ],
+    "cloze": {
+      "de": "auf",
+      "en": "up"
+    },
     "sourceIndex": 2976
   },
   {
@@ -7785,6 +9613,10 @@ const phrasesDaily = [
     "wordIds": [
       "12981"
     ],
+    "cloze": {
+      "de": "Camp",
+      "en": "camp"
+    },
     "sourceIndex": 2981
   },
   {
@@ -7802,6 +9634,10 @@ const phrasesDaily = [
     "wordIds": [
       "12984"
     ],
+    "cloze": {
+      "de": "drinnen",
+      "en": "inside"
+    },
     "sourceIndex": 2984
   },
   {
@@ -7819,6 +9655,10 @@ const phrasesDaily = [
     "wordIds": [
       "12990"
     ],
+    "cloze": {
+      "de": "sein",
+      "en": "eats"
+    },
     "sourceIndex": 2990
   },
   {
@@ -7836,6 +9676,10 @@ const phrasesDaily = [
     "wordIds": [
       "12991"
     ],
+    "cloze": {
+      "de": "furchtbar",
+      "en": "terrible"
+    },
     "sourceIndex": 2991
   },
   {
@@ -7853,6 +9697,10 @@ const phrasesDaily = [
     "wordIds": [
       "12992"
     ],
+    "cloze": {
+      "de": "Gedächtnis",
+      "en": "memory"
+    },
     "sourceIndex": 2992
   },
   {
@@ -7870,6 +9718,10 @@ const phrasesDaily = [
     "wordIds": [
       "12998"
     ],
+    "cloze": {
+      "de": "illegale",
+      "en": "illegal"
+    },
     "sourceIndex": 2998
   },
   {
@@ -7887,6 +9739,10 @@ const phrasesDaily = [
     "wordIds": [
       "13003"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "physical"
+    },
     "sourceIndex": 3003
   },
   {
@@ -7904,6 +9760,10 @@ const phrasesDaily = [
     "wordIds": [
       "13008"
     ],
+    "cloze": {
+      "de": "nirgends",
+      "en": "find"
+    },
     "sourceIndex": 3008
   },
   {
@@ -7921,6 +9781,10 @@ const phrasesDaily = [
     "wordIds": [
       "13012"
     ],
+    "cloze": {
+      "de": "Reporter",
+      "en": "reporter"
+    },
     "sourceIndex": 3012
   },
   {
@@ -7938,6 +9802,10 @@ const phrasesDaily = [
     "wordIds": [
       "13017"
     ],
+    "cloze": {
+      "de": "Spielzeug",
+      "en": "toy"
+    },
     "sourceIndex": 3017
   },
   {
@@ -7955,6 +9823,10 @@ const phrasesDaily = [
     "wordIds": [
       "13023"
     ],
+    "cloze": {
+      "de": "Universum",
+      "en": "universe"
+    },
     "sourceIndex": 3023
   },
   {
@@ -7972,6 +9844,10 @@ const phrasesDaily = [
     "wordIds": [
       "13025"
     ],
+    "cloze": {
+      "de": "Wiese",
+      "en": "meadow"
+    },
     "sourceIndex": 3025
   },
   {
@@ -7989,6 +9865,10 @@ const phrasesDaily = [
     "wordIds": [
       "13027"
     ],
+    "cloze": {
+      "de": "Wüste",
+      "en": "desert"
+    },
     "sourceIndex": 3027
   },
   {
@@ -8006,6 +9886,10 @@ const phrasesDaily = [
     "wordIds": [
       "13029"
     ],
+    "cloze": {
+      "de": "Zusammenfassung",
+      "en": "summary"
+    },
     "sourceIndex": 3029
   },
   {
@@ -8023,6 +9907,10 @@ const phrasesDaily = [
     "wordIds": [
       "13038"
     ],
+    "cloze": {
+      "de": "bremer",
+      "en": "Bremen"
+    },
     "sourceIndex": 3038
   },
   {
@@ -8040,6 +9928,10 @@ const phrasesDaily = [
     "wordIds": [
       "13055"
     ],
+    "cloze": {
+      "de": "Katalog",
+      "en": "catalog"
+    },
     "sourceIndex": 3055
   },
   {
@@ -8057,6 +9949,10 @@ const phrasesDaily = [
     "wordIds": [
       "13057"
     ],
+    "cloze": {
+      "de": "Lärm",
+      "en": "noise"
+    },
     "sourceIndex": 3057
   },
   {
@@ -8074,6 +9970,10 @@ const phrasesDaily = [
     "wordIds": [
       "13058"
     ],
+    "cloze": {
+      "de": "Maske",
+      "en": "mask"
+    },
     "sourceIndex": 3058
   },
   {
@@ -8091,6 +9991,10 @@ const phrasesDaily = [
     "wordIds": [
       "13060"
     ],
+    "cloze": {
+      "de": "mehrere",
+      "en": "several"
+    },
     "sourceIndex": 3060
   },
   {
@@ -8108,6 +10012,10 @@ const phrasesDaily = [
     "wordIds": [
       "13062"
     ],
+    "cloze": {
+      "de": "nirgendwo",
+      "en": "my"
+    },
     "sourceIndex": 3062
   },
   {
@@ -8125,6 +10033,10 @@ const phrasesDaily = [
     "wordIds": [
       "13064"
     ],
+    "cloze": {
+      "de": "nützlich",
+      "en": "useful"
+    },
     "sourceIndex": 3064
   },
   {
@@ -8142,6 +10054,10 @@ const phrasesDaily = [
     "wordIds": [
       "13079"
     ],
+    "cloze": {
+      "de": "trauen",
+      "en": "trust"
+    },
     "sourceIndex": 3079
   },
   {
@@ -8159,6 +10075,10 @@ const phrasesDaily = [
     "wordIds": [
       "13082"
     ],
+    "cloze": {
+      "de": "vernünftige",
+      "en": "sensible"
+    },
     "sourceIndex": 3082
   },
   {
@@ -8176,6 +10096,10 @@ const phrasesDaily = [
     "wordIds": [
       "13085"
     ],
+    "cloze": {
+      "de": "Anblick",
+      "en": "sight"
+    },
     "sourceIndex": 3085
   },
   {
@@ -8193,6 +10117,10 @@ const phrasesDaily = [
     "wordIds": [
       "13091"
     ],
+    "cloze": {
+      "de": "Bauarbeiten",
+      "en": "construction"
+    },
     "sourceIndex": 3091
   },
   {
@@ -8210,6 +10138,10 @@ const phrasesDaily = [
     "wordIds": [
       "13093"
     ],
+    "cloze": {
+      "de": "Bronze",
+      "en": "bronze"
+    },
     "sourceIndex": 3093
   },
   {
@@ -8227,6 +10159,10 @@ const phrasesDaily = [
     "wordIds": [
       "13095"
     ],
+    "cloze": {
+      "de": "Comics",
+      "en": "comic"
+    },
     "sourceIndex": 3095
   },
   {
@@ -8244,6 +10180,10 @@ const phrasesDaily = [
     "wordIds": [
       "13105"
     ],
+    "cloze": {
+      "de": "geschlossen",
+      "en": "closed"
+    },
     "sourceIndex": 3105
   },
   {
@@ -8261,6 +10201,10 @@ const phrasesDaily = [
     "wordIds": [
       "13122"
     ],
+    "cloze": {
+      "de": "realisieren",
+      "en": "realize"
+    },
     "sourceIndex": 3122
   },
   {
@@ -8278,6 +10222,10 @@ const phrasesDaily = [
     "wordIds": [
       "13136"
     ],
+    "cloze": {
+      "de": "Verdienst",
+      "en": "earnings"
+    },
     "sourceIndex": 3136
   },
   {
@@ -8295,6 +10243,10 @@ const phrasesDaily = [
     "wordIds": [
       "13137"
     ],
+    "cloze": {
+      "de": "Verdienst",
+      "en": "earnings"
+    },
     "sourceIndex": 3137
   },
   {
@@ -8312,6 +10264,10 @@ const phrasesDaily = [
     "wordIds": [
       "13145"
     ],
+    "cloze": {
+      "de": "zurückkehren",
+      "en": "return"
+    },
     "sourceIndex": 3145
   },
   {
@@ -8329,6 +10285,10 @@ const phrasesDaily = [
     "wordIds": [
       "13153"
     ],
+    "cloze": {
+      "de": "betrunken",
+      "en": "drunk"
+    },
     "sourceIndex": 3153
   },
   {
@@ -8346,6 +10306,10 @@ const phrasesDaily = [
     "wordIds": [
       "13161"
     ],
+    "cloze": {
+      "de": "Dunkelheit",
+      "en": "Darkness"
+    },
     "sourceIndex": 3161
   },
   {
@@ -8363,6 +10327,10 @@ const phrasesDaily = [
     "wordIds": [
       "13164"
     ],
+    "cloze": {
+      "de": "faul",
+      "en": "lazy"
+    },
     "sourceIndex": 3164
   },
   {
@@ -8380,6 +10348,10 @@ const phrasesDaily = [
     "wordIds": [
       "13186"
     ],
+    "cloze": {
+      "de": "Kürze",
+      "en": "short"
+    },
     "sourceIndex": 3186
   },
   {
@@ -8397,6 +10369,10 @@ const phrasesDaily = [
     "wordIds": [
       "13202"
     ],
+    "cloze": {
+      "de": "Veranstalter",
+      "en": "organizer"
+    },
     "sourceIndex": 3202
   },
   {
@@ -8414,6 +10390,10 @@ const phrasesDaily = [
     "wordIds": [
       "13207"
     ],
+    "cloze": {
+      "de": "versagen",
+      "en": "fail"
+    },
     "sourceIndex": 3207
   },
   {
@@ -8431,6 +10411,10 @@ const phrasesDaily = [
     "wordIds": [
       "13208"
     ],
+    "cloze": {
+      "de": "versichern",
+      "en": "assure"
+    },
     "sourceIndex": 3208
   },
   {
@@ -8448,6 +10432,10 @@ const phrasesDaily = [
     "wordIds": [
       "13213"
     ],
+    "cloze": {
+      "de": "Arbeitsmarkt",
+      "en": "labor"
+    },
     "sourceIndex": 3213
   },
   {
@@ -8465,6 +10453,10 @@ const phrasesDaily = [
     "wordIds": [
       "13215"
     ],
+    "cloze": {
+      "de": "bedeutende",
+      "en": "significant"
+    },
     "sourceIndex": 3215
   },
   {
@@ -8482,6 +10474,10 @@ const phrasesDaily = [
     "wordIds": [
       "13221"
     ],
+    "cloze": {
+      "de": "circa",
+      "en": "approximately"
+    },
     "sourceIndex": 3221
   },
   {
@@ -8499,6 +10495,10 @@ const phrasesDaily = [
     "wordIds": [
       "13222"
     ],
+    "cloze": {
+      "de": "Cola",
+      "en": "cola"
+    },
     "sourceIndex": 3222
   },
   {
@@ -8516,6 +10516,10 @@ const phrasesDaily = [
     "wordIds": [
       "13233"
     ],
+    "cloze": {
+      "de": "Filter",
+      "en": "filter"
+    },
     "sourceIndex": 3233
   },
   {
@@ -8533,6 +10537,10 @@ const phrasesDaily = [
     "wordIds": [
       "13236"
     ],
+    "cloze": {
+      "de": "fröhlich",
+      "en": "happy"
+    },
     "sourceIndex": 3236
   },
   {
@@ -8550,6 +10558,10 @@ const phrasesDaily = [
     "wordIds": [
       "13237"
     ],
+    "cloze": {
+      "de": "Gaming",
+      "en": "Gaming"
+    },
     "sourceIndex": 3237
   },
   {
@@ -8567,6 +10579,10 @@ const phrasesDaily = [
     "wordIds": [
       "13239"
     ],
+    "cloze": {
+      "de": "geheimes",
+      "en": "secret"
+    },
     "sourceIndex": 3239
   },
   {
@@ -8584,6 +10600,10 @@ const phrasesDaily = [
     "wordIds": [
       "13263"
     ],
+    "cloze": {
+      "de": "gestoßen",
+      "en": "bumped"
+    },
     "sourceIndex": 3263
   },
   {
@@ -8601,6 +10621,10 @@ const phrasesDaily = [
     "wordIds": [
       "13277"
     ],
+    "cloze": {
+      "de": "Beobachtungen",
+      "en": "observations"
+    },
     "sourceIndex": 3277
   },
   {
@@ -8618,6 +10642,10 @@ const phrasesDaily = [
     "wordIds": [
       "13284"
     ],
+    "cloze": {
+      "de": "Eishockey",
+      "en": "Ice"
+    },
     "sourceIndex": 3284
   },
   {
@@ -8635,6 +10663,10 @@ const phrasesDaily = [
     "wordIds": [
       "13290"
     ],
+    "cloze": {
+      "de": "Hintern",
+      "en": "bottom"
+    },
     "sourceIndex": 3290
   },
   {
@@ -8652,6 +10684,10 @@ const phrasesDaily = [
     "wordIds": [
       "13309"
     ],
+    "cloze": {
+      "de": "Telefonnummer",
+      "en": "phone"
+    },
     "sourceIndex": 3309
   },
   {
@@ -8669,6 +10705,10 @@ const phrasesDaily = [
     "wordIds": [
       "13333"
     ],
+    "cloze": {
+      "de": "begreifen",
+      "en": "grasp"
+    },
     "sourceIndex": 3333
   },
   {
@@ -8686,6 +10726,10 @@ const phrasesDaily = [
     "wordIds": [
       "13347"
     ],
+    "cloze": {
+      "de": "erben",
+      "en": "inherit"
+    },
     "sourceIndex": 3347
   },
   {
@@ -8703,6 +10747,10 @@ const phrasesDaily = [
     "wordIds": [
       "13353"
     ],
+    "cloze": {
+      "de": "Gerücht",
+      "en": "rumor"
+    },
     "sourceIndex": 3353
   },
   {
@@ -8720,6 +10768,10 @@ const phrasesDaily = [
     "wordIds": [
       "13370"
     ],
+    "cloze": {
+      "de": "Podcasts",
+      "en": "podcasts"
+    },
     "sourceIndex": 3370
   },
   {
@@ -8737,6 +10789,10 @@ const phrasesDaily = [
     "wordIds": [
       "13377"
     ],
+    "cloze": {
+      "de": "sportlich",
+      "en": "sporty"
+    },
     "sourceIndex": 3377
   },
   {
@@ -8754,6 +10810,10 @@ const phrasesDaily = [
     "wordIds": [
       "13378"
     ],
+    "cloze": {
+      "de": "Tablet",
+      "en": "tablet"
+    },
     "sourceIndex": 3378
   },
   {
@@ -8771,6 +10831,10 @@ const phrasesDaily = [
     "wordIds": [
       "13379"
     ],
+    "cloze": {
+      "de": "Testament",
+      "en": "will"
+    },
     "sourceIndex": 3379
   },
   {
@@ -8788,6 +10852,10 @@ const phrasesDaily = [
     "wordIds": [
       "13384"
     ],
+    "cloze": {
+      "de": "Werkzeug",
+      "en": "tool"
+    },
     "sourceIndex": 3384
   },
   {
@@ -8805,6 +10873,10 @@ const phrasesDaily = [
     "wordIds": [
       "13386"
     ],
+    "cloze": {
+      "de": "Zigarette",
+      "en": "cigarette"
+    },
     "sourceIndex": 3386
   },
   {
@@ -8822,6 +10894,10 @@ const phrasesDaily = [
     "wordIds": [
       "13396"
     ],
+    "cloze": {
+      "de": "bedanken",
+      "en": "thank"
+    },
     "sourceIndex": 3396
   },
   {
@@ -8839,6 +10915,10 @@ const phrasesDaily = [
     "wordIds": [
       "13406"
     ],
+    "cloze": {
+      "de": "Fantasie",
+      "en": "a"
+    },
     "sourceIndex": 3406
   },
   {
@@ -8856,6 +10936,10 @@ const phrasesDaily = [
     "wordIds": [
       "13408"
     ],
+    "cloze": {
+      "de": "Gnade",
+      "en": "mercy"
+    },
     "sourceIndex": 3408
   },
   {
@@ -8873,6 +10957,10 @@ const phrasesDaily = [
     "wordIds": [
       "13411"
     ],
+    "cloze": {
+      "de": "Hauptmann",
+      "en": "captain"
+    },
     "sourceIndex": 3411
   },
   {
@@ -8890,6 +10978,10 @@ const phrasesDaily = [
     "wordIds": [
       "13417"
     ],
+    "cloze": {
+      "de": "Kopie",
+      "en": "copy"
+    },
     "sourceIndex": 3417
   },
   {
@@ -8907,6 +10999,10 @@ const phrasesDaily = [
     "wordIds": [
       "13424"
     ],
+    "cloze": {
+      "de": "Marktplatz",
+      "en": "marketplace"
+    },
     "sourceIndex": 3424
   },
   {
@@ -8924,6 +11020,10 @@ const phrasesDaily = [
     "wordIds": [
       "13431"
     ],
+    "cloze": {
+      "de": "regelmäßig",
+      "en": "regularly"
+    },
     "sourceIndex": 3431
   },
   {
@@ -8941,6 +11041,10 @@ const phrasesDaily = [
     "wordIds": [
       "13434"
     ],
+    "cloze": {
+      "de": "satt",
+      "en": "full"
+    },
     "sourceIndex": 3434
   },
   {
@@ -8958,6 +11062,10 @@ const phrasesDaily = [
     "wordIds": [
       "13442"
     ],
+    "cloze": {
+      "de": "stürzen",
+      "en": "fall"
+    },
     "sourceIndex": 3442
   },
   {
@@ -8975,6 +11083,10 @@ const phrasesDaily = [
     "wordIds": [
       "13446"
     ],
+    "cloze": {
+      "de": "unwahrscheinlich",
+      "en": "that"
+    },
     "sourceIndex": 3446
   },
   {
@@ -8992,6 +11104,10 @@ const phrasesDaily = [
     "wordIds": [
       "13450"
     ],
+    "cloze": {
+      "de": "Zeile",
+      "en": "line"
+    },
     "sourceIndex": 3450
   },
   {
@@ -9009,6 +11125,10 @@ const phrasesDaily = [
     "wordIds": [
       "13451"
     ],
+    "cloze": {
+      "de": "Zettel",
+      "en": "note"
+    },
     "sourceIndex": 3451
   },
   {
@@ -9026,6 +11146,10 @@ const phrasesDaily = [
     "wordIds": [
       "13456"
     ],
+    "cloze": {
+      "de": "ausmachen",
+      "en": "turn"
+    },
     "sourceIndex": 3456
   },
   {
@@ -9043,6 +11167,10 @@ const phrasesDaily = [
     "wordIds": [
       "13460"
     ],
+    "cloze": {
+      "de": "Bruch",
+      "en": "breaking"
+    },
     "sourceIndex": 3460
   },
   {
@@ -9060,6 +11188,10 @@ const phrasesDaily = [
     "wordIds": [
       "13462"
     ],
+    "cloze": {
+      "de": "deutschsprachigen",
+      "en": "German-speaking"
+    },
     "sourceIndex": 3462
   },
   {
@@ -9077,6 +11209,10 @@ const phrasesDaily = [
     "wordIds": [
       "13464"
     ],
+    "cloze": {
+      "de": "Echo",
+      "en": "echo"
+    },
     "sourceIndex": 3464
   },
   {
@@ -9094,6 +11230,10 @@ const phrasesDaily = [
     "wordIds": [
       "13469"
     ],
+    "cloze": {
+      "de": "Exemplar",
+      "en": "copy"
+    },
     "sourceIndex": 3469
   },
   {
@@ -9111,6 +11251,10 @@ const phrasesDaily = [
     "wordIds": [
       "13470"
     ],
+    "cloze": {
+      "de": "Explosion",
+      "en": "explosion"
+    },
     "sourceIndex": 3470
   },
   {
@@ -9128,6 +11272,10 @@ const phrasesDaily = [
     "wordIds": [
       "13471"
     ],
+    "cloze": {
+      "de": "Felsen",
+      "en": "rocks"
+    },
     "sourceIndex": 3471
   },
   {
@@ -9145,6 +11293,10 @@ const phrasesDaily = [
     "wordIds": [
       "13477"
     ],
+    "cloze": {
+      "de": "fügen",
+      "en": "add"
+    },
     "sourceIndex": 3477
   },
   {
@@ -9162,6 +11314,10 @@ const phrasesDaily = [
     "wordIds": [
       "13481"
     ],
+    "cloze": {
+      "de": "Kasten",
+      "en": "box"
+    },
     "sourceIndex": 3481
   },
   {
@@ -9179,6 +11335,10 @@ const phrasesDaily = [
     "wordIds": [
       "13486"
     ],
+    "cloze": {
+      "de": "markieren",
+      "en": "mark"
+    },
     "sourceIndex": 3486
   },
   {
@@ -9196,6 +11356,10 @@ const phrasesDaily = [
     "wordIds": [
       "13489"
     ],
+    "cloze": {
+      "de": "orientieren",
+      "en": "bearings"
+    },
     "sourceIndex": 3489
   },
   {
@@ -9213,6 +11377,10 @@ const phrasesDaily = [
     "wordIds": [
       "13492"
     ],
+    "cloze": {
+      "de": "sechste",
+      "en": "sixth"
+    },
     "sourceIndex": 3492
   },
   {
@@ -9230,6 +11398,10 @@ const phrasesDaily = [
     "wordIds": [
       "13498"
     ],
+    "cloze": {
+      "de": "Unterkunft",
+      "en": "accommodation"
+    },
     "sourceIndex": 3498
   },
   {
@@ -9247,6 +11419,10 @@ const phrasesDaily = [
     "wordIds": [
       "13500"
     ],
+    "cloze": {
+      "de": "Vermutung",
+      "en": "assumption"
+    },
     "sourceIndex": 3500
   },
   {
@@ -9264,6 +11440,10 @@ const phrasesDaily = [
     "wordIds": [
       "13503"
     ],
+    "cloze": {
+      "de": "Zaun",
+      "en": "fence"
+    },
     "sourceIndex": 3503
   },
   {
@@ -9281,6 +11461,10 @@ const phrasesDaily = [
     "wordIds": [
       "13514"
     ],
+    "cloze": {
+      "de": "Anbau",
+      "en": "cultivation"
+    },
     "sourceIndex": 3514
   },
   {
@@ -9298,6 +11482,10 @@ const phrasesDaily = [
     "wordIds": [
       "13521"
     ],
+    "cloze": {
+      "de": "Seifenblase",
+      "en": "bubble"
+    },
     "sourceIndex": 3521
   },
   {
@@ -9315,6 +11503,10 @@ const phrasesDaily = [
     "wordIds": [
       "13534"
     ],
+    "cloze": {
+      "de": "gewählte",
+      "en": "elected"
+    },
     "sourceIndex": 3534
   },
   {
@@ -9332,6 +11524,10 @@ const phrasesDaily = [
     "wordIds": [
       "13535"
     ],
+    "cloze": {
+      "de": "hessischen",
+      "en": "Hessian"
+    },
     "sourceIndex": 3535
   },
   {
@@ -9349,6 +11545,10 @@ const phrasesDaily = [
     "wordIds": [
       "13544"
     ],
+    "cloze": {
+      "de": "mitbringen",
+      "en": "bring"
+    },
     "sourceIndex": 3544
   },
   {
@@ -9366,6 +11566,10 @@ const phrasesDaily = [
     "wordIds": [
       "13567"
     ],
+    "cloze": {
+      "de": "Öffnung",
+      "en": "opening"
+    },
     "sourceIndex": 3567
   },
   {
@@ -9383,6 +11587,10 @@ const phrasesDaily = [
     "wordIds": [
       "13569"
     ],
+    "cloze": {
+      "de": "aktualisieren",
+      "en": "update"
+    },
     "sourceIndex": 3569
   },
   {
@@ -9400,6 +11608,10 @@ const phrasesDaily = [
     "wordIds": [
       "13570"
     ],
+    "cloze": {
+      "de": "Amateurfotograf",
+      "en": "amateur"
+    },
     "sourceIndex": 3570
   },
   {
@@ -9417,6 +11629,10 @@ const phrasesDaily = [
     "wordIds": [
       "13577"
     ],
+    "cloze": {
+      "de": "aufrecht",
+      "en": "upright"
+    },
     "sourceIndex": 3577
   },
   {
@@ -9434,6 +11650,10 @@ const phrasesDaily = [
     "wordIds": [
       "13591"
     ],
+    "cloze": {
+      "de": "Fantasy-Bücher",
+      "en": "fantasy"
+    },
     "sourceIndex": 3591
   },
   {
@@ -9451,6 +11671,10 @@ const phrasesDaily = [
     "wordIds": [
       "13593"
     ],
+    "cloze": {
+      "de": "Herausgeber",
+      "en": "editor"
+    },
     "sourceIndex": 3593
   },
   {
@@ -9468,6 +11692,10 @@ const phrasesDaily = [
     "wordIds": [
       "13596"
     ],
+    "cloze": {
+      "de": "Kantonen",
+      "en": "Switzerland"
+    },
     "sourceIndex": 3596
   },
   {
@@ -9485,6 +11713,10 @@ const phrasesDaily = [
     "wordIds": [
       "13598"
     ],
+    "cloze": {
+      "de": "Knoten",
+      "en": "knot"
+    },
     "sourceIndex": 3598
   },
   {
@@ -9502,6 +11734,10 @@ const phrasesDaily = [
     "wordIds": [
       "13601"
     ],
+    "cloze": {
+      "de": "lockte",
+      "en": "lured"
+    },
     "sourceIndex": 3601
   },
   {
@@ -9519,6 +11755,10 @@ const phrasesDaily = [
     "wordIds": [
       "13625"
     ],
+    "cloze": {
+      "de": "weiter",
+      "en": "continues"
+    },
     "sourceIndex": 3625
   },
   {
@@ -9536,6 +11776,10 @@ const phrasesDaily = [
     "wordIds": [
       "13632"
     ],
+    "cloze": {
+      "de": "auf",
+      "en": "a"
+    },
     "sourceIndex": 3632
   },
   {
@@ -9553,6 +11797,10 @@ const phrasesDaily = [
     "wordIds": [
       "13648"
     ],
+    "cloze": {
+      "de": "fix",
+      "en": "quickly"
+    },
     "sourceIndex": 3648
   },
   {
@@ -9570,6 +11818,10 @@ const phrasesDaily = [
     "wordIds": [
       "13650"
     ],
+    "cloze": {
+      "de": "Gift",
+      "en": "poison"
+    },
     "sourceIndex": 3650
   },
   {
@@ -9587,6 +11839,10 @@ const phrasesDaily = [
     "wordIds": [
       "13657"
     ],
+    "cloze": {
+      "de": "jagt",
+      "en": "chases"
+    },
     "sourceIndex": 3657
   },
   {
@@ -9604,6 +11860,10 @@ const phrasesDaily = [
     "wordIds": [
       "13664"
     ],
+    "cloze": {
+      "de": "künstlicher",
+      "en": "artificial"
+    },
     "sourceIndex": 3664
   },
   {
@@ -9621,6 +11881,10 @@ const phrasesDaily = [
     "wordIds": [
       "13691"
     ],
+    "cloze": {
+      "de": "absichtlich",
+      "en": "intentionally"
+    },
     "sourceIndex": 3691
   },
   {
@@ -9638,6 +11902,10 @@ const phrasesDaily = [
     "wordIds": [
       "13696"
     ],
+    "cloze": {
+      "de": "Ausblick",
+      "en": "view"
+    },
     "sourceIndex": 3696
   },
   {
@@ -9655,6 +11923,10 @@ const phrasesDaily = [
     "wordIds": [
       "13736"
     ],
+    "cloze": {
+      "de": "Spanier",
+      "en": "Spaniard"
+    },
     "sourceIndex": 3736
   },
   {
@@ -9672,6 +11944,10 @@ const phrasesDaily = [
     "wordIds": [
       "13737"
     ],
+    "cloze": {
+      "de": "Standpunkt",
+      "en": "viewpoint"
+    },
     "sourceIndex": 3737
   },
   {
@@ -9689,6 +11965,10 @@ const phrasesDaily = [
     "wordIds": [
       "13739"
     ],
+    "cloze": {
+      "de": "Sturz",
+      "en": "fall"
+    },
     "sourceIndex": 3739
   },
   {
@@ -9706,6 +11986,10 @@ const phrasesDaily = [
     "wordIds": [
       "13747"
     ],
+    "cloze": {
+      "de": "widersprechen",
+      "en": "contradict"
+    },
     "sourceIndex": 3747
   },
   {
@@ -9723,6 +12007,10 @@ const phrasesDaily = [
     "wordIds": [
       "13750"
     ],
+    "cloze": {
+      "de": "aggressiv",
+      "en": "aggressive"
+    },
     "sourceIndex": 3750
   },
   {
@@ -9740,6 +12028,10 @@ const phrasesDaily = [
     "wordIds": [
       "13753"
     ],
+    "cloze": {
+      "de": "anwenden",
+      "en": "apply"
+    },
     "sourceIndex": 3753
   },
   {
@@ -9757,6 +12049,10 @@ const phrasesDaily = [
     "wordIds": [
       "13770"
     ],
+    "cloze": {
+      "de": "Dokus",
+      "en": "documentaries"
+    },
     "sourceIndex": 3770
   },
   {
@@ -9774,6 +12070,10 @@ const phrasesDaily = [
     "wordIds": [
       "13771"
     ],
+    "cloze": {
+      "de": "eignet",
+      "en": "beginners"
+    },
     "sourceIndex": 3771
   },
   {
@@ -9791,6 +12091,10 @@ const phrasesDaily = [
     "wordIds": [
       "13781"
     ],
+    "cloze": {
+      "de": "Gottesdienst",
+      "en": "church"
+    },
     "sourceIndex": 3781
   },
   {
@@ -9808,6 +12112,10 @@ const phrasesDaily = [
     "wordIds": [
       "13787"
     ],
+    "cloze": {
+      "de": "Kreuzung",
+      "en": "intersection"
+    },
     "sourceIndex": 3787
   },
   {
@@ -9825,6 +12133,10 @@ const phrasesDaily = [
     "wordIds": [
       "13791"
     ],
+    "cloze": {
+      "de": "Po",
+      "en": "bottom"
+    },
     "sourceIndex": 3791
   },
   {
@@ -9842,6 +12154,10 @@ const phrasesDaily = [
     "wordIds": [
       "13793"
     ],
+    "cloze": {
+      "de": "problematisch",
+      "en": "problematic"
+    },
     "sourceIndex": 3793
   },
   {
@@ -9859,6 +12175,10 @@ const phrasesDaily = [
     "wordIds": [
       "13799"
     ],
+    "cloze": {
+      "de": "Sonnenschein",
+      "en": "sunshine"
+    },
     "sourceIndex": 3799
   },
   {
@@ -9876,6 +12196,10 @@ const phrasesDaily = [
     "wordIds": [
       "13801"
     ],
+    "cloze": {
+      "de": "Statement",
+      "en": "statement"
+    },
     "sourceIndex": 3801
   },
   {
@@ -9893,6 +12217,10 @@ const phrasesDaily = [
     "wordIds": [
       "13819"
     ],
+    "cloze": {
+      "de": "Beobachter",
+      "en": "observer"
+    },
     "sourceIndex": 3819
   },
   {
@@ -9910,6 +12238,10 @@ const phrasesDaily = [
     "wordIds": [
       "13845"
     ],
+    "cloze": {
+      "de": "Label",
+      "en": "label"
+    },
     "sourceIndex": 3845
   },
   {
@@ -9927,6 +12259,10 @@ const phrasesDaily = [
     "wordIds": [
       "13847"
     ],
+    "cloze": {
+      "de": "Massstab",
+      "en": "scale"
+    },
     "sourceIndex": 3847
   },
   {
@@ -9944,6 +12280,10 @@ const phrasesDaily = [
     "wordIds": [
       "13864"
     ],
+    "cloze": {
+      "de": "spazieren",
+      "en": "walk"
+    },
     "sourceIndex": 3864
   },
   {
@@ -9961,6 +12301,10 @@ const phrasesDaily = [
     "wordIds": [
       "13870"
     ],
+    "cloze": {
+      "de": "Vertretung",
+      "en": "substitute"
+    },
     "sourceIndex": 3870
   },
   {
@@ -9978,6 +12322,10 @@ const phrasesDaily = [
     "wordIds": [
       "13888"
     ],
+    "cloze": {
+      "de": "Benehmen",
+      "en": "behavior"
+    },
     "sourceIndex": 3888
   },
   {
@@ -9995,6 +12343,10 @@ const phrasesDaily = [
     "wordIds": [
       "13890"
     ],
+    "cloze": {
+      "de": "Call",
+      "en": "call"
+    },
     "sourceIndex": 3890
   },
   {
@@ -10012,6 +12364,10 @@ const phrasesDaily = [
     "wordIds": [
       "13893"
     ],
+    "cloze": {
+      "de": "entnehmen",
+      "en": "infer"
+    },
     "sourceIndex": 3893
   },
   {
@@ -10029,6 +12385,10 @@ const phrasesDaily = [
     "wordIds": [
       "13902"
     ],
+    "cloze": {
+      "de": "indisches",
+      "en": "Indian"
+    },
     "sourceIndex": 3902
   },
   {
@@ -10046,6 +12406,10 @@ const phrasesDaily = [
     "wordIds": [
       "13909"
     ],
+    "cloze": {
+      "de": "Kiste",
+      "en": "box"
+    },
     "sourceIndex": 3909
   },
   {
@@ -10063,6 +12427,10 @@ const phrasesDaily = [
     "wordIds": [
       "13921"
     ],
+    "cloze": {
+      "de": "Panorama",
+      "en": "panorama"
+    },
     "sourceIndex": 3921
   },
   {
@@ -10080,6 +12448,10 @@ const phrasesDaily = [
     "wordIds": [
       "13926"
     ],
+    "cloze": {
+      "de": "Rakete",
+      "en": "rocket"
+    },
     "sourceIndex": 3926
   },
   {
@@ -10097,6 +12469,10 @@ const phrasesDaily = [
     "wordIds": [
       "13933"
     ],
+    "cloze": {
+      "de": "Schwedisch",
+      "en": "Swedish"
+    },
     "sourceIndex": 3933
   },
   {
@@ -10114,6 +12490,10 @@ const phrasesDaily = [
     "wordIds": [
       "13937"
     ],
+    "cloze": {
+      "de": "Spaziergang",
+      "en": "walk"
+    },
     "sourceIndex": 3937
   },
   {
@@ -10131,6 +12511,10 @@ const phrasesDaily = [
     "wordIds": [
       "13943"
     ],
+    "cloze": {
+      "de": "telefonieren",
+      "en": "call"
+    },
     "sourceIndex": 3943
   },
   {
@@ -10148,6 +12532,10 @@ const phrasesDaily = [
     "wordIds": [
       "13948"
     ],
+    "cloze": {
+      "de": "Verspätung",
+      "en": "delay"
+    },
     "sourceIndex": 3948
   },
   {
@@ -10165,6 +12553,10 @@ const phrasesDaily = [
     "wordIds": [
       "13949"
     ],
+    "cloze": {
+      "de": "verwandt",
+      "en": "related"
+    },
     "sourceIndex": 3949
   },
   {
@@ -10182,6 +12574,10 @@ const phrasesDaily = [
     "wordIds": [
       "13959"
     ],
+    "cloze": {
+      "de": "Ampel",
+      "en": "traffic"
+    },
     "sourceIndex": 3959
   },
   {
@@ -10199,6 +12595,10 @@ const phrasesDaily = [
     "wordIds": [
       "13961"
     ],
+    "cloze": {
+      "de": "aussuchen",
+      "en": "choose"
+    },
     "sourceIndex": 3961
   },
   {
@@ -10216,6 +12616,10 @@ const phrasesDaily = [
     "wordIds": [
       "13972"
     ],
+    "cloze": {
+      "de": "feucht",
+      "en": "damp"
+    },
     "sourceIndex": 3972
   },
   {
@@ -10233,6 +12637,10 @@ const phrasesDaily = [
     "wordIds": [
       "13973"
     ],
+    "cloze": {
+      "de": "Filiale",
+      "en": "branch"
+    },
     "sourceIndex": 3973
   },
   {
@@ -10250,6 +12658,10 @@ const phrasesDaily = [
     "wordIds": [
       "13975"
     ],
+    "cloze": {
+      "de": "Fotograf",
+      "en": "photographer"
+    },
     "sourceIndex": 3975
   },
   {
@@ -10267,6 +12679,10 @@ const phrasesDaily = [
     "wordIds": [
       "13991"
     ],
+    "cloze": {
+      "de": "parken",
+      "en": "park"
+    },
     "sourceIndex": 3991
   },
   {
@@ -10284,6 +12700,10 @@ const phrasesDaily = [
     "wordIds": [
       "14026"
     ],
+    "cloze": {
+      "de": "Audio",
+      "en": "audio"
+    },
     "sourceIndex": 4026
   },
   {
@@ -10301,6 +12721,10 @@ const phrasesDaily = [
     "wordIds": [
       "14032"
     ],
+    "cloze": {
+      "de": "Diener",
+      "en": "servant"
+    },
     "sourceIndex": 4032
   },
   {
@@ -10318,6 +12742,10 @@ const phrasesDaily = [
     "wordIds": [
       "14043"
     ],
+    "cloze": {
+      "de": "Fässern",
+      "en": "barrels"
+    },
     "sourceIndex": 4043
   },
   {
@@ -10335,6 +12763,10 @@ const phrasesDaily = [
     "wordIds": [
       "14045"
     ],
+    "cloze": {
+      "de": "Flüssigkeit",
+      "en": "liquid"
+    },
     "sourceIndex": 4045
   },
   {
@@ -10352,6 +12784,10 @@ const phrasesDaily = [
     "wordIds": [
       "14051"
     ],
+    "cloze": {
+      "de": "hintereinander",
+      "en": "one"
+    },
     "sourceIndex": 4051
   },
   {
@@ -10369,6 +12805,10 @@ const phrasesDaily = [
     "wordIds": [
       "14054"
     ],
+    "cloze": {
+      "de": "Klappe",
+      "en": "flap"
+    },
     "sourceIndex": 4054
   },
   {
@@ -10386,6 +12826,10 @@ const phrasesDaily = [
     "wordIds": [
       "14061"
     ],
+    "cloze": {
+      "de": "Priorität",
+      "en": "priority"
+    },
     "sourceIndex": 4061
   },
   {
@@ -10403,6 +12847,10 @@ const phrasesDaily = [
     "wordIds": [
       "14080"
     ],
+    "cloze": {
+      "de": "weitermachen",
+      "en": "continue"
+    },
     "sourceIndex": 4080
   },
   {
@@ -10420,6 +12868,10 @@ const phrasesDaily = [
     "wordIds": [
       "14084"
     ],
+    "cloze": {
+      "de": "zueinander",
+      "en": "each"
+    },
     "sourceIndex": 4084
   },
   {
@@ -10437,6 +12889,10 @@ const phrasesDaily = [
     "wordIds": [
       "14088"
     ],
+    "cloze": {
+      "de": "Abwesenheit",
+      "en": "absence"
+    },
     "sourceIndex": 4088
   },
   {
@@ -10454,6 +12910,10 @@ const phrasesDaily = [
     "wordIds": [
       "14090"
     ],
+    "cloze": {
+      "de": "angegebenen",
+      "en": "stated"
+    },
     "sourceIndex": 4090
   },
   {
@@ -10471,6 +12931,10 @@ const phrasesDaily = [
     "wordIds": [
       "14098"
     ],
+    "cloze": {
+      "de": "Brett",
+      "en": "board"
+    },
     "sourceIndex": 4098
   },
   {
@@ -10488,6 +12952,10 @@ const phrasesDaily = [
     "wordIds": [
       "14104"
     ],
+    "cloze": {
+      "de": "Channel",
+      "en": "channel"
+    },
     "sourceIndex": 4104
   },
   {
@@ -10505,6 +12973,10 @@ const phrasesDaily = [
     "wordIds": [
       "14110"
     ],
+    "cloze": {
+      "de": "drängte",
+      "en": "urged"
+    },
     "sourceIndex": 4110
   },
   {
@@ -10522,6 +12994,10 @@ const phrasesDaily = [
     "wordIds": [
       "14117"
     ],
+    "cloze": {
+      "de": "Gabe",
+      "en": "gift"
+    },
     "sourceIndex": 4117
   },
   {
@@ -10539,6 +13015,10 @@ const phrasesDaily = [
     "wordIds": [
       "14122"
     ],
+    "cloze": {
+      "de": "Leber",
+      "en": "liver"
+    },
     "sourceIndex": 4122
   },
   {
@@ -10556,6 +13036,10 @@ const phrasesDaily = [
     "wordIds": [
       "14127"
     ],
+    "cloze": {
+      "de": "Pension",
+      "en": "guesthouse"
+    },
     "sourceIndex": 4127
   },
   {
@@ -10573,6 +13057,10 @@ const phrasesDaily = [
     "wordIds": [
       "14141"
     ],
+    "cloze": {
+      "de": "Tastatur",
+      "en": "keyboard"
+    },
     "sourceIndex": 4141
   },
   {
@@ -10590,6 +13078,10 @@ const phrasesDaily = [
     "wordIds": [
       "14144"
     ],
+    "cloze": {
+      "de": "Trailer",
+      "en": "trailer"
+    },
     "sourceIndex": 4144
   },
   {
@@ -10607,6 +13099,10 @@ const phrasesDaily = [
     "wordIds": [
       "14151"
     ],
+    "cloze": {
+      "de": "Verzeichnis",
+      "en": "directory"
+    },
     "sourceIndex": 4151
   },
   {
@@ -10624,6 +13120,10 @@ const phrasesDaily = [
     "wordIds": [
       "14167"
     ],
+    "cloze": {
+      "de": "ein",
+      "en": "classic"
+    },
     "sourceIndex": 4167
   },
   {
@@ -10641,6 +13141,10 @@ const phrasesDaily = [
     "wordIds": [
       "14170"
     ],
+    "cloze": {
+      "de": "Drache",
+      "en": "kite"
+    },
     "sourceIndex": 4170
   },
   {
@@ -10658,6 +13162,10 @@ const phrasesDaily = [
     "wordIds": [
       "14171"
     ],
+    "cloze": {
+      "de": "drüben",
+      "en": "over"
+    },
     "sourceIndex": 4171
   },
   {
@@ -10675,6 +13183,10 @@ const phrasesDaily = [
     "wordIds": [
       "14183"
     ],
+    "cloze": {
+      "de": "fotografieren",
+      "en": "photograph"
+    },
     "sourceIndex": 4183
   },
   {
@@ -10692,6 +13204,10 @@ const phrasesDaily = [
     "wordIds": [
       "14189"
     ],
+    "cloze": {
+      "de": "Hang",
+      "en": "slope"
+    },
     "sourceIndex": 4189
   },
   {
@@ -10709,6 +13225,10 @@ const phrasesDaily = [
     "wordIds": [
       "14191"
     ],
+    "cloze": {
+      "de": "herein",
+      "en": "in"
+    },
     "sourceIndex": 4191
   },
   {
@@ -10726,6 +13246,10 @@ const phrasesDaily = [
     "wordIds": [
       "14216"
     ],
+    "cloze": {
+      "de": "vorwerfen",
+      "en": "accuse"
+    },
     "sourceIndex": 4216
   },
   {
@@ -10743,6 +13267,10 @@ const phrasesDaily = [
     "wordIds": [
       "14231"
     ],
+    "cloze": {
+      "de": "bescheuerte",
+      "en": "stupid"
+    },
     "sourceIndex": 4231
   },
   {
@@ -10760,6 +13288,10 @@ const phrasesDaily = [
     "wordIds": [
       "14232"
     ],
+    "cloze": {
+      "de": "Charme",
+      "en": "charm"
+    },
     "sourceIndex": 4232
   },
   {
@@ -10777,6 +13309,10 @@ const phrasesDaily = [
     "wordIds": [
       "14247"
     ],
+    "cloze": {
+      "de": "Heimspiel",
+      "en": "home"
+    },
     "sourceIndex": 4247
   },
   {
@@ -10794,6 +13330,10 @@ const phrasesDaily = [
     "wordIds": [
       "14249"
     ],
+    "cloze": {
+      "de": "herausfinden",
+      "en": "find"
+    },
     "sourceIndex": 4249
   },
   {
@@ -10811,6 +13351,10 @@ const phrasesDaily = [
     "wordIds": [
       "14252"
     ],
+    "cloze": {
+      "de": "kombinieren",
+      "en": "combine"
+    },
     "sourceIndex": 4252
   },
   {
@@ -10828,6 +13372,10 @@ const phrasesDaily = [
     "wordIds": [
       "14279"
     ],
+    "cloze": {
+      "de": "verbessert",
+      "en": "improved"
+    },
     "sourceIndex": 4279
   },
   {
@@ -10845,6 +13393,10 @@ const phrasesDaily = [
     "wordIds": [
       "14312"
     ],
+    "cloze": {
+      "de": "erwähnte",
+      "en": "mentioned"
+    },
     "sourceIndex": 4312
   },
   {
@@ -10862,6 +13414,10 @@ const phrasesDaily = [
     "wordIds": [
       "14316"
     ],
+    "cloze": {
+      "de": "Glaube",
+      "en": "belief"
+    },
     "sourceIndex": 4316
   },
   {
@@ -10879,6 +13435,10 @@ const phrasesDaily = [
     "wordIds": [
       "14320"
     ],
+    "cloze": {
+      "de": "humane",
+      "en": "humane"
+    },
     "sourceIndex": 4320
   },
   {
@@ -10896,6 +13456,10 @@ const phrasesDaily = [
     "wordIds": [
       "14325"
     ],
+    "cloze": {
+      "de": "letztens",
+      "en": "recently"
+    },
     "sourceIndex": 4325
   },
   {
@@ -10913,6 +13477,10 @@ const phrasesDaily = [
     "wordIds": [
       "14332"
     ],
+    "cloze": {
+      "de": "naiv",
+      "en": "naive"
+    },
     "sourceIndex": 4332
   },
   {
@@ -10930,6 +13498,10 @@ const phrasesDaily = [
     "wordIds": [
       "14352"
     ],
+    "cloze": {
+      "de": "ungern",
+      "en": "reluctantly"
+    },
     "sourceIndex": 4352
   },
   {
@@ -10947,6 +13519,10 @@ const phrasesDaily = [
     "wordIds": [
       "14377"
     ],
+    "cloze": {
+      "de": "Energy",
+      "en": "energy"
+    },
     "sourceIndex": 4377
   },
   {
@@ -10964,6 +13540,10 @@ const phrasesDaily = [
     "wordIds": [
       "14379"
     ],
+    "cloze": {
+      "de": "Esel",
+      "en": "donkey"
+    },
     "sourceIndex": 4379
   },
   {
@@ -10981,6 +13561,10 @@ const phrasesDaily = [
     "wordIds": [
       "14381"
     ],
+    "cloze": {
+      "de": "Feierabend",
+      "en": "work"
+    },
     "sourceIndex": 4381
   },
   {
@@ -10998,6 +13582,10 @@ const phrasesDaily = [
     "wordIds": [
       "14385"
     ],
+    "cloze": {
+      "de": "Fund",
+      "en": "find"
+    },
     "sourceIndex": 4385
   },
   {
@@ -11015,6 +13603,10 @@ const phrasesDaily = [
     "wordIds": [
       "14395"
     ],
+    "cloze": {
+      "de": "Indianer",
+      "en": "Native"
+    },
     "sourceIndex": 4395
   },
   {
@@ -11032,6 +13624,10 @@ const phrasesDaily = [
     "wordIds": [
       "14404"
     ],
+    "cloze": {
+      "de": "Millimeter",
+      "en": "millimeters"
+    },
     "sourceIndex": 4404
   },
   {
@@ -11049,6 +13645,10 @@ const phrasesDaily = [
     "wordIds": [
       "14407"
     ],
+    "cloze": {
+      "de": "nebeneinander",
+      "en": "next"
+    },
     "sourceIndex": 4407
   },
   {
@@ -11066,6 +13666,10 @@ const phrasesDaily = [
     "wordIds": [
       "14409"
     ],
+    "cloze": {
+      "de": "Niederländisch",
+      "en": "Dutch"
+    },
     "sourceIndex": 4409
   },
   {
@@ -11083,6 +13687,10 @@ const phrasesDaily = [
     "wordIds": [
       "14411"
     ],
+    "cloze": {
+      "de": "Outfit",
+      "en": "outfit"
+    },
     "sourceIndex": 4411
   },
   {
@@ -11100,6 +13708,10 @@ const phrasesDaily = [
     "wordIds": [
       "14415"
     ],
+    "cloze": {
+      "de": "Pen",
+      "en": "pen"
+    },
     "sourceIndex": 4415
   },
   {
@@ -11117,6 +13729,10 @@ const phrasesDaily = [
     "wordIds": [
       "14426"
     ],
+    "cloze": {
+      "de": "Stall",
+      "en": "stable"
+    },
     "sourceIndex": 4426
   },
   {
@@ -11134,6 +13750,10 @@ const phrasesDaily = [
     "wordIds": [
       "14432"
     ],
+    "cloze": {
+      "de": "ungarisch",
+      "en": "Hungarian"
+    },
     "sourceIndex": 4432
   },
   {
@@ -11151,6 +13771,10 @@ const phrasesDaily = [
     "wordIds": [
       "14439"
     ],
+    "cloze": {
+      "de": "verändert",
+      "en": "changed"
+    },
     "sourceIndex": 4439
   },
   {
@@ -11168,6 +13792,10 @@ const phrasesDaily = [
     "wordIds": [
       "14441"
     ],
+    "cloze": {
+      "de": "Wache",
+      "en": "guard"
+    },
     "sourceIndex": 4441
   },
   {
@@ -11185,6 +13813,10 @@ const phrasesDaily = [
     "wordIds": [
       "14460"
     ],
+    "cloze": {
+      "de": "Board",
+      "en": "board"
+    },
     "sourceIndex": 4460
   },
   {
@@ -11202,6 +13834,10 @@ const phrasesDaily = [
     "wordIds": [
       "14478"
     ],
+    "cloze": {
+      "de": "Geste",
+      "en": "gesture"
+    },
     "sourceIndex": 4478
   },
   {
@@ -11219,6 +13855,10 @@ const phrasesDaily = [
     "wordIds": [
       "14482"
     ],
+    "cloze": {
+      "de": "Klarheit",
+      "en": "clarity"
+    },
     "sourceIndex": 4482
   },
   {
@@ -11236,6 +13876,10 @@ const phrasesDaily = [
     "wordIds": [
       "14489"
     ],
+    "cloze": {
+      "de": "mies",
+      "en": "lousy"
+    },
     "sourceIndex": 4489
   },
   {
@@ -11253,6 +13897,10 @@ const phrasesDaily = [
     "wordIds": [
       "14490"
     ],
+    "cloze": {
+      "de": "mischen",
+      "en": "shuffle"
+    },
     "sourceIndex": 4490
   },
   {
@@ -11270,6 +13918,10 @@ const phrasesDaily = [
     "wordIds": [
       "14498"
     ],
+    "cloze": {
+      "de": "Rezeption",
+      "en": "reception"
+    },
     "sourceIndex": 4498
   },
   {
@@ -11287,6 +13939,10 @@ const phrasesDaily = [
     "wordIds": [
       "14502"
     ],
+    "cloze": {
+      "de": "syrische",
+      "en": "Syrian"
+    },
     "sourceIndex": 4502
   },
   {
@@ -11304,6 +13960,10 @@ const phrasesDaily = [
     "wordIds": [
       "14506"
     ],
+    "cloze": {
+      "de": "umzubringen",
+      "en": "kill"
+    },
     "sourceIndex": 4506
   },
   {
@@ -11321,6 +13981,10 @@ const phrasesDaily = [
     "wordIds": [
       "14516"
     ],
+    "cloze": {
+      "de": "Zutaten",
+      "en": "ingredients"
+    },
     "sourceIndex": 4516
   },
   {
@@ -11338,6 +14002,10 @@ const phrasesDaily = [
     "wordIds": [
       "14519"
     ],
+    "cloze": {
+      "de": "anderswo",
+      "en": "elsewhere"
+    },
     "sourceIndex": 4519
   },
   {
@@ -11355,6 +14023,10 @@ const phrasesDaily = [
     "wordIds": [
       "14521"
     ],
+    "cloze": {
+      "de": "aufmachen",
+      "en": "open"
+    },
     "sourceIndex": 4521
   },
   {
@@ -11372,6 +14044,10 @@ const phrasesDaily = [
     "wordIds": [
       "14524"
     ],
+    "cloze": {
+      "de": "beiseite",
+      "en": "aside"
+    },
     "sourceIndex": 4524
   },
   {
@@ -11389,6 +14065,10 @@ const phrasesDaily = [
     "wordIds": [
       "14528"
     ],
+    "cloze": {
+      "de": "Dialekt",
+      "en": "dialect"
+    },
     "sourceIndex": 4528
   },
   {
@@ -11406,6 +14086,10 @@ const phrasesDaily = [
     "wordIds": [
       "14534"
     ],
+    "cloze": {
+      "de": "freigegeben",
+      "en": "released"
+    },
     "sourceIndex": 4534
   },
   {
@@ -11423,6 +14107,10 @@ const phrasesDaily = [
     "wordIds": [
       "14535"
     ],
+    "cloze": {
+      "de": "Frost",
+      "en": "frost"
+    },
     "sourceIndex": 4535
   },
   {
@@ -11440,6 +14128,10 @@ const phrasesDaily = [
     "wordIds": [
       "14538"
     ],
+    "cloze": {
+      "de": "Grube",
+      "en": "pit"
+    },
     "sourceIndex": 4538
   },
   {
@@ -11457,6 +14149,10 @@ const phrasesDaily = [
     "wordIds": [
       "14539"
     ],
+    "cloze": {
+      "de": "Gärtner",
+      "en": "gardener"
+    },
     "sourceIndex": 4539
   },
   {
@@ -11474,6 +14170,10 @@ const phrasesDaily = [
     "wordIds": [
       "14549"
     ],
+    "cloze": {
+      "de": "Maut",
+      "en": "toll"
+    },
     "sourceIndex": 4549
   },
   {
@@ -11491,6 +14191,10 @@ const phrasesDaily = [
     "wordIds": [
       "14554"
     ],
+    "cloze": {
+      "de": "Page",
+      "en": "bellboy"
+    },
     "sourceIndex": 4554
   },
   {
@@ -11508,6 +14212,10 @@ const phrasesDaily = [
     "wordIds": [
       "14559"
     ],
+    "cloze": {
+      "de": "Roller",
+      "en": "scooter"
+    },
     "sourceIndex": 4559
   },
   {
@@ -11525,6 +14233,10 @@ const phrasesDaily = [
     "wordIds": [
       "14561"
     ],
+    "cloze": {
+      "de": "Rückblick",
+      "en": "retrospect"
+    },
     "sourceIndex": 4561
   },
   {
@@ -11542,6 +14254,10 @@ const phrasesDaily = [
     "wordIds": [
       "14563"
     ],
+    "cloze": {
+      "de": "schwäbischen",
+      "en": "Swabian"
+    },
     "sourceIndex": 4563
   },
   {
@@ -11559,6 +14275,10 @@ const phrasesDaily = [
     "wordIds": [
       "14582"
     ],
+    "cloze": {
+      "de": "ab",
+      "en": "cut"
+    },
     "sourceIndex": 4582
   },
   {
@@ -11576,6 +14296,10 @@ const phrasesDaily = [
     "wordIds": [
       "14601"
     ],
+    "cloze": {
+      "de": "Feuerwerk",
+      "en": "fireworks"
+    },
     "sourceIndex": 4601
   },
   {
@@ -11593,6 +14317,10 @@ const phrasesDaily = [
     "wordIds": [
       "14613"
     ],
+    "cloze": {
+      "de": "Kurier",
+      "en": "courier"
+    },
     "sourceIndex": 4613
   },
   {
@@ -11610,6 +14338,10 @@ const phrasesDaily = [
     "wordIds": [
       "14620"
     ],
+    "cloze": {
+      "de": "Pommes",
+      "en": "fries"
+    },
     "sourceIndex": 4620
   },
   {
@@ -11627,6 +14359,10 @@ const phrasesDaily = [
     "wordIds": [
       "14628"
     ],
+    "cloze": {
+      "de": "Salon",
+      "en": "salon"
+    },
     "sourceIndex": 4628
   },
   {
@@ -11644,6 +14380,10 @@ const phrasesDaily = [
     "wordIds": [
       "14630"
     ],
+    "cloze": {
+      "de": "schräg",
+      "en": "a"
+    },
     "sourceIndex": 4630
   },
   {
@@ -11661,6 +14401,10 @@ const phrasesDaily = [
     "wordIds": [
       "14631"
     ],
+    "cloze": {
+      "de": "Schublade",
+      "en": "drawer"
+    },
     "sourceIndex": 4631
   },
   {
@@ -11678,6 +14422,10 @@ const phrasesDaily = [
     "wordIds": [
       "14648"
     ],
+    "cloze": {
+      "de": "Walker",
+      "en": "walker"
+    },
     "sourceIndex": 4648
   },
   {
@@ -11695,6 +14443,10 @@ const phrasesDaily = [
     "wordIds": [
       "14651"
     ],
+    "cloze": {
+      "de": "abschalten",
+      "en": "switch"
+    },
     "sourceIndex": 4651
   },
   {
@@ -11712,6 +14464,10 @@ const phrasesDaily = [
     "wordIds": [
       "14668"
     ],
+    "cloze": {
+      "de": "Feiertag",
+      "en": "public"
+    },
     "sourceIndex": 4668
   },
   {
@@ -11729,6 +14485,10 @@ const phrasesDaily = [
     "wordIds": [
       "14675"
     ],
+    "cloze": {
+      "de": "Handschrift",
+      "en": "handwriting"
+    },
     "sourceIndex": 4675
   },
   {
@@ -11746,6 +14506,10 @@ const phrasesDaily = [
     "wordIds": [
       "14691"
     ],
+    "cloze": {
+      "de": "Newsletter",
+      "en": "newsletter"
+    },
     "sourceIndex": 4691
   },
   {
@@ -11763,6 +14527,10 @@ const phrasesDaily = [
     "wordIds": [
       "14692"
     ],
+    "cloze": {
+      "de": "Notiz",
+      "en": "note"
+    },
     "sourceIndex": 4692
   },
   {
@@ -11780,6 +14548,10 @@ const phrasesDaily = [
     "wordIds": [
       "14704"
     ],
+    "cloze": {
+      "de": "Sonnenuntergang",
+      "en": "sunset"
+    },
     "sourceIndex": 4704
   },
   {
@@ -11797,6 +14569,10 @@ const phrasesDaily = [
     "wordIds": [
       "14705"
     ],
+    "cloze": {
+      "de": "Spinner",
+      "en": "weirdo"
+    },
     "sourceIndex": 4705
   },
   {
@@ -11814,6 +14590,10 @@ const phrasesDaily = [
     "wordIds": [
       "14706"
     ],
+    "cloze": {
+      "de": "spritzten",
+      "en": "sprayed"
+    },
     "sourceIndex": 4706
   },
   {
@@ -11831,6 +14611,10 @@ const phrasesDaily = [
     "wordIds": [
       "14710"
     ],
+    "cloze": {
+      "de": "Taufe",
+      "en": "baptism"
+    },
     "sourceIndex": 4710
   },
   {
@@ -11848,6 +14632,10 @@ const phrasesDaily = [
     "wordIds": [
       "14745"
     ],
+    "cloze": {
+      "de": "faszinierend",
+      "en": "fascinating"
+    },
     "sourceIndex": 4745
   },
   {
@@ -11865,6 +14653,10 @@ const phrasesDaily = [
     "wordIds": [
       "14751"
     ],
+    "cloze": {
+      "de": "Gehör",
+      "en": "He"
+    },
     "sourceIndex": 4751
   },
   {
@@ -11882,6 +14674,10 @@ const phrasesDaily = [
     "wordIds": [
       "14759"
     ],
+    "cloze": {
+      "de": "Heimatstadt",
+      "en": "hometown"
+    },
     "sourceIndex": 4759
   },
   {
@@ -11899,6 +14695,10 @@ const phrasesDaily = [
     "wordIds": [
       "14764"
     ],
+    "cloze": {
+      "de": "Jahrbuch",
+      "en": "yearbook"
+    },
     "sourceIndex": 4764
   },
   {
@@ -11916,6 +14716,10 @@ const phrasesDaily = [
     "wordIds": [
       "14769"
     ],
+    "cloze": {
+      "de": "Kontinent",
+      "en": "continent"
+    },
     "sourceIndex": 4769
   },
   {
@@ -11933,6 +14737,10 @@ const phrasesDaily = [
     "wordIds": [
       "14772"
     ],
+    "cloze": {
+      "de": "lateinische",
+      "en": "Latin"
+    },
     "sourceIndex": 4772
   },
   {
@@ -11950,6 +14758,10 @@ const phrasesDaily = [
     "wordIds": [
       "14775"
     ],
+    "cloze": {
+      "de": "Menü",
+      "en": "menu"
+    },
     "sourceIndex": 4775
   },
   {
@@ -11967,6 +14779,10 @@ const phrasesDaily = [
     "wordIds": [
       "14777"
     ],
+    "cloze": {
+      "de": "Mütze",
+      "en": "cap"
+    },
     "sourceIndex": 4777
   },
   {
@@ -11984,6 +14800,10 @@ const phrasesDaily = [
     "wordIds": [
       "14778"
     ],
+    "cloze": {
+      "de": "nervig",
+      "en": "annoying"
+    },
     "sourceIndex": 4778
   },
   {
@@ -12001,6 +14821,10 @@ const phrasesDaily = [
     "wordIds": [
       "14784"
     ],
+    "cloze": {
+      "de": "Schnitzel",
+      "en": "Schnitzel"
+    },
     "sourceIndex": 4784
   },
   {
@@ -12018,6 +14842,10 @@ const phrasesDaily = [
     "wordIds": [
       "14785"
     ],
+    "cloze": {
+      "de": "Schrott",
+      "en": "is"
+    },
     "sourceIndex": 4785
   },
   {
@@ -12035,6 +14863,10 @@ const phrasesDaily = [
     "wordIds": [
       "14786"
     ],
+    "cloze": {
+      "de": "seitlich",
+      "en": "sideways"
+    },
     "sourceIndex": 4786
   },
   {
@@ -12052,6 +14884,10 @@ const phrasesDaily = [
     "wordIds": [
       "14810"
     ],
+    "cloze": {
+      "de": "Zubehör",
+      "en": "accessories"
+    },
     "sourceIndex": 4810
   },
   {
@@ -12069,6 +14905,10 @@ const phrasesDaily = [
     "wordIds": [
       "14818"
     ],
+    "cloze": {
+      "de": "Appetit",
+      "en": "appetite"
+    },
     "sourceIndex": 4818
   },
   {
@@ -12086,6 +14926,10 @@ const phrasesDaily = [
     "wordIds": [
       "14829"
     ],
+    "cloze": {
+      "de": "biologische",
+      "en": "organic"
+    },
     "sourceIndex": 4829
   },
   {
@@ -12103,6 +14947,10 @@ const phrasesDaily = [
     "wordIds": [
       "14854"
     ],
+    "cloze": {
+      "de": "Kopftuch",
+      "en": "headscarf"
+    },
     "sourceIndex": 4854
   },
   {
@@ -12120,6 +14968,10 @@ const phrasesDaily = [
     "wordIds": [
       "14861"
     ],
+    "cloze": {
+      "de": "Maiskolben",
+      "en": "corn"
+    },
     "sourceIndex": 4861
   },
   {
@@ -12137,6 +14989,10 @@ const phrasesDaily = [
     "wordIds": [
       "14871"
     ],
+    "cloze": {
+      "de": "Pfeil",
+      "en": "arrow"
+    },
     "sourceIndex": 4871
   },
   {
@@ -12154,6 +15010,10 @@ const phrasesDaily = [
     "wordIds": [
       "14884"
     ],
+    "cloze": {
+      "de": "Stange",
+      "en": "pole"
+    },
     "sourceIndex": 4884
   },
   {
@@ -12171,6 +15031,10 @@ const phrasesDaily = [
     "wordIds": [
       "14889"
     ],
+    "cloze": {
+      "de": "unfaire",
+      "en": "unfair"
+    },
     "sourceIndex": 4889
   },
   {
@@ -12188,6 +15052,10 @@ const phrasesDaily = [
     "wordIds": [
       "14917"
     ],
+    "cloze": {
+      "de": "Erleichterung",
+      "en": "relief"
+    },
     "sourceIndex": 4917
   },
   {
@@ -12205,6 +15073,10 @@ const phrasesDaily = [
     "wordIds": [
       "14918"
     ],
+    "cloze": {
+      "de": "erschienen",
+      "en": "appeared"
+    },
     "sourceIndex": 4918
   },
   {
@@ -12222,6 +15094,10 @@ const phrasesDaily = [
     "wordIds": [
       "14924"
     ],
+    "cloze": {
+      "de": "Frisur",
+      "en": "hairstyle"
+    },
     "sourceIndex": 4924
   },
   {
@@ -12239,6 +15115,10 @@ const phrasesDaily = [
     "wordIds": [
       "14943"
     ],
+    "cloze": {
+      "de": "Nationalpark",
+      "en": "national"
+    },
     "sourceIndex": 4943
   },
   {
@@ -12256,6 +15136,10 @@ const phrasesDaily = [
     "wordIds": [
       "14955"
     ],
+    "cloze": {
+      "de": "Schalter",
+      "en": "switch"
+    },
     "sourceIndex": 4955
   },
   {
@@ -12273,6 +15157,10 @@ const phrasesDaily = [
     "wordIds": [
       "14956"
     ],
+    "cloze": {
+      "de": "schlanke",
+      "en": "slim"
+    },
     "sourceIndex": 4956
   },
   {
@@ -12290,6 +15178,10 @@ const phrasesDaily = [
     "wordIds": [
       "14960"
     ],
+    "cloze": {
+      "de": "steil",
+      "en": "steep"
+    },
     "sourceIndex": 4960
   },
   {
@@ -12307,6 +15199,10 @@ const phrasesDaily = [
     "wordIds": [
       "14970"
     ],
+    "cloze": {
+      "de": "versteckten",
+      "en": "hidden"
+    },
     "sourceIndex": 4970
   },
   {
@@ -12324,6 +15220,10 @@ const phrasesDaily = [
     "wordIds": [
       "14973"
     ],
+    "cloze": {
+      "de": "Vorwort",
+      "en": "foreword"
+    },
     "sourceIndex": 4973
   },
   {
@@ -12341,6 +15241,10 @@ const phrasesDaily = [
     "wordIds": [
       "14990"
     ],
+    "cloze": {
+      "de": "Body",
+      "en": "wore"
+    },
     "sourceIndex": 4990
   },
   {
@@ -12358,6 +15262,10 @@ const phrasesDaily = [
     "wordIds": [
       "14991"
     ],
+    "cloze": {
+      "de": "Brauerei",
+      "en": "brewery"
+    },
     "sourceIndex": 4991
   },
   {
@@ -12375,6 +15283,10 @@ const phrasesDaily = [
     "wordIds": [
       "14996"
     ],
+    "cloze": {
+      "de": "Dschungel",
+      "en": "jungle"
+    },
     "sourceIndex": 4996
   },
   {
@@ -12392,6 +15304,10 @@ const phrasesDaily = [
     "wordIds": [
       "15014"
     ],
+    "cloze": {
+      "de": "Kleinanzeige",
+      "en": "classified"
+    },
     "sourceIndex": 5014
   },
   {
@@ -12409,6 +15325,10 @@ const phrasesDaily = [
     "wordIds": [
       "15021"
     ],
+    "cloze": {
+      "de": "Leine",
+      "en": "leash"
+    },
     "sourceIndex": 5021
   },
   {
@@ -12426,6 +15346,10 @@ const phrasesDaily = [
     "wordIds": [
       "15027"
     ],
+    "cloze": {
+      "de": "mild",
+      "en": "mild"
+    },
     "sourceIndex": 5027
   },
   {
@@ -12443,6 +15367,10 @@ const phrasesDaily = [
     "wordIds": [
       "15043"
     ],
+    "cloze": {
+      "de": "Schulzeit",
+      "en": "school"
+    },
     "sourceIndex": 5043
   },
   {
@@ -12460,6 +15388,10 @@ const phrasesDaily = [
     "wordIds": [
       "15060"
     ],
+    "cloze": {
+      "de": "Weide",
+      "en": "pasture"
+    },
     "sourceIndex": 5060
   },
   {
@@ -12477,6 +15409,10 @@ const phrasesDaily = [
     "wordIds": [
       "15065"
     ],
+    "cloze": {
+      "de": "Ansprechpartner",
+      "en": "contact"
+    },
     "sourceIndex": 5065
   },
   {
@@ -12494,6 +15430,10 @@ const phrasesDaily = [
     "wordIds": [
       "15070"
     ],
+    "cloze": {
+      "de": "Bestseller",
+      "en": "bestseller"
+    },
     "sourceIndex": 5070
   },
   {
@@ -12511,6 +15451,10 @@ const phrasesDaily = [
     "wordIds": [
       "15092"
     ],
+    "cloze": {
+      "de": "Freundeskreis",
+      "en": "circle"
+    },
     "sourceIndex": 5092
   },
   {
@@ -12528,6 +15472,10 @@ const phrasesDaily = [
     "wordIds": [
       "15097"
     ],
+    "cloze": {
+      "de": "lobte",
+      "en": "praised"
+    },
     "sourceIndex": 5097
   },
   {
@@ -12545,6 +15493,10 @@ const phrasesDaily = [
     "wordIds": [
       "15109"
     ],
+    "cloze": {
+      "de": "Kontrast",
+      "en": "contrast"
+    },
     "sourceIndex": 5109
   },
   {
@@ -12562,6 +15514,10 @@ const phrasesDaily = [
     "wordIds": [
       "15110"
     ],
+    "cloze": {
+      "de": "Lappen",
+      "en": "rag"
+    },
     "sourceIndex": 5110
   },
   {
@@ -12579,6 +15535,10 @@ const phrasesDaily = [
     "wordIds": [
       "15111"
     ],
+    "cloze": {
+      "de": "losgehen",
+      "en": "set"
+    },
     "sourceIndex": 5111
   },
   {
@@ -12596,6 +15556,10 @@ const phrasesDaily = [
     "wordIds": [
       "15125"
     ],
+    "cloze": {
+      "de": "räumen",
+      "en": "clear"
+    },
     "sourceIndex": 5125
   },
   {
@@ -12613,6 +15577,10 @@ const phrasesDaily = [
     "wordIds": [
       "15130"
     ],
+    "cloze": {
+      "de": "Statue",
+      "en": "statue"
+    },
     "sourceIndex": 5130
   },
   {
@@ -12630,6 +15598,10 @@ const phrasesDaily = [
     "wordIds": [
       "15134"
     ],
+    "cloze": {
+      "de": "Ukrainisch",
+      "en": "Ukrainian"
+    },
     "sourceIndex": 5134
   },
   {
@@ -12647,6 +15619,10 @@ const phrasesDaily = [
     "wordIds": [
       "15135"
     ],
+    "cloze": {
+      "de": "umliegenden",
+      "en": "surrounding"
+    },
     "sourceIndex": 5135
   },
   {
@@ -12664,6 +15640,10 @@ const phrasesDaily = [
     "wordIds": [
       "15140"
     ],
+    "cloze": {
+      "de": "Verleger",
+      "en": "publisher"
+    },
     "sourceIndex": 5140
   },
   {
@@ -12681,6 +15661,10 @@ const phrasesDaily = [
     "wordIds": [
       "15142"
     ],
+    "cloze": {
+      "de": "Vorhang",
+      "en": "curtain"
+    },
     "sourceIndex": 5142
   },
   {
@@ -12698,6 +15682,10 @@ const phrasesDaily = [
     "wordIds": [
       "15152"
     ],
+    "cloze": {
+      "de": "ab",
+      "en": "on"
+    },
     "sourceIndex": 5152
   },
   {
@@ -12715,6 +15703,10 @@ const phrasesDaily = [
     "wordIds": [
       "15169"
     ],
+    "cloze": {
+      "de": "clevere",
+      "en": "clever"
+    },
     "sourceIndex": 5169
   },
   {
@@ -12732,6 +15724,10 @@ const phrasesDaily = [
     "wordIds": [
       "15174"
     ],
+    "cloze": {
+      "de": "Durchgang",
+      "en": "passage"
+    },
     "sourceIndex": 5174
   },
   {
@@ -12749,6 +15745,10 @@ const phrasesDaily = [
     "wordIds": [
       "15179"
     ],
+    "cloze": {
+      "de": "Etappe",
+      "en": "stage"
+    },
     "sourceIndex": 5179
   },
   {
@@ -12766,6 +15766,10 @@ const phrasesDaily = [
     "wordIds": [
       "15182"
     ],
+    "cloze": {
+      "de": "Fliege",
+      "en": "fly"
+    },
     "sourceIndex": 5182
   },
   {
@@ -12783,6 +15787,10 @@ const phrasesDaily = [
     "wordIds": [
       "15185"
     ],
+    "cloze": {
+      "de": "steuern",
+      "en": "steer"
+    },
     "sourceIndex": 5185
   },
   {
@@ -12800,6 +15808,10 @@ const phrasesDaily = [
     "wordIds": [
       "15189"
     ],
+    "cloze": {
+      "de": "hiervon",
+      "en": "of"
+    },
     "sourceIndex": 5189
   },
   {
@@ -12817,6 +15829,10 @@ const phrasesDaily = [
     "wordIds": [
       "15208"
     ],
+    "cloze": {
+      "de": "Neugier",
+      "en": "curiosity"
+    },
     "sourceIndex": 5208
   },
   {
@@ -12834,6 +15850,10 @@ const phrasesDaily = [
     "wordIds": [
       "15211"
     ],
+    "cloze": {
+      "de": "Outdoor-Küche",
+      "en": "outdoor"
+    },
     "sourceIndex": 5211
   },
   {
@@ -12851,6 +15871,10 @@ const phrasesDaily = [
     "wordIds": [
       "15218"
     ],
+    "cloze": {
+      "de": "rauf",
+      "en": "up"
+    },
     "sourceIndex": 5218
   },
   {
@@ -12868,6 +15892,10 @@ const phrasesDaily = [
     "wordIds": [
       "15222"
     ],
+    "cloze": {
+      "de": "Schuppen",
+      "en": "shed"
+    },
     "sourceIndex": 5222
   },
   {
@@ -12885,6 +15913,10 @@ const phrasesDaily = [
     "wordIds": [
       "15227"
     ],
+    "cloze": {
+      "de": "Spalte",
+      "en": "column"
+    },
     "sourceIndex": 5227
   },
   {
@@ -12902,6 +15934,10 @@ const phrasesDaily = [
     "wordIds": [
       "15252"
     ],
+    "cloze": {
+      "de": "Aufkleber",
+      "en": "sticker"
+    },
     "sourceIndex": 5252
   },
   {
@@ -12919,6 +15955,10 @@ const phrasesDaily = [
     "wordIds": [
       "15254"
     ],
+    "cloze": {
+      "de": "ausreichen",
+      "en": "be"
+    },
     "sourceIndex": 5254
   },
   {
@@ -12936,6 +15976,10 @@ const phrasesDaily = [
     "wordIds": [
       "15257"
     ],
+    "cloze": {
+      "de": "Ausweg",
+      "en": "way"
+    },
     "sourceIndex": 5257
   },
   {
@@ -12953,6 +15997,10 @@ const phrasesDaily = [
     "wordIds": [
       "15260"
     ],
+    "cloze": {
+      "de": "bedauere",
+      "en": "regret"
+    },
     "sourceIndex": 5260
   },
   {
@@ -12970,6 +16018,10 @@ const phrasesDaily = [
     "wordIds": [
       "15268"
     ],
+    "cloze": {
+      "de": "empfehlenswert",
+      "en": "recommendable"
+    },
     "sourceIndex": 5268
   },
   {
@@ -12987,6 +16039,10 @@ const phrasesDaily = [
     "wordIds": [
       "15272"
     ],
+    "cloze": {
+      "de": "Erzieher",
+      "en": "educator"
+    },
     "sourceIndex": 5272
   },
   {
@@ -13004,6 +16060,10 @@ const phrasesDaily = [
     "wordIds": [
       "15298"
     ],
+    "cloze": {
+      "de": "Ratte",
+      "en": "rat"
+    },
     "sourceIndex": 5298
   },
   {
@@ -13021,6 +16081,10 @@ const phrasesDaily = [
     "wordIds": [
       "15303"
     ],
+    "cloze": {
+      "de": "riskieren",
+      "en": "risk"
+    },
     "sourceIndex": 5303
   },
   {
@@ -13038,6 +16102,10 @@ const phrasesDaily = [
     "wordIds": [
       "15306"
     ],
+    "cloze": {
+      "de": "Sattel",
+      "en": "saddle"
+    },
     "sourceIndex": 5306
   },
   {
@@ -13055,6 +16123,10 @@ const phrasesDaily = [
     "wordIds": [
       "15320"
     ],
+    "cloze": {
+      "de": "ungerechte",
+      "en": "unfair"
+    },
     "sourceIndex": 5320
   },
   {
@@ -13072,6 +16144,10 @@ const phrasesDaily = [
     "wordIds": [
       "15328"
     ],
+    "cloze": {
+      "de": "zitterte",
+      "en": "shivered"
+    },
     "sourceIndex": 5328
   },
   {
@@ -13089,6 +16165,10 @@ const phrasesDaily = [
     "wordIds": [
       "15340"
     ],
+    "cloze": {
+      "de": "Aufsteiger",
+      "en": "rising"
+    },
     "sourceIndex": 5340
   },
   {
@@ -13106,6 +16186,10 @@ const phrasesDaily = [
     "wordIds": [
       "15342"
     ],
+    "cloze": {
+      "de": "beschleunigen",
+      "en": "accelerate"
+    },
     "sourceIndex": 5342
   },
   {
@@ -13123,6 +16207,10 @@ const phrasesDaily = [
     "wordIds": [
       "15350"
     ],
+    "cloze": {
+      "de": "Draht",
+      "en": "wire"
+    },
     "sourceIndex": 5350
   },
   {
@@ -13140,6 +16228,10 @@ const phrasesDaily = [
     "wordIds": [
       "15356"
     ],
+    "cloze": {
+      "de": "erholen",
+      "en": "recover"
+    },
     "sourceIndex": 5356
   },
   {
@@ -13157,6 +16249,10 @@ const phrasesDaily = [
     "wordIds": [
       "15358"
     ],
+    "cloze": {
+      "de": "explodieren",
+      "en": "explode"
+    },
     "sourceIndex": 5358
   },
   {
@@ -13174,6 +16270,10 @@ const phrasesDaily = [
     "wordIds": [
       "15377"
     ],
+    "cloze": {
+      "de": "kippt",
+      "en": "tip"
+    },
     "sourceIndex": 5377
   },
   {
@@ -13191,6 +16291,10 @@ const phrasesDaily = [
     "wordIds": [
       "15385"
     ],
+    "cloze": {
+      "de": "minimale",
+      "en": "minimal"
+    },
     "sourceIndex": 5385
   },
   {
@@ -13208,6 +16312,10 @@ const phrasesDaily = [
     "wordIds": [
       "15389"
     ],
+    "cloze": {
+      "de": "Niederländer",
+      "en": "Dutchman"
+    },
     "sourceIndex": 5389
   },
   {
@@ -13225,6 +16333,10 @@ const phrasesDaily = [
     "wordIds": [
       "15395"
     ],
+    "cloze": {
+      "de": "Privatleben",
+      "en": "private"
+    },
     "sourceIndex": 5395
   },
   {
@@ -13242,6 +16354,10 @@ const phrasesDaily = [
     "wordIds": [
       "15402"
     ],
+    "cloze": {
+      "de": "rollt",
+      "en": "rolls"
+    },
     "sourceIndex": 5402
   },
   {
@@ -13259,6 +16375,10 @@ const phrasesDaily = [
     "wordIds": [
       "15403"
     ],
+    "cloze": {
+      "de": "rühren",
+      "en": "stir"
+    },
     "sourceIndex": 5403
   },
   {
@@ -13276,6 +16396,10 @@ const phrasesDaily = [
     "wordIds": [
       "15418"
     ],
+    "cloze": {
+      "de": "verkleidet",
+      "en": "disguised"
+    },
     "sourceIndex": 5418
   },
   {
@@ -13293,6 +16417,10 @@ const phrasesDaily = [
     "wordIds": [
       "15423"
     ],
+    "cloze": {
+      "de": "Vorrunde",
+      "en": "preliminary"
+    },
     "sourceIndex": 5423
   },
   {
@@ -13310,6 +16438,10 @@ const phrasesDaily = [
     "wordIds": [
       "15433"
     ],
+    "cloze": {
+      "de": "Bedienung",
+      "en": "service"
+    },
     "sourceIndex": 5433
   },
   {
@@ -13327,6 +16459,10 @@ const phrasesDaily = [
     "wordIds": [
       "15455"
     ],
+    "cloze": {
+      "de": "flexibel",
+      "en": "flexibly"
+    },
     "sourceIndex": 5455
   },
   {
@@ -13344,6 +16480,10 @@ const phrasesDaily = [
     "wordIds": [
       "15474"
     ],
+    "cloze": {
+      "de": "mithalten",
+      "en": "keep"
+    },
     "sourceIndex": 5474
   },
   {
@@ -13361,6 +16501,10 @@ const phrasesDaily = [
     "wordIds": [
       "15475"
     ],
+    "cloze": {
+      "de": "Mittelfeld",
+      "en": "midfield"
+    },
     "sourceIndex": 5475
   },
   {
@@ -13378,6 +16522,10 @@ const phrasesDaily = [
     "wordIds": [
       "15484"
     ],
+    "cloze": {
+      "de": "protestieren",
+      "en": "protesting"
+    },
     "sourceIndex": 5484
   },
   {
@@ -13395,6 +16543,10 @@ const phrasesDaily = [
     "wordIds": [
       "15486"
     ],
+    "cloze": {
+      "de": "Puppe",
+      "en": "doll"
+    },
     "sourceIndex": 5486
   },
   {
@@ -13412,6 +16564,10 @@ const phrasesDaily = [
     "wordIds": [
       "15495"
     ],
+    "cloze": {
+      "de": "staunen",
+      "en": "marvel"
+    },
     "sourceIndex": 5495
   },
   {
@@ -13429,6 +16585,10 @@ const phrasesDaily = [
     "wordIds": [
       "15496"
     ],
+    "cloze": {
+      "de": "süddeutschen",
+      "en": "Southern"
+    },
     "sourceIndex": 5496
   },
   {
@@ -13446,6 +16606,10 @@ const phrasesDaily = [
     "wordIds": [
       "15504"
     ],
+    "cloze": {
+      "de": "Verzögerung",
+      "en": "delay"
+    },
     "sourceIndex": 5504
   },
   {
@@ -13463,6 +16627,10 @@ const phrasesDaily = [
     "wordIds": [
       "15509"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "He"
+    },
     "sourceIndex": 5509
   },
   {
@@ -13480,6 +16648,10 @@ const phrasesDaily = [
     "wordIds": [
       "15524"
     ],
+    "cloze": {
+      "de": "Bauernhof",
+      "en": "farm"
+    },
     "sourceIndex": 5524
   },
   {
@@ -13497,6 +16669,10 @@ const phrasesDaily = [
     "wordIds": [
       "15526"
     ],
+    "cloze": {
+      "de": "bewundere",
+      "en": "admire"
+    },
     "sourceIndex": 5526
   },
   {
@@ -13514,6 +16690,10 @@ const phrasesDaily = [
     "wordIds": [
       "15530"
     ],
+    "cloze": {
+      "de": "dänisch",
+      "en": "Danish"
+    },
     "sourceIndex": 5530
   },
   {
@@ -13531,6 +16711,10 @@ const phrasesDaily = [
     "wordIds": [
       "15531"
     ],
+    "cloze": {
+      "de": "Döner",
+      "en": "doner"
+    },
     "sourceIndex": 5531
   },
   {
@@ -13548,6 +16732,10 @@ const phrasesDaily = [
     "wordIds": [
       "15542"
     ],
+    "cloze": {
+      "de": "Gitter",
+      "en": "grid"
+    },
     "sourceIndex": 5542
   },
   {
@@ -13565,6 +16753,10 @@ const phrasesDaily = [
     "wordIds": [
       "15558"
     ],
+    "cloze": {
+      "de": "kopieren",
+      "en": "copy"
+    },
     "sourceIndex": 5558
   },
   {
@@ -13582,6 +16774,10 @@ const phrasesDaily = [
     "wordIds": [
       "15603"
     ],
+    "cloze": {
+      "de": "Acker",
+      "en": "field"
+    },
     "sourceIndex": 5603
   },
   {
@@ -13599,6 +16795,10 @@ const phrasesDaily = [
     "wordIds": [
       "15607"
     ],
+    "cloze": {
+      "de": "Guck",
+      "en": "Look"
+    },
     "sourceIndex": 5607
   },
   {
@@ -13616,6 +16816,10 @@ const phrasesDaily = [
     "wordIds": [
       "15622"
     ],
+    "cloze": {
+      "de": "drunter",
+      "en": "underneath"
+    },
     "sourceIndex": 5622
   },
   {
@@ -13633,6 +16837,10 @@ const phrasesDaily = [
     "wordIds": [
       "15626"
     ],
+    "cloze": {
+      "de": "Einkaufszentrum",
+      "en": "shopping"
+    },
     "sourceIndex": 5626
   },
   {
@@ -13650,6 +16858,10 @@ const phrasesDaily = [
     "wordIds": [
       "15637"
     ],
+    "cloze": {
+      "de": "Henkel",
+      "en": "handle"
+    },
     "sourceIndex": 5637
   },
   {
@@ -13667,6 +16879,10 @@ const phrasesDaily = [
     "wordIds": [
       "15641"
     ],
+    "cloze": {
+      "de": "Impfung",
+      "en": "vaccination"
+    },
     "sourceIndex": 5641
   },
   {
@@ -13684,6 +16900,10 @@ const phrasesDaily = [
     "wordIds": [
       "15643"
     ],
+    "cloze": {
+      "de": "Jubel",
+      "en": "cheer"
+    },
     "sourceIndex": 5643
   },
   {
@@ -13701,6 +16921,10 @@ const phrasesDaily = [
     "wordIds": [
       "15654"
     ],
+    "cloze": {
+      "de": "notieren",
+      "en": "note"
+    },
     "sourceIndex": 5654
   },
   {
@@ -13718,6 +16942,10 @@ const phrasesDaily = [
     "wordIds": [
       "15655"
     ],
+    "cloze": {
+      "de": "Notruf",
+      "en": "emergency"
+    },
     "sourceIndex": 5655
   },
   {
@@ -13735,6 +16963,10 @@ const phrasesDaily = [
     "wordIds": [
       "15665"
     ],
+    "cloze": {
+      "de": "sortieren",
+      "en": "sort"
+    },
     "sourceIndex": 5665
   },
   {
@@ -13752,6 +16984,10 @@ const phrasesDaily = [
     "wordIds": [
       "15677"
     ],
+    "cloze": {
+      "de": "verschenken",
+      "en": "give"
+    },
     "sourceIndex": 5677
   },
   {
@@ -13769,6 +17005,10 @@ const phrasesDaily = [
     "wordIds": [
       "15679"
     ],
+    "cloze": {
+      "de": "Waschmaschine",
+      "en": "washing"
+    },
     "sourceIndex": 5679
   },
   {
@@ -13786,6 +17026,10 @@ const phrasesDaily = [
     "wordIds": [
       "15698"
     ],
+    "cloze": {
+      "de": "Besprechung",
+      "en": "meeting"
+    },
     "sourceIndex": 5698
   },
   {
@@ -13803,6 +17047,10 @@ const phrasesDaily = [
     "wordIds": [
       "15719"
     ],
+    "cloze": {
+      "de": "gruselig",
+      "en": "creepy"
+    },
     "sourceIndex": 5719
   },
   {
@@ -13820,6 +17068,10 @@ const phrasesDaily = [
     "wordIds": [
       "15723"
     ],
+    "cloze": {
+      "de": "her",
+      "en": "come"
+    },
     "sourceIndex": 5723
   },
   {
@@ -13837,6 +17089,10 @@ const phrasesDaily = [
     "wordIds": [
       "15725"
     ],
+    "cloze": {
+      "de": "hilflos",
+      "en": "helpless"
+    },
     "sourceIndex": 5725
   },
   {
@@ -13854,6 +17110,10 @@ const phrasesDaily = [
     "wordIds": [
       "15735"
     ],
+    "cloze": {
+      "de": "Knall",
+      "en": "bang"
+    },
     "sourceIndex": 5735
   },
   {
@@ -13871,6 +17131,10 @@ const phrasesDaily = [
     "wordIds": [
       "15749"
     ],
+    "cloze": {
+      "de": "Passage",
+      "en": "passage"
+    },
     "sourceIndex": 5749
   },
   {
@@ -13888,6 +17152,10 @@ const phrasesDaily = [
     "wordIds": [
       "15751"
     ],
+    "cloze": {
+      "de": "ist",
+      "en": "burst"
+    },
     "sourceIndex": 5751
   },
   {
@@ -13905,6 +17173,10 @@ const phrasesDaily = [
     "wordIds": [
       "15769"
     ],
+    "cloze": {
+      "de": "unterdessen",
+      "en": "meanwhile"
+    },
     "sourceIndex": 5769
   },
   {
@@ -13922,6 +17194,10 @@ const phrasesDaily = [
     "wordIds": [
       "15771"
     ],
+    "cloze": {
+      "de": "vereinfachen",
+      "en": "simplify"
+    },
     "sourceIndex": 5771
   },
   {
@@ -13939,6 +17215,10 @@ const phrasesDaily = [
     "wordIds": [
       "15775"
     ],
+    "cloze": {
+      "de": "wegnehmen",
+      "en": "take"
+    },
     "sourceIndex": 5775
   },
   {
@@ -13956,6 +17236,10 @@ const phrasesDaily = [
     "wordIds": [
       "15796"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "detailed"
+    },
     "sourceIndex": 5796
   },
   {
@@ -13973,6 +17257,10 @@ const phrasesDaily = [
     "wordIds": [
       "15802"
     ],
+    "cloze": {
+      "de": "Einbau",
+      "en": "installation"
+    },
     "sourceIndex": 5802
   },
   {
@@ -13990,6 +17278,10 @@ const phrasesDaily = [
     "wordIds": [
       "15807"
     ],
+    "cloze": {
+      "de": "fertigstellen",
+      "en": "complete"
+    },
     "sourceIndex": 5807
   },
   {
@@ -14007,6 +17299,10 @@ const phrasesDaily = [
     "wordIds": [
       "15817"
     ],
+    "cloze": {
+      "de": "Hausfrau",
+      "en": "housewife"
+    },
     "sourceIndex": 5817
   },
   {
@@ -14024,6 +17320,10 @@ const phrasesDaily = [
     "wordIds": [
       "15824"
     ],
+    "cloze": {
+      "de": "Komitee",
+      "en": "committee"
+    },
     "sourceIndex": 5824
   },
   {
@@ -14041,6 +17341,10 @@ const phrasesDaily = [
     "wordIds": [
       "15835"
     ],
+    "cloze": {
+      "de": "neunten",
+      "en": "ninth"
+    },
     "sourceIndex": 5835
   },
   {
@@ -14058,6 +17362,10 @@ const phrasesDaily = [
     "wordIds": [
       "15847"
     ],
+    "cloze": {
+      "de": "Scheune",
+      "en": "barn"
+    },
     "sourceIndex": 5847
   },
   {
@@ -14075,6 +17383,10 @@ const phrasesDaily = [
     "wordIds": [
       "15848"
     ],
+    "cloze": {
+      "de": "Schleife",
+      "en": "bow"
+    },
     "sourceIndex": 5848
   },
   {
@@ -14092,6 +17404,10 @@ const phrasesDaily = [
     "wordIds": [
       "15857"
     ],
+    "cloze": {
+      "de": "Stroh",
+      "en": "straw"
+    },
     "sourceIndex": 5857
   },
   {
@@ -14109,6 +17425,10 @@ const phrasesDaily = [
     "wordIds": [
       "15881"
     ],
+    "cloze": {
+      "de": "Zeitplan",
+      "en": "schedule"
+    },
     "sourceIndex": 5881
   },
   {
@@ -14126,6 +17446,10 @@ const phrasesDaily = [
     "wordIds": [
       "15887"
     ],
+    "cloze": {
+      "de": "übernachten",
+      "en": "stay"
+    },
     "sourceIndex": 5887
   },
   {
@@ -14143,6 +17467,10 @@ const phrasesDaily = [
     "wordIds": [
       "15903"
     ],
+    "cloze": {
+      "de": "Behälter",
+      "en": "container"
+    },
     "sourceIndex": 5903
   },
   {
@@ -14160,6 +17488,10 @@ const phrasesDaily = [
     "wordIds": [
       "15915"
     ],
+    "cloze": {
+      "de": "legen",
+      "en": "insert"
+    },
     "sourceIndex": 5915
   },
   {
@@ -14177,6 +17509,10 @@ const phrasesDaily = [
     "wordIds": [
       "15931"
     ],
+    "cloze": {
+      "de": "Jobcenter",
+      "en": "job"
+    },
     "sourceIndex": 5931
   },
   {
@@ -14194,6 +17530,10 @@ const phrasesDaily = [
     "wordIds": [
       "15939"
     ],
+    "cloze": {
+      "de": "Laster",
+      "en": "truck"
+    },
     "sourceIndex": 5939
   },
   {
@@ -14211,6 +17551,10 @@ const phrasesDaily = [
     "wordIds": [
       "15946"
     ],
+    "cloze": {
+      "de": "Missverständnis",
+      "en": "misunderstanding"
+    },
     "sourceIndex": 5946
   },
   {
@@ -14228,6 +17572,10 @@ const phrasesDaily = [
     "wordIds": [
       "15947"
     ],
+    "cloze": {
+      "de": "Mitbewohner",
+      "en": "flatmate"
+    },
     "sourceIndex": 5947
   },
   {
@@ -14245,6 +17593,10 @@ const phrasesDaily = [
     "wordIds": [
       "15958"
     ],
+    "cloze": {
+      "de": "Proteine",
+      "en": "Proteins"
+    },
     "sourceIndex": 5958
   },
   {
@@ -14262,6 +17614,10 @@ const phrasesDaily = [
     "wordIds": [
       "15960"
     ],
+    "cloze": {
+      "de": "Pullover",
+      "en": "sweater"
+    },
     "sourceIndex": 5960
   },
   {
@@ -14279,6 +17635,10 @@ const phrasesDaily = [
     "wordIds": [
       "15963"
     ],
+    "cloze": {
+      "de": "Taube",
+      "en": "pigeon"
+    },
     "sourceIndex": 5963
   },
   {
@@ -14296,6 +17656,10 @@ const phrasesDaily = [
     "wordIds": [
       "15965"
     ],
+    "cloze": {
+      "de": "Transporter",
+      "en": "van"
+    },
     "sourceIndex": 5965
   },
   {
@@ -14313,6 +17677,10 @@ const phrasesDaily = [
     "wordIds": [
       "15972"
     ],
+    "cloze": {
+      "de": "vierzehn",
+      "en": "fourteen"
+    },
     "sourceIndex": 5972
   },
   {
@@ -14330,6 +17698,10 @@ const phrasesDaily = [
     "wordIds": [
       "15995"
     ],
+    "cloze": {
+      "de": "Axt",
+      "en": "axe"
+    },
     "sourceIndex": 5995
   },
   {
@@ -14347,6 +17719,10 @@ const phrasesDaily = [
     "wordIds": [
       "16000"
     ],
+    "cloze": {
+      "de": "Biathlon",
+      "en": "Biathlon"
+    },
     "sourceIndex": 6000
   },
   {
@@ -14364,6 +17740,10 @@ const phrasesDaily = [
     "wordIds": [
       "16002"
     ],
+    "cloze": {
+      "de": "Blogger",
+      "en": "blogger"
+    },
     "sourceIndex": 6002
   },
   {
@@ -14381,6 +17761,10 @@ const phrasesDaily = [
     "wordIds": [
       "16005"
     ],
+    "cloze": {
+      "de": "britischen",
+      "en": "British"
+    },
     "sourceIndex": 6005
   },
   {
@@ -14398,6 +17782,10 @@ const phrasesDaily = [
     "wordIds": [
       "16007"
     ],
+    "cloze": {
+      "de": "Bunker",
+      "en": "bunker"
+    },
     "sourceIndex": 6007
   },
   {
@@ -14415,6 +17803,10 @@ const phrasesDaily = [
     "wordIds": [
       "16020"
     ],
+    "cloze": {
+      "de": "Fortbildung",
+      "en": "further"
+    },
     "sourceIndex": 6020
   },
   {
@@ -14432,6 +17824,10 @@ const phrasesDaily = [
     "wordIds": [
       "16023"
     ],
+    "cloze": {
+      "de": "fünfzehn",
+      "en": "fifteen"
+    },
     "sourceIndex": 6023
   },
   {
@@ -14449,6 +17845,10 @@ const phrasesDaily = [
     "wordIds": [
       "16031"
     ],
+    "cloze": {
+      "de": "getrennt",
+      "en": "separately"
+    },
     "sourceIndex": 6031
   },
   {
@@ -14466,6 +17866,10 @@ const phrasesDaily = [
     "wordIds": [
       "16041"
     ],
+    "cloze": {
+      "de": "lachende",
+      "en": "laughing"
+    },
     "sourceIndex": 6041
   },
   {
@@ -14483,6 +17887,10 @@ const phrasesDaily = [
     "wordIds": [
       "16055"
     ],
+    "cloze": {
+      "de": "rauskommen",
+      "en": "come"
+    },
     "sourceIndex": 6055
   },
   {
@@ -14500,6 +17908,10 @@ const phrasesDaily = [
     "wordIds": [
       "16056"
     ],
+    "cloze": {
+      "de": "Retter",
+      "en": "rescuer"
+    },
     "sourceIndex": 6056
   },
   {
@@ -14517,6 +17929,10 @@ const phrasesDaily = [
     "wordIds": [
       "16082"
     ],
+    "cloze": {
+      "de": "zurück",
+      "en": "give"
+    },
     "sourceIndex": 6082
   },
   {
@@ -14534,6 +17950,10 @@ const phrasesDaily = [
     "wordIds": [
       "16084"
     ],
+    "cloze": {
+      "de": "ab",
+      "en": "distracted"
+    },
     "sourceIndex": 6084
   },
   {
@@ -14551,6 +17971,10 @@ const phrasesDaily = [
     "wordIds": [
       "16086"
     ],
+    "cloze": {
+      "de": "alltägliches",
+      "en": "everyday"
+    },
     "sourceIndex": 6086
   },
   {
@@ -14568,6 +17992,10 @@ const phrasesDaily = [
     "wordIds": [
       "16092"
     ],
+    "cloze": {
+      "de": "Bemerkung",
+      "en": "remark"
+    },
     "sourceIndex": 6092
   },
   {
@@ -14585,6 +18013,10 @@ const phrasesDaily = [
     "wordIds": [
       "16093"
     ],
+    "cloze": {
+      "de": "Boxer",
+      "en": "boxer"
+    },
     "sourceIndex": 6093
   },
   {
@@ -14602,6 +18034,10 @@ const phrasesDaily = [
     "wordIds": [
       "16094"
     ],
+    "cloze": {
+      "de": "brasilianisches",
+      "en": "Brazilian"
+    },
     "sourceIndex": 6094
   },
   {
@@ -14619,6 +18055,10 @@ const phrasesDaily = [
     "wordIds": [
       "16102"
     ],
+    "cloze": {
+      "de": "ernten",
+      "en": "harvest"
+    },
     "sourceIndex": 6102
   },
   {
@@ -14636,6 +18076,10 @@ const phrasesDaily = [
     "wordIds": [
       "16123"
     ],
+    "cloze": {
+      "de": "niedlich",
+      "en": "cute"
+    },
     "sourceIndex": 6123
   },
   {
@@ -14653,6 +18097,10 @@ const phrasesDaily = [
     "wordIds": [
       "16126"
     ],
+    "cloze": {
+      "de": "Orient",
+      "en": "Orient"
+    },
     "sourceIndex": 6126
   },
   {
@@ -14670,6 +18118,10 @@ const phrasesDaily = [
     "wordIds": [
       "16131"
     ],
+    "cloze": {
+      "de": "radfahren",
+      "en": "cycling"
+    },
     "sourceIndex": 6131
   },
   {
@@ -14687,6 +18139,10 @@ const phrasesDaily = [
     "wordIds": [
       "16134"
     ],
+    "cloze": {
+      "de": "Gartenschlauch",
+      "en": "hose"
+    },
     "sourceIndex": 6134
   },
   {
@@ -14704,6 +18160,10 @@ const phrasesDaily = [
     "wordIds": [
       "16136"
     ],
+    "cloze": {
+      "de": "Schwager",
+      "en": "brother-in"
+    },
     "sourceIndex": 6136
   },
   {
@@ -14721,6 +18181,10 @@ const phrasesDaily = [
     "wordIds": [
       "16139"
     ],
+    "cloze": {
+      "de": "Screenshot",
+      "en": "screenshot"
+    },
     "sourceIndex": 6139
   },
   {
@@ -14738,6 +18202,10 @@ const phrasesDaily = [
     "wordIds": [
       "16145"
     ],
+    "cloze": {
+      "de": "Sultan",
+      "en": "sultan"
+    },
     "sourceIndex": 6145
   },
   {
@@ -14755,6 +18223,10 @@ const phrasesDaily = [
     "wordIds": [
       "16146"
     ],
+    "cloze": {
+      "de": "Taschenbuch",
+      "en": "paperback"
+    },
     "sourceIndex": 6146
   },
   {
@@ -14772,6 +18244,10 @@ const phrasesDaily = [
     "wordIds": [
       "16176"
     ],
+    "cloze": {
+      "de": "aufhängen",
+      "en": "hang"
+    },
     "sourceIndex": 6176
   },
   {
@@ -14789,6 +18265,10 @@ const phrasesDaily = [
     "wordIds": [
       "16195"
     ],
+    "cloze": {
+      "de": "Eile",
+      "en": "rush"
+    },
     "sourceIndex": 6195
   },
   {
@@ -14806,6 +18286,10 @@ const phrasesDaily = [
     "wordIds": [
       "16235"
     ],
+    "cloze": {
+      "de": "Meme",
+      "en": "meme"
+    },
     "sourceIndex": 6235
   },
   {
@@ -14823,6 +18307,10 @@ const phrasesDaily = [
     "wordIds": [
       "16239"
     ],
+    "cloze": {
+      "de": "nutzbar",
+      "en": "usable"
+    },
     "sourceIndex": 6239
   },
   {
@@ -14840,6 +18328,10 @@ const phrasesDaily = [
     "wordIds": [
       "16246"
     ],
+    "cloze": {
+      "de": "Ruine",
+      "en": "ruin"
+    },
     "sourceIndex": 6246
   },
   {
@@ -14857,6 +18349,10 @@ const phrasesDaily = [
     "wordIds": [
       "16249"
     ],
+    "cloze": {
+      "de": "schonen",
+      "en": "spare"
+    },
     "sourceIndex": 6249
   },
   {
@@ -14874,6 +18370,10 @@ const phrasesDaily = [
     "wordIds": [
       "16255"
     ],
+    "cloze": {
+      "de": "Sperrung",
+      "en": "closure"
+    },
     "sourceIndex": 6255
   },
   {
@@ -14891,6 +18391,10 @@ const phrasesDaily = [
     "wordIds": [
       "16271"
     ],
+    "cloze": {
+      "de": "Zeh",
+      "en": "toe"
+    },
     "sourceIndex": 6271
   },
   {
@@ -14908,6 +18412,10 @@ const phrasesDaily = [
     "wordIds": [
       "16278"
     ],
+    "cloze": {
+      "de": "Afrikaner",
+      "en": "African"
+    },
     "sourceIndex": 6278
   },
   {
@@ -14925,6 +18433,10 @@ const phrasesDaily = [
     "wordIds": [
       "16284"
     ],
+    "cloze": {
+      "de": "Ansage",
+      "en": "announcement"
+    },
     "sourceIndex": 6284
   },
   {
@@ -14942,6 +18454,10 @@ const phrasesDaily = [
     "wordIds": [
       "16307"
     ],
+    "cloze": {
+      "de": "eilig",
+      "en": "in"
+    },
     "sourceIndex": 6307
   },
   {
@@ -14959,6 +18475,10 @@ const phrasesDaily = [
     "wordIds": [
       "16316"
     ],
+    "cloze": {
+      "de": "geschütztes",
+      "en": "protected"
+    },
     "sourceIndex": 6316
   },
   {
@@ -14976,6 +18496,10 @@ const phrasesDaily = [
     "wordIds": [
       "16323"
     ],
+    "cloze": {
+      "de": "Joker",
+      "en": "joker"
+    },
     "sourceIndex": 6323
   },
   {
@@ -14993,6 +18517,10 @@ const phrasesDaily = [
     "wordIds": [
       "16357"
     ],
+    "cloze": {
+      "de": "Sonnenaufgang",
+      "en": "sunrise"
+    },
     "sourceIndex": 6357
   },
   {
@@ -15010,6 +18538,10 @@ const phrasesDaily = [
     "wordIds": [
       "16368"
     ],
+    "cloze": {
+      "de": "Volt",
+      "en": "volts"
+    },
     "sourceIndex": 6368
   },
   {
@@ -15027,6 +18559,10 @@ const phrasesDaily = [
     "wordIds": [
       "16386"
     ],
+    "cloze": {
+      "de": "australischen",
+      "en": "Australian"
+    },
     "sourceIndex": 6386
   },
   {
@@ -15044,6 +18580,10 @@ const phrasesDaily = [
     "wordIds": [
       "16393"
     ],
+    "cloze": {
+      "de": "blühen",
+      "en": "bloom"
+    },
     "sourceIndex": 6393
   },
   {
@@ -15061,6 +18601,10 @@ const phrasesDaily = [
     "wordIds": [
       "16394"
     ],
+    "cloze": {
+      "de": "Chili",
+      "en": "chili"
+    },
     "sourceIndex": 6394
   },
   {
@@ -15078,6 +18622,10 @@ const phrasesDaily = [
     "wordIds": [
       "16404"
     ],
+    "cloze": {
+      "de": "Fax",
+      "en": "fax"
+    },
     "sourceIndex": 6404
   },
   {
@@ -15095,6 +18643,10 @@ const phrasesDaily = [
     "wordIds": [
       "16406"
     ],
+    "cloze": {
+      "de": "flirten",
+      "en": "flirt"
+    },
     "sourceIndex": 6406
   },
   {
@@ -15112,6 +18664,10 @@ const phrasesDaily = [
     "wordIds": [
       "16408"
     ],
+    "cloze": {
+      "de": "gebrauchtes",
+      "en": "used"
+    },
     "sourceIndex": 6408
   },
   {
@@ -15129,6 +18685,10 @@ const phrasesDaily = [
     "wordIds": [
       "16412"
     ],
+    "cloze": {
+      "de": "Gummi",
+      "en": "rubber"
+    },
     "sourceIndex": 6412
   },
   {
@@ -15146,6 +18706,10 @@ const phrasesDaily = [
     "wordIds": [
       "16425"
     ],
+    "cloze": {
+      "de": "Lügner",
+      "en": "liar"
+    },
     "sourceIndex": 6425
   },
   {
@@ -15163,6 +18727,10 @@ const phrasesDaily = [
     "wordIds": [
       "16453"
     ],
+    "cloze": {
+      "de": "Therapeuten",
+      "en": "therapist"
+    },
     "sourceIndex": 6453
   },
   {
@@ -15180,6 +18748,10 @@ const phrasesDaily = [
     "wordIds": [
       "16468"
     ],
+    "cloze": {
+      "de": "Weste",
+      "en": "vest"
+    },
     "sourceIndex": 6468
   },
   {
@@ -15197,6 +18769,10 @@ const phrasesDaily = [
     "wordIds": [
       "16474"
     ],
+    "cloze": {
+      "de": "Überstunde",
+      "en": "overtime"
+    },
     "sourceIndex": 6474
   },
   {
@@ -15214,6 +18790,10 @@ const phrasesDaily = [
     "wordIds": [
       "16494"
     ],
+    "cloze": {
+      "de": "in",
+      "en": "into"
+    },
     "sourceIndex": 6494
   },
   {
@@ -15231,6 +18811,10 @@ const phrasesDaily = [
     "wordIds": [
       "16511"
     ],
+    "cloze": {
+      "de": "Genauigkeit",
+      "en": "accuracy"
+    },
     "sourceIndex": 6511
   },
   {
@@ -15248,6 +18832,10 @@ const phrasesDaily = [
     "wordIds": [
       "16522"
     ],
+    "cloze": {
+      "de": "Hotline",
+      "en": "hotline"
+    },
     "sourceIndex": 6522
   },
   {
@@ -15265,6 +18853,10 @@ const phrasesDaily = [
     "wordIds": [
       "16532"
     ],
+    "cloze": {
+      "de": "Marmor",
+      "en": "marble"
+    },
     "sourceIndex": 6532
   },
   {
@@ -15282,6 +18874,10 @@ const phrasesDaily = [
     "wordIds": [
       "16537"
     ],
+    "cloze": {
+      "de": "Millionär",
+      "en": "millionaire"
+    },
     "sourceIndex": 6537
   },
   {
@@ -15299,6 +18895,10 @@ const phrasesDaily = [
     "wordIds": [
       "16541"
     ],
+    "cloze": {
+      "de": "norddeutschen",
+      "en": "North"
+    },
     "sourceIndex": 6541
   },
   {
@@ -15316,6 +18916,10 @@ const phrasesDaily = [
     "wordIds": [
       "16542"
     ],
+    "cloze": {
+      "de": "Oberschenkel",
+      "en": "thigh"
+    },
     "sourceIndex": 6542
   },
   {
@@ -15333,6 +18937,10 @@ const phrasesDaily = [
     "wordIds": [
       "16554"
     ],
+    "cloze": {
+      "de": "Schulung",
+      "en": "training"
+    },
     "sourceIndex": 6554
   },
   {
@@ -15350,6 +18958,10 @@ const phrasesDaily = [
     "wordIds": [
       "16568"
     ],
+    "cloze": {
+      "de": "ungleiche",
+      "en": "unequal"
+    },
     "sourceIndex": 6568
   },
   {
@@ -15367,6 +18979,10 @@ const phrasesDaily = [
     "wordIds": [
       "16584"
     ],
+    "cloze": {
+      "de": "Weihnachtsmarkt",
+      "en": "Christmas"
+    },
     "sourceIndex": 6584
   },
   {
@@ -15384,6 +19000,10 @@ const phrasesDaily = [
     "wordIds": [
       "16617"
     ],
+    "cloze": {
+      "de": "Friede",
+      "en": "peace"
+    },
     "sourceIndex": 6617
   },
   {
@@ -15401,6 +19021,10 @@ const phrasesDaily = [
     "wordIds": [
       "16627"
     ],
+    "cloze": {
+      "de": "hinbekommen",
+      "en": "manage"
+    },
     "sourceIndex": 6627
   },
   {
@@ -15418,6 +19042,10 @@ const phrasesDaily = [
     "wordIds": [
       "16632"
     ],
+    "cloze": {
+      "de": "Kakao",
+      "en": "cocoa"
+    },
     "sourceIndex": 6632
   },
   {
@@ -15435,6 +19063,10 @@ const phrasesDaily = [
     "wordIds": [
       "16633"
     ],
+    "cloze": {
+      "de": "Kinderwagen",
+      "en": "stroller"
+    },
     "sourceIndex": 6633
   },
   {
@@ -15452,6 +19084,10 @@ const phrasesDaily = [
     "wordIds": [
       "16634"
     ],
+    "cloze": {
+      "de": "Kiosk",
+      "en": "kiosk"
+    },
     "sourceIndex": 6634
   },
   {
@@ -15469,6 +19105,10 @@ const phrasesDaily = [
     "wordIds": [
       "16639"
     ],
+    "cloze": {
+      "de": "Leitfaden",
+      "en": "guideline"
+    },
     "sourceIndex": 6639
   },
   {
@@ -15486,6 +19126,10 @@ const phrasesDaily = [
     "wordIds": [
       "16641"
     ],
+    "cloze": {
+      "de": "Musikvideo",
+      "en": "music"
+    },
     "sourceIndex": 6641
   },
   {
@@ -15503,6 +19147,10 @@ const phrasesDaily = [
     "wordIds": [
       "16658"
     ],
+    "cloze": {
+      "de": "Stapel",
+      "en": "stack"
+    },
     "sourceIndex": 6658
   },
   {
@@ -15520,6 +19168,10 @@ const phrasesDaily = [
     "wordIds": [
       "16683"
     ],
+    "cloze": {
+      "de": "zugehörigen",
+      "en": "associated"
+    },
     "sourceIndex": 6683
   },
   {
@@ -15537,6 +19189,10 @@ const phrasesDaily = [
     "wordIds": [
       "16700"
     ],
+    "cloze": {
+      "de": "bereue",
+      "en": "regret"
+    },
     "sourceIndex": 6700
   },
   {
@@ -15554,6 +19210,10 @@ const phrasesDaily = [
     "wordIds": [
       "16703"
     ],
+    "cloze": {
+      "de": "blass",
+      "en": "pale"
+    },
     "sourceIndex": 6703
   },
   {
@@ -15571,6 +19231,10 @@ const phrasesDaily = [
     "wordIds": [
       "16711"
     ],
+    "cloze": {
+      "de": "dolle",
+      "en": "great"
+    },
     "sourceIndex": 6711
   },
   {
@@ -15588,6 +19252,10 @@ const phrasesDaily = [
     "wordIds": [
       "16721"
     ],
+    "cloze": {
+      "de": "Förster",
+      "en": "forester"
+    },
     "sourceIndex": 6721
   },
   {
@@ -15605,6 +19273,10 @@ const phrasesDaily = [
     "wordIds": [
       "16724"
     ],
+    "cloze": {
+      "de": "Geiger",
+      "en": "violinist"
+    },
     "sourceIndex": 6724
   },
   {
@@ -15622,6 +19294,10 @@ const phrasesDaily = [
     "wordIds": [
       "16728"
     ],
+    "cloze": {
+      "de": "Gewohnheit",
+      "en": "habit"
+    },
     "sourceIndex": 6728
   },
   {
@@ -15639,6 +19315,10 @@ const phrasesDaily = [
     "wordIds": [
       "16735"
     ],
+    "cloze": {
+      "de": "Hörbücher",
+      "en": "I"
+    },
     "sourceIndex": 6735
   },
   {
@@ -15656,6 +19336,10 @@ const phrasesDaily = [
     "wordIds": [
       "16753"
     ],
+    "cloze": {
+      "de": "Moderatorin",
+      "en": "female"
+    },
     "sourceIndex": 6753
   },
   {
@@ -15673,6 +19357,10 @@ const phrasesDaily = [
     "wordIds": [
       "16761"
     ],
+    "cloze": {
+      "de": "Pony",
+      "en": "pony"
+    },
     "sourceIndex": 6761
   },
   {
@@ -15690,6 +19378,10 @@ const phrasesDaily = [
     "wordIds": [
       "16799"
     ],
+    "cloze": {
+      "de": "aufgeführt",
+      "en": "listed"
+    },
     "sourceIndex": 6799
   },
   {
@@ -15707,6 +19399,10 @@ const phrasesDaily = [
     "wordIds": [
       "16804"
     ],
+    "cloze": {
+      "de": "Berufsschule",
+      "en": "vocational"
+    },
     "sourceIndex": 6804
   },
   {
@@ -15724,6 +19420,10 @@ const phrasesDaily = [
     "wordIds": [
       "16805"
     ],
+    "cloze": {
+      "de": "besetzt",
+      "en": "busy"
+    },
     "sourceIndex": 6805
   },
   {
@@ -15741,6 +19441,10 @@ const phrasesDaily = [
     "wordIds": [
       "16808"
     ],
+    "cloze": {
+      "de": "Bücherei",
+      "en": "library"
+    },
     "sourceIndex": 6808
   },
   {
@@ -15758,6 +19462,10 @@ const phrasesDaily = [
     "wordIds": [
       "16830"
     ],
+    "cloze": {
+      "de": "schmücken",
+      "en": "decorating"
+    },
     "sourceIndex": 6830
   },
   {
@@ -15775,6 +19483,10 @@ const phrasesDaily = [
     "wordIds": [
       "16834"
     ],
+    "cloze": {
+      "de": "Holländer",
+      "en": "Dutchman"
+    },
     "sourceIndex": 6834
   },
   {
@@ -15792,6 +19504,10 @@ const phrasesDaily = [
     "wordIds": [
       "16840"
     ],
+    "cloze": {
+      "de": "Lastwagen",
+      "en": "truck"
+    },
     "sourceIndex": 6840
   },
   {
@@ -15809,6 +19525,10 @@ const phrasesDaily = [
     "wordIds": [
       "16845"
     ],
+    "cloze": {
+      "de": "Motorsport",
+      "en": "motorsport"
+    },
     "sourceIndex": 6845
   },
   {
@@ -15826,6 +19546,10 @@ const phrasesDaily = [
     "wordIds": [
       "16846"
     ],
+    "cloze": {
+      "de": "Pakt",
+      "en": "pact"
+    },
     "sourceIndex": 6846
   },
   {
@@ -15843,6 +19567,10 @@ const phrasesDaily = [
     "wordIds": [
       "16860"
     ],
+    "cloze": {
+      "de": "Sprichwort",
+      "en": "proverb"
+    },
     "sourceIndex": 6860
   },
   {
@@ -15860,6 +19588,10 @@ const phrasesDaily = [
     "wordIds": [
       "16868"
     ],
+    "cloze": {
+      "de": "verhungern",
+      "en": "starve"
+    },
     "sourceIndex": 6868
   },
   {
@@ -15877,6 +19609,10 @@ const phrasesDaily = [
     "wordIds": [
       "16871"
     ],
+    "cloze": {
+      "de": "verständigen",
+      "en": "inform"
+    },
     "sourceIndex": 6871
   },
   {
@@ -15894,6 +19630,10 @@ const phrasesDaily = [
     "wordIds": [
       "16889"
     ],
+    "cloze": {
+      "de": "tragen",
+      "en": "apply"
+    },
     "sourceIndex": 6889
   },
   {
@@ -15911,6 +19651,10 @@ const phrasesDaily = [
     "wordIds": [
       "16893"
     ],
+    "cloze": {
+      "de": "Berufsausbildung",
+      "en": "vocational"
+    },
     "sourceIndex": 6893
   },
   {
@@ -15928,6 +19672,10 @@ const phrasesDaily = [
     "wordIds": [
       "16902"
     ],
+    "cloze": {
+      "de": "einzuholen",
+      "en": "catch"
+    },
     "sourceIndex": 6902
   },
   {
@@ -15945,6 +19693,10 @@ const phrasesDaily = [
     "wordIds": [
       "16951"
     ],
+    "cloze": {
+      "de": "Popcorn",
+      "en": "popcorn"
+    },
     "sourceIndex": 6951
   },
   {
@@ -15962,6 +19714,10 @@ const phrasesDaily = [
     "wordIds": [
       "16954"
     ],
+    "cloze": {
+      "de": "Radius",
+      "en": "radius"
+    },
     "sourceIndex": 6954
   },
   {
@@ -15979,6 +19735,10 @@ const phrasesDaily = [
     "wordIds": [
       "16955"
     ],
+    "cloze": {
+      "de": "Raucher",
+      "en": "Smokers"
+    },
     "sourceIndex": 6955
   },
   {
@@ -15996,6 +19756,10 @@ const phrasesDaily = [
     "wordIds": [
       "16966"
     ],
+    "cloze": {
+      "de": "Stier",
+      "en": "bull"
+    },
     "sourceIndex": 6966
   },
   {
@@ -16013,6 +19777,10 @@ const phrasesDaily = [
     "wordIds": [
       "16968"
     ],
+    "cloze": {
+      "de": "tagelang",
+      "en": "for"
+    },
     "sourceIndex": 6968
   },
   {
@@ -16030,6 +19798,10 @@ const phrasesDaily = [
     "wordIds": [
       "16969"
     ],
+    "cloze": {
+      "de": "Tango",
+      "en": "tango"
+    },
     "sourceIndex": 6969
   },
   {
@@ -16047,6 +19819,10 @@ const phrasesDaily = [
     "wordIds": [
       "16977"
     ],
+    "cloze": {
+      "de": "Vorderseite",
+      "en": "front"
+    },
     "sourceIndex": 6977
   },
   {
@@ -16064,6 +19840,10 @@ const phrasesDaily = [
     "wordIds": [
       "16981"
     ],
+    "cloze": {
+      "de": "Zwergen",
+      "en": "dwarfs"
+    },
     "sourceIndex": 6981
   },
   {
@@ -16081,6 +19861,10 @@ const phrasesDaily = [
     "wordIds": [
       "17007"
     ],
+    "cloze": {
+      "de": "Durchfall",
+      "en": "diarrhea"
+    },
     "sourceIndex": 7007
   },
   {
@@ -16098,6 +19882,10 @@ const phrasesDaily = [
     "wordIds": [
       "17028"
     ],
+    "cloze": {
+      "de": "Internat",
+      "en": "boarding"
+    },
     "sourceIndex": 7028
   },
   {
@@ -16115,6 +19903,10 @@ const phrasesDaily = [
     "wordIds": [
       "17031"
     ],
+    "cloze": {
+      "de": "Kathedrale",
+      "en": "Cathedral"
+    },
     "sourceIndex": 7031
   },
   {
@@ -16132,6 +19924,10 @@ const phrasesDaily = [
     "wordIds": [
       "17033"
     ],
+    "cloze": {
+      "de": "knüpfen",
+      "en": "establish"
+    },
     "sourceIndex": 7033
   },
   {
@@ -16149,6 +19945,10 @@ const phrasesDaily = [
     "wordIds": [
       "17045"
     ],
+    "cloze": {
+      "de": "Neustart",
+      "en": "restart"
+    },
     "sourceIndex": 7045
   },
   {
@@ -16166,6 +19966,10 @@ const phrasesDaily = [
     "wordIds": [
       "17056"
     ],
+    "cloze": {
+      "de": "Internet-Provider",
+      "en": "provider"
+    },
     "sourceIndex": 7056
   },
   {
@@ -16183,6 +19987,10 @@ const phrasesDaily = [
     "wordIds": [
       "17060"
     ],
+    "cloze": {
+      "de": "Rind",
+      "en": "cattle"
+    },
     "sourceIndex": 7060
   },
   {
@@ -16200,6 +20008,10 @@ const phrasesDaily = [
     "wordIds": [
       "17061"
     ],
+    "cloze": {
+      "de": "Rippe",
+      "en": "rib"
+    },
     "sourceIndex": 7061
   },
   {
@@ -16217,6 +20029,10 @@ const phrasesDaily = [
     "wordIds": [
       "17076"
     ],
+    "cloze": {
+      "de": "umher",
+      "en": "around"
+    },
     "sourceIndex": 7076
   },
   {
@@ -16234,6 +20050,10 @@ const phrasesDaily = [
     "wordIds": [
       "17086"
     ],
+    "cloze": {
+      "de": "abbiegen",
+      "en": "turn"
+    },
     "sourceIndex": 7086
   },
   {
@@ -16251,6 +20071,10 @@ const phrasesDaily = [
     "wordIds": [
       "17091"
     ],
+    "cloze": {
+      "de": "Ami",
+      "en": "American"
+    },
     "sourceIndex": 7091
   },
   {
@@ -16268,6 +20092,10 @@ const phrasesDaily = [
     "wordIds": [
       "17105"
     ],
+    "cloze": {
+      "de": "Bub",
+      "en": "boy"
+    },
     "sourceIndex": 7105
   },
   {
@@ -16285,6 +20113,10 @@ const phrasesDaily = [
     "wordIds": [
       "17134"
     ],
+    "cloze": {
+      "de": "Karate",
+      "en": "karate"
+    },
     "sourceIndex": 7134
   },
   {
@@ -16302,6 +20134,10 @@ const phrasesDaily = [
     "wordIds": [
       "17136"
     ],
+    "cloze": {
+      "de": "Kundschaft",
+      "en": "clientele"
+    },
     "sourceIndex": 7136
   },
   {
@@ -16319,6 +20155,10 @@ const phrasesDaily = [
     "wordIds": [
       "17159"
     ],
+    "cloze": {
+      "de": "Regenbogen",
+      "en": "rainbow"
+    },
     "sourceIndex": 7159
   },
   {
@@ -16336,6 +20176,10 @@ const phrasesDaily = [
     "wordIds": [
       "17169"
     ],
+    "cloze": {
+      "de": "Sportwagen",
+      "en": "sports"
+    },
     "sourceIndex": 7169
   },
   {
@@ -16353,6 +20197,10 @@ const phrasesDaily = [
     "wordIds": [
       "17179"
     ],
+    "cloze": {
+      "de": "Truck",
+      "en": "truck"
+    },
     "sourceIndex": 7179
   },
   {
@@ -16370,6 +20218,10 @@ const phrasesDaily = [
     "wordIds": [
       "17181"
     ],
+    "cloze": {
+      "de": "umrechnen",
+      "en": "convert"
+    },
     "sourceIndex": 7181
   },
   {
@@ -16387,6 +20239,10 @@ const phrasesDaily = [
     "wordIds": [
       "17187"
     ],
+    "cloze": {
+      "de": "Lieblings-Videospiel",
+      "en": "video"
+    },
     "sourceIndex": 7187
   },
   {
@@ -16404,6 +20260,10 @@ const phrasesDaily = [
     "wordIds": [
       "17190"
     ],
+    "cloze": {
+      "de": "vorletzte",
+      "en": "penultimate"
+    },
     "sourceIndex": 7190
   },
   {
@@ -16421,6 +20281,10 @@ const phrasesDaily = [
     "wordIds": [
       "17207"
     ],
+    "cloze": {
+      "de": "amüsieren",
+      "en": "amuse"
+    },
     "sourceIndex": 7207
   },
   {
@@ -16438,6 +20302,10 @@ const phrasesDaily = [
     "wordIds": [
       "17211"
     ],
+    "cloze": {
+      "de": "Anrufer",
+      "en": "caller"
+    },
     "sourceIndex": 7211
   },
   {
@@ -16455,6 +20323,10 @@ const phrasesDaily = [
     "wordIds": [
       "17221"
     ],
+    "cloze": {
+      "de": "Befestigung",
+      "en": "fastening"
+    },
     "sourceIndex": 7221
   },
   {
@@ -16472,6 +20344,10 @@ const phrasesDaily = [
     "wordIds": [
       "17238"
     ],
+    "cloze": {
+      "de": "iranische",
+      "en": "Iranian"
+    },
     "sourceIndex": 7238
   },
   {
@@ -16489,6 +20365,10 @@ const phrasesDaily = [
     "wordIds": [
       "17243"
     ],
+    "cloze": {
+      "de": "Komma",
+      "en": "comma"
+    },
     "sourceIndex": 7243
   },
   {
@@ -16506,6 +20386,10 @@ const phrasesDaily = [
     "wordIds": [
       "17257"
     ],
+    "cloze": {
+      "de": "optimieren",
+      "en": "optimize"
+    },
     "sourceIndex": 7257
   },
   {
@@ -16523,6 +20407,10 @@ const phrasesDaily = [
     "wordIds": [
       "17258"
     ],
+    "cloze": {
+      "de": "organische",
+      "en": "organic"
+    },
     "sourceIndex": 7258
   },
   {
@@ -16540,6 +20428,10 @@ const phrasesDaily = [
     "wordIds": [
       "17303"
     ],
+    "cloze": {
+      "de": "zirka",
+      "en": "Approximately"
+    },
     "sourceIndex": 7303
   },
   {
@@ -16557,6 +20449,10 @@ const phrasesDaily = [
     "wordIds": [
       "17318"
     ],
+    "cloze": {
+      "de": "befolgen",
+      "en": "follow"
+    },
     "sourceIndex": 7318
   },
   {
@@ -16574,6 +20470,10 @@ const phrasesDaily = [
     "wordIds": [
       "17323"
     ],
+    "cloze": {
+      "de": "Frühstücksbuffet",
+      "en": "buffet"
+    },
     "sourceIndex": 7323
   },
   {
@@ -16591,6 +20491,10 @@ const phrasesDaily = [
     "wordIds": [
       "17329"
     ],
+    "cloze": {
+      "de": "düster",
+      "en": "gloomy"
+    },
     "sourceIndex": 7329
   },
   {
@@ -16608,6 +20512,10 @@ const phrasesDaily = [
     "wordIds": [
       "17338"
     ],
+    "cloze": {
+      "de": "flotten",
+      "en": "quick"
+    },
     "sourceIndex": 7338
   },
   {
@@ -16625,6 +20533,10 @@ const phrasesDaily = [
     "wordIds": [
       "17339"
     ],
+    "cloze": {
+      "de": "Freundlichkeit",
+      "en": "was"
+    },
     "sourceIndex": 7339
   },
   {
@@ -16642,6 +20554,10 @@ const phrasesDaily = [
     "wordIds": [
       "17344"
     ],
+    "cloze": {
+      "de": "Gesprächspartner",
+      "en": "conversation"
+    },
     "sourceIndex": 7344
   },
   {
@@ -16659,6 +20575,10 @@ const phrasesDaily = [
     "wordIds": [
       "17370"
     ],
+    "cloze": {
+      "de": "Plural",
+      "en": "plural"
+    },
     "sourceIndex": 7370
   },
   {
@@ -16676,6 +20596,10 @@ const phrasesDaily = [
     "wordIds": [
       "17376"
     ],
+    "cloze": {
+      "de": "Raumschiff",
+      "en": "spaceship"
+    },
     "sourceIndex": 7376
   },
   {
@@ -16693,6 +20617,10 @@ const phrasesDaily = [
     "wordIds": [
       "17379"
     ],
+    "cloze": {
+      "de": "Rost",
+      "en": "rust"
+    },
     "sourceIndex": 7379
   },
   {
@@ -16710,6 +20638,10 @@ const phrasesDaily = [
     "wordIds": [
       "17383"
     ],
+    "cloze": {
+      "de": "Schwamm",
+      "en": "sponge"
+    },
     "sourceIndex": 7383
   },
   {
@@ -16727,6 +20659,10 @@ const phrasesDaily = [
     "wordIds": [
       "17397"
     ],
+    "cloze": {
+      "de": "umarmen",
+      "en": "hug"
+    },
     "sourceIndex": 7397
   },
   {
@@ -16744,6 +20680,10 @@ const phrasesDaily = [
     "wordIds": [
       "17404"
     ],
+    "cloze": {
+      "de": "verboten",
+      "en": "forbidden"
+    },
     "sourceIndex": 7404
   },
   {
@@ -16761,6 +20701,10 @@ const phrasesDaily = [
     "wordIds": [
       "17414"
     ],
+    "cloze": {
+      "de": "Welpe",
+      "en": "puppy"
+    },
     "sourceIndex": 7414
   },
   {
@@ -16778,6 +20722,10 @@ const phrasesDaily = [
     "wordIds": [
       "17427"
     ],
+    "cloze": {
+      "de": "akzeptabel",
+      "en": "acceptable"
+    },
     "sourceIndex": 7427
   },
   {
@@ -16795,6 +20743,10 @@ const phrasesDaily = [
     "wordIds": [
       "17432"
     ],
+    "cloze": {
+      "de": "beginnende",
+      "en": "beginning"
+    },
     "sourceIndex": 7432
   },
   {
@@ -16812,6 +20764,10 @@ const phrasesDaily = [
     "wordIds": [
       "17439"
     ],
+    "cloze": {
+      "de": "biegen",
+      "en": "bend"
+    },
     "sourceIndex": 7439
   },
   {
@@ -16829,6 +20785,10 @@ const phrasesDaily = [
     "wordIds": [
       "17445"
     ],
+    "cloze": {
+      "de": "Curry",
+      "en": "curry"
+    },
     "sourceIndex": 7445
   },
   {
@@ -16846,6 +20806,10 @@ const phrasesDaily = [
     "wordIds": [
       "17449"
     ],
+    "cloze": {
+      "de": "durchhalten",
+      "en": "persevere"
+    },
     "sourceIndex": 7449
   },
   {
@@ -16863,6 +20827,10 @@ const phrasesDaily = [
     "wordIds": [
       "17456"
     ],
+    "cloze": {
+      "de": "Facharzt",
+      "en": "specialist"
+    },
     "sourceIndex": 7456
   },
   {
@@ -16880,6 +20848,10 @@ const phrasesDaily = [
     "wordIds": [
       "17465"
     ],
+    "cloze": {
+      "de": "Gletscher",
+      "en": "glacier"
+    },
     "sourceIndex": 7465
   },
   {
@@ -16897,6 +20869,10 @@ const phrasesDaily = [
     "wordIds": [
       "17472"
     ],
+    "cloze": {
+      "de": "Kanadier",
+      "en": "Canadian"
+    },
     "sourceIndex": 7472
   },
   {
@@ -16914,6 +20890,10 @@ const phrasesDaily = [
     "wordIds": [
       "17473"
     ],
+    "cloze": {
+      "de": "Kandidatin",
+      "en": "candidate"
+    },
     "sourceIndex": 7473
   },
   {
@@ -16931,6 +20911,10 @@ const phrasesDaily = [
     "wordIds": [
       "17477"
     ],
+    "cloze": {
+      "de": "kratzte",
+      "en": "scratched"
+    },
     "sourceIndex": 7477
   },
   {
@@ -16948,6 +20932,10 @@ const phrasesDaily = [
     "wordIds": [
       "17483"
     ],
+    "cloze": {
+      "de": "Yogamatte",
+      "en": "mat"
+    },
     "sourceIndex": 7483
   },
   {
@@ -16965,6 +20953,10 @@ const phrasesDaily = [
     "wordIds": [
       "17490"
     ],
+    "cloze": {
+      "de": "nachholen",
+      "en": "catch"
+    },
     "sourceIndex": 7490
   },
   {
@@ -16982,6 +20974,10 @@ const phrasesDaily = [
     "wordIds": [
       "17495"
     ],
+    "cloze": {
+      "de": "orientiert",
+      "en": "informed"
+    },
     "sourceIndex": 7495
   },
   {
@@ -16999,6 +20995,10 @@ const phrasesDaily = [
     "wordIds": [
       "17507"
     ],
+    "cloze": {
+      "de": "Schranke",
+      "en": "barrier"
+    },
     "sourceIndex": 7507
   },
   {
@@ -17016,6 +21016,10 @@ const phrasesDaily = [
     "wordIds": [
       "17510"
     ],
+    "cloze": {
+      "de": "Sensation",
+      "en": "sensation"
+    },
     "sourceIndex": 7510
   },
   {
@@ -17033,6 +21037,10 @@ const phrasesDaily = [
     "wordIds": [
       "17536"
     ],
+    "cloze": {
+      "de": "vorstellbar",
+      "en": "imaginable"
+    },
     "sourceIndex": 7536
   },
   {
@@ -17050,6 +21058,10 @@ const phrasesDaily = [
     "wordIds": [
       "17538"
     ],
+    "cloze": {
+      "de": "weiterleiten",
+      "en": "forward"
+    },
     "sourceIndex": 7538
   },
   {
@@ -17067,6 +21079,10 @@ const phrasesDaily = [
     "wordIds": [
       "17547"
     ],
+    "cloze": {
+      "de": "Überweisung",
+      "en": "bank"
+    },
     "sourceIndex": 7547
   },
   {
@@ -17084,6 +21100,10 @@ const phrasesDaily = [
     "wordIds": [
       "17567"
     ],
+    "cloze": {
+      "de": "Brei",
+      "en": "porridge"
+    },
     "sourceIndex": 7567
   },
   {
@@ -17101,6 +21121,10 @@ const phrasesDaily = [
     "wordIds": [
       "17571"
     ],
+    "cloze": {
+      "de": "datiert",
+      "en": "from"
+    },
     "sourceIndex": 7571
   },
   {
@@ -17118,6 +21142,10 @@ const phrasesDaily = [
     "wordIds": [
       "17573"
     ],
+    "cloze": {
+      "de": "Dinosaurier",
+      "en": "dinosaur"
+    },
     "sourceIndex": 7573
   },
   {
@@ -17135,6 +21163,10 @@ const phrasesDaily = [
     "wordIds": [
       "17575"
     ],
+    "cloze": {
+      "de": "Eichhörnchen",
+      "en": "squirrel"
+    },
     "sourceIndex": 7575
   },
   {
@@ -17152,6 +21184,10 @@ const phrasesDaily = [
     "wordIds": [
       "17591"
     ],
+    "cloze": {
+      "de": "geradeaus",
+      "en": "straight"
+    },
     "sourceIndex": 7591
   },
   {
@@ -17169,6 +21205,10 @@ const phrasesDaily = [
     "wordIds": [
       "17611"
     ],
+    "cloze": {
+      "de": "Landhaus",
+      "en": "country"
+    },
     "sourceIndex": 7611
   },
   {
@@ -17186,6 +21226,10 @@ const phrasesDaily = [
     "wordIds": [
       "17620"
     ],
+    "cloze": {
+      "de": "Mathematiker",
+      "en": "mathematician"
+    },
     "sourceIndex": 7620
   },
   {
@@ -17203,6 +21247,10 @@ const phrasesDaily = [
     "wordIds": [
       "17623"
     ],
+    "cloze": {
+      "de": "Moor",
+      "en": "moor"
+    },
     "sourceIndex": 7623
   },
   {
@@ -17220,6 +21268,10 @@ const phrasesDaily = [
     "wordIds": [
       "17629"
     ],
+    "cloze": {
+      "de": "optional",
+      "en": "optional"
+    },
     "sourceIndex": 7629
   },
   {
@@ -17237,6 +21289,10 @@ const phrasesDaily = [
     "wordIds": [
       "17633"
     ],
+    "cloze": {
+      "de": "Pose",
+      "en": "pose"
+    },
     "sourceIndex": 7633
   },
   {
@@ -17254,6 +21310,10 @@ const phrasesDaily = [
     "wordIds": [
       "17655"
     ],
+    "cloze": {
+      "de": "Verabschiedung",
+      "en": "adoption"
+    },
     "sourceIndex": 7655
   },
   {
@@ -17271,6 +21331,10 @@ const phrasesDaily = [
     "wordIds": [
       "17658"
     ],
+    "cloze": {
+      "de": "vergiften",
+      "en": "poison"
+    },
     "sourceIndex": 7658
   },
   {
@@ -17288,6 +21352,10 @@ const phrasesDaily = [
     "wordIds": [
       "17664"
     ],
+    "cloze": {
+      "de": "Vorschau",
+      "en": "preview"
+    },
     "sourceIndex": 7664
   },
   {
@@ -17305,6 +21373,10 @@ const phrasesDaily = [
     "wordIds": [
       "17668"
     ],
+    "cloze": {
+      "de": "Wasserfall",
+      "en": "waterfall"
+    },
     "sourceIndex": 7668
   },
   {
@@ -17322,6 +21394,10 @@ const phrasesDaily = [
     "wordIds": [
       "17673"
     ],
+    "cloze": {
+      "de": "Zeichner",
+      "en": "illustrator"
+    },
     "sourceIndex": 7673
   },
   {
@@ -17339,6 +21415,10 @@ const phrasesDaily = [
     "wordIds": [
       "17682"
     ],
+    "cloze": {
+      "de": "Alm",
+      "en": "alpine"
+    },
     "sourceIndex": 7682
   },
   {
@@ -17356,6 +21436,10 @@ const phrasesDaily = [
     "wordIds": [
       "17689"
     ],
+    "cloze": {
+      "de": "Ausbilder",
+      "en": "trainer"
+    },
     "sourceIndex": 7689
   },
   {
@@ -17373,6 +21457,10 @@ const phrasesDaily = [
     "wordIds": [
       "17691"
     ],
+    "cloze": {
+      "de": "Bauteil",
+      "en": "component"
+    },
     "sourceIndex": 7691
   },
   {
@@ -17390,6 +21478,10 @@ const phrasesDaily = [
     "wordIds": [
       "17692"
     ],
+    "cloze": {
+      "de": "Bauzeit",
+      "en": "construction"
+    },
     "sourceIndex": 7692
   },
   {
@@ -17407,6 +21499,10 @@ const phrasesDaily = [
     "wordIds": [
       "17710"
     ],
+    "cloze": {
+      "de": "dreizehn",
+      "en": "thirteen"
+    },
     "sourceIndex": 7710
   },
   {
@@ -17424,6 +21520,10 @@ const phrasesDaily = [
     "wordIds": [
       "17740"
     ],
+    "cloze": {
+      "de": "koordiniert",
+      "en": "coordinated"
+    },
     "sourceIndex": 7740
   },
   {
@@ -17441,6 +21541,10 @@ const phrasesDaily = [
     "wordIds": [
       "17744"
     ],
+    "cloze": {
+      "de": "Laterne",
+      "en": "lantern"
+    },
     "sourceIndex": 7744
   },
   {
@@ -17458,6 +21562,10 @@ const phrasesDaily = [
     "wordIds": [
       "17748"
     ],
+    "cloze": {
+      "de": "Lehrgang",
+      "en": "course"
+    },
     "sourceIndex": 7748
   },
   {
@@ -17475,6 +21583,10 @@ const phrasesDaily = [
     "wordIds": [
       "17777"
     ],
+    "cloze": {
+      "de": "Sockel",
+      "en": "pedestal"
+    },
     "sourceIndex": 7777
   },
   {
@@ -17492,6 +21604,10 @@ const phrasesDaily = [
     "wordIds": [
       "17778"
     ],
+    "cloze": {
+      "de": "Spargel",
+      "en": "asparagus"
+    },
     "sourceIndex": 7778
   },
   {
@@ -17509,6 +21625,10 @@ const phrasesDaily = [
     "wordIds": [
       "17782"
     ],
+    "cloze": {
+      "de": "Traktor",
+      "en": "tractor"
+    },
     "sourceIndex": 7782
   },
   {
@@ -17526,6 +21646,10 @@ const phrasesDaily = [
     "wordIds": [
       "17795"
     ],
+    "cloze": {
+      "de": "werfen",
+      "en": "throw"
+    },
     "sourceIndex": 7795
   },
   {
@@ -17543,6 +21667,10 @@ const phrasesDaily = [
     "wordIds": [
       "17802"
     ],
+    "cloze": {
+      "de": "angebotenen",
+      "en": "offered"
+    },
     "sourceIndex": 7802
   },
   {
@@ -17560,6 +21688,10 @@ const phrasesDaily = [
     "wordIds": [
       "17805"
     ],
+    "cloze": {
+      "de": "Asiate",
+      "en": "Asian"
+    },
     "sourceIndex": 7805
   },
   {
@@ -17577,6 +21709,10 @@ const phrasesDaily = [
     "wordIds": [
       "17811"
     ],
+    "cloze": {
+      "de": "Beeren",
+      "en": "berries"
+    },
     "sourceIndex": 7811
   },
   {
@@ -17594,6 +21730,10 @@ const phrasesDaily = [
     "wordIds": [
       "17817"
     ],
+    "cloze": {
+      "de": "Direktorin",
+      "en": "female"
+    },
     "sourceIndex": 7817
   },
   {
@@ -17611,6 +21751,10 @@ const phrasesDaily = [
     "wordIds": [
       "17828"
     ],
+    "cloze": {
+      "de": "familiäre",
+      "en": "family-like"
+    },
     "sourceIndex": 7828
   },
   {
@@ -17628,6 +21772,10 @@ const phrasesDaily = [
     "wordIds": [
       "17839"
     ],
+    "cloze": {
+      "de": "geschaffenes",
+      "en": "created"
+    },
     "sourceIndex": 7839
   },
   {
@@ -17645,6 +21793,10 @@ const phrasesDaily = [
     "wordIds": [
       "17842"
     ],
+    "cloze": {
+      "de": "Hausarzt",
+      "en": "family"
+    },
     "sourceIndex": 7842
   },
   {
@@ -17662,6 +21814,10 @@ const phrasesDaily = [
     "wordIds": [
       "17844"
     ],
+    "cloze": {
+      "de": "heizen",
+      "en": "heat"
+    },
     "sourceIndex": 7844
   },
   {
@@ -17679,6 +21835,10 @@ const phrasesDaily = [
     "wordIds": [
       "17847"
     ],
+    "cloze": {
+      "de": "Illustrationen",
+      "en": "illustrations"
+    },
     "sourceIndex": 7847
   },
   {
@@ -17696,6 +21856,10 @@ const phrasesDaily = [
     "wordIds": [
       "17851"
     ],
+    "cloze": {
+      "de": "kontrolliert",
+      "en": "controlled"
+    },
     "sourceIndex": 7851
   },
   {
@@ -17713,6 +21877,10 @@ const phrasesDaily = [
     "wordIds": [
       "17853"
     ],
+    "cloze": {
+      "de": "Küken",
+      "en": "chick"
+    },
     "sourceIndex": 7853
   },
   {
@@ -17730,6 +21898,10 @@ const phrasesDaily = [
     "wordIds": [
       "17880"
     ],
+    "cloze": {
+      "de": "Sonnenlicht",
+      "en": "sunlight"
+    },
     "sourceIndex": 7880
   },
   {
@@ -17747,6 +21919,10 @@ const phrasesDaily = [
     "wordIds": [
       "17905"
     ],
+    "cloze": {
+      "de": "Wohnmobil",
+      "en": "motorhome"
+    },
     "sourceIndex": 7905
   },
   {
@@ -17764,6 +21940,10 @@ const phrasesDaily = [
     "wordIds": [
       "17921"
     ],
+    "cloze": {
+      "de": "bestehenden",
+      "en": "existing"
+    },
     "sourceIndex": 7921
   },
   {
@@ -17781,6 +21961,10 @@ const phrasesDaily = [
     "wordIds": [
       "17925"
     ],
+    "cloze": {
+      "de": "Dämmerung",
+      "en": "twilight"
+    },
     "sourceIndex": 7925
   },
   {
@@ -17798,6 +21982,10 @@ const phrasesDaily = [
     "wordIds": [
       "17930"
     ],
+    "cloze": {
+      "de": "ereignete",
+      "en": "happened"
+    },
     "sourceIndex": 7930
   },
   {
@@ -17816,6 +22004,10 @@ const phrasesDaily = [
       "17932",
       "22827"
     ],
+    "cloze": {
+      "de": "Expertin",
+      "en": "expert"
+    },
     "sourceIndex": 7932
   },
   {
@@ -17833,6 +22025,10 @@ const phrasesDaily = [
     "wordIds": [
       "17951"
     ],
+    "cloze": {
+      "de": "Informatiker",
+      "en": "computer"
+    },
     "sourceIndex": 7951
   },
   {
@@ -17850,6 +22046,10 @@ const phrasesDaily = [
     "wordIds": [
       "17954"
     ],
+    "cloze": {
+      "de": "Inspektion",
+      "en": "inspection"
+    },
     "sourceIndex": 7954
   },
   {
@@ -17867,6 +22067,10 @@ const phrasesDaily = [
     "wordIds": [
       "17956"
     ],
+    "cloze": {
+      "de": "Keil",
+      "en": "wedge"
+    },
     "sourceIndex": 7956
   },
   {
@@ -17884,6 +22088,10 @@ const phrasesDaily = [
     "wordIds": [
       "17961"
     ],
+    "cloze": {
+      "de": "Kundenservice",
+      "en": "customer"
+    },
     "sourceIndex": 7961
   },
   {
@@ -17901,6 +22109,10 @@ const phrasesDaily = [
     "wordIds": [
       "17970"
     ],
+    "cloze": {
+      "de": "misstrauisch",
+      "en": "suspicious"
+    },
     "sourceIndex": 7970
   },
   {
@@ -17918,6 +22130,10 @@ const phrasesDaily = [
     "wordIds": [
       "17974"
     ],
+    "cloze": {
+      "de": "Notaufnahme",
+      "en": "emergency"
+    },
     "sourceIndex": 7974
   },
   {
@@ -17935,6 +22151,10 @@ const phrasesDaily = [
     "wordIds": [
       "17977"
     ],
+    "cloze": {
+      "de": "Pendler",
+      "en": "commuters"
+    },
     "sourceIndex": 7977
   },
   {
@@ -17952,6 +22172,10 @@ const phrasesDaily = [
     "wordIds": [
       "17978"
     ],
+    "cloze": {
+      "de": "pfeifen",
+      "en": "whistle"
+    },
     "sourceIndex": 7978
   },
   {
@@ -17969,6 +22193,10 @@ const phrasesDaily = [
     "wordIds": [
       "17980"
     ],
+    "cloze": {
+      "de": "Pinsel",
+      "en": "brush"
+    },
     "sourceIndex": 7980
   },
   {
@@ -17986,6 +22214,10 @@ const phrasesDaily = [
     "wordIds": [
       "17982"
     ],
+    "cloze": {
+      "de": "pressen",
+      "en": "squeeze"
+    },
     "sourceIndex": 7982
   },
   {
@@ -18003,6 +22235,10 @@ const phrasesDaily = [
     "wordIds": [
       "17985"
     ],
+    "cloze": {
+      "de": "Lieblingsradiosender",
+      "en": "radio"
+    },
     "sourceIndex": 7985
   },
   {
@@ -18020,6 +22256,10 @@ const phrasesDaily = [
     "wordIds": [
       "17990"
     ],
+    "cloze": {
+      "de": "Schnecke",
+      "en": "snail"
+    },
     "sourceIndex": 7990
   },
   {
@@ -18037,6 +22277,10 @@ const phrasesDaily = [
     "wordIds": [
       "18006"
     ],
+    "cloze": {
+      "de": "ungeduldig",
+      "en": "impatiently"
+    },
     "sourceIndex": 8006
   },
   {
@@ -18054,6 +22298,10 @@ const phrasesDaily = [
     "wordIds": [
       "18015"
     ],
+    "cloze": {
+      "de": "vorbeischauen",
+      "en": "drop"
+    },
     "sourceIndex": 8015
   },
   {
@@ -18071,6 +22319,10 @@ const phrasesDaily = [
     "wordIds": [
       "18038"
     ],
+    "cloze": {
+      "de": "Bettler",
+      "en": "beggar"
+    },
     "sourceIndex": 8038
   },
   {
@@ -18088,6 +22340,10 @@ const phrasesDaily = [
     "wordIds": [
       "18063"
     ],
+    "cloze": {
+      "de": "gleichgültig",
+      "en": "indifferent"
+    },
     "sourceIndex": 8063
   },
   {
@@ -18105,6 +22361,10 @@ const phrasesDaily = [
     "wordIds": [
       "18066"
     ],
+    "cloze": {
+      "de": "Höflichkeit",
+      "en": "Politeness"
+    },
     "sourceIndex": 8066
   },
   {
@@ -18122,6 +22382,10 @@ const phrasesDaily = [
     "wordIds": [
       "18070"
     ],
+    "cloze": {
+      "de": "Kappe",
+      "en": "cap"
+    },
     "sourceIndex": 8070
   },
   {
@@ -18139,6 +22403,10 @@ const phrasesDaily = [
     "wordIds": [
       "18078"
     ],
+    "cloze": {
+      "de": "Lenker",
+      "en": "handlebars"
+    },
     "sourceIndex": 8078
   },
   {
@@ -18156,6 +22424,10 @@ const phrasesDaily = [
     "wordIds": [
       "18080"
     ],
+    "cloze": {
+      "de": "lästig",
+      "en": "annoying"
+    },
     "sourceIndex": 8080
   },
   {
@@ -18173,6 +22445,10 @@ const phrasesDaily = [
     "wordIds": [
       "18085"
     ],
+    "cloze": {
+      "de": "Musikschule",
+      "en": "music"
+    },
     "sourceIndex": 8085
   },
   {
@@ -18190,6 +22466,10 @@ const phrasesDaily = [
     "wordIds": [
       "18088"
     ],
+    "cloze": {
+      "de": "Norwegisch",
+      "en": "Norwegian"
+    },
     "sourceIndex": 8088
   },
   {
@@ -18207,6 +22487,10 @@ const phrasesDaily = [
     "wordIds": [
       "18091"
     ],
+    "cloze": {
+      "de": "Ostküste",
+      "en": "East"
+    },
     "sourceIndex": 8091
   },
   {
@@ -18224,6 +22508,10 @@ const phrasesDaily = [
     "wordIds": [
       "18116"
     ],
+    "cloze": {
+      "de": "strange",
+      "en": "strange"
+    },
     "sourceIndex": 8116
   },
   {
@@ -18241,6 +22529,10 @@ const phrasesDaily = [
     "wordIds": [
       "18122"
     ],
+    "cloze": {
+      "de": "Triathlon",
+      "en": "triathlon"
+    },
     "sourceIndex": 8122
   },
   {
@@ -18258,6 +22550,10 @@ const phrasesDaily = [
     "wordIds": [
       "18142"
     ],
+    "cloze": {
+      "de": "Weltall",
+      "en": "universe"
+    },
     "sourceIndex": 8142
   },
   {
@@ -18275,6 +22571,10 @@ const phrasesDaily = [
     "wordIds": [
       "18147"
     ],
+    "cloze": {
+      "de": "Zubereitung",
+      "en": "preparation"
+    },
     "sourceIndex": 8147
   },
   {
@@ -18292,6 +22592,10 @@ const phrasesDaily = [
     "wordIds": [
       "18155"
     ],
+    "cloze": {
+      "de": "befahl",
+      "en": "commanded"
+    },
     "sourceIndex": 8155
   },
   {
@@ -18309,6 +22613,10 @@ const phrasesDaily = [
     "wordIds": [
       "18157"
     ],
+    "cloze": {
+      "de": "behilflich",
+      "en": "of"
+    },
     "sourceIndex": 8157
   },
   {
@@ -18326,6 +22634,10 @@ const phrasesDaily = [
     "wordIds": [
       "18173"
     ],
+    "cloze": {
+      "de": "englischsprachige",
+      "en": "English-speaking"
+    },
     "sourceIndex": 8173
   },
   {
@@ -18343,6 +22655,10 @@ const phrasesDaily = [
     "wordIds": [
       "18175"
     ],
+    "cloze": {
+      "de": "erhitzen",
+      "en": "heat"
+    },
     "sourceIndex": 8175
   },
   {
@@ -18360,6 +22676,10 @@ const phrasesDaily = [
     "wordIds": [
       "18180"
     ],
+    "cloze": {
+      "de": "koppeln",
+      "en": "couple"
+    },
     "sourceIndex": 8180
   },
   {
@@ -18377,6 +22697,10 @@ const phrasesDaily = [
     "wordIds": [
       "18181"
     ],
+    "cloze": {
+      "de": "pflanzen",
+      "en": "plant"
+    },
     "sourceIndex": 8181
   },
   {
@@ -18394,6 +22718,10 @@ const phrasesDaily = [
     "wordIds": [
       "18196"
     ],
+    "cloze": {
+      "de": "Kinderbetreuung",
+      "en": "Childcare"
+    },
     "sourceIndex": 8196
   },
   {
@@ -18411,6 +22739,10 @@ const phrasesDaily = [
     "wordIds": [
       "18197"
     ],
+    "cloze": {
+      "de": "Kinderzimmer",
+      "en": "children's"
+    },
     "sourceIndex": 8197
   },
   {
@@ -18428,6 +22760,10 @@ const phrasesDaily = [
     "wordIds": [
       "18209"
     ],
+    "cloze": {
+      "de": "Mikrowelle",
+      "en": "microwave"
+    },
     "sourceIndex": 8209
   },
   {
@@ -18445,6 +22781,10 @@ const phrasesDaily = [
     "wordIds": [
       "18211"
     ],
+    "cloze": {
+      "de": "multiple",
+      "en": "multiple"
+    },
     "sourceIndex": 8211
   },
   {
@@ -18462,6 +22802,10 @@ const phrasesDaily = [
     "wordIds": [
       "18216"
     ],
+    "cloze": {
+      "de": "Organisator",
+      "en": "organizer"
+    },
     "sourceIndex": 8216
   },
   {
@@ -18479,6 +22823,10 @@ const phrasesDaily = [
     "wordIds": [
       "18226"
     ],
+    "cloze": {
+      "de": "Schlitten",
+      "en": "sled"
+    },
     "sourceIndex": 8226
   },
   {
@@ -18496,6 +22844,10 @@ const phrasesDaily = [
     "wordIds": [
       "18227"
     ],
+    "cloze": {
+      "de": "schnappte",
+      "en": "snapped"
+    },
     "sourceIndex": 8227
   },
   {
@@ -18513,6 +22865,10 @@ const phrasesDaily = [
     "wordIds": [
       "18230"
     ],
+    "cloze": {
+      "de": "sensibel",
+      "en": "sensitive"
+    },
     "sourceIndex": 8230
   },
   {
@@ -18530,6 +22886,10 @@ const phrasesDaily = [
     "wordIds": [
       "18231"
     ],
+    "cloze": {
+      "de": "Sitzplatz",
+      "en": "seat"
+    },
     "sourceIndex": 8231
   },
   {
@@ -18547,6 +22907,10 @@ const phrasesDaily = [
     "wordIds": [
       "18233"
     ],
+    "cloze": {
+      "de": "Sporthalle",
+      "en": "sports"
+    },
     "sourceIndex": 8233
   },
   {
@@ -18564,6 +22928,10 @@ const phrasesDaily = [
     "wordIds": [
       "18242"
     ],
+    "cloze": {
+      "de": "Telefonat",
+      "en": "phone"
+    },
     "sourceIndex": 8242
   },
   {
@@ -18581,6 +22949,10 @@ const phrasesDaily = [
     "wordIds": [
       "18244"
     ],
+    "cloze": {
+      "de": "Umarmung",
+      "en": "hug"
+    },
     "sourceIndex": 8244
   },
   {
@@ -18598,6 +22970,10 @@ const phrasesDaily = [
     "wordIds": [
       "18258"
     ],
+    "cloze": {
+      "de": "zerbrochen",
+      "en": "is"
+    },
     "sourceIndex": 8258
   },
   {
@@ -18615,6 +22991,10 @@ const phrasesDaily = [
     "wordIds": [
       "18260"
     ],
+    "cloze": {
+      "de": "Stromzähler",
+      "en": "meter"
+    },
     "sourceIndex": 8260
   },
   {
@@ -18632,6 +23012,10 @@ const phrasesDaily = [
     "wordIds": [
       "18276"
     ],
+    "cloze": {
+      "de": "bergauf",
+      "en": "uphill"
+    },
     "sourceIndex": 8276
   },
   {
@@ -18649,6 +23033,10 @@ const phrasesDaily = [
     "wordIds": [
       "18292"
     ],
+    "cloze": {
+      "de": "Einsteiger",
+      "en": "beginners"
+    },
     "sourceIndex": 8292
   },
   {
@@ -18666,6 +23054,10 @@ const phrasesDaily = [
     "wordIds": [
       "18299"
     ],
+    "cloze": {
+      "de": "exportiert",
+      "en": "exports"
+    },
     "sourceIndex": 8299
   },
   {
@@ -18683,6 +23075,10 @@ const phrasesDaily = [
     "wordIds": [
       "18308"
     ],
+    "cloze": {
+      "de": "Gehweg",
+      "en": "sidewalk"
+    },
     "sourceIndex": 8308
   },
   {
@@ -18700,6 +23096,10 @@ const phrasesDaily = [
     "wordIds": [
       "18312"
     ],
+    "cloze": {
+      "de": "Handarbeit",
+      "en": "handicraft"
+    },
     "sourceIndex": 8312
   },
   {
@@ -18717,6 +23117,10 @@ const phrasesDaily = [
     "wordIds": [
       "18325"
     ],
+    "cloze": {
+      "de": "Kot",
+      "en": "feces"
+    },
     "sourceIndex": 8325
   },
   {
@@ -18734,6 +23138,10 @@ const phrasesDaily = [
     "wordIds": [
       "18335"
     ],
+    "cloze": {
+      "de": "Motorradfahrer",
+      "en": "motorcyclist"
+    },
     "sourceIndex": 8335
   },
   {
@@ -18751,6 +23159,10 @@ const phrasesDaily = [
     "wordIds": [
       "18336"
     ],
+    "cloze": {
+      "de": "Mountainbike",
+      "en": "mountain"
+    },
     "sourceIndex": 8336
   },
   {
@@ -18768,6 +23180,10 @@ const phrasesDaily = [
     "wordIds": [
       "18350"
     ],
+    "cloze": {
+      "de": "Pyramiden",
+      "en": "pyramids"
+    },
     "sourceIndex": 8350
   },
   {
@@ -18785,6 +23201,10 @@ const phrasesDaily = [
     "wordIds": [
       "18362"
     ],
+    "cloze": {
+      "de": "Schwede",
+      "en": "Swede"
+    },
     "sourceIndex": 8362
   },
   {
@@ -18802,6 +23222,10 @@ const phrasesDaily = [
     "wordIds": [
       "18366"
     ],
+    "cloze": {
+      "de": "Serbe",
+      "en": "Serb"
+    },
     "sourceIndex": 8366
   },
   {
@@ -18819,6 +23243,10 @@ const phrasesDaily = [
     "wordIds": [
       "18369"
     ],
+    "cloze": {
+      "de": "Spezialität",
+      "en": "specialty"
+    },
     "sourceIndex": 8369
   },
   {
@@ -18836,6 +23264,10 @@ const phrasesDaily = [
     "wordIds": [
       "18385"
     ],
+    "cloze": {
+      "de": "Vinyl",
+      "en": "vinyl"
+    },
     "sourceIndex": 8385
   },
   {
@@ -18853,6 +23285,10 @@ const phrasesDaily = [
     "wordIds": [
       "18397"
     ],
+    "cloze": {
+      "de": "Altersgruppe",
+      "en": "age"
+    },
     "sourceIndex": 8397
   },
   {
@@ -18870,6 +23306,10 @@ const phrasesDaily = [
     "wordIds": [
       "18409"
     ],
+    "cloze": {
+      "de": "beladen",
+      "en": "load"
+    },
     "sourceIndex": 8409
   },
   {
@@ -18887,6 +23327,10 @@ const phrasesDaily = [
     "wordIds": [
       "18412"
     ],
+    "cloze": {
+      "de": "breiten",
+      "en": "spread"
+    },
     "sourceIndex": 8412
   },
   {
@@ -18904,6 +23348,10 @@ const phrasesDaily = [
     "wordIds": [
       "18413"
     ],
+    "cloze": {
+      "de": "Canyon",
+      "en": "Canyon"
+    },
     "sourceIndex": 8413
   },
   {
@@ -18921,6 +23369,10 @@ const phrasesDaily = [
     "wordIds": [
       "18438"
     ],
+    "cloze": {
+      "de": "Kleber",
+      "en": "glue"
+    },
     "sourceIndex": 8438
   },
   {
@@ -18938,6 +23390,10 @@ const phrasesDaily = [
     "wordIds": [
       "18453"
     ],
+    "cloze": {
+      "de": "Neuling",
+      "en": "newcomer"
+    },
     "sourceIndex": 8453
   },
   {
@@ -18955,6 +23411,10 @@ const phrasesDaily = [
     "wordIds": [
       "18473"
     ],
+    "cloze": {
+      "de": "Schwiegersohn",
+      "en": "son-in"
+    },
     "sourceIndex": 8473
   },
   {
@@ -18972,6 +23432,10 @@ const phrasesDaily = [
     "wordIds": [
       "18483"
     ],
+    "cloze": {
+      "de": "tropischen",
+      "en": "tropical"
+    },
     "sourceIndex": 8483
   },
   {
@@ -18989,6 +23453,10 @@ const phrasesDaily = [
     "wordIds": [
       "18484"
     ],
+    "cloze": {
+      "de": "turnen",
+      "en": "exercise"
+    },
     "sourceIndex": 8484
   },
   {
@@ -19006,6 +23474,10 @@ const phrasesDaily = [
     "wordIds": [
       "18488"
     ],
+    "cloze": {
+      "de": "unhöflich",
+      "en": "impolite"
+    },
     "sourceIndex": 8488
   },
   {
@@ -19023,6 +23495,10 @@ const phrasesDaily = [
     "wordIds": [
       "18502"
     ],
+    "cloze": {
+      "de": "Warentest",
+      "en": "product"
+    },
     "sourceIndex": 8502
   },
   {
@@ -19040,6 +23516,10 @@ const phrasesDaily = [
     "wordIds": [
       "18508"
     ],
+    "cloze": {
+      "de": "ziehen",
+      "en": "the"
+    },
     "sourceIndex": 8508
   },
   {
@@ -19057,6 +23537,10 @@ const phrasesDaily = [
     "wordIds": [
       "18524"
     ],
+    "cloze": {
+      "de": "aufwärmen",
+      "en": "warm"
+    },
     "sourceIndex": 8524
   },
   {
@@ -19074,6 +23558,10 @@ const phrasesDaily = [
     "wordIds": [
       "18536"
     ],
+    "cloze": {
+      "de": "Biber",
+      "en": "beaver"
+    },
     "sourceIndex": 8536
   },
   {
@@ -19091,6 +23579,10 @@ const phrasesDaily = [
     "wordIds": [
       "18544"
     ],
+    "cloze": {
+      "de": "dastehen",
+      "en": "appear"
+    },
     "sourceIndex": 8544
   },
   {
@@ -19108,6 +23600,10 @@ const phrasesDaily = [
     "wordIds": [
       "18545"
     ],
+    "cloze": {
+      "de": "Deo",
+      "en": "deodorant"
+    },
     "sourceIndex": 8545
   },
   {
@@ -19125,6 +23621,10 @@ const phrasesDaily = [
     "wordIds": [
       "18557"
     ],
+    "cloze": {
+      "de": "Finnisch",
+      "en": "Finnish"
+    },
     "sourceIndex": 8557
   },
   {
@@ -19142,6 +23642,10 @@ const phrasesDaily = [
     "wordIds": [
       "18568"
     ],
+    "cloze": {
+      "de": "giftig",
+      "en": "poisonous"
+    },
     "sourceIndex": 8568
   },
   {
@@ -19159,6 +23663,10 @@ const phrasesDaily = [
     "wordIds": [
       "18575"
     ],
+    "cloze": {
+      "de": "Idol",
+      "en": "idol"
+    },
     "sourceIndex": 8575
   },
   {
@@ -19176,6 +23684,10 @@ const phrasesDaily = [
     "wordIds": [
       "18576"
     ],
+    "cloze": {
+      "de": "illustrieren",
+      "en": "illustrate"
+    },
     "sourceIndex": 8576
   },
   {
@@ -19193,6 +23705,10 @@ const phrasesDaily = [
     "wordIds": [
       "18583"
     ],
+    "cloze": {
+      "de": "Lama",
+      "en": "llama"
+    },
     "sourceIndex": 8583
   },
   {
@@ -19210,6 +23726,10 @@ const phrasesDaily = [
     "wordIds": [
       "18589"
     ],
+    "cloze": {
+      "de": "Mittelklasse",
+      "en": "middle"
+    },
     "sourceIndex": 8589
   },
   {
@@ -19227,6 +23747,10 @@ const phrasesDaily = [
     "wordIds": [
       "18599"
     ],
+    "cloze": {
+      "de": "Pulli",
+      "en": "sweater"
+    },
     "sourceIndex": 8599
   },
   {
@@ -19244,6 +23768,10 @@ const phrasesDaily = [
     "wordIds": [
       "18602"
     ],
+    "cloze": {
+      "de": "Quarantäne",
+      "en": "quarantine"
+    },
     "sourceIndex": 8602
   },
   {
@@ -19261,6 +23789,10 @@ const phrasesDaily = [
     "wordIds": [
       "18607"
     ],
+    "cloze": {
+      "de": "riskantes",
+      "en": "risky"
+    },
     "sourceIndex": 8607
   },
   {
@@ -19278,6 +23810,10 @@ const phrasesDaily = [
     "wordIds": [
       "18608"
     ],
+    "cloze": {
+      "de": "Rumänisch",
+      "en": "Romanian"
+    },
     "sourceIndex": 8608
   },
   {
@@ -19295,6 +23831,10 @@ const phrasesDaily = [
     "wordIds": [
       "18609"
     ],
+    "cloze": {
+      "de": "Rückfahrt",
+      "en": "return"
+    },
     "sourceIndex": 8609
   },
   {
@@ -19312,6 +23852,10 @@ const phrasesDaily = [
     "wordIds": [
       "18614"
     ],
+    "cloze": {
+      "de": "Schwiegermutter",
+      "en": "mother-in"
+    },
     "sourceIndex": 8614
   },
   {
@@ -19329,6 +23873,10 @@ const phrasesDaily = [
     "wordIds": [
       "18622"
     ],
+    "cloze": {
+      "de": "Stute",
+      "en": "mare"
+    },
     "sourceIndex": 8622
   },
   {
@@ -19346,6 +23894,10 @@ const phrasesDaily = [
     "wordIds": [
       "18626"
     ],
+    "cloze": {
+      "de": "Tribüne",
+      "en": "grandstand"
+    },
     "sourceIndex": 8626
   },
   {
@@ -19363,6 +23915,10 @@ const phrasesDaily = [
     "wordIds": [
       "18628"
     ],
+    "cloze": {
+      "de": "Ufo",
+      "en": "UFO"
+    },
     "sourceIndex": 8628
   },
   {
@@ -19380,6 +23936,10 @@ const phrasesDaily = [
     "wordIds": [
       "18631"
     ],
+    "cloze": {
+      "de": "vergrub",
+      "en": "buried"
+    },
     "sourceIndex": 8631
   },
   {
@@ -19397,6 +23957,10 @@ const phrasesDaily = [
     "wordIds": [
       "18643"
     ],
+    "cloze": {
+      "de": "Walzer",
+      "en": "waltz"
+    },
     "sourceIndex": 8643
   },
   {
@@ -19414,6 +23978,10 @@ const phrasesDaily = [
     "wordIds": [
       "18652"
     ],
+    "cloze": {
+      "de": "zündete",
+      "en": "ignite"
+    },
     "sourceIndex": 8652
   },
   {
@@ -19431,6 +23999,10 @@ const phrasesDaily = [
     "wordIds": [
       "18661"
     ],
+    "cloze": {
+      "de": "anstehen",
+      "en": "queue"
+    },
     "sourceIndex": 8661
   },
   {
@@ -19448,6 +24020,10 @@ const phrasesDaily = [
     "wordIds": [
       "18665"
     ],
+    "cloze": {
+      "de": "aufladen",
+      "en": "charge"
+    },
     "sourceIndex": 8665
   },
   {
@@ -19465,6 +24041,10 @@ const phrasesDaily = [
     "wordIds": [
       "18673"
     ],
+    "cloze": {
+      "de": "Buchmesse",
+      "en": "Book"
+    },
     "sourceIndex": 8673
   },
   {
@@ -19482,6 +24062,10 @@ const phrasesDaily = [
     "wordIds": [
       "18680"
     ],
+    "cloze": {
+      "de": "Eingangsbereich",
+      "en": "entrance"
+    },
     "sourceIndex": 8680
   },
   {
@@ -19499,6 +24083,10 @@ const phrasesDaily = [
     "wordIds": [
       "18681"
     ],
+    "cloze": {
+      "de": "Einhörner",
+      "en": "unicorns"
+    },
     "sourceIndex": 8681
   },
   {
@@ -19516,6 +24104,10 @@ const phrasesDaily = [
     "wordIds": [
       "18689"
     ],
+    "cloze": {
+      "de": "Farmer",
+      "en": "farmer"
+    },
     "sourceIndex": 8689
   },
   {
@@ -19533,6 +24125,10 @@ const phrasesDaily = [
     "wordIds": [
       "18704"
     ],
+    "cloze": {
+      "de": "Hebamme",
+      "en": "midwife"
+    },
     "sourceIndex": 8704
   },
   {
@@ -19550,6 +24146,10 @@ const phrasesDaily = [
     "wordIds": [
       "18718"
     ],
+    "cloze": {
+      "de": "Lagerfeuer",
+      "en": "campfire"
+    },
     "sourceIndex": 8718
   },
   {
@@ -19567,6 +24167,10 @@ const phrasesDaily = [
     "wordIds": [
       "18726"
     ],
+    "cloze": {
+      "de": "Nonne",
+      "en": "nun"
+    },
     "sourceIndex": 8726
   },
   {
@@ -19584,6 +24188,10 @@ const phrasesDaily = [
     "wordIds": [
       "18734"
     ],
+    "cloze": {
+      "de": "Patriot",
+      "en": "patriot"
+    },
     "sourceIndex": 8734
   },
   {
@@ -19601,6 +24209,10 @@ const phrasesDaily = [
     "wordIds": [
       "18735"
     ],
+    "cloze": {
+      "de": "Pfand",
+      "en": "deposit"
+    },
     "sourceIndex": 8735
   },
   {
@@ -19618,6 +24230,10 @@ const phrasesDaily = [
     "wordIds": [
       "18740"
     ],
+    "cloze": {
+      "de": "Phrase",
+      "en": "phrase"
+    },
     "sourceIndex": 8740
   },
   {
@@ -19635,6 +24251,10 @@ const phrasesDaily = [
     "wordIds": [
       "18742"
     ],
+    "cloze": {
+      "de": "Picknick",
+      "en": "picnic"
+    },
     "sourceIndex": 8742
   },
   {
@@ -19652,6 +24272,10 @@ const phrasesDaily = [
     "wordIds": [
       "18762"
     ],
+    "cloze": {
+      "de": "slim",
+      "en": "slim"
+    },
     "sourceIndex": 8762
   },
   {
@@ -19669,6 +24293,10 @@ const phrasesDaily = [
     "wordIds": [
       "18763"
     ],
+    "cloze": {
+      "de": "Soja",
+      "en": "Soy"
+    },
     "sourceIndex": 8763
   },
   {
@@ -19686,6 +24314,10 @@ const phrasesDaily = [
     "wordIds": [
       "18765"
     ],
+    "cloze": {
+      "de": "Spion",
+      "en": "spy"
+    },
     "sourceIndex": 8765
   },
   {
@@ -19703,6 +24335,10 @@ const phrasesDaily = [
     "wordIds": [
       "18769"
     ],
+    "cloze": {
+      "de": "Steckdose",
+      "en": "power"
+    },
     "sourceIndex": 8769
   },
   {
@@ -19720,6 +24356,10 @@ const phrasesDaily = [
     "wordIds": [
       "18786"
     ],
+    "cloze": {
+      "de": "Verkäuferin",
+      "en": "saleswoman"
+    },
     "sourceIndex": 8786
   },
   {
@@ -19737,6 +24377,10 @@ const phrasesDaily = [
     "wordIds": [
       "18794"
     ],
+    "cloze": {
+      "de": "Westküste",
+      "en": "west"
+    },
     "sourceIndex": 8794
   },
   {
@@ -19754,6 +24398,10 @@ const phrasesDaily = [
     "wordIds": [
       "18825"
     ],
+    "cloze": {
+      "de": "Buchhändler",
+      "en": "bookseller"
+    },
     "sourceIndex": 8825
   },
   {
@@ -19771,6 +24419,10 @@ const phrasesDaily = [
     "wordIds": [
       "18830"
     ],
+    "cloze": {
+      "de": "Einlass",
+      "en": "Admission"
+    },
     "sourceIndex": 8830
   },
   {
@@ -19788,6 +24440,10 @@ const phrasesDaily = [
     "wordIds": [
       "18839"
     ],
+    "cloze": {
+      "de": "Fahrschule",
+      "en": "driving"
+    },
     "sourceIndex": 8839
   },
   {
@@ -19805,6 +24461,10 @@ const phrasesDaily = [
     "wordIds": [
       "18852"
     ],
+    "cloze": {
+      "de": "Gemisch",
+      "en": "mixture"
+    },
     "sourceIndex": 8852
   },
   {
@@ -19822,6 +24482,10 @@ const phrasesDaily = [
     "wordIds": [
       "18858"
     ],
+    "cloze": {
+      "de": "züchten",
+      "en": "cultivate"
+    },
     "sourceIndex": 8858
   },
   {
@@ -19839,6 +24503,10 @@ const phrasesDaily = [
     "wordIds": [
       "18862"
     ],
+    "cloze": {
+      "de": "hohl",
+      "en": "hollow"
+    },
     "sourceIndex": 8862
   },
   {
@@ -19856,6 +24524,10 @@ const phrasesDaily = [
     "wordIds": [
       "18863"
     ],
+    "cloze": {
+      "de": "Holländisch",
+      "en": "Dutch"
+    },
     "sourceIndex": 8863
   },
   {
@@ -19873,6 +24545,10 @@ const phrasesDaily = [
     "wordIds": [
       "18867"
     ],
+    "cloze": {
+      "de": "Ire",
+      "en": "Irishman"
+    },
     "sourceIndex": 8867
   },
   {
@@ -19890,6 +24566,10 @@ const phrasesDaily = [
     "wordIds": [
       "18869"
     ],
+    "cloze": {
+      "de": "Kanu",
+      "en": "canoe"
+    },
     "sourceIndex": 8869
   },
   {
@@ -19907,6 +24587,10 @@ const phrasesDaily = [
     "wordIds": [
       "18875"
     ],
+    "cloze": {
+      "de": "Kürbis",
+      "en": "pumpkin"
+    },
     "sourceIndex": 8875
   },
   {
@@ -19924,6 +24608,10 @@ const phrasesDaily = [
     "wordIds": [
       "18900"
     ],
+    "cloze": {
+      "de": "Rampe",
+      "en": "ramp"
+    },
     "sourceIndex": 8900
   },
   {
@@ -19941,6 +24629,10 @@ const phrasesDaily = [
     "wordIds": [
       "18901"
     ],
+    "cloze": {
+      "de": "rausgehen",
+      "en": "go"
+    },
     "sourceIndex": 8901
   },
   {
@@ -19958,6 +24650,10 @@ const phrasesDaily = [
     "wordIds": [
       "18902"
     ],
+    "cloze": {
+      "de": "rausholen",
+      "en": "take"
+    },
     "sourceIndex": 8902
   },
   {
@@ -19975,6 +24671,10 @@ const phrasesDaily = [
     "wordIds": [
       "18910"
     ],
+    "cloze": {
+      "de": "schottischen",
+      "en": "Scottish"
+    },
     "sourceIndex": 8910
   },
   {
@@ -19992,6 +24692,10 @@ const phrasesDaily = [
     "wordIds": [
       "18916"
     ],
+    "cloze": {
+      "de": "Spielregel",
+      "en": "rule"
+    },
     "sourceIndex": 8916
   },
   {
@@ -20009,6 +24713,10 @@ const phrasesDaily = [
     "wordIds": [
       "18938"
     ],
+    "cloze": {
+      "de": "Weingut",
+      "en": "winery"
+    },
     "sourceIndex": 8938
   },
   {
@@ -20026,6 +24734,10 @@ const phrasesDaily = [
     "wordIds": [
       "18942"
     ],
+    "cloze": {
+      "de": "Zeitlang",
+      "en": "while"
+    },
     "sourceIndex": 8942
   },
   {
@@ -20043,6 +24755,10 @@ const phrasesDaily = [
     "wordIds": [
       "18952"
     ],
+    "cloze": {
+      "de": "Anschrift",
+      "en": "address"
+    },
     "sourceIndex": 8952
   },
   {
@@ -20060,6 +24776,10 @@ const phrasesDaily = [
     "wordIds": [
       "18960"
     ],
+    "cloze": {
+      "de": "Bagger",
+      "en": "excavator"
+    },
     "sourceIndex": 8960
   },
   {
@@ -20077,6 +24797,10 @@ const phrasesDaily = [
     "wordIds": [
       "18961"
     ],
+    "cloze": {
+      "de": "Bauarbeiter",
+      "en": "construction"
+    },
     "sourceIndex": 8961
   },
   {
@@ -20094,6 +24818,10 @@ const phrasesDaily = [
     "wordIds": [
       "18964"
     ],
+    "cloze": {
+      "de": "befreundet",
+      "en": "befriended"
+    },
     "sourceIndex": 8964
   },
   {
@@ -20111,6 +24839,10 @@ const phrasesDaily = [
     "wordIds": [
       "18982"
     ],
+    "cloze": {
+      "de": "Ferienwohnung",
+      "en": "holiday"
+    },
     "sourceIndex": 8982
   },
   {
@@ -20128,6 +24860,10 @@ const phrasesDaily = [
     "wordIds": [
       "19001"
     ],
+    "cloze": {
+      "de": "Gewerbegebiet",
+      "en": "industrial"
+    },
     "sourceIndex": 9001
   },
   {
@@ -20145,6 +24881,10 @@ const phrasesDaily = [
     "wordIds": [
       "19008"
     ],
+    "cloze": {
+      "de": "horizontal",
+      "en": "horizontal"
+    },
     "sourceIndex": 9008
   },
   {
@@ -20162,6 +24902,10 @@ const phrasesDaily = [
     "wordIds": [
       "19015"
     ],
+    "cloze": {
+      "de": "Kegeln",
+      "en": "skittles"
+    },
     "sourceIndex": 9015
   },
   {
@@ -20179,6 +24923,10 @@ const phrasesDaily = [
     "wordIds": [
       "19039"
     ],
+    "cloze": {
+      "de": "Paragraph",
+      "en": "paragraph"
+    },
     "sourceIndex": 9039
   },
   {
@@ -20196,6 +24944,10 @@ const phrasesDaily = [
     "wordIds": [
       "19040"
     ],
+    "cloze": {
+      "de": "Pfingsten",
+      "en": "Pentecost"
+    },
     "sourceIndex": 9040
   },
   {
@@ -20213,6 +24965,10 @@ const phrasesDaily = [
     "wordIds": [
       "19043"
     ],
+    "cloze": {
+      "de": "Playlist",
+      "en": "playlist"
+    },
     "sourceIndex": 9043
   },
   {
@@ -20230,6 +24986,10 @@ const phrasesDaily = [
     "wordIds": [
       "19056"
     ],
+    "cloze": {
+      "de": "Schulhof",
+      "en": "schoolyard"
+    },
     "sourceIndex": 9056
   },
   {
@@ -20247,6 +25007,10 @@ const phrasesDaily = [
     "wordIds": [
       "19059"
     ],
+    "cloze": {
+      "de": "Seilbahn",
+      "en": "cable"
+    },
     "sourceIndex": 9059
   },
   {
@@ -20264,6 +25028,10 @@ const phrasesDaily = [
     "wordIds": [
       "19069"
     ],
+    "cloze": {
+      "de": "straighter",
+      "en": "a"
+    },
     "sourceIndex": 9069
   },
   {
@@ -20281,6 +25049,10 @@ const phrasesDaily = [
     "wordIds": [
       "19077"
     ],
+    "cloze": {
+      "de": "unkompliziert",
+      "en": "uncomplicated"
+    },
     "sourceIndex": 9077
   },
   {
@@ -20298,6 +25070,10 @@ const phrasesDaily = [
     "wordIds": [
       "19080"
     ],
+    "cloze": {
+      "de": "Urne",
+      "en": "urn"
+    },
     "sourceIndex": 9080
   },
   {
@@ -20315,6 +25091,10 @@ const phrasesDaily = [
     "wordIds": [
       "19097"
     ],
+    "cloze": {
+      "de": "Wohngebiet",
+      "en": "residential"
+    },
     "sourceIndex": 9097
   },
   {
@@ -20332,6 +25112,10 @@ const phrasesDaily = [
     "wordIds": [
       "19106"
     ],
+    "cloze": {
+      "de": "Abwasser",
+      "en": "wastewater"
+    },
     "sourceIndex": 9106
   },
   {
@@ -20349,6 +25133,10 @@ const phrasesDaily = [
     "wordIds": [
       "19112"
     ],
+    "cloze": {
+      "de": "mit",
+      "en": "infected"
+    },
     "sourceIndex": 9112
   },
   {
@@ -20366,6 +25154,10 @@ const phrasesDaily = [
     "wordIds": [
       "19142"
     ],
+    "cloze": {
+      "de": "Fackel",
+      "en": "torch"
+    },
     "sourceIndex": 9142
   },
   {
@@ -20383,6 +25175,10 @@ const phrasesDaily = [
     "wordIds": [
       "19143"
     ],
+    "cloze": {
+      "de": "Ferienhaus",
+      "en": "holiday"
+    },
     "sourceIndex": 9143
   },
   {
@@ -20400,6 +25196,10 @@ const phrasesDaily = [
     "wordIds": [
       "19145"
     ],
+    "cloze": {
+      "de": "Foyer",
+      "en": "foyer"
+    },
     "sourceIndex": 9145
   },
   {
@@ -20417,6 +25217,10 @@ const phrasesDaily = [
     "wordIds": [
       "19162"
     ],
+    "cloze": {
+      "de": "Hausnummer",
+      "en": "house"
+    },
     "sourceIndex": 9162
   },
   {
@@ -20434,6 +25238,10 @@ const phrasesDaily = [
     "wordIds": [
       "19190"
     ],
+    "cloze": {
+      "de": "Mittelschicht",
+      "en": "middle"
+    },
     "sourceIndex": 9190
   },
   {
@@ -20451,6 +25259,10 @@ const phrasesDaily = [
     "wordIds": [
       "19199"
     ],
+    "cloze": {
+      "de": "Persisch",
+      "en": "Persian"
+    },
     "sourceIndex": 9199
   },
   {
@@ -20468,6 +25280,10 @@ const phrasesDaily = [
     "wordIds": [
       "19241"
     ],
+    "cloze": {
+      "de": "absteigen",
+      "en": "dismount"
+    },
     "sourceIndex": 9241
   },
   {
@@ -20485,6 +25301,10 @@ const phrasesDaily = [
     "wordIds": [
       "19255"
     ],
+    "cloze": {
+      "de": "betätigen",
+      "en": "operate"
+    },
     "sourceIndex": 9255
   },
   {
@@ -20502,6 +25322,10 @@ const phrasesDaily = [
     "wordIds": [
       "19256"
     ],
+    "cloze": {
+      "de": "bewacht",
+      "en": "guards"
+    },
     "sourceIndex": 9256
   },
   {
@@ -20519,6 +25343,10 @@ const phrasesDaily = [
     "wordIds": [
       "19260"
     ],
+    "cloze": {
+      "de": "Binder",
+      "en": "tie"
+    },
     "sourceIndex": 9260
   },
   {
@@ -20536,6 +25364,10 @@ const phrasesDaily = [
     "wordIds": [
       "19264"
     ],
+    "cloze": {
+      "de": "Corona-Pandemie",
+      "en": "Corona"
+    },
     "sourceIndex": 9264
   },
   {
@@ -20553,6 +25385,10 @@ const phrasesDaily = [
     "wordIds": [
       "19271"
     ],
+    "cloze": {
+      "de": "Eiszeit",
+      "en": "ice"
+    },
     "sourceIndex": 9271
   },
   {
@@ -20570,6 +25406,10 @@ const phrasesDaily = [
     "wordIds": [
       "19277"
     ],
+    "cloze": {
+      "de": "Ferse",
+      "en": "heel"
+    },
     "sourceIndex": 9277
   },
   {
@@ -20587,6 +25427,10 @@ const phrasesDaily = [
     "wordIds": [
       "19280"
     ],
+    "cloze": {
+      "de": "Fischerei",
+      "en": "is"
+    },
     "sourceIndex": 9280
   },
   {
@@ -20604,6 +25448,10 @@ const phrasesDaily = [
     "wordIds": [
       "19291"
     ],
+    "cloze": {
+      "de": "Geistliche",
+      "en": "clergyman"
+    },
     "sourceIndex": 9291
   },
   {
@@ -20621,6 +25469,10 @@ const phrasesDaily = [
     "wordIds": [
       "19301"
     ],
+    "cloze": {
+      "de": "Hintertür",
+      "en": "back"
+    },
     "sourceIndex": 9301
   },
   {
@@ -20638,6 +25490,10 @@ const phrasesDaily = [
     "wordIds": [
       "19307"
     ],
+    "cloze": {
+      "de": "Kaffeemaschine",
+      "en": "coffee"
+    },
     "sourceIndex": 9307
   },
   {
@@ -20655,6 +25511,10 @@ const phrasesDaily = [
     "wordIds": [
       "19308"
     ],
+    "cloze": {
+      "de": "kahl",
+      "en": "bare"
+    },
     "sourceIndex": 9308
   },
   {
@@ -20672,6 +25532,10 @@ const phrasesDaily = [
     "wordIds": [
       "19327"
     ],
+    "cloze": {
+      "de": "Oase",
+      "en": "oasis"
+    },
     "sourceIndex": 9327
   },
   {
@@ -20689,6 +25553,10 @@ const phrasesDaily = [
     "wordIds": [
       "19337"
     ],
+    "cloze": {
+      "de": "Portugiesisch",
+      "en": "Portuguese"
+    },
     "sourceIndex": 9337
   },
   {
@@ -20706,6 +25574,10 @@ const phrasesDaily = [
     "wordIds": [
       "19344"
     ],
+    "cloze": {
+      "de": "reservieren",
+      "en": "reserve"
+    },
     "sourceIndex": 9344
   },
   {
@@ -20723,6 +25595,10 @@ const phrasesDaily = [
     "wordIds": [
       "19352"
     ],
+    "cloze": {
+      "de": "Schnur",
+      "en": "cord"
+    },
     "sourceIndex": 9352
   },
   {
@@ -20740,6 +25616,10 @@ const phrasesDaily = [
     "wordIds": [
       "19358"
     ],
+    "cloze": {
+      "de": "Selfie",
+      "en": "selfie"
+    },
     "sourceIndex": 9358
   },
   {
@@ -20757,6 +25637,10 @@ const phrasesDaily = [
     "wordIds": [
       "19362"
     ],
+    "cloze": {
+      "de": "spinnenden",
+      "en": "spinning"
+    },
     "sourceIndex": 9362
   },
   {
@@ -20774,6 +25658,10 @@ const phrasesDaily = [
     "wordIds": [
       "19364"
     ],
+    "cloze": {
+      "de": "Stadtbild",
+      "en": "cityscape"
+    },
     "sourceIndex": 9364
   },
   {
@@ -20791,6 +25679,10 @@ const phrasesDaily = [
     "wordIds": [
       "19372"
     ],
+    "cloze": {
+      "de": "Taschenlampe",
+      "en": "flashlight"
+    },
     "sourceIndex": 9372
   },
   {
@@ -20808,6 +25700,10 @@ const phrasesDaily = [
     "wordIds": [
       "19378"
     ],
+    "cloze": {
+      "de": "ungesund",
+      "en": "unhealthy"
+    },
     "sourceIndex": 9378
   },
   {
@@ -20825,6 +25721,10 @@ const phrasesDaily = [
     "wordIds": [
       "19379"
     ],
+    "cloze": {
+      "de": "unrealistisch",
+      "en": "unrealistic"
+    },
     "sourceIndex": 9379
   },
   {
@@ -20842,6 +25742,10 @@ const phrasesDaily = [
     "wordIds": [
       "19381"
     ],
+    "cloze": {
+      "de": "unterste",
+      "en": "bottommost"
+    },
     "sourceIndex": 9381
   },
   {
@@ -20859,6 +25763,10 @@ const phrasesDaily = [
     "wordIds": [
       "19382"
     ],
+    "cloze": {
+      "de": "vegetarisch",
+      "en": "vegetarian"
+    },
     "sourceIndex": 9382
   },
   {
@@ -20876,6 +25784,10 @@ const phrasesDaily = [
     "wordIds": [
       "19386"
     ],
+    "cloze": {
+      "de": "Vorfahrt",
+      "en": "right"
+    },
     "sourceIndex": 9386
   },
   {
@@ -20893,6 +25805,10 @@ const phrasesDaily = [
     "wordIds": [
       "19389"
     ],
+    "cloze": {
+      "de": "Weihnachtsbaum",
+      "en": "Christmas"
+    },
     "sourceIndex": 9389
   },
   {
@@ -20910,6 +25826,10 @@ const phrasesDaily = [
     "wordIds": [
       "19390"
     ],
+    "cloze": {
+      "de": "weltliche",
+      "en": "worldly"
+    },
     "sourceIndex": 9390
   },
   {
@@ -20927,6 +25847,10 @@ const phrasesDaily = [
     "wordIds": [
       "19391"
     ],
+    "cloze": {
+      "de": "Whiskey",
+      "en": "whiskey"
+    },
     "sourceIndex": 9391
   },
   {
@@ -20944,6 +25868,10 @@ const phrasesDaily = [
     "wordIds": [
       "19404"
     ],
+    "cloze": {
+      "de": "Abmessungen",
+      "en": "dimensions"
+    },
     "sourceIndex": 9404
   },
   {
@@ -20961,6 +25889,10 @@ const phrasesDaily = [
     "wordIds": [
       "19408"
     ],
+    "cloze": {
+      "de": "Anstrich",
+      "en": "coat"
+    },
     "sourceIndex": 9408
   },
   {
@@ -20978,6 +25910,10 @@ const phrasesDaily = [
     "wordIds": [
       "19440"
     ],
+    "cloze": {
+      "de": "Flirt",
+      "en": "flirtation"
+    },
     "sourceIndex": 9440
   },
   {
@@ -20995,6 +25931,10 @@ const phrasesDaily = [
     "wordIds": [
       "19444"
     ],
+    "cloze": {
+      "de": "gehorchen",
+      "en": "obey"
+    },
     "sourceIndex": 9444
   },
   {
@@ -21012,6 +25952,10 @@ const phrasesDaily = [
     "wordIds": [
       "19446"
     ],
+    "cloze": {
+      "de": "Gesundheitszustand",
+      "en": "state"
+    },
     "sourceIndex": 9446
   },
   {
@@ -21029,6 +25973,10 @@ const phrasesDaily = [
     "wordIds": [
       "19447"
     ],
+    "cloze": {
+      "de": "Granate",
+      "en": "grenade"
+    },
     "sourceIndex": 9447
   },
   {
@@ -21046,6 +25994,10 @@ const phrasesDaily = [
     "wordIds": [
       "19455"
     ],
+    "cloze": {
+      "de": "häuslich",
+      "en": "domestic"
+    },
     "sourceIndex": 9455
   },
   {
@@ -21063,6 +26015,10 @@ const phrasesDaily = [
     "wordIds": [
       "19460"
     ],
+    "cloze": {
+      "de": "Kaugummi",
+      "en": "chewing"
+    },
     "sourceIndex": 9460
   },
   {
@@ -21080,6 +26036,10 @@ const phrasesDaily = [
     "wordIds": [
       "19462"
     ],
+    "cloze": {
+      "de": "Klee",
+      "en": "clover"
+    },
     "sourceIndex": 9462
   },
   {
@@ -21097,6 +26057,10 @@ const phrasesDaily = [
     "wordIds": [
       "19468"
     ],
+    "cloze": {
+      "de": "lesbar",
+      "en": "legible"
+    },
     "sourceIndex": 9468
   },
   {
@@ -21114,6 +26078,10 @@ const phrasesDaily = [
     "wordIds": [
       "19469"
     ],
+    "cloze": {
+      "de": "Liebesgeschichte",
+      "en": "love"
+    },
     "sourceIndex": 9469
   },
   {
@@ -21131,6 +26099,10 @@ const phrasesDaily = [
     "wordIds": [
       "19473"
     ],
+    "cloze": {
+      "de": "Memory",
+      "en": "Memory"
+    },
     "sourceIndex": 9473
   },
   {
@@ -21148,6 +26120,10 @@ const phrasesDaily = [
     "wordIds": [
       "19479"
     ],
+    "cloze": {
+      "de": "Neugierde",
+      "en": "curiosity"
+    },
     "sourceIndex": 9479
   },
   {
@@ -21165,6 +26141,10 @@ const phrasesDaily = [
     "wordIds": [
       "19488"
     ],
+    "cloze": {
+      "de": "Putzfrau",
+      "en": "cleaning"
+    },
     "sourceIndex": 9488
   },
   {
@@ -21182,6 +26162,10 @@ const phrasesDaily = [
     "wordIds": [
       "19496"
     ],
+    "cloze": {
+      "de": "Rufnummer",
+      "en": "phone"
+    },
     "sourceIndex": 9496
   },
   {
@@ -21199,6 +26183,10 @@ const phrasesDaily = [
     "wordIds": [
       "19513"
     ],
+    "cloze": {
+      "de": "Tiergarten",
+      "en": "zoo"
+    },
     "sourceIndex": 9513
   },
   {
@@ -21216,6 +26204,10 @@ const phrasesDaily = [
     "wordIds": [
       "19527"
     ],
+    "cloze": {
+      "de": "weggehen",
+      "en": "leave"
+    },
     "sourceIndex": 9527
   },
   {
@@ -21233,6 +26225,10 @@ const phrasesDaily = [
     "wordIds": [
       "19534"
     ],
+    "cloze": {
+      "de": "Zahnbürste",
+      "en": "toothbrush"
+    },
     "sourceIndex": 9534
   },
   {
@@ -21250,6 +26246,10 @@ const phrasesDaily = [
     "wordIds": [
       "19537"
     ],
+    "cloze": {
+      "de": "zusammenkommen",
+      "en": "come"
+    },
     "sourceIndex": 9537
   },
   {
@@ -21267,6 +26267,10 @@ const phrasesDaily = [
     "wordIds": [
       "19548"
     ],
+    "cloze": {
+      "de": "Ads",
+      "en": "ads"
+    },
     "sourceIndex": 9548
   },
   {
@@ -21284,6 +26288,10 @@ const phrasesDaily = [
     "wordIds": [
       "19553"
     ],
+    "cloze": {
+      "de": "anstrengen",
+      "en": "make"
+    },
     "sourceIndex": 9553
   },
   {
@@ -21301,6 +26309,10 @@ const phrasesDaily = [
     "wordIds": [
       "19554"
     ],
+    "cloze": {
+      "de": "ausgraben",
+      "en": "dig"
+    },
     "sourceIndex": 9554
   },
   {
@@ -21318,6 +26330,10 @@ const phrasesDaily = [
     "wordIds": [
       "19570"
     ],
+    "cloze": {
+      "de": "chaotisch",
+      "en": "chaotic"
+    },
     "sourceIndex": 9570
   },
   {
@@ -21335,6 +26351,10 @@ const phrasesDaily = [
     "wordIds": [
       "19574"
     ],
+    "cloze": {
+      "de": "Delle",
+      "en": "dent"
+    },
     "sourceIndex": 9574
   },
   {
@@ -21352,6 +26372,10 @@ const phrasesDaily = [
     "wordIds": [
       "19586"
     ],
+    "cloze": {
+      "de": "Fotografin",
+      "en": "photographer"
+    },
     "sourceIndex": 9586
   },
   {
@@ -21369,6 +26393,10 @@ const phrasesDaily = [
     "wordIds": [
       "19607"
     ],
+    "cloze": {
+      "de": "Jump",
+      "en": "jump"
+    },
     "sourceIndex": 9607
   },
   {
@@ -21386,6 +26414,10 @@ const phrasesDaily = [
     "wordIds": [
       "19612"
     ],
+    "cloze": {
+      "de": "Kinderbuch",
+      "en": "children's"
+    },
     "sourceIndex": 9612
   },
   {
@@ -21403,6 +26435,10 @@ const phrasesDaily = [
     "wordIds": [
       "19617"
     ],
+    "cloze": {
+      "de": "Kubikmeter",
+      "en": "cubic"
+    },
     "sourceIndex": 9617
   },
   {
@@ -21420,6 +26456,10 @@ const phrasesDaily = [
     "wordIds": [
       "19631"
     ],
+    "cloze": {
+      "de": "Nichtraucher",
+      "en": "non-smoker"
+    },
     "sourceIndex": 9631
   },
   {
@@ -21437,6 +26477,10 @@ const phrasesDaily = [
     "wordIds": [
       "19634"
     ],
+    "cloze": {
+      "de": "Parfüm",
+      "en": "perfume"
+    },
     "sourceIndex": 9634
   },
   {
@@ -21454,6 +26498,10 @@ const phrasesDaily = [
     "wordIds": [
       "19637"
     ],
+    "cloze": {
+      "de": "plauderten",
+      "en": "chatted"
+    },
     "sourceIndex": 9637
   },
   {
@@ -21471,6 +26519,10 @@ const phrasesDaily = [
     "wordIds": [
       "19652"
     ],
+    "cloze": {
+      "de": "Schmied",
+      "en": "forges"
+    },
     "sourceIndex": 9652
   },
   {
@@ -21488,6 +26540,10 @@ const phrasesDaily = [
     "wordIds": [
       "19653"
     ],
+    "cloze": {
+      "de": "schnarcht",
+      "en": "snores"
+    },
     "sourceIndex": 9653
   },
   {
@@ -21505,6 +26561,10 @@ const phrasesDaily = [
     "wordIds": [
       "19665"
     ],
+    "cloze": {
+      "de": "störend",
+      "en": "disturbing"
+    },
     "sourceIndex": 9665
   },
   {
@@ -21522,6 +26582,10 @@ const phrasesDaily = [
     "wordIds": [
       "19671"
     ],
+    "cloze": {
+      "de": "Tierarten",
+      "en": "animal"
+    },
     "sourceIndex": 9671
   },
   {
@@ -21539,6 +26603,10 @@ const phrasesDaily = [
     "wordIds": [
       "19673"
     ],
+    "cloze": {
+      "de": "toben",
+      "en": "romping"
+    },
     "sourceIndex": 9673
   },
   {
@@ -21556,6 +26624,10 @@ const phrasesDaily = [
     "wordIds": [
       "19679"
     ],
+    "cloze": {
+      "de": "uninteressant",
+      "en": "uninteresting"
+    },
     "sourceIndex": 9679
   },
   {
@@ -21573,6 +26645,10 @@ const phrasesDaily = [
     "wordIds": [
       "19681"
     ],
+    "cloze": {
+      "de": "unpassend",
+      "en": "inappropriate"
+    },
     "sourceIndex": 9681
   },
   {
@@ -21590,6 +26666,10 @@ const phrasesDaily = [
     "wordIds": [
       "19693"
     ],
+    "cloze": {
+      "de": "Wettervorhersage",
+      "en": "forecast"
+    },
     "sourceIndex": 9693
   },
   {
@@ -21607,6 +26687,10 @@ const phrasesDaily = [
     "wordIds": [
       "19707"
     ],
+    "cloze": {
+      "de": "Astronaut",
+      "en": "astronaut"
+    },
     "sourceIndex": 9707
   },
   {
@@ -21624,6 +26708,10 @@ const phrasesDaily = [
     "wordIds": [
       "19714"
     ],
+    "cloze": {
+      "de": "auszuwandern",
+      "en": "emigrating"
+    },
     "sourceIndex": 9714
   },
   {
@@ -21641,6 +26729,10 @@ const phrasesDaily = [
     "wordIds": [
       "19724"
     ],
+    "cloze": {
+      "de": "Bilderbuch",
+      "en": "picture"
+    },
     "sourceIndex": 9724
   },
   {
@@ -21658,6 +26750,10 @@ const phrasesDaily = [
     "wordIds": [
       "19744"
     ],
+    "cloze": {
+      "de": "Fahrradfahrer",
+      "en": "cyclist"
+    },
     "sourceIndex": 9744
   },
   {
@@ -21675,6 +26771,10 @@ const phrasesDaily = [
     "wordIds": [
       "19751"
     ],
+    "cloze": {
+      "de": "gleitet",
+      "en": "glides"
+    },
     "sourceIndex": 9751
   },
   {
@@ -21692,6 +26792,10 @@ const phrasesDaily = [
     "wordIds": [
       "19752"
     ],
+    "cloze": {
+      "de": "googeln",
+      "en": "google"
+    },
     "sourceIndex": 9752
   },
   {
@@ -21709,6 +26813,10 @@ const phrasesDaily = [
     "wordIds": [
       "19754"
     ],
+    "cloze": {
+      "de": "Hagel",
+      "en": "hail"
+    },
     "sourceIndex": 9754
   },
   {
@@ -21726,6 +26834,10 @@ const phrasesDaily = [
     "wordIds": [
       "19756"
     ],
+    "cloze": {
+      "de": "herauskommen",
+      "en": "come"
+    },
     "sourceIndex": 9756
   },
   {
@@ -21743,6 +26855,10 @@ const phrasesDaily = [
     "wordIds": [
       "19761"
     ],
+    "cloze": {
+      "de": "Hosentasche",
+      "en": "trouser"
+    },
     "sourceIndex": 9761
   },
   {
@@ -21760,6 +26876,10 @@ const phrasesDaily = [
     "wordIds": [
       "19769"
     ],
+    "cloze": {
+      "de": "Landesstrasse",
+      "en": "state"
+    },
     "sourceIndex": 9769
   },
   {
@@ -21777,6 +26897,10 @@ const phrasesDaily = [
     "wordIds": [
       "19771"
     ],
+    "cloze": {
+      "de": "Locken",
+      "en": "curls"
+    },
     "sourceIndex": 9771
   },
   {
@@ -21794,6 +26918,10 @@ const phrasesDaily = [
     "wordIds": [
       "19777"
     ],
+    "cloze": {
+      "de": "Maskottchen",
+      "en": "mascot"
+    },
     "sourceIndex": 9777
   },
   {
@@ -21811,6 +26939,10 @@ const phrasesDaily = [
     "wordIds": [
       "19791"
     ],
+    "cloze": {
+      "de": "Umweltplakette",
+      "en": "sticker"
+    },
     "sourceIndex": 9791
   },
   {
@@ -21828,6 +26960,10 @@ const phrasesDaily = [
     "wordIds": [
       "19802"
     ],
+    "cloze": {
+      "de": "Schaufenster",
+      "en": "shop"
+    },
     "sourceIndex": 9802
   },
   {
@@ -21845,6 +26981,10 @@ const phrasesDaily = [
     "wordIds": [
       "19803"
     ],
+    "cloze": {
+      "de": "Schenkel",
+      "en": "thigh"
+    },
     "sourceIndex": 9803
   },
   {
@@ -21862,6 +27002,10 @@ const phrasesDaily = [
     "wordIds": [
       "19805"
     ],
+    "cloze": {
+      "de": "Serbisch",
+      "en": "Serbian"
+    },
     "sourceIndex": 9805
   },
   {
@@ -21879,6 +27023,10 @@ const phrasesDaily = [
     "wordIds": [
       "19825"
     ],
+    "cloze": {
+      "de": "unfreundlich",
+      "en": "unfriendly"
+    },
     "sourceIndex": 9825
   },
   {
@@ -21896,6 +27044,10 @@ const phrasesDaily = [
     "wordIds": [
       "19843"
     ],
+    "cloze": {
+      "de": "überspringen",
+      "en": "skip"
+    },
     "sourceIndex": 9843
   },
   {
@@ -21913,6 +27065,10 @@ const phrasesDaily = [
     "wordIds": [
       "19873"
     ],
+    "cloze": {
+      "de": "Eleganz",
+      "en": "elegance"
+    },
     "sourceIndex": 9873
   },
   {
@@ -21930,6 +27086,10 @@ const phrasesDaily = [
     "wordIds": [
       "19880"
     ],
+    "cloze": {
+      "de": "Gebäck",
+      "en": "baked"
+    },
     "sourceIndex": 9880
   },
   {
@@ -21947,6 +27107,10 @@ const phrasesDaily = [
     "wordIds": [
       "19881"
     ],
+    "cloze": {
+      "de": "gebürtig",
+      "en": "native"
+    },
     "sourceIndex": 9881
   },
   {
@@ -21964,6 +27128,10 @@ const phrasesDaily = [
     "wordIds": [
       "19895"
     ],
+    "cloze": {
+      "de": "hüpfen",
+      "en": "hop"
+    },
     "sourceIndex": 9895
   },
   {
@@ -21981,6 +27149,10 @@ const phrasesDaily = [
     "wordIds": [
       "19907"
     ],
+    "cloze": {
+      "de": "Judo",
+      "en": "judo"
+    },
     "sourceIndex": 9907
   },
   {
@@ -21998,6 +27170,10 @@ const phrasesDaily = [
     "wordIds": [
       "19921"
     ],
+    "cloze": {
+      "de": "Multiplayer-Modus",
+      "en": "multiplayer"
+    },
     "sourceIndex": 9921
   },
   {
@@ -22015,6 +27191,10 @@ const phrasesDaily = [
     "wordIds": [
       "19939"
     ],
+    "cloze": {
+      "de": "Reporterin",
+      "en": "female"
+    },
     "sourceIndex": 9939
   },
   {
@@ -22032,6 +27212,10 @@ const phrasesDaily = [
     "wordIds": [
       "19953"
     ],
+    "cloze": {
+      "de": "Smiley",
+      "en": "smiley"
+    },
     "sourceIndex": 9953
   },
   {
@@ -22049,6 +27233,10 @@ const phrasesDaily = [
     "wordIds": [
       "19973"
     ],
+    "cloze": {
+      "de": "vertikal",
+      "en": "vertical"
+    },
     "sourceIndex": 9973
   },
   {
@@ -22066,6 +27254,10 @@ const phrasesDaily = [
     "wordIds": [
       "19975"
     ],
+    "cloze": {
+      "de": "Volksfest",
+      "en": "public"
+    },
     "sourceIndex": 9975
   },
   {
@@ -22083,6 +27275,10 @@ const phrasesDaily = [
     "wordIds": [
       "19977"
     ],
+    "cloze": {
+      "de": "vorbeiging",
+      "en": "by"
+    },
     "sourceIndex": 9977
   },
   {
@@ -22100,6 +27296,10 @@ const phrasesDaily = [
     "wordIds": [
       "19986"
     ],
+    "cloze": {
+      "de": "Zeitverschwendung",
+      "en": "waste"
+    },
     "sourceIndex": 9986
   },
   {
@@ -22117,6 +27317,10 @@ const phrasesDaily = [
     "wordIds": [
       "19990"
     ],
+    "cloze": {
+      "de": "Züchter",
+      "en": "breeder"
+    },
     "sourceIndex": 9990
   },
   {
@@ -22134,6 +27338,10 @@ const phrasesDaily = [
     "wordIds": [
       "19995"
     ],
+    "cloze": {
+      "de": "Altersklassen",
+      "en": "age"
+    },
     "sourceIndex": 9995
   },
   {
@@ -22151,6 +27359,10 @@ const phrasesDaily = [
     "wordIds": [
       "20008"
     ],
+    "cloze": {
+      "de": "Beruhigung",
+      "en": "calming"
+    },
     "sourceIndex": 10008
   },
   {
@@ -22168,6 +27380,10 @@ const phrasesDaily = [
     "wordIds": [
       "20017"
     ],
+    "cloze": {
+      "de": "Bündel",
+      "en": "bundle"
+    },
     "sourceIndex": 10017
   },
   {
@@ -22185,6 +27401,10 @@ const phrasesDaily = [
     "wordIds": [
       "20027"
     ],
+    "cloze": {
+      "de": "Dorfbewohner",
+      "en": "villagers"
+    },
     "sourceIndex": 10027
   },
   {
@@ -22202,6 +27422,10 @@ const phrasesDaily = [
     "wordIds": [
       "20034"
     ],
+    "cloze": {
+      "de": "entladen",
+      "en": "unload"
+    },
     "sourceIndex": 10034
   },
   {
@@ -22219,6 +27443,10 @@ const phrasesDaily = [
     "wordIds": [
       "20059"
     ],
+    "cloze": {
+      "de": "Klingel",
+      "en": "bell"
+    },
     "sourceIndex": 10059
   },
   {
@@ -22236,6 +27464,10 @@ const phrasesDaily = [
     "wordIds": [
       "20060"
     ],
+    "cloze": {
+      "de": "Klotz",
+      "en": "block"
+    },
     "sourceIndex": 10060
   },
   {
@@ -22253,6 +27485,10 @@ const phrasesDaily = [
     "wordIds": [
       "20068"
     ],
+    "cloze": {
+      "de": "Meisterin",
+      "en": "master"
+    },
     "sourceIndex": 10068
   },
   {
@@ -22270,6 +27506,10 @@ const phrasesDaily = [
     "wordIds": [
       "20069"
     ],
+    "cloze": {
+      "de": "mitfahren",
+      "en": "ride"
+    },
     "sourceIndex": 10069
   },
   {
@@ -22287,6 +27527,10 @@ const phrasesDaily = [
     "wordIds": [
       "20070"
     ],
+    "cloze": {
+      "de": "mitgehen",
+      "en": "go"
+    },
     "sourceIndex": 10070
   },
   {
@@ -22304,6 +27548,10 @@ const phrasesDaily = [
     "wordIds": [
       "20077"
     ],
+    "cloze": {
+      "de": "Pappe",
+      "en": "cardboard"
+    },
     "sourceIndex": 10077
   },
   {
@@ -22321,6 +27569,10 @@ const phrasesDaily = [
     "wordIds": [
       "20080"
     ],
+    "cloze": {
+      "de": "Pfadfinder",
+      "en": "scouts"
+    },
     "sourceIndex": 10080
   },
   {
@@ -22338,6 +27590,10 @@ const phrasesDaily = [
     "wordIds": [
       "20082"
     ],
+    "cloze": {
+      "de": "Pinguin",
+      "en": "penguin"
+    },
     "sourceIndex": 10082
   },
   {
@@ -22355,6 +27611,10 @@ const phrasesDaily = [
     "wordIds": [
       "20100"
     ],
+    "cloze": {
+      "de": "Sonnenstrahl",
+      "en": "sunbeam"
+    },
     "sourceIndex": 10100
   },
   {
@@ -22372,6 +27632,10 @@ const phrasesDaily = [
     "wordIds": [
       "20108"
     ],
+    "cloze": {
+      "de": "Toaster",
+      "en": "toaster"
+    },
     "sourceIndex": 10108
   },
   {
@@ -22389,6 +27653,10 @@ const phrasesDaily = [
     "wordIds": [
       "20111"
     ],
+    "cloze": {
+      "de": "ungenau",
+      "en": "was"
+    },
     "sourceIndex": 10111
   },
   {
@@ -22406,6 +27674,10 @@ const phrasesDaily = [
     "wordIds": [
       "20119"
     ],
+    "cloze": {
+      "de": "Ventilator",
+      "en": "fan"
+    },
     "sourceIndex": 10119
   },
   {
@@ -22423,6 +27695,10 @@ const phrasesDaily = [
     "wordIds": [
       "20128"
     ],
+    "cloze": {
+      "de": "Weingarten",
+      "en": "vineyard"
+    },
     "sourceIndex": 10128
   },
   {
@@ -22440,6 +27716,10 @@ const phrasesDaily = [
     "wordIds": [
       "20133"
     ],
+    "cloze": {
+      "de": "mach",
+      "en": "close"
+    },
     "sourceIndex": 10133
   },
   {
@@ -22457,6 +27737,10 @@ const phrasesDaily = [
     "wordIds": [
       "20140"
     ],
+    "cloze": {
+      "de": "angesprochene",
+      "en": "addressed"
+    },
     "sourceIndex": 10140
   },
   {
@@ -22474,6 +27758,10 @@ const phrasesDaily = [
     "wordIds": [
       "20155"
     ],
+    "cloze": {
+      "de": "beleidigende",
+      "en": "offensive"
+    },
     "sourceIndex": 10155
   },
   {
@@ -22491,6 +27779,10 @@ const phrasesDaily = [
     "wordIds": [
       "20158"
     ],
+    "cloze": {
+      "de": "bessern",
+      "en": "improve"
+    },
     "sourceIndex": 10158
   },
   {
@@ -22508,6 +27800,10 @@ const phrasesDaily = [
     "wordIds": [
       "20168"
     ],
+    "cloze": {
+      "de": "chatten",
+      "en": "chat"
+    },
     "sourceIndex": 10168
   },
   {
@@ -22525,6 +27821,10 @@ const phrasesDaily = [
     "wordIds": [
       "20171"
     ],
+    "cloze": {
+      "de": "Cowboy",
+      "en": "cowboy"
+    },
     "sourceIndex": 10171
   },
   {
@@ -22542,6 +27842,10 @@ const phrasesDaily = [
     "wordIds": [
       "20177"
     ],
+    "cloze": {
+      "de": "Endstation",
+      "en": "final"
+    },
     "sourceIndex": 10177
   },
   {
@@ -22559,6 +27863,10 @@ const phrasesDaily = [
     "wordIds": [
       "20191"
     ],
+    "cloze": {
+      "de": "Geländer",
+      "en": "railing"
+    },
     "sourceIndex": 10191
   },
   {
@@ -22576,6 +27884,10 @@ const phrasesDaily = [
     "wordIds": [
       "20196"
     ],
+    "cloze": {
+      "de": "Gymnastik",
+      "en": "gymnastics"
+    },
     "sourceIndex": 10196
   },
   {
@@ -22593,6 +27905,10 @@ const phrasesDaily = [
     "wordIds": [
       "20203"
     ],
+    "cloze": {
+      "de": "kandidieren",
+      "en": "run"
+    },
     "sourceIndex": 10203
   },
   {
@@ -22610,6 +27926,10 @@ const phrasesDaily = [
     "wordIds": [
       "20206"
     ],
+    "cloze": {
+      "de": "Klopapier",
+      "en": "toilet"
+    },
     "sourceIndex": 10206
   },
   {
@@ -22627,6 +27947,10 @@ const phrasesDaily = [
     "wordIds": [
       "20237"
     ],
+    "cloze": {
+      "de": "pendeln",
+      "en": "commute"
+    },
     "sourceIndex": 10237
   },
   {
@@ -22644,6 +27968,10 @@ const phrasesDaily = [
     "wordIds": [
       "20257"
     ],
+    "cloze": {
+      "de": "Speisekarte",
+      "en": "menu"
+    },
     "sourceIndex": 10257
   },
   {
@@ -22661,6 +27989,10 @@ const phrasesDaily = [
     "wordIds": [
       "20261"
     ],
+    "cloze": {
+      "de": "Tau",
+      "en": "dew"
+    },
     "sourceIndex": 10261
   },
   {
@@ -22678,6 +28010,10 @@ const phrasesDaily = [
     "wordIds": [
       "20262"
     ],
+    "cloze": {
+      "de": "Tierpark",
+      "en": "animal"
+    },
     "sourceIndex": 10262
   },
   {
@@ -22695,6 +28031,10 @@ const phrasesDaily = [
     "wordIds": [
       "20264"
     ],
+    "cloze": {
+      "de": "Tornado",
+      "en": "tornado"
+    },
     "sourceIndex": 10264
   },
   {
@@ -22712,6 +28052,10 @@ const phrasesDaily = [
     "wordIds": [
       "20266"
     ],
+    "cloze": {
+      "de": "Trainerin",
+      "en": "female"
+    },
     "sourceIndex": 10266
   },
   {
@@ -22729,6 +28073,10 @@ const phrasesDaily = [
     "wordIds": [
       "20275"
     ],
+    "cloze": {
+      "de": "Visitenkarte",
+      "en": "business"
+    },
     "sourceIndex": 10275
   },
   {
@@ -22746,6 +28094,10 @@ const phrasesDaily = [
     "wordIds": [
       "20279"
     ],
+    "cloze": {
+      "de": "weglassen",
+      "en": "omit"
+    },
     "sourceIndex": 10279
   },
   {
@@ -22763,6 +28115,10 @@ const phrasesDaily = [
     "wordIds": [
       "20316"
     ],
+    "cloze": {
+      "de": "Duett",
+      "en": "duet"
+    },
     "sourceIndex": 10316
   },
   {
@@ -22780,6 +28136,10 @@ const phrasesDaily = [
     "wordIds": [
       "20321"
     ],
+    "cloze": {
+      "de": "elterliche",
+      "en": "parental"
+    },
     "sourceIndex": 10321
   },
   {
@@ -22797,6 +28157,10 @@ const phrasesDaily = [
     "wordIds": [
       "20339"
     ],
+    "cloze": {
+      "de": "strecken",
+      "en": "stretch"
+    },
     "sourceIndex": 10339
   },
   {
@@ -22814,6 +28178,10 @@ const phrasesDaily = [
     "wordIds": [
       "20358"
     ],
+    "cloze": {
+      "de": "Ingwer",
+      "en": "ginger"
+    },
     "sourceIndex": 10358
   },
   {
@@ -22831,6 +28199,10 @@ const phrasesDaily = [
     "wordIds": [
       "20385"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "North"
+    },
     "sourceIndex": 10385
   },
   {
@@ -22848,6 +28220,10 @@ const phrasesDaily = [
     "wordIds": [
       "20403"
     ],
+    "cloze": {
+      "de": "sechzehn",
+      "en": "sixteen"
+    },
     "sourceIndex": 10403
   },
   {
@@ -22865,6 +28241,10 @@ const phrasesDaily = [
     "wordIds": [
       "20409"
     ],
+    "cloze": {
+      "de": "spezialisiert",
+      "en": "specialized"
+    },
     "sourceIndex": 10409
   },
   {
@@ -22882,6 +28262,10 @@ const phrasesDaily = [
     "wordIds": [
       "20412"
     ],
+    "cloze": {
+      "de": "Stadtkirche",
+      "en": "city"
+    },
     "sourceIndex": 10412
   },
   {
@@ -22899,6 +28283,10 @@ const phrasesDaily = [
     "wordIds": [
       "20418"
     ],
+    "cloze": {
+      "de": "touristische",
+      "en": "touristic"
+    },
     "sourceIndex": 10418
   },
   {
@@ -22916,6 +28304,10 @@ const phrasesDaily = [
     "wordIds": [
       "20434"
     ],
+    "cloze": {
+      "de": "vorgelegten",
+      "en": "presented"
+    },
     "sourceIndex": 10434
   },
   {
@@ -22933,6 +28325,10 @@ const phrasesDaily = [
     "wordIds": [
       "20461"
     ],
+    "cloze": {
+      "de": "bedeutungslos",
+      "en": "meaningless"
+    },
     "sourceIndex": 10461
   },
   {
@@ -22950,6 +28346,10 @@ const phrasesDaily = [
     "wordIds": [
       "20475"
     ],
+    "cloze": {
+      "de": "Dias",
+      "en": "slides"
+    },
     "sourceIndex": 10475
   },
   {
@@ -22967,6 +28367,10 @@ const phrasesDaily = [
     "wordIds": [
       "20485"
     ],
+    "cloze": {
+      "de": "Exit",
+      "en": "exit"
+    },
     "sourceIndex": 10485
   },
   {
@@ -22984,6 +28388,10 @@ const phrasesDaily = [
     "wordIds": [
       "20492"
     ],
+    "cloze": {
+      "de": "gebunden",
+      "en": "bound"
+    },
     "sourceIndex": 10492
   },
   {
@@ -23001,6 +28409,10 @@ const phrasesDaily = [
     "wordIds": [
       "20496"
     ],
+    "cloze": {
+      "de": "geometrische",
+      "en": "geometric"
+    },
     "sourceIndex": 10496
   },
   {
@@ -23018,6 +28430,10 @@ const phrasesDaily = [
     "wordIds": [
       "20519"
     ],
+    "cloze": {
+      "de": "Klippe",
+      "en": "cliff"
+    },
     "sourceIndex": 10519
   },
   {
@@ -23035,6 +28451,10 @@ const phrasesDaily = [
     "wordIds": [
       "20528"
     ],
+    "cloze": {
+      "de": "Misserfolgs",
+      "en": "failure"
+    },
     "sourceIndex": 10528
   },
   {
@@ -23052,6 +28472,10 @@ const phrasesDaily = [
     "wordIds": [
       "20539"
     ],
+    "cloze": {
+      "de": "Pardon",
+      "en": "Pardon"
+    },
     "sourceIndex": 10539
   },
   {
@@ -23069,6 +28493,10 @@ const phrasesDaily = [
     "wordIds": [
       "20541"
     ],
+    "cloze": {
+      "de": "Pizzeria",
+      "en": "pizzeria"
+    },
     "sourceIndex": 10541
   },
   {
@@ -23086,6 +28514,10 @@ const phrasesDaily = [
     "wordIds": [
       "20600"
     ],
+    "cloze": {
+      "de": "abgelegenen",
+      "en": "remote"
+    },
     "sourceIndex": 10600
   },
   {
@@ -23103,6 +28535,10 @@ const phrasesDaily = [
     "wordIds": [
       "20608"
     ],
+    "cloze": {
+      "de": "Ausreise",
+      "en": "Departure"
+    },
     "sourceIndex": 10608
   },
   {
@@ -23120,6 +28556,10 @@ const phrasesDaily = [
     "wordIds": [
       "20626"
     ],
+    "cloze": {
+      "de": "Carsharing",
+      "en": "Carsharing"
+    },
     "sourceIndex": 10626
   },
   {
@@ -23137,6 +28577,10 @@ const phrasesDaily = [
     "wordIds": [
       "20651"
     ],
+    "cloze": {
+      "de": "Geburtsort",
+      "en": "place"
+    },
     "sourceIndex": 10651
   },
   {
@@ -23154,6 +28598,10 @@ const phrasesDaily = [
     "wordIds": [
       "20656"
     ],
+    "cloze": {
+      "de": "geschäftlich",
+      "en": "business"
+    },
     "sourceIndex": 10656
   },
   {
@@ -23171,6 +28619,10 @@ const phrasesDaily = [
     "wordIds": [
       "20660"
     ],
+    "cloze": {
+      "de": "Hafenstadt",
+      "en": "port"
+    },
     "sourceIndex": 10660
   },
   {
@@ -23188,6 +28640,10 @@ const phrasesDaily = [
     "wordIds": [
       "20661"
     ],
+    "cloze": {
+      "de": "Hauptteil",
+      "en": "main"
+    },
     "sourceIndex": 10661
   },
   {
@@ -23205,6 +28661,10 @@ const phrasesDaily = [
     "wordIds": [
       "20662"
     ],
+    "cloze": {
+      "de": "Hausbesitzer",
+      "en": "homeowner"
+    },
     "sourceIndex": 10662
   },
   {
@@ -23222,6 +28682,10 @@ const phrasesDaily = [
     "wordIds": [
       "20677"
     ],
+    "cloze": {
+      "de": "Kroate",
+      "en": "Croat"
+    },
     "sourceIndex": 10677
   },
   {
@@ -23239,6 +28703,10 @@ const phrasesDaily = [
     "wordIds": [
       "20678"
     ],
+    "cloze": {
+      "de": "Köder",
+      "en": "bait"
+    },
     "sourceIndex": 10678
   },
   {
@@ -23256,6 +28724,10 @@ const phrasesDaily = [
     "wordIds": [
       "20681"
     ],
+    "cloze": {
+      "de": "lautlos",
+      "en": "silently"
+    },
     "sourceIndex": 10681
   },
   {
@@ -23273,6 +28745,10 @@ const phrasesDaily = [
     "wordIds": [
       "20694"
     ],
+    "cloze": {
+      "de": "Mitbewohnerin",
+      "en": "female"
+    },
     "sourceIndex": 10694
   },
   {
@@ -23290,6 +28766,10 @@ const phrasesDaily = [
     "wordIds": [
       "20696"
     ],
+    "cloze": {
+      "de": "Moto",
+      "en": "motorcycle"
+    },
     "sourceIndex": 10696
   },
   {
@@ -23307,6 +28787,10 @@ const phrasesDaily = [
     "wordIds": [
       "20698"
     ],
+    "cloze": {
+      "de": "Nachtschicht",
+      "en": "night"
+    },
     "sourceIndex": 10698
   },
   {
@@ -23324,6 +28808,10 @@ const phrasesDaily = [
     "wordIds": [
       "20711"
     ],
+    "cloze": {
+      "de": "Rekrut",
+      "en": "recruit"
+    },
     "sourceIndex": 10711
   },
   {
@@ -23341,6 +28829,10 @@ const phrasesDaily = [
     "wordIds": [
       "20718"
     ],
+    "cloze": {
+      "de": "Scooter",
+      "en": "scooter"
+    },
     "sourceIndex": 10718
   },
   {
@@ -23358,6 +28850,10 @@ const phrasesDaily = [
     "wordIds": [
       "20729"
     ],
+    "cloze": {
+      "de": "Spiegelbild",
+      "en": "reflection"
+    },
     "sourceIndex": 10729
   },
   {
@@ -23375,6 +28871,10 @@ const phrasesDaily = [
     "wordIds": [
       "20740"
     ],
+    "cloze": {
+      "de": "Südseite",
+      "en": "south"
+    },
     "sourceIndex": 10740
   },
   {
@@ -23392,6 +28892,10 @@ const phrasesDaily = [
     "wordIds": [
       "20744"
     ],
+    "cloze": {
+      "de": "Thermometer",
+      "en": "thermometer"
+    },
     "sourceIndex": 10744
   },
   {
@@ -23409,6 +28913,10 @@ const phrasesDaily = [
     "wordIds": [
       "20755"
     ],
+    "cloze": {
+      "de": "Wahllokal",
+      "en": "polling"
+    },
     "sourceIndex": 10755
   },
   {
@@ -23426,6 +28934,10 @@ const phrasesDaily = [
     "wordIds": [
       "20757"
     ],
+    "cloze": {
+      "de": "Wespe",
+      "en": "wasp"
+    },
     "sourceIndex": 10757
   },
   {
@@ -23443,6 +28955,10 @@ const phrasesDaily = [
     "wordIds": [
       "20760"
     ],
+    "cloze": {
+      "de": "würfeln",
+      "en": "dice"
+    },
     "sourceIndex": 10760
   },
   {
@@ -23460,6 +28976,10 @@ const phrasesDaily = [
     "wordIds": [
       "20769"
     ],
+    "cloze": {
+      "de": "Ale",
+      "en": "ale"
+    },
     "sourceIndex": 10769
   },
   {
@@ -23477,6 +28997,10 @@ const phrasesDaily = [
     "wordIds": [
       "20779"
     ],
+    "cloze": {
+      "de": "auf",
+      "en": "book"
+    },
     "sourceIndex": 10779
   },
   {
@@ -23494,6 +29018,10 @@ const phrasesDaily = [
     "wordIds": [
       "20781"
     ],
+    "cloze": {
+      "de": "Ausrufezeichen",
+      "en": "exclamation"
+    },
     "sourceIndex": 10781
   },
   {
@@ -23511,6 +29039,10 @@ const phrasesDaily = [
     "wordIds": [
       "20785"
     ],
+    "cloze": {
+      "de": "Beamer",
+      "en": "projector"
+    },
     "sourceIndex": 10785
   },
   {
@@ -23528,6 +29060,10 @@ const phrasesDaily = [
     "wordIds": [
       "20798"
     ],
+    "cloze": {
+      "de": "Lieblings-Computerspiel",
+      "en": "computer"
+    },
     "sourceIndex": 10798
   },
   {
@@ -23545,6 +29081,10 @@ const phrasesDaily = [
     "wordIds": [
       "20820"
     ],
+    "cloze": {
+      "de": "FKK-Bereich",
+      "en": "FKK"
+    },
     "sourceIndex": 10820
   },
   {
@@ -23562,6 +29102,10 @@ const phrasesDaily = [
     "wordIds": [
       "20822"
     ],
+    "cloze": {
+      "de": "Fohlen",
+      "en": "foal"
+    },
     "sourceIndex": 10822
   },
   {
@@ -23579,6 +29123,10 @@ const phrasesDaily = [
     "wordIds": [
       "20834"
     ],
+    "cloze": {
+      "de": "Hering",
+      "en": "herring"
+    },
     "sourceIndex": 10834
   },
   {
@@ -23596,6 +29144,10 @@ const phrasesDaily = [
     "wordIds": [
       "20847"
     ],
+    "cloze": {
+      "de": "Kinderspiel",
+      "en": "piece"
+    },
     "sourceIndex": 10847
   },
   {
@@ -23613,6 +29165,10 @@ const phrasesDaily = [
     "wordIds": [
       "20854"
     ],
+    "cloze": {
+      "de": "Kulturzentrum",
+      "en": "cultural"
+    },
     "sourceIndex": 10854
   },
   {
@@ -23630,6 +29186,10 @@ const phrasesDaily = [
     "wordIds": [
       "20861"
     ],
+    "cloze": {
+      "de": "Login",
+      "en": "login"
+    },
     "sourceIndex": 10861
   },
   {
@@ -23647,6 +29207,10 @@ const phrasesDaily = [
     "wordIds": [
       "20876"
     ],
+    "cloze": {
+      "de": "Psychologin",
+      "en": "female"
+    },
     "sourceIndex": 10876
   },
   {
@@ -23664,6 +29228,10 @@ const phrasesDaily = [
     "wordIds": [
       "20880"
     ],
+    "cloze": {
+      "de": "Ranch",
+      "en": "ranch"
+    },
     "sourceIndex": 10880
   },
   {
@@ -23681,6 +29249,10 @@ const phrasesDaily = [
     "wordIds": [
       "20893"
     ],
+    "cloze": {
+      "de": "Schulgebäude",
+      "en": "school"
+    },
     "sourceIndex": 10893
   },
   {
@@ -23698,6 +29270,10 @@ const phrasesDaily = [
     "wordIds": [
       "20894"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "sixth"
+    },
     "sourceIndex": 10894
   },
   {
@@ -23715,6 +29291,10 @@ const phrasesDaily = [
     "wordIds": [
       "20896"
     ],
+    "cloze": {
+      "de": "sehnt",
+      "en": "for"
+    },
     "sourceIndex": 10896
   },
   {
@@ -23732,6 +29312,10 @@ const phrasesDaily = [
     "wordIds": [
       "20912"
     ],
+    "cloze": {
+      "de": "Tierwelt",
+      "en": "wildlife"
+    },
     "sourceIndex": 10912
   },
   {
@@ -23749,6 +29333,10 @@ const phrasesDaily = [
     "wordIds": [
       "20918"
     ],
+    "cloze": {
+      "de": "unbeliebt",
+      "en": "unpopular"
+    },
     "sourceIndex": 10918
   },
   {
@@ -23766,6 +29354,10 @@ const phrasesDaily = [
     "wordIds": [
       "20919"
     ],
+    "cloze": {
+      "de": "ungeschickt",
+      "en": "clumsy"
+    },
     "sourceIndex": 10919
   },
   {
@@ -23783,6 +29375,10 @@ const phrasesDaily = [
     "wordIds": [
       "20937"
     ],
+    "cloze": {
+      "de": "Wink",
+      "en": "hint"
+    },
     "sourceIndex": 10937
   },
   {
@@ -23800,6 +29396,10 @@ const phrasesDaily = [
     "wordIds": [
       "20941"
     ],
+    "cloze": {
+      "de": "Zufahrt",
+      "en": "access"
+    },
     "sourceIndex": 10941
   },
   {
@@ -23817,6 +29417,10 @@ const phrasesDaily = [
     "wordIds": [
       "20965"
     ],
+    "cloze": {
+      "de": "Autohersteller",
+      "en": "car"
+    },
     "sourceIndex": 10965
   },
   {
@@ -23834,6 +29438,10 @@ const phrasesDaily = [
     "wordIds": [
       "20973"
     ],
+    "cloze": {
+      "de": "beschlossen",
+      "en": "decided"
+    },
     "sourceIndex": 10973
   },
   {
@@ -23851,6 +29459,10 @@ const phrasesDaily = [
     "wordIds": [
       "20975"
     ],
+    "cloze": {
+      "de": "besteigen",
+      "en": "climb"
+    },
     "sourceIndex": 10975
   },
   {
@@ -23868,6 +29480,10 @@ const phrasesDaily = [
     "wordIds": [
       "20977"
     ],
+    "cloze": {
+      "de": "Bim",
+      "en": "tram"
+    },
     "sourceIndex": 10977
   },
   {
@@ -23885,6 +29501,10 @@ const phrasesDaily = [
     "wordIds": [
       "20978"
     ],
+    "cloze": {
+      "de": "blühender",
+      "en": "blooming"
+    },
     "sourceIndex": 10978
   },
   {
@@ -23902,6 +29522,10 @@ const phrasesDaily = [
     "wordIds": [
       "20983"
     ],
+    "cloze": {
+      "de": "Buchhandel",
+      "en": "book"
+    },
     "sourceIndex": 10983
   },
   {
@@ -23919,6 +29543,10 @@ const phrasesDaily = [
     "wordIds": [
       "20999"
     ],
+    "cloze": {
+      "de": "Elternzeit",
+      "en": "parental"
+    },
     "sourceIndex": 10999
   },
   {
@@ -23936,6 +29564,10 @@ const phrasesDaily = [
     "wordIds": [
       "21006"
     ],
+    "cloze": {
+      "de": "Es",
+      "en": "certain"
+    },
     "sourceIndex": 11006
   },
   {
@@ -23953,6 +29585,10 @@ const phrasesDaily = [
     "wordIds": [
       "21010"
     ],
+    "cloze": {
+      "de": "Freizeitpark",
+      "en": "amusement"
+    },
     "sourceIndex": 11010
   },
   {
@@ -23970,6 +29606,10 @@ const phrasesDaily = [
     "wordIds": [
       "21019"
     ],
+    "cloze": {
+      "de": "genehmigte",
+      "en": "approved"
+    },
     "sourceIndex": 11019
   },
   {
@@ -23987,6 +29627,10 @@ const phrasesDaily = [
     "wordIds": [
       "21022"
     ],
+    "cloze": {
+      "de": "gestohlene",
+      "en": "stolen"
+    },
     "sourceIndex": 11022
   },
   {
@@ -24004,6 +29648,10 @@ const phrasesDaily = [
     "wordIds": [
       "21024"
     ],
+    "cloze": {
+      "de": "Glaser",
+      "en": "glazier"
+    },
     "sourceIndex": 11024
   },
   {
@@ -24021,6 +29669,10 @@ const phrasesDaily = [
     "wordIds": [
       "21034"
     ],
+    "cloze": {
+      "de": "Heimkehr",
+      "en": "homecoming"
+    },
     "sourceIndex": 11034
   },
   {
@@ -24038,6 +29690,10 @@ const phrasesDaily = [
     "wordIds": [
       "21042"
     ],
+    "cloze": {
+      "de": "irakische",
+      "en": "Iraqi"
+    },
     "sourceIndex": 11042
   },
   {
@@ -24055,6 +29711,10 @@ const phrasesDaily = [
     "wordIds": [
       "21060"
     ],
+    "cloze": {
+      "de": "Memo",
+      "en": "memo"
+    },
     "sourceIndex": 11060
   },
   {
@@ -24072,6 +29732,10 @@ const phrasesDaily = [
     "wordIds": [
       "21072"
     ],
+    "cloze": {
+      "de": "Pharao",
+      "en": "Pharaoh"
+    },
     "sourceIndex": 11072
   },
   {
@@ -24089,6 +29753,10 @@ const phrasesDaily = [
     "wordIds": [
       "21079"
     ],
+    "cloze": {
+      "de": "Promenade",
+      "en": "promenade"
+    },
     "sourceIndex": 11079
   },
   {
@@ -24106,6 +29774,10 @@ const phrasesDaily = [
     "wordIds": [
       "21081"
     ],
+    "cloze": {
+      "de": "Raupe",
+      "en": "caterpillar"
+    },
     "sourceIndex": 11081
   },
   {
@@ -24123,6 +29795,10 @@ const phrasesDaily = [
     "wordIds": [
       "21085"
     ],
+    "cloze": {
+      "de": "Rückreise",
+      "en": "return"
+    },
     "sourceIndex": 11085
   },
   {
@@ -24140,6 +29816,10 @@ const phrasesDaily = [
     "wordIds": [
       "21099"
     ],
+    "cloze": {
+      "de": "Stellenangebot",
+      "en": "job"
+    },
     "sourceIndex": 11099
   },
   {
@@ -24157,6 +29837,10 @@ const phrasesDaily = [
     "wordIds": [
       "21106"
     ],
+    "cloze": {
+      "de": "umsehen",
+      "en": "look"
+    },
     "sourceIndex": 11106
   },
   {
@@ -24174,6 +29858,10 @@ const phrasesDaily = [
     "wordIds": [
       "21114"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "denied"
+    },
     "sourceIndex": 11114
   },
   {
@@ -24191,6 +29879,10 @@ const phrasesDaily = [
     "wordIds": [
       "21142"
     ],
+    "cloze": {
+      "de": "argentinisch",
+      "en": "Argentinian"
+    },
     "sourceIndex": 11142
   },
   {
@@ -24208,6 +29900,10 @@ const phrasesDaily = [
     "wordIds": [
       "21143"
     ],
+    "cloze": {
+      "de": "aufgenommene",
+      "en": "recorded"
+    },
     "sourceIndex": 11143
   },
   {
@@ -24225,6 +29921,10 @@ const phrasesDaily = [
     "wordIds": [
       "21158"
     ],
+    "cloze": {
+      "de": "Bürgersteig",
+      "en": "sidewalk"
+    },
     "sourceIndex": 11158
   },
   {
@@ -24242,6 +29942,10 @@ const phrasesDaily = [
     "wordIds": [
       "21180"
     ],
+    "cloze": {
+      "de": "Esser",
+      "en": "eater"
+    },
     "sourceIndex": 11180
   },
   {
@@ -24259,6 +29963,10 @@ const phrasesDaily = [
     "wordIds": [
       "21184"
     ],
+    "cloze": {
+      "de": "Font",
+      "en": "font"
+    },
     "sourceIndex": 11184
   },
   {
@@ -24276,6 +29984,10 @@ const phrasesDaily = [
     "wordIds": [
       "21200"
     ],
+    "cloze": {
+      "de": "Heimatort",
+      "en": "hometown"
+    },
     "sourceIndex": 11200
   },
   {
@@ -24293,6 +30005,10 @@ const phrasesDaily = [
     "wordIds": [
       "21215"
     ],
+    "cloze": {
+      "de": "Kochbuch",
+      "en": "cookbook"
+    },
     "sourceIndex": 11215
   },
   {
@@ -24310,6 +30026,10 @@ const phrasesDaily = [
     "wordIds": [
       "21217"
     ],
+    "cloze": {
+      "de": "Kolonne",
+      "en": "column"
+    },
     "sourceIndex": 11217
   },
   {
@@ -24327,6 +30047,10 @@ const phrasesDaily = [
     "wordIds": [
       "21220"
     ],
+    "cloze": {
+      "de": "Körpersprache",
+      "en": "body"
+    },
     "sourceIndex": 11220
   },
   {
@@ -24344,6 +30068,10 @@ const phrasesDaily = [
     "wordIds": [
       "21239"
     ],
+    "cloze": {
+      "de": "nickte",
+      "en": "nodded"
+    },
     "sourceIndex": 11239
   },
   {
@@ -24361,6 +30089,10 @@ const phrasesDaily = [
     "wordIds": [
       "21246"
     ],
+    "cloze": {
+      "de": "Plugin",
+      "en": "plugin"
+    },
     "sourceIndex": 11246
   },
   {
@@ -24378,6 +30110,10 @@ const phrasesDaily = [
     "wordIds": [
       "21255"
     ],
+    "cloze": {
+      "de": "Reptilien",
+      "en": "reptiles"
+    },
     "sourceIndex": 11255
   },
   {
@@ -24395,6 +30131,10 @@ const phrasesDaily = [
     "wordIds": [
       "21263"
     ],
+    "cloze": {
+      "de": "Schlosspark",
+      "en": "castle"
+    },
     "sourceIndex": 11263
   },
   {
@@ -24412,6 +30152,10 @@ const phrasesDaily = [
     "wordIds": [
       "21270"
     ],
+    "cloze": {
+      "de": "Size",
+      "en": "size"
+    },
     "sourceIndex": 11270
   },
   {
@@ -24429,6 +30173,10 @@ const phrasesDaily = [
     "wordIds": [
       "21279"
     ],
+    "cloze": {
+      "de": "Tsunami",
+      "en": "tsunami"
+    },
     "sourceIndex": 11279
   },
   {
@@ -24446,6 +30194,10 @@ const phrasesDaily = [
     "wordIds": [
       "21297"
     ],
+    "cloze": {
+      "de": "Verwechslung",
+      "en": "mix-up"
+    },
     "sourceIndex": 11297
   },
   {
@@ -24463,6 +30215,10 @@ const phrasesDaily = [
     "wordIds": [
       "21319"
     ],
+    "cloze": {
+      "de": "Alkoholkonsum",
+      "en": "alcohol"
+    },
     "sourceIndex": 11319
   },
   {
@@ -24480,6 +30236,10 @@ const phrasesDaily = [
     "wordIds": [
       "21320"
     ],
+    "cloze": {
+      "de": "altmodisch",
+      "en": "old-fashioned"
+    },
     "sourceIndex": 11320
   },
   {
@@ -24497,6 +30257,10 @@ const phrasesDaily = [
     "wordIds": [
       "21323"
     ],
+    "cloze": {
+      "de": "anpacken",
+      "en": "tackle"
+    },
     "sourceIndex": 11323
   },
   {
@@ -24514,6 +30278,10 @@ const phrasesDaily = [
     "wordIds": [
       "21332"
     ],
+    "cloze": {
+      "de": "behaarte",
+      "en": "hairy"
+    },
     "sourceIndex": 11332
   },
   {
@@ -24531,6 +30299,10 @@ const phrasesDaily = [
     "wordIds": [
       "21345"
     ],
+    "cloze": {
+      "de": "bügeln",
+      "en": "iron"
+    },
     "sourceIndex": 11345
   },
   {
@@ -24548,6 +30320,10 @@ const phrasesDaily = [
     "wordIds": [
       "21347"
     ],
+    "cloze": {
+      "de": "Catering",
+      "en": "catering"
+    },
     "sourceIndex": 11347
   },
   {
@@ -24565,6 +30341,10 @@ const phrasesDaily = [
     "wordIds": [
       "21358"
     ],
+    "cloze": {
+      "de": "Domino",
+      "en": "dominoes"
+    },
     "sourceIndex": 11358
   },
   {
@@ -24582,6 +30362,10 @@ const phrasesDaily = [
     "wordIds": [
       "21378"
     ],
+    "cloze": {
+      "de": "Feuerzeug",
+      "en": "lighter"
+    },
     "sourceIndex": 11378
   },
   {
@@ -24599,6 +30383,10 @@ const phrasesDaily = [
     "wordIds": [
       "21400"
     ],
+    "cloze": {
+      "de": "Heimreise",
+      "en": "journey"
+    },
     "sourceIndex": 11400
   },
   {
@@ -24616,6 +30404,10 @@ const phrasesDaily = [
     "wordIds": [
       "21419"
     ],
+    "cloze": {
+      "de": "Klassenkamerad",
+      "en": "classmate"
+    },
     "sourceIndex": 11419
   },
   {
@@ -24633,6 +30425,10 @@ const phrasesDaily = [
     "wordIds": [
       "21424"
     ],
+    "cloze": {
+      "de": "Leitungswasser",
+      "en": "tap"
+    },
     "sourceIndex": 11424
   },
   {
@@ -24650,6 +30446,10 @@ const phrasesDaily = [
     "wordIds": [
       "21431"
     ],
+    "cloze": {
+      "de": "mitkommen",
+      "en": "come"
+    },
     "sourceIndex": 11431
   },
   {
@@ -24667,6 +30467,10 @@ const phrasesDaily = [
     "wordIds": [
       "21433"
     ],
+    "cloze": {
+      "de": "nachmachen",
+      "en": "imitate"
+    },
     "sourceIndex": 11433
   },
   {
@@ -24684,6 +30488,10 @@ const phrasesDaily = [
     "wordIds": [
       "21434"
     ],
+    "cloze": {
+      "de": "Nana",
+      "en": "grandma"
+    },
     "sourceIndex": 11434
   },
   {
@@ -24701,6 +30509,10 @@ const phrasesDaily = [
     "wordIds": [
       "21435"
     ],
+    "cloze": {
+      "de": "Nordseite",
+      "en": "north"
+    },
     "sourceIndex": 11435
   },
   {
@@ -24718,6 +30530,10 @@ const phrasesDaily = [
     "wordIds": [
       "21438"
     ],
+    "cloze": {
+      "de": "etwas",
+      "en": "toothpaste"
+    },
     "sourceIndex": 11438
   },
   {
@@ -24735,6 +30551,10 @@ const phrasesDaily = [
     "wordIds": [
       "21448"
     ],
+    "cloze": {
+      "de": "rausfinden",
+      "en": "find"
+    },
     "sourceIndex": 11448
   },
   {
@@ -24752,6 +30572,10 @@ const phrasesDaily = [
     "wordIds": [
       "21457"
     ],
+    "cloze": {
+      "de": "Rutsche",
+      "en": "slide"
+    },
     "sourceIndex": 11457
   },
   {
@@ -24769,6 +30593,10 @@ const phrasesDaily = [
     "wordIds": [
       "21466"
     ],
+    "cloze": {
+      "de": "Schulleitung",
+      "en": "school"
+    },
     "sourceIndex": 11466
   },
   {
@@ -24786,6 +30614,10 @@ const phrasesDaily = [
     "wordIds": [
       "21468"
     ],
+    "cloze": {
+      "de": "Schule",
+      "en": "school"
+    },
     "sourceIndex": 11468
   },
   {
@@ -24803,6 +30635,10 @@ const phrasesDaily = [
     "wordIds": [
       "21471"
     ],
+    "cloze": {
+      "de": "Erdbeer-Shake",
+      "en": "shake"
+    },
     "sourceIndex": 11471
   },
   {
@@ -24820,6 +30656,10 @@ const phrasesDaily = [
     "wordIds": [
       "21506"
     ],
+    "cloze": {
+      "de": "Weinbau",
+      "en": "Viticulture"
+    },
     "sourceIndex": 11506
   },
   {
@@ -24837,6 +30677,10 @@ const phrasesDaily = [
     "wordIds": [
       "21512"
     ],
+    "cloze": {
+      "de": "Zahnpasta",
+      "en": "toothpaste"
+    },
     "sourceIndex": 11512
   },
   {
@@ -24854,6 +30698,10 @@ const phrasesDaily = [
     "wordIds": [
       "21520"
     ],
+    "cloze": {
+      "de": "Altersheim",
+      "en": "nursing"
+    },
     "sourceIndex": 11520
   },
   {
@@ -24871,6 +30719,10 @@ const phrasesDaily = [
     "wordIds": [
       "21522"
     ],
+    "cloze": {
+      "de": "angepasst",
+      "en": "adapted"
+    },
     "sourceIndex": 11522
   },
   {
@@ -24888,6 +30740,10 @@ const phrasesDaily = [
     "wordIds": [
       "21524"
     ],
+    "cloze": {
+      "de": "Arie",
+      "en": "aria"
+    },
     "sourceIndex": 11524
   },
   {
@@ -24905,6 +30761,10 @@ const phrasesDaily = [
     "wordIds": [
       "21577"
     ],
+    "cloze": {
+      "de": "inbegriffen",
+      "en": "included"
+    },
     "sourceIndex": 11577
   },
   {
@@ -24922,6 +30782,10 @@ const phrasesDaily = [
     "wordIds": [
       "21594"
     ],
+    "cloze": {
+      "de": "Leasing",
+      "en": "leasing"
+    },
     "sourceIndex": 11594
   },
   {
@@ -24939,6 +30803,10 @@ const phrasesDaily = [
     "wordIds": [
       "21600"
     ],
+    "cloze": {
+      "de": "Mindestgröße",
+      "en": "minimum"
+    },
     "sourceIndex": 11600
   },
   {
@@ -24956,6 +30824,10 @@ const phrasesDaily = [
     "wordIds": [
       "21613"
     ],
+    "cloze": {
+      "de": "radeln",
+      "en": "cycle"
+    },
     "sourceIndex": 11613
   },
   {
@@ -24973,6 +30845,10 @@ const phrasesDaily = [
     "wordIds": [
       "21618"
     ],
+    "cloze": {
+      "de": "Rostocker",
+      "en": "Rostock"
+    },
     "sourceIndex": 11618
   },
   {
@@ -24990,6 +30866,10 @@ const phrasesDaily = [
     "wordIds": [
       "21623"
     ],
+    "cloze": {
+      "de": "schaukeln",
+      "en": "swinging"
+    },
     "sourceIndex": 11623
   },
   {
@@ -25007,6 +30887,10 @@ const phrasesDaily = [
     "wordIds": [
       "21643"
     ],
+    "cloze": {
+      "de": "Taschentuch",
+      "en": "tissue"
+    },
     "sourceIndex": 11643
   },
   {
@@ -25024,6 +30908,10 @@ const phrasesDaily = [
     "wordIds": [
       "21659"
     ],
+    "cloze": {
+      "de": "verdaut",
+      "en": "digest"
+    },
     "sourceIndex": 11659
   },
   {
@@ -25041,6 +30929,10 @@ const phrasesDaily = [
     "wordIds": [
       "21663"
     ],
+    "cloze": {
+      "de": "Vorverkauf",
+      "en": "presale"
+    },
     "sourceIndex": 11663
   },
   {
@@ -25058,6 +30950,10 @@ const phrasesDaily = [
     "wordIds": [
       "21674"
     ],
+    "cloze": {
+      "de": "den",
+      "en": "friends"
+    },
     "sourceIndex": 11674
   },
   {
@@ -25075,6 +30971,10 @@ const phrasesDaily = [
     "wordIds": [
       "21686"
     ],
+    "cloze": {
+      "de": "Beil",
+      "en": "hatchet"
+    },
     "sourceIndex": 11686
   },
   {
@@ -25092,6 +30992,10 @@ const phrasesDaily = [
     "wordIds": [
       "21697"
     ],
+    "cloze": {
+      "de": "bulgarische",
+      "en": "Bulgarian"
+    },
     "sourceIndex": 11697
   },
   {
@@ -25109,6 +31013,10 @@ const phrasesDaily = [
     "wordIds": [
       "21706"
     ],
+    "cloze": {
+      "de": "Collage",
+      "en": "collage"
+    },
     "sourceIndex": 11706
   },
   {
@@ -25126,6 +31034,10 @@ const phrasesDaily = [
     "wordIds": [
       "21718"
     ],
+    "cloze": {
+      "de": "Ferkel",
+      "en": "piglet"
+    },
     "sourceIndex": 11718
   },
   {
@@ -25143,6 +31055,10 @@ const phrasesDaily = [
     "wordIds": [
       "21726"
     ],
+    "cloze": {
+      "de": "Genus",
+      "en": "gender"
+    },
     "sourceIndex": 11726
   },
   {
@@ -25160,6 +31076,10 @@ const phrasesDaily = [
     "wordIds": [
       "21734"
     ],
+    "cloze": {
+      "de": "Gorilla",
+      "en": "gorilla"
+    },
     "sourceIndex": 11734
   },
   {
@@ -25177,6 +31097,10 @@ const phrasesDaily = [
     "wordIds": [
       "21739"
     ],
+    "cloze": {
+      "de": "Heizöl",
+      "en": "heating"
+    },
     "sourceIndex": 11739
   },
   {
@@ -25194,6 +31118,10 @@ const phrasesDaily = [
     "wordIds": [
       "21744"
     ],
+    "cloze": {
+      "de": "hupen",
+      "en": "honk"
+    },
     "sourceIndex": 11744
   },
   {
@@ -25211,6 +31139,10 @@ const phrasesDaily = [
     "wordIds": [
       "21753"
     ],
+    "cloze": {
+      "de": "Kerker",
+      "en": "dungeon"
+    },
     "sourceIndex": 11753
   },
   {
@@ -25228,6 +31160,10 @@ const phrasesDaily = [
     "wordIds": [
       "21756"
     ],
+    "cloze": {
+      "de": "kroatisch",
+      "en": "Croatian"
+    },
     "sourceIndex": 11756
   },
   {
@@ -25245,6 +31181,10 @@ const phrasesDaily = [
     "wordIds": [
       "21758"
     ],
+    "cloze": {
+      "de": "käuflich",
+      "en": "purchase"
+    },
     "sourceIndex": 11758
   },
   {
@@ -25262,6 +31202,10 @@ const phrasesDaily = [
     "wordIds": [
       "21773"
     ],
+    "cloze": {
+      "de": "niederlassen",
+      "en": "settle"
+    },
     "sourceIndex": 11773
   },
   {
@@ -25279,6 +31223,10 @@ const phrasesDaily = [
     "wordIds": [
       "21785"
     ],
+    "cloze": {
+      "de": "Pump",
+      "en": "pump"
+    },
     "sourceIndex": 11785
   },
   {
@@ -25296,6 +31244,10 @@ const phrasesDaily = [
     "wordIds": [
       "21803"
     ],
+    "cloze": {
+      "de": "Singular",
+      "en": "singular"
+    },
     "sourceIndex": 11803
   },
   {
@@ -25313,6 +31265,10 @@ const phrasesDaily = [
     "wordIds": [
       "21837"
     ],
+    "cloze": {
+      "de": "Weltreise",
+      "en": "world"
+    },
     "sourceIndex": 11837
   },
   {
@@ -25330,6 +31286,10 @@ const phrasesDaily = [
     "wordIds": [
       "21842"
     ],
+    "cloze": {
+      "de": "zuschicken",
+      "en": "send"
+    },
     "sourceIndex": 11842
   },
   {
@@ -25347,6 +31307,10 @@ const phrasesDaily = [
     "wordIds": [
       "21886"
     ],
+    "cloze": {
+      "de": "Eurozone",
+      "en": "Eurozone"
+    },
     "sourceIndex": 11886
   },
   {
@@ -25364,6 +31328,10 @@ const phrasesDaily = [
     "wordIds": [
       "21889"
     ],
+    "cloze": {
+      "de": "Feministin",
+      "en": "feminist"
+    },
     "sourceIndex": 11889
   },
   {
@@ -25381,6 +31349,10 @@ const phrasesDaily = [
     "wordIds": [
       "21895"
     ],
+    "cloze": {
+      "de": "Geburtstagsfeier",
+      "en": "birthday"
+    },
     "sourceIndex": 11895
   },
   {
@@ -25398,6 +31370,10 @@ const phrasesDaily = [
     "wordIds": [
       "21898"
     ],
+    "cloze": {
+      "de": "Gesundheitsminister",
+      "en": "Minister"
+    },
     "sourceIndex": 11898
   },
   {
@@ -25415,6 +31391,10 @@ const phrasesDaily = [
     "wordIds": [
       "21900"
     ],
+    "cloze": {
+      "de": "Gewächshaus",
+      "en": "greenhouse"
+    },
     "sourceIndex": 11900
   },
   {
@@ -25432,6 +31412,10 @@ const phrasesDaily = [
     "wordIds": [
       "21904"
     ],
+    "cloze": {
+      "de": "Golfplatz",
+      "en": "golf"
+    },
     "sourceIndex": 11904
   },
   {
@@ -25449,6 +31433,10 @@ const phrasesDaily = [
     "wordIds": [
       "21912"
     ],
+    "cloze": {
+      "de": "Hörsaal",
+      "en": "lecture"
+    },
     "sourceIndex": 11912
   },
   {
@@ -25466,6 +31454,10 @@ const phrasesDaily = [
     "wordIds": [
       "21921"
     ],
+    "cloze": {
+      "de": "Klebeband",
+      "en": "adhesive"
+    },
     "sourceIndex": 11921
   },
   {
@@ -25483,6 +31475,10 @@ const phrasesDaily = [
     "wordIds": [
       "21939"
     ],
+    "cloze": {
+      "de": "Mixer",
+      "en": "blender"
+    },
     "sourceIndex": 11939
   },
   {
@@ -25500,6 +31496,10 @@ const phrasesDaily = [
     "wordIds": [
       "21953"
     ],
+    "cloze": {
+      "de": "Polizeirevier",
+      "en": "police"
+    },
     "sourceIndex": 11953
   },
   {
@@ -25517,6 +31517,10 @@ const phrasesDaily = [
     "wordIds": [
       "21962"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "out"
+    },
     "sourceIndex": 11962
   },
   {
@@ -25534,6 +31538,10 @@ const phrasesDaily = [
     "wordIds": [
       "21963"
     ],
+    "cloze": {
+      "de": "raussuchen",
+      "en": "look"
+    },
     "sourceIndex": 11963
   },
   {
@@ -25551,6 +31559,10 @@ const phrasesDaily = [
     "wordIds": [
       "21966"
     ],
+    "cloze": {
+      "de": "Rennrad",
+      "en": "racing"
+    },
     "sourceIndex": 11966
   },
   {
@@ -25568,6 +31580,10 @@ const phrasesDaily = [
     "wordIds": [
       "21974"
     ],
+    "cloze": {
+      "de": "Schwägerin",
+      "en": "sister-in"
+    },
     "sourceIndex": 11974
   },
   {
@@ -25585,6 +31601,10 @@ const phrasesDaily = [
     "wordIds": [
       "21975"
     ],
+    "cloze": {
+      "de": "Sieb",
+      "en": "sieve"
+    },
     "sourceIndex": 11975
   },
   {
@@ -25602,6 +31622,10 @@ const phrasesDaily = [
     "wordIds": [
       "21980"
     ],
+    "cloze": {
+      "de": "Sportfreund",
+      "en": "sports"
+    },
     "sourceIndex": 11980
   },
   {
@@ -25619,6 +31643,10 @@ const phrasesDaily = [
     "wordIds": [
       "21985"
     ],
+    "cloze": {
+      "de": "Stadtmuseum",
+      "en": "city"
+    },
     "sourceIndex": 11985
   },
   {
@@ -25636,6 +31664,10 @@ const phrasesDaily = [
     "wordIds": [
       "21989"
     ],
+    "cloze": {
+      "de": "südafrikanische",
+      "en": "South"
+    },
     "sourceIndex": 11989
   },
   {
@@ -25653,6 +31685,10 @@ const phrasesDaily = [
     "wordIds": [
       "21991"
     ],
+    "cloze": {
+      "de": "Taille",
+      "en": "waist"
+    },
     "sourceIndex": 11991
   },
   {
@@ -25670,6 +31706,10 @@ const phrasesDaily = [
     "wordIds": [
       "22001"
     ],
+    "cloze": {
+      "de": "uncoole",
+      "en": "uncool"
+    },
     "sourceIndex": 12001
   },
   {
@@ -25687,6 +31727,10 @@ const phrasesDaily = [
     "wordIds": [
       "22026"
     ],
+    "cloze": {
+      "de": "Wovor",
+      "en": "What"
+    },
     "sourceIndex": 12026
   },
   {
@@ -25704,6 +31748,10 @@ const phrasesDaily = [
     "wordIds": [
       "22034"
     ],
+    "cloze": {
+      "de": "abkürzen",
+      "en": "shorten"
+    },
     "sourceIndex": 12034
   },
   {
@@ -25721,6 +31769,10 @@ const phrasesDaily = [
     "wordIds": [
       "22037"
     ],
+    "cloze": {
+      "de": "achtzehn",
+      "en": "eighteen"
+    },
     "sourceIndex": 12037
   },
   {
@@ -25738,6 +31790,10 @@ const phrasesDaily = [
     "wordIds": [
       "22038"
     ],
+    "cloze": {
+      "de": "afghanischen",
+      "en": "Afghan"
+    },
     "sourceIndex": 12038
   },
   {
@@ -25755,6 +31811,10 @@ const phrasesDaily = [
     "wordIds": [
       "22050"
     ],
+    "cloze": {
+      "de": "beeilen",
+      "en": "hurry"
+    },
     "sourceIndex": 12050
   },
   {
@@ -25772,6 +31832,10 @@ const phrasesDaily = [
     "wordIds": [
       "22069"
     ],
+    "cloze": {
+      "de": "Copy",
+      "en": "copy"
+    },
     "sourceIndex": 12069
   },
   {
@@ -25789,6 +31853,10 @@ const phrasesDaily = [
     "wordIds": [
       "22086"
     ],
+    "cloze": {
+      "de": "Fingernagel",
+      "en": "fingernail"
+    },
     "sourceIndex": 12086
   },
   {
@@ -25806,6 +31874,10 @@ const phrasesDaily = [
     "wordIds": [
       "22087"
     ],
+    "cloze": {
+      "de": "Firmensitz",
+      "en": "company"
+    },
     "sourceIndex": 12087
   },
   {
@@ -25823,6 +31895,10 @@ const phrasesDaily = [
     "wordIds": [
       "22097"
     ],
+    "cloze": {
+      "de": "Halsband",
+      "en": "collar"
+    },
     "sourceIndex": 12097
   },
   {
@@ -25840,6 +31916,10 @@ const phrasesDaily = [
     "wordIds": [
       "22098"
     ],
+    "cloze": {
+      "de": "Handschlag",
+      "en": "handshake"
+    },
     "sourceIndex": 12098
   },
   {
@@ -25857,6 +31937,10 @@ const phrasesDaily = [
     "wordIds": [
       "22160"
     ],
+    "cloze": {
+      "de": "reihenweise",
+      "en": "in"
+    },
     "sourceIndex": 12160
   },
   {
@@ -25874,6 +31958,10 @@ const phrasesDaily = [
     "wordIds": [
       "22182"
     ],
+    "cloze": {
+      "de": "Tausender",
+      "en": "thousand"
+    },
     "sourceIndex": 12182
   },
   {
@@ -25891,6 +31979,10 @@ const phrasesDaily = [
     "wordIds": [
       "22195"
     ],
+    "cloze": {
+      "de": "vergnügt",
+      "en": "cheerfully"
+    },
     "sourceIndex": 12195
   },
   {
@@ -25908,6 +32000,10 @@ const phrasesDaily = [
     "wordIds": [
       "22237"
     ],
+    "cloze": {
+      "de": "Bambus",
+      "en": "Bamboo"
+    },
     "sourceIndex": 12237
   },
   {
@@ -25925,6 +32021,10 @@ const phrasesDaily = [
     "wordIds": [
       "22239"
     ],
+    "cloze": {
+      "de": "Bekanntenkreis",
+      "en": "circle"
+    },
     "sourceIndex": 12239
   },
   {
@@ -25942,6 +32042,10 @@ const phrasesDaily = [
     "wordIds": [
       "22245"
     ],
+    "cloze": {
+      "de": "Brise",
+      "en": "breeze"
+    },
     "sourceIndex": 12245
   },
   {
@@ -25959,6 +32063,10 @@ const phrasesDaily = [
     "wordIds": [
       "22246"
     ],
+    "cloze": {
+      "de": "brummt",
+      "en": "hums"
+    },
     "sourceIndex": 12246
   },
   {
@@ -25976,6 +32084,10 @@ const phrasesDaily = [
     "wordIds": [
       "22253"
     ],
+    "cloze": {
+      "de": "Datteln",
+      "en": "I"
+    },
     "sourceIndex": 12253
   },
   {
@@ -25993,6 +32105,10 @@ const phrasesDaily = [
     "wordIds": [
       "22258"
     ],
+    "cloze": {
+      "de": "Dringlichkeit",
+      "en": "urgency"
+    },
     "sourceIndex": 12258
   },
   {
@@ -26010,6 +32126,10 @@ const phrasesDaily = [
     "wordIds": [
       "22259"
     ],
+    "cloze": {
+      "de": "Drogerie",
+      "en": "drugstore"
+    },
     "sourceIndex": 12259
   },
   {
@@ -26027,6 +32147,10 @@ const phrasesDaily = [
     "wordIds": [
       "22265"
     ],
+    "cloze": {
+      "de": "eingeschränkt",
+      "en": "restricted"
+    },
     "sourceIndex": 12265
   },
   {
@@ -26044,6 +32168,10 @@ const phrasesDaily = [
     "wordIds": [
       "22276"
     ],
+    "cloze": {
+      "de": "Familiengeschichte",
+      "en": "family"
+    },
     "sourceIndex": 12276
   },
   {
@@ -26061,6 +32189,10 @@ const phrasesDaily = [
     "wordIds": [
       "22288"
     ],
+    "cloze": {
+      "de": "hausgemachte",
+      "en": "homemade"
+    },
     "sourceIndex": 12288
   },
   {
@@ -26078,6 +32210,10 @@ const phrasesDaily = [
     "wordIds": [
       "22298"
     ],
+    "cloze": {
+      "de": "Jobsuche",
+      "en": "job"
+    },
     "sourceIndex": 12298
   },
   {
@@ -26095,6 +32231,10 @@ const phrasesDaily = [
     "wordIds": [
       "22309"
     ],
+    "cloze": {
+      "de": "Känguru",
+      "en": "kangaroo"
+    },
     "sourceIndex": 12309
   },
   {
@@ -26112,6 +32252,10 @@ const phrasesDaily = [
     "wordIds": [
       "22312"
     ],
+    "cloze": {
+      "de": "Lodge",
+      "en": "lodge"
+    },
     "sourceIndex": 12312
   },
   {
@@ -26129,6 +32273,10 @@ const phrasesDaily = [
     "wordIds": [
       "22324"
     ],
+    "cloze": {
+      "de": "nordöstlich",
+      "en": "The"
+    },
     "sourceIndex": 12324
   },
   {
@@ -26146,6 +32294,10 @@ const phrasesDaily = [
     "wordIds": [
       "22326"
     ],
+    "cloze": {
+      "de": "Perser",
+      "en": "Persian"
+    },
     "sourceIndex": 12326
   },
   {
@@ -26163,6 +32315,10 @@ const phrasesDaily = [
     "wordIds": [
       "22327"
     ],
+    "cloze": {
+      "de": "pflanzliche",
+      "en": "plant-based"
+    },
     "sourceIndex": 12327
   },
   {
@@ -26180,6 +32336,10 @@ const phrasesDaily = [
     "wordIds": [
       "22333"
     ],
+    "cloze": {
+      "de": "Pünktlichkeit",
+      "en": "Punctuality"
+    },
     "sourceIndex": 12333
   },
   {
@@ -26197,6 +32357,10 @@ const phrasesDaily = [
     "wordIds": [
       "22343"
     ],
+    "cloze": {
+      "de": "Schutzengel",
+      "en": "guardian"
+    },
     "sourceIndex": 12343
   },
   {
@@ -26214,6 +32378,10 @@ const phrasesDaily = [
     "wordIds": [
       "22347"
     ],
+    "cloze": {
+      "de": "siebzehn",
+      "en": "seventeen"
+    },
     "sourceIndex": 12347
   },
   {
@@ -26231,6 +32399,10 @@ const phrasesDaily = [
     "wordIds": [
       "22348"
     ],
+    "cloze": {
+      "de": "Skyline",
+      "en": "skyline"
+    },
     "sourceIndex": 12348
   },
   {
@@ -26248,6 +32420,10 @@ const phrasesDaily = [
     "wordIds": [
       "22359"
     ],
+    "cloze": {
+      "de": "Tanzfläche",
+      "en": "dance"
+    },
     "sourceIndex": 12359
   },
   {
@@ -26265,6 +32441,10 @@ const phrasesDaily = [
     "wordIds": [
       "22361"
     ],
+    "cloze": {
+      "de": "Türsteher",
+      "en": "bouncer"
+    },
     "sourceIndex": 12361
   },
   {
@@ -26282,6 +32462,10 @@ const phrasesDaily = [
     "wordIds": [
       "22371"
     ],
+    "cloze": {
+      "de": "Wahltag",
+      "en": "Election"
+    },
     "sourceIndex": 12371
   },
   {
@@ -26299,6 +32483,10 @@ const phrasesDaily = [
     "wordIds": [
       "22374"
     ],
+    "cloze": {
+      "de": "Weihnachtsgeschenk",
+      "en": "Christmas"
+    },
     "sourceIndex": 12374
   },
   {
@@ -26316,6 +32504,10 @@ const phrasesDaily = [
     "wordIds": [
       "22388"
     ],
+    "cloze": {
+      "de": "zurückschicken",
+      "en": "send"
+    },
     "sourceIndex": 12388
   },
   {
@@ -26333,6 +32525,10 @@ const phrasesDaily = [
     "wordIds": [
       "22399"
     ],
+    "cloze": {
+      "de": "Abschlussprüfung",
+      "en": "final"
+    },
     "sourceIndex": 12399
   },
   {
@@ -26350,6 +32546,10 @@ const phrasesDaily = [
     "wordIds": [
       "22402"
     ],
+    "cloze": {
+      "de": "addieren",
+      "en": "add"
+    },
     "sourceIndex": 12402
   },
   {
@@ -26367,6 +32567,10 @@ const phrasesDaily = [
     "wordIds": [
       "22404"
     ],
+    "cloze": {
+      "de": "Afro",
+      "en": "afro"
+    },
     "sourceIndex": 12404
   },
   {
@@ -26384,6 +32588,10 @@ const phrasesDaily = [
     "wordIds": [
       "22409"
     ],
+    "cloze": {
+      "de": "Argentinier",
+      "en": "Argentinian"
+    },
     "sourceIndex": 12409
   },
   {
@@ -26401,6 +32609,10 @@ const phrasesDaily = [
     "wordIds": [
       "22410"
     ],
+    "cloze": {
+      "de": "aufzählen",
+      "en": "list"
+    },
     "sourceIndex": 12410
   },
   {
@@ -26418,6 +32630,10 @@ const phrasesDaily = [
     "wordIds": [
       "22438"
     ],
+    "cloze": {
+      "de": "einloggen",
+      "en": "log"
+    },
     "sourceIndex": 12438
   },
   {
@@ -26435,6 +32651,10 @@ const phrasesDaily = [
     "wordIds": [
       "22462"
     ],
+    "cloze": {
+      "de": "Fütterung",
+      "en": "feeding"
+    },
     "sourceIndex": 12462
   },
   {
@@ -26452,6 +32672,10 @@ const phrasesDaily = [
     "wordIds": [
       "22476"
     ],
+    "cloze": {
+      "de": "Hausmann",
+      "en": "househusband"
+    },
     "sourceIndex": 12476
   },
   {
@@ -26469,6 +32693,10 @@ const phrasesDaily = [
     "wordIds": [
       "22484"
     ],
+    "cloze": {
+      "de": "Karussell",
+      "en": "carousel"
+    },
     "sourceIndex": 12484
   },
   {
@@ -26486,6 +32714,10 @@ const phrasesDaily = [
     "wordIds": [
       "22512"
     ],
+    "cloze": {
+      "de": "Muttertag",
+      "en": "Mother's"
+    },
     "sourceIndex": 12512
   },
   {
@@ -26503,6 +32735,10 @@ const phrasesDaily = [
     "wordIds": [
       "22514"
     ],
+    "cloze": {
+      "de": "Neubaugebiet",
+      "en": "new"
+    },
     "sourceIndex": 12514
   },
   {
@@ -26520,6 +32756,10 @@ const phrasesDaily = [
     "wordIds": [
       "22521"
     ],
+    "cloze": {
+      "de": "Nussbaum",
+      "en": "walnut"
+    },
     "sourceIndex": 12521
   },
   {
@@ -26537,6 +32777,10 @@ const phrasesDaily = [
     "wordIds": [
       "22522"
     ],
+    "cloze": {
+      "de": "Ochse",
+      "en": "ox"
+    },
     "sourceIndex": 12522
   },
   {
@@ -26554,6 +32798,10 @@ const phrasesDaily = [
     "wordIds": [
       "22538"
     ],
+    "cloze": {
+      "de": "schlafend",
+      "en": "sleeping"
+    },
     "sourceIndex": 12538
   },
   {
@@ -26571,6 +32819,10 @@ const phrasesDaily = [
     "wordIds": [
       "22545"
     ],
+    "cloze": {
+      "de": "Spielsache",
+      "en": "toy"
+    },
     "sourceIndex": 12545
   },
   {
@@ -26588,6 +32840,10 @@ const phrasesDaily = [
     "wordIds": [
       "22562"
     ],
+    "cloze": {
+      "de": "unübersichtlich",
+      "en": "confusing"
+    },
     "sourceIndex": 12562
   },
   {
@@ -26605,6 +32861,10 @@ const phrasesDaily = [
     "wordIds": [
       "22564"
     ],
+    "cloze": {
+      "de": "verschwunden",
+      "en": "disappeared"
+    },
     "sourceIndex": 12564
   },
   {
@@ -26622,6 +32882,10 @@ const phrasesDaily = [
     "wordIds": [
       "22580"
     ],
+    "cloze": {
+      "de": "Wunderland",
+      "en": "Wonderland"
+    },
     "sourceIndex": 12580
   },
   {
@@ -26639,6 +32903,10 @@ const phrasesDaily = [
     "wordIds": [
       "22590"
     ],
+    "cloze": {
+      "de": "Abzweigung",
+      "en": "turn-off"
+    },
     "sourceIndex": 12590
   },
   {
@@ -26656,6 +32924,10 @@ const phrasesDaily = [
     "wordIds": [
       "22595"
     ],
+    "cloze": {
+      "de": "Aktivistin",
+      "en": "activist"
+    },
     "sourceIndex": 12595
   },
   {
@@ -26673,6 +32945,10 @@ const phrasesDaily = [
     "wordIds": [
       "22614"
     ],
+    "cloze": {
+      "de": "Bademantel",
+      "en": "bathrobe"
+    },
     "sourceIndex": 12614
   },
   {
@@ -26690,6 +32966,10 @@ const phrasesDaily = [
     "wordIds": [
       "22633"
     ],
+    "cloze": {
+      "de": "dehnen",
+      "en": "stretch"
+    },
     "sourceIndex": 12633
   },
   {
@@ -26707,6 +32987,10 @@ const phrasesDaily = [
     "wordIds": [
       "22660"
     ],
+    "cloze": {
+      "de": "geschickt",
+      "en": "skillful"
+    },
     "sourceIndex": 12660
   },
   {
@@ -26724,6 +33008,10 @@ const phrasesDaily = [
     "wordIds": [
       "22670"
     ],
+    "cloze": {
+      "de": "Karpfen",
+      "en": "carp"
+    },
     "sourceIndex": 12670
   },
   {
@@ -26741,6 +33029,10 @@ const phrasesDaily = [
     "wordIds": [
       "22678"
     ],
+    "cloze": {
+      "de": "Kreisel",
+      "en": "spinning"
+    },
     "sourceIndex": 12678
   },
   {
@@ -26758,6 +33050,10 @@ const phrasesDaily = [
     "wordIds": [
       "22693"
     ],
+    "cloze": {
+      "de": "nurnoch",
+      "en": "only"
+    },
     "sourceIndex": 12693
   },
   {
@@ -26775,6 +33071,10 @@ const phrasesDaily = [
     "wordIds": [
       "22700"
     ],
+    "cloze": {
+      "de": "Posting",
+      "en": "post"
+    },
     "sourceIndex": 12700
   },
   {
@@ -26792,6 +33092,10 @@ const phrasesDaily = [
     "wordIds": [
       "22707"
     ],
+    "cloze": {
+      "de": "Regenwasser",
+      "en": "rainwater"
+    },
     "sourceIndex": 12707
   },
   {
@@ -26809,6 +33113,10 @@ const phrasesDaily = [
     "wordIds": [
       "22716"
     ],
+    "cloze": {
+      "de": "Schaukel",
+      "en": "swing"
+    },
     "sourceIndex": 12716
   },
   {
@@ -26826,6 +33134,10 @@ const phrasesDaily = [
     "wordIds": [
       "22721"
     ],
+    "cloze": {
+      "de": "Schulhaus",
+      "en": "school"
+    },
     "sourceIndex": 12721
   },
   {
@@ -26843,6 +33155,10 @@ const phrasesDaily = [
     "wordIds": [
       "22729"
     ],
+    "cloze": {
+      "de": "Skeptiker",
+      "en": "skeptic"
+    },
     "sourceIndex": 12729
   },
   {
@@ -26860,6 +33176,10 @@ const phrasesDaily = [
     "wordIds": [
       "22730"
     ],
+    "cloze": {
+      "de": "Skigebiet",
+      "en": "ski"
+    },
     "sourceIndex": 12730
   },
   {
@@ -26877,6 +33197,10 @@ const phrasesDaily = [
     "wordIds": [
       "22736"
     ],
+    "cloze": {
+      "de": "Streamer",
+      "en": "streamer"
+    },
     "sourceIndex": 12736
   },
   {
@@ -26894,6 +33218,10 @@ const phrasesDaily = [
     "wordIds": [
       "22741"
     ],
+    "cloze": {
+      "de": "südwestlich",
+      "en": "southwest"
+    },
     "sourceIndex": 12741
   },
   {
@@ -26911,6 +33239,10 @@ const phrasesDaily = [
     "wordIds": [
       "22768"
     ],
+    "cloze": {
+      "de": "Zeitfenster",
+      "en": "time"
+    },
     "sourceIndex": 12768
   },
   {
@@ -26928,6 +33260,10 @@ const phrasesDaily = [
     "wordIds": [
       "22796"
     ],
+    "cloze": {
+      "de": "Beachvolleyball",
+      "en": "beach"
+    },
     "sourceIndex": 12796
   },
   {
@@ -26945,6 +33281,10 @@ const phrasesDaily = [
     "wordIds": [
       "22800"
     ],
+    "cloze": {
+      "de": "Beule",
+      "en": "dent"
+    },
     "sourceIndex": 12800
   },
   {
@@ -26962,6 +33302,10 @@ const phrasesDaily = [
     "wordIds": [
       "22807"
     ],
+    "cloze": {
+      "de": "Brudi",
+      "en": "bro"
+    },
     "sourceIndex": 12807
   },
   {
@@ -26979,6 +33323,10 @@ const phrasesDaily = [
     "wordIds": [
       "22808"
     ],
+    "cloze": {
+      "de": "Cappuccino",
+      "en": "cappuccino"
+    },
     "sourceIndex": 12808
   },
   {
@@ -26996,6 +33344,10 @@ const phrasesDaily = [
     "wordIds": [
       "22814"
     ],
+    "cloze": {
+      "de": "Ehrenmann",
+      "en": "man"
+    },
     "sourceIndex": 12814
   },
   {
@@ -27013,6 +33365,10 @@ const phrasesDaily = [
     "wordIds": [
       "22817"
     ],
+    "cloze": {
+      "de": "Einbahnstrasse",
+      "en": "one-way"
+    },
     "sourceIndex": 12817
   },
   {
@@ -27030,6 +33386,10 @@ const phrasesDaily = [
     "wordIds": [
       "22821"
     ],
+    "cloze": {
+      "de": "Emoji",
+      "en": "emoji"
+    },
     "sourceIndex": 12821
   },
   {
@@ -27047,6 +33407,10 @@ const phrasesDaily = [
     "wordIds": [
       "22838"
     ],
+    "cloze": {
+      "de": "Französin",
+      "en": "Frenchwoman"
+    },
     "sourceIndex": 12838
   },
   {
@@ -27064,6 +33428,10 @@ const phrasesDaily = [
     "wordIds": [
       "22841"
     ],
+    "cloze": {
+      "de": "Furz",
+      "en": "fart"
+    },
     "sourceIndex": 12841
   },
   {
@@ -27081,6 +33449,10 @@ const phrasesDaily = [
     "wordIds": [
       "22862"
     ],
+    "cloze": {
+      "de": "Kirchturm",
+      "en": "church"
+    },
     "sourceIndex": 12862
   },
   {
@@ -27098,6 +33470,10 @@ const phrasesDaily = [
     "wordIds": [
       "22867"
     ],
+    "cloze": {
+      "de": "Lasagne",
+      "en": "lasagna"
+    },
     "sourceIndex": 12867
   },
   {
@@ -27115,6 +33491,10 @@ const phrasesDaily = [
     "wordIds": [
       "22870"
     ],
+    "cloze": {
+      "de": "Leihe",
+      "en": "loan"
+    },
     "sourceIndex": 12870
   },
   {
@@ -27132,6 +33512,10 @@ const phrasesDaily = [
     "wordIds": [
       "22874"
     ],
+    "cloze": {
+      "de": "losfahren",
+      "en": "drive"
+    },
     "sourceIndex": 12874
   },
   {
@@ -27149,6 +33533,10 @@ const phrasesDaily = [
     "wordIds": [
       "22892"
     ],
+    "cloze": {
+      "de": "Nordpol",
+      "en": "North"
+    },
     "sourceIndex": 12892
   },
   {
@@ -27166,6 +33554,10 @@ const phrasesDaily = [
     "wordIds": [
       "22901"
     ],
+    "cloze": {
+      "de": "Polka",
+      "en": "polka"
+    },
     "sourceIndex": 12901
   },
   {
@@ -27183,6 +33575,10 @@ const phrasesDaily = [
     "wordIds": [
       "22911"
     ],
+    "cloze": {
+      "de": "Roaming",
+      "en": "Roaming"
+    },
     "sourceIndex": 12911
   },
   {
@@ -27200,6 +33596,10 @@ const phrasesDaily = [
     "wordIds": [
       "22912"
     ],
+    "cloze": {
+      "de": "Rückflug",
+      "en": "return"
+    },
     "sourceIndex": 12912
   },
   {
@@ -27217,6 +33617,10 @@ const phrasesDaily = [
     "wordIds": [
       "22913"
     ],
+    "cloze": {
+      "de": "Schiffer",
+      "en": "skipper"
+    },
     "sourceIndex": 12913
   },
   {
@@ -27234,6 +33638,10 @@ const phrasesDaily = [
     "wordIds": [
       "22922"
     ],
+    "cloze": {
+      "de": "Stadtbücherei",
+      "en": "public"
+    },
     "sourceIndex": 12922
   },
   {
@@ -27251,6 +33659,10 @@ const phrasesDaily = [
     "wordIds": [
       "22958"
     ],
+    "cloze": {
+      "de": "Westseite",
+      "en": "west"
+    },
     "sourceIndex": 12958
   },
   {
@@ -27268,6 +33680,10 @@ const phrasesDaily = [
     "wordIds": [
       "23012"
     ],
+    "cloze": {
+      "de": "durchsichtigem",
+      "en": "transparent"
+    },
     "sourceIndex": 13012
   },
   {
@@ -27285,6 +33701,10 @@ const phrasesDaily = [
     "wordIds": [
       "23021"
     ],
+    "cloze": {
+      "de": "Facts",
+      "en": "facts"
+    },
     "sourceIndex": 13021
   },
   {
@@ -27302,6 +33722,10 @@ const phrasesDaily = [
     "wordIds": [
       "23054"
     ],
+    "cloze": {
+      "de": "klarmachen",
+      "en": "make"
+    },
     "sourceIndex": 13054
   },
   {
@@ -27319,6 +33743,10 @@ const phrasesDaily = [
     "wordIds": [
       "23065"
     ],
+    "cloze": {
+      "de": "libyscher",
+      "en": "Libyan"
+    },
     "sourceIndex": 13065
   },
   {
@@ -27336,6 +33764,10 @@ const phrasesDaily = [
     "wordIds": [
       "23072"
     ],
+    "cloze": {
+      "de": "Mohn",
+      "en": "poppy"
+    },
     "sourceIndex": 13072
   },
   {
@@ -27353,6 +33785,10 @@ const phrasesDaily = [
     "wordIds": [
       "23074"
     ],
+    "cloze": {
+      "de": "nachteilig",
+      "en": "disadvantageous"
+    },
     "sourceIndex": 13074
   },
   {
@@ -27370,6 +33806,10 @@ const phrasesDaily = [
     "wordIds": [
       "23084"
     ],
+    "cloze": {
+      "de": "Papierkram",
+      "en": "paperwork"
+    },
     "sourceIndex": 13084
   },
   {
@@ -27387,6 +33827,10 @@ const phrasesDaily = [
     "wordIds": [
       "23096"
     ],
+    "cloze": {
+      "de": "Sauerkraut",
+      "en": "Sauerkraut"
+    },
     "sourceIndex": 13096
   },
   {
@@ -27404,6 +33848,10 @@ const phrasesDaily = [
     "wordIds": [
       "23098"
     ],
+    "cloze": {
+      "de": "schlesischen",
+      "en": "Silesian"
+    },
     "sourceIndex": 13098
   },
   {
@@ -27421,6 +33869,10 @@ const phrasesDaily = [
     "wordIds": [
       "23102"
     ],
+    "cloze": {
+      "de": "Schürze",
+      "en": "apron"
+    },
     "sourceIndex": 13102
   },
   {
@@ -27438,6 +33890,10 @@ const phrasesDaily = [
     "wordIds": [
       "23110"
     ],
+    "cloze": {
+      "de": "Sozialarbeit",
+      "en": "social"
+    },
     "sourceIndex": 13110
   },
   {
@@ -27455,6 +33911,10 @@ const phrasesDaily = [
     "wordIds": [
       "23113"
     ],
+    "cloze": {
+      "de": "Spatz",
+      "en": "sparrow"
+    },
     "sourceIndex": 13113
   },
   {
@@ -27472,6 +33932,10 @@ const phrasesDaily = [
     "wordIds": [
       "23121"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "South"
+    },
     "sourceIndex": 13121
   },
   {
@@ -27489,6 +33953,10 @@ const phrasesDaily = [
     "wordIds": [
       "23134"
     ],
+    "cloze": {
+      "de": "Viech",
+      "en": "critter"
+    },
     "sourceIndex": 13134
   },
   {
@@ -27506,6 +33974,10 @@ const phrasesDaily = [
     "wordIds": [
       "23139"
     ],
+    "cloze": {
+      "de": "Wasserleitung",
+      "en": "water"
+    },
     "sourceIndex": 13139
   },
   {
@@ -27523,6 +33995,10 @@ const phrasesDaily = [
     "wordIds": [
       "23142"
     ],
+    "cloze": {
+      "de": "Wetterbericht",
+      "en": "weather"
+    },
     "sourceIndex": 13142
   },
   {
@@ -27540,6 +34016,10 @@ const phrasesDaily = [
     "wordIds": [
       "23178"
     ],
+    "cloze": {
+      "de": "Bibliothekar",
+      "en": "librarian"
+    },
     "sourceIndex": 13178
   },
   {
@@ -27557,6 +34037,10 @@ const phrasesDaily = [
     "wordIds": [
       "23212"
     ],
+    "cloze": {
+      "de": "Fallschirm",
+      "en": "parachute"
+    },
     "sourceIndex": 13212
   },
   {
@@ -27574,6 +34058,10 @@ const phrasesDaily = [
     "wordIds": [
       "23214"
     ],
+    "cloze": {
+      "de": "festlich",
+      "en": "festive"
+    },
     "sourceIndex": 13214
   },
   {
@@ -27591,6 +34079,10 @@ const phrasesDaily = [
     "wordIds": [
       "23215"
     ],
+    "cloze": {
+      "de": "Feuerlöscher",
+      "en": "fire"
+    },
     "sourceIndex": 13215
   },
   {
@@ -27608,6 +34100,10 @@ const phrasesDaily = [
     "wordIds": [
       "23249"
     ],
+    "cloze": {
+      "de": "Jugendherberge",
+      "en": "youth"
+    },
     "sourceIndex": 13249
   },
   {
@@ -27625,6 +34121,10 @@ const phrasesDaily = [
     "wordIds": [
       "23251"
     ],
+    "cloze": {
+      "de": "Kampfsport",
+      "en": "martial"
+    },
     "sourceIndex": 13251
   },
   {
@@ -27642,6 +34142,10 @@ const phrasesDaily = [
     "wordIds": [
       "23253"
     ],
+    "cloze": {
+      "de": "kicken",
+      "en": "kick"
+    },
     "sourceIndex": 13253
   },
   {
@@ -27659,6 +34163,10 @@ const phrasesDaily = [
     "wordIds": [
       "23266"
     ],
+    "cloze": {
+      "de": "Lieferwagen",
+      "en": "delivery"
+    },
     "sourceIndex": 13266
   },
   {
@@ -27676,6 +34184,10 @@ const phrasesDaily = [
     "wordIds": [
       "23299"
     ],
+    "cloze": {
+      "de": "Schriftart",
+      "en": "font"
+    },
     "sourceIndex": 13299
   },
   {
@@ -27693,6 +34205,10 @@ const phrasesDaily = [
     "wordIds": [
       "23324"
     ],
+    "cloze": {
+      "de": "Unannehmlichkeit",
+      "en": "inconvenience"
+    },
     "sourceIndex": 13324
   },
   {
@@ -27710,6 +34226,10 @@ const phrasesDaily = [
     "wordIds": [
       "23329"
     ],
+    "cloze": {
+      "de": "vereinfachte",
+      "en": "simplified"
+    },
     "sourceIndex": 13329
   },
   {
@@ -27727,6 +34247,10 @@ const phrasesDaily = [
     "wordIds": [
       "23343"
     ],
+    "cloze": {
+      "de": "voreiligen",
+      "en": "hasty"
+    },
     "sourceIndex": 13343
   },
   {
@@ -27744,6 +34268,10 @@ const phrasesDaily = [
     "wordIds": [
       "23356"
     ],
+    "cloze": {
+      "de": "zweifache",
+      "en": "twofold"
+    },
     "sourceIndex": 13356
   },
   {
@@ -27761,6 +34289,10 @@ const phrasesDaily = [
     "wordIds": [
       "23378"
     ],
+    "cloze": {
+      "de": "Bauernhaus",
+      "en": "farmhouse"
+    },
     "sourceIndex": 13378
   },
   {
@@ -27778,6 +34310,10 @@ const phrasesDaily = [
     "wordIds": [
       "23387"
     ],
+    "cloze": {
+      "de": "Bestie",
+      "en": "beast"
+    },
     "sourceIndex": 13387
   },
   {
@@ -27795,6 +34331,10 @@ const phrasesDaily = [
     "wordIds": [
       "23390"
     ],
+    "cloze": {
+      "de": "bloggt",
+      "en": "blogs"
+    },
     "sourceIndex": 13390
   },
   {
@@ -27812,6 +34352,10 @@ const phrasesDaily = [
     "wordIds": [
       "23393"
     ],
+    "cloze": {
+      "de": "Bunny",
+      "en": "bunny"
+    },
     "sourceIndex": 13393
   },
   {
@@ -27829,6 +34373,10 @@ const phrasesDaily = [
     "wordIds": [
       "23395"
     ],
+    "cloze": {
+      "de": "Bürste",
+      "en": "brush"
+    },
     "sourceIndex": 13395
   },
   {
@@ -27846,6 +34394,10 @@ const phrasesDaily = [
     "wordIds": [
       "23404"
     ],
+    "cloze": {
+      "de": "diktiert",
+      "en": "dictates"
+    },
     "sourceIndex": 13404
   },
   {
@@ -27863,6 +34415,10 @@ const phrasesDaily = [
     "wordIds": [
       "23419"
     ],
+    "cloze": {
+      "de": "erkältet",
+      "en": "cold"
+    },
     "sourceIndex": 13419
   },
   {
@@ -27880,6 +34436,10 @@ const phrasesDaily = [
     "wordIds": [
       "23422"
     ],
+    "cloze": {
+      "de": "fallenden",
+      "en": "falling"
+    },
     "sourceIndex": 13422
   },
   {
@@ -27897,6 +34457,10 @@ const phrasesDaily = [
     "wordIds": [
       "23440"
     ],
+    "cloze": {
+      "de": "Graphik",
+      "en": "graphic"
+    },
     "sourceIndex": 13440
   },
   {
@@ -27914,6 +34478,10 @@ const phrasesDaily = [
     "wordIds": [
       "23444"
     ],
+    "cloze": {
+      "de": "Gästezimmer",
+      "en": "guest"
+    },
     "sourceIndex": 13444
   },
   {
@@ -27931,6 +34499,10 @@ const phrasesDaily = [
     "wordIds": [
       "23454"
     ],
+    "cloze": {
+      "de": "Kamel",
+      "en": "camel"
+    },
     "sourceIndex": 13454
   },
   {
@@ -27948,6 +34520,10 @@ const phrasesDaily = [
     "wordIds": [
       "23464"
     ],
+    "cloze": {
+      "de": "Lawine",
+      "en": "avalanche"
+    },
     "sourceIndex": 13464
   },
   {
@@ -27965,6 +34541,10 @@ const phrasesDaily = [
     "wordIds": [
       "23490"
     ],
+    "cloze": {
+      "de": "Plastiktüte",
+      "en": "plastic"
+    },
     "sourceIndex": 13490
   },
   {
@@ -27982,6 +34562,10 @@ const phrasesDaily = [
     "wordIds": [
       "23507"
     ],
+    "cloze": {
+      "de": "Salsa",
+      "en": "dance"
+    },
     "sourceIndex": 13507
   },
   {
@@ -27999,6 +34583,10 @@ const phrasesDaily = [
     "wordIds": [
       "23511"
     ],
+    "cloze": {
+      "de": "Schneefall",
+      "en": "snowfall"
+    },
     "sourceIndex": 13511
   },
   {
@@ -28016,6 +34604,10 @@ const phrasesDaily = [
     "wordIds": [
       "23512"
     ],
+    "cloze": {
+      "de": "Schnurrbart",
+      "en": "mustache"
+    },
     "sourceIndex": 13512
   },
   {
@@ -28033,6 +34625,10 @@ const phrasesDaily = [
     "wordIds": [
       "23521"
     ],
+    "cloze": {
+      "de": "Stadtplan",
+      "en": "city"
+    },
     "sourceIndex": 13521
   },
   {
@@ -28050,6 +34646,10 @@ const phrasesDaily = [
     "wordIds": [
       "23543"
     ],
+    "cloze": {
+      "de": "Vokale",
+      "en": "vowels"
+    },
     "sourceIndex": 13543
   },
   {
@@ -28067,6 +34667,10 @@ const phrasesDaily = [
     "wordIds": [
       "23555"
     ],
+    "cloze": {
+      "de": "Wohnungssuche",
+      "en": "apartment"
+    },
     "sourceIndex": 13555
   },
   {
@@ -28084,6 +34688,10 @@ const phrasesDaily = [
     "wordIds": [
       "23598"
     ],
+    "cloze": {
+      "de": "Bildband",
+      "en": "photo"
+    },
     "sourceIndex": 13598
   },
   {
@@ -28101,6 +34709,10 @@ const phrasesDaily = [
     "wordIds": [
       "23645"
     ],
+    "cloze": {
+      "de": "Gemeindezentrum",
+      "en": "community"
+    },
     "sourceIndex": 13645
   },
   {
@@ -28118,6 +34730,10 @@ const phrasesDaily = [
     "wordIds": [
       "23666"
     ],
+    "cloze": {
+      "de": "kichern",
+      "en": "giggle"
+    },
     "sourceIndex": 13666
   },
   {
@@ -28135,6 +34751,10 @@ const phrasesDaily = [
     "wordIds": [
       "23671"
     ],
+    "cloze": {
+      "de": "kribbeln",
+      "en": "tingling"
+    },
     "sourceIndex": 13671
   },
   {
@@ -28152,6 +34772,10 @@ const phrasesDaily = [
     "wordIds": [
       "23673"
     ],
+    "cloze": {
+      "de": "Kröte",
+      "en": "toad"
+    },
     "sourceIndex": 13673
   },
   {
@@ -28169,6 +34793,10 @@ const phrasesDaily = [
     "wordIds": [
       "23677"
     ],
+    "cloze": {
+      "de": "Lagerraum",
+      "en": "storage"
+    },
     "sourceIndex": 13677
   },
   {
@@ -28186,6 +34814,10 @@ const phrasesDaily = [
     "wordIds": [
       "23681"
     ],
+    "cloze": {
+      "de": "Luftverschmutzung",
+      "en": "Air"
+    },
     "sourceIndex": 13681
   },
   {
@@ -28203,6 +34835,10 @@ const phrasesDaily = [
     "wordIds": [
       "23684"
     ],
+    "cloze": {
+      "de": "Lüfter",
+      "en": "fan"
+    },
     "sourceIndex": 13684
   },
   {
@@ -28220,6 +34856,10 @@ const phrasesDaily = [
     "wordIds": [
       "23698"
     ],
+    "cloze": {
+      "de": "niesen",
+      "en": "sneeze"
+    },
     "sourceIndex": 13698
   },
   {
@@ -28237,6 +34877,10 @@ const phrasesDaily = [
     "wordIds": [
       "23702"
     ],
+    "cloze": {
+      "de": "Ostseite",
+      "en": "east"
+    },
     "sourceIndex": 13702
   },
   {
@@ -28254,6 +34898,10 @@ const phrasesDaily = [
     "wordIds": [
       "23704"
     ],
+    "cloze": {
+      "de": "Pickup",
+      "en": "pickup"
+    },
     "sourceIndex": 13704
   },
   {
@@ -28271,6 +34919,10 @@ const phrasesDaily = [
     "wordIds": [
       "23713"
     ],
+    "cloze": {
+      "de": "reimen",
+      "en": "rhyme"
+    },
     "sourceIndex": 13713
   },
   {
@@ -28288,6 +34940,10 @@ const phrasesDaily = [
     "wordIds": [
       "23715"
     ],
+    "cloze": {
+      "de": "Rollstuhlfahrer",
+      "en": "wheelchair"
+    },
     "sourceIndex": 13715
   },
   {
@@ -28305,6 +34961,10 @@ const phrasesDaily = [
     "wordIds": [
       "23719"
     ],
+    "cloze": {
+      "de": "Schallplatten",
+      "en": "records"
+    },
     "sourceIndex": 13719
   },
   {
@@ -28322,6 +34982,10 @@ const phrasesDaily = [
     "wordIds": [
       "23722"
     ],
+    "cloze": {
+      "de": "Schwiegertochter",
+      "en": "daughter-in"
+    },
     "sourceIndex": 13722
   },
   {
@@ -28339,6 +35003,10 @@ const phrasesDaily = [
     "wordIds": [
       "23725"
     ],
+    "cloze": {
+      "de": "Skorpion",
+      "en": "scorpion"
+    },
     "sourceIndex": 13725
   },
   {
@@ -28356,6 +35024,10 @@ const phrasesDaily = [
     "wordIds": [
       "23735"
     ],
+    "cloze": {
+      "de": "Stunt",
+      "en": "stunt"
+    },
     "sourceIndex": 13735
   },
   {
@@ -28373,6 +35045,10 @@ const phrasesDaily = [
     "wordIds": [
       "23744"
     ],
+    "cloze": {
+      "de": "Toilettenpapier",
+      "en": "toilet"
+    },
     "sourceIndex": 13744
   },
   {
@@ -28390,6 +35066,10 @@ const phrasesDaily = [
     "wordIds": [
       "23757"
     ],
+    "cloze": {
+      "de": "Verstopfung",
+      "en": "constipation"
+    },
     "sourceIndex": 13757
   },
   {
@@ -28407,6 +35087,10 @@ const phrasesDaily = [
     "wordIds": [
       "23771"
     ],
+    "cloze": {
+      "de": "Zopf",
+      "en": "braid"
+    },
     "sourceIndex": 13771
   },
   {
@@ -28424,6 +35108,10 @@ const phrasesDaily = [
     "wordIds": [
       "23801"
     ],
+    "cloze": {
+      "de": "baumelten",
+      "en": "dangled"
+    },
     "sourceIndex": 13801
   },
   {
@@ -28441,6 +35129,10 @@ const phrasesDaily = [
     "wordIds": [
       "23816"
     ],
+    "cloze": {
+      "de": "Bürogebäude",
+      "en": "office"
+    },
     "sourceIndex": 13816
   },
   {
@@ -28458,6 +35150,10 @@ const phrasesDaily = [
     "wordIds": [
       "23831"
     ],
+    "cloze": {
+      "de": "fechten",
+      "en": "fence"
+    },
     "sourceIndex": 13831
   },
   {
@@ -28475,6 +35171,10 @@ const phrasesDaily = [
     "wordIds": [
       "23842"
     ],
+    "cloze": {
+      "de": "herausholen",
+      "en": "get"
+    },
     "sourceIndex": 13842
   },
   {
@@ -28492,6 +35192,10 @@ const phrasesDaily = [
     "wordIds": [
       "23845"
     ],
+    "cloze": {
+      "de": "herüber",
+      "en": "over"
+    },
     "sourceIndex": 13845
   },
   {
@@ -28509,6 +35213,10 @@ const phrasesDaily = [
     "wordIds": [
       "23879"
     ],
+    "cloze": {
+      "de": "Nickerchen",
+      "en": "nap"
+    },
     "sourceIndex": 13879
   },
   {
@@ -28526,6 +35234,10 @@ const phrasesDaily = [
     "wordIds": [
       "23882"
     ],
+    "cloze": {
+      "de": "Optiker",
+      "en": "optician"
+    },
     "sourceIndex": 13882
   },
   {
@@ -28543,6 +35255,10 @@ const phrasesDaily = [
     "wordIds": [
       "23886"
     ],
+    "cloze": {
+      "de": "Pedal",
+      "en": "pedal"
+    },
     "sourceIndex": 13886
   },
   {
@@ -28560,6 +35276,10 @@ const phrasesDaily = [
     "wordIds": [
       "23906"
     ],
+    "cloze": {
+      "de": "schütten",
+      "en": "pour"
+    },
     "sourceIndex": 13906
   },
   {
@@ -28577,6 +35297,10 @@ const phrasesDaily = [
     "wordIds": [
       "23908"
     ],
+    "cloze": {
+      "de": "Sekundarstufe",
+      "en": "secondary"
+    },
     "sourceIndex": 13908
   },
   {
@@ -28594,6 +35318,10 @@ const phrasesDaily = [
     "wordIds": [
       "23912"
     ],
+    "cloze": {
+      "de": "Sonnensystem",
+      "en": "solar"
+    },
     "sourceIndex": 13912
   },
   {
@@ -28611,6 +35339,10 @@ const phrasesDaily = [
     "wordIds": [
       "23930"
     ],
+    "cloze": {
+      "de": "unlogisch",
+      "en": "illogical"
+    },
     "sourceIndex": 13930
   },
   {
@@ -28628,6 +35360,10 @@ const phrasesDaily = [
     "wordIds": [
       "23934"
     ],
+    "cloze": {
+      "de": "Vereinsmitglied",
+      "en": "club"
+    },
     "sourceIndex": 13934
   },
   {
@@ -28645,6 +35381,10 @@ const phrasesDaily = [
     "wordIds": [
       "23952"
     ],
+    "cloze": {
+      "de": "Wintersport",
+      "en": "winter"
+    },
     "sourceIndex": 13952
   },
   {
@@ -28662,6 +35402,10 @@ const phrasesDaily = [
     "wordIds": [
       "23957"
     ],
+    "cloze": {
+      "de": "würzen",
+      "en": "season"
+    },
     "sourceIndex": 13957
   },
   {
@@ -28679,6 +35423,10 @@ const phrasesDaily = [
     "wordIds": [
       "23965"
     ],
+    "cloze": {
+      "de": "wisch",
+      "en": "wipe"
+    },
     "sourceIndex": 13965
   },
   {
@@ -28696,6 +35444,10 @@ const phrasesDaily = [
     "wordIds": [
       "23974"
     ],
+    "cloze": {
+      "de": "anziehend",
+      "en": "appealing"
+    },
     "sourceIndex": 13974
   },
   {
@@ -28713,6 +35465,10 @@ const phrasesDaily = [
     "wordIds": [
       "23981"
     ],
+    "cloze": {
+      "de": "ausräumen",
+      "en": "clear"
+    },
     "sourceIndex": 13981
   },
   {
@@ -28730,6 +35486,10 @@ const phrasesDaily = [
     "wordIds": [
       "23983"
     ],
+    "cloze": {
+      "de": "Babysitter",
+      "en": "babysitter"
+    },
     "sourceIndex": 13983
   },
   {
@@ -28747,6 +35507,10 @@ const phrasesDaily = [
     "wordIds": [
       "23997"
     ],
+    "cloze": {
+      "de": "Brit",
+      "en": "Brit"
+    },
     "sourceIndex": 13997
   },
   {
@@ -28764,6 +35528,10 @@ const phrasesDaily = [
     "wordIds": [
       "23999"
     ],
+    "cloze": {
+      "de": "Brunch",
+      "en": "brunch"
+    },
     "sourceIndex": 13999
   },
   {
@@ -28781,6 +35549,10 @@ const phrasesDaily = [
     "wordIds": [
       "24000"
     ],
+    "cloze": {
+      "de": "Buchladen",
+      "en": "bookstore"
+    },
     "sourceIndex": 14000
   },
   {
@@ -28798,6 +35570,10 @@ const phrasesDaily = [
     "wordIds": [
       "24004"
     ],
+    "cloze": {
+      "de": "Designerin",
+      "en": "female"
+    },
     "sourceIndex": 14004
   },
   {
@@ -28815,6 +35591,10 @@ const phrasesDaily = [
     "wordIds": [
       "24005"
     ],
+    "cloze": {
+      "de": "Dreher",
+      "en": "turner"
+    },
     "sourceIndex": 14005
   },
   {
@@ -28832,6 +35612,10 @@ const phrasesDaily = [
     "wordIds": [
       "24007"
     ],
+    "cloze": {
+      "de": "Dunst",
+      "en": "haze"
+    },
     "sourceIndex": 14007
   },
   {
@@ -28849,6 +35633,10 @@ const phrasesDaily = [
     "wordIds": [
       "24011"
     ],
+    "cloze": {
+      "de": "elastisch",
+      "en": "elastic"
+    },
     "sourceIndex": 14011
   },
   {
@@ -28866,6 +35654,10 @@ const phrasesDaily = [
     "wordIds": [
       "24013"
     ],
+    "cloze": {
+      "de": "Energiekosten",
+      "en": "Energy"
+    },
     "sourceIndex": 14013
   },
   {
@@ -28883,6 +35675,10 @@ const phrasesDaily = [
     "wordIds": [
       "24022"
     ],
+    "cloze": {
+      "de": "Flugverkehr",
+      "en": "Air"
+    },
     "sourceIndex": 14022
   },
   {
@@ -28900,6 +35696,10 @@ const phrasesDaily = [
     "wordIds": [
       "24035"
     ],
+    "cloze": {
+      "de": "Gerste",
+      "en": "Barley"
+    },
     "sourceIndex": 14035
   },
   {
@@ -28917,6 +35717,10 @@ const phrasesDaily = [
     "wordIds": [
       "24042"
     ],
+    "cloze": {
+      "de": "Gästehaus",
+      "en": "guesthouse"
+    },
     "sourceIndex": 14042
   },
   {
@@ -28934,6 +35738,10 @@ const phrasesDaily = [
     "wordIds": [
       "24043"
     ],
+    "cloze": {
+      "de": "Haarschnitt",
+      "en": "haircut"
+    },
     "sourceIndex": 14043
   },
   {
@@ -28951,6 +35759,10 @@ const phrasesDaily = [
     "wordIds": [
       "24050"
     ],
+    "cloze": {
+      "de": "hängenden",
+      "en": "hanging"
+    },
     "sourceIndex": 14050
   },
   {
@@ -28968,6 +35780,10 @@ const phrasesDaily = [
     "wordIds": [
       "24057"
     ],
+    "cloze": {
+      "de": "Klassenfahrt",
+      "en": "school"
+    },
     "sourceIndex": 14057
   },
   {
@@ -28985,6 +35801,10 @@ const phrasesDaily = [
     "wordIds": [
       "24068"
     ],
+    "cloze": {
+      "de": "Lagerhaus",
+      "en": "warehouse"
+    },
     "sourceIndex": 14068
   },
   {
@@ -29002,6 +35822,10 @@ const phrasesDaily = [
     "wordIds": [
       "24104"
     ],
+    "cloze": {
+      "de": "Redewendung",
+      "en": "idiom"
+    },
     "sourceIndex": 14104
   },
   {
@@ -29019,6 +35843,10 @@ const phrasesDaily = [
     "wordIds": [
       "24120"
     ],
+    "cloze": {
+      "de": "mit",
+      "en": "sprayed"
+    },
     "sourceIndex": 14120
   },
   {
@@ -29036,6 +35864,10 @@ const phrasesDaily = [
     "wordIds": [
       "24121"
     ],
+    "cloze": {
+      "de": "Startplatz",
+      "en": "starting"
+    },
     "sourceIndex": 14121
   },
   {
@@ -29053,6 +35885,10 @@ const phrasesDaily = [
     "wordIds": [
       "24127"
     ],
+    "cloze": {
+      "de": "Tandem",
+      "en": "tandem"
+    },
     "sourceIndex": 14127
   },
   {
@@ -29070,6 +35906,10 @@ const phrasesDaily = [
     "wordIds": [
       "24165"
     ],
+    "cloze": {
+      "de": "zu",
+      "en": "turned"
+    },
     "sourceIndex": 14165
   },
   {
@@ -29087,6 +35927,10 @@ const phrasesDaily = [
     "wordIds": [
       "24166"
     ],
+    "cloze": {
+      "de": "zuwenig",
+      "en": "too"
+    },
     "sourceIndex": 14166
   },
   {
@@ -29104,6 +35948,10 @@ const phrasesDaily = [
     "wordIds": [
       "24172"
     ],
+    "cloze": {
+      "de": "abhaken",
+      "en": "tick"
+    },
     "sourceIndex": 14172
   },
   {
@@ -29121,6 +35969,10 @@ const phrasesDaily = [
     "wordIds": [
       "24181"
     ],
+    "cloze": {
+      "de": "Arztpraxis",
+      "en": "doctor's"
+    },
     "sourceIndex": 14181
   },
   {
@@ -29138,6 +35990,10 @@ const phrasesDaily = [
     "wordIds": [
       "24183"
     ],
+    "cloze": {
+      "de": "Aufgabenbereich",
+      "en": "area"
+    },
     "sourceIndex": 14183
   },
   {
@@ -29155,6 +36011,10 @@ const phrasesDaily = [
     "wordIds": [
       "24209"
     ],
+    "cloze": {
+      "de": "Erbin",
+      "en": "heiress"
+    },
     "sourceIndex": 14209
   },
   {
@@ -29172,6 +36032,10 @@ const phrasesDaily = [
     "wordIds": [
       "24218"
     ],
+    "cloze": {
+      "de": "Finder",
+      "en": "finder"
+    },
     "sourceIndex": 14218
   },
   {
@@ -29189,6 +36053,10 @@ const phrasesDaily = [
     "wordIds": [
       "24240"
     ],
+    "cloze": {
+      "de": "Hochsommer",
+      "en": "midsummer"
+    },
     "sourceIndex": 14240
   },
   {
@@ -29206,6 +36074,10 @@ const phrasesDaily = [
     "wordIds": [
       "24241"
     ],
+    "cloze": {
+      "de": "Hufeisen",
+      "en": "horseshoe"
+    },
     "sourceIndex": 14241
   },
   {
@@ -29223,6 +36095,10 @@ const phrasesDaily = [
     "wordIds": [
       "24244"
     ],
+    "cloze": {
+      "de": "immerzu",
+      "en": "constantly"
+    },
     "sourceIndex": 14244
   },
   {
@@ -29240,6 +36116,10 @@ const phrasesDaily = [
     "wordIds": [
       "24255"
     ],
+    "cloze": {
+      "de": "knusprig",
+      "en": "crispy"
+    },
     "sourceIndex": 14255
   },
   {
@@ -29257,6 +36137,10 @@ const phrasesDaily = [
     "wordIds": [
       "24272"
     ],
+    "cloze": {
+      "de": "Nachtruhe",
+      "en": "night"
+    },
     "sourceIndex": 14272
   },
   {
@@ -29274,6 +36158,10 @@ const phrasesDaily = [
     "wordIds": [
       "24279"
     ],
+    "cloze": {
+      "de": "pflückt",
+      "en": "picks"
+    },
     "sourceIndex": 14279
   },
   {
@@ -29291,6 +36179,10 @@ const phrasesDaily = [
     "wordIds": [
       "24285"
     ],
+    "cloze": {
+      "de": "Rally",
+      "en": "rally"
+    },
     "sourceIndex": 14285
   },
   {
@@ -29308,6 +36200,10 @@ const phrasesDaily = [
     "wordIds": [
       "24286"
     ],
+    "cloze": {
+      "de": "rausnehmen",
+      "en": "take"
+    },
     "sourceIndex": 14286
   },
   {
@@ -29325,6 +36221,10 @@ const phrasesDaily = [
     "wordIds": [
       "24294"
     ],
+    "cloze": {
+      "de": "rundherum",
+      "en": "all"
+    },
     "sourceIndex": 14294
   },
   {
@@ -29342,6 +36242,10 @@ const phrasesDaily = [
     "wordIds": [
       "24301"
     ],
+    "cloze": {
+      "de": "siebente",
+      "en": "seventh"
+    },
     "sourceIndex": 14301
   },
   {
@@ -29359,6 +36263,10 @@ const phrasesDaily = [
     "wordIds": [
       "24303"
     ],
+    "cloze": {
+      "de": "Sonnenbrand",
+      "en": "sunburn"
+    },
     "sourceIndex": 14303
   },
   {
@@ -29376,6 +36284,10 @@ const phrasesDaily = [
     "wordIds": [
       "24304"
     ],
+    "cloze": {
+      "de": "Sozialamt",
+      "en": "social"
+    },
     "sourceIndex": 14304
   },
   {
@@ -29393,6 +36305,10 @@ const phrasesDaily = [
     "wordIds": [
       "24312"
     ],
+    "cloze": {
+      "de": "Stacheln",
+      "en": "thorns"
+    },
     "sourceIndex": 14312
   },
   {
@@ -29410,6 +36326,10 @@ const phrasesDaily = [
     "wordIds": [
       "24327"
     ],
+    "cloze": {
+      "de": "Unterarm",
+      "en": "forearm"
+    },
     "sourceIndex": 14327
   },
   {
@@ -29427,6 +36347,10 @@ const phrasesDaily = [
     "wordIds": [
       "24336"
     ],
+    "cloze": {
+      "de": "versprochenes",
+      "en": "promised"
+    },
     "sourceIndex": 14336
   },
   {
@@ -29444,6 +36368,10 @@ const phrasesDaily = [
     "wordIds": [
       "24346"
     ],
+    "cloze": {
+      "de": "Zielscheibe",
+      "en": "target"
+    },
     "sourceIndex": 14346
   },
   {
@@ -29461,6 +36389,10 @@ const phrasesDaily = [
     "wordIds": [
       "24355"
     ],
+    "cloze": {
+      "de": "Adressbuch",
+      "en": "address"
+    },
     "sourceIndex": 14355
   },
   {
@@ -29478,6 +36410,10 @@ const phrasesDaily = [
     "wordIds": [
       "24356"
     ],
+    "cloze": {
+      "de": "Akne",
+      "en": "acne"
+    },
     "sourceIndex": 14356
   },
   {
@@ -29495,6 +36431,10 @@ const phrasesDaily = [
     "wordIds": [
       "24364"
     ],
+    "cloze": {
+      "de": "Attest",
+      "en": "medical"
+    },
     "sourceIndex": 14364
   },
   {
@@ -29512,6 +36452,10 @@ const phrasesDaily = [
     "wordIds": [
       "24385"
     ],
+    "cloze": {
+      "de": "Deutschrap",
+      "en": "German"
+    },
     "sourceIndex": 14385
   },
   {
@@ -29529,6 +36473,10 @@ const phrasesDaily = [
     "wordIds": [
       "24386"
     ],
+    "cloze": {
+      "de": "dolle",
+      "en": "great"
+    },
     "sourceIndex": 14386
   },
   {
@@ -29546,6 +36494,10 @@ const phrasesDaily = [
     "wordIds": [
       "24400"
     ],
+    "cloze": {
+      "de": "Feldweg",
+      "en": "dirt"
+    },
     "sourceIndex": 14400
   },
   {
@@ -29563,6 +36515,10 @@ const phrasesDaily = [
     "wordIds": [
       "24413"
     ],
+    "cloze": {
+      "de": "runden",
+      "en": "round"
+    },
     "sourceIndex": 14413
   },
   {
@@ -29580,6 +36536,10 @@ const phrasesDaily = [
     "wordIds": [
       "24423"
     ],
+    "cloze": {
+      "de": "Hausverwaltung",
+      "en": "property"
+    },
     "sourceIndex": 14423
   },
   {
@@ -29597,6 +36557,10 @@ const phrasesDaily = [
     "wordIds": [
       "24450"
     ],
+    "cloze": {
+      "de": "lehrreich",
+      "en": "instructive"
+    },
     "sourceIndex": 14450
   },
   {
@@ -29614,6 +36578,10 @@ const phrasesDaily = [
     "wordIds": [
       "24458"
     ],
+    "cloze": {
+      "de": "Ostersonntag",
+      "en": "Easter"
+    },
     "sourceIndex": 14458
   },
   {
@@ -29631,6 +36599,10 @@ const phrasesDaily = [
     "wordIds": [
       "24462"
     ],
+    "cloze": {
+      "de": "Pfau",
+      "en": "peacock"
+    },
     "sourceIndex": 14462
   },
   {
@@ -29648,6 +36620,10 @@ const phrasesDaily = [
     "wordIds": [
       "24472"
     ],
+    "cloze": {
+      "de": "Regler",
+      "en": "controller"
+    },
     "sourceIndex": 14472
   },
   {
@@ -29665,6 +36641,10 @@ const phrasesDaily = [
     "wordIds": [
       "24476"
     ],
+    "cloze": {
+      "de": "Reset-Knopf",
+      "en": "reset"
+    },
     "sourceIndex": 14476
   },
   {
@@ -29682,6 +36662,10 @@ const phrasesDaily = [
     "wordIds": [
       "24480"
     ],
+    "cloze": {
+      "de": "rum",
+      "en": "around"
+    },
     "sourceIndex": 14480
   },
   {
@@ -29699,6 +36683,10 @@ const phrasesDaily = [
     "wordIds": [
       "24485"
     ],
+    "cloze": {
+      "de": "schubsen",
+      "en": "push"
+    },
     "sourceIndex": 14485
   },
   {
@@ -29716,6 +36704,10 @@ const phrasesDaily = [
     "wordIds": [
       "24492"
     ],
+    "cloze": {
+      "de": "Spielhalle",
+      "en": "arcade"
+    },
     "sourceIndex": 14492
   },
   {
@@ -29733,6 +36725,10 @@ const phrasesDaily = [
     "wordIds": [
       "24494"
     ],
+    "cloze": {
+      "de": "Sportlehrer",
+      "en": "sports"
+    },
     "sourceIndex": 14494
   },
   {
@@ -29750,6 +36746,10 @@ const phrasesDaily = [
     "wordIds": [
       "24515"
     ],
+    "cloze": {
+      "de": "Trinker",
+      "en": "drinker"
+    },
     "sourceIndex": 14515
   },
   {
@@ -29767,6 +36767,10 @@ const phrasesDaily = [
     "wordIds": [
       "24516"
     ],
+    "cloze": {
+      "de": "Trouble",
+      "en": "trouble"
+    },
     "sourceIndex": 14516
   },
   {
@@ -29784,6 +36788,10 @@ const phrasesDaily = [
     "wordIds": [
       "24536"
     ],
+    "cloze": {
+      "de": "Vogelart",
+      "en": "bird"
+    },
     "sourceIndex": 14536
   },
   {
@@ -29801,6 +36809,10 @@ const phrasesDaily = [
     "wordIds": [
       "24537"
     ],
+    "cloze": {
+      "de": "vorgemacht",
+      "en": "how"
+    },
     "sourceIndex": 14537
   },
   {
@@ -29818,6 +36830,10 @@ const phrasesDaily = [
     "wordIds": [
       "24542"
     ],
+    "cloze": {
+      "de": "wiedererkannt",
+      "en": "I"
+    },
     "sourceIndex": 14542
   },
   {
@@ -29835,6 +36851,10 @@ const phrasesDaily = [
     "wordIds": [
       "24546"
     ],
+    "cloze": {
+      "de": "Zauberwörter",
+      "en": "magic"
+    },
     "sourceIndex": 14546
   },
   {
@@ -29852,6 +36872,10 @@ const phrasesDaily = [
     "wordIds": [
       "24573"
     ],
+    "cloze": {
+      "de": "Badeanzug",
+      "en": "swimsuit"
+    },
     "sourceIndex": 14573
   },
   {
@@ -29869,6 +36893,10 @@ const phrasesDaily = [
     "wordIds": [
       "24587"
     ],
+    "cloze": {
+      "de": "Bildchen",
+      "en": "small"
+    },
     "sourceIndex": 14587
   },
   {
@@ -29886,6 +36914,10 @@ const phrasesDaily = [
     "wordIds": [
       "24593"
     ],
+    "cloze": {
+      "de": "Büchlein",
+      "en": "small"
+    },
     "sourceIndex": 14593
   },
   {
@@ -29903,6 +36935,10 @@ const phrasesDaily = [
     "wordIds": [
       "24597"
     ],
+    "cloze": {
+      "de": "closed",
+      "en": "closed"
+    },
     "sourceIndex": 14597
   },
   {
@@ -29920,6 +36956,10 @@ const phrasesDaily = [
     "wordIds": [
       "24612"
     ],
+    "cloze": {
+      "de": "flicken",
+      "en": "mend"
+    },
     "sourceIndex": 14612
   },
   {
@@ -29937,6 +36977,10 @@ const phrasesDaily = [
     "wordIds": [
       "24614"
     ],
+    "cloze": {
+      "de": "Formalität",
+      "en": "formality"
+    },
     "sourceIndex": 14614
   },
   {
@@ -29954,6 +36998,10 @@ const phrasesDaily = [
     "wordIds": [
       "24622"
     ],
+    "cloze": {
+      "de": "falten",
+      "en": "fold"
+    },
     "sourceIndex": 14622
   },
   {
@@ -29971,6 +37019,10 @@ const phrasesDaily = [
     "wordIds": [
       "24637"
     ],
+    "cloze": {
+      "de": "Gulasch",
+      "en": "goulash"
+    },
     "sourceIndex": 14637
   },
   {
@@ -29988,6 +37040,10 @@ const phrasesDaily = [
     "wordIds": [
       "24643"
     ],
+    "cloze": {
+      "de": "Heimfahrt",
+      "en": "journey"
+    },
     "sourceIndex": 14643
   },
   {
@@ -30005,6 +37061,10 @@ const phrasesDaily = [
     "wordIds": [
       "24646"
     ],
+    "cloze": {
+      "de": "herholen",
+      "en": "fetch"
+    },
     "sourceIndex": 14646
   },
   {
@@ -30022,6 +37082,10 @@ const phrasesDaily = [
     "wordIds": [
       "24648"
     ],
+    "cloze": {
+      "de": "Hirt",
+      "en": "shepherd"
+    },
     "sourceIndex": 14648
   },
   {
@@ -30039,6 +37103,10 @@ const phrasesDaily = [
     "wordIds": [
       "24658"
     ],
+    "cloze": {
+      "de": "Kirchdorf",
+      "en": "church"
+    },
     "sourceIndex": 14658
   },
   {
@@ -30056,6 +37124,10 @@ const phrasesDaily = [
     "wordIds": [
       "24668"
     ],
+    "cloze": {
+      "de": "Lieferservice",
+      "en": "delivery"
+    },
     "sourceIndex": 14668
   },
   {
@@ -30073,6 +37145,10 @@ const phrasesDaily = [
     "wordIds": [
       "24673"
     ],
+    "cloze": {
+      "de": "Markenname",
+      "en": "brand"
+    },
     "sourceIndex": 14673
   },
   {
@@ -30090,6 +37166,10 @@ const phrasesDaily = [
     "wordIds": [
       "24675"
     ],
+    "cloze": {
+      "de": "Meerwasser",
+      "en": "seawater"
+    },
     "sourceIndex": 14675
   },
   {
@@ -30107,6 +37187,10 @@ const phrasesDaily = [
     "wordIds": [
       "24676"
     ],
+    "cloze": {
+      "de": "miserabel",
+      "en": "miserable"
+    },
     "sourceIndex": 14676
   },
   {
@@ -30124,6 +37208,10 @@ const phrasesDaily = [
     "wordIds": [
       "24682"
     ],
+    "cloze": {
+      "de": "Nachtleben",
+      "en": "nightlife"
+    },
     "sourceIndex": 14682
   },
   {
@@ -30141,6 +37229,10 @@ const phrasesDaily = [
     "wordIds": [
       "24688"
     ],
+    "cloze": {
+      "de": "Ostermontag",
+      "en": "Easter"
+    },
     "sourceIndex": 14688
   },
   {
@@ -30158,6 +37250,10 @@ const phrasesDaily = [
     "wordIds": [
       "24689"
     ],
+    "cloze": {
+      "de": "Overall",
+      "en": "overall"
+    },
     "sourceIndex": 14689
   },
   {
@@ -30175,6 +37271,10 @@ const phrasesDaily = [
     "wordIds": [
       "24692"
     ],
+    "cloze": {
+      "de": "Holzpfählen",
+      "en": "poles"
+    },
     "sourceIndex": 14692
   },
   {
@@ -30192,6 +37292,10 @@ const phrasesDaily = [
     "wordIds": [
       "24697"
     ],
+    "cloze": {
+      "de": "Preview",
+      "en": "preview"
+    },
     "sourceIndex": 14697
   },
   {
@@ -30209,6 +37313,10 @@ const phrasesDaily = [
     "wordIds": [
       "24703"
     ],
+    "cloze": {
+      "de": "rosige",
+      "en": "rosy"
+    },
     "sourceIndex": 14703
   },
   {
@@ -30226,6 +37334,10 @@ const phrasesDaily = [
     "wordIds": [
       "24706"
     ],
+    "cloze": {
+      "de": "Sandkasten",
+      "en": "sandbox"
+    },
     "sourceIndex": 14706
   },
   {
@@ -30243,6 +37355,10 @@ const phrasesDaily = [
     "wordIds": [
       "24719"
     ],
+    "cloze": {
+      "de": "Skateboard",
+      "en": "skateboard"
+    },
     "sourceIndex": 14719
   },
   {
@@ -30260,6 +37376,10 @@ const phrasesDaily = [
     "wordIds": [
       "24734"
     ],
+    "cloze": {
+      "de": "Titelblatt",
+      "en": "title"
+    },
     "sourceIndex": 14734
   },
   {
@@ -30277,6 +37397,10 @@ const phrasesDaily = [
     "wordIds": [
       "24737"
     ],
+    "cloze": {
+      "de": "Trompeter",
+      "en": "trumpeter"
+    },
     "sourceIndex": 14737
   },
   {
@@ -30294,6 +37418,10 @@ const phrasesDaily = [
     "wordIds": [
       "24751"
     ],
+    "cloze": {
+      "de": "verschlimmert",
+      "en": "worsened"
+    },
     "sourceIndex": 14751
   },
   {
@@ -30311,6 +37439,10 @@ const phrasesDaily = [
     "wordIds": [
       "24760"
     ],
+    "cloze": {
+      "de": "Werwolf",
+      "en": "werewolf"
+    },
     "sourceIndex": 14760
   },
   {
@@ -30328,6 +37460,10 @@ const phrasesDaily = [
     "wordIds": [
       "24764"
     ],
+    "cloze": {
+      "de": "Winterschlaf",
+      "en": "hibernate"
+    },
     "sourceIndex": 14764
   },
   {
@@ -30345,6 +37481,10 @@ const phrasesDaily = [
     "wordIds": [
       "24774"
     ],
+    "cloze": {
+      "de": "Ablage",
+      "en": "in"
+    },
     "sourceIndex": 14774
   },
   {
@@ -30362,6 +37502,10 @@ const phrasesDaily = [
     "wordIds": [
       "24785"
     ],
+    "cloze": {
+      "de": "Ausgangssperre",
+      "en": "curfew"
+    },
     "sourceIndex": 14785
   },
   {
@@ -30379,6 +37523,10 @@ const phrasesDaily = [
     "wordIds": [
       "24787"
     ],
+    "cloze": {
+      "de": "Bauland",
+      "en": "building"
+    },
     "sourceIndex": 14787
   },
   {
@@ -30396,6 +37544,10 @@ const phrasesDaily = [
     "wordIds": [
       "24788"
     ],
+    "cloze": {
+      "de": "Baumstamm",
+      "en": "tree"
+    },
     "sourceIndex": 14788
   },
   {
@@ -30413,6 +37565,10 @@ const phrasesDaily = [
     "wordIds": [
       "24809"
     ],
+    "cloze": {
+      "de": "Downtown",
+      "en": "downtown"
+    },
     "sourceIndex": 14809
   },
   {
@@ -30430,6 +37586,10 @@ const phrasesDaily = [
     "wordIds": [
       "24828"
     ],
+    "cloze": {
+      "de": "Geburtstagskind",
+      "en": "birthday"
+    },
     "sourceIndex": 14828
   },
   {
@@ -30447,6 +37607,10 @@ const phrasesDaily = [
     "wordIds": [
       "24836"
     ],
+    "cloze": {
+      "de": "Grotte",
+      "en": "grotto"
+    },
     "sourceIndex": 14836
   },
   {
@@ -30464,6 +37628,10 @@ const phrasesDaily = [
     "wordIds": [
       "24855"
     ],
+    "cloze": {
+      "de": "Kerlchen",
+      "en": "little"
+    },
     "sourceIndex": 14855
   },
   {
@@ -30481,6 +37649,10 @@ const phrasesDaily = [
     "wordIds": [
       "24871"
     ],
+    "cloze": {
+      "de": "Laufwerk",
+      "en": "drive"
+    },
     "sourceIndex": 14871
   },
   {
@@ -30498,6 +37670,10 @@ const phrasesDaily = [
     "wordIds": [
       "24900"
     ],
+    "cloze": {
+      "de": "Polizeiwache",
+      "en": "police"
+    },
     "sourceIndex": 14900
   },
   {
@@ -30515,6 +37691,10 @@ const phrasesDaily = [
     "wordIds": [
       "24920"
     ],
+    "cloze": {
+      "de": "Sandmann",
+      "en": "Sandman"
+    },
     "sourceIndex": 14920
   },
   {
@@ -30532,6 +37712,10 @@ const phrasesDaily = [
     "wordIds": [
       "24927"
     ],
+    "cloze": {
+      "de": "Seitenlinie",
+      "en": "sideline"
+    },
     "sourceIndex": 14927
   },
   {
@@ -30549,6 +37733,10 @@ const phrasesDaily = [
     "wordIds": [
       "24933"
     ],
+    "cloze": {
+      "de": "sommerlich",
+      "en": "summery"
+    },
     "sourceIndex": 14933
   },
   {
@@ -30566,6 +37754,10 @@ const phrasesDaily = [
     "wordIds": [
       "24945"
     ],
+    "cloze": {
+      "de": "säen",
+      "en": "sow"
+    },
     "sourceIndex": 14945
   },
   {
@@ -30583,6 +37775,10 @@ const phrasesDaily = [
     "wordIds": [
       "24947"
     ],
+    "cloze": {
+      "de": "tatenlos",
+      "en": "idly"
+    },
     "sourceIndex": 14947
   },
   {
@@ -30600,6 +37796,10 @@ const phrasesDaily = [
     "wordIds": [
       "24983"
     ],
+    "cloze": {
+      "de": "überwintern",
+      "en": "overwinter"
+    },
     "sourceIndex": 14983
   },
   {
@@ -30617,6 +37817,10 @@ const phrasesDaily = [
     "wordIds": [
       "25005"
     ],
+    "cloze": {
+      "de": "Brautkleid",
+      "en": "wedding"
+    },
     "sourceIndex": 15005
   },
   {
@@ -30634,6 +37838,10 @@ const phrasesDaily = [
     "wordIds": [
       "25020"
     ],
+    "cloze": {
+      "de": "Einband",
+      "en": "binding"
+    },
     "sourceIndex": 15020
   },
   {
@@ -30651,6 +37859,10 @@ const phrasesDaily = [
     "wordIds": [
       "25042"
     ],
+    "cloze": {
+      "de": "gebliebenen",
+      "en": "remaining"
+    },
     "sourceIndex": 15042
   },
   {
@@ -30668,6 +37880,10 @@ const phrasesDaily = [
     "wordIds": [
       "25045"
     ],
+    "cloze": {
+      "de": "Geiz",
+      "en": "stinginess"
+    },
     "sourceIndex": 15045
   },
   {
@@ -30685,6 +37901,10 @@ const phrasesDaily = [
     "wordIds": [
       "25052"
     ],
+    "cloze": {
+      "de": "Geschmackssache",
+      "en": "matter"
+    },
     "sourceIndex": 15052
   },
   {
@@ -30702,6 +37922,10 @@ const phrasesDaily = [
     "wordIds": [
       "25057"
     ],
+    "cloze": {
+      "de": "gezogenen",
+      "en": "drawn"
+    },
     "sourceIndex": 15057
   },
   {
@@ -30719,6 +37943,10 @@ const phrasesDaily = [
     "wordIds": [
       "25065"
     ],
+    "cloze": {
+      "de": "Halterung",
+      "en": "holder"
+    },
     "sourceIndex": 15065
   },
   {
@@ -30736,6 +37964,10 @@ const phrasesDaily = [
     "wordIds": [
       "25067"
     ],
+    "cloze": {
+      "de": "nehmen",
+      "en": "take"
+    },
     "sourceIndex": 15067
   },
   {
@@ -30753,6 +37985,10 @@ const phrasesDaily = [
     "wordIds": [
       "25072"
     ],
+    "cloze": {
+      "de": "Indigo",
+      "en": "indigo"
+    },
     "sourceIndex": 15072
   },
   {
@@ -30770,6 +38006,10 @@ const phrasesDaily = [
     "wordIds": [
       "25086"
     ],
+    "cloze": {
+      "de": "Landesgrenze",
+      "en": "state"
+    },
     "sourceIndex": 15086
   },
   {
@@ -30787,6 +38027,10 @@ const phrasesDaily = [
     "wordIds": [
       "25095"
     ],
+    "cloze": {
+      "de": "Metzgerei",
+      "en": "butcher"
+    },
     "sourceIndex": 15095
   },
   {
@@ -30804,6 +38048,10 @@ const phrasesDaily = [
     "wordIds": [
       "25098"
     ],
+    "cloze": {
+      "de": "Motte",
+      "en": "moth"
+    },
     "sourceIndex": 15098
   },
   {
@@ -30821,6 +38069,10 @@ const phrasesDaily = [
     "wordIds": [
       "25099"
     ],
+    "cloze": {
+      "de": "multiplizieren",
+      "en": "multiply"
+    },
     "sourceIndex": 15099
   },
   {
@@ -30838,6 +38090,10 @@ const phrasesDaily = [
     "wordIds": [
       "25115"
     ],
+    "cloze": {
+      "de": "Polizeistation",
+      "en": "police"
+    },
     "sourceIndex": 15115
   },
   {
@@ -30855,6 +38111,10 @@ const phrasesDaily = [
     "wordIds": [
       "25121"
     ],
+    "cloze": {
+      "de": "Raumtemperatur",
+      "en": "room"
+    },
     "sourceIndex": 15121
   },
   {
@@ -30872,6 +38132,10 @@ const phrasesDaily = [
     "wordIds": [
       "25122"
     ],
+    "cloze": {
+      "de": "rausbringen",
+      "en": "take"
+    },
     "sourceIndex": 15122
   },
   {
@@ -30889,6 +38153,10 @@ const phrasesDaily = [
     "wordIds": [
       "25124"
     ],
+    "cloze": {
+      "de": "Rechteck",
+      "en": "rectangle"
+    },
     "sourceIndex": 15124
   },
   {
@@ -30906,6 +38174,10 @@ const phrasesDaily = [
     "wordIds": [
       "25139"
     ],
+    "cloze": {
+      "de": "Semesterferien",
+      "en": "semester"
+    },
     "sourceIndex": 15139
   },
   {
@@ -30923,6 +38195,10 @@ const phrasesDaily = [
     "wordIds": [
       "25145"
     ],
+    "cloze": {
+      "de": "Spielleiter",
+      "en": "game"
+    },
     "sourceIndex": 15145
   },
   {
@@ -30940,6 +38216,10 @@ const phrasesDaily = [
     "wordIds": [
       "25153"
     ],
+    "cloze": {
+      "de": "Steppen",
+      "en": "steppes"
+    },
     "sourceIndex": 15153
   },
   {
@@ -30957,6 +38237,10 @@ const phrasesDaily = [
     "wordIds": [
       "25154"
     ],
+    "cloze": {
+      "de": "Stromkosten",
+      "en": "electricity"
+    },
     "sourceIndex": 15154
   },
   {
@@ -30974,6 +38258,10 @@ const phrasesDaily = [
     "wordIds": [
       "25157"
     ],
+    "cloze": {
+      "de": "Styling",
+      "en": "styling"
+    },
     "sourceIndex": 15157
   },
   {
@@ -30991,6 +38279,10 @@ const phrasesDaily = [
     "wordIds": [
       "25163"
     ],
+    "cloze": {
+      "de": "umkippen",
+      "en": "tip"
+    },
     "sourceIndex": 15163
   },
   {
@@ -31008,6 +38300,10 @@ const phrasesDaily = [
     "wordIds": [
       "25169"
     ],
+    "cloze": {
+      "de": "untypisch",
+      "en": "untypical"
+    },
     "sourceIndex": 15169
   },
   {
@@ -31025,6 +38321,10 @@ const phrasesDaily = [
     "wordIds": [
       "25201"
     ],
+    "cloze": {
+      "de": "an",
+      "en": "attracts"
+    },
     "sourceIndex": 15201
   },
   {
@@ -31042,6 +38342,10 @@ const phrasesDaily = [
     "wordIds": [
       "25214"
     ],
+    "cloze": {
+      "de": "Baguette",
+      "en": "baguette"
+    },
     "sourceIndex": 15214
   },
   {
@@ -31059,6 +38363,10 @@ const phrasesDaily = [
     "wordIds": [
       "25231"
     ],
+    "cloze": {
+      "de": "bös",
+      "en": "evil"
+    },
     "sourceIndex": 15231
   },
   {
@@ -31076,6 +38384,10 @@ const phrasesDaily = [
     "wordIds": [
       "25232"
     ],
+    "cloze": {
+      "de": "bücken",
+      "en": "bend"
+    },
     "sourceIndex": 15232
   },
   {
@@ -31093,6 +38405,10 @@ const phrasesDaily = [
     "wordIds": [
       "25266"
     ],
+    "cloze": {
+      "de": "Geburtsurkunde",
+      "en": "birth"
+    },
     "sourceIndex": 15266
   },
   {
@@ -31110,6 +38426,10 @@ const phrasesDaily = [
     "wordIds": [
       "25288"
     ],
+    "cloze": {
+      "de": "Häschen",
+      "en": "little"
+    },
     "sourceIndex": 15288
   },
   {
@@ -31127,6 +38447,10 @@ const phrasesDaily = [
     "wordIds": [
       "25305"
     ],
+    "cloze": {
+      "de": "Kundendienst",
+      "en": "customer"
+    },
     "sourceIndex": 15305
   },
   {
@@ -31144,6 +38468,10 @@ const phrasesDaily = [
     "wordIds": [
       "25315"
     ],
+    "cloze": {
+      "de": "Minze",
+      "en": "mint"
+    },
     "sourceIndex": 15315
   },
   {
@@ -31161,6 +38489,10 @@ const phrasesDaily = [
     "wordIds": [
       "25320"
     ],
+    "cloze": {
+      "de": "Notbremse",
+      "en": "emergency"
+    },
     "sourceIndex": 15320
   },
   {
@@ -31178,6 +38510,10 @@ const phrasesDaily = [
     "wordIds": [
       "25324"
     ],
+    "cloze": {
+      "de": "Pflug",
+      "en": "plow"
+    },
     "sourceIndex": 15324
   },
   {
@@ -31195,6 +38531,10 @@ const phrasesDaily = [
     "wordIds": [
       "25339"
     ],
+    "cloze": {
+      "de": "runtergefallen",
+      "en": "down"
+    },
     "sourceIndex": 15339
   },
   {
@@ -31212,6 +38552,10 @@ const phrasesDaily = [
     "wordIds": [
       "25350"
     ],
+    "cloze": {
+      "de": "selbstgemachte",
+      "en": "homemade"
+    },
     "sourceIndex": 15350
   },
   {
@@ -31229,6 +38573,10 @@ const phrasesDaily = [
     "wordIds": [
       "25363"
     ],
+    "cloze": {
+      "de": "Spieldauer",
+      "en": "playing"
+    },
     "sourceIndex": 15363
   },
   {
@@ -31246,6 +38594,10 @@ const phrasesDaily = [
     "wordIds": [
       "25366"
     ],
+    "cloze": {
+      "de": "startklar",
+      "en": "ready"
+    },
     "sourceIndex": 15366
   },
   {
@@ -31263,6 +38615,10 @@ const phrasesDaily = [
     "wordIds": [
       "25411"
     ],
+    "cloze": {
+      "de": "Anis",
+      "en": "Anise"
+    },
     "sourceIndex": 15411
   },
   {
@@ -31280,6 +38636,10 @@ const phrasesDaily = [
     "wordIds": [
       "25448"
     ],
+    "cloze": {
+      "de": "Chapter",
+      "en": "chapter"
+    },
     "sourceIndex": 15448
   },
   {
@@ -31297,6 +38657,10 @@ const phrasesDaily = [
     "wordIds": [
       "25456"
     ],
+    "cloze": {
+      "de": "Dip",
+      "en": "dip"
+    },
     "sourceIndex": 15456
   },
   {
@@ -31314,6 +38678,10 @@ const phrasesDaily = [
     "wordIds": [
       "25459"
     ],
+    "cloze": {
+      "de": "einwerfen",
+      "en": "insert"
+    },
     "sourceIndex": 15459
   },
   {
@@ -31331,6 +38699,10 @@ const phrasesDaily = [
     "wordIds": [
       "25468"
     ],
+    "cloze": {
+      "de": "Energiequelle",
+      "en": "energy"
+    },
     "sourceIndex": 15468
   },
   {
@@ -31348,6 +38720,10 @@ const phrasesDaily = [
     "wordIds": [
       "25470"
     ],
+    "cloze": {
+      "de": "entgegengesetzte",
+      "en": "opposite"
+    },
     "sourceIndex": 15470
   },
   {
@@ -31365,6 +38741,10 @@ const phrasesDaily = [
     "wordIds": [
       "25480"
     ],
+    "cloze": {
+      "de": "flink",
+      "en": "nimble"
+    },
     "sourceIndex": 15480
   },
   {
@@ -31382,6 +38762,10 @@ const phrasesDaily = [
     "wordIds": [
       "25490"
     ],
+    "cloze": {
+      "de": "Gesamtsumme",
+      "en": "grand"
+    },
     "sourceIndex": 15490
   },
   {
@@ -31399,6 +38783,10 @@ const phrasesDaily = [
     "wordIds": [
       "25498"
     ],
+    "cloze": {
+      "de": "Haarausfall",
+      "en": "Hair"
+    },
     "sourceIndex": 15498
   },
   {
@@ -31416,6 +38804,10 @@ const phrasesDaily = [
     "wordIds": [
       "25505"
     ],
+    "cloze": {
+      "de": "Heizkosten",
+      "en": "heating"
+    },
     "sourceIndex": 15505
   },
   {
@@ -31433,6 +38825,10 @@ const phrasesDaily = [
     "wordIds": [
       "25537"
     ],
+    "cloze": {
+      "de": "maskuline",
+      "en": "masculine"
+    },
     "sourceIndex": 15537
   },
   {
@@ -31450,6 +38846,10 @@ const phrasesDaily = [
     "wordIds": [
       "25553"
     ],
+    "cloze": {
+      "de": "Polizeiarbeit",
+      "en": "Police"
+    },
     "sourceIndex": 15553
   },
   {
@@ -31467,6 +38867,10 @@ const phrasesDaily = [
     "wordIds": [
       "25554"
     ],
+    "cloze": {
+      "de": "Polizeischutz",
+      "en": "police"
+    },
     "sourceIndex": 15554
   },
   {
@@ -31484,6 +38888,10 @@ const phrasesDaily = [
     "wordIds": [
       "25560"
     ],
+    "cloze": {
+      "de": "Reisekosten",
+      "en": "travel"
+    },
     "sourceIndex": 15560
   },
   {
@@ -31501,6 +38909,10 @@ const phrasesDaily = [
     "wordIds": [
       "25579"
     ],
+    "cloze": {
+      "de": "Sortierung",
+      "en": "sorting"
+    },
     "sourceIndex": 15579
   },
   {
@@ -31518,6 +38930,10 @@ const phrasesDaily = [
     "wordIds": [
       "25588"
     ],
+    "cloze": {
+      "de": "Strompreis",
+      "en": "electricity"
+    },
     "sourceIndex": 15588
   },
   {
@@ -31535,6 +38951,10 @@ const phrasesDaily = [
     "wordIds": [
       "25589"
     ],
+    "cloze": {
+      "de": "Stundenlohn",
+      "en": "hourly"
+    },
     "sourceIndex": 15589
   },
   {
@@ -31552,6 +38972,10 @@ const phrasesDaily = [
     "wordIds": [
       "25595"
     ],
+    "cloze": {
+      "de": "südkoreanische",
+      "en": "South"
+    },
     "sourceIndex": 15595
   },
   {
@@ -31569,6 +38993,10 @@ const phrasesDaily = [
     "wordIds": [
       "25627"
     ],
+    "cloze": {
+      "de": "zweckmässig",
+      "en": "appropriate"
+    },
     "sourceIndex": 15627
   },
   {
@@ -31586,6 +39014,10 @@ const phrasesDaily = [
     "wordIds": [
       "25635"
     ],
+    "cloze": {
+      "de": "Altpapier",
+      "en": "waste"
+    },
     "sourceIndex": 15635
   },
   {
@@ -31603,6 +39035,10 @@ const phrasesDaily = [
     "wordIds": [
       "25636"
     ],
+    "cloze": {
+      "de": "Alufolie",
+      "en": "aluminum"
+    },
     "sourceIndex": 15636
   },
   {
@@ -31620,6 +39056,10 @@ const phrasesDaily = [
     "wordIds": [
       "25637"
     ],
+    "cloze": {
+      "de": "Anführungszeichen",
+      "en": "quotation"
+    },
     "sourceIndex": 15637
   },
   {
@@ -31637,6 +39077,10 @@ const phrasesDaily = [
     "wordIds": [
       "25641"
     ],
+    "cloze": {
+      "de": "archivieren",
+      "en": "archive"
+    },
     "sourceIndex": 15641
   },
   {
@@ -31654,6 +39098,10 @@ const phrasesDaily = [
     "wordIds": [
       "25648"
     ],
+    "cloze": {
+      "de": "austauschbar",
+      "en": "interchangeable"
+    },
     "sourceIndex": 15648
   },
   {
@@ -31671,6 +39119,10 @@ const phrasesDaily = [
     "wordIds": [
       "25660"
     ],
+    "cloze": {
+      "de": "Berufsverkehr",
+      "en": "traffic"
+    },
     "sourceIndex": 15660
   },
   {
@@ -31688,6 +39140,10 @@ const phrasesDaily = [
     "wordIds": [
       "25663"
     ],
+    "cloze": {
+      "de": "Blender",
+      "en": "blender"
+    },
     "sourceIndex": 15663
   },
   {
@@ -31705,6 +39161,10 @@ const phrasesDaily = [
     "wordIds": [
       "25683"
     ],
+    "cloze": {
+      "de": "Fernglas",
+      "en": "binoculars"
+    },
     "sourceIndex": 15683
   },
   {
@@ -31722,6 +39182,10 @@ const phrasesDaily = [
     "wordIds": [
       "25684"
     ],
+    "cloze": {
+      "de": "Fernsehturm",
+      "en": "Tower"
+    },
     "sourceIndex": 15684
   },
   {
@@ -31739,6 +39203,10 @@ const phrasesDaily = [
     "wordIds": [
       "25693"
     ],
+    "cloze": {
+      "de": "Geburtsjahr",
+      "en": "year"
+    },
     "sourceIndex": 15693
   },
   {
@@ -31756,6 +39224,10 @@ const phrasesDaily = [
     "wordIds": [
       "25702"
     ],
+    "cloze": {
+      "de": "Gärtnerei",
+      "en": "nursery"
+    },
     "sourceIndex": 15702
   },
   {
@@ -31773,6 +39245,10 @@ const phrasesDaily = [
     "wordIds": [
       "25710"
     ],
+    "cloze": {
+      "de": "Hundefutter",
+      "en": "dog"
+    },
     "sourceIndex": 15710
   },
   {
@@ -31790,6 +39266,10 @@ const phrasesDaily = [
     "wordIds": [
       "25734"
     ],
+    "cloze": {
+      "de": "es",
+      "en": "national"
+    },
     "sourceIndex": 15734
   },
   {
@@ -31807,6 +39287,10 @@ const phrasesDaily = [
     "wordIds": [
       "25736"
     ],
+    "cloze": {
+      "de": "Lavendel",
+      "en": "lavender"
+    },
     "sourceIndex": 15736
   },
   {
@@ -31824,6 +39308,10 @@ const phrasesDaily = [
     "wordIds": [
       "25756"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "Upper"
+    },
     "sourceIndex": 15756
   },
   {
@@ -31841,6 +39329,10 @@ const phrasesDaily = [
     "wordIds": [
       "25758"
     ],
+    "cloze": {
+      "de": "Ozonschicht",
+      "en": "ozone"
+    },
     "sourceIndex": 15758
   },
   {
@@ -31858,6 +39350,10 @@ const phrasesDaily = [
     "wordIds": [
       "25768"
     ],
+    "cloze": {
+      "de": "Raststätte",
+      "en": "rest"
+    },
     "sourceIndex": 15768
   },
   {
@@ -31875,6 +39371,10 @@ const phrasesDaily = [
     "wordIds": [
       "25781"
     ],
+    "cloze": {
+      "de": "Schulbus",
+      "en": "school"
+    },
     "sourceIndex": 15781
   },
   {
@@ -31892,6 +39392,10 @@ const phrasesDaily = [
     "wordIds": [
       "25782"
     ],
+    "cloze": {
+      "de": "Schweinchen",
+      "en": "piggy"
+    },
     "sourceIndex": 15782
   },
   {
@@ -31909,6 +39413,10 @@ const phrasesDaily = [
     "wordIds": [
       "25793"
     ],
+    "cloze": {
+      "de": "spitzen",
+      "en": "sharpen"
+    },
     "sourceIndex": 15793
   },
   {
@@ -31926,6 +39434,10 @@ const phrasesDaily = [
     "wordIds": [
       "25805"
     ],
+    "cloze": {
+      "de": "Umhang",
+      "en": "cloak"
+    },
     "sourceIndex": 15805
   },
   {
@@ -31943,6 +39455,10 @@ const phrasesDaily = [
     "wordIds": [
       "25836"
     ],
+    "cloze": {
+      "de": "bekomme",
+      "en": "get"
+    },
     "sourceIndex": 15836
   },
   {
@@ -31960,6 +39476,10 @@ const phrasesDaily = [
     "wordIds": [
       "25842"
     ],
+    "cloze": {
+      "de": "Abendzeitung",
+      "en": "evening"
+    },
     "sourceIndex": 15842
   },
   {
@@ -31977,6 +39497,10 @@ const phrasesDaily = [
     "wordIds": [
       "25855"
     ],
+    "cloze": {
+      "de": "Bahncard",
+      "en": "I"
+    },
     "sourceIndex": 15855
   },
   {
@@ -31994,6 +39518,10 @@ const phrasesDaily = [
     "wordIds": [
       "25867"
     ],
+    "cloze": {
+      "de": "Büffel",
+      "en": "buffalo"
+    },
     "sourceIndex": 15867
   },
   {
@@ -32011,6 +39539,10 @@ const phrasesDaily = [
     "wordIds": [
       "25870"
     ],
+    "cloze": {
+      "de": "Christkind",
+      "en": "Christ"
+    },
     "sourceIndex": 15870
   },
   {
@@ -32028,6 +39560,10 @@ const phrasesDaily = [
     "wordIds": [
       "25919"
     ],
+    "cloze": {
+      "de": "Glossar",
+      "en": "glossary"
+    },
     "sourceIndex": 15919
   },
   {
@@ -32045,6 +39581,10 @@ const phrasesDaily = [
     "wordIds": [
       "25937"
     ],
+    "cloze": {
+      "de": "Heuschrecke",
+      "en": "grasshopper"
+    },
     "sourceIndex": 15937
   },
   {
@@ -32062,6 +39602,10 @@ const phrasesDaily = [
     "wordIds": [
       "25959"
     ],
+    "cloze": {
+      "de": "Lesezeichen",
+      "en": "bookmark"
+    },
     "sourceIndex": 15959
   },
   {
@@ -32079,6 +39623,10 @@ const phrasesDaily = [
     "wordIds": [
       "25972"
     ],
+    "cloze": {
+      "de": "Mittelweg",
+      "en": "middle"
+    },
     "sourceIndex": 15972
   },
   {
@@ -32096,6 +39644,10 @@ const phrasesDaily = [
     "wordIds": [
       "25991"
     ],
+    "cloze": {
+      "de": "Pudel",
+      "en": "poodle"
+    },
     "sourceIndex": 15991
   },
   {
@@ -32113,6 +39665,10 @@ const phrasesDaily = [
     "wordIds": [
       "25994"
     ],
+    "cloze": {
+      "de": "Rastplatz",
+      "en": "rest"
+    },
     "sourceIndex": 15994
   },
   {
@@ -32130,6 +39686,10 @@ const phrasesDaily = [
     "wordIds": [
       "26015"
     ],
+    "cloze": {
+      "de": "Tannenbaum",
+      "en": "fir"
+    },
     "sourceIndex": 16015
   },
   {
@@ -32147,6 +39707,10 @@ const phrasesDaily = [
     "wordIds": [
       "26029"
     ],
+    "cloze": {
+      "de": "unterkommen",
+      "en": "find"
+    },
     "sourceIndex": 16029
   },
   {
@@ -32164,6 +39728,10 @@ const phrasesDaily = [
     "wordIds": [
       "26042"
     ],
+    "cloze": {
+      "de": "Wasserwerk",
+      "en": "waterworks"
+    },
     "sourceIndex": 16042
   },
   {
@@ -32181,6 +39749,10 @@ const phrasesDaily = [
     "wordIds": [
       "26050"
     ],
+    "cloze": {
+      "de": "zusammenfügen",
+      "en": "assemble"
+    },
     "sourceIndex": 16050
   },
   {
@@ -32198,6 +39770,10 @@ const phrasesDaily = [
     "wordIds": [
       "26059"
     ],
+    "cloze": {
+      "de": "Abhang",
+      "en": "slope"
+    },
     "sourceIndex": 16059
   },
   {
@@ -32215,6 +39791,10 @@ const phrasesDaily = [
     "wordIds": [
       "26066"
     ],
+    "cloze": {
+      "de": "angezeigte",
+      "en": "displayed"
+    },
     "sourceIndex": 16066
   },
   {
@@ -32232,6 +39812,10 @@ const phrasesDaily = [
     "wordIds": [
       "26069"
     ],
+    "cloze": {
+      "de": "Armenisch",
+      "en": "Armenian"
+    },
     "sourceIndex": 16069
   },
   {
@@ -32249,6 +39833,10 @@ const phrasesDaily = [
     "wordIds": [
       "26075"
     ],
+    "cloze": {
+      "de": "Auslauf",
+      "en": "run"
+    },
     "sourceIndex": 16075
   },
   {
@@ -32266,6 +39854,10 @@ const phrasesDaily = [
     "wordIds": [
       "26093"
     ],
+    "cloze": {
+      "de": "Buchautor",
+      "en": "book"
+    },
     "sourceIndex": 16093
   },
   {
@@ -32283,6 +39875,10 @@ const phrasesDaily = [
     "wordIds": [
       "26099"
     ],
+    "cloze": {
+      "de": "Diskothek",
+      "en": "discotheque"
+    },
     "sourceIndex": 16099
   },
   {
@@ -32300,6 +39896,10 @@ const phrasesDaily = [
     "wordIds": [
       "26126"
     ],
+    "cloze": {
+      "de": "Geber",
+      "en": "donor"
+    },
     "sourceIndex": 16126
   },
   {
@@ -32317,6 +39917,10 @@ const phrasesDaily = [
     "wordIds": [
       "26132"
     ],
+    "cloze": {
+      "de": "geschmückt",
+      "en": "decorated"
+    },
     "sourceIndex": 16132
   },
   {
@@ -32334,6 +39938,10 @@ const phrasesDaily = [
     "wordIds": [
       "26144"
     ],
+    "cloze": {
+      "de": "Hindu",
+      "en": "Hindu"
+    },
     "sourceIndex": 16144
   },
   {
@@ -32351,6 +39959,10 @@ const phrasesDaily = [
     "wordIds": [
       "26156"
     ],
+    "cloze": {
+      "de": "Kindergeburtstag",
+      "en": "children's"
+    },
     "sourceIndex": 16156
   },
   {
@@ -32368,6 +39980,10 @@ const phrasesDaily = [
     "wordIds": [
       "26209"
     ],
+    "cloze": {
+      "de": "pustet",
+      "en": "blows"
+    },
     "sourceIndex": 16209
   },
   {
@@ -32385,6 +40001,10 @@ const phrasesDaily = [
     "wordIds": [
       "26252"
     ],
+    "cloze": {
+      "de": "Tampon",
+      "en": "tampon"
+    },
     "sourceIndex": 16252
   },
   {
@@ -32402,6 +40022,10 @@ const phrasesDaily = [
     "wordIds": [
       "26257"
     ],
+    "cloze": {
+      "de": "Trainingseinheit",
+      "en": "training"
+    },
     "sourceIndex": 16257
   },
   {
@@ -32419,6 +40043,10 @@ const phrasesDaily = [
     "wordIds": [
       "26278"
     ],
+    "cloze": {
+      "de": "vierfach",
+      "en": "fourfold"
+    },
     "sourceIndex": 16278
   },
   {
@@ -32436,6 +40064,10 @@ const phrasesDaily = [
     "wordIds": [
       "26280"
     ],
+    "cloze": {
+      "de": "Vorplatz",
+      "en": "forecourt"
+    },
     "sourceIndex": 16280
   },
   {
@@ -32453,6 +40085,10 @@ const phrasesDaily = [
     "wordIds": [
       "26290"
     ],
+    "cloze": {
+      "de": "Wildpark",
+      "en": "wildlife"
+    },
     "sourceIndex": 16290
   },
   {
@@ -32470,6 +40106,10 @@ const phrasesDaily = [
     "wordIds": [
       "26292"
     ],
+    "cloze": {
+      "de": "Windrichtung",
+      "en": "wind"
+    },
     "sourceIndex": 16292
   },
   {
@@ -32487,6 +40127,10 @@ const phrasesDaily = [
     "wordIds": [
       "26298"
     ],
+    "cloze": {
+      "de": "Zeitlupe",
+      "en": "slow"
+    },
     "sourceIndex": 16298
   },
   {
@@ -32504,6 +40148,10 @@ const phrasesDaily = [
     "wordIds": [
       "26301"
     ],
+    "cloze": {
+      "de": "zerkratzt",
+      "en": "up"
+    },
     "sourceIndex": 16301
   },
   {
@@ -32521,6 +40169,10 @@ const phrasesDaily = [
     "wordIds": [
       "26307"
     ],
+    "cloze": {
+      "de": "fallen",
+      "en": "fall"
+    },
     "sourceIndex": 16307
   },
   {
@@ -32538,6 +40190,10 @@ const phrasesDaily = [
     "wordIds": [
       "26343"
     ],
+    "cloze": {
+      "de": "Benutzernamen",
+      "en": "username"
+    },
     "sourceIndex": 16343
   },
   {
@@ -32555,6 +40211,10 @@ const phrasesDaily = [
     "wordIds": [
       "26352"
     ],
+    "cloze": {
+      "de": "bürstet",
+      "en": "brushes"
+    },
     "sourceIndex": 16352
   },
   {
@@ -32572,6 +40232,10 @@ const phrasesDaily = [
     "wordIds": [
       "26359"
     ],
+    "cloze": {
+      "de": "Donut",
+      "en": "donut"
+    },
     "sourceIndex": 16359
   },
   {
@@ -32589,6 +40253,10 @@ const phrasesDaily = [
     "wordIds": [
       "26364"
     ],
+    "cloze": {
+      "de": "duzen",
+      "en": "a"
+    },
     "sourceIndex": 16364
   },
   {
@@ -32606,6 +40274,10 @@ const phrasesDaily = [
     "wordIds": [
       "26374"
     ],
+    "cloze": {
+      "de": "Eisdiele",
+      "en": "ice"
+    },
     "sourceIndex": 16374
   },
   {
@@ -32623,6 +40295,10 @@ const phrasesDaily = [
     "wordIds": [
       "26385"
     ],
+    "cloze": {
+      "de": "Fahrweise",
+      "en": "driving"
+    },
     "sourceIndex": 16385
   },
   {
@@ -32640,6 +40316,10 @@ const phrasesDaily = [
     "wordIds": [
       "26391"
     ],
+    "cloze": {
+      "de": "Freibier",
+      "en": "free"
+    },
     "sourceIndex": 16391
   },
   {
@@ -32657,6 +40337,10 @@ const phrasesDaily = [
     "wordIds": [
       "26392"
     ],
+    "cloze": {
+      "de": "Freilichtmuseum",
+      "en": "open-air"
+    },
     "sourceIndex": 16392
   },
   {
@@ -32674,6 +40358,10 @@ const phrasesDaily = [
     "wordIds": [
       "26396"
     ],
+    "cloze": {
+      "de": "gemeint",
+      "en": "meant"
+    },
     "sourceIndex": 16396
   },
   {
@@ -32691,6 +40379,10 @@ const phrasesDaily = [
     "wordIds": [
       "26403"
     ],
+    "cloze": {
+      "de": "Geschäftsreise",
+      "en": "business"
+    },
     "sourceIndex": 16403
   },
   {
@@ -32708,6 +40400,10 @@ const phrasesDaily = [
     "wordIds": [
       "26408"
     ],
+    "cloze": {
+      "de": "Glashaus",
+      "en": "glasshouse"
+    },
     "sourceIndex": 16408
   },
   {
@@ -32725,6 +40421,10 @@ const phrasesDaily = [
     "wordIds": [
       "26410"
     ],
+    "cloze": {
+      "de": "Grünkohl",
+      "en": "Kale"
+    },
     "sourceIndex": 16410
   },
   {
@@ -32742,6 +40442,10 @@ const phrasesDaily = [
     "wordIds": [
       "26416"
     ],
+    "cloze": {
+      "de": "Inch",
+      "en": "inches"
+    },
     "sourceIndex": 16416
   },
   {
@@ -32759,6 +40463,10 @@ const phrasesDaily = [
     "wordIds": [
       "26443"
     ],
+    "cloze": {
+      "de": "zähle",
+      "en": "count"
+    },
     "sourceIndex": 16443
   },
   {
@@ -32776,6 +40484,10 @@ const phrasesDaily = [
     "wordIds": [
       "26447"
     ],
+    "cloze": {
+      "de": "Musikgeschmack",
+      "en": "musical"
+    },
     "sourceIndex": 16447
   },
   {
@@ -32793,6 +40505,10 @@ const phrasesDaily = [
     "wordIds": [
       "26451"
     ],
+    "cloze": {
+      "de": "Nuggets",
+      "en": "nuggets"
+    },
     "sourceIndex": 16451
   },
   {
@@ -32810,6 +40526,10 @@ const phrasesDaily = [
     "wordIds": [
       "26452"
     ],
+    "cloze": {
+      "de": "Nähmaschine",
+      "en": "sewing"
+    },
     "sourceIndex": 16452
   },
   {
@@ -32827,6 +40547,10 @@ const phrasesDaily = [
     "wordIds": [
       "26494"
     ],
+    "cloze": {
+      "de": "Slowenisch",
+      "en": "Slovenian"
+    },
     "sourceIndex": 16494
   },
   {
@@ -32844,6 +40568,10 @@ const phrasesDaily = [
     "wordIds": [
       "26495"
     ],
+    "cloze": {
+      "de": "Smoothie",
+      "en": "smoothie"
+    },
     "sourceIndex": 16495
   },
   {
@@ -32861,6 +40589,10 @@ const phrasesDaily = [
     "wordIds": [
       "26497"
     ],
+    "cloze": {
+      "de": "spielbar",
+      "en": "playable"
+    },
     "sourceIndex": 16497
   },
   {
@@ -32878,6 +40610,10 @@ const phrasesDaily = [
     "wordIds": [
       "26500"
     ],
+    "cloze": {
+      "de": "spritzte",
+      "en": "squirted"
+    },
     "sourceIndex": 16500
   },
   {
@@ -32895,6 +40631,10 @@ const phrasesDaily = [
     "wordIds": [
       "26511"
     ],
+    "cloze": {
+      "de": "supi",
+      "en": "super"
+    },
     "sourceIndex": 16511
   },
   {
@@ -32912,6 +40652,10 @@ const phrasesDaily = [
     "wordIds": [
       "26516"
     ],
+    "cloze": {
+      "de": "Texter",
+      "en": "copywriter"
+    },
     "sourceIndex": 16516
   },
   {
@@ -32929,6 +40673,10 @@ const phrasesDaily = [
     "wordIds": [
       "26523"
     ],
+    "cloze": {
+      "de": "Unisex-Parfüm",
+      "en": "unisex"
+    },
     "sourceIndex": 16523
   },
   {
@@ -32946,6 +40694,10 @@ const phrasesDaily = [
     "wordIds": [
       "26534"
     ],
+    "cloze": {
+      "de": "verdünnen",
+      "en": "dilute"
+    },
     "sourceIndex": 16534
   },
   {
@@ -32963,6 +40715,10 @@ const phrasesDaily = [
     "wordIds": [
       "26552"
     ],
+    "cloze": {
+      "de": "wegkommen",
+      "en": "get"
+    },
     "sourceIndex": 16552
   },
   {
@@ -32980,6 +40736,10 @@ const phrasesDaily = [
     "wordIds": [
       "26556"
     ],
+    "cloze": {
+      "de": "Werfer",
+      "en": "thrower"
+    },
     "sourceIndex": 16556
   },
   {
@@ -32997,6 +40757,10 @@ const phrasesDaily = [
     "wordIds": [
       "26571"
     ],
+    "cloze": {
+      "de": "kreuzen",
+      "en": "tick"
+    },
     "sourceIndex": 16571
   },
   {
@@ -33014,6 +40778,10 @@ const phrasesDaily = [
     "wordIds": [
       "26579"
     ],
+    "cloze": {
+      "de": "auszählen",
+      "en": "count"
+    },
     "sourceIndex": 16579
   },
   {
@@ -33031,6 +40799,10 @@ const phrasesDaily = [
     "wordIds": [
       "26593"
     ],
+    "cloze": {
+      "de": "Callcenter",
+      "en": "call"
+    },
     "sourceIndex": 16593
   },
   {
@@ -33048,6 +40820,10 @@ const phrasesDaily = [
     "wordIds": [
       "26598"
     ],
+    "cloze": {
+      "de": "dazu",
+      "en": "part"
+    },
     "sourceIndex": 16598
   },
   {
@@ -33065,6 +40841,10 @@ const phrasesDaily = [
     "wordIds": [
       "26621"
     ],
+    "cloze": {
+      "de": "fad",
+      "en": "bland"
+    },
     "sourceIndex": 16621
   },
   {
@@ -33082,6 +40862,10 @@ const phrasesDaily = [
     "wordIds": [
       "26636"
     ],
+    "cloze": {
+      "de": "Gastwirt",
+      "en": "innkeeper"
+    },
     "sourceIndex": 16636
   },
   {
@@ -33099,6 +40883,10 @@ const phrasesDaily = [
     "wordIds": [
       "26638"
     ],
+    "cloze": {
+      "de": "Gebärdensprache",
+      "en": "sign"
+    },
     "sourceIndex": 16638
   },
   {
@@ -33116,6 +40904,10 @@ const phrasesDaily = [
     "wordIds": [
       "26656"
     ],
+    "cloze": {
+      "de": "hochfahren",
+      "en": "boot"
+    },
     "sourceIndex": 16656
   },
   {
@@ -33133,6 +40925,10 @@ const phrasesDaily = [
     "wordIds": [
       "26660"
     ],
+    "cloze": {
+      "de": "Horoskop",
+      "en": "horoscope"
+    },
     "sourceIndex": 16660
   },
   {
@@ -33150,6 +40946,10 @@ const phrasesDaily = [
     "wordIds": [
       "26672"
     ],
+    "cloze": {
+      "de": "Karawane",
+      "en": "caravan"
+    },
     "sourceIndex": 16672
   },
   {
@@ -33167,6 +40967,10 @@ const phrasesDaily = [
     "wordIds": [
       "26677"
     ],
+    "cloze": {
+      "de": "Kirschbaum",
+      "en": "cherry"
+    },
     "sourceIndex": 16677
   },
   {
@@ -33184,6 +40988,10 @@ const phrasesDaily = [
     "wordIds": [
       "26688"
     ],
+    "cloze": {
+      "de": "Laufband",
+      "en": "treadmill"
+    },
     "sourceIndex": 16688
   },
   {
@@ -33201,6 +41009,10 @@ const phrasesDaily = [
     "wordIds": [
       "26696"
     ],
+    "cloze": {
+      "de": "Milligramm",
+      "en": "milligrams"
+    },
     "sourceIndex": 16696
   },
   {
@@ -33218,6 +41030,10 @@ const phrasesDaily = [
     "wordIds": [
       "26698"
     ],
+    "cloze": {
+      "de": "Moosen",
+      "en": "mosses"
+    },
     "sourceIndex": 16698
   },
   {
@@ -33235,6 +41051,10 @@ const phrasesDaily = [
     "wordIds": [
       "26699"
     ],
+    "cloze": {
+      "de": "motiviert",
+      "en": "motivated"
+    },
     "sourceIndex": 16699
   },
   {
@@ -33252,6 +41072,10 @@ const phrasesDaily = [
     "wordIds": [
       "26716"
     ],
+    "cloze": {
+      "de": "Pfützen",
+      "en": "puddles"
+    },
     "sourceIndex": 16716
   },
   {
@@ -33269,6 +41093,10 @@ const phrasesDaily = [
     "wordIds": [
       "26724"
     ],
+    "cloze": {
+      "de": "Pünktchen",
+      "en": "little"
+    },
     "sourceIndex": 16724
   },
   {
@@ -33286,6 +41114,10 @@ const phrasesDaily = [
     "wordIds": [
       "26725"
     ],
+    "cloze": {
+      "de": "Racer",
+      "en": "racer"
+    },
     "sourceIndex": 16725
   },
   {
@@ -33303,6 +41135,10 @@ const phrasesDaily = [
     "wordIds": [
       "26726"
     ],
+    "cloze": {
+      "de": "Rasierer",
+      "en": "razor"
+    },
     "sourceIndex": 16726
   },
   {
@@ -33320,6 +41156,10 @@ const phrasesDaily = [
     "wordIds": [
       "26734"
     ],
+    "cloze": {
+      "de": "retour",
+      "en": "back"
+    },
     "sourceIndex": 16734
   },
   {
@@ -33337,6 +41177,10 @@ const phrasesDaily = [
     "wordIds": [
       "26739"
     ],
+    "cloze": {
+      "de": "Rückwand",
+      "en": "back"
+    },
     "sourceIndex": 16739
   },
   {
@@ -33354,6 +41198,10 @@ const phrasesDaily = [
     "wordIds": [
       "26741"
     ],
+    "cloze": {
+      "de": "Satzzeichen",
+      "en": "punctuation"
+    },
     "sourceIndex": 16741
   },
   {
@@ -33371,6 +41219,10 @@ const phrasesDaily = [
     "wordIds": [
       "26748"
     ],
+    "cloze": {
+      "de": "Schneeflocke",
+      "en": "snowflake"
+    },
     "sourceIndex": 16748
   },
   {
@@ -33388,6 +41240,10 @@ const phrasesDaily = [
     "wordIds": [
       "26778"
     ],
+    "cloze": {
+      "de": "Umweltschützer",
+      "en": "environmentalists"
+    },
     "sourceIndex": 16778
   },
   {
@@ -33405,6 +41261,10 @@ const phrasesDaily = [
     "wordIds": [
       "26783"
     ],
+    "cloze": {
+      "de": "unvernünftig",
+      "en": "unreasonable"
+    },
     "sourceIndex": 16783
   },
   {
@@ -33422,6 +41282,10 @@ const phrasesDaily = [
     "wordIds": [
       "26787"
     ],
+    "cloze": {
+      "de": "verdreifachen",
+      "en": "triple"
+    },
     "sourceIndex": 16787
   },
   {
@@ -33439,6 +41303,10 @@ const phrasesDaily = [
     "wordIds": [
       "26804"
     ],
+    "cloze": {
+      "de": "zivilisiert",
+      "en": "civilized"
+    },
     "sourceIndex": 16804
   },
   {
@@ -33456,6 +41324,10 @@ const phrasesDaily = [
     "wordIds": [
       "26809"
     ],
+    "cloze": {
+      "de": "Abmachung",
+      "en": "agreement"
+    },
     "sourceIndex": 16809
   },
   {
@@ -33473,6 +41345,10 @@ const phrasesDaily = [
     "wordIds": [
       "26838"
     ],
+    "cloze": {
+      "de": "Botaniker",
+      "en": "botanist"
+    },
     "sourceIndex": 16838
   },
   {
@@ -33490,6 +41366,10 @@ const phrasesDaily = [
     "wordIds": [
       "26851"
     ],
+    "cloze": {
+      "de": "Elektroniker",
+      "en": "electrician"
+    },
     "sourceIndex": 16851
   },
   {
@@ -33507,6 +41387,10 @@ const phrasesDaily = [
     "wordIds": [
       "26868"
     ],
+    "cloze": {
+      "de": "Fünfer",
+      "en": "five-euro"
+    },
     "sourceIndex": 16868
   },
   {
@@ -33524,6 +41408,10 @@ const phrasesDaily = [
     "wordIds": [
       "26874"
     ],
+    "cloze": {
+      "de": "Gesäss",
+      "en": "bottom"
+    },
     "sourceIndex": 16874
   },
   {
@@ -33541,6 +41429,10 @@ const phrasesDaily = [
     "wordIds": [
       "26893"
     ],
+    "cloze": {
+      "de": "kinderleicht",
+      "en": "child's"
+    },
     "sourceIndex": 16893
   },
   {
@@ -33558,6 +41450,10 @@ const phrasesDaily = [
     "wordIds": [
       "26897"
     ],
+    "cloze": {
+      "de": "knicken",
+      "en": "crease"
+    },
     "sourceIndex": 16897
   },
   {
@@ -33575,6 +41471,10 @@ const phrasesDaily = [
     "wordIds": [
       "26900"
     ],
+    "cloze": {
+      "de": "Konditorei",
+      "en": "pastry"
+    },
     "sourceIndex": 16900
   },
   {
@@ -33592,6 +41492,10 @@ const phrasesDaily = [
     "wordIds": [
       "26901"
     ],
+    "cloze": {
+      "de": "Konfetti",
+      "en": "confetti"
+    },
     "sourceIndex": 16901
   },
   {
@@ -33609,6 +41513,10 @@ const phrasesDaily = [
     "wordIds": [
       "26902"
     ],
+    "cloze": {
+      "de": "Kontonummer",
+      "en": "account"
+    },
     "sourceIndex": 16902
   },
   {
@@ -33626,6 +41534,10 @@ const phrasesDaily = [
     "wordIds": [
       "26905"
     ],
+    "cloze": {
+      "de": "Kurbel",
+      "en": "crank"
+    },
     "sourceIndex": 16905
   },
   {
@@ -33643,6 +41555,10 @@ const phrasesDaily = [
     "wordIds": [
       "26919"
     ],
+    "cloze": {
+      "de": "Liebespaar",
+      "en": "couple"
+    },
     "sourceIndex": 16919
   },
   {
@@ -33660,6 +41576,10 @@ const phrasesDaily = [
     "wordIds": [
       "26922"
     ],
+    "cloze": {
+      "de": "Litauisch",
+      "en": "Lithuanian"
+    },
     "sourceIndex": 16922
   },
   {
@@ -33677,6 +41597,10 @@ const phrasesDaily = [
     "wordIds": [
       "26941"
     ],
+    "cloze": {
+      "de": "Musikunterricht",
+      "en": "music"
+    },
     "sourceIndex": 16941
   },
   {
@@ -33694,6 +41618,10 @@ const phrasesDaily = [
     "wordIds": [
       "26969"
     ],
+    "cloze": {
+      "de": "Puste",
+      "en": "breath"
+    },
     "sourceIndex": 16969
   },
   {
@@ -33711,6 +41639,10 @@ const phrasesDaily = [
     "wordIds": [
       "26971"
     ],
+    "cloze": {
+      "de": "ran",
+      "en": "answer"
+    },
     "sourceIndex": 16971
   },
   {
@@ -33728,6 +41660,10 @@ const phrasesDaily = [
     "wordIds": [
       "26978"
     ],
+    "cloze": {
+      "de": "rüberkommen",
+      "en": "come"
+    },
     "sourceIndex": 16978
   },
   {
@@ -33745,6 +41681,10 @@ const phrasesDaily = [
     "wordIds": [
       "26992"
     ],
+    "cloze": {
+      "de": "slowakisches",
+      "en": "Slovak"
+    },
     "sourceIndex": 16992
   },
   {
@@ -33762,6 +41702,10 @@ const phrasesDaily = [
     "wordIds": [
       "26995"
     ],
+    "cloze": {
+      "de": "Sommerurlaub",
+      "en": "summer"
+    },
     "sourceIndex": 16995
   },
   {
@@ -33779,6 +41723,10 @@ const phrasesDaily = [
     "wordIds": [
       "27014"
     ],
+    "cloze": {
+      "de": "Traumjob",
+      "en": "dream"
+    },
     "sourceIndex": 17014
   },
   {
@@ -33796,6 +41744,10 @@ const phrasesDaily = [
     "wordIds": [
       "27036"
     ],
+    "cloze": {
+      "de": "vibriert",
+      "en": "vibrates"
+    },
     "sourceIndex": 17036
   },
   {
@@ -33813,6 +41765,10 @@ const phrasesDaily = [
     "wordIds": [
       "27056"
     ],
+    "cloze": {
+      "de": "passen",
+      "en": "fit"
+    },
     "sourceIndex": 17056
   },
   {
@@ -33830,6 +41786,10 @@ const phrasesDaily = [
     "wordIds": [
       "27061"
     ],
+    "cloze": {
+      "de": "dreh",
+      "en": "turn"
+    },
     "sourceIndex": 17061
   },
   {
@@ -33847,6 +41807,10 @@ const phrasesDaily = [
     "wordIds": [
       "27065"
     ],
+    "cloze": {
+      "de": "Albanisch",
+      "en": "Albanian"
+    },
     "sourceIndex": 17065
   },
   {
@@ -33864,6 +41828,10 @@ const phrasesDaily = [
     "wordIds": [
       "27075"
     ],
+    "cloze": {
+      "de": "applaudieren",
+      "en": "applaud"
+    },
     "sourceIndex": 17075
   },
   {
@@ -33881,6 +41849,10 @@ const phrasesDaily = [
     "wordIds": [
       "27077"
     ],
+    "cloze": {
+      "de": "aufblasen",
+      "en": "inflate"
+    },
     "sourceIndex": 17077
   },
   {
@@ -33898,6 +41870,10 @@ const phrasesDaily = [
     "wordIds": [
       "27095"
     ],
+    "cloze": {
+      "de": "bestohlen",
+      "en": "from"
+    },
     "sourceIndex": 17095
   },
   {
@@ -33915,6 +41891,10 @@ const phrasesDaily = [
     "wordIds": [
       "27115"
     ],
+    "cloze": {
+      "de": "Dienstreise",
+      "en": "business"
+    },
     "sourceIndex": 17115
   },
   {
@@ -33932,6 +41912,10 @@ const phrasesDaily = [
     "wordIds": [
       "27142"
     ],
+    "cloze": {
+      "de": "fade",
+      "en": "bland"
+    },
     "sourceIndex": 17142
   },
   {
@@ -33949,6 +41933,10 @@ const phrasesDaily = [
     "wordIds": [
       "27143"
     ],
+    "cloze": {
+      "de": "Fahrtkosten",
+      "en": "travel"
+    },
     "sourceIndex": 17143
   },
   {
@@ -33966,6 +41954,10 @@ const phrasesDaily = [
     "wordIds": [
       "27161"
     ],
+    "cloze": {
+      "de": "Handbremse",
+      "en": "handbrake"
+    },
     "sourceIndex": 17161
   },
   {
@@ -33983,6 +41975,10 @@ const phrasesDaily = [
     "wordIds": [
       "27165"
     ],
+    "cloze": {
+      "de": "heiser",
+      "en": "hoarse"
+    },
     "sourceIndex": 17165
   },
   {
@@ -34000,6 +41996,10 @@ const phrasesDaily = [
     "wordIds": [
       "27184"
     ],
+    "cloze": {
+      "de": "Kleeblatt",
+      "en": "a"
+    },
     "sourceIndex": 17184
   },
   {
@@ -34017,6 +42017,10 @@ const phrasesDaily = [
     "wordIds": [
       "27189"
     ],
+    "cloze": {
+      "de": "Konzerthaus",
+      "en": "concert"
+    },
     "sourceIndex": 17189
   },
   {
@@ -34034,6 +42038,10 @@ const phrasesDaily = [
     "wordIds": [
       "27190"
     ],
+    "cloze": {
+      "de": "Konzertsaal",
+      "en": "concert"
+    },
     "sourceIndex": 17190
   },
   {
@@ -34051,6 +42059,10 @@ const phrasesDaily = [
     "wordIds": [
       "27192"
     ],
+    "cloze": {
+      "de": "Koppel",
+      "en": "paddock"
+    },
     "sourceIndex": 17192
   },
   {
@@ -34068,6 +42080,10 @@ const phrasesDaily = [
     "wordIds": [
       "27215"
     ],
+    "cloze": {
+      "de": "motorisiert",
+      "en": "motorized"
+    },
     "sourceIndex": 17215
   },
   {
@@ -34085,6 +42101,10 @@ const phrasesDaily = [
     "wordIds": [
       "27226"
     ],
+    "cloze": {
+      "de": "Nordseeküste",
+      "en": "North"
+    },
     "sourceIndex": 17226
   },
   {
@@ -34102,6 +42122,10 @@ const phrasesDaily = [
     "wordIds": [
       "27229"
     ],
+    "cloze": {
+      "de": "ordern",
+      "en": "order"
+    },
     "sourceIndex": 17229
   },
   {
@@ -34119,6 +42143,10 @@ const phrasesDaily = [
     "wordIds": [
       "27238"
     ],
+    "cloze": {
+      "de": "Projektor",
+      "en": "projector"
+    },
     "sourceIndex": 17238
   },
   {
@@ -34136,6 +42164,10 @@ const phrasesDaily = [
     "wordIds": [
       "27257"
     ],
+    "cloze": {
+      "de": "Solarstrom",
+      "en": "solar"
+    },
     "sourceIndex": 17257
   },
   {
@@ -34153,6 +42185,10 @@ const phrasesDaily = [
     "wordIds": [
       "27259"
     ],
+    "cloze": {
+      "de": "Spielverlauf",
+      "en": "course"
+    },
     "sourceIndex": 17259
   },
   {
@@ -34170,6 +42206,10 @@ const phrasesDaily = [
     "wordIds": [
       "27266"
     ],
+    "cloze": {
+      "de": "Sägewerk",
+      "en": "sawmill"
+    },
     "sourceIndex": 17266
   },
   {
@@ -34187,6 +42227,10 @@ const phrasesDaily = [
     "wordIds": [
       "27275"
     ],
+    "cloze": {
+      "de": "Traumfrau",
+      "en": "dream"
+    },
     "sourceIndex": 17275
   },
   {
@@ -34204,6 +42248,10 @@ const phrasesDaily = [
     "wordIds": [
       "27283"
     ],
+    "cloze": {
+      "de": "Uniklinik",
+      "en": "university"
+    },
     "sourceIndex": 17283
   },
   {
@@ -34221,6 +42269,10 @@ const phrasesDaily = [
     "wordIds": [
       "27308"
     ],
+    "cloze": {
+      "de": "wegschauen",
+      "en": "look"
+    },
     "sourceIndex": 17308
   },
   {
@@ -34238,6 +42290,10 @@ const phrasesDaily = [
     "wordIds": [
       "27309"
     ],
+    "cloze": {
+      "de": "Weihnachtsgeld",
+      "en": "Christmas"
+    },
     "sourceIndex": 17309
   },
   {
@@ -34255,6 +42311,10 @@ const phrasesDaily = [
     "wordIds": [
       "27310"
     ],
+    "cloze": {
+      "de": "Weinkeller",
+      "en": "wine"
+    },
     "sourceIndex": 17310
   },
   {
@@ -34272,6 +42332,10 @@ const phrasesDaily = [
     "wordIds": [
       "27312"
     ],
+    "cloze": {
+      "de": "Werber",
+      "en": "advertiser"
+    },
     "sourceIndex": 17312
   },
   {
@@ -34289,6 +42353,10 @@ const phrasesDaily = [
     "wordIds": [
       "27339"
     ],
+    "cloze": {
+      "de": "anlügen",
+      "en": "lie"
+    },
     "sourceIndex": 17339
   },
   {
@@ -34306,6 +42374,10 @@ const phrasesDaily = [
     "wordIds": [
       "27361"
     ],
+    "cloze": {
+      "de": "Blickkontakt",
+      "en": "eye"
+    },
     "sourceIndex": 17361
   },
   {
@@ -34323,6 +42395,10 @@ const phrasesDaily = [
     "wordIds": [
       "27399"
     ],
+    "cloze": {
+      "de": "Flachland",
+      "en": "flatland"
+    },
     "sourceIndex": 17399
   },
   {
@@ -34340,6 +42416,10 @@ const phrasesDaily = [
     "wordIds": [
       "27446"
     ],
+    "cloze": {
+      "de": "Illustrator",
+      "en": "illustrator"
+    },
     "sourceIndex": 17446
   },
   {
@@ -34357,6 +42437,10 @@ const phrasesDaily = [
     "wordIds": [
       "27457"
     ],
+    "cloze": {
+      "de": "Kanister",
+      "en": "canister"
+    },
     "sourceIndex": 17457
   },
   {
@@ -34374,6 +42458,10 @@ const phrasesDaily = [
     "wordIds": [
       "27460"
     ],
+    "cloze": {
+      "de": "Klauen",
+      "en": "has"
+    },
     "sourceIndex": 17460
   },
   {
@@ -34391,6 +42479,10 @@ const phrasesDaily = [
     "wordIds": [
       "27467"
     ],
+    "cloze": {
+      "de": "Kunstschule",
+      "en": "art"
+    },
     "sourceIndex": 17467
   },
   {
@@ -34408,6 +42500,10 @@ const phrasesDaily = [
     "wordIds": [
       "27479"
     ],
+    "cloze": {
+      "de": "lösbar",
+      "en": "solvable"
+    },
     "sourceIndex": 17479
   },
   {
@@ -34425,6 +42521,10 @@ const phrasesDaily = [
     "wordIds": [
       "27509"
     ],
+    "cloze": {
+      "de": "posieren",
+      "en": "pose"
+    },
     "sourceIndex": 17509
   },
   {
@@ -34442,6 +42542,10 @@ const phrasesDaily = [
     "wordIds": [
       "27517"
     ],
+    "cloze": {
+      "de": "reingehen",
+      "en": "go"
+    },
     "sourceIndex": 17517
   },
   {
@@ -34459,6 +42563,10 @@ const phrasesDaily = [
     "wordIds": [
       "27533"
     ],
+    "cloze": {
+      "de": "Schulbesuch",
+      "en": "School"
+    },
     "sourceIndex": 17533
   },
   {
@@ -34476,6 +42584,10 @@ const phrasesDaily = [
     "wordIds": [
       "27537"
     ],
+    "cloze": {
+      "de": "Seniorenheim",
+      "en": "nursing"
+    },
     "sourceIndex": 17537
   },
   {
@@ -34493,6 +42605,10 @@ const phrasesDaily = [
     "wordIds": [
       "27564"
     ],
+    "cloze": {
+      "de": "Uhrzeigersinn",
+      "en": "clockwise"
+    },
     "sourceIndex": 17564
   },
   {
@@ -34510,6 +42626,10 @@ const phrasesDaily = [
     "wordIds": [
       "27577"
     ],
+    "cloze": {
+      "de": "Verbeugung",
+      "en": "bow"
+    },
     "sourceIndex": 17577
   },
   {
@@ -34527,6 +42647,10 @@ const phrasesDaily = [
     "wordIds": [
       "27586"
     ],
+    "cloze": {
+      "de": "Waldgebiet",
+      "en": "forest"
+    },
     "sourceIndex": 17586
   },
   {
@@ -34544,6 +42668,10 @@ const phrasesDaily = [
     "wordIds": [
       "27601"
     ],
+    "cloze": {
+      "de": "zurückrufen",
+      "en": "call"
+    },
     "sourceIndex": 17601
   },
   {
@@ -34561,6 +42689,10 @@ const phrasesDaily = [
     "wordIds": [
       "27613"
     ],
+    "cloze": {
+      "de": "anbrennt",
+      "en": "food"
+    },
     "sourceIndex": 17613
   },
   {
@@ -34578,6 +42710,10 @@ const phrasesDaily = [
     "wordIds": [
       "27633"
     ],
+    "cloze": {
+      "de": "Auslage",
+      "en": "display"
+    },
     "sourceIndex": 17633
   },
   {
@@ -34595,6 +42731,10 @@ const phrasesDaily = [
     "wordIds": [
       "27634"
     ],
+    "cloze": {
+      "de": "ausschauen",
+      "en": "look"
+    },
     "sourceIndex": 17634
   },
   {
@@ -34612,6 +42752,10 @@ const phrasesDaily = [
     "wordIds": [
       "27635"
     ],
+    "cloze": {
+      "de": "Aussentemperatur",
+      "en": "outside"
+    },
     "sourceIndex": 17635
   },
   {
@@ -34629,6 +42773,10 @@ const phrasesDaily = [
     "wordIds": [
       "27650"
     ],
+    "cloze": {
+      "de": "bummeln",
+      "en": "stroll"
+    },
     "sourceIndex": 17650
   },
   {
@@ -34646,6 +42794,10 @@ const phrasesDaily = [
     "wordIds": [
       "27663"
     ],
+    "cloze": {
+      "de": "durchschneiden",
+      "en": "cut"
+    },
     "sourceIndex": 17663
   },
   {
@@ -34663,6 +42815,10 @@ const phrasesDaily = [
     "wordIds": [
       "27677"
     ],
+    "cloze": {
+      "de": "feminine",
+      "en": "feminine"
+    },
     "sourceIndex": 17677
   },
   {
@@ -34680,6 +42836,10 @@ const phrasesDaily = [
     "wordIds": [
       "27683"
     ],
+    "cloze": {
+      "de": "Freikarte",
+      "en": "free"
+    },
     "sourceIndex": 17683
   },
   {
@@ -34697,6 +42857,10 @@ const phrasesDaily = [
     "wordIds": [
       "27692"
     ],
+    "cloze": {
+      "de": "gekleidet",
+      "en": "dressed"
+    },
     "sourceIndex": 17692
   },
   {
@@ -34714,6 +42878,10 @@ const phrasesDaily = [
     "wordIds": [
       "27722"
     ],
+    "cloze": {
+      "de": "Klassentreffen",
+      "en": "class"
+    },
     "sourceIndex": 17722
   },
   {
@@ -34731,6 +42899,10 @@ const phrasesDaily = [
     "wordIds": [
       "27727"
     ],
+    "cloze": {
+      "de": "Korken",
+      "en": "cork"
+    },
     "sourceIndex": 17727
   },
   {
@@ -34748,6 +42920,10 @@ const phrasesDaily = [
     "wordIds": [
       "27732"
     ],
+    "cloze": {
+      "de": "Kulturhaus",
+      "en": "cultural"
+    },
     "sourceIndex": 17732
   },
   {
@@ -34765,6 +42941,10 @@ const phrasesDaily = [
     "wordIds": [
       "27743"
     ],
+    "cloze": {
+      "de": "Mitfahrgelegenheit",
+      "en": "ride-sharing"
+    },
     "sourceIndex": 17743
   },
   {
@@ -34782,6 +42962,10 @@ const phrasesDaily = [
     "wordIds": [
       "27747"
     ],
+    "cloze": {
+      "de": "Mäuschen",
+      "en": "little"
+    },
     "sourceIndex": 17747
   },
   {
@@ -34799,6 +42983,10 @@ const phrasesDaily = [
     "wordIds": [
       "27774"
     ],
+    "cloze": {
+      "de": "Rückbank",
+      "en": "back"
+    },
     "sourceIndex": 17774
   },
   {
@@ -34816,6 +43004,10 @@ const phrasesDaily = [
     "wordIds": [
       "27781"
     ],
+    "cloze": {
+      "de": "schlenderten",
+      "en": "strolled"
+    },
     "sourceIndex": 17781
   },
   {
@@ -34833,6 +43025,10 @@ const phrasesDaily = [
     "wordIds": [
       "27787"
     ],
+    "cloze": {
+      "de": "seitwärts",
+      "en": "sideways"
+    },
     "sourceIndex": 17787
   },
   {
@@ -34850,6 +43046,10 @@ const phrasesDaily = [
     "wordIds": [
       "27793"
     ],
+    "cloze": {
+      "de": "Smoking",
+      "en": "tuxedo"
+    },
     "sourceIndex": 17793
   },
   {
@@ -34867,6 +43067,10 @@ const phrasesDaily = [
     "wordIds": [
       "27796"
     ],
+    "cloze": {
+      "de": "Spülung",
+      "en": "conditioner"
+    },
     "sourceIndex": 17796
   },
   {
@@ -34884,6 +43088,10 @@ const phrasesDaily = [
     "wordIds": [
       "27808"
     ],
+    "cloze": {
+      "de": "Südafrikaner",
+      "en": "South"
+    },
     "sourceIndex": 17808
   },
   {
@@ -34901,6 +43109,10 @@ const phrasesDaily = [
     "wordIds": [
       "27813"
     ],
+    "cloze": {
+      "de": "rühren",
+      "en": "stir"
+    },
     "sourceIndex": 17813
   },
   {
@@ -34918,6 +43130,10 @@ const phrasesDaily = [
     "wordIds": [
       "27823"
     ],
+    "cloze": {
+      "de": "Vatertag",
+      "en": "Father's"
+    },
     "sourceIndex": 17823
   },
   {
@@ -34935,6 +43151,10 @@ const phrasesDaily = [
     "wordIds": [
       "27825"
     ],
+    "cloze": {
+      "de": "Verkehrszeichen",
+      "en": "traffic"
+    },
     "sourceIndex": 17825
   },
   {
@@ -34952,6 +43172,10 @@ const phrasesDaily = [
     "wordIds": [
       "27841"
     ],
+    "cloze": {
+      "de": "Weltkarte",
+      "en": "world"
+    },
     "sourceIndex": 17841
   },
   {
@@ -34969,6 +43193,10 @@ const phrasesDaily = [
     "wordIds": [
       "27863"
     ],
+    "cloze": {
+      "de": "abzuspeichern",
+      "en": "save"
+    },
     "sourceIndex": 17863
   },
   {
@@ -34986,6 +43214,10 @@ const phrasesDaily = [
     "wordIds": [
       "27883"
     ],
+    "cloze": {
+      "de": "Baumhaus",
+      "en": "treehouse"
+    },
     "sourceIndex": 17883
   },
   {
@@ -35003,6 +43235,10 @@ const phrasesDaily = [
     "wordIds": [
       "27888"
     ],
+    "cloze": {
+      "de": "beistehen",
+      "en": "stand"
+    },
     "sourceIndex": 17888
   },
   {
@@ -35020,6 +43256,10 @@ const phrasesDaily = [
     "wordIds": [
       "27894"
     ],
+    "cloze": {
+      "de": "Bordstein",
+      "en": "curb"
+    },
     "sourceIndex": 17894
   },
   {
@@ -35037,6 +43277,10 @@ const phrasesDaily = [
     "wordIds": [
       "27914"
     ],
+    "cloze": {
+      "de": "Esslöffel",
+      "en": "tablespoon"
+    },
     "sourceIndex": 17914
   },
   {
@@ -35054,6 +43298,10 @@ const phrasesDaily = [
     "wordIds": [
       "27916"
     ],
+    "cloze": {
+      "de": "Festtag",
+      "en": "holiday"
+    },
     "sourceIndex": 17916
   },
   {
@@ -35071,6 +43319,10 @@ const phrasesDaily = [
     "wordIds": [
       "27924"
     ],
+    "cloze": {
+      "de": "Geburtsstadt",
+      "en": "birthplace"
+    },
     "sourceIndex": 17924
   },
   {
@@ -35088,6 +43340,10 @@ const phrasesDaily = [
     "wordIds": [
       "27936"
     ],
+    "cloze": {
+      "de": "Grusswort",
+      "en": "welcoming"
+    },
     "sourceIndex": 17936
   },
   {
@@ -35105,6 +43361,10 @@ const phrasesDaily = [
     "wordIds": [
       "27940"
     ],
+    "cloze": {
+      "de": "Hausbesuch",
+      "en": "home"
+    },
     "sourceIndex": 17940
   },
   {
@@ -35122,6 +43382,10 @@ const phrasesDaily = [
     "wordIds": [
       "27953"
     ],
+    "cloze": {
+      "de": "Italienerin",
+      "en": "Italian"
+    },
     "sourceIndex": 17953
   },
   {
@@ -35139,6 +43403,10 @@ const phrasesDaily = [
     "wordIds": [
       "27954"
     ],
+    "cloze": {
+      "de": "Jugendzentrum",
+      "en": "youth"
+    },
     "sourceIndex": 17954
   },
   {
@@ -35156,6 +43424,10 @@ const phrasesDaily = [
     "wordIds": [
       "27960"
     ],
+    "cloze": {
+      "de": "Katzenfutter",
+      "en": "cat"
+    },
     "sourceIndex": 17960
   },
   {
@@ -35173,6 +43445,10 @@ const phrasesDaily = [
     "wordIds": [
       "27965"
     ],
+    "cloze": {
+      "de": "klapperten",
+      "en": "rattled"
+    },
     "sourceIndex": 17965
   },
   {
@@ -35190,6 +43466,10 @@ const phrasesDaily = [
     "wordIds": [
       "27966"
     ],
+    "cloze": {
+      "de": "Klebstoff",
+      "en": "glue"
+    },
     "sourceIndex": 17966
   },
   {
@@ -35207,6 +43487,10 @@ const phrasesDaily = [
     "wordIds": [
       "27978"
     ],
+    "cloze": {
+      "de": "Lebenshaltungskosten",
+      "en": "cost"
+    },
     "sourceIndex": 17978
   },
   {
@@ -35224,6 +43508,10 @@ const phrasesDaily = [
     "wordIds": [
       "27983"
     ],
+    "cloze": {
+      "de": "liken",
+      "en": "like"
+    },
     "sourceIndex": 17983
   },
   {
@@ -35241,6 +43529,10 @@ const phrasesDaily = [
     "wordIds": [
       "27986"
     ],
+    "cloze": {
+      "de": "Maschinenfabrik",
+      "en": "machine"
+    },
     "sourceIndex": 17986
   },
   {
@@ -35258,6 +43550,10 @@ const phrasesDaily = [
     "wordIds": [
       "27990"
     ],
+    "cloze": {
+      "de": "Mixtape",
+      "en": "mixtape"
+    },
     "sourceIndex": 17990
   },
   {
@@ -35275,6 +43571,10 @@ const phrasesDaily = [
     "wordIds": [
       "28014"
     ],
+    "cloze": {
+      "de": "Pupille",
+      "en": "pupil"
+    },
     "sourceIndex": 18014
   },
   {
@@ -35292,6 +43592,10 @@ const phrasesDaily = [
     "wordIds": [
       "28018"
     ],
+    "cloze": {
+      "de": "Resource",
+      "en": "resource"
+    },
     "sourceIndex": 18018
   },
   {
@@ -35309,6 +43613,10 @@ const phrasesDaily = [
     "wordIds": [
       "28021"
     ],
+    "cloze": {
+      "de": "saisonales",
+      "en": "seasonal"
+    },
     "sourceIndex": 18021
   },
   {
@@ -35326,6 +43634,10 @@ const phrasesDaily = [
     "wordIds": [
       "28039"
     ],
+    "cloze": {
+      "de": "Stadtwald",
+      "en": "city"
+    },
     "sourceIndex": 18039
   },
   {
@@ -35343,6 +43655,10 @@ const phrasesDaily = [
     "wordIds": [
       "28047"
     ],
+    "cloze": {
+      "de": "Teelöffel",
+      "en": "teaspoon"
+    },
     "sourceIndex": 18047
   },
   {
@@ -35360,6 +43676,10 @@ const phrasesDaily = [
     "wordIds": [
       "28074"
     ],
+    "cloze": {
+      "de": "Wassertemperatur",
+      "en": "water"
+    },
     "sourceIndex": 18074
   },
   {
@@ -35377,6 +43697,10 @@ const phrasesDaily = [
     "wordIds": [
       "28085"
     ],
+    "cloze": {
+      "de": "Abendkleid",
+      "en": "evening"
+    },
     "sourceIndex": 18085
   },
   {
@@ -35394,6 +43718,10 @@ const phrasesDaily = [
     "wordIds": [
       "28098"
     ],
+    "cloze": {
+      "de": "Apfelbaum",
+      "en": "apple"
+    },
     "sourceIndex": 18098
   },
   {
@@ -35411,6 +43739,10 @@ const phrasesDaily = [
     "wordIds": [
       "28118"
     ],
+    "cloze": {
+      "de": "Blazer",
+      "en": "blazer"
+    },
     "sourceIndex": 18118
   },
   {
@@ -35428,6 +43760,10 @@ const phrasesDaily = [
     "wordIds": [
       "28119"
     ],
+    "cloze": {
+      "de": "Bodyguard",
+      "en": "bodyguard"
+    },
     "sourceIndex": 18119
   },
   {
@@ -35445,6 +43781,10 @@ const phrasesDaily = [
     "wordIds": [
       "28121"
     ],
+    "cloze": {
+      "de": "Bosnisch",
+      "en": "Bosnian"
+    },
     "sourceIndex": 18121
   },
   {
@@ -35462,6 +43802,10 @@ const phrasesDaily = [
     "wordIds": [
       "28135"
     ],
+    "cloze": {
+      "de": "Damenschuhe",
+      "en": "women's"
+    },
     "sourceIndex": 18135
   },
   {
@@ -35479,6 +43823,10 @@ const phrasesDaily = [
     "wordIds": [
       "28141"
     ],
+    "cloze": {
+      "de": "Durchzug",
+      "en": "draft"
+    },
     "sourceIndex": 18141
   },
   {
@@ -35496,6 +43844,10 @@ const phrasesDaily = [
     "wordIds": [
       "28160"
     ],
+    "cloze": {
+      "de": "Gadgets",
+      "en": "gadgets"
+    },
     "sourceIndex": 18160
   },
   {
@@ -35513,6 +43865,10 @@ const phrasesDaily = [
     "wordIds": [
       "28169"
     ],
+    "cloze": {
+      "de": "Glücksbringer",
+      "en": "good"
+    },
     "sourceIndex": 18169
   },
   {
@@ -35530,6 +43886,10 @@ const phrasesDaily = [
     "wordIds": [
       "28171"
     ],
+    "cloze": {
+      "de": "grelle",
+      "en": "glaring"
+    },
     "sourceIndex": 18171
   },
   {
@@ -35547,6 +43907,10 @@ const phrasesDaily = [
     "wordIds": [
       "28179"
     ],
+    "cloze": {
+      "de": "Hinterzimmer",
+      "en": "back"
+    },
     "sourceIndex": 18179
   },
   {
@@ -35564,6 +43928,10 @@ const phrasesDaily = [
     "wordIds": [
       "28189"
     ],
+    "cloze": {
+      "de": "Isländisch",
+      "en": "Icelandic"
+    },
     "sourceIndex": 18189
   },
   {
@@ -35581,6 +43949,10 @@ const phrasesDaily = [
     "wordIds": [
       "28221"
     ],
+    "cloze": {
+      "de": "Nachtzeit",
+      "en": "nighttime"
+    },
     "sourceIndex": 18221
   },
   {
@@ -35598,6 +43970,10 @@ const phrasesDaily = [
     "wordIds": [
       "28227"
     ],
+    "cloze": {
+      "de": "Oldie",
+      "en": "oldie"
+    },
     "sourceIndex": 18227
   },
   {
@@ -35615,6 +43991,10 @@ const phrasesDaily = [
     "wordIds": [
       "28229"
     ],
+    "cloze": {
+      "de": "Ortseingang",
+      "en": "town"
+    },
     "sourceIndex": 18229
   },
   {
@@ -35632,6 +44012,10 @@ const phrasesDaily = [
     "wordIds": [
       "28235"
     ],
+    "cloze": {
+      "de": "Perso",
+      "en": "ID"
+    },
     "sourceIndex": 18235
   },
   {
@@ -35649,6 +44033,10 @@ const phrasesDaily = [
     "wordIds": [
       "28248"
     ],
+    "cloze": {
+      "de": "Rasur",
+      "en": "shave"
+    },
     "sourceIndex": 18248
   },
   {
@@ -35666,6 +44054,10 @@ const phrasesDaily = [
     "wordIds": [
       "28260"
     ],
+    "cloze": {
+      "de": "Schlips",
+      "en": "tie"
+    },
     "sourceIndex": 18260
   },
   {
@@ -35683,6 +44075,10 @@ const phrasesDaily = [
     "wordIds": [
       "28262"
     ],
+    "cloze": {
+      "de": "Schnürsenkel",
+      "en": "shoelace"
+    },
     "sourceIndex": 18262
   },
   {
@@ -35700,6 +44096,10 @@ const phrasesDaily = [
     "wordIds": [
       "28265"
     ],
+    "cloze": {
+      "de": "schwül",
+      "en": "humid"
+    },
     "sourceIndex": 18265
   },
   {
@@ -35717,6 +44117,10 @@ const phrasesDaily = [
     "wordIds": [
       "28273"
     ],
+    "cloze": {
+      "de": "Sportpark",
+      "en": "sports"
+    },
     "sourceIndex": 18273
   },
   {
@@ -35734,6 +44138,10 @@ const phrasesDaily = [
     "wordIds": [
       "28274"
     ],
+    "cloze": {
+      "de": "Stadtführung",
+      "en": "city"
+    },
     "sourceIndex": 18274
   },
   {
@@ -35751,6 +44159,10 @@ const phrasesDaily = [
     "wordIds": [
       "28277"
     ],
+    "cloze": {
+      "de": "Staudamm",
+      "en": "dam"
+    },
     "sourceIndex": 18277
   },
   {
@@ -35768,6 +44180,10 @@ const phrasesDaily = [
     "wordIds": [
       "28278"
     ],
+    "cloze": {
+      "de": "Steinhaus",
+      "en": "stone"
+    },
     "sourceIndex": 18278
   },
   {
@@ -35785,6 +44201,10 @@ const phrasesDaily = [
     "wordIds": [
       "28280"
     ],
+    "cloze": {
+      "de": "Sternbilder",
+      "en": "constellations"
+    },
     "sourceIndex": 18280
   },
   {
@@ -35802,6 +44222,10 @@ const phrasesDaily = [
     "wordIds": [
       "28284"
     ],
+    "cloze": {
+      "de": "Südkoreaner",
+      "en": "South"
+    },
     "sourceIndex": 18284
   },
   {
@@ -35819,6 +44243,10 @@ const phrasesDaily = [
     "wordIds": [
       "28288"
     ],
+    "cloze": {
+      "de": "Tischplatte",
+      "en": "tabletop"
+    },
     "sourceIndex": 18288
   },
   {
@@ -35836,6 +44264,10 @@ const phrasesDaily = [
     "wordIds": [
       "28299"
     ],
+    "cloze": {
+      "de": "unreif",
+      "en": "unripe"
+    },
     "sourceIndex": 18299
   },
   {
@@ -35853,6 +44285,10 @@ const phrasesDaily = [
     "wordIds": [
       "28322"
     ],
+    "cloze": {
+      "de": "kommen",
+      "en": "progress"
+    },
     "sourceIndex": 18322
   },
   {
@@ -35870,6 +44306,10 @@ const phrasesDaily = [
     "wordIds": [
       "28338"
     ],
+    "cloze": {
+      "de": "zerschneiden",
+      "en": "cut"
+    },
     "sourceIndex": 18338
   },
   {
@@ -35887,6 +44327,10 @@ const phrasesDaily = [
     "wordIds": [
       "28361"
     ],
+    "cloze": {
+      "de": "ausfahren",
+      "en": "drive"
+    },
     "sourceIndex": 18361
   },
   {
@@ -35904,6 +44348,10 @@ const phrasesDaily = [
     "wordIds": [
       "28390"
     ],
+    "cloze": {
+      "de": "Dinkel",
+      "en": "spelt"
+    },
     "sourceIndex": 18390
   },
   {
@@ -35921,6 +44369,10 @@ const phrasesDaily = [
     "wordIds": [
       "28398"
     ],
+    "cloze": {
+      "de": "Eisbergs",
+      "en": "iceberg"
+    },
     "sourceIndex": 18398
   },
   {
@@ -35938,6 +44390,10 @@ const phrasesDaily = [
     "wordIds": [
       "28419"
     ],
+    "cloze": {
+      "de": "fortgehen",
+      "en": "leave"
+    },
     "sourceIndex": 18419
   },
   {
@@ -35955,6 +44411,10 @@ const phrasesDaily = [
     "wordIds": [
       "28448"
     ],
+    "cloze": {
+      "de": "Himmelsrichtung",
+      "en": "cardinal"
+    },
     "sourceIndex": 18448
   },
   {
@@ -35972,6 +44432,10 @@ const phrasesDaily = [
     "wordIds": [
       "28461"
     ],
+    "cloze": {
+      "de": "Interviewer",
+      "en": "interviewer"
+    },
     "sourceIndex": 18461
   },
   {
@@ -35989,6 +44453,10 @@ const phrasesDaily = [
     "wordIds": [
       "28465"
     ],
+    "cloze": {
+      "de": "Katalanisch",
+      "en": "Catalan"
+    },
     "sourceIndex": 18465
   },
   {
@@ -36006,6 +44474,10 @@ const phrasesDaily = [
     "wordIds": [
       "28468"
     ],
+    "cloze": {
+      "de": "Kinderspielplatz",
+      "en": "children's"
+    },
     "sourceIndex": 18468
   },
   {
@@ -36023,6 +44495,10 @@ const phrasesDaily = [
     "wordIds": [
       "28480"
     ],
+    "cloze": {
+      "de": "Leitplanke",
+      "en": "guardrail"
+    },
     "sourceIndex": 18480
   },
   {
@@ -36040,6 +44516,10 @@ const phrasesDaily = [
     "wordIds": [
       "28496"
     ],
+    "cloze": {
+      "de": "Modenschau",
+      "en": "fashion"
+    },
     "sourceIndex": 18496
   },
   {
@@ -36057,6 +44537,10 @@ const phrasesDaily = [
     "wordIds": [
       "28503"
     ],
+    "cloze": {
+      "de": "Möbelhaus",
+      "en": "furniture"
+    },
     "sourceIndex": 18503
   },
   {
@@ -36074,6 +44558,10 @@ const phrasesDaily = [
     "wordIds": [
       "28512"
     ],
+    "cloze": {
+      "de": "Obstbaum",
+      "en": "fruit"
+    },
     "sourceIndex": 18512
   },
   {
@@ -36091,6 +44579,10 @@ const phrasesDaily = [
     "wordIds": [
       "28513"
     ],
+    "cloze": {
+      "de": "Optimist",
+      "en": "optimist"
+    },
     "sourceIndex": 18513
   },
   {
@@ -36108,6 +44600,10 @@ const phrasesDaily = [
     "wordIds": [
       "28534"
     ],
+    "cloze": {
+      "de": "quietschen",
+      "en": "squeak"
+    },
     "sourceIndex": 18534
   },
   {
@@ -36125,6 +44621,10 @@ const phrasesDaily = [
     "wordIds": [
       "28552"
     ],
+    "cloze": {
+      "de": "Schneesturm",
+      "en": "snowstorm"
+    },
     "sourceIndex": 18552
   },
   {
@@ -36142,6 +44642,10 @@ const phrasesDaily = [
     "wordIds": [
       "28557"
     ],
+    "cloze": {
+      "de": "siebenter",
+      "en": "seventh"
+    },
     "sourceIndex": 18557
   },
   {
@@ -36159,6 +44663,10 @@ const phrasesDaily = [
     "wordIds": [
       "28572"
     ],
+    "cloze": {
+      "de": "Südpol",
+      "en": "South"
+    },
     "sourceIndex": 18572
   },
   {
@@ -36176,6 +44684,10 @@ const phrasesDaily = [
     "wordIds": [
       "28579"
     ],
+    "cloze": {
+      "de": "Traumwelt",
+      "en": "dream"
+    },
     "sourceIndex": 18579
   },
   {
@@ -36193,6 +44705,10 @@ const phrasesDaily = [
     "wordIds": [
       "28601"
     ],
+    "cloze": {
+      "de": "Viereck",
+      "en": "quadrilateral"
+    },
     "sourceIndex": 18601
   },
   {
@@ -36210,6 +44726,10 @@ const phrasesDaily = [
     "wordIds": [
       "28682"
     ],
+    "cloze": {
+      "de": "Fensterscheibe",
+      "en": "window"
+    },
     "sourceIndex": 18682
   },
   {
@@ -36227,6 +44747,10 @@ const phrasesDaily = [
     "wordIds": [
       "28685"
     ],
+    "cloze": {
+      "de": "Fischmarkt",
+      "en": "fish"
+    },
     "sourceIndex": 18685
   },
   {
@@ -36244,6 +44768,10 @@ const phrasesDaily = [
     "wordIds": [
       "28692"
     ],
+    "cloze": {
+      "de": "Geburtshaus",
+      "en": "birthplace"
+    },
     "sourceIndex": 18692
   },
   {
@@ -36261,6 +44789,10 @@ const phrasesDaily = [
     "wordIds": [
       "28703"
     ],
+    "cloze": {
+      "de": "Glöckchen",
+      "en": "small"
+    },
     "sourceIndex": 18703
   },
   {
@@ -36278,6 +44810,10 @@ const phrasesDaily = [
     "wordIds": [
       "28720"
     ],
+    "cloze": {
+      "de": "Indonesisch",
+      "en": "Indonesian"
+    },
     "sourceIndex": 18720
   },
   {
@@ -36295,6 +44831,10 @@ const phrasesDaily = [
     "wordIds": [
       "28726"
     ],
+    "cloze": {
+      "de": "Karamell",
+      "en": "caramel"
+    },
     "sourceIndex": 18726
   },
   {
@@ -36312,6 +44852,10 @@ const phrasesDaily = [
     "wordIds": [
       "28729"
     ],
+    "cloze": {
+      "de": "Kirchplatz",
+      "en": "church"
+    },
     "sourceIndex": 18729
   },
   {
@@ -36329,6 +44873,10 @@ const phrasesDaily = [
     "wordIds": [
       "28741"
     ],
+    "cloze": {
+      "de": "kämmt",
+      "en": "combs"
+    },
     "sourceIndex": 18741
   },
   {
@@ -36346,6 +44894,10 @@ const phrasesDaily = [
     "wordIds": [
       "28752"
     ],
+    "cloze": {
+      "de": "marokkanischen",
+      "en": "Moroccan"
+    },
     "sourceIndex": 18752
   },
   {
@@ -36363,6 +44915,10 @@ const phrasesDaily = [
     "wordIds": [
       "28766"
     ],
+    "cloze": {
+      "de": "Neueröffnung",
+      "en": "grand"
+    },
     "sourceIndex": 18766
   },
   {
@@ -36380,6 +44936,10 @@ const phrasesDaily = [
     "wordIds": [
       "28767"
     ],
+    "cloze": {
+      "de": "nordwärts",
+      "en": "northward"
+    },
     "sourceIndex": 18767
   },
   {
@@ -36397,6 +44957,10 @@ const phrasesDaily = [
     "wordIds": [
       "28789"
     ],
+    "cloze": {
+      "de": "runterholen",
+      "en": "get"
+    },
     "sourceIndex": 18789
   },
   {
@@ -36414,6 +44978,10 @@ const phrasesDaily = [
     "wordIds": [
       "28796"
     ],
+    "cloze": {
+      "de": "Schatzsuche",
+      "en": "treasure"
+    },
     "sourceIndex": 18796
   },
   {
@@ -36431,6 +44999,10 @@ const phrasesDaily = [
     "wordIds": [
       "28884"
     ],
+    "cloze": {
+      "de": "anzustarren",
+      "en": "stare"
+    },
     "sourceIndex": 18884
   },
   {
@@ -36448,6 +45020,10 @@ const phrasesDaily = [
     "wordIds": [
       "28889"
     ],
+    "cloze": {
+      "de": "auffrischen",
+      "en": "brush"
+    },
     "sourceIndex": 18889
   },
   {
@@ -36465,6 +45041,10 @@ const phrasesDaily = [
     "wordIds": [
       "28890"
     ],
+    "cloze": {
+      "de": "auftauen",
+      "en": "thaw"
+    },
     "sourceIndex": 18890
   },
   {
@@ -36482,6 +45062,10 @@ const phrasesDaily = [
     "wordIds": [
       "28900"
     ],
+    "cloze": {
+      "de": "Belüftung",
+      "en": "ventilation"
+    },
     "sourceIndex": 18900
   },
   {
@@ -36499,6 +45083,10 @@ const phrasesDaily = [
     "wordIds": [
       "28903"
     ],
+    "cloze": {
+      "de": "benützt",
+      "en": "uses"
+    },
     "sourceIndex": 18903
   },
   {
@@ -36516,6 +45104,10 @@ const phrasesDaily = [
     "wordIds": [
       "28916"
     ],
+    "cloze": {
+      "de": "Birnbaum",
+      "en": "pear"
+    },
     "sourceIndex": 18916
   },
   {
@@ -36533,6 +45125,10 @@ const phrasesDaily = [
     "wordIds": [
       "28919"
     ],
+    "cloze": {
+      "de": "bold",
+      "en": "bold"
+    },
     "sourceIndex": 18919
   },
   {
@@ -36550,6 +45146,10 @@ const phrasesDaily = [
     "wordIds": [
       "28922"
     ],
+    "cloze": {
+      "de": "Burgruine",
+      "en": "castle"
+    },
     "sourceIndex": 18922
   },
   {
@@ -36567,6 +45167,10 @@ const phrasesDaily = [
     "wordIds": [
       "28960"
     ],
+    "cloze": {
+      "de": "Filmaufnahme",
+      "en": "film"
+    },
     "sourceIndex": 18960
   },
   {
@@ -36584,6 +45188,10 @@ const phrasesDaily = [
     "wordIds": [
       "28961"
     ],
+    "cloze": {
+      "de": "Flussufer",
+      "en": "riverbank"
+    },
     "sourceIndex": 18961
   },
   {
@@ -36601,6 +45209,10 @@ const phrasesDaily = [
     "wordIds": [
       "28996"
     ],
+    "cloze": {
+      "de": "heranführen",
+      "en": "introduce"
+    },
     "sourceIndex": 18996
   },
   {
@@ -36618,6 +45230,10 @@ const phrasesDaily = [
     "wordIds": [
       "28999"
     ],
+    "cloze": {
+      "de": "Hochzeitskleid",
+      "en": "wedding"
+    },
     "sourceIndex": 18999
   },
   {
@@ -36635,6 +45251,10 @@ const phrasesDaily = [
     "wordIds": [
       "29028"
     ],
+    "cloze": {
+      "de": "Kunstprojekt",
+      "en": "art"
+    },
     "sourceIndex": 19028
   },
   {
@@ -36652,6 +45272,10 @@ const phrasesDaily = [
     "wordIds": [
       "29033"
     ],
+    "cloze": {
+      "de": "Laufschuhe",
+      "en": "running"
+    },
     "sourceIndex": 19033
   },
   {
@@ -36669,6 +45293,10 @@ const phrasesDaily = [
     "wordIds": [
       "29038"
     ],
+    "cloze": {
+      "de": "Lieblingsfarbe",
+      "en": "favorite"
+    },
     "sourceIndex": 19038
   },
   {
@@ -36686,6 +45314,10 @@ const phrasesDaily = [
     "wordIds": [
       "29042"
     ],
+    "cloze": {
+      "de": "metallic-blauen",
+      "en": "metallic"
+    },
     "sourceIndex": 19042
   },
   {
@@ -36703,6 +45335,10 @@ const phrasesDaily = [
     "wordIds": [
       "29050"
     ],
+    "cloze": {
+      "de": "Molkerei",
+      "en": "dairy"
+    },
     "sourceIndex": 19050
   },
   {
@@ -36720,6 +45356,10 @@ const phrasesDaily = [
     "wordIds": [
       "29054"
     ],
+    "cloze": {
+      "de": "Mülheimer",
+      "en": "Mülheim"
+    },
     "sourceIndex": 19054
   },
   {
@@ -36737,6 +45377,10 @@ const phrasesDaily = [
     "wordIds": [
       "29063"
     ],
+    "cloze": {
+      "de": "Pik-Ass",
+      "en": "spades"
+    },
     "sourceIndex": 19063
   },
   {
@@ -36754,6 +45398,10 @@ const phrasesDaily = [
     "wordIds": [
       "29068"
     ],
+    "cloze": {
+      "de": "Popstar",
+      "en": "pop"
+    },
     "sourceIndex": 19068
   },
   {
@@ -36771,6 +45419,10 @@ const phrasesDaily = [
     "wordIds": [
       "29084"
     ],
+    "cloze": {
+      "de": "Rettungsgasse",
+      "en": "emergency"
+    },
     "sourceIndex": 19084
   },
   {
@@ -36788,6 +45440,10 @@ const phrasesDaily = [
     "wordIds": [
       "29086"
     ],
+    "cloze": {
+      "de": "Rodeo",
+      "en": "rodeo"
+    },
     "sourceIndex": 19086
   },
   {
@@ -36805,6 +45461,10 @@ const phrasesDaily = [
     "wordIds": [
       "29087"
     ],
+    "cloze": {
+      "de": "Rücksitz",
+      "en": "back"
+    },
     "sourceIndex": 19087
   },
   {
@@ -36822,6 +45482,10 @@ const phrasesDaily = [
     "wordIds": [
       "29125"
     ],
+    "cloze": {
+      "de": "Trainerwechsel",
+      "en": "change"
+    },
     "sourceIndex": 19125
   },
   {
@@ -36839,6 +45503,10 @@ const phrasesDaily = [
     "wordIds": [
       "29130"
     ],
+    "cloze": {
+      "de": "umkreist",
+      "en": "orbits"
+    },
     "sourceIndex": 19130
   },
   {
@@ -36856,6 +45524,10 @@ const phrasesDaily = [
     "wordIds": [
       "29133"
     ],
+    "cloze": {
+      "de": "unbenutzt",
+      "en": "unused"
+    },
     "sourceIndex": 19133
   },
   {
@@ -36873,6 +45545,10 @@ const phrasesDaily = [
     "wordIds": [
       "29161"
     ],
+    "cloze": {
+      "de": "winterlich",
+      "en": "wintry"
+    },
     "sourceIndex": 19161
   },
   {
@@ -36890,6 +45566,10 @@ const phrasesDaily = [
     "wordIds": [
       "29162"
     ],
+    "cloze": {
+      "de": "Wok",
+      "en": "wok"
+    },
     "sourceIndex": 19162
   },
   {
@@ -36907,6 +45587,10 @@ const phrasesDaily = [
     "wordIds": [
       "29164"
     ],
+    "cloze": {
+      "de": "Zahltag",
+      "en": "payday"
+    },
     "sourceIndex": 19164
   },
   {
@@ -36924,6 +45608,10 @@ const phrasesDaily = [
     "wordIds": [
       "29170"
     ],
+    "cloze": {
+      "de": "zweisprachig",
+      "en": "bilingual"
+    },
     "sourceIndex": 19170
   },
   {
@@ -36941,6 +45629,10 @@ const phrasesDaily = [
     "wordIds": [
       "29186"
     ],
+    "cloze": {
+      "de": "angenommen",
+      "en": "accepted"
+    },
     "sourceIndex": 19186
   },
   {
@@ -36958,6 +45650,10 @@ const phrasesDaily = [
     "wordIds": [
       "29213"
     ],
+    "cloze": {
+      "de": "Bücherregal",
+      "en": "bookshelf"
+    },
     "sourceIndex": 19213
   },
   {
@@ -36975,6 +45671,10 @@ const phrasesDaily = [
     "wordIds": [
       "29215"
     ],
+    "cloze": {
+      "de": "Curling",
+      "en": "Curling"
+    },
     "sourceIndex": 19215
   },
   {
@@ -36992,6 +45692,10 @@ const phrasesDaily = [
     "wordIds": [
       "29246"
     ],
+    "cloze": {
+      "de": "farbenfroh",
+      "en": "colorful"
+    },
     "sourceIndex": 19246
   },
   {
@@ -37009,6 +45713,10 @@ const phrasesDaily = [
     "wordIds": [
       "29247"
     ],
+    "cloze": {
+      "de": "Feueralarm",
+      "en": "fire"
+    },
     "sourceIndex": 19247
   },
   {
@@ -37026,6 +45734,10 @@ const phrasesDaily = [
     "wordIds": [
       "29251"
     ],
+    "cloze": {
+      "de": "fragenden",
+      "en": "questioning"
+    },
     "sourceIndex": 19251
   },
   {
@@ -37043,6 +45755,10 @@ const phrasesDaily = [
     "wordIds": [
       "29254"
     ],
+    "cloze": {
+      "de": "Freizeitaktivität",
+      "en": "leisure"
+    },
     "sourceIndex": 19254
   },
   {
@@ -37060,6 +45776,10 @@ const phrasesDaily = [
     "wordIds": [
       "29273"
     ],
+    "cloze": {
+      "de": "Gigabit",
+      "en": "gigabit"
+    },
     "sourceIndex": 19273
   },
   {
@@ -37077,6 +45797,10 @@ const phrasesDaily = [
     "wordIds": [
       "29279"
     ],
+    "cloze": {
+      "de": "hageln",
+      "en": "hail"
+    },
     "sourceIndex": 19279
   },
   {
@@ -37094,6 +45818,10 @@ const phrasesDaily = [
     "wordIds": [
       "29288"
     ],
+    "cloze": {
+      "de": "Hausschuhe",
+      "en": "slippers"
+    },
     "sourceIndex": 19288
   },
   {
@@ -37111,6 +45839,10 @@ const phrasesDaily = [
     "wordIds": [
       "29294"
     ],
+    "cloze": {
+      "de": "Hochebene",
+      "en": "plateau"
+    },
     "sourceIndex": 19294
   },
   {
@@ -37128,6 +45860,10 @@ const phrasesDaily = [
     "wordIds": [
       "29302"
     ],
+    "cloze": {
+      "de": "Kindermädchen",
+      "en": "nanny"
+    },
     "sourceIndex": 19302
   },
   {
@@ -37145,6 +45881,10 @@ const phrasesDaily = [
     "wordIds": [
       "29316"
     ],
+    "cloze": {
+      "de": "Kunstrasen",
+      "en": "artificial"
+    },
     "sourceIndex": 19316
   },
   {
@@ -37162,6 +45902,10 @@ const phrasesDaily = [
     "wordIds": [
       "29325"
     ],
+    "cloze": {
+      "de": "Lutscher",
+      "en": "lollipop"
+    },
     "sourceIndex": 19325
   },
   {
@@ -37179,6 +45923,10 @@ const phrasesDaily = [
     "wordIds": [
       "29338"
     ],
+    "cloze": {
+      "de": "nachbauen",
+      "en": "reconstruct"
+    },
     "sourceIndex": 19338
   },
   {
@@ -37196,6 +45944,10 @@ const phrasesDaily = [
     "wordIds": [
       "29344"
     ],
+    "cloze": {
+      "de": "neunzehn",
+      "en": "nineteen"
+    },
     "sourceIndex": 19344
   },
   {
@@ -37213,6 +45965,10 @@ const phrasesDaily = [
     "wordIds": [
       "29351"
     ],
+    "cloze": {
+      "de": "Ostereier",
+      "en": "Easter"
+    },
     "sourceIndex": 19351
   },
   {
@@ -37230,6 +45986,10 @@ const phrasesDaily = [
     "wordIds": [
       "29352"
     ],
+    "cloze": {
+      "de": "Paragrafen",
+      "en": "paragraph"
+    },
     "sourceIndex": 19352
   },
   {
@@ -37247,6 +46007,10 @@ const phrasesDaily = [
     "wordIds": [
       "29359"
     ],
+    "cloze": {
+      "de": "Probetraining",
+      "en": "trial"
+    },
     "sourceIndex": 19359
   },
   {
@@ -37264,6 +46028,10 @@ const phrasesDaily = [
     "wordIds": [
       "29362"
     ],
+    "cloze": {
+      "de": "Projektgruppe",
+      "en": "project"
+    },
     "sourceIndex": 19362
   },
   {
@@ -37281,6 +46049,10 @@ const phrasesDaily = [
     "wordIds": [
       "29365"
     ],
+    "cloze": {
+      "de": "Realist",
+      "en": "realist"
+    },
     "sourceIndex": 19365
   },
   {
@@ -37298,6 +46070,10 @@ const phrasesDaily = [
     "wordIds": [
       "29382"
     ],
+    "cloze": {
+      "de": "Salbei",
+      "en": "Sage"
+    },
     "sourceIndex": 19382
   },
   {
@@ -37315,6 +46091,10 @@ const phrasesDaily = [
     "wordIds": [
       "29397"
     ],
+    "cloze": {
+      "de": "Seufzer",
+      "en": "sigh"
+    },
     "sourceIndex": 19397
   },
   {
@@ -37332,6 +46112,10 @@ const phrasesDaily = [
     "wordIds": [
       "29401"
     ],
+    "cloze": {
+      "de": "Skiurlaub",
+      "en": "ski"
+    },
     "sourceIndex": 19401
   },
   {
@@ -37349,6 +46133,10 @@ const phrasesDaily = [
     "wordIds": [
       "29450"
     ],
+    "cloze": {
+      "de": "vorbestellen",
+      "en": "pre-order"
+    },
     "sourceIndex": 19450
   },
   {
@@ -37366,6 +46154,10 @@ const phrasesDaily = [
     "wordIds": [
       "29485"
     ],
+    "cloze": {
+      "de": "anreden",
+      "en": "address"
+    },
     "sourceIndex": 19485
   },
   {
@@ -37383,6 +46175,10 @@ const phrasesDaily = [
     "wordIds": [
       "29502"
     ],
+    "cloze": {
+      "de": "Bescherung",
+      "en": "gift-giving"
+    },
     "sourceIndex": 19502
   },
   {
@@ -37400,6 +46196,10 @@ const phrasesDaily = [
     "wordIds": [
       "29512"
     ],
+    "cloze": {
+      "de": "Cabriolet",
+      "en": "convertible"
+    },
     "sourceIndex": 19512
   },
   {
@@ -37417,6 +46217,10 @@ const phrasesDaily = [
     "wordIds": [
       "29519"
     ],
+    "cloze": {
+      "de": "dazukommen",
+      "en": "join"
+    },
     "sourceIndex": 19519
   },
   {
@@ -37434,6 +46238,10 @@ const phrasesDaily = [
     "wordIds": [
       "29529"
     ],
+    "cloze": {
+      "de": "Elektrofahrzeug",
+      "en": "electric"
+    },
     "sourceIndex": 19529
   },
   {
@@ -37451,6 +46259,10 @@ const phrasesDaily = [
     "wordIds": [
       "29552"
     ],
+    "cloze": {
+      "de": "Formatierung",
+      "en": "formatting"
+    },
     "sourceIndex": 19552
   },
   {
@@ -37468,6 +46280,10 @@ const phrasesDaily = [
     "wordIds": [
       "29568"
     ],
+    "cloze": {
+      "de": "geschriebene",
+      "en": "written"
+    },
     "sourceIndex": 19568
   },
   {
@@ -37485,6 +46301,10 @@ const phrasesDaily = [
     "wordIds": [
       "29575"
     ],
+    "cloze": {
+      "de": "Halbzeitpause",
+      "en": "halftime"
+    },
     "sourceIndex": 19575
   },
   {
@@ -37502,6 +46322,10 @@ const phrasesDaily = [
     "wordIds": [
       "29581"
     ],
+    "cloze": {
+      "de": "hochhalten",
+      "en": "uphold"
+    },
     "sourceIndex": 19581
   },
   {
@@ -37519,6 +46343,10 @@ const phrasesDaily = [
     "wordIds": [
       "29608"
     ],
+    "cloze": {
+      "de": "Landgut",
+      "en": "country"
+    },
     "sourceIndex": 19608
   },
   {
@@ -37536,6 +46364,10 @@ const phrasesDaily = [
     "wordIds": [
       "29620"
     ],
+    "cloze": {
+      "de": "mediterrane",
+      "en": "Mediterranean"
+    },
     "sourceIndex": 19620
   },
   {
@@ -37553,6 +46385,10 @@ const phrasesDaily = [
     "wordIds": [
       "29631"
     ],
+    "cloze": {
+      "de": "Nordafrikaner",
+      "en": "North"
+    },
     "sourceIndex": 19631
   },
   {
@@ -37570,6 +46406,10 @@ const phrasesDaily = [
     "wordIds": [
       "29632"
     ],
+    "cloze": {
+      "de": "nordkoreanische",
+      "en": "North"
+    },
     "sourceIndex": 19632
   },
   {
@@ -37587,6 +46427,10 @@ const phrasesDaily = [
     "wordIds": [
       "29634"
     ],
+    "cloze": {
+      "de": "Nougat",
+      "en": "nougat"
+    },
     "sourceIndex": 19634
   },
   {
@@ -37604,6 +46448,10 @@ const phrasesDaily = [
     "wordIds": [
       "29646"
     ],
+    "cloze": {
+      "de": "Präsens",
+      "en": "present"
+    },
     "sourceIndex": 19646
   },
   {
@@ -37621,6 +46469,10 @@ const phrasesDaily = [
     "wordIds": [
       "29682"
     ],
+    "cloze": {
+      "de": "Sportanlage",
+      "en": "sports"
+    },
     "sourceIndex": 19682
   },
   {
@@ -37638,6 +46490,10 @@ const phrasesDaily = [
     "wordIds": [
       "29689"
     ],
+    "cloze": {
+      "de": "Stromrechnung",
+      "en": "electricity"
+    },
     "sourceIndex": 19689
   },
   {
@@ -37655,6 +46511,10 @@ const phrasesDaily = [
     "wordIds": [
       "29695"
     ],
+    "cloze": {
+      "de": "Telefongespräch",
+      "en": "phone"
+    },
     "sourceIndex": 19695
   },
   {
@@ -37672,6 +46532,10 @@ const phrasesDaily = [
     "wordIds": [
       "29707"
     ],
+    "cloze": {
+      "de": "unordentlich",
+      "en": "messy"
+    },
     "sourceIndex": 19707
   },
   {
@@ -37689,6 +46553,10 @@ const phrasesDaily = [
     "wordIds": [
       "29714"
     ],
+    "cloze": {
+      "de": "Vergnügungspark",
+      "en": "amusement"
+    },
     "sourceIndex": 19714
   },
   {
@@ -37706,6 +46574,10 @@ const phrasesDaily = [
     "wordIds": [
       "29745"
     ],
+    "cloze": {
+      "de": "Weinfest",
+      "en": "wine"
+    },
     "sourceIndex": 19745
   },
   {
@@ -37723,6 +46595,10 @@ const phrasesDaily = [
     "wordIds": [
       "29753"
     ],
+    "cloze": {
+      "de": "Zehe",
+      "en": "toe"
+    },
     "sourceIndex": 19753
   },
   {
@@ -37740,6 +46616,10 @@ const phrasesDaily = [
     "wordIds": [
       "29754"
     ],
+    "cloze": {
+      "de": "Zeltlager",
+      "en": "tent"
+    },
     "sourceIndex": 19754
   },
   {
@@ -37757,6 +46637,10 @@ const phrasesDaily = [
     "wordIds": [
       "29796"
     ],
+    "cloze": {
+      "de": "Danksagung",
+      "en": "thank-you"
+    },
     "sourceIndex": 19796
   },
   {
@@ -37774,6 +46658,10 @@ const phrasesDaily = [
     "wordIds": [
       "29810"
     ],
+    "cloze": {
+      "de": "eintönig",
+      "en": "monotonous"
+    },
     "sourceIndex": 19810
   },
   {
@@ -37791,6 +46679,10 @@ const phrasesDaily = [
     "wordIds": [
       "29826"
     ],
+    "cloze": {
+      "de": "Firmenwagen",
+      "en": "company"
+    },
     "sourceIndex": 19826
   },
   {
@@ -37808,6 +46700,10 @@ const phrasesDaily = [
     "wordIds": [
       "29827"
     ],
+    "cloze": {
+      "de": "Fjorde",
+      "en": "fjords"
+    },
     "sourceIndex": 19827
   },
   {
@@ -37825,6 +46721,10 @@ const phrasesDaily = [
     "wordIds": [
       "29828"
     ],
+    "cloze": {
+      "de": "Flamingo",
+      "en": "flamingo"
+    },
     "sourceIndex": 19828
   },
   {
@@ -37842,6 +46742,10 @@ const phrasesDaily = [
     "wordIds": [
       "29842"
     ],
+    "cloze": {
+      "de": "geschmackvolle",
+      "en": "tasteful"
+    },
     "sourceIndex": 19842
   },
   {
@@ -37859,6 +46763,10 @@ const phrasesDaily = [
     "wordIds": [
       "29854"
     ],
+    "cloze": {
+      "de": "harmonieren",
+      "en": "harmonize"
+    },
     "sourceIndex": 19854
   },
   {
@@ -37876,6 +46784,10 @@ const phrasesDaily = [
     "wordIds": [
       "29858"
     ],
+    "cloze": {
+      "de": "Heimatdorf",
+      "en": "home"
+    },
     "sourceIndex": 19858
   },
   {
@@ -37893,6 +46805,10 @@ const phrasesDaily = [
     "wordIds": [
       "29866"
     ],
+    "cloze": {
+      "de": "Hirse",
+      "en": "Millet"
+    },
     "sourceIndex": 19866
   },
   {
@@ -37910,6 +46826,10 @@ const phrasesDaily = [
     "wordIds": [
       "29926"
     ],
+    "cloze": {
+      "de": "Ox",
+      "en": "ox"
+    },
     "sourceIndex": 19926
   },
   {
@@ -37927,6 +46847,10 @@ const phrasesDaily = [
     "wordIds": [
       "29927"
     ],
+    "cloze": {
+      "de": "Pflänzchen",
+      "en": "small"
+    },
     "sourceIndex": 19927
   },
   {
@@ -37944,6 +46868,10 @@ const phrasesDaily = [
     "wordIds": [
       "29929"
     ],
+    "cloze": {
+      "de": "Piccolo",
+      "en": "piccolo"
+    },
     "sourceIndex": 19929
   },
   {
@@ -37961,6 +46889,10 @@ const phrasesDaily = [
     "wordIds": [
       "29943"
     ],
+    "cloze": {
+      "de": "Radfahrerin",
+      "en": "female"
+    },
     "sourceIndex": 19943
   },
   {
@@ -37978,6 +46910,10 @@ const phrasesDaily = [
     "wordIds": [
       "29953"
     ],
+    "cloze": {
+      "de": "Rentier",
+      "en": "reindeer"
+    },
     "sourceIndex": 19953
   },
   {
@@ -37995,6 +46931,10 @@ const phrasesDaily = [
     "wordIds": [
       "29965"
     ],
+    "cloze": {
+      "de": "Schweisser",
+      "en": "welder"
+    },
     "sourceIndex": 19965
   },
   {
@@ -38012,6 +46952,10 @@ const phrasesDaily = [
     "wordIds": [
       "29973"
     ],
+    "cloze": {
+      "de": "Silo",
+      "en": "silo"
+    },
     "sourceIndex": 19973
   },
   {
@@ -38029,6 +46973,10 @@ const phrasesDaily = [
     "wordIds": [
       "29974"
     ],
+    "cloze": {
+      "de": "Sixpack",
+      "en": "six-pack"
+    },
     "sourceIndex": 19974
   },
   {
@@ -38046,6 +46994,10 @@ const phrasesDaily = [
     "wordIds": [
       "29989"
     ],
+    "cloze": {
+      "de": "Straßenfest",
+      "en": "street"
+    },
     "sourceIndex": 19989
   },
   {
@@ -38063,6 +47015,10 @@ const phrasesDaily = [
     "wordIds": [
       "29994"
     ],
+    "cloze": {
+      "de": "Terminplan",
+      "en": "schedule"
+    },
     "sourceIndex": 19994
   },
   {
@@ -38080,6 +47036,10 @@ const phrasesDaily = [
     "wordIds": [
       "30000"
     ],
+    "cloze": {
+      "de": "Traumberuf",
+      "en": "dream"
+    },
     "sourceIndex": 20000
   },
   {
@@ -38097,6 +47057,10 @@ const phrasesDaily = [
     "wordIds": [
       "30003"
     ],
+    "cloze": {
+      "de": "Tuner",
+      "en": "tuner"
+    },
     "sourceIndex": 20003
   },
   {
@@ -38114,6 +47078,10 @@ const phrasesDaily = [
     "wordIds": [
       "30004"
     ],
+    "cloze": {
+      "de": "Turniersieg",
+      "en": "tournament"
+    },
     "sourceIndex": 20004
   },
   {
@@ -38131,6 +47099,10 @@ const phrasesDaily = [
     "wordIds": [
       "30036"
     ],
+    "cloze": {
+      "de": "Wash",
+      "en": "car"
+    },
     "sourceIndex": 20036
   },
   {
@@ -38148,6 +47120,10 @@ const phrasesDaily = [
     "wordIds": [
       "30038"
     ],
+    "cloze": {
+      "de": "Wasserverbrauch",
+      "en": "water"
+    },
     "sourceIndex": 20038
   },
   {
@@ -38165,6 +47141,10 @@ const phrasesDaily = [
     "wordIds": [
       "30071"
     ],
+    "cloze": {
+      "de": "Aprilscherz",
+      "en": "April"
+    },
     "sourceIndex": 20071
   },
   {
@@ -38182,6 +47162,10 @@ const phrasesDaily = [
     "wordIds": [
       "30081"
     ],
+    "cloze": {
+      "de": "bepflanzen",
+      "en": "plant"
+    },
     "sourceIndex": 20081
   },
   {
@@ -38199,6 +47183,10 @@ const phrasesDaily = [
     "wordIds": [
       "30104"
     ],
+    "cloze": {
+      "de": "Déjà-vu",
+      "en": "a"
+    },
     "sourceIndex": 20104
   },
   {
@@ -38216,6 +47204,10 @@ const phrasesDaily = [
     "wordIds": [
       "30125"
     ],
+    "cloze": {
+      "de": "Fete",
+      "en": "party"
+    },
     "sourceIndex": 20125
   },
   {
@@ -38233,6 +47225,10 @@ const phrasesDaily = [
     "wordIds": [
       "30127"
     ],
+    "cloze": {
+      "de": "Filmindustrie",
+      "en": "film"
+    },
     "sourceIndex": 20127
   },
   {
@@ -38250,6 +47246,10 @@ const phrasesDaily = [
     "wordIds": [
       "30129"
     ],
+    "cloze": {
+      "de": "Finanzplanung",
+      "en": "financial"
+    },
     "sourceIndex": 20129
   },
   {
@@ -38267,6 +47267,10 @@ const phrasesDaily = [
     "wordIds": [
       "30134"
     ],
+    "cloze": {
+      "de": "fotografisches",
+      "en": "photographic"
+    },
     "sourceIndex": 20134
   },
   {
@@ -38284,6 +47288,10 @@ const phrasesDaily = [
     "wordIds": [
       "30172"
     ],
+    "cloze": {
+      "de": "inserieren",
+      "en": "advertise"
+    },
     "sourceIndex": 20172
   },
   {
@@ -38301,6 +47309,10 @@ const phrasesDaily = [
     "wordIds": [
       "30193"
     ],
+    "cloze": {
+      "de": "Lettisch",
+      "en": "Latvian"
+    },
     "sourceIndex": 20193
   },
   {
@@ -38318,6 +47330,10 @@ const phrasesDaily = [
     "wordIds": [
       "30194"
     ],
+    "cloze": {
+      "de": "Lichtschalter",
+      "en": "light"
+    },
     "sourceIndex": 20194
   },
   {
@@ -38335,6 +47351,10 @@ const phrasesDaily = [
     "wordIds": [
       "30202"
     ],
+    "cloze": {
+      "de": "Mindestabstand",
+      "en": "minimum"
+    },
     "sourceIndex": 20202
   },
   {
@@ -38352,6 +47372,10 @@ const phrasesDaily = [
     "wordIds": [
       "30205"
     ],
+    "cloze": {
+      "de": "mitziehen",
+      "en": "go"
+    },
     "sourceIndex": 20205
   },
   {
@@ -38369,6 +47393,10 @@ const phrasesDaily = [
     "wordIds": [
       "30211"
     ],
+    "cloze": {
+      "de": "Nager",
+      "en": "rodents"
+    },
     "sourceIndex": 20211
   },
   {
@@ -38386,6 +47414,10 @@ const phrasesDaily = [
     "wordIds": [
       "30212"
     ],
+    "cloze": {
+      "de": "nagte",
+      "en": "gnawed"
+    },
     "sourceIndex": 20212
   },
   {
@@ -38403,6 +47435,10 @@ const phrasesDaily = [
     "wordIds": [
       "30219"
     ],
+    "cloze": {
+      "de": "Opi",
+      "en": "grandpa"
+    },
     "sourceIndex": 20219
   },
   {
@@ -38420,6 +47456,10 @@ const phrasesDaily = [
     "wordIds": [
       "30245"
     ],
+    "cloze": {
+      "de": "Schablone",
+      "en": "template"
+    },
     "sourceIndex": 20245
   },
   {
@@ -38437,6 +47477,10 @@ const phrasesDaily = [
     "wordIds": [
       "30260"
     ],
+    "cloze": {
+      "de": "Sommerhaus",
+      "en": "summer"
+    },
     "sourceIndex": 20260
   },
   {
@@ -38454,6 +47498,10 @@ const phrasesDaily = [
     "wordIds": [
       "30268"
     ],
+    "cloze": {
+      "de": "Stadtgarten",
+      "en": "city"
+    },
     "sourceIndex": 20268
   },
   {
@@ -38471,6 +47519,10 @@ const phrasesDaily = [
     "wordIds": [
       "40001"
     ],
+    "cloze": {
+      "de": "muss",
+      "en": "have"
+    },
     "source": "editorial"
   },
   {
@@ -38488,6 +47540,10 @@ const phrasesDaily = [
     "wordIds": [
       "40002"
     ],
+    "cloze": {
+      "de": "das",
+      "en": "May"
+    },
     "source": "editorial"
   },
   {
@@ -38505,6 +47561,10 @@ const phrasesDaily = [
     "wordIds": [
       "40003"
     ],
+    "cloze": {
+      "de": "sollst",
+      "en": "should"
+    },
     "source": "editorial"
   },
   {
@@ -38522,6 +47582,10 @@ const phrasesDaily = [
     "wordIds": [
       "40004"
     ],
+    "cloze": {
+      "de": "wollen",
+      "en": "want"
+    },
     "source": "editorial"
   },
   {
@@ -38539,6 +47603,10 @@ const phrasesDaily = [
     "wordIds": [
       "40005"
     ],
+    "cloze": {
+      "de": "diesen",
+      "en": "like"
+    },
     "source": "editorial"
   }
 ];

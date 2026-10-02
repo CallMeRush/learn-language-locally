@@ -21,18 +21,23 @@ Both translation directions contribute to the new deck's study profile
 (`en-de-deck-efd235e6-v1`). It starts fresh because the content IDs changed.
 Earlier progress stays stored in the browser but is not applied to this corpus.
 
-The current A1–B1 dataset includes 6,248 vocabulary entries, 1,320 adjectives, 1,585 verbs and
-9,124 example sentences. German grammar remains separate. See
+The current A1–B1 dataset includes 6,248 general vocabulary entries, 1,320
+adjectives, 1,585 verbs and 9,124 example sentences. German grammar remains separate. See
 [`data/ATTRIBUTION.md`](data/ATTRIBUTION.md) for source credits and data terms.
 
 Vocabulary has Nouns (the general word collection), Verbs, and Adjectives tabs.
 Click a list entry to practise it. A default-on Hide answer toggle conceals the
 answer-side translation in the list; ✓ and ✕ mark correct and incorrect answers.
-Words and sentences have parallel Pending, Correct and Incorrect lists with
-counts and paginated rows. Click any entry to practise it again. Adjectives retain
-meaning groups without tone filters. Topics are ordered using CEFR and source
-frequency rank; Vocabulary opens a small topic rather than All words.
-Practice layouts adapt from stacked mobile lists to desktop columns.
+The study-status buttons filter both the list and the practice card: an empty
+selection clearly says so instead of repeating a completed item. Vocabulary also
+distinguishes first-try answers, answers corrected after an error, and article-only
+errors. Phrase practice remains a separate desk with the same multi-topic
+selection behavior. Its direction, cloze, and multiple-choice settings are
+independent; cloze targets are the linked vocabulary word as it appears in the
+sentence. Adjectives retain meaning groups without tone filters. Topics are
+ordered using CEFR and source frequency rank; Vocabulary opens a small topic
+rather than All words. Practice layouts adapt from stacked mobile lists to
+desktop columns.
 
 ## Project layout
 
@@ -50,6 +55,6 @@ See [`data/README.md`](data/README.md) for the content format.
 
 - Improve German vocabulary, noun plurals and examples using reviewed sources
   (see [`data/VOCABULARY-SOURCES.md`](data/VOCABULARY-SOURCES.md)).
-- Add import/export of progress for moving between browsers or devices.
 - Expand German grammar and lessons.
-- Add automated linguistic validation and review tools.
+- Continue reviewing vocabulary, sentence targets, and translations with the
+  existing data-quality tools.

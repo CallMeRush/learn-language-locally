@@ -14,6 +14,10 @@ const phrasesHealth = [
     "wordIds": [
       "10000"
     ],
+    "cloze": {
+      "de": "sein",
+      "en": "be"
+    },
     "sourceIndex": 0
   },
   {
@@ -31,6 +35,10 @@ const phrasesHealth = [
     "wordIds": [
       "10005"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "becoming"
+    },
     "sourceIndex": 5
   },
   {
@@ -48,6 +56,10 @@ const phrasesHealth = [
     "wordIds": [
       "10092"
     ],
+    "cloze": {
+      "de": "zurück",
+      "en": "back"
+    },
     "sourceIndex": 92
   },
   {
@@ -65,6 +77,10 @@ const phrasesHealth = [
     "wordIds": [
       "10193"
     ],
+    "cloze": {
+      "de": "Hand",
+      "en": "hand"
+    },
     "sourceIndex": 193
   },
   {
@@ -82,6 +98,10 @@ const phrasesHealth = [
     "wordIds": [
       "10194"
     ],
+    "cloze": {
+      "de": "Kopfschmerzen",
+      "en": "He"
+    },
     "sourceIndex": 194
   },
   {
@@ -99,6 +119,10 @@ const phrasesHealth = [
     "wordIds": [
       "10216"
     ],
+    "cloze": {
+      "de": "Augen",
+      "en": "eyes"
+    },
     "sourceIndex": 216
   },
   {
@@ -116,6 +140,10 @@ const phrasesHealth = [
     "wordIds": [
       "10299"
     ],
+    "cloze": {
+      "de": "Tod",
+      "en": "Death"
+    },
     "sourceIndex": 299
   },
   {
@@ -133,6 +161,10 @@ const phrasesHealth = [
     "wordIds": [
       "10392"
     ],
+    "cloze": {
+      "de": "Gesicht",
+      "en": "face"
+    },
     "sourceIndex": 392
   },
   {
@@ -150,6 +182,10 @@ const phrasesHealth = [
     "wordIds": [
       "10401"
     ],
+    "cloze": {
+      "de": "Herz",
+      "en": "heart"
+    },
     "sourceIndex": 401
   },
   {
@@ -167,6 +203,10 @@ const phrasesHealth = [
     "wordIds": [
       "10417"
     ],
+    "cloze": {
+      "de": "Luft",
+      "en": "air"
+    },
     "sourceIndex": 417
   },
   {
@@ -184,6 +224,10 @@ const phrasesHealth = [
     "wordIds": [
       "10445"
     ],
+    "cloze": {
+      "de": "Körper",
+      "en": "body"
+    },
     "sourceIndex": 445
   },
   {
@@ -201,6 +245,10 @@ const phrasesHealth = [
     "wordIds": [
       "10496"
     ],
+    "cloze": {
+      "de": "Kraft",
+      "en": "strength"
+    },
     "sourceIndex": 496
   },
   {
@@ -218,6 +266,10 @@ const phrasesHealth = [
     "wordIds": [
       "10635"
     ],
+    "cloze": {
+      "de": "Arzt",
+      "en": "doctor"
+    },
     "sourceIndex": 635
   },
   {
@@ -235,6 +287,10 @@ const phrasesHealth = [
     "wordIds": [
       "10668"
     ],
+    "cloze": {
+      "de": "Mittel",
+      "en": "remedy"
+    },
     "sourceIndex": 668
   },
   {
@@ -252,6 +308,10 @@ const phrasesHealth = [
     "wordIds": [
       "10704"
     ],
+    "cloze": {
+      "de": "Patient",
+      "en": "patient"
+    },
     "sourceIndex": 704
   },
   {
@@ -269,6 +329,10 @@ const phrasesHealth = [
     "wordIds": [
       "10715"
     ],
+    "cloze": {
+      "de": "tut",
+      "en": "foot"
+    },
     "sourceIndex": 715
   },
   {
@@ -286,6 +350,10 @@ const phrasesHealth = [
     "wordIds": [
       "10723"
     ],
+    "cloze": {
+      "de": "sterben",
+      "en": "die"
+    },
     "sourceIndex": 723
   },
   {
@@ -303,6 +371,10 @@ const phrasesHealth = [
     "wordIds": [
       "10755"
     ],
+    "cloze": {
+      "de": "Haut",
+      "en": "skin"
+    },
     "sourceIndex": 755
   },
   {
@@ -320,6 +392,10 @@ const phrasesHealth = [
     "wordIds": [
       "10756"
     ],
+    "cloze": {
+      "de": "hinten",
+      "en": "at"
+    },
     "sourceIndex": 756
   },
   {
@@ -337,6 +413,10 @@ const phrasesHealth = [
     "wordIds": [
       "10760"
     ],
+    "cloze": {
+      "de": "Rücken",
+      "en": "back"
+    },
     "sourceIndex": 760
   },
   {
@@ -354,6 +434,10 @@ const phrasesHealth = [
     "wordIds": [
       "10813"
     ],
+    "cloze": {
+      "de": "Praxis",
+      "en": "doctor's"
+    },
     "sourceIndex": 813
   },
   {
@@ -371,6 +455,10 @@ const phrasesHealth = [
     "wordIds": [
       "10833"
     ],
+    "cloze": {
+      "de": "Krankenhaus",
+      "en": "hospital"
+    },
     "sourceIndex": 833
   },
   {
@@ -388,6 +476,10 @@ const phrasesHealth = [
     "wordIds": [
       "10835"
     ],
+    "cloze": {
+      "de": "Mund",
+      "en": "mouth"
+    },
     "sourceIndex": 835
   },
   {
@@ -405,6 +497,10 @@ const phrasesHealth = [
     "wordIds": [
       "10839"
     ],
+    "cloze": {
+      "de": "tot",
+      "en": "dead"
+    },
     "sourceIndex": 839
   },
   {
@@ -422,6 +518,10 @@ const phrasesHealth = [
     "wordIds": [
       "10846"
     ],
+    "cloze": {
+      "de": "Arm",
+      "en": "arm"
+    },
     "sourceIndex": 846
   },
   {
@@ -439,6 +539,10 @@ const phrasesHealth = [
     "wordIds": [
       "10850"
     ],
+    "cloze": {
+      "de": "Behandlung",
+      "en": "treatment"
+    },
     "sourceIndex": 850
   },
   {
@@ -456,6 +560,10 @@ const phrasesHealth = [
     "wordIds": [
       "10876"
     ],
+    "cloze": {
+      "de": "behandeln",
+      "en": "treat"
+    },
     "sourceIndex": 876
   },
   {
@@ -473,6 +581,10 @@ const phrasesHealth = [
     "wordIds": [
       "10877"
     ],
+    "cloze": {
+      "de": "Blut",
+      "en": "blood"
+    },
     "sourceIndex": 877
   },
   {
@@ -490,6 +602,10 @@ const phrasesHealth = [
     "wordIds": [
       "10915"
     ],
+    "cloze": {
+      "de": "Wirkung",
+      "en": "effect"
+    },
     "sourceIndex": 915
   },
   {
@@ -507,6 +623,10 @@ const phrasesHealth = [
     "wordIds": [
       "10964"
     ],
+    "cloze": {
+      "de": "krank",
+      "en": "sick"
+    },
     "sourceIndex": 964
   },
   {
@@ -524,6 +644,10 @@ const phrasesHealth = [
     "wordIds": [
       "10986"
     ],
+    "cloze": {
+      "de": "Gesundheit",
+      "en": "health"
+    },
     "sourceIndex": 986
   },
   {
@@ -541,6 +665,10 @@ const phrasesHealth = [
     "wordIds": [
       "10988"
     ],
+    "cloze": {
+      "de": "leiden",
+      "en": "suffer"
+    },
     "sourceIndex": 988
   },
   {
@@ -558,6 +686,10 @@ const phrasesHealth = [
     "wordIds": [
       "11034"
     ],
+    "cloze": {
+      "de": "Finger",
+      "en": "fingers"
+    },
     "sourceIndex": 1034
   },
   {
@@ -575,6 +707,10 @@ const phrasesHealth = [
     "wordIds": [
       "11098"
     ],
+    "cloze": {
+      "de": "bewegen",
+      "en": "move"
+    },
     "sourceIndex": 1098
   },
   {
@@ -592,6 +728,10 @@ const phrasesHealth = [
     "wordIds": [
       "11106"
     ],
+    "cloze": {
+      "de": "Nase",
+      "en": "nose"
+    },
     "sourceIndex": 1106
   },
   {
@@ -609,6 +749,10 @@ const phrasesHealth = [
     "wordIds": [
       "11136"
     ],
+    "cloze": {
+      "de": "Haar",
+      "en": "hair"
+    },
     "sourceIndex": 1136
   },
   {
@@ -626,6 +770,10 @@ const phrasesHealth = [
     "wordIds": [
       "11147"
     ],
+    "cloze": {
+      "de": "andererseits",
+      "en": "On"
+    },
     "sourceIndex": 1147
   },
   {
@@ -643,6 +791,10 @@ const phrasesHealth = [
     "wordIds": [
       "11213"
     ],
+    "cloze": {
+      "de": "Krankheit",
+      "en": "illness"
+    },
     "sourceIndex": 1213
   },
   {
@@ -660,6 +812,10 @@ const phrasesHealth = [
     "wordIds": [
       "11222"
     ],
+    "cloze": {
+      "de": "tätig",
+      "en": "active"
+    },
     "sourceIndex": 1222
   },
   {
@@ -677,6 +833,10 @@ const phrasesHealth = [
     "wordIds": [
       "11231"
     ],
+    "cloze": {
+      "de": "Bein",
+      "en": "leg"
+    },
     "sourceIndex": 1231
   },
   {
@@ -694,6 +854,10 @@ const phrasesHealth = [
     "wordIds": [
       "11284"
     ],
+    "cloze": {
+      "de": "gesund",
+      "en": "healthy"
+    },
     "sourceIndex": 1284
   },
   {
@@ -711,6 +875,10 @@ const phrasesHealth = [
     "wordIds": [
       "11288"
     ],
+    "cloze": {
+      "de": "Medizin",
+      "en": "medicine"
+    },
     "sourceIndex": 1288
   },
   {
@@ -728,6 +896,10 @@ const phrasesHealth = [
     "wordIds": [
       "11315"
     ],
+    "cloze": {
+      "de": "Temperatur",
+      "en": "temperature"
+    },
     "sourceIndex": 1315
   },
   {
@@ -745,6 +917,10 @@ const phrasesHealth = [
     "wordIds": [
       "11337"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "care"
+    },
     "sourceIndex": 1337
   },
   {
@@ -762,6 +938,10 @@ const phrasesHealth = [
     "wordIds": [
       "11373"
     ],
+    "cloze": {
+      "de": "Schmerz",
+      "en": "pain"
+    },
     "sourceIndex": 1373
   },
   {
@@ -780,6 +960,10 @@ const phrasesHealth = [
       "11379",
       "23141"
     ],
+    "cloze": {
+      "de": "weh",
+      "en": "head"
+    },
     "sourceIndex": 1379
   },
   {
@@ -797,6 +981,10 @@ const phrasesHealth = [
     "wordIds": [
       "11453"
     ],
+    "cloze": {
+      "de": "Geburt",
+      "en": "birth"
+    },
     "sourceIndex": 1453
   },
   {
@@ -814,6 +1002,10 @@ const phrasesHealth = [
     "wordIds": [
       "11498"
     ],
+    "cloze": {
+      "de": "Operation",
+      "en": "operation"
+    },
     "sourceIndex": 1498
   },
   {
@@ -831,6 +1023,10 @@ const phrasesHealth = [
     "wordIds": [
       "11500"
     ],
+    "cloze": {
+      "de": "Pflege",
+      "en": "care"
+    },
     "sourceIndex": 1500
   },
   {
@@ -848,6 +1044,10 @@ const phrasesHealth = [
     "wordIds": [
       "11560"
     ],
+    "cloze": {
+      "de": "Ohren",
+      "en": "ears"
+    },
     "sourceIndex": 1560
   },
   {
@@ -865,6 +1065,10 @@ const phrasesHealth = [
     "wordIds": [
       "11591"
     ],
+    "cloze": {
+      "de": "Hals",
+      "en": "throat"
+    },
     "sourceIndex": 1591
   },
   {
@@ -882,6 +1086,10 @@ const phrasesHealth = [
     "wordIds": [
       "11633"
     ],
+    "cloze": {
+      "de": "Last",
+      "en": "load"
+    },
     "sourceIndex": 1633
   },
   {
@@ -899,6 +1107,10 @@ const phrasesHealth = [
     "wordIds": [
       "11676"
     ],
+    "cloze": {
+      "de": "Klinik",
+      "en": "clinic"
+    },
     "sourceIndex": 1676
   },
   {
@@ -916,6 +1128,10 @@ const phrasesHealth = [
     "wordIds": [
       "11689"
     ],
+    "cloze": {
+      "de": "untersuchen",
+      "en": "examine"
+    },
     "sourceIndex": 1689
   },
   {
@@ -933,6 +1149,10 @@ const phrasesHealth = [
     "wordIds": [
       "11823"
     ],
+    "cloze": {
+      "de": "Ernährung",
+      "en": "diet"
+    },
     "sourceIndex": 1823
   },
   {
@@ -950,6 +1170,10 @@ const phrasesHealth = [
     "wordIds": [
       "11874"
     ],
+    "cloze": {
+      "de": "Vorsicht",
+      "en": "Caution"
+    },
     "sourceIndex": 1874
   },
   {
@@ -967,6 +1191,10 @@ const phrasesHealth = [
     "wordIds": [
       "11910"
     ],
+    "cloze": {
+      "de": "übergeben",
+      "en": "hand"
+    },
     "sourceIndex": 1910
   },
   {
@@ -984,6 +1212,10 @@ const phrasesHealth = [
     "wordIds": [
       "11916"
     ],
+    "cloze": {
+      "de": "Bauch",
+      "en": "stomach"
+    },
     "sourceIndex": 1916
   },
   {
@@ -1001,6 +1233,10 @@ const phrasesHealth = [
     "wordIds": [
       "11921"
     ],
+    "cloze": {
+      "de": "entlassen",
+      "en": "released"
+    },
     "sourceIndex": 1921
   },
   {
@@ -1018,6 +1254,10 @@ const phrasesHealth = [
     "wordIds": [
       "11986"
     ],
+    "cloze": {
+      "de": "geben",
+      "en": "hand"
+    },
     "sourceIndex": 1986
   },
   {
@@ -1035,6 +1275,10 @@ const phrasesHealth = [
     "wordIds": [
       "12008"
     ],
+    "cloze": {
+      "de": "Knie",
+      "en": "knees"
+    },
     "sourceIndex": 2008
   },
   {
@@ -1052,6 +1296,10 @@ const phrasesHealth = [
     "wordIds": [
       "12061"
     ],
+    "cloze": {
+      "de": "Träne",
+      "en": "tear"
+    },
     "sourceIndex": 2061
   },
   {
@@ -1069,6 +1317,10 @@ const phrasesHealth = [
     "wordIds": [
       "12142"
     ],
+    "cloze": {
+      "de": "Verletzung",
+      "en": "injury"
+    },
     "sourceIndex": 2142
   },
   {
@@ -1086,6 +1338,10 @@ const phrasesHealth = [
     "wordIds": [
       "12144"
     ],
+    "cloze": {
+      "de": "Zahn",
+      "en": "tooth"
+    },
     "sourceIndex": 2144
   },
   {
@@ -1103,6 +1359,10 @@ const phrasesHealth = [
     "wordIds": [
       "12217"
     ],
+    "cloze": {
+      "de": "Symbol",
+      "en": "symbol"
+    },
     "sourceIndex": 2217
   },
   {
@@ -1120,6 +1380,10 @@ const phrasesHealth = [
     "wordIds": [
       "12287"
     ],
+    "cloze": {
+      "de": "Knochen",
+      "en": "bone"
+    },
     "sourceIndex": 2287
   },
   {
@@ -1137,6 +1401,10 @@ const phrasesHealth = [
     "wordIds": [
       "12301"
     ],
+    "cloze": {
+      "de": "Schulter",
+      "en": "shoulder"
+    },
     "sourceIndex": 2301
   },
   {
@@ -1154,6 +1422,10 @@ const phrasesHealth = [
     "wordIds": [
       "12332"
     ],
+    "cloze": {
+      "de": "Lippen",
+      "en": "lips"
+    },
     "sourceIndex": 2332
   },
   {
@@ -1171,6 +1443,10 @@ const phrasesHealth = [
     "wordIds": [
       "12349"
     ],
+    "cloze": {
+      "de": "blind",
+      "en": "blind"
+    },
     "sourceIndex": 2349
   },
   {
@@ -1188,6 +1464,10 @@ const phrasesHealth = [
     "wordIds": [
       "12363"
     ],
+    "cloze": {
+      "de": "Kette",
+      "en": "chain"
+    },
     "sourceIndex": 2363
   },
   {
@@ -1205,6 +1485,10 @@ const phrasesHealth = [
     "wordIds": [
       "12372"
     ],
+    "cloze": {
+      "de": "Sack",
+      "en": "sack"
+    },
     "sourceIndex": 2372
   },
   {
@@ -1222,6 +1506,10 @@ const phrasesHealth = [
     "wordIds": [
       "12425"
     ],
+    "cloze": {
+      "de": "Zunge",
+      "en": "tongue"
+    },
     "sourceIndex": 2425
   },
   {
@@ -1239,6 +1527,10 @@ const phrasesHealth = [
     "wordIds": [
       "12495"
     ],
+    "cloze": {
+      "de": "Magen",
+      "en": "stomach"
+    },
     "sourceIndex": 2495
   },
   {
@@ -1256,6 +1548,10 @@ const phrasesHealth = [
     "wordIds": [
       "12580"
     ],
+    "cloze": {
+      "de": "brennt",
+      "en": "burns"
+    },
     "sourceIndex": 2580
   },
   {
@@ -1273,6 +1569,10 @@ const phrasesHealth = [
     "wordIds": [
       "12582"
     ],
+    "cloze": {
+      "de": "Doktor",
+      "en": "doctor"
+    },
     "sourceIndex": 2582
   },
   {
@@ -1290,6 +1590,10 @@ const phrasesHealth = [
     "wordIds": [
       "12712"
     ],
+    "cloze": {
+      "de": "Symptom",
+      "en": "symptom"
+    },
     "sourceIndex": 2712
   },
   {
@@ -1307,6 +1611,10 @@ const phrasesHealth = [
     "wordIds": [
       "12904"
     ],
+    "cloze": {
+      "de": "schwanger",
+      "en": "pregnant"
+    },
     "sourceIndex": 2904
   },
   {
@@ -1324,6 +1632,10 @@ const phrasesHealth = [
     "wordIds": [
       "13166"
     ],
+    "cloze": {
+      "de": "Fieber",
+      "en": "fever"
+    },
     "sourceIndex": 3166
   },
   {
@@ -1341,6 +1653,10 @@ const phrasesHealth = [
     "wordIds": [
       "13185"
     ],
+    "cloze": {
+      "de": "Kuss",
+      "en": "kiss"
+    },
     "sourceIndex": 3185
   },
   {
@@ -1358,6 +1674,10 @@ const phrasesHealth = [
     "wordIds": [
       "13191"
     ],
+    "cloze": {
+      "de": "pflegt",
+      "en": "for"
+    },
     "sourceIndex": 3191
   },
   {
@@ -1375,6 +1695,10 @@ const phrasesHealth = [
     "wordIds": [
       "13279"
     ],
+    "cloze": {
+      "de": "Besserung",
+      "en": "recovery"
+    },
     "sourceIndex": 3279
   },
   {
@@ -1392,6 +1716,10 @@ const phrasesHealth = [
     "wordIds": [
       "13299"
     ],
+    "cloze": {
+      "de": "Muskeln",
+      "en": "muscles"
+    },
     "sourceIndex": 3299
   },
   {
@@ -1409,6 +1737,10 @@ const phrasesHealth = [
     "wordIds": [
       "13300"
     ],
+    "cloze": {
+      "de": "Notfall",
+      "en": "emergency"
+    },
     "sourceIndex": 3300
   },
   {
@@ -1426,6 +1758,10 @@ const phrasesHealth = [
     "wordIds": [
       "13329"
     ],
+    "cloze": {
+      "de": "Atem",
+      "en": "breath"
+    },
     "sourceIndex": 3329
   },
   {
@@ -1443,6 +1779,10 @@ const phrasesHealth = [
     "wordIds": [
       "13375"
     ],
+    "cloze": {
+      "de": "Schwangerschaft",
+      "en": "Pregnancy"
+    },
     "sourceIndex": 3375
   },
   {
@@ -1460,6 +1800,10 @@ const phrasesHealth = [
     "wordIds": [
       "13440"
     ],
+    "cloze": {
+      "de": "Stirn",
+      "en": "forehead"
+    },
     "sourceIndex": 3440
   },
   {
@@ -1477,6 +1821,10 @@ const phrasesHealth = [
     "wordIds": [
       "13454"
     ],
+    "cloze": {
+      "de": "Apotheke",
+      "en": "pharmacy"
+    },
     "sourceIndex": 3454
   },
   {
@@ -1494,6 +1842,10 @@ const phrasesHealth = [
     "wordIds": [
       "13574"
     ],
+    "cloze": {
+      "de": "atmet",
+      "en": "He"
+    },
     "sourceIndex": 3574
   },
   {
@@ -1511,6 +1863,10 @@ const phrasesHealth = [
     "wordIds": [
       "13660"
     ],
+    "cloze": {
+      "de": "Kopfschmerzen",
+      "en": "headache"
+    },
     "sourceIndex": 3660
   },
   {
@@ -1528,6 +1884,10 @@ const phrasesHealth = [
     "wordIds": [
       "13662"
     ],
+    "cloze": {
+      "de": "kotzen",
+      "en": "vomit"
+    },
     "sourceIndex": 3662
   },
   {
@@ -1545,6 +1905,10 @@ const phrasesHealth = [
     "wordIds": [
       "13718"
     ],
+    "cloze": {
+      "de": "hipper",
+      "en": "hip"
+    },
     "sourceIndex": 3718
   },
   {
@@ -1562,6 +1926,10 @@ const phrasesHealth = [
     "wordIds": [
       "13809"
     ],
+    "cloze": {
+      "de": "Wunde",
+      "en": "wound"
+    },
     "sourceIndex": 3809
   },
   {
@@ -1579,6 +1947,10 @@ const phrasesHealth = [
     "wordIds": [
       "13930"
     ],
+    "cloze": {
+      "de": "Rückseite",
+      "en": "back"
+    },
     "sourceIndex": 3930
   },
   {
@@ -1596,6 +1968,10 @@ const phrasesHealth = [
     "wordIds": [
       "13989"
     ],
+    "cloze": {
+      "de": "Nacken",
+      "en": "neck"
+    },
     "sourceIndex": 3989
   },
   {
@@ -1613,6 +1989,10 @@ const phrasesHealth = [
     "wordIds": [
       "14052"
     ],
+    "cloze": {
+      "de": "Infektion",
+      "en": "infection"
+    },
     "sourceIndex": 4052
   },
   {
@@ -1630,6 +2010,10 @@ const phrasesHealth = [
     "wordIds": [
       "14126"
     ],
+    "cloze": {
+      "de": "Organ",
+      "en": "organ"
+    },
     "sourceIndex": 4126
   },
   {
@@ -1647,6 +2031,10 @@ const phrasesHealth = [
     "wordIds": [
       "14190"
     ],
+    "cloze": {
+      "de": "heilen",
+      "en": "heal"
+    },
     "sourceIndex": 4190
   },
   {
@@ -1664,6 +2052,10 @@ const phrasesHealth = [
     "wordIds": [
       "14263"
     ],
+    "cloze": {
+      "de": "Puls",
+      "en": "pulse"
+    },
     "sourceIndex": 4263
   },
   {
@@ -1681,6 +2073,10 @@ const phrasesHealth = [
     "wordIds": [
       "14296"
     ],
+    "cloze": {
+      "de": "Der",
+      "en": "disabled"
+    },
     "sourceIndex": 4296
   },
   {
@@ -1698,6 +2094,10 @@ const phrasesHealth = [
     "wordIds": [
       "14458"
     ],
+    "cloze": {
+      "de": "blonde",
+      "en": "blond"
+    },
     "sourceIndex": 4458
   },
   {
@@ -1715,6 +2115,10 @@ const phrasesHealth = [
     "wordIds": [
       "14503"
     ],
+    "cloze": {
+      "de": "Tablette",
+      "en": "tablet"
+    },
     "sourceIndex": 4503
   },
   {
@@ -1732,6 +2136,10 @@ const phrasesHealth = [
     "wordIds": [
       "14578"
     ],
+    "cloze": {
+      "de": "Zahnarzt",
+      "en": "dentist"
+    },
     "sourceIndex": 4578
   },
   {
@@ -1749,6 +2157,10 @@ const phrasesHealth = [
     "wordIds": [
       "14931"
     ],
+    "cloze": {
+      "de": "Kiefer",
+      "en": "jaw"
+    },
     "sourceIndex": 4931
   },
   {
@@ -1766,6 +2178,10 @@ const phrasesHealth = [
     "wordIds": [
       "14946"
     ],
+    "cloze": {
+      "de": "Pille",
+      "en": "pill"
+    },
     "sourceIndex": 4946
   },
   {
@@ -1783,6 +2199,10 @@ const phrasesHealth = [
     "wordIds": [
       "15009"
     ],
+    "cloze": {
+      "de": "Hygiene",
+      "en": "hygiene"
+    },
     "sourceIndex": 5009
   },
   {
@@ -1800,6 +2220,10 @@ const phrasesHealth = [
     "wordIds": [
       "15020"
     ],
+    "cloze": {
+      "de": "Lebensweise",
+      "en": "way"
+    },
     "sourceIndex": 5020
   },
   {
@@ -1817,6 +2241,10 @@ const phrasesHealth = [
     "wordIds": [
       "15024"
     ],
+    "cloze": {
+      "de": "Lunge",
+      "en": "lung"
+    },
     "sourceIndex": 5024
   },
   {
@@ -1834,6 +2262,10 @@ const phrasesHealth = [
     "wordIds": [
       "15096"
     ],
+    "cloze": {
+      "de": "färben",
+      "en": "dye"
+    },
     "sourceIndex": 5096
   },
   {
@@ -1851,6 +2283,10 @@ const phrasesHealth = [
     "wordIds": [
       "15159"
     ],
+    "cloze": {
+      "de": "Apotheker",
+      "en": "pharmacist"
+    },
     "sourceIndex": 5159
   },
   {
@@ -1868,6 +2304,10 @@ const phrasesHealth = [
     "wordIds": [
       "15190"
     ],
+    "cloze": {
+      "de": "husten",
+      "en": "cough"
+    },
     "sourceIndex": 5190
   },
   {
@@ -1885,6 +2325,10 @@ const phrasesHealth = [
     "wordIds": [
       "15195"
     ],
+    "cloze": {
+      "de": "Krankenschwester",
+      "en": "nurse"
+    },
     "sourceIndex": 5195
   },
   {
@@ -1902,6 +2346,10 @@ const phrasesHealth = [
     "wordIds": [
       "15215"
     ],
+    "cloze": {
+      "de": "Pulverform",
+      "en": "powder"
+    },
     "sourceIndex": 5215
   },
   {
@@ -1919,6 +2367,10 @@ const phrasesHealth = [
     "wordIds": [
       "15220"
     ],
+    "cloze": {
+      "de": "Rollstuhl",
+      "en": "wheelchair"
+    },
     "sourceIndex": 5220
   },
   {
@@ -1936,6 +2388,10 @@ const phrasesHealth = [
     "wordIds": [
       "15238"
     ],
+    "cloze": {
+      "de": "Wange",
+      "en": "cheek"
+    },
     "sourceIndex": 5238
   },
   {
@@ -1953,6 +2409,10 @@ const phrasesHealth = [
     "wordIds": [
       "15243"
     ],
+    "cloze": {
+      "de": "ärztliche",
+      "en": "medical"
+    },
     "sourceIndex": 5243
   },
   {
@@ -1970,6 +2430,10 @@ const phrasesHealth = [
     "wordIds": [
       "15258"
     ],
+    "cloze": {
+      "de": "auswendig",
+      "en": "by"
+    },
     "sourceIndex": 5258
   },
   {
@@ -1987,6 +2451,10 @@ const phrasesHealth = [
     "wordIds": [
       "15387"
     ],
+    "cloze": {
+      "de": "Nahrungsmittel",
+      "en": "food"
+    },
     "sourceIndex": 5387
   },
   {
@@ -2004,6 +2472,10 @@ const phrasesHealth = [
     "wordIds": [
       "15406"
     ],
+    "cloze": {
+      "de": "Schweiß",
+      "en": "Sweat"
+    },
     "sourceIndex": 5406
   },
   {
@@ -2021,6 +2493,10 @@ const phrasesHealth = [
     "wordIds": [
       "15479"
     ],
+    "cloze": {
+      "de": "operieren",
+      "en": "operate"
+    },
     "sourceIndex": 5479
   },
   {
@@ -2038,6 +2514,10 @@ const phrasesHealth = [
     "wordIds": [
       "15497"
     ],
+    "cloze": {
+      "de": "Tattoo",
+      "en": "tattoo"
+    },
     "sourceIndex": 5497
   },
   {
@@ -2055,6 +2535,10 @@ const phrasesHealth = [
     "wordIds": [
       "15527"
     ],
+    "cloze": {
+      "de": "Blutdruck",
+      "en": "blood"
+    },
     "sourceIndex": 5527
   },
   {
@@ -2072,6 +2556,10 @@ const phrasesHealth = [
     "wordIds": [
       "15555"
     ],
+    "cloze": {
+      "de": "Klimaanlage",
+      "en": "air"
+    },
     "sourceIndex": 5555
   },
   {
@@ -2089,6 +2577,10 @@ const phrasesHealth = [
     "wordIds": [
       "15563"
     ],
+    "cloze": {
+      "de": "Nadel",
+      "en": "needle"
+    },
     "sourceIndex": 5563
   },
   {
@@ -2106,6 +2598,10 @@ const phrasesHealth = [
     "wordIds": [
       "15576"
     ],
+    "cloze": {
+      "de": "schwitze",
+      "en": "sweat"
+    },
     "sourceIndex": 5576
   },
   {
@@ -2123,6 +2619,10 @@ const phrasesHealth = [
     "wordIds": [
       "15683"
     ],
+    "cloze": {
+      "de": "zurückgegangen",
+      "en": "declined"
+    },
     "sourceIndex": 5683
   },
   {
@@ -2140,6 +2640,10 @@ const phrasesHealth = [
     "wordIds": [
       "15734"
     ],
+    "cloze": {
+      "de": "Kehle",
+      "en": "throat"
+    },
     "sourceIndex": 5734
   },
   {
@@ -2157,6 +2661,10 @@ const phrasesHealth = [
     "wordIds": [
       "15738"
     ],
+    "cloze": {
+      "de": "Kur",
+      "en": "cure"
+    },
     "sourceIndex": 5738
   },
   {
@@ -2174,6 +2682,10 @@ const phrasesHealth = [
     "wordIds": [
       "15827"
     ],
+    "cloze": {
+      "de": "Lifestyle",
+      "en": "lifestyle"
+    },
     "sourceIndex": 5827
   },
   {
@@ -2191,6 +2703,10 @@ const phrasesHealth = [
     "wordIds": [
       "15837"
     ],
+    "cloze": {
+      "de": "Pflaster",
+      "en": "plaster"
+    },
     "sourceIndex": 5837
   },
   {
@@ -2208,6 +2724,10 @@ const phrasesHealth = [
     "wordIds": [
       "15876"
     ],
+    "cloze": {
+      "de": "weitergeben",
+      "en": "pass"
+    },
     "sourceIndex": 5876
   },
   {
@@ -2225,6 +2745,10 @@ const phrasesHealth = [
     "wordIds": [
       "15921"
     ],
+    "cloze": {
+      "de": "geduldige",
+      "en": "patient"
+    },
     "sourceIndex": 5921
   },
   {
@@ -2242,6 +2766,10 @@ const phrasesHealth = [
     "wordIds": [
       "16045"
     ],
+    "cloze": {
+      "de": "Mikro",
+      "en": "mic"
+    },
     "sourceIndex": 6045
   },
   {
@@ -2259,6 +2787,10 @@ const phrasesHealth = [
     "wordIds": [
       "16079"
     ],
+    "cloze": {
+      "de": "Würfel",
+      "en": "with"
+    },
     "sourceIndex": 6079
   },
   {
@@ -2276,6 +2808,10 @@ const phrasesHealth = [
     "wordIds": [
       "16137"
     ],
+    "cloze": {
+      "de": "schädlich",
+      "en": "harmful"
+    },
     "sourceIndex": 6137
   },
   {
@@ -2293,6 +2829,10 @@ const phrasesHealth = [
     "wordIds": [
       "16200"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "ill"
+    },
     "sourceIndex": 6200
   },
   {
@@ -2310,6 +2850,10 @@ const phrasesHealth = [
     "wordIds": [
       "16219"
     ],
+    "cloze": {
+      "de": "Hospital",
+      "en": "hospital"
+    },
     "sourceIndex": 6219
   },
   {
@@ -2327,6 +2871,10 @@ const phrasesHealth = [
     "wordIds": [
       "16223"
     ],
+    "cloze": {
+      "de": "juckt",
+      "en": "itches"
+    },
     "sourceIndex": 6223
   },
   {
@@ -2344,6 +2892,10 @@ const phrasesHealth = [
     "wordIds": [
       "16274"
     ],
+    "cloze": {
+      "de": "Übergewicht",
+      "en": "Overweight"
+    },
     "sourceIndex": 6274
   },
   {
@@ -2361,6 +2913,10 @@ const phrasesHealth = [
     "wordIds": [
       "16321"
     ],
+    "cloze": {
+      "de": "Hüfte",
+      "en": "hip"
+    },
     "sourceIndex": 6321
   },
   {
@@ -2378,6 +2934,10 @@ const phrasesHealth = [
     "wordIds": [
       "16402"
     ],
+    "cloze": {
+      "de": "Erkältung",
+      "en": "cold"
+    },
     "sourceIndex": 6402
   },
   {
@@ -2395,6 +2955,10 @@ const phrasesHealth = [
     "wordIds": [
       "16498"
     ],
+    "cloze": {
+      "de": "erkrankt",
+      "en": "ill"
+    },
     "sourceIndex": 6498
   },
   {
@@ -2412,6 +2976,10 @@ const phrasesHealth = [
     "wordIds": [
       "16530"
     ],
+    "cloze": {
+      "de": "Lebensstil",
+      "en": "lifestyle"
+    },
     "sourceIndex": 6530
   },
   {
@@ -2429,6 +2997,10 @@ const phrasesHealth = [
     "wordIds": [
       "16544"
     ],
+    "cloze": {
+      "de": "Pfleger",
+      "en": "male"
+    },
     "sourceIndex": 6544
   },
   {
@@ -2446,6 +3018,10 @@ const phrasesHealth = [
     "wordIds": [
       "16550"
     ],
+    "cloze": {
+      "de": "Rückweg",
+      "en": "way"
+    },
     "sourceIndex": 6550
   },
   {
@@ -2463,6 +3039,10 @@ const phrasesHealth = [
     "wordIds": [
       "16635"
     ],
+    "cloze": {
+      "de": "Klinikum",
+      "en": "hospital"
+    },
     "sourceIndex": 6635
   },
   {
@@ -2480,6 +3060,10 @@ const phrasesHealth = [
     "wordIds": [
       "16642"
     ],
+    "cloze": {
+      "de": "Narbe",
+      "en": "scar"
+    },
     "sourceIndex": 6642
   },
   {
@@ -2497,6 +3081,10 @@ const phrasesHealth = [
     "wordIds": [
       "16678"
     ],
+    "cloze": {
+      "de": "wochenlang",
+      "en": "for"
+    },
     "sourceIndex": 6678
   },
   {
@@ -2514,6 +3102,10 @@ const phrasesHealth = [
     "wordIds": [
       "16774"
     ],
+    "cloze": {
+      "de": "Spital",
+      "en": "hospital"
+    },
     "sourceIndex": 6774
   },
   {
@@ -2531,6 +3123,10 @@ const phrasesHealth = [
     "wordIds": [
       "16853"
     ],
+    "cloze": {
+      "de": "sich",
+      "en": "rubbed"
+    },
     "sourceIndex": 6853
   },
   {
@@ -2548,6 +3144,10 @@ const phrasesHealth = [
     "wordIds": [
       "16856"
     ],
+    "cloze": {
+      "de": "schmerzt",
+      "en": "hurts"
+    },
     "sourceIndex": 6856
   },
   {
@@ -2565,6 +3165,10 @@ const phrasesHealth = [
     "wordIds": [
       "16935"
     ],
+    "cloze": {
+      "de": "Kamm",
+      "en": "comb"
+    },
     "sourceIndex": 6935
   },
   {
@@ -2582,6 +3186,10 @@ const phrasesHealth = [
     "wordIds": [
       "16979"
     ],
+    "cloze": {
+      "de": "zurückkommen",
+      "en": "come"
+    },
     "sourceIndex": 6979
   },
   {
@@ -2599,6 +3207,10 @@ const phrasesHealth = [
     "wordIds": [
       "16998"
     ],
+    "cloze": {
+      "de": "blutige",
+      "en": "bloody"
+    },
     "sourceIndex": 6998
   },
   {
@@ -2616,6 +3228,10 @@ const phrasesHealth = [
     "wordIds": [
       "17059"
     ],
+    "cloze": {
+      "de": "rezeptfrei",
+      "en": "over-the"
+    },
     "sourceIndex": 7059
   },
   {
@@ -2633,6 +3249,10 @@ const phrasesHealth = [
     "wordIds": [
       "17129"
     ],
+    "cloze": {
+      "de": "Hautfarben",
+      "en": "skin"
+    },
     "sourceIndex": 7129
   },
   {
@@ -2650,6 +3270,10 @@ const phrasesHealth = [
     "wordIds": [
       "17206"
     ],
+    "cloze": {
+      "de": "akute",
+      "en": "acute"
+    },
     "sourceIndex": 7206
   },
   {
@@ -2667,6 +3291,10 @@ const phrasesHealth = [
     "wordIds": [
       "17232"
     ],
+    "cloze": {
+      "de": "Handgelenk",
+      "en": "wrist"
+    },
     "sourceIndex": 7232
   },
   {
@@ -2684,6 +3312,10 @@ const phrasesHealth = [
     "wordIds": [
       "17242"
     ],
+    "cloze": {
+      "de": "Kinn",
+      "en": "chin"
+    },
     "sourceIndex": 7242
   },
   {
@@ -2701,6 +3333,10 @@ const phrasesHealth = [
     "wordIds": [
       "17265"
     ],
+    "cloze": {
+      "de": "Putz",
+      "en": "plaster"
+    },
     "sourceIndex": 7265
   },
   {
@@ -2718,6 +3354,10 @@ const phrasesHealth = [
     "wordIds": [
       "17269"
     ],
+    "cloze": {
+      "de": "Rettungsdienst",
+      "en": "emergency"
+    },
     "sourceIndex": 7269
   },
   {
@@ -2735,6 +3375,10 @@ const phrasesHealth = [
     "wordIds": [
       "17314"
     ],
+    "cloze": {
+      "de": "Ausschlag",
+      "en": "rash"
+    },
     "sourceIndex": 7314
   },
   {
@@ -2752,6 +3396,10 @@ const phrasesHealth = [
     "wordIds": [
       "17343"
     ],
+    "cloze": {
+      "de": "Genesung",
+      "en": "recovery"
+    },
     "sourceIndex": 7343
   },
   {
@@ -2769,6 +3417,10 @@ const phrasesHealth = [
     "wordIds": [
       "17393"
     ],
+    "cloze": {
+      "de": "taub",
+      "en": "numb"
+    },
     "sourceIndex": 7393
   },
   {
@@ -2786,6 +3438,10 @@ const phrasesHealth = [
     "wordIds": [
       "17492"
     ],
+    "cloze": {
+      "de": "Oberkörper",
+      "en": "upper"
+    },
     "sourceIndex": 7492
   },
   {
@@ -2803,6 +3459,10 @@ const phrasesHealth = [
     "wordIds": [
       "17503"
     ],
+    "cloze": {
+      "de": "Reha",
+      "en": "rehab"
+    },
     "sourceIndex": 7503
   },
   {
@@ -2820,6 +3480,10 @@ const phrasesHealth = [
     "wordIds": [
       "17516"
     ],
+    "cloze": {
+      "de": "Spritze",
+      "en": "him"
+    },
     "sourceIndex": 7516
   },
   {
@@ -2837,6 +3501,10 @@ const phrasesHealth = [
     "wordIds": [
       "17559"
     ],
+    "cloze": {
+      "de": "Augenbrauen",
+      "en": "eyebrows"
+    },
     "sourceIndex": 7559
   },
   {
@@ -2854,6 +3522,10 @@ const phrasesHealth = [
     "wordIds": [
       "17607"
     ],
+    "cloze": {
+      "de": "Kapsel",
+      "en": "capsule"
+    },
     "sourceIndex": 7607
   },
   {
@@ -2871,6 +3543,10 @@ const phrasesHealth = [
     "wordIds": [
       "17617"
     ],
+    "cloze": {
+      "de": "lässige",
+      "en": "casual"
+    },
     "sourceIndex": 7617
   },
   {
@@ -2888,6 +3564,10 @@ const phrasesHealth = [
     "wordIds": [
       "17727"
     ],
+    "cloze": {
+      "de": "Haargel",
+      "en": "gel"
+    },
     "sourceIndex": 7727
   },
   {
@@ -2905,6 +3585,10 @@ const phrasesHealth = [
     "wordIds": [
       "18103"
     ],
+    "cloze": {
+      "de": "Sanitäter",
+      "en": "paramedic"
+    },
     "sourceIndex": 8103
   },
   {
@@ -2922,6 +3606,10 @@ const phrasesHealth = [
     "wordIds": [
       "18126"
     ],
+    "cloze": {
+      "de": "Verbrennung",
+      "en": "burn"
+    },
     "sourceIndex": 8126
   },
   {
@@ -2939,6 +3627,10 @@ const phrasesHealth = [
     "wordIds": [
       "18165"
     ],
+    "cloze": {
+      "de": "Chirurg",
+      "en": "surgeon"
+    },
     "sourceIndex": 8165
   },
   {
@@ -2956,6 +3648,10 @@ const phrasesHealth = [
     "wordIds": [
       "18257"
     ],
+    "cloze": {
+      "de": "Zeigefinger",
+      "en": "index"
+    },
     "sourceIndex": 8257
   },
   {
@@ -2973,6 +3669,10 @@ const phrasesHealth = [
     "wordIds": [
       "18274"
     ],
+    "cloze": {
+      "de": "Bauchschmerzen",
+      "en": "stomach"
+    },
     "sourceIndex": 8274
   },
   {
@@ -2990,6 +3690,10 @@ const phrasesHealth = [
     "wordIds": [
       "18401"
     ],
+    "cloze": {
+      "de": "Atemzug",
+      "en": "breath"
+    },
     "sourceIndex": 8401
   },
   {
@@ -3007,6 +3711,10 @@ const phrasesHealth = [
     "wordIds": [
       "18402"
     ],
+    "cloze": {
+      "de": "Atmung",
+      "en": "Breathing"
+    },
     "sourceIndex": 8402
   },
   {
@@ -3024,6 +3732,10 @@ const phrasesHealth = [
     "wordIds": [
       "18439"
     ],
+    "cloze": {
+      "de": "Krankenwagen",
+      "en": "ambulance"
+    },
     "sourceIndex": 8439
   },
   {
@@ -3041,6 +3753,10 @@ const phrasesHealth = [
     "wordIds": [
       "18442"
     ],
+    "cloze": {
+      "de": "lüften",
+      "en": "air"
+    },
     "sourceIndex": 8442
   },
   {
@@ -3058,6 +3774,10 @@ const phrasesHealth = [
     "wordIds": [
       "18454"
     ],
+    "cloze": {
+      "de": "Notarzt",
+      "en": "emergency"
+    },
     "sourceIndex": 8454
   },
   {
@@ -3075,6 +3795,10 @@ const phrasesHealth = [
     "wordIds": [
       "18685"
     ],
+    "cloze": {
+      "de": "erbrechen",
+      "en": "vomit"
+    },
     "sourceIndex": 8685
   },
   {
@@ -3092,6 +3816,10 @@ const phrasesHealth = [
     "wordIds": [
       "18755"
     ],
+    "cloze": {
+      "de": "Rückenschmerz",
+      "en": "back"
+    },
     "sourceIndex": 8755
   },
   {
@@ -3109,6 +3837,10 @@ const phrasesHealth = [
     "wordIds": [
       "18800"
     ],
+    "cloze": {
+      "de": "Übelkeit",
+      "en": "nausea"
+    },
     "sourceIndex": 8800
   },
   {
@@ -3126,6 +3858,10 @@ const phrasesHealth = [
     "wordIds": [
       "18859"
     ],
+    "cloze": {
+      "de": "Gips",
+      "en": "cast"
+    },
     "sourceIndex": 8859
   },
   {
@@ -3143,6 +3879,10 @@ const phrasesHealth = [
     "wordIds": [
       "19002"
     ],
+    "cloze": {
+      "de": "Glatze",
+      "en": "bald"
+    },
     "sourceIndex": 9002
   },
   {
@@ -3160,6 +3900,10 @@ const phrasesHealth = [
     "wordIds": [
       "19108"
     ],
+    "cloze": {
+      "de": "Allergie",
+      "en": "allergy"
+    },
     "sourceIndex": 9108
   },
   {
@@ -3177,6 +3921,10 @@ const phrasesHealth = [
     "wordIds": [
       "19118"
     ],
+    "cloze": {
+      "de": "Backe",
+      "en": "cheek"
+    },
     "sourceIndex": 9118
   },
   {
@@ -3194,6 +3942,10 @@ const phrasesHealth = [
     "wordIds": [
       "19259"
     ],
+    "cloze": {
+      "de": "Binde",
+      "en": "bandage"
+    },
     "sourceIndex": 9259
   },
   {
@@ -3211,6 +3963,10 @@ const phrasesHealth = [
     "wordIds": [
       "19309"
     ],
+    "cloze": {
+      "de": "Knöchel",
+      "en": "ankle"
+    },
     "sourceIndex": 9309
   },
   {
@@ -3228,6 +3984,10 @@ const phrasesHealth = [
     "wordIds": [
       "19351"
     ],
+    "cloze": {
+      "de": "Schmerzmittel",
+      "en": "painkiller"
+    },
     "sourceIndex": 9351
   },
   {
@@ -3245,6 +4005,10 @@ const phrasesHealth = [
     "wordIds": [
       "19424"
     ],
+    "cloze": {
+      "de": "durchatmen",
+      "en": "take"
+    },
     "sourceIndex": 9424
   },
   {
@@ -3262,6 +4026,10 @@ const phrasesHealth = [
     "wordIds": [
       "19499"
     ],
+    "cloze": {
+      "de": "Sackgasse",
+      "en": "dead"
+    },
     "sourceIndex": 9499
   },
   {
@@ -3279,6 +4047,10 @@ const phrasesHealth = [
     "wordIds": [
       "19504"
     ],
+    "cloze": {
+      "de": "Shampoo",
+      "en": "shampoo"
+    },
     "sourceIndex": 9504
   },
   {
@@ -3296,6 +4068,10 @@ const phrasesHealth = [
     "wordIds": [
       "19530"
     ],
+    "cloze": {
+      "de": "wiederkommen",
+      "en": "come"
+    },
     "sourceIndex": 9530
   },
   {
@@ -3313,6 +4089,10 @@ const phrasesHealth = [
     "wordIds": [
       "19567"
     ],
+    "cloze": {
+      "de": "Blutung",
+      "en": "bleeding"
+    },
     "sourceIndex": 9567
   },
   {
@@ -3330,6 +4110,10 @@ const phrasesHealth = [
     "wordIds": [
       "19590"
     ],
+    "cloze": {
+      "de": "Gelenk",
+      "en": "joint"
+    },
     "sourceIndex": 9590
   },
   {
@@ -3347,6 +4131,10 @@ const phrasesHealth = [
     "wordIds": [
       "19817"
     ],
+    "cloze": {
+      "de": "stöhnen",
+      "en": "groan"
+    },
     "sourceIndex": 9817
   },
   {
@@ -3364,6 +4152,10 @@ const phrasesHealth = [
     "wordIds": [
       "19846"
     ],
+    "cloze": {
+      "de": "allergisch",
+      "en": "allergic"
+    },
     "sourceIndex": 9846
   },
   {
@@ -3381,6 +4173,10 @@ const phrasesHealth = [
     "wordIds": [
       "19894"
     ],
+    "cloze": {
+      "de": "hinausgehen",
+      "en": "go"
+    },
     "sourceIndex": 9894
   },
   {
@@ -3398,6 +4194,10 @@ const phrasesHealth = [
     "wordIds": [
       "19934"
     ],
+    "cloze": {
+      "de": "Pickel",
+      "en": "pimple"
+    },
     "sourceIndex": 9934
   },
   {
@@ -3415,6 +4215,10 @@ const phrasesHealth = [
     "wordIds": [
       "19978"
     ],
+    "cloze": {
+      "de": "Wade",
+      "en": "calf"
+    },
     "sourceIndex": 9978
   },
   {
@@ -3432,6 +4236,10 @@ const phrasesHealth = [
     "wordIds": [
       "19997"
     ],
+    "cloze": {
+      "de": "ansteckend",
+      "en": "contagious"
+    },
     "sourceIndex": 9997
   },
   {
@@ -3449,6 +4257,10 @@ const phrasesHealth = [
     "wordIds": [
       "20176"
     ],
+    "cloze": {
+      "de": "Ellenbogen",
+      "en": "elbow"
+    },
     "sourceIndex": 10176
   },
   {
@@ -3466,6 +4278,10 @@ const phrasesHealth = [
     "wordIds": [
       "20247"
     ],
+    "cloze": {
+      "de": "Schnupfen",
+      "en": "cold"
+    },
     "sourceIndex": 10247
   },
   {
@@ -3483,6 +4299,10 @@ const phrasesHealth = [
     "wordIds": [
       "20310"
     ],
+    "cloze": {
+      "de": "blutet",
+      "en": "bleeding"
+    },
     "sourceIndex": 10310
   },
   {
@@ -3500,6 +4320,10 @@ const phrasesHealth = [
     "wordIds": [
       "20386"
     ],
+    "cloze": {
+      "de": "Nährstoffe",
+      "en": "nutrients"
+    },
     "sourceIndex": 10386
   },
   {
@@ -3517,6 +4341,10 @@ const phrasesHealth = [
     "wordIds": [
       "20441"
     ],
+    "cloze": {
+      "de": "zugelassen",
+      "en": "approved"
+    },
     "sourceIndex": 10441
   },
   {
@@ -3534,6 +4362,10 @@ const phrasesHealth = [
     "wordIds": [
       "20679"
     ],
+    "cloze": {
+      "de": "Küsschen",
+      "en": "little"
+    },
     "sourceIndex": 10679
   },
   {
@@ -3551,6 +4383,10 @@ const phrasesHealth = [
     "wordIds": [
       "20703"
     ],
+    "cloze": {
+      "de": "Pflegekraft",
+      "en": "caregiver"
+    },
     "sourceIndex": 10703
   },
   {
@@ -3568,6 +4404,10 @@ const phrasesHealth = [
     "wordIds": [
       "20714"
     ],
+    "cloze": {
+      "de": "Sauberkeit",
+      "en": "Cleanliness"
+    },
     "sourceIndex": 10714
   },
   {
@@ -3585,6 +4425,10 @@ const phrasesHealth = [
     "wordIds": [
       "21127"
     ],
+    "cloze": {
+      "de": "zurück",
+      "en": "back"
+    },
     "sourceIndex": 11127
   },
   {
@@ -3602,6 +4446,10 @@ const phrasesHealth = [
     "wordIds": [
       "21207"
     ],
+    "cloze": {
+      "de": "Imker",
+      "en": "beekeeper"
+    },
     "sourceIndex": 11207
   },
   {
@@ -3619,6 +4467,10 @@ const phrasesHealth = [
     "wordIds": [
       "21219"
     ],
+    "cloze": {
+      "de": "Krankenpfleger",
+      "en": "male"
+    },
     "sourceIndex": 11219
   },
   {
@@ -3636,6 +4488,10 @@ const phrasesHealth = [
     "wordIds": [
       "21224"
     ],
+    "cloze": {
+      "de": "Luftdruck",
+      "en": "air"
+    },
     "sourceIndex": 11224
   },
   {
@@ -3653,6 +4509,10 @@ const phrasesHealth = [
     "wordIds": [
       "21225"
     ],
+    "cloze": {
+      "de": "massieren",
+      "en": "massaged"
+    },
     "sourceIndex": 11225
   },
   {
@@ -3670,6 +4530,10 @@ const phrasesHealth = [
     "wordIds": [
       "21244"
     ],
+    "cloze": {
+      "de": "Patientin",
+      "en": "female"
+    },
     "sourceIndex": 11244
   },
   {
@@ -3687,6 +4551,10 @@ const phrasesHealth = [
     "wordIds": [
       "21281"
     ],
+    "cloze": {
+      "de": "umkehren",
+      "en": "turn"
+    },
     "sourceIndex": 11281
   },
   {
@@ -3704,6 +4572,10 @@ const phrasesHealth = [
     "wordIds": [
       "21288"
     ],
+    "cloze": {
+      "de": "Verdauung",
+      "en": "digestion"
+    },
     "sourceIndex": 11288
   },
   {
@@ -3721,6 +4593,10 @@ const phrasesHealth = [
     "wordIds": [
       "21432"
     ],
+    "cloze": {
+      "de": "Mittelfinger",
+      "en": "middle"
+    },
     "sourceIndex": 11432
   },
   {
@@ -3738,6 +4614,10 @@ const phrasesHealth = [
     "wordIds": [
       "21453"
     ],
+    "cloze": {
+      "de": "Rettungswagen",
+      "en": "ambulance"
+    },
     "sourceIndex": 11453
   },
   {
@@ -3755,6 +4635,10 @@ const phrasesHealth = [
     "wordIds": [
       "21636"
     ],
+    "cloze": {
+      "de": "Haarspray",
+      "en": "spray"
+    },
     "sourceIndex": 11636
   },
   {
@@ -3772,6 +4656,10 @@ const phrasesHealth = [
     "wordIds": [
       "21713"
     ],
+    "cloze": {
+      "de": "Ellbogen",
+      "en": "elbow"
+    },
     "sourceIndex": 11713
   },
   {
@@ -3789,6 +4677,10 @@ const phrasesHealth = [
     "wordIds": [
       "21838"
     ],
+    "cloze": {
+      "de": "Wimper",
+      "en": "eyelash"
+    },
     "sourceIndex": 11838
   },
   {
@@ -3806,6 +4698,10 @@ const phrasesHealth = [
     "wordIds": [
       "22074"
     ],
+    "cloze": {
+      "de": "Dings",
+      "en": "thingy"
+    },
     "sourceIndex": 12074
   },
   {
@@ -3823,6 +4719,10 @@ const phrasesHealth = [
     "wordIds": [
       "22227"
     ],
+    "cloze": {
+      "de": "Aloe",
+      "en": "Aloe"
+    },
     "sourceIndex": 12227
   },
   {
@@ -3840,6 +4740,10 @@ const phrasesHealth = [
     "wordIds": [
       "22310"
     ],
+    "cloze": {
+      "de": "Köpfchen",
+      "en": "brains"
+    },
     "sourceIndex": 12310
   },
   {
@@ -3857,6 +4761,10 @@ const phrasesHealth = [
     "wordIds": [
       "22489"
     ],
+    "cloze": {
+      "de": "Kopfschütteln",
+      "en": "head"
+    },
     "sourceIndex": 12489
   },
   {
@@ -3874,6 +4782,10 @@ const phrasesHealth = [
     "wordIds": [
       "22518"
     ],
+    "cloze": {
+      "de": "Nikotin",
+      "en": "Nicotine"
+    },
     "sourceIndex": 12518
   },
   {
@@ -3891,6 +4803,10 @@ const phrasesHealth = [
     "wordIds": [
       "22542"
     ],
+    "cloze": {
+      "de": "Sirene",
+      "en": "siren"
+    },
     "sourceIndex": 12542
   },
   {
@@ -3908,6 +4824,10 @@ const phrasesHealth = [
     "wordIds": [
       "22637"
     ],
+    "cloze": {
+      "de": "dunkelbraune",
+      "en": "dark"
+    },
     "sourceIndex": 12637
   },
   {
@@ -3925,6 +4845,10 @@ const phrasesHealth = [
     "wordIds": [
       "22667"
     ],
+    "cloze": {
+      "de": "Influenza",
+      "en": "Influenza"
+    },
     "sourceIndex": 12667
   },
   {
@@ -3942,6 +4866,10 @@ const phrasesHealth = [
     "wordIds": [
       "22784"
     ],
+    "cloze": {
+      "de": "anderseits",
+      "en": "On"
+    },
     "sourceIndex": 12784
   },
   {
@@ -3959,6 +4887,10 @@ const phrasesHealth = [
     "wordIds": [
       "22914"
     ],
+    "cloze": {
+      "de": "Schwellung",
+      "en": "swelling"
+    },
     "sourceIndex": 12914
   },
   {
@@ -3976,6 +4908,10 @@ const phrasesHealth = [
     "wordIds": [
       "23042"
     ],
+    "cloze": {
+      "de": "hippes",
+      "en": "hip"
+    },
     "sourceIndex": 13042
   },
   {
@@ -3993,6 +4929,10 @@ const phrasesHealth = [
     "wordIds": [
       "23062"
     ],
+    "cloze": {
+      "de": "Körperteil",
+      "en": "body"
+    },
     "sourceIndex": 13062
   },
   {
@@ -4010,6 +4950,10 @@ const phrasesHealth = [
     "wordIds": [
       "23236"
     ],
+    "cloze": {
+      "de": "Haarfarbe",
+      "en": "hair"
+    },
     "sourceIndex": 13236
   },
   {
@@ -4027,6 +4971,10 @@ const phrasesHealth = [
     "wordIds": [
       "23588"
     ],
+    "cloze": {
+      "de": "Augenarzt",
+      "en": "eye"
+    },
     "sourceIndex": 13588
   },
   {
@@ -4044,6 +4992,10 @@ const phrasesHealth = [
     "wordIds": [
       "23591"
     ],
+    "cloze": {
+      "de": "Balsam",
+      "en": "balm"
+    },
     "sourceIndex": 13591
   },
   {
@@ -4061,6 +5013,10 @@ const phrasesHealth = [
     "wordIds": [
       "23648"
     ],
+    "cloze": {
+      "de": "Giraffe",
+      "en": "giraffe"
+    },
     "sourceIndex": 13648
   },
   {
@@ -4078,6 +5034,10 @@ const phrasesHealth = [
     "wordIds": [
       "23657"
     ],
+    "cloze": {
+      "de": "Herzchen",
+      "en": "little"
+    },
     "sourceIndex": 13657
   },
   {
@@ -4095,6 +5055,10 @@ const phrasesHealth = [
     "wordIds": [
       "23763"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "paternal"
+    },
     "sourceIndex": 13763
   },
   {
@@ -4112,6 +5076,10 @@ const phrasesHealth = [
     "wordIds": [
       "23783"
     ],
+    "cloze": {
+      "de": "Ambulanz",
+      "en": "ambulance"
+    },
     "sourceIndex": 13783
   },
   {
@@ -4129,6 +5097,10 @@ const phrasesHealth = [
     "wordIds": [
       "23904"
     ],
+    "cloze": {
+      "de": "schwindelig",
+      "en": "dizzy"
+    },
     "sourceIndex": 13904
   },
   {
@@ -4146,6 +5118,10 @@ const phrasesHealth = [
     "wordIds": [
       "24062"
     ],
+    "cloze": {
+      "de": "Kopfweh",
+      "en": "headache"
+    },
     "sourceIndex": 14062
   },
   {
@@ -4163,6 +5139,10 @@ const phrasesHealth = [
     "wordIds": [
       "24261"
     ],
+    "cloze": {
+      "de": "Körpertemperatur",
+      "en": "body"
+    },
     "sourceIndex": 14261
   },
   {
@@ -4180,6 +5160,10 @@ const phrasesHealth = [
     "wordIds": [
       "24309"
     ],
+    "cloze": {
+      "de": "Spucke",
+      "en": "saliva"
+    },
     "sourceIndex": 14309
   },
   {
@@ -4197,6 +5181,10 @@ const phrasesHealth = [
     "wordIds": [
       "24555"
     ],
+    "cloze": {
+      "de": "zurück",
+      "en": "back"
+    },
     "sourceIndex": 14555
   },
   {
@@ -4214,6 +5202,10 @@ const phrasesHealth = [
     "wordIds": [
       "24663"
     ],
+    "cloze": {
+      "de": "Kopfbedeckung",
+      "en": "head"
+    },
     "sourceIndex": 14663
   },
   {
@@ -4231,6 +5223,10 @@ const phrasesHealth = [
     "wordIds": [
       "24686"
     ],
+    "cloze": {
+      "de": "Notdienst",
+      "en": "emergency"
+    },
     "sourceIndex": 14686
   },
   {
@@ -4248,6 +5244,10 @@ const phrasesHealth = [
     "wordIds": [
       "24780"
     ],
+    "cloze": {
+      "de": "Ansteckung",
+      "en": "infection"
+    },
     "sourceIndex": 14780
   },
   {
@@ -4265,6 +5265,10 @@ const phrasesHealth = [
     "wordIds": [
       "24977"
     ],
+    "cloze": {
+      "de": "Zahnfleisch",
+      "en": "gums"
+    },
     "sourceIndex": 14977
   },
   {
@@ -4282,6 +5286,10 @@ const phrasesHealth = [
     "wordIds": [
       "24996"
     ],
+    "cloze": {
+      "de": "aufatmen",
+      "en": "breathe"
+    },
     "sourceIndex": 14996
   },
   {
@@ -4299,6 +5307,10 @@ const phrasesHealth = [
     "wordIds": [
       "25011"
     ],
+    "cloze": {
+      "de": "Chefkoch",
+      "en": "head"
+    },
     "sourceIndex": 15011
   },
   {
@@ -4316,6 +5328,10 @@ const phrasesHealth = [
     "wordIds": [
       "25083"
     ],
+    "cloze": {
+      "de": "Körperhaltung",
+      "en": "posture"
+    },
     "sourceIndex": 15083
   },
   {
@@ -4333,6 +5349,10 @@ const phrasesHealth = [
     "wordIds": [
       "25207"
     ],
+    "cloze": {
+      "de": "Arznei",
+      "en": "medicine"
+    },
     "sourceIndex": 15207
   },
   {
@@ -4350,6 +5370,10 @@ const phrasesHealth = [
     "wordIds": [
       "25278"
     ],
+    "cloze": {
+      "de": "gestorbene",
+      "en": "dead"
+    },
     "sourceIndex": 15278
   },
   {
@@ -4367,6 +5391,10 @@ const phrasesHealth = [
     "wordIds": [
       "25325"
     ],
+    "cloze": {
+      "de": "Piercing",
+      "en": "piercing"
+    },
     "sourceIndex": 15325
   },
   {
@@ -4384,6 +5412,10 @@ const phrasesHealth = [
     "wordIds": [
       "25458"
     ],
+    "cloze": {
+      "de": "Dutt",
+      "en": "hair"
+    },
     "sourceIndex": 15458
   },
   {
@@ -4401,6 +5433,10 @@ const phrasesHealth = [
     "wordIds": [
       "25486"
     ],
+    "cloze": {
+      "de": "Föhn",
+      "en": "hairdryer"
+    },
     "sourceIndex": 15486
   },
   {
@@ -4418,6 +5454,10 @@ const phrasesHealth = [
     "wordIds": [
       "25776"
     ],
+    "cloze": {
+      "de": "rötliche",
+      "en": "reddish"
+    },
     "sourceIndex": 15776
   },
   {
@@ -4435,6 +5475,10 @@ const phrasesHealth = [
     "wordIds": [
       "25866"
     ],
+    "cloze": {
+      "de": "Bändchen",
+      "en": "small"
+    },
     "sourceIndex": 15866
   },
   {
@@ -4452,6 +5496,10 @@ const phrasesHealth = [
     "wordIds": [
       "25978"
     ],
+    "cloze": {
+      "de": "Nahaufnahme",
+      "en": "close-up"
+    },
     "sourceIndex": 15978
   },
   {
@@ -4469,6 +5517,10 @@ const phrasesHealth = [
     "wordIds": [
       "25998"
     ],
+    "cloze": {
+      "de": "Rollo",
+      "en": "roller"
+    },
     "sourceIndex": 15998
   },
   {
@@ -4486,6 +5538,10 @@ const phrasesHealth = [
     "wordIds": [
       "26191"
     ],
+    "cloze": {
+      "de": "Muskelkater",
+      "en": "muscle"
+    },
     "sourceIndex": 16191
   },
   {
@@ -4503,6 +5559,10 @@ const phrasesHealth = [
     "wordIds": [
       "26407"
     ],
+    "cloze": {
+      "de": "Gibs",
+      "en": "plaster"
+    },
     "sourceIndex": 16407
   },
   {
@@ -4520,6 +5580,10 @@ const phrasesHealth = [
     "wordIds": [
       "26585"
     ],
+    "cloze": {
+      "de": "Barbier",
+      "en": "barber"
+    },
     "sourceIndex": 16585
   },
   {
@@ -4537,6 +5601,10 @@ const phrasesHealth = [
     "wordIds": [
       "26805"
     ],
+    "cloze": {
+      "de": "zurueck",
+      "en": "back"
+    },
     "sourceIndex": 16805
   },
   {
@@ -4554,6 +5622,10 @@ const phrasesHealth = [
     "wordIds": [
       "26835"
     ],
+    "cloze": {
+      "de": "Blutprobe",
+      "en": "blood"
+    },
     "sourceIndex": 16835
   },
   {
@@ -4571,6 +5643,10 @@ const phrasesHealth = [
     "wordIds": [
       "26907"
     ],
+    "cloze": {
+      "de": "Körperpflege",
+      "en": "Personal"
+    },
     "sourceIndex": 16907
   },
   {
@@ -4588,6 +5664,10 @@ const phrasesHealth = [
     "wordIds": [
       "26951"
     ],
+    "cloze": {
+      "de": "Oberarm",
+      "en": "upper"
+    },
     "sourceIndex": 16951
   },
   {
@@ -4605,6 +5685,10 @@ const phrasesHealth = [
     "wordIds": [
       "27196"
     ],
+    "cloze": {
+      "de": "Küchenchef",
+      "en": "head"
+    },
     "sourceIndex": 17196
   },
   {
@@ -4622,6 +5706,10 @@ const phrasesHealth = [
     "wordIds": [
       "27325"
     ],
+    "cloze": {
+      "de": "Zähneputzen",
+      "en": "Brushing"
+    },
     "sourceIndex": 17325
   },
   {
@@ -4639,6 +5727,10 @@ const phrasesHealth = [
     "wordIds": [
       "27335"
     ],
+    "cloze": {
+      "de": "Altenpfleger",
+      "en": "geriatric"
+    },
     "sourceIndex": 17335
   },
   {
@@ -4656,6 +5748,10 @@ const phrasesHealth = [
     "wordIds": [
       "27379"
     ],
+    "cloze": {
+      "de": "Drops",
+      "en": "cough"
+    },
     "sourceIndex": 17379
   },
   {
@@ -4673,6 +5769,10 @@ const phrasesHealth = [
     "wordIds": [
       "27485"
     ],
+    "cloze": {
+      "de": "Medaillon",
+      "en": "locket"
+    },
     "sourceIndex": 17485
   },
   {
@@ -4690,6 +5790,10 @@ const phrasesHealth = [
     "wordIds": [
       "27631"
     ],
+    "cloze": {
+      "de": "Augenfarbe",
+      "en": "eye"
+    },
     "sourceIndex": 17631
   },
   {
@@ -4707,6 +5811,10 @@ const phrasesHealth = [
     "wordIds": [
       "27646"
     ],
+    "cloze": {
+      "de": "bleich",
+      "en": "pale"
+    },
     "sourceIndex": 17646
   },
   {
@@ -4724,6 +5832,10 @@ const phrasesHealth = [
     "wordIds": [
       "27764"
     ],
+    "cloze": {
+      "de": "Puder",
+      "en": "powder"
+    },
     "sourceIndex": 17764
   },
   {
@@ -4741,6 +5853,10 @@ const phrasesHealth = [
     "wordIds": [
       "27942"
     ],
+    "cloze": {
+      "de": "Herzklopfen",
+      "en": "heart"
+    },
     "sourceIndex": 17942
   },
   {
@@ -4758,6 +5874,10 @@ const phrasesHealth = [
     "wordIds": [
       "27959"
     ],
+    "cloze": {
+      "de": "Karies",
+      "en": "tooth"
+    },
     "sourceIndex": 17959
   },
   {
@@ -4775,6 +5895,10 @@ const phrasesHealth = [
     "wordIds": [
       "28084"
     ],
+    "cloze": {
+      "de": "übergewichtig",
+      "en": "overweight"
+    },
     "sourceIndex": 18084
   },
   {
@@ -4792,6 +5916,10 @@ const phrasesHealth = [
     "wordIds": [
       "28091"
     ],
+    "cloze": {
+      "de": "Allergiker",
+      "en": "allergy"
+    },
     "sourceIndex": 18091
   },
   {
@@ -4809,6 +5937,10 @@ const phrasesHealth = [
     "wordIds": [
       "28187"
     ],
+    "cloze": {
+      "de": "Infekt",
+      "en": "infection"
+    },
     "sourceIndex": 18187
   },
   {
@@ -4826,6 +5958,10 @@ const phrasesHealth = [
     "wordIds": [
       "28538"
     ],
+    "cloze": {
+      "de": "Regentropfen",
+      "en": "raindrop"
+    },
     "sourceIndex": 18538
   },
   {
@@ -4843,6 +5979,10 @@ const phrasesHealth = [
     "wordIds": [
       "28596"
     ],
+    "cloze": {
+      "de": "verputzt",
+      "en": "up"
+    },
     "sourceIndex": 18596
   },
   {
@@ -4860,6 +6000,10 @@ const phrasesHealth = [
     "wordIds": [
       "28648"
     ],
+    "cloze": {
+      "de": "Beinbruch",
+      "en": "leg"
+    },
     "sourceIndex": 18648
   },
   {
@@ -4877,6 +6021,10 @@ const phrasesHealth = [
     "wordIds": [
       "28775"
     ],
+    "cloze": {
+      "de": "Physiotherapeut",
+      "en": "physiotherapist"
+    },
     "sourceIndex": 18775
   },
   {
@@ -4894,6 +6042,10 @@ const phrasesHealth = [
     "wordIds": [
       "29197"
     ],
+    "cloze": {
+      "de": "ausstrecken",
+      "en": "stretch"
+    },
     "sourceIndex": 19197
   },
   {
@@ -4911,6 +6063,10 @@ const phrasesHealth = [
     "wordIds": [
       "29283"
     ],
+    "cloze": {
+      "de": "Handfläche",
+      "en": "palm"
+    },
     "sourceIndex": 19283
   },
   {
@@ -4928,6 +6084,10 @@ const phrasesHealth = [
     "wordIds": [
       "29406"
     ],
+    "cloze": {
+      "de": "Zahnspange",
+      "en": "braces"
+    },
     "sourceIndex": 19406
   },
   {
@@ -4945,6 +6105,10 @@ const phrasesHealth = [
     "wordIds": [
       "29618"
     ],
+    "cloze": {
+      "de": "Masseur",
+      "en": "masseur"
+    },
     "sourceIndex": 19618
   },
   {
@@ -4962,6 +6126,10 @@ const phrasesHealth = [
     "wordIds": [
       "29701"
     ],
+    "cloze": {
+      "de": "Tätowierung",
+      "en": "tattoo"
+    },
     "sourceIndex": 19701
   },
   {
@@ -4979,6 +6147,10 @@ const phrasesHealth = [
     "wordIds": [
       "29852"
     ],
+    "cloze": {
+      "de": "Halsschmerz",
+      "en": "sore"
+    },
     "sourceIndex": 19852
   },
   {
@@ -4996,6 +6168,10 @@ const phrasesHealth = [
     "wordIds": [
       "29881"
     ],
+    "cloze": {
+      "de": "kitzelt",
+      "en": "tickles"
+    },
     "sourceIndex": 19881
   },
   {
@@ -5013,6 +6189,10 @@ const phrasesHealth = [
     "wordIds": [
       "30012"
     ],
+    "cloze": {
+      "de": "Unterschenkel",
+      "en": "lower"
+    },
     "sourceIndex": 20012
   },
   {
@@ -5030,6 +6210,10 @@ const phrasesHealth = [
     "wordIds": [
       "30042"
     ],
+    "cloze": {
+      "de": "weiterreichen",
+      "en": "pass"
+    },
     "sourceIndex": 20042
   }
 ];

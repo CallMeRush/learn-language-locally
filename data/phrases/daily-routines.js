@@ -14,6 +14,10 @@ const phrasesDailyRoutines = [
     "wordIds": [
       "11603"
     ],
+    "cloze": {
+      "de": "ordentlich",
+      "en": "tidy"
+    },
     "sourceIndex": 1603
   },
   {
@@ -31,6 +35,10 @@ const phrasesDailyRoutines = [
     "wordIds": [
       "11614"
     ],
+    "cloze": {
+      "de": "wach",
+      "en": "awake"
+    },
     "sourceIndex": 1614
   },
   {
@@ -48,6 +56,10 @@ const phrasesDailyRoutines = [
     "wordIds": [
       "12003"
     ],
+    "cloze": {
+      "de": "Haushalt",
+      "en": "household"
+    },
     "sourceIndex": 2003
   },
   {
@@ -65,6 +77,10 @@ const phrasesDailyRoutines = [
     "wordIds": [
       "27784"
     ],
+    "cloze": {
+      "de": "Schulalltag",
+      "en": "school"
+    },
     "sourceIndex": 17784
   },
   {
@@ -82,6 +98,10 @@ const phrasesDailyRoutines = [
     "wordIds": [
       "28254"
     ],
+    "cloze": {
+      "de": "Regenschauer",
+      "en": "rain"
+    },
     "sourceIndex": 18254
   },
   {
@@ -99,6 +119,10 @@ const phrasesDailyRoutines = [
     "wordIds": [
       "29207"
     ],
+    "cloze": {
+      "de": "Brause",
+      "en": "drink"
+    },
     "sourceIndex": 19207
   }
 ];

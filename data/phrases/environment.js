@@ -14,6 +14,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "10672"
     ],
+    "cloze": {
+      "de": "Schutz",
+      "en": "protection"
+    },
     "sourceIndex": 672
   },
   {
@@ -31,6 +35,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "10712"
     ],
+    "cloze": {
+      "de": "Energie",
+      "en": "energy"
+    },
     "sourceIndex": 712
   },
   {
@@ -48,6 +56,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "10827"
     ],
+    "cloze": {
+      "de": "einsetzen",
+      "en": "for"
+    },
     "sourceIndex": 827
   },
   {
@@ -65,6 +77,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "10838"
     ],
+    "cloze": {
+      "de": "schützen",
+      "en": "protect"
+    },
     "sourceIndex": 838
   },
   {
@@ -82,6 +98,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "11116"
     ],
+    "cloze": {
+      "de": "Umwelt",
+      "en": "environment"
+    },
     "sourceIndex": 1116
   },
   {
@@ -99,6 +119,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "11423"
     ],
+    "cloze": {
+      "de": "trennen",
+      "en": "separate"
+    },
     "sourceIndex": 1423
   },
   {
@@ -116,6 +140,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "11797"
     ],
+    "cloze": {
+      "de": "Müll",
+      "en": "trash"
+    },
     "sourceIndex": 1797
   },
   {
@@ -133,6 +161,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "11904"
     ],
+    "cloze": {
+      "de": "Tonne",
+      "en": "bin"
+    },
     "sourceIndex": 1904
   },
   {
@@ -150,6 +182,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "12362"
     ],
+    "cloze": {
+      "de": "Katastrophe",
+      "en": "disaster"
+    },
     "sourceIndex": 2362
   },
   {
@@ -167,6 +203,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "12734"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "committed"
+    },
     "sourceIndex": 2734
   },
   {
@@ -184,6 +224,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "13232"
     ],
+    "cloze": {
+      "de": "Entdeckung",
+      "en": "discovery"
+    },
     "sourceIndex": 3232
   },
   {
@@ -201,6 +245,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "13490"
     ],
+    "cloze": {
+      "de": "Plastik",
+      "en": "plastic"
+    },
     "sourceIndex": 3490
   },
   {
@@ -218,6 +266,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "13527"
     ],
+    "cloze": {
+      "de": "Erdbeben",
+      "en": "earthquake"
+    },
     "sourceIndex": 3527
   },
   {
@@ -235,6 +287,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "14276"
     ],
+    "cloze": {
+      "de": "Umweltschutz",
+      "en": "Environmental"
+    },
     "sourceIndex": 4276
   },
   {
@@ -252,6 +308,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "14447"
     ],
+    "cloze": {
+      "de": "Abfall",
+      "en": "waste"
+    },
     "sourceIndex": 4447
   },
   {
@@ -269,6 +329,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "14957"
     ],
+    "cloze": {
+      "de": "Solarenergie",
+      "en": "solar"
+    },
     "sourceIndex": 4957
   },
   {
@@ -286,6 +350,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "15045"
     ],
+    "cloze": {
+      "de": "stinkt",
+      "en": "stinks"
+    },
     "sourceIndex": 5045
   },
   {
@@ -303,6 +371,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "15183"
     ],
+    "cloze": {
+      "de": "Flut",
+      "en": "flood"
+    },
     "sourceIndex": 5183
   },
   {
@@ -320,6 +392,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "15381"
     ],
+    "cloze": {
+      "de": "Kunststoff",
+      "en": "plastic"
+    },
     "sourceIndex": 5381
   },
   {
@@ -337,6 +413,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "15886"
     ],
+    "cloze": {
+      "de": "ökologische",
+      "en": "ecological"
+    },
     "sourceIndex": 5886
   },
   {
@@ -354,6 +434,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "16217"
     ],
+    "cloze": {
+      "de": "Hochwasser",
+      "en": "flood"
+    },
     "sourceIndex": 6217
   },
   {
@@ -371,6 +455,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "16371"
     ],
+    "cloze": {
+      "de": "Vulkan",
+      "en": "volcano"
+    },
     "sourceIndex": 6371
   },
   {
@@ -388,6 +476,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "16463"
     ],
+    "cloze": {
+      "de": "verschwenden",
+      "en": "waste"
+    },
     "sourceIndex": 6463
   },
   {
@@ -405,6 +497,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "17972"
     ],
+    "cloze": {
+      "de": "Mülleimer",
+      "en": "trash"
+    },
     "sourceIndex": 7972
   },
   {
@@ -422,6 +518,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "18352"
     ],
+    "cloze": {
+      "de": "Recycling",
+      "en": "Recycling"
+    },
     "sourceIndex": 8352
   },
   {
@@ -439,6 +539,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "18760"
     ],
+    "cloze": {
+      "de": "Shield",
+      "en": "shield"
+    },
     "sourceIndex": 8760
   },
   {
@@ -456,6 +560,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "19220"
     ],
+    "cloze": {
+      "de": "Trockenheit",
+      "en": "drought"
+    },
     "sourceIndex": 9220
   },
   {
@@ -473,6 +581,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "19835"
     ],
+    "cloze": {
+      "de": "Windenergie",
+      "en": "Wind"
+    },
     "sourceIndex": 9835
   },
   {
@@ -490,6 +602,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "19842"
     ],
+    "cloze": {
+      "de": "Überschwemmung",
+      "en": "flood"
+    },
     "sourceIndex": 9842
   },
   {
@@ -507,6 +623,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "20215"
     ],
+    "cloze": {
+      "de": "Lava",
+      "en": "lava"
+    },
     "sourceIndex": 10215
   },
   {
@@ -524,6 +644,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "20429"
     ],
+    "cloze": {
+      "de": "vermindern",
+      "en": "reduce"
+    },
     "sourceIndex": 10429
   },
   {
@@ -541,6 +665,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "21235"
     ],
+    "cloze": {
+      "de": "Mülltonne",
+      "en": "garbage"
+    },
     "sourceIndex": 11235
   },
   {
@@ -558,6 +686,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "22947"
     ],
+    "cloze": {
+      "de": "Verschmutzung",
+      "en": "pollution"
+    },
     "sourceIndex": 12947
   },
   {
@@ -575,6 +707,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "23306"
     ],
+    "cloze": {
+      "de": "Sperrmüll",
+      "en": "bulky"
+    },
     "sourceIndex": 13306
   },
   {
@@ -592,6 +728,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "23847"
     ],
+    "cloze": {
+      "de": "inaktiv",
+      "en": "inactive"
+    },
     "sourceIndex": 13847
   },
   {
@@ -609,6 +749,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "24972"
     ],
+    "cloze": {
+      "de": "wegschmeissen",
+      "en": "throw"
+    },
     "sourceIndex": 14972
   },
   {
@@ -626,6 +770,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "25143"
     ],
+    "cloze": {
+      "de": "Solarenergie",
+      "en": "Solar"
+    },
     "sourceIndex": 15143
   },
   {
@@ -643,6 +791,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "25792"
     ],
+    "cloze": {
+      "de": "Sonnenfinsternis",
+      "en": "solar"
+    },
     "sourceIndex": 15792
   },
   {
@@ -660,6 +812,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "25795"
     ],
+    "cloze": {
+      "de": "stinkend",
+      "en": "stinking"
+    },
     "sourceIndex": 15795
   },
   {
@@ -677,6 +833,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "26790"
     ],
+    "cloze": {
+      "de": "verschmutzt",
+      "en": "pollutes"
+    },
     "sourceIndex": 16790
   },
   {
@@ -694,6 +854,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "27186"
     ],
+    "cloze": {
+      "de": "Kompost",
+      "en": "compost"
+    },
     "sourceIndex": 17186
   },
   {
@@ -711,6 +875,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "27837"
     ],
+    "cloze": {
+      "de": "Waschbär",
+      "en": "raccoon"
+    },
     "sourceIndex": 17837
   },
   {
@@ -728,6 +896,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "29141"
     ],
+    "cloze": {
+      "de": "vergeuden",
+      "en": "waste"
+    },
     "sourceIndex": 19141
   },
   {
@@ -745,6 +917,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "29402"
     ],
+    "cloze": {
+      "de": "Sonnenenergie",
+      "en": "Solar"
+    },
     "sourceIndex": 19402
   },
   {
@@ -762,6 +938,10 @@ const phrasesEnvironment = [
     "wordIds": [
       "29931"
     ],
+    "cloze": {
+      "de": "Plastikmüll",
+      "en": "plastic"
+    },
     "sourceIndex": 19931
   }
 ];

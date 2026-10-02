@@ -15,6 +15,10 @@ const phrasesPublicServices = [
       "11702",
       "20650"
     ],
+    "cloze": {
+      "de": "geben",
+      "en": "state"
+    },
     "sourceIndex": 1702
   },
   {
@@ -32,6 +36,10 @@ const phrasesPublicServices = [
     "wordIds": [
       "12140"
     ],
+    "cloze": {
+      "de": "Unterlagen",
+      "en": "documents"
+    },
     "sourceIndex": 2140
   },
   {
@@ -49,6 +57,10 @@ const phrasesPublicServices = [
     "wordIds": [
       "12671"
     ],
+    "cloze": {
+      "de": "Anmeldung",
+      "en": "registration"
+    },
     "sourceIndex": 2671
   },
   {
@@ -66,6 +78,10 @@ const phrasesPublicServices = [
     "wordIds": [
       "13123"
     ],
+    "cloze": {
+      "de": "registrieren",
+      "en": "register"
+    },
     "sourceIndex": 3123
   },
   {
@@ -83,6 +99,10 @@ const phrasesPublicServices = [
     "wordIds": [
       "13228"
     ],
+    "cloze": {
+      "de": "tragen",
+      "en": "enter"
+    },
     "sourceIndex": 3228
   },
   {
@@ -100,6 +120,10 @@ const phrasesPublicServices = [
     "wordIds": [
       "13712"
     ],
+    "cloze": {
+      "de": "Gestatten",
+      "en": "Allow"
+    },
     "sourceIndex": 3712
   },
   {
@@ -117,6 +141,10 @@ const phrasesPublicServices = [
     "wordIds": [
       "14397"
     ],
+    "cloze": {
+      "de": "Krankenversicherung",
+      "en": "health"
+    },
     "sourceIndex": 4397
   },
   {
@@ -134,6 +162,10 @@ const phrasesPublicServices = [
     "wordIds": [
       "14670"
     ],
+    "cloze": {
+      "de": "Finanzamt",
+      "en": "tax"
+    },
     "sourceIndex": 4670
   },
   {
@@ -151,6 +183,10 @@ const phrasesPublicServices = [
     "wordIds": [
       "14693"
     ],
+    "cloze": {
+      "de": "Packung",
+      "en": "pack"
+    },
     "sourceIndex": 4693
   },
   {
@@ -168,6 +204,10 @@ const phrasesPublicServices = [
     "wordIds": [
       "14697"
     ],
+    "cloze": {
+      "de": "reparieren",
+      "en": "repair"
+    },
     "sourceIndex": 4697
   },
   {
@@ -185,6 +225,10 @@ const phrasesPublicServices = [
     "wordIds": [
       "14877"
     ],
+    "cloze": {
+      "de": "Reparatur",
+      "en": "repair"
+    },
     "sourceIndex": 4877
   },
   {
@@ -202,6 +246,10 @@ const phrasesPublicServices = [
     "wordIds": [
       "16380"
     ],
+    "cloze": {
+      "de": "amtliches",
+      "en": "official"
+    },
     "sourceIndex": 6380
   },
   {
@@ -219,6 +267,10 @@ const phrasesPublicServices = [
     "wordIds": [
       "20468"
     ],
+    "cloze": {
+      "de": "Briefwahl",
+      "en": "postal"
+    },
     "sourceIndex": 10468
   },
   {
@@ -236,6 +288,10 @@ const phrasesPublicServices = [
     "wordIds": [
       "20910"
     ],
+    "cloze": {
+      "de": "Terminkalender",
+      "en": "appointment"
+    },
     "sourceIndex": 10910
   },
   {
@@ -253,6 +309,10 @@ const phrasesPublicServices = [
     "wordIds": [
       "20994"
     ],
+    "cloze": {
+      "de": "einschreiben",
+      "en": "register"
+    },
     "sourceIndex": 10994
   },
   {
@@ -270,6 +330,10 @@ const phrasesPublicServices = [
     "wordIds": [
       "22938"
     ],
+    "cloze": {
+      "de": "Unfallversicherung",
+      "en": "accident"
+    },
     "sourceIndex": 12938
   },
   {
@@ -287,6 +351,10 @@ const phrasesPublicServices = [
     "wordIds": [
       "24696"
     ],
+    "cloze": {
+      "de": "Postleitzahl",
+      "en": "postal"
+    },
     "sourceIndex": 14696
   },
   {
@@ -304,6 +372,10 @@ const phrasesPublicServices = [
     "wordIds": [
       "27038"
     ],
+    "cloze": {
+      "de": "Visite",
+      "en": "his"
+    },
     "sourceIndex": 17038
   },
   {
@@ -321,6 +393,10 @@ const phrasesPublicServices = [
     "wordIds": [
       "27348"
     ],
+    "cloze": {
+      "de": "Ausländerbehörde",
+      "en": "immigration"
+    },
     "sourceIndex": 17348
   },
   {
@@ -338,6 +414,10 @@ const phrasesPublicServices = [
     "wordIds": [
       "28751"
     ],
+    "cloze": {
+      "de": "Mandarin",
+      "en": "Mandarin"
+    },
     "sourceIndex": 18751
   },
   {
@@ -355,6 +435,10 @@ const phrasesPublicServices = [
     "wordIds": [
       "29222"
     ],
+    "cloze": {
+      "de": "dienstlich",
+      "en": "business"
+    },
     "sourceIndex": 19222
   },
   {
@@ -372,6 +456,10 @@ const phrasesPublicServices = [
     "wordIds": [
       "29223"
     ],
+    "cloze": {
+      "de": "Document",
+      "en": "document"
+    },
     "sourceIndex": 19223
   }
 ];

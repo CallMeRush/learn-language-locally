@@ -14,6 +14,10 @@ const phrasesTechnology = [
     "wordIds": [
       "10040"
     ],
+    "cloze": {
+      "de": "dabei",
+      "en": "with"
+    },
     "sourceIndex": 40
   },
   {
@@ -31,6 +35,10 @@ const phrasesTechnology = [
     "wordIds": [
       "10132"
     ],
+    "cloze": {
+      "de": "bekomme",
+      "en": "receive"
+    },
     "sourceIndex": 132
   },
   {
@@ -48,6 +56,10 @@ const phrasesTechnology = [
     "wordIds": [
       "10150"
     ],
+    "cloze": {
+      "de": "online",
+      "en": "online"
+    },
     "sourceIndex": 150
   },
   {
@@ -65,6 +77,10 @@ const phrasesTechnology = [
     "wordIds": [
       "10239"
     ],
+    "cloze": {
+      "de": "Internet",
+      "en": "Internet"
+    },
     "sourceIndex": 239
   },
   {
@@ -82,6 +98,10 @@ const phrasesTechnology = [
     "wordIds": [
       "10279"
     ],
+    "cloze": {
+      "de": "suche",
+      "en": "for"
+    },
     "sourceIndex": 279
   },
   {
@@ -99,6 +119,10 @@ const phrasesTechnology = [
     "wordIds": [
       "10321"
     ],
+    "cloze": {
+      "de": "Video",
+      "en": "video"
+    },
     "sourceIndex": 321
   },
   {
@@ -116,6 +140,10 @@ const phrasesTechnology = [
     "wordIds": [
       "10327"
     ],
+    "cloze": {
+      "de": "Computersystem",
+      "en": "system"
+    },
     "sourceIndex": 327
   },
   {
@@ -133,6 +161,10 @@ const phrasesTechnology = [
     "wordIds": [
       "10334"
     ],
+    "cloze": {
+      "de": "Links",
+      "en": "links"
+    },
     "sourceIndex": 334
   },
   {
@@ -150,6 +182,10 @@ const phrasesTechnology = [
     "wordIds": [
       "10338"
     ],
+    "cloze": {
+      "de": "Suche",
+      "en": "search"
+    },
     "sourceIndex": 338
   },
   {
@@ -167,6 +203,10 @@ const phrasesTechnology = [
     "wordIds": [
       "10382"
     ],
+    "cloze": {
+      "de": "Medium",
+      "en": "medium"
+    },
     "sourceIndex": 382
   },
   {
@@ -184,6 +224,10 @@ const phrasesTechnology = [
     "wordIds": [
       "10384"
     ],
+    "cloze": {
+      "de": "Tv",
+      "en": "TV"
+    },
     "sourceIndex": 384
   },
   {
@@ -201,6 +245,10 @@ const phrasesTechnology = [
     "wordIds": [
       "10412"
     ],
+    "cloze": {
+      "de": "Foto",
+      "en": "photo"
+    },
     "sourceIndex": 412
   },
   {
@@ -218,6 +266,10 @@ const phrasesTechnology = [
     "wordIds": [
       "10447"
     ],
+    "cloze": {
+      "de": "Nachricht",
+      "en": "message"
+    },
     "sourceIndex": 447
   },
   {
@@ -235,6 +287,10 @@ const phrasesTechnology = [
     "wordIds": [
       "10460"
     ],
+    "cloze": {
+      "de": "Licht",
+      "en": "light"
+    },
     "sourceIndex": 460
   },
   {
@@ -252,6 +308,10 @@ const phrasesTechnology = [
     "wordIds": [
       "10484"
     ],
+    "cloze": {
+      "de": "Internetverbindung",
+      "en": "connection"
+    },
     "sourceIndex": 484
   },
   {
@@ -269,6 +329,10 @@ const phrasesTechnology = [
     "wordIds": [
       "10493"
     ],
+    "cloze": {
+      "de": "funktioniert",
+      "en": "working"
+    },
     "sourceIndex": 493
   },
   {
@@ -286,6 +350,10 @@ const phrasesTechnology = [
     "wordIds": [
       "10659"
     ],
+    "cloze": {
+      "de": "Website",
+      "en": "website"
+    },
     "sourceIndex": 659
   },
   {
@@ -303,6 +371,10 @@ const phrasesTechnology = [
     "wordIds": [
       "10663"
     ],
+    "cloze": {
+      "de": "Handy",
+      "en": "mobile"
+    },
     "sourceIndex": 663
   },
   {
@@ -320,6 +392,10 @@ const phrasesTechnology = [
     "wordIds": [
       "10679"
     ],
+    "cloze": {
+      "de": "benutzen",
+      "en": "use"
+    },
     "sourceIndex": 679
   },
   {
@@ -337,6 +413,10 @@ const phrasesTechnology = [
     "wordIds": [
       "10685"
     ],
+    "cloze": {
+      "de": "Technik",
+      "en": "technology"
+    },
     "sourceIndex": 685
   },
   {
@@ -354,6 +434,10 @@ const phrasesTechnology = [
     "wordIds": [
       "10709"
     ],
+    "cloze": {
+      "de": "verbinden",
+      "en": "connect"
+    },
     "sourceIndex": 709
   },
   {
@@ -371,6 +455,10 @@ const phrasesTechnology = [
     "wordIds": [
       "10726"
     ],
+    "cloze": {
+      "de": "Version",
+      "en": "version"
+    },
     "sourceIndex": 726
   },
   {
@@ -388,6 +476,10 @@ const phrasesTechnology = [
     "wordIds": [
       "10749"
     ],
+    "cloze": {
+      "de": "App",
+      "en": "app"
+    },
     "sourceIndex": 749
   },
   {
@@ -405,6 +497,10 @@ const phrasesTechnology = [
     "wordIds": [
       "10754"
     ],
+    "cloze": {
+      "de": "Funktionen",
+      "en": "functions"
+    },
     "sourceIndex": 754
   },
   {
@@ -422,6 +518,10 @@ const phrasesTechnology = [
     "wordIds": [
       "10790"
     ],
+    "cloze": {
+      "de": "Netz",
+      "en": "network"
+    },
     "sourceIndex": 790
   },
   {
@@ -439,6 +539,10 @@ const phrasesTechnology = [
     "wordIds": [
       "10811"
     ],
+    "cloze": {
+      "de": "Kamera",
+      "en": "camera"
+    },
     "sourceIndex": 811
   },
   {
@@ -456,6 +560,10 @@ const phrasesTechnology = [
     "wordIds": [
       "10816"
     ],
+    "cloze": {
+      "de": "Telefon",
+      "en": "telephone"
+    },
     "sourceIndex": 816
   },
   {
@@ -473,6 +581,10 @@ const phrasesTechnology = [
     "wordIds": [
       "10947"
     ],
+    "cloze": {
+      "de": "schicken",
+      "en": "send"
+    },
     "sourceIndex": 947
   },
   {
@@ -490,6 +602,10 @@ const phrasesTechnology = [
     "wordIds": [
       "10949"
     ],
+    "cloze": {
+      "de": "Strom",
+      "en": "went"
+    },
     "sourceIndex": 949
   },
   {
@@ -507,6 +623,10 @@ const phrasesTechnology = [
     "wordIds": [
       "10994"
     ],
+    "cloze": {
+      "de": "Radio",
+      "en": "radio"
+    },
     "sourceIndex": 994
   },
   {
@@ -524,6 +644,10 @@ const phrasesTechnology = [
     "wordIds": [
       "11032"
     ],
+    "cloze": {
+      "de": "Computer",
+      "en": "computer"
+    },
     "sourceIndex": 1032
   },
   {
@@ -541,6 +665,10 @@ const phrasesTechnology = [
     "wordIds": [
       "11078"
     ],
+    "cloze": {
+      "de": "kriegen",
+      "en": "get"
+    },
     "sourceIndex": 1078
   },
   {
@@ -558,6 +686,10 @@ const phrasesTechnology = [
     "wordIds": [
       "11128"
     ],
+    "cloze": {
+      "de": "Anwendung",
+      "en": "application"
+    },
     "sourceIndex": 1128
   },
   {
@@ -575,6 +707,10 @@ const phrasesTechnology = [
     "wordIds": [
       "11148"
     ],
+    "cloze": {
+      "de": "Aufnahme",
+      "en": "recording"
+    },
     "sourceIndex": 1148
   },
   {
@@ -592,6 +728,10 @@ const phrasesTechnology = [
     "wordIds": [
       "11183"
     ],
+    "cloze": {
+      "de": "einstellen",
+      "en": "adjust"
+    },
     "sourceIndex": 1183
   },
   {
@@ -609,6 +749,10 @@ const phrasesTechnology = [
     "wordIds": [
       "11186"
     ],
+    "cloze": {
+      "de": "Gerät",
+      "en": "device"
+    },
     "sourceIndex": 1186
   },
   {
@@ -626,6 +770,10 @@ const phrasesTechnology = [
     "wordIds": [
       "11209"
     ],
+    "cloze": {
+      "de": "Homepage",
+      "en": "homepage"
+    },
     "sourceIndex": 1209
   },
   {
@@ -643,6 +791,10 @@ const phrasesTechnology = [
     "wordIds": [
       "11217"
     ],
+    "cloze": {
+      "de": "Nutzung",
+      "en": "use"
+    },
     "sourceIndex": 1217
   },
   {
@@ -660,6 +812,10 @@ const phrasesTechnology = [
     "wordIds": [
       "11265"
     ],
+    "cloze": {
+      "de": "Software",
+      "en": "software"
+    },
     "sourceIndex": 1265
   },
   {
@@ -677,6 +833,10 @@ const phrasesTechnology = [
     "wordIds": [
       "11279"
     ],
+    "cloze": {
+      "de": "Anzeige",
+      "en": "advertisement"
+    },
     "sourceIndex": 1279
   },
   {
@@ -694,6 +854,10 @@ const phrasesTechnology = [
     "wordIds": [
       "11301"
     ],
+    "cloze": {
+      "de": "ersetzen",
+      "en": "replace"
+    },
     "sourceIndex": 1301
   },
   {
@@ -711,6 +875,10 @@ const phrasesTechnology = [
     "wordIds": [
       "11338"
     ],
+    "cloze": {
+      "de": "Maschine",
+      "en": "machine"
+    },
     "sourceIndex": 1338
   },
   {
@@ -728,6 +896,10 @@ const phrasesTechnology = [
     "wordIds": [
       "11353"
     ],
+    "cloze": {
+      "de": "Code",
+      "en": "code"
+    },
     "sourceIndex": 1353
   },
   {
@@ -745,6 +917,10 @@ const phrasesTechnology = [
     "wordIds": [
       "11360"
     ],
+    "cloze": {
+      "de": "Online-Forum",
+      "en": "forum"
+    },
     "sourceIndex": 1360
   },
   {
@@ -762,6 +938,10 @@ const phrasesTechnology = [
     "wordIds": [
       "11403"
     ],
+    "cloze": {
+      "de": "Smartphone",
+      "en": "smartphone"
+    },
     "sourceIndex": 1403
   },
   {
@@ -779,6 +959,10 @@ const phrasesTechnology = [
     "wordIds": [
       "11439"
     ],
+    "cloze": {
+      "de": "Webseite",
+      "en": "website"
+    },
     "sourceIndex": 1439
   },
   {
@@ -796,6 +980,10 @@ const phrasesTechnology = [
     "wordIds": [
       "11501"
     ],
+    "cloze": {
+      "de": "Profil",
+      "en": "profile"
+    },
     "sourceIndex": 1501
   },
   {
@@ -813,6 +1001,10 @@ const phrasesTechnology = [
     "wordIds": [
       "11539"
     ],
+    "cloze": {
+      "de": "Scheinbar",
+      "en": "Apparently"
+    },
     "sourceIndex": 1539
   },
   {
@@ -830,6 +1022,10 @@ const phrasesTechnology = [
     "wordIds": [
       "11566"
     ],
+    "cloze": {
+      "de": "Server",
+      "en": "server"
+    },
     "sourceIndex": 1566
   },
   {
@@ -847,6 +1043,10 @@ const phrasesTechnology = [
     "wordIds": [
       "11767"
     ],
+    "cloze": {
+      "de": "Netzwerk",
+      "en": "network"
+    },
     "sourceIndex": 1767
   },
   {
@@ -864,6 +1064,10 @@ const phrasesTechnology = [
     "wordIds": [
       "11791"
     ],
+    "cloze": {
+      "de": "Format",
+      "en": "format"
+    },
     "sourceIndex": 1791
   },
   {
@@ -881,6 +1085,10 @@ const phrasesTechnology = [
     "wordIds": [
       "11862"
     ],
+    "cloze": {
+      "de": "klicken",
+      "en": "click"
+    },
     "sourceIndex": 1862
   },
   {
@@ -898,6 +1106,10 @@ const phrasesTechnology = [
     "wordIds": [
       "12001"
     ],
+    "cloze": {
+      "de": "Gebrauch",
+      "en": "use"
+    },
     "sourceIndex": 2001
   },
   {
@@ -915,6 +1127,10 @@ const phrasesTechnology = [
     "wordIds": [
       "12024"
     ],
+    "cloze": {
+      "de": "Sprecher",
+      "en": "spokesperson"
+    },
     "sourceIndex": 2024
   },
   {
@@ -932,6 +1148,10 @@ const phrasesTechnology = [
     "wordIds": [
       "12031"
     ],
+    "cloze": {
+      "de": "überprüfen",
+      "en": "check"
+    },
     "sourceIndex": 2031
   },
   {
@@ -949,6 +1169,10 @@ const phrasesTechnology = [
     "wordIds": [
       "12088"
     ],
+    "cloze": {
+      "de": "Home",
+      "en": "Home"
+    },
     "sourceIndex": 2088
   },
   {
@@ -966,6 +1190,10 @@ const phrasesTechnology = [
     "wordIds": [
       "12138"
     ],
+    "cloze": {
+      "de": "Technologie",
+      "en": "technology"
+    },
     "sourceIndex": 2138
   },
   {
@@ -983,6 +1211,10 @@ const phrasesTechnology = [
     "wordIds": [
       "12193"
     ],
+    "cloze": {
+      "de": "Fassung",
+      "en": "version"
+    },
     "sourceIndex": 2193
   },
   {
@@ -1000,6 +1232,10 @@ const phrasesTechnology = [
     "wordIds": [
       "12201"
     ],
+    "cloze": {
+      "de": "Kabel",
+      "en": "cable"
+    },
     "sourceIndex": 2201
   },
   {
@@ -1017,6 +1253,10 @@ const phrasesTechnology = [
     "wordIds": [
       "12214"
     ],
+    "cloze": {
+      "de": "Signal",
+      "en": "signal"
+    },
     "sourceIndex": 2214
   },
   {
@@ -1034,6 +1274,10 @@ const phrasesTechnology = [
     "wordIds": [
       "12238"
     ],
+    "cloze": {
+      "de": "digitalen",
+      "en": "digital"
+    },
     "sourceIndex": 2238
   },
   {
@@ -1051,6 +1295,10 @@ const phrasesTechnology = [
     "wordIds": [
       "12302"
     ],
+    "cloze": {
+      "de": "senden",
+      "en": "send"
+    },
     "sourceIndex": 2302
   },
   {
@@ -1068,6 +1316,10 @@ const phrasesTechnology = [
     "wordIds": [
       "12337"
     ],
+    "cloze": {
+      "de": "Power",
+      "en": "power"
+    },
     "sourceIndex": 2337
   },
   {
@@ -1085,6 +1337,10 @@ const phrasesTechnology = [
     "wordIds": [
       "12435"
     ],
+    "cloze": {
+      "de": "erfinden",
+      "en": "invent"
+    },
     "sourceIndex": 2435
   },
   {
@@ -1102,6 +1358,10 @@ const phrasesTechnology = [
     "wordIds": [
       "12466"
     ],
+    "cloze": {
+      "de": "Web",
+      "en": "web"
+    },
     "sourceIndex": 2466
   },
   {
@@ -1119,6 +1379,10 @@ const phrasesTechnology = [
     "wordIds": [
       "12560"
     ],
+    "cloze": {
+      "de": "Störung",
+      "en": "malfunction"
+    },
     "sourceIndex": 2560
   },
   {
@@ -1136,6 +1400,10 @@ const phrasesTechnology = [
     "wordIds": [
       "12561"
     ],
+    "cloze": {
+      "de": "Support",
+      "en": "support"
+    },
     "sourceIndex": 2561
   },
   {
@@ -1153,6 +1421,10 @@ const phrasesTechnology = [
     "wordIds": [
       "12589"
     ],
+    "cloze": {
+      "de": "Grafik",
+      "en": "graphic"
+    },
     "sourceIndex": 2589
   },
   {
@@ -1170,6 +1442,10 @@ const phrasesTechnology = [
     "wordIds": [
       "12604"
     ],
+    "cloze": {
+      "de": "Roboter",
+      "en": "robot"
+    },
     "sourceIndex": 2604
   },
   {
@@ -1187,6 +1463,10 @@ const phrasesTechnology = [
     "wordIds": [
       "12634"
     ],
+    "cloze": {
+      "de": "Software-Entwickler",
+      "en": "developer"
+    },
     "sourceIndex": 2634
   },
   {
@@ -1204,6 +1484,10 @@ const phrasesTechnology = [
     "wordIds": [
       "12746"
     ],
+    "cloze": {
+      "de": "Mitteilung",
+      "en": "message"
+    },
     "sourceIndex": 2746
   },
   {
@@ -1221,6 +1505,10 @@ const phrasesTechnology = [
     "wordIds": [
       "12788"
     ],
+    "cloze": {
+      "de": "Laptop",
+      "en": "laptop"
+    },
     "sourceIndex": 2788
   },
   {
@@ -1238,6 +1526,10 @@ const phrasesTechnology = [
     "wordIds": [
       "12834"
     ],
+    "cloze": {
+      "de": "Funk",
+      "en": "radio"
+    },
     "sourceIndex": 2834
   },
   {
@@ -1255,6 +1547,10 @@ const phrasesTechnology = [
     "wordIds": [
       "12836"
     ],
+    "cloze": {
+      "de": "Gb",
+      "en": "Gigabytes"
+    },
     "sourceIndex": 2836
   },
   {
@@ -1272,6 +1568,10 @@ const phrasesTechnology = [
     "wordIds": [
       "12841"
     ],
+    "cloze": {
+      "de": "installieren",
+      "en": "install"
+    },
     "sourceIndex": 2841
   },
   {
@@ -1289,6 +1589,10 @@ const phrasesTechnology = [
     "wordIds": [
       "12869"
     ],
+    "cloze": {
+      "de": "ausbauen",
+      "en": "expand"
+    },
     "sourceIndex": 2869
   },
   {
@@ -1306,6 +1610,10 @@ const phrasesTechnology = [
     "wordIds": [
       "12912"
     ],
+    "cloze": {
+      "de": "Tropfen",
+      "en": "drop"
+    },
     "sourceIndex": 2912
   },
   {
@@ -1323,6 +1631,10 @@ const phrasesTechnology = [
     "wordIds": [
       "12918"
     ],
+    "cloze": {
+      "de": "Akku",
+      "en": "battery"
+    },
     "sourceIndex": 2918
   },
   {
@@ -1340,6 +1652,10 @@ const phrasesTechnology = [
     "wordIds": [
       "12919"
     ],
+    "cloze": {
+      "de": "anschliessen",
+      "en": "connect"
+    },
     "sourceIndex": 2919
   },
   {
@@ -1357,6 +1673,10 @@ const phrasesTechnology = [
     "wordIds": [
       "12955"
     ],
+    "cloze": {
+      "de": "Rechner",
+      "en": "computer"
+    },
     "sourceIndex": 2955
   },
   {
@@ -1374,6 +1694,10 @@ const phrasesTechnology = [
     "wordIds": [
       "13045"
     ],
+    "cloze": {
+      "de": "Fotografie",
+      "en": "Photography"
+    },
     "sourceIndex": 3045
   },
   {
@@ -1391,6 +1715,10 @@ const phrasesTechnology = [
     "wordIds": [
       "13108"
     ],
+    "cloze": {
+      "de": "Klick",
+      "en": "click"
+    },
     "sourceIndex": 3108
   },
   {
@@ -1408,6 +1736,10 @@ const phrasesTechnology = [
     "wordIds": [
       "13158"
     ],
+    "cloze": {
+      "de": "Datei",
+      "en": "file"
+    },
     "sourceIndex": 3158
   },
   {
@@ -1425,6 +1757,10 @@ const phrasesTechnology = [
     "wordIds": [
       "13204"
     ],
+    "cloze": {
+      "de": "verbunden",
+      "en": "connected"
+    },
     "sourceIndex": 3204
   },
   {
@@ -1442,6 +1778,10 @@ const phrasesTechnology = [
     "wordIds": [
       "13225"
     ],
+    "cloze": {
+      "de": "Download",
+      "en": "download"
+    },
     "sourceIndex": 3225
   },
   {
@@ -1459,6 +1799,10 @@ const phrasesTechnology = [
     "wordIds": [
       "13281"
     ],
+    "cloze": {
+      "de": "Bildschirm",
+      "en": "screen"
+    },
     "sourceIndex": 3281
   },
   {
@@ -1476,6 +1820,10 @@ const phrasesTechnology = [
     "wordIds": [
       "13380"
     ],
+    "cloze": {
+      "de": "verarbeiten",
+      "en": "process"
+    },
     "sourceIndex": 3380
   },
   {
@@ -1493,6 +1841,10 @@ const phrasesTechnology = [
     "wordIds": [
       "13518"
     ],
+    "cloze": {
+      "de": "Benutzung",
+      "en": "use"
+    },
     "sourceIndex": 3518
   },
   {
@@ -1510,6 +1862,10 @@ const phrasesTechnology = [
     "wordIds": [
       "13548"
     ],
+    "cloze": {
+      "de": "Passwort",
+      "en": "password"
+    },
     "sourceIndex": 3548
   },
   {
@@ -1527,6 +1883,10 @@ const phrasesTechnology = [
     "wordIds": [
       "13640"
     ],
+    "cloze": {
+      "de": "Browser",
+      "en": "browser"
+    },
     "sourceIndex": 3640
   },
   {
@@ -1544,6 +1904,10 @@ const phrasesTechnology = [
     "wordIds": [
       "13644"
     ],
+    "cloze": {
+      "de": "elektronische",
+      "en": "electronic"
+    },
     "sourceIndex": 3644
   },
   {
@@ -1562,6 +1926,10 @@ const phrasesTechnology = [
       "13677",
       "14596"
     ],
+    "cloze": {
+      "de": "schalten",
+      "en": "turn"
+    },
     "sourceIndex": 3677
   },
   {
@@ -1579,6 +1947,10 @@ const phrasesTechnology = [
     "wordIds": [
       "13783"
     ],
+    "cloze": {
+      "de": "Hardware",
+      "en": "hardware"
+    },
     "sourceIndex": 3783
   },
   {
@@ -1596,6 +1968,10 @@ const phrasesTechnology = [
     "wordIds": [
       "13833"
     ],
+    "cloze": {
+      "de": "drucken",
+      "en": "print"
+    },
     "sourceIndex": 3833
   },
   {
@@ -1613,6 +1989,10 @@ const phrasesTechnology = [
     "wordIds": [
       "13903"
     ],
+    "cloze": {
+      "de": "Internetseite",
+      "en": "website"
+    },
     "sourceIndex": 3903
   },
   {
@@ -1630,6 +2010,10 @@ const phrasesTechnology = [
     "wordIds": [
       "13929"
     ],
+    "cloze": {
+      "de": "Rundfunk",
+      "en": "radio"
+    },
     "sourceIndex": 3929
   },
   {
@@ -1647,6 +2031,10 @@ const phrasesTechnology = [
     "wordIds": [
       "13938"
     ],
+    "cloze": {
+      "de": "Speicher",
+      "en": "memory"
+    },
     "sourceIndex": 3938
   },
   {
@@ -1664,6 +2052,10 @@ const phrasesTechnology = [
     "wordIds": [
       "14006"
     ],
+    "cloze": {
+      "de": "Url",
+      "en": "URL"
+    },
     "sourceIndex": 4006
   },
   {
@@ -1681,6 +2073,10 @@ const phrasesTechnology = [
     "wordIds": [
       "14033"
     ],
+    "cloze": {
+      "de": "Display",
+      "en": "display"
+    },
     "sourceIndex": 4033
   },
   {
@@ -1698,6 +2094,10 @@ const phrasesTechnology = [
     "wordIds": [
       "14036"
     ],
+    "cloze": {
+      "de": "Drucker",
+      "en": "printer"
+    },
     "sourceIndex": 4036
   },
   {
@@ -1715,6 +2115,10 @@ const phrasesTechnology = [
     "wordIds": [
       "14095"
     ],
+    "cloze": {
+      "de": "Benutzer",
+      "en": "user"
+    },
     "sourceIndex": 4095
   },
   {
@@ -1732,6 +2136,10 @@ const phrasesTechnology = [
     "wordIds": [
       "14105"
     ],
+    "cloze": {
+      "de": "Chips",
+      "en": "I"
+    },
     "sourceIndex": 4105
   },
   {
@@ -1749,6 +2157,10 @@ const phrasesTechnology = [
     "wordIds": [
       "14163"
     ],
+    "cloze": {
+      "de": "Batterie",
+      "en": "battery"
+    },
     "sourceIndex": 4163
   },
   {
@@ -1766,6 +2178,10 @@ const phrasesTechnology = [
     "wordIds": [
       "14225"
     ],
+    "cloze": {
+      "de": "austauschen",
+      "en": "replace"
+    },
     "sourceIndex": 4225
   },
   {
@@ -1783,6 +2199,10 @@ const phrasesTechnology = [
     "wordIds": [
       "14237"
     ],
+    "cloze": {
+      "de": "erweiterte",
+      "en": "extended"
+    },
     "sourceIndex": 4237
   },
   {
@@ -1800,6 +2220,10 @@ const phrasesTechnology = [
     "wordIds": [
       "14277"
     ],
+    "cloze": {
+      "de": "war",
+      "en": "unexpected"
+    },
     "sourceIndex": 4277
   },
   {
@@ -1817,6 +2241,10 @@ const phrasesTechnology = [
     "wordIds": [
       "14319"
     ],
+    "cloze": {
+      "de": "Hacker",
+      "en": "hacker"
+    },
     "sourceIndex": 4319
   },
   {
@@ -1834,6 +2262,10 @@ const phrasesTechnology = [
     "wordIds": [
       "14322"
     ],
+    "cloze": {
+      "de": "Kram",
+      "en": "stuff"
+    },
     "sourceIndex": 4322
   },
   {
@@ -1851,6 +2283,10 @@ const phrasesTechnology = [
     "wordIds": [
       "14345"
     ],
+    "cloze": {
+      "de": "spezialisieren",
+      "en": "specialize"
+    },
     "sourceIndex": 4345
   },
   {
@@ -1868,6 +2304,10 @@ const phrasesTechnology = [
     "wordIds": [
       "14364"
     ],
+    "cloze": {
+      "de": "Anhang",
+      "en": "attachment"
+    },
     "sourceIndex": 4364
   },
   {
@@ -1885,6 +2325,10 @@ const phrasesTechnology = [
     "wordIds": [
       "14400"
     ],
+    "cloze": {
+      "de": "Lautsprecher",
+      "en": "speaker"
+    },
     "sourceIndex": 4400
   },
   {
@@ -1902,6 +2346,10 @@ const phrasesTechnology = [
     "wordIds": [
       "14405"
     ],
+    "cloze": {
+      "de": "Monitor",
+      "en": "monitor"
+    },
     "sourceIndex": 4405
   },
   {
@@ -1919,6 +2367,10 @@ const phrasesTechnology = [
     "wordIds": [
       "14462"
     ],
+    "cloze": {
+      "de": "Cam",
+      "en": "cam"
+    },
     "sourceIndex": 4462
   },
   {
@@ -1936,6 +2388,10 @@ const phrasesTechnology = [
     "wordIds": [
       "14594"
     ],
+    "cloze": {
+      "de": "defekt",
+      "en": "defective"
+    },
     "sourceIndex": 4594
   },
   {
@@ -1953,6 +2409,10 @@ const phrasesTechnology = [
     "wordIds": [
       "14608"
     ],
+    "cloze": {
+      "de": "Installation",
+      "en": "installation"
+    },
     "sourceIndex": 4608
   },
   {
@@ -1970,6 +2430,10 @@ const phrasesTechnology = [
     "wordIds": [
       "14612"
     ],
+    "cloze": {
+      "de": "höre",
+      "en": "headphones"
+    },
     "sourceIndex": 4612
   },
   {
@@ -1987,6 +2451,10 @@ const phrasesTechnology = [
     "wordIds": [
       "14741"
     ],
+    "cloze": {
+      "de": "Elektronik",
+      "en": "electronics"
+    },
     "sourceIndex": 4741
   },
   {
@@ -2004,6 +2472,10 @@ const phrasesTechnology = [
     "wordIds": [
       "14826"
     ],
+    "cloze": {
+      "de": "Automat",
+      "en": "vending"
+    },
     "sourceIndex": 4826
   },
   {
@@ -2021,6 +2493,10 @@ const phrasesTechnology = [
     "wordIds": [
       "14880"
     ],
+    "cloze": {
+      "de": "Spam",
+      "en": "spam"
+    },
     "sourceIndex": 4880
   },
   {
@@ -2038,6 +2514,10 @@ const phrasesTechnology = [
     "wordIds": [
       "14886"
     ],
+    "cloze": {
+      "de": "Tarif",
+      "en": "rate"
+    },
     "sourceIndex": 4886
   },
   {
@@ -2055,6 +2535,10 @@ const phrasesTechnology = [
     "wordIds": [
       "15032"
     ],
+    "cloze": {
+      "de": "Ordner",
+      "en": "folder"
+    },
     "sourceIndex": 5032
   },
   {
@@ -2072,6 +2556,10 @@ const phrasesTechnology = [
     "wordIds": [
       "15040"
     ],
+    "cloze": {
+      "de": "Router",
+      "en": "router"
+    },
     "sourceIndex": 5040
   },
   {
@@ -2089,6 +2577,10 @@ const phrasesTechnology = [
     "wordIds": [
       "15086"
     ],
+    "cloze": {
+      "de": "Entschluss",
+      "en": "decision"
+    },
     "sourceIndex": 5086
   },
   {
@@ -2106,6 +2598,10 @@ const phrasesTechnology = [
     "wordIds": [
       "15114"
     ],
+    "cloze": {
+      "de": "offline",
+      "en": "offline"
+    },
     "sourceIndex": 5114
   },
   {
@@ -2123,6 +2619,10 @@ const phrasesTechnology = [
     "wordIds": [
       "15120"
     ],
+    "cloze": {
+      "de": "Registrierung",
+      "en": "Registration"
+    },
     "sourceIndex": 5120
   },
   {
@@ -2140,6 +2640,10 @@ const phrasesTechnology = [
     "wordIds": [
       "15153"
     ],
+    "cloze": {
+      "de": "Abkürzung",
+      "en": "abbreviation"
+    },
     "sourceIndex": 5153
   },
   {
@@ -2157,6 +2661,10 @@ const phrasesTechnology = [
     "wordIds": [
       "15286"
     ],
+    "cloze": {
+      "de": "klingelt",
+      "en": "rings"
+    },
     "sourceIndex": 5286
   },
   {
@@ -2174,6 +2682,10 @@ const phrasesTechnology = [
     "wordIds": [
       "15301"
     ],
+    "cloze": {
+      "de": "Redner",
+      "en": "speaker"
+    },
     "sourceIndex": 5301
   },
   {
@@ -2191,6 +2703,10 @@ const phrasesTechnology = [
     "wordIds": [
       "15323"
     ],
+    "cloze": {
+      "de": "versehentlich",
+      "en": "accidentally"
+    },
     "sourceIndex": 5323
   },
   {
@@ -2208,6 +2724,10 @@ const phrasesTechnology = [
     "wordIds": [
       "15360"
     ],
+    "cloze": {
+      "de": "Festplatte",
+      "en": "hard"
+    },
     "sourceIndex": 5360
   },
   {
@@ -2225,6 +2745,10 @@ const phrasesTechnology = [
     "wordIds": [
       "15371"
     ],
+    "cloze": {
+      "de": "hochladen",
+      "en": "upload"
+    },
     "sourceIndex": 5371
   },
   {
@@ -2242,6 +2766,10 @@ const phrasesTechnology = [
     "wordIds": [
       "15390"
     ],
+    "cloze": {
+      "de": "nutzlos",
+      "en": "useless"
+    },
     "sourceIndex": 5390
   },
   {
@@ -2259,6 +2787,10 @@ const phrasesTechnology = [
     "wordIds": [
       "15432"
     ],
+    "cloze": {
+      "de": "ausdrucken",
+      "en": "print"
+    },
     "sourceIndex": 5432
   },
   {
@@ -2276,6 +2808,10 @@ const phrasesTechnology = [
     "wordIds": [
       "15499"
     ],
+    "cloze": {
+      "de": "telefonisch",
+      "en": "by"
+    },
     "sourceIndex": 5499
   },
   {
@@ -2293,6 +2829,10 @@ const phrasesTechnology = [
     "wordIds": [
       "15522"
     ],
+    "cloze": {
+      "de": "ausschalten",
+      "en": "switch"
+    },
     "sourceIndex": 5522
   },
   {
@@ -2310,6 +2850,10 @@ const phrasesTechnology = [
     "wordIds": [
       "15529"
     ],
+    "cloze": {
+      "de": "Crash",
+      "en": "crash"
+    },
     "sourceIndex": 5529
   },
   {
@@ -2327,6 +2871,10 @@ const phrasesTechnology = [
     "wordIds": [
       "15728"
     ],
+    "cloze": {
+      "de": "Hörer",
+      "en": "listener"
+    },
     "sourceIndex": 5728
   },
   {
@@ -2344,6 +2892,10 @@ const phrasesTechnology = [
     "wordIds": [
       "15854"
     ],
+    "cloze": {
+      "de": "Sprecherin",
+      "en": "speaker"
+    },
     "sourceIndex": 5854
   },
   {
@@ -2361,6 +2913,10 @@ const phrasesTechnology = [
     "wordIds": [
       "15859"
     ],
+    "cloze": {
+      "de": "Netzwerk-Switch",
+      "en": "switch"
+    },
     "sourceIndex": 5859
   },
   {
@@ -2378,6 +2934,10 @@ const phrasesTechnology = [
     "wordIds": [
       "15884"
     ],
+    "cloze": {
+      "de": "Zutritt",
+      "en": "Access"
+    },
     "sourceIndex": 5884
   },
   {
@@ -2395,6 +2955,10 @@ const phrasesTechnology = [
     "wordIds": [
       "15893"
     ],
+    "cloze": {
+      "de": "Apparat",
+      "en": "device"
+    },
     "sourceIndex": 5893
   },
   {
@@ -2412,6 +2976,10 @@ const phrasesTechnology = [
     "wordIds": [
       "15899"
     ],
+    "cloze": {
+      "de": "aufwärts",
+      "en": "upwards"
+    },
     "sourceIndex": 5899
   },
   {
@@ -2429,6 +2997,10 @@ const phrasesTechnology = [
     "wordIds": [
       "16001"
     ],
+    "cloze": {
+      "de": "Bip",
+      "en": "beep"
+    },
     "sourceIndex": 6001
   },
   {
@@ -2446,6 +3018,10 @@ const phrasesTechnology = [
     "wordIds": [
       "16039"
     ],
+    "cloze": {
+      "de": "Klienten",
+      "en": "client"
+    },
     "sourceIndex": 6039
   },
   {
@@ -2463,6 +3039,10 @@ const phrasesTechnology = [
     "wordIds": [
       "16046"
     ],
+    "cloze": {
+      "de": "Mikrofon",
+      "en": "microphone"
+    },
     "sourceIndex": 6046
   },
   {
@@ -2480,6 +3060,10 @@ const phrasesTechnology = [
     "wordIds": [
       "16096"
     ],
+    "cloze": {
+      "de": "Desktop",
+      "en": "desktop"
+    },
     "sourceIndex": 6096
   },
   {
@@ -2497,6 +3081,10 @@ const phrasesTechnology = [
     "wordIds": [
       "16100"
     ],
+    "cloze": {
+      "de": "einfügen",
+      "en": "insert"
+    },
     "sourceIndex": 6100
   },
   {
@@ -2514,6 +3102,10 @@ const phrasesTechnology = [
     "wordIds": [
       "16132"
     ],
+    "cloze": {
+      "de": "Rallye",
+      "en": "rally"
+    },
     "sourceIndex": 6132
   },
   {
@@ -2531,6 +3123,10 @@ const phrasesTechnology = [
     "wordIds": [
       "16144"
     ],
+    "cloze": {
+      "de": "Stückchen",
+      "en": "little"
+    },
     "sourceIndex": 6144
   },
   {
@@ -2548,6 +3144,10 @@ const phrasesTechnology = [
     "wordIds": [
       "16149"
     ],
+    "cloze": {
+      "de": "Touchscreen",
+      "en": "has"
+    },
     "sourceIndex": 6149
   },
   {
@@ -2565,6 +3165,10 @@ const phrasesTechnology = [
     "wordIds": [
       "16436"
     ],
+    "cloze": {
+      "de": "programmiert",
+      "en": "program"
+    },
     "sourceIndex": 6436
   },
   {
@@ -2582,6 +3186,10 @@ const phrasesTechnology = [
     "wordIds": [
       "16449"
     ],
+    "cloze": {
+      "de": "Tab",
+      "en": "tab"
+    },
     "sourceIndex": 6449
   },
   {
@@ -2599,6 +3207,10 @@ const phrasesTechnology = [
     "wordIds": [
       "16467"
     ],
+    "cloze": {
+      "de": "Webcam",
+      "en": "webcam"
+    },
     "sourceIndex": 6467
   },
   {
@@ -2616,6 +3228,10 @@ const phrasesTechnology = [
     "wordIds": [
       "16582"
     ],
+    "cloze": {
+      "de": "Wartung",
+      "en": "maintenance"
+    },
     "sourceIndex": 6582
   },
   {
@@ -2633,6 +3249,10 @@ const phrasesTechnology = [
     "wordIds": [
       "16599"
     ],
+    "cloze": {
+      "de": "anbauen",
+      "en": "grow"
+    },
     "sourceIndex": 6599
   },
   {
@@ -2650,6 +3270,10 @@ const phrasesTechnology = [
     "wordIds": [
       "16795"
     ],
+    "cloze": {
+      "de": "hängen",
+      "en": "connected"
+    },
     "sourceIndex": 6795
   },
   {
@@ -2667,6 +3291,10 @@ const phrasesTechnology = [
     "wordIds": [
       "16823"
     ],
+    "cloze": {
+      "de": "Fernsehsender",
+      "en": "TV"
+    },
     "sourceIndex": 6823
   },
   {
@@ -2684,6 +3312,10 @@ const phrasesTechnology = [
     "wordIds": [
       "16949"
     ],
+    "cloze": {
+      "de": "Photo",
+      "en": "photo"
+    },
     "sourceIndex": 6949
   },
   {
@@ -2701,6 +3333,10 @@ const phrasesTechnology = [
     "wordIds": [
       "16950"
     ],
+    "cloze": {
+      "de": "Pixel",
+      "en": "pixel"
+    },
     "sourceIndex": 6950
   },
   {
@@ -2718,6 +3354,10 @@ const phrasesTechnology = [
     "wordIds": [
       "16992"
     ],
+    "cloze": {
+      "de": "Berechtigung",
+      "en": "authorization"
+    },
     "sourceIndex": 6992
   },
   {
@@ -2735,6 +3375,10 @@ const phrasesTechnology = [
     "wordIds": [
       "17009"
     ],
+    "cloze": {
+      "de": "Eingabe",
+      "en": "input"
+    },
     "sourceIndex": 7009
   },
   {
@@ -2752,6 +3396,10 @@ const phrasesTechnology = [
     "wordIds": [
       "17010"
     ],
+    "cloze": {
+      "de": "eingeben",
+      "en": "enter"
+    },
     "sourceIndex": 7010
   },
   {
@@ -2769,6 +3417,10 @@ const phrasesTechnology = [
     "wordIds": [
       "17017"
     ],
+    "cloze": {
+      "de": "gedruckt",
+      "en": "printed"
+    },
     "sourceIndex": 7017
   },
   {
@@ -2786,6 +3438,10 @@ const phrasesTechnology = [
     "wordIds": [
       "17047"
     ],
+    "cloze": {
+      "de": "Normalität",
+      "en": "normality"
+    },
     "sourceIndex": 7047
   },
   {
@@ -2803,6 +3459,10 @@ const phrasesTechnology = [
     "wordIds": [
       "17154"
     ],
+    "cloze": {
+      "de": "Phone",
+      "en": "phone"
+    },
     "sourceIndex": 7154
   },
   {
@@ -2820,6 +3480,10 @@ const phrasesTechnology = [
     "wordIds": [
       "17171"
     ],
+    "cloze": {
+      "de": "Startseite",
+      "en": "homepage"
+    },
     "sourceIndex": 7171
   },
   {
@@ -2837,6 +3501,10 @@ const phrasesTechnology = [
     "wordIds": [
       "17189"
     ],
+    "cloze": {
+      "de": "vorführen",
+      "en": "demonstrate"
+    },
     "sourceIndex": 7189
   },
   {
@@ -2854,6 +3522,10 @@ const phrasesTechnology = [
     "wordIds": [
       "17205"
     ],
+    "cloze": {
+      "de": "Aktualisierung",
+      "en": "update"
+    },
     "sourceIndex": 7205
   },
   {
@@ -2871,6 +3543,10 @@ const phrasesTechnology = [
     "wordIds": [
       "17213"
     ],
+    "cloze": {
+      "de": "Antenne",
+      "en": "antenna"
+    },
     "sourceIndex": 7213
   },
   {
@@ -2888,6 +3564,10 @@ const phrasesTechnology = [
     "wordIds": [
       "17254"
     ],
+    "cloze": {
+      "de": "Macht",
+      "en": "power"
+    },
     "sourceIndex": 7254
   },
   {
@@ -2905,6 +3585,10 @@ const phrasesTechnology = [
     "wordIds": [
       "17271"
     ],
+    "cloze": {
+      "de": "Screen",
+      "en": "screen"
+    },
     "sourceIndex": 7271
   },
   {
@@ -2922,6 +3606,10 @@ const phrasesTechnology = [
     "wordIds": [
       "17363"
     ],
+    "cloze": {
+      "de": "Messenger",
+      "en": "messenger"
+    },
     "sourceIndex": 7363
   },
   {
@@ -2939,6 +3627,10 @@ const phrasesTechnology = [
     "wordIds": [
       "17381"
     ],
+    "cloze": {
+      "de": "schleppen",
+      "en": "drag"
+    },
     "sourceIndex": 7381
   },
   {
@@ -2956,6 +3648,10 @@ const phrasesTechnology = [
     "wordIds": [
       "17420"
     ],
+    "cloze": {
+      "de": "Ziffer",
+      "en": "digit"
+    },
     "sourceIndex": 7420
   },
   {
@@ -2973,6 +3669,10 @@ const phrasesTechnology = [
     "wordIds": [
       "17431"
     ],
+    "cloze": {
+      "de": "Backup",
+      "en": "backup"
+    },
     "sourceIndex": 7431
   },
   {
@@ -2990,6 +3690,10 @@ const phrasesTechnology = [
     "wordIds": [
       "17436"
     ],
+    "cloze": {
+      "de": "bergab",
+      "en": "downhill"
+    },
     "sourceIndex": 7436
   },
   {
@@ -3007,6 +3711,10 @@ const phrasesTechnology = [
     "wordIds": [
       "17621"
     ],
+    "cloze": {
+      "de": "Message",
+      "en": "message"
+    },
     "sourceIndex": 7621
   },
   {
@@ -3024,6 +3732,10 @@ const phrasesTechnology = [
     "wordIds": [
       "17679"
     ],
+    "cloze": {
+      "de": "ist",
+      "en": "crashed"
+    },
     "sourceIndex": 7679
   },
   {
@@ -3041,6 +3753,10 @@ const phrasesTechnology = [
     "wordIds": [
       "17750"
     ],
+    "cloze": {
+      "de": "Leuchtturm",
+      "en": "lighthouse"
+    },
     "sourceIndex": 7750
   },
   {
@@ -3058,6 +3774,10 @@ const phrasesTechnology = [
     "wordIds": [
       "17772"
     ],
+    "cloze": {
+      "de": "Scanner",
+      "en": "scanner"
+    },
     "sourceIndex": 7772
   },
   {
@@ -3075,6 +3795,10 @@ const phrasesTechnology = [
     "wordIds": [
       "17774"
     ],
+    "cloze": {
+      "de": "separat",
+      "en": "separately"
+    },
     "sourceIndex": 7774
   },
   {
@@ -3092,6 +3816,10 @@ const phrasesTechnology = [
     "wordIds": [
       "17830"
     ],
+    "cloze": {
+      "de": "Fernbedienung",
+      "en": "remote"
+    },
     "sourceIndex": 7830
   },
   {
@@ -3109,6 +3837,10 @@ const phrasesTechnology = [
     "wordIds": [
       "17845"
     ],
+    "cloze": {
+      "de": "herunterladen",
+      "en": "download"
+    },
     "sourceIndex": 7845
   },
   {
@@ -3126,6 +3858,10 @@ const phrasesTechnology = [
     "wordIds": [
       "17860"
     ],
+    "cloze": {
+      "de": "Navi",
+      "en": "satnav"
+    },
     "sourceIndex": 7860
   },
   {
@@ -3143,6 +3879,10 @@ const phrasesTechnology = [
     "wordIds": [
       "17887"
     ],
+    "cloze": {
+      "de": "Tinte",
+      "en": "ink"
+    },
     "sourceIndex": 7887
   },
   {
@@ -3160,6 +3900,10 @@ const phrasesTechnology = [
     "wordIds": [
       "17894"
     ],
+    "cloze": {
+      "de": "verlinken",
+      "en": "link"
+    },
     "sourceIndex": 7894
   },
   {
@@ -3177,6 +3921,10 @@ const phrasesTechnology = [
     "wordIds": [
       "18109"
     ],
+    "cloze": {
+      "de": "Skills",
+      "en": "skills"
+    },
     "sourceIndex": 8109
   },
   {
@@ -3194,6 +3942,10 @@ const phrasesTechnology = [
     "wordIds": [
       "18214"
     ],
+    "cloze": {
+      "de": "Notebook",
+      "en": "laptop"
+    },
     "sourceIndex": 8214
   },
   {
@@ -3211,6 +3963,10 @@ const phrasesTechnology = [
     "wordIds": [
       "18221"
     ],
+    "cloze": {
+      "de": "Programmierer",
+      "en": "programmer"
+    },
     "sourceIndex": 8221
   },
   {
@@ -3228,6 +3984,10 @@ const phrasesTechnology = [
     "wordIds": [
       "18630"
     ],
+    "cloze": {
+      "de": "Upload",
+      "en": "upload"
+    },
     "sourceIndex": 8630
   },
   {
@@ -3245,6 +4005,10 @@ const phrasesTechnology = [
     "wordIds": [
       "18751"
     ],
+    "cloze": {
+      "de": "registriert",
+      "en": "registered"
+    },
     "sourceIndex": 8751
   },
   {
@@ -3262,6 +4026,10 @@ const phrasesTechnology = [
     "wordIds": [
       "18774"
     ],
+    "cloze": {
+      "de": "Suchmaschine",
+      "en": "search"
+    },
     "sourceIndex": 8774
   },
   {
@@ -3279,6 +4047,10 @@ const phrasesTechnology = [
     "wordIds": [
       "18779"
     ],
+    "cloze": {
+      "de": "unbrauchbar",
+      "en": "unusable"
+    },
     "sourceIndex": 8779
   },
   {
@@ -3296,6 +4068,10 @@ const phrasesTechnology = [
     "wordIds": [
       "18953"
     ],
+    "cloze": {
+      "de": "Anwender",
+      "en": "user"
+    },
     "sourceIndex": 8953
   },
   {
@@ -3313,6 +4089,10 @@ const phrasesTechnology = [
     "wordIds": [
       "19113"
     ],
+    "cloze": {
+      "de": "anhängen",
+      "en": "attach"
+    },
     "sourceIndex": 9113
   },
   {
@@ -3330,6 +4110,10 @@ const phrasesTechnology = [
     "wordIds": [
       "19127"
     ],
+    "cloze": {
+      "de": "Benachrichtigung",
+      "en": "notification"
+    },
     "sourceIndex": 9127
   },
   {
@@ -3347,6 +4131,10 @@ const phrasesTechnology = [
     "wordIds": [
       "19130"
     ],
+    "cloze": {
+      "de": "Datenvolumen",
+      "en": "data"
+    },
     "sourceIndex": 9130
   },
   {
@@ -3364,6 +4152,10 @@ const phrasesTechnology = [
     "wordIds": [
       "19185"
     ],
+    "cloze": {
+      "de": "Kühlung",
+      "en": "cooling"
+    },
     "sourceIndex": 9185
   },
   {
@@ -3381,6 +4173,10 @@ const phrasesTechnology = [
     "wordIds": [
       "19208"
     ],
+    "cloze": {
+      "de": "runterladen",
+      "en": "download"
+    },
     "sourceIndex": 9208
   },
   {
@@ -3398,6 +4194,10 @@ const phrasesTechnology = [
     "wordIds": [
       "19325"
     ],
+    "cloze": {
+      "de": "Neuheit",
+      "en": "novelty"
+    },
     "sourceIndex": 9325
   },
   {
@@ -3415,6 +4215,10 @@ const phrasesTechnology = [
     "wordIds": [
       "19423"
     ],
+    "cloze": {
+      "de": "downloaden",
+      "en": "download"
+    },
     "sourceIndex": 9423
   },
   {
@@ -3432,6 +4236,10 @@ const phrasesTechnology = [
     "wordIds": [
       "19463"
     ],
+    "cloze": {
+      "de": "Kleingeld",
+      "en": "small"
+    },
     "sourceIndex": 9463
   },
   {
@@ -3449,6 +4257,10 @@ const phrasesTechnology = [
     "wordIds": [
       "19475"
     ],
+    "cloze": {
+      "de": "Mobiltelefon",
+      "en": "mobile"
+    },
     "sourceIndex": 9475
   },
   {
@@ -3466,6 +4278,10 @@ const phrasesTechnology = [
     "wordIds": [
       "19729"
     ],
+    "cloze": {
+      "de": "Click",
+      "en": "click"
+    },
     "sourceIndex": 9729
   },
   {
@@ -3483,6 +4299,10 @@ const phrasesTechnology = [
     "wordIds": [
       "19749"
     ],
+    "cloze": {
+      "de": "Gesundheitssystem",
+      "en": "healthcare"
+    },
     "sourceIndex": 9749
   },
   {
@@ -3500,6 +4320,10 @@ const phrasesTechnology = [
     "wordIds": [
       "19774"
     ],
+    "cloze": {
+      "de": "Magnet",
+      "en": "magnet"
+    },
     "sourceIndex": 9774
   },
   {
@@ -3517,6 +4341,10 @@ const phrasesTechnology = [
     "wordIds": [
       "19829"
     ],
+    "cloze": {
+      "de": "verkleinern",
+      "en": "reduce"
+    },
     "sourceIndex": 9829
   },
   {
@@ -3534,6 +4362,10 @@ const phrasesTechnology = [
     "wordIds": [
       "19956"
     ],
+    "cloze": {
+      "de": "Stromausfall",
+      "en": "power"
+    },
     "sourceIndex": 9956
   },
   {
@@ -3551,6 +4383,10 @@ const phrasesTechnology = [
     "wordIds": [
       "19993"
     ],
+    "cloze": {
+      "de": "abbekommen",
+      "en": "received"
+    },
     "sourceIndex": 9993
   },
   {
@@ -3568,6 +4404,10 @@ const phrasesTechnology = [
     "wordIds": [
       "20078"
     ],
+    "cloze": {
+      "de": "Druckerpatrone",
+      "en": "cartridge"
+    },
     "sourceIndex": 10078
   },
   {
@@ -3585,6 +4425,10 @@ const phrasesTechnology = [
     "wordIds": [
       "20239"
     ],
+    "cloze": {
+      "de": "Podest",
+      "en": "podium"
+    },
     "sourceIndex": 10239
   },
   {
@@ -3602,6 +4446,10 @@ const phrasesTechnology = [
     "wordIds": [
       "20299"
     ],
+    "cloze": {
+      "de": "Aufbewahrung",
+      "en": "the"
+    },
     "sourceIndex": 10299
   },
   {
@@ -3619,6 +4467,10 @@ const phrasesTechnology = [
     "wordIds": [
       "20309"
     ],
+    "cloze": {
+      "de": "Blitzer",
+      "en": "speed"
+    },
     "sourceIndex": 10309
   },
   {
@@ -3636,6 +4488,10 @@ const phrasesTechnology = [
     "wordIds": [
       "20311"
     ],
+    "cloze": {
+      "de": "brauchbar",
+      "en": "usable"
+    },
     "sourceIndex": 10311
   },
   {
@@ -3653,6 +4509,10 @@ const phrasesTechnology = [
     "wordIds": [
       "20449"
     ],
+    "cloze": {
+      "de": "Adapter",
+      "en": "adapter"
+    },
     "sourceIndex": 10449
   },
   {
@@ -3670,6 +4530,10 @@ const phrasesTechnology = [
     "wordIds": [
       "20454"
     ],
+    "cloze": {
+      "de": "angeschlossen",
+      "en": "connected"
+    },
     "sourceIndex": 10454
   },
   {
@@ -3687,6 +4551,10 @@ const phrasesTechnology = [
     "wordIds": [
       "20478"
     ],
+    "cloze": {
+      "de": "eingestellt",
+      "en": "adjusted"
+    },
     "sourceIndex": 10478
   },
   {
@@ -3704,6 +4572,10 @@ const phrasesTechnology = [
     "wordIds": [
       "20482"
     ],
+    "cloze": {
+      "de": "Error",
+      "en": "error"
+    },
     "sourceIndex": 10482
   },
   {
@@ -3721,6 +4593,10 @@ const phrasesTechnology = [
     "wordIds": [
       "20502"
     ],
+    "cloze": {
+      "de": "Headset",
+      "en": "headset"
+    },
     "sourceIndex": 10502
   },
   {
@@ -3738,6 +4614,10 @@ const phrasesTechnology = [
     "wordIds": [
       "20517"
     ],
+    "cloze": {
+      "de": "komme",
+      "en": "coping"
+    },
     "sourceIndex": 10517
   },
   {
@@ -3755,6 +4635,10 @@ const phrasesTechnology = [
     "wordIds": [
       "20743"
     ],
+    "cloze": {
+      "de": "Software-Tester",
+      "en": "tester"
+    },
     "sourceIndex": 10743
   },
   {
@@ -3772,6 +4656,10 @@ const phrasesTechnology = [
     "wordIds": [
       "21008"
     ],
+    "cloze": {
+      "de": "Flip",
+      "en": "flip"
+    },
     "sourceIndex": 11008
   },
   {
@@ -3789,6 +4677,10 @@ const phrasesTechnology = [
     "wordIds": [
       "21026"
     ],
+    "cloze": {
+      "de": "Grafiker",
+      "en": "graphic"
+    },
     "sourceIndex": 11026
   },
   {
@@ -3806,6 +4698,10 @@ const phrasesTechnology = [
     "wordIds": [
       "21076"
     ],
+    "cloze": {
+      "de": "Prepaid-Handy",
+      "en": "prepaid"
+    },
     "sourceIndex": 11076
   },
   {
@@ -3823,6 +4719,10 @@ const phrasesTechnology = [
     "wordIds": [
       "21321"
     ],
+    "cloze": {
+      "de": "klicken",
+      "en": "click"
+    },
     "sourceIndex": 11321
   },
   {
@@ -3840,6 +4740,10 @@ const phrasesTechnology = [
     "wordIds": [
       "21408"
     ],
+    "cloze": {
+      "de": "Icon",
+      "en": "icon"
+    },
     "sourceIndex": 11408
   },
   {
@@ -3857,6 +4761,10 @@ const phrasesTechnology = [
     "wordIds": [
       "21481"
     ],
+    "cloze": {
+      "de": "Telefonbuch",
+      "en": "I"
+    },
     "sourceIndex": 11481
   },
   {
@@ -3874,6 +4782,10 @@ const phrasesTechnology = [
     "wordIds": [
       "21551"
     ],
+    "cloze": {
+      "de": "File",
+      "en": "file"
+    },
     "sourceIndex": 11551
   },
   {
@@ -3891,6 +4803,10 @@ const phrasesTechnology = [
     "wordIds": [
       "21606"
     ],
+    "cloze": {
+      "de": "Tablet-Pad",
+      "en": "tablet"
+    },
     "sourceIndex": 11606
   },
   {
@@ -3908,6 +4824,10 @@ const phrasesTechnology = [
     "wordIds": [
       "21617"
     ],
+    "cloze": {
+      "de": "reinschauen",
+      "en": "look"
+    },
     "sourceIndex": 11617
   },
   {
@@ -3925,6 +4845,10 @@ const phrasesTechnology = [
     "wordIds": [
       "21820"
     ],
+    "cloze": {
+      "de": "umschalten",
+      "en": "switch"
+    },
     "sourceIndex": 11820
   },
   {
@@ -3942,6 +4866,10 @@ const phrasesTechnology = [
     "wordIds": [
       "21931"
     ],
+    "cloze": {
+      "de": "magnetisches",
+      "en": "magnetic"
+    },
     "sourceIndex": 11931
   },
   {
@@ -3959,6 +4887,10 @@ const phrasesTechnology = [
     "wordIds": [
       "21998"
     ],
+    "cloze": {
+      "de": "umlegen",
+      "en": "switch"
+    },
     "sourceIndex": 11998
   },
   {
@@ -3976,6 +4908,10 @@ const phrasesTechnology = [
     "wordIds": [
       "22133"
     ],
+    "cloze": {
+      "de": "Modem",
+      "en": "modem"
+    },
     "sourceIndex": 12133
   },
   {
@@ -3993,6 +4929,10 @@ const phrasesTechnology = [
     "wordIds": [
       "22244"
     ],
+    "cloze": {
+      "de": "Breitband-Internetverbindung",
+      "en": "broadband"
+    },
     "sourceIndex": 12244
   },
   {
@@ -4010,6 +4950,10 @@ const phrasesTechnology = [
     "wordIds": [
       "22251"
     ],
+    "cloze": {
+      "de": "Internet-Connection",
+      "en": "connection"
+    },
     "sourceIndex": 12251
   },
   {
@@ -4027,6 +4971,10 @@ const phrasesTechnology = [
     "wordIds": [
       "22255"
     ],
+    "cloze": {
+      "de": "Disc",
+      "en": "disc"
+    },
     "sourceIndex": 12255
   },
   {
@@ -4044,6 +4992,10 @@ const phrasesTechnology = [
     "wordIds": [
       "22290"
     ],
+    "cloze": {
+      "de": "herausgekommen",
+      "en": "come"
+    },
     "sourceIndex": 12290
   },
   {
@@ -4061,6 +5013,10 @@ const phrasesTechnology = [
     "wordIds": [
       "22503"
     ],
+    "cloze": {
+      "de": "Mappe",
+      "en": "folder"
+    },
     "sourceIndex": 12503
   },
   {
@@ -4078,6 +5034,10 @@ const phrasesTechnology = [
     "wordIds": [
       "22596"
     ],
+    "cloze": {
+      "de": "Alarmanlage",
+      "en": "alarm"
+    },
     "sourceIndex": 12596
   },
   {
@@ -4095,6 +5055,10 @@ const phrasesTechnology = [
     "wordIds": [
       "22617"
     ],
+    "cloze": {
+      "de": "befestigt",
+      "en": "fortified"
+    },
     "sourceIndex": 12617
   },
   {
@@ -4112,6 +5076,10 @@ const phrasesTechnology = [
     "wordIds": [
       "22724"
     ],
+    "cloze": {
+      "de": "scrollen",
+      "en": "scroll"
+    },
     "sourceIndex": 12724
   },
   {
@@ -4129,6 +5097,10 @@ const phrasesTechnology = [
     "wordIds": [
       "22744"
     ],
+    "cloze": {
+      "de": "Tippfehler",
+      "en": "typo"
+    },
     "sourceIndex": 12744
   },
   {
@@ -4146,6 +5118,10 @@ const phrasesTechnology = [
     "wordIds": [
       "22810"
     ],
+    "cloze": {
+      "de": "ein",
+      "en": "clear"
+    },
     "sourceIndex": 12810
   },
   {
@@ -4163,6 +5139,10 @@ const phrasesTechnology = [
     "wordIds": [
       "22842"
     ],
+    "cloze": {
+      "de": "Fühler",
+      "en": "ant"
+    },
     "sourceIndex": 12842
   },
   {
@@ -4180,6 +5160,10 @@ const phrasesTechnology = [
     "wordIds": [
       "22916"
     ],
+    "cloze": {
+      "de": "Setup",
+      "en": "setup"
+    },
     "sourceIndex": 12916
   },
   {
@@ -4197,6 +5181,10 @@ const phrasesTechnology = [
     "wordIds": [
       "22941"
     ],
+    "cloze": {
+      "de": "unscharf",
+      "en": "blurry"
+    },
     "sourceIndex": 12941
   },
   {
@@ -4214,6 +5202,10 @@ const phrasesTechnology = [
     "wordIds": [
       "23165"
     ],
+    "cloze": {
+      "de": "Aufdruck",
+      "en": "print"
+    },
     "sourceIndex": 13165
   },
   {
@@ -4231,6 +5223,10 @@ const phrasesTechnology = [
     "wordIds": [
       "23213"
     ],
+    "cloze": {
+      "de": "Lieblings-Fernsehserie",
+      "en": "TV"
+    },
     "sourceIndex": 13213
   },
   {
@@ -4248,6 +5244,10 @@ const phrasesTechnology = [
     "wordIds": [
       "23293"
     ],
+    "cloze": {
+      "de": "Robot",
+      "en": "robot"
+    },
     "sourceIndex": 13293
   },
   {
@@ -4265,6 +5265,10 @@ const phrasesTechnology = [
     "wordIds": [
       "23319"
     ],
+    "cloze": {
+      "de": "Touchscreen",
+      "en": "touchscreen"
+    },
     "sourceIndex": 13319
   },
   {
@@ -4282,6 +5286,10 @@ const phrasesTechnology = [
     "wordIds": [
       "23660"
     ],
+    "cloze": {
+      "de": "Internetverbindung",
+      "en": "internet"
+    },
     "sourceIndex": 13660
   },
   {
@@ -4299,6 +5307,10 @@ const phrasesTechnology = [
     "wordIds": [
       "23788"
     ],
+    "cloze": {
+      "de": "aufgebaut",
+      "en": "structured"
+    },
     "sourceIndex": 13788
   },
   {
@@ -4316,6 +5328,10 @@ const phrasesTechnology = [
     "wordIds": [
       "23862"
     ],
+    "cloze": {
+      "de": "Ladegerät",
+      "en": "charger"
+    },
     "sourceIndex": 13862
   },
   {
@@ -4333,6 +5349,10 @@ const phrasesTechnology = [
     "wordIds": [
       "23994"
     ],
+    "cloze": {
+      "de": "Bissel",
+      "en": "little"
+    },
     "sourceIndex": 13994
   },
   {
@@ -4350,6 +5370,10 @@ const phrasesTechnology = [
     "wordIds": [
       "23995"
     ],
+    "cloze": {
+      "de": "Blinker",
+      "en": "turn"
+    },
     "sourceIndex": 13995
   },
   {
@@ -4367,6 +5391,10 @@ const phrasesTechnology = [
     "wordIds": [
       "24118"
     ],
+    "cloze": {
+      "de": "Speicherplatz",
+      "en": "storage"
+    },
     "sourceIndex": 14118
   },
   {
@@ -4384,6 +5412,10 @@ const phrasesTechnology = [
     "wordIds": [
       "24247"
     ],
+    "cloze": {
+      "de": "Internetzugang",
+      "en": "internet"
+    },
     "sourceIndex": 14247
   },
   {
@@ -4401,6 +5433,10 @@ const phrasesTechnology = [
     "wordIds": [
       "24288"
     ],
+    "cloze": {
+      "de": "Regenfall",
+      "en": "rainfall"
+    },
     "sourceIndex": 14288
   },
   {
@@ -4418,6 +5454,10 @@ const phrasesTechnology = [
     "wordIds": [
       "24395"
     ],
+    "cloze": {
+      "de": "erhältst",
+      "en": "You"
+    },
     "sourceIndex": 14395
   },
   {
@@ -4435,6 +5475,10 @@ const phrasesTechnology = [
     "wordIds": [
       "24595"
     ],
+    "cloze": {
+      "de": "Cable",
+      "en": "cable"
+    },
     "sourceIndex": 14595
   },
   {
@@ -4452,6 +5496,10 @@ const phrasesTechnology = [
     "wordIds": [
       "24958"
     ],
+    "cloze": {
+      "de": "verblassen",
+      "en": "fade"
+    },
     "sourceIndex": 14958
   },
   {
@@ -4469,6 +5517,10 @@ const phrasesTechnology = [
     "wordIds": [
       "25058"
     ],
+    "cloze": {
+      "de": "Gigabyte",
+      "en": "gigabytes"
+    },
     "sourceIndex": 15058
   },
   {
@@ -4486,6 +5538,10 @@ const phrasesTechnology = [
     "wordIds": [
       "25168"
     ],
+    "cloze": {
+      "de": "unterwasser",
+      "en": "underwater"
+    },
     "sourceIndex": 15168
   },
   {
@@ -4503,6 +5559,10 @@ const phrasesTechnology = [
     "wordIds": [
       "25454"
     ],
+    "cloze": {
+      "de": "digitalisieren",
+      "en": "digitize"
+    },
     "sourceIndex": 15454
   },
   {
@@ -4520,6 +5580,10 @@ const phrasesTechnology = [
     "wordIds": [
       "25698"
     ],
+    "cloze": {
+      "de": "Glotze",
+      "en": "TV"
+    },
     "sourceIndex": 15698
   },
   {
@@ -4537,6 +5601,10 @@ const phrasesTechnology = [
     "wordIds": [
       "25719"
     ],
+    "cloze": {
+      "de": "Internetnutzer",
+      "en": "internet"
+    },
     "sourceIndex": 15719
   },
   {
@@ -4554,6 +5622,10 @@ const phrasesTechnology = [
     "wordIds": [
       "25796"
     ],
+    "cloze": {
+      "de": "Suchfunktion",
+      "en": "search"
+    },
     "sourceIndex": 15796
   },
   {
@@ -4571,6 +5643,10 @@ const phrasesTechnology = [
     "wordIds": [
       "25835"
     ],
+    "cloze": {
+      "de": "komme",
+      "en": "cope"
+    },
     "sourceIndex": 15835
   },
   {
@@ -4588,6 +5664,10 @@ const phrasesTechnology = [
     "wordIds": [
       "25981"
     ],
+    "cloze": {
+      "de": "Nebengebäude",
+      "en": "outbuilding"
+    },
     "sourceIndex": 15981
   },
   {
@@ -4605,6 +5685,10 @@ const phrasesTechnology = [
     "wordIds": [
       "26078"
     ],
+    "cloze": {
+      "de": "Bearbeiter",
+      "en": "handler"
+    },
     "sourceIndex": 16078
   },
   {
@@ -4622,6 +5706,10 @@ const phrasesTechnology = [
     "wordIds": [
       "26090"
     ],
+    "cloze": {
+      "de": "bissi",
+      "en": "little"
+    },
     "sourceIndex": 16090
   },
   {
@@ -4639,6 +5727,10 @@ const phrasesTechnology = [
     "wordIds": [
       "26277"
     ],
+    "cloze": {
+      "de": "Videoaufnahme",
+      "en": "video"
+    },
     "sourceIndex": 16277
   },
   {
@@ -4656,6 +5748,10 @@ const phrasesTechnology = [
     "wordIds": [
       "26518"
     ],
+    "cloze": {
+      "de": "Tröpfchen",
+      "en": "little"
+    },
     "sourceIndex": 16518
   },
   {
@@ -4673,6 +5769,10 @@ const phrasesTechnology = [
     "wordIds": [
       "26535"
     ],
+    "cloze": {
+      "de": "vergrösserte",
+      "en": "enlarged"
+    },
     "sourceIndex": 16535
   },
   {
@@ -4690,6 +5790,10 @@ const phrasesTechnology = [
     "wordIds": [
       "26592"
     ],
+    "cloze": {
+      "de": "Byte",
+      "en": "byte"
+    },
     "sourceIndex": 16592
   },
   {
@@ -4707,6 +5811,10 @@ const phrasesTechnology = [
     "wordIds": [
       "26818"
     ],
+    "cloze": {
+      "de": "Anrufbeantworter",
+      "en": "answering"
+    },
     "sourceIndex": 16818
   },
   {
@@ -4724,6 +5832,10 @@ const phrasesTechnology = [
     "wordIds": [
       "26911"
     ],
+    "cloze": {
+      "de": "Ladekabel",
+      "en": "charging"
+    },
     "sourceIndex": 16911
   },
   {
@@ -4741,6 +5853,10 @@ const phrasesTechnology = [
     "wordIds": [
       "26926"
     ],
+    "cloze": {
+      "de": "Mailbox",
+      "en": "voicemail"
+    },
     "sourceIndex": 16926
   },
   {
@@ -4758,6 +5874,10 @@ const phrasesTechnology = [
     "wordIds": [
       "27113"
     ],
+    "cloze": {
+      "de": "Device",
+      "en": "device"
+    },
     "sourceIndex": 17113
   },
   {
@@ -4775,6 +5895,10 @@ const phrasesTechnology = [
     "wordIds": [
       "27130"
     ],
+    "cloze": {
+      "de": "Elektrogerät",
+      "en": "electrical"
+    },
     "sourceIndex": 17130
   },
   {
@@ -4792,6 +5916,10 @@ const phrasesTechnology = [
     "wordIds": [
       "27147"
     ],
+    "cloze": {
+      "de": "Fernsehprogramm",
+      "en": "TV"
+    },
     "sourceIndex": 17147
   },
   {
@@ -4809,6 +5937,10 @@ const phrasesTechnology = [
     "wordIds": [
       "27211"
     ],
+    "cloze": {
+      "de": "Messgerät",
+      "en": "measuring"
+    },
     "sourceIndex": 17211
   },
   {
@@ -4826,6 +5958,10 @@ const phrasesTechnology = [
     "wordIds": [
       "27261"
     ],
+    "cloze": {
+      "de": "Stativ",
+      "en": "tripod"
+    },
     "sourceIndex": 17261
   },
   {
@@ -4843,6 +5979,10 @@ const phrasesTechnology = [
     "wordIds": [
       "27269"
     ],
+    "cloze": {
+      "de": "Tonband",
+      "en": "magnetic"
+    },
     "sourceIndex": 17269
   },
   {
@@ -4860,6 +6000,10 @@ const phrasesTechnology = [
     "wordIds": [
       "27396"
     ],
+    "cloze": {
+      "de": "Fehlermeldung",
+      "en": "error"
+    },
     "sourceIndex": 17396
   },
   {
@@ -4877,6 +6021,10 @@ const phrasesTechnology = [
     "wordIds": [
       "27739"
     ],
+    "cloze": {
+      "de": "Mailadresse",
+      "en": "email"
+    },
     "sourceIndex": 17739
   },
   {
@@ -4894,6 +6042,10 @@ const phrasesTechnology = [
     "wordIds": [
       "28058"
     ],
+    "cloze": {
+      "de": "updaten",
+      "en": "update"
+    },
     "sourceIndex": 18058
   },
   {
@@ -4911,6 +6063,10 @@ const phrasesTechnology = [
     "wordIds": [
       "28063"
     ],
+    "cloze": {
+      "de": "Videomaterial",
+      "en": "video"
+    },
     "sourceIndex": 18063
   },
   {
@@ -4928,6 +6084,10 @@ const phrasesTechnology = [
     "wordIds": [
       "28286"
     ],
+    "cloze": {
+      "de": "Telefonzelle",
+      "en": "telephone"
+    },
     "sourceIndex": 18286
   },
   {
@@ -4945,6 +6105,10 @@ const phrasesTechnology = [
     "wordIds": [
       "28375"
     ],
+    "cloze": {
+      "de": "Belichtung",
+      "en": "exposure"
+    },
     "sourceIndex": 18375
   },
   {
@@ -4962,6 +6126,10 @@ const phrasesTechnology = [
     "wordIds": [
       "28459"
     ],
+    "cloze": {
+      "de": "Internetanschluss",
+      "en": "internet"
+    },
     "sourceIndex": 18459
   },
   {
@@ -4979,6 +6147,10 @@ const phrasesTechnology = [
     "wordIds": [
       "28466"
     ],
+    "cloze": {
+      "de": "Kennwort",
+      "en": "password"
+    },
     "sourceIndex": 18466
   },
   {
@@ -4996,6 +6168,10 @@ const phrasesTechnology = [
     "wordIds": [
       "28647"
     ],
+    "cloze": {
+      "de": "bedruckten",
+      "en": "printed"
+    },
     "sourceIndex": 18647
   },
   {
@@ -5013,6 +6189,10 @@ const phrasesTechnology = [
     "wordIds": [
       "28914"
     ],
+    "cloze": {
+      "de": "Bildbearbeitung",
+      "en": "Image"
+    },
     "sourceIndex": 18914
   },
   {
@@ -5030,6 +6210,10 @@ const phrasesTechnology = [
     "wordIds": [
       "29116"
     ],
+    "cloze": {
+      "de": "suchenden",
+      "en": "searching"
+    },
     "sourceIndex": 19116
   },
   {
@@ -5047,6 +6231,10 @@ const phrasesTechnology = [
     "wordIds": [
       "29148"
     ],
+    "cloze": {
+      "de": "Videoclip",
+      "en": "video"
+    },
     "sourceIndex": 19148
   },
   {
@@ -5064,6 +6252,10 @@ const phrasesTechnology = [
     "wordIds": [
       "29188"
     ],
+    "cloze": {
+      "de": "schalte",
+      "en": "turn"
+    },
     "sourceIndex": 19188
   },
   {
@@ -5081,6 +6273,10 @@ const phrasesTechnology = [
     "wordIds": [
       "29448"
     ],
+    "cloze": {
+      "de": "Videothek",
+      "en": "video"
+    },
     "sourceIndex": 19448
   },
   {
@@ -5098,6 +6294,10 @@ const phrasesTechnology = [
     "wordIds": [
       "29544"
     ],
+    "cloze": {
+      "de": "Fernsteuerung",
+      "en": "remote"
+    },
     "sourceIndex": 19544
   },
   {
@@ -5115,6 +6315,10 @@ const phrasesTechnology = [
     "wordIds": [
       "29731"
     ],
+    "cloze": {
+      "de": "Videokamera",
+      "en": "video"
+    },
     "sourceIndex": 19731
   },
   {
@@ -5132,6 +6336,10 @@ const phrasesTechnology = [
     "wordIds": [
       "29742"
     ],
+    "cloze": {
+      "de": "Webmaster",
+      "en": "webmaster"
+    },
     "sourceIndex": 19742
   },
   {
@@ -5149,6 +6357,10 @@ const phrasesTechnology = [
     "wordIds": [
       "30135"
     ],
+    "cloze": {
+      "de": "Fotostrecke",
+      "en": "photo"
+    },
     "sourceIndex": 20135
   },
   {
@@ -5166,6 +6378,10 @@ const phrasesTechnology = [
     "wordIds": [
       "30196"
     ],
+    "cloze": {
+      "de": "Locher",
+      "en": "hole"
+    },
     "sourceIndex": 20196
   }
 ];

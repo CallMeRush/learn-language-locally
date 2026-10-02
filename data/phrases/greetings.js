@@ -15,6 +15,10 @@ const phrasesGreetings = [
       "10055",
       "10277"
     ],
+    "cloze": {
+      "de": "bitte",
+      "en": "please"
+    },
     "sourceIndex": 55
   },
   {
@@ -32,6 +36,10 @@ const phrasesGreetings = [
     "wordIds": [
       "10126"
     ],
+    "cloze": {
+      "de": "hin",
+      "en": "there"
+    },
     "sourceIndex": 126
   },
   {
@@ -49,6 +57,10 @@ const phrasesGreetings = [
     "wordIds": [
       "10177"
     ],
+    "cloze": {
+      "de": "Dank",
+      "en": "thanks"
+    },
     "sourceIndex": 177
   },
   {
@@ -66,6 +78,10 @@ const phrasesGreetings = [
     "wordIds": [
       "10231"
     ],
+    "cloze": {
+      "de": "Hilfe",
+      "en": "help"
+    },
     "sourceIndex": 231
   },
   {
@@ -83,6 +99,10 @@ const phrasesGreetings = [
     "wordIds": [
       "10274"
     ],
+    "cloze": {
+      "de": "folgen",
+      "en": "follow"
+    },
     "sourceIndex": 274
   },
   {
@@ -100,6 +120,10 @@ const phrasesGreetings = [
     "wordIds": [
       "10333"
     ],
+    "cloze": {
+      "de": "links",
+      "en": "left"
+    },
     "sourceIndex": 333
   },
   {
@@ -117,6 +141,10 @@ const phrasesGreetings = [
     "wordIds": [
       "10425"
     ],
+    "cloze": {
+      "de": "heraus",
+      "en": "out"
+    },
     "sourceIndex": 425
   },
   {
@@ -134,6 +162,10 @@ const phrasesGreetings = [
     "wordIds": [
       "10507"
     ],
+    "cloze": {
+      "de": "Liste",
+      "en": "list"
+    },
     "sourceIndex": 507
   },
   {
@@ -151,6 +183,10 @@ const phrasesGreetings = [
     "wordIds": [
       "10710"
     ],
+    "cloze": {
+      "de": "willkommen",
+      "en": "welcome"
+    },
     "sourceIndex": 710
   },
   {
@@ -168,6 +204,10 @@ const phrasesGreetings = [
     "wordIds": [
       "10814"
     ],
+    "cloze": {
+      "de": "ruhig",
+      "en": "quiet"
+    },
     "sourceIndex": 814
   },
   {
@@ -185,6 +225,10 @@ const phrasesGreetings = [
     "wordIds": [
       "11619"
     ],
+    "cloze": {
+      "de": "Bescheid",
+      "en": "when"
+    },
     "sourceIndex": 1619
   },
   {
@@ -202,6 +246,10 @@ const phrasesGreetings = [
     "wordIds": [
       "11683"
     ],
+    "cloze": {
+      "de": "still",
+      "en": "quiet"
+    },
     "sourceIndex": 1683
   },
   {
@@ -219,6 +267,10 @@ const phrasesGreetings = [
     "wordIds": [
       "11721"
     ],
+    "cloze": {
+      "de": "herzlichen",
+      "en": "heartfelt"
+    },
     "sourceIndex": 1721
   },
   {
@@ -236,6 +288,10 @@ const phrasesGreetings = [
     "wordIds": [
       "11742"
     ],
+    "cloze": {
+      "de": "Weile",
+      "en": "while"
+    },
     "sourceIndex": 1742
   },
   {
@@ -253,6 +309,10 @@ const phrasesGreetings = [
     "wordIds": [
       "11851"
     ],
+    "cloze": {
+      "de": "Definition",
+      "en": "definition"
+    },
     "sourceIndex": 1851
   },
   {
@@ -270,6 +330,10 @@ const phrasesGreetings = [
     "wordIds": [
       "11985"
     ],
+    "cloze": {
+      "de": "wenden",
+      "en": "turn"
+    },
     "sourceIndex": 1985
   },
   {
@@ -287,6 +351,10 @@ const phrasesGreetings = [
     "wordIds": [
       "12086"
     ],
+    "cloze": {
+      "de": "Heft",
+      "en": "notebook"
+    },
     "sourceIndex": 2086
   },
   {
@@ -304,6 +372,10 @@ const phrasesGreetings = [
     "wordIds": [
       "12103"
     ],
+    "cloze": {
+      "de": "stören",
+      "en": "disturb"
+    },
     "sourceIndex": 2103
   },
   {
@@ -321,6 +393,10 @@ const phrasesGreetings = [
     "wordIds": [
       "12124"
     ],
+    "cloze": {
+      "de": "Gruss",
+      "en": "greeting"
+    },
     "sourceIndex": 2124
   },
   {
@@ -338,6 +414,10 @@ const phrasesGreetings = [
     "wordIds": [
       "12228"
     ],
+    "cloze": {
+      "de": "Abschied",
+      "en": "We"
+    },
     "sourceIndex": 2228
   },
   {
@@ -355,6 +435,10 @@ const phrasesGreetings = [
     "wordIds": [
       "12320"
     ],
+    "cloze": {
+      "de": "Dokumente",
+      "en": "documents"
+    },
     "sourceIndex": 2320
   },
   {
@@ -372,6 +456,10 @@ const phrasesGreetings = [
     "wordIds": [
       "12392"
     ],
+    "cloze": {
+      "de": "berühren",
+      "en": "touch"
+    },
     "sourceIndex": 2392
   },
   {
@@ -389,6 +477,10 @@ const phrasesGreetings = [
     "wordIds": [
       "12567"
     ],
+    "cloze": {
+      "de": "zusammenfassen",
+      "en": "summarize"
+    },
     "sourceIndex": 2567
   },
   {
@@ -406,6 +498,10 @@ const phrasesGreetings = [
     "wordIds": [
       "12782"
     ],
+    "cloze": {
+      "de": "füllen",
+      "en": "fill"
+    },
     "sourceIndex": 2782
   },
   {
@@ -423,6 +519,10 @@ const phrasesGreetings = [
     "wordIds": [
       "12817"
     ],
+    "cloze": {
+      "de": "stellen",
+      "en": "queue"
+    },
     "sourceIndex": 2817
   },
   {
@@ -440,6 +540,10 @@ const phrasesGreetings = [
     "wordIds": [
       "12830"
     ],
+    "cloze": {
+      "de": "Eintrag",
+      "en": "entry"
+    },
     "sourceIndex": 2830
   },
   {
@@ -457,6 +561,10 @@ const phrasesGreetings = [
     "wordIds": [
       "12884"
     ],
+    "cloze": {
+      "de": "hierher",
+      "en": "here"
+    },
     "sourceIndex": 2884
   },
   {
@@ -474,6 +582,10 @@ const phrasesGreetings = [
     "wordIds": [
       "12996"
     ],
+    "cloze": {
+      "de": "heran",
+      "en": "closer"
+    },
     "sourceIndex": 2996
   },
   {
@@ -491,6 +603,10 @@ const phrasesGreetings = [
     "wordIds": [
       "13019"
     ],
+    "cloze": {
+      "de": "Toilette",
+      "en": "restroom"
+    },
     "sourceIndex": 3019
   },
   {
@@ -508,6 +624,10 @@ const phrasesGreetings = [
     "wordIds": [
       "13141"
     ],
+    "cloze": {
+      "de": "vorwärts",
+      "en": "forward"
+    },
     "sourceIndex": 3141
   },
   {
@@ -525,6 +645,10 @@ const phrasesGreetings = [
     "wordIds": [
       "13143"
     ],
+    "cloze": {
+      "de": "Wiedersehen",
+      "en": "Goodbye"
+    },
     "sourceIndex": 3143
   },
   {
@@ -542,6 +666,10 @@ const phrasesGreetings = [
     "wordIds": [
       "13200"
     ],
+    "cloze": {
+      "de": "unterbrechen",
+      "en": "interrupt"
+    },
     "sourceIndex": 3200
   },
   {
@@ -559,6 +687,10 @@ const phrasesGreetings = [
     "wordIds": [
       "13484"
     ],
+    "cloze": {
+      "de": "küssen",
+      "en": "kiss"
+    },
     "sourceIndex": 3484
   },
   {
@@ -576,6 +708,10 @@ const phrasesGreetings = [
     "wordIds": [
       "13789"
     ],
+    "cloze": {
+      "de": "Lebenslauf",
+      "en": "CV"
+    },
     "sourceIndex": 3789
   },
   {
@@ -593,6 +729,10 @@ const phrasesGreetings = [
     "wordIds": [
       "13968"
     ],
+    "cloze": {
+      "de": "treten",
+      "en": "in"
+    },
     "sourceIndex": 3968
   },
   {
@@ -610,6 +750,10 @@ const phrasesGreetings = [
     "wordIds": [
       "14017"
     ],
+    "cloze": {
+      "de": "Abbildung",
+      "en": "illustration"
+    },
     "sourceIndex": 4017
   },
   {
@@ -627,6 +771,10 @@ const phrasesGreetings = [
     "wordIds": [
       "14223"
     ],
+    "cloze": {
+      "de": "Anmerkung",
+      "en": "note"
+    },
     "sourceIndex": 4223
   },
   {
@@ -644,6 +792,10 @@ const phrasesGreetings = [
     "wordIds": [
       "14373"
     ],
+    "cloze": {
+      "de": "Dose",
+      "en": "can"
+    },
     "sourceIndex": 4373
   },
   {
@@ -661,6 +813,10 @@ const phrasesGreetings = [
     "wordIds": [
       "14532"
     ],
+    "cloze": {
+      "de": "erwünscht",
+      "en": "welcome"
+    },
     "sourceIndex": 4532
   },
   {
@@ -678,6 +834,10 @@ const phrasesGreetings = [
     "wordIds": [
       "15066"
     ],
+    "cloze": {
+      "de": "legen",
+      "en": "hang"
+    },
     "sourceIndex": 5066
   },
   {
@@ -695,6 +855,10 @@ const phrasesGreetings = [
     "wordIds": [
       "15157"
     ],
+    "cloze": {
+      "de": "anfassen",
+      "en": "touch"
+    },
     "sourceIndex": 5157
   },
   {
@@ -712,6 +876,10 @@ const phrasesGreetings = [
     "wordIds": [
       "15224"
     ],
+    "cloze": {
+      "de": "schütteln",
+      "en": "shake"
+    },
     "sourceIndex": 5224
   },
   {
@@ -729,6 +897,10 @@ const phrasesGreetings = [
     "wordIds": [
       "15521"
     ],
+    "cloze": {
+      "de": "füllen",
+      "en": "fill"
+    },
     "sourceIndex": 5521
   },
   {
@@ -746,6 +918,10 @@ const phrasesGreetings = [
     "wordIds": [
       "15615"
     ],
+    "cloze": {
+      "de": "Begrüssung",
+      "en": "greeting"
+    },
     "sourceIndex": 5615
   },
   {
@@ -763,6 +939,10 @@ const phrasesGreetings = [
     "wordIds": [
       "15620"
     ],
+    "cloze": {
+      "de": "checken",
+      "en": "check"
+    },
     "sourceIndex": 5620
   },
   {
@@ -780,6 +960,10 @@ const phrasesGreetings = [
     "wordIds": [
       "15630"
     ],
+    "cloze": {
+      "de": "erfreuen",
+      "en": "please"
+    },
     "sourceIndex": 5630
   },
   {
@@ -797,6 +981,10 @@ const phrasesGreetings = [
     "wordIds": [
       "15808"
     ],
+    "cloze": {
+      "de": "Formular",
+      "en": "form"
+    },
     "sourceIndex": 5808
   },
   {
@@ -814,6 +1002,10 @@ const phrasesGreetings = [
     "wordIds": [
       "16038"
     ],
+    "cloze": {
+      "de": "Karton",
+      "en": "box"
+    },
     "sourceIndex": 6038
   },
   {
@@ -831,6 +1023,10 @@ const phrasesGreetings = [
     "wordIds": [
       "16052"
     ],
+    "cloze": {
+      "de": "Pin",
+      "en": "PIN"
+    },
     "sourceIndex": 6052
   },
   {
@@ -848,6 +1044,10 @@ const phrasesGreetings = [
     "wordIds": [
       "16155"
     ],
+    "cloze": {
+      "de": "verzeihen",
+      "en": "forgive"
+    },
     "sourceIndex": 6155
   },
   {
@@ -865,6 +1065,10 @@ const phrasesGreetings = [
     "wordIds": [
       "16384"
     ],
+    "cloze": {
+      "de": "listen",
+      "en": "list"
+    },
     "sourceIndex": 6384
   },
   {
@@ -882,6 +1086,10 @@ const phrasesGreetings = [
     "wordIds": [
       "16472"
     ],
+    "cloze": {
+      "de": "greifen",
+      "en": "help"
+    },
     "sourceIndex": 6472
   },
   {
@@ -899,6 +1107,10 @@ const phrasesGreetings = [
     "wordIds": [
       "16513"
     ],
+    "cloze": {
+      "de": "Geschirr",
+      "en": "dishes"
+    },
     "sourceIndex": 6513
   },
   {
@@ -916,6 +1128,10 @@ const phrasesGreetings = [
     "wordIds": [
       "16585"
     ],
+    "cloze": {
+      "de": "weiterhelfen",
+      "en": "help"
+    },
     "sourceIndex": 6585
   },
   {
@@ -933,6 +1149,10 @@ const phrasesGreetings = [
     "wordIds": [
       "16714"
     ],
+    "cloze": {
+      "de": "Einfahrt",
+      "en": "driveway"
+    },
     "sourceIndex": 6714
   },
   {
@@ -950,6 +1170,10 @@ const phrasesGreetings = [
     "wordIds": [
       "16841"
     ],
+    "cloze": {
+      "de": "Lautstärke",
+      "en": "volume"
+    },
     "sourceIndex": 6841
   },
   {
@@ -967,6 +1191,10 @@ const phrasesGreetings = [
     "wordIds": [
       "17075"
     ],
+    "cloze": {
+      "de": "dreh",
+      "en": "turn"
+    },
     "sourceIndex": 7075
   },
   {
@@ -984,6 +1212,10 @@ const phrasesGreetings = [
     "wordIds": [
       "17118"
     ],
+    "cloze": {
+      "de": "Fragebogen",
+      "en": "questionnaire"
+    },
     "sourceIndex": 7118
   },
   {
@@ -1001,6 +1233,10 @@ const phrasesGreetings = [
     "wordIds": [
       "17497"
     ],
+    "cloze": {
+      "de": "Postfach",
+      "en": "P"
+    },
     "sourceIndex": 7497
   },
   {
@@ -1018,6 +1254,10 @@ const phrasesGreetings = [
     "wordIds": [
       "17653"
     ],
+    "cloze": {
+      "de": "unterstreichen",
+      "en": "underline"
+    },
     "sourceIndex": 7653
   },
   {
@@ -1035,6 +1275,10 @@ const phrasesGreetings = [
     "wordIds": [
       "17784"
     ],
+    "cloze": {
+      "de": "Tube",
+      "en": "tube"
+    },
     "sourceIndex": 7784
   },
   {
@@ -1052,6 +1296,10 @@ const phrasesGreetings = [
     "wordIds": [
       "18145"
     ],
+    "cloze": {
+      "de": "winkte",
+      "en": "waved"
+    },
     "sourceIndex": 8145
   },
   {
@@ -1069,6 +1317,10 @@ const phrasesGreetings = [
     "wordIds": [
       "19451"
     ],
+    "cloze": {
+      "de": "setzen",
+      "en": "sit"
+    },
     "sourceIndex": 9451
   },
   {
@@ -1086,6 +1338,10 @@ const phrasesGreetings = [
     "wordIds": [
       "19801"
     ],
+    "cloze": {
+      "de": "scannen",
+      "en": "scan"
+    },
     "sourceIndex": 9801
   },
   {
@@ -1103,6 +1359,10 @@ const phrasesGreetings = [
     "wordIds": [
       "20159"
     ],
+    "cloze": {
+      "de": "Betreff",
+      "en": "subject"
+    },
     "sourceIndex": 10159
   },
   {
@@ -1120,6 +1380,10 @@ const phrasesGreetings = [
     "wordIds": [
       "20958"
     ],
+    "cloze": {
+      "de": "füllen",
+      "en": "refill"
+    },
     "sourceIndex": 10958
   },
   {
@@ -1137,6 +1401,10 @@ const phrasesGreetings = [
     "wordIds": [
       "21082"
     ],
+    "cloze": {
+      "de": "Komm",
+      "en": "come"
+    },
     "sourceIndex": 11082
   },
   {
@@ -1154,6 +1422,10 @@ const phrasesGreetings = [
     "wordIds": [
       "21364"
     ],
+    "cloze": {
+      "de": "einatmen",
+      "en": "inhale"
+    },
     "sourceIndex": 11364
   },
   {
@@ -1171,6 +1443,10 @@ const phrasesGreetings = [
     "wordIds": [
       "21550"
     ],
+    "cloze": {
+      "de": "halten",
+      "en": "keep"
+    },
     "sourceIndex": 11550
   },
   {
@@ -1188,6 +1464,10 @@ const phrasesGreetings = [
     "wordIds": [
       "21575"
     ],
+    "cloze": {
+      "de": "hierhin",
+      "en": "here"
+    },
     "sourceIndex": 11575
   },
   {
@@ -1205,6 +1485,10 @@ const phrasesGreetings = [
     "wordIds": [
       "21601"
     ],
+    "cloze": {
+      "de": "mithelfen",
+      "en": "help"
+    },
     "sourceIndex": 11601
   },
   {
@@ -1222,6 +1506,10 @@ const phrasesGreetings = [
     "wordIds": [
       "22201"
     ],
+    "cloze": {
+      "de": "Vielmals",
+      "en": "Many"
+    },
     "sourceIndex": 12201
   },
   {
@@ -1239,6 +1527,10 @@ const phrasesGreetings = [
     "wordIds": [
       "22950"
     ],
+    "cloze": {
+      "de": "vervollständigen",
+      "en": "complete"
+    },
     "sourceIndex": 12950
   },
   {
@@ -1256,6 +1548,10 @@ const phrasesGreetings = [
     "wordIds": [
       "22986"
     ],
+    "cloze": {
+      "de": "aushelfen",
+      "en": "help"
+    },
     "sourceIndex": 12986
   },
   {
@@ -1273,6 +1569,10 @@ const phrasesGreetings = [
     "wordIds": [
       "23015"
     ],
+    "cloze": {
+      "de": "einspringen",
+      "en": "fill"
+    },
     "sourceIndex": 13015
   },
   {
@@ -1291,6 +1591,10 @@ const phrasesGreetings = [
       "23099",
       "29773"
     ],
+    "cloze": {
+      "de": "schnallen",
+      "en": "buckle"
+    },
     "sourceIndex": 13099
   },
   {
@@ -1308,6 +1612,10 @@ const phrasesGreetings = [
     "wordIds": [
       "23574"
     ],
+    "cloze": {
+      "de": "alphabetisch",
+      "en": "alphabetically"
+    },
     "sourceIndex": 13574
   },
   {
@@ -1325,6 +1633,10 @@ const phrasesGreetings = [
     "wordIds": [
       "23688"
     ],
+    "cloze": {
+      "de": "Marker",
+      "en": "marker"
+    },
     "sourceIndex": 13688
   },
   {
@@ -1342,6 +1654,10 @@ const phrasesGreetings = [
     "wordIds": [
       "23977"
     ],
+    "cloze": {
+      "de": "Aschenbecher",
+      "en": "ashtray"
+    },
     "sourceIndex": 13977
   },
   {
@@ -1359,6 +1675,10 @@ const phrasesGreetings = [
     "wordIds": [
       "24792"
     ],
+    "cloze": {
+      "de": "beschriften",
+      "en": "label"
+    },
     "sourceIndex": 14792
   },
   {
@@ -1376,6 +1696,10 @@ const phrasesGreetings = [
     "wordIds": [
       "24986"
     ],
+    "cloze": {
+      "de": "Abschrift",
+      "en": "copy"
+    },
     "sourceIndex": 14986
   },
   {
@@ -1393,6 +1717,10 @@ const phrasesGreetings = [
     "wordIds": [
       "24997"
     ],
+    "cloze": {
+      "de": "atmen",
+      "en": "exhale"
+    },
     "sourceIndex": 14997
   },
   {
@@ -1410,6 +1738,10 @@ const phrasesGreetings = [
     "wordIds": [
       "25388"
     ],
+    "cloze": {
+      "de": "Weilchen",
+      "en": "little"
+    },
     "sourceIndex": 15388
   },
   {
@@ -1427,6 +1759,10 @@ const phrasesGreetings = [
     "wordIds": [
       "25611"
     ],
+    "cloze": {
+      "de": "Vorraum",
+      "en": "anteroom"
+    },
     "sourceIndex": 15611
   },
   {
@@ -1444,6 +1780,10 @@ const phrasesGreetings = [
     "wordIds": [
       "26242"
     ],
+    "cloze": {
+      "de": "zurückspulen",
+      "en": "rewind"
+    },
     "sourceIndex": 16242
   },
   {
@@ -1461,6 +1801,10 @@ const phrasesGreetings = [
     "wordIds": [
       "26414"
     ],
+    "cloze": {
+      "de": "Häkchen",
+      "en": "tick"
+    },
     "sourceIndex": 16414
   },
   {
@@ -1478,6 +1822,10 @@ const phrasesGreetings = [
     "wordIds": [
       "26459"
     ],
+    "cloze": {
+      "de": "Papierkorb",
+      "en": "wastebasket"
+    },
     "sourceIndex": 16459
   },
   {
@@ -1495,6 +1843,10 @@ const phrasesGreetings = [
     "wordIds": [
       "26475"
     ],
+    "cloze": {
+      "de": "reinlassen",
+      "en": "let"
+    },
     "sourceIndex": 16475
   },
   {
@@ -1512,6 +1864,10 @@ const phrasesGreetings = [
     "wordIds": [
       "26828"
     ],
+    "cloze": {
+      "de": "befüllen",
+      "en": "fill"
+    },
     "sourceIndex": 16828
   },
   {
@@ -1529,6 +1885,10 @@ const phrasesGreetings = [
     "wordIds": [
       "28738"
     ],
+    "cloze": {
+      "de": "Kreuzchen",
+      "en": "tick"
+    },
     "sourceIndex": 18738
   },
   {
@@ -1546,6 +1906,10 @@ const phrasesGreetings = [
     "wordIds": [
       "29396"
     ],
+    "cloze": {
+      "de": "Serviette",
+      "en": "napkin"
+    },
     "sourceIndex": 19396
   }
 ];

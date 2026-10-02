@@ -13,6 +13,7 @@ vm.runInContext('this.content={vocab,phrases,lessons,grammarLessons,categoryReco
 const {vocab,phrases,lessons,grammarLessons,categoryRecords}=context.content;
 const categories=new Set(categoryRecords.map(c=>c.id)),wordIds=new Set(vocab.map(w=>w.id)),ids=new Set();
 const levels=new Set(['A1','A2','B1']),phraseLevel=p=>({easy:'A1',medium:'A2',hard:'B1'}[p.level]);
+const phraseTokens=text=>(text.match(/[\p{L}]+(?:['’-][\p{L}]+)?/gu)||[]).map(token=>token.toLocaleLowerCase('de'));
 for(const item of [...vocab,...phrases]){
   assert.match(item.id,/^[1-9]\d*$/);assert(!ids.has(item.id),'Duplicate ID '+item.id);ids.add(item.id);
   assert.deepEqual(Object.keys(item.translations).sort(),['de','en']);
@@ -35,7 +36,15 @@ for(const decision of reviewFile.decisions){
   assert.equal(decision.status,'confirmed');assert.match(decision.reference,/\S/);assert.match(decision.note,/\S/);
   for(const id of decision.ids){assert(assignmentIds.has(id),'Unknown translation review '+id);assert(!reviewedIds.has(id),'Duplicate translation review '+id);reviewedIds.add(id);}
 }
-for(const p of phrases){assert(phraseLevel(p));assert(p.wordIds.length);for(const id of p.wordIds)assert(wordIds.has(id),'Broken sentence→word reference '+id);}
+for(const p of phrases){
+  assert(phraseLevel(p));assert(p.wordIds.length);
+  for(const id of p.wordIds)assert(wordIds.has(id),'Broken sentence→word reference '+id);
+  assert(p.cloze&&typeof p.cloze==='object','Missing phrase cloze focus '+p.id);
+  for(const lang of ['de','en']){
+    assert.equal(typeof p.cloze[lang],'string','Invalid phrase cloze focus '+p.id+'/'+lang);
+    assert(phraseTokens(p.translations[lang].text).includes(p.cloze[lang].toLocaleLowerCase('de')),'Phrase cloze focus is not in its sentence '+p.id+'/'+lang);
+  }
+}
 for(const g of grammarLessons){assert.equal(g.targetLanguage,'de');assert(g.localized.en.title);for(const t of g.tests){assert.equal(typeof t.prompt,'string');assert(t.answers.length);}}
 for(const l of lessons)for(const a of l.activities){
   if(a.type==='mixed')continue;

@@ -29,7 +29,7 @@ The learning content is intentionally kept separate from the interface logic.
 - `verbs/<family>.js` contains one concise list for that verb family. The static loader adds its `verbs` category and `verbCategory` when the file is requested.
 - `manifest.js` is generated alongside the content. It records the static file path and totals for each content group, so the browser can request only the topic it needs.
 - Vocabulary and verb records use stable numeric string IDs without zero padding. Existing IDs must not be renumbered after publication.
-- `phrases/<category>.js` contains one concise canonical list for that category. Phrase records retain their category because lessons use it as a stable content key.
+- `phrases/<category>.js` contains one concise canonical list for that category. Phrase records retain their category because lessons use it as a stable content key. Each phrase also stores `wordIds` and a `cloze` object containing the exact German and English sentence tokens to blank.
 - Every vocabulary, verb, and phrase record stores language content under `translations`. Language-specific metadata, such as an article, belongs inside that language's translation object.
 - `grammar.js` contains German grammar only, with English presentation under
   `localized.en` and English test prompts and explanations stored as strings.
@@ -42,7 +42,9 @@ Vocabulary, verb, phrase and category files are generated. Edit the explicit
 do not patch generated records directly. The source revision and hash are
 checked before import. IDs are stored in the assignments and remain stable for
 that pinned snapshot. Sentence IDs are separate from word IDs, and `wordIds`
-links each example to the vocabulary entries it came from.
+links each example to the vocabulary entries it came from. The importer derives
+the `cloze.de` and `cloze.en` sentence forms from that linked source word; the
+app never chooses a random word when an explicit cloze target is present.
 
 `import/supplements.json` supplies five essential modal verbs missing from the
 deck. `import/report.json` records exclusions, duplicates and topic-review IDs.
@@ -72,6 +74,7 @@ node scripts/download-vocabulary-sources.cjs
 node scripts/import-deck.cjs
 node scripts/import-deck.cjs --check
 node scripts/validate-data.cjs
+node scripts/audit-phrases.cjs
 CHROMIUM=google-chrome node scripts/smoke-test.cjs
 ```
 

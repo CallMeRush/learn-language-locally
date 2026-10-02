@@ -14,6 +14,10 @@ const phrasesHouse = [
     "wordIds": [
       "10024"
     ],
+    "cloze": {
+      "de": "gehe",
+      "en": "going"
+    },
     "sourceIndex": 24
   },
   {
@@ -31,6 +35,10 @@ const phrasesHouse = [
     "wordIds": [
       "10096"
     ],
+    "cloze": {
+      "de": "gross",
+      "en": "big"
+    },
     "sourceIndex": 96
   },
   {
@@ -48,6 +56,10 @@ const phrasesHouse = [
     "wordIds": [
       "10104"
     ],
+    "cloze": {
+      "de": "schönes",
+      "en": "beautiful"
+    },
     "sourceIndex": 104
   },
   {
@@ -65,6 +77,10 @@ const phrasesHouse = [
     "wordIds": [
       "10134"
     ],
+    "cloze": {
+      "de": "ein",
+      "en": "small"
+    },
     "sourceIndex": 134
   },
   {
@@ -82,6 +98,10 @@ const phrasesHouse = [
     "wordIds": [
       "10137"
     ],
+    "cloze": {
+      "de": "Haus",
+      "en": "house"
+    },
     "sourceIndex": 137
   },
   {
@@ -100,6 +120,10 @@ const phrasesHouse = [
       "10139",
       "10859"
     ],
+    "cloze": {
+      "de": "Bild",
+      "en": "picture"
+    },
     "sourceIndex": 139
   },
   {
@@ -117,6 +141,10 @@ const phrasesHouse = [
     "wordIds": [
       "10144"
     ],
+    "cloze": {
+      "de": "deshalb",
+      "en": "therefore"
+    },
     "sourceIndex": 144
   },
   {
@@ -134,6 +162,10 @@ const phrasesHouse = [
     "wordIds": [
       "10154"
     ],
+    "cloze": {
+      "de": "daher",
+      "en": "therefore"
+    },
     "sourceIndex": 154
   },
   {
@@ -151,6 +183,10 @@ const phrasesHouse = [
     "wordIds": [
       "10179"
     ],
+    "cloze": {
+      "de": "eher",
+      "en": "rather"
+    },
     "sourceIndex": 179
   },
   {
@@ -168,6 +204,10 @@ const phrasesHouse = [
     "wordIds": [
       "10182"
     ],
+    "cloze": {
+      "de": "alt",
+      "en": "old"
+    },
     "sourceIndex": 182
   },
   {
@@ -185,6 +225,10 @@ const phrasesHouse = [
     "wordIds": [
       "10210"
     ],
+    "cloze": {
+      "de": "rund",
+      "en": "round"
+    },
     "sourceIndex": 210
   },
   {
@@ -202,6 +246,10 @@ const phrasesHouse = [
     "wordIds": [
       "10260"
     ],
+    "cloze": {
+      "de": "darum",
+      "en": "therefore"
+    },
     "sourceIndex": 260
   },
   {
@@ -219,6 +267,10 @@ const phrasesHouse = [
     "wordIds": [
       "10262"
     ],
+    "cloze": {
+      "de": "fest",
+      "en": "firmly"
+    },
     "sourceIndex": 262
   },
   {
@@ -236,6 +288,10 @@ const phrasesHouse = [
     "wordIds": [
       "10263"
     ],
+    "cloze": {
+      "de": "Form",
+      "en": "form"
+    },
     "sourceIndex": 263
   },
   {
@@ -253,6 +309,10 @@ const phrasesHouse = [
     "wordIds": [
       "10291"
     ],
+    "cloze": {
+      "de": "Wann",
+      "en": "When"
+    },
     "sourceIndex": 291
   },
   {
@@ -270,6 +330,10 @@ const phrasesHouse = [
     "wordIds": [
       "10322"
     ],
+    "cloze": {
+      "de": "Mitte",
+      "en": "middle"
+    },
     "sourceIndex": 322
   },
   {
@@ -287,6 +351,10 @@ const phrasesHouse = [
     "wordIds": [
       "10326"
     ],
+    "cloze": {
+      "de": "Raum",
+      "en": "room"
+    },
     "sourceIndex": 326
   },
   {
@@ -304,6 +372,10 @@ const phrasesHouse = [
     "wordIds": [
       "10337"
     ],
+    "cloze": {
+      "de": "setzt",
+      "en": "on"
+    },
     "sourceIndex": 337
   },
   {
@@ -321,6 +393,10 @@ const phrasesHouse = [
     "wordIds": [
       "10346"
     ],
+    "cloze": {
+      "de": "Rahmen",
+      "en": "frame"
+    },
     "sourceIndex": 346
   },
   {
@@ -338,6 +414,10 @@ const phrasesHouse = [
     "wordIds": [
       "10357"
     ],
+    "cloze": {
+      "de": "Wohnung",
+      "en": "apartment"
+    },
     "sourceIndex": 357
   },
   {
@@ -355,6 +435,10 @@ const phrasesHouse = [
     "wordIds": [
       "10367"
     ],
+    "cloze": {
+      "de": "Bad",
+      "en": "bathroom"
+    },
     "sourceIndex": 367
   },
   {
@@ -372,6 +456,10 @@ const phrasesHouse = [
     "wordIds": [
       "10421"
     ],
+    "cloze": {
+      "de": "Boden",
+      "en": "floor"
+    },
     "sourceIndex": 421
   },
   {
@@ -389,6 +477,10 @@ const phrasesHouse = [
     "wordIds": [
       "10456"
     ],
+    "cloze": {
+      "de": "deswegen",
+      "en": "that's"
+    },
     "sourceIndex": 456
   },
   {
@@ -406,6 +498,10 @@ const phrasesHouse = [
     "wordIds": [
       "10463"
     ],
+    "cloze": {
+      "de": "offen",
+      "en": "open"
+    },
     "sourceIndex": 463
   },
   {
@@ -423,6 +519,10 @@ const phrasesHouse = [
     "wordIds": [
       "10500"
     ],
+    "cloze": {
+      "de": "Zimmer",
+      "en": "room"
+    },
     "sourceIndex": 500
   },
   {
@@ -440,6 +540,10 @@ const phrasesHouse = [
     "wordIds": [
       "10518"
     ],
+    "cloze": {
+      "de": "komplett",
+      "en": "complete"
+    },
     "sourceIndex": 518
   },
   {
@@ -457,6 +561,10 @@ const phrasesHouse = [
     "wordIds": [
       "10524"
     ],
+    "cloze": {
+      "de": "verlassen",
+      "en": "leave"
+    },
     "sourceIndex": 524
   },
   {
@@ -474,6 +582,10 @@ const phrasesHouse = [
     "wordIds": [
       "10527"
     ],
+    "cloze": {
+      "de": "Bett",
+      "en": "bed"
+    },
     "sourceIndex": 527
   },
   {
@@ -491,6 +603,10 @@ const phrasesHouse = [
     "wordIds": [
       "10542"
     ],
+    "cloze": {
+      "de": "Ordnung",
+      "en": "order"
+    },
     "sourceIndex": 542
   },
   {
@@ -508,6 +624,10 @@ const phrasesHouse = [
     "wordIds": [
       "10548"
     ],
+    "cloze": {
+      "de": "vermutlich",
+      "en": "probably"
+    },
     "sourceIndex": 548
   },
   {
@@ -525,6 +645,10 @@ const phrasesHouse = [
     "wordIds": [
       "10563"
     ],
+    "cloze": {
+      "de": "Bank",
+      "en": "bench"
+    },
     "sourceIndex": 563
   },
   {
@@ -542,6 +666,10 @@ const phrasesHouse = [
     "wordIds": [
       "10569"
     ],
+    "cloze": {
+      "de": "Gebäude",
+      "en": "building"
+    },
     "sourceIndex": 569
   },
   {
@@ -559,6 +687,10 @@ const phrasesHouse = [
     "wordIds": [
       "10588"
     ],
+    "cloze": {
+      "de": "sitze",
+      "en": "I"
+    },
     "sourceIndex": 588
   },
   {
@@ -576,6 +708,10 @@ const phrasesHouse = [
     "wordIds": [
       "10590"
     ],
+    "cloze": {
+      "de": "Tür",
+      "en": "door"
+    },
     "sourceIndex": 590
   },
   {
@@ -593,6 +729,10 @@ const phrasesHouse = [
     "wordIds": [
       "10611"
     ],
+    "cloze": {
+      "de": "Fenster",
+      "en": "window"
+    },
     "sourceIndex": 611
   },
   {
@@ -610,6 +750,10 @@ const phrasesHouse = [
     "wordIds": [
       "10645"
     ],
+    "cloze": {
+      "de": "Bau",
+      "en": "construction"
+    },
     "sourceIndex": 645
   },
   {
@@ -627,6 +771,10 @@ const phrasesHouse = [
     "wordIds": [
       "10671"
     ],
+    "cloze": {
+      "de": "Schloss",
+      "en": "castle"
+    },
     "sourceIndex": 671
   },
   {
@@ -644,6 +792,10 @@ const phrasesHouse = [
     "wordIds": [
       "10681"
     ],
+    "cloze": {
+      "de": "legt",
+      "en": "lays"
+    },
     "sourceIndex": 681
   },
   {
@@ -662,6 +814,10 @@ const phrasesHouse = [
       "10686",
       "11076"
     ],
+    "cloze": {
+      "de": "Tisch",
+      "en": "table"
+    },
     "sourceIndex": 686
   },
   {
@@ -679,6 +835,10 @@ const phrasesHouse = [
     "wordIds": [
       "10711"
     ],
+    "cloze": {
+      "de": "bauen",
+      "en": "build"
+    },
     "sourceIndex": 711
   },
   {
@@ -696,6 +856,10 @@ const phrasesHouse = [
     "wordIds": [
       "10797"
     ],
+    "cloze": {
+      "de": "zuhause",
+      "en": "at"
+    },
     "sourceIndex": 797
   },
   {
@@ -713,6 +877,10 @@ const phrasesHouse = [
     "wordIds": [
       "10808"
     ],
+    "cloze": {
+      "de": "Halle",
+      "en": "hall"
+    },
     "sourceIndex": 808
   },
   {
@@ -730,6 +898,10 @@ const phrasesHouse = [
     "wordIds": [
       "10841"
     ],
+    "cloze": {
+      "de": "Verlag",
+      "en": "publishing"
+    },
     "sourceIndex": 841
   },
   {
@@ -747,6 +919,10 @@ const phrasesHouse = [
     "wordIds": [
       "10868"
     ],
+    "cloze": {
+      "de": "Spiegel",
+      "en": "mirror"
+    },
     "sourceIndex": 868
   },
   {
@@ -764,6 +940,10 @@ const phrasesHouse = [
     "wordIds": [
       "10884"
     ],
+    "cloze": {
+      "de": "Garten",
+      "en": "garden"
+    },
     "sourceIndex": 884
   },
   {
@@ -781,6 +961,10 @@ const phrasesHouse = [
     "wordIds": [
       "10901"
     ],
+    "cloze": {
+      "de": "wohne",
+      "en": "live"
+    },
     "sourceIndex": 901
   },
   {
@@ -798,6 +982,10 @@ const phrasesHouse = [
     "wordIds": [
       "10954"
     ],
+    "cloze": {
+      "de": "ab",
+      "en": "lock"
+    },
     "sourceIndex": 954
   },
   {
@@ -815,6 +1003,10 @@ const phrasesHouse = [
     "wordIds": [
       "10962"
     ],
+    "cloze": {
+      "de": "hauptsächlich",
+      "en": "mainly"
+    },
     "sourceIndex": 962
   },
   {
@@ -832,6 +1024,10 @@ const phrasesHouse = [
     "wordIds": [
       "10968"
     ],
+    "cloze": {
+      "de": "modernes",
+      "en": "modern"
+    },
     "sourceIndex": 968
   },
   {
@@ -849,6 +1045,10 @@ const phrasesHouse = [
     "wordIds": [
       "10987"
     ],
+    "cloze": {
+      "de": "Hof",
+      "en": "courtyard"
+    },
     "sourceIndex": 987
   },
   {
@@ -866,6 +1066,10 @@ const phrasesHouse = [
     "wordIds": [
       "11001"
     ],
+    "cloze": {
+      "de": "Wand",
+      "en": "wall"
+    },
     "sourceIndex": 1001
   },
   {
@@ -883,6 +1087,10 @@ const phrasesHouse = [
     "wordIds": [
       "11009"
     ],
+    "cloze": {
+      "de": "Ecke",
+      "en": "corner"
+    },
     "sourceIndex": 1009
   },
   {
@@ -900,6 +1108,10 @@ const phrasesHouse = [
     "wordIds": [
       "11014"
     ],
+    "cloze": {
+      "de": "Küche",
+      "en": "kitchen"
+    },
     "sourceIndex": 1014
   },
   {
@@ -917,6 +1129,10 @@ const phrasesHouse = [
     "wordIds": [
       "11018"
     ],
+    "cloze": {
+      "de": "mitten",
+      "en": "in"
+    },
     "sourceIndex": 1018
   },
   {
@@ -934,6 +1150,10 @@ const phrasesHouse = [
     "wordIds": [
       "11031"
     ],
+    "cloze": {
+      "de": "besitzt",
+      "en": "owns"
+    },
     "sourceIndex": 1031
   },
   {
@@ -951,6 +1171,10 @@ const phrasesHouse = [
     "wordIds": [
       "11042"
     ],
+    "cloze": {
+      "de": "steckt",
+      "en": "into"
+    },
     "sourceIndex": 1042
   },
   {
@@ -968,6 +1192,10 @@ const phrasesHouse = [
     "wordIds": [
       "11107"
     ],
+    "cloze": {
+      "de": "Originalbild",
+      "en": "original"
+    },
     "sourceIndex": 1107
   },
   {
@@ -985,6 +1213,10 @@ const phrasesHouse = [
     "wordIds": [
       "11122"
     ],
+    "cloze": {
+      "de": "öffnen",
+      "en": "open"
+    },
     "sourceIndex": 1122
   },
   {
@@ -1002,6 +1234,10 @@ const phrasesHouse = [
     "wordIds": [
       "11158"
     ],
+    "cloze": {
+      "de": "Glas",
+      "en": "glass"
+    },
     "sourceIndex": 1158
   },
   {
@@ -1019,6 +1255,10 @@ const phrasesHouse = [
     "wordIds": [
       "11229"
     ],
+    "cloze": {
+      "de": "automatisch",
+      "en": "automatically"
+    },
     "sourceIndex": 1229
   },
   {
@@ -1036,6 +1276,10 @@ const phrasesHouse = [
     "wordIds": [
       "11238"
     ],
+    "cloze": {
+      "de": "Keller",
+      "en": "cellar"
+    },
     "sourceIndex": 1238
   },
   {
@@ -1053,6 +1297,10 @@ const phrasesHouse = [
     "wordIds": [
       "11250"
     ],
+    "cloze": {
+      "de": "Dach",
+      "en": "roof"
+    },
     "sourceIndex": 1250
   },
   {
@@ -1070,6 +1318,10 @@ const phrasesHouse = [
     "wordIds": [
       "11272"
     ],
+    "cloze": {
+      "de": "auf",
+      "en": "pointed"
+    },
     "sourceIndex": 1272
   },
   {
@@ -1087,6 +1339,10 @@ const phrasesHouse = [
     "wordIds": [
       "11282"
     ],
+    "cloze": {
+      "de": "Fläche",
+      "en": "surface"
+    },
     "sourceIndex": 1282
   },
   {
@@ -1104,6 +1360,10 @@ const phrasesHouse = [
     "wordIds": [
       "11314"
     ],
+    "cloze": {
+      "de": "spätestens",
+      "en": "at"
+    },
     "sourceIndex": 1314
   },
   {
@@ -1121,6 +1381,10 @@ const phrasesHouse = [
     "wordIds": [
       "11325"
     ],
+    "cloze": {
+      "de": "Besitz",
+      "en": "property"
+    },
     "sourceIndex": 1325
   },
   {
@@ -1138,6 +1402,10 @@ const phrasesHouse = [
     "wordIds": [
       "11334"
     ],
+    "cloze": {
+      "de": "Griff",
+      "en": "handle"
+    },
     "sourceIndex": 1334
   },
   {
@@ -1155,6 +1423,10 @@ const phrasesHouse = [
     "wordIds": [
       "11351"
     ],
+    "cloze": {
+      "de": "Bewohner",
+      "en": "house"
+    },
     "sourceIndex": 1351
   },
   {
@@ -1172,6 +1444,10 @@ const phrasesHouse = [
     "wordIds": [
       "11356"
     ],
+    "cloze": {
+      "de": "dreht",
+      "en": "turns"
+    },
     "sourceIndex": 1356
   },
   {
@@ -1189,6 +1465,10 @@ const phrasesHouse = [
     "wordIds": [
       "11417"
     ],
+    "cloze": {
+      "de": "beobachtet",
+      "en": "observes"
+    },
     "sourceIndex": 1417
   },
   {
@@ -1206,6 +1486,10 @@ const phrasesHouse = [
     "wordIds": [
       "11480"
     ],
+    "cloze": {
+      "de": "aufbauen",
+      "en": "up"
+    },
     "sourceIndex": 1480
   },
   {
@@ -1223,6 +1507,10 @@ const phrasesHouse = [
     "wordIds": [
       "11554"
     ],
+    "cloze": {
+      "de": "hinein",
+      "en": "into"
+    },
     "sourceIndex": 1554
   },
   {
@@ -1240,6 +1528,10 @@ const phrasesHouse = [
     "wordIds": [
       "11563"
     ],
+    "cloze": {
+      "de": "Rand",
+      "en": "edge"
+    },
     "sourceIndex": 1563
   },
   {
@@ -1257,6 +1549,10 @@ const phrasesHouse = [
     "wordIds": [
       "11605"
     ],
+    "cloze": {
+      "de": "sauber",
+      "en": "clean"
+    },
     "sourceIndex": 1605
   },
   {
@@ -1274,6 +1570,10 @@ const phrasesHouse = [
     "wordIds": [
       "11610"
     ],
+    "cloze": {
+      "de": "verschwunden",
+      "en": "disappeared"
+    },
     "sourceIndex": 1610
   },
   {
@@ -1292,6 +1592,10 @@ const phrasesHouse = [
       "11635",
       "15662"
     ],
+    "cloze": {
+      "de": "locker",
+      "en": "loose"
+    },
     "sourceIndex": 1635
   },
   {
@@ -1309,6 +1613,10 @@ const phrasesHouse = [
     "wordIds": [
       "11659"
     ],
+    "cloze": {
+      "de": "dicht",
+      "en": "tight"
+    },
     "sourceIndex": 1659
   },
   {
@@ -1326,6 +1634,10 @@ const phrasesHouse = [
     "wordIds": [
       "11668"
     ],
+    "cloze": {
+      "de": "Heim",
+      "en": "home"
+    },
     "sourceIndex": 1668
   },
   {
@@ -1343,6 +1655,10 @@ const phrasesHouse = [
     "wordIds": [
       "11686"
     ],
+    "cloze": {
+      "de": "Struktur",
+      "en": "structure"
+    },
     "sourceIndex": 1686
   },
   {
@@ -1360,6 +1676,10 @@ const phrasesHouse = [
     "wordIds": [
       "11687"
     ],
+    "cloze": {
+      "de": "Stufe",
+      "en": "step"
+    },
     "sourceIndex": 1687
   },
   {
@@ -1377,6 +1697,10 @@ const phrasesHouse = [
     "wordIds": [
       "11709"
     ],
+    "cloze": {
+      "de": "einrichten",
+      "en": "furnish"
+    },
     "sourceIndex": 1709
   },
   {
@@ -1394,6 +1718,10 @@ const phrasesHouse = [
     "wordIds": [
       "11725"
     ],
+    "cloze": {
+      "de": "Mauer",
+      "en": "wall"
+    },
     "sourceIndex": 1725
   },
   {
@@ -1411,6 +1739,10 @@ const phrasesHouse = [
     "wordIds": [
       "11751"
     ],
+    "cloze": {
+      "de": "erledigen",
+      "en": "complete"
+    },
     "sourceIndex": 1751
   },
   {
@@ -1428,6 +1760,10 @@ const phrasesHouse = [
     "wordIds": [
       "11770"
     ],
+    "cloze": {
+      "de": "Schlüssel",
+      "en": "key"
+    },
     "sourceIndex": 1770
   },
   {
@@ -1445,6 +1781,10 @@ const phrasesHouse = [
     "wordIds": [
       "11778"
     ],
+    "cloze": {
+      "de": "Lebewesen",
+      "en": "being"
+    },
     "sourceIndex": 1778
   },
   {
@@ -1462,6 +1802,10 @@ const phrasesHouse = [
     "wordIds": [
       "11821"
     ],
+    "cloze": {
+      "de": "Eingang",
+      "en": "entrance"
+    },
     "sourceIndex": 1821
   },
   {
@@ -1479,6 +1823,10 @@ const phrasesHouse = [
     "wordIds": [
       "11831"
     ],
+    "cloze": {
+      "de": "Hammer",
+      "en": "hammer"
+    },
     "sourceIndex": 1831
   },
   {
@@ -1496,6 +1844,10 @@ const phrasesHouse = [
     "wordIds": [
       "11891"
     ],
+    "cloze": {
+      "de": "Front",
+      "en": "front"
+    },
     "sourceIndex": 1891
   },
   {
@@ -1513,6 +1865,10 @@ const phrasesHouse = [
     "wordIds": [
       "11914"
     ],
+    "cloze": {
+      "de": "an",
+      "en": "on"
+    },
     "sourceIndex": 1914
   },
   {
@@ -1530,6 +1886,10 @@ const phrasesHouse = [
     "wordIds": [
       "11915"
     ],
+    "cloze": {
+      "de": "Aussicht",
+      "en": "view"
+    },
     "sourceIndex": 1915
   },
   {
@@ -1547,6 +1907,10 @@ const phrasesHouse = [
     "wordIds": [
       "11938"
     ],
+    "cloze": {
+      "de": "Oberfläche",
+      "en": "surface"
+    },
     "sourceIndex": 1938
   },
   {
@@ -1564,6 +1928,10 @@ const phrasesHouse = [
     "wordIds": [
       "11966"
     ],
+    "cloze": {
+      "de": "Decke",
+      "en": "blanket"
+    },
     "sourceIndex": 1966
   },
   {
@@ -1581,6 +1949,10 @@ const phrasesHouse = [
     "wordIds": [
       "12015"
     ],
+    "cloze": {
+      "de": "Miete",
+      "en": "rent"
+    },
     "sourceIndex": 2015
   },
   {
@@ -1598,6 +1970,10 @@ const phrasesHouse = [
     "wordIds": [
       "12021"
     ],
+    "cloze": {
+      "de": "Rathaus",
+      "en": "town"
+    },
     "sourceIndex": 2021
   },
   {
@@ -1615,6 +1991,10 @@ const phrasesHouse = [
     "wordIds": [
       "12039"
     ],
+    "cloze": {
+      "de": "Fernseher",
+      "en": "television"
+    },
     "sourceIndex": 2039
   },
   {
@@ -1632,6 +2012,10 @@ const phrasesHouse = [
     "wordIds": [
       "12048"
     ],
+    "cloze": {
+      "de": "konkretes",
+      "en": "concrete"
+    },
     "sourceIndex": 2048
   },
   {
@@ -1649,6 +2033,10 @@ const phrasesHouse = [
     "wordIds": [
       "12132"
     ],
+    "cloze": {
+      "de": "Neubau",
+      "en": "new"
+    },
     "sourceIndex": 2132
   },
   {
@@ -1666,6 +2054,10 @@ const phrasesHouse = [
     "wordIds": [
       "12196"
     ],
+    "cloze": {
+      "de": "hell",
+      "en": "bright"
+    },
     "sourceIndex": 2196
   },
   {
@@ -1683,6 +2075,10 @@ const phrasesHouse = [
     "wordIds": [
       "12206"
     ],
+    "cloze": {
+      "de": "messen",
+      "en": "measure"
+    },
     "sourceIndex": 2206
   },
   {
@@ -1700,6 +2096,10 @@ const phrasesHouse = [
     "wordIds": [
       "12219"
     ],
+    "cloze": {
+      "de": "trocken",
+      "en": "dry"
+    },
     "sourceIndex": 2219
   },
   {
@@ -1717,6 +2117,10 @@ const phrasesHouse = [
     "wordIds": [
       "12276"
     ],
+    "cloze": {
+      "de": "daheim",
+      "en": "at"
+    },
     "sourceIndex": 2276
   },
   {
@@ -1734,6 +2138,10 @@ const phrasesHouse = [
     "wordIds": [
       "12277"
     ],
+    "cloze": {
+      "de": "Dreck",
+      "en": "dirt"
+    },
     "sourceIndex": 2277
   },
   {
@@ -1751,6 +2159,10 @@ const phrasesHouse = [
     "wordIds": [
       "12304"
     ],
+    "cloze": {
+      "de": "Stuhl",
+      "en": "chair"
+    },
     "sourceIndex": 2304
   },
   {
@@ -1768,6 +2180,10 @@ const phrasesHouse = [
     "wordIds": [
       "12318"
     ],
+    "cloze": {
+      "de": "deck",
+      "en": "the"
+    },
     "sourceIndex": 2318
   },
   {
@@ -1785,6 +2201,10 @@ const phrasesHouse = [
     "wordIds": [
       "12373"
     ],
+    "cloze": {
+      "de": "schief",
+      "en": "crooked"
+    },
     "sourceIndex": 2373
   },
   {
@@ -1802,6 +2222,10 @@ const phrasesHouse = [
     "wordIds": [
       "12444"
     ],
+    "cloze": {
+      "de": "groß",
+      "en": "big"
+    },
     "sourceIndex": 2444
   },
   {
@@ -1819,6 +2243,10 @@ const phrasesHouse = [
     "wordIds": [
       "12494"
     ],
+    "cloze": {
+      "de": "lebendes",
+      "en": "living"
+    },
     "sourceIndex": 2494
   },
   {
@@ -1837,6 +2265,10 @@ const phrasesHouse = [
       "12530",
       "12907"
     ],
+    "cloze": {
+      "de": "bequem",
+      "en": "comfortable"
+    },
     "sourceIndex": 2530
   },
   {
@@ -1854,6 +2286,10 @@ const phrasesHouse = [
     "wordIds": [
       "12534"
     ],
+    "cloze": {
+      "de": "Dusche",
+      "en": "shower"
+    },
     "sourceIndex": 2534
   },
   {
@@ -1871,6 +2307,10 @@ const phrasesHouse = [
     "wordIds": [
       "12581"
     ],
+    "cloze": {
+      "de": "dazwischen",
+      "en": "in"
+    },
     "sourceIndex": 2581
   },
   {
@@ -1888,6 +2328,10 @@ const phrasesHouse = [
     "wordIds": [
       "12607"
     ],
+    "cloze": {
+      "de": "umgeben",
+      "en": "surround"
+    },
     "sourceIndex": 2607
   },
   {
@@ -1905,6 +2349,10 @@ const phrasesHouse = [
     "wordIds": [
       "12663"
     ],
+    "cloze": {
+      "de": "waschen",
+      "en": "wash"
+    },
     "sourceIndex": 2663
   },
   {
@@ -1922,6 +2370,10 @@ const phrasesHouse = [
     "wordIds": [
       "12666"
     ],
+    "cloze": {
+      "de": "Wohnzimmer",
+      "en": "living"
+    },
     "sourceIndex": 2666
   },
   {
@@ -1939,6 +2391,10 @@ const phrasesHouse = [
     "wordIds": [
       "12675"
     ],
+    "cloze": {
+      "de": "Balkon",
+      "en": "balcony"
+    },
     "sourceIndex": 2675
   },
   {
@@ -1956,6 +2412,10 @@ const phrasesHouse = [
     "wordIds": [
       "12709"
     ],
+    "cloze": {
+      "de": "Schlafzimmer",
+      "en": "bedroom"
+    },
     "sourceIndex": 2709
   },
   {
@@ -1973,6 +2433,10 @@ const phrasesHouse = [
     "wordIds": [
       "12713"
     ],
+    "cloze": {
+      "de": "Treppe",
+      "en": "stairs"
+    },
     "sourceIndex": 2713
   },
   {
@@ -1990,6 +2454,10 @@ const phrasesHouse = [
     "wordIds": [
       "12743"
     ],
+    "cloze": {
+      "de": "Kammer",
+      "en": "chamber"
+    },
     "sourceIndex": 2743
   },
   {
@@ -2007,6 +2475,10 @@ const phrasesHouse = [
     "wordIds": [
       "12750"
     ],
+    "cloze": {
+      "de": "Schreibtisch",
+      "en": "desk"
+    },
     "sourceIndex": 2750
   },
   {
@@ -2024,6 +2496,10 @@ const phrasesHouse = [
     "wordIds": [
       "12752"
     ],
+    "cloze": {
+      "de": "stabil",
+      "en": "stable"
+    },
     "sourceIndex": 2752
   },
   {
@@ -2041,6 +2517,10 @@ const phrasesHouse = [
     "wordIds": [
       "12756"
     ],
+    "cloze": {
+      "de": "Umbau",
+      "en": "renovation"
+    },
     "sourceIndex": 2756
   },
   {
@@ -2058,6 +2538,10 @@ const phrasesHouse = [
     "wordIds": [
       "12786"
     ],
+    "cloze": {
+      "de": "kehren",
+      "en": "sweep"
+    },
     "sourceIndex": 2786
   },
   {
@@ -2075,6 +2559,10 @@ const phrasesHouse = [
     "wordIds": [
       "12789"
     ],
+    "cloze": {
+      "de": "Mieter",
+      "en": "tenant"
+    },
     "sourceIndex": 2789
   },
   {
@@ -2092,6 +2580,10 @@ const phrasesHouse = [
     "wordIds": [
       "12857"
     ],
+    "cloze": {
+      "de": "Saal",
+      "en": "hall"
+    },
     "sourceIndex": 2857
   },
   {
@@ -2109,6 +2601,10 @@ const phrasesHouse = [
     "wordIds": [
       "12960"
     ],
+    "cloze": {
+      "de": "Schrank",
+      "en": "wardrobe"
+    },
     "sourceIndex": 2960
   },
   {
@@ -2126,6 +2622,10 @@ const phrasesHouse = [
     "wordIds": [
       "13033"
     ],
+    "cloze": {
+      "de": "Architekt",
+      "en": "architect"
+    },
     "sourceIndex": 3033
   },
   {
@@ -2143,6 +2643,10 @@ const phrasesHouse = [
     "wordIds": [
       "13044"
     ],
+    "cloze": {
+      "de": "Erlaubnis",
+      "en": "permission"
+    },
     "sourceIndex": 3044
   },
   {
@@ -2160,6 +2664,10 @@ const phrasesHouse = [
     "wordIds": [
       "13048"
     ],
+    "cloze": {
+      "de": "gemütlich",
+      "en": "cozy"
+    },
     "sourceIndex": 3048
   },
   {
@@ -2177,6 +2685,10 @@ const phrasesHouse = [
     "wordIds": [
       "13050"
     ],
+    "cloze": {
+      "de": "Handwerker",
+      "en": "craftsman"
+    },
     "sourceIndex": 3050
   },
   {
@@ -2194,6 +2706,10 @@ const phrasesHouse = [
     "wordIds": [
       "13069"
     ],
+    "cloze": {
+      "de": "Rasen",
+      "en": "lawn"
+    },
     "sourceIndex": 3069
   },
   {
@@ -2211,6 +2727,10 @@ const phrasesHouse = [
     "wordIds": [
       "13074"
     ],
+    "cloze": {
+      "de": "sinken",
+      "en": "sink"
+    },
     "sourceIndex": 3074
   },
   {
@@ -2228,6 +2748,10 @@ const phrasesHouse = [
     "wordIds": [
       "13104"
     ],
+    "cloze": {
+      "de": "gelegen",
+      "en": "located"
+    },
     "sourceIndex": 3104
   },
   {
@@ -2245,6 +2769,10 @@ const phrasesHouse = [
     "wordIds": [
       "13130"
     ],
+    "cloze": {
+      "de": "Staub",
+      "en": "dust"
+    },
     "sourceIndex": 3130
   },
   {
@@ -2262,6 +2790,10 @@ const phrasesHouse = [
     "wordIds": [
       "13132"
     ],
+    "cloze": {
+      "de": "Teppich",
+      "en": "carpet"
+    },
     "sourceIndex": 3132
   },
   {
@@ -2279,6 +2811,10 @@ const phrasesHouse = [
     "wordIds": [
       "13167"
     ],
+    "cloze": {
+      "de": "flach",
+      "en": "flat"
+    },
     "sourceIndex": 3167
   },
   {
@@ -2296,6 +2832,10 @@ const phrasesHouse = [
     "wordIds": [
       "13177"
     ],
+    "cloze": {
+      "de": "herunter",
+      "en": "down"
+    },
     "sourceIndex": 3177
   },
   {
@@ -2313,6 +2853,10 @@ const phrasesHouse = [
     "wordIds": [
       "13190"
     ],
+    "cloze": {
+      "de": "Paradies",
+      "en": "paradise"
+    },
     "sourceIndex": 3190
   },
   {
@@ -2330,6 +2874,10 @@ const phrasesHouse = [
     "wordIds": [
       "13214"
     ],
+    "cloze": {
+      "de": "ausrichten",
+      "en": "realign"
+    },
     "sourceIndex": 3214
   },
   {
@@ -2347,6 +2895,10 @@ const phrasesHouse = [
     "wordIds": [
       "13271"
     ],
+    "cloze": {
+      "de": "Anordnung",
+      "en": "arrangement"
+    },
     "sourceIndex": 3271
   },
   {
@@ -2364,6 +2916,10 @@ const phrasesHouse = [
     "wordIds": [
       "13283"
     ],
+    "cloze": {
+      "de": "einbauen",
+      "en": "install"
+    },
     "sourceIndex": 3283
   },
   {
@@ -2381,6 +2937,10 @@ const phrasesHouse = [
     "wordIds": [
       "13294"
     ],
+    "cloze": {
+      "de": "Lücke",
+      "en": "gap"
+    },
     "sourceIndex": 3294
   },
   {
@@ -2398,6 +2958,10 @@ const phrasesHouse = [
     "wordIds": [
       "13362"
     ],
+    "cloze": {
+      "de": "Klo",
+      "en": "toilet"
+    },
     "sourceIndex": 3362
   },
   {
@@ -2415,6 +2979,10 @@ const phrasesHouse = [
     "wordIds": [
       "13368"
     ],
+    "cloze": {
+      "de": "Möbel",
+      "en": "furniture"
+    },
     "sourceIndex": 3368
   },
   {
@@ -2432,6 +3000,10 @@ const phrasesHouse = [
     "wordIds": [
       "13381"
     ],
+    "cloze": {
+      "de": "Vermieter",
+      "en": "landlord"
+    },
     "sourceIndex": 3381
   },
   {
@@ -2449,6 +3021,10 @@ const phrasesHouse = [
     "wordIds": [
       "13457"
     ],
+    "cloze": {
+      "de": "begraben",
+      "en": "buried"
+    },
     "sourceIndex": 3457
   },
   {
@@ -2466,6 +3042,10 @@ const phrasesHouse = [
     "wordIds": [
       "13473"
     ],
+    "cloze": {
+      "de": "Fleck",
+      "en": "stain"
+    },
     "sourceIndex": 3473
   },
   {
@@ -2483,6 +3063,10 @@ const phrasesHouse = [
     "wordIds": [
       "13502"
     ],
+    "cloze": {
+      "de": "weich",
+      "en": "soft"
+    },
     "sourceIndex": 3502
   },
   {
@@ -2500,6 +3084,10 @@ const phrasesHouse = [
     "wordIds": [
       "13516"
     ],
+    "cloze": {
+      "de": "Baustelle",
+      "en": "construction"
+    },
     "sourceIndex": 3516
   },
   {
@@ -2517,6 +3105,10 @@ const phrasesHouse = [
     "wordIds": [
       "13517"
     ],
+    "cloze": {
+      "de": "Beleuchtung",
+      "en": "lighting"
+    },
     "sourceIndex": 3517
   },
   {
@@ -2534,6 +3126,10 @@ const phrasesHouse = [
     "wordIds": [
       "13523"
     ],
+    "cloze": {
+      "de": "Couch",
+      "en": "couch"
+    },
     "sourceIndex": 3523
   },
   {
@@ -2551,6 +3147,10 @@ const phrasesHouse = [
     "wordIds": [
       "13525"
     ],
+    "cloze": {
+      "de": "dusche",
+      "en": "shower"
+    },
     "sourceIndex": 3525
   },
   {
@@ -2568,6 +3168,10 @@ const phrasesHouse = [
     "wordIds": [
       "13526"
     ],
+    "cloze": {
+      "de": "Einbruch",
+      "en": "burglary"
+    },
     "sourceIndex": 3526
   },
   {
@@ -2585,6 +3189,10 @@ const phrasesHouse = [
     "wordIds": [
       "13531"
     ],
+    "cloze": {
+      "de": "Flur",
+      "en": "hallway"
+    },
     "sourceIndex": 3531
   },
   {
@@ -2603,6 +3211,10 @@ const phrasesHouse = [
       "13540",
       "19551"
     ],
+    "cloze": {
+      "de": "lehnte",
+      "en": "leaned"
+    },
     "sourceIndex": 3540
   },
   {
@@ -2620,6 +3232,10 @@ const phrasesHouse = [
     "wordIds": [
       "13563"
     ],
+    "cloze": {
+      "de": "Wäsche",
+      "en": "laundry"
+    },
     "sourceIndex": 3563
   },
   {
@@ -2637,6 +3253,10 @@ const phrasesHouse = [
     "wordIds": [
       "13586"
     ],
+    "cloze": {
+      "de": "durcheinander",
+      "en": "mixed"
+    },
     "sourceIndex": 3586
   },
   {
@@ -2654,6 +3274,10 @@ const phrasesHouse = [
     "wordIds": [
       "13656"
     ],
+    "cloze": {
+      "de": "hässliches",
+      "en": "ugly"
+    },
     "sourceIndex": 3656
   },
   {
@@ -2671,6 +3295,10 @@ const phrasesHouse = [
     "wordIds": [
       "13681"
     ],
+    "cloze": {
+      "de": "unheimlich",
+      "en": "eerie"
+    },
     "sourceIndex": 3681
   },
   {
@@ -2688,6 +3316,10 @@ const phrasesHouse = [
     "wordIds": [
       "13699"
     ],
+    "cloze": {
+      "de": "Busch",
+      "en": "bush"
+    },
     "sourceIndex": 3699
   },
   {
@@ -2705,6 +3337,10 @@ const phrasesHouse = [
     "wordIds": [
       "13716"
     ],
+    "cloze": {
+      "de": "Heizung",
+      "en": "heating"
+    },
     "sourceIndex": 3716
   },
   {
@@ -2722,6 +3358,10 @@ const phrasesHouse = [
     "wordIds": [
       "13741"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "burned"
+    },
     "sourceIndex": 3741
   },
   {
@@ -2739,6 +3379,10 @@ const phrasesHouse = [
     "wordIds": [
       "13810"
     ],
+    "cloze": {
+      "de": "Zimmermann",
+      "en": "carpenter"
+    },
     "sourceIndex": 3810
   },
   {
@@ -2756,6 +3400,10 @@ const phrasesHouse = [
     "wordIds": [
       "13829"
     ],
+    "cloze": {
+      "de": "Fassade",
+      "en": "facade"
+    },
     "sourceIndex": 3829
   },
   {
@@ -2773,6 +3421,10 @@ const phrasesHouse = [
     "wordIds": [
       "13838"
     ],
+    "cloze": {
+      "de": "hauen",
+      "en": "hit"
+    },
     "sourceIndex": 3838
   },
   {
@@ -2790,6 +3442,10 @@ const phrasesHouse = [
     "wordIds": [
       "13839"
     ],
+    "cloze": {
+      "de": "Haustür",
+      "en": "front"
+    },
     "sourceIndex": 3839
   },
   {
@@ -2807,6 +3463,10 @@ const phrasesHouse = [
     "wordIds": [
       "13840"
     ],
+    "cloze": {
+      "de": "hinauf",
+      "en": "up"
+    },
     "sourceIndex": 3840
   },
   {
@@ -2824,6 +3484,10 @@ const phrasesHouse = [
     "wordIds": [
       "13846"
     ],
+    "cloze": {
+      "de": "Lampe",
+      "en": "lamp"
+    },
     "sourceIndex": 3846
   },
   {
@@ -2841,6 +3505,10 @@ const phrasesHouse = [
     "wordIds": [
       "13850"
     ],
+    "cloze": {
+      "de": "nebenan",
+      "en": "next"
+    },
     "sourceIndex": 3850
   },
   {
@@ -2858,6 +3526,10 @@ const phrasesHouse = [
     "wordIds": [
       "13858"
     ],
+    "cloze": {
+      "de": "putzen",
+      "en": "clean"
+    },
     "sourceIndex": 3858
   },
   {
@@ -2875,6 +3547,10 @@ const phrasesHouse = [
     "wordIds": [
       "13859"
     ],
+    "cloze": {
+      "de": "Rohr",
+      "en": "pipe"
+    },
     "sourceIndex": 3859
   },
   {
@@ -2892,6 +3568,10 @@ const phrasesHouse = [
     "wordIds": [
       "13914"
     ],
+    "cloze": {
+      "de": "lagern",
+      "en": "store"
+    },
     "sourceIndex": 3914
   },
   {
@@ -2909,6 +3589,10 @@ const phrasesHouse = [
     "wordIds": [
       "13950"
     ],
+    "cloze": {
+      "de": "vordere",
+      "en": "front"
+    },
     "sourceIndex": 3950
   },
   {
@@ -2926,6 +3610,10 @@ const phrasesHouse = [
     "wordIds": [
       "13990"
     ],
+    "cloze": {
+      "de": "Nagel",
+      "en": "nail"
+    },
     "sourceIndex": 3990
   },
   {
@@ -2943,6 +3631,10 @@ const phrasesHouse = [
     "wordIds": [
       "14010"
     ],
+    "cloze": {
+      "de": "Wohnraum",
+      "en": "Living"
+    },
     "sourceIndex": 4010
   },
   {
@@ -2960,6 +3652,10 @@ const phrasesHouse = [
     "wordIds": [
       "14028"
     ],
+    "cloze": {
+      "de": "befestigen",
+      "en": "fasten"
+    },
     "sourceIndex": 4028
   },
   {
@@ -2977,6 +3673,10 @@ const phrasesHouse = [
     "wordIds": [
       "14113"
     ],
+    "cloze": {
+      "de": "Erdgeschoss",
+      "en": "ground"
+    },
     "sourceIndex": 4113
   },
   {
@@ -2994,6 +3694,10 @@ const phrasesHouse = [
     "wordIds": [
       "14119"
     ],
+    "cloze": {
+      "de": "Kissen",
+      "en": "pillow"
+    },
     "sourceIndex": 4119
   },
   {
@@ -3011,6 +3715,10 @@ const phrasesHouse = [
     "wordIds": [
       "14134"
     ],
+    "cloze": {
+      "de": "rückwärts",
+      "en": "backwards"
+    },
     "sourceIndex": 4134
   },
   {
@@ -3028,6 +3736,10 @@ const phrasesHouse = [
     "wordIds": [
       "14165"
     ],
+    "cloze": {
+      "de": "Beton",
+      "en": "concrete"
+    },
     "sourceIndex": 4165
   },
   {
@@ -3045,6 +3757,10 @@ const phrasesHouse = [
     "wordIds": [
       "14205"
     ],
+    "cloze": {
+      "de": "Plakat",
+      "en": "poster"
+    },
     "sourceIndex": 4205
   },
   {
@@ -3062,6 +3778,10 @@ const phrasesHouse = [
     "wordIds": [
       "14302"
     ],
+    "cloze": {
+      "de": "Deckel",
+      "en": "lid"
+    },
     "sourceIndex": 4302
   },
   {
@@ -3079,6 +3799,10 @@ const phrasesHouse = [
     "wordIds": [
       "14362"
     ],
+    "cloze": {
+      "de": "abreißen",
+      "en": "demolish"
+    },
     "sourceIndex": 4362
   },
   {
@@ -3096,6 +3820,10 @@ const phrasesHouse = [
     "wordIds": [
       "14393"
     ],
+    "cloze": {
+      "de": "hinunter",
+      "en": "down"
+    },
     "sourceIndex": 4393
   },
   {
@@ -3113,6 +3841,10 @@ const phrasesHouse = [
     "wordIds": [
       "14428"
     ],
+    "cloze": {
+      "de": "Säule",
+      "en": "column"
+    },
     "sourceIndex": 4428
   },
   {
@@ -3130,6 +3862,10 @@ const phrasesHouse = [
     "wordIds": [
       "14438"
     ],
+    "cloze": {
+      "de": "verschließen",
+      "en": "lock"
+    },
     "sourceIndex": 4438
   },
   {
@@ -3147,6 +3883,10 @@ const phrasesHouse = [
     "wordIds": [
       "14453"
     ],
+    "cloze": {
+      "de": "Badezimmer",
+      "en": "bathroom"
+    },
     "sourceIndex": 4453
   },
   {
@@ -3164,6 +3904,10 @@ const phrasesHouse = [
     "wordIds": [
       "14480"
     ],
+    "cloze": {
+      "de": "Lizenz-Key",
+      "en": "key"
+    },
     "sourceIndex": 4480
   },
   {
@@ -3181,6 +3925,10 @@ const phrasesHouse = [
     "wordIds": [
       "14513"
     ],
+    "cloze": {
+      "de": "Wohnhaus",
+      "en": "residential"
+    },
     "sourceIndex": 4513
   },
   {
@@ -3198,6 +3946,10 @@ const phrasesHouse = [
     "wordIds": [
       "14543"
     ],
+    "cloze": {
+      "de": "Kerze",
+      "en": "candle"
+    },
     "sourceIndex": 4543
   },
   {
@@ -3215,6 +3967,10 @@ const phrasesHouse = [
     "wordIds": [
       "14556"
     ],
+    "cloze": {
+      "de": "platt",
+      "en": "flat"
+    },
     "sourceIndex": 4556
   },
   {
@@ -3232,6 +3988,10 @@ const phrasesHouse = [
     "wordIds": [
       "14557"
     ],
+    "cloze": {
+      "de": "Poster",
+      "en": "poster"
+    },
     "sourceIndex": 4557
   },
   {
@@ -3249,6 +4009,10 @@ const phrasesHouse = [
     "wordIds": [
       "14569"
     ],
+    "cloze": {
+      "de": "stützen",
+      "en": "support"
+    },
     "sourceIndex": 4569
   },
   {
@@ -3266,6 +4030,10 @@ const phrasesHouse = [
     "wordIds": [
       "14626"
     ],
+    "cloze": {
+      "de": "Regal",
+      "en": "shelf"
+    },
     "sourceIndex": 4626
   },
   {
@@ -3283,6 +4051,10 @@ const phrasesHouse = [
     "wordIds": [
       "14680"
     ],
+    "cloze": {
+      "de": "Hülle",
+      "en": "cover"
+    },
     "sourceIndex": 4680
   },
   {
@@ -3300,6 +4072,10 @@ const phrasesHouse = [
     "wordIds": [
       "14799"
     ],
+    "cloze": {
+      "de": "vergrössern",
+      "en": "enlarge"
+    },
     "sourceIndex": 4799
   },
   {
@@ -3317,6 +4093,10 @@ const phrasesHouse = [
     "wordIds": [
       "14821"
     ],
+    "cloze": {
+      "de": "Aufzug",
+      "en": "elevator"
+    },
     "sourceIndex": 4821
   },
   {
@@ -3334,6 +4114,10 @@ const phrasesHouse = [
     "wordIds": [
       "14838"
     ],
+    "cloze": {
+      "de": "Eimer",
+      "en": "bucket"
+    },
     "sourceIndex": 4838
   },
   {
@@ -3351,6 +4135,10 @@ const phrasesHouse = [
     "wordIds": [
       "14906"
     ],
+    "cloze": {
+      "de": "Balken",
+      "en": "beams"
+    },
     "sourceIndex": 4906
   },
   {
@@ -3368,6 +4156,10 @@ const phrasesHouse = [
     "wordIds": [
       "14909"
     ],
+    "cloze": {
+      "de": "Berührung",
+      "en": "touch"
+    },
     "sourceIndex": 4909
   },
   {
@@ -3385,6 +4177,10 @@ const phrasesHouse = [
     "wordIds": [
       "15038"
     ],
+    "cloze": {
+      "de": "reinigen",
+      "en": "clean"
+    },
     "sourceIndex": 5038
   },
   {
@@ -3402,6 +4198,10 @@ const phrasesHouse = [
     "wordIds": [
       "15048"
     ],
+    "cloze": {
+      "de": "Teich",
+      "en": "pond"
+    },
     "sourceIndex": 5048
   },
   {
@@ -3419,6 +4219,10 @@ const phrasesHouse = [
     "wordIds": [
       "15051"
     ],
+    "cloze": {
+      "de": "umbauen",
+      "en": "rebuild"
+    },
     "sourceIndex": 5051
   },
   {
@@ -3436,6 +4240,10 @@ const phrasesHouse = [
     "wordIds": [
       "15178"
     ],
+    "cloze": {
+      "de": "Etage",
+      "en": "floor"
+    },
     "sourceIndex": 5178
   },
   {
@@ -3453,6 +4261,10 @@ const phrasesHouse = [
     "wordIds": [
       "15200"
     ],
+    "cloze": {
+      "de": "Maurer",
+      "en": "bricklayer"
+    },
     "sourceIndex": 5200
   },
   {
@@ -3470,6 +4282,10 @@ const phrasesHouse = [
     "wordIds": [
       "15285"
     ],
+    "cloze": {
+      "de": "klebt",
+      "en": "sticks"
+    },
     "sourceIndex": 5285
   },
   {
@@ -3487,6 +4303,10 @@ const phrasesHouse = [
     "wordIds": [
       "15492"
     ],
+    "cloze": {
+      "de": "schließen",
+      "en": "close"
+    },
     "sourceIndex": 5492
   },
   {
@@ -3504,6 +4324,10 @@ const phrasesHouse = [
     "wordIds": [
       "15664"
     ],
+    "cloze": {
+      "de": "Sessel",
+      "en": "armchair"
+    },
     "sourceIndex": 5664
   },
   {
@@ -3521,6 +4345,10 @@ const phrasesHouse = [
     "wordIds": [
       "15668"
     ],
+    "cloze": {
+      "de": "tippt",
+      "en": "types"
+    },
     "sourceIndex": 5668
   },
   {
@@ -3538,6 +4366,10 @@ const phrasesHouse = [
     "wordIds": [
       "15670"
     ],
+    "cloze": {
+      "de": "trocknen",
+      "en": "dry"
+    },
     "sourceIndex": 5670
   },
   {
@@ -3555,6 +4387,10 @@ const phrasesHouse = [
     "wordIds": [
       "15689"
     ],
+    "cloze": {
+      "de": "räum",
+      "en": "clean"
+    },
     "sourceIndex": 5689
   },
   {
@@ -3572,6 +4408,10 @@ const phrasesHouse = [
     "wordIds": [
       "15722"
     ],
+    "cloze": {
+      "de": "Handtuch",
+      "en": "towel"
+    },
     "sourceIndex": 5722
   },
   {
@@ -3589,6 +4429,10 @@ const phrasesHouse = [
     "wordIds": [
       "15779"
     ],
+    "cloze": {
+      "de": "decken",
+      "en": "cover"
+    },
     "sourceIndex": 5779
   },
   {
@@ -3606,6 +4450,10 @@ const phrasesHouse = [
     "wordIds": [
       "15836"
     ],
+    "cloze": {
+      "de": "Obergeschoss",
+      "en": "upper"
+    },
     "sourceIndex": 5836
   },
   {
@@ -3623,6 +4471,10 @@ const phrasesHouse = [
     "wordIds": [
       "15924"
     ],
+    "cloze": {
+      "de": "Grippe",
+      "en": "flu"
+    },
     "sourceIndex": 5924
   },
   {
@@ -3640,6 +4492,10 @@ const phrasesHouse = [
     "wordIds": [
       "15969"
     ],
+    "cloze": {
+      "de": "vermieten",
+      "en": "rent"
+    },
     "sourceIndex": 5969
   },
   {
@@ -3657,6 +4513,10 @@ const phrasesHouse = [
     "wordIds": [
       "16013"
     ],
+    "cloze": {
+      "de": "einsperren",
+      "en": "lock"
+    },
     "sourceIndex": 6013
   },
   {
@@ -3674,6 +4534,10 @@ const phrasesHouse = [
     "wordIds": [
       "16048"
     ],
+    "cloze": {
+      "de": "montieren",
+      "en": "assemble"
+    },
     "sourceIndex": 6048
   },
   {
@@ -3691,6 +4555,10 @@ const phrasesHouse = [
     "wordIds": [
       "16063"
     ],
+    "cloze": {
+      "de": "sogleich",
+      "en": "immediately"
+    },
     "sourceIndex": 6063
   },
   {
@@ -3708,6 +4576,10 @@ const phrasesHouse = [
     "wordIds": [
       "16115"
     ],
+    "cloze": {
+      "de": "Kamin",
+      "en": "fireplace"
+    },
     "sourceIndex": 6115
   },
   {
@@ -3725,6 +4597,10 @@ const phrasesHouse = [
     "wordIds": [
       "16135"
     ],
+    "cloze": {
+      "de": "Schmutz",
+      "en": "dirt"
+    },
     "sourceIndex": 6135
   },
   {
@@ -3742,6 +4618,10 @@ const phrasesHouse = [
     "wordIds": [
       "16328"
     ],
+    "cloze": {
+      "de": "Immobilienmakler",
+      "en": "agent"
+    },
     "sourceIndex": 6328
   },
   {
@@ -3759,6 +4639,10 @@ const phrasesHouse = [
     "wordIds": [
       "16364"
     ],
+    "cloze": {
+      "de": "Treppenhaus",
+      "en": "stairwell"
+    },
     "sourceIndex": 6364
   },
   {
@@ -3776,6 +4660,10 @@ const phrasesHouse = [
     "wordIds": [
       "16372"
     ],
+    "cloze": {
+      "de": "Badewanne",
+      "en": "bathtub"
+    },
     "sourceIndex": 6372
   },
   {
@@ -3793,6 +4681,10 @@ const phrasesHouse = [
     "wordIds": [
       "16381"
     ],
+    "cloze": {
+      "de": "Apartment",
+      "en": "apartment"
+    },
     "sourceIndex": 6381
   },
   {
@@ -3810,6 +4702,10 @@ const phrasesHouse = [
     "wordIds": [
       "16407"
     ],
+    "cloze": {
+      "de": "Gate",
+      "en": "Gate"
+    },
     "sourceIndex": 6407
   },
   {
@@ -3827,6 +4723,10 @@ const phrasesHouse = [
     "wordIds": [
       "16414"
     ],
+    "cloze": {
+      "de": "Häuschen",
+      "en": "small"
+    },
     "sourceIndex": 6414
   },
   {
@@ -3844,6 +4744,10 @@ const phrasesHouse = [
     "wordIds": [
       "16418"
     ],
+    "cloze": {
+      "de": "klopft",
+      "en": "knocking"
+    },
     "sourceIndex": 6418
   },
   {
@@ -3861,6 +4765,10 @@ const phrasesHouse = [
     "wordIds": [
       "16440"
     ],
+    "cloze": {
+      "de": "saugen",
+      "en": "vacuum"
+    },
     "sourceIndex": 6440
   },
   {
@@ -3878,6 +4786,10 @@ const phrasesHouse = [
     "wordIds": [
       "16479"
     ],
+    "cloze": {
+      "de": "anzünden",
+      "en": "light"
+    },
     "sourceIndex": 6479
   },
   {
@@ -3895,6 +4807,10 @@ const phrasesHouse = [
     "wordIds": [
       "16518"
     ],
+    "cloze": {
+      "de": "Graffiti",
+      "en": "graffiti"
+    },
     "sourceIndex": 6518
   },
   {
@@ -3912,6 +4828,10 @@ const phrasesHouse = [
     "wordIds": [
       "16519"
     ],
+    "cloze": {
+      "de": "Grundriss",
+      "en": "floor"
+    },
     "sourceIndex": 6519
   },
   {
@@ -3929,6 +4849,10 @@ const phrasesHouse = [
     "wordIds": [
       "16521"
     ],
+    "cloze": {
+      "de": "Hausmeister",
+      "en": "caretaker"
+    },
     "sourceIndex": 6521
   },
   {
@@ -3946,6 +4870,10 @@ const phrasesHouse = [
     "wordIds": [
       "16556"
     ],
+    "cloze": {
+      "de": "Seife",
+      "en": "soap"
+    },
     "sourceIndex": 6556
   },
   {
@@ -3963,6 +4891,10 @@ const phrasesHouse = [
     "wordIds": [
       "16592"
     ],
+    "cloze": {
+      "de": "zerstört",
+      "en": "destroyed"
+    },
     "sourceIndex": 6592
   },
   {
@@ -3980,6 +4912,10 @@ const phrasesHouse = [
     "wordIds": [
       "16625"
     ],
+    "cloze": {
+      "de": "Heimweg",
+      "en": "way"
+    },
     "sourceIndex": 6625
   },
   {
@@ -3997,6 +4933,10 @@ const phrasesHouse = [
     "wordIds": [
       "16628"
     ],
+    "cloze": {
+      "de": "Hotelzimmer",
+      "en": "hotel"
+    },
     "sourceIndex": 6628
   },
   {
@@ -4014,6 +4954,10 @@ const phrasesHouse = [
     "wordIds": [
       "16659"
     ],
+    "cloze": {
+      "de": "Storch",
+      "en": "stork"
+    },
     "sourceIndex": 6659
   },
   {
@@ -4031,6 +4975,10 @@ const phrasesHouse = [
     "wordIds": [
       "16664"
     ],
+    "cloze": {
+      "de": "Unterseite",
+      "en": "underside"
+    },
     "sourceIndex": 6664
   },
   {
@@ -4048,6 +4996,10 @@ const phrasesHouse = [
     "wordIds": [
       "16684"
     ],
+    "cloze": {
+      "de": "zuschlagen",
+      "en": "slam"
+    },
     "sourceIndex": 6684
   },
   {
@@ -4065,6 +5017,10 @@ const phrasesHouse = [
     "wordIds": [
       "16697"
     ],
+    "cloze": {
+      "de": "Bauwerk",
+      "en": "structure"
+    },
     "sourceIndex": 6697
   },
   {
@@ -4082,6 +5038,10 @@ const phrasesHouse = [
     "wordIds": [
       "16751"
     ],
+    "cloze": {
+      "de": "Matratze",
+      "en": "mattress"
+    },
     "sourceIndex": 6751
   },
   {
@@ -4099,6 +5059,10 @@ const phrasesHouse = [
     "wordIds": [
       "16767"
     ],
+    "cloze": {
+      "de": "rundum",
+      "en": "all"
+    },
     "sourceIndex": 6767
   },
   {
@@ -4116,6 +5080,10 @@ const phrasesHouse = [
     "wordIds": [
       "16803"
     ],
+    "cloze": {
+      "de": "belegt",
+      "en": "occupied"
+    },
     "sourceIndex": 6803
   },
   {
@@ -4133,6 +5101,10 @@ const phrasesHouse = [
     "wordIds": [
       "16822"
     ],
+    "cloze": {
+      "de": "farbig",
+      "en": "colorful"
+    },
     "sourceIndex": 6822
   },
   {
@@ -4150,6 +5122,10 @@ const phrasesHouse = [
     "wordIds": [
       "16885"
     ],
+    "cloze": {
+      "de": "abgeschlossen",
+      "en": "closed"
+    },
     "sourceIndex": 6885
   },
   {
@@ -4167,6 +5143,10 @@ const phrasesHouse = [
     "wordIds": [
       "16897"
     ],
+    "cloze": {
+      "de": "brennende",
+      "en": "burning"
+    },
     "sourceIndex": 6897
   },
   {
@@ -4184,6 +5164,10 @@ const phrasesHouse = [
     "wordIds": [
       "16931"
     ],
+    "cloze": {
+      "de": "Innenhof",
+      "en": "inner"
+    },
     "sourceIndex": 6931
   },
   {
@@ -4201,6 +5185,10 @@ const phrasesHouse = [
     "wordIds": [
       "16972"
     ],
+    "cloze": {
+      "de": "untergehen",
+      "en": "go"
+    },
     "sourceIndex": 6972
   },
   {
@@ -4218,6 +5206,10 @@ const phrasesHouse = [
     "wordIds": [
       "16995"
     ],
+    "cloze": {
+      "de": "bewohnt",
+      "en": "inhabited"
+    },
     "sourceIndex": 6995
   },
   {
@@ -4235,6 +5227,10 @@ const phrasesHouse = [
     "wordIds": [
       "17070"
     ],
+    "cloze": {
+      "de": "Stockwerk",
+      "en": "floor"
+    },
     "sourceIndex": 7070
   },
   {
@@ -4252,6 +5248,10 @@ const phrasesHouse = [
     "wordIds": [
       "17104"
     ],
+    "cloze": {
+      "de": "Blech",
+      "en": "sheet"
+    },
     "sourceIndex": 7104
   },
   {
@@ -4269,6 +5269,10 @@ const phrasesHouse = [
     "wordIds": [
       "17162"
     ],
+    "cloze": {
+      "de": "Schauer",
+      "en": "shower"
+    },
     "sourceIndex": 7162
   },
   {
@@ -4286,6 +5290,10 @@ const phrasesHouse = [
     "wordIds": [
       "17173"
     ],
+    "cloze": {
+      "de": "Stecker",
+      "en": "plug"
+    },
     "sourceIndex": 7173
   },
   {
@@ -4303,6 +5311,10 @@ const phrasesHouse = [
     "wordIds": [
       "17219"
     ],
+    "cloze": {
+      "de": "Baujahr",
+      "en": "year"
+    },
     "sourceIndex": 7219
   },
   {
@@ -4320,6 +5332,10 @@ const phrasesHouse = [
     "wordIds": [
       "17247"
     ],
+    "cloze": {
+      "de": "Lehne",
+      "en": "backrest"
+    },
     "sourceIndex": 7247
   },
   {
@@ -4337,6 +5353,10 @@ const phrasesHouse = [
     "wordIds": [
       "17322"
     ],
+    "cloze": {
+      "de": "bohren",
+      "en": "drill"
+    },
     "sourceIndex": 7322
   },
   {
@@ -4354,6 +5374,10 @@ const phrasesHouse = [
     "wordIds": [
       "17325"
     ],
+    "cloze": {
+      "de": "Deko",
+      "en": "decoration"
+    },
     "sourceIndex": 7325
   },
   {
@@ -4371,6 +5395,10 @@ const phrasesHouse = [
     "wordIds": [
       "17444"
     ],
+    "cloze": {
+      "de": "clean",
+      "en": "clean"
+    },
     "sourceIndex": 7444
   },
   {
@@ -4388,6 +5416,10 @@ const phrasesHouse = [
     "wordIds": [
       "17460"
     ],
+    "cloze": {
+      "de": "Fussboden",
+      "en": "floor"
+    },
     "sourceIndex": 7460
   },
   {
@@ -4405,6 +5437,10 @@ const phrasesHouse = [
     "wordIds": [
       "17475"
     ],
+    "cloze": {
+      "de": "knallte",
+      "en": "slammed"
+    },
     "sourceIndex": 7475
   },
   {
@@ -4422,6 +5458,10 @@ const phrasesHouse = [
     "wordIds": [
       "17577"
     ],
+    "cloze": {
+      "de": "Einfamilienhaus",
+      "en": "detached"
+    },
     "sourceIndex": 7577
   },
   {
@@ -4439,6 +5479,10 @@ const phrasesHouse = [
     "wordIds": [
       "17595"
     ],
+    "cloze": {
+      "de": "Globus",
+      "en": "globe"
+    },
     "sourceIndex": 7595
   },
   {
@@ -4456,6 +5500,10 @@ const phrasesHouse = [
     "wordIds": [
       "17648"
     ],
+    "cloze": {
+      "de": "Staubsauger",
+      "en": "vacuum"
+    },
     "sourceIndex": 7648
   },
   {
@@ -4473,6 +5521,10 @@ const phrasesHouse = [
     "wordIds": [
       "17680"
     ],
+    "cloze": {
+      "de": "abwärts",
+      "en": "down"
+    },
     "sourceIndex": 7680
   },
   {
@@ -4490,6 +5542,10 @@ const phrasesHouse = [
     "wordIds": [
       "17712"
     ],
+    "cloze": {
+      "de": "Elster",
+      "en": "magpie"
+    },
     "sourceIndex": 7712
   },
   {
@@ -4507,6 +5563,10 @@ const phrasesHouse = [
     "wordIds": [
       "17776"
     ],
+    "cloze": {
+      "de": "Site",
+      "en": "site"
+    },
     "sourceIndex": 7776
   },
   {
@@ -4524,6 +5584,10 @@ const phrasesHouse = [
     "wordIds": [
       "17793"
     ],
+    "cloze": {
+      "de": "Wachs",
+      "en": "wax"
+    },
     "sourceIndex": 7793
   },
   {
@@ -4541,6 +5605,10 @@ const phrasesHouse = [
     "wordIds": [
       "17816"
     ],
+    "cloze": {
+      "de": "Dekoration",
+      "en": "decoration"
+    },
     "sourceIndex": 7816
   },
   {
@@ -4558,6 +5626,10 @@ const phrasesHouse = [
     "wordIds": [
       "17823"
     ],
+    "cloze": {
+      "de": "einstecken",
+      "en": "plug"
+    },
     "sourceIndex": 7823
   },
   {
@@ -4575,6 +5647,10 @@ const phrasesHouse = [
     "wordIds": [
       "17941"
     ],
+    "cloze": {
+      "de": "Füllung",
+      "en": "filling"
+    },
     "sourceIndex": 7941
   },
   {
@@ -4592,6 +5668,10 @@ const phrasesHouse = [
     "wordIds": [
       "17952"
     ],
+    "cloze": {
+      "de": "Inhaltsverzeichnis",
+      "en": "table"
+    },
     "sourceIndex": 7952
   },
   {
@@ -4609,6 +5689,10 @@ const phrasesHouse = [
     "wordIds": [
       "17960"
     ],
+    "cloze": {
+      "de": "Kristall",
+      "en": "crystal"
+    },
     "sourceIndex": 7960
   },
   {
@@ -4626,6 +5710,10 @@ const phrasesHouse = [
     "wordIds": [
       "18021"
     ],
+    "cloze": {
+      "de": "zu",
+      "en": "closing"
+    },
     "sourceIndex": 8021
   },
   {
@@ -4643,6 +5731,10 @@ const phrasesHouse = [
     "wordIds": [
       "18049"
     ],
+    "cloze": {
+      "de": "Elektrizität",
+      "en": "electricity"
+    },
     "sourceIndex": 8049
   },
   {
@@ -4660,6 +5752,10 @@ const phrasesHouse = [
     "wordIds": [
       "18061"
     ],
+    "cloze": {
+      "de": "Garderobe",
+      "en": "cloakroom"
+    },
     "sourceIndex": 8061
   },
   {
@@ -4677,6 +5773,10 @@ const phrasesHouse = [
     "wordIds": [
       "18076"
     ],
+    "cloze": {
+      "de": "Krach",
+      "en": "noise"
+    },
     "sourceIndex": 8076
   },
   {
@@ -4694,6 +5794,10 @@ const phrasesHouse = [
     "wordIds": [
       "18114"
     ],
+    "cloze": {
+      "de": "Stoss",
+      "en": "push"
+    },
     "sourceIndex": 8114
   },
   {
@@ -4711,6 +5815,10 @@ const phrasesHouse = [
     "wordIds": [
       "18118"
     ],
+    "cloze": {
+      "de": "Stütze",
+      "en": "support"
+    },
     "sourceIndex": 8118
   },
   {
@@ -4728,6 +5836,10 @@ const phrasesHouse = [
     "wordIds": [
       "18162"
     ],
+    "cloze": {
+      "de": "Bürgermeisterin",
+      "en": "mayoress"
+    },
     "sourceIndex": 8162
   },
   {
@@ -4745,6 +5857,10 @@ const phrasesHouse = [
     "wordIds": [
       "18225"
     ],
+    "cloze": {
+      "de": "Schimmel",
+      "en": "mold"
+    },
     "sourceIndex": 8225
   },
   {
@@ -4762,6 +5878,10 @@ const phrasesHouse = [
     "wordIds": [
       "18228"
     ],
+    "cloze": {
+      "de": "Schreiner",
+      "en": "carpenter"
+    },
     "sourceIndex": 8228
   },
   {
@@ -4779,6 +5899,10 @@ const phrasesHouse = [
     "wordIds": [
       "18243"
     ],
+    "cloze": {
+      "de": "Turnhalle",
+      "en": "gym"
+    },
     "sourceIndex": 8243
   },
   {
@@ -4796,6 +5920,10 @@ const phrasesHouse = [
     "wordIds": [
       "18306"
     ],
+    "cloze": {
+      "de": "gegenüberliegend",
+      "en": "opposite"
+    },
     "sourceIndex": 8306
   },
   {
@@ -4813,6 +5941,10 @@ const phrasesHouse = [
     "wordIds": [
       "18415"
     ],
+    "cloze": {
+      "de": "Dachboden",
+      "en": "attic"
+    },
     "sourceIndex": 8415
   },
   {
@@ -4830,6 +5962,10 @@ const phrasesHouse = [
     "wordIds": [
       "18457"
     ],
+    "cloze": {
+      "de": "Parkett",
+      "en": "parquet"
+    },
     "sourceIndex": 8457
   },
   {
@@ -4847,6 +5983,10 @@ const phrasesHouse = [
     "wordIds": [
       "18468"
     ],
+    "cloze": {
+      "de": "Glasscherbe",
+      "en": "shard"
+    },
     "sourceIndex": 8468
   },
   {
@@ -4864,6 +6004,10 @@ const phrasesHouse = [
     "wordIds": [
       "18489"
     ],
+    "cloze": {
+      "de": "Unkraut",
+      "en": "weeds"
+    },
     "sourceIndex": 8489
   },
   {
@@ -4881,6 +6025,10 @@ const phrasesHouse = [
     "wordIds": [
       "18534"
     ],
+    "cloze": {
+      "de": "Besen",
+      "en": "broom"
+    },
     "sourceIndex": 8534
   },
   {
@@ -4898,6 +6046,10 @@ const phrasesHouse = [
     "wordIds": [
       "18539"
     ],
+    "cloze": {
+      "de": "Blaulicht",
+      "en": "blue"
+    },
     "sourceIndex": 8539
   },
   {
@@ -4915,6 +6067,10 @@ const phrasesHouse = [
     "wordIds": [
       "18613"
     ],
+    "cloze": {
+      "de": "Schmied",
+      "en": "blacksmith"
+    },
     "sourceIndex": 8613
   },
   {
@@ -4932,6 +6088,10 @@ const phrasesHouse = [
     "wordIds": [
       "18663"
     ],
+    "cloze": {
+      "de": "Aquarium",
+      "en": "aquarium"
+    },
     "sourceIndex": 8663
   },
   {
@@ -4949,6 +6109,10 @@ const phrasesHouse = [
     "wordIds": [
       "18667"
     ],
+    "cloze": {
+      "de": "Aula",
+      "en": "auditorium"
+    },
     "sourceIndex": 8667
   },
   {
@@ -4966,6 +6130,10 @@ const phrasesHouse = [
     "wordIds": [
       "18688"
     ],
+    "cloze": {
+      "de": "Fahrstuhl",
+      "en": "elevator"
+    },
     "sourceIndex": 8688
   },
   {
@@ -4983,6 +6151,10 @@ const phrasesHouse = [
     "wordIds": [
       "18738"
     ],
+    "cloze": {
+      "de": "Pflegeheim",
+      "en": "nursing"
+    },
     "sourceIndex": 8738
   },
   {
@@ -5000,6 +6172,10 @@ const phrasesHouse = [
     "wordIds": [
       "18766"
     ],
+    "cloze": {
+      "de": "spül",
+      "en": "wash"
+    },
     "sourceIndex": 8766
   },
   {
@@ -5017,6 +6193,10 @@ const phrasesHouse = [
     "wordIds": [
       "18773"
     ],
+    "cloze": {
+      "de": "Der",
+      "en": "stand"
+    },
     "sourceIndex": 8773
   },
   {
@@ -5034,6 +6214,10 @@ const phrasesHouse = [
     "wordIds": [
       "18968"
     ],
+    "cloze": {
+      "de": "Buchs",
+      "en": "boxwood"
+    },
     "sourceIndex": 8968
   },
   {
@@ -5051,6 +6235,10 @@ const phrasesHouse = [
     "wordIds": [
       "19019"
     ],
+    "cloze": {
+      "de": "Kran",
+      "en": "crane"
+    },
     "sourceIndex": 9019
   },
   {
@@ -5068,6 +6256,10 @@ const phrasesHouse = [
     "wordIds": [
       "19023"
     ],
+    "cloze": {
+      "de": "Lift",
+      "en": "lift"
+    },
     "sourceIndex": 9023
   },
   {
@@ -5085,6 +6277,10 @@ const phrasesHouse = [
     "wordIds": [
       "19096"
     ],
+    "cloze": {
+      "de": "wischen",
+      "en": "wipe"
+    },
     "sourceIndex": 9096
   },
   {
@@ -5102,6 +6298,10 @@ const phrasesHouse = [
     "wordIds": [
       "19104"
     ],
+    "cloze": {
+      "de": "Abfluss",
+      "en": "drain"
+    },
     "sourceIndex": 9104
   },
   {
@@ -5119,6 +6319,10 @@ const phrasesHouse = [
     "wordIds": [
       "19111"
     ],
+    "cloze": {
+      "de": "anmachen",
+      "en": "turn"
+    },
     "sourceIndex": 9111
   },
   {
@@ -5136,6 +6340,10 @@ const phrasesHouse = [
     "wordIds": [
       "19176"
     ],
+    "cloze": {
+      "de": "Kleiderschrank",
+      "en": "wardrobe"
+    },
     "sourceIndex": 9176
   },
   {
@@ -5153,6 +6361,10 @@ const phrasesHouse = [
     "wordIds": [
       "19191"
     ],
+    "cloze": {
+      "de": "modernisieren",
+      "en": "modernize"
+    },
     "sourceIndex": 9191
   },
   {
@@ -5170,6 +6382,10 @@ const phrasesHouse = [
     "wordIds": [
       "19211"
     ],
+    "cloze": {
+      "de": "Schlosser",
+      "en": "locksmith"
+    },
     "sourceIndex": 9211
   },
   {
@@ -5187,6 +6403,10 @@ const phrasesHouse = [
     "wordIds": [
       "19265"
     ],
+    "cloze": {
+      "de": "Dachgeschoss",
+      "en": "attic"
+    },
     "sourceIndex": 9265
   },
   {
@@ -5204,6 +6424,10 @@ const phrasesHouse = [
     "wordIds": [
       "19321"
     ],
+    "cloze": {
+      "de": "mittig",
+      "en": "centrally"
+    },
     "sourceIndex": 9321
   },
   {
@@ -5221,6 +6445,10 @@ const phrasesHouse = [
     "wordIds": [
       "19330"
     ],
+    "cloze": {
+      "de": "ovale",
+      "en": "oval"
+    },
     "sourceIndex": 9330
   },
   {
@@ -5238,6 +6466,10 @@ const phrasesHouse = [
     "wordIds": [
       "19431"
     ],
+    "cloze": {
+      "de": "Elektriker",
+      "en": "electrician"
+    },
     "sourceIndex": 9431
   },
   {
@@ -5255,6 +6487,10 @@ const phrasesHouse = [
     "wordIds": [
       "19456"
     ],
+    "cloze": {
+      "de": "hölzernem",
+      "en": "wooden"
+    },
     "sourceIndex": 9456
   },
   {
@@ -5272,6 +6508,10 @@ const phrasesHouse = [
     "wordIds": [
       "19514"
     ],
+    "cloze": {
+      "de": "Tischler",
+      "en": "carpenter"
+    },
     "sourceIndex": 9514
   },
   {
@@ -5289,6 +6529,10 @@ const phrasesHouse = [
     "wordIds": [
       "19515"
     ],
+    "cloze": {
+      "de": "unbequem",
+      "en": "uncomfortable"
+    },
     "sourceIndex": 9515
   },
   {
@@ -5306,6 +6550,10 @@ const phrasesHouse = [
     "wordIds": [
       "19600"
     ],
+    "cloze": {
+      "de": "Hocker",
+      "en": "stool"
+    },
     "sourceIndex": 9600
   },
   {
@@ -5323,6 +6571,10 @@ const phrasesHouse = [
     "wordIds": [
       "19688"
     ],
+    "cloze": {
+      "de": "Vermietung",
+      "en": "rental"
+    },
     "sourceIndex": 9688
   },
   {
@@ -5340,6 +6592,10 @@ const phrasesHouse = [
     "wordIds": [
       "19735"
     ],
+    "cloze": {
+      "de": "Eigenheim",
+      "en": "own"
+    },
     "sourceIndex": 9735
   },
   {
@@ -5357,6 +6613,10 @@ const phrasesHouse = [
     "wordIds": [
       "19758"
     ],
+    "cloze": {
+      "de": "Hinterhof",
+      "en": "backyard"
+    },
     "sourceIndex": 9758
   },
   {
@@ -5374,6 +6634,10 @@ const phrasesHouse = [
     "wordIds": [
       "19782"
     ],
+    "cloze": {
+      "de": "Mosaik",
+      "en": "mosaic"
+    },
     "sourceIndex": 9782
   },
   {
@@ -5391,6 +6655,10 @@ const phrasesHouse = [
     "wordIds": [
       "19826"
     ],
+    "cloze": {
+      "de": "Vase",
+      "en": "vase"
+    },
     "sourceIndex": 9826
   },
   {
@@ -5408,6 +6676,10 @@ const phrasesHouse = [
     "wordIds": [
       "19832"
     ],
+    "cloze": {
+      "de": "Waschbecken",
+      "en": "sink"
+    },
     "sourceIndex": 9832
   },
   {
@@ -5425,6 +6697,10 @@ const phrasesHouse = [
     "wordIds": [
       "19862"
     ],
+    "cloze": {
+      "de": "Bettwäsche",
+      "en": "bed"
+    },
     "sourceIndex": 9862
   },
   {
@@ -5442,6 +6718,10 @@ const phrasesHouse = [
     "wordIds": [
       "19967"
     ],
+    "cloze": {
+      "de": "Unterhose",
+      "en": "underpants"
+    },
     "sourceIndex": 9967
   },
   {
@@ -5459,6 +6739,10 @@ const phrasesHouse = [
     "wordIds": [
       "19983"
     ],
+    "cloze": {
+      "de": "Weiher",
+      "en": "pond"
+    },
     "sourceIndex": 9983
   },
   {
@@ -5476,6 +6760,10 @@ const phrasesHouse = [
     "wordIds": [
       "19987"
     ],
+    "cloze": {
+      "de": "Ziegeln",
+      "en": "bricks"
+    },
     "sourceIndex": 9987
   },
   {
@@ -5493,6 +6781,10 @@ const phrasesHouse = [
     "wordIds": [
       "20062"
     ],
+    "cloze": {
+      "de": "Korridor",
+      "en": "corridor"
+    },
     "sourceIndex": 10062
   },
   {
@@ -5510,6 +6802,10 @@ const phrasesHouse = [
     "wordIds": [
       "20102"
     ],
+    "cloze": {
+      "de": "spucken",
+      "en": "spit"
+    },
     "sourceIndex": 10102
   },
   {
@@ -5527,6 +6823,10 @@ const phrasesHouse = [
     "wordIds": [
       "20138"
     ],
+    "cloze": {
+      "de": "ist",
+      "en": "down"
+    },
     "sourceIndex": 10138
   },
   {
@@ -5544,6 +6844,10 @@ const phrasesHouse = [
     "wordIds": [
       "20151"
     ],
+    "cloze": {
+      "de": "Baubeginn",
+      "en": "start"
+    },
     "sourceIndex": 10151
   },
   {
@@ -5561,6 +6865,10 @@ const phrasesHouse = [
     "wordIds": [
       "20259"
     ],
+    "cloze": {
+      "de": "Spirale",
+      "en": "spiral"
+    },
     "sourceIndex": 10259
   },
   {
@@ -5578,6 +6886,10 @@ const phrasesHouse = [
     "wordIds": [
       "20293"
     ],
+    "cloze": {
+      "de": "Altbau",
+      "en": "old"
+    },
     "sourceIndex": 10293
   },
   {
@@ -5595,6 +6907,10 @@ const phrasesHouse = [
     "wordIds": [
       "20343"
     ],
+    "cloze": {
+      "de": "geöffnet",
+      "en": "open"
+    },
     "sourceIndex": 10343
   },
   {
@@ -5612,6 +6928,10 @@ const phrasesHouse = [
     "wordIds": [
       "20401"
     ],
+    "cloze": {
+      "de": "Schiefer",
+      "en": "slate"
+    },
     "sourceIndex": 10401
   },
   {
@@ -5629,6 +6949,10 @@ const phrasesHouse = [
     "wordIds": [
       "20416"
     ],
+    "cloze": {
+      "de": "Säge",
+      "en": "saw"
+    },
     "sourceIndex": 10416
   },
   {
@@ -5646,6 +6970,10 @@ const phrasesHouse = [
     "wordIds": [
       "20443"
     ],
+    "cloze": {
+      "de": "Abdeckung",
+      "en": "cover"
+    },
     "sourceIndex": 10443
   },
   {
@@ -5663,6 +6991,10 @@ const phrasesHouse = [
     "wordIds": [
       "20560"
     ],
+    "cloze": {
+      "de": "skandinavische",
+      "en": "Scandinavian"
+    },
     "sourceIndex": 10560
   },
   {
@@ -5680,6 +7012,10 @@ const phrasesHouse = [
     "wordIds": [
       "20589"
     ],
+    "cloze": {
+      "de": "Zement",
+      "en": "cement"
+    },
     "sourceIndex": 10589
   },
   {
@@ -5697,6 +7033,10 @@ const phrasesHouse = [
     "wordIds": [
       "20700"
     ],
+    "cloze": {
+      "de": "Oberseite",
+      "en": "top"
+    },
     "sourceIndex": 10700
   },
   {
@@ -5714,6 +7054,10 @@ const phrasesHouse = [
     "wordIds": [
       "20728"
     ],
+    "cloze": {
+      "de": "Spalt",
+      "en": "gap"
+    },
     "sourceIndex": 10728
   },
   {
@@ -5731,6 +7075,10 @@ const phrasesHouse = [
     "wordIds": [
       "20739"
     ],
+    "cloze": {
+      "de": "säubern",
+      "en": "clean"
+    },
     "sourceIndex": 10739
   },
   {
@@ -5748,6 +7096,10 @@ const phrasesHouse = [
     "wordIds": [
       "20772"
     ],
+    "cloze": {
+      "de": "Altenheim",
+      "en": "nursing"
+    },
     "sourceIndex": 10772
   },
   {
@@ -5765,6 +7117,10 @@ const phrasesHouse = [
     "wordIds": [
       "20801"
     ],
+    "cloze": {
+      "de": "dekorieren",
+      "en": "decorate"
+    },
     "sourceIndex": 10801
   },
   {
@@ -5782,6 +7138,10 @@ const phrasesHouse = [
     "wordIds": [
       "20905"
     ],
+    "cloze": {
+      "de": "Strauch",
+      "en": "bush"
+    },
     "sourceIndex": 10905
   },
   {
@@ -5799,6 +7159,10 @@ const phrasesHouse = [
     "wordIds": [
       "20930"
     ],
+    "cloze": {
+      "de": "verstopft",
+      "en": "clogged"
+    },
     "sourceIndex": 10930
   },
   {
@@ -5816,6 +7180,10 @@ const phrasesHouse = [
     "wordIds": [
       "20969"
     ],
+    "cloze": {
+      "de": "bearbeitete",
+      "en": "edited"
+    },
     "sourceIndex": 10969
   },
   {
@@ -5833,6 +7201,10 @@ const phrasesHouse = [
     "wordIds": [
       "20980"
     ],
+    "cloze": {
+      "de": "Bohrer",
+      "en": "drill"
+    },
     "sourceIndex": 10980
   },
   {
@@ -5850,6 +7222,10 @@ const phrasesHouse = [
     "wordIds": [
       "21030"
     ],
+    "cloze": {
+      "de": "Haltbarkeit",
+      "en": "shelf"
+    },
     "sourceIndex": 11030
   },
   {
@@ -5867,6 +7243,10 @@ const phrasesHouse = [
     "wordIds": [
       "21032"
     ],
+    "cloze": {
+      "de": "Haupteingang",
+      "en": "main"
+    },
     "sourceIndex": 11032
   },
   {
@@ -5884,6 +7264,10 @@ const phrasesHouse = [
     "wordIds": [
       "21052"
     ],
+    "cloze": {
+      "de": "Leim",
+      "en": "glue"
+    },
     "sourceIndex": 11052
   },
   {
@@ -5901,6 +7285,10 @@ const phrasesHouse = [
     "wordIds": [
       "21196"
     ],
+    "cloze": {
+      "de": "Hacke",
+      "en": "hoe"
+    },
     "sourceIndex": 11196
   },
   {
@@ -5918,6 +7306,10 @@ const phrasesHouse = [
     "wordIds": [
       "21271"
     ],
+    "cloze": {
+      "de": "Lieblings-Soap",
+      "en": "soap"
+    },
     "sourceIndex": 11271
   },
   {
@@ -5935,6 +7327,10 @@ const phrasesHouse = [
     "wordIds": [
       "21286"
     ],
+    "cloze": {
+      "de": "Untergeschoss",
+      "en": "basement"
+    },
     "sourceIndex": 11286
   },
   {
@@ -5952,6 +7348,10 @@ const phrasesHouse = [
     "wordIds": [
       "21331"
     ],
+    "cloze": {
+      "de": "Basilika",
+      "en": "basilica"
+    },
     "sourceIndex": 11331
   },
   {
@@ -5969,6 +7369,10 @@ const phrasesHouse = [
     "wordIds": [
       "21362"
     ],
+    "cloze": {
+      "de": "Dummerweise",
+      "en": "Foolishly"
+    },
     "sourceIndex": 11362
   },
   {
@@ -5986,6 +7390,10 @@ const phrasesHouse = [
     "wordIds": [
       "21386"
     ],
+    "cloze": {
+      "de": "gelblichen",
+      "en": "yellowish"
+    },
     "sourceIndex": 11386
   },
   {
@@ -6003,6 +7411,10 @@ const phrasesHouse = [
     "wordIds": [
       "21504"
     ],
+    "cloze": {
+      "de": "wackelt",
+      "en": "wobbles"
+    },
     "sourceIndex": 11504
   },
   {
@@ -6020,6 +7432,10 @@ const phrasesHouse = [
     "wordIds": [
       "21515"
     ],
+    "cloze": {
+      "de": "Zucchini",
+      "en": "zucchini"
+    },
     "sourceIndex": 11515
   },
   {
@@ -6037,6 +7453,10 @@ const phrasesHouse = [
     "wordIds": [
       "21584"
     ],
+    "cloze": {
+      "de": "komfortabel",
+      "en": "comfortable"
+    },
     "sourceIndex": 11584
   },
   {
@@ -6054,6 +7474,10 @@ const phrasesHouse = [
     "wordIds": [
       "21595"
     ],
+    "cloze": {
+      "de": "Leuchte",
+      "en": "lamp"
+    },
     "sourceIndex": 11595
   },
   {
@@ -6071,6 +7495,10 @@ const phrasesHouse = [
     "wordIds": [
       "21632"
     ],
+    "cloze": {
+      "de": "solides",
+      "en": "solid"
+    },
     "sourceIndex": 11632
   },
   {
@@ -6088,6 +7516,10 @@ const phrasesHouse = [
     "wordIds": [
       "21797"
     ],
+    "cloze": {
+      "de": "schaufeln",
+      "en": "shovel"
+    },
     "sourceIndex": 11797
   },
   {
@@ -6105,6 +7537,10 @@ const phrasesHouse = [
     "wordIds": [
       "21799"
     ],
+    "cloze": {
+      "de": "Schornstein",
+      "en": "chimney"
+    },
     "sourceIndex": 11799
   },
   {
@@ -6122,6 +7558,10 @@ const phrasesHouse = [
     "wordIds": [
       "21841"
     ],
+    "cloze": {
+      "de": "Zange",
+      "en": "pliers"
+    },
     "sourceIndex": 11841
   },
   {
@@ -6139,6 +7579,10 @@ const phrasesHouse = [
     "wordIds": [
       "21880"
     ],
+    "cloze": {
+      "de": "Eingangstür",
+      "en": "entrance"
+    },
     "sourceIndex": 11880
   },
   {
@@ -6156,6 +7600,10 @@ const phrasesHouse = [
     "wordIds": [
       "22006"
     ],
+    "cloze": {
+      "de": "Unordnung",
+      "en": "disorder"
+    },
     "sourceIndex": 12006
   },
   {
@@ -6173,6 +7621,10 @@ const phrasesHouse = [
     "wordIds": [
       "22020"
     ],
+    "cloze": {
+      "de": "weiterleben",
+      "en": "continue"
+    },
     "sourceIndex": 12020
   },
   {
@@ -6190,6 +7642,10 @@ const phrasesHouse = [
     "wordIds": [
       "22041"
     ],
+    "cloze": {
+      "de": "Auffahrt",
+      "en": "driveway"
+    },
     "sourceIndex": 12041
   },
   {
@@ -6207,6 +7663,10 @@ const phrasesHouse = [
     "wordIds": [
       "22126"
     ],
+    "cloze": {
+      "de": "Mehrfamilienhaus",
+      "en": "apartment"
+    },
     "sourceIndex": 12126
   },
   {
@@ -6224,6 +7684,10 @@ const phrasesHouse = [
     "wordIds": [
       "22165"
     ],
+    "cloze": {
+      "de": "rütteln",
+      "en": "shake"
+    },
     "sourceIndex": 12165
   },
   {
@@ -6241,6 +7705,10 @@ const phrasesHouse = [
     "wordIds": [
       "22166"
     ],
+    "cloze": {
+      "de": "Schaufel",
+      "en": "shovel"
+    },
     "sourceIndex": 12166
   },
   {
@@ -6258,6 +7726,10 @@ const phrasesHouse = [
     "wordIds": [
       "22210"
     ],
+    "cloze": {
+      "de": "Wartezimmer",
+      "en": "waiting"
+    },
     "sourceIndex": 12210
   },
   {
@@ -6275,6 +7747,10 @@ const phrasesHouse = [
     "wordIds": [
       "22216"
     ],
+    "cloze": {
+      "de": "zurückbleiben",
+      "en": "stay"
+    },
     "sourceIndex": 12216
   },
   {
@@ -6292,6 +7768,10 @@ const phrasesHouse = [
     "wordIds": [
       "22314"
     ],
+    "cloze": {
+      "de": "Lumpen",
+      "en": "rag"
+    },
     "sourceIndex": 12314
   },
   {
@@ -6309,6 +7789,10 @@ const phrasesHouse = [
     "wordIds": [
       "22487"
     ],
+    "cloze": {
+      "de": "Klinke",
+      "en": "door"
+    },
     "sourceIndex": 12487
   },
   {
@@ -6326,6 +7810,10 @@ const phrasesHouse = [
     "wordIds": [
       "22527"
     ],
+    "cloze": {
+      "de": "platziert",
+      "en": "placed"
+    },
     "sourceIndex": 12527
   },
   {
@@ -6343,6 +7831,10 @@ const phrasesHouse = [
     "wordIds": [
       "22551"
     ],
+    "cloze": {
+      "de": "stapeln",
+      "en": "stack"
+    },
     "sourceIndex": 12551
   },
   {
@@ -6360,6 +7852,10 @@ const phrasesHouse = [
     "wordIds": [
       "22559"
     ],
+    "cloze": {
+      "de": "Titelbild",
+      "en": "cover"
+    },
     "sourceIndex": 12559
   },
   {
@@ -6377,6 +7873,10 @@ const phrasesHouse = [
     "wordIds": [
       "22663"
     ],
+    "cloze": {
+      "de": "Hausbau",
+      "en": "house"
+    },
     "sourceIndex": 12663
   },
   {
@@ -6394,6 +7894,10 @@ const phrasesHouse = [
     "wordIds": [
       "22733"
     ],
+    "cloze": {
+      "de": "Spaten",
+      "en": "spade"
+    },
     "sourceIndex": 12733
   },
   {
@@ -6411,6 +7915,10 @@ const phrasesHouse = [
     "wordIds": [
       "22764"
     ],
+    "cloze": {
+      "de": "Wisch",
+      "en": "quick"
+    },
     "sourceIndex": 12764
   },
   {
@@ -6428,6 +7936,10 @@ const phrasesHouse = [
     "wordIds": [
       "22789"
     ],
+    "cloze": {
+      "de": "Appartement",
+      "en": "apartment"
+    },
     "sourceIndex": 12789
   },
   {
@@ -6445,6 +7957,10 @@ const phrasesHouse = [
     "wordIds": [
       "22833"
     ],
+    "cloze": {
+      "de": "Flatrate",
+      "en": "flat"
+    },
     "sourceIndex": 12833
   },
   {
@@ -6462,6 +7978,10 @@ const phrasesHouse = [
     "wordIds": [
       "22883"
     ],
+    "cloze": {
+      "de": "Mietwohnung",
+      "en": "rental"
+    },
     "sourceIndex": 12883
   },
   {
@@ -6479,6 +7999,10 @@ const phrasesHouse = [
     "wordIds": [
       "22888"
     ],
+    "cloze": {
+      "de": "mähen",
+      "en": "mow"
+    },
     "sourceIndex": 12888
   },
   {
@@ -6496,6 +8020,10 @@ const phrasesHouse = [
     "wordIds": [
       "22920"
     ],
+    "cloze": {
+      "de": "Spuk",
+      "en": "haunting"
+    },
     "sourceIndex": 12920
   },
   {
@@ -6513,6 +8041,10 @@ const phrasesHouse = [
     "wordIds": [
       "22940"
     ],
+    "cloze": {
+      "de": "unnatürlich",
+      "en": "unnatural"
+    },
     "sourceIndex": 12940
   },
   {
@@ -6530,6 +8062,10 @@ const phrasesHouse = [
     "wordIds": [
       "22953"
     ],
+    "cloze": {
+      "de": "Vorgarten",
+      "en": "front"
+    },
     "sourceIndex": 12953
   },
   {
@@ -6547,6 +8083,10 @@ const phrasesHouse = [
     "wordIds": [
       "22957"
     ],
+    "cloze": {
+      "de": "Wasserhahn",
+      "en": "tap"
+    },
     "sourceIndex": 12957
   },
   {
@@ -6564,6 +8104,10 @@ const phrasesHouse = [
     "wordIds": [
       "23053"
     ],
+    "cloze": {
+      "de": "Kalkstein",
+      "en": "limestone"
+    },
     "sourceIndex": 13053
   },
   {
@@ -6581,6 +8125,10 @@ const phrasesHouse = [
     "wordIds": [
       "23183"
     ],
+    "cloze": {
+      "de": "Brennholz",
+      "en": "firewood"
+    },
     "sourceIndex": 13183
   },
   {
@@ -6598,6 +8146,10 @@ const phrasesHouse = [
     "wordIds": [
       "23242"
     ],
+    "cloze": {
+      "de": "in",
+      "en": "belongs"
+    },
     "sourceIndex": 13242
   },
   {
@@ -6615,6 +8167,10 @@ const phrasesHouse = [
     "wordIds": [
       "23257"
     ],
+    "cloze": {
+      "de": "Kommode",
+      "en": "chest"
+    },
     "sourceIndex": 13257
   },
   {
@@ -6632,6 +8188,10 @@ const phrasesHouse = [
     "wordIds": [
       "23258"
     ],
+    "cloze": {
+      "de": "Kopfkissen",
+      "en": "pillow"
+    },
     "sourceIndex": 13258
   },
   {
@@ -6649,6 +8209,10 @@ const phrasesHouse = [
     "wordIds": [
       "23294"
     ],
+    "cloze": {
+      "de": "Rosengarten",
+      "en": "rose"
+    },
     "sourceIndex": 13294
   },
   {
@@ -6666,6 +8230,10 @@ const phrasesHouse = [
     "wordIds": [
       "23313"
     ],
+    "cloze": {
+      "de": "sägen",
+      "en": "saw"
+    },
     "sourceIndex": 13313
   },
   {
@@ -6683,6 +8251,10 @@ const phrasesHouse = [
     "wordIds": [
       "23346"
     ],
+    "cloze": {
+      "de": "Warteliste",
+      "en": "waiting"
+    },
     "sourceIndex": 13346
   },
   {
@@ -6700,6 +8272,10 @@ const phrasesHouse = [
     "wordIds": [
       "23353"
     ],
+    "cloze": {
+      "de": "Wohnungstür",
+      "en": "apartment"
+    },
     "sourceIndex": 13353
   },
   {
@@ -6717,6 +8293,10 @@ const phrasesHouse = [
     "wordIds": [
       "23389"
     ],
+    "cloze": {
+      "de": "Birke",
+      "en": "birch"
+    },
     "sourceIndex": 13389
   },
   {
@@ -6734,6 +8314,10 @@ const phrasesHouse = [
     "wordIds": [
       "23434"
     ],
+    "cloze": {
+      "de": "gekommen",
+      "en": "come"
+    },
     "sourceIndex": 13434
   },
   {
@@ -6751,6 +8335,10 @@ const phrasesHouse = [
     "wordIds": [
       "23451"
     ],
+    "cloze": {
+      "de": "instand",
+      "en": "repaired"
+    },
     "sourceIndex": 13451
   },
   {
@@ -6768,6 +8356,10 @@ const phrasesHouse = [
     "wordIds": [
       "23480"
     ],
+    "cloze": {
+      "de": "Opernhaus",
+      "en": "opera"
+    },
     "sourceIndex": 13480
   },
   {
@@ -6785,6 +8377,10 @@ const phrasesHouse = [
     "wordIds": [
       "23654"
     ],
+    "cloze": {
+      "de": "Hauptgebäude",
+      "en": "main"
+    },
     "sourceIndex": 13654
   },
   {
@@ -6802,6 +8398,10 @@ const phrasesHouse = [
     "wordIds": [
       "23656"
     ],
+    "cloze": {
+      "de": "hellblau",
+      "en": "light"
+    },
     "sourceIndex": 13656
   },
   {
@@ -6819,6 +8419,10 @@ const phrasesHouse = [
     "wordIds": [
       "23694"
     ],
+    "cloze": {
+      "de": "nachhause",
+      "en": "home"
+    },
     "sourceIndex": 13694
   },
   {
@@ -6836,6 +8440,10 @@ const phrasesHouse = [
     "wordIds": [
       "23769"
     ],
+    "cloze": {
+      "de": "Wohngebäude",
+      "en": "residential"
+    },
     "sourceIndex": 13769
   },
   {
@@ -6853,6 +8461,10 @@ const phrasesHouse = [
     "wordIds": [
       "23819"
     ],
+    "cloze": {
+      "de": "Dachdecker",
+      "en": "roofer"
+    },
     "sourceIndex": 13819
   },
   {
@@ -6870,6 +8482,10 @@ const phrasesHouse = [
     "wordIds": [
       "23856"
     ],
+    "cloze": {
+      "de": "klemmt",
+      "en": "sticking"
+    },
     "sourceIndex": 13856
   },
   {
@@ -6887,6 +8503,10 @@ const phrasesHouse = [
     "wordIds": [
       "23860"
     ],
+    "cloze": {
+      "de": "Krümel",
+      "en": "crumbs"
+    },
     "sourceIndex": 13860
   },
   {
@@ -6904,6 +8524,10 @@ const phrasesHouse = [
     "wordIds": [
       "23875"
     ],
+    "cloze": {
+      "de": "Mietpreis",
+      "en": "rental"
+    },
     "sourceIndex": 13875
   },
   {
@@ -6921,6 +8545,10 @@ const phrasesHouse = [
     "wordIds": [
       "23890"
     ],
+    "cloze": {
+      "de": "Proportionen",
+      "en": "proportions"
+    },
     "sourceIndex": 13890
   },
   {
@@ -6938,6 +8566,10 @@ const phrasesHouse = [
     "wordIds": [
       "23922"
     ],
+    "cloze": {
+      "de": "Tapete",
+      "en": "wallpaper"
+    },
     "sourceIndex": 13922
   },
   {
@@ -6955,6 +8587,10 @@ const phrasesHouse = [
     "wordIds": [
       "24030"
     ],
+    "cloze": {
+      "de": "Gartenhaus",
+      "en": "garden"
+    },
     "sourceIndex": 14030
   },
   {
@@ -6972,6 +8608,10 @@ const phrasesHouse = [
     "wordIds": [
       "24045"
     ],
+    "cloze": {
+      "de": "Haustüre",
+      "en": "front"
+    },
     "sourceIndex": 14045
   },
   {
@@ -6989,6 +8629,10 @@ const phrasesHouse = [
     "wordIds": [
       "24049"
     ],
+    "cloze": {
+      "de": "hämmerte",
+      "en": "hammered"
+    },
     "sourceIndex": 14049
   },
   {
@@ -7006,6 +8650,10 @@ const phrasesHouse = [
     "wordIds": [
       "24052"
     ],
+    "cloze": {
+      "de": "Immobilienmakler",
+      "en": "real"
+    },
     "sourceIndex": 14052
   },
   {
@@ -7023,6 +8671,10 @@ const phrasesHouse = [
     "wordIds": [
       "24072"
     ],
+    "cloze": {
+      "de": "Laube",
+      "en": "arbor"
+    },
     "sourceIndex": 14072
   },
   {
@@ -7040,6 +8692,10 @@ const phrasesHouse = [
     "wordIds": [
       "24099"
     ],
+    "cloze": {
+      "de": "Pult",
+      "en": "desk"
+    },
     "sourceIndex": 14099
   },
   {
@@ -7057,6 +8713,10 @@ const phrasesHouse = [
     "wordIds": [
       "24131"
     ],
+    "cloze": {
+      "de": "Truhe",
+      "en": "chest"
+    },
     "sourceIndex": 14131
   },
   {
@@ -7074,6 +8734,10 @@ const phrasesHouse = [
     "wordIds": [
       "24233"
     ],
+    "cloze": {
+      "de": "Glühbirne",
+      "en": "light"
+    },
     "sourceIndex": 14233
   },
   {
@@ -7091,6 +8755,10 @@ const phrasesHouse = [
     "wordIds": [
       "24264"
     ],
+    "cloze": {
+      "de": "Lüftung",
+      "en": "ventilation"
+    },
     "sourceIndex": 14264
   },
   {
@@ -7108,6 +8776,10 @@ const phrasesHouse = [
     "wordIds": [
       "24310"
     ],
+    "cloze": {
+      "de": "Spüle",
+      "en": "sink"
+    },
     "sourceIndex": 14310
   },
   {
@@ -7125,6 +8797,10 @@ const phrasesHouse = [
     "wordIds": [
       "24326"
     ],
+    "cloze": {
+      "de": "um",
+      "en": "around"
+    },
     "sourceIndex": 14326
   },
   {
@@ -7142,6 +8818,10 @@ const phrasesHouse = [
     "wordIds": [
       "24415"
     ],
+    "cloze": {
+      "de": "Schraube",
+      "en": "screw"
+    },
     "sourceIndex": 14415
   },
   {
@@ -7159,6 +8839,10 @@ const phrasesHouse = [
     "wordIds": [
       "24481"
     ],
+    "cloze": {
+      "de": "Rübe",
+      "en": "beet"
+    },
     "sourceIndex": 14481
   },
   {
@@ -7176,6 +8860,10 @@ const phrasesHouse = [
     "wordIds": [
       "24484"
     ],
+    "cloze": {
+      "de": "Schlafanzug",
+      "en": "pajamas"
+    },
     "sourceIndex": 14484
   },
   {
@@ -7193,6 +8881,10 @@ const phrasesHouse = [
     "wordIds": [
       "24584"
     ],
+    "cloze": {
+      "de": "Bettdecke",
+      "en": "duvet"
+    },
     "sourceIndex": 14584
   },
   {
@@ -7210,6 +8902,10 @@ const phrasesHouse = [
     "wordIds": [
       "24608"
     ],
+    "cloze": {
+      "de": "Esszimmer",
+      "en": "dining"
+    },
     "sourceIndex": 14608
   },
   {
@@ -7227,6 +8923,10 @@ const phrasesHouse = [
     "wordIds": [
       "24639"
     ],
+    "cloze": {
+      "de": "hastig",
+      "en": "hastily"
+    },
     "sourceIndex": 14639
   },
   {
@@ -7244,6 +8944,10 @@ const phrasesHouse = [
     "wordIds": [
       "24640"
     ],
+    "cloze": {
+      "de": "Haushälterin",
+      "en": "housekeeper"
+    },
     "sourceIndex": 14640
   },
   {
@@ -7261,6 +8965,10 @@ const phrasesHouse = [
     "wordIds": [
       "24683"
     ],
+    "cloze": {
+      "de": "Nagellack",
+      "en": "nail"
+    },
     "sourceIndex": 14683
   },
   {
@@ -7278,6 +8986,10 @@ const phrasesHouse = [
     "wordIds": [
       "24756"
     ],
+    "cloze": {
+      "de": "Waschmittel",
+      "en": "detergent"
+    },
     "sourceIndex": 14756
   },
   {
@@ -7295,6 +9007,10 @@ const phrasesHouse = [
     "wordIds": [
       "24904"
     ],
+    "cloze": {
+      "de": "Profilbild",
+      "en": "profile"
+    },
     "sourceIndex": 14904
   },
   {
@@ -7312,6 +9028,10 @@ const phrasesHouse = [
     "wordIds": [
       "24976"
     ],
+    "cloze": {
+      "de": "Wohnfläche",
+      "en": "living"
+    },
     "sourceIndex": 14976
   },
   {
@@ -7329,6 +9049,10 @@ const phrasesHouse = [
     "wordIds": [
       "25059"
     ],
+    "cloze": {
+      "de": "glühten",
+      "en": "glowed"
+    },
     "sourceIndex": 15059
   },
   {
@@ -7346,6 +9070,10 @@ const phrasesHouse = [
     "wordIds": [
       "25084"
     ],
+    "cloze": {
+      "de": "Küchentisch",
+      "en": "kitchen"
+    },
     "sourceIndex": 15084
   },
   {
@@ -7363,6 +9091,10 @@ const phrasesHouse = [
     "wordIds": [
       "25199"
     ],
+    "cloze": {
+      "de": "abwaschen",
+      "en": "wash"
+    },
     "sourceIndex": 15199
   },
   {
@@ -7380,6 +9112,10 @@ const phrasesHouse = [
     "wordIds": [
       "25208"
     ],
+    "cloze": {
+      "de": "aufdrehen",
+      "en": "turn"
+    },
     "sourceIndex": 15208
   },
   {
@@ -7397,6 +9133,10 @@ const phrasesHouse = [
     "wordIds": [
       "25237"
     ],
+    "cloze": {
+      "de": "Dekor",
+      "en": "decor"
+    },
     "sourceIndex": 15237
   },
   {
@@ -7414,6 +9154,10 @@ const phrasesHouse = [
     "wordIds": [
       "25243"
     ],
+    "cloze": {
+      "de": "Drücker",
+      "en": "door"
+    },
     "sourceIndex": 15243
   },
   {
@@ -7431,6 +9175,10 @@ const phrasesHouse = [
     "wordIds": [
       "25256"
     ],
+    "cloze": {
+      "de": "fegen",
+      "en": "sweep"
+    },
     "sourceIndex": 15256
   },
   {
@@ -7448,6 +9196,10 @@ const phrasesHouse = [
     "wordIds": [
       "25264"
     ],
+    "cloze": {
+      "de": "Gardinen",
+      "en": "curtains"
+    },
     "sourceIndex": 15264
   },
   {
@@ -7465,6 +9217,10 @@ const phrasesHouse = [
     "wordIds": [
       "25423"
     ],
+    "cloze": {
+      "de": "Blumenbeet",
+      "en": "flowerbed"
+    },
     "sourceIndex": 15423
   },
   {
@@ -7482,6 +9238,10 @@ const phrasesHouse = [
     "wordIds": [
       "25488"
     ],
+    "cloze": {
+      "de": "gedeckt",
+      "en": "table"
+    },
     "sourceIndex": 15488
   },
   {
@@ -7499,6 +9259,10 @@ const phrasesHouse = [
     "wordIds": [
       "25503"
     ],
+    "cloze": {
+      "de": "Hauswand",
+      "en": "house"
+    },
     "sourceIndex": 15503
   },
   {
@@ -7516,6 +9280,10 @@ const phrasesHouse = [
     "wordIds": [
       "25566"
     ],
+    "cloze": {
+      "de": "Rückspiegel",
+      "en": "rearview"
+    },
     "sourceIndex": 15566
   },
   {
@@ -7533,6 +9301,10 @@ const phrasesHouse = [
     "wordIds": [
       "25767"
     ],
+    "cloze": {
+      "de": "Pyjama",
+      "en": "pajamas"
+    },
     "sourceIndex": 15767
   },
   {
@@ -7550,6 +9322,10 @@ const phrasesHouse = [
     "wordIds": [
       "25876"
     ],
+    "cloze": {
+      "de": "dekorativ",
+      "en": "decorative"
+    },
     "sourceIndex": 15876
   },
   {
@@ -7567,6 +9343,10 @@ const phrasesHouse = [
     "wordIds": [
       "25934"
     ],
+    "cloze": {
+      "de": "Hausflur",
+      "en": "hallway"
+    },
     "sourceIndex": 15934
   },
   {
@@ -7584,6 +9364,10 @@ const phrasesHouse = [
     "wordIds": [
       "25954"
     ],
+    "cloze": {
+      "de": "kuschelig",
+      "en": "cozy"
+    },
     "sourceIndex": 15954
   },
   {
@@ -7601,6 +9385,10 @@ const phrasesHouse = [
     "wordIds": [
       "26011"
     ],
+    "cloze": {
+      "de": "Strg",
+      "en": "Ctrl"
+    },
     "sourceIndex": 16011
   },
   {
@@ -7618,6 +9406,10 @@ const phrasesHouse = [
     "wordIds": [
       "26167"
     ],
+    "cloze": {
+      "de": "Kurhaus",
+      "en": "spa"
+    },
     "sourceIndex": 16167
   },
   {
@@ -7635,6 +9427,10 @@ const phrasesHouse = [
     "wordIds": [
       "26171"
     ],
+    "cloze": {
+      "de": "Laken",
+      "en": "sheet"
+    },
     "sourceIndex": 16171
   },
   {
@@ -7652,6 +9448,10 @@ const phrasesHouse = [
     "wordIds": [
       "26177"
     ],
+    "cloze": {
+      "de": "länglich",
+      "en": "oblong"
+    },
     "sourceIndex": 16177
   },
   {
@@ -7669,6 +9469,10 @@ const phrasesHouse = [
     "wordIds": [
       "26216"
     ],
+    "cloze": {
+      "de": "reinstecken",
+      "en": "in"
+    },
     "sourceIndex": 16216
   },
   {
@@ -7686,6 +9490,10 @@ const phrasesHouse = [
     "wordIds": [
       "26226"
     ],
+    "cloze": {
+      "de": "Schippe",
+      "en": "shovel"
+    },
     "sourceIndex": 16226
   },
   {
@@ -7703,6 +9511,10 @@ const phrasesHouse = [
     "wordIds": [
       "26261"
     ],
+    "cloze": {
+      "de": "Umkleide",
+      "en": "changing"
+    },
     "sourceIndex": 16261
   },
   {
@@ -7720,6 +9532,10 @@ const phrasesHouse = [
     "wordIds": [
       "26339"
     ],
+    "cloze": {
+      "de": "Baumaterial",
+      "en": "building"
+    },
     "sourceIndex": 16339
   },
   {
@@ -7737,6 +9553,10 @@ const phrasesHouse = [
     "wordIds": [
       "26363"
     ],
+    "cloze": {
+      "de": "Duschgel",
+      "en": "shower"
+    },
     "sourceIndex": 16363
   },
   {
@@ -7754,6 +9574,10 @@ const phrasesHouse = [
     "wordIds": [
       "26367"
     ],
+    "cloze": {
+      "de": "Eigentümerin",
+      "en": "owner"
+    },
     "sourceIndex": 16367
   },
   {
@@ -7771,6 +9595,10 @@ const phrasesHouse = [
     "wordIds": [
       "26369"
     ],
+    "cloze": {
+      "de": "Eingangshalle",
+      "en": "entrance"
+    },
     "sourceIndex": 16369
   },
   {
@@ -7788,6 +9616,10 @@ const phrasesHouse = [
     "wordIds": [
       "26515"
     ],
+    "cloze": {
+      "de": "Tap",
+      "en": "tap"
+    },
     "sourceIndex": 16515
   },
   {
@@ -7805,6 +9637,10 @@ const phrasesHouse = [
     "wordIds": [
       "26550"
     ],
+    "cloze": {
+      "de": "Waschlappen",
+      "en": "washcloth"
+    },
     "sourceIndex": 16550
   },
   {
@@ -7822,6 +9658,10 @@ const phrasesHouse = [
     "wordIds": [
       "26609"
     ],
+    "cloze": {
+      "de": "einladend",
+      "en": "inviting"
+    },
     "sourceIndex": 16609
   },
   {
@@ -7839,6 +9679,10 @@ const phrasesHouse = [
     "wordIds": [
       "26623"
     ],
+    "cloze": {
+      "de": "Farbton",
+      "en": "shade"
+    },
     "sourceIndex": 16623
   },
   {
@@ -7856,6 +9700,10 @@ const phrasesHouse = [
     "wordIds": [
       "26649"
     ],
+    "cloze": {
+      "de": "hellbraune",
+      "en": "light"
+    },
     "sourceIndex": 16649
   },
   {
@@ -7873,6 +9721,10 @@ const phrasesHouse = [
     "wordIds": [
       "26745"
     ],
+    "cloze": {
+      "de": "Schlossgarten",
+      "en": "castle"
+    },
     "sourceIndex": 16745
   },
   {
@@ -7890,6 +9742,10 @@ const phrasesHouse = [
     "wordIds": [
       "26895"
     ],
+    "cloze": {
+      "de": "Klempner",
+      "en": "plumber"
+    },
     "sourceIndex": 16895
   },
   {
@@ -7907,6 +9763,10 @@ const phrasesHouse = [
     "wordIds": [
       "26908"
     ],
+    "cloze": {
+      "de": "Kübel",
+      "en": "bucket"
+    },
     "sourceIndex": 16908
   },
   {
@@ -7924,6 +9784,10 @@ const phrasesHouse = [
     "wordIds": [
       "26990"
     ],
+    "cloze": {
+      "de": "Sitzbank",
+      "en": "bench"
+    },
     "sourceIndex": 16990
   },
   {
@@ -7941,6 +9805,10 @@ const phrasesHouse = [
     "wordIds": [
       "27050"
     ],
+    "cloze": {
+      "de": "wortlos",
+      "en": "speechless"
+    },
     "sourceIndex": 17050
   },
   {
@@ -7958,6 +9826,10 @@ const phrasesHouse = [
     "wordIds": [
       "27093"
     ],
+    "cloze": {
+      "de": "beschmiert",
+      "en": "defaced"
+    },
     "sourceIndex": 17093
   },
   {
@@ -7975,6 +9847,10 @@ const phrasesHouse = [
     "wordIds": [
       "27109"
     ],
+    "cloze": {
+      "de": "Dachterrasse",
+      "en": "roof"
+    },
     "sourceIndex": 17109
   },
   {
@@ -7992,6 +9868,10 @@ const phrasesHouse = [
     "wordIds": [
       "27128"
     ],
+    "cloze": {
+      "de": "Einzelzimmer",
+      "en": "single"
+    },
     "sourceIndex": 17128
   },
   {
@@ -8009,6 +9889,10 @@ const phrasesHouse = [
     "wordIds": [
       "27222"
     ],
+    "cloze": {
+      "de": "Nachttisch",
+      "en": "nightstand"
+    },
     "sourceIndex": 17222
   },
   {
@@ -8026,6 +9910,10 @@ const phrasesHouse = [
     "wordIds": [
       "27307"
     ],
+    "cloze": {
+      "de": "Wanze",
+      "en": "bug"
+    },
     "sourceIndex": 17307
   },
   {
@@ -8043,6 +9931,10 @@ const phrasesHouse = [
     "wordIds": [
       "27320"
     ],
+    "cloze": {
+      "de": "zusammenbauen",
+      "en": "assemble"
+    },
     "sourceIndex": 17320
   },
   {
@@ -8060,6 +9952,10 @@ const phrasesHouse = [
     "wordIds": [
       "27327"
     ],
+    "cloze": {
+      "de": "abzuschließen",
+      "en": "lock"
+    },
     "sourceIndex": 17327
   },
   {
@@ -8077,6 +9973,10 @@ const phrasesHouse = [
     "wordIds": [
       "27351"
     ],
+    "cloze": {
+      "de": "Baufirma",
+      "en": "construction"
+    },
     "sourceIndex": 17351
   },
   {
@@ -8094,6 +9994,10 @@ const phrasesHouse = [
     "wordIds": [
       "27353"
     ],
+    "cloze": {
+      "de": "Baustoff",
+      "en": "building"
+    },
     "sourceIndex": 17353
   },
   {
@@ -8111,6 +10015,10 @@ const phrasesHouse = [
     "wordIds": [
       "27567"
     ],
+    "cloze": {
+      "de": "unabsichtlich",
+      "en": "accidentally"
+    },
     "sourceIndex": 17567
   },
   {
@@ -8128,6 +10036,10 @@ const phrasesHouse = [
     "wordIds": [
       "27648"
     ],
+    "cloze": {
+      "de": "Bleiche",
+      "en": "bleaching"
+    },
     "sourceIndex": 17648
   },
   {
@@ -8145,6 +10057,10 @@ const phrasesHouse = [
     "wordIds": [
       "27654"
     ],
+    "cloze": {
+      "de": "diagonal",
+      "en": "diagonally"
+    },
     "sourceIndex": 17654
   },
   {
@@ -8162,6 +10078,10 @@ const phrasesHouse = [
     "wordIds": [
       "27736"
     ],
+    "cloze": {
+      "de": "Leuchter",
+      "en": "chandelier"
+    },
     "sourceIndex": 17736
   },
   {
@@ -8179,6 +10099,10 @@ const phrasesHouse = [
     "wordIds": [
       "27768"
     ],
+    "cloze": {
+      "de": "Rechen",
+      "en": "rake"
+    },
     "sourceIndex": 17768
   },
   {
@@ -8196,6 +10120,10 @@ const phrasesHouse = [
     "wordIds": [
       "27930"
     ],
+    "cloze": {
+      "de": "Geschäftshaus",
+      "en": "commercial"
+    },
     "sourceIndex": 17930
   },
   {
@@ -8213,6 +10141,10 @@ const phrasesHouse = [
     "wordIds": [
       "28102"
     ],
+    "cloze": {
+      "de": "Aufenthaltsraum",
+      "en": "common"
+    },
     "sourceIndex": 18102
   },
   {
@@ -8230,6 +10162,10 @@ const phrasesHouse = [
     "wordIds": [
       "28193"
     ],
+    "cloze": {
+      "de": "Kakerlake",
+      "en": "cockroach"
+    },
     "sourceIndex": 18193
   },
   {
@@ -8247,6 +10183,10 @@ const phrasesHouse = [
     "wordIds": [
       "28249"
     ],
+    "cloze": {
+      "de": "rausziehen",
+      "en": "pull"
+    },
     "sourceIndex": 18249
   },
   {
@@ -8264,6 +10204,10 @@ const phrasesHouse = [
     "wordIds": [
       "28259"
     ],
+    "cloze": {
+      "de": "Schlafengehen",
+      "en": "Going"
+    },
     "sourceIndex": 18259
   },
   {
@@ -8281,6 +10225,10 @@ const phrasesHouse = [
     "wordIds": [
       "28294"
     ],
+    "cloze": {
+      "de": "umgebaute",
+      "en": "rebuilt"
+    },
     "sourceIndex": 18294
   },
   {
@@ -8298,6 +10246,10 @@ const phrasesHouse = [
     "wordIds": [
       "28334"
     ],
+    "cloze": {
+      "de": "Wohngemeinschaft",
+      "en": "shared"
+    },
     "sourceIndex": 18334
   },
   {
@@ -8315,6 +10267,10 @@ const phrasesHouse = [
     "wordIds": [
       "28337"
     ],
+    "cloze": {
+      "de": "zerbrechlich",
+      "en": "fragile"
+    },
     "sourceIndex": 18337
   },
   {
@@ -8332,6 +10288,10 @@ const phrasesHouse = [
     "wordIds": [
       "28342"
     ],
+    "cloze": {
+      "de": "deck",
+      "en": "cover"
+    },
     "sourceIndex": 18342
   },
   {
@@ -8349,6 +10309,10 @@ const phrasesHouse = [
     "wordIds": [
       "28355"
     ],
+    "cloze": {
+      "de": "anmieten",
+      "en": "rent"
+    },
     "sourceIndex": 18355
   },
   {
@@ -8366,6 +10330,10 @@ const phrasesHouse = [
     "wordIds": [
       "28357"
     ],
+    "cloze": {
+      "de": "Armaturenbrett",
+      "en": "dashboard"
+    },
     "sourceIndex": 18357
   },
   {
@@ -8383,6 +10351,10 @@ const phrasesHouse = [
     "wordIds": [
       "28389"
     ],
+    "cloze": {
+      "de": "Diele",
+      "en": "hallway"
+    },
     "sourceIndex": 18389
   },
   {
@@ -8400,6 +10372,10 @@ const phrasesHouse = [
     "wordIds": [
       "28498"
     ],
+    "cloze": {
+      "de": "Mondlicht",
+      "en": "moonlight"
+    },
     "sourceIndex": 18498
   },
   {
@@ -8417,6 +10393,10 @@ const phrasesHouse = [
     "wordIds": [
       "28520"
     ],
+    "cloze": {
+      "de": "Pförtner",
+      "en": "doorman"
+    },
     "sourceIndex": 18520
   },
   {
@@ -8434,6 +10414,10 @@ const phrasesHouse = [
     "wordIds": [
       "28537"
     ],
+    "cloze": {
+      "de": "rechteckige",
+      "en": "rectangular"
+    },
     "sourceIndex": 18537
   },
   {
@@ -8451,6 +10435,10 @@ const phrasesHouse = [
     "wordIds": [
       "28645"
     ],
+    "cloze": {
+      "de": "Bauplatz",
+      "en": "construction"
+    },
     "sourceIndex": 18645
   },
   {
@@ -8468,6 +10456,10 @@ const phrasesHouse = [
     "wordIds": [
       "28651"
     ],
+    "cloze": {
+      "de": "Bettchen",
+      "en": "little"
+    },
     "sourceIndex": 18651
   },
   {
@@ -8485,6 +10477,10 @@ const phrasesHouse = [
     "wordIds": [
       "28892"
     ],
+    "cloze": {
+      "de": "ausschneiden",
+      "en": "cut"
+    },
     "sourceIndex": 18892
   },
   {
@@ -8502,6 +10498,10 @@ const phrasesHouse = [
     "wordIds": [
       "28940"
     ],
+    "cloze": {
+      "de": "einzustürzen",
+      "en": "collapse"
+    },
     "sourceIndex": 18940
   },
   {
@@ -8519,6 +10519,10 @@ const phrasesHouse = [
     "wordIds": [
       "28946"
     ],
+    "cloze": {
+      "de": "entleeren",
+      "en": "empty"
+    },
     "sourceIndex": 18946
   },
   {
@@ -8536,6 +10540,10 @@ const phrasesHouse = [
     "wordIds": [
       "28953"
     ],
+    "cloze": {
+      "de": "Fachwerkhäuser",
+      "en": "half-timbered"
+    },
     "sourceIndex": 18953
   },
   {
@@ -8553,6 +10561,10 @@ const phrasesHouse = [
     "wordIds": [
       "28995"
     ],
+    "cloze": {
+      "de": "Heizkörper",
+      "en": "radiator"
+    },
     "sourceIndex": 18995
   },
   {
@@ -8570,6 +10582,10 @@ const phrasesHouse = [
     "wordIds": [
       "29036"
     ],
+    "cloze": {
+      "de": "Lehrerzimmer",
+      "en": "staff"
+    },
     "sourceIndex": 19036
   },
   {
@@ -8587,6 +10603,10 @@ const phrasesHouse = [
     "wordIds": [
       "29233"
     ],
+    "cloze": {
+      "de": "deck",
+      "en": "set"
+    },
     "sourceIndex": 19233
   },
   {
@@ -8604,6 +10624,10 @@ const phrasesHouse = [
     "wordIds": [
       "29253"
     ],
+    "cloze": {
+      "de": "freistehenden",
+      "en": "detached"
+    },
     "sourceIndex": 19253
   },
   {
@@ -8621,6 +10645,10 @@ const phrasesHouse = [
     "wordIds": [
       "29266"
     ],
+    "cloze": {
+      "de": "nageln",
+      "en": "nail"
+    },
     "sourceIndex": 19266
   },
   {
@@ -8638,6 +10666,10 @@ const phrasesHouse = [
     "wordIds": [
       "29287"
     ],
+    "cloze": {
+      "de": "Haupthaus",
+      "en": "main"
+    },
     "sourceIndex": 19287
   },
   {
@@ -8655,6 +10687,10 @@ const phrasesHouse = [
     "wordIds": [
       "29326"
     ],
+    "cloze": {
+      "de": "Lärmbelästigung",
+      "en": "noise"
+    },
     "sourceIndex": 19326
   },
   {
@@ -8672,6 +10708,10 @@ const phrasesHouse = [
     "wordIds": [
       "29342"
     ],
+    "cloze": {
+      "de": "Nelken",
+      "en": "carnations"
+    },
     "sourceIndex": 19342
   },
   {
@@ -8689,6 +10729,10 @@ const phrasesHouse = [
     "wordIds": [
       "29370"
     ],
+    "cloze": {
+      "de": "renoviert",
+      "en": "renovated"
+    },
     "sourceIndex": 19370
   },
   {
@@ -8706,6 +10750,10 @@ const phrasesHouse = [
     "wordIds": [
       "29375"
     ],
+    "cloze": {
+      "de": "Rotlicht",
+      "en": "red"
+    },
     "sourceIndex": 19375
   },
   {
@@ -8723,6 +10771,10 @@ const phrasesHouse = [
     "wordIds": [
       "29390"
     ],
+    "cloze": {
+      "de": "Schornsteinfeger",
+      "en": "chimney"
+    },
     "sourceIndex": 19390
   },
   {
@@ -8740,6 +10792,10 @@ const phrasesHouse = [
     "wordIds": [
       "29391"
     ],
+    "cloze": {
+      "de": "Schraubenzieher",
+      "en": "screwdriver"
+    },
     "sourceIndex": 19391
   },
   {
@@ -8757,6 +10813,10 @@ const phrasesHouse = [
     "wordIds": [
       "29473"
     ],
+    "cloze": {
+      "de": "zuhalten",
+      "en": "cover"
+    },
     "sourceIndex": 19473
   },
   {
@@ -8774,6 +10834,10 @@ const phrasesHouse = [
     "wordIds": [
       "29475"
     ],
+    "cloze": {
+      "de": "Örtchen",
+      "en": "toilet"
+    },
     "sourceIndex": 19475
   },
   {
@@ -8791,6 +10855,10 @@ const phrasesHouse = [
     "wordIds": [
       "29476"
     ],
+    "cloze": {
+      "de": "abräumen",
+      "en": "clear"
+    },
     "sourceIndex": 19476
   },
   {
@@ -8808,6 +10876,10 @@ const phrasesHouse = [
     "wordIds": [
       "29509"
     ],
+    "cloze": {
+      "de": "Buchse",
+      "en": "socket"
+    },
     "sourceIndex": 19509
   },
   {
@@ -8825,6 +10897,10 @@ const phrasesHouse = [
     "wordIds": [
       "29577"
     ],
+    "cloze": {
+      "de": "Handgriff",
+      "en": "handle"
+    },
     "sourceIndex": 19577
   },
   {
@@ -8842,6 +10918,10 @@ const phrasesHouse = [
     "wordIds": [
       "29596"
     ],
+    "cloze": {
+      "de": "kloppen",
+      "en": "knock"
+    },
     "sourceIndex": 19596
   },
   {
@@ -8859,6 +10939,10 @@ const phrasesHouse = [
     "wordIds": [
       "29600"
     ],
+    "cloze": {
+      "de": "Kork",
+      "en": "cork"
+    },
     "sourceIndex": 19600
   },
   {
@@ -8876,6 +10960,10 @@ const phrasesHouse = [
     "wordIds": [
       "29653"
     ],
+    "cloze": {
+      "de": "Reihenhaus",
+      "en": "terraced"
+    },
     "sourceIndex": 19653
   },
   {
@@ -8893,6 +10981,10 @@ const phrasesHouse = [
     "wordIds": [
       "29710"
     ],
+    "cloze": {
+      "de": "Untermieter",
+      "en": "subtenant"
+    },
     "sourceIndex": 19710
   },
   {
@@ -8910,6 +11002,10 @@ const phrasesHouse = [
     "wordIds": [
       "29768"
     ],
+    "cloze": {
+      "de": "Abwasch",
+      "en": "washing"
+    },
     "sourceIndex": 19768
   },
   {
@@ -8927,6 +11023,10 @@ const phrasesHouse = [
     "wordIds": [
       "29787"
     ],
+    "cloze": {
+      "de": "Bepflanzung",
+      "en": "planting"
+    },
     "sourceIndex": 19787
   },
   {
@@ -8944,6 +11044,10 @@ const phrasesHouse = [
     "wordIds": [
       "29849"
     ],
+    "cloze": {
+      "de": "gärtnern",
+      "en": "garden"
+    },
     "sourceIndex": 19849
   },
   {
@@ -8961,6 +11065,10 @@ const phrasesHouse = [
     "wordIds": [
       "30049"
     ],
+    "cloze": {
+      "de": "Wohneigentum",
+      "en": "home"
+    },
     "sourceIndex": 20049
   },
   {
@@ -8978,6 +11086,10 @@ const phrasesHouse = [
     "wordIds": [
       "30050"
     ],
+    "cloze": {
+      "de": "Wäldchen",
+      "en": "small"
+    },
     "sourceIndex": 20050
   },
   {
@@ -8995,6 +11107,10 @@ const phrasesHouse = [
     "wordIds": [
       "30105"
     ],
+    "cloze": {
+      "de": "Eichenholz",
+      "en": "oak"
+    },
     "sourceIndex": 20105
   },
   {
@@ -9012,6 +11128,10 @@ const phrasesHouse = [
     "wordIds": [
       "30147"
     ],
+    "cloze": {
+      "de": "geräumig",
+      "en": "spacious"
+    },
     "sourceIndex": 20147
   },
   {
@@ -9029,6 +11149,10 @@ const phrasesHouse = [
     "wordIds": [
       "30159"
     ],
+    "cloze": {
+      "de": "Hausordnung",
+      "en": "house"
+    },
     "sourceIndex": 20159
   },
   {
@@ -9046,6 +11170,10 @@ const phrasesHouse = [
     "wordIds": [
       "30167"
     ],
+    "cloze": {
+      "de": "hängengeblieben",
+      "en": "stuck"
+    },
     "sourceIndex": 20167
   },
   {
@@ -9063,6 +11191,10 @@ const phrasesHouse = [
     "wordIds": [
       "30213"
     ],
+    "cloze": {
+      "de": "Nebenzimmer",
+      "en": "adjoining"
+    },
     "sourceIndex": 20213
   },
   {
@@ -9080,6 +11212,10 @@ const phrasesHouse = [
     "wordIds": [
       "30278"
     ],
+    "cloze": {
+      "de": "Stöpsel",
+      "en": "plug"
+    },
     "sourceIndex": 20278
   }
 ];

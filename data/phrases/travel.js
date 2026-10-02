@@ -14,6 +14,10 @@ const phrasesTravel = [
     "wordIds": [
       "10014"
     ],
+    "cloze": {
+      "de": "Ihr",
+      "en": "your"
+    },
     "sourceIndex": 14
   },
   {
@@ -31,6 +35,10 @@ const phrasesTravel = [
     "wordIds": [
       "10035"
     ],
+    "cloze": {
+      "de": "komme",
+      "en": "come"
+    },
     "sourceIndex": 35
   },
   {
@@ -48,6 +56,10 @@ const phrasesTravel = [
     "wordIds": [
       "10043"
     ],
+    "cloze": {
+      "de": "neues",
+      "en": "new"
+    },
     "sourceIndex": 43
   },
   {
@@ -65,6 +77,10 @@ const phrasesTravel = [
     "wordIds": [
       "10109"
     ],
+    "cloze": {
+      "de": "schnell",
+      "en": "fast"
+    },
     "sourceIndex": 109
   },
   {
@@ -82,6 +98,10 @@ const phrasesTravel = [
     "wordIds": [
       "10141"
     ],
+    "cloze": {
+      "de": "eigenes",
+      "en": "own"
+    },
     "sourceIndex": 141
   },
   {
@@ -99,6 +119,10 @@ const phrasesTravel = [
     "wordIds": [
       "10169"
     ],
+    "cloze": {
+      "de": "halten",
+      "en": "hold"
+    },
     "sourceIndex": 169
   },
   {
@@ -116,6 +140,10 @@ const phrasesTravel = [
     "wordIds": [
       "10189"
     ],
+    "cloze": {
+      "de": "Auto",
+      "en": "car"
+    },
     "sourceIndex": 189
   },
   {
@@ -133,6 +161,10 @@ const phrasesTravel = [
     "wordIds": [
       "10190"
     ],
+    "cloze": {
+      "de": "bringen",
+      "en": "bring"
+    },
     "sourceIndex": 190
   },
   {
@@ -150,6 +182,10 @@ const phrasesTravel = [
     "wordIds": [
       "10243"
     ],
+    "cloze": {
+      "de": "Richtung",
+      "en": "direction"
+    },
     "sourceIndex": 243
   },
   {
@@ -167,6 +203,10 @@ const phrasesTravel = [
     "wordIds": [
       "10261"
     ],
+    "cloze": {
+      "de": "fahre",
+      "en": "drive"
+    },
     "sourceIndex": 261
   },
   {
@@ -184,6 +224,10 @@ const phrasesTravel = [
     "wordIds": [
       "10307"
     ],
+    "cloze": {
+      "de": "vorbei",
+      "en": "past"
+    },
     "sourceIndex": 307
   },
   {
@@ -201,6 +245,10 @@ const phrasesTravel = [
     "wordIds": [
       "10349"
     ],
+    "cloze": {
+      "de": "fällt",
+      "en": "falls"
+    },
     "sourceIndex": 349
   },
   {
@@ -218,6 +266,10 @@ const phrasesTravel = [
     "wordIds": [
       "10372"
     ],
+    "cloze": {
+      "de": "langsam",
+      "en": "slowly"
+    },
     "sourceIndex": 372
   },
   {
@@ -235,6 +287,10 @@ const phrasesTravel = [
     "wordIds": [
       "10374"
     ],
+    "cloze": {
+      "de": "Meter",
+      "en": "meters"
+    },
     "sourceIndex": 374
   },
   {
@@ -252,6 +308,10 @@ const phrasesTravel = [
     "wordIds": [
       "10381"
     ],
+    "cloze": {
+      "de": "Km",
+      "en": "distance"
+    },
     "sourceIndex": 381
   },
   {
@@ -269,6 +329,10 @@ const phrasesTravel = [
     "wordIds": [
       "10386"
     ],
+    "cloze": {
+      "de": "ziehen",
+      "en": "pull"
+    },
     "sourceIndex": 386
   },
   {
@@ -286,6 +350,10 @@ const phrasesTravel = [
     "wordIds": [
       "10389"
     ],
+    "cloze": {
+      "de": "Bahn",
+      "en": "train"
+    },
     "sourceIndex": 389
   },
   {
@@ -303,6 +371,10 @@ const phrasesTravel = [
     "wordIds": [
       "10396"
     ],
+    "cloze": {
+      "de": "trage",
+      "en": "carrying"
+    },
     "sourceIndex": 396
   },
   {
@@ -320,6 +392,10 @@ const phrasesTravel = [
     "wordIds": [
       "10405"
     ],
+    "cloze": {
+      "de": "Nähe",
+      "en": "proximity"
+    },
     "sourceIndex": 405
   },
   {
@@ -337,6 +413,10 @@ const phrasesTravel = [
     "wordIds": [
       "10438"
     ],
+    "cloze": {
+      "de": "warten",
+      "en": "wait"
+    },
     "sourceIndex": 438
   },
   {
@@ -354,6 +434,10 @@ const phrasesTravel = [
     "wordIds": [
       "10459"
     ],
+    "cloze": {
+      "de": "grün",
+      "en": "green"
+    },
     "sourceIndex": 459
   },
   {
@@ -371,6 +455,10 @@ const phrasesTravel = [
     "wordIds": [
       "10483"
     ],
+    "cloze": {
+      "de": "unterwegs",
+      "en": "on"
+    },
     "sourceIndex": 483
   },
   {
@@ -388,6 +476,10 @@ const phrasesTravel = [
     "wordIds": [
       "10521"
     ],
+    "cloze": {
+      "de": "Schritt",
+      "en": "step"
+    },
     "sourceIndex": 521
   },
   {
@@ -406,6 +498,10 @@ const phrasesTravel = [
       "10528",
       "13823"
     ],
+    "cloze": {
+      "de": "einzelne",
+      "en": "single"
+    },
     "sourceIndex": 528
   },
   {
@@ -423,6 +519,10 @@ const phrasesTravel = [
     "wordIds": [
       "10544"
     ],
+    "cloze": {
+      "de": "rot",
+      "en": "red"
+    },
     "sourceIndex": 544
   },
   {
@@ -440,6 +540,10 @@ const phrasesTravel = [
     "wordIds": [
       "10571"
     ],
+    "cloze": {
+      "de": "Hotel",
+      "en": "hotel"
+    },
     "sourceIndex": 571
   },
   {
@@ -457,6 +561,10 @@ const phrasesTravel = [
     "wordIds": [
       "10574"
     ],
+    "cloze": {
+      "de": "Zug",
+      "en": "train"
+    },
     "sourceIndex": 574
   },
   {
@@ -474,6 +582,10 @@ const phrasesTravel = [
     "wordIds": [
       "10586"
     ],
+    "cloze": {
+      "de": "Reise",
+      "en": "journey"
+    },
     "sourceIndex": 586
   },
   {
@@ -491,6 +603,10 @@ const phrasesTravel = [
     "wordIds": [
       "10639"
     ],
+    "cloze": {
+      "de": "Grenze",
+      "en": "border"
+    },
     "sourceIndex": 639
   },
   {
@@ -508,6 +624,10 @@ const phrasesTravel = [
     "wordIds": [
       "10652"
     ],
+    "cloze": {
+      "de": "Karte",
+      "en": "map"
+    },
     "sourceIndex": 652
   },
   {
@@ -525,6 +645,10 @@ const phrasesTravel = [
     "wordIds": [
       "10688"
     ],
+    "cloze": {
+      "de": "Urlaub",
+      "en": "vacation"
+    },
     "sourceIndex": 688
   },
   {
@@ -542,6 +666,10 @@ const phrasesTravel = [
     "wordIds": [
       "10718"
     ],
+    "cloze": {
+      "de": "holen",
+      "en": "get"
+    },
     "sourceIndex": 718
   },
   {
@@ -559,6 +687,10 @@ const phrasesTravel = [
     "wordIds": [
       "10719"
     ],
+    "cloze": {
+      "de": "Kilometer",
+      "en": "kilometers"
+    },
     "sourceIndex": 719
   },
   {
@@ -576,6 +708,10 @@ const phrasesTravel = [
     "wordIds": [
       "10759"
     ],
+    "cloze": {
+      "de": "leisten",
+      "en": "afford"
+    },
     "sourceIndex": 759
   },
   {
@@ -593,6 +729,10 @@ const phrasesTravel = [
     "wordIds": [
       "10765"
     ],
+    "cloze": {
+      "de": "Zustand",
+      "en": "condition"
+    },
     "sourceIndex": 765
   },
   {
@@ -610,6 +750,10 @@ const phrasesTravel = [
     "wordIds": [
       "10830"
     ],
+    "cloze": {
+      "de": "Flughafen",
+      "en": "airport"
+    },
     "sourceIndex": 830
   },
   {
@@ -627,6 +771,10 @@ const phrasesTravel = [
     "wordIds": [
       "10849"
     ],
+    "cloze": {
+      "de": "Ausland",
+      "en": "abroad"
+    },
     "sourceIndex": 849
   },
   {
@@ -644,6 +792,10 @@ const phrasesTravel = [
     "wordIds": [
       "10864"
     ],
+    "cloze": {
+      "de": "nah",
+      "en": "close"
+    },
     "sourceIndex": 864
   },
   {
@@ -661,6 +813,10 @@ const phrasesTravel = [
     "wordIds": [
       "10872"
     ],
+    "cloze": {
+      "de": "Tour",
+      "en": "tour"
+    },
     "sourceIndex": 872
   },
   {
@@ -678,6 +834,10 @@ const phrasesTravel = [
     "wordIds": [
       "10882"
     ],
+    "cloze": {
+      "de": "Farbe",
+      "en": "color"
+    },
     "sourceIndex": 882
   },
   {
@@ -696,6 +856,10 @@ const phrasesTravel = [
       "10900",
       "11177"
     ],
+    "cloze": {
+      "de": "Westen",
+      "en": "west"
+    },
     "sourceIndex": 900
   },
   {
@@ -713,6 +877,10 @@ const phrasesTravel = [
     "wordIds": [
       "10904"
     ],
+    "cloze": {
+      "de": "Bus",
+      "en": "bus"
+    },
     "sourceIndex": 904
   },
   {
@@ -730,6 +898,10 @@ const phrasesTravel = [
     "wordIds": [
       "10909"
     ],
+    "cloze": {
+      "de": "Meer",
+      "en": "sea"
+    },
     "sourceIndex": 909
   },
   {
@@ -747,6 +919,10 @@ const phrasesTravel = [
     "wordIds": [
       "10921"
     ],
+    "cloze": {
+      "de": "Fahrt",
+      "en": "journey"
+    },
     "sourceIndex": 921
   },
   {
@@ -764,6 +940,10 @@ const phrasesTravel = [
     "wordIds": [
       "10950"
     ],
+    "cloze": {
+      "de": "auf",
+      "en": "steps"
+    },
     "sourceIndex": 950
   },
   {
@@ -781,6 +961,10 @@ const phrasesTravel = [
     "wordIds": [
       "10982"
     ],
+    "cloze": {
+      "de": "Fahrer",
+      "en": "driver"
+    },
     "sourceIndex": 982
   },
   {
@@ -798,6 +982,10 @@ const phrasesTravel = [
     "wordIds": [
       "10995"
     ],
+    "cloze": {
+      "de": "reisen",
+      "en": "travel"
+    },
     "sourceIndex": 995
   },
   {
@@ -815,6 +1003,10 @@ const phrasesTravel = [
     "wordIds": [
       "11005"
     ],
+    "cloze": {
+      "de": "Bahnhof",
+      "en": "train"
+    },
     "sourceIndex": 1005
   },
   {
@@ -832,6 +1024,10 @@ const phrasesTravel = [
     "wordIds": [
       "11019"
     ],
+    "cloze": {
+      "de": "Schiff",
+      "en": "ship"
+    },
     "sourceIndex": 1019
   },
   {
@@ -849,6 +1045,10 @@ const phrasesTravel = [
     "wordIds": [
       "11036"
     ],
+    "cloze": {
+      "de": "fliegen",
+      "en": "fly"
+    },
     "sourceIndex": 1036
   },
   {
@@ -866,6 +1066,10 @@ const phrasesTravel = [
     "wordIds": [
       "11063"
     ],
+    "cloze": {
+      "de": "Norden",
+      "en": "north"
+    },
     "sourceIndex": 1063
   },
   {
@@ -883,6 +1087,10 @@ const phrasesTravel = [
     "wordIds": [
       "11069"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "American"
+    },
     "sourceIndex": 1069
   },
   {
@@ -900,6 +1108,10 @@ const phrasesTravel = [
     "wordIds": [
       "11124"
     ],
+    "cloze": {
+      "de": "Abstand",
+      "en": "distance"
+    },
     "sourceIndex": 1124
   },
   {
@@ -917,6 +1129,10 @@ const phrasesTravel = [
     "wordIds": [
       "11152"
     ],
+    "cloze": {
+      "de": "Brücke",
+      "en": "bridge"
+    },
     "sourceIndex": 1152
   },
   {
@@ -934,6 +1150,10 @@ const phrasesTravel = [
     "wordIds": [
       "11157"
     ],
+    "cloze": {
+      "de": "töten",
+      "en": "kill"
+    },
     "sourceIndex": 1157
   },
   {
@@ -951,6 +1171,10 @@ const phrasesTravel = [
     "wordIds": [
       "11220"
     ],
+    "cloze": {
+      "de": "Sitz",
+      "en": "seat"
+    },
     "sourceIndex": 1220
   },
   {
@@ -968,6 +1192,10 @@ const phrasesTravel = [
     "wordIds": [
       "11259"
     ],
+    "cloze": {
+      "de": "kaputt",
+      "en": "broken"
+    },
     "sourceIndex": 1259
   },
   {
@@ -985,6 +1213,10 @@ const phrasesTravel = [
     "wordIds": [
       "11266"
     ],
+    "cloze": {
+      "de": "Süden",
+      "en": "south"
+    },
     "sourceIndex": 1266
   },
   {
@@ -1002,6 +1234,10 @@ const phrasesTravel = [
     "wordIds": [
       "11291"
     ],
+    "cloze": {
+      "de": "Pass",
+      "en": "passport"
+    },
     "sourceIndex": 1291
   },
   {
@@ -1019,6 +1255,10 @@ const phrasesTravel = [
     "wordIds": [
       "11296"
     ],
+    "cloze": {
+      "de": "Zeug",
+      "en": "stuff"
+    },
     "sourceIndex": 1296
   },
   {
@@ -1036,6 +1276,10 @@ const phrasesTravel = [
     "wordIds": [
       "11297"
     ],
+    "cloze": {
+      "de": "Anscheinend",
+      "en": "Apparently"
+    },
     "sourceIndex": 1297
   },
   {
@@ -1053,6 +1297,10 @@ const phrasesTravel = [
     "wordIds": [
       "11309"
     ],
+    "cloze": {
+      "de": "Nord",
+      "en": "North"
+    },
     "sourceIndex": 1309
   },
   {
@@ -1070,6 +1318,10 @@ const phrasesTravel = [
     "wordIds": [
       "11310"
     ],
+    "cloze": {
+      "de": "Ost",
+      "en": "East"
+    },
     "sourceIndex": 1310
   },
   {
@@ -1087,6 +1339,10 @@ const phrasesTravel = [
     "wordIds": [
       "11330"
     ],
+    "cloze": {
+      "de": "Fahrzeug",
+      "en": "vehicle"
+    },
     "sourceIndex": 1330
   },
   {
@@ -1104,6 +1360,10 @@ const phrasesTravel = [
     "wordIds": [
       "11332"
     ],
+    "cloze": {
+      "de": "Flucht",
+      "en": "escape"
+    },
     "sourceIndex": 1332
   },
   {
@@ -1121,6 +1381,10 @@ const phrasesTravel = [
     "wordIds": [
       "11361"
     ],
+    "cloze": {
+      "de": "Gas",
+      "en": "gas"
+    },
     "sourceIndex": 1361
   },
   {
@@ -1138,6 +1402,10 @@ const phrasesTravel = [
     "wordIds": [
       "11383"
     ],
+    "cloze": {
+      "de": "Achtung",
+      "en": "Attention"
+    },
     "sourceIndex": 1383
   },
   {
@@ -1155,6 +1423,10 @@ const phrasesTravel = [
     "wordIds": [
       "11384"
     ],
+    "cloze": {
+      "de": "hör",
+      "en": "stop"
+    },
     "sourceIndex": 1384
   },
   {
@@ -1172,6 +1444,10 @@ const phrasesTravel = [
     "wordIds": [
       "11389"
     ],
+    "cloze": {
+      "de": "Boot",
+      "en": "boat"
+    },
     "sourceIndex": 1389
   },
   {
@@ -1189,6 +1465,10 @@ const phrasesTravel = [
     "wordIds": [
       "11413"
     ],
+    "cloze": {
+      "de": "ankommen",
+      "en": "arrive"
+    },
     "sourceIndex": 1413
   },
   {
@@ -1206,6 +1486,10 @@ const phrasesTravel = [
     "wordIds": [
       "11490"
     ],
+    "cloze": {
+      "de": "Flug",
+      "en": "flight"
+    },
     "sourceIndex": 1490
   },
   {
@@ -1223,6 +1507,10 @@ const phrasesTravel = [
     "wordIds": [
       "11527"
     ],
+    "cloze": {
+      "de": "Geschwindigkeit",
+      "en": "speed"
+    },
     "sourceIndex": 1527
   },
   {
@@ -1240,6 +1528,10 @@ const phrasesTravel = [
     "wordIds": [
       "11557"
     ],
+    "cloze": {
+      "de": "Motor",
+      "en": "engine"
+    },
     "sourceIndex": 1557
   },
   {
@@ -1257,6 +1549,10 @@ const phrasesTravel = [
     "wordIds": [
       "11568"
     ],
+    "cloze": {
+      "de": "Station",
+      "en": "station"
+    },
     "sourceIndex": 1568
   },
   {
@@ -1274,6 +1570,10 @@ const phrasesTravel = [
     "wordIds": [
       "11587"
     ],
+    "cloze": {
+      "de": "Flugzeug",
+      "en": "airplane"
+    },
     "sourceIndex": 1587
   },
   {
@@ -1291,6 +1591,10 @@ const phrasesTravel = [
     "wordIds": [
       "11660"
     ],
+    "cloze": {
+      "de": "doppelte",
+      "en": "double"
+    },
     "sourceIndex": 1660
   },
   {
@@ -1308,6 +1612,10 @@ const phrasesTravel = [
     "wordIds": [
       "11695"
     ],
+    "cloze": {
+      "de": "vorn",
+      "en": "front"
+    },
     "sourceIndex": 1695
   },
   {
@@ -1325,6 +1633,10 @@ const phrasesTravel = [
     "wordIds": [
       "11696"
     ],
+    "cloze": {
+      "de": "vorsichtig",
+      "en": "careful"
+    },
     "sourceIndex": 1696
   },
   {
@@ -1342,6 +1654,10 @@ const phrasesTravel = [
     "wordIds": [
       "11704"
     ],
+    "cloze": {
+      "de": "Autobahn",
+      "en": "highway"
+    },
     "sourceIndex": 1704
   },
   {
@@ -1359,6 +1675,10 @@ const phrasesTravel = [
     "wordIds": [
       "11717"
     ],
+    "cloze": {
+      "de": "ist",
+      "en": "blocked"
+    },
     "sourceIndex": 1717
   },
   {
@@ -1376,6 +1696,10 @@ const phrasesTravel = [
     "wordIds": [
       "11745"
     ],
+    "cloze": {
+      "de": "Abenteuer",
+      "en": "adventure"
+    },
     "sourceIndex": 1745
   },
   {
@@ -1393,6 +1717,10 @@ const phrasesTravel = [
     "wordIds": [
       "11769"
     ],
+    "cloze": {
+      "de": "Rad",
+      "en": "wheel"
+    },
     "sourceIndex": 1769
   },
   {
@@ -1410,6 +1738,10 @@ const phrasesTravel = [
     "wordIds": [
       "11777"
     ],
+    "cloze": {
+      "de": "verbringen",
+      "en": "spend"
+    },
     "sourceIndex": 1777
   },
   {
@@ -1427,6 +1759,10 @@ const phrasesTravel = [
     "wordIds": [
       "11861"
     ],
+    "cloze": {
+      "de": "Kapitän",
+      "en": "captain"
+    },
     "sourceIndex": 1861
   },
   {
@@ -1444,6 +1780,10 @@ const phrasesTravel = [
     "wordIds": [
       "11909"
     ],
+    "cloze": {
+      "de": "westliche",
+      "en": "western"
+    },
     "sourceIndex": 1909
   },
   {
@@ -1461,6 +1801,10 @@ const phrasesTravel = [
     "wordIds": [
       "11920"
     ],
+    "cloze": {
+      "de": "Entfernung",
+      "en": "distance"
+    },
     "sourceIndex": 1920
   },
   {
@@ -1478,6 +1822,10 @@ const phrasesTravel = [
     "wordIds": [
       "11941"
     ],
+    "cloze": {
+      "de": "Pkw",
+      "en": "car"
+    },
     "sourceIndex": 1941
   },
   {
@@ -1495,6 +1843,10 @@ const phrasesTravel = [
     "wordIds": [
       "11974"
     ],
+    "cloze": {
+      "de": "Hafen",
+      "en": "port"
+    },
     "sourceIndex": 1974
   },
   {
@@ -1512,6 +1864,10 @@ const phrasesTravel = [
     "wordIds": [
       "12029"
     ],
+    "cloze": {
+      "de": "Zoll",
+      "en": "customs"
+    },
     "sourceIndex": 2029
   },
   {
@@ -1529,6 +1885,10 @@ const phrasesTravel = [
     "wordIds": [
       "12112"
     ],
+    "cloze": {
+      "de": "aufheben",
+      "en": "pick"
+    },
     "sourceIndex": 2112
   },
   {
@@ -1546,6 +1906,10 @@ const phrasesTravel = [
     "wordIds": [
       "12216"
     ],
+    "cloze": {
+      "de": "stoppen",
+      "en": "stop"
+    },
     "sourceIndex": 2216
   },
   {
@@ -1563,6 +1927,10 @@ const phrasesTravel = [
     "wordIds": [
       "12259"
     ],
+    "cloze": {
+      "de": "Tourismus",
+      "en": "Tourism"
+    },
     "sourceIndex": 2259
   },
   {
@@ -1580,6 +1948,10 @@ const phrasesTravel = [
     "wordIds": [
       "12260"
     ],
+    "cloze": {
+      "de": "Transport",
+      "en": "transport"
+    },
     "sourceIndex": 2260
   },
   {
@@ -1597,6 +1969,10 @@ const phrasesTravel = [
     "wordIds": [
       "12306"
     ],
+    "cloze": {
+      "de": "Ticket",
+      "en": "ticket"
+    },
     "sourceIndex": 2306
   },
   {
@@ -1614,6 +1990,10 @@ const phrasesTravel = [
     "wordIds": [
       "12357"
     ],
+    "cloze": {
+      "de": "Empfang",
+      "en": "reception"
+    },
     "sourceIndex": 2357
   },
   {
@@ -1631,6 +2011,10 @@ const phrasesTravel = [
     "wordIds": [
       "12385"
     ],
+    "cloze": {
+      "de": "Welle",
+      "en": "wave"
+    },
     "sourceIndex": 2385
   },
   {
@@ -1648,6 +2032,10 @@ const phrasesTravel = [
     "wordIds": [
       "12414"
     ],
+    "cloze": {
+      "de": "mieten",
+      "en": "rent"
+    },
     "sourceIndex": 2414
   },
   {
@@ -1665,6 +2053,10 @@ const phrasesTravel = [
     "wordIds": [
       "12447"
     ],
+    "cloze": {
+      "de": "jahrelang",
+      "en": "for"
+    },
     "sourceIndex": 2447
   },
   {
@@ -1682,6 +2074,10 @@ const phrasesTravel = [
     "wordIds": [
       "12472"
     ],
+    "cloze": {
+      "de": "Ankunft",
+      "en": "arrival"
+    },
     "sourceIndex": 2472
   },
   {
@@ -1699,6 +2095,10 @@ const phrasesTravel = [
     "wordIds": [
       "12477"
     ],
+    "cloze": {
+      "de": "Autofahrer",
+      "en": "car"
+    },
     "sourceIndex": 2477
   },
   {
@@ -1716,6 +2116,10 @@ const phrasesTravel = [
     "wordIds": [
       "12501"
     ],
+    "cloze": {
+      "de": "packen",
+      "en": "pack"
+    },
     "sourceIndex": 2501
   },
   {
@@ -1733,6 +2137,10 @@ const phrasesTravel = [
     "wordIds": [
       "12517"
     ],
+    "cloze": {
+      "de": "Tunnel",
+      "en": "tunnel"
+    },
     "sourceIndex": 2517
   },
   {
@@ -1750,6 +2158,10 @@ const phrasesTravel = [
     "wordIds": [
       "12531"
     ],
+    "cloze": {
+      "de": "Diesel",
+      "en": "diesel"
+    },
     "sourceIndex": 2531
   },
   {
@@ -1767,6 +2179,10 @@ const phrasesTravel = [
     "wordIds": [
       "12543"
     ],
+    "cloze": {
+      "de": "Hütte",
+      "en": "hut"
+    },
     "sourceIndex": 2543
   },
   {
@@ -1784,6 +2200,10 @@ const phrasesTravel = [
     "wordIds": [
       "12571"
     ],
+    "cloze": {
+      "de": "aus",
+      "en": "trains"
+    },
     "sourceIndex": 2571
   },
   {
@@ -1801,6 +2221,10 @@ const phrasesTravel = [
     "wordIds": [
       "12606"
     ],
+    "cloze": {
+      "de": "Tourist",
+      "en": "tourist"
+    },
     "sourceIndex": 2606
   },
   {
@@ -1818,6 +2242,10 @@ const phrasesTravel = [
     "wordIds": [
       "12633"
     ],
+    "cloze": {
+      "de": "Distanz",
+      "en": "distance"
+    },
     "sourceIndex": 2633
   },
   {
@@ -1835,6 +2263,10 @@ const phrasesTravel = [
     "wordIds": [
       "12690"
     ],
+    "cloze": {
+      "de": "Führerschein",
+      "en": "driving"
+    },
     "sourceIndex": 2690
   },
   {
@@ -1852,6 +2284,10 @@ const phrasesTravel = [
     "wordIds": [
       "12697"
     ],
+    "cloze": {
+      "de": "Koffer",
+      "en": "suitcase"
+    },
     "sourceIndex": 2697
   },
   {
@@ -1869,6 +2305,10 @@ const phrasesTravel = [
     "wordIds": [
       "12739"
     ],
+    "cloze": {
+      "de": "Handbuch",
+      "en": "manual"
+    },
     "sourceIndex": 2739
   },
   {
@@ -1886,6 +2326,10 @@ const phrasesTravel = [
     "wordIds": [
       "12804"
     ],
+    "cloze": {
+      "de": "Unglück",
+      "en": "misfortune"
+    },
     "sourceIndex": 2804
   },
   {
@@ -1903,6 +2347,10 @@ const phrasesTravel = [
     "wordIds": [
       "12824"
     ],
+    "cloze": {
+      "de": "Bestätigung",
+      "en": "confirmation"
+    },
     "sourceIndex": 2824
   },
   {
@@ -1920,6 +2368,10 @@ const phrasesTravel = [
     "wordIds": [
       "12852"
     ],
+    "cloze": {
+      "de": "Pilot",
+      "en": "pilot"
+    },
     "sourceIndex": 2852
   },
   {
@@ -1937,6 +2389,10 @@ const phrasesTravel = [
     "wordIds": [
       "12901"
     ],
+    "cloze": {
+      "de": "Route",
+      "en": "route"
+    },
     "sourceIndex": 2901
   },
   {
@@ -1954,6 +2410,10 @@ const phrasesTravel = [
     "wordIds": [
       "12909"
     ],
+    "cloze": {
+      "de": "Taxi",
+      "en": "taxi"
+    },
     "sourceIndex": 2909
   },
   {
@@ -1971,6 +2431,10 @@ const phrasesTravel = [
     "wordIds": [
       "12910"
     ],
+    "cloze": {
+      "de": "trainiere",
+      "en": "train"
+    },
     "sourceIndex": 2910
   },
   {
@@ -1988,6 +2452,10 @@ const phrasesTravel = [
     "wordIds": [
       "12940"
     ],
+    "cloze": {
+      "de": "Kennzeichen",
+      "en": "license"
+    },
     "sourceIndex": 2940
   },
   {
@@ -2005,6 +2473,10 @@ const phrasesTravel = [
     "wordIds": [
       "12947"
     ],
+    "cloze": {
+      "de": "nerven",
+      "en": "annoying"
+    },
     "sourceIndex": 2947
   },
   {
@@ -2022,6 +2494,10 @@ const phrasesTravel = [
     "wordIds": [
       "12948"
     ],
+    "cloze": {
+      "de": "Pack",
+      "en": "pack"
+    },
     "sourceIndex": 2948
   },
   {
@@ -2039,6 +2515,10 @@ const phrasesTravel = [
     "wordIds": [
       "12980"
     ],
+    "cloze": {
+      "de": "Benzin",
+      "en": "gasoline"
+    },
     "sourceIndex": 2980
   },
   {
@@ -2056,6 +2536,10 @@ const phrasesTravel = [
     "wordIds": [
       "12985"
     ],
+    "cloze": {
+      "de": "elektrisches",
+      "en": "electric"
+    },
     "sourceIndex": 2985
   },
   {
@@ -2073,6 +2557,10 @@ const phrasesTravel = [
     "wordIds": [
       "13014"
     ],
+    "cloze": {
+      "de": "schieben",
+      "en": "push"
+    },
     "sourceIndex": 3014
   },
   {
@@ -2090,6 +2578,10 @@ const phrasesTravel = [
     "wordIds": [
       "13087"
     ],
+    "cloze": {
+      "de": "aufhalten",
+      "en": "stay"
+    },
     "sourceIndex": 3087
   },
   {
@@ -2107,6 +2599,10 @@ const phrasesTravel = [
     "wordIds": [
       "13183"
     ],
+    "cloze": {
+      "de": "Kai",
+      "en": "quay"
+    },
     "sourceIndex": 3183
   },
   {
@@ -2124,6 +2620,10 @@ const phrasesTravel = [
     "wordIds": [
       "13243"
     ],
+    "cloze": {
+      "de": "Horn",
+      "en": "horn"
+    },
     "sourceIndex": 3243
   },
   {
@@ -2141,6 +2641,10 @@ const phrasesTravel = [
     "wordIds": [
       "13253"
     ],
+    "cloze": {
+      "de": "Mittelmeer",
+      "en": "Mediterranean"
+    },
     "sourceIndex": 3253
   },
   {
@@ -2158,6 +2662,10 @@ const phrasesTravel = [
     "wordIds": [
       "13256"
     ],
+    "cloze": {
+      "de": "Ostsee",
+      "en": "Baltic"
+    },
     "sourceIndex": 3256
   },
   {
@@ -2175,6 +2683,10 @@ const phrasesTravel = [
     "wordIds": [
       "13292"
     ],
+    "cloze": {
+      "de": "Kurve",
+      "en": "curve"
+    },
     "sourceIndex": 3292
   },
   {
@@ -2192,6 +2704,10 @@ const phrasesTravel = [
     "wordIds": [
       "13314"
     ],
+    "cloze": {
+      "de": "Volumen",
+      "en": "volume"
+    },
     "sourceIndex": 3314
   },
   {
@@ -2209,6 +2725,10 @@ const phrasesTravel = [
     "wordIds": [
       "13320"
     ],
+    "cloze": {
+      "de": "Abfahrt",
+      "en": "departure"
+    },
     "sourceIndex": 3320
   },
   {
@@ -2226,6 +2746,10 @@ const phrasesTravel = [
     "wordIds": [
       "13321"
     ],
+    "cloze": {
+      "de": "abbrechen",
+      "en": "cancel"
+    },
     "sourceIndex": 3321
   },
   {
@@ -2243,6 +2767,10 @@ const phrasesTravel = [
     "wordIds": [
       "13331"
     ],
+    "cloze": {
+      "de": "Ausflug",
+      "en": "excursion"
+    },
     "sourceIndex": 3331
   },
   {
@@ -2260,6 +2788,10 @@ const phrasesTravel = [
     "wordIds": [
       "13341"
     ],
+    "cloze": {
+      "de": "buchen",
+      "en": "book"
+    },
     "sourceIndex": 3341
   },
   {
@@ -2277,6 +2809,10 @@ const phrasesTravel = [
     "wordIds": [
       "13343"
     ],
+    "cloze": {
+      "de": "Crew",
+      "en": "crew"
+    },
     "sourceIndex": 3343
   },
   {
@@ -2294,6 +2830,10 @@ const phrasesTravel = [
     "wordIds": [
       "13352"
     ],
+    "cloze": {
+      "de": "Gepäck",
+      "en": "luggage"
+    },
     "sourceIndex": 3352
   },
   {
@@ -2311,6 +2851,10 @@ const phrasesTravel = [
     "wordIds": [
       "13365"
     ],
+    "cloze": {
+      "de": "Lizenz",
+      "en": "license"
+    },
     "sourceIndex": 3365
   },
   {
@@ -2328,6 +2872,10 @@ const phrasesTravel = [
     "wordIds": [
       "13467"
     ],
+    "cloze": {
+      "de": "Erfindung",
+      "en": "invention"
+    },
     "sourceIndex": 3467
   },
   {
@@ -2345,6 +2893,10 @@ const phrasesTravel = [
     "wordIds": [
       "13474"
     ],
+    "cloze": {
+      "de": "Garage",
+      "en": "garage"
+    },
     "sourceIndex": 3474
   },
   {
@@ -2362,6 +2914,10 @@ const phrasesTravel = [
     "wordIds": [
       "13476"
     ],
+    "cloze": {
+      "de": "gültig",
+      "en": "valid"
+    },
     "sourceIndex": 3476
   },
   {
@@ -2379,6 +2935,10 @@ const phrasesTravel = [
     "wordIds": [
       "13522"
     ],
+    "cloze": {
+      "de": "bremsen",
+      "en": "brake"
+    },
     "sourceIndex": 3522
   },
   {
@@ -2396,6 +2956,10 @@ const phrasesTravel = [
     "wordIds": [
       "13529"
     ],
+    "cloze": {
+      "de": "Faden",
+      "en": "thread"
+    },
     "sourceIndex": 3529
   },
   {
@@ -2413,6 +2977,10 @@ const phrasesTravel = [
     "wordIds": [
       "13568"
     ],
+    "cloze": {
+      "de": "absagen",
+      "en": "cancel"
+    },
     "sourceIndex": 3568
   },
   {
@@ -2430,6 +2998,10 @@ const phrasesTravel = [
     "wordIds": [
       "13588"
     ],
+    "cloze": {
+      "de": "Eisenbahn",
+      "en": "train"
+    },
     "sourceIndex": 3588
   },
   {
@@ -2447,6 +3019,10 @@ const phrasesTravel = [
     "wordIds": [
       "13605"
     ],
+    "cloze": {
+      "de": "Passagier",
+      "en": "passenger"
+    },
     "sourceIndex": 3605
   },
   {
@@ -2464,6 +3040,10 @@ const phrasesTravel = [
     "wordIds": [
       "13614"
     ],
+    "cloze": {
+      "de": "Rucksack",
+      "en": "backpack"
+    },
     "sourceIndex": 3614
   },
   {
@@ -2481,6 +3061,10 @@ const phrasesTravel = [
     "wordIds": [
       "13665"
     ],
+    "cloze": {
+      "de": "Ladung",
+      "en": "cargo"
+    },
     "sourceIndex": 3665
   },
   {
@@ -2498,6 +3082,10 @@ const phrasesTravel = [
     "wordIds": [
       "13726"
     ],
+    "cloze": {
+      "de": "Meile",
+      "en": "mile"
+    },
     "sourceIndex": 3726
   },
   {
@@ -2515,6 +3103,10 @@ const phrasesTravel = [
     "wordIds": [
       "13734"
     ],
+    "cloze": {
+      "de": "Sehenswürdigkeiten",
+      "en": "sights"
+    },
     "sourceIndex": 3734
   },
   {
@@ -2532,6 +3124,10 @@ const phrasesTravel = [
     "wordIds": [
       "13758"
     ],
+    "cloze": {
+      "de": "ausfallen",
+      "en": "be"
+    },
     "sourceIndex": 3758
   },
   {
@@ -2549,6 +3145,10 @@ const phrasesTravel = [
     "wordIds": [
       "13774"
     ],
+    "cloze": {
+      "de": "einsteigen",
+      "en": "get"
+    },
     "sourceIndex": 3774
   },
   {
@@ -2566,6 +3166,10 @@ const phrasesTravel = [
     "wordIds": [
       "13836"
     ],
+    "cloze": {
+      "de": "Haltestelle",
+      "en": "stop"
+    },
     "sourceIndex": 3836
   },
   {
@@ -2583,6 +3187,10 @@ const phrasesTravel = [
     "wordIds": [
       "13841"
     ],
+    "cloze": {
+      "de": "Hubschrauber",
+      "en": "helicopter"
+    },
     "sourceIndex": 3841
   },
   {
@@ -2600,6 +3208,10 @@ const phrasesTravel = [
     "wordIds": [
       "13886"
     ],
+    "cloze": {
+      "de": "beantragen",
+      "en": "apply"
+    },
     "sourceIndex": 3886
   },
   {
@@ -2617,6 +3229,10 @@ const phrasesTravel = [
     "wordIds": [
       "13974"
     ],
+    "cloze": {
+      "de": "Flieger",
+      "en": "pilot"
+    },
     "sourceIndex": 3974
   },
   {
@@ -2634,6 +3250,10 @@ const phrasesTravel = [
     "wordIds": [
       "14002"
     ],
+    "cloze": {
+      "de": "Tweet",
+      "en": "tweet"
+    },
     "sourceIndex": 4002
   },
   {
@@ -2651,6 +3271,10 @@ const phrasesTravel = [
     "wordIds": [
       "14100"
     ],
+    "cloze": {
+      "de": "Bucht",
+      "en": "bay"
+    },
     "sourceIndex": 4100
   },
   {
@@ -2668,6 +3292,10 @@ const phrasesTravel = [
     "wordIds": [
       "14102"
     ],
+    "cloze": {
+      "de": "Captain",
+      "en": "captain"
+    },
     "sourceIndex": 4102
   },
   {
@@ -2685,6 +3313,10 @@ const phrasesTravel = [
     "wordIds": [
       "14123"
     ],
+    "cloze": {
+      "de": "Londoner",
+      "en": "Londoner"
+    },
     "sourceIndex": 4123
   },
   {
@@ -2702,6 +3334,10 @@ const phrasesTravel = [
     "wordIds": [
       "14139"
     ],
+    "cloze": {
+      "de": "Stau",
+      "en": "traffic"
+    },
     "sourceIndex": 4139
   },
   {
@@ -2719,6 +3355,10 @@ const phrasesTravel = [
     "wordIds": [
       "14145"
     ],
+    "cloze": {
+      "de": "transportieren",
+      "en": "transport"
+    },
     "sourceIndex": 4145
   },
   {
@@ -2736,6 +3376,10 @@ const phrasesTravel = [
     "wordIds": [
       "14146"
     ],
+    "cloze": {
+      "de": "Umkreis",
+      "en": "radius"
+    },
     "sourceIndex": 4146
   },
   {
@@ -2753,6 +3397,10 @@ const phrasesTravel = [
     "wordIds": [
       "14240"
     ],
+    "cloze": {
+      "de": "Fussgänger",
+      "en": "Pedestrians"
+    },
     "sourceIndex": 4240
   },
   {
@@ -2770,6 +3418,10 @@ const phrasesTravel = [
     "wordIds": [
       "14256"
     ],
+    "cloze": {
+      "de": "lenken",
+      "en": "steer"
+    },
     "sourceIndex": 4256
   },
   {
@@ -2787,6 +3439,10 @@ const phrasesTravel = [
     "wordIds": [
       "14285"
     ],
+    "cloze": {
+      "de": "überholen",
+      "en": "overtake"
+    },
     "sourceIndex": 4285
   },
   {
@@ -2804,6 +3460,10 @@ const phrasesTravel = [
     "wordIds": [
       "14335"
     ],
+    "cloze": {
+      "de": "Nordsee",
+      "en": "North"
+    },
     "sourceIndex": 4335
   },
   {
@@ -2821,6 +3481,10 @@ const phrasesTravel = [
     "wordIds": [
       "14350"
     ],
+    "cloze": {
+      "de": "Transfer",
+      "en": "transfer"
+    },
     "sourceIndex": 4350
   },
   {
@@ -2838,6 +3502,10 @@ const phrasesTravel = [
     "wordIds": [
       "14427"
     ],
+    "cloze": {
+      "de": "Strassenverkehr",
+      "en": "road"
+    },
     "sourceIndex": 4427
   },
   {
@@ -2855,6 +3523,10 @@ const phrasesTravel = [
     "wordIds": [
       "14464"
     ],
+    "cloze": {
+      "de": "Containern",
+      "en": "containers"
+    },
     "sourceIndex": 4464
   },
   {
@@ -2872,6 +3544,10 @@ const phrasesTravel = [
     "wordIds": [
       "14522"
     ],
+    "cloze": {
+      "de": "aussteigen",
+      "en": "get"
+    },
     "sourceIndex": 4522
   },
   {
@@ -2889,6 +3565,10 @@ const phrasesTravel = [
     "wordIds": [
       "14611"
     ],
+    "cloze": {
+      "de": "Kombi",
+      "en": "station"
+    },
     "sourceIndex": 4611
   },
   {
@@ -2906,6 +3586,10 @@ const phrasesTravel = [
     "wordIds": [
       "14621"
     ],
+    "cloze": {
+      "de": "Port",
+      "en": "port"
+    },
     "sourceIndex": 4621
   },
   {
@@ -2923,6 +3607,10 @@ const phrasesTravel = [
     "wordIds": [
       "14625"
     ],
+    "cloze": {
+      "de": "Ratgeber",
+      "en": "guide"
+    },
     "sourceIndex": 4625
   },
   {
@@ -2940,6 +3628,10 @@ const phrasesTravel = [
     "wordIds": [
       "14640"
     ],
+    "cloze": {
+      "de": "Trip",
+      "en": "trip"
+    },
     "sourceIndex": 4640
   },
   {
@@ -2957,6 +3649,10 @@ const phrasesTravel = [
     "wordIds": [
       "14652"
     ],
+    "cloze": {
+      "de": "Airline",
+      "en": "airline"
+    },
     "sourceIndex": 4652
   },
   {
@@ -2974,6 +3670,10 @@ const phrasesTravel = [
     "wordIds": [
       "14659"
     ],
+    "cloze": {
+      "de": "Car",
+      "en": "car"
+    },
     "sourceIndex": 4659
   },
   {
@@ -2991,6 +3691,10 @@ const phrasesTravel = [
     "wordIds": [
       "14686"
     ],
+    "cloze": {
+      "de": "Landstrasse",
+      "en": "country"
+    },
     "sourceIndex": 4686
   },
   {
@@ -3008,6 +3712,10 @@ const phrasesTravel = [
     "wordIds": [
       "14707"
     ],
+    "cloze": {
+      "de": "Stopp",
+      "en": "stop"
+    },
     "sourceIndex": 4707
   },
   {
@@ -3025,6 +3733,10 @@ const phrasesTravel = [
     "wordIds": [
       "14709"
     ],
+    "cloze": {
+      "de": "Tankstelle",
+      "en": "gas"
+    },
     "sourceIndex": 4709
   },
   {
@@ -3042,6 +3754,10 @@ const phrasesTravel = [
     "wordIds": [
       "14719"
     ],
+    "cloze": {
+      "de": "Wie",
+      "en": "weigh"
+    },
     "sourceIndex": 4719
   },
   {
@@ -3059,6 +3775,10 @@ const phrasesTravel = [
     "wordIds": [
       "14780"
     ],
+    "cloze": {
+      "de": "Quartier",
+      "en": "nice"
+    },
     "sourceIndex": 4780
   },
   {
@@ -3076,6 +3796,10 @@ const phrasesTravel = [
     "wordIds": [
       "14814"
     ],
+    "cloze": {
+      "de": "abgelaufen",
+      "en": "expired"
+    },
     "sourceIndex": 4814
   },
   {
@@ -3093,6 +3817,10 @@ const phrasesTravel = [
     "wordIds": [
       "14817"
     ],
+    "cloze": {
+      "de": "Absage",
+      "en": "cancellation"
+    },
     "sourceIndex": 4817
   },
   {
@@ -3110,6 +3838,10 @@ const phrasesTravel = [
     "wordIds": [
       "14848"
     ],
+    "cloze": {
+      "de": "Gleis",
+      "en": "train"
+    },
     "sourceIndex": 4848
   },
   {
@@ -3127,6 +3859,10 @@ const phrasesTravel = [
     "wordIds": [
       "14852"
     ],
+    "cloze": {
+      "de": "Kabine",
+      "en": "cabin"
+    },
     "sourceIndex": 4852
   },
   {
@@ -3144,6 +3880,10 @@ const phrasesTravel = [
     "wordIds": [
       "14857"
     ],
+    "cloze": {
+      "de": "Landung",
+      "en": "landing"
+    },
     "sourceIndex": 4857
   },
   {
@@ -3161,6 +3901,10 @@ const phrasesTravel = [
     "wordIds": [
       "14910"
     ],
+    "cloze": {
+      "de": "Bike",
+      "en": "bike"
+    },
     "sourceIndex": 4910
   },
   {
@@ -3178,6 +3922,10 @@ const phrasesTravel = [
     "wordIds": [
       "14921"
     ],
+    "cloze": {
+      "de": "Fahrbahn",
+      "en": "roadway"
+    },
     "sourceIndex": 4921
   },
   {
@@ -3195,6 +3943,10 @@ const phrasesTravel = [
     "wordIds": [
       "14938"
     ],
+    "cloze": {
+      "de": "Map",
+      "en": "map"
+    },
     "sourceIndex": 4938
   },
   {
@@ -3212,6 +3964,10 @@ const phrasesTravel = [
     "wordIds": [
       "14976"
     ],
+    "cloze": {
+      "de": "Abgang",
+      "en": "departure"
+    },
     "sourceIndex": 4976
   },
   {
@@ -3229,6 +3985,10 @@ const phrasesTravel = [
     "wordIds": [
       "15008"
     ],
+    "cloze": {
+      "de": "Guide",
+      "en": "guide"
+    },
     "sourceIndex": 5008
   },
   {
@@ -3246,6 +4006,10 @@ const phrasesTravel = [
     "wordIds": [
       "15023"
     ],
+    "cloze": {
+      "de": "Lobby",
+      "en": "lobby"
+    },
     "sourceIndex": 5023
   },
   {
@@ -3263,6 +4027,10 @@ const phrasesTravel = [
     "wordIds": [
       "15047"
     ],
+    "cloze": {
+      "de": "Südwesten",
+      "en": "southwest"
+    },
     "sourceIndex": 5047
   },
   {
@@ -3280,6 +4048,10 @@ const phrasesTravel = [
     "wordIds": [
       "15078"
     ],
+    "cloze": {
+      "de": "Deck",
+      "en": "deck"
+    },
     "sourceIndex": 5078
   },
   {
@@ -3297,6 +4069,10 @@ const phrasesTravel = [
     "wordIds": [
       "15127"
     ],
+    "cloze": {
+      "de": "segeln",
+      "en": "sailing"
+    },
     "sourceIndex": 5127
   },
   {
@@ -3314,6 +4090,10 @@ const phrasesTravel = [
     "wordIds": [
       "15175"
     ],
+    "cloze": {
+      "de": "eintreffen",
+      "en": "arrive"
+    },
     "sourceIndex": 5175
   },
   {
@@ -3331,6 +4111,10 @@ const phrasesTravel = [
     "wordIds": [
       "15210"
     ],
+    "cloze": {
+      "de": "nähert",
+      "en": "approaching"
+    },
     "sourceIndex": 5210
   },
   {
@@ -3348,6 +4132,10 @@ const phrasesTravel = [
     "wordIds": [
       "15304"
     ],
+    "cloze": {
+      "de": "Ruder",
+      "en": "rudder"
+    },
     "sourceIndex": 5304
   },
   {
@@ -3365,6 +4153,10 @@ const phrasesTravel = [
     "wordIds": [
       "15359"
     ],
+    "cloze": {
+      "de": "Fahrgast",
+      "en": "passenger"
+    },
     "sourceIndex": 5359
   },
   {
@@ -3382,6 +4174,10 @@ const phrasesTravel = [
     "wordIds": [
       "15361"
     ],
+    "cloze": {
+      "de": "geführte",
+      "en": "guided"
+    },
     "sourceIndex": 5361
   },
   {
@@ -3399,6 +4195,10 @@ const phrasesTravel = [
     "wordIds": [
       "15457"
     ],
+    "cloze": {
+      "de": "Fähre",
+      "en": "ferry"
+    },
     "sourceIndex": 5457
   },
   {
@@ -3416,6 +4216,10 @@ const phrasesTravel = [
     "wordIds": [
       "15460"
     ],
+    "cloze": {
+      "de": "Handtasche",
+      "en": "handbag"
+    },
     "sourceIndex": 5460
   },
   {
@@ -3433,6 +4237,10 @@ const phrasesTravel = [
     "wordIds": [
       "15473"
     ],
+    "cloze": {
+      "de": "Metro",
+      "en": "subway"
+    },
     "sourceIndex": 5473
   },
   {
@@ -3450,6 +4258,10 @@ const phrasesTravel = [
     "wordIds": [
       "15501"
     ],
+    "cloze": {
+      "de": "verdoppeln",
+      "en": "double"
+    },
     "sourceIndex": 5501
   },
   {
@@ -3467,6 +4279,10 @@ const phrasesTravel = [
     "wordIds": [
       "15523"
     ],
+    "cloze": {
+      "de": "ausweichen",
+      "en": "avoid"
+    },
     "sourceIndex": 5523
   },
   {
@@ -3484,6 +4300,10 @@ const phrasesTravel = [
     "wordIds": [
       "15577"
     ],
+    "cloze": {
+      "de": "Seil",
+      "en": "rope"
+    },
     "sourceIndex": 5577
   },
   {
@@ -3501,6 +4321,10 @@ const phrasesTravel = [
     "wordIds": [
       "15608"
     ],
+    "cloze": {
+      "de": "Anker",
+      "en": "anchor"
+    },
     "sourceIndex": 5608
   },
   {
@@ -3518,6 +4342,10 @@ const phrasesTravel = [
     "wordIds": [
       "15616"
     ],
+    "cloze": {
+      "de": "Bergmann",
+      "en": "miner"
+    },
     "sourceIndex": 5616
   },
   {
@@ -3535,6 +4363,10 @@ const phrasesTravel = [
     "wordIds": [
       "15617"
     ],
+    "cloze": {
+      "de": "beschleunigter",
+      "en": "accelerated"
+    },
     "sourceIndex": 5617
   },
   {
@@ -3552,6 +4384,10 @@ const phrasesTravel = [
     "wordIds": [
       "15644"
     ],
+    "cloze": {
+      "de": "Kante",
+      "en": "edge"
+    },
     "sourceIndex": 5644
   },
   {
@@ -3569,6 +4405,10 @@ const phrasesTravel = [
     "wordIds": [
       "15772"
     ],
+    "cloze": {
+      "de": "Visum",
+      "en": "visa"
+    },
     "sourceIndex": 5772
   },
   {
@@ -3586,6 +4426,10 @@ const phrasesTravel = [
     "wordIds": [
       "15780"
     ],
+    "cloze": {
+      "de": "abstellen",
+      "en": "park"
+    },
     "sourceIndex": 5780
   },
   {
@@ -3603,6 +4447,10 @@ const phrasesTravel = [
     "wordIds": [
       "15790"
     ],
+    "cloze": {
+      "de": "Begrenzung",
+      "en": "a"
+    },
     "sourceIndex": 5790
   },
   {
@@ -3620,6 +4468,10 @@ const phrasesTravel = [
     "wordIds": [
       "15821"
     ],
+    "cloze": {
+      "de": "Jet",
+      "en": "jet"
+    },
     "sourceIndex": 5821
   },
   {
@@ -3637,6 +4489,10 @@ const phrasesTravel = [
     "wordIds": [
       "15833"
     ],
+    "cloze": {
+      "de": "Nahverkehr",
+      "en": "local"
+    },
     "sourceIndex": 5833
   },
   {
@@ -3654,6 +4510,10 @@ const phrasesTravel = [
     "wordIds": [
       "15865"
     ],
+    "cloze": {
+      "de": "Turbo",
+      "en": "turbo"
+    },
     "sourceIndex": 5865
   },
   {
@@ -3671,6 +4531,10 @@ const phrasesTravel = [
     "wordIds": [
       "15889"
     ],
+    "cloze": {
+      "de": "albern",
+      "en": "silly"
+    },
     "sourceIndex": 5889
   },
   {
@@ -3688,6 +4552,10 @@ const phrasesTravel = [
     "wordIds": [
       "15896"
     ],
+    "cloze": {
+      "de": "Atlas",
+      "en": "atlas"
+    },
     "sourceIndex": 5896
   },
   {
@@ -3705,6 +4573,10 @@ const phrasesTravel = [
     "wordIds": [
       "15908"
     ],
+    "cloze": {
+      "de": "Brenner",
+      "en": "burner"
+    },
     "sourceIndex": 5908
   },
   {
@@ -3722,6 +4594,10 @@ const phrasesTravel = [
     "wordIds": [
       "16015"
     ],
+    "cloze": {
+      "de": "erkunden",
+      "en": "explore"
+    },
     "sourceIndex": 6015
   },
   {
@@ -3739,6 +4615,10 @@ const phrasesTravel = [
     "wordIds": [
       "16025"
     ],
+    "cloze": {
+      "de": "Gasthaus",
+      "en": "inn"
+    },
     "sourceIndex": 6025
   },
   {
@@ -3756,6 +4636,10 @@ const phrasesTravel = [
     "wordIds": [
       "16076"
     ],
+    "cloze": {
+      "de": "Weltraum",
+      "en": "space"
+    },
     "sourceIndex": 6076
   },
   {
@@ -3773,6 +4657,10 @@ const phrasesTravel = [
     "wordIds": [
       "16081"
     ],
+    "cloze": {
+      "de": "Urlaub",
+      "en": "weight"
+    },
     "sourceIndex": 6081
   },
   {
@@ -3790,6 +4678,10 @@ const phrasesTravel = [
     "wordIds": [
       "16113"
     ],
+    "cloze": {
+      "de": "Innenraum",
+      "en": "interior"
+    },
     "sourceIndex": 6113
   },
   {
@@ -3807,6 +4699,10 @@ const phrasesTravel = [
     "wordIds": [
       "16119"
     ],
+    "cloze": {
+      "de": "Lok",
+      "en": "locomotive"
+    },
     "sourceIndex": 6119
   },
   {
@@ -3824,6 +4720,10 @@ const phrasesTravel = [
     "wordIds": [
       "16147"
     ],
+    "cloze": {
+      "de": "Taxifahrer",
+      "en": "taxi"
+    },
     "sourceIndex": 6147
   },
   {
@@ -3841,6 +4741,10 @@ const phrasesTravel = [
     "wordIds": [
       "16241"
     ],
+    "cloze": {
+      "de": "Passant",
+      "en": "passerby"
+    },
     "sourceIndex": 6241
   },
   {
@@ -3858,6 +4762,10 @@ const phrasesTravel = [
     "wordIds": [
       "16277"
     ],
+    "cloze": {
+      "de": "abgehen",
+      "en": "depart"
+    },
     "sourceIndex": 6277
   },
   {
@@ -3875,6 +4783,10 @@ const phrasesTravel = [
     "wordIds": [
       "16279"
     ],
+    "cloze": {
+      "de": "Andenken",
+      "en": "souvenir"
+    },
     "sourceIndex": 6279
   },
   {
@@ -3892,6 +4804,10 @@ const phrasesTravel = [
     "wordIds": [
       "16282"
     ],
+    "cloze": {
+      "de": "an",
+      "en": "up"
+    },
     "sourceIndex": 6282
   },
   {
@@ -3909,6 +4825,10 @@ const phrasesTravel = [
     "wordIds": [
       "16298"
     ],
+    "cloze": {
+      "de": "Bremse",
+      "en": "brake"
+    },
     "sourceIndex": 6298
   },
   {
@@ -3926,6 +4846,10 @@ const phrasesTravel = [
     "wordIds": [
       "16327"
     ],
+    "cloze": {
+      "de": "Lounge",
+      "en": "lounge"
+    },
     "sourceIndex": 6327
   },
   {
@@ -3943,6 +4867,10 @@ const phrasesTravel = [
     "wordIds": [
       "16336"
     ],
+    "cloze": {
+      "de": "Nordosten",
+      "en": "northeast"
+    },
     "sourceIndex": 6336
   },
   {
@@ -3960,6 +4888,10 @@ const phrasesTravel = [
     "wordIds": [
       "16352"
     ],
+    "cloze": {
+      "de": "Segel",
+      "en": "sail"
+    },
     "sourceIndex": 6352
   },
   {
@@ -3977,6 +4909,10 @@ const phrasesTravel = [
     "wordIds": [
       "16360"
     ],
+    "cloze": {
+      "de": "tanken",
+      "en": "refuel"
+    },
     "sourceIndex": 6360
   },
   {
@@ -3994,6 +4930,10 @@ const phrasesTravel = [
     "wordIds": [
       "16424"
     ],
+    "cloze": {
+      "de": "Limousine",
+      "en": "limousine"
+    },
     "sourceIndex": 6424
   },
   {
@@ -4011,6 +4951,10 @@ const phrasesTravel = [
     "wordIds": [
       "16459"
     ],
+    "cloze": {
+      "de": "Urlauber",
+      "en": "holidaymakers"
+    },
     "sourceIndex": 6459
   },
   {
@@ -4028,6 +4972,10 @@ const phrasesTravel = [
     "wordIds": [
       "16482"
     ],
+    "cloze": {
+      "de": "Ausfahrt",
+      "en": "exit"
+    },
     "sourceIndex": 6482
   },
   {
@@ -4045,6 +4993,10 @@ const phrasesTravel = [
     "wordIds": [
       "16491"
     ],
+    "cloze": {
+      "de": "Busfahrer",
+      "en": "bus"
+    },
     "sourceIndex": 6491
   },
   {
@@ -4062,6 +5014,10 @@ const phrasesTravel = [
     "wordIds": [
       "16526"
     ],
+    "cloze": {
+      "de": "Kofferraum",
+      "en": "car"
+    },
     "sourceIndex": 6526
   },
   {
@@ -4079,6 +5035,10 @@ const phrasesTravel = [
     "wordIds": [
       "16528"
     ],
+    "cloze": {
+      "de": "kompakt",
+      "en": "compact"
+    },
     "sourceIndex": 6528
   },
   {
@@ -4096,6 +5056,10 @@ const phrasesTravel = [
     "wordIds": [
       "16570"
     ],
+    "cloze": {
+      "de": "ungültig",
+      "en": "invalid"
+    },
     "sourceIndex": 6570
   },
   {
@@ -4113,6 +5077,10 @@ const phrasesTravel = [
     "wordIds": [
       "16589"
     ],
+    "cloze": {
+      "de": "Wohnwagen",
+      "en": "caravan"
+    },
     "sourceIndex": 6589
   },
   {
@@ -4130,6 +5098,10 @@ const phrasesTravel = [
     "wordIds": [
       "16669"
     ],
+    "cloze": {
+      "de": "Verkehrsmittel",
+      "en": "means"
+    },
     "sourceIndex": 6669
   },
   {
@@ -4147,6 +5119,10 @@ const phrasesTravel = [
     "wordIds": [
       "16691"
     ],
+    "cloze": {
+      "de": "Anreise",
+      "en": "journey"
+    },
     "sourceIndex": 6691
   },
   {
@@ -4164,6 +5140,10 @@ const phrasesTravel = [
     "wordIds": [
       "16748"
     ],
+    "cloze": {
+      "de": "manuell",
+      "en": "manually"
+    },
     "sourceIndex": 6748
   },
   {
@@ -4181,6 +5161,10 @@ const phrasesTravel = [
     "wordIds": [
       "16754"
     ],
+    "cloze": {
+      "de": "monatelang",
+      "en": "for"
+    },
     "sourceIndex": 6754
   },
   {
@@ -4198,6 +5182,10 @@ const phrasesTravel = [
     "wordIds": [
       "16758"
     ],
+    "cloze": {
+      "de": "Oldtimer",
+      "en": "vintage"
+    },
     "sourceIndex": 6758
   },
   {
@@ -4215,6 +5203,10 @@ const phrasesTravel = [
     "wordIds": [
       "16760"
     ],
+    "cloze": {
+      "de": "Parkhaus",
+      "en": "parking"
+    },
     "sourceIndex": 6760
   },
   {
@@ -4232,6 +5224,10 @@ const phrasesTravel = [
     "wordIds": [
       "16781"
     ],
+    "cloze": {
+      "de": "Umweg",
+      "en": "detour"
+    },
     "sourceIndex": 6781
   },
   {
@@ -4249,6 +5245,10 @@ const phrasesTravel = [
     "wordIds": [
       "16801"
     ],
+    "cloze": {
+      "de": "Bahnsteig",
+      "en": "train"
+    },
     "sourceIndex": 6801
   },
   {
@@ -4266,6 +5266,10 @@ const phrasesTravel = [
     "wordIds": [
       "16825"
     ],
+    "cloze": {
+      "de": "Fluggesellschaft",
+      "en": "airline"
+    },
     "sourceIndex": 6825
   },
   {
@@ -4283,6 +5287,10 @@ const phrasesTravel = [
     "wordIds": [
       "16861"
     ],
+    "cloze": {
+      "de": "Südwest",
+      "en": "southwest"
+    },
     "sourceIndex": 6861
   },
   {
@@ -4300,6 +5308,10 @@ const phrasesTravel = [
     "wordIds": [
       "16905"
     ],
+    "cloze": {
+      "de": "Elektroauto",
+      "en": "electric"
+    },
     "sourceIndex": 6905
   },
   {
@@ -4317,6 +5329,10 @@ const phrasesTravel = [
     "wordIds": [
       "16985"
     ],
+    "cloze": {
+      "de": "Asphalt",
+      "en": "asphalt"
+    },
     "sourceIndex": 6985
   },
   {
@@ -4334,6 +5350,10 @@ const phrasesTravel = [
     "wordIds": [
       "16989"
     ],
+    "cloze": {
+      "de": "Autounfall",
+      "en": "car"
+    },
     "sourceIndex": 6989
   },
   {
@@ -4351,6 +5371,10 @@ const phrasesTravel = [
     "wordIds": [
       "17036"
     ],
+    "cloze": {
+      "de": "Kratzer",
+      "en": "scratch"
+    },
     "sourceIndex": 7036
   },
   {
@@ -4368,6 +5392,10 @@ const phrasesTravel = [
     "wordIds": [
       "17072"
     ],
+    "cloze": {
+      "de": "Südosten",
+      "en": "southeast"
+    },
     "sourceIndex": 7072
   },
   {
@@ -4385,6 +5413,10 @@ const phrasesTravel = [
     "wordIds": [
       "17116"
     ],
+    "cloze": {
+      "de": "Fahrplan",
+      "en": "timetable"
+    },
     "sourceIndex": 7116
   },
   {
@@ -4402,6 +5434,10 @@ const phrasesTravel = [
     "wordIds": [
       "17117"
     ],
+    "cloze": {
+      "de": "Flugplatz",
+      "en": "airfield"
+    },
     "sourceIndex": 7117
   },
   {
@@ -4419,6 +5455,10 @@ const phrasesTravel = [
     "wordIds": [
       "17201"
     ],
+    "cloze": {
+      "de": "abfahren",
+      "en": "depart"
+    },
     "sourceIndex": 7201
   },
   {
@@ -4436,6 +5476,10 @@ const phrasesTravel = [
     "wordIds": [
       "17228"
     ],
+    "cloze": {
+      "de": "Bushaltestelle",
+      "en": "bus"
+    },
     "sourceIndex": 7228
   },
   {
@@ -4453,6 +5497,10 @@ const phrasesTravel = [
     "wordIds": [
       "17280"
     ],
+    "cloze": {
+      "de": "umsteigen",
+      "en": "change"
+    },
     "sourceIndex": 7280
   },
   {
@@ -4470,6 +5518,10 @@ const phrasesTravel = [
     "wordIds": [
       "17289"
     ],
+    "cloze": {
+      "de": "verspätet",
+      "en": "delayed"
+    },
     "sourceIndex": 7289
   },
   {
@@ -4487,6 +5539,10 @@ const phrasesTravel = [
     "wordIds": [
       "17375"
     ],
+    "cloze": {
+      "de": "Radler",
+      "en": "cyclist"
+    },
     "sourceIndex": 7375
   },
   {
@@ -4504,6 +5560,10 @@ const phrasesTravel = [
     "wordIds": [
       "17380"
     ],
+    "cloze": {
+      "de": "Scheinwerfer",
+      "en": "headlights"
+    },
     "sourceIndex": 7380
   },
   {
@@ -4521,6 +5581,10 @@ const phrasesTravel = [
     "wordIds": [
       "17429"
     ],
+    "cloze": {
+      "de": "anheben",
+      "en": "lift"
+    },
     "sourceIndex": 7429
   },
   {
@@ -4538,6 +5602,10 @@ const phrasesTravel = [
     "wordIds": [
       "17461"
     ],
+    "cloze": {
+      "de": "Gasthof",
+      "en": "inn"
+    },
     "sourceIndex": 7461
   },
   {
@@ -4555,6 +5623,10 @@ const phrasesTravel = [
     "wordIds": [
       "17502"
     ],
+    "cloze": {
+      "de": "Raumfahrt",
+      "en": "Space"
+    },
     "sourceIndex": 7502
   },
   {
@@ -4572,6 +5644,10 @@ const phrasesTravel = [
     "wordIds": [
       "17524"
     ],
+    "cloze": {
+      "de": "Treibstoff",
+      "en": "fuel"
+    },
     "sourceIndex": 7524
   },
   {
@@ -4589,6 +5665,10 @@ const phrasesTravel = [
     "wordIds": [
       "17614"
     ],
+    "cloze": {
+      "de": "Lenkrad",
+      "en": "steering"
+    },
     "sourceIndex": 7614
   },
   {
@@ -4606,6 +5686,10 @@ const phrasesTravel = [
     "wordIds": [
       "17626"
     ],
+    "cloze": {
+      "de": "Nordwesten",
+      "en": "northwest"
+    },
     "sourceIndex": 7626
   },
   {
@@ -4623,6 +5707,10 @@ const phrasesTravel = [
     "wordIds": [
       "17638"
     ],
+    "cloze": {
+      "de": "Rundgang",
+      "en": "tour"
+    },
     "sourceIndex": 7638
   },
   {
@@ -4640,6 +5728,10 @@ const phrasesTravel = [
     "wordIds": [
       "17647"
     ],
+    "cloze": {
+      "de": "Starter",
+      "en": "starter"
+    },
     "sourceIndex": 7647
   },
   {
@@ -4657,6 +5749,10 @@ const phrasesTravel = [
     "wordIds": [
       "17730"
     ],
+    "cloze": {
+      "de": "Helikopter",
+      "en": "helicopter"
+    },
     "sourceIndex": 7730
   },
   {
@@ -4674,6 +5770,10 @@ const phrasesTravel = [
     "wordIds": [
       "17758"
     ],
+    "cloze": {
+      "de": "Panne",
+      "en": "breakdown"
+    },
     "sourceIndex": 7758
   },
   {
@@ -4691,6 +5791,10 @@ const phrasesTravel = [
     "wordIds": [
       "17846"
     ],
+    "cloze": {
+      "de": "Highway",
+      "en": "highway"
+    },
     "sourceIndex": 7846
   },
   {
@@ -4708,6 +5812,10 @@ const phrasesTravel = [
     "wordIds": [
       "17876"
     ],
+    "cloze": {
+      "de": "Schnelligkeit",
+      "en": "speed"
+    },
     "sourceIndex": 7876
   },
   {
@@ -4725,6 +5833,10 @@ const phrasesTravel = [
     "wordIds": [
       "17919"
     ],
+    "cloze": {
+      "de": "autofahren",
+      "en": "drive"
+    },
     "sourceIndex": 7919
   },
   {
@@ -4742,6 +5854,10 @@ const phrasesTravel = [
     "wordIds": [
       "17936"
     ],
+    "cloze": {
+      "de": "fliegenden",
+      "en": "flying"
+    },
     "sourceIndex": 7936
   },
   {
@@ -4759,6 +5875,10 @@ const phrasesTravel = [
     "wordIds": [
       "18001"
     ],
+    "cloze": {
+      "de": "Stiel",
+      "en": "stem"
+    },
     "sourceIndex": 8001
   },
   {
@@ -4776,6 +5896,10 @@ const phrasesTravel = [
     "wordIds": [
       "18046"
     ],
+    "cloze": {
+      "de": "eilen",
+      "en": "hurry"
+    },
     "sourceIndex": 8046
   },
   {
@@ -4793,6 +5917,10 @@ const phrasesTravel = [
     "wordIds": [
       "18121"
     ],
+    "cloze": {
+      "de": "Treiber",
+      "en": "driver"
+    },
     "sourceIndex": 8121
   },
   {
@@ -4810,6 +5938,10 @@ const phrasesTravel = [
     "wordIds": [
       "18130"
     ],
+    "cloze": {
+      "de": "Verkehrsteilnehmer",
+      "en": "road"
+    },
     "sourceIndex": 8130
   },
   {
@@ -4827,6 +5959,10 @@ const phrasesTravel = [
     "wordIds": [
       "18172"
     ],
+    "cloze": {
+      "de": "einzupacken",
+      "en": "pack"
+    },
     "sourceIndex": 8172
   },
   {
@@ -4844,6 +5980,10 @@ const phrasesTravel = [
     "wordIds": [
       "18178"
     ],
+    "cloze": {
+      "de": "Fracht",
+      "en": "freight"
+    },
     "sourceIndex": 8178
   },
   {
@@ -4861,6 +6001,10 @@ const phrasesTravel = [
     "wordIds": [
       "18198"
     ],
+    "cloze": {
+      "de": "Kompass",
+      "en": "compass"
+    },
     "sourceIndex": 8198
   },
   {
@@ -4878,6 +6022,10 @@ const phrasesTravel = [
     "wordIds": [
       "18201"
     ],
+    "cloze": {
+      "de": "Kreuzfahrt",
+      "en": "cruise"
+    },
     "sourceIndex": 8201
   },
   {
@@ -4895,6 +6043,10 @@ const phrasesTravel = [
     "wordIds": [
       "18205"
     ],
+    "cloze": {
+      "de": "Lokführer",
+      "en": "train"
+    },
     "sourceIndex": 8205
   },
   {
@@ -4912,6 +6064,10 @@ const phrasesTravel = [
     "wordIds": [
       "18238"
     ],
+    "cloze": {
+      "de": "Strick",
+      "en": "rope"
+    },
     "sourceIndex": 8238
   },
   {
@@ -4929,6 +6085,10 @@ const phrasesTravel = [
     "wordIds": [
       "18282"
     ],
+    "cloze": {
+      "de": "Cabrio",
+      "en": "convertible"
+    },
     "sourceIndex": 8282
   },
   {
@@ -4946,6 +6106,10 @@ const phrasesTravel = [
     "wordIds": [
       "18314"
     ],
+    "cloze": {
+      "de": "Haube",
+      "en": "bonnet"
+    },
     "sourceIndex": 8314
   },
   {
@@ -4963,6 +6127,10 @@ const phrasesTravel = [
     "wordIds": [
       "18330"
     ],
+    "cloze": {
+      "de": "Mechaniker",
+      "en": "mechanic"
+    },
     "sourceIndex": 8330
   },
   {
@@ -4980,6 +6148,10 @@ const phrasesTravel = [
     "wordIds": [
       "18353"
     ],
+    "cloze": {
+      "de": "Regio",
+      "en": "regional"
+    },
     "sourceIndex": 8353
   },
   {
@@ -4997,6 +6169,10 @@ const phrasesTravel = [
     "wordIds": [
       "18395"
     ],
+    "cloze": {
+      "de": "Abflug",
+      "en": "departure"
+    },
     "sourceIndex": 8395
   },
   {
@@ -5014,6 +6190,10 @@ const phrasesTravel = [
     "wordIds": [
       "18559"
     ],
+    "cloze": {
+      "de": "Fussweg",
+      "en": "footpath"
+    },
     "sourceIndex": 8559
   },
   {
@@ -5031,6 +6211,10 @@ const phrasesTravel = [
     "wordIds": [
       "18595"
     ],
+    "cloze": {
+      "de": "Piste",
+      "en": "slope"
+    },
     "sourceIndex": 8595
   },
   {
@@ -5048,6 +6232,10 @@ const phrasesTravel = [
     "wordIds": [
       "18621"
     ],
+    "cloze": {
+      "de": "String",
+      "en": "string"
+    },
     "sourceIndex": 8621
   },
   {
@@ -5065,6 +6253,10 @@ const phrasesTravel = [
     "wordIds": [
       "18708"
     ],
+    "cloze": {
+      "de": "Karren",
+      "en": "cart"
+    },
     "sourceIndex": 8708
   },
   {
@@ -5082,6 +6274,10 @@ const phrasesTravel = [
     "wordIds": [
       "18815"
     ],
+    "cloze": {
+      "de": "ausgebucht",
+      "en": "fully"
+    },
     "sourceIndex": 8815
   },
   {
@@ -5099,6 +6295,10 @@ const phrasesTravel = [
     "wordIds": [
       "18850"
     ],
+    "cloze": {
+      "de": "Gefäss",
+      "en": "vessel"
+    },
     "sourceIndex": 8850
   },
   {
@@ -5116,6 +6316,10 @@ const phrasesTravel = [
     "wordIds": [
       "18877"
     ],
+    "cloze": {
+      "de": "Landkarte",
+      "en": "map"
+    },
     "sourceIndex": 8877
   },
   {
@@ -5133,6 +6337,10 @@ const phrasesTravel = [
     "wordIds": [
       "18880"
     ],
+    "cloze": {
+      "de": "Markierung",
+      "en": "marking"
+    },
     "sourceIndex": 8880
   },
   {
@@ -5150,6 +6358,10 @@ const phrasesTravel = [
     "wordIds": [
       "18888"
     ],
+    "cloze": {
+      "de": "Naturpark",
+      "en": "nature"
+    },
     "sourceIndex": 8888
   },
   {
@@ -5167,6 +6379,10 @@ const phrasesTravel = [
     "wordIds": [
       "18905"
     ],
+    "cloze": {
+      "de": "Reiseführer",
+      "en": "travel"
+    },
     "sourceIndex": 8905
   },
   {
@@ -5184,6 +6400,10 @@ const phrasesTravel = [
     "wordIds": [
       "18941"
     ],
+    "cloze": {
+      "de": "Yacht",
+      "en": "yacht"
+    },
     "sourceIndex": 8941
   },
   {
@@ -5201,6 +6421,10 @@ const phrasesTravel = [
     "wordIds": [
       "18979"
     ],
+    "cloze": {
+      "de": "fahrende",
+      "en": "moving"
+    },
     "sourceIndex": 8979
   },
   {
@@ -5218,6 +6442,10 @@ const phrasesTravel = [
     "wordIds": [
       "18983"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "skills"
+    },
     "sourceIndex": 8983
   },
   {
@@ -5235,6 +6463,10 @@ const phrasesTravel = [
     "wordIds": [
       "19037"
     ],
+    "cloze": {
+      "de": "Nordwest",
+      "en": "northwest"
+    },
     "sourceIndex": 9037
   },
   {
@@ -5252,6 +6484,10 @@ const phrasesTravel = [
     "wordIds": [
       "19046"
     ],
+    "cloze": {
+      "de": "Postkarte",
+      "en": "postcard"
+    },
     "sourceIndex": 9046
   },
   {
@@ -5269,6 +6505,10 @@ const phrasesTravel = [
     "wordIds": [
       "19064"
     ],
+    "cloze": {
+      "de": "Sprit",
+      "en": "fuel"
+    },
     "sourceIndex": 9064
   },
   {
@@ -5286,6 +6526,10 @@ const phrasesTravel = [
     "wordIds": [
       "19173"
     ],
+    "cloze": {
+      "de": "Karre",
+      "en": "car"
+    },
     "sourceIndex": 9173
   },
   {
@@ -5303,6 +6547,10 @@ const phrasesTravel = [
     "wordIds": [
       "19177"
     ],
+    "cloze": {
+      "de": "Kleinwagen",
+      "en": "compact"
+    },
     "sourceIndex": 9177
   },
   {
@@ -5320,6 +6568,10 @@ const phrasesTravel = [
     "wordIds": [
       "19222"
     ],
+    "cloze": {
+      "de": "Umstieg",
+      "en": "transfer"
+    },
     "sourceIndex": 9222
   },
   {
@@ -5337,6 +6589,10 @@ const phrasesTravel = [
     "wordIds": [
       "19238"
     ],
+    "cloze": {
+      "de": "überfüllt",
+      "en": "overcrowded"
+    },
     "sourceIndex": 9238
   },
   {
@@ -5354,6 +6610,10 @@ const phrasesTravel = [
     "wordIds": [
       "19239"
     ],
+    "cloze": {
+      "de": "Übernachtung",
+      "en": "overnight"
+    },
     "sourceIndex": 9239
   },
   {
@@ -5371,6 +6631,10 @@ const phrasesTravel = [
     "wordIds": [
       "19248"
     ],
+    "cloze": {
+      "de": "Touristenattraktion",
+      "en": "attraction"
+    },
     "sourceIndex": 9248
   },
   {
@@ -5388,6 +6652,10 @@ const phrasesTravel = [
     "wordIds": [
       "19252"
     ],
+    "cloze": {
+      "de": "Beifahrer",
+      "en": "passenger"
+    },
     "sourceIndex": 9252
   },
   {
@@ -5405,6 +6673,10 @@ const phrasesTravel = [
     "wordIds": [
       "19305"
     ],
+    "cloze": {
+      "de": "Inspektor",
+      "en": "inspector"
+    },
     "sourceIndex": 9305
   },
   {
@@ -5422,6 +6694,10 @@ const phrasesTravel = [
     "wordIds": [
       "19324"
     ],
+    "cloze": {
+      "de": "Navigation",
+      "en": "navigation"
+    },
     "sourceIndex": 9324
   },
   {
@@ -5439,6 +6715,10 @@ const phrasesTravel = [
     "wordIds": [
       "19356"
     ],
+    "cloze": {
+      "de": "Seemann",
+      "en": "sailor"
+    },
     "sourceIndex": 9356
   },
   {
@@ -5456,6 +6736,10 @@ const phrasesTravel = [
     "wordIds": [
       "19368"
     ],
+    "cloze": {
+      "de": "Strassenrand",
+      "en": "roadside"
+    },
     "sourceIndex": 9368
   },
   {
@@ -5473,6 +6757,10 @@ const phrasesTravel = [
     "wordIds": [
       "19376"
     ],
+    "cloze": {
+      "de": "Umleitung",
+      "en": "detour"
+    },
     "sourceIndex": 9376
   },
   {
@@ -5490,6 +6778,10 @@ const phrasesTravel = [
     "wordIds": [
       "19393"
     ],
+    "cloze": {
+      "de": "Wirtshaus",
+      "en": "inn"
+    },
     "sourceIndex": 9393
   },
   {
@@ -5507,6 +6799,10 @@ const phrasesTravel = [
     "wordIds": [
       "19427"
     ],
+    "cloze": {
+      "de": "einfahren",
+      "en": "train"
+    },
     "sourceIndex": 9427
   },
   {
@@ -5524,6 +6820,10 @@ const phrasesTravel = [
     "wordIds": [
       "19436"
     ],
+    "cloze": {
+      "de": "Fahrtrichtung",
+      "en": "direction"
+    },
     "sourceIndex": 9436
   },
   {
@@ -5541,6 +6841,10 @@ const phrasesTravel = [
     "wordIds": [
       "19464"
     ],
+    "cloze": {
+      "de": "Kutsche",
+      "en": "carriage"
+    },
     "sourceIndex": 9464
   },
   {
@@ -5558,6 +6862,10 @@ const phrasesTravel = [
     "wordIds": [
       "19493"
     ],
+    "cloze": {
+      "de": "Reisepass",
+      "en": "passport"
+    },
     "sourceIndex": 9493
   },
   {
@@ -5575,6 +6883,10 @@ const phrasesTravel = [
     "wordIds": [
       "19512"
     ],
+    "cloze": {
+      "de": "Tiefgarage",
+      "en": "car"
+    },
     "sourceIndex": 9512
   },
   {
@@ -5592,6 +6904,10 @@ const phrasesTravel = [
     "wordIds": [
       "19559"
     ],
+    "cloze": {
+      "de": "Bahnstrecke",
+      "en": "railway"
+    },
     "sourceIndex": 9559
   },
   {
@@ -5609,6 +6925,10 @@ const phrasesTravel = [
     "wordIds": [
       "19605"
     ],
+    "cloze": {
+      "de": "Jeep",
+      "en": "jeep"
+    },
     "sourceIndex": 9605
   },
   {
@@ -5626,6 +6946,10 @@ const phrasesTravel = [
     "wordIds": [
       "19704"
     ],
+    "cloze": {
+      "de": "Anschlussstelle",
+      "en": "exit"
+    },
     "sourceIndex": 9704
   },
   {
@@ -5643,6 +6967,10 @@ const phrasesTravel = [
     "wordIds": [
       "19716"
     ],
+    "cloze": {
+      "de": "Autohaus",
+      "en": "car"
+    },
     "sourceIndex": 9716
   },
   {
@@ -5660,6 +6988,10 @@ const phrasesTravel = [
     "wordIds": [
       "19746"
     ],
+    "cloze": {
+      "de": "Fernverkehr",
+      "en": "Long-distance"
+    },
     "sourceIndex": 9746
   },
   {
@@ -5677,6 +7009,10 @@ const phrasesTravel = [
     "wordIds": [
       "19779"
     ],
+    "cloze": {
+      "de": "Mietwagen",
+      "en": "rental"
+    },
     "sourceIndex": 9779
   },
   {
@@ -5694,6 +7030,10 @@ const phrasesTravel = [
     "wordIds": [
       "19800"
     ],
+    "cloze": {
+      "de": "Rundfahrt",
+      "en": "tour"
+    },
     "sourceIndex": 9800
   },
   {
@@ -5711,6 +7051,10 @@ const phrasesTravel = [
     "wordIds": [
       "19891"
     ],
+    "cloze": {
+      "de": "Hanf",
+      "en": "hemp"
+    },
     "sourceIndex": 9891
   },
   {
@@ -5728,6 +7072,10 @@ const phrasesTravel = [
     "wordIds": [
       "19927"
     ],
+    "cloze": {
+      "de": "Neuwagen",
+      "en": "new"
+    },
     "sourceIndex": 9927
   },
   {
@@ -5745,6 +7093,10 @@ const phrasesTravel = [
     "wordIds": [
       "19957"
     ],
+    "cloze": {
+      "de": "stündlich",
+      "en": "hourly"
+    },
     "sourceIndex": 9957
   },
   {
@@ -5762,6 +7114,10 @@ const phrasesTravel = [
     "wordIds": [
       "19981"
     ],
+    "cloze": {
+      "de": "wegfallen",
+      "en": "be"
+    },
     "sourceIndex": 9981
   },
   {
@@ -5779,6 +7135,10 @@ const phrasesTravel = [
     "wordIds": [
       "20076"
     ],
+    "cloze": {
+      "de": "osteuropäische",
+      "en": "Eastern"
+    },
     "sourceIndex": 10076
   },
   {
@@ -5796,6 +7156,10 @@ const phrasesTravel = [
     "wordIds": [
       "20098"
     ],
+    "cloze": {
+      "de": "sinkende",
+      "en": "sinking"
+    },
     "sourceIndex": 10098
   },
   {
@@ -5813,6 +7177,10 @@ const phrasesTravel = [
     "wordIds": [
       "20148"
     ],
+    "cloze": {
+      "de": "Automatik",
+      "en": "automatic"
+    },
     "sourceIndex": 10148
   },
   {
@@ -5830,6 +7198,10 @@ const phrasesTravel = [
     "wordIds": [
       "20175"
     ],
+    "cloze": {
+      "de": "einreisen",
+      "en": "enter"
+    },
     "sourceIndex": 10175
   },
   {
@@ -5847,6 +7219,10 @@ const phrasesTravel = [
     "wordIds": [
       "20183"
     ],
+    "cloze": {
+      "de": "Fahrkarte",
+      "en": "ticket"
+    },
     "sourceIndex": 10183
   },
   {
@@ -5864,6 +7240,10 @@ const phrasesTravel = [
     "wordIds": [
       "20190"
     ],
+    "cloze": {
+      "de": "gebrochen",
+      "en": "broken"
+    },
     "sourceIndex": 10190
   },
   {
@@ -5881,6 +7261,10 @@ const phrasesTravel = [
     "wordIds": [
       "20211"
     ],
+    "cloze": {
+      "de": "Kreisverkehr",
+      "en": "roundabout"
+    },
     "sourceIndex": 10211
   },
   {
@@ -5898,6 +7282,10 @@ const phrasesTravel = [
     "wordIds": [
       "20250"
     ],
+    "cloze": {
+      "de": "schwärmt",
+      "en": "about"
+    },
     "sourceIndex": 10250
   },
   {
@@ -5915,6 +7303,10 @@ const phrasesTravel = [
     "wordIds": [
       "20251"
     ],
+    "cloze": {
+      "de": "Segler",
+      "en": "sailor"
+    },
     "sourceIndex": 10251
   },
   {
@@ -5932,6 +7324,10 @@ const phrasesTravel = [
     "wordIds": [
       "20353"
     ],
+    "cloze": {
+      "de": "hinfahren",
+      "en": "drive"
+    },
     "sourceIndex": 10353
   },
   {
@@ -5949,6 +7345,10 @@ const phrasesTravel = [
     "wordIds": [
       "20533"
     ],
+    "cloze": {
+      "de": "Motorhaube",
+      "en": "car"
+    },
     "sourceIndex": 10533
   },
   {
@@ -5966,6 +7366,10 @@ const phrasesTravel = [
     "wordIds": [
       "20550"
     ],
+    "cloze": {
+      "de": "Reservierung",
+      "en": "reservation"
+    },
     "sourceIndex": 10550
   },
   {
@@ -5983,6 +7387,10 @@ const phrasesTravel = [
     "wordIds": [
       "20559"
     ],
+    "cloze": {
+      "de": "Flugsimulator",
+      "en": "simulator"
+    },
     "sourceIndex": 10559
   },
   {
@@ -6000,6 +7408,10 @@ const phrasesTravel = [
     "wordIds": [
       "20563"
     ],
+    "cloze": {
+      "de": "Steigung",
+      "en": "incline"
+    },
     "sourceIndex": 10563
   },
   {
@@ -6017,6 +7429,10 @@ const phrasesTravel = [
     "wordIds": [
       "20617"
     ],
+    "cloze": {
+      "de": "Benziner",
+      "en": "petrol"
+    },
     "sourceIndex": 10617
   },
   {
@@ -6034,6 +7450,10 @@ const phrasesTravel = [
     "wordIds": [
       "20638"
     ],
+    "cloze": {
+      "de": "Eintrittskarte",
+      "en": "admission"
+    },
     "sourceIndex": 10638
   },
   {
@@ -6051,6 +7471,10 @@ const phrasesTravel = [
     "wordIds": [
       "20673"
     ],
+    "cloze": {
+      "de": "Konsulat",
+      "en": "consulate"
+    },
     "sourceIndex": 10673
   },
   {
@@ -6068,6 +7492,10 @@ const phrasesTravel = [
     "wordIds": [
       "20676"
     ],
+    "cloze": {
+      "de": "Kraftstoff",
+      "en": "fuel"
+    },
     "sourceIndex": 10676
   },
   {
@@ -6085,6 +7513,10 @@ const phrasesTravel = [
     "wordIds": [
       "20687"
     ],
+    "cloze": {
+      "de": "Matrose",
+      "en": "sailor"
+    },
     "sourceIndex": 10687
   },
   {
@@ -6102,6 +7534,10 @@ const phrasesTravel = [
     "wordIds": [
       "20708"
     ],
+    "cloze": {
+      "de": "Reiseziel",
+      "en": "travel"
+    },
     "sourceIndex": 10708
   },
   {
@@ -6119,6 +7555,10 @@ const phrasesTravel = [
     "wordIds": [
       "20737"
     ],
+    "cloze": {
+      "de": "Streifenwagen",
+      "en": "patrol"
+    },
     "sourceIndex": 10737
   },
   {
@@ -6136,6 +7576,10 @@ const phrasesTravel = [
     "wordIds": [
       "20763"
     ],
+    "cloze": {
+      "de": "Überfahrt",
+      "en": "crossing"
+    },
     "sourceIndex": 10763
   },
   {
@@ -6153,6 +7597,10 @@ const phrasesTravel = [
     "wordIds": [
       "20845"
     ],
+    "cloze": {
+      "de": "Kapuze",
+      "en": "hood"
+    },
     "sourceIndex": 10845
   },
   {
@@ -6170,6 +7618,10 @@ const phrasesTravel = [
     "wordIds": [
       "21018"
     ],
+    "cloze": {
+      "de": "gelebte",
+      "en": "lived"
+    },
     "sourceIndex": 11018
   },
   {
@@ -6187,6 +7639,10 @@ const phrasesTravel = [
     "wordIds": [
       "21063"
     ],
+    "cloze": {
+      "de": "Moped",
+      "en": "moped"
+    },
     "sourceIndex": 11063
   },
   {
@@ -6204,6 +7660,10 @@ const phrasesTravel = [
     "wordIds": [
       "21157"
     ],
+    "cloze": {
+      "de": "Buchung",
+      "en": "booking"
+    },
     "sourceIndex": 11157
   },
   {
@@ -6221,6 +7681,10 @@ const phrasesTravel = [
     "wordIds": [
       "21201"
     ],
+    "cloze": {
+      "de": "Heimweh",
+      "en": "homesickness"
+    },
     "sourceIndex": 11201
   },
   {
@@ -6238,6 +7702,10 @@ const phrasesTravel = [
     "wordIds": [
       "21213"
     ],
+    "cloze": {
+      "de": "Kajak",
+      "en": "kayak"
+    },
     "sourceIndex": 11213
   },
   {
@@ -6255,6 +7723,10 @@ const phrasesTravel = [
     "wordIds": [
       "21426"
     ],
+    "cloze": {
+      "de": "Lokomotive",
+      "en": "locomotive"
+    },
     "sourceIndex": 11426
   },
   {
@@ -6272,6 +7744,10 @@ const phrasesTravel = [
     "wordIds": [
       "21535"
     ],
+    "cloze": {
+      "de": "Chauffeur",
+      "en": "chauffeur"
+    },
     "sourceIndex": 11535
   },
   {
@@ -6289,6 +7765,10 @@ const phrasesTravel = [
     "wordIds": [
       "21614"
     ],
+    "cloze": {
+      "de": "Radtour",
+      "en": "bike"
+    },
     "sourceIndex": 11614
   },
   {
@@ -6306,6 +7786,10 @@ const phrasesTravel = [
     "wordIds": [
       "21621"
     ],
+    "cloze": {
+      "de": "Schaffner",
+      "en": "conductor"
+    },
     "sourceIndex": 11621
   },
   {
@@ -6323,6 +7807,10 @@ const phrasesTravel = [
     "wordIds": [
       "21670"
     ],
+    "cloze": {
+      "de": "Abteil",
+      "en": "compartment"
+    },
     "sourceIndex": 11670
   },
   {
@@ -6340,6 +7828,10 @@ const phrasesTravel = [
     "wordIds": [
       "21717"
     ],
+    "cloze": {
+      "de": "Fahrerlaubnis",
+      "en": "driving"
+    },
     "sourceIndex": 11717
   },
   {
@@ -6357,6 +7849,10 @@ const phrasesTravel = [
     "wordIds": [
       "21759"
     ],
+    "cloze": {
+      "de": "lackieren",
+      "en": "repainted"
+    },
     "sourceIndex": 11759
   },
   {
@@ -6374,6 +7870,10 @@ const phrasesTravel = [
     "wordIds": [
       "21794"
     ],
+    "cloze": {
+      "de": "Reisebüro",
+      "en": "travel"
+    },
     "sourceIndex": 11794
   },
   {
@@ -6391,6 +7891,10 @@ const phrasesTravel = [
     "wordIds": [
       "21855"
     ],
+    "cloze": {
+      "de": "Anfahrt",
+      "en": "drive"
+    },
     "sourceIndex": 11855
   },
   {
@@ -6408,6 +7912,10 @@ const phrasesTravel = [
     "wordIds": [
       "21959"
     ],
+    "cloze": {
+      "de": "Quad",
+      "en": "quad"
+    },
     "sourceIndex": 11959
   },
   {
@@ -6425,6 +7933,10 @@ const phrasesTravel = [
     "wordIds": [
       "21983"
     ],
+    "cloze": {
+      "de": "Spülmaschine",
+      "en": "dishwasher"
+    },
     "sourceIndex": 11983
   },
   {
@@ -6442,6 +7954,10 @@ const phrasesTravel = [
     "wordIds": [
       "22013"
     ],
+    "cloze": {
+      "de": "verreisen",
+      "en": "travel"
+    },
     "sourceIndex": 12013
   },
   {
@@ -6459,6 +7975,10 @@ const phrasesTravel = [
     "wordIds": [
       "22019"
     ],
+    "cloze": {
+      "de": "weiterfahren",
+      "en": "drive"
+    },
     "sourceIndex": 12019
   },
   {
@@ -6476,6 +7996,10 @@ const phrasesTravel = [
     "wordIds": [
       "22045"
     ],
+    "cloze": {
+      "de": "Bahnlinie",
+      "en": "railway"
+    },
     "sourceIndex": 12045
   },
   {
@@ -6493,6 +8017,10 @@ const phrasesTravel = [
     "wordIds": [
       "22084"
     ],
+    "cloze": {
+      "de": "Fahrzeit",
+      "en": "travel"
+    },
     "sourceIndex": 12084
   },
   {
@@ -6510,6 +8038,10 @@ const phrasesTravel = [
     "wordIds": [
       "22091"
     ],
+    "cloze": {
+      "de": "Geländewagen",
+      "en": "off-road"
+    },
     "sourceIndex": 12091
   },
   {
@@ -6527,6 +8059,10 @@ const phrasesTravel = [
     "wordIds": [
       "22102"
     ],
+    "cloze": {
+      "de": "hinkommen",
+      "en": "get"
+    },
     "sourceIndex": 12102
   },
   {
@@ -6544,6 +8080,10 @@ const phrasesTravel = [
     "wordIds": [
       "22119"
     ],
+    "cloze": {
+      "de": "Landebahn",
+      "en": "runway"
+    },
     "sourceIndex": 12119
   },
   {
@@ -6561,6 +8101,10 @@ const phrasesTravel = [
     "wordIds": [
       "22125"
     ],
+    "cloze": {
+      "de": "Maulwurf",
+      "en": "mole"
+    },
     "sourceIndex": 12125
   },
   {
@@ -6578,6 +8122,10 @@ const phrasesTravel = [
     "wordIds": [
       "22140"
     ],
+    "cloze": {
+      "de": "Nordost",
+      "en": "northeast"
+    },
     "sourceIndex": 12140
   },
   {
@@ -6595,6 +8143,10 @@ const phrasesTravel = [
     "wordIds": [
       "22185"
     ],
+    "cloze": {
+      "de": "Trockner",
+      "en": "dryer"
+    },
     "sourceIndex": 12185
   },
   {
@@ -6612,6 +8164,10 @@ const phrasesTravel = [
     "wordIds": [
       "22197"
     ],
+    "cloze": {
+      "de": "verlangsamen",
+      "en": "slow"
+    },
     "sourceIndex": 12197
   },
   {
@@ -6629,6 +8185,10 @@ const phrasesTravel = [
     "wordIds": [
       "22247"
     ],
+    "cloze": {
+      "de": "Busbahnhof",
+      "en": "bus"
+    },
     "sourceIndex": 12247
   },
   {
@@ -6646,6 +8206,10 @@ const phrasesTravel = [
     "wordIds": [
       "22299"
     ],
+    "cloze": {
+      "de": "Jumbo-Jet",
+      "en": "jumbo"
+    },
     "sourceIndex": 12299
   },
   {
@@ -6663,6 +8227,10 @@ const phrasesTravel = [
     "wordIds": [
       "22336"
     ],
+    "cloze": {
+      "de": "Rasenmäher",
+      "en": "lawnmower"
+    },
     "sourceIndex": 12336
   },
   {
@@ -6680,6 +8248,10 @@ const phrasesTravel = [
     "wordIds": [
       "22429"
     ],
+    "cloze": {
+      "de": "Checkliste",
+      "en": "checklist"
+    },
     "sourceIndex": 12429
   },
   {
@@ -6697,6 +8269,10 @@ const phrasesTravel = [
     "wordIds": [
       "22433"
     ],
+    "cloze": {
+      "de": "Dock",
+      "en": "dock"
+    },
     "sourceIndex": 12433
   },
   {
@@ -6714,6 +8290,10 @@ const phrasesTravel = [
     "wordIds": [
       "22443"
     ],
+    "cloze": {
+      "de": "Endpunkt",
+      "en": "endpoint"
+    },
     "sourceIndex": 12443
   },
   {
@@ -6731,6 +8311,10 @@ const phrasesTravel = [
     "wordIds": [
       "22519"
     ],
+    "cloze": {
+      "de": "nordwestlich",
+      "en": "north-west"
+    },
     "sourceIndex": 12519
   },
   {
@@ -6748,6 +8332,10 @@ const phrasesTravel = [
     "wordIds": [
       "22612"
     ],
+    "cloze": {
+      "de": "Auswanderer",
+      "en": "emigrants"
+    },
     "sourceIndex": 12612
   },
   {
@@ -6765,6 +8353,10 @@ const phrasesTravel = [
     "wordIds": [
       "22615"
     ],
+    "cloze": {
+      "de": "Bahnverkehr",
+      "en": "Rail"
+    },
     "sourceIndex": 12615
   },
   {
@@ -6782,6 +8374,10 @@ const phrasesTravel = [
     "wordIds": [
       "22683"
     ],
+    "cloze": {
+      "de": "Lenkung",
+      "en": "steering"
+    },
     "sourceIndex": 12683
   },
   {
@@ -6799,6 +8395,10 @@ const phrasesTravel = [
     "wordIds": [
       "22725"
     ],
+    "cloze": {
+      "de": "abseilen",
+      "en": "abseil"
+    },
     "sourceIndex": 12725
   },
   {
@@ -6816,6 +8416,10 @@ const phrasesTravel = [
     "wordIds": [
       "22740"
     ],
+    "cloze": {
+      "de": "Südost",
+      "en": "southeast"
+    },
     "sourceIndex": 12740
   },
   {
@@ -6833,6 +8437,10 @@ const phrasesTravel = [
     "wordIds": [
       "22767"
     ],
+    "cloze": {
+      "de": "Zebra",
+      "en": "zebra"
+    },
     "sourceIndex": 12767
   },
   {
@@ -6850,6 +8458,10 @@ const phrasesTravel = [
     "wordIds": [
       "22830"
     ],
+    "cloze": {
+      "de": "Felge",
+      "en": "rim"
+    },
     "sourceIndex": 12830
   },
   {
@@ -6867,6 +8479,10 @@ const phrasesTravel = [
     "wordIds": [
       "22869"
     ],
+    "cloze": {
+      "de": "ledig",
+      "en": "single"
+    },
     "sourceIndex": 12869
   },
   {
@@ -6884,6 +8500,10 @@ const phrasesTravel = [
     "wordIds": [
       "22909"
     ],
+    "cloze": {
+      "de": "Reibung",
+      "en": "friction"
+    },
     "sourceIndex": 12909
   },
   {
@@ -6901,6 +8521,10 @@ const phrasesTravel = [
     "wordIds": [
       "22925"
     ],
+    "cloze": {
+      "de": "Stellplatz",
+      "en": "parking"
+    },
     "sourceIndex": 12925
   },
   {
@@ -6918,6 +8542,10 @@ const phrasesTravel = [
     "wordIds": [
       "22956"
     ],
+    "cloze": {
+      "de": "Waggons",
+      "en": "carriages"
+    },
     "sourceIndex": 12956
   },
   {
@@ -6935,6 +8563,10 @@ const phrasesTravel = [
     "wordIds": [
       "22967"
     ],
+    "cloze": {
+      "de": "Zwischenstopp",
+      "en": "stopover"
+    },
     "sourceIndex": 12967
   },
   {
@@ -6952,6 +8584,10 @@ const phrasesTravel = [
     "wordIds": [
       "22974"
     ],
+    "cloze": {
+      "de": "anreisen",
+      "en": "arrive"
+    },
     "sourceIndex": 12974
   },
   {
@@ -6969,6 +8605,10 @@ const phrasesTravel = [
     "wordIds": [
       "23002"
     ],
+    "cloze": {
+      "de": "Dachs",
+      "en": "badger"
+    },
     "sourceIndex": 13002
   },
   {
@@ -6986,6 +8626,10 @@ const phrasesTravel = [
     "wordIds": [
       "23011"
     ],
+    "cloze": {
+      "de": "durch",
+      "en": "through"
+    },
     "sourceIndex": 13011
   },
   {
@@ -7003,6 +8647,10 @@ const phrasesTravel = [
     "wordIds": [
       "23126"
     ],
+    "cloze": {
+      "de": "Trichter",
+      "en": "funnel"
+    },
     "sourceIndex": 13126
   },
   {
@@ -7020,6 +8668,10 @@ const phrasesTravel = [
     "wordIds": [
       "23130"
     ],
+    "cloze": {
+      "de": "Verleih",
+      "en": "rental"
+    },
     "sourceIndex": 13130
   },
   {
@@ -7037,6 +8689,10 @@ const phrasesTravel = [
     "wordIds": [
       "23136"
     ],
+    "cloze": {
+      "de": "vorbeifahren",
+      "en": "drive"
+    },
     "sourceIndex": 13136
   },
   {
@@ -7054,6 +8710,10 @@ const phrasesTravel = [
     "wordIds": [
       "23143"
     ],
+    "cloze": {
+      "de": "Windschutzscheibe",
+      "en": "windshield"
+    },
     "sourceIndex": 13143
   },
   {
@@ -7071,6 +8731,10 @@ const phrasesTravel = [
     "wordIds": [
       "23172"
     ],
+    "cloze": {
+      "de": "Autofahrt",
+      "en": "car"
+    },
     "sourceIndex": 13172
   },
   {
@@ -7088,6 +8752,10 @@ const phrasesTravel = [
     "wordIds": [
       "23179"
     ],
+    "cloze": {
+      "de": "Blabla",
+      "en": "blah"
+    },
     "sourceIndex": 13179
   },
   {
@@ -7105,6 +8773,10 @@ const phrasesTravel = [
     "wordIds": [
       "23180"
     ],
+    "cloze": {
+      "de": "blinkt",
+      "en": "blinking"
+    },
     "sourceIndex": 13180
   },
   {
@@ -7122,6 +8794,10 @@ const phrasesTravel = [
     "wordIds": [
       "23201"
     ],
+    "cloze": {
+      "de": "Ebbe",
+      "en": "ebb"
+    },
     "sourceIndex": 13201
   },
   {
@@ -7139,6 +8815,10 @@ const phrasesTravel = [
     "wordIds": [
       "23211"
     ],
+    "cloze": {
+      "de": "Fahrerin",
+      "en": "driver"
+    },
     "sourceIndex": 13211
   },
   {
@@ -7156,6 +8836,10 @@ const phrasesTravel = [
     "wordIds": [
       "23314"
     ],
+    "cloze": {
+      "de": "südöstlich",
+      "en": "southeast"
+    },
     "sourceIndex": 13314
   },
   {
@@ -7173,6 +8857,10 @@ const phrasesTravel = [
     "wordIds": [
       "23357"
     ],
+    "cloze": {
+      "de": "Abgase",
+      "en": "exhaust"
+    },
     "sourceIndex": 13357
   },
   {
@@ -7190,6 +8878,10 @@ const phrasesTravel = [
     "wordIds": [
       "23374"
     ],
+    "cloze": {
+      "de": "Ausflugsziel",
+      "en": "excursion"
+    },
     "sourceIndex": 13374
   },
   {
@@ -7207,6 +8899,10 @@ const phrasesTravel = [
     "wordIds": [
       "23430"
     ],
+    "cloze": {
+      "de": "Gebrauchtwagen",
+      "en": "used"
+    },
     "sourceIndex": 13430
   },
   {
@@ -7224,6 +8920,10 @@ const phrasesTravel = [
     "wordIds": [
       "23433"
     ],
+    "cloze": {
+      "de": "Gegenverkehr",
+      "en": "oncoming"
+    },
     "sourceIndex": 13433
   },
   {
@@ -7241,6 +8941,10 @@ const phrasesTravel = [
     "wordIds": [
       "23447"
     ],
+    "cloze": {
+      "de": "Herberge",
+      "en": "hostel"
+    },
     "sourceIndex": 13447
   },
   {
@@ -7258,6 +8962,10 @@ const phrasesTravel = [
     "wordIds": [
       "23527"
     ],
+    "cloze": {
+      "de": "Tempolimit",
+      "en": "speed"
+    },
     "sourceIndex": 13527
   },
   {
@@ -7275,6 +8983,10 @@ const phrasesTravel = [
     "wordIds": [
       "23567"
     ],
+    "cloze": {
+      "de": "abenteuerliche",
+      "en": "adventurous"
+    },
     "sourceIndex": 13567
   },
   {
@@ -7292,6 +9004,10 @@ const phrasesTravel = [
     "wordIds": [
       "23586"
     ],
+    "cloze": {
+      "de": "Auffahrunfall",
+      "en": "rear-end"
+    },
     "sourceIndex": 13586
   },
   {
@@ -7309,6 +9025,10 @@ const phrasesTravel = [
     "wordIds": [
       "23621"
     ],
+    "cloze": {
+      "de": "zeichnen",
+      "en": "mark"
+    },
     "sourceIndex": 13621
   },
   {
@@ -7326,6 +9046,10 @@ const phrasesTravel = [
     "wordIds": [
       "23734"
     ],
+    "cloze": {
+      "de": "Stundenplan",
+      "en": "timetable"
+    },
     "sourceIndex": 13734
   },
   {
@@ -7343,6 +9067,10 @@ const phrasesTravel = [
     "wordIds": [
       "23745"
     ],
+    "cloze": {
+      "de": "Transportmittel",
+      "en": "means"
+    },
     "sourceIndex": 13745
   },
   {
@@ -7360,6 +9088,10 @@ const phrasesTravel = [
     "wordIds": [
       "23775"
     ],
+    "cloze": {
+      "de": "musste",
+      "en": "away"
+    },
     "sourceIndex": 13775
   },
   {
@@ -7377,6 +9109,10 @@ const phrasesTravel = [
     "wordIds": [
       "23792"
     ],
+    "cloze": {
+      "de": "Auspuff",
+      "en": "exhaust"
+    },
     "sourceIndex": 13792
   },
   {
@@ -7394,6 +9130,10 @@ const phrasesTravel = [
     "wordIds": [
       "23797"
     ],
+    "cloze": {
+      "de": "Autoverkehr",
+      "en": "car"
+    },
     "sourceIndex": 13797
   },
   {
@@ -7411,6 +9151,10 @@ const phrasesTravel = [
     "wordIds": [
       "23937"
     ],
+    "cloze": {
+      "de": "verlernen",
+      "en": "unlearn"
+    },
     "sourceIndex": 13937
   },
   {
@@ -7428,6 +9172,10 @@ const phrasesTravel = [
     "wordIds": [
       "23960"
     ],
+    "cloze": {
+      "de": "Zugverkehr",
+      "en": "train"
+    },
     "sourceIndex": 13960
   },
   {
@@ -7445,6 +9193,10 @@ const phrasesTravel = [
     "wordIds": [
       "24085"
     ],
+    "cloze": {
+      "de": "Motel",
+      "en": "motel"
+    },
     "sourceIndex": 14085
   },
   {
@@ -7462,6 +9214,10 @@ const phrasesTravel = [
     "wordIds": [
       "24139"
     ],
+    "cloze": {
+      "de": "unzuverlässig",
+      "en": "unreliable"
+    },
     "sourceIndex": 14139
   },
   {
@@ -7479,6 +9235,10 @@ const phrasesTravel = [
     "wordIds": [
       "24158"
     ],
+    "cloze": {
+      "de": "Weiterfahrt",
+      "en": "onward"
+    },
     "sourceIndex": 14158
   },
   {
@@ -7496,6 +9256,10 @@ const phrasesTravel = [
     "wordIds": [
       "24163"
     ],
+    "cloze": {
+      "de": "Zugführer",
+      "en": "train"
+    },
     "sourceIndex": 14163
   },
   {
@@ -7513,6 +9277,10 @@ const phrasesTravel = [
     "wordIds": [
       "24234"
     ],
+    "cloze": {
+      "de": "Grenzkontrolle",
+      "en": "border"
+    },
     "sourceIndex": 14234
   },
   {
@@ -7530,6 +9298,10 @@ const phrasesTravel = [
     "wordIds": [
       "24277"
     ],
+    "cloze": {
+      "de": "pausenlos",
+      "en": "non-stop"
+    },
     "sourceIndex": 14277
   },
   {
@@ -7547,6 +9319,10 @@ const phrasesTravel = [
     "wordIds": [
       "24388"
     ],
+    "cloze": {
+      "de": "Durchfahrt",
+      "en": "road"
+    },
     "sourceIndex": 14388
   },
   {
@@ -7564,6 +9340,10 @@ const phrasesTravel = [
     "wordIds": [
       "24443"
     ],
+    "cloze": {
+      "de": "Kreuzfahrtschiff",
+      "en": "cruise"
+    },
     "sourceIndex": 14443
   },
   {
@@ -7581,6 +9361,10 @@ const phrasesTravel = [
     "wordIds": [
       "24473"
     ],
+    "cloze": {
+      "de": "Reisebericht",
+      "en": "travel"
+    },
     "sourceIndex": 14473
   },
   {
@@ -7598,6 +9382,10 @@ const phrasesTravel = [
     "wordIds": [
       "24474"
     ],
+    "cloze": {
+      "de": "Reiseveranstalter",
+      "en": "tour"
+    },
     "sourceIndex": 14474
   },
   {
@@ -7615,6 +9403,10 @@ const phrasesTravel = [
     "wordIds": [
       "24498"
     ],
+    "cloze": {
+      "de": "Strafzettel",
+      "en": "parking"
+    },
     "sourceIndex": 14498
   },
   {
@@ -7632,6 +9424,10 @@ const phrasesTravel = [
     "wordIds": [
       "24650"
     ],
+    "cloze": {
+      "de": "Hostel",
+      "en": "hostel"
+    },
     "sourceIndex": 14650
   },
   {
@@ -7649,6 +9445,10 @@ const phrasesTravel = [
     "wordIds": [
       "24684"
     ],
+    "cloze": {
+      "de": "nonstop",
+      "en": "nonstop"
+    },
     "sourceIndex": 14684
   },
   {
@@ -7666,6 +9466,10 @@ const phrasesTravel = [
     "wordIds": [
       "24769"
     ],
+    "cloze": {
+      "de": "Zielort",
+      "en": "destination"
+    },
     "sourceIndex": 14769
   },
   {
@@ -7683,6 +9487,10 @@ const phrasesTravel = [
     "wordIds": [
       "24891"
     ],
+    "cloze": {
+      "de": "Omnibus",
+      "en": "bus"
+    },
     "sourceIndex": 14891
   },
   {
@@ -7700,6 +9508,10 @@ const phrasesTravel = [
     "wordIds": [
       "24946"
     ],
+    "cloze": {
+      "de": "Tanke",
+      "en": "gas"
+    },
     "sourceIndex": 14946
   },
   {
@@ -7717,6 +9529,10 @@ const phrasesTravel = [
     "wordIds": [
       "25032"
     ],
+    "cloze": {
+      "de": "Fernbus",
+      "en": "long-distance"
+    },
     "sourceIndex": 15032
   },
   {
@@ -7734,6 +9550,10 @@ const phrasesTravel = [
     "wordIds": [
       "25127"
     ],
+    "cloze": {
+      "de": "Rennwagen",
+      "en": "racing"
+    },
     "sourceIndex": 15127
   },
   {
@@ -7751,6 +9571,10 @@ const phrasesTravel = [
     "wordIds": [
       "25159"
     ],
+    "cloze": {
+      "de": "Tacho",
+      "en": "speedometer"
+    },
     "sourceIndex": 15159
   },
   {
@@ -7768,6 +9592,10 @@ const phrasesTravel = [
     "wordIds": [
       "25167"
     ],
+    "cloze": {
+      "de": "Unterführung",
+      "en": "underpass"
+    },
     "sourceIndex": 15167
   },
   {
@@ -7785,6 +9613,10 @@ const phrasesTravel = [
     "wordIds": [
       "25171"
     ],
+    "cloze": {
+      "de": "verstauen",
+      "en": "stow"
+    },
     "sourceIndex": 15171
   },
   {
@@ -7802,6 +9634,10 @@ const phrasesTravel = [
     "wordIds": [
       "25191"
     ],
+    "cloze": {
+      "de": "Zebrastreifen",
+      "en": "zebra"
+    },
     "sourceIndex": 15191
   },
   {
@@ -7819,6 +9655,10 @@ const phrasesTravel = [
     "wordIds": [
       "25347"
     ],
+    "cloze": {
+      "de": "schulen",
+      "en": "train"
+    },
     "sourceIndex": 15347
   },
   {
@@ -7836,6 +9676,10 @@ const phrasesTravel = [
     "wordIds": [
       "25443"
     ],
+    "cloze": {
+      "de": "Buslinie",
+      "en": "bus"
+    },
     "sourceIndex": 15443
   },
   {
@@ -7853,6 +9697,10 @@ const phrasesTravel = [
     "wordIds": [
       "25523"
     ],
+    "cloze": {
+      "de": "Kontrolleur",
+      "en": "inspector"
+    },
     "sourceIndex": 15523
   },
   {
@@ -7870,6 +9718,10 @@ const phrasesTravel = [
     "wordIds": [
       "25580"
     ],
+    "cloze": {
+      "de": "Souvenir",
+      "en": "souvenir"
+    },
     "sourceIndex": 15580
   },
   {
@@ -7887,6 +9739,10 @@ const phrasesTravel = [
     "wordIds": [
       "25651"
     ],
+    "cloze": {
+      "de": "Bahnübergang",
+      "en": "railway"
+    },
     "sourceIndex": 15651
   },
   {
@@ -7904,6 +9760,10 @@ const phrasesTravel = [
     "wordIds": [
       "25656"
     ],
+    "cloze": {
+      "de": "Beifahrersitz",
+      "en": "passenger"
+    },
     "sourceIndex": 15656
   },
   {
@@ -7921,6 +9781,10 @@ const phrasesTravel = [
     "wordIds": [
       "25704"
     ],
+    "cloze": {
+      "de": "Handgepäck",
+      "en": "hand"
+    },
     "sourceIndex": 15704
   },
   {
@@ -7938,6 +9802,10 @@ const phrasesTravel = [
     "wordIds": [
       "25711"
     ],
+    "cloze": {
+      "de": "Hupe",
+      "en": "horn"
+    },
     "sourceIndex": 15711
   },
   {
@@ -7955,6 +9823,10 @@ const phrasesTravel = [
     "wordIds": [
       "25754"
     ],
+    "cloze": {
+      "de": "Nummernschild",
+      "en": "license"
+    },
     "sourceIndex": 15754
   },
   {
@@ -7972,6 +9844,10 @@ const phrasesTravel = [
     "wordIds": [
       "25826"
     ],
+    "cloze": {
+      "de": "Wasserburg",
+      "en": "moated"
+    },
     "sourceIndex": 15826
   },
   {
@@ -7989,6 +9865,10 @@ const phrasesTravel = [
     "wordIds": [
       "25834"
     ],
+    "cloze": {
+      "de": "Zugfahrt",
+      "en": "train"
+    },
     "sourceIndex": 15834
   },
   {
@@ -8006,6 +9886,10 @@ const phrasesTravel = [
     "wordIds": [
       "25865"
     ],
+    "cloze": {
+      "de": "Busfahrt",
+      "en": "bus"
+    },
     "sourceIndex": 15865
   },
   {
@@ -8023,6 +9907,10 @@ const phrasesTravel = [
     "wordIds": [
       "25971"
     ],
+    "cloze": {
+      "de": "Mitfahrer",
+      "en": "passenger"
+    },
     "sourceIndex": 15971
   },
   {
@@ -8040,6 +9928,10 @@ const phrasesTravel = [
     "wordIds": [
       "25973"
     ],
+    "cloze": {
+      "de": "Mofa",
+      "en": "moped"
+    },
     "sourceIndex": 15973
   },
   {
@@ -8057,6 +9949,10 @@ const phrasesTravel = [
     "wordIds": [
       "26086"
     ],
+    "cloze": {
+      "de": "bereisen",
+      "en": "travel"
+    },
     "sourceIndex": 16086
   },
   {
@@ -8074,6 +9970,10 @@ const phrasesTravel = [
     "wordIds": [
       "26111"
     ],
+    "cloze": {
+      "de": "Facelift",
+      "en": "facelift"
+    },
     "sourceIndex": 16111
   },
   {
@@ -8091,6 +9991,10 @@ const phrasesTravel = [
     "wordIds": [
       "26114"
     ],
+    "cloze": {
+      "de": "festmachen",
+      "en": "the"
+    },
     "sourceIndex": 16114
   },
   {
@@ -8108,6 +10012,10 @@ const phrasesTravel = [
     "wordIds": [
       "26192"
     ],
+    "cloze": {
+      "de": "Möwe",
+      "en": "seagull"
+    },
     "sourceIndex": 16192
   },
   {
@@ -8125,6 +10033,10 @@ const phrasesTravel = [
     "wordIds": [
       "26205"
     ],
+    "cloze": {
+      "de": "Probefahrt",
+      "en": "test"
+    },
     "sourceIndex": 16205
   },
   {
@@ -8142,6 +10054,10 @@ const phrasesTravel = [
     "wordIds": [
       "26215"
     ],
+    "cloze": {
+      "de": "Regionalverkehr",
+      "en": "Regional"
+    },
     "sourceIndex": 16215
   },
   {
@@ -8159,6 +10075,10 @@ const phrasesTravel = [
     "wordIds": [
       "26222"
     ],
+    "cloze": {
+      "de": "Rolltreppe",
+      "en": "escalator"
+    },
     "sourceIndex": 16222
   },
   {
@@ -8176,6 +10096,10 @@ const phrasesTravel = [
     "wordIds": [
       "26249"
     ],
+    "cloze": {
+      "de": "stornieren",
+      "en": "cancel"
+    },
     "sourceIndex": 16249
   },
   {
@@ -8193,6 +10117,10 @@ const phrasesTravel = [
     "wordIds": [
       "26286"
     ],
+    "cloze": {
+      "de": "wartenden",
+      "en": "waiting"
+    },
     "sourceIndex": 16286
   },
   {
@@ -8210,6 +10138,10 @@ const phrasesTravel = [
     "wordIds": [
       "26334"
     ],
+    "cloze": {
+      "de": "Aussenspiegel",
+      "en": "wing"
+    },
     "sourceIndex": 16334
   },
   {
@@ -8227,6 +10159,10 @@ const phrasesTravel = [
     "wordIds": [
       "26353"
     ],
+    "cloze": {
+      "de": "Checkpoint",
+      "en": "checkpoint"
+    },
     "sourceIndex": 16353
   },
   {
@@ -8244,6 +10180,10 @@ const phrasesTravel = [
     "wordIds": [
       "26424"
     ],
+    "cloze": {
+      "de": "Kautschuk",
+      "en": "rubber"
+    },
     "sourceIndex": 16424
   },
   {
@@ -8261,6 +10201,10 @@ const phrasesTravel = [
     "wordIds": [
       "26484"
     ],
+    "cloze": {
+      "de": "Rundreise",
+      "en": "round"
+    },
     "sourceIndex": 16484
   },
   {
@@ -8278,6 +10222,10 @@ const phrasesTravel = [
     "wordIds": [
       "26551"
     ],
+    "cloze": {
+      "de": "wegfahren",
+      "en": "drive"
+    },
     "sourceIndex": 16551
   },
   {
@@ -8295,6 +10243,10 @@ const phrasesTravel = [
     "wordIds": [
       "26582"
     ],
+    "cloze": {
+      "de": "Autoreifen",
+      "en": "car"
+    },
     "sourceIndex": 16582
   },
   {
@@ -8312,6 +10264,10 @@ const phrasesTravel = [
     "wordIds": [
       "26584"
     ],
+    "cloze": {
+      "de": "Bai",
+      "en": "bay"
+    },
     "sourceIndex": 16584
   },
   {
@@ -8329,6 +10285,10 @@ const phrasesTravel = [
     "wordIds": [
       "26622"
     ],
+    "cloze": {
+      "de": "Fahrlehrer",
+      "en": "driving"
+    },
     "sourceIndex": 16622
   },
   {
@@ -8346,6 +10306,10 @@ const phrasesTravel = [
     "wordIds": [
       "26648"
     ],
+    "cloze": {
+      "de": "Hangar",
+      "en": "hangar"
+    },
     "sourceIndex": 16648
   },
   {
@@ -8363,6 +10327,10 @@ const phrasesTravel = [
     "wordIds": [
       "26730"
     ],
+    "cloze": {
+      "de": "Regionalbahn",
+      "en": "regional"
+    },
     "sourceIndex": 16730
   },
   {
@@ -8380,6 +10348,10 @@ const phrasesTravel = [
     "wordIds": [
       "26736"
     ],
+    "cloze": {
+      "de": "Ringstrasse",
+      "en": "ring"
+    },
     "sourceIndex": 16736
   },
   {
@@ -8397,6 +10369,10 @@ const phrasesTravel = [
     "wordIds": [
       "26789"
     ],
+    "cloze": {
+      "de": "verpennt",
+      "en": "overslept"
+    },
     "sourceIndex": 16789
   },
   {
@@ -8414,6 +10390,10 @@ const phrasesTravel = [
     "wordIds": [
       "26881"
     ],
+    "cloze": {
+      "de": "Hänger",
+      "en": "trailer"
+    },
     "sourceIndex": 16881
   },
   {
@@ -8431,6 +10411,10 @@ const phrasesTravel = [
     "wordIds": [
       "26972"
     ],
+    "cloze": {
+      "de": "regulärer",
+      "en": "regular"
+    },
     "sourceIndex": 16972
   },
   {
@@ -8448,6 +10432,10 @@ const phrasesTravel = [
     "wordIds": [
       "27064"
     ],
+    "cloze": {
+      "de": "Airbag",
+      "en": "airbag"
+    },
     "sourceIndex": 17064
   },
   {
@@ -8465,6 +10453,10 @@ const phrasesTravel = [
     "wordIds": [
       "27085"
     ],
+    "cloze": {
+      "de": "Autorennen",
+      "en": "car"
+    },
     "sourceIndex": 17085
   },
   {
@@ -8482,6 +10474,10 @@ const phrasesTravel = [
     "wordIds": [
       "27202"
     ],
+    "cloze": {
+      "de": "Lebensretter",
+      "en": "lifesaver"
+    },
     "sourceIndex": 17202
   },
   {
@@ -8499,6 +10495,10 @@ const phrasesTravel = [
     "wordIds": [
       "27248"
     ],
+    "cloze": {
+      "de": "Schulmädchen",
+      "en": "schoolgirl"
+    },
     "sourceIndex": 17248
   },
   {
@@ -8516,6 +10516,10 @@ const phrasesTravel = [
     "wordIds": [
       "27251"
     ],
+    "cloze": {
+      "de": "Seefahrt",
+      "en": "sea"
+    },
     "sourceIndex": 17251
   },
   {
@@ -8533,6 +10537,10 @@ const phrasesTravel = [
     "wordIds": [
       "27378"
     ],
+    "cloze": {
+      "de": "Doppelzimmer",
+      "en": "double"
+    },
     "sourceIndex": 17378
   },
   {
@@ -8550,6 +10558,10 @@ const phrasesTravel = [
     "wordIds": [
       "27385"
     ],
+    "cloze": {
+      "de": "einzuparken",
+      "en": "park"
+    },
     "sourceIndex": 17385
   },
   {
@@ -8567,6 +10579,10 @@ const phrasesTravel = [
     "wordIds": [
       "27441"
     ],
+    "cloze": {
+      "de": "Hinterrad",
+      "en": "rear"
+    },
     "sourceIndex": 17441
   },
   {
@@ -8584,6 +10600,10 @@ const phrasesTravel = [
     "wordIds": [
       "27442"
     ],
+    "cloze": {
+      "de": "Hinterteil",
+      "en": "rear"
+    },
     "sourceIndex": 17442
   },
   {
@@ -8601,6 +10621,10 @@ const phrasesTravel = [
     "wordIds": [
       "27481"
     ],
+    "cloze": {
+      "de": "Marder",
+      "en": "marten"
+    },
     "sourceIndex": 17481
   },
   {
@@ -8618,6 +10642,10 @@ const phrasesTravel = [
     "wordIds": [
       "27528"
     ],
+    "cloze": {
+      "de": "Scheibenwischer",
+      "en": "windshield"
+    },
     "sourceIndex": 17528
   },
   {
@@ -8635,6 +10663,10 @@ const phrasesTravel = [
     "wordIds": [
       "27530"
     ],
+    "cloze": {
+      "de": "Schlauchboot",
+      "en": "inflatable"
+    },
     "sourceIndex": 17530
   },
   {
@@ -8652,6 +10684,10 @@ const phrasesTravel = [
     "wordIds": [
       "27552"
     ],
+    "cloze": {
+      "de": "stehen",
+      "en": "stopped"
+    },
     "sourceIndex": 17552
   },
   {
@@ -8669,6 +10705,10 @@ const phrasesTravel = [
     "wordIds": [
       "27563"
     ],
+    "cloze": {
+      "de": "turbulenten",
+      "en": "turbulent"
+    },
     "sourceIndex": 17563
   },
   {
@@ -8686,6 +10726,10 @@ const phrasesTravel = [
     "wordIds": [
       "27574"
     ],
+    "cloze": {
+      "de": "Urlaubstage",
+      "en": "vacation"
+    },
     "sourceIndex": 17574
   },
   {
@@ -8703,6 +10747,10 @@ const phrasesTravel = [
     "wordIds": [
       "27592"
     ],
+    "cloze": {
+      "de": "westeuropäischen",
+      "en": "Western"
+    },
     "sourceIndex": 17592
   },
   {
@@ -8720,6 +10768,10 @@ const phrasesTravel = [
     "wordIds": [
       "27603"
     ],
+    "cloze": {
+      "de": "abbremsen",
+      "en": "brake"
+    },
     "sourceIndex": 17603
   },
   {
@@ -8737,6 +10789,10 @@ const phrasesTravel = [
     "wordIds": [
       "27619"
     ],
+    "cloze": {
+      "de": "ansteigende",
+      "en": "rising"
+    },
     "sourceIndex": 17619
   },
   {
@@ -8754,6 +10810,10 @@ const phrasesTravel = [
     "wordIds": [
       "27674"
     ],
+    "cloze": {
+      "de": "ermüdend",
+      "en": "tiring"
+    },
     "sourceIndex": 17674
   },
   {
@@ -8771,6 +10831,10 @@ const phrasesTravel = [
     "wordIds": [
       "27751"
     ],
+    "cloze": {
+      "de": "Nationalfeiertag",
+      "en": "national"
+    },
     "sourceIndex": 17751
   },
   {
@@ -8788,6 +10852,10 @@ const phrasesTravel = [
     "wordIds": [
       "27771"
     ],
+    "cloze": {
+      "de": "Riesenrad",
+      "en": "Ferris"
+    },
     "sourceIndex": 17771
   },
   {
@@ -8805,6 +10873,10 @@ const phrasesTravel = [
     "wordIds": [
       "27800"
     ],
+    "cloze": {
+      "de": "staut",
+      "en": "jamming"
+    },
     "sourceIndex": 17800
   },
   {
@@ -8822,6 +10894,10 @@ const phrasesTravel = [
     "wordIds": [
       "27804"
     ],
+    "cloze": {
+      "de": "streckenweise",
+      "en": "intermittently"
+    },
     "sourceIndex": 17804
   },
   {
@@ -8839,6 +10915,10 @@ const phrasesTravel = [
     "wordIds": [
       "27969"
     ],
+    "cloze": {
+      "de": "Knöllchen",
+      "en": "parking"
+    },
     "sourceIndex": 17969
   },
   {
@@ -8856,6 +10936,10 @@ const phrasesTravel = [
     "wordIds": [
       "28088"
     ],
+    "cloze": {
+      "de": "abwechseln",
+      "en": "take"
+    },
     "sourceIndex": 18088
   },
   {
@@ -8873,6 +10957,10 @@ const phrasesTravel = [
     "wordIds": [
       "28161"
     ],
+    "cloze": {
+      "de": "Gaspedal",
+      "en": "accelerator"
+    },
     "sourceIndex": 18161
   },
   {
@@ -8890,6 +10978,10 @@ const phrasesTravel = [
     "wordIds": [
       "28199"
     ],
+    "cloze": {
+      "de": "Krümmung",
+      "en": "bend"
+    },
     "sourceIndex": 18199
   },
   {
@@ -8907,6 +10999,10 @@ const phrasesTravel = [
     "wordIds": [
       "28201"
     ],
+    "cloze": {
+      "de": "Käpt'n",
+      "en": "captain"
+    },
     "sourceIndex": 18201
   },
   {
@@ -8924,6 +11020,10 @@ const phrasesTravel = [
     "wordIds": [
       "28368"
     ],
+    "cloze": {
+      "de": "Autofahrerin",
+      "en": "female"
+    },
     "sourceIndex": 18368
   },
   {
@@ -8941,6 +11041,10 @@ const phrasesTravel = [
     "wordIds": [
       "28370"
     ],
+    "cloze": {
+      "de": "Autoschlüssel",
+      "en": "car"
+    },
     "sourceIndex": 18370
   },
   {
@@ -8958,6 +11062,10 @@ const phrasesTravel = [
     "wordIds": [
       "28412"
     ],
+    "cloze": {
+      "de": "Fahrschein",
+      "en": "ticket"
+    },
     "sourceIndex": 18412
   },
   {
@@ -8975,6 +11083,10 @@ const phrasesTravel = [
     "wordIds": [
       "28490"
     ],
+    "cloze": {
+      "de": "Meerblick",
+      "en": "sea"
+    },
     "sourceIndex": 18490
   },
   {
@@ -8992,6 +11104,10 @@ const phrasesTravel = [
     "wordIds": [
       "28540"
     ],
+    "cloze": {
+      "de": "Rettungshubschrauber",
+      "en": "rescue"
+    },
     "sourceIndex": 18540
   },
   {
@@ -9009,6 +11125,10 @@ const phrasesTravel = [
     "wordIds": [
       "28563"
     ],
+    "cloze": {
+      "de": "Startbahn",
+      "en": "runway"
+    },
     "sourceIndex": 18563
   },
   {
@@ -9026,6 +11146,10 @@ const phrasesTravel = [
     "wordIds": [
       "28633"
     ],
+    "cloze": {
+      "de": "an",
+      "en": "for"
+    },
     "sourceIndex": 18633
   },
   {
@@ -9043,6 +11167,10 @@ const phrasesTravel = [
     "wordIds": [
       "28642"
     ],
+    "cloze": {
+      "de": "Bahnstation",
+      "en": "train"
+    },
     "sourceIndex": 18642
   },
   {
@@ -9060,6 +11188,10 @@ const phrasesTravel = [
     "wordIds": [
       "28660"
     ],
+    "cloze": {
+      "de": "Destination",
+      "en": "destination"
+    },
     "sourceIndex": 18660
   },
   {
@@ -9077,6 +11209,10 @@ const phrasesTravel = [
     "wordIds": [
       "28686"
     ],
+    "cloze": {
+      "de": "Fluglinie",
+      "en": "airline"
+    },
     "sourceIndex": 18686
   },
   {
@@ -9094,6 +11230,10 @@ const phrasesTravel = [
     "wordIds": [
       "28709"
     ],
+    "cloze": {
+      "de": "Halbpension",
+      "en": "half"
+    },
     "sourceIndex": 18709
   },
   {
@@ -9111,6 +11251,10 @@ const phrasesTravel = [
     "wordIds": [
       "28769"
     ],
+    "cloze": {
+      "de": "Ostbahnhof",
+      "en": "East"
+    },
     "sourceIndex": 18769
   },
   {
@@ -9128,6 +11272,10 @@ const phrasesTravel = [
     "wordIds": [
       "28791"
     ],
+    "cloze": {
+      "de": "Rückwärtsgang",
+      "en": "reverse"
+    },
     "sourceIndex": 18791
   },
   {
@@ -9145,6 +11293,10 @@ const phrasesTravel = [
     "wordIds": [
       "28810"
     ],
+    "cloze": {
+      "de": "stadteinwärts",
+      "en": "city-bound"
+    },
     "sourceIndex": 18810
   },
   {
@@ -9162,6 +11314,10 @@ const phrasesTravel = [
     "wordIds": [
       "28818"
     ],
+    "cloze": {
+      "de": "Tageskarte",
+      "en": "day"
+    },
     "sourceIndex": 18818
   },
   {
@@ -9179,6 +11335,10 @@ const phrasesTravel = [
     "wordIds": [
       "28942"
     ],
+    "cloze": {
+      "de": "Eisenbahner",
+      "en": "railway"
+    },
     "sourceIndex": 18942
   },
   {
@@ -9196,6 +11356,10 @@ const phrasesTravel = [
     "wordIds": [
       "28970"
     ],
+    "cloze": {
+      "de": "Gefrierfach",
+      "en": "freezer"
+    },
     "sourceIndex": 18970
   },
   {
@@ -9213,6 +11377,10 @@ const phrasesTravel = [
     "wordIds": [
       "28982"
     ],
+    "cloze": {
+      "de": "trimmen",
+      "en": "trim"
+    },
     "sourceIndex": 18982
   },
   {
@@ -9230,6 +11398,10 @@ const phrasesTravel = [
     "wordIds": [
       "29017"
     ],
+    "cloze": {
+      "de": "Kampfjet",
+      "en": "fighter"
+    },
     "sourceIndex": 19017
   },
   {
@@ -9247,6 +11419,10 @@ const phrasesTravel = [
     "wordIds": [
       "29029"
     ],
+    "cloze": {
+      "de": "Ladestation",
+      "en": "charging"
+    },
     "sourceIndex": 19029
   },
   {
@@ -9264,6 +11440,10 @@ const phrasesTravel = [
     "wordIds": [
       "29046"
     ],
+    "cloze": {
+      "de": "Miner",
+      "en": "miner"
+    },
     "sourceIndex": 19046
   },
   {
@@ -9281,6 +11461,10 @@ const phrasesTravel = [
     "wordIds": [
       "29062"
     ],
+    "cloze": {
+      "de": "Personenwagen",
+      "en": "passenger"
+    },
     "sourceIndex": 19062
   },
   {
@@ -9298,6 +11482,10 @@ const phrasesTravel = [
     "wordIds": [
       "29119"
     ],
+    "cloze": {
+      "de": "Südküste",
+      "en": "south"
+    },
     "sourceIndex": 19119
   },
   {
@@ -9315,6 +11503,10 @@ const phrasesTravel = [
     "wordIds": [
       "29152"
     ],
+    "cloze": {
+      "de": "Vollsperrung",
+      "en": "complete"
+    },
     "sourceIndex": 19152
   },
   {
@@ -9332,6 +11524,10 @@ const phrasesTravel = [
     "wordIds": [
       "29212"
     ],
+    "cloze": {
+      "de": "Busverkehr",
+      "en": "bus"
+    },
     "sourceIndex": 19212
   },
   {
@@ -9349,6 +11545,10 @@ const phrasesTravel = [
     "wordIds": [
       "29218"
     ],
+    "cloze": {
+      "de": "Dampflok",
+      "en": "steam"
+    },
     "sourceIndex": 19218
   },
   {
@@ -9366,6 +11566,10 @@ const phrasesTravel = [
     "wordIds": [
       "29236"
     ],
+    "cloze": {
+      "de": "Einwegprodukte",
+      "en": "disposable"
+    },
     "sourceIndex": 19236
   },
   {
@@ -9383,6 +11587,10 @@ const phrasesTravel = [
     "wordIds": [
       "29249"
     ],
+    "cloze": {
+      "de": "Fluchtweg",
+      "en": "escape"
+    },
     "sourceIndex": 19249
   },
   {
@@ -9400,6 +11608,10 @@ const phrasesTravel = [
     "wordIds": [
       "29250"
     ],
+    "cloze": {
+      "de": "Flugticket",
+      "en": "flight"
+    },
     "sourceIndex": 19250
   },
   {
@@ -9417,6 +11629,10 @@ const phrasesTravel = [
     "wordIds": [
       "29317"
     ],
+    "cloze": {
+      "de": "Laderaum",
+      "en": "cargo"
+    },
     "sourceIndex": 19317
   },
   {
@@ -9434,6 +11650,10 @@ const phrasesTravel = [
     "wordIds": [
       "29330"
     ],
+    "cloze": {
+      "de": "Mindestalter",
+      "en": "minimum"
+    },
     "sourceIndex": 19330
   },
   {
@@ -9451,6 +11671,10 @@ const phrasesTravel = [
     "wordIds": [
       "29356"
     ],
+    "cloze": {
+      "de": "Polizeiauto",
+      "en": "police"
+    },
     "sourceIndex": 19356
   },
   {
@@ -9468,6 +11692,10 @@ const phrasesTravel = [
     "wordIds": [
       "29623"
     ],
+    "cloze": {
+      "de": "Motorroller",
+      "en": "scooter"
+    },
     "sourceIndex": 19623
   },
   {
@@ -9485,6 +11713,10 @@ const phrasesTravel = [
     "wordIds": [
       "29673"
     ],
+    "cloze": {
+      "de": "Meter",
+      "en": "sea"
+    },
     "sourceIndex": 19673
   },
   {
@@ -9502,6 +11734,10 @@ const phrasesTravel = [
     "wordIds": [
       "29735"
     ],
+    "cloze": {
+      "de": "Vorderrad",
+      "en": "front"
+    },
     "sourceIndex": 19735
   },
   {
@@ -9519,6 +11755,10 @@ const phrasesTravel = [
     "wordIds": [
       "29802"
     ],
+    "cloze": {
+      "de": "dunkelrot",
+      "en": "dark"
+    },
     "sourceIndex": 19802
   },
   {
@@ -9536,6 +11776,10 @@ const phrasesTravel = [
     "wordIds": [
       "29924"
     ],
+    "cloze": {
+      "de": "ostwärts",
+      "en": "eastward"
+    },
     "sourceIndex": 19924
   },
   {
@@ -9553,6 +11797,10 @@ const phrasesTravel = [
     "wordIds": [
       "30019"
     ],
+    "cloze": {
+      "de": "Verkehrskontrolle",
+      "en": "traffic"
+    },
     "sourceIndex": 20019
   },
   {
@@ -9570,6 +11818,10 @@ const phrasesTravel = [
     "wordIds": [
       "30039"
     ],
+    "cloze": {
+      "de": "Wegstrecke",
+      "en": "distance"
+    },
     "sourceIndex": 20039
   },
   {
@@ -9587,6 +11839,10 @@ const phrasesTravel = [
     "wordIds": [
       "30063"
     ],
+    "cloze": {
+      "de": "abgebrochene",
+      "en": "broken"
+    },
     "sourceIndex": 20063
   },
   {
@@ -9604,6 +11860,10 @@ const phrasesTravel = [
     "wordIds": [
       "30106"
     ],
+    "cloze": {
+      "de": "einchecken",
+      "en": "check"
+    },
     "sourceIndex": 20106
   },
   {
@@ -9621,6 +11881,10 @@ const phrasesTravel = [
     "wordIds": [
       "30206"
     ],
+    "cloze": {
+      "de": "Motorboot",
+      "en": "motorboat"
+    },
     "sourceIndex": 20206
   },
   {
@@ -9638,6 +11902,10 @@ const phrasesTravel = [
     "wordIds": [
       "30244"
     ],
+    "cloze": {
+      "de": "Sailor",
+      "en": "sailor"
+    },
     "sourceIndex": 20244
   },
   {
@@ -9655,6 +11923,10 @@ const phrasesTravel = [
     "wordIds": [
       "30250"
     ],
+    "cloze": {
+      "de": "Schnellstrasse",
+      "en": "expressway"
+    },
     "sourceIndex": 20250
   },
   {
@@ -9672,6 +11944,10 @@ const phrasesTravel = [
     "wordIds": [
       "30254"
     ],
+    "cloze": {
+      "de": "Schwarzfahrer",
+      "en": "fare"
+    },
     "sourceIndex": 20254
   }
 ];

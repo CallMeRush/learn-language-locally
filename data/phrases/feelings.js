@@ -14,6 +14,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10031"
     ],
+    "cloze": {
+      "de": "Selbst",
+      "en": "Even"
+    },
     "sourceIndex": 31
   },
   {
@@ -31,6 +35,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10046"
     ],
+    "cloze": {
+      "de": "Warum",
+      "en": "Why"
+    },
     "sourceIndex": 46
   },
   {
@@ -48,6 +56,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10116"
     ],
+    "cloze": {
+      "de": "Liebe",
+      "en": "Love"
+    },
     "sourceIndex": 116
   },
   {
@@ -65,6 +77,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10148"
     ],
+    "cloze": {
+      "de": "ausserdem",
+      "en": "besides"
+    },
     "sourceIndex": 148
   },
   {
@@ -82,6 +98,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10218"
     ],
+    "cloze": {
+      "de": "denke",
+      "en": "think"
+    },
     "sourceIndex": 218
   },
   {
@@ -99,6 +119,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10229"
     ],
+    "cloze": {
+      "de": "Glück",
+      "en": "luck"
+    },
     "sourceIndex": 229
   },
   {
@@ -116,6 +140,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10282"
     ],
+    "cloze": {
+      "de": "Angst",
+      "en": "fear"
+    },
     "sourceIndex": 282
   },
   {
@@ -133,6 +161,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10300"
     ],
+    "cloze": {
+      "de": "völlig",
+      "en": "completely"
+    },
     "sourceIndex": 300
   },
   {
@@ -150,6 +182,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10305"
     ],
+    "cloze": {
+      "de": "vergessen",
+      "en": "forgot"
+    },
     "sourceIndex": 305
   },
   {
@@ -167,6 +203,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10328"
     ],
+    "cloze": {
+      "de": "tatsächlich",
+      "en": "actually"
+    },
     "sourceIndex": 328
   },
   {
@@ -184,6 +224,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10350"
     ],
+    "cloze": {
+      "de": "hoffe",
+      "en": "hope"
+    },
     "sourceIndex": 350
   },
   {
@@ -201,6 +245,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10380"
     ],
+    "cloze": {
+      "de": "Gefühl",
+      "en": "feeling"
+    },
     "sourceIndex": 380
   },
   {
@@ -218,6 +266,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10399"
     ],
+    "cloze": {
+      "de": "Gedanke",
+      "en": "thought"
+    },
     "sourceIndex": 399
   },
   {
@@ -235,6 +287,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10414"
     ],
+    "cloze": {
+      "de": "Interesse",
+      "en": "interest"
+    },
     "sourceIndex": 414
   },
   {
@@ -252,6 +308,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10474"
     ],
+    "cloze": {
+      "de": "gefällt",
+      "en": "like"
+    },
     "sourceIndex": 474
   },
   {
@@ -269,6 +329,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10534"
     ],
+    "cloze": {
+      "de": "Schuld",
+      "en": "fault"
+    },
     "sourceIndex": 534
   },
   {
@@ -286,6 +350,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10578"
     ],
+    "cloze": {
+      "de": "ehrlicher",
+      "en": "honest"
+    },
     "sourceIndex": 578
   },
   {
@@ -303,6 +371,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10598"
     ],
+    "cloze": {
+      "de": "glücklich",
+      "en": "happy"
+    },
     "sourceIndex": 598
   },
   {
@@ -320,6 +392,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10605"
     ],
+    "cloze": {
+      "de": "Ruhe",
+      "en": "quiet"
+    },
     "sourceIndex": 605
   },
   {
@@ -337,6 +413,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10613"
     ],
+    "cloze": {
+      "de": "stolz",
+      "en": "proud"
+    },
     "sourceIndex": 613
   },
   {
@@ -354,6 +434,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10615"
     ],
+    "cloze": {
+      "de": "vorstellen",
+      "en": "introduce"
+    },
     "sourceIndex": 615
   },
   {
@@ -371,6 +455,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10623"
     ],
+    "cloze": {
+      "de": "Freude",
+      "en": "joy"
+    },
     "sourceIndex": 623
   },
   {
@@ -388,6 +476,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10624"
     ],
+    "cloze": {
+      "de": "interessiert",
+      "en": "interests"
+    },
     "sourceIndex": 624
   },
   {
@@ -405,6 +497,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10626"
     ],
+    "cloze": {
+      "de": "liebe",
+      "en": "love"
+    },
     "sourceIndex": 626
   },
   {
@@ -422,6 +518,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10627"
     ],
+    "cloze": {
+      "de": "meinst",
+      "en": "think"
+    },
     "sourceIndex": 627
   },
   {
@@ -439,6 +539,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10653"
     ],
+    "cloze": {
+      "de": "Lust",
+      "en": "a"
+    },
     "sourceIndex": 653
   },
   {
@@ -456,6 +560,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10682"
     ],
+    "cloze": {
+      "de": "Leid",
+      "en": "I"
+    },
     "sourceIndex": 682
   },
   {
@@ -473,6 +581,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10689"
     ],
+    "cloze": {
+      "de": "verletzen",
+      "en": "to"
+    },
     "sourceIndex": 689
   },
   {
@@ -490,6 +602,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10698"
     ],
+    "cloze": {
+      "de": "fühle",
+      "en": "feel"
+    },
     "sourceIndex": 698
   },
   {
@@ -507,6 +623,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10706"
     ],
+    "cloze": {
+      "de": "schlafen",
+      "en": "sleep"
+    },
     "sourceIndex": 706
   },
   {
@@ -524,6 +644,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10713"
     ],
+    "cloze": {
+      "de": "erinnern",
+      "en": "remember"
+    },
     "sourceIndex": 713
   },
   {
@@ -541,6 +665,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10717"
     ],
+    "cloze": {
+      "de": "Hoffnung",
+      "en": "hope"
+    },
     "sourceIndex": 717
   },
   {
@@ -558,6 +686,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10734"
     ],
+    "cloze": {
+      "de": "interessant",
+      "en": "interesting"
+    },
     "sourceIndex": 734
   },
   {
@@ -575,6 +707,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10753"
     ],
+    "cloze": {
+      "de": "froh",
+      "en": "glad"
+    },
     "sourceIndex": 753
   },
   {
@@ -592,6 +728,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10757"
     ],
+    "cloze": {
+      "de": "Inhalt",
+      "en": "content"
+    },
     "sourceIndex": 757
   },
   {
@@ -609,6 +749,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10776"
     ],
+    "cloze": {
+      "de": "schade",
+      "en": "pity"
+    },
     "sourceIndex": 776
   },
   {
@@ -626,6 +770,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10782"
     ],
+    "cloze": {
+      "de": "Wunsch",
+      "en": "wish"
+    },
     "sourceIndex": 782
   },
   {
@@ -643,6 +791,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10783"
     ],
+    "cloze": {
+      "de": "zufrieden",
+      "en": "satisfied"
+    },
     "sourceIndex": 783
   },
   {
@@ -660,6 +812,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10796"
     ],
+    "cloze": {
+      "de": "wünsche",
+      "en": "wish"
+    },
     "sourceIndex": 796
   },
   {
@@ -677,6 +833,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10802"
     ],
+    "cloze": {
+      "de": "Eindruck",
+      "en": "impression"
+    },
     "sourceIndex": 802
   },
   {
@@ -694,6 +854,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10812"
     ],
+    "cloze": {
+      "de": "lachen",
+      "en": "laugh"
+    },
     "sourceIndex": 812
   },
   {
@@ -711,6 +875,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10852"
     ],
+    "cloze": {
+      "de": "böse",
+      "en": "angry"
+    },
     "sourceIndex": 852
   },
   {
@@ -728,6 +896,10 @@ const phrasesFeelings = [
     "wordIds": [
       "10913"
     ],
+    "cloze": {
+      "de": "Traum",
+      "en": "dream"
+    },
     "sourceIndex": 913
   },
   {
@@ -745,6 +917,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11047"
     ],
+    "cloze": {
+      "de": "Zweifel",
+      "en": "doubt"
+    },
     "sourceIndex": 1047
   },
   {
@@ -762,6 +938,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11064"
     ],
+    "cloze": {
+      "de": "Reaktion",
+      "en": "reaction"
+    },
     "sourceIndex": 1064
   },
   {
@@ -779,6 +959,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11070"
     ],
+    "cloze": {
+      "de": "Aufmerksamkeit",
+      "en": "attention"
+    },
     "sourceIndex": 1070
   },
   {
@@ -796,6 +980,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11085"
     ],
+    "cloze": {
+      "de": "Stimmung",
+      "en": "atmosphere"
+    },
     "sourceIndex": 1085
   },
   {
@@ -813,6 +1001,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11088"
     ],
+    "cloze": {
+      "de": "traurig",
+      "en": "sad"
+    },
     "sourceIndex": 1088
   },
   {
@@ -830,6 +1022,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11094"
     ],
+    "cloze": {
+      "de": "überraschen",
+      "en": "surprise"
+    },
     "sourceIndex": 1094
   },
   {
@@ -847,6 +1043,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11118"
     ],
+    "cloze": {
+      "de": "Vorstellung",
+      "en": "idea"
+    },
     "sourceIndex": 1118
   },
   {
@@ -864,6 +1064,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11126"
     ],
+    "cloze": {
+      "de": "ansonsten",
+      "en": "otherwise"
+    },
     "sourceIndex": 1126
   },
   {
@@ -881,6 +1085,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11142"
     ],
+    "cloze": {
+      "de": "Respekt",
+      "en": "respect"
+    },
     "sourceIndex": 1142
   },
   {
@@ -898,6 +1106,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11156"
     ],
+    "cloze": {
+      "de": "geniessen",
+      "en": "enjoy"
+    },
     "sourceIndex": 1156
   },
   {
@@ -915,6 +1127,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11170"
     ],
+    "cloze": {
+      "de": "Streit",
+      "en": "argument"
+    },
     "sourceIndex": 1170
   },
   {
@@ -932,6 +1148,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11211"
     ],
+    "cloze": {
+      "de": "Kategorie",
+      "en": "category"
+    },
     "sourceIndex": 1211
   },
   {
@@ -949,6 +1169,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11243"
     ],
+    "cloze": {
+      "de": "Sorgen",
+      "en": "worry"
+    },
     "sourceIndex": 1243
   },
   {
@@ -966,6 +1190,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11322"
     ],
+    "cloze": {
+      "de": "achten",
+      "en": "pay"
+    },
     "sourceIndex": 1322
   },
   {
@@ -983,6 +1211,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11324"
     ],
+    "cloze": {
+      "de": "ausgezeichnet",
+      "en": "awarded"
+    },
     "sourceIndex": 1324
   },
   {
@@ -1000,6 +1232,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11327"
     ],
+    "cloze": {
+      "de": "Detail",
+      "en": "detail"
+    },
     "sourceIndex": 1327
   },
   {
@@ -1017,6 +1253,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11335"
     ],
+    "cloze": {
+      "de": "hasse",
+      "en": "hate"
+    },
     "sourceIndex": 1335
   },
   {
@@ -1034,6 +1274,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11339"
     ],
+    "cloze": {
+      "de": "Mut",
+      "en": "courage"
+    },
     "sourceIndex": 1339
   },
   {
@@ -1051,6 +1295,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11388"
     ],
+    "cloze": {
+      "de": "begeistern",
+      "en": "inspire"
+    },
     "sourceIndex": 1388
   },
   {
@@ -1068,6 +1316,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11392"
     ],
+    "cloze": {
+      "de": "ewige",
+      "en": "Eternal"
+    },
     "sourceIndex": 1392
   },
   {
@@ -1085,6 +1337,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11396"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "inner"
+    },
     "sourceIndex": 1396
   },
   {
@@ -1102,6 +1358,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11400"
     ],
+    "cloze": {
+      "de": "Schlaf",
+      "en": "sleep"
+    },
     "sourceIndex": 1400
   },
   {
@@ -1119,6 +1379,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11459"
     ],
+    "cloze": {
+      "de": "müde",
+      "en": "tired"
+    },
     "sourceIndex": 1459
   },
   {
@@ -1136,6 +1400,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11507"
     ],
+    "cloze": {
+      "de": "Stress",
+      "en": "stress"
+    },
     "sourceIndex": 1507
   },
   {
@@ -1153,6 +1421,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11535"
     ],
+    "cloze": {
+      "de": "lächeln",
+      "en": "smile"
+    },
     "sourceIndex": 1535
   },
   {
@@ -1170,6 +1442,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11555"
     ],
+    "cloze": {
+      "de": "Kombination",
+      "en": "combination"
+    },
     "sourceIndex": 1555
   },
   {
@@ -1187,6 +1463,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11573"
     ],
+    "cloze": {
+      "de": "Absicht",
+      "en": "intention"
+    },
     "sourceIndex": 1573
   },
   {
@@ -1204,6 +1484,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11581"
     ],
+    "cloze": {
+      "de": "Bock",
+      "en": "I"
+    },
     "sourceIndex": 1581
   },
   {
@@ -1221,6 +1505,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11628"
     ],
+    "cloze": {
+      "de": "enttäuschen",
+      "en": "disappoint"
+    },
     "sourceIndex": 1628
   },
   {
@@ -1238,6 +1526,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11636"
     ],
+    "cloze": {
+      "de": "merken",
+      "en": "remember"
+    },
     "sourceIndex": 1636
   },
   {
@@ -1255,6 +1547,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11674"
     ],
+    "cloze": {
+      "de": "klappt",
+      "en": "out"
+    },
     "sourceIndex": 1674
   },
   {
@@ -1272,6 +1568,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11698"
     ],
+    "cloze": {
+      "de": "Überraschung",
+      "en": "surprise"
+    },
     "sourceIndex": 1698
   },
   {
@@ -1289,6 +1589,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11726"
     ],
+    "cloze": {
+      "de": "nachdenken",
+      "en": "think"
+    },
     "sourceIndex": 1726
   },
   {
@@ -1306,6 +1610,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11763"
     ],
+    "cloze": {
+      "de": "langweilig",
+      "en": "boring"
+    },
     "sourceIndex": 1763
   },
   {
@@ -1323,6 +1631,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11813"
     ],
+    "cloze": {
+      "de": "übel",
+      "en": "nauseous"
+    },
     "sourceIndex": 1813
   },
   {
@@ -1340,6 +1652,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11842"
     ],
+    "cloze": {
+      "de": "Umfrage",
+      "en": "survey"
+    },
     "sourceIndex": 1842
   },
   {
@@ -1357,6 +1673,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11903"
     ],
+    "cloze": {
+      "de": "spüren",
+      "en": "feel"
+    },
     "sourceIndex": 1903
   },
   {
@@ -1374,6 +1694,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11924"
     ],
+    "cloze": {
+      "de": "Fach",
+      "en": "subject"
+    },
     "sourceIndex": 1924
   },
   {
@@ -1391,6 +1715,10 @@ const phrasesFeelings = [
     "wordIds": [
       "11982"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "in"
+    },
     "sourceIndex": 1982
   },
   {
@@ -1408,6 +1736,10 @@ const phrasesFeelings = [
     "wordIds": [
       "12020"
     ],
+    "cloze": {
+      "de": "peinliche",
+      "en": "embarrassing"
+    },
     "sourceIndex": 2020
   },
   {
@@ -1425,6 +1757,10 @@ const phrasesFeelings = [
     "wordIds": [
       "12143"
     ],
+    "cloze": {
+      "de": "weinen",
+      "en": "cry"
+    },
     "sourceIndex": 2143
   },
   {
@@ -1442,6 +1778,10 @@ const phrasesFeelings = [
     "wordIds": [
       "12153"
     ],
+    "cloze": {
+      "de": "Demo",
+      "en": "demo"
+    },
     "sourceIndex": 2153
   },
   {
@@ -1459,6 +1799,10 @@ const phrasesFeelings = [
     "wordIds": [
       "12197"
     ],
+    "cloze": {
+      "de": "hübsches",
+      "en": "pretty"
+    },
     "sourceIndex": 2197
   },
   {
@@ -1476,6 +1820,10 @@ const phrasesFeelings = [
     "wordIds": [
       "12272"
     ],
+    "cloze": {
+      "de": "angenehmer",
+      "en": "pleasant"
+    },
     "sourceIndex": 2272
   },
   {
@@ -1493,6 +1841,10 @@ const phrasesFeelings = [
     "wordIds": [
       "12289"
     ],
+    "cloze": {
+      "de": "Laune",
+      "en": "mood"
+    },
     "sourceIndex": 2289
   },
   {
@@ -1510,6 +1862,10 @@ const phrasesFeelings = [
     "wordIds": [
       "12323"
     ],
+    "cloze": {
+      "de": "entspannt",
+      "en": "relaxed"
+    },
     "sourceIndex": 2323
   },
   {
@@ -1527,6 +1883,10 @@ const phrasesFeelings = [
     "wordIds": [
       "12326"
     ],
+    "cloze": {
+      "de": "genießen",
+      "en": "enjoy"
+    },
     "sourceIndex": 2326
   },
   {
@@ -1544,6 +1904,10 @@ const phrasesFeelings = [
     "wordIds": [
       "12341"
     ],
+    "cloze": {
+      "de": "träume",
+      "en": "dream"
+    },
     "sourceIndex": 2341
   },
   {
@@ -1561,6 +1925,10 @@ const phrasesFeelings = [
     "wordIds": [
       "12427"
     ],
+    "cloze": {
+      "de": "Aufenthalt",
+      "en": "stay"
+    },
     "sourceIndex": 2427
   },
   {
@@ -1578,6 +1946,10 @@ const phrasesFeelings = [
     "wordIds": [
       "12445"
     ],
+    "cloze": {
+      "de": "happy",
+      "en": "happy"
+    },
     "sourceIndex": 2445
   },
   {
@@ -1595,6 +1967,10 @@ const phrasesFeelings = [
     "wordIds": [
       "12478"
     ],
+    "cloze": {
+      "de": "Bayer",
+      "en": "Bavarian"
+    },
     "sourceIndex": 2478
   },
   {
@@ -1612,6 +1988,10 @@ const phrasesFeelings = [
     "wordIds": [
       "12492"
     ],
+    "cloze": {
+      "de": "kennenlernen",
+      "en": "get"
+    },
     "sourceIndex": 2492
   },
   {
@@ -1629,6 +2009,10 @@ const phrasesFeelings = [
     "wordIds": [
       "12529"
     ],
+    "cloze": {
+      "de": "Begegnung",
+      "en": "encounter"
+    },
     "sourceIndex": 2529
   },
   {
@@ -1646,6 +2030,10 @@ const phrasesFeelings = [
     "wordIds": [
       "12570"
     ],
+    "cloze": {
+      "de": "Reg",
+      "en": "upset"
+    },
     "sourceIndex": 2570
   },
   {
@@ -1663,6 +2051,10 @@ const phrasesFeelings = [
     "wordIds": [
       "12610"
     ],
+    "cloze": {
+      "de": "Vergnügen",
+      "en": "pleasure"
+    },
     "sourceIndex": 2610
   },
   {
@@ -1680,6 +2072,10 @@ const phrasesFeelings = [
     "wordIds": [
       "12628"
     ],
+    "cloze": {
+      "de": "Käseburger",
+      "en": "cheeseburger"
+    },
     "sourceIndex": 2628
   },
   {
@@ -1697,6 +2093,10 @@ const phrasesFeelings = [
     "wordIds": [
       "12653"
     ],
+    "cloze": {
+      "de": "Panik",
+      "en": "panic"
+    },
     "sourceIndex": 2653
   },
   {
@@ -1714,6 +2114,10 @@ const phrasesFeelings = [
     "wordIds": [
       "12685"
     ],
+    "cloze": {
+      "de": "Faust",
+      "en": "fist"
+    },
     "sourceIndex": 2685
   },
   {
@@ -1731,6 +2135,10 @@ const phrasesFeelings = [
     "wordIds": [
       "12796"
     ],
+    "cloze": {
+      "de": "Rätsel",
+      "en": "I"
+    },
     "sourceIndex": 2796
   },
   {
@@ -1748,6 +2156,10 @@ const phrasesFeelings = [
     "wordIds": [
       "12819"
     ],
+    "cloze": {
+      "de": "Aufregung",
+      "en": "excitement"
+    },
     "sourceIndex": 2819
   },
   {
@@ -1765,6 +2177,10 @@ const phrasesFeelings = [
     "wordIds": [
       "12835"
     ],
+    "cloze": {
+      "de": "fürchte",
+      "en": "afraid"
+    },
     "sourceIndex": 2835
   },
   {
@@ -1782,6 +2198,10 @@ const phrasesFeelings = [
     "wordIds": [
       "12864"
     ],
+    "cloze": {
+      "de": "unsicher",
+      "en": "insecure"
+    },
     "sourceIndex": 2864
   },
   {
@@ -1799,6 +2219,10 @@ const phrasesFeelings = [
     "wordIds": [
       "12877"
     ],
+    "cloze": {
+      "de": "Emotion",
+      "en": "emotion"
+    },
     "sourceIndex": 2877
   },
   {
@@ -1816,6 +2240,10 @@ const phrasesFeelings = [
     "wordIds": [
       "12890"
     ],
+    "cloze": {
+      "de": "matt",
+      "en": "tired"
+    },
     "sourceIndex": 2890
   },
   {
@@ -1833,6 +2261,10 @@ const phrasesFeelings = [
     "wordIds": [
       "12934"
     ],
+    "cloze": {
+      "de": "Genuss",
+      "en": "enjoyment"
+    },
     "sourceIndex": 2934
   },
   {
@@ -1850,6 +2282,10 @@ const phrasesFeelings = [
     "wordIds": [
       "13021"
     ],
+    "cloze": {
+      "de": "Trauer",
+      "en": "sorrow"
+    },
     "sourceIndex": 3021
   },
   {
@@ -1867,6 +2303,10 @@ const phrasesFeelings = [
     "wordIds": [
       "13034"
     ],
+    "cloze": {
+      "de": "Begeisterung",
+      "en": "enthusiasm"
+    },
     "sourceIndex": 3034
   },
   {
@@ -1884,6 +2324,10 @@ const phrasesFeelings = [
     "wordIds": [
       "13046"
     ],
+    "cloze": {
+      "de": "friedlicher",
+      "en": "peaceful"
+    },
     "sourceIndex": 3046
   },
   {
@@ -1901,6 +2345,10 @@ const phrasesFeelings = [
     "wordIds": [
       "13114"
     ],
+    "cloze": {
+      "de": "Mitleid",
+      "en": "pity"
+    },
     "sourceIndex": 3114
   },
   {
@@ -1918,6 +2366,10 @@ const phrasesFeelings = [
     "wordIds": [
       "13134"
     ],
+    "cloze": {
+      "de": "unangenehm",
+      "en": "unpleasant"
+    },
     "sourceIndex": 3134
   },
   {
@@ -1935,6 +2387,10 @@ const phrasesFeelings = [
     "wordIds": [
       "13140"
     ],
+    "cloze": {
+      "de": "verzweifelt",
+      "en": "desperately"
+    },
     "sourceIndex": 3140
   },
   {
@@ -1952,6 +2408,10 @@ const phrasesFeelings = [
     "wordIds": [
       "13217"
     ],
+    "cloze": {
+      "de": "beruhigen",
+      "en": "calm"
+    },
     "sourceIndex": 3217
   },
   {
@@ -1969,6 +2429,10 @@ const phrasesFeelings = [
     "wordIds": [
       "13223"
     ],
+    "cloze": {
+      "de": "Demonstration",
+      "en": "demonstration"
+    },
     "sourceIndex": 3223
   },
   {
@@ -1986,6 +2450,10 @@ const phrasesFeelings = [
     "wordIds": [
       "13298"
     ],
+    "cloze": {
+      "de": "Mix",
+      "en": "mix"
+    },
     "sourceIndex": 3298
   },
   {
@@ -2003,6 +2471,10 @@ const phrasesFeelings = [
     "wordIds": [
       "13402"
     ],
+    "cloze": {
+      "de": "ein",
+      "en": "come"
+    },
     "sourceIndex": 3402
   },
   {
@@ -2020,6 +2492,10 @@ const phrasesFeelings = [
     "wordIds": [
       "13427"
     ],
+    "cloze": {
+      "de": "nervös",
+      "en": "nervous"
+    },
     "sourceIndex": 3427
   },
   {
@@ -2037,6 +2513,10 @@ const phrasesFeelings = [
     "wordIds": [
       "13466"
     ],
+    "cloze": {
+      "de": "entspannen",
+      "en": "relax"
+    },
     "sourceIndex": 3466
   },
   {
@@ -2054,6 +2534,10 @@ const phrasesFeelings = [
     "wordIds": [
       "13493"
     ],
+    "cloze": {
+      "de": "Sorte",
+      "en": "sort"
+    },
     "sourceIndex": 3493
   },
   {
@@ -2071,6 +2555,10 @@ const phrasesFeelings = [
     "wordIds": [
       "13497"
     ],
+    "cloze": {
+      "de": "unglücklich",
+      "en": "unhappy"
+    },
     "sourceIndex": 3497
   },
   {
@@ -2088,6 +2576,10 @@ const phrasesFeelings = [
     "wordIds": [
       "13564"
     ],
+    "cloze": {
+      "de": "Zelt",
+      "en": "tent"
+    },
     "sourceIndex": 3564
   },
   {
@@ -2105,6 +2597,10 @@ const phrasesFeelings = [
     "wordIds": [
       "13590"
     ],
+    "cloze": {
+      "de": "Europäer",
+      "en": "European"
+    },
     "sourceIndex": 3590
   },
   {
@@ -2122,6 +2618,10 @@ const phrasesFeelings = [
     "wordIds": [
       "13599"
     ],
+    "cloze": {
+      "de": "kreative",
+      "en": "creative"
+    },
     "sourceIndex": 3599
   },
   {
@@ -2139,6 +2639,10 @@ const phrasesFeelings = [
     "wordIds": [
       "13663"
     ],
+    "cloze": {
+      "de": "Kreativität",
+      "en": "creativity"
+    },
     "sourceIndex": 3663
   },
   {
@@ -2156,6 +2660,10 @@ const phrasesFeelings = [
     "wordIds": [
       "13675"
     ],
+    "cloze": {
+      "de": "safe",
+      "en": "safe"
+    },
     "sourceIndex": 3675
   },
   {
@@ -2173,6 +2681,10 @@ const phrasesFeelings = [
     "wordIds": [
       "13704"
     ],
+    "cloze": {
+      "de": "deuten",
+      "en": "interpret"
+    },
     "sourceIndex": 3704
   },
   {
@@ -2190,6 +2702,10 @@ const phrasesFeelings = [
     "wordIds": [
       "13760"
     ],
+    "cloze": {
+      "de": "befürchte",
+      "en": "fear"
+    },
     "sourceIndex": 3760
   },
   {
@@ -2207,6 +2723,10 @@ const phrasesFeelings = [
     "wordIds": [
       "13821"
     ],
+    "cloze": {
+      "de": "Dummheit",
+      "en": "stupidity"
+    },
     "sourceIndex": 3821
   },
   {
@@ -2224,6 +2744,10 @@ const phrasesFeelings = [
     "wordIds": [
       "13849"
     ],
+    "cloze": {
+      "de": "mutiges",
+      "en": "brave"
+    },
     "sourceIndex": 3849
   },
   {
@@ -2241,6 +2765,10 @@ const phrasesFeelings = [
     "wordIds": [
       "13851"
     ],
+    "cloze": {
+      "de": "nürnberger",
+      "en": "Nuremberg"
+    },
     "sourceIndex": 3851
   },
   {
@@ -2258,6 +2786,10 @@ const phrasesFeelings = [
     "wordIds": [
       "13863"
     ],
+    "cloze": {
+      "de": "Sonntags",
+      "en": "On"
+    },
     "sourceIndex": 3863
   },
   {
@@ -2275,6 +2807,10 @@ const phrasesFeelings = [
     "wordIds": [
       "13925"
     ],
+    "cloze": {
+      "de": "pur",
+      "en": "pure"
+    },
     "sourceIndex": 3925
   },
   {
@@ -2292,6 +2828,10 @@ const phrasesFeelings = [
     "wordIds": [
       "13967"
     ],
+    "cloze": {
+      "de": "einsam",
+      "en": "lonely"
+    },
     "sourceIndex": 3967
   },
   {
@@ -2309,6 +2849,10 @@ const phrasesFeelings = [
     "wordIds": [
       "13970"
     ],
+    "cloze": {
+      "de": "Erholung",
+      "en": "rest"
+    },
     "sourceIndex": 3970
   },
   {
@@ -2326,6 +2870,10 @@ const phrasesFeelings = [
     "wordIds": [
       "14041"
     ],
+    "cloze": {
+      "de": "Enttäuschung",
+      "en": "disappointment"
+    },
     "sourceIndex": 4041
   },
   {
@@ -2343,6 +2891,10 @@ const phrasesFeelings = [
     "wordIds": [
       "14067"
     ],
+    "cloze": {
+      "de": "schämt",
+      "en": "ashamed"
+    },
     "sourceIndex": 4067
   },
   {
@@ -2360,6 +2912,10 @@ const phrasesFeelings = [
     "wordIds": [
       "14086"
     ],
+    "cloze": {
+      "de": "abbauen",
+      "en": "reduce"
+    },
     "sourceIndex": 4086
   },
   {
@@ -2377,6 +2933,10 @@ const phrasesFeelings = [
     "wordIds": [
       "14193"
     ],
+    "cloze": {
+      "de": "inspirieren",
+      "en": "inspire"
+    },
     "sourceIndex": 4193
   },
   {
@@ -2394,6 +2954,10 @@ const phrasesFeelings = [
     "wordIds": [
       "14206"
     ],
+    "cloze": {
+      "de": "Publikation",
+      "en": "publication"
+    },
     "sourceIndex": 4206
   },
   {
@@ -2411,6 +2975,10 @@ const phrasesFeelings = [
     "wordIds": [
       "14342"
     ],
+    "cloze": {
+      "de": "ruhen",
+      "en": "rest"
+    },
     "sourceIndex": 4342
   },
   {
@@ -2428,6 +2996,10 @@ const phrasesFeelings = [
     "wordIds": [
       "14378"
     ],
+    "cloze": {
+      "de": "Entspannung",
+      "en": "relaxation"
+    },
     "sourceIndex": 4378
   },
   {
@@ -2445,6 +3017,10 @@ const phrasesFeelings = [
     "wordIds": [
       "14413"
     ],
+    "cloze": {
+      "de": "Pastor",
+      "en": "pastor"
+    },
     "sourceIndex": 4413
   },
   {
@@ -2462,6 +3038,10 @@ const phrasesFeelings = [
     "wordIds": [
       "14485"
     ],
+    "cloze": {
+      "de": "liebevolle",
+      "en": "loving"
+    },
     "sourceIndex": 4485
   },
   {
@@ -2479,6 +3059,10 @@ const phrasesFeelings = [
     "wordIds": [
       "14641"
     ],
+    "cloze": {
+      "de": "unzufrieden",
+      "en": "dissatisfied"
+    },
     "sourceIndex": 4641
   },
   {
@@ -2496,6 +3080,10 @@ const phrasesFeelings = [
     "wordIds": [
       "14700"
     ],
+    "cloze": {
+      "de": "Schrei",
+      "en": "scream"
+    },
     "sourceIndex": 4700
   },
   {
@@ -2513,6 +3101,10 @@ const phrasesFeelings = [
     "wordIds": [
       "14727"
     ],
+    "cloze": {
+      "de": "ausdenken",
+      "en": "think"
+    },
     "sourceIndex": 4727
   },
   {
@@ -2530,6 +3122,10 @@ const phrasesFeelings = [
     "wordIds": [
       "14812"
     ],
+    "cloze": {
+      "de": "zweifle",
+      "en": "doubt"
+    },
     "sourceIndex": 4812
   },
   {
@@ -2547,6 +3143,10 @@ const phrasesFeelings = [
     "wordIds": [
       "14851"
     ],
+    "cloze": {
+      "de": "Inspiration",
+      "en": "inspiration"
+    },
     "sourceIndex": 4851
   },
   {
@@ -2564,6 +3164,10 @@ const phrasesFeelings = [
     "wordIds": [
       "14858"
     ],
+    "cloze": {
+      "de": "Langeweile",
+      "en": "boredom"
+    },
     "sourceIndex": 4858
   },
   {
@@ -2581,6 +3185,10 @@ const phrasesFeelings = [
     "wordIds": [
       "14878"
     ],
+    "cloze": {
+      "de": "Schirm",
+      "en": "umbrella"
+    },
     "sourceIndex": 4878
   },
   {
@@ -2598,6 +3206,10 @@ const phrasesFeelings = [
     "wordIds": [
       "14890"
     ],
+    "cloze": {
+      "de": "Untertiteln",
+      "en": "I"
+    },
     "sourceIndex": 4890
   },
   {
@@ -2615,6 +3227,10 @@ const phrasesFeelings = [
     "wordIds": [
       "14897"
     ],
+    "cloze": {
+      "de": "ärgerliche",
+      "en": "annoying"
+    },
     "sourceIndex": 4897
   },
   {
@@ -2632,6 +3248,10 @@ const phrasesFeelings = [
     "wordIds": [
       "14940"
     ],
+    "cloze": {
+      "de": "Minimum",
+      "en": "minimum"
+    },
     "sourceIndex": 4940
   },
   {
@@ -2649,6 +3269,10 @@ const phrasesFeelings = [
     "wordIds": [
       "14944"
     ],
+    "cloze": {
+      "de": "Neid",
+      "en": "Envy"
+    },
     "sourceIndex": 4944
   },
   {
@@ -2666,6 +3290,10 @@ const phrasesFeelings = [
     "wordIds": [
       "14986"
     ],
+    "cloze": {
+      "de": "Badewanne",
+      "en": "bathtub"
+    },
     "sourceIndex": 4986
   },
   {
@@ -2683,6 +3311,10 @@ const phrasesFeelings = [
     "wordIds": [
       "14988"
     ],
+    "cloze": {
+      "de": "bescheidener",
+      "en": "modest"
+    },
     "sourceIndex": 4988
   },
   {
@@ -2700,6 +3332,10 @@ const phrasesFeelings = [
     "wordIds": [
       "15019"
     ],
+    "cloze": {
+      "de": "Latte",
+      "en": "latte"
+    },
     "sourceIndex": 5019
   },
   {
@@ -2717,6 +3353,10 @@ const phrasesFeelings = [
     "wordIds": [
       "15123"
     ],
+    "cloze": {
+      "de": "respektieren",
+      "en": "respect"
+    },
     "sourceIndex": 5123
   },
   {
@@ -2734,6 +3374,10 @@ const phrasesFeelings = [
     "wordIds": [
       "15176"
     ],
+    "cloze": {
+      "de": "ekelhaft",
+      "en": "disgusting"
+    },
     "sourceIndex": 5176
   },
   {
@@ -2751,6 +3395,10 @@ const phrasesFeelings = [
     "wordIds": [
       "15199"
     ],
+    "cloze": {
+      "de": "Massage",
+      "en": "massage"
+    },
     "sourceIndex": 5199
   },
   {
@@ -2768,6 +3416,10 @@ const phrasesFeelings = [
     "wordIds": [
       "15308"
     ],
+    "cloze": {
+      "de": "schmerzhaft",
+      "en": "painful"
+    },
     "sourceIndex": 5308
   },
   {
@@ -2785,6 +3437,10 @@ const phrasesFeelings = [
     "wordIds": [
       "15311"
     ],
+    "cloze": {
+      "de": "schüchternes",
+      "en": "shy"
+    },
     "sourceIndex": 5311
   },
   {
@@ -2802,6 +3458,10 @@ const phrasesFeelings = [
     "wordIds": [
       "15347"
     ],
+    "cloze": {
+      "de": "Dankbarkeit",
+      "en": "gratitude"
+    },
     "sourceIndex": 5347
   },
   {
@@ -2819,6 +3479,10 @@ const phrasesFeelings = [
     "wordIds": [
       "15392"
     ],
+    "cloze": {
+      "de": "optimistisch",
+      "en": "optimistic"
+    },
     "sourceIndex": 5392
   },
   {
@@ -2836,6 +3500,10 @@ const phrasesFeelings = [
     "wordIds": [
       "15463"
     ],
+    "cloze": {
+      "de": "Kleinigkeit",
+      "en": "trifle"
+    },
     "sourceIndex": 5463
   },
   {
@@ -2853,6 +3521,10 @@ const phrasesFeelings = [
     "wordIds": [
       "15564"
     ],
+    "cloze": {
+      "de": "neidisch",
+      "en": "envious"
+    },
     "sourceIndex": 5564
   },
   {
@@ -2870,6 +3542,10 @@ const phrasesFeelings = [
     "wordIds": [
       "15567"
     ],
+    "cloze": {
+      "de": "Phantasie",
+      "en": "imagination"
+    },
     "sourceIndex": 5567
   },
   {
@@ -2887,6 +3563,10 @@ const phrasesFeelings = [
     "wordIds": [
       "15599"
     ],
+    "cloze": {
+      "de": "Zusammenleben",
+      "en": "cohabitation"
+    },
     "sourceIndex": 5599
   },
   {
@@ -2904,6 +3584,10 @@ const phrasesFeelings = [
     "wordIds": [
       "15639"
     ],
+    "cloze": {
+      "de": "Hesse",
+      "en": "Hessian"
+    },
     "sourceIndex": 5639
   },
   {
@@ -2921,6 +3605,10 @@ const phrasesFeelings = [
     "wordIds": [
       "15671"
     ],
+    "cloze": {
+      "de": "Trottel",
+      "en": "idiot"
+    },
     "sourceIndex": 5671
   },
   {
@@ -2938,6 +3626,10 @@ const phrasesFeelings = [
     "wordIds": [
       "15768"
     ],
+    "cloze": {
+      "de": "täuschen",
+      "en": "deceived"
+    },
     "sourceIndex": 5768
   },
   {
@@ -2955,6 +3647,10 @@ const phrasesFeelings = [
     "wordIds": [
       "15804"
     ],
+    "cloze": {
+      "de": "eklig",
+      "en": "disgusting"
+    },
     "sourceIndex": 5804
   },
   {
@@ -2972,6 +3668,10 @@ const phrasesFeelings = [
     "wordIds": [
       "15806"
     ],
+    "cloze": {
+      "de": "feige",
+      "en": "cowardly"
+    },
     "sourceIndex": 5806
   },
   {
@@ -2989,6 +3689,10 @@ const phrasesFeelings = [
     "wordIds": [
       "15843"
     ],
+    "cloze": {
+      "de": "Rast",
+      "en": "rest"
+    },
     "sourceIndex": 5843
   },
   {
@@ -3006,6 +3710,10 @@ const phrasesFeelings = [
     "wordIds": [
       "15943"
     ],
+    "cloze": {
+      "de": "Meinetwegen",
+      "en": "As"
+    },
     "sourceIndex": 5943
   },
   {
@@ -3023,6 +3731,10 @@ const phrasesFeelings = [
     "wordIds": [
       "16105"
     ],
+    "cloze": {
+      "de": "Erwachen",
+      "en": "Wake"
+    },
     "sourceIndex": 6105
   },
   {
@@ -3040,6 +3752,10 @@ const phrasesFeelings = [
     "wordIds": [
       "16172"
     ],
+    "cloze": {
+      "de": "an",
+      "en": "How"
+    },
     "sourceIndex": 6172
   },
   {
@@ -3057,6 +3773,10 @@ const phrasesFeelings = [
     "wordIds": [
       "16193"
     ],
+    "cloze": {
+      "de": "Ehrlichkeit",
+      "en": "Honesty"
+    },
     "sourceIndex": 6193
   },
   {
@@ -3074,6 +3794,10 @@ const phrasesFeelings = [
     "wordIds": [
       "16623"
     ],
+    "cloze": {
+      "de": "Gin",
+      "en": "gin"
+    },
     "sourceIndex": 6623
   },
   {
@@ -3091,6 +3815,10 @@ const phrasesFeelings = [
     "wordIds": [
       "16694"
     ],
+    "cloze": {
+      "de": "arrogantes",
+      "en": "arrogant"
+    },
     "sourceIndex": 6694
   },
   {
@@ -3108,6 +3836,10 @@ const phrasesFeelings = [
     "wordIds": [
       "16881"
     ],
+    "cloze": {
+      "de": "zuversichtlich",
+      "en": "confident"
+    },
     "sourceIndex": 6881
   },
   {
@@ -3125,6 +3857,10 @@ const phrasesFeelings = [
     "wordIds": [
       "16892"
     ],
+    "cloze": {
+      "de": "ausruhen",
+      "en": "rest"
+    },
     "sourceIndex": 6892
   },
   {
@@ -3142,6 +3878,10 @@ const phrasesFeelings = [
     "wordIds": [
       "16907"
     ],
+    "cloze": {
+      "de": "enttäuschend",
+      "en": "disappointing"
+    },
     "sourceIndex": 6907
   },
   {
@@ -3159,6 +3899,10 @@ const phrasesFeelings = [
     "wordIds": [
       "16908"
     ],
+    "cloze": {
+      "de": "erschrecken",
+      "en": "made"
+    },
     "sourceIndex": 6908
   },
   {
@@ -3176,6 +3920,10 @@ const phrasesFeelings = [
     "wordIds": [
       "16946"
     ],
+    "cloze": {
+      "de": "Müdigkeit",
+      "en": "tiredness"
+    },
     "sourceIndex": 6946
   },
   {
@@ -3193,6 +3941,10 @@ const phrasesFeelings = [
     "wordIds": [
       "16963"
     ],
+    "cloze": {
+      "de": "schmunzeln",
+      "en": "smile"
+    },
     "sourceIndex": 6963
   },
   {
@@ -3210,6 +3962,10 @@ const phrasesFeelings = [
     "wordIds": [
       "17049"
     ],
+    "cloze": {
+      "de": "Optimismus",
+      "en": "optimism"
+    },
     "sourceIndex": 7049
   },
   {
@@ -3227,6 +3983,10 @@ const phrasesFeelings = [
     "wordIds": [
       "17065"
     ],
+    "cloze": {
+      "de": "selbstbewusste",
+      "en": "self-confident"
+    },
     "sourceIndex": 7065
   },
   {
@@ -3244,6 +4004,10 @@ const phrasesFeelings = [
     "wordIds": [
       "17168"
     ],
+    "cloze": {
+      "de": "Sonnenbrille",
+      "en": "sunglasses"
+    },
     "sourceIndex": 7168
   },
   {
@@ -3261,6 +4025,10 @@ const phrasesFeelings = [
     "wordIds": [
       "17330"
     ],
+    "cloze": {
+      "de": "eifersüchtig",
+      "en": "jealous"
+    },
     "sourceIndex": 7330
   },
   {
@@ -3278,6 +4046,10 @@ const phrasesFeelings = [
     "wordIds": [
       "17337"
     ],
+    "cloze": {
+      "de": "Feeling",
+      "en": "feeling"
+    },
     "sourceIndex": 7337
   },
   {
@@ -3295,6 +4067,10 @@ const phrasesFeelings = [
     "wordIds": [
       "17424"
     ],
+    "cloze": {
+      "de": "ängstlich",
+      "en": "anxious"
+    },
     "sourceIndex": 7424
   },
   {
@@ -3312,6 +4088,10 @@ const phrasesFeelings = [
     "wordIds": [
       "17459"
     ],
+    "cloze": {
+      "de": "frustriert",
+      "en": "frustrated"
+    },
     "sourceIndex": 7459
   },
   {
@@ -3329,6 +4109,10 @@ const phrasesFeelings = [
     "wordIds": [
       "17504"
     ],
+    "cloze": {
+      "de": "scheu",
+      "en": "shy"
+    },
     "sourceIndex": 7504
   },
   {
@@ -3346,6 +4130,10 @@ const phrasesFeelings = [
     "wordIds": [
       "17588"
     ],
+    "cloze": {
+      "de": "geehrt",
+      "en": "honored"
+    },
     "sourceIndex": 7588
   },
   {
@@ -3363,6 +4151,10 @@ const phrasesFeelings = [
     "wordIds": [
       "17598"
     ],
+    "cloze": {
+      "de": "grundlos",
+      "en": "groundless"
+    },
     "sourceIndex": 7598
   },
   {
@@ -3380,6 +4172,10 @@ const phrasesFeelings = [
     "wordIds": [
       "17608"
     ],
+    "cloze": {
+      "de": "Komfort",
+      "en": "comfort"
+    },
     "sourceIndex": 7608
   },
   {
@@ -3397,6 +4193,10 @@ const phrasesFeelings = [
     "wordIds": [
       "17722"
     ],
+    "cloze": {
+      "de": "gefühlte",
+      "en": "perceived"
+    },
     "sourceIndex": 7722
   },
   {
@@ -3414,6 +4214,10 @@ const phrasesFeelings = [
     "wordIds": [
       "17724"
     ],
+    "cloze": {
+      "de": "geheimnisvolles",
+      "en": "mysterious"
+    },
     "sourceIndex": 7724
   },
   {
@@ -3431,6 +4235,10 @@ const phrasesFeelings = [
     "wordIds": [
       "17731"
     ],
+    "cloze": {
+      "de": "hoffnungslos",
+      "en": "hopeless"
+    },
     "sourceIndex": 7731
   },
   {
@@ -3448,6 +4256,10 @@ const phrasesFeelings = [
     "wordIds": [
       "17746"
     ],
+    "cloze": {
+      "de": "Lebensfreude",
+      "en": "joy"
+    },
     "sourceIndex": 7746
   },
   {
@@ -3465,6 +4277,10 @@ const phrasesFeelings = [
     "wordIds": [
       "18003"
     ],
+    "cloze": {
+      "de": "trauert",
+      "en": "mourning"
+    },
     "sourceIndex": 8003
   },
   {
@@ -3482,6 +4298,10 @@ const phrasesFeelings = [
     "wordIds": [
       "18004"
     ],
+    "cloze": {
+      "de": "trösten",
+      "en": "comfort"
+    },
     "sourceIndex": 8004
   },
   {
@@ -3499,6 +4319,10 @@ const phrasesFeelings = [
     "wordIds": [
       "18007"
     ],
+    "cloze": {
+      "de": "unruhig",
+      "en": "restless"
+    },
     "sourceIndex": 8007
   },
   {
@@ -3516,6 +4340,10 @@ const phrasesFeelings = [
     "wordIds": [
       "18169"
     ],
+    "cloze": {
+      "de": "depressiv",
+      "en": "depressed"
+    },
     "sourceIndex": 8169
   },
   {
@@ -3533,6 +4361,10 @@ const phrasesFeelings = [
     "wordIds": [
       "18313"
     ],
+    "cloze": {
+      "de": "Hashtag",
+      "en": "hashtag"
+    },
     "sourceIndex": 8313
   },
   {
@@ -3550,6 +4382,10 @@ const phrasesFeelings = [
     "wordIds": [
       "18393"
     ],
+    "cloze": {
+      "de": "wiederfinden",
+      "en": "find"
+    },
     "sourceIndex": 8393
   },
   {
@@ -3567,6 +4403,10 @@ const phrasesFeelings = [
     "wordIds": [
       "18476"
     ],
+    "cloze": {
+      "de": "sprachlos",
+      "en": "speechless"
+    },
     "sourceIndex": 8476
   },
   {
@@ -3584,6 +4424,10 @@ const phrasesFeelings = [
     "wordIds": [
       "18482"
     ],
+    "cloze": {
+      "de": "Traurigkeit",
+      "en": "sadness"
+    },
     "sourceIndex": 8482
   },
   {
@@ -3601,6 +4445,10 @@ const phrasesFeelings = [
     "wordIds": [
       "18491"
     ],
+    "cloze": {
+      "de": "unwohl",
+      "en": "unwell"
+    },
     "sourceIndex": 8491
   },
   {
@@ -3618,6 +4466,10 @@ const phrasesFeelings = [
     "wordIds": [
       "18519"
     ],
+    "cloze": {
+      "de": "andersrum",
+      "en": "other"
+    },
     "sourceIndex": 8519
   },
   {
@@ -3635,6 +4487,10 @@ const phrasesFeelings = [
     "wordIds": [
       "18551"
     ],
+    "cloze": {
+      "de": "Ekel",
+      "en": "disgust"
+    },
     "sourceIndex": 8551
   },
   {
@@ -3652,6 +4508,10 @@ const phrasesFeelings = [
     "wordIds": [
       "18629"
     ],
+    "cloze": {
+      "de": "ungewohnt",
+      "en": "unusual"
+    },
     "sourceIndex": 8629
   },
   {
@@ -3669,6 +4529,10 @@ const phrasesFeelings = [
     "wordIds": [
       "18647"
     ],
+    "cloze": {
+      "de": "fühle",
+      "en": "feel"
+    },
     "sourceIndex": 8647
   },
   {
@@ -3686,6 +4550,10 @@ const phrasesFeelings = [
     "wordIds": [
       "18823"
     ],
+    "cloze": {
+      "de": "Bequemlichkeit",
+      "en": "convenience"
+    },
     "sourceIndex": 8823
   },
   {
@@ -3703,6 +4571,10 @@ const phrasesFeelings = [
     "wordIds": [
       "18921"
     ],
+    "cloze": {
+      "de": "stressig",
+      "en": "stressful"
+    },
     "sourceIndex": 8921
   },
   {
@@ -3720,6 +4592,10 @@ const phrasesFeelings = [
     "wordIds": [
       "18933"
     ],
+    "cloze": {
+      "de": "Vollidiot",
+      "en": "complete"
+    },
     "sourceIndex": 8933
   },
   {
@@ -3737,6 +4613,10 @@ const phrasesFeelings = [
     "wordIds": [
       "18943"
     ],
+    "cloze": {
+      "de": "zärtlichen",
+      "en": "tender"
+    },
     "sourceIndex": 8943
   },
   {
@@ -3754,6 +4634,10 @@ const phrasesFeelings = [
     "wordIds": [
       "18975"
     ],
+    "cloze": {
+      "de": "ermutigt",
+      "en": "encouraged"
+    },
     "sourceIndex": 8975
   },
   {
@@ -3771,6 +4655,10 @@ const phrasesFeelings = [
     "wordIds": [
       "18994"
     ],
+    "cloze": {
+      "de": "gelangweilt",
+      "en": "bored"
+    },
     "sourceIndex": 8994
   },
   {
@@ -3788,6 +4676,10 @@ const phrasesFeelings = [
     "wordIds": [
       "19369"
     ],
+    "cloze": {
+      "de": "stur",
+      "en": "stubborn"
+    },
     "sourceIndex": 9369
   },
   {
@@ -3805,6 +4697,10 @@ const phrasesFeelings = [
     "wordIds": [
       "19687"
     ],
+    "cloze": {
+      "de": "verliebt",
+      "en": "in"
+    },
     "sourceIndex": 9687
   },
   {
@@ -3822,6 +4718,10 @@ const phrasesFeelings = [
     "wordIds": [
       "19720"
     ],
+    "cloze": {
+      "de": "belügen",
+      "en": "lie"
+    },
     "sourceIndex": 9720
   },
   {
@@ -3839,6 +4739,10 @@ const phrasesFeelings = [
     "wordIds": [
       "19786"
     ],
+    "cloze": {
+      "de": "Oliven",
+      "en": "I"
+    },
     "sourceIndex": 9786
   },
   {
@@ -3857,6 +4761,10 @@ const phrasesFeelings = [
       "19815",
       "20736"
     ],
+    "cloze": {
+      "de": "strahlendes",
+      "en": "radiant"
+    },
     "sourceIndex": 9815
   },
   {
@@ -3874,6 +4782,10 @@ const phrasesFeelings = [
     "wordIds": [
       "19860"
     ],
+    "cloze": {
+      "de": "besorgt",
+      "en": "worried"
+    },
     "sourceIndex": 9860
   },
   {
@@ -3891,6 +4803,10 @@ const phrasesFeelings = [
     "wordIds": [
       "20165"
     ],
+    "cloze": {
+      "de": "Camping",
+      "en": "camping"
+    },
     "sourceIndex": 10165
   },
   {
@@ -3908,6 +4824,10 @@ const phrasesFeelings = [
     "wordIds": [
       "20218"
     ],
+    "cloze": {
+      "de": "lebhafte",
+      "en": "vivid"
+    },
     "sourceIndex": 10218
   },
   {
@@ -3925,6 +4845,10 @@ const phrasesFeelings = [
     "wordIds": [
       "20226"
     ],
+    "cloze": {
+      "de": "Mayo",
+      "en": "I"
+    },
     "sourceIndex": 10226
   },
   {
@@ -3942,6 +4866,10 @@ const phrasesFeelings = [
     "wordIds": [
       "20395"
     ],
+    "cloze": {
+      "de": "rasten",
+      "en": "rest"
+    },
     "sourceIndex": 10395
   },
   {
@@ -3959,6 +4887,10 @@ const phrasesFeelings = [
     "wordIds": [
       "20765"
     ],
+    "cloze": {
+      "de": "Abenteurer",
+      "en": "adventurer"
+    },
     "sourceIndex": 10765
   },
   {
@@ -3976,6 +4908,10 @@ const phrasesFeelings = [
     "wordIds": [
       "20786"
     ],
+    "cloze": {
+      "de": "begeistert",
+      "en": "enthusiastic"
+    },
     "sourceIndex": 10786
   },
   {
@@ -3993,6 +4929,10 @@ const phrasesFeelings = [
     "wordIds": [
       "20921"
     ],
+    "cloze": {
+      "de": "unsympathisch",
+      "en": "unpleasant"
+    },
     "sourceIndex": 10921
   },
   {
@@ -4010,6 +4950,10 @@ const phrasesFeelings = [
     "wordIds": [
       "20962"
     ],
+    "cloze": {
+      "de": "auslachen",
+      "en": "laugh"
+    },
     "sourceIndex": 10962
   },
   {
@@ -4027,6 +4971,10 @@ const phrasesFeelings = [
     "wordIds": [
       "20986"
     ],
+    "cloze": {
+      "de": "dito",
+      "en": "ditto"
+    },
     "sourceIndex": 10986
   },
   {
@@ -4044,6 +4992,10 @@ const phrasesFeelings = [
     "wordIds": [
       "21003"
     ],
+    "cloze": {
+      "de": "ermutigen",
+      "en": "encourage"
+    },
     "sourceIndex": 11003
   },
   {
@@ -4061,6 +5013,10 @@ const phrasesFeelings = [
     "wordIds": [
       "21011"
     ],
+    "cloze": {
+      "de": "frustrierend",
+      "en": "frustrating"
+    },
     "sourceIndex": 11011
   },
   {
@@ -4078,6 +5034,10 @@ const phrasesFeelings = [
     "wordIds": [
       "21088"
     ],
+    "cloze": {
+      "de": "Samurai",
+      "en": "samurai"
+    },
     "sourceIndex": 11088
   },
   {
@@ -4095,6 +5055,10 @@ const phrasesFeelings = [
     "wordIds": [
       "21162"
     ],
+    "cloze": {
+      "de": "deprimierend",
+      "en": "depressing"
+    },
     "sourceIndex": 11162
   },
   {
@@ -4112,6 +5076,10 @@ const phrasesFeelings = [
     "wordIds": [
       "21205"
     ],
+    "cloze": {
+      "de": "Horrorfilme",
+      "en": "horror"
+    },
     "sourceIndex": 11205
   },
   {
@@ -4129,6 +5097,10 @@ const phrasesFeelings = [
     "wordIds": [
       "21284"
     ],
+    "cloze": {
+      "de": "unschöne",
+      "en": "unpleasant"
+    },
     "sourceIndex": 11284
   },
   {
@@ -4146,6 +5118,10 @@ const phrasesFeelings = [
     "wordIds": [
       "21293"
     ],
+    "cloze": {
+      "de": "Verlegenheit",
+      "en": "embarrassment"
+    },
     "sourceIndex": 11293
   },
   {
@@ -4163,6 +5139,10 @@ const phrasesFeelings = [
     "wordIds": [
       "21391"
     ],
+    "cloze": {
+      "de": "grenzenlos",
+      "en": "boundless"
+    },
     "sourceIndex": 11391
   },
   {
@@ -4180,6 +5160,10 @@ const phrasesFeelings = [
     "wordIds": [
       "21456"
     ],
+    "cloze": {
+      "de": "Rosinen",
+      "en": "I"
+    },
     "sourceIndex": 11456
   },
   {
@@ -4197,6 +5181,10 @@ const phrasesFeelings = [
     "wordIds": [
       "21463"
     ],
+    "cloze": {
+      "de": "schlapp",
+      "en": "exhausted"
+    },
     "sourceIndex": 11463
   },
   {
@@ -4214,6 +5202,10 @@ const phrasesFeelings = [
     "wordIds": [
       "21721"
     ],
+    "cloze": {
+      "de": "Filz",
+      "en": "felt"
+    },
     "sourceIndex": 11721
   },
   {
@@ -4231,6 +5223,10 @@ const phrasesFeelings = [
     "wordIds": [
       "22003"
     ],
+    "cloze": {
+      "de": "ungemütlich",
+      "en": "unpleasant"
+    },
     "sourceIndex": 12003
   },
   {
@@ -4248,6 +5244,10 @@ const phrasesFeelings = [
     "wordIds": [
       "22167"
     ],
+    "cloze": {
+      "de": "schiefgeht",
+      "en": "wrong"
+    },
     "sourceIndex": 12167
   },
   {
@@ -4265,6 +5265,10 @@ const phrasesFeelings = [
     "wordIds": [
       "22337"
     ],
+    "cloze": {
+      "de": "Regenschirm",
+      "en": "umbrella"
+    },
     "sourceIndex": 12337
   },
   {
@@ -4282,6 +5286,10 @@ const phrasesFeelings = [
     "wordIds": [
       "22650"
     ],
+    "cloze": {
+      "de": "entspannend",
+      "en": "relaxing"
+    },
     "sourceIndex": 12650
   },
   {
@@ -4299,6 +5307,10 @@ const phrasesFeelings = [
     "wordIds": [
       "22656"
     ],
+    "cloze": {
+      "de": "Frustration",
+      "en": "frustration"
+    },
     "sourceIndex": 12656
   },
   {
@@ -4316,6 +5328,10 @@ const phrasesFeelings = [
     "wordIds": [
       "22897"
     ],
+    "cloze": {
+      "de": "pennen",
+      "en": "sleep"
+    },
     "sourceIndex": 12897
   },
   {
@@ -4333,6 +5349,10 @@ const phrasesFeelings = [
     "wordIds": [
       "22966"
     ],
+    "cloze": {
+      "de": "zumute",
+      "en": "I"
+    },
     "sourceIndex": 12966
   },
   {
@@ -4350,6 +5370,10 @@ const phrasesFeelings = [
     "wordIds": [
       "23301"
     ],
+    "cloze": {
+      "de": "schwarzweiss",
+      "en": "black"
+    },
     "sourceIndex": 13301
   },
   {
@@ -4367,6 +5391,10 @@ const phrasesFeelings = [
     "wordIds": [
       "23556"
     ],
+    "cloze": {
+      "de": "Wunschliste",
+      "en": "wish"
+    },
     "sourceIndex": 13556
   },
   {
@@ -4384,6 +5412,10 @@ const phrasesFeelings = [
     "wordIds": [
       "23589"
     ],
+    "cloze": {
+      "de": "ausschlafen",
+      "en": "sleep"
+    },
     "sourceIndex": 13589
   },
   {
@@ -4401,6 +5433,10 @@ const phrasesFeelings = [
     "wordIds": [
       "23869"
     ],
+    "cloze": {
+      "de": "liebenswertes",
+      "en": "lovable"
+    },
     "sourceIndex": 13869
   },
   {
@@ -4418,6 +5454,10 @@ const phrasesFeelings = [
     "wordIds": [
       "23991"
     ],
+    "cloze": {
+      "de": "bezauberndes",
+      "en": "charming"
+    },
     "sourceIndex": 13991
   },
   {
@@ -4435,6 +5475,10 @@ const phrasesFeelings = [
     "wordIds": [
       "24018"
     ],
+    "cloze": {
+      "de": "erholsamer",
+      "en": "restful"
+    },
     "sourceIndex": 14018
   },
   {
@@ -4452,6 +5496,10 @@ const phrasesFeelings = [
     "wordIds": [
       "24242"
     ],
+    "cloze": {
+      "de": "Hängematte",
+      "en": "hammock"
+    },
     "sourceIndex": 14242
   },
   {
@@ -4469,6 +5517,10 @@ const phrasesFeelings = [
     "wordIds": [
       "24263"
     ],
+    "cloze": {
+      "de": "Liebesleben",
+      "en": "love"
+    },
     "sourceIndex": 14263
   },
   {
@@ -4486,6 +5538,10 @@ const phrasesFeelings = [
     "wordIds": [
       "24407"
     ],
+    "cloze": {
+      "de": "Gaul",
+      "en": "old"
+    },
     "sourceIndex": 14407
   },
   {
@@ -4503,6 +5559,10 @@ const phrasesFeelings = [
     "wordIds": [
       "24416"
     ],
+    "cloze": {
+      "de": "gespielt",
+      "en": "feigned"
+    },
     "sourceIndex": 14416
   },
   {
@@ -4520,6 +5580,10 @@ const phrasesFeelings = [
     "wordIds": [
       "24447"
     ],
+    "cloze": {
+      "de": "Langweile",
+      "en": "boredom"
+    },
     "sourceIndex": 14447
   },
   {
@@ -4537,6 +5601,10 @@ const phrasesFeelings = [
     "wordIds": [
       "24721"
     ],
+    "cloze": {
+      "de": "sorgloses",
+      "en": "carefree"
+    },
     "sourceIndex": 14721
   },
   {
@@ -4554,6 +5622,10 @@ const phrasesFeelings = [
     "wordIds": [
       "24985"
     ],
+    "cloze": {
+      "de": "abzumelden",
+      "en": "log"
+    },
     "sourceIndex": 14985
   },
   {
@@ -4571,6 +5643,10 @@ const phrasesFeelings = [
     "wordIds": [
       "25082"
     ],
+    "cloze": {
+      "de": "kämpfenden",
+      "en": "fighting"
+    },
     "sourceIndex": 15082
   },
   {
@@ -4588,6 +5664,10 @@ const phrasesFeelings = [
     "wordIds": [
       "25126"
     ],
+    "cloze": {
+      "de": "relaxen",
+      "en": "relax"
+    },
     "sourceIndex": 15126
   },
   {
@@ -4605,6 +5685,10 @@ const phrasesFeelings = [
     "wordIds": [
       "25197"
     ],
+    "cloze": {
+      "de": "überzeugt",
+      "en": "convinced"
+    },
     "sourceIndex": 15197
   },
   {
@@ -4622,6 +5706,10 @@ const phrasesFeelings = [
     "wordIds": [
       "25294"
     ],
+    "cloze": {
+      "de": "Kaviar",
+      "en": "caviar"
+    },
     "sourceIndex": 15294
   },
   {
@@ -4639,6 +5727,10 @@ const phrasesFeelings = [
     "wordIds": [
       "26006"
     ],
+    "cloze": {
+      "de": "Sonnencreme",
+      "en": "sunscreen"
+    },
     "sourceIndex": 16006
   },
   {
@@ -4656,6 +5748,10 @@ const phrasesFeelings = [
     "wordIds": [
       "26772"
     ],
+    "cloze": {
+      "de": "Surprise",
+      "en": "surprise"
+    },
     "sourceIndex": 16772
   },
   {
@@ -4673,6 +5769,10 @@ const phrasesFeelings = [
     "wordIds": [
       "27133"
     ],
+    "cloze": {
+      "de": "enttäuscht",
+      "en": "disappointed"
+    },
     "sourceIndex": 17133
   },
   {
@@ -4690,6 +5790,10 @@ const phrasesFeelings = [
     "wordIds": [
       "27471"
     ],
+    "cloze": {
+      "de": "Lebensabend",
+      "en": "twilight"
+    },
     "sourceIndex": 17471
   },
   {
@@ -4707,6 +5811,10 @@ const phrasesFeelings = [
     "wordIds": [
       "28041"
     ],
+    "cloze": {
+      "de": "stottern",
+      "en": "stutter"
+    },
     "sourceIndex": 18041
   },
   {
@@ -4724,6 +5832,10 @@ const phrasesFeelings = [
     "wordIds": [
       "28105"
     ],
+    "cloze": {
+      "de": "ausgeruht",
+      "en": "well-rested"
+    },
     "sourceIndex": 18105
   },
   {
@@ -4741,6 +5853,10 @@ const phrasesFeelings = [
     "wordIds": [
       "28109"
     ],
+    "cloze": {
+      "de": "Ausruf",
+      "en": "exclamation"
+    },
     "sourceIndex": 18109
   },
   {
@@ -4758,6 +5874,10 @@ const phrasesFeelings = [
     "wordIds": [
       "28399"
     ],
+    "cloze": {
+      "de": "ekelig",
+      "en": "disgusting"
+    },
     "sourceIndex": 18399
   },
   {
@@ -4775,6 +5895,10 @@ const phrasesFeelings = [
     "wordIds": [
       "28406"
     ],
+    "cloze": {
+      "de": "entmutigen",
+      "en": "discouraged"
+    },
     "sourceIndex": 18406
   },
   {
@@ -4792,6 +5916,10 @@ const phrasesFeelings = [
     "wordIds": [
       "28742"
     ],
+    "cloze": {
+      "de": "Käsekuchen",
+      "en": "cheesecake"
+    },
     "sourceIndex": 18742
   },
   {
@@ -4809,6 +5937,10 @@ const phrasesFeelings = [
     "wordIds": [
       "28790"
     ],
+    "cloze": {
+      "de": "runterkommen",
+      "en": "calm"
+    },
     "sourceIndex": 18790
   },
   {
@@ -4826,6 +5958,10 @@ const phrasesFeelings = [
     "wordIds": [
       "28798"
     ],
+    "cloze": {
+      "de": "schlaflose",
+      "en": "sleepless"
+    },
     "sourceIndex": 18798
   },
   {
@@ -4843,6 +5979,10 @@ const phrasesFeelings = [
     "wordIds": [
       "28843"
     ],
+    "cloze": {
+      "de": "verletzend",
+      "en": "hurtful"
+    },
     "sourceIndex": 18843
   },
   {
@@ -4860,6 +6000,10 @@ const phrasesFeelings = [
     "wordIds": [
       "29178"
     ],
+    "cloze": {
+      "de": "abschütteln",
+      "en": "shake"
+    },
     "sourceIndex": 19178
   },
   {
@@ -4877,6 +6021,10 @@ const phrasesFeelings = [
     "wordIds": [
       "29183"
     ],
+    "cloze": {
+      "de": "Amazone",
+      "en": "Amazon"
+    },
     "sourceIndex": 19183
   },
   {
@@ -4894,6 +6042,10 @@ const phrasesFeelings = [
     "wordIds": [
       "29277"
     ],
+    "cloze": {
+      "de": "gähnen",
+      "en": "yawn"
+    },
     "sourceIndex": 19277
   },
   {
@@ -4911,6 +6063,10 @@ const phrasesFeelings = [
     "wordIds": [
       "29377"
     ],
+    "cloze": {
+      "de": "fahren",
+      "en": "shut"
+    },
     "sourceIndex": 19377
   },
   {
@@ -4928,6 +6084,10 @@ const phrasesFeelings = [
     "wordIds": [
       "29668"
     ],
+    "cloze": {
+      "de": "schläfrig",
+      "en": "sleepy"
+    },
     "sourceIndex": 19668
   },
   {
@@ -4945,6 +6105,10 @@ const phrasesFeelings = [
     "wordIds": [
       "29750"
     ],
+    "cloze": {
+      "de": "wohlauf",
+      "en": "well"
+    },
     "sourceIndex": 19750
   },
   {
@@ -4962,6 +6126,10 @@ const phrasesFeelings = [
     "wordIds": [
       "30116"
     ],
+    "cloze": {
+      "de": "ermutigend",
+      "en": "encouraging"
+    },
     "sourceIndex": 20116
   }
 ];

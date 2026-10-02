@@ -20,12 +20,18 @@ const assignments = JSON.parse(fs.readFileSync(path.join(root, 'data/import/assi
 const byId = new Map(assignments.filter(entry => entry.status === 'include').map(entry => [entry.id, entry]));
 const pairs = new Set();
 let sourceBacked = 0;
+const phraseTokens = (text) => (text.match(/[\p{L}]+(?:['’-][\p{L}]+)?/gu) || []).map(token => token.toLocaleLowerCase('de'));
 for (const phrase of phrases) {
   assert.deepEqual(Object.keys(phrase.translations).sort(), ['de', 'en']);
   const de = phrase.translations.de.text, en = phrase.translations.en.text;
   assert.equal(de, de.trim());
   assert.equal(en, en.trim());
   assert(de && en && !/[<>\u0000-\u001f]/.test(de + en));
+  assert(phrase.cloze && typeof phrase.cloze === 'object', `Missing cloze focus for phrase ${phrase.id}`);
+  for (const language of ['de', 'en']) {
+    assert.equal(typeof phrase.cloze[language], 'string', `Invalid cloze focus for phrase ${phrase.id}/${language}`);
+    assert(phraseTokens(phrase.translations[language].text).includes(phrase.cloze[language].toLocaleLowerCase('de')), `Cloze focus is not in phrase ${phrase.id}/${language}`);
+  }
   const key = `${de}\u0000${en}`;
   assert(!pairs.has(key), `Duplicate phrase pair: ${key}`);
   pairs.add(key);

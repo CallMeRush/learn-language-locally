@@ -14,6 +14,10 @@ const phrasesClothing = [
     "wordIds": [
       "10431"
     ],
+    "cloze": {
+      "de": "passen",
+      "en": "fit"
+    },
     "sourceIndex": 431
   },
   {
@@ -31,6 +35,10 @@ const phrasesClothing = [
     "wordIds": [
       "10502"
     ],
+    "cloze": {
+      "de": "Druck",
+      "en": "pressure"
+    },
     "sourceIndex": 502
   },
   {
@@ -48,6 +56,10 @@ const phrasesClothing = [
     "wordIds": [
       "11143"
     ],
+    "cloze": {
+      "de": "Schuhe",
+      "en": "shoes"
+    },
     "sourceIndex": 1143
   },
   {
@@ -65,6 +77,10 @@ const phrasesClothing = [
     "wordIds": [
       "11242"
     ],
+    "cloze": {
+      "de": "Rock",
+      "en": "skirt"
+    },
     "sourceIndex": 1242
   },
   {
@@ -82,6 +98,10 @@ const phrasesClothing = [
     "wordIds": [
       "11476"
     ],
+    "cloze": {
+      "de": "Wolle",
+      "en": "wool"
+    },
     "sourceIndex": 1476
   },
   {
@@ -99,6 +119,10 @@ const phrasesClothing = [
     "wordIds": [
       "11594"
     ],
+    "cloze": {
+      "de": "Kleidung",
+      "en": "clothes"
+    },
     "sourceIndex": 1594
   },
   {
@@ -116,6 +140,10 @@ const phrasesClothing = [
     "wordIds": [
       "11639"
     ],
+    "cloze": {
+      "de": "Stoff",
+      "en": "fabric"
+    },
     "sourceIndex": 1639
   },
   {
@@ -133,6 +161,10 @@ const phrasesClothing = [
     "wordIds": [
       "11670"
     ],
+    "cloze": {
+      "de": "Hose",
+      "en": "trousers"
+    },
     "sourceIndex": 1670
   },
   {
@@ -150,6 +182,10 @@ const phrasesClothing = [
     "wordIds": [
       "11724"
     ],
+    "cloze": {
+      "de": "Loch",
+      "en": "hole"
+    },
     "sourceIndex": 1724
   },
   {
@@ -167,6 +203,10 @@ const phrasesClothing = [
     "wordIds": [
       "11839"
     ],
+    "cloze": {
+      "de": "Schneider",
+      "en": "tailor"
+    },
     "sourceIndex": 1839
   },
   {
@@ -184,6 +224,10 @@ const phrasesClothing = [
     "wordIds": [
       "11860"
     ],
+    "cloze": {
+      "de": "Hut",
+      "en": "hat"
+    },
     "sourceIndex": 1860
   },
   {
@@ -201,6 +245,10 @@ const phrasesClothing = [
     "wordIds": [
       "11864"
     ],
+    "cloze": {
+      "de": "Mode",
+      "en": "fashion"
+    },
     "sourceIndex": 1864
   },
   {
@@ -218,6 +266,10 @@ const phrasesClothing = [
     "wordIds": [
       "11943"
     ],
+    "cloze": {
+      "de": "rosa",
+      "en": "pink"
+    },
     "sourceIndex": 1943
   },
   {
@@ -235,6 +287,10 @@ const phrasesClothing = [
     "wordIds": [
       "12038"
     ],
+    "cloze": {
+      "de": "ein",
+      "en": "fine"
+    },
     "sourceIndex": 2038
   },
   {
@@ -252,6 +308,10 @@ const phrasesClothing = [
     "wordIds": [
       "12101"
     ],
+    "cloze": {
+      "de": "Shirt",
+      "en": "shirt"
+    },
     "sourceIndex": 2101
   },
   {
@@ -269,6 +329,10 @@ const phrasesClothing = [
     "wordIds": [
       "12202"
     ],
+    "cloze": {
+      "de": "Kleid",
+      "en": "dress"
+    },
     "sourceIndex": 2202
   },
   {
@@ -286,6 +350,10 @@ const phrasesClothing = [
     "wordIds": [
       "12218"
     ],
+    "cloze": {
+      "de": "traditionelle",
+      "en": "traditional"
+    },
     "sourceIndex": 2218
   },
   {
@@ -303,6 +371,10 @@ const phrasesClothing = [
     "wordIds": [
       "12251"
     ],
+    "cloze": {
+      "de": "Blumenmuster",
+      "en": "pattern"
+    },
     "sourceIndex": 2251
   },
   {
@@ -320,6 +392,10 @@ const phrasesClothing = [
     "wordIds": [
       "12303"
     ],
+    "cloze": {
+      "de": "Streifen",
+      "en": "stripes"
+    },
     "sourceIndex": 2303
   },
   {
@@ -337,6 +413,10 @@ const phrasesClothing = [
     "wordIds": [
       "12343"
     ],
+    "cloze": {
+      "de": "wunderschönes",
+      "en": "beautiful"
+    },
     "sourceIndex": 2343
   },
   {
@@ -354,6 +434,10 @@ const phrasesClothing = [
     "wordIds": [
       "12446"
     ],
+    "cloze": {
+      "de": "Jacke",
+      "en": "jacket"
+    },
     "sourceIndex": 2446
   },
   {
@@ -371,6 +455,10 @@ const phrasesClothing = [
     "wordIds": [
       "12538"
     ],
+    "cloze": {
+      "de": "binden",
+      "en": "tie"
+    },
     "sourceIndex": 2538
   },
   {
@@ -389,6 +477,10 @@ const phrasesClothing = [
       "12554",
       "21873"
     ],
+    "cloze": {
+      "de": "schickes",
+      "en": "chic"
+    },
     "sourceIndex": 2554
   },
   {
@@ -406,6 +498,10 @@ const phrasesClothing = [
     "wordIds": [
       "12818"
     ],
+    "cloze": {
+      "de": "anziehen",
+      "en": "put"
+    },
     "sourceIndex": 2818
   },
   {
@@ -423,6 +519,10 @@ const phrasesClothing = [
     "wordIds": [
       "13007"
     ],
+    "cloze": {
+      "de": "nass",
+      "en": "wet"
+    },
     "sourceIndex": 3007
   },
   {
@@ -440,6 +540,10 @@ const phrasesClothing = [
     "wordIds": [
       "13174"
     ],
+    "cloze": {
+      "de": "grob",
+      "en": "rough"
+    },
     "sourceIndex": 3174
   },
   {
@@ -457,6 +561,10 @@ const phrasesClothing = [
     "wordIds": [
       "13180"
     ],
+    "cloze": {
+      "de": "Jeans",
+      "en": "jeans"
+    },
     "sourceIndex": 3180
   },
   {
@@ -474,6 +582,10 @@ const phrasesClothing = [
     "wordIds": [
       "13255"
     ],
+    "cloze": {
+      "de": "nice",
+      "en": "nice"
+    },
     "sourceIndex": 3255
   },
   {
@@ -491,6 +603,10 @@ const phrasesClothing = [
     "wordIds": [
       "13301"
     ],
+    "cloze": {
+      "de": "pariser",
+      "en": "Parisian"
+    },
     "sourceIndex": 3301
   },
   {
@@ -508,6 +624,10 @@ const phrasesClothing = [
     "wordIds": [
       "13436"
     ],
+    "cloze": {
+      "de": "smarte",
+      "en": "smart"
+    },
     "sourceIndex": 3436
   },
   {
@@ -525,6 +645,10 @@ const phrasesClothing = [
     "wordIds": [
       "13437"
     ],
+    "cloze": {
+      "de": "Socken",
+      "en": "socks"
+    },
     "sourceIndex": 3437
   },
   {
@@ -542,6 +666,10 @@ const phrasesClothing = [
     "wordIds": [
       "13542"
     ],
+    "cloze": {
+      "de": "Mantel",
+      "en": "coat"
+    },
     "sourceIndex": 3542
   },
   {
@@ -559,6 +687,10 @@ const phrasesClothing = [
     "wordIds": [
       "13592"
     ],
+    "cloze": {
+      "de": "Hemd",
+      "en": "shirt"
+    },
     "sourceIndex": 3592
   },
   {
@@ -576,6 +708,10 @@ const phrasesClothing = [
     "wordIds": [
       "13654"
     ],
+    "cloze": {
+      "de": "Haken",
+      "en": "hook"
+    },
     "sourceIndex": 3654
   },
   {
@@ -593,6 +729,10 @@ const phrasesClothing = [
     "wordIds": [
       "13754"
     ],
+    "cloze": {
+      "de": "Anzug",
+      "en": "suit"
+    },
     "sourceIndex": 3754
   },
   {
@@ -610,6 +750,10 @@ const phrasesClothing = [
     "wordIds": [
       "13786"
     ],
+    "cloze": {
+      "de": "Knopf",
+      "en": "button"
+    },
     "sourceIndex": 3786
   },
   {
@@ -627,6 +771,10 @@ const phrasesClothing = [
     "wordIds": [
       "13944"
     ],
+    "cloze": {
+      "de": "Lieblingstrikot",
+      "en": "jersey"
+    },
     "sourceIndex": 3944
   },
   {
@@ -644,6 +792,10 @@ const phrasesClothing = [
     "wordIds": [
       "13992"
     ],
+    "cloze": {
+      "de": "pink",
+      "en": "pink"
+    },
     "sourceIndex": 3992
   },
   {
@@ -661,6 +813,10 @@ const phrasesClothing = [
     "wordIds": [
       "14065"
     ],
+    "cloze": {
+      "de": "Reinigung",
+      "en": "dry"
+    },
     "sourceIndex": 4065
   },
   {
@@ -678,6 +834,10 @@ const phrasesClothing = [
     "wordIds": [
       "14211"
     ],
+    "cloze": {
+      "de": "Stiefel",
+      "en": "boots"
+    },
     "sourceIndex": 4211
   },
   {
@@ -695,6 +855,10 @@ const phrasesClothing = [
     "wordIds": [
       "14278"
     ],
+    "cloze": {
+      "de": "Uniform",
+      "en": "uniform"
+    },
     "sourceIndex": 4278
   },
   {
@@ -712,6 +876,10 @@ const phrasesClothing = [
     "wordIds": [
       "14318"
     ],
+    "cloze": {
+      "de": "Gürtel",
+      "en": "belt"
+    },
     "sourceIndex": 4318
   },
   {
@@ -729,6 +897,10 @@ const phrasesClothing = [
     "wordIds": [
       "14327"
     ],
+    "cloze": {
+      "de": "lose",
+      "en": "loose"
+    },
     "sourceIndex": 4327
   },
   {
@@ -746,6 +918,10 @@ const phrasesClothing = [
     "wordIds": [
       "14486"
     ],
+    "cloze": {
+      "de": "lila",
+      "en": "purple"
+    },
     "sourceIndex": 4486
   },
   {
@@ -763,6 +939,10 @@ const phrasesClothing = [
     "wordIds": [
       "14609"
     ],
+    "cloze": {
+      "de": "Jersey-Pullover",
+      "en": "jersey"
+    },
     "sourceIndex": 4609
   },
   {
@@ -780,6 +960,10 @@ const phrasesClothing = [
     "wordIds": [
       "14663"
     ],
+    "cloze": {
+      "de": "einheitliche",
+      "en": "uniform"
+    },
     "sourceIndex": 4663
   },
   {
@@ -797,6 +981,10 @@ const phrasesClothing = [
     "wordIds": [
       "14736"
     ],
+    "cloze": {
+      "de": "Button",
+      "en": "button"
+    },
     "sourceIndex": 4736
   },
   {
@@ -814,6 +1002,10 @@ const phrasesClothing = [
     "wordIds": [
       "14825"
     ],
+    "cloze": {
+      "de": "ausziehen",
+      "en": "take"
+    },
     "sourceIndex": 4825
   },
   {
@@ -831,6 +1023,10 @@ const phrasesClothing = [
     "wordIds": [
       "15002"
     ],
+    "cloze": {
+      "de": "Fashion",
+      "en": "fashion"
+    },
     "sourceIndex": 5002
   },
   {
@@ -848,6 +1044,10 @@ const phrasesClothing = [
     "wordIds": [
       "15091"
     ],
+    "cloze": {
+      "de": "formal",
+      "en": "formal"
+    },
     "sourceIndex": 5091
   },
   {
@@ -865,6 +1065,10 @@ const phrasesClothing = [
     "wordIds": [
       "15231"
     ],
+    "cloze": {
+      "de": "Tuch",
+      "en": "cloth"
+    },
     "sourceIndex": 5231
   },
   {
@@ -882,6 +1086,10 @@ const phrasesClothing = [
     "wordIds": [
       "15444"
     ],
+    "cloze": {
+      "de": "elegantes",
+      "en": "elegant"
+    },
     "sourceIndex": 5444
   },
   {
@@ -899,6 +1107,10 @@ const phrasesClothing = [
     "wordIds": [
       "15467"
     ],
+    "cloze": {
+      "de": "Kragen",
+      "en": "collar"
+    },
     "sourceIndex": 5467
   },
   {
@@ -916,6 +1128,10 @@ const phrasesClothing = [
     "wordIds": [
       "15636"
     ],
+    "cloze": {
+      "de": "Handschuhe",
+      "en": "gloves"
+    },
     "sourceIndex": 5636
   },
   {
@@ -933,6 +1149,10 @@ const phrasesClothing = [
     "wordIds": [
       "15770"
     ],
+    "cloze": {
+      "de": "Unterwäsche",
+      "en": "underwear"
+    },
     "sourceIndex": 5770
   },
   {
@@ -950,6 +1170,10 @@ const phrasesClothing = [
     "wordIds": [
       "16058"
     ],
+    "cloze": {
+      "de": "Schal",
+      "en": "scarf"
+    },
     "sourceIndex": 6058
   },
   {
@@ -967,6 +1191,10 @@ const phrasesClothing = [
     "wordIds": [
       "16191"
     ],
+    "cloze": {
+      "de": "dreckig",
+      "en": "dirty"
+    },
     "sourceIndex": 6191
   },
   {
@@ -984,6 +1212,10 @@ const phrasesClothing = [
     "wordIds": [
       "16248"
     ],
+    "cloze": {
+      "de": "schmutzig",
+      "en": "dirty"
+    },
     "sourceIndex": 6248
   },
   {
@@ -1001,6 +1233,10 @@ const phrasesClothing = [
     "wordIds": [
       "16259"
     ],
+    "cloze": {
+      "de": "Taste",
+      "en": "button"
+    },
     "sourceIndex": 6259
   },
   {
@@ -1018,6 +1254,10 @@ const phrasesClothing = [
     "wordIds": [
       "16696"
     ],
+    "cloze": {
+      "de": "Baumwolle",
+      "en": "cotton"
+    },
     "sourceIndex": 6696
   },
   {
@@ -1035,6 +1275,10 @@ const phrasesClothing = [
     "wordIds": [
       "16882"
     ],
+    "cloze": {
+      "de": "Ärmel",
+      "en": "sleeves"
+    },
     "sourceIndex": 6882
   },
   {
@@ -1052,6 +1296,10 @@ const phrasesClothing = [
     "wordIds": [
       "17164"
     ],
+    "cloze": {
+      "de": "Seide",
+      "en": "silk"
+    },
     "sourceIndex": 7164
   },
   {
@@ -1069,6 +1317,10 @@ const phrasesClothing = [
     "wordIds": [
       "17434"
     ],
+    "cloze": {
+      "de": "Bekleidung",
+      "en": "clothing"
+    },
     "sourceIndex": 7434
   },
   {
@@ -1086,6 +1338,10 @@ const phrasesClothing = [
     "wordIds": [
       "17742"
     ],
+    "cloze": {
+      "de": "Krawatte",
+      "en": "tie"
+    },
     "sourceIndex": 7742
   },
   {
@@ -1103,6 +1359,10 @@ const phrasesClothing = [
     "wordIds": [
       "17911"
     ],
+    "cloze": {
+      "de": "Abzeichen",
+      "en": "badge"
+    },
     "sourceIndex": 7911
   },
   {
@@ -1120,6 +1380,10 @@ const phrasesClothing = [
     "wordIds": [
       "18040"
     ],
+    "cloze": {
+      "de": "Bluse",
+      "en": "blouse"
+    },
     "sourceIndex": 8040
   },
   {
@@ -1137,6 +1401,10 @@ const phrasesClothing = [
     "wordIds": [
       "18232"
     ],
+    "cloze": {
+      "de": "Sohle",
+      "en": "sole"
+    },
     "sourceIndex": 8232
   },
   {
@@ -1154,6 +1422,10 @@ const phrasesClothing = [
     "wordIds": [
       "18236"
     ],
+    "cloze": {
+      "de": "stopfen",
+      "en": "mend"
+    },
     "sourceIndex": 8236
   },
   {
@@ -1171,6 +1443,10 @@ const phrasesClothing = [
     "wordIds": [
       "18418"
     ],
+    "cloze": {
+      "de": "Dirndl",
+      "en": "a"
+    },
     "sourceIndex": 8418
   },
   {
@@ -1188,6 +1464,10 @@ const phrasesClothing = [
     "wordIds": [
       "18638"
     ],
+    "cloze": {
+      "de": "Vintage-Kleidung",
+      "en": "vintage"
+    },
     "sourceIndex": 8638
   },
   {
@@ -1205,6 +1485,10 @@ const phrasesClothing = [
     "wordIds": [
       "19074"
     ],
+    "cloze": {
+      "de": "Textilie",
+      "en": "textile"
+    },
     "sourceIndex": 9074
   },
   {
@@ -1222,6 +1506,10 @@ const phrasesClothing = [
     "wordIds": [
       "19547"
     ],
+    "cloze": {
+      "de": "Accessoire",
+      "en": "accessory"
+    },
     "sourceIndex": 9547
   },
   {
@@ -1239,6 +1527,10 @@ const phrasesClothing = [
     "wordIds": [
       "19858"
     ],
+    "cloze": {
+      "de": "beigen",
+      "en": "beige"
+    },
     "sourceIndex": 9858
   },
   {
@@ -1256,6 +1548,10 @@ const phrasesClothing = [
     "wordIds": [
       "19962"
     ],
+    "cloze": {
+      "de": "türkises",
+      "en": "turquoise"
+    },
     "sourceIndex": 9962
   },
   {
@@ -1273,6 +1569,10 @@ const phrasesClothing = [
     "wordIds": [
       "20388"
     ],
+    "cloze": {
+      "de": "Oberteil",
+      "en": "top"
+    },
     "sourceIndex": 10388
   },
   {
@@ -1290,6 +1590,10 @@ const phrasesClothing = [
     "wordIds": [
       "20689"
     ],
+    "cloze": {
+      "de": "Midi-Rock",
+      "en": "midi"
+    },
     "sourceIndex": 10689
   },
   {
@@ -1307,6 +1611,10 @@ const phrasesClothing = [
     "wordIds": [
       "20709"
     ],
+    "cloze": {
+      "de": "Reissverschluss",
+      "en": "zipper"
+    },
     "sourceIndex": 10709
   },
   {
@@ -1324,6 +1632,10 @@ const phrasesClothing = [
     "wordIds": [
       "20724"
     ],
+    "cloze": {
+      "de": "Slips",
+      "en": "briefs"
+    },
     "sourceIndex": 10724
   },
   {
@@ -1341,6 +1653,10 @@ const phrasesClothing = [
     "wordIds": [
       "20852"
     ],
+    "cloze": {
+      "de": "Kleidungsstück",
+      "en": "piece"
+    },
     "sourceIndex": 10852
   },
   {
@@ -1358,6 +1674,10 @@ const phrasesClothing = [
     "wordIds": [
       "20929"
     ],
+    "cloze": {
+      "de": "verkleiden",
+      "en": "dress"
+    },
     "sourceIndex": 10929
   },
   {
@@ -1375,6 +1695,10 @@ const phrasesClothing = [
     "wordIds": [
       "21056"
     ],
+    "cloze": {
+      "de": "lockern",
+      "en": "loosen"
+    },
     "sourceIndex": 11056
   },
   {
@@ -1392,6 +1716,10 @@ const phrasesClothing = [
     "wordIds": [
       "21599"
     ],
+    "cloze": {
+      "de": "mailänder",
+      "en": "Milanese"
+    },
     "sourceIndex": 11599
   },
   {
@@ -1409,6 +1737,10 @@ const phrasesClothing = [
     "wordIds": [
       "21675"
     ],
+    "cloze": {
+      "de": "an",
+      "en": "wearing"
+    },
     "sourceIndex": 11675
   },
   {
@@ -1426,6 +1758,10 @@ const phrasesClothing = [
     "wordIds": [
       "21736"
     ],
+    "cloze": {
+      "de": "Sicherheitsgurt",
+      "en": "seatbelt"
+    },
     "sourceIndex": 11736
   },
   {
@@ -1443,6 +1779,10 @@ const phrasesClothing = [
     "wordIds": [
       "22179"
     ],
+    "cloze": {
+      "de": "Strumpfhose",
+      "en": "tights"
+    },
     "sourceIndex": 12179
   },
   {
@@ -1460,6 +1800,10 @@ const phrasesClothing = [
     "wordIds": [
       "22236"
     ],
+    "cloze": {
+      "de": "aussortieren",
+      "en": "sort"
+    },
     "sourceIndex": 12236
   },
   {
@@ -1477,6 +1821,10 @@ const phrasesClothing = [
     "wordIds": [
       "22539"
     ],
+    "cloze": {
+      "de": "Schuhmacher",
+      "en": "shoemaker"
+    },
     "sourceIndex": 12539
   },
   {
@@ -1494,6 +1842,10 @@ const phrasesClothing = [
     "wordIds": [
       "22673"
     ],
+    "cloze": {
+      "de": "Klett",
+      "en": "velcro"
+    },
     "sourceIndex": 12673
   },
   {
@@ -1511,6 +1863,10 @@ const phrasesClothing = [
     "wordIds": [
       "22718"
     ],
+    "cloze": {
+      "de": "Schminke",
+      "en": "make-up"
+    },
     "sourceIndex": 12718
   },
   {
@@ -1528,6 +1884,10 @@ const phrasesClothing = [
     "wordIds": [
       "23219"
     ],
+    "cloze": {
+      "de": "Fünfzigern",
+      "en": "In"
+    },
     "sourceIndex": 13219
   },
   {
@@ -1545,6 +1905,10 @@ const phrasesClothing = [
     "wordIds": [
       "23232"
     ],
+    "cloze": {
+      "de": "Glitzer",
+      "en": "glitter"
+    },
     "sourceIndex": 13232
   },
   {
@@ -1562,6 +1926,10 @@ const phrasesClothing = [
     "wordIds": [
       "23491"
     ],
+    "cloze": {
+      "de": "polieren",
+      "en": "polish"
+    },
     "sourceIndex": 13491
   },
   {
@@ -1579,6 +1947,10 @@ const phrasesClothing = [
     "wordIds": [
       "23640"
     ],
+    "cloze": {
+      "de": "gefärbtes",
+      "en": "colored"
+    },
     "sourceIndex": 13640
   },
   {
@@ -1596,6 +1968,10 @@ const phrasesClothing = [
     "wordIds": [
       "23865"
     ],
+    "cloze": {
+      "de": "Lederhose",
+      "en": "leather"
+    },
     "sourceIndex": 13865
   },
   {
@@ -1613,6 +1989,10 @@ const phrasesClothing = [
     "wordIds": [
       "24221"
     ],
+    "cloze": {
+      "de": "Garn",
+      "en": "yarn"
+    },
     "sourceIndex": 14221
   },
   {
@@ -1630,6 +2010,10 @@ const phrasesClothing = [
     "wordIds": [
       "24360"
     ],
+    "cloze": {
+      "de": "Armbanduhr",
+      "en": "wristwatch"
+    },
     "sourceIndex": 14360
   },
   {
@@ -1647,6 +2031,10 @@ const phrasesClothing = [
     "wordIds": [
       "24381"
     ],
+    "cloze": {
+      "de": "Bügel",
+      "en": "hanger"
+    },
     "sourceIndex": 14381
   },
   {
@@ -1664,6 +2052,10 @@ const phrasesClothing = [
     "wordIds": [
       "24389"
     ],
+    "cloze": {
+      "de": "ein",
+      "en": "plain-colored"
+    },
     "sourceIndex": 14389
   },
   {
@@ -1681,6 +2073,10 @@ const phrasesClothing = [
     "wordIds": [
       "24449"
     ],
+    "cloze": {
+      "de": "Lederjacke",
+      "en": "leather"
+    },
     "sourceIndex": 14449
   },
   {
@@ -1698,6 +2094,10 @@ const phrasesClothing = [
     "wordIds": [
       "25701"
     ],
+    "cloze": {
+      "de": "Gummistiefel",
+      "en": "rubber"
+    },
     "sourceIndex": 15701
   },
   {
@@ -1715,6 +2115,10 @@ const phrasesClothing = [
     "wordIds": [
       "25879"
     ],
+    "cloze": {
+      "de": "dunkelblaues",
+      "en": "dark"
+    },
     "sourceIndex": 15879
   },
   {
@@ -1732,6 +2136,10 @@ const phrasesClothing = [
     "wordIds": [
       "25884"
     ],
+    "cloze": {
+      "de": "eingelaufen",
+      "en": "in"
+    },
     "sourceIndex": 15884
   },
   {
@@ -1749,6 +2157,10 @@ const phrasesClothing = [
     "wordIds": [
       "25949"
     ],
+    "cloze": {
+      "de": "knöpfte",
+      "en": "buttoned"
+    },
     "sourceIndex": 15949
   },
   {
@@ -1766,6 +2178,10 @@ const phrasesClothing = [
     "wordIds": [
       "26010"
     ],
+    "cloze": {
+      "de": "Stiefeletten",
+      "en": "ankle"
+    },
     "sourceIndex": 16010
   },
   {
@@ -1783,6 +2199,10 @@ const phrasesClothing = [
     "wordIds": [
       "26085"
     ],
+    "cloze": {
+      "de": "Belt",
+      "en": "belt"
+    },
     "sourceIndex": 16085
   },
   {
@@ -1800,6 +2220,10 @@ const phrasesClothing = [
     "wordIds": [
       "26749"
     ],
+    "cloze": {
+      "de": "schnürte",
+      "en": "tied"
+    },
     "sourceIndex": 16749
   },
   {
@@ -1817,6 +2241,10 @@ const phrasesClothing = [
     "wordIds": [
       "26914"
     ],
+    "cloze": {
+      "de": "Legging",
+      "en": "legging"
+    },
     "sourceIndex": 16914
   },
   {
@@ -1834,6 +2262,10 @@ const phrasesClothing = [
     "wordIds": [
       "26981"
     ],
+    "cloze": {
+      "de": "Sakko",
+      "en": "jacket"
+    },
     "sourceIndex": 16981
   },
   {
@@ -1851,6 +2283,10 @@ const phrasesClothing = [
     "wordIds": [
       "27459"
     ],
+    "cloze": {
+      "de": "Kaschmir",
+      "en": "cashmere"
+    },
     "sourceIndex": 17459
   },
   {
@@ -1868,6 +2304,10 @@ const phrasesClothing = [
     "wordIds": [
       "27495"
     ],
+    "cloze": {
+      "de": "modische",
+      "en": "fashionable"
+    },
     "sourceIndex": 17495
   },
   {
@@ -1885,6 +2325,10 @@ const phrasesClothing = [
     "wordIds": [
       "27839"
     ],
+    "cloze": {
+      "de": "Watte",
+      "en": "cotton"
+    },
     "sourceIndex": 17839
   },
   {
@@ -1902,6 +2346,10 @@ const phrasesClothing = [
     "wordIds": [
       "28308"
     ],
+    "cloze": {
+      "de": "verfärbt",
+      "en": "discolored"
+    },
     "sourceIndex": 18308
   },
   {
@@ -1919,6 +2367,10 @@ const phrasesClothing = [
     "wordIds": [
       "28603"
     ],
+    "cloze": {
+      "de": "Vollbart",
+      "en": "full"
+    },
     "sourceIndex": 18603
   },
   {
@@ -1936,6 +2388,10 @@ const phrasesClothing = [
     "wordIds": [
       "28622"
     ],
+    "cloze": {
+      "de": "nutzen",
+      "en": "wear"
+    },
     "sourceIndex": 18622
   },
   {
@@ -1953,6 +2409,10 @@ const phrasesClothing = [
     "wordIds": [
       "28644"
     ],
+    "cloze": {
+      "de": "Bauchnabel",
+      "en": "belly"
+    },
     "sourceIndex": 18644
   },
   {
@@ -1970,6 +2430,10 @@ const phrasesClothing = [
     "wordIds": [
       "28981"
     ],
+    "cloze": {
+      "de": "gestreiftes",
+      "en": "striped"
+    },
     "sourceIndex": 18981
   },
   {
@@ -1987,6 +2451,10 @@ const phrasesClothing = [
     "wordIds": [
       "29013"
     ],
+    "cloze": {
+      "de": "Jackentasche",
+      "en": "jacket"
+    },
     "sourceIndex": 19013
   },
   {
@@ -2004,6 +2472,10 @@ const phrasesClothing = [
     "wordIds": [
       "29468"
     ],
+    "cloze": {
+      "de": "Wäscherei",
+      "en": "laundromat"
+    },
     "sourceIndex": 19468
   },
   {
@@ -2021,6 +2493,10 @@ const phrasesClothing = [
     "wordIds": [
       "29795"
     ],
+    "cloze": {
+      "de": "Bügeleisen",
+      "en": "iron"
+    },
     "sourceIndex": 19795
   },
   {
@@ -2038,6 +2514,10 @@ const phrasesClothing = [
     "wordIds": [
       "29799"
     ],
+    "cloze": {
+      "de": "Dekolleté",
+      "en": "neckline"
+    },
     "sourceIndex": 19799
   },
   {
@@ -2055,6 +2535,10 @@ const phrasesClothing = [
     "wordIds": [
       "29801"
     ],
+    "cloze": {
+      "de": "dunkelgrünes",
+      "en": "dark"
+    },
     "sourceIndex": 19801
   },
   {
@@ -2072,6 +2556,10 @@ const phrasesClothing = [
     "wordIds": [
       "29990"
     ],
+    "cloze": {
+      "de": "Strumpf",
+      "en": "sock"
+    },
     "sourceIndex": 19990
   },
   {
@@ -2089,6 +2577,10 @@ const phrasesClothing = [
     "wordIds": [
       "30051"
     ],
+    "cloze": {
+      "de": "Zahnspange",
+      "en": "braces"
+    },
     "sourceIndex": 20051
   }
 ];

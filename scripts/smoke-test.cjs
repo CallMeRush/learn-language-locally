@@ -66,7 +66,11 @@ let socket;
       assert(tab.querySelector('small').textContent===String(categoryCount(tab.dataset.cat)),'every adjective tab has count');
     }
     const group=document.querySelector('#adjectives-category-tabs [data-cat="adjective-appearance"]');group.click();
+    assert(!currentWords().some(w=>w.adjectiveCategory==='appearance'),'category tabs can be turned off from the all-selected default');
+    group.click();
+    selectedCategories=['adjective-appearance'];renderVocabulary();
     assert(currentWords().every(w=>w.adjectiveCategory==='appearance'),'adjective group filter');
+    selectedCategories=['adjectives'];renderVocabulary();
     for(const mode of ['translate','meaning','choice']) {
       document.querySelector('#adjectives-view [data-vocab-mode="'+mode+'"]').click();
       const word=activeVocabWord;
@@ -78,14 +82,14 @@ let socket;
     }
     setView('vocabulary');assert(currentWords().every(w=>!['adjective','verb'].includes(w.pos)),'ordinary vocabulary excludes adjectives and verbs');
     assert(adjectiveTotal===vocab.filter(w=>w.pos==='adjective').length,'all adjectives accessible');
-    vocabStatus='all';randomMode=true;
-    selectedCategory='all';setView('vocabulary');
+    randomMode=true;
+    selectedCategory='all';selectedCategories=['all'];setView('vocabulary');
     assert(selectedCategory==='all','vocabulary defaults to All words');
-    selectedCategory='all';vocabStudyStatus='pending';renderVocabulary();
+    selectedCategory='all';selectedCategories=['all'];vocabStudyStatus='pending';renderVocabulary();
     assert($('#word-list').querySelectorAll('[data-word]').length<=120,'large lists render bounded pages');
     assert($('#word-list').classList.contains('vocabulary-study-panel'),'vocabulary uses one status panel');
-    $('#word-list [data-vocab-study-status="correct"]').click();
-    assert($('#word-list [data-vocab-study-status="correct"]').classList.contains('active'),'status tabs remain selectable');
+    $('#word-list [data-vocab-study-status="first-shot"]').click();
+    assert($('#word-list [data-vocab-study-status="first-shot"]').classList.contains('active'),'status tabs remain selectable');
     $('#word-list [data-vocab-study-status="pending"]').click();
     const moreWords=$('#word-list').querySelector('.study-more');
     const rowsBefore=$('#word-list').querySelectorAll('[data-word]').length;
@@ -116,13 +120,14 @@ let socket;
       $('#word-list [data-vocab-study-status="wrong"]').click();
       assert($('#word-list').querySelector('[data-word="'+word.id+'"] .word-check').textContent==='✕','wrong marker updates immediately');
       selectedArticle=targetArticle(word);$('#vocab-answer').value=targetText(word).replace(/^(der|die|das) /,'');checkVocab();
-      $('#word-list [data-vocab-study-status="correct"]').click();
+      $('#word-list [data-vocab-study-status="corrected"]').click();
       assert($('#word-list').querySelector('[data-word="'+word.id+'"] .word-check').textContent==='✓','correct marker updates immediately');
       assert(!state.issues.includes(word.id),'correct word clears its issue');
     }
-    state=emptyProgress(); randomMode=false; selectedCategory='house'; vocabStatus='unseen'; vocabMode='translate'; setView('vocabulary');
+    state=emptyProgress(); randomMode=false; selectedCategory='all'; selectedCategories=['house']; vocabMode='translate'; setView('vocabulary');
     $('#word-list [data-vocab-study-status="wrong"]').click();
     assert($('#word-list [data-vocab-study-status="wrong"]').classList.contains('active') && !$('#word-list').querySelector('[data-word]'),'zero-count status tabs can show an empty list');
+    assert($('#practice-word').textContent==='Nothing here' && $('#check-vocab').disabled,'empty vocabulary status disables the practice card');
     $('#word-list [data-vocab-study-status="pending"]').click();
     const word=activeVocabWord;
     if(targetArticle(word)) { document.querySelector('#article-choices [data-article="'+targetArticle(word)+'"]').click(); assert(selectedArticle===targetArticle(word),'article button selects vocabulary article'); }
@@ -132,12 +137,21 @@ let socket;
     assert(!vocabCorrect && activeVocabWord===word,'wrong answer keeps card');
     $('#vocab-answer').value=targetText(word).replace(/^(der|die|das) /,''); checkVocab();
     assert(vocabCorrect && state.learned.includes(word.id),'retry checks displayed word');
+    assert(state.mistakes.includes(word.id) && !state.articleOnlyMistakes.includes(word.id),'translation errors remain in history after a correct retry');
+    const articleWord=currentWords(true).find(item=>item.id!==word.id&&targetArticle(item));
+    activeVocabWord=articleWord;vocabIndex=currentWords().indexOf(articleWord);showVocabCard();
+    const wrongArticle=[...document.querySelectorAll('#article-choices [data-article]')].find(button=>button.dataset.article!==targetArticle(articleWord));wrongArticle.click();
+    $('#vocab-answer').value=targetText(articleWord).replace(/^(der|die|das) /,'');checkVocab();
+    document.querySelector('#article-choices [data-article="'+targetArticle(articleWord)+'"]').click();checkVocab();
+    assert(state.articleOnlyMistakes.includes(articleWord.id) && !state.mistakes.includes(articleWord.id),'article-only errors remain separate after a correct retry');
+    $('#word-list [data-vocab-study-status="article"]').click();
+    assert($('#word-list').querySelector('[data-word="'+articleWord.id+'"]'),'article-only corrections have their own study tab');
     assert(!answerIncludes('', 'table') && !answerIncludes('tab','table'),'reject empty and partial answers');
     assert(answerMatches('  tall  ','big / tall'),'slash alternatives');
     assert(answerMatches('to get','to become / to get'),'imported alternatives');
     assert(answerMatches('to become / to get','to become / to get'),'multiple-choice combined alternatives');
     assert(splitAnswerAlternatives('shirt (male/female) / blouse').length===2,'parenthetical delimiters');
-    setView('phrases');setPhraseMode('translate');
+    setView('phrases');setPhraseDirection('translate');setPhraseCloze(false);setPhraseMultipleChoice(false);
     const sentenceRow=document.querySelector('#phrase-study-lists [data-phrase-id]'), sentenceId=sentenceRow.dataset.phraseId;
     sentenceRow.click();
     assert(filteredPhrases()[phraseIndex].id===sentenceId,'sentence list selects exact card in random mode');
@@ -148,9 +162,26 @@ let socket;
     $('#phrase-study-lists [data-phrase-study-status="correct"]').click();
     assert(document.querySelector('#phrase-study-lists [data-phrase-id="'+sentenceId+'"]'),'sentence moves into correct list');
     assert(!state.issues.includes(sentenceId),'correct sentence clears its issue');
+    $('#phrase-study-lists [data-phrase-study-status="wrong"]').click();
+    assert($('#phrase-question').textContent==='Nothing here.' && $('#check-phrase').disabled,'empty phrase status disables the practice card');
+    $('#phrase-study-lists [data-phrase-study-status="correct"]').click();
     const sentenceCounts=[...document.querySelectorAll('#phrase-study-lists [data-phrase-study-status] small')].reduce((n,x)=>n+Number(x.textContent),0);
-    assert(sentenceCounts===filteredPhrases().length,'sentence counts cover all statuses');
-    for(const mode of ['translate','reverse','cloze','choice']) {setPhraseMode(mode);const p=filteredPhrases()[phraseIndex];const answer=mode==='reverse'?sourceText(p):mode==='translate'?targetText(p):clozeFor(p).word;$('#phrase-answer').value=answer;selectedPhraseChoice=answer;checkPhrase();assert(phraseCorrect,'phrase '+mode);}
+    assert(sentenceCounts===phraseRecords().length,'sentence counts cover all statuses');
+    for(const settings of [
+      {direction:'translate',cloze:false,choice:false},
+      {direction:'reverse',cloze:false,choice:false},
+      {direction:'translate',cloze:true,choice:false},
+      {direction:'reverse',cloze:true,choice:false},
+      {direction:'translate',cloze:false,choice:true},
+      {direction:'reverse',cloze:true,choice:true},
+    ]) {
+      setPhraseDirection(settings.direction);setPhraseCloze(settings.cloze);setPhraseMultipleChoice(settings.choice);
+      const p=filteredPhrases()[phraseIndex],language=settings.direction==='reverse'?'en':'de',answer=settings.cloze?clozeFor(p,language).word:translationText(p,language);
+      if(settings.cloze) assert(answer===p.cloze[language],'phrase cloze uses its linked vocabulary focus');
+      if(settings.choice) {assert([...document.querySelectorAll('.phrase-choice')].some(button=>button.textContent===answer),'phrase choices include the expected answer');selectedPhraseChoice=answer;}
+      else $('#phrase-answer').value=answer;
+      checkPhrase();assert(phraseCorrect,'phrase '+JSON.stringify(settings));
+    }
     setView('grammar');
     $('#grammar-layout-toggle').click();
     assert(grammarGrid && $('#grammar-list').classList.contains('grammar-grid'),'grammar can opt into a multi-tile layout');
@@ -204,11 +235,11 @@ let socket;
     assert(document.querySelector('#mixed-view .mixed-layout') && !lessonComplete && document.getElementById('check-mixed').style.display!=='none','free practice restored after lesson');
     assert(JSON.parse(localStorage.getItem('wortwerk-progress'))['en-de'].learned[0]==='1','old profile retained');
     setSelectedLevels(['A1']); $('[data-global-vocab-level="A2"]').click(); assert(selectedLevels.join(',')==='A1,A2','levels can be combined');
-    phraseCategory='daily'; vocabMode='choice'; phraseMode='cloze'; randomMode=false; phraseRandom=false; hideVocabularyAnswers=false; grammarGrid=true; savePreferences();
+    phraseCategory='all'; phraseCategories=['daily']; vocabMode='choice'; phraseDirection='reverse'; phraseCloze=true; phraseMultipleChoice=true; randomMode=false; phraseRandom=false; hideVocabularyAnswers=false; grammarGrid=true; savePreferences();
     const exported=progressExportPayload(), imported=progressFromExport(JSON.stringify(exported));
     assert(exported.format==='wortwerk-progress' && exported.profile===progressKey() && imported.lessonHistory['4']?.completedAt,'progress export round-trip');
-    assert(imported.preferences.vocabLevels.join(',')==='A1,A2' && imported.preferences.phraseCategory==='daily' && imported.preferences.grammarGrid && !imported.preferences.randomMode,'progress export remembers study settings');
-    setSelectedLevels(allStudyLevels); phraseCategory='greetings'; vocabMode='translate'; phraseMode='translate'; randomMode=true; phraseRandom=true; hideVocabularyAnswers=true; grammarGrid=false; savePreferences();
+    assert(imported.preferences.vocabLevels.join(',')==='A1,A2' && imported.preferences.phraseCategories[0]==='daily' && imported.preferences.phraseDirection==='reverse' && imported.preferences.phraseCloze && imported.preferences.phraseMultipleChoice && imported.preferences.grammarGrid && !imported.preferences.randomMode,'progress export remembers study settings');
+    setSelectedLevels(allStudyLevels); phraseCategory='all'; phraseCategories=['all']; vocabMode='translate'; phraseDirection='translate'; phraseCloze=false; phraseMultipleChoice=false; randomMode=true; phraseRandom=true; hideVocabularyAnswers=true; grammarGrid=false; savePreferences();
     let rejected=false;try{progressFromExport(JSON.stringify({...exported,profile:'other-deck'}));}catch{rejected=true;}
     assert(rejected,'different deck progress is rejected');
     localStorage.setItem('wortwerk-progress','not valid JSON');

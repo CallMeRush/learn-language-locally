@@ -14,6 +14,10 @@ const phrasesCity = [
     "wordIds": [
       "10037"
     ],
+    "cloze": {
+      "de": "leben",
+      "en": "live"
+    },
     "sourceIndex": 37
   },
   {
@@ -31,6 +35,10 @@ const phrasesCity = [
     "wordIds": [
       "10069"
     ],
+    "cloze": {
+      "de": "Stadt",
+      "en": "city"
+    },
     "sourceIndex": 69
   },
   {
@@ -48,6 +56,10 @@ const phrasesCity = [
     "wordIds": [
       "10070"
     ],
+    "cloze": {
+      "de": "Welt",
+      "en": "world"
+    },
     "sourceIndex": 70
   },
   {
@@ -65,6 +77,10 @@ const phrasesCity = [
     "wordIds": [
       "10077"
     ],
+    "cloze": {
+      "de": "Recht",
+      "en": "right"
+    },
     "sourceIndex": 77
   },
   {
@@ -82,6 +98,10 @@ const phrasesCity = [
     "wordIds": [
       "10119"
     ],
+    "cloze": {
+      "de": "Land",
+      "en": "country"
+    },
     "sourceIndex": 119
   },
   {
@@ -99,6 +119,10 @@ const phrasesCity = [
     "wordIds": [
       "10121"
     ],
+    "cloze": {
+      "de": "Platz",
+      "en": "space"
+    },
     "sourceIndex": 121
   },
   {
@@ -116,6 +140,10 @@ const phrasesCity = [
     "wordIds": [
       "10147"
     ],
+    "cloze": {
+      "de": "Polizei",
+      "en": "police"
+    },
     "sourceIndex": 147
   },
   {
@@ -133,6 +161,10 @@ const phrasesCity = [
     "wordIds": [
       "10151"
     ],
+    "cloze": {
+      "de": "stelle",
+      "en": "place"
+    },
     "sourceIndex": 151
   },
   {
@@ -150,6 +182,10 @@ const phrasesCity = [
     "wordIds": [
       "10161"
     ],
+    "cloze": {
+      "de": "Stand",
+      "en": "state"
+    },
     "sourceIndex": 161
   },
   {
@@ -167,6 +203,10 @@ const phrasesCity = [
     "wordIds": [
       "10186"
     ],
+    "cloze": {
+      "de": "Ort",
+      "en": "place"
+    },
     "sourceIndex": 186
   },
   {
@@ -184,6 +224,10 @@ const phrasesCity = [
     "wordIds": [
       "10199"
     ],
+    "cloze": {
+      "de": "gilt",
+      "en": "applies"
+    },
     "sourceIndex": 199
   },
   {
@@ -201,6 +245,10 @@ const phrasesCity = [
     "wordIds": [
       "10204"
     ],
+    "cloze": {
+      "de": "Gesellschaft",
+      "en": "Society"
+    },
     "sourceIndex": 204
   },
   {
@@ -218,6 +266,10 @@ const phrasesCity = [
     "wordIds": [
       "10234"
     ],
+    "cloze": {
+      "de": "Politik",
+      "en": "politics"
+    },
     "sourceIndex": 234
   },
   {
@@ -235,6 +287,10 @@ const phrasesCity = [
     "wordIds": [
       "10242"
     ],
+    "cloze": {
+      "de": "Regierung",
+      "en": "government"
+    },
     "sourceIndex": 242
   },
   {
@@ -252,6 +308,10 @@ const phrasesCity = [
     "wordIds": [
       "10270"
     ],
+    "cloze": {
+      "de": "Wahl",
+      "en": "choice"
+    },
     "sourceIndex": 270
   },
   {
@@ -269,6 +329,10 @@ const phrasesCity = [
     "wordIds": [
       "10286"
     ],
+    "cloze": {
+      "de": "Krieg",
+      "en": "war"
+    },
     "sourceIndex": 286
   },
   {
@@ -286,6 +350,10 @@ const phrasesCity = [
     "wordIds": [
       "10314"
     ],
+    "cloze": {
+      "de": "Partei",
+      "en": "party"
+    },
     "sourceIndex": 314
   },
   {
@@ -303,6 +371,10 @@ const phrasesCity = [
     "wordIds": [
       "10371"
     ],
+    "cloze": {
+      "de": "hinaus",
+      "en": "out"
+    },
     "sourceIndex": 371
   },
   {
@@ -320,6 +392,10 @@ const phrasesCity = [
     "wordIds": [
       "10376"
     ],
+    "cloze": {
+      "de": "Sicherheit",
+      "en": "Safety"
+    },
     "sourceIndex": 376
   },
   {
@@ -337,6 +413,10 @@ const phrasesCity = [
     "wordIds": [
       "10430"
     ],
+    "cloze": {
+      "de": "Opfer",
+      "en": "victim"
+    },
     "sourceIndex": 430
   },
   {
@@ -354,6 +434,10 @@ const phrasesCity = [
     "wordIds": [
       "10433"
     ],
+    "cloze": {
+      "de": "Region",
+      "en": "region"
+    },
     "sourceIndex": 433
   },
   {
@@ -371,6 +455,10 @@ const phrasesCity = [
     "wordIds": [
       "10464"
     ],
+    "cloze": {
+      "de": "Politiker",
+      "en": "politician"
+    },
     "sourceIndex": 464
   },
   {
@@ -388,6 +476,10 @@ const phrasesCity = [
     "wordIds": [
       "10465"
     ],
+    "cloze": {
+      "de": "politische",
+      "en": "political"
+    },
     "sourceIndex": 465
   },
   {
@@ -405,6 +497,10 @@ const phrasesCity = [
     "wordIds": [
       "10466"
     ],
+    "cloze": {
+      "de": "Regel",
+      "en": "rule"
+    },
     "sourceIndex": 466
   },
   {
@@ -422,6 +518,10 @@ const phrasesCity = [
     "wordIds": [
       "10468"
     ],
+    "cloze": {
+      "de": "Staat",
+      "en": "state"
+    },
     "sourceIndex": 468
   },
   {
@@ -439,6 +539,10 @@ const phrasesCity = [
     "wordIds": [
       "10489"
     ],
+    "cloze": {
+      "de": "Bürger",
+      "en": "citizen"
+    },
     "sourceIndex": 489
   },
   {
@@ -456,6 +560,10 @@ const phrasesCity = [
     "wordIds": [
       "10491"
     ],
+    "cloze": {
+      "de": "Erfahrung",
+      "en": "experience"
+    },
     "sourceIndex": 491
   },
   {
@@ -473,6 +581,10 @@ const phrasesCity = [
     "wordIds": [
       "10495"
     ],
+    "cloze": {
+      "de": "Kampf",
+      "en": "fight"
+    },
     "sourceIndex": 495
   },
   {
@@ -490,6 +602,10 @@ const phrasesCity = [
     "wordIds": [
       "10498"
     ],
+    "cloze": {
+      "de": "Präsident",
+      "en": "president"
+    },
     "sourceIndex": 498
   },
   {
@@ -507,6 +623,10 @@ const phrasesCity = [
     "wordIds": [
       "10530"
     ],
+    "cloze": {
+      "de": "Gefahr",
+      "en": "danger"
+    },
     "sourceIndex": 530
   },
   {
@@ -524,6 +644,10 @@ const phrasesCity = [
     "wordIds": [
       "10537"
     ],
+    "cloze": {
+      "de": "öffentlich",
+      "en": "publicly"
+    },
     "sourceIndex": 537
   },
   {
@@ -541,6 +665,10 @@ const phrasesCity = [
     "wordIds": [
       "10570"
     ],
+    "cloze": {
+      "de": "Gesetz",
+      "en": "law"
+    },
     "sourceIndex": 570
   },
   {
@@ -558,6 +686,10 @@ const phrasesCity = [
     "wordIds": [
       "10582"
     ],
+    "cloze": {
+      "de": "Gewalt",
+      "en": "Violence"
+    },
     "sourceIndex": 582
   },
   {
@@ -575,6 +707,10 @@ const phrasesCity = [
     "wordIds": [
       "10587"
     ],
+    "cloze": {
+      "de": "Sieg",
+      "en": "victory"
+    },
     "sourceIndex": 587
   },
   {
@@ -592,6 +728,10 @@ const phrasesCity = [
     "wordIds": [
       "10612"
     ],
+    "cloze": {
+      "de": "Freiheit",
+      "en": "Freedom"
+    },
     "sourceIndex": 612
   },
   {
@@ -609,6 +749,10 @@ const phrasesCity = [
     "wordIds": [
       "10636"
     ],
+    "cloze": {
+      "de": "befindet",
+      "en": "located"
+    },
     "sourceIndex": 636
   },
   {
@@ -626,6 +770,10 @@ const phrasesCity = [
     "wordIds": [
       "10664"
     ],
+    "cloze": {
+      "de": "internationales",
+      "en": "international"
+    },
     "sourceIndex": 664
   },
   {
@@ -643,6 +791,10 @@ const phrasesCity = [
     "wordIds": [
       "10687"
     ],
+    "cloze": {
+      "de": "Union",
+      "en": "Union"
+    },
     "sourceIndex": 687
   },
   {
@@ -660,6 +812,10 @@ const phrasesCity = [
     "wordIds": [
       "10699"
     ],
+    "cloze": {
+      "de": "Gebiet",
+      "en": "area"
+    },
     "sourceIndex": 699
   },
   {
@@ -677,6 +833,10 @@ const phrasesCity = [
     "wordIds": [
       "10741"
     ],
+    "cloze": {
+      "de": "Schaden",
+      "en": "damage"
+    },
     "sourceIndex": 741
   },
   {
@@ -694,6 +854,10 @@ const phrasesCity = [
     "wordIds": [
       "10742"
     ],
+    "cloze": {
+      "de": "Schaden",
+      "en": "damage"
+    },
     "sourceIndex": 742
   },
   {
@@ -711,6 +875,10 @@ const phrasesCity = [
     "wordIds": [
       "10761"
     ],
+    "cloze": {
+      "de": "Soldat",
+      "en": "soldier"
+    },
     "sourceIndex": 761
   },
   {
@@ -728,6 +896,10 @@ const phrasesCity = [
     "wordIds": [
       "10767"
     ],
+    "cloze": {
+      "de": "bewusst",
+      "en": "aware"
+    },
     "sourceIndex": 767
   },
   {
@@ -745,6 +917,10 @@ const phrasesCity = [
     "wordIds": [
       "10825"
     ],
+    "cloze": {
+      "de": "allgemeine",
+      "en": "general"
+    },
     "sourceIndex": 825
   },
   {
@@ -762,6 +938,10 @@ const phrasesCity = [
     "wordIds": [
       "10826"
     ],
+    "cloze": {
+      "de": "Demokratie",
+      "en": "Democracy"
+    },
     "sourceIndex": 826
   },
   {
@@ -779,6 +959,10 @@ const phrasesCity = [
     "wordIds": [
       "10840"
     ],
+    "cloze": {
+      "de": "Verkehr",
+      "en": "traffic"
+    },
     "sourceIndex": 840
   },
   {
@@ -796,6 +980,10 @@ const phrasesCity = [
     "wordIds": [
       "10847"
     ],
+    "cloze": {
+      "de": "Armee",
+      "en": "army"
+    },
     "sourceIndex": 847
   },
   {
@@ -813,6 +1001,10 @@ const phrasesCity = [
     "wordIds": [
       "10854"
     ],
+    "cloze": {
+      "de": "Dorf",
+      "en": "village"
+    },
     "sourceIndex": 854
   },
   {
@@ -830,6 +1022,10 @@ const phrasesCity = [
     "wordIds": [
       "10855"
     ],
+    "cloze": {
+      "de": "erfolgen",
+      "en": "take"
+    },
     "sourceIndex": 855
   },
   {
@@ -847,6 +1043,10 @@ const phrasesCity = [
     "wordIds": [
       "10861"
     ],
+    "cloze": {
+      "de": "kämpfen",
+      "en": "fight"
+    },
     "sourceIndex": 861
   },
   {
@@ -864,6 +1064,10 @@ const phrasesCity = [
     "wordIds": [
       "10878"
     ],
+    "cloze": {
+      "de": "Bürgermeister",
+      "en": "mayor"
+    },
     "sourceIndex": 878
   },
   {
@@ -881,6 +1085,10 @@ const phrasesCity = [
     "wordIds": [
       "10894"
     ],
+    "cloze": {
+      "de": "Mehrheit",
+      "en": "majority"
+    },
     "sourceIndex": 894
   },
   {
@@ -898,6 +1106,10 @@ const phrasesCity = [
     "wordIds": [
       "10899"
     ],
+    "cloze": {
+      "de": "Waffe",
+      "en": "weapon"
+    },
     "sourceIndex": 899
   },
   {
@@ -915,6 +1127,10 @@ const phrasesCity = [
     "wordIds": [
       "10911"
     ],
+    "cloze": {
+      "de": "Park",
+      "en": "park"
+    },
     "sourceIndex": 911
   },
   {
@@ -932,6 +1148,10 @@ const phrasesCity = [
     "wordIds": [
       "10937"
     ],
+    "cloze": {
+      "de": "Angriff",
+      "en": "attack"
+    },
     "sourceIndex": 937
   },
   {
@@ -949,6 +1169,10 @@ const phrasesCity = [
     "wordIds": [
       "10946"
     ],
+    "cloze": {
+      "de": "Polizist",
+      "en": "police"
+    },
     "sourceIndex": 946
   },
   {
@@ -966,6 +1190,10 @@ const phrasesCity = [
     "wordIds": [
       "10951"
     ],
+    "cloze": {
+      "de": "Unfall",
+      "en": "accident"
+    },
     "sourceIndex": 951
   },
   {
@@ -983,6 +1211,10 @@ const phrasesCity = [
     "wordIds": [
       "10958"
     ],
+    "cloze": {
+      "de": "Frieden",
+      "en": "peace"
+    },
     "sourceIndex": 958
   },
   {
@@ -1000,6 +1232,10 @@ const phrasesCity = [
     "wordIds": [
       "10972"
     ],
+    "cloze": {
+      "de": "Strecke",
+      "en": "distance"
+    },
     "sourceIndex": 972
   },
   {
@@ -1017,6 +1253,10 @@ const phrasesCity = [
     "wordIds": [
       "10974"
     ],
+    "cloze": {
+      "de": "Zentrum",
+      "en": "center"
+    },
     "sourceIndex": 974
   },
   {
@@ -1034,6 +1274,10 @@ const phrasesCity = [
     "wordIds": [
       "11074"
     ],
+    "cloze": {
+      "de": "Gegend",
+      "en": "area"
+    },
     "sourceIndex": 1074
   },
   {
@@ -1051,6 +1295,10 @@ const phrasesCity = [
     "wordIds": [
       "11103"
     ],
+    "cloze": {
+      "de": "heiliger",
+      "en": "holy"
+    },
     "sourceIndex": 1103
   },
   {
@@ -1068,6 +1316,10 @@ const phrasesCity = [
     "wordIds": [
       "11139"
     ],
+    "cloze": {
+      "de": "Parlament",
+      "en": "parliament"
+    },
     "sourceIndex": 1139
   },
   {
@@ -1085,6 +1337,10 @@ const phrasesCity = [
     "wordIds": [
       "11185"
     ],
+    "cloze": {
+      "de": "gefährliche",
+      "en": "dangerous"
+    },
     "sourceIndex": 1185
   },
   {
@@ -1102,6 +1358,10 @@ const phrasesCity = [
     "wordIds": [
       "11191"
     ],
+    "cloze": {
+      "de": "Republik",
+      "en": "republic"
+    },
     "sourceIndex": 1191
   },
   {
@@ -1119,6 +1379,10 @@ const phrasesCity = [
     "wordIds": [
       "11198"
     ],
+    "cloze": {
+      "de": "Zugang",
+      "en": "Access"
+    },
     "sourceIndex": 1198
   },
   {
@@ -1136,6 +1400,10 @@ const phrasesCity = [
     "wordIds": [
       "11233"
     ],
+    "cloze": {
+      "de": "betrifft",
+      "en": "concerns"
+    },
     "sourceIndex": 1233
   },
   {
@@ -1153,6 +1421,10 @@ const phrasesCity = [
     "wordIds": [
       "11246"
     ],
+    "cloze": {
+      "de": "Untersuchung",
+      "en": "investigation"
+    },
     "sourceIndex": 1246
   },
   {
@@ -1170,6 +1442,10 @@ const phrasesCity = [
     "wordIds": [
       "11255"
     ],
+    "cloze": {
+      "de": "eng",
+      "en": "narrow"
+    },
     "sourceIndex": 1255
   },
   {
@@ -1187,6 +1463,10 @@ const phrasesCity = [
     "wordIds": [
       "11260"
     ],
+    "cloze": {
+      "de": "Minister",
+      "en": "minister"
+    },
     "sourceIndex": 1260
   },
   {
@@ -1204,6 +1484,10 @@ const phrasesCity = [
     "wordIds": [
       "11270"
     ],
+    "cloze": {
+      "de": "verfolgt",
+      "en": "pursuing"
+    },
     "sourceIndex": 1270
   },
   {
@@ -1221,6 +1505,10 @@ const phrasesCity = [
     "wordIds": [
       "11285"
     ],
+    "cloze": {
+      "de": "Hauptstadt",
+      "en": "capital"
+    },
     "sourceIndex": 1285
   },
   {
@@ -1238,6 +1526,10 @@ const phrasesCity = [
     "wordIds": [
       "11376"
     ],
+    "cloze": {
+      "de": "Spur",
+      "en": "trace"
+    },
     "sourceIndex": 1376
   },
   {
@@ -1255,6 +1547,10 @@ const phrasesCity = [
     "wordIds": [
       "11393"
     ],
+    "cloze": {
+      "de": "geeignet",
+      "en": "a"
+    },
     "sourceIndex": 1393
   },
   {
@@ -1272,6 +1568,10 @@ const phrasesCity = [
     "wordIds": [
       "11414"
     ],
+    "cloze": {
+      "de": "Anwalt",
+      "en": "lawyer"
+    },
     "sourceIndex": 1414
   },
   {
@@ -1289,6 +1589,10 @@ const phrasesCity = [
     "wordIds": [
       "11431"
     ],
+    "cloze": {
+      "de": "Strafe",
+      "en": "penalty"
+    },
     "sourceIndex": 1431
   },
   {
@@ -1306,6 +1610,10 @@ const phrasesCity = [
     "wordIds": [
       "11448"
     ],
+    "cloze": {
+      "de": "Einwohner",
+      "en": "inhabitants"
+    },
     "sourceIndex": 1448
   },
   {
@@ -1323,6 +1631,10 @@ const phrasesCity = [
     "wordIds": [
       "11469"
     ],
+    "cloze": {
+      "de": "Verbrechen",
+      "en": "crime"
+    },
     "sourceIndex": 1469
   },
   {
@@ -1340,6 +1652,10 @@ const phrasesCity = [
     "wordIds": [
       "11514"
     ],
+    "cloze": {
+      "de": "Weltkrieg",
+      "en": "World"
+    },
     "sourceIndex": 1514
   },
   {
@@ -1357,6 +1673,10 @@ const phrasesCity = [
     "wordIds": [
       "11558"
     ],
+    "cloze": {
+      "de": "nationales",
+      "en": "national"
+    },
     "sourceIndex": 1558
   },
   {
@@ -1374,6 +1694,10 @@ const phrasesCity = [
     "wordIds": [
       "11561"
     ],
+    "cloze": {
+      "de": "Papst",
+      "en": "Pope"
+    },
     "sourceIndex": 1561
   },
   {
@@ -1391,6 +1715,10 @@ const phrasesCity = [
     "wordIds": [
       "11589"
     ],
+    "cloze": {
+      "de": "Gefängnis",
+      "en": "prison"
+    },
     "sourceIndex": 1589
   },
   {
@@ -1408,6 +1736,10 @@ const phrasesCity = [
     "wordIds": [
       "11611"
     ],
+    "cloze": {
+      "de": "Viertel",
+      "en": "quarter"
+    },
     "sourceIndex": 1611
   },
   {
@@ -1425,6 +1757,10 @@ const phrasesCity = [
     "wordIds": [
       "11621"
     ],
+    "cloze": {
+      "de": "Bezirk",
+      "en": "district"
+    },
     "sourceIndex": 1621
   },
   {
@@ -1442,6 +1778,10 @@ const phrasesCity = [
     "wordIds": [
       "11775"
     ],
+    "cloze": {
+      "de": "staatliche",
+      "en": "state-owned"
+    },
     "sourceIndex": 1775
   },
   {
@@ -1459,6 +1799,10 @@ const phrasesCity = [
     "wordIds": [
       "11833"
     ],
+    "cloze": {
+      "de": "Konflikt",
+      "en": "conflict"
+    },
     "sourceIndex": 1833
   },
   {
@@ -1476,6 +1820,10 @@ const phrasesCity = [
     "wordIds": [
       "11857"
     ],
+    "cloze": {
+      "de": "Gerechtigkeit",
+      "en": "justice"
+    },
     "sourceIndex": 1857
   },
   {
@@ -1493,6 +1841,10 @@ const phrasesCity = [
     "wordIds": [
       "11858"
     ],
+    "cloze": {
+      "de": "gering",
+      "en": "minor"
+    },
     "sourceIndex": 1858
   },
   {
@@ -1510,6 +1862,10 @@ const phrasesCity = [
     "wordIds": [
       "11868"
     ],
+    "cloze": {
+      "de": "Regelung",
+      "en": "regulation"
+    },
     "sourceIndex": 1868
   },
   {
@@ -1527,6 +1883,10 @@ const phrasesCity = [
     "wordIds": [
       "11889"
     ],
+    "cloze": {
+      "de": "erwischt",
+      "en": "caught"
+    },
     "sourceIndex": 1889
   },
   {
@@ -1544,6 +1904,10 @@ const phrasesCity = [
     "wordIds": [
       "11894"
     ],
+    "cloze": {
+      "de": "Innenstadt",
+      "en": "city"
+    },
     "sourceIndex": 1894
   },
   {
@@ -1561,6 +1925,10 @@ const phrasesCity = [
     "wordIds": [
       "11947"
     ],
+    "cloze": {
+      "de": "stattfinden",
+      "en": "take"
+    },
     "sourceIndex": 1947
   },
   {
@@ -1578,6 +1946,10 @@ const phrasesCity = [
     "wordIds": [
       "11955"
     ],
+    "cloze": {
+      "de": "Verteidigung",
+      "en": "defense"
+    },
     "sourceIndex": 1955
   },
   {
@@ -1595,6 +1967,10 @@ const phrasesCity = [
     "wordIds": [
       "11958"
     ],
+    "cloze": {
+      "de": "angreifen",
+      "en": "attack"
+    },
     "sourceIndex": 1958
   },
   {
@@ -1612,6 +1988,10 @@ const phrasesCity = [
     "wordIds": [
       "11965"
     ],
+    "cloze": {
+      "de": "ist",
+      "en": "center"
+    },
     "sourceIndex": 1965
   },
   {
@@ -1629,6 +2009,10 @@ const phrasesCity = [
     "wordIds": [
       "12016"
     ],
+    "cloze": {
+      "de": "Militär",
+      "en": "military"
+    },
     "sourceIndex": 2016
   },
   {
@@ -1646,6 +2030,10 @@ const phrasesCity = [
     "wordIds": [
       "12026"
     ],
+    "cloze": {
+      "de": "verteidigen",
+      "en": "defend"
+    },
     "sourceIndex": 2026
   },
   {
@@ -1663,6 +2051,10 @@ const phrasesCity = [
     "wordIds": [
       "12030"
     ],
+    "cloze": {
+      "de": "überleben",
+      "en": "survive"
+    },
     "sourceIndex": 2030
   },
   {
@@ -1680,6 +2072,10 @@ const phrasesCity = [
     "wordIds": [
       "12054"
     ],
+    "cloze": {
+      "de": "Migrant",
+      "en": "migrant"
+    },
     "sourceIndex": 2054
   },
   {
@@ -1697,6 +2093,10 @@ const phrasesCity = [
     "wordIds": [
       "12063"
     ],
+    "cloze": {
+      "de": "Villa",
+      "en": "villa"
+    },
     "sourceIndex": 2063
   },
   {
@@ -1714,6 +2114,10 @@ const phrasesCity = [
     "wordIds": [
       "12078"
     ],
+    "cloze": {
+      "de": "demokratisches",
+      "en": "democratic"
+    },
     "sourceIndex": 2078
   },
   {
@@ -1731,6 +2135,10 @@ const phrasesCity = [
     "wordIds": [
       "12093"
     ],
+    "cloze": {
+      "de": "landen",
+      "en": "land"
+    },
     "sourceIndex": 2093
   },
   {
@@ -1748,6 +2156,10 @@ const phrasesCity = [
     "wordIds": [
       "12188"
     ],
+    "cloze": {
+      "de": "Block",
+      "en": "pad"
+    },
     "sourceIndex": 2188
   },
   {
@@ -1765,6 +2177,10 @@ const phrasesCity = [
     "wordIds": [
       "12189"
     ],
+    "cloze": {
+      "de": "Dialog",
+      "en": "dialogue"
+    },
     "sourceIndex": 2189
   },
   {
@@ -1782,6 +2198,10 @@ const phrasesCity = [
     "wordIds": [
       "12209"
     ],
+    "cloze": {
+      "de": "Provinz",
+      "en": "province"
+    },
     "sourceIndex": 2209
   },
   {
@@ -1799,6 +2219,10 @@ const phrasesCity = [
     "wordIds": [
       "12250"
     ],
+    "cloze": {
+      "de": "Motiv",
+      "en": "motive"
+    },
     "sourceIndex": 2250
   },
   {
@@ -1816,6 +2240,10 @@ const phrasesCity = [
     "wordIds": [
       "12255"
     ],
+    "cloze": {
+      "de": "Protest",
+      "en": "protest"
+    },
     "sourceIndex": 2255
   },
   {
@@ -1833,6 +2261,10 @@ const phrasesCity = [
     "wordIds": [
       "12262"
     ],
+    "cloze": {
+      "de": "vermitteln",
+      "en": "mediate"
+    },
     "sourceIndex": 2262
   },
   {
@@ -1850,6 +2282,10 @@ const phrasesCity = [
     "wordIds": [
       "12321"
     ],
+    "cloze": {
+      "de": "dorthin",
+      "en": "there"
+    },
     "sourceIndex": 2321
   },
   {
@@ -1867,6 +2303,10 @@ const phrasesCity = [
     "wordIds": [
       "12325"
     ],
+    "cloze": {
+      "de": "fernab",
+      "en": "far"
+    },
     "sourceIndex": 2325
   },
   {
@@ -1884,6 +2324,10 @@ const phrasesCity = [
     "wordIds": [
       "12379"
     ],
+    "cloze": {
+      "de": "städtische",
+      "en": "municipal"
+    },
     "sourceIndex": 2379
   },
   {
@@ -1901,6 +2345,10 @@ const phrasesCity = [
     "wordIds": [
       "12390"
     ],
+    "cloze": {
+      "de": "Altstadt",
+      "en": "old"
+    },
     "sourceIndex": 2390
   },
   {
@@ -1918,6 +2366,10 @@ const phrasesCity = [
     "wordIds": [
       "12506"
     ],
+    "cloze": {
+      "de": "schuldig",
+      "en": "guilty"
+    },
     "sourceIndex": 2506
   },
   {
@@ -1935,6 +2387,10 @@ const phrasesCity = [
     "wordIds": [
       "12507"
     ],
+    "cloze": {
+      "de": "Skandal",
+      "en": "scandal"
+    },
     "sourceIndex": 2507
   },
   {
@@ -1952,6 +2408,10 @@ const phrasesCity = [
     "wordIds": [
       "12568"
     ],
+    "cloze": {
+      "de": "anpassen",
+      "en": "adapt"
+    },
     "sourceIndex": 2568
   },
   {
@@ -1969,6 +2429,10 @@ const phrasesCity = [
     "wordIds": [
       "12578"
     ],
+    "cloze": {
+      "de": "bestrafen",
+      "en": "punish"
+    },
     "sourceIndex": 2578
   },
   {
@@ -1986,6 +2450,10 @@ const phrasesCity = [
     "wordIds": [
       "12579"
     ],
+    "cloze": {
+      "de": "Botschafter",
+      "en": "ambassador"
+    },
     "sourceIndex": 2579
   },
   {
@@ -2003,6 +2471,10 @@ const phrasesCity = [
     "wordIds": [
       "12586"
     ],
+    "cloze": {
+      "de": "Friedhof",
+      "en": "cemetery"
+    },
     "sourceIndex": 2586
   },
   {
@@ -2020,6 +2492,10 @@ const phrasesCity = [
     "wordIds": [
       "12659"
     ],
+    "cloze": {
+      "de": "vermute",
+      "en": "suspect"
+    },
     "sourceIndex": 2659
   },
   {
@@ -2037,6 +2513,10 @@ const phrasesCity = [
     "wordIds": [
       "12710"
     ],
+    "cloze": {
+      "de": "Stadtteil",
+      "en": "district"
+    },
     "sourceIndex": 2710
   },
   {
@@ -2054,6 +2534,10 @@ const phrasesCity = [
     "wordIds": [
       "12714"
     ],
+    "cloze": {
+      "de": "Turm",
+      "en": "tower"
+    },
     "sourceIndex": 2714
   },
   {
@@ -2071,6 +2555,10 @@ const phrasesCity = [
     "wordIds": [
       "12772"
     ],
+    "cloze": {
+      "de": "bekämpfen",
+      "en": "combat"
+    },
     "sourceIndex": 2772
   },
   {
@@ -2088,6 +2576,10 @@ const phrasesCity = [
     "wordIds": [
       "12851"
     ],
+    "cloze": {
+      "de": "Moral",
+      "en": "morale"
+    },
     "sourceIndex": 2851
   },
   {
@@ -2105,6 +2597,10 @@ const phrasesCity = [
     "wordIds": [
       "12900"
     ],
+    "cloze": {
+      "de": "Rechtsanwalt",
+      "en": "lawyer"
+    },
     "sourceIndex": 2900
   },
   {
@@ -2122,6 +2618,10 @@ const phrasesCity = [
     "wordIds": [
       "12943"
     ],
+    "cloze": {
+      "de": "militärische",
+      "en": "military"
+    },
     "sourceIndex": 2943
   },
   {
@@ -2139,6 +2639,10 @@ const phrasesCity = [
     "wordIds": [
       "12958"
     ],
+    "cloze": {
+      "de": "Weltrekord",
+      "en": "record"
+    },
     "sourceIndex": 2958
   },
   {
@@ -2156,6 +2660,10 @@ const phrasesCity = [
     "wordIds": [
       "12972"
     ],
+    "cloze": {
+      "de": "wehren",
+      "en": "defend"
+    },
     "sourceIndex": 2972
   },
   {
@@ -2173,6 +2681,10 @@ const phrasesCity = [
     "wordIds": [
       "13001"
     ],
+    "cloze": {
+      "de": "islamisches",
+      "en": "Islamic"
+    },
     "sourceIndex": 3001
   },
   {
@@ -2190,6 +2702,10 @@ const phrasesCity = [
     "wordIds": [
       "13006"
     ],
+    "cloze": {
+      "de": "Nachbarschaft",
+      "en": "neighborhood"
+    },
     "sourceIndex": 3006
   },
   {
@@ -2207,6 +2723,10 @@ const phrasesCity = [
     "wordIds": [
       "13018"
     ],
+    "cloze": {
+      "de": "südlich",
+      "en": "The"
+    },
     "sourceIndex": 3018
   },
   {
@@ -2224,6 +2744,10 @@ const phrasesCity = [
     "wordIds": [
       "13053"
     ],
+    "cloze": {
+      "de": "Jury",
+      "en": "jury"
+    },
     "sourceIndex": 3053
   },
   {
@@ -2241,6 +2765,10 @@ const phrasesCity = [
     "wordIds": [
       "13056"
     ],
+    "cloze": {
+      "de": "lebendig",
+      "en": "lively"
+    },
     "sourceIndex": 3056
   },
   {
@@ -2258,6 +2786,10 @@ const phrasesCity = [
     "wordIds": [
       "13063"
     ],
+    "cloze": {
+      "de": "nördlich",
+      "en": "north"
+    },
     "sourceIndex": 3063
   },
   {
@@ -2275,6 +2807,10 @@ const phrasesCity = [
     "wordIds": [
       "13094"
     ],
+    "cloze": {
+      "de": "Brunnen",
+      "en": "fountain"
+    },
     "sourceIndex": 3094
   },
   {
@@ -2292,6 +2828,10 @@ const phrasesCity = [
     "wordIds": [
       "13156"
     ],
+    "cloze": {
+      "de": "Bundesland",
+      "en": "federal"
+    },
     "sourceIndex": 3156
   },
   {
@@ -2309,6 +2849,10 @@ const phrasesCity = [
     "wordIds": [
       "13267"
     ],
+    "cloze": {
+      "de": "Verstärkung",
+      "en": "reinforcement"
+    },
     "sourceIndex": 3267
   },
   {
@@ -2326,6 +2870,10 @@ const phrasesCity = [
     "wordIds": [
       "13286"
     ],
+    "cloze": {
+      "de": "fliehen",
+      "en": "escape"
+    },
     "sourceIndex": 3286
   },
   {
@@ -2343,6 +2891,10 @@ const phrasesCity = [
     "wordIds": [
       "13415"
     ],
+    "cloze": {
+      "de": "Kommando",
+      "en": "command"
+    },
     "sourceIndex": 3415
   },
   {
@@ -2360,6 +2912,10 @@ const phrasesCity = [
     "wordIds": [
       "13423"
     ],
+    "cloze": {
+      "de": "ländlichen",
+      "en": "rural"
+    },
     "sourceIndex": 3423
   },
   {
@@ -2377,6 +2933,10 @@ const phrasesCity = [
     "wordIds": [
       "13438"
     ],
+    "cloze": {
+      "de": "Stadtrat",
+      "en": "city"
+    },
     "sourceIndex": 3438
   },
   {
@@ -2394,6 +2954,10 @@ const phrasesCity = [
     "wordIds": [
       "13449"
     ],
+    "cloze": {
+      "de": "Weltmeisterschaft",
+      "en": "World"
+    },
     "sourceIndex": 3449
   },
   {
@@ -2411,6 +2975,10 @@ const phrasesCity = [
     "wordIds": [
       "13459"
     ],
+    "cloze": {
+      "de": "blockiert",
+      "en": "blocked"
+    },
     "sourceIndex": 3459
   },
   {
@@ -2428,6 +2996,10 @@ const phrasesCity = [
     "wordIds": [
       "13461"
     ],
+    "cloze": {
+      "de": "Denkmal",
+      "en": "monument"
+    },
     "sourceIndex": 3461
   },
   {
@@ -2445,6 +3017,10 @@ const phrasesCity = [
     "wordIds": [
       "13485"
     ],
+    "cloze": {
+      "de": "legale",
+      "en": "legal"
+    },
     "sourceIndex": 3485
   },
   {
@@ -2462,6 +3038,10 @@ const phrasesCity = [
     "wordIds": [
       "13524"
     ],
+    "cloze": {
+      "de": "demonstrieren",
+      "en": "protest"
+    },
     "sourceIndex": 3524
   },
   {
@@ -2479,6 +3059,10 @@ const phrasesCity = [
     "wordIds": [
       "13547"
     ],
+    "cloze": {
+      "de": "Offizier",
+      "en": "officer"
+    },
     "sourceIndex": 3547
   },
   {
@@ -2496,6 +3080,10 @@ const phrasesCity = [
     "wordIds": [
       "13623"
     ],
+    "cloze": {
+      "de": "Vorgang",
+      "en": "process"
+    },
     "sourceIndex": 3623
   },
   {
@@ -2513,6 +3101,10 @@ const phrasesCity = [
     "wordIds": [
       "13628"
     ],
+    "cloze": {
+      "de": "abstimmen",
+      "en": "coordinate"
+    },
     "sourceIndex": 3628
   },
   {
@@ -2530,6 +3122,10 @@ const phrasesCity = [
     "wordIds": [
       "13637"
     ],
+    "cloze": {
+      "de": "besiegen",
+      "en": "defeat"
+    },
     "sourceIndex": 3637
   },
   {
@@ -2547,6 +3143,10 @@ const phrasesCity = [
     "wordIds": [
       "13748"
     ],
+    "cloze": {
+      "de": "östlich",
+      "en": "east"
+    },
     "sourceIndex": 3748
   },
   {
@@ -2564,6 +3164,10 @@ const phrasesCity = [
     "wordIds": [
       "13765"
     ],
+    "cloze": {
+      "de": "brutaler",
+      "en": "brutal"
+    },
     "sourceIndex": 3765
   },
   {
@@ -2581,6 +3185,10 @@ const phrasesCity = [
     "wordIds": [
       "13796"
     ],
+    "cloze": {
+      "de": "regieren",
+      "en": "govern"
+    },
     "sourceIndex": 3796
   },
   {
@@ -2598,6 +3206,10 @@ const phrasesCity = [
     "wordIds": [
       "13910"
     ],
+    "cloze": {
+      "de": "Kommissar",
+      "en": "detective"
+    },
     "sourceIndex": 3910
   },
   {
@@ -2615,6 +3227,10 @@ const phrasesCity = [
     "wordIds": [
       "13912"
     ],
+    "cloze": {
+      "de": "krimineller",
+      "en": "criminal"
+    },
     "sourceIndex": 3912
   },
   {
@@ -2632,6 +3248,10 @@ const phrasesCity = [
     "wordIds": [
       "13946"
     ],
+    "cloze": {
+      "de": "Verkehrsunfall",
+      "en": "traffic"
+    },
     "sourceIndex": 3946
   },
   {
@@ -2649,6 +3269,10 @@ const phrasesCity = [
     "wordIds": [
       "13980"
     ],
+    "cloze": {
+      "de": "Herrscher",
+      "en": "ruler"
+    },
     "sourceIndex": 3980
   },
   {
@@ -2666,6 +3290,10 @@ const phrasesCity = [
     "wordIds": [
       "14037"
     ],
+    "cloze": {
+      "de": "einhalten",
+      "en": "comply"
+    },
     "sourceIndex": 4037
   },
   {
@@ -2683,6 +3311,10 @@ const phrasesCity = [
     "wordIds": [
       "14149"
     ],
+    "cloze": {
+      "de": "urbane",
+      "en": "urban"
+    },
     "sourceIndex": 4149
   },
   {
@@ -2700,6 +3332,10 @@ const phrasesCity = [
     "wordIds": [
       "14174"
     ],
+    "cloze": {
+      "de": "entkommen",
+      "en": "escape"
+    },
     "sourceIndex": 4174
   },
   {
@@ -2717,6 +3353,10 @@ const phrasesCity = [
     "wordIds": [
       "14221"
     ],
+    "cloze": {
+      "de": "abschaffen",
+      "en": "abolish"
+    },
     "sourceIndex": 4221
   },
   {
@@ -2734,6 +3374,10 @@ const phrasesCity = [
     "wordIds": [
       "14227"
     ],
+    "cloze": {
+      "de": "ausschließen",
+      "en": "rule"
+    },
     "sourceIndex": 4227
   },
   {
@@ -2751,6 +3395,10 @@ const phrasesCity = [
     "wordIds": [
       "14300"
     ],
+    "cloze": {
+      "de": "Bundeskanzler",
+      "en": "Federal"
+    },
     "sourceIndex": 4300
   },
   {
@@ -2768,6 +3416,10 @@ const phrasesCity = [
     "wordIds": [
       "14353"
     ],
+    "cloze": {
+      "de": "unschuldig",
+      "en": "innocent"
+    },
     "sourceIndex": 4353
   },
   {
@@ -2785,6 +3437,10 @@ const phrasesCity = [
     "wordIds": [
       "14410"
     ],
+    "cloze": {
+      "de": "Ortsteil",
+      "en": "district"
+    },
     "sourceIndex": 4410
   },
   {
@@ -2802,6 +3458,10 @@ const phrasesCity = [
     "wordIds": [
       "14429"
     ],
+    "cloze": {
+      "de": "Tank",
+      "en": "tank"
+    },
     "sourceIndex": 4429
   },
   {
@@ -2819,6 +3479,10 @@ const phrasesCity = [
     "wordIds": [
       "14454"
     ],
+    "cloze": {
+      "de": "Banner",
+      "en": "banner"
+    },
     "sourceIndex": 4454
   },
   {
@@ -2836,6 +3500,10 @@ const phrasesCity = [
     "wordIds": [
       "14471"
     ],
+    "cloze": {
+      "de": "entfernt",
+      "en": "far"
+    },
     "sourceIndex": 4471
   },
   {
@@ -2853,6 +3521,10 @@ const phrasesCity = [
     "wordIds": [
       "14473"
     ],
+    "cloze": {
+      "de": "Ermittler",
+      "en": "investigator"
+    },
     "sourceIndex": 4473
   },
   {
@@ -2870,6 +3542,10 @@ const phrasesCity = [
     "wordIds": [
       "14551"
     ],
+    "cloze": {
+      "de": "neutrales",
+      "en": "neutral"
+    },
     "sourceIndex": 4551
   },
   {
@@ -2887,6 +3563,10 @@ const phrasesCity = [
     "wordIds": [
       "14627"
     ],
+    "cloze": {
+      "de": "Räuber",
+      "en": "robber"
+    },
     "sourceIndex": 4627
   },
   {
@@ -2904,6 +3584,10 @@ const phrasesCity = [
     "wordIds": [
       "14633"
     ],
+    "cloze": {
+      "de": "Siedlung",
+      "en": "settlement"
+    },
     "sourceIndex": 4633
   },
   {
@@ -2921,6 +3605,10 @@ const phrasesCity = [
     "wordIds": [
       "14699"
     ],
+    "cloze": {
+      "de": "schmal",
+      "en": "narrow"
+    },
     "sourceIndex": 4699
   },
   {
@@ -2938,6 +3626,10 @@ const phrasesCity = [
     "wordIds": [
       "14791"
     ],
+    "cloze": {
+      "de": "Spielplatz",
+      "en": "playground"
+    },
     "sourceIndex": 4791
   },
   {
@@ -2955,6 +3647,10 @@ const phrasesCity = [
     "wordIds": [
       "14793"
     ],
+    "cloze": {
+      "de": "Stadtgebiet",
+      "en": "urban"
+    },
     "sourceIndex": 4793
   },
   {
@@ -2972,6 +3668,10 @@ const phrasesCity = [
     "wordIds": [
       "14834"
     ],
+    "cloze": {
+      "de": "Damm",
+      "en": "dam"
+    },
     "sourceIndex": 4834
   },
   {
@@ -2989,6 +3689,10 @@ const phrasesCity = [
     "wordIds": [
       "14872"
     ],
+    "cloze": {
+      "de": "platzieren",
+      "en": "place"
+    },
     "sourceIndex": 4872
   },
   {
@@ -3006,6 +3710,10 @@ const phrasesCity = [
     "wordIds": [
       "14902"
     ],
+    "cloze": {
+      "de": "Allee",
+      "en": "avenue"
+    },
     "sourceIndex": 4902
   },
   {
@@ -3023,6 +3731,10 @@ const phrasesCity = [
     "wordIds": [
       "14904"
     ],
+    "cloze": {
+      "de": "Anwohner",
+      "en": "residents"
+    },
     "sourceIndex": 4904
   },
   {
@@ -3040,6 +3752,10 @@ const phrasesCity = [
     "wordIds": [
       "14971"
     ],
+    "cloze": {
+      "de": "Verwirrung",
+      "en": "confusion"
+    },
     "sourceIndex": 4971
   },
   {
@@ -3057,6 +3773,10 @@ const phrasesCity = [
     "wordIds": [
       "14995"
     ],
+    "cloze": {
+      "de": "Dieb",
+      "en": "thief"
+    },
     "sourceIndex": 4995
   },
   {
@@ -3074,6 +3794,10 @@ const phrasesCity = [
     "wordIds": [
       "15015"
     ],
+    "cloze": {
+      "de": "Kleinstadt",
+      "en": "small"
+    },
     "sourceIndex": 5015
   },
   {
@@ -3091,6 +3815,10 @@ const phrasesCity = [
     "wordIds": [
       "15036"
     ],
+    "cloze": {
+      "de": "Quadratmeter",
+      "en": "square"
+    },
     "sourceIndex": 5036
   },
   {
@@ -3108,6 +3836,10 @@ const phrasesCity = [
     "wordIds": [
       "15061"
     ],
+    "cloze": {
+      "de": "Wohnort",
+      "en": "place"
+    },
     "sourceIndex": 5061
   },
   {
@@ -3125,6 +3857,10 @@ const phrasesCity = [
     "wordIds": [
       "15064"
     ],
+    "cloze": {
+      "de": "Airport",
+      "en": "airport"
+    },
     "sourceIndex": 5064
   },
   {
@@ -3142,6 +3878,10 @@ const phrasesCity = [
     "wordIds": [
       "15081"
     ],
+    "cloze": {
+      "de": "Einbrecher",
+      "en": "burglar"
+    },
     "sourceIndex": 5081
   },
   {
@@ -3159,6 +3899,10 @@ const phrasesCity = [
     "wordIds": [
       "15167"
     ],
+    "cloze": {
+      "de": "Betrüger",
+      "en": "swindler"
+    },
     "sourceIndex": 5167
   },
   {
@@ -3176,6 +3920,10 @@ const phrasesCity = [
     "wordIds": [
       "15297"
     ],
+    "cloze": {
+      "de": "Politikerin",
+      "en": "female"
+    },
     "sourceIndex": 5297
   },
   {
@@ -3193,6 +3941,10 @@ const phrasesCity = [
     "wordIds": [
       "15299"
     ],
+    "cloze": {
+      "de": "Raub",
+      "en": "robbery"
+    },
     "sourceIndex": 5299
   },
   {
@@ -3210,6 +3962,10 @@ const phrasesCity = [
     "wordIds": [
       "15314"
     ],
+    "cloze": {
+      "de": "Stadtverwaltung",
+      "en": "city"
+    },
     "sourceIndex": 5314
   },
   {
@@ -3227,6 +3983,10 @@ const phrasesCity = [
     "wordIds": [
       "15410"
     ],
+    "cloze": {
+      "de": "Staatsbürger",
+      "en": "citizen"
+    },
     "sourceIndex": 5410
   },
   {
@@ -3244,6 +4004,10 @@ const phrasesCity = [
     "wordIds": [
       "15417"
     ],
+    "cloze": {
+      "de": "verdienter",
+      "en": "deserved"
+    },
     "sourceIndex": 5417
   },
   {
@@ -3261,6 +4025,10 @@ const phrasesCity = [
     "wordIds": [
       "15431"
     ],
+    "cloze": {
+      "de": "aufzuklären",
+      "en": "solve"
+    },
     "sourceIndex": 5431
   },
   {
@@ -3278,6 +4046,10 @@ const phrasesCity = [
     "wordIds": [
       "15511"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "survivor"
+    },
     "sourceIndex": 5511
   },
   {
@@ -3295,6 +4067,10 @@ const phrasesCity = [
     "wordIds": [
       "15565"
     ],
+    "cloze": {
+      "de": "Ortschaft",
+      "en": "locality"
+    },
     "sourceIndex": 5565
   },
   {
@@ -3312,6 +4088,10 @@ const phrasesCity = [
     "wordIds": [
       "15686"
     ],
+    "cloze": {
+      "de": "großen",
+      "en": "caused"
+    },
     "sourceIndex": 5686
   },
   {
@@ -3329,6 +4109,10 @@ const phrasesCity = [
     "wordIds": [
       "15792"
     ],
+    "cloze": {
+      "de": "Bestrafung",
+      "en": "punishment"
+    },
     "sourceIndex": 5792
   },
   {
@@ -3346,6 +4130,10 @@ const phrasesCity = [
     "wordIds": [
       "15794"
     ],
+    "cloze": {
+      "de": "Broschüre",
+      "en": "brochure"
+    },
     "sourceIndex": 5794
   },
   {
@@ -3363,6 +4151,10 @@ const phrasesCity = [
     "wordIds": [
       "15813"
     ],
+    "cloze": {
+      "de": "Gewehr",
+      "en": "rifle"
+    },
     "sourceIndex": 5813
   },
   {
@@ -3380,6 +4172,10 @@ const phrasesCity = [
     "wordIds": [
       "15819"
     ],
+    "cloze": {
+      "de": "Heimatland",
+      "en": "homeland"
+    },
     "sourceIndex": 5819
   },
   {
@@ -3397,6 +4193,10 @@ const phrasesCity = [
     "wordIds": [
       "16003"
     ],
+    "cloze": {
+      "de": "Boulevard",
+      "en": "boulevard"
+    },
     "sourceIndex": 6003
   },
   {
@@ -3414,6 +4214,10 @@ const phrasesCity = [
     "wordIds": [
       "16006"
     ],
+    "cloze": {
+      "de": "Bundespolizei",
+      "en": "Federal"
+    },
     "sourceIndex": 6006
   },
   {
@@ -3431,6 +4235,10 @@ const phrasesCity = [
     "wordIds": [
       "16078"
     ],
+    "cloze": {
+      "de": "Wächter",
+      "en": "guard"
+    },
     "sourceIndex": 6078
   },
   {
@@ -3448,6 +4256,10 @@ const phrasesCity = [
     "wordIds": [
       "16108"
     ],
+    "cloze": {
+      "de": "Gasse",
+      "en": "alley"
+    },
     "sourceIndex": 6108
   },
   {
@@ -3465,6 +4277,10 @@ const phrasesCity = [
     "wordIds": [
       "16276"
     ],
+    "cloze": {
+      "de": "überqueren",
+      "en": "cross"
+    },
     "sourceIndex": 6276
   },
   {
@@ -3482,6 +4298,10 @@ const phrasesCity = [
     "wordIds": [
       "16294"
     ],
+    "cloze": {
+      "de": "Avenue",
+      "en": "avenue"
+    },
     "sourceIndex": 6294
   },
   {
@@ -3499,6 +4319,10 @@ const phrasesCity = [
     "wordIds": [
       "16334"
     ],
+    "cloze": {
+      "de": "Nationalität",
+      "en": "nationality"
+    },
     "sourceIndex": 6334
   },
   {
@@ -3516,6 +4340,10 @@ const phrasesCity = [
     "wordIds": [
       "16492"
     ],
+    "cloze": {
+      "de": "Bürgerin",
+      "en": "female"
+    },
     "sourceIndex": 6492
   },
   {
@@ -3533,6 +4361,10 @@ const phrasesCity = [
     "wordIds": [
       "16601"
     ],
+    "cloze": {
+      "de": "aufsetzen",
+      "en": "put"
+    },
     "sourceIndex": 6601
   },
   {
@@ -3550,6 +4382,10 @@ const phrasesCity = [
     "wordIds": [
       "16604"
     ],
+    "cloze": {
+      "de": "ausbrechen",
+      "en": "The"
+    },
     "sourceIndex": 6604
   },
   {
@@ -3567,6 +4403,10 @@ const phrasesCity = [
     "wordIds": [
       "16611"
     ],
+    "cloze": {
+      "de": "Einreise",
+      "en": "Entry"
+    },
     "sourceIndex": 6611
   },
   {
@@ -3584,6 +4424,10 @@ const phrasesCity = [
     "wordIds": [
       "16640"
     ],
+    "cloze": {
+      "de": "Ministerin",
+      "en": "minister"
+    },
     "sourceIndex": 6640
   },
   {
@@ -3601,6 +4445,10 @@ const phrasesCity = [
     "wordIds": [
       "16677"
     ],
+    "cloze": {
+      "de": "westdeutschen",
+      "en": "West"
+    },
     "sourceIndex": 6677
   },
   {
@@ -3618,6 +4466,10 @@ const phrasesCity = [
     "wordIds": [
       "16854"
     ],
+    "cloze": {
+      "de": "Richterin",
+      "en": "judge"
+    },
     "sourceIndex": 6854
   },
   {
@@ -3635,6 +4487,10 @@ const phrasesCity = [
     "wordIds": [
       "16877"
     ],
+    "cloze": {
+      "de": "Zeugin",
+      "en": "female"
+    },
     "sourceIndex": 6877
   },
   {
@@ -3652,6 +4508,10 @@ const phrasesCity = [
     "wordIds": [
       "17092"
     ],
+    "cloze": {
+      "de": "aufdecken",
+      "en": "uncover"
+    },
     "sourceIndex": 7092
   },
   {
@@ -3669,6 +4529,10 @@ const phrasesCity = [
     "wordIds": [
       "17133"
     ],
+    "cloze": {
+      "de": "kanadische",
+      "en": "Canadian"
+    },
     "sourceIndex": 7133
   },
   {
@@ -3686,6 +4550,10 @@ const phrasesCity = [
     "wordIds": [
       "17170"
     ],
+    "cloze": {
+      "de": "Stadtzentrum",
+      "en": "city"
+    },
     "sourceIndex": 7170
   },
   {
@@ -3703,6 +4571,10 @@ const phrasesCity = [
     "wordIds": [
       "17259"
     ],
+    "cloze": {
+      "de": "ostdeutschen",
+      "en": "East"
+    },
     "sourceIndex": 7259
   },
   {
@@ -3720,6 +4592,10 @@ const phrasesCity = [
     "wordIds": [
       "17285"
     ],
+    "cloze": {
+      "de": "Unzufriedenheit",
+      "en": "dissatisfaction"
+    },
     "sourceIndex": 7285
   },
   {
@@ -3737,6 +4613,10 @@ const phrasesCity = [
     "wordIds": [
       "17290"
     ],
+    "cloze": {
+      "de": "Versteck",
+      "en": "hiding"
+    },
     "sourceIndex": 7290
   },
   {
@@ -3754,6 +4634,10 @@ const phrasesCity = [
     "wordIds": [
       "17352"
     ],
+    "cloze": {
+      "de": "kreuzen",
+      "en": "cross"
+    },
     "sourceIndex": 7352
   },
   {
@@ -3771,6 +4655,10 @@ const phrasesCity = [
     "wordIds": [
       "17487"
     ],
+    "cloze": {
+      "de": "Mobilfunks",
+      "en": "mobile"
+    },
     "sourceIndex": 7487
   },
   {
@@ -3788,6 +4676,10 @@ const phrasesCity = [
     "wordIds": [
       "17590"
     ],
+    "cloze": {
+      "de": "geographische",
+      "en": "geographical"
+    },
     "sourceIndex": 7590
   },
   {
@@ -3805,6 +4697,10 @@ const phrasesCity = [
     "wordIds": [
       "17601"
     ],
+    "cloze": {
+      "de": "hinüber",
+      "en": "over"
+    },
     "sourceIndex": 7601
   },
   {
@@ -3822,6 +4718,10 @@ const phrasesCity = [
     "wordIds": [
       "17628"
     ],
+    "cloze": {
+      "de": "Officer",
+      "en": "officer"
+    },
     "sourceIndex": 7628
   },
   {
@@ -3839,6 +4739,10 @@ const phrasesCity = [
     "wordIds": [
       "17733"
     ],
+    "cloze": {
+      "de": "Igel",
+      "en": "hedgehog"
+    },
     "sourceIndex": 7733
   },
   {
@@ -3856,6 +4760,10 @@ const phrasesCity = [
     "wordIds": [
       "17757"
     ],
+    "cloze": {
+      "de": "Pandemie",
+      "en": "pandemic"
+    },
     "sourceIndex": 7757
   },
   {
@@ -3873,6 +4781,10 @@ const phrasesCity = [
     "wordIds": [
       "17787"
     ],
+    "cloze": {
+      "de": "vertraglich",
+      "en": "contractually"
+    },
     "sourceIndex": 7787
   },
   {
@@ -3890,6 +4802,10 @@ const phrasesCity = [
     "wordIds": [
       "17863"
     ],
+    "cloze": {
+      "de": "Parole",
+      "en": "slogan"
+    },
     "sourceIndex": 7863
   },
   {
@@ -3907,6 +4823,10 @@ const phrasesCity = [
     "wordIds": [
       "17897"
     ],
+    "cloze": {
+      "de": "Vorort",
+      "en": "suburb"
+    },
     "sourceIndex": 7897
   },
   {
@@ -3924,6 +4844,10 @@ const phrasesCity = [
     "wordIds": [
       "17999"
     ],
+    "cloze": {
+      "de": "Stadtbibliothek",
+      "en": "city"
+    },
     "sourceIndex": 7999
   },
   {
@@ -3941,6 +4865,10 @@ const phrasesCity = [
     "wordIds": [
       "18117"
     ],
+    "cloze": {
+      "de": "Strassenseite",
+      "en": "side"
+    },
     "sourceIndex": 8117
   },
   {
@@ -3958,6 +4886,10 @@ const phrasesCity = [
     "wordIds": [
       "18240"
     ],
+    "cloze": {
+      "de": "Städtchen",
+      "en": "small"
+    },
     "sourceIndex": 8240
   },
   {
@@ -3975,6 +4907,10 @@ const phrasesCity = [
     "wordIds": [
       "18503"
     ],
+    "cloze": {
+      "de": "Wegweiser",
+      "en": "signpost"
+    },
     "sourceIndex": 8503
   },
   {
@@ -3992,6 +4928,10 @@ const phrasesCity = [
     "wordIds": [
       "18520"
     ],
+    "cloze": {
+      "de": "Anwältin",
+      "en": "female"
+    },
     "sourceIndex": 8520
   },
   {
@@ -4009,6 +4949,10 @@ const phrasesCity = [
     "wordIds": [
       "18571"
     ],
+    "cloze": {
+      "de": "Hochhaus",
+      "en": "high-rise"
+    },
     "sourceIndex": 8571
   },
   {
@@ -4026,6 +4970,10 @@ const phrasesCity = [
     "wordIds": [
       "18644"
     ],
+    "cloze": {
+      "de": "Weltrekord",
+      "en": "world"
+    },
     "sourceIndex": 8644
   },
   {
@@ -4043,6 +4991,10 @@ const phrasesCity = [
     "wordIds": [
       "18656"
     ],
+    "cloze": {
+      "de": "alarmiert",
+      "en": "alerted"
+    },
     "sourceIndex": 8656
   },
   {
@@ -4060,6 +5012,10 @@ const phrasesCity = [
     "wordIds": [
       "18672"
     ],
+    "cloze": {
+      "de": "bewusstlos",
+      "en": "unconscious"
+    },
     "sourceIndex": 8672
   },
   {
@@ -4077,6 +5033,10 @@ const phrasesCity = [
     "wordIds": [
       "18748"
     ],
+    "cloze": {
+      "de": "Quadrat",
+      "en": "square"
+    },
     "sourceIndex": 8748
   },
   {
@@ -4094,6 +5054,10 @@ const phrasesCity = [
     "wordIds": [
       "18931"
     ],
+    "cloze": {
+      "de": "Village",
+      "en": "village"
+    },
     "sourceIndex": 8931
   },
   {
@@ -4111,6 +5075,10 @@ const phrasesCity = [
     "wordIds": [
       "19044"
     ],
+    "cloze": {
+      "de": "polizeiliche",
+      "en": "police"
+    },
     "sourceIndex": 9044
   },
   {
@@ -4128,6 +5096,10 @@ const phrasesCity = [
     "wordIds": [
       "19075"
     ],
+    "cloze": {
+      "de": "Tram",
+      "en": "tram"
+    },
     "sourceIndex": 9075
   },
   {
@@ -4145,6 +5117,10 @@ const phrasesCity = [
     "wordIds": [
       "19091"
     ],
+    "cloze": {
+      "de": "Wal",
+      "en": "whale"
+    },
     "sourceIndex": 9091
   },
   {
@@ -4162,6 +5138,10 @@ const phrasesCity = [
     "wordIds": [
       "19215"
     ],
+    "cloze": {
+      "de": "Stadtrand",
+      "en": "outskirts"
+    },
     "sourceIndex": 9215
   },
   {
@@ -4179,6 +5159,10 @@ const phrasesCity = [
     "wordIds": [
       "19229"
     ],
+    "cloze": {
+      "de": "Veteran",
+      "en": "veteran"
+    },
     "sourceIndex": 9229
   },
   {
@@ -4196,6 +5180,10 @@ const phrasesCity = [
     "wordIds": [
       "19267"
     ],
+    "cloze": {
+      "de": "Detektiv",
+      "en": "detective"
+    },
     "sourceIndex": 9267
   },
   {
@@ -4213,6 +5201,10 @@ const phrasesCity = [
     "wordIds": [
       "19289"
     ],
+    "cloze": {
+      "de": "Gegenwind",
+      "en": "headwind"
+    },
     "sourceIndex": 9289
   },
   {
@@ -4230,6 +5222,10 @@ const phrasesCity = [
     "wordIds": [
       "19365"
     ],
+    "cloze": {
+      "de": "Stadtpark",
+      "en": "city"
+    },
     "sourceIndex": 9365
   },
   {
@@ -4247,6 +5243,10 @@ const phrasesCity = [
     "wordIds": [
       "19387"
     ],
+    "cloze": {
+      "de": "Vorstadt",
+      "en": "suburb"
+    },
     "sourceIndex": 9387
   },
   {
@@ -4264,6 +5264,10 @@ const phrasesCity = [
     "wordIds": [
       "19507"
     ],
+    "cloze": {
+      "de": "Stadthalle",
+      "en": "city"
+    },
     "sourceIndex": 9507
   },
   {
@@ -4281,6 +5285,10 @@ const phrasesCity = [
     "wordIds": [
       "19556"
     ],
+    "cloze": {
+      "de": "aus",
+      "en": "way"
+    },
     "sourceIndex": 9556
   },
   {
@@ -4298,6 +5306,10 @@ const phrasesCity = [
     "wordIds": [
       "19701"
     ],
+    "cloze": {
+      "de": "abtreten",
+      "en": "step"
+    },
     "sourceIndex": 9701
   },
   {
@@ -4315,6 +5327,10 @@ const phrasesCity = [
     "wordIds": [
       "19713"
     ],
+    "cloze": {
+      "de": "Aussenbereich",
+      "en": "outdoor"
+    },
     "sourceIndex": 9713
   },
   {
@@ -4332,6 +5348,10 @@ const phrasesCity = [
     "wordIds": [
       "19731"
     ],
+    "cloze": {
+      "de": "Crime",
+      "en": "crime"
+    },
     "sourceIndex": 9731
   },
   {
@@ -4349,6 +5369,10 @@ const phrasesCity = [
     "wordIds": [
       "19775"
     ],
+    "cloze": {
+      "de": "Malaria",
+      "en": "malaria"
+    },
     "sourceIndex": 9775
   },
   {
@@ -4366,6 +5390,10 @@ const phrasesCity = [
     "wordIds": [
       "19902"
     ],
+    "cloze": {
+      "de": "Innenpolitik",
+      "en": "Domestic"
+    },
     "sourceIndex": 9902
   },
   {
@@ -4383,6 +5411,10 @@ const phrasesCity = [
     "wordIds": [
       "19935"
     ],
+    "cloze": {
+      "de": "Polizeibeamte",
+      "en": "police"
+    },
     "sourceIndex": 9935
   },
   {
@@ -4400,6 +5432,10 @@ const phrasesCity = [
     "wordIds": [
       "20001"
     ],
+    "cloze": {
+      "de": "aussagen",
+      "en": "testify"
+    },
     "sourceIndex": 10001
   },
   {
@@ -4417,6 +5453,10 @@ const phrasesCity = [
     "wordIds": [
       "20011"
     ],
+    "cloze": {
+      "de": "Beschädigung",
+      "en": "damage"
+    },
     "sourceIndex": 10011
   },
   {
@@ -4434,6 +5474,10 @@ const phrasesCity = [
     "wordIds": [
       "20051"
     ],
+    "cloze": {
+      "de": "geregelt",
+      "en": "regulated"
+    },
     "sourceIndex": 10051
   },
   {
@@ -4451,6 +5495,10 @@ const phrasesCity = [
     "wordIds": [
       "20056"
     ],
+    "cloze": {
+      "de": "hinstellen",
+      "en": "place"
+    },
     "sourceIndex": 10056
   },
   {
@@ -4468,6 +5516,10 @@ const phrasesCity = [
     "wordIds": [
       "20075"
     ],
+    "cloze": {
+      "de": "Ortskern",
+      "en": "town"
+    },
     "sourceIndex": 10075
   },
   {
@@ -4485,6 +5537,10 @@ const phrasesCity = [
     "wordIds": [
       "20424"
     ],
+    "cloze": {
+      "de": "unverletzt",
+      "en": "uninjured"
+    },
     "sourceIndex": 10424
   },
   {
@@ -4502,6 +5558,10 @@ const phrasesCity = [
     "wordIds": [
       "20471"
     ],
+    "cloze": {
+      "de": "Centrum",
+      "en": "center"
+    },
     "sourceIndex": 10471
   },
   {
@@ -4519,6 +5579,10 @@ const phrasesCity = [
     "wordIds": [
       "20527"
     ],
+    "cloze": {
+      "de": "Menschenmenge",
+      "en": "crowd"
+    },
     "sourceIndex": 10527
   },
   {
@@ -4536,6 +5600,10 @@ const phrasesCity = [
     "wordIds": [
       "20564"
     ],
+    "cloze": {
+      "de": "Strafraum",
+      "en": "penalty"
+    },
     "sourceIndex": 10564
   },
   {
@@ -4553,6 +5621,10 @@ const phrasesCity = [
     "wordIds": [
       "20664"
     ],
+    "cloze": {
+      "de": "hinziehen",
+      "en": "move"
+    },
     "sourceIndex": 10664
   },
   {
@@ -4570,6 +5642,10 @@ const phrasesCity = [
     "wordIds": [
       "20867"
     ],
+    "cloze": {
+      "de": "Monument",
+      "en": "monument"
+    },
     "sourceIndex": 10867
   },
   {
@@ -4587,6 +5663,10 @@ const phrasesCity = [
     "wordIds": [
       "21189"
     ],
+    "cloze": {
+      "de": "Gemeindehaus",
+      "en": "community"
+    },
     "sourceIndex": 11189
   },
   {
@@ -4604,6 +5684,10 @@ const phrasesCity = [
     "wordIds": [
       "21328"
     ],
+    "cloze": {
+      "de": "Auswanderung",
+      "en": "Emigration"
+    },
     "sourceIndex": 11328
   },
   {
@@ -4621,6 +5705,10 @@ const phrasesCity = [
     "wordIds": [
       "21335"
     ],
+    "cloze": {
+      "de": "Beratungsstelle",
+      "en": "counseling"
+    },
     "sourceIndex": 11335
   },
   {
@@ -4638,6 +5726,10 @@ const phrasesCity = [
     "wordIds": [
       "21385"
     ],
+    "cloze": {
+      "de": "Friedensvertrag",
+      "en": "peace"
+    },
     "sourceIndex": 11385
   },
   {
@@ -4655,6 +5747,10 @@ const phrasesCity = [
     "wordIds": [
       "21581"
     ],
+    "cloze": {
+      "de": "Kindertagesstätte",
+      "en": "daycare"
+    },
     "sourceIndex": 11581
   },
   {
@@ -4672,6 +5768,10 @@ const phrasesCity = [
     "wordIds": [
       "21786"
     ],
+    "cloze": {
+      "de": "Quadratkilometer",
+      "en": "square"
+    },
     "sourceIndex": 11786
   },
   {
@@ -4689,6 +5789,10 @@ const phrasesCity = [
     "wordIds": [
       "21809"
     ],
+    "cloze": {
+      "de": "Stadtmitte",
+      "en": "city"
+    },
     "sourceIndex": 11809
   },
   {
@@ -4706,6 +5810,10 @@ const phrasesCity = [
     "wordIds": [
       "21875"
     ],
+    "cloze": {
+      "de": "Detective",
+      "en": "detective"
+    },
     "sourceIndex": 11875
   },
   {
@@ -4723,6 +5831,10 @@ const phrasesCity = [
     "wordIds": [
       "21884"
     ],
+    "cloze": {
+      "de": "entschädigt",
+      "en": "compensated"
+    },
     "sourceIndex": 11884
   },
   {
@@ -4740,6 +5852,10 @@ const phrasesCity = [
     "wordIds": [
       "21952"
     ],
+    "cloze": {
+      "de": "Polizeichef",
+      "en": "police"
+    },
     "sourceIndex": 11952
   },
   {
@@ -4757,6 +5873,10 @@ const phrasesCity = [
     "wordIds": [
       "22095"
     ],
+    "cloze": {
+      "de": "Grünflächen",
+      "en": "green"
+    },
     "sourceIndex": 12095
   },
   {
@@ -4774,6 +5894,10 @@ const phrasesCity = [
     "wordIds": [
       "22180"
     ],
+    "cloze": {
+      "de": "Südstadt",
+      "en": "south"
+    },
     "sourceIndex": 12180
   },
   {
@@ -4791,6 +5915,10 @@ const phrasesCity = [
     "wordIds": [
       "22248"
     ],
+    "cloze": {
+      "de": "Bürgerhaus",
+      "en": "community"
+    },
     "sourceIndex": 12248
   },
   {
@@ -4808,6 +5936,10 @@ const phrasesCity = [
     "wordIds": [
       "22256"
     ],
+    "cloze": {
+      "de": "Distrikt",
+      "en": "district"
+    },
     "sourceIndex": 12256
   },
   {
@@ -4825,6 +5957,10 @@ const phrasesCity = [
     "wordIds": [
       "22292"
     ],
+    "cloze": {
+      "de": "hinken",
+      "en": "limp"
+    },
     "sourceIndex": 12292
   },
   {
@@ -4842,6 +5978,10 @@ const phrasesCity = [
     "wordIds": [
       "22352"
     ],
+    "cloze": {
+      "de": "Stadtfest",
+      "en": "city"
+    },
     "sourceIndex": 12352
   },
   {
@@ -4859,6 +5999,10 @@ const phrasesCity = [
     "wordIds": [
       "22395"
     ],
+    "cloze": {
+      "de": "absperren",
+      "en": "cordon"
+    },
     "sourceIndex": 12395
   },
   {
@@ -4876,6 +6020,10 @@ const phrasesCity = [
     "wordIds": [
       "22432"
     ],
+    "cloze": {
+      "de": "Deich",
+      "en": "dike"
+    },
     "sourceIndex": 12432
   },
   {
@@ -4893,6 +6041,10 @@ const phrasesCity = [
     "wordIds": [
       "22494"
     ],
+    "cloze": {
+      "de": "Landesmuseum",
+      "en": "state"
+    },
     "sourceIndex": 12494
   },
   {
@@ -4910,6 +6062,10 @@ const phrasesCity = [
     "wordIds": [
       "22537"
     ],
+    "cloze": {
+      "de": "Schauspielhaus",
+      "en": "playhouse"
+    },
     "sourceIndex": 12537
   },
   {
@@ -4927,6 +6083,10 @@ const phrasesCity = [
     "wordIds": [
       "22550"
     ],
+    "cloze": {
+      "de": "Stadtbahn",
+      "en": "light"
+    },
     "sourceIndex": 12550
   },
   {
@@ -4944,6 +6104,10 @@ const phrasesCity = [
     "wordIds": [
       "22654"
     ],
+    "cloze": {
+      "de": "Flugblätter",
+      "en": "leaflets"
+    },
     "sourceIndex": 12654
   },
   {
@@ -4961,6 +6125,10 @@ const phrasesCity = [
     "wordIds": [
       "22856"
     ],
+    "cloze": {
+      "de": "Hurrikan",
+      "en": "hurricane"
+    },
     "sourceIndex": 12856
   },
   {
@@ -4978,6 +6146,10 @@ const phrasesCity = [
     "wordIds": [
       "22889"
     ],
+    "cloze": {
+      "de": "nahegelegenes",
+      "en": "nearby"
+    },
     "sourceIndex": 12889
   },
   {
@@ -4995,6 +6167,10 @@ const phrasesCity = [
     "wordIds": [
       "22898"
     ],
+    "cloze": {
+      "de": "Piazza",
+      "en": "piazza"
+    },
     "sourceIndex": 12898
   },
   {
@@ -5012,6 +6188,10 @@ const phrasesCity = [
     "wordIds": [
       "22923"
     ],
+    "cloze": {
+      "de": "Stadtplanung",
+      "en": "Urban"
+    },
     "sourceIndex": 12923
   },
   {
@@ -5029,6 +6209,10 @@ const phrasesCity = [
     "wordIds": [
       "22990"
     ],
+    "cloze": {
+      "de": "Bandit",
+      "en": "bandit"
+    },
     "sourceIndex": 12990
   },
   {
@@ -5046,6 +6230,10 @@ const phrasesCity = [
     "wordIds": [
       "23088"
     ],
+    "cloze": {
+      "de": "Polizeiruf",
+      "en": "police"
+    },
     "sourceIndex": 13088
   },
   {
@@ -5063,6 +6251,10 @@ const phrasesCity = [
     "wordIds": [
       "23309"
     ],
+    "cloze": {
+      "de": "Stadtviertel",
+      "en": "city"
+    },
     "sourceIndex": 13309
   },
   {
@@ -5080,6 +6272,10 @@ const phrasesCity = [
     "wordIds": [
       "23629"
     ],
+    "cloze": {
+      "de": "Fahrstreifen",
+      "en": "lane"
+    },
     "sourceIndex": 13629
   },
   {
@@ -5097,6 +6293,10 @@ const phrasesCity = [
     "wordIds": [
       "23711"
     ],
+    "cloze": {
+      "de": "Rauchverbot",
+      "en": "smoking"
+    },
     "sourceIndex": 13711
   },
   {
@@ -5114,6 +6314,10 @@ const phrasesCity = [
     "wordIds": [
       "23730"
     ],
+    "cloze": {
+      "de": "Stadthaus",
+      "en": "townhouse"
+    },
     "sourceIndex": 13730
   },
   {
@@ -5131,6 +6335,10 @@ const phrasesCity = [
     "wordIds": [
       "23778"
     ],
+    "cloze": {
+      "de": "Absperrung",
+      "en": "barrier"
+    },
     "sourceIndex": 13778
   },
   {
@@ -5148,6 +6356,10 @@ const phrasesCity = [
     "wordIds": [
       "23884"
     ],
+    "cloze": {
+      "de": "Ortsmitte",
+      "en": "town"
+    },
     "sourceIndex": 13884
   },
   {
@@ -5165,6 +6377,10 @@ const phrasesCity = [
     "wordIds": [
       "24063"
     ],
+    "cloze": {
+      "de": "Krücken",
+      "en": "crutches"
+    },
     "sourceIndex": 14063
   },
   {
@@ -5182,6 +6398,10 @@ const phrasesCity = [
     "wordIds": [
       "24083"
     ],
+    "cloze": {
+      "de": "Mittellinie",
+      "en": "center"
+    },
     "sourceIndex": 14083
   },
   {
@@ -5199,6 +6419,10 @@ const phrasesCity = [
     "wordIds": [
       "24100"
     ],
+    "cloze": {
+      "de": "quadratisch",
+      "en": "square"
+    },
     "sourceIndex": 14100
   },
   {
@@ -5216,6 +6440,10 @@ const phrasesCity = [
     "wordIds": [
       "24133"
     ],
+    "cloze": {
+      "de": "Unfallstelle",
+      "en": "accident"
+    },
     "sourceIndex": 14133
   },
   {
@@ -5233,6 +6461,10 @@ const phrasesCity = [
     "wordIds": [
       "24191"
     ],
+    "cloze": {
+      "de": "Bergland",
+      "en": "mountainous"
+    },
     "sourceIndex": 14191
   },
   {
@@ -5250,6 +6482,10 @@ const phrasesCity = [
     "wordIds": [
       "24318"
     ],
+    "cloze": {
+      "de": "Streiterei",
+      "en": "quarrel"
+    },
     "sourceIndex": 14318
   },
   {
@@ -5267,6 +6503,10 @@ const phrasesCity = [
     "wordIds": [
       "24366"
     ],
+    "cloze": {
+      "de": "ausreisen",
+      "en": "leave"
+    },
     "sourceIndex": 14366
   },
   {
@@ -5284,6 +6524,10 @@ const phrasesCity = [
     "wordIds": [
       "24412"
     ],
+    "cloze": {
+      "de": "Gemeindegebiet",
+      "en": "municipal"
+    },
     "sourceIndex": 14412
   },
   {
@@ -5301,6 +6545,10 @@ const phrasesCity = [
     "wordIds": [
       "24431"
     ],
+    "cloze": {
+      "de": "irgendwohin",
+      "en": "somewhere"
+    },
     "sourceIndex": 14431
   },
   {
@@ -5318,6 +6566,10 @@ const phrasesCity = [
     "wordIds": [
       "24459"
     ],
+    "cloze": {
+      "de": "Parteimitglied",
+      "en": "party"
+    },
     "sourceIndex": 14459
   },
   {
@@ -5335,6 +6587,10 @@ const phrasesCity = [
     "wordIds": [
       "24520"
     ],
+    "cloze": {
+      "de": "unerfahren",
+      "en": "inexperienced"
+    },
     "sourceIndex": 14520
   },
   {
@@ -5352,6 +6608,10 @@ const phrasesCity = [
     "wordIds": [
       "24659"
     ],
+    "cloze": {
+      "de": "Kirchhof",
+      "en": "churchyard"
+    },
     "sourceIndex": 14659
   },
   {
@@ -5369,6 +6629,10 @@ const phrasesCity = [
     "wordIds": [
       "24808"
     ],
+    "cloze": {
+      "de": "Dorfplatz",
+      "en": "village"
+    },
     "sourceIndex": 14808
   },
   {
@@ -5386,6 +6650,10 @@ const phrasesCity = [
     "wordIds": [
       "24969"
     ],
+    "cloze": {
+      "de": "Wahlplakate",
+      "en": "Election"
+    },
     "sourceIndex": 14969
   },
   {
@@ -5403,6 +6671,10 @@ const phrasesCity = [
     "wordIds": [
       "25101"
     ],
+    "cloze": {
+      "de": "Nachbarstaaten",
+      "en": "neighboring"
+    },
     "sourceIndex": 15101
   },
   {
@@ -5420,6 +6692,10 @@ const phrasesCity = [
     "wordIds": [
       "25180"
     ],
+    "cloze": {
+      "de": "Vorwahl",
+      "en": "area"
+    },
     "sourceIndex": 15180
   },
   {
@@ -5437,6 +6713,10 @@ const phrasesCity = [
     "wordIds": [
       "25181"
     ],
+    "cloze": {
+      "de": "voten",
+      "en": "vote"
+    },
     "sourceIndex": 15181
   },
   {
@@ -5454,6 +6734,10 @@ const phrasesCity = [
     "wordIds": [
       "25272"
     ],
+    "cloze": {
+      "de": "geografische",
+      "en": "geographical"
+    },
     "sourceIndex": 15272
   },
   {
@@ -5471,6 +6755,10 @@ const phrasesCity = [
     "wordIds": [
       "25326"
     ],
+    "cloze": {
+      "de": "Pope",
+      "en": "Pope"
+    },
     "sourceIndex": 15326
   },
   {
@@ -5488,6 +6776,10 @@ const phrasesCity = [
     "wordIds": [
       "25550"
     ],
+    "cloze": {
+      "de": "Penthouse",
+      "en": "penthouse"
+    },
     "sourceIndex": 15550
   },
   {
@@ -5505,6 +6797,10 @@ const phrasesCity = [
     "wordIds": [
       "25604"
     ],
+    "cloze": {
+      "de": "verhaftet",
+      "en": "arrested"
+    },
     "sourceIndex": 15604
   },
   {
@@ -5522,6 +6818,10 @@ const phrasesCity = [
     "wordIds": [
       "25620"
     ],
+    "cloze": {
+      "de": "Wärter",
+      "en": "guard"
+    },
     "sourceIndex": 15620
   },
   {
@@ -5539,6 +6839,10 @@ const phrasesCity = [
     "wordIds": [
       "25634"
     ],
+    "cloze": {
+      "de": "Alltagsleben",
+      "en": "Everyday"
+    },
     "sourceIndex": 15634
   },
   {
@@ -5556,6 +6860,10 @@ const phrasesCity = [
     "wordIds": [
       "25691"
     ],
+    "cloze": {
+      "de": "Füller",
+      "en": "fountain"
+    },
     "sourceIndex": 15691
   },
   {
@@ -5573,6 +6881,10 @@ const phrasesCity = [
     "wordIds": [
       "25697"
     ],
+    "cloze": {
+      "de": "Gesamtfläche",
+      "en": "total"
+    },
     "sourceIndex": 15697
   },
   {
@@ -5590,6 +6902,10 @@ const phrasesCity = [
     "wordIds": [
       "25827"
     ],
+    "cloze": {
+      "de": "Wasserturm",
+      "en": "water"
+    },
     "sourceIndex": 15827
   },
   {
@@ -5607,6 +6923,10 @@ const phrasesCity = [
     "wordIds": [
       "26025"
     ],
+    "cloze": {
+      "de": "Unfallort",
+      "en": "accident"
+    },
     "sourceIndex": 16025
   },
   {
@@ -5624,6 +6944,10 @@ const phrasesCity = [
     "wordIds": [
       "26077"
     ],
+    "cloze": {
+      "de": "Baracke",
+      "en": "barracks"
+    },
     "sourceIndex": 16077
   },
   {
@@ -5641,6 +6965,10 @@ const phrasesCity = [
     "wordIds": [
       "26134"
     ],
+    "cloze": {
+      "de": "Gipfeltreffen",
+      "en": "summit"
+    },
     "sourceIndex": 16134
   },
   {
@@ -5658,6 +6986,10 @@ const phrasesCity = [
     "wordIds": [
       "26136"
     ],
+    "cloze": {
+      "de": "Grundregel",
+      "en": "basic"
+    },
     "sourceIndex": 16136
   },
   {
@@ -5675,6 +7007,10 @@ const phrasesCity = [
     "wordIds": [
       "26168"
     ],
+    "cloze": {
+      "de": "Kurpark",
+      "en": "spa"
+    },
     "sourceIndex": 16168
   },
   {
@@ -5692,6 +7028,10 @@ const phrasesCity = [
     "wordIds": [
       "26174"
     ],
+    "cloze": {
+      "de": "Leibwächter",
+      "en": "bodyguard"
+    },
     "sourceIndex": 16174
   },
   {
@@ -5709,6 +7049,10 @@ const phrasesCity = [
     "wordIds": [
       "26281"
     ],
+    "cloze": {
+      "de": "Wachmann",
+      "en": "security"
+    },
     "sourceIndex": 16281
   },
   {
@@ -5726,6 +7070,10 @@ const phrasesCity = [
     "wordIds": [
       "26413"
     ],
+    "cloze": {
+      "de": "Hurricane",
+      "en": "hurricane"
+    },
     "sourceIndex": 16413
   },
   {
@@ -5743,6 +7091,10 @@ const phrasesCity = [
     "wordIds": [
       "26553"
     ],
+    "cloze": {
+      "de": "weihnachtlich",
+      "en": "Christmassy"
+    },
     "sourceIndex": 16553
   },
   {
@@ -5760,6 +7112,10 @@ const phrasesCity = [
     "wordIds": [
       "26714"
     ],
+    "cloze": {
+      "de": "Patrouille",
+      "en": "patrol"
+    },
     "sourceIndex": 16714
   },
   {
@@ -5777,6 +7133,10 @@ const phrasesCity = [
     "wordIds": [
       "26727"
     ],
+    "cloze": {
+      "de": "Rathausplatz",
+      "en": "town"
+    },
     "sourceIndex": 16727
   },
   {
@@ -5794,6 +7154,10 @@ const phrasesCity = [
     "wordIds": [
       "26962"
     ],
+    "cloze": {
+      "de": "planlos",
+      "en": "aimlessly"
+    },
     "sourceIndex": 16962
   },
   {
@@ -5811,6 +7175,10 @@ const phrasesCity = [
     "wordIds": [
       "27004"
     ],
+    "cloze": {
+      "de": "Stadtverkehr",
+      "en": "City"
+    },
     "sourceIndex": 17004
   },
   {
@@ -5828,6 +7196,10 @@ const phrasesCity = [
     "wordIds": [
       "27040"
     ],
+    "cloze": {
+      "de": "Volkspark",
+      "en": "public"
+    },
     "sourceIndex": 17040
   },
   {
@@ -5845,6 +7217,10 @@ const phrasesCity = [
     "wordIds": [
       "27119"
     ],
+    "cloze": {
+      "de": "eckig",
+      "en": "square"
+    },
     "sourceIndex": 17119
   },
   {
@@ -5862,6 +7238,10 @@ const phrasesCity = [
     "wordIds": [
       "27218"
     ],
+    "cloze": {
+      "de": "Nachbarort",
+      "en": "neighboring"
+    },
     "sourceIndex": 17218
   },
   {
@@ -5879,6 +7259,10 @@ const phrasesCity = [
     "wordIds": [
       "27219"
     ],
+    "cloze": {
+      "de": "Nachbarstadt",
+      "en": "neighboring"
+    },
     "sourceIndex": 17219
   },
   {
@@ -5896,6 +7280,10 @@ const phrasesCity = [
     "wordIds": [
       "27246"
     ],
+    "cloze": {
+      "de": "Schlossplatz",
+      "en": "castle"
+    },
     "sourceIndex": 17246
   },
   {
@@ -5913,6 +7301,10 @@ const phrasesCity = [
     "wordIds": [
       "27260"
     ],
+    "cloze": {
+      "de": "Stadtkern",
+      "en": "city"
+    },
     "sourceIndex": 17260
   },
   {
@@ -5930,6 +7322,10 @@ const phrasesCity = [
     "wordIds": [
       "27315"
     ],
+    "cloze": {
+      "de": "Wählerin",
+      "en": "female"
+    },
     "sourceIndex": 17315
   },
   {
@@ -5947,6 +7343,10 @@ const phrasesCity = [
     "wordIds": [
       "27364"
     ],
+    "cloze": {
+      "de": "Bundespolitik",
+      "en": "Federal"
+    },
     "sourceIndex": 17364
   },
   {
@@ -5964,6 +7364,10 @@ const phrasesCity = [
     "wordIds": [
       "27388"
     ],
+    "cloze": {
+      "de": "entwickeltes",
+      "en": "developed"
+    },
     "sourceIndex": 17388
   },
   {
@@ -5981,6 +7385,10 @@ const phrasesCity = [
     "wordIds": [
       "27472"
     ],
+    "cloze": {
+      "de": "Lebensgrundlage",
+      "en": "livelihood"
+    },
     "sourceIndex": 17472
   },
   {
@@ -5998,6 +7406,10 @@ const phrasesCity = [
     "wordIds": [
       "27507"
     ],
+    "cloze": {
+      "de": "Polizeisprecher",
+      "en": "police"
+    },
     "sourceIndex": 17507
   },
   {
@@ -6015,6 +7427,10 @@ const phrasesCity = [
     "wordIds": [
       "27549"
     ],
+    "cloze": {
+      "de": "Stadtgrenze",
+      "en": "city"
+    },
     "sourceIndex": 17549
   },
   {
@@ -6032,6 +7448,10 @@ const phrasesCity = [
     "wordIds": [
       "27622"
     ],
+    "cloze": {
+      "de": "Arbeitsort",
+      "en": "workplace"
+    },
     "sourceIndex": 17622
   },
   {
@@ -6049,6 +7469,10 @@ const phrasesCity = [
     "wordIds": [
       "27645"
     ],
+    "cloze": {
+      "de": "Bildungszentrum",
+      "en": "educational"
+    },
     "sourceIndex": 17645
   },
   {
@@ -6066,6 +7490,10 @@ const phrasesCity = [
     "wordIds": [
       "27706"
     ],
+    "cloze": {
+      "de": "Hauptplatz",
+      "en": "main"
+    },
     "sourceIndex": 17706
   },
   {
@@ -6083,6 +7511,10 @@ const phrasesCity = [
     "wordIds": [
       "27798"
     ],
+    "cloze": {
+      "de": "stadtauswärts",
+      "en": "out"
+    },
     "sourceIndex": 17798
   },
   {
@@ -6100,6 +7532,10 @@ const phrasesCity = [
     "wordIds": [
       "27937"
     ],
+    "cloze": {
+      "de": "Grünanlage",
+      "en": "green"
+    },
     "sourceIndex": 17937
   },
   {
@@ -6117,6 +7553,10 @@ const phrasesCity = [
     "wordIds": [
       "28028"
     ],
+    "cloze": {
+      "de": "Schlafplatz",
+      "en": "sleeping"
+    },
     "sourceIndex": 18028
   },
   {
@@ -6134,6 +7574,10 @@ const phrasesCity = [
     "wordIds": [
       "28048"
     ],
+    "cloze": {
+      "de": "Teilbereich",
+      "en": "sub-area"
+    },
     "sourceIndex": 18048
   },
   {
@@ -6151,6 +7595,10 @@ const phrasesCity = [
     "wordIds": [
       "28204"
     ],
+    "cloze": {
+      "de": "Landesteil",
+      "en": "part"
+    },
     "sourceIndex": 18204
   },
   {
@@ -6168,6 +7616,10 @@ const phrasesCity = [
     "wordIds": [
       "28205"
     ],
+    "cloze": {
+      "de": "Landleben",
+      "en": "Rural"
+    },
     "sourceIndex": 18205
   },
   {
@@ -6185,6 +7637,10 @@ const phrasesCity = [
     "wordIds": [
       "28832"
     ],
+    "cloze": {
+      "de": "Universitätsstadt",
+      "en": "university"
+    },
     "sourceIndex": 18832
   },
   {
@@ -6202,6 +7658,10 @@ const phrasesCity = [
     "wordIds": [
       "29156"
     ],
+    "cloze": {
+      "de": "Wahlfreiheit",
+      "en": "freedom"
+    },
     "sourceIndex": 19156
   },
   {
@@ -6219,6 +7679,10 @@ const phrasesCity = [
     "wordIds": [
       "29234"
     ],
+    "cloze": {
+      "de": "in",
+      "en": "settle"
+    },
     "sourceIndex": 19234
   },
   {
@@ -6236,6 +7700,10 @@ const phrasesCity = [
     "wordIds": [
       "29408"
     ],
+    "cloze": {
+      "de": "Springbrunnen",
+      "en": "fountain"
+    },
     "sourceIndex": 19408
   },
   {
@@ -6253,6 +7721,10 @@ const phrasesCity = [
     "wordIds": [
       "29495"
     ],
+    "cloze": {
+      "de": "Aussichtsturm",
+      "en": "observation"
+    },
     "sourceIndex": 19495
   },
   {
@@ -6270,6 +7742,10 @@ const phrasesCity = [
     "wordIds": [
       "29511"
     ],
+    "cloze": {
+      "de": "Büroraum",
+      "en": "office"
+    },
     "sourceIndex": 19511
   },
   {
@@ -6287,6 +7763,10 @@ const phrasesCity = [
     "wordIds": [
       "29605"
     ],
+    "cloze": {
+      "de": "Kriminalromane",
+      "en": "crime"
+    },
     "sourceIndex": 19605
   },
   {
@@ -6304,6 +7784,10 @@ const phrasesCity = [
     "wordIds": [
       "29627"
     ],
+    "cloze": {
+      "de": "Nachbargemeinde",
+      "en": "neighboring"
+    },
     "sourceIndex": 19627
   },
   {
@@ -6321,6 +7805,10 @@ const phrasesCity = [
     "wordIds": [
       "29639"
     ],
+    "cloze": {
+      "de": "Ortsausgang",
+      "en": "town"
+    },
     "sourceIndex": 19639
   },
   {
@@ -6338,6 +7826,10 @@ const phrasesCity = [
     "wordIds": [
       "29650"
     ],
+    "cloze": {
+      "de": "queren",
+      "en": "cross"
+    },
     "sourceIndex": 19650
   },
   {
@@ -6355,6 +7847,10 @@ const phrasesCity = [
     "wordIds": [
       "29675"
     ],
+    "cloze": {
+      "de": "Sicherheitsabstand",
+      "en": "safety"
+    },
     "sourceIndex": 19675
   },
   {
@@ -6372,6 +7868,10 @@ const phrasesCity = [
     "wordIds": [
       "29804"
     ],
+    "cloze": {
+      "de": "dörfliche",
+      "en": "rural"
+    },
     "sourceIndex": 19804
   },
   {
@@ -6389,6 +7889,10 @@ const phrasesCity = [
     "wordIds": [
       "29922"
     ],
+    "cloze": {
+      "de": "Ortszentrum",
+      "en": "town"
+    },
     "sourceIndex": 19922
   },
   {
@@ -6406,6 +7910,10 @@ const phrasesCity = [
     "wordIds": [
       "30207"
     ],
+    "cloze": {
+      "de": "multikulturelle",
+      "en": "multicultural"
+    },
     "sourceIndex": 20207
   },
   {
@@ -6423,6 +7931,10 @@ const phrasesCity = [
     "wordIds": [
       "30275"
     ],
+    "cloze": {
+      "de": "Strassenbeleuchtung",
+      "en": "street"
+    },
     "sourceIndex": 20275
   }
 ];

@@ -14,6 +14,10 @@ const phrasesFood = [
     "wordIds": [
       "10008"
     ],
+    "cloze": {
+      "de": "dann",
+      "en": "then"
+    },
     "sourceIndex": 8
   },
   {
@@ -31,6 +35,10 @@ const phrasesFood = [
     "wordIds": [
       "10054"
     ],
+    "cloze": {
+      "de": "dazu",
+      "en": "in"
+    },
     "sourceIndex": 54
   },
   {
@@ -48,6 +56,10 @@ const phrasesFood = [
     "wordIds": [
       "10111"
     ],
+    "cloze": {
+      "de": "gern",
+      "en": "I"
+    },
     "sourceIndex": 111
   },
   {
@@ -65,6 +77,10 @@ const phrasesFood = [
     "wordIds": [
       "10122"
     ],
+    "cloze": {
+      "de": "besonders",
+      "en": "especially"
+    },
     "sourceIndex": 122
   },
   {
@@ -82,6 +98,10 @@ const phrasesFood = [
     "wordIds": [
       "10124"
     ],
+    "cloze": {
+      "de": "nehme",
+      "en": "take"
+    },
     "sourceIndex": 124
   },
   {
@@ -99,6 +119,10 @@ const phrasesFood = [
     "wordIds": [
       "10129"
     ],
+    "cloze": {
+      "de": "Morgen",
+      "en": "morning"
+    },
     "sourceIndex": 129
   },
   {
@@ -116,6 +140,10 @@ const phrasesFood = [
     "wordIds": [
       "10173"
     ],
+    "cloze": {
+      "de": "überhaupt",
+      "en": "at"
+    },
     "sourceIndex": 173
   },
   {
@@ -133,6 +161,10 @@ const phrasesFood = [
     "wordIds": [
       "10175"
     ],
+    "cloze": {
+      "de": "essen",
+      "en": "eat"
+    },
     "sourceIndex": 175
   },
   {
@@ -150,6 +182,10 @@ const phrasesFood = [
     "wordIds": [
       "10181"
     ],
+    "cloze": {
+      "de": "Wasser",
+      "en": "water"
+    },
     "sourceIndex": 181
   },
   {
@@ -167,6 +203,10 @@ const phrasesFood = [
     "wordIds": [
       "10290"
     ],
+    "cloze": {
+      "de": "voll",
+      "en": "full"
+    },
     "sourceIndex": 290
   },
   {
@@ -184,6 +224,10 @@ const phrasesFood = [
     "wordIds": [
       "10296"
     ],
+    "cloze": {
+      "de": "rein",
+      "en": "pure"
+    },
     "sourceIndex": 296
   },
   {
@@ -201,6 +245,10 @@ const phrasesFood = [
     "wordIds": [
       "10475"
     ],
+    "cloze": {
+      "de": "Hälfte",
+      "en": "Half"
+    },
     "sourceIndex": 475
   },
   {
@@ -218,6 +266,10 @@ const phrasesFood = [
     "wordIds": [
       "10501"
     ],
+    "cloze": {
+      "de": "Zuerst",
+      "en": "First"
+    },
     "sourceIndex": 501
   },
   {
@@ -235,6 +287,10 @@ const phrasesFood = [
     "wordIds": [
       "10599"
     ],
+    "cloze": {
+      "de": "hart",
+      "en": "hard"
+    },
     "sourceIndex": 599
   },
   {
@@ -252,6 +308,10 @@ const phrasesFood = [
     "wordIds": [
       "10604"
     ],
+    "cloze": {
+      "de": "Rest",
+      "en": "rest"
+    },
     "sourceIndex": 604
   },
   {
@@ -269,6 +329,10 @@ const phrasesFood = [
     "wordIds": [
       "10609"
     ],
+    "cloze": {
+      "de": "drin",
+      "en": "inside"
+    },
     "sourceIndex": 609
   },
   {
@@ -286,6 +350,10 @@ const phrasesFood = [
     "wordIds": [
       "10648"
     ],
+    "cloze": {
+      "de": "erstmal",
+      "en": "first"
+    },
     "sourceIndex": 648
   },
   {
@@ -303,6 +371,10 @@ const phrasesFood = [
     "wordIds": [
       "10665"
     ],
+    "cloze": {
+      "de": "Kaffee",
+      "en": "coffee"
+    },
     "sourceIndex": 665
   },
   {
@@ -320,6 +392,10 @@ const phrasesFood = [
     "wordIds": [
       "10678"
     ],
+    "cloze": {
+      "de": "anschliessend",
+      "en": "subsequently"
+    },
     "sourceIndex": 678
   },
   {
@@ -337,6 +413,10 @@ const phrasesFood = [
     "wordIds": [
       "10693"
     ],
+    "cloze": {
+      "de": "Bier",
+      "en": "beer"
+    },
     "sourceIndex": 693
   },
   {
@@ -354,6 +434,10 @@ const phrasesFood = [
     "wordIds": [
       "10700"
     ],
+    "cloze": {
+      "de": "Gericht",
+      "en": "dish"
+    },
     "sourceIndex": 700
   },
   {
@@ -371,6 +455,10 @@ const phrasesFood = [
     "wordIds": [
       "10721"
     ],
+    "cloze": {
+      "de": "schweizer",
+      "en": "Swiss"
+    },
     "sourceIndex": 721
   },
   {
@@ -388,6 +476,10 @@ const phrasesFood = [
     "wordIds": [
       "10745"
     ],
+    "cloze": {
+      "de": "täglich",
+      "en": "daily"
+    },
     "sourceIndex": 745
   },
   {
@@ -405,6 +497,10 @@ const phrasesFood = [
     "wordIds": [
       "10803"
     ],
+    "cloze": {
+      "de": "enthält",
+      "en": "contains"
+    },
     "sourceIndex": 803
   },
   {
@@ -422,6 +518,10 @@ const phrasesFood = [
     "wordIds": [
       "10817"
     ],
+    "cloze": {
+      "de": "trinken",
+      "en": "drink"
+    },
     "sourceIndex": 817
   },
   {
@@ -439,6 +539,10 @@ const phrasesFood = [
     "wordIds": [
       "11035"
     ],
+    "cloze": {
+      "de": "Fleisch",
+      "en": "meat"
+    },
     "sourceIndex": 1035
   },
   {
@@ -456,6 +560,10 @@ const phrasesFood = [
     "wordIds": [
       "11048"
     ],
+    "cloze": {
+      "de": "Alkohol",
+      "en": "Alcohol"
+    },
     "sourceIndex": 1048
   },
   {
@@ -473,6 +581,10 @@ const phrasesFood = [
     "wordIds": [
       "11080"
     ],
+    "cloze": {
+      "de": "Meistens",
+      "en": "Mostly"
+    },
     "sourceIndex": 1080
   },
   {
@@ -490,6 +602,10 @@ const phrasesFood = [
     "wordIds": [
       "11090"
     ],
+    "cloze": {
+      "de": "Wein",
+      "en": "wine"
+    },
     "sourceIndex": 1090
   },
   {
@@ -507,6 +623,10 @@ const phrasesFood = [
     "wordIds": [
       "11135"
     ],
+    "cloze": {
+      "de": "Fischer",
+      "en": "fisherman"
+    },
     "sourceIndex": 1135
   },
   {
@@ -524,6 +644,10 @@ const phrasesFood = [
     "wordIds": [
       "11184"
     ],
+    "cloze": {
+      "de": "Gang",
+      "en": "course"
+    },
     "sourceIndex": 1184
   },
   {
@@ -541,6 +665,10 @@ const phrasesFood = [
     "wordIds": [
       "11188"
     ],
+    "cloze": {
+      "de": "Hamburger",
+      "en": "hamburger"
+    },
     "sourceIndex": 1188
   },
   {
@@ -558,6 +686,10 @@ const phrasesFood = [
     "wordIds": [
       "11200"
     ],
+    "cloze": {
+      "de": "übrig",
+      "en": "left"
+    },
     "sourceIndex": 1200
   },
   {
@@ -575,6 +707,10 @@ const phrasesFood = [
     "wordIds": [
       "11204"
     ],
+    "cloze": {
+      "de": "Eis",
+      "en": "ice"
+    },
     "sourceIndex": 1204
   },
   {
@@ -592,6 +728,10 @@ const phrasesFood = [
     "wordIds": [
       "11235"
     ],
+    "cloze": {
+      "de": "frisch",
+      "en": "freshly"
+    },
     "sourceIndex": 1235
   },
   {
@@ -609,6 +749,10 @@ const phrasesFood = [
     "wordIds": [
       "11321"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "Austrian"
+    },
     "sourceIndex": 1321
   },
   {
@@ -626,6 +770,10 @@ const phrasesFood = [
     "wordIds": [
       "11358"
     ],
+    "cloze": {
+      "de": "Ei",
+      "en": "egg"
+    },
     "sourceIndex": 1358
   },
   {
@@ -643,6 +791,10 @@ const phrasesFood = [
     "wordIds": [
       "11362"
     ],
+    "cloze": {
+      "de": "Geschmack",
+      "en": "taste"
+    },
     "sourceIndex": 1362
   },
   {
@@ -660,6 +812,10 @@ const phrasesFood = [
     "wordIds": [
       "11372"
     ],
+    "cloze": {
+      "de": "Restaurant",
+      "en": "restaurant"
+    },
     "sourceIndex": 1372
   },
   {
@@ -677,6 +833,10 @@ const phrasesFood = [
     "wordIds": [
       "11397"
     ],
+    "cloze": {
+      "de": "koche",
+      "en": "cook"
+    },
     "sourceIndex": 1397
   },
   {
@@ -694,6 +854,10 @@ const phrasesFood = [
     "wordIds": [
       "11401"
     ],
+    "cloze": {
+      "de": "Schnitt",
+      "en": "cut"
+    },
     "sourceIndex": 1401
   },
   {
@@ -711,6 +875,10 @@ const phrasesFood = [
     "wordIds": [
       "11427"
     ],
+    "cloze": {
+      "de": "Milch",
+      "en": "milk"
+    },
     "sourceIndex": 1427
   },
   {
@@ -728,6 +896,10 @@ const phrasesFood = [
     "wordIds": [
       "11447"
     ],
+    "cloze": {
+      "de": "Brot",
+      "en": "bread"
+    },
     "sourceIndex": 1447
   },
   {
@@ -745,6 +917,10 @@ const phrasesFood = [
     "wordIds": [
       "11452"
     ],
+    "cloze": {
+      "de": "Frühstück",
+      "en": "Breakfast"
+    },
     "sourceIndex": 1452
   },
   {
@@ -762,6 +938,10 @@ const phrasesFood = [
     "wordIds": [
       "11495"
     ],
+    "cloze": {
+      "de": "Messer",
+      "en": "knife"
+    },
     "sourceIndex": 1495
   },
   {
@@ -779,6 +959,10 @@ const phrasesFood = [
     "wordIds": [
       "11534"
     ],
+    "cloze": {
+      "de": "Kuchen",
+      "en": "cake"
+    },
     "sourceIndex": 1534
   },
   {
@@ -796,6 +980,10 @@ const phrasesFood = [
     "wordIds": [
       "11565"
     ],
+    "cloze": {
+      "de": "schmeckt",
+      "en": "tastes"
+    },
     "sourceIndex": 1565
   },
   {
@@ -813,6 +1001,10 @@ const phrasesFood = [
     "wordIds": [
       "11577"
     ],
+    "cloze": {
+      "de": "beste",
+      "en": "best"
+    },
     "sourceIndex": 1577
   },
   {
@@ -830,6 +1022,10 @@ const phrasesFood = [
     "wordIds": [
       "11592"
     ],
+    "cloze": {
+      "de": "Hunger",
+      "en": "hungry"
+    },
     "sourceIndex": 1592
   },
   {
@@ -847,6 +1043,10 @@ const phrasesFood = [
     "wordIds": [
       "11631"
     ],
+    "cloze": {
+      "de": "Koch",
+      "en": "cook"
+    },
     "sourceIndex": 1631
   },
   {
@@ -864,6 +1064,10 @@ const phrasesFood = [
     "wordIds": [
       "11642"
     ],
+    "cloze": {
+      "de": "Tee",
+      "en": "tea"
+    },
     "sourceIndex": 1642
   },
   {
@@ -881,6 +1085,10 @@ const phrasesFood = [
     "wordIds": [
       "11653"
     ],
+    "cloze": {
+      "de": "Öl",
+      "en": "oil"
+    },
     "sourceIndex": 1653
   },
   {
@@ -898,6 +1106,10 @@ const phrasesFood = [
     "wordIds": [
       "11710"
     ],
+    "cloze": {
+      "de": "fett",
+      "en": "fat"
+    },
     "sourceIndex": 1710
   },
   {
@@ -915,6 +1127,10 @@ const phrasesFood = [
     "wordIds": [
       "11732"
     ],
+    "cloze": {
+      "de": "scharf",
+      "en": "sharp"
+    },
     "sourceIndex": 1732
   },
   {
@@ -932,6 +1148,10 @@ const phrasesFood = [
     "wordIds": [
       "11744"
     ],
+    "cloze": {
+      "de": "Zucker",
+      "en": "sugar"
+    },
     "sourceIndex": 1744
   },
   {
@@ -949,6 +1169,10 @@ const phrasesFood = [
     "wordIds": [
       "11795"
     ],
+    "cloze": {
+      "de": "Mischung",
+      "en": "mixture"
+    },
     "sourceIndex": 1795
   },
   {
@@ -966,6 +1190,10 @@ const phrasesFood = [
     "wordIds": [
       "11918"
     ],
+    "cloze": {
+      "de": "Cup",
+      "en": "cup"
+    },
     "sourceIndex": 1918
   },
   {
@@ -983,6 +1211,10 @@ const phrasesFood = [
     "wordIds": [
       "11934"
     ],
+    "cloze": {
+      "de": "Kohle",
+      "en": "Coal"
+    },
     "sourceIndex": 1934
   },
   {
@@ -1000,6 +1232,10 @@ const phrasesFood = [
     "wordIds": [
       "11976"
     ],
+    "cloze": {
+      "de": "Rezept",
+      "en": "recipe"
+    },
     "sourceIndex": 1976
   },
   {
@@ -1017,6 +1253,10 @@ const phrasesFood = [
     "wordIds": [
       "12040"
     ],
+    "cloze": {
+      "de": "Fisch",
+      "en": "fish"
+    },
     "sourceIndex": 2040
   },
   {
@@ -1034,6 +1274,10 @@ const phrasesFood = [
     "wordIds": [
       "12083"
     ],
+    "cloze": {
+      "de": "Gemüse",
+      "en": "fresh"
+    },
     "sourceIndex": 2083
   },
   {
@@ -1051,6 +1295,10 @@ const phrasesFood = [
     "wordIds": [
       "12092"
     ],
+    "cloze": {
+      "de": "Käse",
+      "en": "cheese"
+    },
     "sourceIndex": 2092
   },
   {
@@ -1068,6 +1316,10 @@ const phrasesFood = [
     "wordIds": [
       "12099"
     ],
+    "cloze": {
+      "de": "Salz",
+      "en": "salt"
+    },
     "sourceIndex": 2099
   },
   {
@@ -1085,6 +1337,10 @@ const phrasesFood = [
     "wordIds": [
       "12100"
     ],
+    "cloze": {
+      "de": "sauer",
+      "en": "sour"
+    },
     "sourceIndex": 2100
   },
   {
@@ -1102,6 +1358,10 @@ const phrasesFood = [
     "wordIds": [
       "12127"
     ],
+    "cloze": {
+      "de": "lecker",
+      "en": "delicious"
+    },
     "sourceIndex": 2127
   },
   {
@@ -1119,6 +1379,10 @@ const phrasesFood = [
     "wordIds": [
       "12243"
     ],
+    "cloze": {
+      "de": "griechischen",
+      "en": "Greek"
+    },
     "sourceIndex": 2243
   },
   {
@@ -1136,6 +1400,10 @@ const phrasesFood = [
     "wordIds": [
       "12393"
     ],
+    "cloze": {
+      "de": "besorgen",
+      "en": "get"
+    },
     "sourceIndex": 2393
   },
   {
@@ -1153,6 +1421,10 @@ const phrasesFood = [
     "wordIds": [
       "12458"
     ],
+    "cloze": {
+      "de": "Ressource",
+      "en": "resource"
+    },
     "sourceIndex": 2458
   },
   {
@@ -1170,6 +1442,10 @@ const phrasesFood = [
     "wordIds": [
       "12480"
     ],
+    "cloze": {
+      "de": "Betreiber",
+      "en": "operator"
+    },
     "sourceIndex": 2480
   },
   {
@@ -1187,6 +1463,10 @@ const phrasesFood = [
     "wordIds": [
       "12482"
     ],
+    "cloze": {
+      "de": "Café",
+      "en": "cafe"
+    },
     "sourceIndex": 2482
   },
   {
@@ -1204,6 +1484,10 @@ const phrasesFood = [
     "wordIds": [
       "12498"
     ],
+    "cloze": {
+      "de": "Nahrung",
+      "en": "food"
+    },
     "sourceIndex": 2498
   },
   {
@@ -1221,6 +1505,10 @@ const phrasesFood = [
     "wordIds": [
       "12500"
     ],
+    "cloze": {
+      "de": "Obst",
+      "en": "fruit"
+    },
     "sourceIndex": 2500
   },
   {
@@ -1238,6 +1526,10 @@ const phrasesFood = [
     "wordIds": [
       "12597"
     ],
+    "cloze": {
+      "de": "Kühlschrank",
+      "en": "refrigerator"
+    },
     "sourceIndex": 2597
   },
   {
@@ -1255,6 +1547,10 @@ const phrasesFood = [
     "wordIds": [
       "12615"
     ],
+    "cloze": {
+      "de": "örtliche",
+      "en": "local"
+    },
     "sourceIndex": 2615
   },
   {
@@ -1272,6 +1568,10 @@ const phrasesFood = [
     "wordIds": [
       "12652"
     ],
+    "cloze": {
+      "de": "niedrig",
+      "en": "low"
+    },
     "sourceIndex": 2652
   },
   {
@@ -1289,6 +1589,10 @@ const phrasesFood = [
     "wordIds": [
       "12656"
     ],
+    "cloze": {
+      "de": "Schokolade",
+      "en": "chocolate"
+    },
     "sourceIndex": 2656
   },
   {
@@ -1306,6 +1610,10 @@ const phrasesFood = [
     "wordIds": [
       "12729"
     ],
+    "cloze": {
+      "de": "Butter",
+      "en": "butter"
+    },
     "sourceIndex": 2729
   },
   {
@@ -1323,6 +1631,10 @@ const phrasesFood = [
     "wordIds": [
       "12833"
     ],
+    "cloze": {
+      "de": "Frucht",
+      "en": "fruit"
+    },
     "sourceIndex": 2833
   },
   {
@@ -1340,6 +1652,10 @@ const phrasesFood = [
     "wordIds": [
       "12838"
     ],
+    "cloze": {
+      "de": "giessen",
+      "en": "water"
+    },
     "sourceIndex": 2838
   },
   {
@@ -1357,6 +1673,10 @@ const phrasesFood = [
     "wordIds": [
       "12859"
     ],
+    "cloze": {
+      "de": "Scheibe",
+      "en": "slice"
+    },
     "sourceIndex": 2859
   },
   {
@@ -1374,6 +1694,10 @@ const phrasesFood = [
     "wordIds": [
       "12894"
     ],
+    "cloze": {
+      "de": "orange",
+      "en": "orange"
+    },
     "sourceIndex": 2894
   },
   {
@@ -1391,6 +1715,10 @@ const phrasesFood = [
     "wordIds": [
       "12923"
     ],
+    "cloze": {
+      "de": "bevorzuge",
+      "en": "prefer"
+    },
     "sourceIndex": 2923
   },
   {
@@ -1408,6 +1736,10 @@ const phrasesFood = [
     "wordIds": [
       "12926"
     ],
+    "cloze": {
+      "de": "Dutzend",
+      "en": "dozen"
+    },
     "sourceIndex": 2926
   },
   {
@@ -1425,6 +1757,10 @@ const phrasesFood = [
     "wordIds": [
       "12933"
     ],
+    "cloze": {
+      "de": "fließt",
+      "en": "flows"
+    },
     "sourceIndex": 2933
   },
   {
@@ -1442,6 +1778,10 @@ const phrasesFood = [
     "wordIds": [
       "12935"
     ],
+    "cloze": {
+      "de": "Geruch",
+      "en": "smell"
+    },
     "sourceIndex": 2935
   },
   {
@@ -1459,6 +1799,10 @@ const phrasesFood = [
     "wordIds": [
       "12945"
     ],
+    "cloze": {
+      "de": "Mittagessen",
+      "en": "lunch"
+    },
     "sourceIndex": 2945
   },
   {
@@ -1476,6 +1820,10 @@ const phrasesFood = [
     "wordIds": [
       "12957"
     ],
+    "cloze": {
+      "de": "Reis",
+      "en": "rice"
+    },
     "sourceIndex": 2957
   },
   {
@@ -1493,6 +1841,10 @@ const phrasesFood = [
     "wordIds": [
       "13013"
     ],
+    "cloze": {
+      "de": "riechen",
+      "en": "smell"
+    },
     "sourceIndex": 3013
   },
   {
@@ -1510,6 +1862,10 @@ const phrasesFood = [
     "wordIds": [
       "13049"
     ],
+    "cloze": {
+      "de": "Gramm",
+      "en": "grams"
+    },
     "sourceIndex": 3049
   },
   {
@@ -1527,6 +1883,10 @@ const phrasesFood = [
     "wordIds": [
       "13054"
     ],
+    "cloze": {
+      "de": "Kartoffeln",
+      "en": "to"
+    },
     "sourceIndex": 3054
   },
   {
@@ -1544,6 +1904,10 @@ const phrasesFood = [
     "wordIds": [
       "13066"
     ],
+    "cloze": {
+      "de": "Ofen",
+      "en": "oven"
+    },
     "sourceIndex": 3066
   },
   {
@@ -1561,6 +1925,10 @@ const phrasesFood = [
     "wordIds": [
       "13192"
     ],
+    "cloze": {
+      "de": "Salat",
+      "en": "salad"
+    },
     "sourceIndex": 3192
   },
   {
@@ -1578,6 +1946,10 @@ const phrasesFood = [
     "wordIds": [
       "13209"
     ],
+    "cloze": {
+      "de": "Wurst",
+      "en": "sausage"
+    },
     "sourceIndex": 3209
   },
   {
@@ -1595,6 +1967,10 @@ const phrasesFood = [
     "wordIds": [
       "13240"
     ],
+    "cloze": {
+      "de": "Getränk",
+      "en": "drink"
+    },
     "sourceIndex": 3240
   },
   {
@@ -1612,6 +1988,10 @@ const phrasesFood = [
     "wordIds": [
       "13264"
     ],
+    "cloze": {
+      "de": "Teller",
+      "en": "plate"
+    },
     "sourceIndex": 3264
   },
   {
@@ -1629,6 +2009,10 @@ const phrasesFood = [
     "wordIds": [
       "13291"
     ],
+    "cloze": {
+      "de": "Kaufmann",
+      "en": "merchant"
+    },
     "sourceIndex": 3291
   },
   {
@@ -1646,6 +2030,10 @@ const phrasesFood = [
     "wordIds": [
       "13388"
     ],
+    "cloze": {
+      "de": "Affe",
+      "en": "monkey"
+    },
     "sourceIndex": 3388
   },
   {
@@ -1663,6 +2051,10 @@ const phrasesFood = [
     "wordIds": [
       "13394"
     ],
+    "cloze": {
+      "de": "backen",
+      "en": "bake"
+    },
     "sourceIndex": 3394
   },
   {
@@ -1680,6 +2072,10 @@ const phrasesFood = [
     "wordIds": [
       "13400"
     ],
+    "cloze": {
+      "de": "bitter",
+      "en": "bitter"
+    },
     "sourceIndex": 3400
   },
   {
@@ -1697,6 +2093,10 @@ const phrasesFood = [
     "wordIds": [
       "13441"
     ],
+    "cloze": {
+      "de": "stuttgarter",
+      "en": "Stuttgart"
+    },
     "sourceIndex": 3441
   },
   {
@@ -1714,6 +2114,10 @@ const phrasesFood = [
     "wordIds": [
       "13443"
     ],
+    "cloze": {
+      "de": "Tasse",
+      "en": "cup"
+    },
     "sourceIndex": 3443
   },
   {
@@ -1731,6 +2135,10 @@ const phrasesFood = [
     "wordIds": [
       "13444"
     ],
+    "cloze": {
+      "de": "Topf",
+      "en": "pot"
+    },
     "sourceIndex": 3444
   },
   {
@@ -1748,6 +2156,10 @@ const phrasesFood = [
     "wordIds": [
       "13478"
     ],
+    "cloze": {
+      "de": "Honig",
+      "en": "honey"
+    },
     "sourceIndex": 3478
   },
   {
@@ -1765,6 +2177,10 @@ const phrasesFood = [
     "wordIds": [
       "13509"
     ],
+    "cloze": {
+      "de": "zwischendurch",
+      "en": "in"
+    },
     "sourceIndex": 3509
   },
   {
@@ -1782,6 +2198,10 @@ const phrasesFood = [
     "wordIds": [
       "13573"
     ],
+    "cloze": {
+      "de": "Apfel",
+      "en": "apple"
+    },
     "sourceIndex": 3573
   },
   {
@@ -1799,6 +2219,10 @@ const phrasesFood = [
     "wordIds": [
       "13676"
     ],
+    "cloze": {
+      "de": "Apfelsaft",
+      "en": "juice"
+    },
     "sourceIndex": 3676
   },
   {
@@ -1816,6 +2240,10 @@ const phrasesFood = [
     "wordIds": [
       "13698"
     ],
+    "cloze": {
+      "de": "Brötchen",
+      "en": "roll"
+    },
     "sourceIndex": 3698
   },
   {
@@ -1833,6 +2261,10 @@ const phrasesFood = [
     "wordIds": [
       "13777"
     ],
+    "cloze": {
+      "de": "Food",
+      "en": "food"
+    },
     "sourceIndex": 3777
   },
   {
@@ -1850,6 +2282,10 @@ const phrasesFood = [
     "wordIds": [
       "13832"
     ],
+    "cloze": {
+      "de": "Futter",
+      "en": "feed"
+    },
     "sourceIndex": 3832
   },
   {
@@ -1867,6 +2303,10 @@ const phrasesFood = [
     "wordIds": [
       "13844"
     ],
+    "cloze": {
+      "de": "Kohl",
+      "en": "cabbage"
+    },
     "sourceIndex": 3844
   },
   {
@@ -1884,6 +2324,10 @@ const phrasesFood = [
     "wordIds": [
       "13860"
     ],
+    "cloze": {
+      "de": "salzburger",
+      "en": "Salzburg"
+    },
     "sourceIndex": 3860
   },
   {
@@ -1901,6 +2345,10 @@ const phrasesFood = [
     "wordIds": [
       "13867"
     ],
+    "cloze": {
+      "de": "Suppe",
+      "en": "soup"
+    },
     "sourceIndex": 3867
   },
   {
@@ -1918,6 +2366,10 @@ const phrasesFood = [
     "wordIds": [
       "14142"
     ],
+    "cloze": {
+      "de": "Tomate",
+      "en": "tomato"
+    },
     "sourceIndex": 4142
   },
   {
@@ -1935,6 +2387,10 @@ const phrasesFood = [
     "wordIds": [
       "14178"
     ],
+    "cloze": {
+      "de": "ernähren",
+      "en": "feed"
+    },
     "sourceIndex": 4178
   },
   {
@@ -1952,6 +2408,10 @@ const phrasesFood = [
     "wordIds": [
       "14204"
     ],
+    "cloze": {
+      "de": "Nudeln",
+      "en": "noodles"
+    },
     "sourceIndex": 4204
   },
   {
@@ -1969,6 +2429,10 @@ const phrasesFood = [
     "wordIds": [
       "14209"
     ],
+    "cloze": {
+      "de": "reif",
+      "en": "ripe"
+    },
     "sourceIndex": 4209
   },
   {
@@ -1986,6 +2450,10 @@ const phrasesFood = [
     "wordIds": [
       "14212"
     ],
+    "cloze": {
+      "de": "Stärkung",
+      "en": "refreshment"
+    },
     "sourceIndex": 4212
   },
   {
@@ -2003,6 +2471,10 @@ const phrasesFood = [
     "wordIds": [
       "14214"
     ],
+    "cloze": {
+      "de": "vegane",
+      "en": "vegan"
+    },
     "sourceIndex": 4214
   },
   {
@@ -2020,6 +2492,10 @@ const phrasesFood = [
     "wordIds": [
       "14229"
     ],
+    "cloze": {
+      "de": "Becher",
+      "en": "mug"
+    },
     "sourceIndex": 4229
   },
   {
@@ -2037,6 +2513,10 @@ const phrasesFood = [
     "wordIds": [
       "14245"
     ],
+    "cloze": {
+      "de": "Grill",
+      "en": "grill"
+    },
     "sourceIndex": 4245
   },
   {
@@ -2054,6 +2534,10 @@ const phrasesFood = [
     "wordIds": [
       "14272"
     ],
+    "cloze": {
+      "de": "süß",
+      "en": "sweet"
+    },
     "sourceIndex": 4272
   },
   {
@@ -2071,6 +2555,10 @@ const phrasesFood = [
     "wordIds": [
       "14301"
     ],
+    "cloze": {
+      "de": "Bäcker",
+      "en": "baker"
+    },
     "sourceIndex": 4301
   },
   {
@@ -2088,6 +2576,10 @@ const phrasesFood = [
     "wordIds": [
       "14328"
     ],
+    "cloze": {
+      "de": "Mahlzeit",
+      "en": "meal"
+    },
     "sourceIndex": 4328
   },
   {
@@ -2105,6 +2597,10 @@ const phrasesFood = [
     "wordIds": [
       "14420"
     ],
+    "cloze": {
+      "de": "Schale",
+      "en": "peel"
+    },
     "sourceIndex": 4420
   },
   {
@@ -2122,6 +2618,10 @@ const phrasesFood = [
     "wordIds": [
       "14425"
     ],
+    "cloze": {
+      "de": "spiegelt",
+      "en": "reflects"
+    },
     "sourceIndex": 4425
   },
   {
@@ -2139,6 +2639,10 @@ const phrasesFood = [
     "wordIds": [
       "14430"
     ],
+    "cloze": {
+      "de": "Terrasse",
+      "en": "terrace"
+    },
     "sourceIndex": 4430
   },
   {
@@ -2156,6 +2660,10 @@ const phrasesFood = [
     "wordIds": [
       "14584"
     ],
+    "cloze": {
+      "de": "asiatisches",
+      "en": "Asian"
+    },
     "sourceIndex": 4584
   },
   {
@@ -2173,6 +2681,10 @@ const phrasesFood = [
     "wordIds": [
       "14622"
     ],
+    "cloze": {
+      "de": "Portion",
+      "en": "portion"
+    },
     "sourceIndex": 4622
   },
   {
@@ -2190,6 +2702,10 @@ const phrasesFood = [
     "wordIds": [
       "14698"
     ],
+    "cloze": {
+      "de": "Sahne",
+      "en": "cream"
+    },
     "sourceIndex": 4698
   },
   {
@@ -2207,6 +2723,10 @@ const phrasesFood = [
     "wordIds": [
       "14702"
     ],
+    "cloze": {
+      "de": "servieren",
+      "en": "serve"
+    },
     "sourceIndex": 4702
   },
   {
@@ -2224,6 +2744,10 @@ const phrasesFood = [
     "wordIds": [
       "14708"
     ],
+    "cloze": {
+      "de": "Süssigkeiten",
+      "en": "sweets"
+    },
     "sourceIndex": 4708
   },
   {
@@ -2241,6 +2765,10 @@ const phrasesFood = [
     "wordIds": [
       "14715"
     ],
+    "cloze": {
+      "de": "Vitamine",
+      "en": "vitamins"
+    },
     "sourceIndex": 4715
   },
   {
@@ -2258,6 +2786,10 @@ const phrasesFood = [
     "wordIds": [
       "14735"
     ],
+    "cloze": {
+      "de": "Bohnen",
+      "en": "beans"
+    },
     "sourceIndex": 4735
   },
   {
@@ -2275,6 +2807,10 @@ const phrasesFood = [
     "wordIds": [
       "14757"
     ],
+    "cloze": {
+      "de": "grillen",
+      "en": "barbecue"
+    },
     "sourceIndex": 4757
   },
   {
@@ -2292,6 +2828,10 @@ const phrasesFood = [
     "wordIds": [
       "14855"
     ],
+    "cloze": {
+      "de": "Korn",
+      "en": "grain"
+    },
     "sourceIndex": 4855
   },
   {
@@ -2309,6 +2849,10 @@ const phrasesFood = [
     "wordIds": [
       "14926"
     ],
+    "cloze": {
+      "de": "Getreide",
+      "en": "grain"
+    },
     "sourceIndex": 4926
   },
   {
@@ -2326,6 +2870,10 @@ const phrasesFood = [
     "wordIds": [
       "14930"
     ],
+    "cloze": {
+      "de": "Kellner",
+      "en": "waiter"
+    },
     "sourceIndex": 4930
   },
   {
@@ -2343,6 +2891,10 @@ const phrasesFood = [
     "wordIds": [
       "14968"
     ],
+    "cloze": {
+      "de": "verdorben",
+      "en": "spoiled"
+    },
     "sourceIndex": 4968
   },
   {
@@ -2360,6 +2912,10 @@ const phrasesFood = [
     "wordIds": [
       "15016"
     ],
+    "cloze": {
+      "de": "Kneipe",
+      "en": "pub"
+    },
     "sourceIndex": 5016
   },
   {
@@ -2377,6 +2933,10 @@ const phrasesFood = [
     "wordIds": [
       "15026"
     ],
+    "cloze": {
+      "de": "Mehl",
+      "en": "flour"
+    },
     "sourceIndex": 5026
   },
   {
@@ -2394,6 +2954,10 @@ const phrasesFood = [
     "wordIds": [
       "15041"
     ],
+    "cloze": {
+      "de": "schlucken",
+      "en": "swallow"
+    },
     "sourceIndex": 5041
   },
   {
@@ -2411,6 +2975,10 @@ const phrasesFood = [
     "wordIds": [
       "15080"
     ],
+    "cloze": {
+      "de": "Dinner",
+      "en": "dinner"
+    },
     "sourceIndex": 5080
   },
   {
@@ -2428,6 +2996,10 @@ const phrasesFood = [
     "wordIds": [
       "15132"
     ],
+    "cloze": {
+      "de": "Trinkwasser",
+      "en": "Drinking"
+    },
     "sourceIndex": 5132
   },
   {
@@ -2445,6 +3017,10 @@ const phrasesFood = [
     "wordIds": [
       "15146"
     ],
+    "cloze": {
+      "de": "Zwiebel",
+      "en": "onion"
+    },
     "sourceIndex": 5146
   },
   {
@@ -2462,6 +3038,10 @@ const phrasesFood = [
     "wordIds": [
       "15163"
     ],
+    "cloze": {
+      "de": "ausgezeichnet",
+      "en": "excellent"
+    },
     "sourceIndex": 5163
   },
   {
@@ -2479,6 +3059,10 @@ const phrasesFood = [
     "wordIds": [
       "15170"
     ],
+    "cloze": {
+      "de": "Dampf",
+      "en": "Steam"
+    },
     "sourceIndex": 5170
   },
   {
@@ -2496,6 +3080,10 @@ const phrasesFood = [
     "wordIds": [
       "15191"
     ],
+    "cloze": {
+      "de": "Huhn",
+      "en": "chicken"
+    },
     "sourceIndex": 5191
   },
   {
@@ -2513,6 +3101,10 @@ const phrasesFood = [
     "wordIds": [
       "15212"
     ],
+    "cloze": {
+      "de": "Pfeffer",
+      "en": "pepper"
+    },
     "sourceIndex": 5212
   },
   {
@@ -2530,6 +3122,10 @@ const phrasesFood = [
     "wordIds": [
       "15223"
     ],
+    "cloze": {
+      "de": "Schüssel",
+      "en": "bowl"
+    },
     "sourceIndex": 5223
   },
   {
@@ -2547,6 +3143,10 @@ const phrasesFood = [
     "wordIds": [
       "15293"
     ],
+    "cloze": {
+      "de": "Löffel",
+      "en": "spoon"
+    },
     "sourceIndex": 5293
   },
   {
@@ -2564,6 +3164,10 @@ const phrasesFood = [
     "wordIds": [
       "15295"
     ],
+    "cloze": {
+      "de": "munter",
+      "en": "awake"
+    },
     "sourceIndex": 5295
   },
   {
@@ -2581,6 +3185,10 @@ const phrasesFood = [
     "wordIds": [
       "15309"
     ],
+    "cloze": {
+      "de": "Schnaps",
+      "en": "schnapps"
+    },
     "sourceIndex": 5309
   },
   {
@@ -2598,6 +3206,10 @@ const phrasesFood = [
     "wordIds": [
       "15344"
     ],
+    "cloze": {
+      "de": "Bäckerei",
+      "en": "bakery"
+    },
     "sourceIndex": 5344
   },
   {
@@ -2615,6 +3227,10 @@ const phrasesFood = [
     "wordIds": [
       "15368"
     ],
+    "cloze": {
+      "de": "hacken",
+      "en": "chop"
+    },
     "sourceIndex": 5368
   },
   {
@@ -2632,6 +3248,10 @@ const phrasesFood = [
     "wordIds": [
       "15374"
     ],
+    "cloze": {
+      "de": "Kalorien",
+      "en": "calories"
+    },
     "sourceIndex": 5374
   },
   {
@@ -2649,6 +3269,10 @@ const phrasesFood = [
     "wordIds": [
       "15376"
     ],
+    "cloze": {
+      "de": "Keks",
+      "en": "cookie"
+    },
     "sourceIndex": 5376
   },
   {
@@ -2666,6 +3290,10 @@ const phrasesFood = [
     "wordIds": [
       "15394"
     ],
+    "cloze": {
+      "de": "Pfanne",
+      "en": "pan"
+    },
     "sourceIndex": 5394
   },
   {
@@ -2683,6 +3311,10 @@ const phrasesFood = [
     "wordIds": [
       "15550"
     ],
+    "cloze": {
+      "de": "hungrig",
+      "en": "hungry"
+    },
     "sourceIndex": 5550
   },
   {
@@ -2700,6 +3332,10 @@ const phrasesFood = [
     "wordIds": [
       "15554"
     ],
+    "cloze": {
+      "de": "Kessel",
+      "en": "kettle"
+    },
     "sourceIndex": 5554
   },
   {
@@ -2717,6 +3353,10 @@ const phrasesFood = [
     "wordIds": [
       "15645"
     ],
+    "cloze": {
+      "de": "knacken",
+      "en": "crack"
+    },
     "sourceIndex": 5645
   },
   {
@@ -2734,6 +3374,10 @@ const phrasesFood = [
     "wordIds": [
       "15646"
     ],
+    "cloze": {
+      "de": "Knoblauch",
+      "en": "garlic"
+    },
     "sourceIndex": 5646
   },
   {
@@ -2751,6 +3395,10 @@ const phrasesFood = [
     "wordIds": [
       "15661"
     ],
+    "cloze": {
+      "de": "Schluck",
+      "en": "sip"
+    },
     "sourceIndex": 5661
   },
   {
@@ -2768,6 +3416,10 @@ const phrasesFood = [
     "wordIds": [
       "15681"
     ],
+    "cloze": {
+      "de": "Weizen",
+      "en": "wheat"
+    },
     "sourceIndex": 5681
   },
   {
@@ -2785,6 +3437,10 @@ const phrasesFood = [
     "wordIds": [
       "15693"
     ],
+    "cloze": {
+      "de": "auswärts",
+      "en": "out"
+    },
     "sourceIndex": 5693
   },
   {
@@ -2802,6 +3458,10 @@ const phrasesFood = [
     "wordIds": [
       "15708"
     ],
+    "cloze": {
+      "de": "Durst",
+      "en": "I"
+    },
     "sourceIndex": 5708
   },
   {
@@ -2819,6 +3479,10 @@ const phrasesFood = [
     "wordIds": [
       "15715"
     ],
+    "cloze": {
+      "de": "füttern",
+      "en": "feed"
+    },
     "sourceIndex": 5715
   },
   {
@@ -2836,6 +3500,10 @@ const phrasesFood = [
     "wordIds": [
       "15853"
     ],
+    "cloze": {
+      "de": "Tomatensoße",
+      "en": "sauce"
+    },
     "sourceIndex": 5853
   },
   {
@@ -2853,6 +3521,10 @@ const phrasesFood = [
     "wordIds": [
       "15864"
     ],
+    "cloze": {
+      "de": "tschechisches",
+      "en": "Czech"
+    },
     "sourceIndex": 5864
   },
   {
@@ -2870,6 +3542,10 @@ const phrasesFood = [
     "wordIds": [
       "15867"
     ],
+    "cloze": {
+      "de": "Veganer",
+      "en": "vegan"
+    },
     "sourceIndex": 5867
   },
   {
@@ -2887,6 +3563,10 @@ const phrasesFood = [
     "wordIds": [
       "15878"
     ],
+    "cloze": {
+      "de": "Whisky",
+      "en": "whisky"
+    },
     "sourceIndex": 5878
   },
   {
@@ -2904,6 +3584,10 @@ const phrasesFood = [
     "wordIds": [
       "15900"
     ],
+    "cloze": {
+      "de": "Banane",
+      "en": "banana"
+    },
     "sourceIndex": 5900
   },
   {
@@ -2921,6 +3605,10 @@ const phrasesFood = [
     "wordIds": [
       "15945"
     ],
+    "cloze": {
+      "de": "Metzger",
+      "en": "butcher's"
+    },
     "sourceIndex": 5945
   },
   {
@@ -2938,6 +3626,10 @@ const phrasesFood = [
     "wordIds": [
       "16004"
     ],
+    "cloze": {
+      "de": "braten",
+      "en": "roast"
+    },
     "sourceIndex": 6004
   },
   {
@@ -2955,6 +3647,10 @@ const phrasesFood = [
     "wordIds": [
       "16035"
     ],
+    "cloze": {
+      "de": "Handvoll",
+      "en": "handful"
+    },
     "sourceIndex": 6035
   },
   {
@@ -2972,6 +3668,10 @@ const phrasesFood = [
     "wordIds": [
       "16057"
     ],
+    "cloze": {
+      "de": "Tomaten-Sauce",
+      "en": "sauce"
+    },
     "sourceIndex": 6057
   },
   {
@@ -2990,6 +3690,10 @@ const phrasesFood = [
       "16061",
       "16160"
     ],
+    "cloze": {
+      "de": "Senf",
+      "en": "mustard"
+    },
     "sourceIndex": 6061
   },
   {
@@ -3007,6 +3711,10 @@ const phrasesFood = [
     "wordIds": [
       "16068"
     ],
+    "cloze": {
+      "de": "Schokoladentorte",
+      "en": "cake"
+    },
     "sourceIndex": 6068
   },
   {
@@ -3024,6 +3732,10 @@ const phrasesFood = [
     "wordIds": [
       "16091"
     ],
+    "cloze": {
+      "de": "belgische",
+      "en": "Belgian"
+    },
     "sourceIndex": 6091
   },
   {
@@ -3041,6 +3753,10 @@ const phrasesFood = [
     "wordIds": [
       "16095"
     ],
+    "cloze": {
+      "de": "Creme",
+      "en": "cream"
+    },
     "sourceIndex": 6095
   },
   {
@@ -3058,6 +3774,10 @@ const phrasesFood = [
     "wordIds": [
       "16120"
     ],
+    "cloze": {
+      "de": "Mittagspause",
+      "en": "lunch"
+    },
     "sourceIndex": 6120
   },
   {
@@ -3075,6 +3795,10 @@ const phrasesFood = [
     "wordIds": [
       "16125"
     ],
+    "cloze": {
+      "de": "Nüsse",
+      "en": "nuts"
+    },
     "sourceIndex": 6125
   },
   {
@@ -3092,6 +3816,10 @@ const phrasesFood = [
     "wordIds": [
       "16140"
     ],
+    "cloze": {
+      "de": "Sekt",
+      "en": "sparkling"
+    },
     "sourceIndex": 6140
   },
   {
@@ -3109,6 +3837,10 @@ const phrasesFood = [
     "wordIds": [
       "16184"
     ],
+    "cloze": {
+      "de": "Beef",
+      "en": "beef"
+    },
     "sourceIndex": 6184
   },
   {
@@ -3126,6 +3858,10 @@ const phrasesFood = [
     "wordIds": [
       "16231"
     ],
+    "cloze": {
+      "de": "Kraut",
+      "en": "herb"
+    },
     "sourceIndex": 6231
   },
   {
@@ -3143,6 +3879,10 @@ const phrasesFood = [
     "wordIds": [
       "16290"
     ],
+    "cloze": {
+      "de": "auslassen",
+      "en": "skip"
+    },
     "sourceIndex": 6290
   },
   {
@@ -3160,6 +3900,10 @@ const phrasesFood = [
     "wordIds": [
       "16322"
     ],
+    "cloze": {
+      "de": "Joghurt",
+      "en": "yogurt"
+    },
     "sourceIndex": 6322
   },
   {
@@ -3177,6 +3921,10 @@ const phrasesFood = [
     "wordIds": [
       "16348"
     ],
+    "cloze": {
+      "de": "Schokoriegel",
+      "en": "chocolate"
+    },
     "sourceIndex": 6348
   },
   {
@@ -3194,6 +3942,10 @@ const phrasesFood = [
     "wordIds": [
       "16359"
     ],
+    "cloze": {
+      "de": "sweetes",
+      "en": "sweet"
+    },
     "sourceIndex": 6359
   },
   {
@@ -3211,6 +3963,10 @@ const phrasesFood = [
     "wordIds": [
       "16451"
     ],
+    "cloze": {
+      "de": "Teig",
+      "en": "dough"
+    },
     "sourceIndex": 6451
   },
   {
@@ -3228,6 +3984,10 @@ const phrasesFood = [
     "wordIds": [
       "16506"
     ],
+    "cloze": {
+      "de": "flüssige",
+      "en": "liquid"
+    },
     "sourceIndex": 6506
   },
   {
@@ -3245,6 +4005,10 @@ const phrasesFood = [
     "wordIds": [
       "16638"
     ],
+    "cloze": {
+      "de": "Krug",
+      "en": "jug"
+    },
     "sourceIndex": 6638
   },
   {
@@ -3262,6 +4026,10 @@ const phrasesFood = [
     "wordIds": [
       "16776"
     ],
+    "cloze": {
+      "de": "Steak",
+      "en": "steak"
+    },
     "sourceIndex": 6776
   },
   {
@@ -3279,6 +4047,10 @@ const phrasesFood = [
     "wordIds": [
       "16786"
     ],
+    "cloze": {
+      "de": "vermischen",
+      "en": "mix"
+    },
     "sourceIndex": 6786
   },
   {
@@ -3296,6 +4068,10 @@ const phrasesFood = [
     "wordIds": [
       "16816"
     ],
+    "cloze": {
+      "de": "Eiweiss",
+      "en": "Protein"
+    },
     "sourceIndex": 6816
   },
   {
@@ -3313,6 +4089,10 @@ const phrasesFood = [
     "wordIds": [
       "16827"
     ],
+    "cloze": {
+      "de": "Gabel",
+      "en": "fork"
+    },
     "sourceIndex": 6827
   },
   {
@@ -3330,6 +4110,10 @@ const phrasesFood = [
     "wordIds": [
       "16899"
     ],
+    "cloze": {
+      "de": "Cocktail",
+      "en": "cocktail"
+    },
     "sourceIndex": 6899
   },
   {
@@ -3347,6 +4131,10 @@ const phrasesFood = [
     "wordIds": [
       "16918"
     ],
+    "cloze": {
+      "de": "Gaststätte",
+      "en": "restaurant"
+    },
     "sourceIndex": 6918
   },
   {
@@ -3364,6 +4152,10 @@ const phrasesFood = [
     "wordIds": [
       "16934"
     ],
+    "cloze": {
+      "de": "Kalk",
+      "en": "a"
+    },
     "sourceIndex": 6934
   },
   {
@@ -3381,6 +4173,10 @@ const phrasesFood = [
     "wordIds": [
       "16957"
     ],
+    "cloze": {
+      "de": "Rotwein",
+      "en": "red"
+    },
     "sourceIndex": 6957
   },
   {
@@ -3398,6 +4194,10 @@ const phrasesFood = [
     "wordIds": [
       "16959"
     ],
+    "cloze": {
+      "de": "Röhre",
+      "en": "tube"
+    },
     "sourceIndex": 6959
   },
   {
@@ -3415,6 +4215,10 @@ const phrasesFood = [
     "wordIds": [
       "17005"
     ],
+    "cloze": {
+      "de": "Drink",
+      "en": "drink"
+    },
     "sourceIndex": 7005
   },
   {
@@ -3432,6 +4236,10 @@ const phrasesFood = [
     "wordIds": [
       "17038"
     ],
+    "cloze": {
+      "de": "Lamm",
+      "en": "lamb"
+    },
     "sourceIndex": 7038
   },
   {
@@ -3449,6 +4257,10 @@ const phrasesFood = [
     "wordIds": [
       "17090"
     ],
+    "cloze": {
+      "de": "Ambiente",
+      "en": "atmosphere"
+    },
     "sourceIndex": 7090
   },
   {
@@ -3466,6 +4278,10 @@ const phrasesFood = [
     "wordIds": [
       "17113"
     ],
+    "cloze": {
+      "de": "Erdbeeren",
+      "en": "strawberries"
+    },
     "sourceIndex": 7113
   },
   {
@@ -3483,6 +4299,10 @@ const phrasesFood = [
     "wordIds": [
       "17152"
     ],
+    "cloze": {
+      "de": "Paprika",
+      "en": "bell"
+    },
     "sourceIndex": 7152
   },
   {
@@ -3500,6 +4320,10 @@ const phrasesFood = [
     "wordIds": [
       "17155"
     ],
+    "cloze": {
+      "de": "Plätzchen",
+      "en": "cookies"
+    },
     "sourceIndex": 7155
   },
   {
@@ -3517,6 +4341,10 @@ const phrasesFood = [
     "wordIds": [
       "17178"
     ],
+    "cloze": {
+      "de": "Trinkgeld",
+      "en": "tip"
+    },
     "sourceIndex": 7178
   },
   {
@@ -3534,6 +4362,10 @@ const phrasesFood = [
     "wordIds": [
       "17225"
     ],
+    "cloze": {
+      "de": "Birne",
+      "en": "pear"
+    },
     "sourceIndex": 7225
   },
   {
@@ -3551,6 +4383,10 @@ const phrasesFood = [
     "wordIds": [
       "17279"
     ],
+    "cloze": {
+      "de": "Traube",
+      "en": "grape"
+    },
     "sourceIndex": 7279
   },
   {
@@ -3568,6 +4404,10 @@ const phrasesFood = [
     "wordIds": [
       "17319"
     ],
+    "cloze": {
+      "de": "Beilage",
+      "en": "side"
+    },
     "sourceIndex": 7319
   },
   {
@@ -3585,6 +4425,10 @@ const phrasesFood = [
     "wordIds": [
       "17368"
     ],
+    "cloze": {
+      "de": "Pfannkuchen",
+      "en": "pancakes"
+    },
     "sourceIndex": 7368
   },
   {
@@ -3602,6 +4446,10 @@ const phrasesFood = [
     "wordIds": [
       "17387"
     ],
+    "cloze": {
+      "de": "Spiess",
+      "en": "skewer"
+    },
     "sourceIndex": 7387
   },
   {
@@ -3619,6 +4467,10 @@ const phrasesFood = [
     "wordIds": [
       "17485"
     ],
+    "cloze": {
+      "de": "Mensa",
+      "en": "university"
+    },
     "sourceIndex": 7485
   },
   {
@@ -3636,6 +4488,10 @@ const phrasesFood = [
     "wordIds": [
       "17512"
     ],
+    "cloze": {
+      "de": "Spaghetti",
+      "en": "spaghetti"
+    },
     "sourceIndex": 7512
   },
   {
@@ -3653,6 +4509,10 @@ const phrasesFood = [
     "wordIds": [
       "17540"
     ],
+    "cloze": {
+      "de": "Wodka",
+      "en": "vodka"
+    },
     "sourceIndex": 7540
   },
   {
@@ -3670,6 +4530,10 @@ const phrasesFood = [
     "wordIds": [
       "17544"
     ],
+    "cloze": {
+      "de": "zubereiten",
+      "en": "prepare"
+    },
     "sourceIndex": 7544
   },
   {
@@ -3687,6 +4551,10 @@ const phrasesFood = [
     "wordIds": [
       "17589"
     ],
+    "cloze": {
+      "de": "hausgemachtes",
+      "en": "a"
+    },
     "sourceIndex": 7589
   },
   {
@@ -3704,6 +4572,10 @@ const phrasesFood = [
     "wordIds": [
       "17599"
     ],
+    "cloze": {
+      "de": "Gurken",
+      "en": "cucumbers"
+    },
     "sourceIndex": 7599
   },
   {
@@ -3721,6 +4593,10 @@ const phrasesFood = [
     "wordIds": [
       "17606"
     ],
+    "cloze": {
+      "de": "irischen",
+      "en": "Irish"
+    },
     "sourceIndex": 7606
   },
   {
@@ -3738,6 +4614,10 @@ const phrasesFood = [
     "wordIds": [
       "17616"
     ],
+    "cloze": {
+      "de": "Linse",
+      "en": "lens"
+    },
     "sourceIndex": 7616
   },
   {
@@ -3755,6 +4635,10 @@ const phrasesFood = [
     "wordIds": [
       "17619"
     ],
+    "cloze": {
+      "de": "Marmelade",
+      "en": "jam"
+    },
     "sourceIndex": 7619
   },
   {
@@ -3772,6 +4656,10 @@ const phrasesFood = [
     "wordIds": [
       "17636"
     ],
+    "cloze": {
+      "de": "Quark",
+      "en": "quark"
+    },
     "sourceIndex": 7636
   },
   {
@@ -3789,6 +4677,10 @@ const phrasesFood = [
     "wordIds": [
       "17651"
     ],
+    "cloze": {
+      "de": "Toast",
+      "en": "toast"
+    },
     "sourceIndex": 7651
   },
   {
@@ -3806,6 +4698,10 @@ const phrasesFood = [
     "wordIds": [
       "17669"
     ],
+    "cloze": {
+      "de": "Wels",
+      "en": "catfish"
+    },
     "sourceIndex": 7669
   },
   {
@@ -3823,6 +4719,10 @@ const phrasesFood = [
     "wordIds": [
       "17693"
     ],
+    "cloze": {
+      "de": "bayrische",
+      "en": "Bavarian"
+    },
     "sourceIndex": 7693
   },
   {
@@ -3840,6 +4740,10 @@ const phrasesFood = [
     "wordIds": [
       "17713"
     ],
+    "cloze": {
+      "de": "erfrischend",
+      "en": "refreshing"
+    },
     "sourceIndex": 7713
   },
   {
@@ -3857,6 +4761,10 @@ const phrasesFood = [
     "wordIds": [
       "17714"
     ],
+    "cloze": {
+      "de": "Essig",
+      "en": "vinegar"
+    },
     "sourceIndex": 7714
   },
   {
@@ -3874,6 +4782,10 @@ const phrasesFood = [
     "wordIds": [
       "17735"
     ],
+    "cloze": {
+      "de": "Instantkaffee",
+      "en": "instant"
+    },
     "sourceIndex": 7735
   },
   {
@@ -3891,6 +4803,10 @@ const phrasesFood = [
     "wordIds": [
       "17790"
     ],
+    "cloze": {
+      "de": "verzieren",
+      "en": "decorate"
+    },
     "sourceIndex": 7790
   },
   {
@@ -3908,6 +4824,10 @@ const phrasesFood = [
     "wordIds": [
       "17797"
     ],
+    "cloze": {
+      "de": "Zitrone",
+      "en": "lemon"
+    },
     "sourceIndex": 7797
   },
   {
@@ -3925,6 +4845,10 @@ const phrasesFood = [
     "wordIds": [
       "17801"
     ],
+    "cloze": {
+      "de": "Advent",
+      "en": "Advent"
+    },
     "sourceIndex": 7801
   },
   {
@@ -3942,6 +4866,10 @@ const phrasesFood = [
     "wordIds": [
       "17875"
     ],
+    "cloze": {
+      "de": "Schaum",
+      "en": "foam"
+    },
     "sourceIndex": 7875
   },
   {
@@ -3959,6 +4887,10 @@ const phrasesFood = [
     "wordIds": [
       "18002"
     ],
+    "cloze": {
+      "de": "Theke",
+      "en": "counter"
+    },
     "sourceIndex": 8002
   },
   {
@@ -3976,6 +4908,10 @@ const phrasesFood = [
     "wordIds": [
       "18032"
     ],
+    "cloze": {
+      "de": "badische",
+      "en": "Baden"
+    },
     "sourceIndex": 8032
   },
   {
@@ -3993,6 +4929,10 @@ const phrasesFood = [
     "wordIds": [
       "18041"
     ],
+    "cloze": {
+      "de": "Bratwurst",
+      "en": "bratwurst"
+    },
     "sourceIndex": 8041
   },
   {
@@ -4010,6 +4950,10 @@ const phrasesFood = [
     "wordIds": [
       "18067"
     ],
+    "cloze": {
+      "de": "importiert",
+      "en": "imports"
+    },
     "sourceIndex": 8067
   },
   {
@@ -4027,6 +4971,10 @@ const phrasesFood = [
     "wordIds": [
       "18083"
     ],
+    "cloze": {
+      "de": "mexikanisches",
+      "en": "Mexican"
+    },
     "sourceIndex": 8083
   },
   {
@@ -4044,6 +4992,10 @@ const phrasesFood = [
     "wordIds": [
       "18084"
     ],
+    "cloze": {
+      "de": "Mineralien",
+      "en": "minerals"
+    },
     "sourceIndex": 8084
   },
   {
@@ -4061,6 +5013,10 @@ const phrasesFood = [
     "wordIds": [
       "18189"
     ],
+    "cloze": {
+      "de": "Imbiss",
+      "en": "snack"
+    },
     "sourceIndex": 8189
   },
   {
@@ -4078,6 +5034,10 @@ const phrasesFood = [
     "wordIds": [
       "18212"
     ],
+    "cloze": {
+      "de": "Müsli",
+      "en": "muesli"
+    },
     "sourceIndex": 8212
   },
   {
@@ -4095,6 +5055,10 @@ const phrasesFood = [
     "wordIds": [
       "18298"
     ],
+    "cloze": {
+      "de": "Espresso",
+      "en": "espresso"
+    },
     "sourceIndex": 8298
   },
   {
@@ -4112,6 +5076,10 @@ const phrasesFood = [
     "wordIds": [
       "18342"
     ],
+    "cloze": {
+      "de": "Pasta",
+      "en": "pasta"
+    },
     "sourceIndex": 8342
   },
   {
@@ -4129,6 +5097,10 @@ const phrasesFood = [
     "wordIds": [
       "18349"
     ],
+    "cloze": {
+      "de": "Pub",
+      "en": "pub"
+    },
     "sourceIndex": 8349
   },
   {
@@ -4146,6 +5118,10 @@ const phrasesFood = [
     "wordIds": [
       "18356"
     ],
+    "cloze": {
+      "de": "rohes",
+      "en": "raw"
+    },
     "sourceIndex": 8356
   },
   {
@@ -4163,6 +5139,10 @@ const phrasesFood = [
     "wordIds": [
       "18358"
     ],
+    "cloze": {
+      "de": "Schachtel",
+      "en": "box"
+    },
     "sourceIndex": 8358
   },
   {
@@ -4180,6 +5160,10 @@ const phrasesFood = [
     "wordIds": [
       "18363"
     ],
+    "cloze": {
+      "de": "Schärfe",
+      "en": "sharpness"
+    },
     "sourceIndex": 8363
   },
   {
@@ -4197,6 +5181,10 @@ const phrasesFood = [
     "wordIds": [
       "18433"
     ],
+    "cloze": {
+      "de": "Heu",
+      "en": "hay"
+    },
     "sourceIndex": 8433
   },
   {
@@ -4214,6 +5202,10 @@ const phrasesFood = [
     "wordIds": [
       "18466"
     ],
+    "cloze": {
+      "de": "Sandwich",
+      "en": "sandwich"
+    },
     "sourceIndex": 8466
   },
   {
@@ -4231,6 +5223,10 @@ const phrasesFood = [
     "wordIds": [
       "18469"
     ],
+    "cloze": {
+      "de": "aus",
+      "en": "egg"
+    },
     "sourceIndex": 8469
   },
   {
@@ -4248,6 +5244,10 @@ const phrasesFood = [
     "wordIds": [
       "18518"
     ],
+    "cloze": {
+      "de": "Ananas",
+      "en": "pineapple"
+    },
     "sourceIndex": 8518
   },
   {
@@ -4265,6 +5265,10 @@ const phrasesFood = [
     "wordIds": [
       "18546"
     ],
+    "cloze": {
+      "de": "Dessert",
+      "en": "dessert"
+    },
     "sourceIndex": 8546
   },
   {
@@ -4282,6 +5286,10 @@ const phrasesFood = [
     "wordIds": [
       "18578"
     ],
+    "cloze": {
+      "de": "Kantine",
+      "en": "canteen"
+    },
     "sourceIndex": 8578
   },
   {
@@ -4299,6 +5307,10 @@ const phrasesFood = [
     "wordIds": [
       "18588"
     ],
+    "cloze": {
+      "de": "Mineralwasser",
+      "en": "mineral"
+    },
     "sourceIndex": 8588
   },
   {
@@ -4316,6 +5328,10 @@ const phrasesFood = [
     "wordIds": [
       "18691"
     ],
+    "cloze": {
+      "de": "faulen",
+      "en": "rot"
+    },
     "sourceIndex": 8691
   },
   {
@@ -4333,6 +5349,10 @@ const phrasesFood = [
     "wordIds": [
       "18693"
     ],
+    "cloze": {
+      "de": "filtern",
+      "en": "filter"
+    },
     "sourceIndex": 8693
   },
   {
@@ -4350,6 +5370,10 @@ const phrasesFood = [
     "wordIds": [
       "18709"
     ],
+    "cloze": {
+      "de": "Ketchup",
+      "en": "ketchup"
+    },
     "sourceIndex": 8709
   },
   {
@@ -4367,6 +5391,10 @@ const phrasesFood = [
     "wordIds": [
       "18730"
     ],
+    "cloze": {
+      "de": "Olivenöl",
+      "en": "olive"
+    },
     "sourceIndex": 8730
   },
   {
@@ -4384,6 +5412,10 @@ const phrasesFood = [
     "wordIds": [
       "18736"
     ],
+    "cloze": {
+      "de": "Pfefferspray",
+      "en": "pepper"
+    },
     "sourceIndex": 8736
   },
   {
@@ -4401,6 +5433,10 @@ const phrasesFood = [
     "wordIds": [
       "18824"
     ],
+    "cloze": {
+      "de": "Bowl",
+      "en": "bowl"
+    },
     "sourceIndex": 8824
   },
   {
@@ -4418,6 +5454,10 @@ const phrasesFood = [
     "wordIds": [
       "18836"
     ],
+    "cloze": {
+      "de": "erfurter",
+      "en": "Erfurt"
+    },
     "sourceIndex": 8836
   },
   {
@@ -4435,6 +5475,10 @@ const phrasesFood = [
     "wordIds": [
       "18857"
     ],
+    "cloze": {
+      "de": "Gewürz",
+      "en": "spice"
+    },
     "sourceIndex": 8857
   },
   {
@@ -4452,6 +5496,10 @@ const phrasesFood = [
     "wordIds": [
       "18876"
     ],
+    "cloze": {
+      "de": "Lachs",
+      "en": "salmon"
+    },
     "sourceIndex": 8876
   },
   {
@@ -4469,6 +5517,10 @@ const phrasesFood = [
     "wordIds": [
       "18959"
     ],
+    "cloze": {
+      "de": "Bacon",
+      "en": "bacon"
+    },
     "sourceIndex": 8959
   },
   {
@@ -4486,6 +5538,10 @@ const phrasesFood = [
     "wordIds": [
       "19081"
     ],
+    "cloze": {
+      "de": "Vanille-Geschmack",
+      "en": "vanilla"
+    },
     "sourceIndex": 9081
   },
   {
@@ -4503,6 +5559,10 @@ const phrasesFood = [
     "wordIds": [
       "19100"
     ],
+    "cloze": {
+      "de": "zäh",
+      "en": "tough"
+    },
     "sourceIndex": 9100
   },
   {
@@ -4520,6 +5580,10 @@ const phrasesFood = [
     "wordIds": [
       "19137"
     ],
+    "cloze": {
+      "de": "Erbsen",
+      "en": "peas"
+    },
     "sourceIndex": 9137
   },
   {
@@ -4537,6 +5601,10 @@ const phrasesFood = [
     "wordIds": [
       "19168"
     ],
+    "cloze": {
+      "de": "hungern",
+      "en": "starving"
+    },
     "sourceIndex": 9168
   },
   {
@@ -4554,6 +5622,10 @@ const phrasesFood = [
     "wordIds": [
       "19299"
     ],
+    "cloze": {
+      "de": "Hefe",
+      "en": "yeast"
+    },
     "sourceIndex": 9299
   },
   {
@@ -4571,6 +5643,10 @@ const phrasesFood = [
     "wordIds": [
       "19353"
     ],
+    "cloze": {
+      "de": "Schoko",
+      "en": "chocolate"
+    },
     "sourceIndex": 9353
   },
   {
@@ -4588,6 +5664,10 @@ const phrasesFood = [
     "wordIds": [
       "19360"
     ],
+    "cloze": {
+      "de": "Snack",
+      "en": "snack"
+    },
     "sourceIndex": 9360
   },
   {
@@ -4605,6 +5685,10 @@ const phrasesFood = [
     "wordIds": [
       "19388"
     ],
+    "cloze": {
+      "de": "Waffel",
+      "en": "waffle"
+    },
     "sourceIndex": 9388
   },
   {
@@ -4622,6 +5706,10 @@ const phrasesFood = [
     "wordIds": [
       "19438"
     ],
+    "cloze": {
+      "de": "Fleischer",
+      "en": "butcher"
+    },
     "sourceIndex": 9438
   },
   {
@@ -4639,6 +5727,10 @@ const phrasesFood = [
     "wordIds": [
       "19485"
     ],
+    "cloze": {
+      "de": "Pott",
+      "en": "pot"
+    },
     "sourceIndex": 9485
   },
   {
@@ -4656,6 +5748,10 @@ const phrasesFood = [
     "wordIds": [
       "19502"
     ],
+    "cloze": {
+      "de": "Schweinefleisch",
+      "en": "pork"
+    },
     "sourceIndex": 9502
   },
   {
@@ -4673,6 +5769,10 @@ const phrasesFood = [
     "wordIds": [
       "19526"
     ],
+    "cloze": {
+      "de": "vorziehen",
+      "en": "prefer"
+    },
     "sourceIndex": 9526
   },
   {
@@ -4690,6 +5790,10 @@ const phrasesFood = [
     "wordIds": [
       "19558"
     ],
+    "cloze": {
+      "de": "Backofen",
+      "en": "oven"
+    },
     "sourceIndex": 9558
   },
   {
@@ -4707,6 +5811,10 @@ const phrasesFood = [
     "wordIds": [
       "19601"
     ],
+    "cloze": {
+      "de": "Hähnchen",
+      "en": "chicken"
+    },
     "sourceIndex": 9601
   },
   {
@@ -4724,6 +5832,10 @@ const phrasesFood = [
     "wordIds": [
       "19609"
     ],
+    "cloze": {
+      "de": "Karotten",
+      "en": "carrots"
+    },
     "sourceIndex": 9609
   },
   {
@@ -4741,6 +5853,10 @@ const phrasesFood = [
     "wordIds": [
       "19776"
     ],
+    "cloze": {
+      "de": "Mandeln",
+      "en": "almonds"
+    },
     "sourceIndex": 9776
   },
   {
@@ -4758,6 +5874,10 @@ const phrasesFood = [
     "wordIds": [
       "19792"
     ],
+    "cloze": {
+      "de": "Prise",
+      "en": "pinch"
+    },
     "sourceIndex": 9792
   },
   {
@@ -4775,6 +5895,10 @@ const phrasesFood = [
     "wordIds": [
       "19811"
     ],
+    "cloze": {
+      "de": "Spinat",
+      "en": "spinach"
+    },
     "sourceIndex": 9811
   },
   {
@@ -4792,6 +5916,10 @@ const phrasesFood = [
     "wordIds": [
       "19852"
     ],
+    "cloze": {
+      "de": "Aroma",
+      "en": "aroma"
+    },
     "sourceIndex": 9852
   },
   {
@@ -4809,6 +5937,10 @@ const phrasesFood = [
     "wordIds": [
       "19883"
     ],
+    "cloze": {
+      "de": "Geflügel",
+      "en": "poultry"
+    },
     "sourceIndex": 9883
   },
   {
@@ -4826,6 +5958,10 @@ const phrasesFood = [
     "wordIds": [
       "19911"
     ],
+    "cloze": {
+      "de": "Koffein",
+      "en": "caffeine"
+    },
     "sourceIndex": 9911
   },
   {
@@ -4843,6 +5979,10 @@ const phrasesFood = [
     "wordIds": [
       "19915"
     ],
+    "cloze": {
+      "de": "Kölsch",
+      "en": "Cologne"
+    },
     "sourceIndex": 9915
   },
   {
@@ -4860,6 +6000,10 @@ const phrasesFood = [
     "wordIds": [
       "19943"
     ],
+    "cloze": {
+      "de": "Rindfleisch",
+      "en": "beef"
+    },
     "sourceIndex": 9943
   },
   {
@@ -4877,6 +6021,10 @@ const phrasesFood = [
     "wordIds": [
       "20006"
     ],
+    "cloze": {
+      "de": "Belag",
+      "en": "topping"
+    },
     "sourceIndex": 10006
   },
   {
@@ -4894,6 +6042,10 @@ const phrasesFood = [
     "wordIds": [
       "20025"
     ],
+    "cloze": {
+      "de": "Currywurst",
+      "en": "curry"
+    },
     "sourceIndex": 10025
   },
   {
@@ -4911,6 +6063,10 @@ const phrasesFood = [
     "wordIds": [
       "20072"
     ],
+    "cloze": {
+      "de": "Nachtisch",
+      "en": "dessert"
+    },
     "sourceIndex": 10072
   },
   {
@@ -4928,6 +6084,10 @@ const phrasesFood = [
     "wordIds": [
       "20085"
     ],
+    "cloze": {
+      "de": "Schokoladenpudding",
+      "en": "pudding"
+    },
     "sourceIndex": 10085
   },
   {
@@ -4945,6 +6105,10 @@ const phrasesFood = [
     "wordIds": [
       "20093"
     ],
+    "cloze": {
+      "de": "Salami",
+      "en": "salami"
+    },
     "sourceIndex": 10093
   },
   {
@@ -4962,6 +6126,10 @@ const phrasesFood = [
     "wordIds": [
       "20104"
     ],
+    "cloze": {
+      "de": "streute",
+      "en": "on"
+    },
     "sourceIndex": 10104
   },
   {
@@ -4979,6 +6147,10 @@ const phrasesFood = [
     "wordIds": [
       "20225"
     ],
+    "cloze": {
+      "de": "mager",
+      "en": "lean"
+    },
     "sourceIndex": 10225
   },
   {
@@ -4996,6 +6168,10 @@ const phrasesFood = [
     "wordIds": [
       "20267"
     ],
+    "cloze": {
+      "de": "Tresen",
+      "en": "counter"
+    },
     "sourceIndex": 10267
   },
   {
@@ -5013,6 +6189,10 @@ const phrasesFood = [
     "wordIds": [
       "20346"
     ],
+    "cloze": {
+      "de": "Glühwein",
+      "en": "mulled"
+    },
     "sourceIndex": 10346
   },
   {
@@ -5030,6 +6210,10 @@ const phrasesFood = [
     "wordIds": [
       "20514"
     ],
+    "cloze": {
+      "de": "Kanne",
+      "en": "pot"
+    },
     "sourceIndex": 10514
   },
   {
@@ -5047,6 +6231,10 @@ const phrasesFood = [
     "wordIds": [
       "20524"
     ],
+    "cloze": {
+      "de": "Köchin",
+      "en": "female"
+    },
     "sourceIndex": 10524
   },
   {
@@ -5064,6 +6252,10 @@ const phrasesFood = [
     "wordIds": [
       "20534"
     ],
+    "cloze": {
+      "de": "Apfelmus",
+      "en": "puree"
+    },
     "sourceIndex": 10534
   },
   {
@@ -5081,6 +6273,10 @@ const phrasesFood = [
     "wordIds": [
       "20623"
     ],
+    "cloze": {
+      "de": "Brauer",
+      "en": "brewer"
+    },
     "sourceIndex": 10623
   },
   {
@@ -5098,6 +6294,10 @@ const phrasesFood = [
     "wordIds": [
       "20668"
     ],
+    "cloze": {
+      "de": "kaut",
+      "en": "He"
+    },
     "sourceIndex": 10668
   },
   {
@@ -5115,6 +6315,10 @@ const phrasesFood = [
     "wordIds": [
       "20669"
     ],
+    "cloze": {
+      "de": "Lammkeule",
+      "en": "leg"
+    },
     "sourceIndex": 10669
   },
   {
@@ -5132,6 +6336,10 @@ const phrasesFood = [
     "wordIds": [
       "20685"
     ],
+    "cloze": {
+      "de": "Mango",
+      "en": "mango"
+    },
     "sourceIndex": 10685
   },
   {
@@ -5149,6 +6357,10 @@ const phrasesFood = [
     "wordIds": [
       "20762"
     ],
+    "cloze": {
+      "de": "Zimt",
+      "en": "cinnamon"
+    },
     "sourceIndex": 10762
   },
   {
@@ -5166,6 +6378,10 @@ const phrasesFood = [
     "wordIds": [
       "20770"
     ],
+    "cloze": {
+      "de": "allgäuer",
+      "en": "Allgäu"
+    },
     "sourceIndex": 10770
   },
   {
@@ -5183,6 +6399,10 @@ const phrasesFood = [
     "wordIds": [
       "20804"
     ],
+    "cloze": {
+      "de": "Dill",
+      "en": "dill"
+    },
     "sourceIndex": 10804
   },
   {
@@ -5200,6 +6420,10 @@ const phrasesFood = [
     "wordIds": [
       "20833"
     ],
+    "cloze": {
+      "de": "herben",
+      "en": "tart"
+    },
     "sourceIndex": 10833
   },
   {
@@ -5217,6 +6441,10 @@ const phrasesFood = [
     "wordIds": [
       "20850"
     ],
+    "cloze": {
+      "de": "Kirschen",
+      "en": "cherries"
+    },
     "sourceIndex": 10850
   },
   {
@@ -5234,6 +6462,10 @@ const phrasesFood = [
     "wordIds": [
       "20873"
     ],
+    "cloze": {
+      "de": "orientalische",
+      "en": "oriental"
+    },
     "sourceIndex": 10873
   },
   {
@@ -5251,6 +6483,10 @@ const phrasesFood = [
     "wordIds": [
       "20890"
     ],
+    "cloze": {
+      "de": "schmackhaft",
+      "en": "tasty"
+    },
     "sourceIndex": 10890
   },
   {
@@ -5268,6 +6504,10 @@ const phrasesFood = [
     "wordIds": [
       "20903"
     ],
+    "cloze": {
+      "de": "steirische",
+      "en": "Styrian"
+    },
     "sourceIndex": 10903
   },
   {
@@ -5285,6 +6525,10 @@ const phrasesFood = [
     "wordIds": [
       "20984"
     ],
+    "cloze": {
+      "de": "Cafeteria",
+      "en": "cafeteria"
+    },
     "sourceIndex": 10984
   },
   {
@@ -5302,6 +6546,10 @@ const phrasesFood = [
     "wordIds": [
       "21029"
     ],
+    "cloze": {
+      "de": "Hackfleisch",
+      "en": "minced"
+    },
     "sourceIndex": 11029
   },
   {
@@ -5319,6 +6567,10 @@ const phrasesFood = [
     "wordIds": [
       "21046"
     ],
+    "cloze": {
+      "de": "Krokodil",
+      "en": "crocodile"
+    },
     "sourceIndex": 11046
   },
   {
@@ -5336,6 +6588,10 @@ const phrasesFood = [
     "wordIds": [
       "21047"
     ],
+    "cloze": {
+      "de": "Lauch",
+      "en": "leek"
+    },
     "sourceIndex": 11047
   },
   {
@@ -5353,6 +6609,10 @@ const phrasesFood = [
     "wordIds": [
       "21069"
     ],
+    "cloze": {
+      "de": "Omi",
+      "en": "grandma"
+    },
     "sourceIndex": 11069
   },
   {
@@ -5370,6 +6630,10 @@ const phrasesFood = [
     "wordIds": [
       "21156"
     ],
+    "cloze": {
+      "de": "Brühe",
+      "en": "broth"
+    },
     "sourceIndex": 11156
   },
   {
@@ -5387,6 +6651,10 @@ const phrasesFood = [
     "wordIds": [
       "21186"
     ],
+    "cloze": {
+      "de": "fließt",
+      "en": "flows"
+    },
     "sourceIndex": 11186
   },
   {
@@ -5404,6 +6672,10 @@ const phrasesFood = [
     "wordIds": [
       "21197"
     ],
+    "cloze": {
+      "de": "halbieren",
+      "en": "halve"
+    },
     "sourceIndex": 11197
   },
   {
@@ -5421,6 +6693,10 @@ const phrasesFood = [
     "wordIds": [
       "21388"
     ],
+    "cloze": {
+      "de": "geschmacklos",
+      "en": "tasteless"
+    },
     "sourceIndex": 11388
   },
   {
@@ -5438,6 +6714,10 @@ const phrasesFood = [
     "wordIds": [
       "21430"
     ],
+    "cloze": {
+      "de": "Mahl",
+      "en": "meal"
+    },
     "sourceIndex": 11430
   },
   {
@@ -5455,6 +6735,10 @@ const phrasesFood = [
     "wordIds": [
       "21482"
     ],
+    "cloze": {
+      "de": "Tellerrand",
+      "en": "rim"
+    },
     "sourceIndex": 11482
   },
   {
@@ -5472,6 +6756,10 @@ const phrasesFood = [
     "wordIds": [
       "21492"
     ],
+    "cloze": {
+      "de": "Veranda",
+      "en": "veranda"
+    },
     "sourceIndex": 11492
   },
   {
@@ -5489,6 +6777,10 @@ const phrasesFood = [
     "wordIds": [
       "21508"
     ],
+    "cloze": {
+      "de": "Weisswein",
+      "en": "wine"
+    },
     "sourceIndex": 11508
   },
   {
@@ -5506,6 +6798,10 @@ const phrasesFood = [
     "wordIds": [
       "21513"
     ],
+    "cloze": {
+      "de": "Zander",
+      "en": "pike-perch"
+    },
     "sourceIndex": 11513
   },
   {
@@ -5523,6 +6819,10 @@ const phrasesFood = [
     "wordIds": [
       "21562"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "spreads"
+    },
     "sourceIndex": 11562
   },
   {
@@ -5540,6 +6840,10 @@ const phrasesFood = [
     "wordIds": [
       "21619"
     ],
+    "cloze": {
+      "de": "saftig",
+      "en": "juicy"
+    },
     "sourceIndex": 11619
   },
   {
@@ -5557,6 +6861,10 @@ const phrasesFood = [
     "wordIds": [
       "21689"
     ],
+    "cloze": {
+      "de": "Besteck",
+      "en": "cutlery"
+    },
     "sourceIndex": 11689
   },
   {
@@ -5574,6 +6882,10 @@ const phrasesFood = [
     "wordIds": [
       "21692"
     ],
+    "cloze": {
+      "de": "Bistro",
+      "en": "bistro"
+    },
     "sourceIndex": 11692
   },
   {
@@ -5591,6 +6903,10 @@ const phrasesFood = [
     "wordIds": [
       "21728"
     ],
+    "cloze": {
+      "de": "speisen",
+      "en": "dine"
+    },
     "sourceIndex": 11728
   },
   {
@@ -5608,6 +6924,10 @@ const phrasesFood = [
     "wordIds": [
       "21733"
     ],
+    "cloze": {
+      "de": "Gläschen",
+      "en": "small"
+    },
     "sourceIndex": 11733
   },
   {
@@ -5625,6 +6945,10 @@ const phrasesFood = [
     "wordIds": [
       "21754"
     ],
+    "cloze": {
+      "de": "knackig",
+      "en": "crisp"
+    },
     "sourceIndex": 11754
   },
   {
@@ -5642,6 +6966,10 @@ const phrasesFood = [
     "wordIds": [
       "21770"
     ],
+    "cloze": {
+      "de": "Möhren",
+      "en": "carrots"
+    },
     "sourceIndex": 11770
   },
   {
@@ -5659,6 +6987,10 @@ const phrasesFood = [
     "wordIds": [
       "21784"
     ],
+    "cloze": {
+      "de": "Praline",
+      "en": "praline"
+    },
     "sourceIndex": 11784
   },
   {
@@ -5676,6 +7008,10 @@ const phrasesFood = [
     "wordIds": [
       "21815"
     ],
+    "cloze": {
+      "de": "Thunfischsalat",
+      "en": "tuna"
+    },
     "sourceIndex": 11815
   },
   {
@@ -5693,6 +7029,10 @@ const phrasesFood = [
     "wordIds": [
       "22144"
     ],
+    "cloze": {
+      "de": "Papi",
+      "en": "Daddy"
+    },
     "sourceIndex": 12144
   },
   {
@@ -5710,6 +7050,10 @@ const phrasesFood = [
     "wordIds": [
       "22181"
     ],
+    "cloze": {
+      "de": "Tablett",
+      "en": "tray"
+    },
     "sourceIndex": 12181
   },
   {
@@ -5727,6 +7071,10 @@ const phrasesFood = [
     "wordIds": [
       "22183"
     ],
+    "cloze": {
+      "de": "Tofu",
+      "en": "tofu"
+    },
     "sourceIndex": 12183
   },
   {
@@ -5744,6 +7092,10 @@ const phrasesFood = [
     "wordIds": [
       "22294"
     ],
+    "cloze": {
+      "de": "Hühnchen",
+      "en": "chicken"
+    },
     "sourceIndex": 12294
   },
   {
@@ -5761,6 +7113,10 @@ const phrasesFood = [
     "wordIds": [
       "22302"
     ],
+    "cloze": {
+      "de": "Kohlensäure",
+      "en": "carbonation"
+    },
     "sourceIndex": 12302
   },
   {
@@ -5778,6 +7134,10 @@ const phrasesFood = [
     "wordIds": [
       "22322"
     ],
+    "cloze": {
+      "de": "Schokoladenmuffin",
+      "en": "muffin"
+    },
     "sourceIndex": 12322
   },
   {
@@ -5795,6 +7155,10 @@ const phrasesFood = [
     "wordIds": [
       "22360"
     ],
+    "cloze": {
+      "de": "thüringische",
+      "en": "Thuringian"
+    },
     "sourceIndex": 12360
   },
   {
@@ -5812,6 +7176,10 @@ const phrasesFood = [
     "wordIds": [
       "22394"
     ],
+    "cloze": {
+      "de": "abgelaufen",
+      "en": "expired"
+    },
     "sourceIndex": 12394
   },
   {
@@ -5829,6 +7197,10 @@ const phrasesFood = [
     "wordIds": [
       "22483"
     ],
+    "cloze": {
+      "de": "Kartoffelsalat",
+      "en": "Potato"
+    },
     "sourceIndex": 12483
   },
   {
@@ -5846,6 +7218,10 @@ const phrasesFood = [
     "wordIds": [
       "22499"
     ],
+    "cloze": {
+      "de": "Lebkuchen",
+      "en": "gingerbread"
+    },
     "sourceIndex": 12499
   },
   {
@@ -5863,6 +7239,10 @@ const phrasesFood = [
     "wordIds": [
       "22525"
     ],
+    "cloze": {
+      "de": "pausieren",
+      "en": "pause"
+    },
     "sourceIndex": 12525
   },
   {
@@ -5880,6 +7260,10 @@ const phrasesFood = [
     "wordIds": [
       "22544"
     ],
+    "cloze": {
+      "de": "spendiere",
+      "en": "treat"
+    },
     "sourceIndex": 12544
   },
   {
@@ -5897,6 +7281,10 @@ const phrasesFood = [
     "wordIds": [
       "22613"
     ],
+    "cloze": {
+      "de": "Avocado",
+      "en": "avocado"
+    },
     "sourceIndex": 12613
   },
   {
@@ -5914,6 +7302,10 @@ const phrasesFood = [
     "wordIds": [
       "22624"
     ],
+    "cloze": {
+      "de": "braut",
+      "en": "brews"
+    },
     "sourceIndex": 12624
   },
   {
@@ -5931,6 +7323,10 @@ const phrasesFood = [
     "wordIds": [
       "22689"
     ],
+    "cloze": {
+      "de": "Mulde",
+      "en": "hollow"
+    },
     "sourceIndex": 12689
   },
   {
@@ -5948,6 +7344,10 @@ const phrasesFood = [
     "wordIds": [
       "22738"
     ],
+    "cloze": {
+      "de": "Stäbchen",
+      "en": "chopsticks"
+    },
     "sourceIndex": 12738
   },
   {
@@ -5965,6 +7365,10 @@ const phrasesFood = [
     "wordIds": [
       "22818"
     ],
+    "cloze": {
+      "de": "eingebauten",
+      "en": "built-in"
+    },
     "sourceIndex": 12818
   },
   {
@@ -5982,6 +7386,10 @@ const phrasesFood = [
     "wordIds": [
       "22828"
     ],
+    "cloze": {
+      "de": "fabelhaft",
+      "en": "fabulous"
+    },
     "sourceIndex": 12828
   },
   {
@@ -5999,6 +7407,10 @@ const phrasesFood = [
     "wordIds": [
       "22851"
     ],
+    "cloze": {
+      "de": "Haferflocken",
+      "en": "oats"
+    },
     "sourceIndex": 12851
   },
   {
@@ -6016,6 +7428,10 @@ const phrasesFood = [
     "wordIds": [
       "22873"
     ],
+    "cloze": {
+      "de": "Limo",
+      "en": "soda"
+    },
     "sourceIndex": 12873
   },
   {
@@ -6033,6 +7449,10 @@ const phrasesFood = [
     "wordIds": [
       "22881"
     ],
+    "cloze": {
+      "de": "melken",
+      "en": "milk"
+    },
     "sourceIndex": 12881
   },
   {
@@ -6050,6 +7470,10 @@ const phrasesFood = [
     "wordIds": [
       "22899"
     ],
+    "cloze": {
+      "de": "Pils",
+      "en": "pilsner"
+    },
     "sourceIndex": 12899
   },
   {
@@ -6067,6 +7491,10 @@ const phrasesFood = [
     "wordIds": [
       "22915"
     ],
+    "cloze": {
+      "de": "schälen",
+      "en": "peel"
+    },
     "sourceIndex": 12915
   },
   {
@@ -6084,6 +7512,10 @@ const phrasesFood = [
     "wordIds": [
       "22927"
     ],
+    "cloze": {
+      "de": "Strohhalm",
+      "en": "straw"
+    },
     "sourceIndex": 12927
   },
   {
@@ -6101,6 +7533,10 @@ const phrasesFood = [
     "wordIds": [
       "22930"
     ],
+    "cloze": {
+      "de": "Tequila",
+      "en": "tequila"
+    },
     "sourceIndex": 12930
   },
   {
@@ -6118,6 +7554,10 @@ const phrasesFood = [
     "wordIds": [
       "22961"
     ],
+    "cloze": {
+      "de": "wund",
+      "en": "sore"
+    },
     "sourceIndex": 12961
   },
   {
@@ -6135,6 +7575,10 @@ const phrasesFood = [
     "wordIds": [
       "23019"
     ],
+    "cloze": {
+      "de": "Esstisch",
+      "en": "dining"
+    },
     "sourceIndex": 13019
   },
   {
@@ -6152,6 +7596,10 @@ const phrasesFood = [
     "wordIds": [
       "23067"
     ],
+    "cloze": {
+      "de": "Magd",
+      "en": "maid"
+    },
     "sourceIndex": 13067
   },
   {
@@ -6169,6 +7617,10 @@ const phrasesFood = [
     "wordIds": [
       "23082"
     ],
+    "cloze": {
+      "de": "Orangensaft",
+      "en": "orange"
+    },
     "sourceIndex": 13082
   },
   {
@@ -6186,6 +7638,10 @@ const phrasesFood = [
     "wordIds": [
       "23245"
     ],
+    "cloze": {
+      "de": "Hummer",
+      "en": "lobster"
+    },
     "sourceIndex": 13245
   },
   {
@@ -6203,6 +7659,10 @@ const phrasesFood = [
     "wordIds": [
       "23252"
     ],
+    "cloze": {
+      "de": "Kellnerin",
+      "en": "waitress"
+    },
     "sourceIndex": 13252
   },
   {
@@ -6220,6 +7680,10 @@ const phrasesFood = [
     "wordIds": [
       "23260"
     ],
+    "cloze": {
+      "de": "Kruste",
+      "en": "crust"
+    },
     "sourceIndex": 13260
   },
   {
@@ -6237,6 +7701,10 @@ const phrasesFood = [
     "wordIds": [
       "23264"
     ],
+    "cloze": {
+      "de": "Leckerei",
+      "en": "treat"
+    },
     "sourceIndex": 13264
   },
   {
@@ -6254,6 +7722,10 @@ const phrasesFood = [
     "wordIds": [
       "23432"
     ],
+    "cloze": {
+      "de": "dämpft",
+      "en": "steams"
+    },
     "sourceIndex": 13432
   },
   {
@@ -6271,6 +7743,10 @@ const phrasesFood = [
     "wordIds": [
       "23472"
     ],
+    "cloze": {
+      "de": "Mettbrötchen",
+      "en": "minced"
+    },
     "sourceIndex": 13472
   },
   {
@@ -6288,6 +7764,10 @@ const phrasesFood = [
     "wordIds": [
       "23503"
     ],
+    "cloze": {
+      "de": "Riesling",
+      "en": "Riesling"
+    },
     "sourceIndex": 13503
   },
   {
@@ -6305,6 +7785,10 @@ const phrasesFood = [
     "wordIds": [
       "23508"
     ],
+    "cloze": {
+      "de": "Salzwasser",
+      "en": "saltwater"
+    },
     "sourceIndex": 13508
   },
   {
@@ -6322,6 +7806,10 @@ const phrasesFood = [
     "wordIds": [
       "23515"
     ],
+    "cloze": {
+      "de": "schärfen",
+      "en": "sharpen"
+    },
     "sourceIndex": 13515
   },
   {
@@ -6339,6 +7827,10 @@ const phrasesFood = [
     "wordIds": [
       "23519"
     ],
+    "cloze": {
+      "de": "Speisesaal",
+      "en": "dining"
+    },
     "sourceIndex": 13519
   },
   {
@@ -6356,6 +7848,10 @@ const phrasesFood = [
     "wordIds": [
       "23548"
     ],
+    "cloze": {
+      "de": "Wasserdampf",
+      "en": "Water"
+    },
     "sourceIndex": 13548
   },
   {
@@ -6373,6 +7869,10 @@ const phrasesFood = [
     "wordIds": [
       "23559"
     ],
+    "cloze": {
+      "de": "Zigarre",
+      "en": "cigar"
+    },
     "sourceIndex": 13559
   },
   {
@@ -6390,6 +7890,10 @@ const phrasesFood = [
     "wordIds": [
       "23579"
     ],
+    "cloze": {
+      "de": "Apfelsaft",
+      "en": "apple"
+    },
     "sourceIndex": 13579
   },
   {
@@ -6407,6 +7911,10 @@ const phrasesFood = [
     "wordIds": [
       "23647"
     ],
+    "cloze": {
+      "de": "pumpen",
+      "en": "pump"
+    },
     "sourceIndex": 13647
   },
   {
@@ -6424,6 +7932,10 @@ const phrasesFood = [
     "wordIds": [
       "23678"
     ],
+    "cloze": {
+      "de": "Lagune",
+      "en": "lagoon"
+    },
     "sourceIndex": 13678
   },
   {
@@ -6441,6 +7953,10 @@ const phrasesFood = [
     "wordIds": [
       "23761"
     ],
+    "cloze": {
+      "de": "Vodka",
+      "en": "vodka"
+    },
     "sourceIndex": 13761
   },
   {
@@ -6458,6 +7974,10 @@ const phrasesFood = [
     "wordIds": [
       "23830"
     ],
+    "cloze": {
+      "de": "Fastfood",
+      "en": "fast"
+    },
     "sourceIndex": 13830
   },
   {
@@ -6475,6 +7995,10 @@ const phrasesFood = [
     "wordIds": [
       "23840"
     ],
+    "cloze": {
+      "de": "Haferflocken",
+      "en": "oat"
+    },
     "sourceIndex": 13840
   },
   {
@@ -6492,6 +8016,10 @@ const phrasesFood = [
     "wordIds": [
       "23852"
     ],
+    "cloze": {
+      "de": "Apfel-Juice",
+      "en": "juice"
+    },
     "sourceIndex": 13852
   },
   {
@@ -6510,6 +8038,10 @@ const phrasesFood = [
       "23873",
       "29741"
     ],
+    "cloze": {
+      "de": "Wassermelone",
+      "en": "watermelon"
+    },
     "sourceIndex": 13873
   },
   {
@@ -6527,6 +8059,10 @@ const phrasesFood = [
     "wordIds": [
       "23880"
     ],
+    "cloze": {
+      "de": "obendrauf",
+      "en": "on"
+    },
     "sourceIndex": 13880
   },
   {
@@ -6544,6 +8080,10 @@ const phrasesFood = [
     "wordIds": [
       "23998"
     ],
+    "cloze": {
+      "de": "Brokkoli",
+      "en": "broccoli"
+    },
     "sourceIndex": 13998
   },
   {
@@ -6561,6 +8101,10 @@ const phrasesFood = [
     "wordIds": [
       "24010"
     ],
+    "cloze": {
+      "de": "Eintopf",
+      "en": "stew"
+    },
     "sourceIndex": 14010
   },
   {
@@ -6578,6 +8122,10 @@ const phrasesFood = [
     "wordIds": [
       "24034"
     ],
+    "cloze": {
+      "de": "gelernte",
+      "en": "skilled"
+    },
     "sourceIndex": 14034
   },
   {
@@ -6595,6 +8143,10 @@ const phrasesFood = [
     "wordIds": [
       "24059"
     ],
+    "cloze": {
+      "de": "Klumpen",
+      "en": "lumps"
+    },
     "sourceIndex": 14059
   },
   {
@@ -6612,6 +8164,10 @@ const phrasesFood = [
     "wordIds": [
       "24093"
     ],
+    "cloze": {
+      "de": "Pfirsich",
+      "en": "peach"
+    },
     "sourceIndex": 14093
   },
   {
@@ -6629,6 +8185,10 @@ const phrasesFood = [
     "wordIds": [
       "24125"
     ],
+    "cloze": {
+      "de": "Apfelstrudel",
+      "en": "strudel"
+    },
     "sourceIndex": 14125
   },
   {
@@ -6646,6 +8206,10 @@ const phrasesFood = [
     "wordIds": [
       "24238"
     ],
+    "cloze": {
+      "de": "hellwach",
+      "en": "wide"
+    },
     "sourceIndex": 14238
   },
   {
@@ -6663,6 +8227,10 @@ const phrasesFood = [
     "wordIds": [
       "24296"
     ],
+    "cloze": {
+      "de": "salzen",
+      "en": "salt"
+    },
     "sourceIndex": 14296
   },
   {
@@ -6680,6 +8248,10 @@ const phrasesFood = [
     "wordIds": [
       "24322"
     ],
+    "cloze": {
+      "de": "Säugetiere",
+      "en": "mammals"
+    },
     "sourceIndex": 14322
   },
   {
@@ -6697,6 +8269,10 @@ const phrasesFood = [
     "wordIds": [
       "24331"
     ],
+    "cloze": {
+      "de": "Veggie",
+      "en": "veggie"
+    },
     "sourceIndex": 14331
   },
   {
@@ -6714,6 +8290,10 @@ const phrasesFood = [
     "wordIds": [
       "24376"
     ],
+    "cloze": {
+      "de": "Bierchen",
+      "en": "little"
+    },
     "sourceIndex": 14376
   },
   {
@@ -6731,6 +8311,10 @@ const phrasesFood = [
     "wordIds": [
       "24383"
     ],
+    "cloze": {
+      "de": "Cognac",
+      "en": "cognac"
+    },
     "sourceIndex": 14383
   },
   {
@@ -6748,6 +8332,10 @@ const phrasesFood = [
     "wordIds": [
       "24437"
     ],
+    "cloze": {
+      "de": "knabbert",
+      "en": "nibbling"
+    },
     "sourceIndex": 14437
   },
   {
@@ -6765,6 +8353,10 @@ const phrasesFood = [
     "wordIds": [
       "24461"
     ],
+    "cloze": {
+      "de": "Petersilie",
+      "en": "parsley"
+    },
     "sourceIndex": 14461
   },
   {
@@ -6782,6 +8374,10 @@ const phrasesFood = [
     "wordIds": [
       "24490"
     ],
+    "cloze": {
+      "de": "Ahornsirup",
+      "en": "syrup"
+    },
     "sourceIndex": 14490
   },
   {
@@ -6799,6 +8395,10 @@ const phrasesFood = [
     "wordIds": [
       "24540"
     ],
+    "cloze": {
+      "de": "Wasserstand",
+      "en": "water"
+    },
     "sourceIndex": 14540
   },
   {
@@ -6816,6 +8416,10 @@ const phrasesFood = [
     "wordIds": [
       "24574"
     ],
+    "cloze": {
+      "de": "Barkeeper",
+      "en": "bartender"
+    },
     "sourceIndex": 14574
   },
   {
@@ -6833,6 +8437,10 @@ const phrasesFood = [
     "wordIds": [
       "24575"
     ],
+    "cloze": {
+      "de": "Basilikum",
+      "en": "basil"
+    },
     "sourceIndex": 14575
   },
   {
@@ -6850,6 +8458,10 @@ const phrasesFood = [
     "wordIds": [
       "24591"
     ],
+    "cloze": {
+      "de": "Breakfast",
+      "en": "breakfast"
+    },
     "sourceIndex": 14591
   },
   {
@@ -6867,6 +8479,10 @@ const phrasesFood = [
     "wordIds": [
       "24660"
     ],
+    "cloze": {
+      "de": "Kokosnuss",
+      "en": "coconut"
+    },
     "sourceIndex": 14660
   },
   {
@@ -6884,6 +8500,10 @@ const phrasesFood = [
     "wordIds": [
       "24753"
     ],
+    "cloze": {
+      "de": "Vesper",
+      "en": "afternoon"
+    },
     "sourceIndex": 14753
   },
   {
@@ -6901,6 +8521,10 @@ const phrasesFood = [
     "wordIds": [
       "24757"
     ],
+    "cloze": {
+      "de": "Wasseroberfläche",
+      "en": "water"
+    },
     "sourceIndex": 14757
   },
   {
@@ -6918,6 +8542,10 @@ const phrasesFood = [
     "wordIds": [
       "24758"
     ],
+    "cloze": {
+      "de": "Wasserqualität",
+      "en": "water"
+    },
     "sourceIndex": 14758
   },
   {
@@ -6935,6 +8563,10 @@ const phrasesFood = [
     "wordIds": [
       "24843"
     ],
+    "cloze": {
+      "de": "herzhaft",
+      "en": "hearty"
+    },
     "sourceIndex": 14843
   },
   {
@@ -6952,6 +8584,10 @@ const phrasesFood = [
     "wordIds": [
       "24847"
     ],
+    "cloze": {
+      "de": "Häppchen",
+      "en": "a"
+    },
     "sourceIndex": 14847
   },
   {
@@ -6969,6 +8605,10 @@ const phrasesFood = [
     "wordIds": [
       "24873"
     ],
+    "cloze": {
+      "de": "Lemon",
+      "en": "lemon"
+    },
     "sourceIndex": 14873
   },
   {
@@ -6986,6 +8626,10 @@ const phrasesFood = [
     "wordIds": [
       "24909"
     ],
+    "cloze": {
+      "de": "Punch",
+      "en": "punch"
+    },
     "sourceIndex": 14909
   },
   {
@@ -7003,6 +8647,10 @@ const phrasesFood = [
     "wordIds": [
       "24917"
     ],
+    "cloze": {
+      "de": "Roggenbrot",
+      "en": "Rye"
+    },
     "sourceIndex": 14917
   },
   {
@@ -7020,6 +8668,10 @@ const phrasesFood = [
     "wordIds": [
       "24968"
     ],
+    "cloze": {
+      "de": "Vorspeise",
+      "en": "a"
+    },
     "sourceIndex": 14968
   },
   {
@@ -7037,6 +8689,10 @@ const phrasesFood = [
     "wordIds": [
       "24991"
     ],
+    "cloze": {
+      "de": "anbraten",
+      "en": "sear"
+    },
     "sourceIndex": 14991
   },
   {
@@ -7054,6 +8710,10 @@ const phrasesFood = [
     "wordIds": [
       "25051"
     ],
+    "cloze": {
+      "de": "Geschmacklich",
+      "en": "In"
+    },
     "sourceIndex": 15051
   },
   {
@@ -7071,6 +8731,10 @@ const phrasesFood = [
     "wordIds": [
       "25078"
     ],
+    "cloze": {
+      "de": "Knete",
+      "en": "dough"
+    },
     "sourceIndex": 15078
   },
   {
@@ -7088,6 +8752,10 @@ const phrasesFood = [
     "wordIds": [
       "25225"
     ],
+    "cloze": {
+      "de": "Brauhaus",
+      "en": "brewpub"
+    },
     "sourceIndex": 15225
   },
   {
@@ -7105,6 +8773,10 @@ const phrasesFood = [
     "wordIds": [
       "25234"
     ],
+    "cloze": {
+      "de": "Cream",
+      "en": "cream"
+    },
     "sourceIndex": 15234
   },
   {
@@ -7122,6 +8794,10 @@ const phrasesFood = [
     "wordIds": [
       "25313"
     ],
+    "cloze": {
+      "de": "Margarine",
+      "en": "margarine"
+    },
     "sourceIndex": 15313
   },
   {
@@ -7139,6 +8815,10 @@ const phrasesFood = [
     "wordIds": [
       "25316"
     ],
+    "cloze": {
+      "de": "mitgeben",
+      "en": "give"
+    },
     "sourceIndex": 15316
   },
   {
@@ -7156,6 +8836,10 @@ const phrasesFood = [
     "wordIds": [
       "25317"
     ],
+    "cloze": {
+      "de": "Muttermilch",
+      "en": "breast"
+    },
     "sourceIndex": 15317
   },
   {
@@ -7173,6 +8857,10 @@ const phrasesFood = [
     "wordIds": [
       "25323"
     ],
+    "cloze": {
+      "de": "Pflaume",
+      "en": "plum"
+    },
     "sourceIndex": 15323
   },
   {
@@ -7190,6 +8878,10 @@ const phrasesFood = [
     "wordIds": [
       "25331"
     ],
+    "cloze": {
+      "de": "Punsch",
+      "en": "punch"
+    },
     "sourceIndex": 15331
   },
   {
@@ -7207,6 +8899,10 @@ const phrasesFood = [
     "wordIds": [
       "25340"
     ],
+    "cloze": {
+      "de": "salzig",
+      "en": "salty"
+    },
     "sourceIndex": 15340
   },
   {
@@ -7224,6 +8920,10 @@ const phrasesFood = [
     "wordIds": [
       "25368"
     ],
+    "cloze": {
+      "de": "Taverne",
+      "en": "tavern"
+    },
     "sourceIndex": 15368
   },
   {
@@ -7241,6 +8941,10 @@ const phrasesFood = [
     "wordIds": [
       "25401"
     ],
+    "cloze": {
+      "de": "in",
+      "en": "bottled"
+    },
     "sourceIndex": 15401
   },
   {
@@ -7258,6 +8962,10 @@ const phrasesFood = [
     "wordIds": [
       "25406"
     ],
+    "cloze": {
+      "de": "alkoholisch",
+      "en": "alcoholic"
+    },
     "sourceIndex": 15406
   },
   {
@@ -7275,6 +8983,10 @@ const phrasesFood = [
     "wordIds": [
       "25419"
     ],
+    "cloze": {
+      "de": "Backhaus",
+      "en": "bakehouse"
+    },
     "sourceIndex": 15419
   },
   {
@@ -7292,6 +9004,10 @@ const phrasesFood = [
     "wordIds": [
       "25463"
     ],
+    "cloze": {
+      "de": "Eistee",
+      "en": "iced"
+    },
     "sourceIndex": 15463
   },
   {
@@ -7309,6 +9025,10 @@ const phrasesFood = [
     "wordIds": [
       "25500"
     ],
+    "cloze": {
+      "de": "Happen",
+      "en": "bite"
+    },
     "sourceIndex": 15500
   },
   {
@@ -7326,6 +9046,10 @@ const phrasesFood = [
     "wordIds": [
       "25533"
     ],
+    "cloze": {
+      "de": "Limonade",
+      "en": "lemonade"
+    },
     "sourceIndex": 15533
   },
   {
@@ -7343,6 +9067,10 @@ const phrasesFood = [
     "wordIds": [
       "25892"
     ],
+    "cloze": {
+      "de": "Erfrischung",
+      "en": "refreshment"
+    },
     "sourceIndex": 15892
   },
   {
@@ -7360,6 +9088,10 @@ const phrasesFood = [
     "wordIds": [
       "25913"
     ],
+    "cloze": {
+      "de": "Gelatine",
+      "en": "gelatin"
+    },
     "sourceIndex": 15913
   },
   {
@@ -7377,6 +9109,10 @@ const phrasesFood = [
     "wordIds": [
       "25924"
     ],
+    "cloze": {
+      "de": "gießen",
+      "en": "water"
+    },
     "sourceIndex": 15924
   },
   {
@@ -7394,6 +9130,10 @@ const phrasesFood = [
     "wordIds": [
       "26008"
     ],
+    "cloze": {
+      "de": "Spätzle",
+      "en": "Spätzle"
+    },
     "sourceIndex": 16008
   },
   {
@@ -7411,6 +9151,10 @@ const phrasesFood = [
     "wordIds": [
       "26096"
     ],
+    "cloze": {
+      "de": "Cake",
+      "en": "cake"
+    },
     "sourceIndex": 16096
   },
   {
@@ -7428,6 +9172,10 @@ const phrasesFood = [
     "wordIds": [
       "26123"
     ],
+    "cloze": {
+      "de": "Garnelen",
+      "en": "shrimp"
+    },
     "sourceIndex": 16123
   },
   {
@@ -7445,6 +9193,10 @@ const phrasesFood = [
     "wordIds": [
       "26145"
     ],
+    "cloze": {
+      "de": "hinzugeben",
+      "en": "add"
+    },
     "sourceIndex": 16145
   },
   {
@@ -7462,6 +9214,10 @@ const phrasesFood = [
     "wordIds": [
       "26152"
     ],
+    "cloze": {
+      "de": "Kaktus",
+      "en": "cactus"
+    },
     "sourceIndex": 16152
   },
   {
@@ -7479,6 +9235,10 @@ const phrasesFood = [
     "wordIds": [
       "26200"
     ],
+    "cloze": {
+      "de": "Pesto",
+      "en": "pesto"
+    },
     "sourceIndex": 16200
   },
   {
@@ -7496,6 +9256,10 @@ const phrasesFood = [
     "wordIds": [
       "26225"
     ],
+    "cloze": {
+      "de": "Rüssel",
+      "en": "elephant"
+    },
     "sourceIndex": 16225
   },
   {
@@ -7513,6 +9277,10 @@ const phrasesFood = [
     "wordIds": [
       "26326"
     ],
+    "cloze": {
+      "de": "aufessen",
+      "en": "eat"
+    },
     "sourceIndex": 16326
   },
   {
@@ -7530,6 +9298,10 @@ const phrasesFood = [
     "wordIds": [
       "26329"
     ],
+    "cloze": {
+      "de": "Kartoffelauflauf",
+      "en": "casserole"
+    },
     "sourceIndex": 16329
   },
   {
@@ -7547,6 +9319,10 @@ const phrasesFood = [
     "wordIds": [
       "26348"
     ],
+    "cloze": {
+      "de": "Brezel",
+      "en": "pretzel"
+    },
     "sourceIndex": 16348
   },
   {
@@ -7564,6 +9340,10 @@ const phrasesFood = [
     "wordIds": [
       "26354"
     ],
+    "cloze": {
+      "de": "dampft",
+      "en": "steaming"
+    },
     "sourceIndex": 16354
   },
   {
@@ -7581,6 +9361,10 @@ const phrasesFood = [
     "wordIds": [
       "26357"
     ],
+    "cloze": {
+      "de": "dazugeben",
+      "en": "add"
+    },
     "sourceIndex": 16357
   },
   {
@@ -7598,6 +9382,10 @@ const phrasesFood = [
     "wordIds": [
       "26362"
     ],
+    "cloze": {
+      "de": "durstig",
+      "en": "thirsty"
+    },
     "sourceIndex": 16362
   },
   {
@@ -7615,6 +9403,10 @@ const phrasesFood = [
     "wordIds": [
       "26426"
     ],
+    "cloze": {
+      "de": "Kiwi",
+      "en": "kiwi"
+    },
     "sourceIndex": 16426
   },
   {
@@ -7632,6 +9424,10 @@ const phrasesFood = [
     "wordIds": [
       "26444"
     ],
+    "cloze": {
+      "de": "Mittagstisch",
+      "en": "set"
+    },
     "sourceIndex": 16444
   },
   {
@@ -7649,6 +9445,10 @@ const phrasesFood = [
     "wordIds": [
       "26460"
     ],
+    "cloze": {
+      "de": "Parmesan",
+      "en": "Parmesan"
+    },
     "sourceIndex": 16460
   },
   {
@@ -7666,6 +9466,10 @@ const phrasesFood = [
     "wordIds": [
       "26499"
     ],
+    "cloze": {
+      "de": "Spritzer",
+      "en": "dash"
+    },
     "sourceIndex": 16499
   },
   {
@@ -7683,6 +9487,10 @@ const phrasesFood = [
     "wordIds": [
       "26567"
     ],
+    "cloze": {
+      "de": "Adventszeit",
+      "en": "Advent"
+    },
     "sourceIndex": 16567
   },
   {
@@ -7700,6 +9508,10 @@ const phrasesFood = [
     "wordIds": [
       "26590"
     ],
+    "cloze": {
+      "de": "Blumenkohl",
+      "en": "cauliflower"
+    },
     "sourceIndex": 16590
   },
   {
@@ -7717,6 +9529,10 @@ const phrasesFood = [
     "wordIds": [
       "26596"
     ],
+    "cloze": {
+      "de": "chilenischen",
+      "en": "Chilean"
+    },
     "sourceIndex": 16596
   },
   {
@@ -7734,6 +9550,10 @@ const phrasesFood = [
     "wordIds": [
       "26614"
     ],
+    "cloze": {
+      "de": "Erdnussbutter",
+      "en": "peanut"
+    },
     "sourceIndex": 16614
   },
   {
@@ -7751,6 +9571,10 @@ const phrasesFood = [
     "wordIds": [
       "26652"
     ],
+    "cloze": {
+      "de": "Himbeeren",
+      "en": "raspberries"
+    },
     "sourceIndex": 16652
   },
   {
@@ -7768,6 +9592,10 @@ const phrasesFood = [
     "wordIds": [
       "26674"
     ],
+    "cloze": {
+      "de": "Kelle",
+      "en": "ladle"
+    },
     "sourceIndex": 16674
   },
   {
@@ -7785,6 +9613,10 @@ const phrasesFood = [
     "wordIds": [
       "26702"
     ],
+    "cloze": {
+      "de": "naschen",
+      "en": "snack"
+    },
     "sourceIndex": 16702
   },
   {
@@ -7802,6 +9634,10 @@ const phrasesFood = [
     "wordIds": [
       "26799"
     ],
+    "cloze": {
+      "de": "Wintergarten",
+      "en": "conservatory"
+    },
     "sourceIndex": 16799
   },
   {
@@ -7819,6 +9655,10 @@ const phrasesFood = [
     "wordIds": [
       "26807"
     ],
+    "cloze": {
+      "de": "ölen",
+      "en": "oil"
+    },
     "sourceIndex": 16807
   },
   {
@@ -7836,6 +9676,10 @@ const phrasesFood = [
     "wordIds": [
       "26857"
     ],
+    "cloze": {
+      "de": "essbar",
+      "en": "edible"
+    },
     "sourceIndex": 16857
   },
   {
@@ -7853,6 +9697,10 @@ const phrasesFood = [
     "wordIds": [
       "26859"
     ],
+    "cloze": {
+      "de": "Stoff",
+      "en": "coloring"
+    },
     "sourceIndex": 16859
   },
   {
@@ -7870,6 +9718,10 @@ const phrasesFood = [
     "wordIds": [
       "26889"
     ],
+    "cloze": {
+      "de": "Kaffeehaus",
+      "en": "coffee"
+    },
     "sourceIndex": 16889
   },
   {
@@ -7887,6 +9739,10 @@ const phrasesFood = [
     "wordIds": [
       "26909"
     ],
+    "cloze": {
+      "de": "Kümmel",
+      "en": "caraway"
+    },
     "sourceIndex": 16909
   },
   {
@@ -7904,6 +9760,10 @@ const phrasesFood = [
     "wordIds": [
       "26925"
     ],
+    "cloze": {
+      "de": "mahlt",
+      "en": "grinds"
+    },
     "sourceIndex": 16925
   },
   {
@@ -7921,6 +9781,10 @@ const phrasesFood = [
     "wordIds": [
       "26955"
     ],
+    "cloze": {
+      "de": "pakistanisches",
+      "en": "Pakistani"
+    },
     "sourceIndex": 16955
   },
   {
@@ -7938,6 +9802,10 @@ const phrasesFood = [
     "wordIds": [
       "26979"
     ],
+    "cloze": {
+      "de": "Rührei",
+      "en": "scrambled"
+    },
     "sourceIndex": 16979
   },
   {
@@ -7955,6 +9823,10 @@ const phrasesFood = [
     "wordIds": [
       "26997"
     ],
+    "cloze": {
+      "de": "Speiseplan",
+      "en": "menu"
+    },
     "sourceIndex": 16997
   },
   {
@@ -7972,6 +9844,10 @@ const phrasesFood = [
     "wordIds": [
       "27105"
     ],
+    "cloze": {
+      "de": "Chai",
+      "en": "chai"
+    },
     "sourceIndex": 17105
   },
   {
@@ -7989,6 +9865,10 @@ const phrasesFood = [
     "wordIds": [
       "27136"
     ],
+    "cloze": {
+      "de": "Erdnüsse",
+      "en": "peanuts"
+    },
     "sourceIndex": 17136
   },
   {
@@ -8006,6 +9886,10 @@ const phrasesFood = [
     "wordIds": [
       "27153"
     ],
+    "cloze": {
+      "de": "gefilterte",
+      "en": "filtered"
+    },
     "sourceIndex": 17153
   },
   {
@@ -8023,6 +9907,10 @@ const phrasesFood = [
     "wordIds": [
       "27203"
     ],
+    "cloze": {
+      "de": "Leberwurst",
+      "en": "liver"
+    },
     "sourceIndex": 17203
   },
   {
@@ -8040,6 +9928,10 @@ const phrasesFood = [
     "wordIds": [
       "27209"
     ],
+    "cloze": {
+      "de": "Mayonnaise",
+      "en": "mayonnaise"
+    },
     "sourceIndex": 17209
   },
   {
@@ -8057,6 +9949,10 @@ const phrasesFood = [
     "wordIds": [
       "27267"
     ],
+    "cloze": {
+      "de": "Taschenmesser",
+      "en": "pocket"
+    },
     "sourceIndex": 17267
   },
   {
@@ -8074,6 +9970,10 @@ const phrasesFood = [
     "wordIds": [
       "27369"
     ],
+    "cloze": {
+      "de": "Cornflakes",
+      "en": "cornflakes"
+    },
     "sourceIndex": 17369
   },
   {
@@ -8091,6 +9991,10 @@ const phrasesFood = [
     "wordIds": [
       "27404"
     ],
+    "cloze": {
+      "de": "Forelle",
+      "en": "trout"
+    },
     "sourceIndex": 17404
   },
   {
@@ -8108,6 +10012,10 @@ const phrasesFood = [
     "wordIds": [
       "27406"
     ],
+    "cloze": {
+      "de": "Frischkäse",
+      "en": "cream"
+    },
     "sourceIndex": 17406
   },
   {
@@ -8125,6 +10033,10 @@ const phrasesFood = [
     "wordIds": [
       "27477"
     ],
+    "cloze": {
+      "de": "Likör",
+      "en": "liqueur"
+    },
     "sourceIndex": 17477
   },
   {
@@ -8142,6 +10054,10 @@ const phrasesFood = [
     "wordIds": [
       "27490"
     ],
+    "cloze": {
+      "de": "mitgebrachte",
+      "en": "brought"
+    },
     "sourceIndex": 17490
   },
   {
@@ -8159,6 +10075,10 @@ const phrasesFood = [
     "wordIds": [
       "27496"
     ],
+    "cloze": {
+      "de": "Mozzarella",
+      "en": "mozzarella"
+    },
     "sourceIndex": 17496
   },
   {
@@ -8176,6 +10096,10 @@ const phrasesFood = [
     "wordIds": [
       "27590"
     ],
+    "cloze": {
+      "de": "Weissbrot",
+      "en": "white"
+    },
     "sourceIndex": 17590
   },
   {
@@ -8193,6 +10117,10 @@ const phrasesFood = [
     "wordIds": [
       "27620"
     ],
+    "cloze": {
+      "de": "Apfelkuchen",
+      "en": "apple"
+    },
     "sourceIndex": 17620
   },
   {
@@ -8210,6 +10138,10 @@ const phrasesFood = [
     "wordIds": [
       "27629"
     ],
+    "cloze": {
+      "de": "aufschneiden",
+      "en": "cut"
+    },
     "sourceIndex": 17629
   },
   {
@@ -8227,6 +10159,10 @@ const phrasesFood = [
     "wordIds": [
       "27723"
     ],
+    "cloze": {
+      "de": "klebrig",
+      "en": "sticky"
+    },
     "sourceIndex": 17723
   },
   {
@@ -8244,6 +10180,10 @@ const phrasesFood = [
     "wordIds": [
       "27790"
     ],
+    "cloze": {
+      "de": "Sellerie",
+      "en": "celery"
+    },
     "sourceIndex": 17790
   },
   {
@@ -8261,6 +10201,10 @@ const phrasesFood = [
     "wordIds": [
       "27811"
     ],
+    "cloze": {
+      "de": "thailändisches",
+      "en": "Thai"
+    },
     "sourceIndex": 17811
   },
   {
@@ -8278,6 +10222,10 @@ const phrasesFood = [
     "wordIds": [
       "27838"
     ],
+    "cloze": {
+      "de": "Wasserkocher",
+      "en": "electric"
+    },
     "sourceIndex": 17838
   },
   {
@@ -8295,6 +10243,10 @@ const phrasesFood = [
     "wordIds": [
       "27923"
     ],
+    "cloze": {
+      "de": "garnieren",
+      "en": "garnish"
+    },
     "sourceIndex": 17923
   },
   {
@@ -8312,6 +10264,10 @@ const phrasesFood = [
     "wordIds": [
       "27968"
     ],
+    "cloze": {
+      "de": "Knödel",
+      "en": "dumplings"
+    },
     "sourceIndex": 17968
   },
   {
@@ -8329,6 +10285,10 @@ const phrasesFood = [
     "wordIds": [
       "27972"
     ],
+    "cloze": {
+      "de": "Konserven",
+      "en": "canned"
+    },
     "sourceIndex": 17972
   },
   {
@@ -8346,6 +10306,10 @@ const phrasesFood = [
     "wordIds": [
       "28027"
     ],
+    "cloze": {
+      "de": "Schlachter",
+      "en": "butcher"
+    },
     "sourceIndex": 18027
   },
   {
@@ -8363,6 +10327,10 @@ const phrasesFood = [
     "wordIds": [
       "28122"
     ],
+    "cloze": {
+      "de": "Bratkartoffeln",
+      "en": "fried"
+    },
     "sourceIndex": 18122
   },
   {
@@ -8380,6 +10348,10 @@ const phrasesFood = [
     "wordIds": [
       "28173"
     ],
+    "cloze": {
+      "de": "grünliche",
+      "en": "greenish"
+    },
     "sourceIndex": 18173
   },
   {
@@ -8397,6 +10369,10 @@ const phrasesFood = [
     "wordIds": [
       "28197"
     ],
+    "cloze": {
+      "de": "Krabbe",
+      "en": "crab"
+    },
     "sourceIndex": 18197
   },
   {
@@ -8414,6 +10390,10 @@ const phrasesFood = [
     "wordIds": [
       "28217"
     ],
+    "cloze": {
+      "de": "Mitnahme",
+      "en": "taking"
+    },
     "sourceIndex": 18217
   },
   {
@@ -8431,6 +10411,10 @@ const phrasesFood = [
     "wordIds": [
       "28257"
     ],
+    "cloze": {
+      "de": "Rohöl",
+      "en": "crude"
+    },
     "sourceIndex": 18257
   },
   {
@@ -8448,6 +10432,10 @@ const phrasesFood = [
     "wordIds": [
       "28258"
     ],
+    "cloze": {
+      "de": "Rosé",
+      "en": "rosé"
+    },
     "sourceIndex": 18258
   },
   {
@@ -8465,6 +10453,10 @@ const phrasesFood = [
     "wordIds": [
       "28383"
     ],
+    "cloze": {
+      "de": "Champignons",
+      "en": "mushrooms"
+    },
     "sourceIndex": 18383
   },
   {
@@ -8482,6 +10474,10 @@ const phrasesFood = [
     "wordIds": [
       "28463"
     ],
+    "cloze": {
+      "de": "Kalzium",
+      "en": "calcium"
+    },
     "sourceIndex": 18463
   },
   {
@@ -8499,6 +10495,10 @@ const phrasesFood = [
     "wordIds": [
       "28470"
     ],
+    "cloze": {
+      "de": "Knacker",
+      "en": "sausage"
+    },
     "sourceIndex": 18470
   },
   {
@@ -8516,6 +10516,10 @@ const phrasesFood = [
     "wordIds": [
       "28471"
     ],
+    "cloze": {
+      "de": "kneten",
+      "en": "knead"
+    },
     "sourceIndex": 18471
   },
   {
@@ -8533,6 +10537,10 @@ const phrasesFood = [
     "wordIds": [
       "28482"
     ],
+    "cloze": {
+      "de": "libanesisches",
+      "en": "Lebanese"
+    },
     "sourceIndex": 18482
   },
   {
@@ -8550,6 +10558,10 @@ const phrasesFood = [
     "wordIds": [
       "28543"
     ],
+    "cloze": {
+      "de": "Rosmarin",
+      "en": "Rosemary"
+    },
     "sourceIndex": 18543
   },
   {
@@ -8567,6 +10579,10 @@ const phrasesFood = [
     "wordIds": [
       "28556"
     ],
+    "cloze": {
+      "de": "Semmeln",
+      "en": "bread"
+    },
     "sourceIndex": 18556
   },
   {
@@ -8584,6 +10600,10 @@ const phrasesFood = [
     "wordIds": [
       "28615"
     ],
+    "cloze": {
+      "de": "Weintrauben",
+      "en": "grapes"
+    },
     "sourceIndex": 18615
   },
   {
@@ -8601,6 +10621,10 @@ const phrasesFood = [
     "wordIds": [
       "28619"
     ],
+    "cloze": {
+      "de": "Zitronensaft",
+      "en": "lemon"
+    },
     "sourceIndex": 18619
   },
   {
@@ -8618,6 +10642,10 @@ const phrasesFood = [
     "wordIds": [
       "28695"
     ],
+    "cloze": {
+      "de": "gekochtes",
+      "en": "cooked"
+    },
     "sourceIndex": 18695
   },
   {
@@ -8635,6 +10663,10 @@ const phrasesFood = [
     "wordIds": [
       "28732"
     ],
+    "cloze": {
+      "de": "kolumbianischen",
+      "en": "Colombian"
+    },
     "sourceIndex": 18732
   },
   {
@@ -8652,6 +10684,10 @@ const phrasesFood = [
     "wordIds": [
       "28740"
     ],
+    "cloze": {
+      "de": "Kuhmilch",
+      "en": "cow's"
+    },
     "sourceIndex": 18740
   },
   {
@@ -8669,6 +10705,10 @@ const phrasesFood = [
     "wordIds": [
       "28760"
     ],
+    "cloze": {
+      "de": "mixen",
+      "en": "mix"
+    },
     "sourceIndex": 18760
   },
   {
@@ -8686,6 +10726,10 @@ const phrasesFood = [
     "wordIds": [
       "28913"
     ],
+    "cloze": {
+      "de": "Bierflasche",
+      "en": "beer"
+    },
     "sourceIndex": 18913
   },
   {
@@ -8703,6 +10747,10 @@ const phrasesFood = [
     "wordIds": [
       "28920"
     ],
+    "cloze": {
+      "de": "Budapester",
+      "en": "Budapester"
+    },
     "sourceIndex": 18920
   },
   {
@@ -8720,6 +10768,10 @@ const phrasesFood = [
     "wordIds": [
       "28930"
     ],
+    "cloze": {
+      "de": "Dienerin",
+      "en": "female"
+    },
     "sourceIndex": 18930
   },
   {
@@ -8737,6 +10789,10 @@ const phrasesFood = [
     "wordIds": [
       "28957"
     ],
+    "cloze": {
+      "de": "farblos",
+      "en": "colorless"
+    },
     "sourceIndex": 18957
   },
   {
@@ -8754,6 +10810,10 @@ const phrasesFood = [
     "wordIds": [
       "29022"
     ],
+    "cloze": {
+      "de": "Kokos",
+      "en": "coconut"
+    },
     "sourceIndex": 19022
   },
   {
@@ -8771,6 +10831,10 @@ const phrasesFood = [
     "wordIds": [
       "29104"
     ],
+    "cloze": {
+      "de": "Splash",
+      "en": "splash"
+    },
     "sourceIndex": 19104
   },
   {
@@ -8788,6 +10852,10 @@ const phrasesFood = [
     "wordIds": [
       "29122"
     ],
+    "cloze": {
+      "de": "Thymian",
+      "en": "thyme"
+    },
     "sourceIndex": 19122
   },
   {
@@ -8805,6 +10873,10 @@ const phrasesFood = [
     "wordIds": [
       "29127"
     ],
+    "cloze": {
+      "de": "Trüffel",
+      "en": "truffle"
+    },
     "sourceIndex": 19127
   },
   {
@@ -8822,6 +10894,10 @@ const phrasesFood = [
     "wordIds": [
       "29286"
     ],
+    "cloze": {
+      "de": "Haselnüssen",
+      "en": "hazelnuts"
+    },
     "sourceIndex": 19286
   },
   {
@@ -8839,6 +10915,10 @@ const phrasesFood = [
     "wordIds": [
       "29440"
     ],
+    "cloze": {
+      "de": "verdampfen",
+      "en": "evaporate"
+    },
     "sourceIndex": 19440
   },
   {
@@ -8856,6 +10936,10 @@ const phrasesFood = [
     "wordIds": [
       "29487"
     ],
+    "cloze": {
+      "de": "aufgeschnittene",
+      "en": "sliced"
+    },
     "sourceIndex": 19487
   },
   {
@@ -8873,6 +10957,10 @@ const phrasesFood = [
     "wordIds": [
       "29545"
     ],
+    "cloze": {
+      "de": "fettig",
+      "en": "greasy"
+    },
     "sourceIndex": 19545
   },
   {
@@ -8890,6 +10978,10 @@ const phrasesFood = [
     "wordIds": [
       "29556"
     ],
+    "cloze": {
+      "de": "fruchtigen",
+      "en": "fruity"
+    },
     "sourceIndex": 19556
   },
   {
@@ -8907,6 +10999,10 @@ const phrasesFood = [
     "wordIds": [
       "29651"
     ],
+    "cloze": {
+      "de": "Rahm",
+      "en": "cream"
+    },
     "sourceIndex": 19651
   },
   {
@@ -8924,6 +11020,10 @@ const phrasesFood = [
     "wordIds": [
       "29732"
     ],
+    "cloze": {
+      "de": "vietnamesisches",
+      "en": "Vietnamese"
+    },
     "sourceIndex": 19732
   },
   {
@@ -8941,6 +11041,10 @@ const phrasesFood = [
     "wordIds": [
       "29959"
     ],
+    "cloze": {
+      "de": "im",
+      "en": "shimmered"
+    },
     "sourceIndex": 19959
   },
   {
@@ -8958,6 +11062,10 @@ const phrasesFood = [
     "wordIds": [
       "30002"
     ],
+    "cloze": {
+      "de": "Truthahn",
+      "en": "turkey"
+    },
     "sourceIndex": 20002
   },
   {
@@ -8975,6 +11083,10 @@ const phrasesFood = [
     "wordIds": [
       "30040"
     ],
+    "cloze": {
+      "de": "Weissbier",
+      "en": "wheat"
+    },
     "sourceIndex": 20040
   },
   {
@@ -8992,6 +11104,10 @@ const phrasesFood = [
     "wordIds": [
       "30151"
     ],
+    "cloze": {
+      "de": "Glasur",
+      "en": "glaze"
+    },
     "sourceIndex": 20151
   },
   {
@@ -9009,6 +11125,10 @@ const phrasesFood = [
     "wordIds": [
       "30191"
     ],
+    "cloze": {
+      "de": "Küchenmesser",
+      "en": "kitchen"
+    },
     "sourceIndex": 20191
   },
   {
@@ -9026,6 +11146,10 @@ const phrasesFood = [
     "wordIds": [
       "30229"
     ],
+    "cloze": {
+      "de": "philippinische",
+      "en": "Philippine"
+    },
     "sourceIndex": 20229
   },
   {
@@ -9043,6 +11167,10 @@ const phrasesFood = [
     "wordIds": [
       "30249"
     ],
+    "cloze": {
+      "de": "schlürfte",
+      "en": "slurped"
+    },
     "sourceIndex": 20249
   }
 ];

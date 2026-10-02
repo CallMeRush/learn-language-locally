@@ -14,6 +14,10 @@ const phrasesPeople = [
     "wordIds": [
       "10033"
     ],
+    "cloze": {
+      "de": "Mensch",
+      "en": "human"
+    },
     "sourceIndex": 33
   },
   {
@@ -31,6 +35,10 @@ const phrasesPeople = [
     "wordIds": [
       "10073"
     ],
+    "cloze": {
+      "de": "Leute",
+      "en": "people"
+    },
     "sourceIndex": 73
   },
   {
@@ -48,6 +56,10 @@ const phrasesPeople = [
     "wordIds": [
       "10079"
     ],
+    "cloze": {
+      "de": "Kind",
+      "en": "child"
+    },
     "sourceIndex": 79
   },
   {
@@ -65,6 +77,10 @@ const phrasesPeople = [
     "wordIds": [
       "10094"
     ],
+    "cloze": {
+      "de": "Paar",
+      "en": "couple"
+    },
     "sourceIndex": 94
   },
   {
@@ -82,6 +98,10 @@ const phrasesPeople = [
     "wordIds": [
       "10098"
     ],
+    "cloze": {
+      "de": "zusammen",
+      "en": "together"
+    },
     "sourceIndex": 98
   },
   {
@@ -100,6 +120,10 @@ const phrasesPeople = [
       "10115",
       "19165"
     ],
+    "cloze": {
+      "de": "heiße",
+      "en": "is"
+    },
     "sourceIndex": 115
   },
   {
@@ -117,6 +141,10 @@ const phrasesPeople = [
     "wordIds": [
       "10120"
     ],
+    "cloze": {
+      "de": "gehört",
+      "en": "belongs"
+    },
     "sourceIndex": 120
   },
   {
@@ -134,6 +162,10 @@ const phrasesPeople = [
     "wordIds": [
       "10136"
     ],
+    "cloze": {
+      "de": "Familie",
+      "en": "family"
+    },
     "sourceIndex": 136
   },
   {
@@ -151,6 +183,10 @@ const phrasesPeople = [
     "wordIds": [
       "10157"
     ],
+    "cloze": {
+      "de": "Name",
+      "en": "name"
+    },
     "sourceIndex": 157
   },
   {
@@ -168,6 +204,10 @@ const phrasesPeople = [
     "wordIds": [
       "10200"
     ],
+    "cloze": {
+      "de": "Person",
+      "en": "person"
+    },
     "sourceIndex": 200
   },
   {
@@ -185,6 +225,10 @@ const phrasesPeople = [
     "wordIds": [
       "10206"
     ],
+    "cloze": {
+      "de": "starker",
+      "en": "strong"
+    },
     "sourceIndex": 206
   },
   {
@@ -202,6 +246,10 @@ const phrasesPeople = [
     "wordIds": [
       "10215"
     ],
+    "cloze": {
+      "de": "Mutter",
+      "en": "mother"
+    },
     "sourceIndex": 215
   },
   {
@@ -219,6 +267,10 @@ const phrasesPeople = [
     "wordIds": [
       "10230"
     ],
+    "cloze": {
+      "de": "Herr",
+      "en": "Mr"
+    },
     "sourceIndex": 230
   },
   {
@@ -236,6 +288,10 @@ const phrasesPeople = [
     "wordIds": [
       "10250"
     ],
+    "cloze": {
+      "de": "Sohn",
+      "en": "son"
+    },
     "sourceIndex": 250
   },
   {
@@ -253,6 +309,10 @@ const phrasesPeople = [
     "wordIds": [
       "10257"
     ],
+    "cloze": {
+      "de": "Mädchen",
+      "en": "girl"
+    },
     "sourceIndex": 257
   },
   {
@@ -270,6 +330,10 @@ const phrasesPeople = [
     "wordIds": [
       "10258"
     ],
+    "cloze": {
+      "de": "Vater",
+      "en": "father"
+    },
     "sourceIndex": 258
   },
   {
@@ -287,6 +351,10 @@ const phrasesPeople = [
     "wordIds": [
       "10275"
     ],
+    "cloze": {
+      "de": "Freund",
+      "en": "friend"
+    },
     "sourceIndex": 275
   },
   {
@@ -304,6 +372,10 @@ const phrasesPeople = [
     "wordIds": [
       "10310"
     ],
+    "cloze": {
+      "de": "ebenso",
+      "en": "just"
+    },
     "sourceIndex": 310
   },
   {
@@ -321,6 +393,10 @@ const phrasesPeople = [
     "wordIds": [
       "10316"
     ],
+    "cloze": {
+      "de": "Junge",
+      "en": "boy"
+    },
     "sourceIndex": 316
   },
   {
@@ -338,6 +414,10 @@ const phrasesPeople = [
     "wordIds": [
       "10353"
     ],
+    "cloze": {
+      "de": "Sex",
+      "en": "sex"
+    },
     "sourceIndex": 353
   },
   {
@@ -355,6 +435,10 @@ const phrasesPeople = [
     "wordIds": [
       "10356"
     ],
+    "cloze": {
+      "de": "Tochter",
+      "en": "daughter"
+    },
     "sourceIndex": 356
   },
   {
@@ -372,6 +456,10 @@ const phrasesPeople = [
     "wordIds": [
       "10360"
     ],
+    "cloze": {
+      "de": "kenne",
+      "en": "know"
+    },
     "sourceIndex": 360
   },
   {
@@ -389,6 +477,10 @@ const phrasesPeople = [
     "wordIds": [
       "10373"
     ],
+    "cloze": {
+      "de": "Menge",
+      "en": "crowd"
+    },
     "sourceIndex": 373
   },
   {
@@ -406,6 +498,10 @@ const phrasesPeople = [
     "wordIds": [
       "10416"
     ],
+    "cloze": {
+      "de": "König",
+      "en": "king"
+    },
     "sourceIndex": 416
   },
   {
@@ -423,6 +519,10 @@ const phrasesPeople = [
     "wordIds": [
       "10422"
     ],
+    "cloze": {
+      "de": "Bruder",
+      "en": "brother"
+    },
     "sourceIndex": 422
   },
   {
@@ -440,6 +540,10 @@ const phrasesPeople = [
     "wordIds": [
       "10440"
     ],
+    "cloze": {
+      "de": "Bevölkerung",
+      "en": "population"
+    },
     "sourceIndex": 440
   },
   {
@@ -457,6 +561,10 @@ const phrasesPeople = [
     "wordIds": [
       "10446"
     ],
+    "cloze": {
+      "de": "Mitglied",
+      "en": "member"
+    },
     "sourceIndex": 446
   },
   {
@@ -474,6 +582,10 @@ const phrasesPeople = [
     "wordIds": [
       "10458"
     ],
+    "cloze": {
+      "de": "Freundin",
+      "en": "girlfriend"
+    },
     "sourceIndex": 458
   },
   {
@@ -491,6 +603,10 @@ const phrasesPeople = [
     "wordIds": [
       "10522"
     ],
+    "cloze": {
+      "de": "Unterstützung",
+      "en": "support"
+    },
     "sourceIndex": 522
   },
   {
@@ -508,6 +624,10 @@ const phrasesPeople = [
     "wordIds": [
       "10577"
     ],
+    "cloze": {
+      "de": "Ehe",
+      "en": "marriage"
+    },
     "sourceIndex": 577
   },
   {
@@ -525,6 +645,10 @@ const phrasesPeople = [
     "wordIds": [
       "10593"
     ],
+    "cloze": {
+      "de": "aktive",
+      "en": "active"
+    },
     "sourceIndex": 593
   },
   {
@@ -542,6 +666,10 @@ const phrasesPeople = [
     "wordIds": [
       "10658"
     ],
+    "cloze": {
+      "de": "Volk",
+      "en": "people"
+    },
     "sourceIndex": 658
   },
   {
@@ -559,6 +687,10 @@ const phrasesPeople = [
     "wordIds": [
       "10703"
     ],
+    "cloze": {
+      "de": "Jugend",
+      "en": "youth"
+    },
     "sourceIndex": 703
   },
   {
@@ -576,6 +708,10 @@ const phrasesPeople = [
     "wordIds": [
       "10737"
     ],
+    "cloze": {
+      "de": "Partner",
+      "en": "partner"
+    },
     "sourceIndex": 737
   },
   {
@@ -593,6 +729,10 @@ const phrasesPeople = [
     "wordIds": [
       "10751"
     ],
+    "cloze": {
+      "de": "Beziehung",
+      "en": "relationship"
+    },
     "sourceIndex": 751
   },
   {
@@ -610,6 +750,10 @@ const phrasesPeople = [
     "wordIds": [
       "10762"
     ],
+    "cloze": {
+      "de": "sozialer",
+      "en": "social"
+    },
     "sourceIndex": 762
   },
   {
@@ -627,6 +771,10 @@ const phrasesPeople = [
     "wordIds": [
       "10768"
     ],
+    "cloze": {
+      "de": "Dame",
+      "en": "lady"
+    },
     "sourceIndex": 768
   },
   {
@@ -644,6 +792,10 @@ const phrasesPeople = [
     "wordIds": [
       "10793"
     ],
+    "cloze": {
+      "de": "Schwester",
+      "en": "sister"
+    },
     "sourceIndex": 793
   },
   {
@@ -661,6 +813,10 @@ const phrasesPeople = [
     "wordIds": [
       "10881"
     ],
+    "cloze": {
+      "de": "erlauben",
+      "en": "allow"
+    },
     "sourceIndex": 881
   },
   {
@@ -678,6 +834,10 @@ const phrasesPeople = [
     "wordIds": [
       "10886"
     ],
+    "cloze": {
+      "de": "Gast",
+      "en": "guest"
+    },
     "sourceIndex": 886
   },
   {
@@ -695,6 +855,10 @@ const phrasesPeople = [
     "wordIds": [
       "10887"
     ],
+    "cloze": {
+      "de": "Heimat",
+      "en": "homeland"
+    },
     "sourceIndex": 887
   },
   {
@@ -712,6 +876,10 @@ const phrasesPeople = [
     "wordIds": [
       "10902"
     ],
+    "cloze": {
+      "de": "Bezug",
+      "en": "reference"
+    },
     "sourceIndex": 902
   },
   {
@@ -729,6 +897,10 @@ const phrasesPeople = [
     "wordIds": [
       "10918"
     ],
+    "cloze": {
+      "de": "Baby",
+      "en": "baby"
+    },
     "sourceIndex": 918
   },
   {
@@ -746,6 +918,10 @@ const phrasesPeople = [
     "wordIds": [
       "10945"
     ],
+    "cloze": {
+      "de": "nette",
+      "en": "nice"
+    },
     "sourceIndex": 945
   },
   {
@@ -763,6 +939,10 @@ const phrasesPeople = [
     "wordIds": [
       "10989"
     ],
+    "cloze": {
+      "de": "Ma",
+      "en": "Mom"
+    },
     "sourceIndex": 989
   },
   {
@@ -780,6 +960,10 @@ const phrasesPeople = [
     "wordIds": [
       "10990"
     ],
+    "cloze": {
+      "de": "Mama",
+      "en": "Mom"
+    },
     "sourceIndex": 990
   },
   {
@@ -797,6 +981,10 @@ const phrasesPeople = [
     "wordIds": [
       "10991"
     ],
+    "cloze": {
+      "de": "Not",
+      "en": "need"
+    },
     "sourceIndex": 991
   },
   {
@@ -814,6 +1002,10 @@ const phrasesPeople = [
     "wordIds": [
       "11008"
     ],
+    "cloze": {
+      "de": "besuchen",
+      "en": "visit"
+    },
     "sourceIndex": 1008
   },
   {
@@ -831,6 +1023,10 @@ const phrasesPeople = [
     "wordIds": [
       "11046"
     ],
+    "cloze": {
+      "de": "Verhältnis",
+      "en": "relationship"
+    },
     "sourceIndex": 1046
   },
   {
@@ -848,6 +1044,10 @@ const phrasesPeople = [
     "wordIds": [
       "11054"
     ],
+    "cloze": {
+      "de": "Erinnerungen",
+      "en": "I"
+    },
     "sourceIndex": 1054
   },
   {
@@ -865,6 +1065,10 @@ const phrasesPeople = [
     "wordIds": [
       "11097"
     ],
+    "cloze": {
+      "de": "Besucher",
+      "en": "visitor"
+    },
     "sourceIndex": 1097
   },
   {
@@ -882,6 +1086,10 @@ const phrasesPeople = [
     "wordIds": [
       "11162"
     ],
+    "cloze": {
+      "de": "Nachbar",
+      "en": "neighbor"
+    },
     "sourceIndex": 1162
   },
   {
@@ -899,6 +1107,10 @@ const phrasesPeople = [
     "wordIds": [
       "11179"
     ],
+    "cloze": {
+      "de": "Charakter",
+      "en": "character"
+    },
     "sourceIndex": 1179
   },
   {
@@ -916,6 +1128,10 @@ const phrasesPeople = [
     "wordIds": [
       "11248"
     ],
+    "cloze": {
+      "de": "Anhänger",
+      "en": "supporter"
+    },
     "sourceIndex": 1248
   },
   {
@@ -933,6 +1149,10 @@ const phrasesPeople = [
     "wordIds": [
       "11278"
     ],
+    "cloze": {
+      "de": "Amerikaner",
+      "en": "American"
+    },
     "sourceIndex": 1278
   },
   {
@@ -950,6 +1170,10 @@ const phrasesPeople = [
     "wordIds": [
       "11331"
     ],
+    "cloze": {
+      "de": "Figur",
+      "en": "character"
+    },
     "sourceIndex": 1331
   },
   {
@@ -967,6 +1191,10 @@ const phrasesPeople = [
     "wordIds": [
       "11344"
     ],
+    "cloze": {
+      "de": "Teilnahme",
+      "en": "Participation"
+    },
     "sourceIndex": 1344
   },
   {
@@ -984,6 +1212,10 @@ const phrasesPeople = [
     "wordIds": [
       "11394"
     ],
+    "cloze": {
+      "de": "Gemeinschaft",
+      "en": "community"
+    },
     "sourceIndex": 1394
   },
   {
@@ -1001,6 +1233,10 @@ const phrasesPeople = [
     "wordIds": [
       "11411"
     ],
+    "cloze": {
+      "de": "abhängig",
+      "en": "dependent"
+    },
     "sourceIndex": 1411
   },
   {
@@ -1018,6 +1254,10 @@ const phrasesPeople = [
     "wordIds": [
       "11433"
     ],
+    "cloze": {
+      "de": "verheiraten",
+      "en": "marry"
+    },
     "sourceIndex": 1433
   },
   {
@@ -1035,6 +1275,10 @@ const phrasesPeople = [
     "wordIds": [
       "11450"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "serious"
+    },
     "sourceIndex": 1450
   },
   {
@@ -1052,6 +1296,10 @@ const phrasesPeople = [
     "wordIds": [
       "11497"
     ],
+    "cloze": {
+      "de": "Oma",
+      "en": "grandma"
+    },
     "sourceIndex": 1497
   },
   {
@@ -1069,6 +1317,10 @@ const phrasesPeople = [
     "wordIds": [
       "11530"
     ],
+    "cloze": {
+      "de": "Hochzeit",
+      "en": "wedding"
+    },
     "sourceIndex": 1530
   },
   {
@@ -1086,6 +1338,10 @@ const phrasesPeople = [
     "wordIds": [
       "11550"
     ],
+    "cloze": {
+      "de": "Online-Community",
+      "en": "community"
+    },
     "sourceIndex": 1550
   },
   {
@@ -1103,6 +1359,10 @@ const phrasesPeople = [
     "wordIds": [
       "11595"
     ],
+    "cloze": {
+      "de": "Königin",
+      "en": "queen"
+    },
     "sourceIndex": 1595
   },
   {
@@ -1120,6 +1380,10 @@ const phrasesPeople = [
     "wordIds": [
       "11604"
     ],
+    "cloze": {
+      "de": "Papa",
+      "en": "dad"
+    },
     "sourceIndex": 1604
   },
   {
@@ -1137,6 +1401,10 @@ const phrasesPeople = [
     "wordIds": [
       "11663"
     ],
+    "cloze": {
+      "de": "freundliche",
+      "en": "friendly"
+    },
     "sourceIndex": 1663
   },
   {
@@ -1154,6 +1422,10 @@ const phrasesPeople = [
     "wordIds": [
       "11664"
     ],
+    "cloze": {
+      "de": "Freundschaft",
+      "en": "friendship"
+    },
     "sourceIndex": 1664
   },
   {
@@ -1171,6 +1443,10 @@ const phrasesPeople = [
     "wordIds": [
       "11681"
     ],
+    "cloze": {
+      "de": "Prinz",
+      "en": "prince"
+    },
     "sourceIndex": 1681
   },
   {
@@ -1188,6 +1464,10 @@ const phrasesPeople = [
     "wordIds": [
       "11788"
     ],
+    "cloze": {
+      "de": "Erwachsener",
+      "en": "adult"
+    },
     "sourceIndex": 1788
   },
   {
@@ -1205,6 +1485,10 @@ const phrasesPeople = [
     "wordIds": [
       "11792"
     ],
+    "cloze": {
+      "de": "Geschlecht",
+      "en": "gender"
+    },
     "sourceIndex": 1792
   },
   {
@@ -1222,6 +1506,10 @@ const phrasesPeople = [
     "wordIds": [
       "11872"
     ],
+    "cloze": {
+      "de": "vermisse",
+      "en": "miss"
+    },
     "sourceIndex": 1872
   },
   {
@@ -1239,6 +1527,10 @@ const phrasesPeople = [
     "wordIds": [
       "11896"
     ],
+    "cloze": {
+      "de": "King",
+      "en": "King"
+    },
     "sourceIndex": 1896
   },
   {
@@ -1256,6 +1548,10 @@ const phrasesPeople = [
     "wordIds": [
       "11928"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "fair"
+    },
     "sourceIndex": 1928
   },
   {
@@ -1273,6 +1569,10 @@ const phrasesPeople = [
     "wordIds": [
       "11937"
     ],
+    "cloze": {
+      "de": "menschliche",
+      "en": "human"
+    },
     "sourceIndex": 1937
   },
   {
@@ -1290,6 +1590,10 @@ const phrasesPeople = [
     "wordIds": [
       "11945"
     ],
+    "cloze": {
+      "de": "Schatz",
+      "en": "treasure"
+    },
     "sourceIndex": 1945
   },
   {
@@ -1307,6 +1611,10 @@ const phrasesPeople = [
     "wordIds": [
       "11979"
     ],
+    "cloze": {
+      "de": "Trennung",
+      "en": "separation"
+    },
     "sourceIndex": 1979
   },
   {
@@ -1324,6 +1632,10 @@ const phrasesPeople = [
     "wordIds": [
       "12007"
     ],
+    "cloze": {
+      "de": "Kindheit",
+      "en": "childhood"
+    },
     "sourceIndex": 2007
   },
   {
@@ -1341,6 +1653,10 @@ const phrasesPeople = [
     "wordIds": [
       "12011"
     ],
+    "cloze": {
+      "de": "Lady",
+      "en": "lady"
+    },
     "sourceIndex": 2011
   },
   {
@@ -1358,6 +1674,10 @@ const phrasesPeople = [
     "wordIds": [
       "12050"
     ],
+    "cloze": {
+      "de": "Krone",
+      "en": "crown"
+    },
     "sourceIndex": 2050
   },
   {
@@ -1375,6 +1695,10 @@ const phrasesPeople = [
     "wordIds": [
       "12057"
     ],
+    "cloze": {
+      "de": "Russe",
+      "en": "Russian"
+    },
     "sourceIndex": 2057
   },
   {
@@ -1392,6 +1716,10 @@ const phrasesPeople = [
     "wordIds": [
       "12113"
     ],
+    "cloze": {
+      "de": "Ausländer",
+      "en": "foreigners"
+    },
     "sourceIndex": 2113
   },
   {
@@ -1409,6 +1737,10 @@ const phrasesPeople = [
     "wordIds": [
       "12119"
     ],
+    "cloze": {
+      "de": "Ehefrau",
+      "en": "wife"
+    },
     "sourceIndex": 2119
   },
   {
@@ -1426,6 +1758,10 @@ const phrasesPeople = [
     "wordIds": [
       "12133"
     ],
+    "cloze": {
+      "de": "Prinzessin",
+      "en": "princess"
+    },
     "sourceIndex": 2133
   },
   {
@@ -1443,6 +1779,10 @@ const phrasesPeople = [
     "wordIds": [
       "12170"
     ],
+    "cloze": {
+      "de": "Mädel",
+      "en": "girl"
+    },
     "sourceIndex": 2170
   },
   {
@@ -1460,6 +1800,10 @@ const phrasesPeople = [
     "wordIds": [
       "12175"
     ],
+    "cloze": {
+      "de": "Türke",
+      "en": "Turk"
+    },
     "sourceIndex": 2175
   },
   {
@@ -1477,6 +1821,10 @@ const phrasesPeople = [
     "wordIds": [
       "12195"
     ],
+    "cloze": {
+      "de": "Grab",
+      "en": "grave"
+    },
     "sourceIndex": 2195
   },
   {
@@ -1494,6 +1842,10 @@ const phrasesPeople = [
     "wordIds": [
       "12248"
     ],
+    "cloze": {
+      "de": "Kumpel",
+      "en": "buddy"
+    },
     "sourceIndex": 2248
   },
   {
@@ -1511,6 +1863,10 @@ const phrasesPeople = [
     "wordIds": [
       "12286"
     ],
+    "cloze": {
+      "de": "Kindergarten",
+      "en": "kindergarten"
+    },
     "sourceIndex": 2286
   },
   {
@@ -1528,6 +1884,10 @@ const phrasesPeople = [
     "wordIds": [
       "12294"
     ],
+    "cloze": {
+      "de": "Onkel",
+      "en": "uncle"
+    },
     "sourceIndex": 2294
   },
   {
@@ -1545,6 +1905,10 @@ const phrasesPeople = [
     "wordIds": [
       "12335"
     ],
+    "cloze": {
+      "de": "Nebenbei",
+      "en": "By"
+    },
     "sourceIndex": 2335
   },
   {
@@ -1562,6 +1926,10 @@ const phrasesPeople = [
     "wordIds": [
       "12355"
     ],
+    "cloze": {
+      "de": "Ehemann",
+      "en": "husband"
+    },
     "sourceIndex": 2355
   },
   {
@@ -1579,6 +1947,10 @@ const phrasesPeople = [
     "wordIds": [
       "12360"
     ],
+    "cloze": {
+      "de": "heiraten",
+      "en": "marry"
+    },
     "sourceIndex": 2360
   },
   {
@@ -1596,6 +1968,10 @@ const phrasesPeople = [
     "wordIds": [
       "12551"
     ],
+    "cloze": {
+      "de": "Persönlichkeit",
+      "en": "personality"
+    },
     "sourceIndex": 2551
   },
   {
@@ -1613,6 +1989,10 @@ const phrasesPeople = [
     "wordIds": [
       "12557"
     ],
+    "cloze": {
+      "de": "Sir",
+      "en": "Sir"
+    },
     "sourceIndex": 2557
   },
   {
@@ -1630,6 +2010,10 @@ const phrasesPeople = [
     "wordIds": [
       "12611"
     ],
+    "cloze": {
+      "de": "versorgen",
+      "en": "provide"
+    },
     "sourceIndex": 2611
   },
   {
@@ -1647,6 +2031,10 @@ const phrasesPeople = [
     "wordIds": [
       "12703"
     ],
+    "cloze": {
+      "de": "mächtiger",
+      "en": "powerful"
+    },
     "sourceIndex": 2703
   },
   {
@@ -1664,6 +2052,10 @@ const phrasesPeople = [
     "wordIds": [
       "12718"
     ],
+    "cloze": {
+      "de": "Verwandter",
+      "en": "relative"
+    },
     "sourceIndex": 2718
   },
   {
@@ -1681,6 +2073,10 @@ const phrasesPeople = [
     "wordIds": [
       "12728"
     ],
+    "cloze": {
+      "de": "Boy",
+      "en": "boy"
+    },
     "sourceIndex": 2728
   },
   {
@@ -1698,6 +2094,10 @@ const phrasesPeople = [
     "wordIds": [
       "12754"
     ],
+    "cloze": {
+      "de": "Tante",
+      "en": "aunt"
+    },
     "sourceIndex": 2754
   },
   {
@@ -1715,6 +2115,10 @@ const phrasesPeople = [
     "wordIds": [
       "12790"
     ],
+    "cloze": {
+      "de": "Miss",
+      "en": "Miss"
+    },
     "sourceIndex": 2790
   },
   {
@@ -1732,6 +2136,10 @@ const phrasesPeople = [
     "wordIds": [
       "12882"
     ],
+    "cloze": {
+      "de": "Girl",
+      "en": "girl"
+    },
     "sourceIndex": 2882
   },
   {
@@ -1749,6 +2157,10 @@ const phrasesPeople = [
     "wordIds": [
       "12902"
     ],
+    "cloze": {
+      "de": "schlauer",
+      "en": "clever"
+    },
     "sourceIndex": 2902
   },
   {
@@ -1766,6 +2178,10 @@ const phrasesPeople = [
     "wordIds": [
       "12911"
     ],
+    "cloze": {
+      "de": "treuer",
+      "en": "loyal"
+    },
     "sourceIndex": 2911
   },
   {
@@ -1783,6 +2199,10 @@ const phrasesPeople = [
     "wordIds": [
       "12974"
     ],
+    "cloze": {
+      "de": "attraktive",
+      "en": "attractive"
+    },
     "sourceIndex": 2974
   },
   {
@@ -1800,6 +2220,10 @@ const phrasesPeople = [
     "wordIds": [
       "13109"
     ],
+    "cloze": {
+      "de": "kluges",
+      "en": "smart"
+    },
     "sourceIndex": 3109
   },
   {
@@ -1817,6 +2241,10 @@ const phrasesPeople = [
     "wordIds": [
       "13125"
     ],
+    "cloze": {
+      "de": "Rentner",
+      "en": "retiree"
+    },
     "sourceIndex": 3125
   },
   {
@@ -1834,6 +2262,10 @@ const phrasesPeople = [
     "wordIds": [
       "13199"
     ],
+    "cloze": {
+      "de": "Teenager",
+      "en": "teenagers"
+    },
     "sourceIndex": 3199
   },
   {
@@ -1851,6 +2283,10 @@ const phrasesPeople = [
     "wordIds": [
       "13257"
     ],
+    "cloze": {
+      "de": "Partnerschaft",
+      "en": "partnership"
+    },
     "sourceIndex": 3257
   },
   {
@@ -1868,6 +2304,10 @@ const phrasesPeople = [
     "wordIds": [
       "13282"
     ],
+    "cloze": {
+      "de": "Braut",
+      "en": "bride"
+    },
     "sourceIndex": 3282
   },
   {
@@ -1885,6 +2325,10 @@ const phrasesPeople = [
     "wordIds": [
       "13287"
     ],
+    "cloze": {
+      "de": "Gastgeber",
+      "en": "host"
+    },
     "sourceIndex": 3287
   },
   {
@@ -1902,6 +2346,10 @@ const phrasesPeople = [
     "wordIds": [
       "13336"
     ],
+    "cloze": {
+      "de": "benennen",
+      "en": "name"
+    },
     "sourceIndex": 3336
   },
   {
@@ -1919,6 +2367,10 @@ const phrasesPeople = [
     "wordIds": [
       "13342"
     ],
+    "cloze": {
+      "de": "Chinese",
+      "en": "Chinese"
+    },
     "sourceIndex": 3342
   },
   {
@@ -1936,6 +2388,10 @@ const phrasesPeople = [
     "wordIds": [
       "13345"
     ],
+    "cloze": {
+      "de": "einheimische",
+      "en": "native"
+    },
     "sourceIndex": 3345
   },
   {
@@ -1953,6 +2409,10 @@ const phrasesPeople = [
     "wordIds": [
       "13354"
     ],
+    "cloze": {
+      "de": "Geschwister",
+      "en": "siblings"
+    },
     "sourceIndex": 3354
   },
   {
@@ -1970,6 +2430,10 @@ const phrasesPeople = [
     "wordIds": [
       "13355"
     ],
+    "cloze": {
+      "de": "Grossvater",
+      "en": "grandfather"
+    },
     "sourceIndex": 3355
   },
   {
@@ -1987,6 +2451,10 @@ const phrasesPeople = [
     "wordIds": [
       "13363"
     ],
+    "cloze": {
+      "de": "königliches",
+      "en": "royal"
+    },
     "sourceIndex": 3363
   },
   {
@@ -2004,6 +2472,10 @@ const phrasesPeople = [
     "wordIds": [
       "13404"
     ],
+    "cloze": {
+      "de": "Enkel",
+      "en": "grandchild"
+    },
     "sourceIndex": 3404
   },
   {
@@ -2021,6 +2493,10 @@ const phrasesPeople = [
     "wordIds": [
       "13482"
     ],
+    "cloze": {
+      "de": "Kita",
+      "en": "daycare"
+    },
     "sourceIndex": 3482
   },
   {
@@ -2038,6 +2514,10 @@ const phrasesPeople = [
     "wordIds": [
       "13639"
     ],
+    "cloze": {
+      "de": "brav",
+      "en": "well-behaved"
+    },
     "sourceIndex": 3639
   },
   {
@@ -2055,6 +2535,10 @@ const phrasesPeople = [
     "wordIds": [
       "13652"
     ],
+    "cloze": {
+      "de": "Grieche",
+      "en": "Greek"
+    },
     "sourceIndex": 3652
   },
   {
@@ -2072,6 +2556,10 @@ const phrasesPeople = [
     "wordIds": [
       "13670"
     ],
+    "cloze": {
+      "de": "Palast",
+      "en": "palace"
+    },
     "sourceIndex": 3670
   },
   {
@@ -2089,6 +2577,10 @@ const phrasesPeople = [
     "wordIds": [
       "13702"
     ],
+    "cloze": {
+      "de": "Online-Dating",
+      "en": "dating"
+    },
     "sourceIndex": 3702
   },
   {
@@ -2106,6 +2598,10 @@ const phrasesPeople = [
     "wordIds": [
       "13865"
     ],
+    "cloze": {
+      "de": "stillt",
+      "en": "breastfeeds"
+    },
     "sourceIndex": 3865
   },
   {
@@ -2123,6 +2619,10 @@ const phrasesPeople = [
     "wordIds": [
       "13901"
     ],
+    "cloze": {
+      "de": "Großmutter",
+      "en": "grandmother"
+    },
     "sourceIndex": 3901
   },
   {
@@ -2140,6 +2640,10 @@ const phrasesPeople = [
     "wordIds": [
       "13983"
     ],
+    "cloze": {
+      "de": "Japaner",
+      "en": "Japanese"
+    },
     "sourceIndex": 3983
   },
   {
@@ -2157,6 +2661,10 @@ const phrasesPeople = [
     "wordIds": [
       "14027"
     ],
+    "cloze": {
+      "de": "Ausweis",
+      "en": "ID"
+    },
     "sourceIndex": 4027
   },
   {
@@ -2174,6 +2682,10 @@ const phrasesPeople = [
     "wordIds": [
       "14030"
     ],
+    "cloze": {
+      "de": "Bindung",
+      "en": "bond"
+    },
     "sourceIndex": 4030
   },
   {
@@ -2191,6 +2703,10 @@ const phrasesPeople = [
     "wordIds": [
       "14060"
     ],
+    "cloze": {
+      "de": "Mutti",
+      "en": "Mommy"
+    },
     "sourceIndex": 4060
   },
   {
@@ -2208,6 +2724,10 @@ const phrasesPeople = [
     "wordIds": [
       "14114"
     ],
+    "cloze": {
+      "de": "Family",
+      "en": "family"
+    },
     "sourceIndex": 4114
   },
   {
@@ -2225,6 +2745,10 @@ const phrasesPeople = [
     "wordIds": [
       "14153"
     ],
+    "cloze": {
+      "de": "Witwe",
+      "en": "widow"
+    },
     "sourceIndex": 4153
   },
   {
@@ -2242,6 +2766,10 @@ const phrasesPeople = [
     "wordIds": [
       "14246"
     ],
+    "cloze": {
+      "de": "Großeltern",
+      "en": "grandparents"
+    },
     "sourceIndex": 4246
   },
   {
@@ -2259,6 +2787,10 @@ const phrasesPeople = [
     "wordIds": [
       "14260"
     ],
+    "cloze": {
+      "de": "Sie",
+      "en": "organized"
+    },
     "sourceIndex": 4260
   },
   {
@@ -2276,6 +2808,10 @@ const phrasesPeople = [
     "wordIds": [
       "14271"
     ],
+    "cloze": {
+      "de": "sympathische",
+      "en": "likeable"
+    },
     "sourceIndex": 4271
   },
   {
@@ -2293,6 +2829,10 @@ const phrasesPeople = [
     "wordIds": [
       "14273"
     ],
+    "cloze": {
+      "de": "Teen",
+      "en": "teen"
+    },
     "sourceIndex": 4273
   },
   {
@@ -2310,6 +2850,10 @@ const phrasesPeople = [
     "wordIds": [
       "14396"
     ],
+    "cloze": {
+      "de": "intelligente",
+      "en": "intelligent"
+    },
     "sourceIndex": 4396
   },
   {
@@ -2327,6 +2871,10 @@ const phrasesPeople = [
     "wordIds": [
       "14508"
     ],
+    "cloze": {
+      "de": "Unterstützer",
+      "en": "supporter"
+    },
     "sourceIndex": 4508
   },
   {
@@ -2344,6 +2892,10 @@ const phrasesPeople = [
     "wordIds": [
       "14619"
     ],
+    "cloze": {
+      "de": "Pole",
+      "en": "Pole"
+    },
     "sourceIndex": 4619
   },
   {
@@ -2361,6 +2913,10 @@ const phrasesPeople = [
     "wordIds": [
       "14657"
     ],
+    "cloze": {
+      "de": "basteln",
+      "en": "crafting"
+    },
     "sourceIndex": 4657
   },
   {
@@ -2378,6 +2934,10 @@ const phrasesPeople = [
     "wordIds": [
       "14662"
     ],
+    "cloze": {
+      "de": "Ehepaar",
+      "en": "married"
+    },
     "sourceIndex": 4662
   },
   {
@@ -2395,6 +2955,10 @@ const phrasesPeople = [
     "wordIds": [
       "14744"
     ],
+    "cloze": {
+      "de": "Farm",
+      "en": "farm"
+    },
     "sourceIndex": 4744
   },
   {
@@ -2412,6 +2976,10 @@ const phrasesPeople = [
     "wordIds": [
       "14805"
     ],
+    "cloze": {
+      "de": "Wirt",
+      "en": "host"
+    },
     "sourceIndex": 4805
   },
   {
@@ -2429,6 +2997,10 @@ const phrasesPeople = [
     "wordIds": [
       "14833"
     ],
+    "cloze": {
+      "de": "Cousin",
+      "en": "cousin"
+    },
     "sourceIndex": 4833
   },
   {
@@ -2446,6 +3018,10 @@ const phrasesPeople = [
     "wordIds": [
       "14844"
     ],
+    "cloze": {
+      "de": "gay",
+      "en": "gay"
+    },
     "sourceIndex": 4844
   },
   {
@@ -2463,6 +3039,10 @@ const phrasesPeople = [
     "wordIds": [
       "14892"
     ],
+    "cloze": {
+      "de": "versammelten",
+      "en": "The"
+    },
     "sourceIndex": 4892
   },
   {
@@ -2480,6 +3060,10 @@ const phrasesPeople = [
     "wordIds": [
       "14923"
     ],
+    "cloze": {
+      "de": "frech",
+      "en": "cheeky"
+    },
     "sourceIndex": 4923
   },
   {
@@ -2497,6 +3081,10 @@ const phrasesPeople = [
     "wordIds": [
       "14980"
     ],
+    "cloze": {
+      "de": "aneinander",
+      "en": "together"
+    },
     "sourceIndex": 4980
   },
   {
@@ -2514,6 +3102,10 @@ const phrasesPeople = [
     "wordIds": [
       "15000"
     ],
+    "cloze": {
+      "de": "erzieht",
+      "en": "raises"
+    },
     "sourceIndex": 5000
   },
   {
@@ -2531,6 +3123,10 @@ const phrasesPeople = [
     "wordIds": [
       "15022"
     ],
+    "cloze": {
+      "de": "Liebling",
+      "en": "darling"
+    },
     "sourceIndex": 5022
   },
   {
@@ -2548,6 +3144,10 @@ const phrasesPeople = [
     "wordIds": [
       "15039"
     ],
+    "cloze": {
+      "de": "romantischer",
+      "en": "romantic"
+    },
     "sourceIndex": 5039
   },
   {
@@ -2565,6 +3165,10 @@ const phrasesPeople = [
     "wordIds": [
       "15046"
     ],
+    "cloze": {
+      "de": "Syrer",
+      "en": "Syrian"
+    },
     "sourceIndex": 5046
   },
   {
@@ -2582,6 +3186,10 @@ const phrasesPeople = [
     "wordIds": [
       "15077"
     ],
+    "cloze": {
+      "de": "Dad",
+      "en": "Dad"
+    },
     "sourceIndex": 5077
   },
   {
@@ -2599,6 +3207,10 @@ const phrasesPeople = [
     "wordIds": [
       "15101"
     ],
+    "cloze": {
+      "de": "Heirat",
+      "en": "marriage"
+    },
     "sourceIndex": 5101
   },
   {
@@ -2616,6 +3228,10 @@ const phrasesPeople = [
     "wordIds": [
       "15136"
     ],
+    "cloze": {
+      "de": "Unruhe",
+      "en": "unrest"
+    },
     "sourceIndex": 5136
   },
   {
@@ -2633,6 +3249,10 @@ const phrasesPeople = [
     "wordIds": [
       "15143"
     ],
+    "cloze": {
+      "de": "Vorname",
+      "en": "first"
+    },
     "sourceIndex": 5143
   },
   {
@@ -2650,6 +3270,10 @@ const phrasesPeople = [
     "wordIds": [
       "15329"
     ],
+    "cloze": {
+      "de": "Zwilling",
+      "en": "twin"
+    },
     "sourceIndex": 5329
   },
   {
@@ -2667,6 +3291,10 @@ const phrasesPeople = [
     "wordIds": [
       "15400"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "reserved"
+    },
     "sourceIndex": 5400
   },
   {
@@ -2684,6 +3312,10 @@ const phrasesPeople = [
     "wordIds": [
       "15435"
     ],
+    "cloze": {
+      "de": "Bekanntschaft",
+      "en": "acquaintance"
+    },
     "sourceIndex": 5435
   },
   {
@@ -2701,6 +3333,10 @@ const phrasesPeople = [
     "wordIds": [
       "15476"
     ],
+    "cloze": {
+      "de": "Mom",
+      "en": "Mom"
+    },
     "sourceIndex": 5476
   },
   {
@@ -2718,6 +3354,10 @@ const phrasesPeople = [
     "wordIds": [
       "15703"
     ],
+    "cloze": {
+      "de": "Cousine",
+      "en": "cousin"
+    },
     "sourceIndex": 5703
   },
   {
@@ -2735,6 +3375,10 @@ const phrasesPeople = [
     "wordIds": [
       "15745"
     ],
+    "cloze": {
+      "de": "Mum",
+      "en": "mum"
+    },
     "sourceIndex": 5745
   },
   {
@@ -2752,6 +3396,10 @@ const phrasesPeople = [
     "wordIds": [
       "15880"
     ],
+    "cloze": {
+      "de": "Youtuber",
+      "en": "YouTubers"
+    },
     "sourceIndex": 5880
   },
   {
@@ -2769,6 +3417,10 @@ const phrasesPeople = [
     "wordIds": [
       "15955"
     ],
+    "cloze": {
+      "de": "Neffe",
+      "en": "nephew"
+    },
     "sourceIndex": 5955
   },
   {
@@ -2786,6 +3438,10 @@ const phrasesPeople = [
     "wordIds": [
       "15985"
     ],
+    "cloze": {
+      "de": "ähnelt",
+      "en": "resembles"
+    },
     "sourceIndex": 5985
   },
   {
@@ -2803,6 +3459,10 @@ const phrasesPeople = [
     "wordIds": [
       "16053"
     ],
+    "cloze": {
+      "de": "Pärchen",
+      "en": "couple"
+    },
     "sourceIndex": 6053
   },
   {
@@ -2820,6 +3480,10 @@ const phrasesPeople = [
     "wordIds": [
       "16074"
     ],
+    "cloze": {
+      "de": "Verwandtschaft",
+      "en": "relatives"
+    },
     "sourceIndex": 6074
   },
   {
@@ -2837,6 +3501,10 @@ const phrasesPeople = [
     "wordIds": [
       "16112"
     ],
+    "cloze": {
+      "de": "Inder",
+      "en": "Indian"
+    },
     "sourceIndex": 6112
   },
   {
@@ -2854,6 +3522,10 @@ const phrasesPeople = [
     "wordIds": [
       "16187"
     ],
+    "cloze": {
+      "de": "Biografie",
+      "en": "biography"
+    },
     "sourceIndex": 6187
   },
   {
@@ -2871,6 +3543,10 @@ const phrasesPeople = [
     "wordIds": [
       "16236"
     ],
+    "cloze": {
+      "de": "Mentalität",
+      "en": "mentality"
+    },
     "sourceIndex": 6236
   },
   {
@@ -2888,6 +3564,10 @@ const phrasesPeople = [
     "wordIds": [
       "16238"
     ],
+    "cloze": {
+      "de": "Nichte",
+      "en": "niece"
+    },
     "sourceIndex": 6238
   },
   {
@@ -2905,6 +3585,10 @@ const phrasesPeople = [
     "wordIds": [
       "16488"
     ],
+    "cloze": {
+      "de": "beschützen",
+      "en": "protect"
+    },
     "sourceIndex": 6488
   },
   {
@@ -2922,6 +3606,10 @@ const phrasesPeople = [
     "wordIds": [
       "16517"
     ],
+    "cloze": {
+      "de": "Gleichheit",
+      "en": "equality"
+    },
     "sourceIndex": 6517
   },
   {
@@ -2939,6 +3627,10 @@ const phrasesPeople = [
     "wordIds": [
       "16539"
     ],
+    "cloze": {
+      "de": "Nachnamen",
+      "en": "last"
+    },
     "sourceIndex": 6539
   },
   {
@@ -2956,6 +3648,10 @@ const phrasesPeople = [
     "wordIds": [
       "16607"
     ],
+    "cloze": {
+      "de": "besichtigen",
+      "en": "visit"
+    },
     "sourceIndex": 6607
   },
   {
@@ -2973,6 +3669,10 @@ const phrasesPeople = [
     "wordIds": [
       "16622"
     ],
+    "cloze": {
+      "de": "taufen",
+      "en": "baptized"
+    },
     "sourceIndex": 6622
   },
   {
@@ -2990,6 +3690,10 @@ const phrasesPeople = [
     "wordIds": [
       "16631"
     ],
+    "cloze": {
+      "de": "Kaiserin",
+      "en": "empress"
+    },
     "sourceIndex": 6631
   },
   {
@@ -3007,6 +3711,10 @@ const phrasesPeople = [
     "wordIds": [
       "16649"
     ],
+    "cloze": {
+      "de": "robben",
+      "en": "crawl"
+    },
     "sourceIndex": 6649
   },
   {
@@ -3024,6 +3732,10 @@ const phrasesPeople = [
     "wordIds": [
       "16757"
     ],
+    "cloze": {
+      "de": "nähen",
+      "en": "sew"
+    },
     "sourceIndex": 6757
   },
   {
@@ -3041,6 +3753,10 @@ const phrasesPeople = [
     "wordIds": [
       "16839"
     ],
+    "cloze": {
+      "de": "knien",
+      "en": "kneel"
+    },
     "sourceIndex": 6839
   },
   {
@@ -3058,6 +3774,10 @@ const phrasesPeople = [
     "wordIds": [
       "16862"
     ],
+    "cloze": {
+      "de": "Taschengeld",
+      "en": "pocket"
+    },
     "sourceIndex": 6862
   },
   {
@@ -3075,6 +3795,10 @@ const phrasesPeople = [
     "wordIds": [
       "16878"
     ],
+    "cloze": {
+      "de": "seine",
+      "en": "confirmed"
+    },
     "sourceIndex": 6878
   },
   {
@@ -3092,6 +3816,10 @@ const phrasesPeople = [
     "wordIds": [
       "16929"
     ],
+    "cloze": {
+      "de": "Herzogin",
+      "en": "duchess"
+    },
     "sourceIndex": 6929
   },
   {
@@ -3109,6 +3837,10 @@ const phrasesPeople = [
     "wordIds": [
       "16999"
     ],
+    "cloze": {
+      "de": "charmante",
+      "en": "charming"
+    },
     "sourceIndex": 6999
   },
   {
@@ -3126,6 +3858,10 @@ const phrasesPeople = [
     "wordIds": [
       "17078"
     ],
+    "cloze": {
+      "de": "Vegetarier",
+      "en": "vegetarian"
+    },
     "sourceIndex": 7078
   },
   {
@@ -3143,6 +3879,10 @@ const phrasesPeople = [
     "wordIds": [
       "17083"
     ],
+    "cloze": {
+      "de": "Wiege",
+      "en": "cradle"
+    },
     "sourceIndex": 7083
   },
   {
@@ -3160,6 +3900,10 @@ const phrasesPeople = [
     "wordIds": [
       "17140"
     ],
+    "cloze": {
+      "de": "Mami",
+      "en": "Mommy"
+    },
     "sourceIndex": 7140
   },
   {
@@ -3177,6 +3921,10 @@ const phrasesPeople = [
     "wordIds": [
       "17149"
     ],
+    "cloze": {
+      "de": "Obdachloser",
+      "en": "homeless"
+    },
     "sourceIndex": 7149
   },
   {
@@ -3194,6 +3942,10 @@ const phrasesPeople = [
     "wordIds": [
       "17158"
     ],
+    "cloze": {
+      "de": "Prager",
+      "en": "person"
+    },
     "sourceIndex": 7158
   },
   {
@@ -3211,6 +3963,10 @@ const phrasesPeople = [
     "wordIds": [
       "17227"
     ],
+    "cloze": {
+      "de": "Bube",
+      "en": "jack"
+    },
     "sourceIndex": 7227
   },
   {
@@ -3228,6 +3984,10 @@ const phrasesPeople = [
     "wordIds": [
       "17292"
     ],
+    "cloze": {
+      "de": "verwöhnen",
+      "en": "spoil"
+    },
     "sourceIndex": 7292
   },
   {
@@ -3245,6 +4005,10 @@ const phrasesPeople = [
     "wordIds": [
       "17308"
     ],
+    "cloze": {
+      "de": "eine",
+      "en": "single-parent"
+    },
     "sourceIndex": 7308
   },
   {
@@ -3262,6 +4026,10 @@ const phrasesPeople = [
     "wordIds": [
       "17566"
     ],
+    "cloze": {
+      "de": "Blondine",
+      "en": "blonde"
+    },
     "sourceIndex": 7566
   },
   {
@@ -3279,6 +4047,10 @@ const phrasesPeople = [
     "wordIds": [
       "17584"
     ],
+    "cloze": {
+      "de": "Familienmitglied",
+      "en": "family"
+    },
     "sourceIndex": 7584
   },
   {
@@ -3296,6 +4068,10 @@ const phrasesPeople = [
     "wordIds": [
       "17585"
     ],
+    "cloze": {
+      "de": "fasten",
+      "en": "fast"
+    },
     "sourceIndex": 7585
   },
   {
@@ -3313,6 +4089,10 @@ const phrasesPeople = [
     "wordIds": [
       "17739"
     ],
+    "cloze": {
+      "de": "Kleinkind",
+      "en": "toddler"
+    },
     "sourceIndex": 7739
   },
   {
@@ -3330,6 +4110,10 @@ const phrasesPeople = [
     "wordIds": [
       "17821"
     ],
+    "cloze": {
+      "de": "Däne",
+      "en": "Dane"
+    },
     "sourceIndex": 7821
   },
   {
@@ -3347,6 +4131,10 @@ const phrasesPeople = [
     "wordIds": [
       "17824"
     ],
+    "cloze": {
+      "de": "Enkelin",
+      "en": "granddaughter"
+    },
     "sourceIndex": 7824
   },
   {
@@ -3364,6 +4152,10 @@ const phrasesPeople = [
     "wordIds": [
       "17850"
     ],
+    "cloze": {
+      "de": "Kindergeld",
+      "en": "child"
+    },
     "sourceIndex": 7850
   },
   {
@@ -3381,6 +4173,10 @@ const phrasesPeople = [
     "wordIds": [
       "17857"
     ],
+    "cloze": {
+      "de": "Mexikaner",
+      "en": "Mexican"
+    },
     "sourceIndex": 7857
   },
   {
@@ -3398,6 +4194,10 @@ const phrasesPeople = [
     "wordIds": [
       "17882"
     ],
+    "cloze": {
+      "de": "Sticker",
+      "en": "sticker"
+    },
     "sourceIndex": 7882
   },
   {
@@ -3415,6 +4215,10 @@ const phrasesPeople = [
     "wordIds": [
       "17915"
     ],
+    "cloze": {
+      "de": "aufziehen",
+      "en": "raise"
+    },
     "sourceIndex": 7915
   },
   {
@@ -3432,6 +4236,10 @@ const phrasesPeople = [
     "wordIds": [
       "17949"
     ],
+    "cloze": {
+      "de": "hüten",
+      "en": "look"
+    },
     "sourceIndex": 7949
   },
   {
@@ -3449,6 +4257,10 @@ const phrasesPeople = [
     "wordIds": [
       "18048"
     ],
+    "cloze": {
+      "de": "Einzelperson",
+      "en": "individual"
+    },
     "sourceIndex": 8048
   },
   {
@@ -3466,6 +4278,10 @@ const phrasesPeople = [
     "wordIds": [
       "18093"
     ],
+    "cloze": {
+      "de": "Polizistin",
+      "en": "policewoman"
+    },
     "sourceIndex": 8093
   },
   {
@@ -3483,6 +4299,10 @@ const phrasesPeople = [
     "wordIds": [
       "18110"
     ],
+    "cloze": {
+      "de": "Spitzname",
+      "en": "nickname"
+    },
     "sourceIndex": 8110
   },
   {
@@ -3500,6 +4320,10 @@ const phrasesPeople = [
     "wordIds": [
       "18160"
     ],
+    "cloze": {
+      "de": "Bräutigam",
+      "en": "groom"
+    },
     "sourceIndex": 8160
   },
   {
@@ -3517,6 +4341,10 @@ const phrasesPeople = [
     "wordIds": [
       "18405"
     ],
+    "cloze": {
+      "de": "Australier",
+      "en": "Australian"
+    },
     "sourceIndex": 8405
   },
   {
@@ -3534,6 +4362,10 @@ const phrasesPeople = [
     "wordIds": [
       "18547"
     ],
+    "cloze": {
+      "de": "Dinos",
+      "en": "dinos"
+    },
     "sourceIndex": 8547
   },
   {
@@ -3551,6 +4383,10 @@ const phrasesPeople = [
     "wordIds": [
       "18563"
     ],
+    "cloze": {
+      "de": "Gentleman",
+      "en": "gentleman"
+    },
     "sourceIndex": 8563
   },
   {
@@ -3568,6 +4404,10 @@ const phrasesPeople = [
     "wordIds": [
       "18577"
     ],
+    "cloze": {
+      "de": "Kalb",
+      "en": "calf"
+    },
     "sourceIndex": 8577
   },
   {
@@ -3585,6 +4425,10 @@ const phrasesPeople = [
     "wordIds": [
       "18698"
     ],
+    "cloze": {
+      "de": "Fürsorge",
+      "en": "Care"
+    },
     "sourceIndex": 8698
   },
   {
@@ -3602,6 +4446,10 @@ const phrasesPeople = [
     "wordIds": [
       "18703"
     ],
+    "cloze": {
+      "de": "harmonischen",
+      "en": "harmonious"
+    },
     "sourceIndex": 8703
   },
   {
@@ -3619,6 +4467,10 @@ const phrasesPeople = [
     "wordIds": [
       "18710"
     ],
+    "cloze": {
+      "de": "kindisch",
+      "en": "childish"
+    },
     "sourceIndex": 8710
   },
   {
@@ -3636,6 +4488,10 @@ const phrasesPeople = [
     "wordIds": [
       "18728"
     ],
+    "cloze": {
+      "de": "Norweger",
+      "en": "Norwegian"
+    },
     "sourceIndex": 8728
   },
   {
@@ -3653,6 +4509,10 @@ const phrasesPeople = [
     "wordIds": [
       "18840"
     ],
+    "cloze": {
+      "de": "Familienunternehmen",
+      "en": "family"
+    },
     "sourceIndex": 8840
   },
   {
@@ -3670,6 +4530,10 @@ const phrasesPeople = [
     "wordIds": [
       "18909"
     ],
+    "cloze": {
+      "de": "schimpfte",
+      "en": "scolded"
+    },
     "sourceIndex": 8909
   },
   {
@@ -3687,6 +4551,10 @@ const phrasesPeople = [
     "wordIds": [
       "18939"
     ],
+    "cloze": {
+      "de": "Windel",
+      "en": "diaper"
+    },
     "sourceIndex": 8939
   },
   {
@@ -3704,6 +4572,10 @@ const phrasesPeople = [
     "wordIds": [
       "18947"
     ],
+    "cloze": {
+      "de": "Adoption",
+      "en": "adoption"
+    },
     "sourceIndex": 8947
   },
   {
@@ -3721,6 +4593,10 @@ const phrasesPeople = [
     "wordIds": [
       "18955"
     ],
+    "cloze": {
+      "de": "Asthma",
+      "en": "asthma"
+    },
     "sourceIndex": 8955
   },
   {
@@ -3738,6 +4614,10 @@ const phrasesPeople = [
     "wordIds": [
       "19061"
     ],
+    "cloze": {
+      "de": "Skelett",
+      "en": "skeleton"
+    },
     "sourceIndex": 9061
   },
   {
@@ -3755,6 +4635,10 @@ const phrasesPeople = [
     "wordIds": [
       "19134"
     ],
+    "cloze": {
+      "de": "elfte",
+      "en": "eleventh"
+    },
     "sourceIndex": 9134
   },
   {
@@ -3772,6 +4656,10 @@ const phrasesPeople = [
     "wordIds": [
       "19181"
     ],
+    "cloze": {
+      "de": "kriechen",
+      "en": "crawl"
+    },
     "sourceIndex": 9181
   },
   {
@@ -3789,6 +4677,10 @@ const phrasesPeople = [
     "wordIds": [
       "19184"
     ],
+    "cloze": {
+      "de": "kuscheln",
+      "en": "cuddle"
+    },
     "sourceIndex": 9184
   },
   {
@@ -3806,6 +4698,10 @@ const phrasesPeople = [
     "wordIds": [
       "19218"
     ],
+    "cloze": {
+      "de": "Teilnehmerin",
+      "en": "female"
+    },
     "sourceIndex": 9218
   },
   {
@@ -3823,6 +4719,10 @@ const phrasesPeople = [
     "wordIds": [
       "19281"
     ],
+    "cloze": {
+      "de": "Follower",
+      "en": "followers"
+    },
     "sourceIndex": 9281
   },
   {
@@ -3840,6 +4740,10 @@ const phrasesPeople = [
     "wordIds": [
       "19332"
     ],
+    "cloze": {
+      "de": "Pate",
+      "en": "godfather"
+    },
     "sourceIndex": 9332
   },
   {
@@ -3857,6 +4761,10 @@ const phrasesPeople = [
     "wordIds": [
       "19375"
     ],
+    "cloze": {
+      "de": "Ukrainer",
+      "en": "Ukrainian"
+    },
     "sourceIndex": 9375
   },
   {
@@ -3874,6 +4782,10 @@ const phrasesPeople = [
     "wordIds": [
       "19397"
     ],
+    "cloze": {
+      "de": "zurücklassen",
+      "en": "leave"
+    },
     "sourceIndex": 9397
   },
   {
@@ -3891,6 +4803,10 @@ const phrasesPeople = [
     "wordIds": [
       "19540"
     ],
+    "cloze": {
+      "de": "Ägypter",
+      "en": "Egyptian"
+    },
     "sourceIndex": 9540
   },
   {
@@ -3908,6 +4824,10 @@ const phrasesPeople = [
     "wordIds": [
       "19596"
     ],
+    "cloze": {
+      "de": "gesuchte",
+      "en": "wanted"
+    },
     "sourceIndex": 9596
   },
   {
@@ -3925,6 +4845,10 @@ const phrasesPeople = [
     "wordIds": [
       "19621"
     ],
+    "cloze": {
+      "de": "Luftballon",
+      "en": "balloon"
+    },
     "sourceIndex": 9621
   },
   {
@@ -3942,6 +4866,10 @@ const phrasesPeople = [
     "wordIds": [
       "19663"
     ],
+    "cloze": {
+      "de": "strickt",
+      "en": "knit"
+    },
     "sourceIndex": 9663
   },
   {
@@ -3959,6 +4887,10 @@ const phrasesPeople = [
     "wordIds": [
       "19667"
     ],
+    "cloze": {
+      "de": "Superheld",
+      "en": "superhero"
+    },
     "sourceIndex": 9667
   },
   {
@@ -3976,6 +4908,10 @@ const phrasesPeople = [
     "wordIds": [
       "19702"
     ],
+    "cloze": {
+      "de": "Amerikanerin",
+      "en": "American"
+    },
     "sourceIndex": 9702
   },
   {
@@ -3993,6 +4929,10 @@ const phrasesPeople = [
     "wordIds": [
       "19719"
     ],
+    "cloze": {
+      "de": "beisammen",
+      "en": "together"
+    },
     "sourceIndex": 9719
   },
   {
@@ -4010,6 +4950,10 @@ const phrasesPeople = [
     "wordIds": [
       "19799"
     ],
+    "cloze": {
+      "de": "Rumäne",
+      "en": "Romanian"
+    },
     "sourceIndex": 9799
   },
   {
@@ -4027,6 +4971,10 @@ const phrasesPeople = [
     "wordIds": [
       "19853"
     ],
+    "cloze": {
+      "de": "artig",
+      "en": "well-behaved"
+    },
     "sourceIndex": 9853
   },
   {
@@ -4044,6 +4992,10 @@ const phrasesPeople = [
     "wordIds": [
       "19950"
     ],
+    "cloze": {
+      "de": "Schwiegervater",
+      "en": "father-in"
+    },
     "sourceIndex": 9950
   },
   {
@@ -4061,6 +5013,10 @@ const phrasesPeople = [
     "wordIds": [
       "19960"
     ],
+    "cloze": {
+      "de": "Temperament",
+      "en": "temperament"
+    },
     "sourceIndex": 9960
   },
   {
@@ -4078,6 +5034,10 @@ const phrasesPeople = [
     "wordIds": [
       "20079"
     ],
+    "cloze": {
+      "de": "Personalausweis",
+      "en": "identity"
+    },
     "sourceIndex": 10079
   },
   {
@@ -4095,6 +5055,10 @@ const phrasesPeople = [
     "wordIds": [
       "20083"
     ],
+    "cloze": {
+      "de": "Portugiese",
+      "en": "Portuguese"
+    },
     "sourceIndex": 10083
   },
   {
@@ -4112,6 +5076,10 @@ const phrasesPeople = [
     "wordIds": [
       "20122"
     ],
+    "cloze": {
+      "de": "Verlobung",
+      "en": "engagement"
+    },
     "sourceIndex": 10122
   },
   {
@@ -4129,6 +5097,10 @@ const phrasesPeople = [
     "wordIds": [
       "20255"
     ],
+    "cloze": {
+      "de": "Sozialarbeiter",
+      "en": "social"
+    },
     "sourceIndex": 10255
   },
   {
@@ -4146,6 +5118,10 @@ const phrasesPeople = [
     "wordIds": [
       "20318"
     ],
+    "cloze": {
+      "de": "Ehegatte",
+      "en": "spouse"
+    },
     "sourceIndex": 10318
   },
   {
@@ -4163,6 +5139,10 @@ const phrasesPeople = [
     "wordIds": [
       "20501"
     ],
+    "cloze": {
+      "de": "Hauptfigur",
+      "en": "main"
+    },
     "sourceIndex": 10501
   },
   {
@@ -4180,6 +5160,10 @@ const phrasesPeople = [
     "wordIds": [
       "20568"
     ],
+    "cloze": {
+      "de": "Telegramm",
+      "en": "telegram"
+    },
     "sourceIndex": 10568
   },
   {
@@ -4197,6 +5181,10 @@ const phrasesPeople = [
     "wordIds": [
       "20570"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "tolerant"
+    },
     "sourceIndex": 10570
   },
   {
@@ -4214,6 +5202,10 @@ const phrasesPeople = [
     "wordIds": [
       "20605"
     ],
+    "cloze": {
+      "de": "Armenier",
+      "en": "Armenian"
+    },
     "sourceIndex": 10605
   },
   {
@@ -4231,6 +5223,10 @@ const phrasesPeople = [
     "wordIds": [
       "20631"
     ],
+    "cloze": {
+      "de": "Ehepartner",
+      "en": "spouse"
+    },
     "sourceIndex": 10631
   },
   {
@@ -4248,6 +5244,10 @@ const phrasesPeople = [
     "wordIds": [
       "20647"
     ],
+    "cloze": {
+      "de": "Finne",
+      "en": "Finn"
+    },
     "sourceIndex": 10647
   },
   {
@@ -4265,6 +5265,10 @@ const phrasesPeople = [
     "wordIds": [
       "20858"
     ],
+    "cloze": {
+      "de": "Lebensweg",
+      "en": "path"
+    },
     "sourceIndex": 10858
   },
   {
@@ -4282,6 +5286,10 @@ const phrasesPeople = [
     "wordIds": [
       "20860"
     ],
+    "cloze": {
+      "de": "Linkshänder",
+      "en": "left-hander"
+    },
     "sourceIndex": 10860
   },
   {
@@ -4299,6 +5307,10 @@ const phrasesPeople = [
     "wordIds": [
       "20951"
     ],
+    "cloze": {
+      "de": "adoptieren",
+      "en": "adopt"
+    },
     "sourceIndex": 10951
   },
   {
@@ -4316,6 +5328,10 @@ const phrasesPeople = [
     "wordIds": [
       "20990"
     ],
+    "cloze": {
+      "de": "Eheleute",
+      "en": "married"
+    },
     "sourceIndex": 10990
   },
   {
@@ -4333,6 +5349,10 @@ const phrasesPeople = [
     "wordIds": [
       "21103"
     ],
+    "cloze": {
+      "de": "Teenie",
+      "en": "teenager"
+    },
     "sourceIndex": 11103
   },
   {
@@ -4350,6 +5370,10 @@ const phrasesPeople = [
     "wordIds": [
       "21111"
     ],
+    "cloze": {
+      "de": "verheiratet",
+      "en": "married"
+    },
     "sourceIndex": 11111
   },
   {
@@ -4367,6 +5391,10 @@ const phrasesPeople = [
     "wordIds": [
       "21223"
     ],
+    "cloze": {
+      "de": "loyaler",
+      "en": "loyal"
+    },
     "sourceIndex": 11223
   },
   {
@@ -4384,6 +5412,10 @@ const phrasesPeople = [
     "wordIds": [
       "21305"
     ],
+    "cloze": {
+      "de": "Würde",
+      "en": "dignity"
+    },
     "sourceIndex": 11305
   },
   {
@@ -4401,6 +5433,10 @@ const phrasesPeople = [
     "wordIds": [
       "21413"
     ],
+    "cloze": {
+      "de": "Iraner",
+      "en": "Iranian"
+    },
     "sourceIndex": 11413
   },
   {
@@ -4418,6 +5454,10 @@ const phrasesPeople = [
     "wordIds": [
       "21428"
     ],
+    "cloze": {
+      "de": "Lutscher",
+      "en": "sucking"
+    },
     "sourceIndex": 11428
   },
   {
@@ -4435,6 +5475,10 @@ const phrasesPeople = [
     "wordIds": [
       "21477"
     ],
+    "cloze": {
+      "de": "Stiefvater",
+      "en": "stepfather"
+    },
     "sourceIndex": 11477
   },
   {
@@ -4452,6 +5496,10 @@ const phrasesPeople = [
     "wordIds": [
       "21507"
     ],
+    "cloze": {
+      "de": "weinende",
+      "en": "crying"
+    },
     "sourceIndex": 11507
   },
   {
@@ -4469,6 +5517,10 @@ const phrasesPeople = [
     "wordIds": [
       "21591"
     ],
+    "cloze": {
+      "de": "Krippe",
+      "en": "crib"
+    },
     "sourceIndex": 11591
   },
   {
@@ -4486,6 +5538,10 @@ const phrasesPeople = [
     "wordIds": [
       "21743"
     ],
+    "cloze": {
+      "de": "Hochzeitstag",
+      "en": "wedding"
+    },
     "sourceIndex": 11743
   },
   {
@@ -4503,6 +5559,10 @@ const phrasesPeople = [
     "wordIds": [
       "21795"
     ],
+    "cloze": {
+      "de": "Romanze",
+      "en": "romance"
+    },
     "sourceIndex": 11795
   },
   {
@@ -4520,6 +5580,10 @@ const phrasesPeople = [
     "wordIds": [
       "21814"
     ],
+    "cloze": {
+      "de": "Säugling",
+      "en": "infant"
+    },
     "sourceIndex": 11814
   },
   {
@@ -4537,6 +5601,10 @@ const phrasesPeople = [
     "wordIds": [
       "21835"
     ],
+    "cloze": {
+      "de": "Waisenhaus",
+      "en": "orphanage"
+    },
     "sourceIndex": 11835
   },
   {
@@ -4554,6 +5622,10 @@ const phrasesPeople = [
     "wordIds": [
       "21845"
     ],
+    "cloze": {
+      "de": "zusammenhalten",
+      "en": "stick"
+    },
     "sourceIndex": 11845
   },
   {
@@ -4571,6 +5643,10 @@ const phrasesPeople = [
     "wordIds": [
       "21967"
     ],
+    "cloze": {
+      "de": "rothaariges",
+      "en": "red-haired"
+    },
     "sourceIndex": 11967
   },
   {
@@ -4588,6 +5664,10 @@ const phrasesPeople = [
     "wordIds": [
       "22044"
     ],
+    "cloze": {
+      "de": "austoben",
+      "en": "let"
+    },
     "sourceIndex": 12044
   },
   {
@@ -4605,6 +5685,10 @@ const phrasesPeople = [
     "wordIds": [
       "22064"
     ],
+    "cloze": {
+      "de": "Character",
+      "en": "character"
+    },
     "sourceIndex": 12064
   },
   {
@@ -4622,6 +5706,10 @@ const phrasesPeople = [
     "wordIds": [
       "22135"
     ],
+    "cloze": {
+      "de": "Nanny",
+      "en": "nanny"
+    },
     "sourceIndex": 12135
   },
   {
@@ -4639,6 +5727,10 @@ const phrasesPeople = [
     "wordIds": [
       "22164"
     ],
+    "cloze": {
+      "de": "Romantiker",
+      "en": "romantic"
+    },
     "sourceIndex": 12164
   },
   {
@@ -4656,6 +5748,10 @@ const phrasesPeople = [
     "wordIds": [
       "22275"
     ],
+    "cloze": {
+      "de": "Familienangehörigen",
+      "en": "family"
+    },
     "sourceIndex": 12275
   },
   {
@@ -4673,6 +5769,10 @@ const phrasesPeople = [
     "wordIds": [
       "22277"
     ],
+    "cloze": {
+      "de": "Familienvater",
+      "en": "family"
+    },
     "sourceIndex": 12277
   },
   {
@@ -4690,6 +5790,10 @@ const phrasesPeople = [
     "wordIds": [
       "22331"
     ],
+    "cloze": {
+      "de": "Privatschule",
+      "en": "private"
+    },
     "sourceIndex": 12331
   },
   {
@@ -4707,6 +5811,10 @@ const phrasesPeople = [
     "wordIds": [
       "22413"
     ],
+    "cloze": {
+      "de": "malen",
+      "en": "color"
+    },
     "sourceIndex": 12413
   },
   {
@@ -4724,6 +5832,10 @@ const phrasesPeople = [
     "wordIds": [
       "22420"
     ],
+    "cloze": {
+      "de": "bewirtschaftet",
+      "en": "manages"
+    },
     "sourceIndex": 12420
   },
   {
@@ -4741,6 +5853,10 @@ const phrasesPeople = [
     "wordIds": [
       "22425"
     ],
+    "cloze": {
+      "de": "Bonbon",
+      "en": "candy"
+    },
     "sourceIndex": 12425
   },
   {
@@ -4758,6 +5874,10 @@ const phrasesPeople = [
     "wordIds": [
       "22455"
     ],
+    "cloze": {
+      "de": "Familienleben",
+      "en": "family"
+    },
     "sourceIndex": 12455
   },
   {
@@ -4775,6 +5895,10 @@ const phrasesPeople = [
     "wordIds": [
       "22625"
     ],
+    "cloze": {
+      "de": "Bulgare",
+      "en": "Bulgarian"
+    },
     "sourceIndex": 12625
   },
   {
@@ -4792,6 +5916,10 @@ const phrasesPeople = [
     "wordIds": [
       "22671"
     ],
+    "cloze": {
+      "de": "Kinderarzt",
+      "en": "pediatrician"
+    },
     "sourceIndex": 12671
   },
   {
@@ -4809,6 +5937,10 @@ const phrasesPeople = [
     "wordIds": [
       "22676"
     ],
+    "cloze": {
+      "de": "Koreaner",
+      "en": "Korean"
+    },
     "sourceIndex": 12676
   },
   {
@@ -4826,6 +5958,10 @@ const phrasesPeople = [
     "wordIds": [
       "22694"
     ],
+    "cloze": {
+      "de": "obdachlos",
+      "en": "homeless"
+    },
     "sourceIndex": 12694
   },
   {
@@ -4843,6 +5979,10 @@ const phrasesPeople = [
     "wordIds": [
       "22711"
     ],
+    "cloze": {
+      "de": "Rentnerin",
+      "en": "female"
+    },
     "sourceIndex": 12711
   },
   {
@@ -4860,6 +6000,10 @@ const phrasesPeople = [
     "wordIds": [
       "22820"
     ],
+    "cloze": {
+      "de": "ein",
+      "en": "individual"
+    },
     "sourceIndex": 12820
   },
   {
@@ -4877,6 +6021,10 @@ const phrasesPeople = [
     "wordIds": [
       "22835"
     ],
+    "cloze": {
+      "de": "Fläschchen",
+      "en": "small"
+    },
     "sourceIndex": 12835
   },
   {
@@ -4894,6 +6042,10 @@ const phrasesPeople = [
     "wordIds": [
       "22875"
     ],
+    "cloze": {
+      "de": "loslösen",
+      "en": "detach"
+    },
     "sourceIndex": 12875
   },
   {
@@ -4911,6 +6063,10 @@ const phrasesPeople = [
     "wordIds": [
       "22900"
     ],
+    "cloze": {
+      "de": "Pipi",
+      "en": "pee-pee"
+    },
     "sourceIndex": 12900
   },
   {
@@ -4928,6 +6084,10 @@ const phrasesPeople = [
     "wordIds": [
       "22926"
     ],
+    "cloze": {
+      "de": "Stiefmutter",
+      "en": "stepmother"
+    },
     "sourceIndex": 12926
   },
   {
@@ -4945,6 +6105,10 @@ const phrasesPeople = [
     "wordIds": [
       "22960"
     ],
+    "cloze": {
+      "de": "Wirtin",
+      "en": "landlady"
+    },
     "sourceIndex": 12960
   },
   {
@@ -4962,6 +6126,10 @@ const phrasesPeople = [
     "wordIds": [
       "23027"
     ],
+    "cloze": {
+      "de": "Gebiss",
+      "en": "denture"
+    },
     "sourceIndex": 13027
   },
   {
@@ -4979,6 +6147,10 @@ const phrasesPeople = [
     "wordIds": [
       "23032"
     ],
+    "cloze": {
+      "de": "gescheiter",
+      "en": "clever"
+    },
     "sourceIndex": 13032
   },
   {
@@ -4996,6 +6168,10 @@ const phrasesPeople = [
     "wordIds": [
       "23049"
     ],
+    "cloze": {
+      "de": "Iraker",
+      "en": "Iraqi"
+    },
     "sourceIndex": 13049
   },
   {
@@ -5013,6 +6189,10 @@ const phrasesPeople = [
     "wordIds": [
       "23194"
     ],
+    "cloze": {
+      "de": "Cutter",
+      "en": "cutter"
+    },
     "sourceIndex": 13194
   },
   {
@@ -5030,6 +6210,10 @@ const phrasesPeople = [
     "wordIds": [
       "23302"
     ],
+    "cloze": {
+      "de": "Schätzchen",
+      "en": "darling"
+    },
     "sourceIndex": 13302
   },
   {
@@ -5047,6 +6231,10 @@ const phrasesPeople = [
     "wordIds": [
       "23376"
     ],
+    "cloze": {
+      "de": "aussehende",
+      "en": "good-looking"
+    },
     "sourceIndex": 13376
   },
   {
@@ -5064,6 +6252,10 @@ const phrasesPeople = [
     "wordIds": [
       "23468"
     ],
+    "cloze": {
+      "de": "Leerzeichen",
+      "en": "space"
+    },
     "sourceIndex": 13468
   },
   {
@@ -5081,6 +6273,10 @@ const phrasesPeople = [
     "wordIds": [
       "23623"
     ],
+    "cloze": {
+      "de": "Enkelkind",
+      "en": "grandchild"
+    },
     "sourceIndex": 13623
   },
   {
@@ -5098,6 +6294,10 @@ const phrasesPeople = [
     "wordIds": [
       "23687"
     ],
+    "cloze": {
+      "de": "Marionetten",
+      "en": "with"
+    },
     "sourceIndex": 13687
   },
   {
@@ -5115,6 +6315,10 @@ const phrasesPeople = [
     "wordIds": [
       "23716"
     ],
+    "cloze": {
+      "de": "Russin",
+      "en": "Russian"
+    },
     "sourceIndex": 13716
   },
   {
@@ -5132,6 +6336,10 @@ const phrasesPeople = [
     "wordIds": [
       "23925"
     ],
+    "cloze": {
+      "de": "Trampolin",
+      "en": "trampoline"
+    },
     "sourceIndex": 13925
   },
   {
@@ -5149,6 +6357,10 @@ const phrasesPeople = [
     "wordIds": [
       "24046"
     ],
+    "cloze": {
+      "de": "zusammenheften",
+      "en": "staple"
+    },
     "sourceIndex": 14046
   },
   {
@@ -5166,6 +6378,10 @@ const phrasesPeople = [
     "wordIds": [
       "24113"
     ],
+    "cloze": {
+      "de": "Schreibmaschine",
+      "en": "typewriter"
+    },
     "sourceIndex": 14113
   },
   {
@@ -5183,6 +6399,10 @@ const phrasesPeople = [
     "wordIds": [
       "24141"
     ],
+    "cloze": {
+      "de": "Urgrossvater",
+      "en": "great-grandfather"
+    },
     "sourceIndex": 14141
   },
   {
@@ -5200,6 +6420,10 @@ const phrasesPeople = [
     "wordIds": [
       "24215"
     ],
+    "cloze": {
+      "de": "Familienname",
+      "en": "family"
+    },
     "sourceIndex": 14215
   },
   {
@@ -5217,6 +6441,10 @@ const phrasesPeople = [
     "wordIds": [
       "24252"
     ],
+    "cloze": {
+      "de": "kindliche",
+      "en": "childlike"
+    },
     "sourceIndex": 14252
   },
   {
@@ -5234,6 +6462,10 @@ const phrasesPeople = [
     "wordIds": [
       "24434"
     ],
+    "cloze": {
+      "de": "Kinderwunsch",
+      "en": "desire"
+    },
     "sourceIndex": 14434
   },
   {
@@ -5251,6 +6483,10 @@ const phrasesPeople = [
     "wordIds": [
       "24460"
     ],
+    "cloze": {
+      "de": "Partnersuche",
+      "en": "partner"
+    },
     "sourceIndex": 14460
   },
   {
@@ -5268,6 +6504,10 @@ const phrasesPeople = [
     "wordIds": [
       "24478"
     ],
+    "cloze": {
+      "de": "Robe",
+      "en": "gown"
+    },
     "sourceIndex": 14478
   },
   {
@@ -5285,6 +6525,10 @@ const phrasesPeople = [
     "wordIds": [
       "24674"
     ],
+    "cloze": {
+      "de": "Marokkaner",
+      "en": "Moroccan"
+    },
     "sourceIndex": 14674
   },
   {
@@ -5302,6 +6546,10 @@ const phrasesPeople = [
     "wordIds": [
       "24695"
     ],
+    "cloze": {
+      "de": "Popo",
+      "en": "bottom"
+    },
     "sourceIndex": 14695
   },
   {
@@ -5319,6 +6567,10 @@ const phrasesPeople = [
     "wordIds": [
       "24743"
     ],
+    "cloze": {
+      "de": "Ungar",
+      "en": "Hungarian"
+    },
     "sourceIndex": 14743
   },
   {
@@ -5336,6 +6588,10 @@ const phrasesPeople = [
     "wordIds": [
       "24857"
     ],
+    "cloze": {
+      "de": "Kindererziehung",
+      "en": "Child-rearing"
+    },
     "sourceIndex": 14857
   },
   {
@@ -5353,6 +6609,10 @@ const phrasesPeople = [
     "wordIds": [
       "24858"
     ],
+    "cloze": {
+      "de": "Kinderheim",
+      "en": "children's"
+    },
     "sourceIndex": 14858
   },
   {
@@ -5370,6 +6630,10 @@ const phrasesPeople = [
     "wordIds": [
       "25108"
     ],
+    "cloze": {
+      "de": "Personengruppe",
+      "en": "group"
+    },
     "sourceIndex": 15108
   },
   {
@@ -5387,6 +6651,10 @@ const phrasesPeople = [
     "wordIds": [
       "25194"
     ],
+    "cloze": {
+      "de": "zusammenbringen",
+      "en": "bring"
+    },
     "sourceIndex": 15194
   },
   {
@@ -5404,6 +6672,10 @@ const phrasesPeople = [
     "wordIds": [
       "25253"
     ],
+    "cloze": {
+      "de": "Familienangehörige",
+      "en": "family"
+    },
     "sourceIndex": 15253
   },
   {
@@ -5421,6 +6693,10 @@ const phrasesPeople = [
     "wordIds": [
       "25273"
     ],
+    "cloze": {
+      "de": "geschieden",
+      "en": "divorced"
+    },
     "sourceIndex": 15273
   },
   {
@@ -5438,6 +6714,10 @@ const phrasesPeople = [
     "wordIds": [
       "25439"
     ],
+    "cloze": {
+      "de": "Brautpaar",
+      "en": "bridal"
+    },
     "sourceIndex": 15439
   },
   {
@@ -5455,6 +6735,10 @@ const phrasesPeople = [
     "wordIds": [
       "25548"
     ],
+    "cloze": {
+      "de": "Ortsverband",
+      "en": "local"
+    },
     "sourceIndex": 15548
   },
   {
@@ -5472,6 +6756,10 @@ const phrasesPeople = [
     "wordIds": [
       "25671"
     ],
+    "cloze": {
+      "de": "Elterngeld",
+      "en": "parental"
+    },
     "sourceIndex": 15671
   },
   {
@@ -5489,6 +6777,10 @@ const phrasesPeople = [
     "wordIds": [
       "25690"
     ],
+    "cloze": {
+      "de": "futtern",
+      "en": "gobbling"
+    },
     "sourceIndex": 15690
   },
   {
@@ -5506,6 +6798,10 @@ const phrasesPeople = [
     "wordIds": [
       "25703"
     ],
+    "cloze": {
+      "de": "Halbbruder",
+      "en": "half-brother"
+    },
     "sourceIndex": 15703
   },
   {
@@ -5523,6 +6819,10 @@ const phrasesPeople = [
     "wordIds": [
       "25755"
     ],
+    "cloze": {
+      "de": "nährt",
+      "en": "nourishes"
+    },
     "sourceIndex": 15755
   },
   {
@@ -5540,6 +6840,10 @@ const phrasesPeople = [
     "wordIds": [
       "25780"
     ],
+    "cloze": {
+      "de": "Schneemann",
+      "en": "snowman"
+    },
     "sourceIndex": 15780
   },
   {
@@ -5557,6 +6861,10 @@ const phrasesPeople = [
     "wordIds": [
       "25784"
     ],
+    "cloze": {
+      "de": "Schwiegereltern",
+      "en": "parents-in"
+    },
     "sourceIndex": 15784
   },
   {
@@ -5574,6 +6882,10 @@ const phrasesPeople = [
     "wordIds": [
       "25910"
     ],
+    "cloze": {
+      "de": "Gartenarbeit",
+      "en": "gardening"
+    },
     "sourceIndex": 15910
   },
   {
@@ -5591,6 +6903,10 @@ const phrasesPeople = [
     "wordIds": [
       "25943"
     ],
+    "cloze": {
+      "de": "Jugendzeit",
+      "en": "youth"
+    },
     "sourceIndex": 15943
   },
   {
@@ -5608,6 +6924,10 @@ const phrasesPeople = [
     "wordIds": [
       "25956"
     ],
+    "cloze": {
+      "de": "Lebenspartner",
+      "en": "life"
+    },
     "sourceIndex": 15956
   },
   {
@@ -5625,6 +6945,10 @@ const phrasesPeople = [
     "wordIds": [
       "25995"
     ],
+    "cloze": {
+      "de": "reizende",
+      "en": "charming"
+    },
     "sourceIndex": 15995
   },
   {
@@ -5642,6 +6966,10 @@ const phrasesPeople = [
     "wordIds": [
       "26019"
     ],
+    "cloze": {
+      "de": "Theatergruppe",
+      "en": "theater"
+    },
     "sourceIndex": 16019
   },
   {
@@ -5659,6 +6987,10 @@ const phrasesPeople = [
     "wordIds": [
       "26080"
     ],
+    "cloze": {
+      "de": "Begleiterin",
+      "en": "companion"
+    },
     "sourceIndex": 16080
   },
   {
@@ -5676,6 +7008,10 @@ const phrasesPeople = [
     "wordIds": [
       "26159"
     ],
+    "cloze": {
+      "de": "kommunikative",
+      "en": "communicative"
+    },
     "sourceIndex": 16159
   },
   {
@@ -5693,6 +7029,10 @@ const phrasesPeople = [
     "wordIds": [
       "26324"
     ],
+    "cloze": {
+      "de": "Architektin",
+      "en": "female"
+    },
     "sourceIndex": 16324
   },
   {
@@ -5710,6 +7050,10 @@ const phrasesPeople = [
     "wordIds": [
       "26394"
     ],
+    "cloze": {
+      "de": "Gastgeberin",
+      "en": "hostess"
+    },
     "sourceIndex": 16394
   },
   {
@@ -5727,6 +7071,10 @@ const phrasesPeople = [
     "wordIds": [
       "26456"
     ],
+    "cloze": {
+      "de": "Ortsverein",
+      "en": "local"
+    },
     "sourceIndex": 16456
   },
   {
@@ -5744,6 +7092,10 @@ const phrasesPeople = [
     "wordIds": [
       "26491"
     ],
+    "cloze": {
+      "de": "Seniorin",
+      "en": "senior"
+    },
     "sourceIndex": 16491
   },
   {
@@ -5761,6 +7113,10 @@ const phrasesPeople = [
     "wordIds": [
       "26566"
     ],
+    "cloze": {
+      "de": "adligen",
+      "en": "noble"
+    },
     "sourceIndex": 16566
   },
   {
@@ -5778,6 +7134,10 @@ const phrasesPeople = [
     "wordIds": [
       "26948"
     ],
+    "cloze": {
+      "de": "Namensänderung",
+      "en": "name"
+    },
     "sourceIndex": 16948
   },
   {
@@ -5795,6 +7155,10 @@ const phrasesPeople = [
     "wordIds": [
       "26989"
     ],
+    "cloze": {
+      "de": "Sis",
+      "en": "sis"
+    },
     "sourceIndex": 16989
   },
   {
@@ -5812,6 +7176,10 @@ const phrasesPeople = [
     "wordIds": [
       "27025"
     ],
+    "cloze": {
+      "de": "Urenkel",
+      "en": "great-grandson"
+    },
     "sourceIndex": 17025
   },
   {
@@ -5829,6 +7197,10 @@ const phrasesPeople = [
     "wordIds": [
       "27058"
     ],
+    "cloze": {
+      "de": "Zwillingsbruder",
+      "en": "twin"
+    },
     "sourceIndex": 17058
   },
   {
@@ -5846,6 +7218,10 @@ const phrasesPeople = [
     "wordIds": [
       "27122"
     ],
+    "cloze": {
+      "de": "wandern",
+      "en": "immigrate"
+    },
     "sourceIndex": 17122
   },
   {
@@ -5863,6 +7239,10 @@ const phrasesPeople = [
     "wordIds": [
       "27400"
     ],
+    "cloze": {
+      "de": "Flitterwochen",
+      "en": "honeymoon"
+    },
     "sourceIndex": 17400
   },
   {
@@ -5880,6 +7260,10 @@ const phrasesPeople = [
     "wordIds": [
       "27476"
     ],
+    "cloze": {
+      "de": "liebenswürdige",
+      "en": "amiable"
+    },
     "sourceIndex": 17476
   },
   {
@@ -5897,6 +7281,10 @@ const phrasesPeople = [
     "wordIds": [
       "27503"
     ],
+    "cloze": {
+      "de": "paarmal",
+      "en": "couple"
+    },
     "sourceIndex": 17503
   },
   {
@@ -5914,6 +7302,10 @@ const phrasesPeople = [
     "wordIds": [
       "27584"
     ],
+    "cloze": {
+      "de": "Vietnamese",
+      "en": "Vietnamese"
+    },
     "sourceIndex": 17584
   },
   {
@@ -5931,6 +7323,10 @@ const phrasesPeople = [
     "wordIds": [
       "27599"
     ],
+    "cloze": {
+      "de": "Witwer",
+      "en": "widower"
+    },
     "sourceIndex": 17599
   },
   {
@@ -5948,6 +7344,10 @@ const phrasesPeople = [
     "wordIds": [
       "27721"
     ],
+    "cloze": {
+      "de": "klammerte",
+      "en": "to"
+    },
     "sourceIndex": 17721
   },
   {
@@ -5965,6 +7365,10 @@ const phrasesPeople = [
     "wordIds": [
       "27731"
     ],
+    "cloze": {
+      "de": "Kubaner",
+      "en": "Cuban"
+    },
     "sourceIndex": 17731
   },
   {
@@ -5982,6 +7386,10 @@ const phrasesPeople = [
     "wordIds": [
       "27963"
     ],
+    "cloze": {
+      "de": "Kinderklinik",
+      "en": "children's"
+    },
     "sourceIndex": 17963
   },
   {
@@ -5999,6 +7407,10 @@ const phrasesPeople = [
     "wordIds": [
       "27964"
     ],
+    "cloze": {
+      "de": "kinderlose",
+      "en": "childless"
+    },
     "sourceIndex": 17964
   },
   {
@@ -6016,6 +7428,10 @@ const phrasesPeople = [
     "wordIds": [
       "27998"
     ],
+    "cloze": {
+      "de": "Nigerianer",
+      "en": "Nigerian"
+    },
     "sourceIndex": 17998
   },
   {
@@ -6033,6 +7449,10 @@ const phrasesPeople = [
     "wordIds": [
       "28010"
     ],
+    "cloze": {
+      "de": "Privatleute",
+      "en": "private"
+    },
     "sourceIndex": 18010
   },
   {
@@ -6050,6 +7470,10 @@ const phrasesPeople = [
     "wordIds": [
       "28345"
     ],
+    "cloze": {
+      "de": "zusammenziehen",
+      "en": "move"
+    },
     "sourceIndex": 18345
   },
   {
@@ -6067,6 +7491,10 @@ const phrasesPeople = [
     "wordIds": [
       "28382"
     ],
+    "cloze": {
+      "de": "Buggy",
+      "en": "stroller"
+    },
     "sourceIndex": 18382
   },
   {
@@ -6084,6 +7512,10 @@ const phrasesPeople = [
     "wordIds": [
       "28385"
     ],
+    "cloze": {
+      "de": "Chihuahua",
+      "en": "Chihuahua"
+    },
     "sourceIndex": 18385
   },
   {
@@ -6101,6 +7533,10 @@ const phrasesPeople = [
     "wordIds": [
       "28392"
     ],
+    "cloze": {
+      "de": "Dreissiger",
+      "en": "person"
+    },
     "sourceIndex": 18392
   },
   {
@@ -6118,6 +7554,10 @@ const phrasesPeople = [
     "wordIds": [
       "28547"
     ],
+    "cloze": {
+      "de": "Schatzi",
+      "en": "sweetheart"
+    },
     "sourceIndex": 18547
   },
   {
@@ -6135,6 +7575,10 @@ const phrasesPeople = [
     "wordIds": [
       "28606"
     ],
+    "cloze": {
+      "de": "Vorschule",
+      "en": "preschool"
+    },
     "sourceIndex": 18606
   },
   {
@@ -6152,6 +7596,10 @@ const phrasesPeople = [
     "wordIds": [
       "28707"
     ],
+    "cloze": {
+      "de": "gruppieren",
+      "en": "group"
+    },
     "sourceIndex": 18707
   },
   {
@@ -6169,6 +7617,10 @@ const phrasesPeople = [
     "wordIds": [
       "28736"
     ],
+    "cloze": {
+      "de": "krabbeln",
+      "en": "crawl"
+    },
     "sourceIndex": 18736
   },
   {
@@ -6186,6 +7638,10 @@ const phrasesPeople = [
     "wordIds": [
       "28825"
     ],
+    "cloze": {
+      "de": "Töchterchen",
+      "en": "little"
+    },
     "sourceIndex": 18825
   },
   {
@@ -6203,6 +7659,10 @@ const phrasesPeople = [
     "wordIds": [
       "28956"
     ],
+    "cloze": {
+      "de": "Familientreffen",
+      "en": "family"
+    },
     "sourceIndex": 18956
   },
   {
@@ -6220,6 +7680,10 @@ const phrasesPeople = [
     "wordIds": [
       "28988"
     ],
+    "cloze": {
+      "de": "Gästeliste",
+      "en": "guest"
+    },
     "sourceIndex": 18988
   },
   {
@@ -6237,6 +7701,10 @@ const phrasesPeople = [
     "wordIds": [
       "29020"
     ],
+    "cloze": {
+      "de": "Kindheitserinnerungen",
+      "en": "childhood"
+    },
     "sourceIndex": 19020
   },
   {
@@ -6254,6 +7722,10 @@ const phrasesPeople = [
     "wordIds": [
       "29031"
     ],
+    "cloze": {
+      "de": "Laktoseintoleranz",
+      "en": "lactose"
+    },
     "sourceIndex": 19031
   },
   {
@@ -6271,6 +7743,10 @@ const phrasesPeople = [
     "wordIds": [
       "29092"
     ],
+    "cloze": {
+      "de": "schluchzen",
+      "en": "sob"
+    },
     "sourceIndex": 19092
   },
   {
@@ -6288,6 +7764,10 @@ const phrasesPeople = [
     "wordIds": [
       "29110"
     ],
+    "cloze": {
+      "de": "Standbild",
+      "en": "statue"
+    },
     "sourceIndex": 19110
   },
   {
@@ -6305,6 +7785,10 @@ const phrasesPeople = [
     "wordIds": [
       "29368"
     ],
+    "cloze": {
+      "de": "Reiniger",
+      "en": "cleaner"
+    },
     "sourceIndex": 19368
   },
   {
@@ -6322,6 +7806,10 @@ const phrasesPeople = [
     "wordIds": [
       "29410"
     ],
+    "cloze": {
+      "de": "Stieftochter",
+      "en": "stepdaughter"
+    },
     "sourceIndex": 19410
   },
   {
@@ -6339,6 +7827,10 @@ const phrasesPeople = [
     "wordIds": [
       "29438"
     ],
+    "cloze": {
+      "de": "Vati",
+      "en": "daddy"
+    },
     "sourceIndex": 19438
   },
   {
@@ -6356,6 +7848,10 @@ const phrasesPeople = [
     "wordIds": [
       "29614"
     ],
+    "cloze": {
+      "de": "Liebesbeziehung",
+      "en": "romantic"
+    },
     "sourceIndex": 19614
   },
   {
@@ -6373,6 +7869,10 @@ const phrasesPeople = [
     "wordIds": [
       "29638"
     ],
+    "cloze": {
+      "de": "Offenbacher",
+      "en": "person"
+    },
     "sourceIndex": 19638
   },
   {
@@ -6390,6 +7890,10 @@ const phrasesPeople = [
     "wordIds": [
       "29846"
     ],
+    "cloze": {
+      "de": "grossziehen",
+      "en": "raise"
+    },
     "sourceIndex": 19846
   },
   {
@@ -6407,6 +7911,10 @@ const phrasesPeople = [
     "wordIds": [
       "29886"
     ],
+    "cloze": {
+      "de": "Kolumbianer",
+      "en": "Colombian"
+    },
     "sourceIndex": 19886
   },
   {
@@ -6424,6 +7932,10 @@ const phrasesPeople = [
     "wordIds": [
       "29936"
     ],
+    "cloze": {
+      "de": "Polin",
+      "en": "Polish"
+    },
     "sourceIndex": 19936
   },
   {
@@ -6441,6 +7953,10 @@ const phrasesPeople = [
     "wordIds": [
       "29976"
     ],
+    "cloze": {
+      "de": "Jugendslang",
+      "en": "slang"
+    },
     "sourceIndex": 19976
   },
   {
@@ -6458,6 +7974,10 @@ const phrasesPeople = [
     "wordIds": [
       "29981"
     ],
+    "cloze": {
+      "de": "springende",
+      "en": "jumping"
+    },
     "sourceIndex": 19981
   },
   {
@@ -6475,6 +7995,10 @@ const phrasesPeople = [
     "wordIds": [
       "30140"
     ],
+    "cloze": {
+      "de": "Freundchen",
+      "en": "buddy"
+    },
     "sourceIndex": 20140
   },
   {
@@ -6492,6 +8016,10 @@ const phrasesPeople = [
     "wordIds": [
       "30155"
     ],
+    "cloze": {
+      "de": "Göre",
+      "en": "brat"
+    },
     "sourceIndex": 20155
   },
   {
@@ -6509,6 +8037,10 @@ const phrasesPeople = [
     "wordIds": [
       "30174"
     ],
+    "cloze": {
+      "de": "Japanerin",
+      "en": "Japanese"
+    },
     "sourceIndex": 20174
   },
   {
@@ -6526,6 +8058,10 @@ const phrasesPeople = [
     "wordIds": [
       "30177"
     ],
+    "cloze": {
+      "de": "Knicks",
+      "en": "curtsy"
+    },
     "sourceIndex": 20177
   },
   {
@@ -6543,6 +8079,10 @@ const phrasesPeople = [
     "wordIds": [
       "30209"
     ],
+    "cloze": {
+      "de": "ahmen",
+      "en": "imitate"
+    },
     "sourceIndex": 20209
   },
   {
@@ -6560,6 +8100,10 @@ const phrasesPeople = [
     "wordIds": [
       "30258"
     ],
+    "cloze": {
+      "de": "Slowake",
+      "en": "Slovak"
+    },
     "sourceIndex": 20258
   }
 ];

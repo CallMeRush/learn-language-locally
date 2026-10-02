@@ -1,9 +1,13 @@
 var defaultPreferences = () => ({
   vocabLevels: ["A1", "A2", "B1"],
   selectedCategory: "all",
+  selectedCategories: ["all"],
   phraseCategory: "all",
+  phraseCategories: ["all"],
   vocabMode: "translate",
-  phraseMode: "translate",
+  phraseDirection: "translate",
+  phraseCloze: false,
+  phraseMultipleChoice: false,
   randomMode: true,
   phraseRandom: true,
   hideVocabularyAnswers: true,
@@ -12,6 +16,8 @@ var defaultPreferences = () => ({
 var emptyProgress = () => ({
   learned: [],
   issues: [],
+  mistakes: [],
+  articleOnlyMistakes: [],
   phrases: [],
   correct: 0,
   attempts: 0,
@@ -35,7 +41,7 @@ function normalizeProgress(progress) {
   var value = progress && typeof progress === "object" && !Array.isArray(progress)
     ? { ...progress }
     : emptyProgress();
-  ["learned", "issues", "phrases", "lessons"].forEach((key) => {
+  ["learned", "issues", "mistakes", "articleOnlyMistakes", "phrases", "lessons"].forEach((key) => {
     value[key] = Array.isArray(value[key]) ? [...new Set(value[key].filter((id) => typeof id === "string"))] : [];
   });
   ["correct", "attempts"].forEach((key) => {
@@ -47,7 +53,10 @@ function normalizeProgress(progress) {
     ? Object.fromEntries(Object.entries(value.lessonHistory).filter(([, record]) => record && typeof record === "object" && typeof record.completedAt === "string"))
     : {};
   value.lessonSession = value.lessonSession && typeof value.lessonSession === "object" ? value.lessonSession : null;
-  var preferences = { ...defaultPreferences(), ...(value.preferences && typeof value.preferences === "object" ? value.preferences : {}) };
+  var preferences = {
+    ...defaultPreferences(),
+    ...(value.preferences && typeof value.preferences === "object" ? value.preferences : {}),
+  };
   var legacyLevel = preferences.vocabLevel;
   preferences.vocabLevels = Array.isArray(preferences.vocabLevels)
     ? preferences.vocabLevels.filter(level => ["A1", "A2", "B1"].includes(level))
@@ -56,11 +65,21 @@ function normalizeProgress(progress) {
   if (!preferences.vocabLevels.length) preferences.vocabLevels = ["A1", "A2", "B1"];
   delete preferences.vocabLevel;
   if (!["meaning", "translate", "choice"].includes(preferences.vocabMode)) preferences.vocabMode = "translate";
-  if (!["translate", "reverse", "cloze", "choice"].includes(preferences.phraseMode)) preferences.phraseMode = "translate";
+  if (!["translate", "reverse"].includes(preferences.phraseDirection)) preferences.phraseDirection = "translate";
+  preferences.phraseCloze = Boolean(preferences.phraseCloze);
+  preferences.phraseMultipleChoice = Boolean(preferences.phraseMultipleChoice);
   ["randomMode", "phraseRandom", "hideVocabularyAnswers", "grammarGrid"].forEach(key => preferences[key] = Boolean(preferences[key]));
   ["selectedCategory", "phraseCategory"].forEach(key => preferences[key] = typeof preferences[key] === "string" ? preferences[key] : defaultPreferences()[key]);
   if (!categoryRecords.some(record => record.id === preferences.selectedCategory)) preferences.selectedCategory = "all";
   if (preferences.phraseCategory !== "all" && !contentManifest.phrases[preferences.phraseCategory]) preferences.phraseCategory = "all";
+  preferences.selectedCategories = Array.isArray(preferences.selectedCategories)
+    ? preferences.selectedCategories.filter(key => categoryRecords.some(record => record.id === key))
+    : [preferences.selectedCategory];
+  preferences.phraseCategories = Array.isArray(preferences.phraseCategories)
+    ? preferences.phraseCategories.filter(key => key === "all" || contentManifest.phrases[key])
+    : [preferences.phraseCategory];
+  if (!preferences.selectedCategories.length) preferences.selectedCategories = ["all"];
+  if (!preferences.phraseCategories.length) preferences.phraseCategories = ["all"];
   value.preferences = preferences;
   return value;
 }
@@ -86,14 +105,33 @@ function progressFromExport(text) {
 function resolveIssue(id) {
   state.issues = state.issues.filter((issue) => issue !== id);
 }
+function recordMistake(id, articleOnly = false) {
+  if (articleOnly && !state.mistakes.includes(id)) {
+    if (!state.articleOnlyMistakes.includes(id)) state.articleOnlyMistakes.push(id);
+    return;
+  }
+  if (!state.mistakes.includes(id)) state.mistakes.push(id);
+  state.articleOnlyMistakes = state.articleOnlyMistakes.filter(item => item !== id);
+}
+function toggleCategorySelection(selection, allKey, keys, key) {
+  if (key === allKey) return [allKey];
+  if (selection.includes(allKey)) return keys.filter((id) => id !== allKey && id !== key);
+  return selection.includes(key)
+    ? selection.filter((id) => id !== key)
+    : [...selection, key];
+}
 var state = loadProgress();
 function savePreferences() {
   state.preferences = normalizeProgress({ preferences: {
     vocabLevels: selectedLevels,
     selectedCategory,
+    selectedCategories,
     phraseCategory,
+    phraseCategories,
     vocabMode,
-    phraseMode,
+    phraseDirection,
+    phraseCloze,
+    phraseMultipleChoice,
     randomMode,
     phraseRandom,
     hideVocabularyAnswers,
@@ -116,15 +154,18 @@ function updateDirectionLabels() {
 }
 document.querySelector('.crumb')?.remove();
 var selectedCategory = state.preferences.selectedCategory,
+  selectedCategories = state.preferences.selectedCategories,
   activeVocabWord = null,
   vocabIndex = 0,
   selectedLevels = state.preferences.vocabLevels,
   vocabLevel = "all",
-  vocabStatus = "unseen",
   phraseIndex = 0,
   phraseLevel = "all",
   phraseCategory = state.preferences.phraseCategory,
-  phraseMode = state.preferences.phraseMode,
+  phraseCategories = state.preferences.phraseCategories,
+  phraseDirection = state.preferences.phraseDirection,
+  phraseCloze = state.preferences.phraseCloze,
+  phraseMultipleChoice = state.preferences.phraseMultipleChoice,
   vocabMode = state.preferences.vocabMode,
   selectedArticle = "",
   selectedVocabChoice = "",
@@ -185,7 +226,6 @@ var vocabScopedIds = new Set([
   "check-vocab",
   "vocab-hint",
   "next-vocab",
-  "random-vocab",
   "random-mode",
 ]);
 var isVerbView = () => !!document.querySelector("#verbs-view.active-view");

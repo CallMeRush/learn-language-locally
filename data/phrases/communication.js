@@ -14,6 +14,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10029"
     ],
+    "cloze": {
+      "de": "einfache",
+      "en": "simple"
+    },
     "sourceIndex": 29
   },
   {
@@ -31,6 +35,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10059"
     ],
+    "cloze": {
+      "de": "sagen",
+      "en": "say"
+    },
     "sourceIndex": 59
   },
   {
@@ -48,6 +56,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10081"
     ],
+    "cloze": {
+      "de": "gleiche",
+      "en": "same"
+    },
     "sourceIndex": 81
   },
   {
@@ -65,6 +77,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10091"
     ],
+    "cloze": {
+      "de": "Frage",
+      "en": "question"
+    },
     "sourceIndex": 91
   },
   {
@@ -82,6 +98,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10118"
     ],
+    "cloze": {
+      "de": "fragen",
+      "en": "ask"
+    },
     "sourceIndex": 118
   },
   {
@@ -99,6 +119,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10163"
     ],
+    "cloze": {
+      "de": "Thema",
+      "en": "topic"
+    },
     "sourceIndex": 163
   },
   {
@@ -116,6 +140,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10202"
     ],
+    "cloze": {
+      "de": "wichtige",
+      "en": "important"
+    },
     "sourceIndex": 202
   },
   {
@@ -133,6 +161,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10253"
     ],
+    "cloze": {
+      "de": "Wort",
+      "en": "word"
+    },
     "sourceIndex": 253
   },
   {
@@ -150,6 +182,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10289"
     ],
+    "cloze": {
+      "de": "verstehe",
+      "en": "understand"
+    },
     "sourceIndex": 289
   },
   {
@@ -167,6 +203,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10313"
     ],
+    "cloze": {
+      "de": "Meinung",
+      "en": "opinion"
+    },
     "sourceIndex": 313
   },
   {
@@ -184,6 +224,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10315"
     ],
+    "cloze": {
+      "de": "reden",
+      "en": "talking"
+    },
     "sourceIndex": 315
   },
   {
@@ -201,6 +245,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10320"
     ],
+    "cloze": {
+      "de": "sprechen",
+      "en": "speak"
+    },
     "sourceIndex": 320
   },
   {
@@ -218,6 +266,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10340"
     ],
+    "cloze": {
+      "de": "bedeutet",
+      "en": "mean"
+    },
     "sourceIndex": 340
   },
   {
@@ -235,6 +287,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10342"
     ],
+    "cloze": {
+      "de": "F",
+      "en": "F"
+    },
     "sourceIndex": 342
   },
   {
@@ -252,6 +308,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10344"
     ],
+    "cloze": {
+      "de": "höre",
+      "en": "I"
+    },
     "sourceIndex": 344
   },
   {
@@ -269,6 +329,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10355"
     ],
+    "cloze": {
+      "de": "Titel",
+      "en": "title"
+    },
     "sourceIndex": 355
   },
   {
@@ -286,6 +350,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10379"
     ],
+    "cloze": {
+      "de": "erklären",
+      "en": "explain"
+    },
     "sourceIndex": 379
   },
   {
@@ -303,6 +371,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10388"
     ],
+    "cloze": {
+      "de": "Antwort",
+      "en": "answer"
+    },
     "sourceIndex": 388
   },
   {
@@ -320,6 +392,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10406"
     ],
+    "cloze": {
+      "de": "Sinn",
+      "en": "sense"
+    },
     "sourceIndex": 406
   },
   {
@@ -337,6 +413,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10410"
     ],
+    "cloze": {
+      "de": "falsche",
+      "en": "wrong"
+    },
     "sourceIndex": 410
   },
   {
@@ -354,6 +434,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10420"
     ],
+    "cloze": {
+      "de": "Stimme",
+      "en": "voice"
+    },
     "sourceIndex": 420
   },
   {
@@ -371,6 +455,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10426"
     ],
+    "cloze": {
+      "de": "Information",
+      "en": "information"
+    },
     "sourceIndex": 426
   },
   {
@@ -388,6 +476,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10449"
     ],
+    "cloze": {
+      "de": "Rede",
+      "en": "speech"
+    },
     "sourceIndex": 449
   },
   {
@@ -405,6 +497,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10471"
     ],
+    "cloze": {
+      "de": "Bedeutung",
+      "en": "meaning"
+    },
     "sourceIndex": 471
   },
   {
@@ -422,6 +518,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10492"
     ],
+    "cloze": {
+      "de": "erzählen",
+      "en": "tell"
+    },
     "sourceIndex": 492
   },
   {
@@ -439,6 +539,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10516"
     ],
+    "cloze": {
+      "de": "erwarte",
+      "en": "expecting"
+    },
     "sourceIndex": 516
   },
   {
@@ -456,6 +560,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10531"
     ],
+    "cloze": {
+      "de": "nennen",
+      "en": "call"
+    },
     "sourceIndex": 531
   },
   {
@@ -473,6 +581,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10551"
     ],
+    "cloze": {
+      "de": "bezeichnen",
+      "en": "describe"
+    },
     "sourceIndex": 551
   },
   {
@@ -490,6 +602,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10608"
     ],
+    "cloze": {
+      "de": "Bericht",
+      "en": "report"
+    },
     "sourceIndex": 608
   },
   {
@@ -507,6 +623,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10634"
     ],
+    "cloze": {
+      "de": "Angaben",
+      "en": "information"
+    },
     "sourceIndex": 634
   },
   {
@@ -524,6 +644,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10666"
     ],
+    "cloze": {
+      "de": "Kontakt",
+      "en": "contact"
+    },
     "sourceIndex": 666
   },
   {
@@ -541,6 +665,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10677"
     ],
+    "cloze": {
+      "de": "zusätzliche",
+      "en": "additional"
+    },
     "sourceIndex": 677
   },
   {
@@ -558,6 +686,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10697"
     ],
+    "cloze": {
+      "de": "Erwähnen",
+      "en": "mention"
+    },
     "sourceIndex": 697
   },
   {
@@ -575,6 +707,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10705"
     ],
+    "cloze": {
+      "de": "persönliche",
+      "en": "personal"
+    },
     "sourceIndex": 705
   },
   {
@@ -592,6 +728,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10733"
     ],
+    "cloze": {
+      "de": "Gespräch",
+      "en": "conversation"
+    },
     "sourceIndex": 733
   },
   {
@@ -609,6 +749,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10764"
     ],
+    "cloze": {
+      "de": "wirken",
+      "en": "seem"
+    },
     "sourceIndex": 764
   },
   {
@@ -626,6 +770,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10769"
     ],
+    "cloze": {
+      "de": "Diskussion",
+      "en": "discussion"
+    },
     "sourceIndex": 769
   },
   {
@@ -643,6 +791,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10773"
     ],
+    "cloze": {
+      "de": "miteinander",
+      "en": "with"
+    },
     "sourceIndex": 773
   },
   {
@@ -660,6 +812,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10785"
     ],
+    "cloze": {
+      "de": "berichten",
+      "en": "report"
+    },
     "sourceIndex": 785
   },
   {
@@ -677,6 +833,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10788"
     ],
+    "cloze": {
+      "de": "Grundsätzlich",
+      "en": "Fundamentally"
+    },
     "sourceIndex": 788
   },
   {
@@ -694,6 +854,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10851"
     ],
+    "cloze": {
+      "de": "bestätigen",
+      "en": "confirm"
+    },
     "sourceIndex": 851
   },
   {
@@ -711,6 +875,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10867"
     ],
+    "cloze": {
+      "de": "Rat",
+      "en": "advice"
+    },
     "sourceIndex": 867
   },
   {
@@ -728,6 +896,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10956"
     ],
+    "cloze": {
+      "de": "Erklärung",
+      "en": "explanation"
+    },
     "sourceIndex": 956
   },
   {
@@ -745,6 +917,10 @@ const phrasesCommunication = [
     "wordIds": [
       "10978"
     ],
+    "cloze": {
+      "de": "Aussage",
+      "en": "statement"
+    },
     "sourceIndex": 978
   },
   {
@@ -762,6 +938,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11011"
     ],
+    "cloze": {
+      "de": "empfehlen",
+      "en": "recommend"
+    },
     "sourceIndex": 1011
   },
   {
@@ -779,6 +959,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11017"
     ],
+    "cloze": {
+      "de": "melden",
+      "en": "report"
+    },
     "sourceIndex": 1017
   },
   {
@@ -796,6 +980,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11040"
     ],
+    "cloze": {
+      "de": "offizielle",
+      "en": "official"
+    },
     "sourceIndex": 1040
   },
   {
@@ -813,6 +1001,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11058"
     ],
+    "cloze": {
+      "de": "Hinweis",
+      "en": "clue"
+    },
     "sourceIndex": 1058
   },
   {
@@ -830,6 +1022,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11141"
     ],
+    "cloze": {
+      "de": "private",
+      "en": "private"
+    },
     "sourceIndex": 1141
   },
   {
@@ -847,6 +1043,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11174"
     ],
+    "cloze": {
+      "de": "Verständnis",
+      "en": "understanding"
+    },
     "sourceIndex": 1174
   },
   {
@@ -864,6 +1064,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11178"
     ],
+    "cloze": {
+      "de": "Beschreibung",
+      "en": "description"
+    },
     "sourceIndex": 1178
   },
   {
@@ -881,6 +1085,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11182"
     ],
+    "cloze": {
+      "de": "dringende",
+      "en": "urgent"
+    },
     "sourceIndex": 1182
   },
   {
@@ -898,6 +1106,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11195"
     ],
+    "cloze": {
+      "de": "Tipp",
+      "en": "tip"
+    },
     "sourceIndex": 1195
   },
   {
@@ -915,6 +1127,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11221"
     ],
+    "cloze": {
+      "de": "Ton",
+      "en": "sound"
+    },
     "sourceIndex": 1221
   },
   {
@@ -932,6 +1148,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11227"
     ],
+    "cloze": {
+      "de": "Ansicht",
+      "en": "opinion"
+    },
     "sourceIndex": 1227
   },
   {
@@ -949,6 +1169,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11232"
     ],
+    "cloze": {
+      "de": "beschreiben",
+      "en": "describe"
+    },
     "sourceIndex": 1232
   },
   {
@@ -966,6 +1190,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11237"
     ],
+    "cloze": {
+      "de": "informieren",
+      "en": "inform"
+    },
     "sourceIndex": 1237
   },
   {
@@ -983,6 +1211,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11271"
     ],
+    "cloze": {
+      "de": "Vorschlag",
+      "en": "suggestion"
+    },
     "sourceIndex": 1271
   },
   {
@@ -1000,6 +1232,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11277"
     ],
+    "cloze": {
+      "de": "Adresse",
+      "en": "address"
+    },
     "sourceIndex": 1277
   },
   {
@@ -1017,6 +1253,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11286"
     ],
+    "cloze": {
+      "de": "Info",
+      "en": "info"
+    },
     "sourceIndex": 1286
   },
   {
@@ -1034,6 +1274,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11294"
     ],
+    "cloze": {
+      "de": "rufe",
+      "en": "call"
+    },
     "sourceIndex": 1294
   },
   {
@@ -1051,6 +1295,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11303"
     ],
+    "cloze": {
+      "de": "Kommunikation",
+      "en": "communication"
+    },
     "sourceIndex": 1303
   },
   {
@@ -1068,6 +1316,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11346"
     ],
+    "cloze": {
+      "de": "überlegen",
+      "en": "consider"
+    },
     "sourceIndex": 1346
   },
   {
@@ -1085,6 +1337,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11347"
     ],
+    "cloze": {
+      "de": "Übersetzung",
+      "en": "translation"
+    },
     "sourceIndex": 1347
   },
   {
@@ -1102,6 +1358,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11348"
     ],
+    "cloze": {
+      "de": "Ausdruck",
+      "en": "expression"
+    },
     "sourceIndex": 1348
   },
   {
@@ -1119,6 +1379,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11354"
     ],
+    "cloze": {
+      "de": "Debatte",
+      "en": "debate"
+    },
     "sourceIndex": 1354
   },
   {
@@ -1136,6 +1400,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11359"
     ],
+    "cloze": {
+      "de": "einladen",
+      "en": "invite"
+    },
     "sourceIndex": 1359
   },
   {
@@ -1153,6 +1421,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11416"
     ],
+    "cloze": {
+      "de": "behauptet",
+      "en": "claims"
+    },
     "sourceIndex": 1416
   },
   {
@@ -1170,6 +1442,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11418"
     ],
+    "cloze": {
+      "de": "bitten",
+      "en": "ask"
+    },
     "sourceIndex": 1418
   },
   {
@@ -1187,6 +1463,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11422"
     ],
+    "cloze": {
+      "de": "erstellen",
+      "en": "create"
+    },
     "sourceIndex": 1422
   },
   {
@@ -1204,6 +1484,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11484"
     ],
+    "cloze": {
+      "de": "Blog",
+      "en": "blog"
+    },
     "sourceIndex": 1484
   },
   {
@@ -1221,6 +1505,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11486"
     ],
+    "cloze": {
+      "de": "diskutieren",
+      "en": "discuss"
+    },
     "sourceIndex": 1486
   },
   {
@@ -1238,6 +1526,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11526"
     ],
+    "cloze": {
+      "de": "Generell",
+      "en": "Generally"
+    },
     "sourceIndex": 1526
   },
   {
@@ -1255,6 +1547,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11634"
     ],
+    "cloze": {
+      "de": "leise",
+      "en": "quietly"
+    },
     "sourceIndex": 1634
   },
   {
@@ -1272,6 +1568,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11656"
     ],
+    "cloze": {
+      "de": "beantworten",
+      "en": "answer"
+    },
     "sourceIndex": 1656
   },
   {
@@ -1289,6 +1589,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11735"
     ],
+    "cloze": {
+      "de": "schweigen",
+      "en": "be"
+    },
     "sourceIndex": 1735
   },
   {
@@ -1306,6 +1610,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11784"
     ],
+    "cloze": {
+      "de": "Beamte",
+      "en": "official"
+    },
     "sourceIndex": 1784
   },
   {
@@ -1323,6 +1631,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11817"
     ],
+    "cloze": {
+      "de": "aussprechen",
+      "en": "pronounce"
+    },
     "sourceIndex": 1817
   },
   {
@@ -1340,6 +1652,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11836"
     ],
+    "cloze": {
+      "de": "nachher",
+      "en": "afterwards"
+    },
     "sourceIndex": 1836
   },
   {
@@ -1357,6 +1673,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11843"
     ],
+    "cloze": {
+      "de": "verspreche",
+      "en": "promise"
+    },
     "sourceIndex": 1843
   },
   {
@@ -1374,6 +1694,10 @@ const phrasesCommunication = [
     "wordIds": [
       "11853"
     ],
+    "cloze": {
+      "de": "Einladung",
+      "en": "invitation"
+    },
     "sourceIndex": 1853
   },
   {
@@ -1391,6 +1715,10 @@ const phrasesCommunication = [
     "wordIds": [
       "12067"
     ],
+    "cloze": {
+      "de": "ansprechen",
+      "en": "speak"
+    },
     "sourceIndex": 2067
   },
   {
@@ -1408,6 +1736,10 @@ const phrasesCommunication = [
     "wordIds": [
       "12126"
     ],
+    "cloze": {
+      "de": "Klang",
+      "en": "sound"
+    },
     "sourceIndex": 2126
   },
   {
@@ -1425,6 +1757,10 @@ const phrasesCommunication = [
     "wordIds": [
       "12177"
     ],
+    "cloze": {
+      "de": "verständlich",
+      "en": "understandable"
+    },
     "sourceIndex": 2177
   },
   {
@@ -1442,6 +1778,10 @@ const phrasesCommunication = [
     "wordIds": [
       "12182"
     ],
+    "cloze": {
+      "de": "ankündigen",
+      "en": "announce"
+    },
     "sourceIndex": 2182
   },
   {
@@ -1459,6 +1799,10 @@ const phrasesCommunication = [
     "wordIds": [
       "12220"
     ],
+    "cloze": {
+      "de": "Unsinn",
+      "en": "nonsense"
+    },
     "sourceIndex": 2220
   },
   {
@@ -1476,6 +1820,10 @@ const phrasesCommunication = [
     "wordIds": [
       "12226"
     ],
+    "cloze": {
+      "de": "äußern",
+      "en": "express"
+    },
     "sourceIndex": 2226
   },
   {
@@ -1493,6 +1841,10 @@ const phrasesCommunication = [
     "wordIds": [
       "12229"
     ],
+    "cloze": {
+      "de": "anrufen",
+      "en": "call"
+    },
     "sourceIndex": 2229
   },
   {
@@ -1510,6 +1862,10 @@ const phrasesCommunication = [
     "wordIds": [
       "12246"
     ],
+    "cloze": {
+      "de": "Idiot",
+      "en": "idiot"
+    },
     "sourceIndex": 2246
   },
   {
@@ -1527,6 +1883,10 @@ const phrasesCommunication = [
     "wordIds": [
       "12256"
     ],
+    "cloze": {
+      "de": "raten",
+      "en": "guess"
+    },
     "sourceIndex": 2256
   },
   {
@@ -1544,6 +1904,10 @@ const phrasesCommunication = [
     "wordIds": [
       "12279"
     ],
+    "cloze": {
+      "de": "Entschuldigung",
+      "en": "apology"
+    },
     "sourceIndex": 2279
   },
   {
@@ -1561,6 +1925,10 @@ const phrasesCommunication = [
     "wordIds": [
       "12322"
     ],
+    "cloze": {
+      "de": "einverstanden",
+      "en": "agree"
+    },
     "sourceIndex": 2322
   },
   {
@@ -1578,6 +1946,10 @@ const phrasesCommunication = [
     "wordIds": [
       "12333"
     ],
+    "cloze": {
+      "de": "Meldung",
+      "en": "report"
+    },
     "sourceIndex": 2333
   },
   {
@@ -1595,6 +1967,10 @@ const phrasesCommunication = [
     "wordIds": [
       "12346"
     ],
+    "cloze": {
+      "de": "Argument",
+      "en": "argument"
+    },
     "sourceIndex": 2346
   },
   {
@@ -1612,6 +1988,10 @@ const phrasesCommunication = [
     "wordIds": [
       "12356"
     ],
+    "cloze": {
+      "de": "eingehen",
+      "en": "go"
+    },
     "sourceIndex": 2356
   },
   {
@@ -1629,6 +2009,10 @@ const phrasesCommunication = [
     "wordIds": [
       "12369"
     ],
+    "cloze": {
+      "de": "passende",
+      "en": "suitable"
+    },
     "sourceIndex": 2369
   },
   {
@@ -1646,6 +2030,10 @@ const phrasesCommunication = [
     "wordIds": [
       "12406"
     ],
+    "cloze": {
+      "de": "hilfreiche",
+      "en": "helpful"
+    },
     "sourceIndex": 2406
   },
   {
@@ -1663,6 +2051,10 @@ const phrasesCommunication = [
     "wordIds": [
       "12429"
     ],
+    "cloze": {
+      "de": "begrüßen",
+      "en": "welcome"
+    },
     "sourceIndex": 2429
   },
   {
@@ -1680,6 +2072,10 @@ const phrasesCommunication = [
     "wordIds": [
       "12434"
     ],
+    "cloze": {
+      "de": "Empfehlung",
+      "en": "recommendation"
+    },
     "sourceIndex": 2434
   },
   {
@@ -1697,6 +2093,10 @@ const phrasesCommunication = [
     "wordIds": [
       "12512"
     ],
+    "cloze": {
+      "de": "streiten",
+      "en": "argue"
+    },
     "sourceIndex": 2512
   },
   {
@@ -1714,6 +2114,10 @@ const phrasesCommunication = [
     "wordIds": [
       "12558"
     ],
+    "cloze": {
+      "de": "Sound",
+      "en": "sound"
+    },
     "sourceIndex": 2558
   },
   {
@@ -1731,6 +2135,10 @@ const phrasesCommunication = [
     "wordIds": [
       "12564"
     ],
+    "cloze": {
+      "de": "unklar",
+      "en": "unclear"
+    },
     "sourceIndex": 2564
   },
   {
@@ -1748,6 +2156,10 @@ const phrasesCommunication = [
     "wordIds": [
       "12573"
     ],
+    "cloze": {
+      "de": "Auskunft",
+      "en": "information"
+    },
     "sourceIndex": 2573
   },
   {
@@ -1765,6 +2177,10 @@ const phrasesCommunication = [
     "wordIds": [
       "12602"
     ],
+    "cloze": {
+      "de": "Opa",
+      "en": "grandpa"
+    },
     "sourceIndex": 2602
   },
   {
@@ -1782,6 +2198,10 @@ const phrasesCommunication = [
     "wordIds": [
       "12629"
     ],
+    "cloze": {
+      "de": "danken",
+      "en": "thank"
+    },
     "sourceIndex": 2629
   },
   {
@@ -1799,6 +2219,10 @@ const phrasesCommunication = [
     "wordIds": [
       "12657"
     ],
+    "cloze": {
+      "de": "schreien",
+      "en": "scream"
+    },
     "sourceIndex": 2657
   },
   {
@@ -1816,6 +2240,10 @@ const phrasesCommunication = [
     "wordIds": [
       "12677"
     ],
+    "cloze": {
+      "de": "Beschwerde",
+      "en": "complaint"
+    },
     "sourceIndex": 2677
   },
   {
@@ -1833,6 +2261,10 @@ const phrasesCommunication = [
     "wordIds": [
       "12826"
     ],
+    "cloze": {
+      "de": "Blödsinn",
+      "en": "nonsense"
+    },
     "sourceIndex": 2826
   },
   {
@@ -1850,6 +2282,10 @@ const phrasesCommunication = [
     "wordIds": [
       "12868"
     ],
+    "cloze": {
+      "de": "ausführliche",
+      "en": "detailed"
+    },
     "sourceIndex": 2868
   },
   {
@@ -1867,6 +2303,10 @@ const phrasesCommunication = [
     "wordIds": [
       "12878"
     ],
+    "cloze": {
+      "de": "entschuldigen",
+      "en": "apologize"
+    },
     "sourceIndex": 2878
   },
   {
@@ -1884,6 +2324,10 @@ const phrasesCommunication = [
     "wordIds": [
       "12880"
     ],
+    "cloze": {
+      "de": "gemein",
+      "en": "mean"
+    },
     "sourceIndex": 2880
   },
   {
@@ -1901,6 +2345,10 @@ const phrasesCommunication = [
     "wordIds": [
       "12971"
     ],
+    "cloze": {
+      "de": "vorschlagen",
+      "en": "suggest"
+    },
     "sourceIndex": 2971
   },
   {
@@ -1918,6 +2366,10 @@ const phrasesCommunication = [
     "wordIds": [
       "13135"
     ],
+    "cloze": {
+      "de": "verabschieden",
+      "en": "say"
+    },
     "sourceIndex": 3135
   },
   {
@@ -1935,6 +2387,10 @@ const phrasesCommunication = [
     "wordIds": [
       "13211"
     ],
+    "cloze": {
+      "de": "stimme",
+      "en": "agree"
+    },
     "sourceIndex": 3211
   },
   {
@@ -1952,6 +2408,10 @@ const phrasesCommunication = [
     "wordIds": [
       "13238"
     ],
+    "cloze": {
+      "de": "garnicht",
+      "en": "at"
+    },
     "sourceIndex": 3238
   },
   {
@@ -1969,6 +2429,10 @@ const phrasesCommunication = [
     "wordIds": [
       "13273"
     ],
+    "cloze": {
+      "de": "antworte",
+      "en": "answer"
+    },
     "sourceIndex": 3273
   },
   {
@@ -1986,6 +2450,10 @@ const phrasesCommunication = [
     "wordIds": [
       "13325"
     ],
+    "cloze": {
+      "de": "höre",
+      "en": "listen"
+    },
     "sourceIndex": 3325
   },
   {
@@ -2003,6 +2471,10 @@ const phrasesCommunication = [
     "wordIds": [
       "13392"
     ],
+    "cloze": {
+      "de": "ausdrücken",
+      "en": "express"
+    },
     "sourceIndex": 3392
   },
   {
@@ -2020,6 +2492,10 @@ const phrasesCommunication = [
     "wordIds": [
       "13426"
     ],
+    "cloze": {
+      "de": "mitteilen",
+      "en": "inform"
+    },
     "sourceIndex": 3426
   },
   {
@@ -2037,6 +2513,10 @@ const phrasesCommunication = [
     "wordIds": [
       "13475"
     ],
+    "cloze": {
+      "de": "grüßen",
+      "en": "greet"
+    },
     "sourceIndex": 3475
   },
   {
@@ -2054,6 +2534,10 @@ const phrasesCommunication = [
     "wordIds": [
       "13519"
     ],
+    "cloze": {
+      "de": "besprechen",
+      "en": "discuss"
+    },
     "sourceIndex": 3519
   },
   {
@@ -2071,6 +2555,10 @@ const phrasesCommunication = [
     "wordIds": [
       "13553"
     ],
+    "cloze": {
+      "de": "sinnlos",
+      "en": "pointless"
+    },
     "sourceIndex": 3553
   },
   {
@@ -2088,6 +2576,10 @@ const phrasesCommunication = [
     "wordIds": [
       "13594"
     ],
+    "cloze": {
+      "de": "indirekte",
+      "en": "indirect"
+    },
     "sourceIndex": 3594
   },
   {
@@ -2105,6 +2597,10 @@ const phrasesCommunication = [
     "wordIds": [
       "13636"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "complains"
+    },
     "sourceIndex": 3636
   },
   {
@@ -2122,6 +2618,10 @@ const phrasesCommunication = [
     "wordIds": [
       "13672"
     ],
+    "cloze": {
+      "de": "Report",
+      "en": "report"
+    },
     "sourceIndex": 3672
   },
   {
@@ -2139,6 +2639,10 @@ const phrasesCommunication = [
     "wordIds": [
       "13688"
     ],
+    "cloze": {
+      "de": "hör",
+      "en": "listen"
+    },
     "sourceIndex": 3688
   },
   {
@@ -2156,6 +2660,10 @@ const phrasesCommunication = [
     "wordIds": [
       "13695"
     ],
+    "cloze": {
+      "de": "aufrufen",
+      "en": "call"
+    },
     "sourceIndex": 3695
   },
   {
@@ -2173,6 +2681,10 @@ const phrasesCommunication = [
     "wordIds": [
       "13730"
     ],
+    "cloze": {
+      "de": "nichtmal",
+      "en": "even"
+    },
     "sourceIndex": 3730
   },
   {
@@ -2190,6 +2702,10 @@ const phrasesCommunication = [
     "wordIds": [
       "13731"
     ],
+    "cloze": {
+      "de": "sanfte",
+      "en": "gentle"
+    },
     "sourceIndex": 3731
   },
   {
@@ -2207,6 +2723,10 @@ const phrasesCommunication = [
     "wordIds": [
       "13751"
     ],
+    "cloze": {
+      "de": "Ankündigung",
+      "en": "announcement"
+    },
     "sourceIndex": 3751
   },
   {
@@ -2224,6 +2744,10 @@ const phrasesCommunication = [
     "wordIds": [
       "13985"
     ],
+    "cloze": {
+      "de": "kommunizieren",
+      "en": "communicate"
+    },
     "sourceIndex": 3985
   },
   {
@@ -2241,6 +2765,10 @@ const phrasesCommunication = [
     "wordIds": [
       "14001"
     ],
+    "cloze": {
+      "de": "Talk",
+      "en": "talk"
+    },
     "sourceIndex": 4001
   },
   {
@@ -2258,6 +2786,10 @@ const phrasesCommunication = [
     "wordIds": [
       "14158"
     ],
+    "cloze": {
+      "de": "Aufforderung",
+      "en": "request"
+    },
     "sourceIndex": 4158
   },
   {
@@ -2275,6 +2807,10 @@ const phrasesCommunication = [
     "wordIds": [
       "14244"
     ],
+    "cloze": {
+      "de": "Geräusch",
+      "en": "noise"
+    },
     "sourceIndex": 4244
   },
   {
@@ -2292,6 +2828,10 @@ const phrasesCommunication = [
     "wordIds": [
       "14287"
     ],
+    "cloze": {
+      "de": "Geheimagent",
+      "en": "agent"
+    },
     "sourceIndex": 4287
   },
   {
@@ -2309,6 +2849,10 @@ const phrasesCommunication = [
     "wordIds": [
       "14339"
     ],
+    "cloze": {
+      "de": "relevant",
+      "en": "relevant"
+    },
     "sourceIndex": 4339
   },
   {
@@ -2326,6 +2870,10 @@ const phrasesCommunication = [
     "wordIds": [
       "14359"
     ],
+    "cloze": {
+      "de": "Zeugnis",
+      "en": "report"
+    },
     "sourceIndex": 4359
   },
   {
@@ -2343,6 +2891,10 @@ const phrasesCommunication = [
     "wordIds": [
       "14435"
     ],
+    "cloze": {
+      "de": "verbreitet",
+      "en": "widespread"
+    },
     "sourceIndex": 4435
   },
   {
@@ -2360,6 +2912,10 @@ const phrasesCommunication = [
     "wordIds": [
       "14468"
     ],
+    "cloze": {
+      "de": "einbringen",
+      "en": "contribute"
+    },
     "sourceIndex": 4468
   },
   {
@@ -2377,6 +2933,10 @@ const phrasesCommunication = [
     "wordIds": [
       "14966"
     ],
+    "cloze": {
+      "de": "unverständlich",
+      "en": "incomprehensible"
+    },
     "sourceIndex": 4966
   },
   {
@@ -2394,6 +2954,10 @@ const phrasesCommunication = [
     "wordIds": [
       "15206"
     ],
+    "cloze": {
+      "de": "nachfragen",
+      "en": "inquire"
+    },
     "sourceIndex": 5206
   },
   {
@@ -2411,6 +2975,10 @@ const phrasesCommunication = [
     "wordIds": [
       "15217"
     ],
+    "cloze": {
+      "de": "Ratschlag",
+      "en": "advice"
+    },
     "sourceIndex": 5217
   },
   {
@@ -2428,6 +2996,10 @@ const phrasesCommunication = [
     "wordIds": [
       "15382"
     ],
+    "cloze": {
+      "de": "Lexikon",
+      "en": "lexicon"
+    },
     "sourceIndex": 5382
   },
   {
@@ -2445,6 +3017,10 @@ const phrasesCommunication = [
     "wordIds": [
       "15687"
     ],
+    "cloze": {
+      "de": "Ansprache",
+      "en": "speech"
+    },
     "sourceIndex": 5687
   },
   {
@@ -2462,6 +3038,10 @@ const phrasesCommunication = [
     "wordIds": [
       "15733"
     ],
+    "cloze": {
+      "de": "kapiert",
+      "en": "get"
+    },
     "sourceIndex": 5733
   },
   {
@@ -2479,6 +3059,10 @@ const phrasesCommunication = [
     "wordIds": [
       "15736"
     ],
+    "cloze": {
+      "de": "kontaktieren",
+      "en": "contact"
+    },
     "sourceIndex": 5736
   },
   {
@@ -2496,6 +3080,10 @@ const phrasesCommunication = [
     "wordIds": [
       "15949"
     ],
+    "cloze": {
+      "de": "moderieren",
+      "en": "moderate"
+    },
     "sourceIndex": 5949
   },
   {
@@ -2513,6 +3101,10 @@ const phrasesCommunication = [
     "wordIds": [
       "15971"
     ],
+    "cloze": {
+      "de": "verärgerten",
+      "en": "annoyed"
+    },
     "sourceIndex": 5971
   },
   {
@@ -2530,6 +3122,10 @@ const phrasesCommunication = [
     "wordIds": [
       "16457"
     ],
+    "cloze": {
+      "de": "unwichtige",
+      "en": "unimportant"
+    },
     "sourceIndex": 6457
   },
   {
@@ -2547,6 +3143,10 @@ const phrasesCommunication = [
     "wordIds": [
       "16676"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "refuses"
+    },
     "sourceIndex": 6676
   },
   {
@@ -2564,6 +3164,10 @@ const phrasesCommunication = [
     "wordIds": [
       "16701"
     ],
+    "cloze": {
+      "de": "Betonung",
+      "en": "emphasis"
+    },
     "sourceIndex": 6701
   },
   {
@@ -2581,6 +3185,10 @@ const phrasesCommunication = [
     "wordIds": [
       "16718"
     ],
+    "cloze": {
+      "de": "Erläuterung",
+      "en": "explanation"
+    },
     "sourceIndex": 6718
   },
   {
@@ -2598,6 +3206,10 @@ const phrasesCommunication = [
     "wordIds": [
       "16780"
     ],
+    "cloze": {
+      "de": "tönen",
+      "en": "sound"
+    },
     "sourceIndex": 6780
   },
   {
@@ -2615,6 +3227,10 @@ const phrasesCommunication = [
     "wordIds": [
       "16980"
     ],
+    "cloze": {
+      "de": "Zusage",
+      "en": "confirmation"
+    },
     "sourceIndex": 6980
   },
   {
@@ -2632,6 +3248,10 @@ const phrasesCommunication = [
     "wordIds": [
       "16990"
     ],
+    "cloze": {
+      "de": "bekanntgeben",
+      "en": "announce"
+    },
     "sourceIndex": 6990
   },
   {
@@ -2649,6 +3269,10 @@ const phrasesCommunication = [
     "wordIds": [
       "17018"
     ],
+    "cloze": {
+      "de": "einigen",
+      "en": "agree"
+    },
     "sourceIndex": 7018
   },
   {
@@ -2666,6 +3290,10 @@ const phrasesCommunication = [
     "wordIds": [
       "17199"
     ],
+    "cloze": {
+      "de": "überreden",
+      "en": "persuade"
+    },
     "sourceIndex": 7199
   },
   {
@@ -2683,6 +3311,10 @@ const phrasesCommunication = [
     "wordIds": [
       "17437"
     ],
+    "cloze": {
+      "de": "beruhigend",
+      "en": "reassuring"
+    },
     "sourceIndex": 7437
   },
   {
@@ -2700,6 +3332,10 @@ const phrasesCommunication = [
     "wordIds": [
       "17719"
     ],
+    "cloze": {
+      "de": "Fragezeichen",
+      "en": "question"
+    },
     "sourceIndex": 7719
   },
   {
@@ -2717,6 +3353,10 @@ const phrasesCommunication = [
     "wordIds": [
       "17826"
     ],
+    "cloze": {
+      "de": "erraten",
+      "en": "guess"
+    },
     "sourceIndex": 7826
   },
   {
@@ -2734,6 +3374,10 @@ const phrasesCommunication = [
     "wordIds": [
       "17945"
     ],
+    "cloze": {
+      "de": "Gesichtsausdruck",
+      "en": "facial"
+    },
     "sourceIndex": 7945
   },
   {
@@ -2751,6 +3395,10 @@ const phrasesCommunication = [
     "wordIds": [
       "18391"
     ],
+    "cloze": {
+      "de": "weiterführen",
+      "en": "continue"
+    },
     "sourceIndex": 8391
   },
   {
@@ -2768,6 +3416,10 @@ const phrasesCommunication = [
     "wordIds": [
       "18496"
     ],
+    "cloze": {
+      "de": "Verzeihung",
+      "en": "forgiveness"
+    },
     "sourceIndex": 8496
   },
   {
@@ -2785,6 +3437,10 @@ const phrasesCommunication = [
     "wordIds": [
       "18636"
     ],
+    "cloze": {
+      "de": "Versprechung",
+      "en": "promise"
+    },
     "sourceIndex": 8636
   },
   {
@@ -2802,6 +3458,10 @@ const phrasesCommunication = [
     "wordIds": [
       "18782"
     ],
+    "cloze": {
+      "de": "unvollständig",
+      "en": "incomplete"
+    },
     "sourceIndex": 8782
   },
   {
@@ -2819,6 +3479,10 @@ const phrasesCommunication = [
     "wordIds": [
       "18826"
     ],
+    "cloze": {
+      "de": "Dolmetscher",
+      "en": "interpreter"
+    },
     "sourceIndex": 8826
   },
   {
@@ -2836,6 +3500,10 @@ const phrasesCommunication = [
     "wordIds": [
       "18984"
     ],
+    "cloze": {
+      "de": "formelle",
+      "en": "formal"
+    },
     "sourceIndex": 8984
   },
   {
@@ -2853,6 +3521,10 @@ const phrasesCommunication = [
     "wordIds": [
       "19016"
     ],
+    "cloze": {
+      "de": "Konversation",
+      "en": "conversation"
+    },
     "sourceIndex": 9016
   },
   {
@@ -2870,6 +3542,10 @@ const phrasesCommunication = [
     "wordIds": [
       "19030"
     ],
+    "cloze": {
+      "de": "mitzureden",
+      "en": "have"
+    },
     "sourceIndex": 9030
   },
   {
@@ -2887,6 +3563,10 @@ const phrasesCommunication = [
     "wordIds": [
       "19053"
     ],
+    "cloze": {
+      "de": "Schall",
+      "en": "sound"
+    },
     "sourceIndex": 9053
   },
   {
@@ -2904,6 +3584,10 @@ const phrasesCommunication = [
     "wordIds": [
       "19303"
     ],
+    "cloze": {
+      "de": "hörbar",
+      "en": "audible"
+    },
     "sourceIndex": 9303
   },
   {
@@ -2921,6 +3605,10 @@ const phrasesCommunication = [
     "wordIds": [
       "19550"
     ],
+    "cloze": {
+      "de": "anfordern",
+      "en": "request"
+    },
     "sourceIndex": 9550
   },
   {
@@ -2938,6 +3626,10 @@ const phrasesCommunication = [
     "wordIds": [
       "19783"
     ],
+    "cloze": {
+      "de": "nachgeben",
+      "en": "give"
+    },
     "sourceIndex": 9783
   },
   {
@@ -2955,6 +3647,10 @@ const phrasesCommunication = [
     "wordIds": [
       "19877"
     ],
+    "cloze": {
+      "de": "Festnetz",
+      "en": "landline"
+    },
     "sourceIndex": 9877
   },
   {
@@ -2972,6 +3668,10 @@ const phrasesCommunication = [
     "wordIds": [
       "19929"
     ],
+    "cloze": {
+      "de": "official",
+      "en": "official"
+    },
     "sourceIndex": 9929
   },
   {
@@ -2989,6 +3689,10 @@ const phrasesCommunication = [
     "wordIds": [
       "20055"
     ],
+    "cloze": {
+      "de": "Herzschlag",
+      "en": "heartbeat"
+    },
     "sourceIndex": 10055
   },
   {
@@ -3006,6 +3710,10 @@ const phrasesCommunication = [
     "wordIds": [
       "20326"
     ],
+    "cloze": {
+      "de": "flüstern",
+      "en": "whisper"
+    },
     "sourceIndex": 10326
   },
   {
@@ -3023,6 +3731,10 @@ const phrasesCommunication = [
     "wordIds": [
       "20419"
     ],
+    "cloze": {
+      "de": "Translation",
+      "en": "translation"
+    },
     "sourceIndex": 10419
   },
   {
@@ -3040,6 +3752,10 @@ const phrasesCommunication = [
     "wordIds": [
       "20690"
     ],
+    "cloze": {
+      "de": "Miene",
+      "en": "expression"
+    },
     "sourceIndex": 10690
   },
   {
@@ -3057,6 +3773,10 @@ const phrasesCommunication = [
     "wordIds": [
       "20774"
     ],
+    "cloze": {
+      "de": "anfragen",
+      "en": "inquire"
+    },
     "sourceIndex": 10774
   },
   {
@@ -3074,6 +3794,10 @@ const phrasesCommunication = [
     "wordIds": [
       "20807"
     ],
+    "cloze": {
+      "de": "Durchsage",
+      "en": "announcement"
+    },
     "sourceIndex": 10807
   },
   {
@@ -3091,6 +3815,10 @@ const phrasesCommunication = [
     "wordIds": [
       "20956"
     ],
+    "cloze": {
+      "de": "ansagen",
+      "en": "announce"
+    },
     "sourceIndex": 10956
   },
   {
@@ -3108,6 +3836,10 @@ const phrasesCommunication = [
     "wordIds": [
       "21183"
     ],
+    "cloze": {
+      "de": "falsche",
+      "en": "false"
+    },
     "sourceIndex": 11183
   },
   {
@@ -3125,6 +3857,10 @@ const phrasesCommunication = [
     "wordIds": [
       "21229"
     ],
+    "cloze": {
+      "de": "Er",
+      "en": "moderate"
+    },
     "sourceIndex": 11229
   },
   {
@@ -3142,6 +3878,10 @@ const phrasesCommunication = [
     "wordIds": [
       "21337"
     ],
+    "cloze": {
+      "de": "bewegende",
+      "en": "moving"
+    },
     "sourceIndex": 11337
   },
   {
@@ -3159,6 +3899,10 @@ const phrasesCommunication = [
     "wordIds": [
       "21588"
     ],
+    "cloze": {
+      "de": "kraftvollen",
+      "en": "powerful"
+    },
     "sourceIndex": 11588
   },
   {
@@ -3176,6 +3920,10 @@ const phrasesCommunication = [
     "wordIds": [
       "22060"
     ],
+    "cloze": {
+      "de": "bloß",
+      "en": "just"
+    },
     "sourceIndex": 12060
   },
   {
@@ -3193,6 +3941,10 @@ const phrasesCommunication = [
     "wordIds": [
       "22075"
     ],
+    "cloze": {
+      "de": "Dummkopf",
+      "en": "dummy"
+    },
     "sourceIndex": 12075
   },
   {
@@ -3210,6 +3962,10 @@ const phrasesCommunication = [
     "wordIds": [
       "22173"
     ],
+    "cloze": {
+      "de": "Smalltalk",
+      "en": "small"
+    },
     "sourceIndex": 12173
   },
   {
@@ -3227,6 +3983,10 @@ const phrasesCommunication = [
     "wordIds": [
       "22213"
     ],
+    "cloze": {
+      "de": "Wörtchen",
+      "en": "word"
+    },
     "sourceIndex": 12213
   },
   {
@@ -3244,6 +4004,10 @@ const phrasesCommunication = [
     "wordIds": [
       "22304"
     ],
+    "cloze": {
+      "de": "Kontaktlinsen",
+      "en": "contact"
+    },
     "sourceIndex": 12304
   },
   {
@@ -3261,6 +4025,10 @@ const phrasesCommunication = [
     "wordIds": [
       "22391"
     ],
+    "cloze": {
+      "de": "zwecklos",
+      "en": "pointless"
+    },
     "sourceIndex": 12391
   },
   {
@@ -3278,6 +4046,10 @@ const phrasesCommunication = [
     "wordIds": [
       "24027"
     ],
+    "cloze": {
+      "de": "freundschaftliches",
+      "en": "friendly"
+    },
     "sourceIndex": 14027
   },
   {
@@ -3295,6 +4067,10 @@ const phrasesCommunication = [
     "wordIds": [
       "24136"
     ],
+    "cloze": {
+      "de": "unnütze",
+      "en": "useless"
+    },
     "sourceIndex": 14136
   },
   {
@@ -3312,6 +4088,10 @@ const phrasesCommunication = [
     "wordIds": [
       "25074"
     ],
+    "cloze": {
+      "de": "irgendwoher",
+      "en": "from"
+    },
     "sourceIndex": 15074
   },
   {
@@ -3329,6 +4109,10 @@ const phrasesCommunication = [
     "wordIds": [
       "25453"
     ],
+    "cloze": {
+      "de": "Description",
+      "en": "description"
+    },
     "sourceIndex": 15453
   },
   {
@@ -3346,6 +4130,10 @@ const phrasesCommunication = [
     "wordIds": [
       "25759"
     ],
+    "cloze": {
+      "de": "Papagei",
+      "en": "parrot"
+    },
     "sourceIndex": 15759
   },
   {
@@ -3363,6 +4151,10 @@ const phrasesCommunication = [
     "wordIds": [
       "25843"
     ],
+    "cloze": {
+      "de": "rate",
+      "en": "advise"
+    },
     "sourceIndex": 15843
   },
   {
@@ -3380,6 +4172,10 @@ const phrasesCommunication = [
     "wordIds": [
       "25891"
     ],
+    "cloze": {
+      "de": "erfragen",
+      "en": "ask"
+    },
     "sourceIndex": 15891
   },
   {
@@ -3397,6 +4193,10 @@ const phrasesCommunication = [
     "wordIds": [
       "26160"
     ],
+    "cloze": {
+      "de": "Konsonanten",
+      "en": "consonant"
+    },
     "sourceIndex": 16160
   },
   {
@@ -3414,6 +4214,10 @@ const phrasesCommunication = [
     "wordIds": [
       "26323"
     ],
+    "cloze": {
+      "de": "ohne",
+      "en": "at"
+    },
     "sourceIndex": 16323
   },
   {
@@ -3431,6 +4235,10 @@ const phrasesCommunication = [
     "wordIds": [
       "26993"
     ],
+    "cloze": {
+      "de": "Slowakisch",
+      "en": "Slovak"
+    },
     "sourceIndex": 16993
   },
   {
@@ -3448,6 +4256,10 @@ const phrasesCommunication = [
     "wordIds": [
       "27326"
     ],
+    "cloze": {
+      "de": "abmachen",
+      "en": "agree"
+    },
     "sourceIndex": 17326
   },
   {
@@ -3465,6 +4277,10 @@ const phrasesCommunication = [
     "wordIds": [
       "27377"
     ],
+    "cloze": {
+      "de": "Diskussionsrunde",
+      "en": "discussion"
+    },
     "sourceIndex": 17377
   },
   {
@@ -3482,6 +4298,10 @@ const phrasesCommunication = [
     "wordIds": [
       "28453"
     ],
+    "cloze": {
+      "de": "Hörgerät",
+      "en": "hearing"
+    },
     "sourceIndex": 18453
   },
   {
@@ -3499,6 +4319,10 @@ const phrasesCommunication = [
     "wordIds": [
       "28978"
     ],
+    "cloze": {
+      "de": "Gesprächsthema",
+      "en": "topic"
+    },
     "sourceIndex": 18978
   },
   {
@@ -3516,6 +4340,10 @@ const phrasesCommunication = [
     "wordIds": [
       "29260"
     ],
+    "cloze": {
+      "de": "gegenteilige",
+      "en": "contrary"
+    },
     "sourceIndex": 19260
   },
   {
@@ -3533,6 +4361,10 @@ const phrasesCommunication = [
     "wordIds": [
       "29369"
     ],
+    "cloze": {
+      "de": "reklamieren",
+      "en": "complain"
+    },
     "sourceIndex": 19369
   },
   {
@@ -3550,6 +4382,10 @@ const phrasesCommunication = [
     "wordIds": [
       "29837"
     ],
+    "cloze": {
+      "de": "Gegenfrage",
+      "en": "counter-question"
+    },
     "sourceIndex": 19837
   },
   {
@@ -3567,6 +4403,10 @@ const phrasesCommunication = [
     "wordIds": [
       "29874"
     ],
+    "cloze": {
+      "de": "Infostand",
+      "en": "information"
+    },
     "sourceIndex": 19874
   }
 ];

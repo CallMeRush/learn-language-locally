@@ -14,17 +14,14 @@ them to run.
 - `deck-topics.cjs` contains the initial topic rules and editorial overrides.
 - `audit-deck.cjs` compares noun genders against the downloaded noun reference;
   it reports disagreements, which need sense-specific review.
-- `validate-data.cjs` checks IDs, translations, articles, sentence links and
-  every lesson activity against the complete loaded dataset.
+- `validate-data.cjs` checks IDs, translations, articles, sentence links,
+  cloze targets, and every lesson activity against the complete loaded dataset.
+- `audit-phrases.cjs` verifies source-backed sentence pairs and that every
+  explicit cloze target occurs in its displayed German and English sentence.
+- `refine-phrase-topics.cjs` assigns sentence topics reproducibly from sentence
+  context, reviewed vocabulary context, and explicit overrides.
 - `sync-project.sh` creates a progress-reporting archive/sync copy of the
   project while excluding the large dictionaries.
 
 The dictionaries are reference material only and are not loaded by the
 browser application.
-# Content and quality tools
-
-- `import-deck.cjs` rebuilds browser content from the pinned deck and explicit assignments.
-- `audit-deck.cjs` cross-checks included singular noun genders against the noun reference.
-- `audit-translations.cjs` produces a human-review queue from independent German Wiktionary senses; it never changes learning data automatically.
-- `refine-everyday-topics.cjs` conservatively moves high-confidence daily entries into smaller learner-facing topics; `--check` verifies its explicit assignment decisions.
-- `smoke-test.cjs` exercises the static app in Chromium.
