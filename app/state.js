@@ -7,6 +7,7 @@ var emptyProgress = () => ({
   streak: 0,
   lastStudy: null,
   lessons: [],
+  lessonHistory: {},
   lessonSession: null,
 });
 // A new corpus must not interpret old IDs as learned words or completed lessons.
@@ -30,6 +31,9 @@ function loadProgress() {
     value[key] = Number.isFinite(value[key]) && value[key] >= 0 ? value[key] : 0;
   });
   value.lastStudy = typeof value.lastStudy === "string" ? value.lastStudy : null;
+  value.lessonHistory = value.lessonHistory && typeof value.lessonHistory === "object" && !Array.isArray(value.lessonHistory)
+    ? Object.fromEntries(Object.entries(value.lessonHistory).filter(([, record]) => record && typeof record === "object" && typeof record.completedAt === "string"))
+    : {};
   value.lessonSession = value.lessonSession && typeof value.lessonSession === "object" ? value.lessonSession : null;
   return value;
 }

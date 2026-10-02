@@ -390,6 +390,161 @@ const lessons = [
     ]
   },
   {
+    "id": "13",
+    "type": "lesson",
+    "level": "A1",
+    "localized": {
+      "en": {
+        "title": "Making yourself understood",
+        "focus": "Questions, negation, and useful small words",
+        "description": "Ask simple questions, say what you do not want, and use the small words that hold an everyday sentence together."
+      }
+    },
+    "activities": [
+      {
+        "type": "vocabulary",
+        "categories": [
+          "function-words",
+          "communication"
+        ]
+      },
+      {
+        "type": "phrases",
+        "categories": [
+          "greetings",
+          "communication"
+        ]
+      },
+      {
+        "type": "grammar",
+        "topics": [
+          "Questions and negation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "type": "lesson",
+    "level": "A2",
+    "localized": {
+      "en": {
+        "title": "Requests and arrangements",
+        "focus": "Shopping, time, and polite instructions",
+        "description": "Arrange a time, ask for what you need, and use direct but natural everyday instructions."
+      }
+    },
+    "activities": [
+      {
+        "type": "vocabulary",
+        "categories": [
+          "shopping",
+          "time"
+        ]
+      },
+      {
+        "type": "verbs",
+        "categories": [
+          "daily",
+          "shopping"
+        ]
+      },
+      {
+        "type": "phrases",
+        "categories": [
+          "shopping",
+          "time"
+        ]
+      },
+      {
+        "type": "grammar",
+        "topics": [
+          "The imperative",
+          "Possessive and demonstrative words"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "type": "lesson",
+    "level": "A2",
+    "localized": {
+      "en": {
+        "title": "Finding your way",
+        "focus": "Places, movement, and location",
+        "description": "Give directions, describe where something is, and make the cases behind everyday movement feel practical."
+      }
+    },
+    "activities": [
+      {
+        "type": "vocabulary",
+        "categories": [
+          "city",
+          "travel"
+        ]
+      },
+      {
+        "type": "phrases",
+        "categories": [
+          "city",
+          "travel"
+        ]
+      },
+      {
+        "type": "grammar",
+        "topics": [
+          "Two-way prepositions",
+          "Dative verbs"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "type": "lesson",
+    "level": "B1",
+    "localized": {
+      "en": {
+        "title": "Connecting ideas",
+        "focus": "Opinions, explanations, and longer sentences",
+        "description": "Link ideas, explain a position, and build the longer sentences that make conversations more precise."
+      }
+    },
+    "activities": [
+      {
+        "type": "vocabulary",
+        "categories": [
+          "abstract-ideas",
+          "communication",
+          "culture"
+        ]
+      },
+      {
+        "type": "verbs",
+        "categories": [
+          "communication",
+          "work"
+        ]
+      },
+      {
+        "type": "phrases",
+        "categories": [
+          "communication",
+          "culture"
+        ]
+      },
+      {
+        "type": "grammar",
+        "topics": [
+          "Subordinate clauses and conjunctions",
+          "Adverbs and connectors",
+          "Relative clauses"
+        ]
+      }
+    ]
+  },
+  {
     "id": "12",
     "type": "lesson",
     "level": "B1",

@@ -17,6 +17,7 @@ function showLessonSession() {
   var locale = lessonLocale(activeLesson);
   document.getElementById("lesson-title").textContent = locale.title;
   document.getElementById("lesson-description").textContent = locale.description + " Errors return at the end for a repair round.";
+  session.querySelector(".lesson-session-heading").dataset.grammar = lessonGrammarTopics(activeLesson).join(" · ");
 }
 function lessonQuestionReference(question) {
   if (!question) return null;
@@ -81,11 +82,18 @@ function restoreMixedDesk() {
 function renderLessons() {
   var el = $("#lesson-list");
   if (!el) return;
-  el.innerHTML = lessons
+  var completed = lessons.filter(lesson => state.lessons.includes(lesson.id)).length,
+    resumed = state.lessonSession?.lessonId,
+    summary = `<div class="lesson-progress-summary"><div><p class="eyebrow">YOUR PATH</p><strong>${completed} of ${lessons.length} completed</strong><small>${resumed ? "One lesson is ready to continue." : completed === lessons.length ? "Every lesson is complete — review any path whenever you like." : "Complete a focused round, then repair each mistake."}</small></div><span>${Math.round((completed / lessons.length) * 100)}%</span></div>`;
+  el.innerHTML = summary + lessons
     .map((lesson, index) => {
       var locale = lessonLocale(lesson);
-      var resumable = lesson.id === activeLesson?.id || state.lessonSession?.lessonId === lesson.id;
-      return `<article class="lesson-path-card ${resumable ? "current" : ""}" data-lesson-id="${lesson.id}"><div class="lesson-path-number">${String(index + 1).padStart(2, "0")}</div><div class="lesson-path-copy"><span class="grammar-level">${lesson.level}</span><span class="lesson-path-focus">${locale.focus || ""}</span><h2>${locale.title || ""}</h2><p>${locale.description || ""}</p></div><button class="primary-btn lesson-start">${resumable ? "Continue" : "Start lesson"} <span>→</span></button></article>`;
+      var resumable = lesson.id === activeLesson?.id || state.lessonSession?.lessonId === lesson.id,
+        history = state.lessonHistory[lesson.id],
+        complete = state.lessons.includes(lesson.id),
+        grammar = lessonGrammarTopics(lesson),
+        status = resumable ? "In progress" : complete ? history ? "Completed " + new Date(history.completedAt).toLocaleDateString() : "Completed" : "Not started";
+      return `<article class="lesson-path-card ${resumable ? "current" : ""} ${complete ? "completed" : ""}" data-lesson-id="${lesson.id}"><div class="lesson-path-number">${String(index + 1).padStart(2, "0")}</div><div class="lesson-path-copy"><span class="grammar-level">${lesson.level}</span><span class="lesson-path-focus">${locale.focus || ""}</span><h2>${locale.title || ""}</h2><p>${locale.description || ""}</p><div class="lesson-path-details"><small>${status}</small>${grammar.length ? `<small>Grammar · ${grammar.join(" · ")}</small>` : ""}</div></div><button class="primary-btn lesson-start">${resumable ? "Continue" : complete ? "Review again" : "Start lesson"} <span>→</span></button></article>`;
     })
     .join("");
   $$("[data-lesson-id]").forEach(
@@ -95,11 +103,9 @@ function renderLessons() {
           lessons.find((lesson) => lesson.id === card.dataset.lessonId),
         )),
   );
-  $$("[data-lesson-id]").forEach((card) => {
-    if (!state.lessons.includes(card.dataset.lessonId)) return;
-    card.classList.add("completed");
-    card.querySelector(".lesson-start").innerHTML = "Review again <span>↻</span>";
-  });
+}
+function lessonGrammarTopics(lesson) {
+  return lesson.activities.filter(activity => activity.type === "grammar").flatMap(activity => activity.topics);
 }
 async function loadLessonContent(lesson) {
   var requests = lesson.activities.flatMap(activity => {
@@ -180,6 +186,7 @@ function finishLesson() {
   lessonComplete = true;
   state.lessonSession = null;
   if (activeLesson && !state.lessons.includes(activeLesson.id)) state.lessons.push(activeLesson.id);
+  state.lessonHistory[activeLesson.id] = { completedAt: new Date().toISOString() };
   save();
   var locale = lessonLocale(activeLesson);
   $("#mixed-type").textContent = "LESSON COMPLETE";

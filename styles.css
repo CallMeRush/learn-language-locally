@@ -85,6 +85,7 @@ button.word-row .word-check { margin-left: auto; }
 .grammar-test > button, .lesson-start { flex: 0 1 auto; width: fit-content; max-width: 240px; justify-self: start; }
 .lesson-session-heading { max-width: 880px; margin: 0 auto 24px; }
 .lesson-session-heading h2 { overflow-wrap: anywhere; }
+.lesson-progress-summary{display:flex;justify-content:space-between;align-items:center;gap:20px;background:var(--mint);border:1px solid #cbded0;border-radius:10px;padding:18px 21px;margin-bottom:14px}.lesson-progress-summary .eyebrow{margin-bottom:5px}.lesson-progress-summary strong,.lesson-progress-summary small{display:block}.lesson-progress-summary strong{font-size:16px}.lesson-progress-summary small{font-size:11px;color:#637168;margin-top:4px}.lesson-progress-summary>span{font:italic 30px Georgia;color:var(--green)}.lesson-path-details{display:flex;flex-wrap:wrap;gap:7px;margin-top:11px}.lesson-path-details small{font:500 9px 'DM Mono';letter-spacing:.3px;color:#718077;background:#f1f5f0;border-radius:4px;padding:4px 6px}.lesson-path-card.current .lesson-path-details small:first-child{background:var(--yellow);color:#68572c}.lesson-session-heading[data-grammar]:not([data-grammar=""])::after{content:"Grammar focus · " attr(data-grammar);display:block;margin-top:10px;font:500 10px 'DM Mono';letter-spacing:.4px;color:#62746a}
 [hidden] { display: none !important; }
 .grammar-table-wrap { max-width: 100%; }
 .grammar-test { grid-template-columns: minmax(0, 1fr) auto auto; gap: 12px; }
