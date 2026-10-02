@@ -49,7 +49,7 @@
   async function loadFeatures() {
     var files = [
       "app/state.js", "app/vocabulary.js", "app/phrases.js",
-      "app/mixed.js", "app/lessons.js", "app/integration.js", "app/ui.js",
+      "app/application.js", "app/mixed.js", "app/lessons.js", "app/integration.js", "app/ui.js",
     ];
     for (const path of files) await loadScript(path);
   }

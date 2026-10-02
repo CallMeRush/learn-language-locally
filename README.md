@@ -28,6 +28,7 @@ adjectives, 1,585 verbs and 9,124 example sentences. German grammar remains sepa
 Vocabulary has Nouns (the general word collection), Verbs, and Adjectives tabs.
 Click a list entry to practise it. A default-on Hide answer toggle conceals the
 answer-side translation in the list; ✓ and ✕ mark correct and incorrect answers.
+Typed German answers accept `ss` for `ß` and `ae`/`oe`/`ue` for umlauts.
 The study-status buttons filter both the list and the practice card: an empty
 selection clearly says so instead of repeating a completed item. Vocabulary also
 distinguishes first-try answers, answers corrected after an error, and article-only
@@ -38,6 +39,19 @@ sentence. Adjectives retain meaning groups without tone filters. Topics are
 ordered using CEFR and source frequency rank; Vocabulary opens a small topic
 rather than All words. Practice layouts adapt from stacked mobile lists to
 desktop columns.
+
+Mixed practice is a saved session builder: choose any combination of words,
+verbs, adjectives, phrases, and grammar; then narrow it by levels, topics,
+direction, and answer style. Phrase fill-in-the-blank questions can be written
+or multiple choice.
+
+**Apply grammar** turns reviewed phrase-corpus sentences into focused cloze
+work. It starts with articles and all four cases, with an optional gender-first
+step, and also includes modal-verb and separable-verb patterns.
+
+Lessons are organised as 16 thematic units with three concise, demanding rounds
+each: a word base, sentence practice, and a pattern workshop. Opening a unit
+shows only its three rounds; progress is tracked per round.
 
 ## Project layout
 

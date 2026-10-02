@@ -8,6 +8,16 @@ var defaultPreferences = () => ({
   phraseDirection: "translate",
   phraseCloze: false,
   phraseMultipleChoice: false,
+  mixedParts: { vocabulary: true, verbs: true, adjectives: true, phrases: true, grammar: true },
+  mixedDirections: ["toGerman", "toEnglish"],
+  mixedStyles: ["write", "choice", "cloze"],
+  mixedVocabularyCategories: ["all"],
+  mixedVerbCategories: ["verbs"],
+  mixedAdjectiveCategories: ["adjectives"],
+  mixedPhraseCategories: ["all"],
+  applicationSet: "cases",
+  applicationQueue: "new",
+  applicationAskGender: true,
   randomMode: true,
   phraseRandom: true,
   hideVocabularyAnswers: true,
@@ -19,6 +29,8 @@ var emptyProgress = () => ({
   mistakes: [],
   articleOnlyMistakes: [],
   phrases: [],
+  grammarApplied: [],
+  grammarApplicationMistakes: [],
   correct: 0,
   attempts: 0,
   lessons: [],
@@ -41,18 +53,19 @@ function normalizeProgress(progress) {
   var value = progress && typeof progress === "object" && !Array.isArray(progress)
     ? { ...progress }
     : emptyProgress();
-  ["learned", "issues", "mistakes", "articleOnlyMistakes", "phrases", "lessons"].forEach((key) => {
+  ["learned", "issues", "mistakes", "articleOnlyMistakes", "phrases", "lessons", "grammarApplied", "grammarApplicationMistakes"].forEach((key) => {
     value[key] = Array.isArray(value[key]) ? [...new Set(value[key].filter((id) => typeof id === "string"))] : [];
   });
+  value.lessons = value.lessons.filter((id) => lessons.some((lesson) => lesson.id === id));
   ["correct", "attempts"].forEach((key) => {
     value[key] = Number.isFinite(value[key]) && value[key] >= 0 ? value[key] : 0;
   });
   delete value.streak;
   delete value.lastStudy;
   value.lessonHistory = value.lessonHistory && typeof value.lessonHistory === "object" && !Array.isArray(value.lessonHistory)
-    ? Object.fromEntries(Object.entries(value.lessonHistory).filter(([, record]) => record && typeof record === "object" && typeof record.completedAt === "string"))
+    ? Object.fromEntries(Object.entries(value.lessonHistory).filter(([id, record]) => lessons.some((lesson) => lesson.id === id) && record && typeof record === "object" && typeof record.completedAt === "string"))
     : {};
-  value.lessonSession = value.lessonSession && typeof value.lessonSession === "object" ? value.lessonSession : null;
+  value.lessonSession = value.lessonSession && typeof value.lessonSession === "object" && lessons.some((lesson) => lesson.id === value.lessonSession.lessonId) ? value.lessonSession : null;
   var preferences = {
     ...defaultPreferences(),
     ...(value.preferences && typeof value.preferences === "object" ? value.preferences : {}),
@@ -68,6 +81,26 @@ function normalizeProgress(progress) {
   if (!["translate", "reverse"].includes(preferences.phraseDirection)) preferences.phraseDirection = "translate";
   preferences.phraseCloze = Boolean(preferences.phraseCloze);
   preferences.phraseMultipleChoice = Boolean(preferences.phraseMultipleChoice);
+  if (!["cases", "modals", "separable"].includes(preferences.applicationSet)) preferences.applicationSet = "cases";
+  if (!["all", "new", "review"].includes(preferences.applicationQueue)) preferences.applicationQueue = "new";
+  preferences.applicationAskGender = Boolean(preferences.applicationAskGender);
+  preferences.mixedParts = Object.fromEntries(
+    ["vocabulary", "verbs", "adjectives", "phrases", "grammar"].map((key) => [key, Boolean(preferences.mixedParts?.[key])]),
+  );
+  var mixedKeys = {
+    mixedDirections: ["toGerman", "toEnglish"],
+    mixedStyles: ["write", "choice", "cloze"],
+    mixedVocabularyCategories: categoryRecords.filter(record => record.id === "all" || (!record.id.startsWith("verb-") && !record.id.startsWith("adjective-") && !["verbs", "adjectives"].includes(record.id))).map(record => record.id),
+    mixedVerbCategories: categoryRecords.filter(record => record.id === "verbs" || record.id.startsWith("verb-")).map(record => record.id),
+    mixedAdjectiveCategories: categoryRecords.filter(record => record.id === "adjectives" || record.id.startsWith("adjective-")).map(record => record.id),
+    mixedPhraseCategories: ["all", ...Object.keys(contentManifest.phrases)],
+  };
+  Object.entries(mixedKeys).forEach(([key, allowed]) => {
+    preferences[key] = Array.isArray(preferences[key])
+      ? [...new Set(preferences[key].filter(value => allowed.includes(value)))]
+      : [...defaultPreferences()[key]];
+    if (!preferences[key].length) preferences[key] = [...defaultPreferences()[key]];
+  });
   ["randomMode", "phraseRandom", "hideVocabularyAnswers", "grammarGrid"].forEach(key => preferences[key] = Boolean(preferences[key]));
   ["selectedCategory", "phraseCategory"].forEach(key => preferences[key] = typeof preferences[key] === "string" ? preferences[key] : defaultPreferences()[key]);
   if (!categoryRecords.some(record => record.id === preferences.selectedCategory)) preferences.selectedCategory = "all";
@@ -132,6 +165,16 @@ function savePreferences() {
     phraseDirection,
     phraseCloze,
     phraseMultipleChoice,
+    mixedParts,
+    mixedDirections,
+    mixedStyles,
+    mixedVocabularyCategories,
+    mixedVerbCategories,
+    mixedAdjectiveCategories,
+    mixedPhraseCategories,
+    applicationSet,
+    applicationQueue,
+    applicationAskGender,
     randomMode,
     phraseRandom,
     hideVocabularyAnswers,
@@ -171,12 +214,16 @@ var selectedCategory = state.preferences.selectedCategory,
   selectedVocabChoice = "",
   selectedPhraseChoice = "",
   mixedLevel = state.preferences.vocabLevels,
-  mixedParts = {
-    vocabulary: true,
-    verbs: true,
-    phrases: true,
-    grammar: true,
-  },
+  mixedParts = state.preferences.mixedParts,
+  mixedDirections = state.preferences.mixedDirections,
+  mixedStyles = state.preferences.mixedStyles,
+  mixedVocabularyCategories = state.preferences.mixedVocabularyCategories,
+  mixedVerbCategories = state.preferences.mixedVerbCategories,
+  mixedAdjectiveCategories = state.preferences.mixedAdjectiveCategories,
+  mixedPhraseCategories = state.preferences.mixedPhraseCategories,
+  applicationSet = state.preferences.applicationSet,
+  applicationQueue = state.preferences.applicationQueue,
+  applicationAskGender = state.preferences.applicationAskGender,
   mixedQuestion = null,
   mixedArticle = "",
   mixedChoice = "",
@@ -225,6 +272,8 @@ var vocabScopedIds = new Set([
   "vocab-feedback",
   "check-vocab",
   "vocab-hint",
+  "vocab-level",
+  "vocab-number",
   "next-vocab",
   "random-mode",
 ]);
@@ -295,4 +344,7 @@ $$(".practice-panel").forEach((panel) => {
 });
 var grammarTestState = {},
   grammarAnswered = {},
-  grammarCorrect = {};
+  grammarCorrect = {},
+  grammarTestMarks = {},
+  grammarExampleState = {},
+  grammarExampleEnglishVisible = {};

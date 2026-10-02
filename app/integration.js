@@ -11,12 +11,7 @@ function showVocabHint(kind = "word") {
 function showMixedHint() {
   if (!mixedQuestion) return;
   var q = mixedQuestion,
-    item = q.item,
-    answer = q.kind === "grammar" ? item.test.answers.join(" / ")
-      : q.kind === "phrase-cloze" || q.kind === "phrase-choice" ? clozeFor(item).word
-      : q.kind === "phrase-reverse" ? sourceText(item)
-      : q.kind.startsWith("phrase") || q.kind === "vocab-translate" ? targetText(item)
-      : sourceText(item);
+    answer = q.kind === "grammar" ? q.item.test.answers.join(" / ") + " Why: " + q.item.test.explain : mixedExpectedAnswer(q);
   $("#mixed-feedback").textContent = "Hint · " + answer;
   $("#mixed-feedback").className = "feedback hint";
 }
@@ -124,7 +119,7 @@ function bindArticleKeys() {
 document.querySelector('.nav-item[data-view="mixed"]').onclick = () => {
   restoreMixedDesk();
   $("#mixed-view .page-heading h1").textContent = "Mixed practice";
-  $("#mixed-view .page-heading p:last-child").textContent = "One randomized stream of vocabulary, verbs, phrases, cloze questions, multiple choice, and grammar.";
+  $("#mixed-view .page-heading p:last-child").textContent = "Build a focused session across words, verbs, adjectives, phrases, and grammar.";
   setView("mixed");
 };
 $("#reset-progress").onclick = showResetProgressModal;

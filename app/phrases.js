@@ -433,9 +433,6 @@ $$(".mode").forEach(
       setSelectedLevels(level);
       phraseIndex = 0;
       renderVocabularyLevels();
-      $$("[data-mixed-level]").forEach((x) =>
-        x.classList.toggle("active", x.dataset.mixedLevel === "all" ? selectedLevels.length === allStudyLevels.length : levelSelected(x.dataset.mixedLevel)),
-      );
       renderPhraseCategories();
       showPhrase();
       savePreferences();

@@ -7,6 +7,7 @@ these files in order and they share the browser application state.
 - `state.js` — German-learning progress, preferences, persistence, and shared helpers.
 - `vocabulary.js` — vocabulary lists, cards, answer checking, and articles.
 - `phrases.js` — phrase practice and phrase progress.
+- `application.js` — reviewed, sentence-level grammar application practice.
 - `mixed.js` — mixed-practice question generation and checking.
 - `lessons.js` — lesson presentation and lesson flow.
 - `ui.js` — grammar and general view rendering.
@@ -21,6 +22,24 @@ be typed or answered from choices in either direction. Content is in
 Study-status controls are functional filters, not just list views: a selected
 status determines the active practice pool. An empty pool disables the card and
 shows an explicit empty state.
+
+Mixed practice is a separate, saved session builder. It combines any selected
+content types and independently filters vocabulary, verb, adjective, and phrase
+topics, CEFR levels, direction, and written/multiple-choice/cloze answering.
+Grammar uses its own check format within the same session.
+
+Grammar topics pair concise rules and reference tables with an interactive
+example deck. Learners can step through each German example, cover or reveal
+its English translation, and read the pattern note. Every grammar check returns
+its record-level explanation and keeps an in-session correct/tried summary.
+
+`application.js` provides a separate Apply grammar desk. Its reviewed exercises
+link back to phrase IDs, so sentence text, English meaning, blanks, and grammar
+explanations are fixed data rather than inferred at runtime.
+
+Lessons are organised as 16 expandable units, each with three focused eight-question
+rounds: a word base, sentence practice, and a pattern workshop. Opening a unit hides
+the others and shows only its three rounds, with completion ticks tracked per round.
 
 Lessons run inside the Lessons section, using their configured topics and levels.
 The same exercise panel is moved between Lessons and Mixed practice to reuse answer

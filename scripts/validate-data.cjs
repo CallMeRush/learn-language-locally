@@ -1,6 +1,6 @@
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict'),path=require('node:path');
 const root=path.resolve(__dirname,'..'),context={};vm.createContext(context);
-for(const file of ['data/manifest.js','data/categories.js','data/grammar.js','data/lessons.js'])vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),context,{filename:file});
+for(const file of ['data/manifest.js','data/categories.js','data/grammar.js','data/application.js','data/lessons.js'])vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),context,{filename:file});
 vm.runInContext('this.contentManifest=contentManifest',context);
 const collectedVocab=[],collectedPhrases=[];
 context.WortwerkData={register(kind,group,records){
@@ -9,8 +9,8 @@ context.WortwerkData={register(kind,group,records){
 }};
 for(const kind of ['vocabulary','verbs','phrases'])for(const entry of Object.values(context.contentManifest[kind]))vm.runInContext(fs.readFileSync(path.join(root,entry.src),'utf8'),context,{filename:entry.src});
 context.vocab=collectedVocab;context.phrases=collectedPhrases;
-vm.runInContext('this.content={vocab,phrases,lessons,grammarLessons,categoryRecords}',context);
-const {vocab,phrases,lessons,grammarLessons,categoryRecords}=context.content;
+vm.runInContext('this.content={vocab,phrases,lessons,lessonUnits,grammarLessons,grammarApplications,categoryRecords}',context);
+const {vocab,phrases,lessons,lessonUnits,grammarLessons,grammarApplications,categoryRecords}=context.content;
 const categories=new Set(categoryRecords.map(c=>c.id)),wordIds=new Set(vocab.map(w=>w.id)),ids=new Set();
 const levels=new Set(['A1','A2','B1']),phraseLevel=p=>({easy:'A1',medium:'A2',hard:'B1'}[p.level]);
 const phraseTokens=text=>(text.match(/[\p{L}]+(?:['’-][\p{L}]+)?/gu)||[]).map(token=>token.toLocaleLowerCase('de'));
@@ -45,15 +45,50 @@ for(const p of phrases){
     assert(phraseTokens(p.translations[lang].text).includes(p.cloze[lang].toLocaleLowerCase('de')),'Phrase cloze focus is not in its sentence '+p.id+'/'+lang);
   }
 }
-for(const g of grammarLessons){assert.equal(g.targetLanguage,'de');assert(g.localized.en.title);for(const t of g.tests){assert.equal(typeof t.prompt,'string');assert(t.answers.length);}}
-for(const l of lessons)for(const a of l.activities){
+for(const g of grammarLessons){
+  assert.equal(g.targetLanguage,'de');assert(g.localized.en.title);assert(g.localized.en.intro);
+  assert(g.localized.en.examples.length>=2,'Grammar topic needs at least two study examples');
+  for(const example of g.localized.en.examples){assert(example.de&&example.en&&example.note,'Incomplete grammar study example');}
+  for(const t of g.tests){assert.equal(typeof t.prompt,'string');assert(t.answers.length);assert(t.explain?.trim(),'Grammar check needs an explanation');}
+}
+const applicationIds=new Set();
+for(const record of grammarApplications){
+  assert.match(record.id,/^(case|modal|separable)-[1-9]\d*$/);
+  assert(!applicationIds.has(record.id),'Duplicate grammar application ID '+record.id);applicationIds.add(record.id);
+  assert(['cases','modals','separable'].includes(record.set));assert(levels.has(record.level));
+  assert(record.translations?.en?.text&&record.translations?.de?.text);
+  assert(record.exercise?.blanked?.includes('___'),'Grammar application needs one blank '+record.id);
+  assert.equal(record.exercise.blanked.replace('___',record.exercise.answer),record.translations.de.text,'Grammar application blank mismatch '+record.id);
+  assert(record.exercise.explanation?.trim(),'Grammar application explanation required '+record.id);
+  const source=phrases.find(phrase=>phrase.id===record.sourcePhraseId);
+  assert(source,'Missing grammar application phrase source '+record.id);
+  assert.equal(source.translations.de.text,record.translations.de.text,'German source drift '+record.id);
+  assert.equal(source.translations.en.text,record.translations.en.text,'English source drift '+record.id);
+  if(record.set==='cases'){
+    assert(['der','die','das'].includes(record.exercise.gender),'Case exercise needs a base gender '+record.id);
+    assert(['nominative','accusative','dative','genitive'].includes(record.exercise.case),'Case exercise needs a grammatical case '+record.id);
+    assert(['definite','indefinite'].includes(record.exercise.article),'Case exercise needs an article kind '+record.id);
+    assert(record.exercise.noun?.trim(),'Case exercise needs a noun '+record.id);
+  }
+}
+assert.equal(lessonUnits.length,16,'Expected sixteen lesson units');
+assert.equal(lessons.length,48,'Expected three short rounds per lesson unit');
+for(const unit of lessonUnits){
+  const steps=lessons.filter(lesson=>lesson.unitId===unit.id);
+  assert.equal(steps.length,3,'Lesson unit needs three rounds '+unit.id);
+}
+for(const l of lessons){
+  assert.match(l.id,/^\d+-[1-3]$/);assert(l.questionCount>0&&l.questionCount<=8,'Lesson round must stay concise '+l.id);
+  assert(l.unit&&lessonUnits.some(unit=>unit.id===l.unitId),'Missing lesson unit '+l.id);
+  for(const a of l.activities){
   if(a.type==='mixed')continue;
   if(a.type==='grammar'){for(const topic of a.topics)assert(grammarLessons.some(g=>g.localized.en.title===topic),'Missing grammar topic '+topic);continue;}
   for(const category of a.categories){
     const pool=a.type==='phrases'?phrases.filter(p=>p.category===category&&phraseLevel(p)===l.level):vocab.filter(w=>(a.type==='verbs'?w.verbCategory:w.category)===category&&w.level===l.level);
     assert(pool.length,`Empty ${l.level} lesson ${l.id} activity ${a.type}/${category}`);
   }
+  }
 }
 const report=JSON.parse(fs.readFileSync(path.join(root,'data/import/report.json'),'utf8'));
 assert.equal(vocab.length,report.totals.vocabulary+report.totals.verbs);assert.equal(phrases.length,report.totals.phrases);
-console.log(`PASS: ${vocab.length} words/verbs, ${phrases.length} sentences, ${grammarLessons.length} grammar topics, ${lessons.length} lesson graphs`);
+console.log('PASS: '+vocab.length+' words/verbs, '+phrases.length+' sentences, '+grammarLessons.length+' grammar topics, '+grammarApplications.length+' grammar applications, '+lessonUnits.length+' lesson units / '+lessons.length+' short rounds');

@@ -32,8 +32,13 @@ The learning content is intentionally kept separate from the interface logic.
 - `phrases/<category>.js` contains one concise canonical list for that category. Phrase records retain their category because lessons use it as a stable content key. Each phrase also stores `wordIds` and a `cloze` object containing the exact German and English sentence tokens to blank.
 - Every vocabulary, verb, and phrase record stores language content under `translations`. Language-specific metadata, such as an article, belongs inside that language's translation object.
 - `grammar.js` contains German grammar only, with English presentation under
-  `localized.en` and English test prompts and explanations stored as strings.
-- `lessons.js` contains canonical lesson records. Lesson presentation text is under `localized`; each lesson's `activities` list declares the vocabulary, verb, phrase, grammar, or mixed practice sources.
+  `localized.en`. Each topic has an intro, optional rules and tables, at least
+  two worked `examples` (`de`, `en`, and `note`), and checks with accepted
+  `answers` plus an `explain` string shown after checking.
+- `application.js` contains reviewed sentence-level grammar applications. Each
+  record links to an exact phrase source and stores the blank, expected answer,
+  and explanation explicitly; case records also store base gender and case metadata.
+- `lessons.js` contains 16 canonical lesson units, each expanded into three eight-question lesson rounds. Unit presentation text is under `localized`; each short round declares its vocabulary, verb, phrase, grammar, or mixed practice sources.
 - `categories.js` contains one record per category with English labels under
   `localized.en`; category IDs remain stable keys used by content records.
 

@@ -1,4 +1,4 @@
-const lessons = [
+const lessonUnits = [
   {
     "id": "1",
     "type": "lesson",
@@ -562,3 +562,71 @@ const lessons = [
     ]
   }
 ];
+
+const lessonStepSpecs = [
+  {
+    key: "words",
+    title: "Word base",
+    description: "Build the compact word and verb base before using it in context.",
+  },
+  {
+    key: "sentences",
+    title: "Sentence practice",
+    description: "Use the unit’s language in short, demanding sentence tasks.",
+  },
+  {
+    key: "patterns",
+    title: "Pattern workshop",
+    description: "Put the unit’s grammar pattern to work and repair every error.",
+  },
+];
+function lessonStepActivities(unit, key) {
+  var activities = unit.activities || [],
+    byType = (types) => activities.filter((activity) => types.includes(activity.type));
+  if (activities.some((activity) => activity.type === "mixed")) return [{ type: "mixed" }];
+  if (key === "words") return byType(["vocabulary", "verbs"]);
+  if (key === "sentences") return byType(["phrases"]);
+  var grammar = byType(["grammar"]);
+  return grammar.length ? grammar : [...byType(["vocabulary", "verbs"]), ...byType(["phrases"])];
+}
+const lessons = lessonUnits.flatMap((unit, unitIndex) =>
+  lessonStepSpecs.map((spec, stepIndex) => {
+    var reviewLevel = unit.id === "12" ? ["A1", "A2", "B1"][stepIndex] : unit.level,
+      activities = lessonStepActivities(unit, spec.key),
+      grammarOnly = spec.key === "patterns" && activities.every((activity) => activity.type === "grammar"),
+      locale = unit.localized.en;
+    return {
+      id: unit.id + "-" + (stepIndex + 1),
+      type: "lesson",
+      unitId: unit.id,
+      unitIndex,
+      level: reviewLevel,
+      questionCount: 8,
+      localized: {
+        en: {
+          title: unit.id === "12" ? reviewLevel + " review" : spec.title,
+          focus: unit.id === "12"
+            ? "Focused " + reviewLevel + " consolidation"
+            : grammarOnly
+              ? "Grammar in context"
+              : spec.key === "words"
+                ? "Vocabulary and verbs"
+                : spec.key === "sentences"
+                  ? "Useful sentence patterns"
+                  : "Mixed recall",
+          description: unit.id === "12"
+            ? "A concise " + reviewLevel + " repair round across words, phrases, verbs, and grammar."
+            : spec.description,
+        },
+      },
+      activities,
+      unit: {
+        title: locale.title,
+        focus: locale.focus,
+        description: locale.description,
+        step: stepIndex + 1,
+        totalSteps: lessonStepSpecs.length,
+      },
+    };
+  }),
+);

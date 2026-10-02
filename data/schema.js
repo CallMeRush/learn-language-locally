@@ -1,7 +1,7 @@
 /* Canonical content schema.
    A record is language-neutral; each translation owns its own linguistic metadata. */
 const supportedLanguages=['en','de'];
-const contentTypes=['vocabulary','phrase','grammar','lesson','category'];
+const contentTypes=['vocabulary','phrase','grammar','grammar-application','lesson','category'];
 const isPlainObject=value=>value&&typeof value==='object'&&!Array.isArray(value);
 function validateTranslationMap(translations,{required=supportedLanguages}={}){
   if(!isPlainObject(translations))return ['translations must be an object'];
@@ -15,6 +15,7 @@ function validateContentRecord(record,type){
   if(!['vocabulary','phrase'].includes(type)&&record.type!==type)errors.push('type must be '+type);
   if(type==='vocabulary'||type==='phrase')errors.push(...validateTranslationMap(record.translations));
   if(type==='grammar'){if(typeof record.targetLanguage!=='string')errors.push('missing targetLanguage');if(!isPlainObject(record.localized))errors.push('localized must be an object')}
+  if(type==='grammar-application'){if(!['cases','modals','separable'].includes(record.set))errors.push('invalid application set');if(typeof record.level!=='string')errors.push('missing level');if(typeof record.sourcePhraseId!=='string')errors.push('missing source phrase reference');errors.push(...validateTranslationMap(record.translations));if(!isPlainObject(record.exercise)||typeof record.exercise.blanked!=='string'||typeof record.exercise.answer!=='string'||typeof record.exercise.explanation!=='string')errors.push('incomplete exercise')}
   if(type==='lesson'){if(!Array.isArray(record.activities))errors.push('activities must be an array');if(typeof record.level!=='string')errors.push('missing level');if(!isPlainObject(record.localized))errors.push('localized must be an object');for(const [index,activity] of (record.activities||[]).entries()){if(!isPlainObject(activity)||typeof activity.type!=='string')errors.push('activity['+index+'] must have a type');if(activity.type==='mixed'&&Object.keys(activity).length!==1)errors.push('activity['+index+'] mixed activity cannot have extra fields');if(['vocabulary','verbs','phrases'].includes(activity.type)&&(!Array.isArray(activity.categories)||!activity.categories.length))errors.push('activity['+index+'] categories must be a non-empty array');if(activity.type==='grammar'&&(!Array.isArray(activity.topics)||!activity.topics.length))errors.push('activity['+index+'] topics must be a non-empty array')}}
   return errors;
 }

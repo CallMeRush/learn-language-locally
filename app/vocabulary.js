@@ -43,8 +43,13 @@ function renderView(view) {
   });
   if (view === "issues") renderIssues();
   if (["vocabulary", "verbs", "adjectives"].includes(view)) renderVocabulary();
+  if (view === "phrases") showPhrase();
+  if (view === "application") renderGrammarApplication();
   if (view === "grammar") renderGrammar();
-  if (view === "mixed") nextMixed();
+  if (view === "mixed") {
+    renderMixedBuilder();
+    nextMixed();
+  }
   if (view === "lessons") renderLessons();
   savePreferences();
 }
@@ -173,11 +178,12 @@ function renderVocabularyLevels() {
       vocabIndex = 0;
       phraseIndex = 0;
       renderVocabularyLevels();
-      $$("[data-mixed-level]").forEach((x) =>
-        x.classList.toggle("active", x.dataset.mixedLevel === "all" ? selectedLevels.length === allStudyLevels.length : levelSelected(x.dataset.mixedLevel)),
-      );
       if (document.querySelector("#phrases-view.active-view")) showPhrase();
-      else if (document.querySelector("#mixed-view.active-view")) nextMixed();
+      else if (document.querySelector("#application-view.active-view")) renderGrammarApplication();
+      else if (document.querySelector("#mixed-view.active-view")) {
+        renderMixedBuilder();
+        nextMixed();
+      }
       else renderVocabulary();
       savePreferences();
     };
@@ -306,6 +312,8 @@ function showVocabCard() {
   activeVocabWord = words[vocabIndex % words.length] || null;
   renderVocabularyList();
   if (!words.length) {
+    $("#vocab-level").textContent = "NO MATCHING WORDS";
+    $("#vocab-number").textContent = "—";
     $("#practice-word").textContent = "Nothing here";
     $("#practice-prompt").textContent = `No ${vocabStudyStatusLabels[vocabStudyStatus]} words match these levels and categories.`;
     $("#article-choices").style.display = "none";
@@ -322,6 +330,14 @@ function showVocabCard() {
     word = article
       ? targetText(w).replace(/^(der|die|das) /, "")
       : targetText(w);
+  var category = w.pos === "verb"
+    ? categoryLabel("verb-" + w.verbCategory)
+    : w.pos === "adjective"
+      ? categoryLabel("adjective-" + w.adjectiveCategory)
+      : categoryLabel(w.category);
+  $("#vocab-level").textContent = w.level + " · " + category;
+  $("#vocab-number").textContent =
+    String(words.indexOf(w) + 1).padStart(2, "0") + " / " + words.length;
   vocabAnswered = false;
   vocabCorrect = false;
   selectedVocabChoice = "";
@@ -435,6 +451,23 @@ function normalizeAnswer(value) {
   return String(value ?? "")
     .toLowerCase()
     .trim()
+    .replace(/ß/g, "ss")
+    .replace(/ä/g, "ae")
+    .replace(/ö/g, "oe")
+    .replace(/ü/g, "ue")
+    .replace(/\s+/g, " ");
+}
+function normalizeCaseSensitiveAnswer(value) {
+  return String(value ?? "")
+    .trim()
+    .replace(/ẞ/g, "SS")
+    .replace(/ß/g, "ss")
+    .replace(/Ä/g, "Ae")
+    .replace(/Ö/g, "Oe")
+    .replace(/Ü/g, "Ue")
+    .replace(/ä/g, "ae")
+    .replace(/ö/g, "oe")
+    .replace(/ü/g, "ue")
     .replace(/\s+/g, " ");
 }
 function answerMatches(answer, expected, normalizer = normalizeAnswer) {
@@ -473,7 +506,7 @@ function checkVocab() {
     articleCorrect = !article || selectedArticle === article,
     wordCorrect =
       vocabMode === "translate"
-        ? answerMatches(raw, german, targetMeta(w).caseSensitive ? value => String(value).trim().replace(/\s+/g, " ") : normalizeAnswer)
+        ? answerMatches(raw, german, targetMeta(w).caseSensitive ? normalizeCaseSensitiveAnswer : normalizeAnswer)
         : answerIncludes(raw, target),
     ok = articleCorrect && wordCorrect;
   // A wrong answer is a retry, not completion of this card. This keeps the
