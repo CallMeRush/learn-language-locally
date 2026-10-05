@@ -190,16 +190,25 @@ function bindVocabularyDeskControls() {
   $$(".heading-actions").forEach((element) =>
     element.insertAdjacentHTML(
       "afterbegin",
-      '<div class="mode-switch vocab-direction"><button class="vocab-mode" data-vocab-mode="meaning"></button><button class="vocab-mode active" data-vocab-mode="translate"></button><button class="vocab-mode" data-vocab-mode="choice">Multiple choice</button></div>',
+      '<div class="mode-switch vocab-direction" role="group" aria-label="Vocabulary practice controls"><button class="vocab-mode" type="button" data-vocab-direction></button><button class="vocab-mode" type="button" data-vocab-choice aria-pressed="false">Multiple choice</button></div>',
     ),
   );
-  $$(".vocab-mode").forEach((button) => {
-    button.onclick = () => {
-      vocabMode = button.dataset.vocabMode;
-      showVocabCard();
-      savePreferences();
-    };
-  });
+  $$("[data-vocab-direction]").forEach(
+    (button) =>
+      (button.onclick = () => {
+        vocabMode = vocabMode === "translate" ? "meaning" : "translate";
+        showVocabCard();
+        savePreferences();
+      }),
+  );
+  $$("[data-vocab-choice]").forEach(
+    (button) =>
+      (button.onclick = () => {
+        vocabMultipleChoice = !vocabMultipleChoice;
+        showVocabCard();
+        savePreferences();
+      }),
+  );
 }
 document.querySelector('.nav-item[data-view="mixed"]').onclick = () => {
   restoreMixedDesk();
@@ -224,12 +233,13 @@ document.addEventListener("keydown", (event) => {
     closeProgressModal();
 });
 $("#mixed-hint-button").onclick = showMixedHint;
-var globalRandomMode = document.querySelector("#global-random-mode");
-globalRandomMode.checked = randomMode;
-globalRandomMode.onchange = (event) => {
+var randomModeControl = document.querySelector("#settings-random-mode");
+randomModeControl.checked = randomMode;
+randomModeControl.onchange = (event) => {
   randomMode = event.target.checked;
   if (document.querySelector("#vocabulary-view.active-view"))
     renderVocabulary();
+  else if (document.querySelector("#phrases-view.active-view")) renderPhrases();
   savePreferences();
 };
 bindGlobalVocabularyControls();

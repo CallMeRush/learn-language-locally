@@ -1,6 +1,7 @@
 /* Appearance controls are local preferences, shared with progress export. */
 function renderSettings() {
   var root = $("#settings-view");
+  root.querySelector("#settings-random-mode").checked = randomMode;
   root.querySelectorAll("[data-accent-choice]").forEach((button) => {
     var selected = button.dataset.accentChoice === colorAccent;
     button.classList.toggle("selected", selected);

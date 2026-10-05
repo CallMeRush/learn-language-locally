@@ -31,13 +31,8 @@
   min-height: 72px;
   padding: 12px 0;
 }
-.top-actions,
-.vocab-global-controls,
 .heading-actions {
   flex-wrap: wrap;
-}
-.top-actions {
-  justify-content: flex-end;
 }
 .page-heading {
   gap: 20px;
@@ -1473,6 +1468,19 @@ button.word-row .word-check {
   background: var(--line);
   margin: 29px 0;
 }
+.settings-toggle {
+  margin-top: 18px;
+}
+.settings-progress-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin-top: 18px;
+}
+.settings-progress-actions .reset-btn {
+  border-color: #d8b3a6;
+  color: #a45b39;
+}
 .settings-note {
   margin: 29px 0 0 !important;
   padding: 10px 12px;
@@ -1589,6 +1597,7 @@ html[data-background="dark"] .dictionary-result,
 html[data-background="dark"] .dictionary-empty,
 html[data-background="dark"] .grammar-card,
 html[data-background="dark"] .mixed-builder,
+html[data-background="dark"] .mixed-card,
 html[data-background="dark"] .application-builder,
 html[data-background="dark"] .application-card,
 html[data-background="dark"] .lesson-unit-card,
@@ -1637,9 +1646,85 @@ html[data-background="dark"] .application-card input,
 html[data-background="dark"] .dictionary-input-wrap input {
   color: var(--ink);
 }
+html[data-background="dark"] .global-vocab-level,
+html[data-background="dark"] .article-choices button,
+html[data-background="dark"] .vocabulary-kinds button,
+html[data-background="dark"] .practice-mode:not(.active),
+html[data-background="dark"] .choice-option,
+html[data-background="dark"] .grammar-example-tabs button,
+html[data-background="dark"] .mixed-builder-chip,
+html[data-background="dark"] .application-tabs button,
+html[data-background="dark"] .application-choice,
+html[data-background="dark"] .lesson-unit-detail header > span,
+html[data-background="dark"] .lesson-path-details small,
+html[data-background="dark"] .import-drop-zone,
+html[data-background="dark"] .grammar-practice-launch,
+html[data-background="dark"] .empty-state {
+  background: #1f2228;
+  border-color: #454c56;
+  color: #d0d5dc;
+}
+html[data-background="dark"] .global-vocab-level.active,
+html[data-background="dark"] .vocabulary-kinds button.active,
+html[data-background="dark"] .practice-mode.active,
+html[data-background="dark"] .article-choices button.selected,
+html[data-background="dark"] .choice-option.selected,
+html[data-background="dark"] .grammar-example-tabs button.active,
+html[data-background="dark"] .application-tabs button.active,
+html[data-background="dark"] .mixed-builder-chip.selected,
+html[data-background="dark"] .application-choice.selected {
+  background: var(--green);
+  border-color: var(--green);
+  color: #fff;
+}
+html[data-background="dark"] .choice-option:hover,
+html[data-background="dark"] .application-choice:hover,
+html[data-background="dark"] .grammar-example-tabs button:hover {
+  background: #2b3038;
+  border-color: var(--accent-border);
+  color: var(--ink);
+}
+html[data-background="dark"] .grammar-question-link:hover,
+html[data-background="dark"] .grammar-question-link.active {
+  background: #2b3038;
+  color: #d7ebda;
+}
+html[data-background="dark"] .dictionary-result span,
+html[data-background="dark"] .dictionary-result-head > small,
+html[data-background="dark"] .dictionary-example b,
+html[data-background="dark"] .dictionary-example small,
+html[data-background="dark"] .application-translation,
+html[data-background="dark"] .application-prompt,
+html[data-background="dark"] .application-prompt span,
+html[data-background="dark"] .lesson-unit-detail header p:not(.eyebrow),
+html[data-background="dark"] .lesson-path-details small,
+html[data-background="dark"] .grammar-practice-launch span,
+html[data-background="dark"] .import-drop-zone,
+html[data-background="dark"] .dictionary-empty {
+  color: var(--muted);
+}
+html[data-background="dark"] .grammar-example-de {
+  color: #efb696;
+}
+html[data-background="dark"] .hero-art {
+  background: #2b3038;
+}
+html[data-background="dark"] .hero-art .sun {
+  background: #a9684a;
+}
+html[data-background="dark"] .hero-art .arch {
+  background: #202329;
+  color: #efb696;
+}
+html[data-background="dark"] .hero-art .plant {
+  color: #91a78d;
+}
 @media (max-width: 570px) {
   .appearance-options button {
     flex: 1 1 130px;
+  }
+  .settings-progress-actions > * {
+    flex: 1 1 140px;
   }
 }
 .dictionary-search,

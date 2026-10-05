@@ -17,7 +17,7 @@ function mixedLevelOfPhrase(phrase) {
 }
 function allMixedOptions() {
   return {
-    directions: ["toGerman", "toEnglish"],
+    directions: ["toGerman"],
     styles: ["write", "choice", "cloze"],
     vocabularyCategories: ["all"],
     verbCategories: ["verbs"],
@@ -571,6 +571,9 @@ function renderMixedBuilder() {
           .join("")}</div></section>`;
       })
       .join("");
+  var directionLabel = mixedDirections.includes("toEnglish")
+    ? "German → English"
+    : "English → German";
   builder.innerHTML = `<header><div><p class="eyebrow">BUILD A SESSION</p><h2>Choose what you want to practise.</h2></div><span>${poolCount.toLocaleString()} question variations</span></header><section class="mixed-builder-section"><p>INCLUDE</p><div class="mixed-builder-chips">${Object.entries(
     partLabels,
   )
@@ -579,7 +582,7 @@ function renderMixedBuilder() {
     )
     .join(
       "",
-    )}</div></section><section class="mixed-builder-section"><p>LEVELS</p><div class="mixed-builder-chips">${mixedBuilderChip("level", "all", "All levels", selectedLevels.length === allStudyLevels.length)}${allStudyLevels.map((level) => mixedBuilderChip("level", level, level, levelSelected(level))).join("")}</div></section><section class="mixed-builder-section"><p>DIRECTION</p><div class="mixed-builder-chips">${mixedBuilderChip("direction", "toGerman", "English → German", mixedDirections.includes("toGerman"))}${mixedBuilderChip("direction", "toEnglish", "German → English", mixedDirections.includes("toEnglish"))}</div></section><section class="mixed-builder-section"><p>PRACTICE STYLE</p><div class="mixed-builder-chips">${mixedBuilderChip("style", "write", "Write the answer", mixedStyles.includes("write"))}${mixedBuilderChip("style", "choice", "Multiple choice", mixedStyles.includes("choice"))}${mixedBuilderChip("style", "cloze", "Fill the blank", mixedStyles.includes("cloze"))}</div></section>${categorySections}${mixedParts.grammar ? '<p class="mixed-builder-note">Grammar checks follow the selected levels. Direction and style shape word and phrase questions. Fill the blank uses writing unless Multiple choice is selected; grammar uses its own checks.</p>' : mixedStyles.includes("cloze") ? '<p class="mixed-builder-note">Fill the blank uses writing unless Multiple choice is selected.</p>' : ""}`;
+    )}</div></section><section class="mixed-builder-section"><p>DIRECTION</p><div class="mixed-builder-chips">${mixedBuilderChip("direction-toggle", "flip", directionLabel, true)}</div></section><section class="mixed-builder-section"><p>PRACTICE STYLE</p><div class="mixed-builder-chips">${mixedBuilderChip("style", "write", "Write the answer", mixedStyles.includes("write"))}${mixedBuilderChip("style", "choice", "Multiple choice", mixedStyles.includes("choice"))}${mixedBuilderChip("style", "cloze", "Fill the blank", mixedStyles.includes("cloze"))}</div></section>${categorySections}${mixedParts.grammar ? '<p class="mixed-builder-note">Grammar follows the levels selected in the top bar. Direction and style shape word and phrase questions. Fill the blank uses writing unless Multiple choice is selected; grammar uses its own checks.</p>' : mixedStyles.includes("cloze") ? '<p class="mixed-builder-note">Fill the blank uses writing unless Multiple choice is selected.</p>' : ""}`;
   builder.querySelectorAll("[data-mixed-part]").forEach(
     (button) =>
       (button.onclick = () => {
@@ -590,27 +593,21 @@ function renderMixedBuilder() {
         refreshMixedSession();
       }),
   );
-  builder.querySelectorAll("[data-mixed-level]").forEach((button) => {
+  builder.querySelector("[data-mixed-direction-toggle]").onclick = () => {
+    mixedDirections = [
+      mixedDirections.includes("toGerman") ? "toEnglish" : "toGerman",
+    ];
+    refreshMixedSession();
+  };
+  builder.querySelectorAll("[data-mixed-style]").forEach((button) => {
     button.onclick = () => {
-      toggleStudyLevel(button.dataset.mixedLevel);
+      var value = button.dataset.mixedStyle;
+      mixedStyles = mixedStyles.includes(value)
+        ? mixedStyles.filter((item) => item !== value)
+        : [...mixedStyles, value];
       refreshMixedSession();
     };
   });
-  builder
-    .querySelectorAll("[data-mixed-direction], [data-mixed-style]")
-    .forEach((button) => {
-      button.onclick = () => {
-        var directions = !!button.dataset.mixedDirection,
-          value = button.dataset.mixedDirection || button.dataset.mixedStyle,
-          current = directions ? mixedDirections : mixedStyles,
-          next = current.includes(value)
-            ? current.filter((item) => item !== value)
-            : [...current, value];
-        if (directions) mixedDirections = next;
-        else mixedStyles = next;
-        refreshMixedSession();
-      };
-    });
   builder.querySelectorAll("[data-mixed-category]").forEach((button) => {
     button.onclick = () => {
       var [kind, key] = button.dataset.mixedCategory.split(":"),

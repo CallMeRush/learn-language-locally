@@ -5,6 +5,7 @@ var defaultPreferences = () => ({
   phraseCategory: "all",
   phraseCategories: ["all"],
   vocabMode: "translate",
+  vocabMultipleChoice: false,
   phraseDirection: "translate",
   phraseCloze: false,
   phraseMultipleChoice: false,
@@ -15,7 +16,7 @@ var defaultPreferences = () => ({
     phrases: true,
     grammar: true,
   },
-  mixedDirections: ["toGerman", "toEnglish"],
+  mixedDirections: ["toGerman"],
   mixedStyles: ["write", "choice", "cloze"],
   mixedVocabularyCategories: ["all"],
   mixedVerbCategories: ["verbs"],
@@ -25,7 +26,6 @@ var defaultPreferences = () => ({
   applicationQueue: "new",
   applicationAskGender: true,
   randomMode: true,
-  phraseRandom: true,
   hideVocabularyAnswers: true,
   grammarGrid: false,
   colorAccent: "green",
@@ -111,6 +111,7 @@ function normalizeProgress(progress) {
       ? value.preferences
       : {}),
   };
+  delete preferences.phraseRandom;
   preferences.vocabLevels = Array.isArray(preferences.vocabLevels)
     ? preferences.vocabLevels.filter((level) =>
         ["A1", "A2", "B1"].includes(level),
@@ -119,8 +120,13 @@ function normalizeProgress(progress) {
   preferences.vocabLevels = [...new Set(preferences.vocabLevels)];
   if (!preferences.vocabLevels.length)
     preferences.vocabLevels = ["A1", "A2", "B1"];
-  if (!["meaning", "translate", "choice"].includes(preferences.vocabMode))
+  if (preferences.vocabMode === "choice") {
+    preferences.vocabMode = "meaning";
+    preferences.vocabMultipleChoice = true;
+  }
+  if (!["meaning", "translate"].includes(preferences.vocabMode))
     preferences.vocabMode = "translate";
+  preferences.vocabMultipleChoice = Boolean(preferences.vocabMultipleChoice);
   if (!["translate", "reverse"].includes(preferences.phraseDirection))
     preferences.phraseDirection = "translate";
   preferences.phraseCloze = Boolean(preferences.phraseCloze);
@@ -176,12 +182,12 @@ function normalizeProgress(progress) {
     if (!preferences[key].length)
       preferences[key] = [...defaultPreferences()[key]];
   });
-  [
-    "randomMode",
-    "phraseRandom",
-    "hideVocabularyAnswers",
-    "grammarGrid",
-  ].forEach((key) => (preferences[key] = Boolean(preferences[key])));
+  preferences.mixedDirections = preferences.mixedDirections.includes("toGerman")
+    ? ["toGerman"]
+    : ["toEnglish"];
+  ["randomMode", "hideVocabularyAnswers", "grammarGrid"].forEach(
+    (key) => (preferences[key] = Boolean(preferences[key])),
+  );
   if (
     ![
       "green",
@@ -225,10 +231,6 @@ function normalizeProgress(progress) {
         (key) => key === "all" || contentManifest.phrases[key],
       )
     : [preferences.phraseCategory];
-  if (!preferences.selectedCategories.length)
-    preferences.selectedCategories = ["all"];
-  if (!preferences.phraseCategories.length)
-    preferences.phraseCategories = ["all"];
   value.preferences = preferences;
   return value;
 }
@@ -279,6 +281,14 @@ function toggleCategorySelection(selection, allKey, keys, key) {
     ? selection.filter((id) => id !== key)
     : [...selection, key];
 }
+function toggleDeskCategorySelection(selection, allKey, keys, key) {
+  if (key === allKey) return selection.includes(allKey) ? [] : [allKey];
+  if (selection.includes(allKey))
+    return keys.filter((id) => id !== allKey && id !== key);
+  return selection.includes(key)
+    ? selection.filter((id) => id !== key)
+    : [...selection, key];
+}
 var state = loadProgress();
 function savePreferences() {
   state.preferences = normalizeProgress({
@@ -289,6 +299,7 @@ function savePreferences() {
       phraseCategory,
       phraseCategories,
       vocabMode,
+      vocabMultipleChoice,
       phraseDirection,
       phraseCloze,
       phraseMultipleChoice,
@@ -303,7 +314,6 @@ function savePreferences() {
       applicationQueue,
       applicationAskGender,
       randomMode,
-      phraseRandom,
       hideVocabularyAnswers,
       grammarGrid,
       colorAccent,
@@ -319,19 +329,11 @@ var sourceText = (item) => translationText(item, "en");
 var targetMeta = (item) => item?.translations?.["de"] || {};
 var targetArticle = (item) => targetMeta(item).article || "";
 function updateDirectionLabels() {
-  $$(".vocab-mode").forEach((button) => {
-    button.textContent = {
-      meaning: "German → English",
-      translate: "English → German",
-      choice: "Multiple choice",
-    }[button.dataset.vocabMode];
+  $$("[data-vocab-direction]").forEach((button) => {
+    button.textContent =
+      vocabMode === "translate" ? "English → German" : "German → English";
+    button.classList.add("active");
   });
-  $$('[data-practice="translate"]').forEach(
-    (b) => (b.textContent = "English → German"),
-  );
-  $$('[data-practice="reverse"]').forEach(
-    (b) => (b.textContent = "German → English"),
-  );
 }
 document.querySelector(".crumb")?.remove();
 var selectedCategory = state.preferences.selectedCategory,
@@ -347,6 +349,7 @@ var selectedCategory = state.preferences.selectedCategory,
   phraseCloze = state.preferences.phraseCloze,
   phraseMultipleChoice = state.preferences.phraseMultipleChoice,
   vocabMode = state.preferences.vocabMode,
+  vocabMultipleChoice = state.preferences.vocabMultipleChoice,
   selectedArticle = "",
   selectedVocabChoice = "",
   selectedPhraseChoice = "",
@@ -373,7 +376,6 @@ var selectedCategory = state.preferences.selectedCategory,
   lessonReviewErrors = [],
   lessonComplete = false,
   randomMode = state.preferences.randomMode,
-  phraseRandom = state.preferences.phraseRandom,
   vocabAnswered = false,
   vocabCorrect = false,
   phraseAnswered = false,
@@ -390,9 +392,7 @@ function setSelectedLevels(levels) {
   mixedLevel = [...selectedLevels];
 }
 function toggleStudyLevel(level) {
-  if (level === "all") return setSelectedLevels(allStudyLevels);
-  if (selectedLevels.length === allStudyLevels.length)
-    return setSelectedLevels([level]);
+  if (!allStudyLevels.includes(level)) return;
   if (selectedLevels.includes(level) && selectedLevels.length > 1)
     return setSelectedLevels(selectedLevels.filter((item) => item !== level));
   if (!selectedLevels.includes(level))

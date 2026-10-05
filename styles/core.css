@@ -146,17 +146,7 @@ body {
   border-bottom: 1px solid var(--line);
   display: flex;
   align-items: center;
-  justify-content: space-between;
-}
-.crumb {
-  font: 500 10px "DM Mono";
-  color: #829087;
-  letter-spacing: 1.2px;
-}
-.top-actions {
-  display: flex;
-  gap: 15px;
-  align-items: center;
+  justify-content: center;
 }
 .level-pill {
   font-size: 11px;
@@ -1324,11 +1314,6 @@ button {
 .vocab-local-random {
   display: none;
 }
-.vocab-global-controls {
-  display: flex;
-  align-items: center;
-  gap: 9px;
-}
 .global-levels {
   display: flex;
   gap: 3px;
@@ -1501,18 +1486,9 @@ button {
   color: #ad5d43;
 }
 @media (max-width: 570px) {
-  .top-actions {
-    gap: 7px;
-  }
-  .vocab-global-controls {
-    gap: 4px;
-  }
   .global-vocab-level {
     padding: 4px 5px;
     font-size: 8px;
-  }
-  .vocab-global-controls .toggle-label {
-    font-size: 0;
   }
   .level-pill {
     display: none;

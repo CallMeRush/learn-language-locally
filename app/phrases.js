@@ -8,7 +8,8 @@ function phraseRecords() {
   return phrases.filter(
     (p) =>
       levelSelected({ easy: "A1", medium: "A2", hard: "B1" }[p.level]) &&
-      (phraseCategories.includes("all") ||
+      (!phraseCategories.length ||
+        phraseCategories.includes("all") ||
         phraseCategories.includes(p.category)),
   );
 }
@@ -29,6 +30,13 @@ function phraseStudyGroups(records) {
 }
 function filteredPhrases() {
   return phraseStudyGroups(phraseRecords())[phraseStudyStatus];
+}
+function renderPhrases() {
+  renderPhraseCategories();
+  var records = phraseRecords();
+  if (randomMode && records.length)
+    phraseIndex = Math.floor(Math.random() * records.length);
+  showPhrase();
 }
 function clozeFor(p, language = "de") {
   p._activeCloze ||= {};
@@ -164,7 +172,7 @@ function renderPhraseCategories() {
     (button) =>
       (button.onclick = async () => {
         var category = button.dataset.phraseCategory;
-        phraseCategories = toggleCategorySelection(
+        phraseCategories = toggleDeskCategorySelection(
           phraseCategories,
           "all",
           categories,
@@ -173,17 +181,16 @@ function renderPhraseCategories() {
         phraseCategory = "all";
         phraseIndex = 0;
         await ensureContent("phrases");
-        renderPhraseCategories();
-        showPhrase();
+        renderPhrases();
         savePreferences();
       }),
   );
 }
 function updatePhraseControls() {
-  $$("[data-phrase-direction]").forEach((button) => {
-    var active = button.dataset.phraseDirection === phraseDirection;
-    button.classList.toggle("active", active);
-    button.setAttribute("aria-pressed", String(active));
+  $$("[data-phrase-direction-toggle]").forEach((button) => {
+    button.textContent =
+      phraseDirection === "reverse" ? "German → English" : "English → German";
+    button.classList.add("active");
   });
   [
     ["phraseCloze", phraseCloze],
@@ -257,7 +264,6 @@ function showPhrase() {
   $("#phrase-answer").disabled = false;
   $("#check-phrase").disabled = false;
   $("#show-answer").disabled = false;
-  if (phraseRandom) phraseIndex = Math.floor(Math.random() * list.length);
   var p = list[phraseIndex % list.length],
     answerLanguage = phraseAnswerLanguage(),
     cloze = phraseCloze ? clozeFor(p, answerLanguage) : null;
@@ -342,10 +348,7 @@ function renderPhraseLists() {
     },
     select: (p) => {
       phraseIndex = filteredPhrases().indexOf(p);
-      var random = phraseRandom;
-      phraseRandom = false;
       showPhrase();
-      phraseRandom = random;
     },
     onStatusChange: (status) => {
       phraseStudyStatus = status;
@@ -362,7 +365,7 @@ function nextPhrase() {
     showPhrase();
     return;
   }
-  phraseIndex = phraseRandom
+  phraseIndex = randomMode
     ? Math.floor(Math.random() * list.length)
     : (phraseIndex + 1) % list.length;
   var next = list[phraseIndex % list.length];
@@ -444,16 +447,18 @@ $("#next-phrase").onclick = nextPhrase;
 var phraseControls = $(".phrase-controls");
 phraseControls.innerHTML = `
   <div class="mode-switch phrase-directions" role="group" aria-label="Translation direction">
-    <button class="practice-mode" type="button" data-phrase-direction="translate">English → German</button>
-    <button class="practice-mode" type="button" data-phrase-direction="reverse">German → English</button>
+    <button class="practice-mode" type="button" data-phrase-direction-toggle></button>
   </div>
   <div class="mode-switch phrase-options" role="group" aria-label="Phrase practice options">
     <button class="practice-mode" type="button" data-phrase-cloze aria-pressed="false">Fill the blank</button>
     <button class="practice-mode" type="button" data-phrase-choice aria-pressed="false">Multiple choice</button>
   </div>`;
-$$("[data-phrase-direction]").forEach(
+$$("[data-phrase-direction-toggle]").forEach(
   (button) =>
-    (button.onclick = () => setPhraseDirection(button.dataset.phraseDirection)),
+    (button.onclick = () =>
+      setPhraseDirection(
+        phraseDirection === "translate" ? "reverse" : "translate",
+      )),
 );
 document.querySelector("[data-phrase-cloze]").onclick = () => setPhraseCloze();
 document.querySelector("[data-phrase-choice]").onclick = () =>
@@ -466,22 +471,6 @@ $("#phrase-answer").onkeydown = (e) => {
   }
 };
 showPhrase();
-$(".phrase-controls").insertAdjacentHTML(
-  "beforeend",
-  '<label class="toggle-label phrase-random-toggle"><input type="checkbox" id="phrase-random-mode" checked /><span class="toggle-switch"></span> Random order</label>',
-);
-$("#phrase-random-mode").onchange = (e) => {
-  phraseRandom = e.target.checked;
-  phraseIndex = 0;
-  toast(
-    phraseRandom
-      ? "Random sentence order on."
-      : "Sequential sentence order on.",
-  );
-  showPhrase();
-  savePreferences();
-};
-$("#phrase-random-mode").checked = phraseRandom;
 $(".phrase-layout").insertAdjacentHTML(
   "beforebegin",
   '<div id="phrase-categories" class="phrase-category-tabs"></div>',

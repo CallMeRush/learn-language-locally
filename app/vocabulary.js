@@ -54,7 +54,7 @@ function renderView(view) {
   if (view === "settings") renderSettings();
   if (view === "dictionary") renderDictionary();
   if (view === "vocabulary") renderVocabulary();
-  if (view === "phrases") showPhrase();
+  if (view === "phrases") renderPhrases();
   if (view === "application") renderGrammarApplication();
   if (view === "grammar") renderGrammar();
   if (view === "mixed") {
@@ -77,6 +77,10 @@ function ensureVocabularyFor(view, category) {
   return ensureContent(kind, vocabularyManifestGroup(view, category));
 }
 function normalizeVocabularySelectionForKind() {
+  if (!selectedCategories.length) {
+    selectedCategory = activeAllCategory();
+    return;
+  }
   if (vocabularyKind === "adjectives") {
     if (
       !selectedCategories.some(
@@ -149,11 +153,14 @@ function vocabularyCategorySelected(key) {
   );
 }
 function selectedVocabularyCategoryMatches(word) {
-  return selectedCategories.some((key) => categoryMatches(word, key));
+  return (
+    !selectedCategories.length ||
+    selectedCategories.some((key) => categoryMatches(word, key))
+  );
 }
 function toggleVocabularyCategory(key, entries) {
   var allKey = activeAllCategory();
-  selectedCategories = toggleCategorySelection(
+  selectedCategories = toggleDeskCategorySelection(
     selectedCategories,
     allKey,
     entries.map((entry) => entry.id),
@@ -236,10 +243,7 @@ function renderCategories() {
 function renderVocabularyLevels() {
   $$("[data-global-vocab-level]").forEach((button) => {
     var level = button.dataset.globalVocabLevel,
-      active =
-        level === "all"
-          ? selectedLevels.length === allStudyLevels.length
-          : levelSelected(level);
+      active = levelSelected(level);
     button.classList.toggle("active", active);
     button.setAttribute("aria-pressed", String(active));
     button.onclick = () => {
@@ -353,9 +357,11 @@ function renderVocabularyList() {
   });
 }
 function showVocabCard() {
-  $$(".vocab-mode").forEach((button) =>
-    button.classList.toggle("active", button.dataset.vocabMode === vocabMode),
-  );
+  updateDirectionLabels();
+  $$("[data-vocab-choice]").forEach((button) => {
+    button.classList.toggle("active", vocabMultipleChoice);
+    button.setAttribute("aria-pressed", String(vocabMultipleChoice));
+  });
   refreshArticleChoices();
   var words = currentWords();
   activeVocabWord = words[vocabIndex % words.length] || null;
@@ -397,7 +403,7 @@ function showVocabCard() {
   $("#practice-prompt").textContent =
     vocabMode === "translate"
       ? translatePrompt()
-      : vocabMode === "choice"
+      : vocabMultipleChoice
         ? meaningPrompt()
         : article
           ? "Choose the article, then type the meaning."
@@ -406,11 +412,11 @@ function showVocabCard() {
   $("#article-choices span").textContent = "Article";
   selectedArticle = "";
   $$("[data-article]").forEach((b) => b.classList.remove("selected"));
-  $("#vocab-answer").style.display = vocabMode === "choice" ? "none" : "";
+  $("#vocab-answer").style.display = vocabMultipleChoice ? "none" : "";
   var choices = $("#vocab-choice-options");
   choices.innerHTML = "";
-  choices.style.display = vocabMode === "choice" ? "grid" : "none";
-  if (vocabMode === "choice") {
+  choices.style.display = vocabMultipleChoice ? "grid" : "none";
+  if (vocabMultipleChoice) {
     var distractors = words
       .filter((item) => item.id !== w.id)
       .sort(() => Math.random() - 0.5)
@@ -420,11 +426,15 @@ function showVocabCard() {
       .forEach((item) => {
         var button = document.createElement("button");
         button.type = "button";
-        button.textContent = sourceText(item);
+        var choice =
+          vocabMode === "translate"
+            ? targetText(item).replace(/^(der|die|das) /, "")
+            : sourceText(item);
+        button.textContent = choice;
         button.onclick = () => {
           $$(".vocab-choice").forEach((x) => x.classList.remove("selected"));
           button.classList.add("selected");
-          selectedVocabChoice = sourceText(item);
+          selectedVocabChoice = choice;
         };
         button.className = "choice-option vocab-choice";
         choices.append(button);
@@ -501,8 +511,7 @@ function refreshArticleChoices() {
 function checkVocab() {
   if (!activeVocabWord || vocabCorrect) return;
   var w = activeVocabWord,
-    raw =
-      vocabMode === "choice" ? selectedVocabChoice : $("#vocab-answer").value,
+    raw = vocabMultipleChoice ? selectedVocabChoice : $("#vocab-answer").value,
     article = targetArticle(w),
     german = article
       ? targetText(w).replace(/^(der|die|das) /, "")
