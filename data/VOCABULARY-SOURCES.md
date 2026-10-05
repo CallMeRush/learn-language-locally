@@ -20,8 +20,8 @@ Semicolon-separated meanings need individual accepted answers.
 
 Recommendation: use the deck as a candidate list and german-nouns to
 cross-check noun metadata. Review senses, examples, article/gender conflicts,
-duplicates and levels before publishing entries. Preserve categories and
-existing IDs for unchanged concepts; record provenance for imported data.
+duplicates and levels before publishing entries. Preserve stable IDs and topic
+assignments for unchanged concepts; record provenance for imported data.
 
 The nouns repository declares CC BY-SA 4.0. The deck declares MIT, but its
 [attribution file](https://github.com/vbvss199/Language-Learning-decks/blob/main/attributions.md)

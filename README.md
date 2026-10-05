@@ -1,7 +1,8 @@
 # Wortwerk
 
-Wortwerk is a small, local-first language-learning app for practicing
-vocabulary, dictionary lookup, verbs, phrases, grammar, lessons, and mixed exercises.
+Wortwerk is a small, local-first German-learning desk. It brings together
+vocabulary, dictionary lookup, phrases, grammar, grammar application, lessons,
+and configurable mixed practice without requiring an account or server.
 
 The app teaches German to English speakers. All instructions are in English.
 Vocabulary, verbs and phrases support English → German and German → English
@@ -15,13 +16,9 @@ the browser's `localStorage`.
 
 Use **Export progress** to download a private JSON backup, then **Import
 progress** on another browser or device to replace that device's progress for
-this exact learning deck. No account, server, or network sync is involved.
-Your selected accent colour and light/dark appearance are local preferences
-and travel with that export.
-
-Both translation directions contribute to the new deck's study profile
-(`en-de-deck-efd235e6-v1`). It starts fresh because the content IDs changed.
-Earlier progress stays stored in the browser but is not applied to this corpus.
+this learning deck. No account, server, or network sync is involved. Appearance
+preferences travel with the export too: choose one of eight accent palettes and
+a light or neutral-charcoal dark theme in **Settings**.
 
 The current A1–B1 dataset includes 6,248 general vocabulary entries, 1,320
 adjectives, 1,585 verbs and 9,124 example sentences. German grammar remains separate. See
@@ -42,9 +39,9 @@ errors. Phrase practice remains a separate desk with the same multi-topic
 selection behavior. Its direction, cloze, and multiple-choice settings are
 independent; cloze targets are the linked vocabulary word as it appears in the
 sentence. Adjectives retain meaning groups without tone filters. Topics are
-ordered using CEFR and source frequency rank; Vocabulary opens a small topic
-rather than All words. Practice layouts adapt from stacked mobile lists to
-desktop columns.
+ordered using CEFR and source frequency rank. The page initially loads a small
+starter topic; wider topic selections load their records only when needed.
+Practice layouts adapt from stacked mobile lists to desktop columns.
 
 Mixed practice is a saved session builder: choose any combination of words,
 verbs, adjectives, phrases, and grammar; then narrow it by levels, topics,
@@ -64,8 +61,8 @@ shows only its three rounds; progress is tracked per round.
 - [`index.html`](index.html) — application shell and view markup.
 - [`styles/`](styles/) — formatted core and desk-specific visual design, loaded directly by the static page.
 - [`app.js`](app.js) — static loader for feature files and on-demand content.
-- [`app/`](app/) — state, practice logic, rendering, and
-  lesson integration.
+- [`app/`](app/) — state, shared practice primitives, feature logic, rendering,
+  and page integration.
 - [`data/`](data/) — German/English content and English explanations.
 - [`scripts/`](scripts/) — dictionary and project utility scripts.
 
@@ -75,6 +72,6 @@ See [`data/README.md`](data/README.md) for the content format.
 
 - Improve German vocabulary, noun plurals and examples using reviewed sources
   (see [`data/VOCABULARY-SOURCES.md`](data/VOCABULARY-SOURCES.md)).
-- Expand German grammar and lessons.
+- Expand German grammar, phrase-backed applications, and lessons.
 - Continue reviewing vocabulary, sentence targets, and translations with the
   existing data-quality tools.

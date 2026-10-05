@@ -4,8 +4,13 @@ The app is intentionally made from classic browser scripts so it can run from
 `file://` without a server or module bundler. [`../app.js`](../app.js) loads
 these files in order and they share the browser application state.
 
-- `state.js` — German-learning progress, preferences, persistence, and shared helpers.
-- `vocabulary.js` — vocabulary lists, cards, answer checking, and articles.
+- `state.js` — progress, preferences, persistence, and shared state helpers.
+- `practice.js` — canonical answer normalisation, alternatives, check-button
+  state, and the reusable study panel.
+- `settings.js` — local light/dark and accent-palette controls.
+- `vocabulary.js` — the single Nouns / Verbs / Adjectives desk: lists, cards,
+  answer checking, article practice, and study status.
+- `dictionary.js` — complete local German/English lookup and linked examples.
 - `phrases.js` — phrase practice and phrase progress.
 - `application.js` — reviewed, sentence-level grammar application practice.
 - `mixed.js` — mixed-practice question generation and checking.
@@ -34,12 +39,14 @@ its English translation, and read the pattern note. Every grammar check returns
 its record-level explanation and keeps an in-session correct/tried summary.
 
 `application.js` provides a separate Apply grammar desk. Its reviewed exercises
-link back to phrase IDs, so sentence text, English meaning, blanks, and grammar
-explanations are fixed data rather than inferred at runtime.
+link both to a grammar-tile ID and to a phrase ID, so sentence text, English
+meaning, blanks, and explanations are fixed data rather than inferred at
+runtime.
 
-Lessons are organised as 16 expandable units, each with three focused eight-question
-rounds: a word base, sentence practice, and a pattern workshop. Opening a unit hides
-the others and shows only its three rounds, with completion ticks tracked per round.
+Lessons are organised as 16 expandable units, each with three focused rounds of
+up to eight questions: a word base, sentence practice, and a pattern workshop.
+Opening a unit hides the others and shows only its three rounds, with completion
+ticks tracked per round.
 
 Lessons run inside the Lessons section, using their configured topics and levels.
 The same exercise panel is moved between Lessons and Mixed practice to reuse answer

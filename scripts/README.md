@@ -3,8 +3,8 @@
 These scripts are optional development utilities; the website does not need
 them to run.
 
-- `download-dictionaries.js` downloads compressed reference dictionaries into
-  the ignored `dictionaries/` directory.
+- `download-dictionaries.js` downloads compressed Kaikki/Wiktionary reference
+  dictionaries into the ignored `dictionaries/` directory.
 - `download-vocabulary-sources.cjs` downloads pinned German reference datasets
   and license notices into `dictionaries/sources/` (Node 18+).
 - `smoke-test.cjs` exercises the static app in an isolated Chromium profile
@@ -12,16 +12,24 @@ them to run.
 - `import-deck.cjs` rebuilds vocabulary, verbs, sentences and categories from
   the pinned deck and checked-in assignments; `--check` verifies reproducibility.
 - `deck-topics.cjs` contains the initial topic rules and editorial overrides.
+- `refine-everyday-topics.cjs` applies the reproducible headword refinements
+  for broad everyday vocabulary groups.
+- `adjective-groups.cjs` assigns adjective meaning groups; assignments can
+  override this heuristic.
 - `audit-deck.cjs` compares noun genders against the downloaded noun reference;
   it reports disagreements, which need sense-specific review.
 - `validate-data.cjs` checks IDs, translations, articles, sentence links,
   cloze targets, and every lesson activity against the complete loaded dataset.
 - `audit-phrases.cjs` verifies source-backed sentence pairs and that every
   explicit cloze target occurs in its displayed German and English sentence.
+- `audit-translations.cjs` compares queued A1/A2 deck glosses with the
+  downloaded German Wiktionary extract; it produces review candidates rather
+  than automatic corrections.
 - `refine-phrase-topics.cjs` assigns sentence topics reproducibly from sentence
   context, reviewed vocabulary context, and explicit overrides.
 - `sync-project.sh` creates a progress-reporting archive/sync copy of the
   project while excluding the large dictionaries.
 
-The dictionaries are reference material only and are not loaded by the
-browser application.
+The dictionaries and downloaded source snapshots are reference material only;
+they are ignored by Git and are never loaded by the browser application. The
+static app only needs the checked-in files under `data/`, `app/`, and `styles/`.

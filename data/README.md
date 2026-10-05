@@ -20,8 +20,10 @@ inside the German translation object. No other learning languages are included.
 
 Translation values are objects. German metadata includes article/gender or
 plural number, case sensitivity, and separable-verb details where supplied.
-The example illustrates the shape; record provenance uses `sourceIndex` for
-the pinned deck, or `source: 'editorial'` for supplements.
+The example illustrates the shape; record provenance uses `sourceIndex` for the
+pinned deck, or `source: 'editorial'` for supplements. `topic` is the source
+content group; the browser adds its runtime `category` when that group is
+loaded, so generated records do not repeat it.
 
 The learning content is intentionally kept separate from the interface logic.
 
@@ -39,18 +41,22 @@ The learning content is intentionally kept separate from the interface logic.
   record names its `grammarId`, links to an exact phrase source, and stores the
   blank, expected answer, and explanation explicitly; case records also store
   base gender and case metadata.
-- `lessons.js` contains 16 canonical lesson units, each expanded into three eight-question lesson rounds. Unit presentation text is under `localized`; each short round declares its vocabulary, verb, phrase, grammar, or mixed practice sources.
+- `lessons.js` contains 16 canonical lesson units, each expanded into three
+  rounds of up to eight questions. Unit presentation text is under `localized`;
+  each short round declares its vocabulary, verb, phrase, grammar, or mixed
+  practice sources.
 - `categories.js` contains one record per category with English labels under
   `localized.en`; category IDs remain stable keys used by content records.
 
-Vocabulary, verb, phrase and category files are generated. Edit the explicit
-`import/assignments.json` decisions and rerun `node scripts/import-deck.cjs`;
-do not patch generated records directly. The source revision and hash are
-checked before import. IDs are stored in the assignments and remain stable for
-that pinned snapshot. Sentence IDs are separate from word IDs, and `wordIds`
-links each example to the vocabulary entries it came from. The importer derives
-the `cloze.de` and `cloze.en` sentence forms from that linked source word; the
-app never chooses a random word when an explicit cloze target is present.
+Vocabulary, verb, phrase, category, and manifest files are generated. Edit the
+explicit `import/assignments.json` decisions and rerun
+`node scripts/import-deck.cjs`; do not patch generated records directly. The
+source revision and hash are checked before import. IDs are stored in the
+assignments and remain stable for that pinned snapshot. Sentence IDs are
+separate from word IDs, and `wordIds` links each example to the vocabulary
+entries it came from. The importer derives the `cloze.de` and `cloze.en`
+sentence forms from that linked source word; the app never chooses a random word
+when an explicit cloze target is present.
 
 `import/supplements.json` supplies five essential modal verbs missing from the
 deck. `import/report.json` records exclusions, duplicates and topic-review IDs.
@@ -62,11 +68,11 @@ origin, time, movement, certainty, society, sensory descriptions, evaluation and
 quantity, with an “Other descriptions” fallback. These are import-time heuristics,
 not a fully reviewed semantic classification.
 
-Grouping does not change IDs or reset existing progress.
-Topic study order combines mean CEFR difficulty with median source word_frequency
-rank (lower rank first). The All words/All verbs aggregates come last. Explicit
-German headword refinements are recorded in assignments.json; the reproducible
-editorial pass is scripts/refine-everyday-topics.cjs.
+Topic grouping does not change IDs or reset existing progress. Topic study order
+combines mean CEFR difficulty with median source `word_frequency` rank (lower
+rank first). The All words/All verbs aggregates come last. Explicit German
+headword refinements are recorded in `assignments.json`; the reproducible
+editorial pass is `scripts/refine-everyday-topics.cjs`.
 Topics are primarily rule-assigned from English meanings, with example context
 used to resolve ties and explicit editorial overrides for reviewed cases.
 General/ambiguous meanings use the general category; this is not a claim that
@@ -81,8 +87,12 @@ node scripts/import-deck.cjs
 node scripts/import-deck.cjs --check
 node scripts/validate-data.cjs
 node scripts/audit-phrases.cjs
+node scripts/audit-translations.cjs --check
 CHROMIUM=google-chrome node scripts/smoke-test.cjs
 ```
+
+The download step only populates ignored reference material under
+`dictionaries/`; it is not needed to open or use the static app.
 
 ## Translation review
 
