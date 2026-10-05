@@ -1,7 +1,8 @@
 var phraseStudyStatus = "pending";
 var phraseStudyStatusLabels = {
   pending: "pending",
-  correct: "correct",
+  "first-shot": "first-try",
+  corrected: "corrected after an error",
   wrong: "incorrect",
 };
 function phraseRecords() {
@@ -14,19 +15,11 @@ function phraseRecords() {
   );
 }
 function phraseStudyGroups(records) {
-  var correct = new Set(state.phrases),
-    wrong = new Set(state.issues),
-    groups = { pending: [], correct: [], wrong: [] };
-  records.forEach((record) =>
-    groups[
-      correct.has(record.id)
-        ? "correct"
-        : wrong.has(record.id)
-          ? "wrong"
-          : "pending"
-    ].push(record),
-  );
-  return groups;
+  return studyProgressGroups(records, {
+    completed: state.phrases,
+    wrong: state.issues,
+    mistakes: state.phraseMistakes,
+  });
 }
 function filteredPhrases() {
   return phraseStudyGroups(phraseRecords())[phraseStudyStatus];
@@ -187,11 +180,6 @@ function renderPhraseCategories() {
   );
 }
 function updatePhraseControls() {
-  $$("[data-phrase-direction-toggle]").forEach((button) => {
-    button.textContent =
-      phraseDirection === "reverse" ? "German → English" : "English → German";
-    button.classList.add("active");
-  });
   [
     ["phraseCloze", phraseCloze],
     ["phraseChoice", phraseMultipleChoice],
@@ -203,12 +191,6 @@ function updatePhraseControls() {
     button.classList.toggle("active", active);
     button.setAttribute("aria-pressed", String(active));
   });
-}
-function setPhraseDirection(direction) {
-  phraseDirection = direction === "reverse" ? "reverse" : "translate";
-  updatePhraseControls();
-  showPhrase();
-  savePreferences();
 }
 function setPhraseCloze(enabled = !phraseCloze) {
   phraseCloze = Boolean(enabled);
@@ -252,6 +234,7 @@ function showPhrase() {
     $("#phrase-question").textContent = "Nothing here.";
     $("#phrase-hint").textContent =
       `No ${phraseStudyStatusLabels[phraseStudyStatus]} phrases match these levels and categories.`;
+    $("#phrase-hint").hidden = false;
     $("#cloze-sentence").innerHTML = "";
     $(".phrase-card").classList.toggle("cloze-active", phraseCloze);
     $("#phrase-answer").value = "";
@@ -280,9 +263,8 @@ function showPhrase() {
     phraseDirection === "reverse" ? targetText(p) : sourceText(p);
   $("#phrase-hint").textContent = phraseCloze
     ? `Complete the missing ${answerLanguage === "de" ? "German" : "English"} word.`
-    : phraseDirection === "reverse"
-      ? "Translate this into English."
-      : translatePrompt();
+    : "";
+  $("#phrase-hint").hidden = !phraseCloze;
   $("#cloze-sentence").innerHTML = cloze?.sentence || "";
   $(".phrase-card").classList.toggle("cloze-active", phraseCloze);
   $("#phrase-answer").placeholder = phraseCloze
@@ -334,7 +316,12 @@ function renderPhraseLists() {
     container,
     groups: phraseStudyGroups(records),
     status: phraseStudyStatus,
-    labels: { pending: "Pending", correct: "Correct", wrong: "Incorrect" },
+    labels: {
+      pending: "Pending",
+      "first-shot": "First try",
+      corrected: "After error",
+      wrong: "Incorrect",
+    },
     active: activePhrase,
     className: "word-list vocabulary-study-panel phrase-study-panel",
     rowHTML: (p) => {
@@ -408,6 +395,7 @@ function checkPhrase(reveal = false) {
   } else {
     state.phrases = state.phrases.filter((id) => id !== p.id);
     if (!state.issues.includes(p.id)) state.issues.push(p.id);
+    recordPhraseMistake(p.id);
     $("#phrase-feedback").textContent = phraseCloze
       ? "The missing word is wrong. Use Hint if needed."
       : "The translation is wrong. Use Hint if needed.";
@@ -446,20 +434,10 @@ $("#show-answer").onclick = () => checkPhrase(true);
 $("#next-phrase").onclick = nextPhrase;
 var phraseControls = $(".phrase-controls");
 phraseControls.innerHTML = `
-  <div class="mode-switch phrase-directions" role="group" aria-label="Translation direction">
-    <button class="practice-mode" type="button" data-phrase-direction-toggle></button>
-  </div>
   <div class="mode-switch phrase-options" role="group" aria-label="Phrase practice options">
     <button class="practice-mode" type="button" data-phrase-cloze aria-pressed="false">Fill the blank</button>
     <button class="practice-mode" type="button" data-phrase-choice aria-pressed="false">Multiple choice</button>
   </div>`;
-$$("[data-phrase-direction-toggle]").forEach(
-  (button) =>
-    (button.onclick = () =>
-      setPhraseDirection(
-        phraseDirection === "translate" ? "reverse" : "translate",
-      )),
-);
 document.querySelector("[data-phrase-cloze]").onclick = () => setPhraseCloze();
 document.querySelector("[data-phrase-choice]").onclick = () =>
   setPhraseMultipleChoice();

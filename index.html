@@ -59,26 +59,33 @@
 
       <main class="main-content">
         <header class="topbar">
-          <div class="global-levels" role="group" aria-label="Study levels">
+          <div class="study-controls">
+            <div class="global-levels" role="group" aria-label="Study levels">
+              <button
+                class="global-vocab-level"
+                data-global-vocab-level="A1"
+                aria-pressed="false"
+              >
+                A1</button
+              ><button
+                class="global-vocab-level"
+                data-global-vocab-level="A2"
+                aria-pressed="false"
+              >
+                A2</button
+              ><button
+                class="global-vocab-level"
+                data-global-vocab-level="B1"
+                aria-pressed="false"
+              >
+                B1
+              </button>
+            </div>
             <button
-              class="global-vocab-level"
-              data-global-vocab-level="A1"
-              aria-pressed="false"
-            >
-              A1</button
-            ><button
-              class="global-vocab-level"
-              data-global-vocab-level="A2"
-              aria-pressed="false"
-            >
-              A2</button
-            ><button
-              class="global-vocab-level"
-              data-global-vocab-level="B1"
-              aria-pressed="false"
-            >
-              B1
-            </button>
+              class="global-study-direction"
+              type="button"
+              data-study-direction
+            ></button>
           </div>
         </header>
 
@@ -143,9 +150,8 @@
                 <span class="round-icon">A1</span>
               </div>
               <p>
-                Pick one or more levels, choose a topic, hide answers when you
-                want a real recall test, and use the review tabs to revisit
-                mistakes.
+                Pick one or more levels, choose a topic, test your recall, and
+                use the review tabs to revisit mistakes.
               </p>
               <div class="lesson-row">
                 <span class="lesson-number">01</span>
@@ -241,9 +247,7 @@
               </div>
               <div class="practice-kicker">QUICK PRACTICE</div>
               <div class="practice-word" id="practice-word">Haus</div>
-              <div class="practice-prompt" id="practice-prompt">
-                What does this mean?
-              </div>
+              <div class="practice-prompt" id="practice-prompt" hidden></div>
               <div class="article-choices" id="article-choices">
                 <span>Choose the article</span
                 ><button data-article="der">der</button
@@ -284,9 +288,7 @@
                 ><span id="phrase-number">01 / 175</span>
               </div>
               <h2 id="phrase-question">How are you?</h2>
-              <p class="phrase-hint" id="phrase-hint">
-                Translate this into German.
-              </p>
+              <p class="phrase-hint" id="phrase-hint" hidden></p>
               <div id="cloze-sentence" class="cloze-sentence"></div>
               <div id="phrase-choice-options" class="choice-options"></div>
               <input

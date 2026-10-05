@@ -4,9 +4,8 @@ var defaultPreferences = () => ({
   selectedCategories: ["all"],
   phraseCategory: "all",
   phraseCategories: ["all"],
-  vocabMode: "translate",
+  studyDirection: "toGerman",
   vocabMultipleChoice: false,
-  phraseDirection: "translate",
   phraseCloze: false,
   phraseMultipleChoice: false,
   mixedParts: {
@@ -16,7 +15,6 @@ var defaultPreferences = () => ({
     phrases: true,
     grammar: true,
   },
-  mixedDirections: ["toGerman"],
   mixedStyles: ["write", "choice", "cloze"],
   mixedVocabularyCategories: ["all"],
   mixedVerbCategories: ["verbs"],
@@ -26,7 +24,6 @@ var defaultPreferences = () => ({
   applicationQueue: "new",
   applicationAskGender: true,
   randomMode: true,
-  hideVocabularyAnswers: true,
   grammarGrid: false,
   colorAccent: "green",
   colorBackground: "light",
@@ -37,6 +34,7 @@ var emptyProgress = () => ({
   mistakes: [],
   articleOnlyMistakes: [],
   phrases: [],
+  phraseMistakes: [],
   grammarApplied: [],
   grammarApplicationMistakes: [],
   correct: 0,
@@ -70,6 +68,7 @@ function normalizeProgress(progress) {
     "mistakes",
     "articleOnlyMistakes",
     "phrases",
+    "phraseMistakes",
     "lessons",
     "grammarApplied",
     "grammarApplicationMistakes",
@@ -105,12 +104,14 @@ function normalizeProgress(progress) {
     lessons.some((lesson) => lesson.id === value.lessonSession.lessonId)
       ? value.lessonSession
       : null;
-  var preferences = {
-    ...defaultPreferences(),
-    ...(value.preferences && typeof value.preferences === "object"
-      ? value.preferences
-      : {}),
-  };
+  var savedPreferences =
+      value.preferences && typeof value.preferences === "object"
+        ? value.preferences
+        : {},
+    preferences = {
+      ...defaultPreferences(),
+      ...savedPreferences,
+    };
   delete preferences.phraseRandom;
   preferences.vocabLevels = Array.isArray(preferences.vocabLevels)
     ? preferences.vocabLevels.filter((level) =>
@@ -120,15 +121,21 @@ function normalizeProgress(progress) {
   preferences.vocabLevels = [...new Set(preferences.vocabLevels)];
   if (!preferences.vocabLevels.length)
     preferences.vocabLevels = ["A1", "A2", "B1"];
-  if (preferences.vocabMode === "choice") {
-    preferences.vocabMode = "meaning";
+  if (!Object.hasOwn(savedPreferences, "studyDirection"))
+    preferences.studyDirection =
+      savedPreferences.vocabMode === "meaning" ||
+      savedPreferences.phraseDirection === "reverse" ||
+      savedPreferences.mixedDirections?.includes("toEnglish")
+        ? "toEnglish"
+        : "toGerman";
+  if (!["toGerman", "toEnglish"].includes(preferences.studyDirection))
+    preferences.studyDirection = "toGerman";
+  if (savedPreferences.vocabMode === "choice")
     preferences.vocabMultipleChoice = true;
-  }
-  if (!["meaning", "translate"].includes(preferences.vocabMode))
-    preferences.vocabMode = "translate";
+  delete preferences.vocabMode;
+  delete preferences.phraseDirection;
+  delete preferences.mixedDirections;
   preferences.vocabMultipleChoice = Boolean(preferences.vocabMultipleChoice);
-  if (!["translate", "reverse"].includes(preferences.phraseDirection))
-    preferences.phraseDirection = "translate";
   preferences.phraseCloze = Boolean(preferences.phraseCloze);
   preferences.phraseMultipleChoice = Boolean(preferences.phraseMultipleChoice);
   if (
@@ -147,7 +154,6 @@ function normalizeProgress(progress) {
     ]),
   );
   var mixedKeys = {
-    mixedDirections: ["toGerman", "toEnglish"],
     mixedStyles: ["write", "choice", "cloze"],
     mixedVocabularyCategories: categoryRecords
       .filter(
@@ -182,10 +188,8 @@ function normalizeProgress(progress) {
     if (!preferences[key].length)
       preferences[key] = [...defaultPreferences()[key]];
   });
-  preferences.mixedDirections = preferences.mixedDirections.includes("toGerman")
-    ? ["toGerman"]
-    : ["toEnglish"];
-  ["randomMode", "hideVocabularyAnswers", "grammarGrid"].forEach(
+  delete preferences.hideVocabularyAnswers;
+  ["randomMode", "grammarGrid"].forEach(
     (key) => (preferences[key] = Boolean(preferences[key])),
   );
   if (
@@ -273,6 +277,9 @@ function recordMistake(id, articleOnly = false) {
     (item) => item !== id,
   );
 }
+function recordPhraseMistake(id) {
+  if (!state.phraseMistakes.includes(id)) state.phraseMistakes.push(id);
+}
 function toggleCategorySelection(selection, allKey, keys, key) {
   if (key === allKey) return [allKey];
   if (selection.includes(allKey))
@@ -285,9 +292,12 @@ function toggleDeskCategorySelection(selection, allKey, keys, key) {
   if (key === allKey) return selection.includes(allKey) ? [] : [allKey];
   if (selection.includes(allKey))
     return keys.filter((id) => id !== allKey && id !== key);
-  return selection.includes(key)
+  var next = selection.includes(key)
     ? selection.filter((id) => id !== key)
     : [...selection, key];
+  return keys.filter((id) => id !== allKey).every((id) => next.includes(id))
+    ? [allKey]
+    : next;
 }
 var state = loadProgress();
 function savePreferences() {
@@ -298,13 +308,11 @@ function savePreferences() {
       selectedCategories,
       phraseCategory,
       phraseCategories,
-      vocabMode,
+      studyDirection,
       vocabMultipleChoice,
-      phraseDirection,
       phraseCloze,
       phraseMultipleChoice,
       mixedParts,
-      mixedDirections,
       mixedStyles,
       mixedVocabularyCategories,
       mixedVerbCategories,
@@ -314,7 +322,6 @@ function savePreferences() {
       applicationQueue,
       applicationAskGender,
       randomMode,
-      hideVocabularyAnswers,
       grammarGrid,
       colorAccent,
       colorBackground,
@@ -329,10 +336,10 @@ var sourceText = (item) => translationText(item, "en");
 var targetMeta = (item) => item?.translations?.["de"] || {};
 var targetArticle = (item) => targetMeta(item).article || "";
 function updateDirectionLabels() {
-  $$("[data-vocab-direction]").forEach((button) => {
+  $$("[data-study-direction]").forEach((button) => {
     button.textContent =
-      vocabMode === "translate" ? "English → German" : "German → English";
-    button.classList.add("active");
+      studyDirection === "toGerman" ? "English → German" : "German → English";
+    button.setAttribute("aria-pressed", String(studyDirection === "toGerman"));
   });
 }
 document.querySelector(".crumb")?.remove();
@@ -345,17 +352,18 @@ var selectedCategory = state.preferences.selectedCategory,
   activePhrase = null,
   phraseCategory = state.preferences.phraseCategory,
   phraseCategories = state.preferences.phraseCategories,
-  phraseDirection = state.preferences.phraseDirection,
+  studyDirection = state.preferences.studyDirection,
+  phraseDirection = studyDirection === "toEnglish" ? "reverse" : "translate",
   phraseCloze = state.preferences.phraseCloze,
   phraseMultipleChoice = state.preferences.phraseMultipleChoice,
-  vocabMode = state.preferences.vocabMode,
+  vocabMode = studyDirection === "toEnglish" ? "meaning" : "translate",
   vocabMultipleChoice = state.preferences.vocabMultipleChoice,
   selectedArticle = "",
   selectedVocabChoice = "",
   selectedPhraseChoice = "",
   mixedLevel = state.preferences.vocabLevels,
   mixedParts = state.preferences.mixedParts,
-  mixedDirections = state.preferences.mixedDirections,
+  mixedDirections = [studyDirection],
   mixedStyles = state.preferences.mixedStyles,
   mixedVocabularyCategories = state.preferences.mixedVocabularyCategories,
   mixedVerbCategories = state.preferences.mixedVerbCategories,
@@ -401,6 +409,18 @@ function toggleStudyLevel(level) {
 setSelectedLevels(selectedLevels);
 var $ = (s) => document.querySelector(s),
   $$ = (s) => [...document.querySelectorAll(s)];
+function setStudyDirection(direction) {
+  studyDirection = direction === "toEnglish" ? "toEnglish" : "toGerman";
+  vocabMode = studyDirection === "toEnglish" ? "meaning" : "translate";
+  phraseDirection = studyDirection === "toEnglish" ? "reverse" : "translate";
+  mixedDirections = [studyDirection];
+  updateDirectionLabels();
+  if (document.querySelector("#vocabulary-view.active-view")) showVocabCard();
+  else if (document.querySelector("#phrases-view.active-view")) showPhrase();
+  else if (document.querySelector("#mixed-view.active-view"))
+    refreshMixedSession();
+  savePreferences();
+}
 function updateVocabCheckButton() {
   updateCheckButton(
     $("#check-vocab"),
@@ -413,8 +433,7 @@ function updateVocabCheckButton() {
 }
 var mainVocabularyView = document.querySelector("#vocabulary-view");
 mainVocabularyView.querySelector(".page-heading p:last-child")?.remove();
-var hideVocabularyAnswers = state.preferences.hideVocabularyAnswers,
-  grammarGrid = state.preferences.grammarGrid,
+var grammarGrid = state.preferences.grammarGrid,
   colorAccent = state.preferences.colorAccent,
   colorBackground = state.preferences.colorBackground;
 function applyAppearance() {
@@ -437,22 +456,11 @@ applyAppearance();
     button.onclick = () => setView(button.dataset.vocabularyKind);
   });
   panel
-    .querySelector(".heading-actions")
-    .insertAdjacentHTML(
-      "beforeend",
-      '<label class="toggle-label hide-answer-toggle"><input type="checkbox" data-hide-vocabulary-answer><span class="toggle-switch"></span> Hide answer</label>',
-    );
-  panel
     .querySelector(".article-choices")
     .insertAdjacentHTML(
       "beforeend",
       '<button type="button" class="subtle-btn article-hint-btn" data-vocab-article-hint>Article hint</button>',
     );
-  panel.querySelector("[data-hide-vocabulary-answer]").onchange = (event) => {
-    hideVocabularyAnswers = event.target.checked;
-    renderVocabularyList();
-    savePreferences();
-  };
 });
 $$(".practice-panel").forEach((panel) => {
   var input = panel.querySelector("#vocab-answer");

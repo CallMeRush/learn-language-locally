@@ -278,30 +278,13 @@ function vocabularyRecords() {
   });
 }
 function vocabularyStudyGroups(records) {
-  var correct = new Set(state.learned),
-    wrong = new Set(state.issues),
-    mistakes = new Set(state.mistakes),
-    articleOnly = new Set(state.articleOnlyMistakes),
-    groups = {
-      pending: [],
-      "first-shot": [],
-      corrected: [],
-      article: [],
-      wrong: [],
-    };
-  records.forEach((record) => {
-    var group = wrong.has(record.id)
-      ? "wrong"
-      : !correct.has(record.id)
-        ? "pending"
-        : mistakes.has(record.id)
-          ? "corrected"
-          : articleOnly.has(record.id)
-            ? "article"
-            : "first-shot";
-    groups[group].push(record);
+  return studyProgressGroups(records, {
+    completed: state.learned,
+    wrong: state.issues,
+    mistakes: state.mistakes,
+    articleOnly: state.articleOnlyMistakes,
+    includeArticle: true,
   });
-  return groups;
 }
 function currentWords() {
   return vocabularyStudyGroups(vocabularyRecords())[vocabStudyStatus];
@@ -315,9 +298,6 @@ function renderVocabulary() {
 }
 function renderVocabularyList() {
   var words = vocabularyRecords();
-  $$("[data-hide-vocabulary-answer]").forEach(
-    (input) => (input.checked = hideVocabularyAnswers),
-  );
   renderStudyPanel({
     container: $("#word-list"),
     groups: vocabularyStudyGroups(words),
@@ -342,8 +322,7 @@ function renderVocabularyList() {
             ? "✕"
             : "○";
       var prompt = vocabMode === "translate" ? sourceText(w) : word;
-      var answer = vocabMode === "translate" ? targetText(w) : sourceText(w);
-      return `<button type="button" class="word-row ${w === activeVocabWord ? "current" : ""}" data-word="${w.id}" aria-pressed="${w === activeVocabWord}"><div><strong>${prompt}</strong><small>${hideVocabularyAnswers ? "Answer hidden" : answer}</small></div><span class="word-check ${mark === "✓" ? "correct" : mark === "✕" ? "wrong" : ""}" aria-label="${mark === "✓" ? "Correct" : mark === "✕" ? "Incorrect" : "Not tested"}">${mark}</span></button>`;
+      return `<button type="button" class="word-row ${w === activeVocabWord ? "current" : ""}" data-word="${w.id}" aria-pressed="${w === activeVocabWord}"><div><strong>${prompt}</strong></div><span class="word-check ${mark === "✓" ? "correct" : mark === "✕" ? "wrong" : ""}" aria-label="${mark === "✓" ? "Correct" : mark === "✕" ? "Incorrect" : "Not tested"}">${mark}</span></button>`;
     },
     select: (w) => {
       vocabIndex = currentWords().indexOf(w);
@@ -372,6 +351,7 @@ function showVocabCard() {
     $("#practice-word").textContent = "Nothing here";
     $("#practice-prompt").textContent =
       `No ${vocabStudyStatusLabels[vocabStudyStatus]} words match these levels and categories.`;
+    $("#practice-prompt").hidden = false;
     $("#article-choices").style.display = "none";
     $("#vocab-answer").value = "";
     $("#vocab-answer").disabled = true;
@@ -400,14 +380,8 @@ function showVocabCard() {
   selectedVocabChoice = "";
   $("#practice-word").textContent =
     vocabMode === "translate" ? sourceText(w) : word;
-  $("#practice-prompt").textContent =
-    vocabMode === "translate"
-      ? translatePrompt()
-      : vocabMultipleChoice
-        ? meaningPrompt()
-        : article
-          ? "Choose the article, then type the meaning."
-          : "What does this mean?";
+  $("#practice-prompt").textContent = "";
+  $("#practice-prompt").hidden = true;
   $("#article-choices").style.display = article ? "flex" : "none";
   $("#article-choices span").textContent = "Article";
   selectedArticle = "";

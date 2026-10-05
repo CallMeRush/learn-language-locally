@@ -190,16 +190,8 @@ function bindVocabularyDeskControls() {
   $$(".heading-actions").forEach((element) =>
     element.insertAdjacentHTML(
       "afterbegin",
-      '<div class="mode-switch vocab-direction" role="group" aria-label="Vocabulary practice controls"><button class="vocab-mode" type="button" data-vocab-direction></button><button class="vocab-mode" type="button" data-vocab-choice aria-pressed="false">Multiple choice</button></div>',
+      '<div class="mode-switch vocab-direction" role="group" aria-label="Vocabulary practice controls"><button class="vocab-mode" type="button" data-vocab-choice aria-pressed="false">Multiple choice</button></div>',
     ),
-  );
-  $$("[data-vocab-direction]").forEach(
-    (button) =>
-      (button.onclick = () => {
-        vocabMode = vocabMode === "translate" ? "meaning" : "translate";
-        showVocabCard();
-        savePreferences();
-      }),
   );
   $$("[data-vocab-choice]").forEach(
     (button) =>
@@ -246,6 +238,8 @@ bindGlobalVocabularyControls();
 bindArticleKeys();
 bindNavigation();
 bindVocabularyDeskControls();
+$("[data-study-direction]").onclick = () =>
+  setStudyDirection(studyDirection === "toGerman" ? "toEnglish" : "toGerman");
 updateDirectionLabels();
 updateVocabCheckButton();
 updateStats();

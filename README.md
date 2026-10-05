@@ -25,8 +25,8 @@ adjectives, 1,585 verbs and 9,124 example sentences. German grammar remains sepa
 [`data/ATTRIBUTION.md`](data/ATTRIBUTION.md) for source credits and data terms.
 
 Vocabulary has Nouns (the general word collection), Verbs, and Adjectives tabs.
-Click a list entry to practise it. A default-on Hide answer toggle conceals the
-answer-side translation in the list; ✓ and ✕ mark correct and incorrect answers.
+Click a list entry to practise it. List rows show only the prompt, while ✓ and ✕
+mark correct and incorrect answers.
 Typed German answers accept `ss` for `ß` and `ae`/`oe`/`ue` for umlauts.
 The Dictionary searches the complete local word collection in either English or
 German, accepts those same German spelling variants, and offers quick close
@@ -35,10 +35,9 @@ examples when the phrase corpus provides one.
 The study-status buttons filter both the list and the practice card: an empty
 selection clearly says so instead of repeating a completed item. Vocabulary also
 distinguishes first-try answers, answers corrected after an error, and article-only
-errors. Phrase practice remains a separate desk with the same multi-topic
-selection behavior. Its direction, cloze, and multiple-choice settings are
-independent; cloze targets are the linked vocabulary word as it appears in the
-sentence. Adjectives retain meaning groups without tone filters. Topics are
+errors. Phrase practice remains a separate desk with the same multi-topic and
+error-review behavior. Cloze targets are the linked vocabulary word as it appears
+in the sentence. Adjectives retain meaning groups without tone filters. Topics are
 ordered using CEFR and source frequency rank. The page initially loads a small
 starter topic; wider topic selections load their records only when needed.
 Practice layouts adapt from stacked mobile lists to desktop columns.

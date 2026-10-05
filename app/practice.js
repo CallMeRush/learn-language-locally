@@ -60,6 +60,41 @@ function updateCheckButton(
     : `${checkLabel} <span>↵</span>`;
   button.onclick = complete ? next : check;
 }
+function studyProgressGroups(
+  records,
+  {
+    completed = [],
+    wrong = [],
+    mistakes = [],
+    articleOnly = [],
+    includeArticle = false,
+  },
+) {
+  var completedIds = new Set(completed),
+    wrongIds = new Set(wrong),
+    mistakeIds = new Set(mistakes),
+    articleOnlyIds = new Set(articleOnly),
+    groups = {
+      pending: [],
+      "first-shot": [],
+      corrected: [],
+      ...(includeArticle ? { article: [] } : {}),
+      wrong: [],
+    };
+  records.forEach((record) => {
+    var group = wrongIds.has(record.id)
+      ? "wrong"
+      : !completedIds.has(record.id)
+        ? "pending"
+        : mistakeIds.has(record.id)
+          ? "corrected"
+          : includeArticle && articleOnlyIds.has(record.id)
+            ? "article"
+            : "first-shot";
+    groups[group].push(record);
+  });
+  return groups;
+}
 function renderStudyPanel({
   container,
   groups,

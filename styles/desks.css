@@ -202,9 +202,6 @@ html[data-background="dark"] .lesson-unit-detail > header {
   background: #20242a;
   border-color: #414752;
 }
-.hide-answer-toggle {
-  white-space: nowrap;
-}
 button.word-row {
   width: 100%;
   background: transparent;
@@ -773,18 +770,11 @@ button.word-row .word-check {
   color: #9da7a0;
   opacity: 0.58;
 }
-.global-vocab-level:before {
-  content: "✓ ";
-  display: inline-block;
-  width: 1.35em;
-  color: transparent;
-  font-weight: 800;
-}
-.global-vocab-level.active:before {
-  color: currentColor;
-}
 .vocabulary-study-panel:not(.phrase-study-panel) .study-switch {
   grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+.phrase-study-panel .study-switch {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 .vocabulary-study-panel:not(.phrase-study-panel) .study-switch button {
   font-size: 9px;
@@ -1676,6 +1666,26 @@ html[data-background="dark"] .application-choice.selected {
   background: var(--green);
   border-color: var(--green);
   color: #fff;
+}
+/* Vocabulary has its own direction controls and a grouped type switcher.
+   Keep both the buttons and the switcher's surround on neutral dark surfaces. */
+html[data-background="dark"] .vocab-mode {
+  background: #1f2228;
+  border-color: #454c56;
+  color: #d0d5dc;
+}
+html[data-background="dark"] .vocab-mode.active {
+  background: var(--green);
+  border-color: var(--green);
+  color: #fff;
+}
+html[data-background="dark"] .vocabulary-kinds {
+  background: #2b3038;
+}
+html[data-background="dark"] .vocabulary-kinds button:not(.active) {
+  background: #1f2228;
+  border-color: #454c56;
+  color: #d0d5dc;
 }
 html[data-background="dark"] .choice-option:hover,
 html[data-background="dark"] .application-choice:hover,
