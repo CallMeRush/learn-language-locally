@@ -8,6 +8,10 @@
   --peach: #f5dfd0;
   --lilac: #e7e1ef;
   --yellow: #f3d267;
+  --accent-hover: #244d3b;
+  --accent-border: #b7cdbb;
+  --accent-wash: #f4f8f4;
+  --focus-ring: #dcebe188;
 }
 * {
   box-sizing: border-box;
@@ -272,7 +276,7 @@ button {
   align-items: center;
 }
 .primary-btn:hover {
-  background: #244d3b;
+  background: var(--accent-hover);
 }
 .primary-btn span {
   font-size: 16px;

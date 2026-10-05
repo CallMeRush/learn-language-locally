@@ -142,6 +142,71 @@
     flex-basis: auto;
   }
 }
+
+/* Palette normalization: accents colour intent; surfaces stay neutral. */
+.choice-option:hover,
+.application-choice:hover {
+  border-color: var(--accent-border);
+  background: var(--accent-wash);
+}
+.dictionary-input-wrap {
+  border-color: var(--accent-border);
+}
+.dictionary-input-wrap:focus-within {
+  box-shadow: 0 0 0 3px var(--focus-ring);
+}
+.dictionary-result:hover,
+.dictionary-result-toggle:focus-visible {
+  border-color: var(--accent-border);
+}
+.dictionary-result-toggle:hover strong,
+.dictionary-result-toggle:focus-visible strong,
+.dictionary-example span {
+  color: var(--green);
+}
+.dictionary-example {
+  background: var(--accent-wash);
+  border-left-color: var(--accent-border);
+}
+.lesson-unit-detail > header,
+.application-prompt,
+.mixed-builder-note,
+.settings-note {
+  background: var(--accent-wash);
+}
+.lesson-unit-detail > header {
+  border-color: var(--accent-border);
+}
+.application-tabs button.active,
+.mixed-builder-chip.selected {
+  border-color: var(--accent-border);
+  background: var(--accent-wash);
+}
+
+html[data-background="dark"] .grammar-examples {
+  background: #272a30;
+  border-color: #49433e;
+}
+html[data-background="dark"] .grammar-example-study,
+html[data-background="dark"] .ladder-note {
+  background: #2b3038;
+  border-color: #414752;
+}
+html[data-background="dark"] .grammar-example-translation,
+html[data-background="dark"] .grammar-example-note,
+html[data-background="dark"] .dictionary-result span,
+html[data-background="dark"] .dictionary-search > p,
+html[data-background="dark"] .dictionary-empty,
+html[data-background="dark"] .settings-note {
+  color: var(--muted) !important;
+}
+html[data-background="dark"] .dictionary-example,
+html[data-background="dark"] .application-prompt,
+html[data-background="dark"] .mixed-builder-note,
+html[data-background="dark"] .lesson-unit-detail > header {
+  background: #20242a;
+  border-color: #414752;
+}
 .hide-answer-toggle {
   white-space: nowrap;
 }
@@ -1379,17 +1444,29 @@ button.word-row .word-check {
 [data-accent-choice="blue"] {
   --choice-color: #315f7d;
 }
+[data-accent-choice="teal"] {
+  --choice-color: #16766f;
+}
+[data-accent-choice="indigo"] {
+  --choice-color: #4e61aa;
+}
 [data-accent-choice="plum"] {
   --choice-color: #684e7e;
 }
+[data-accent-choice="rose"] {
+  --choice-color: #b65370;
+}
 [data-accent-choice="terracotta"] {
-  --choice-color: #a45b42;
+  --choice-color: #c66a2e;
+}
+[data-accent-choice="gold"] {
+  --choice-color: #9a6a13;
 }
 .background-options [data-background-choice="light"] i {
   background: linear-gradient(135deg, #fff 50%, #dcebe1 50%);
 }
 .background-options [data-background-choice="dark"] i {
-  background: linear-gradient(135deg, #23332b 50%, #506c5b 50%);
+  background: linear-gradient(135deg, #1c1f24 50%, #4b535d 50%);
 }
 .settings-divider {
   height: 1px;
@@ -1410,6 +1487,32 @@ html[data-accent="blue"] {
   --peach: #f1e1d6;
   --lilac: #e1e8f0;
   --yellow: #e6cb72;
+  --accent-hover: #254f69;
+  --accent-border: #aec8d7;
+  --accent-wash: #f3f9fc;
+  --focus-ring: #dcebf388;
+}
+html[data-accent="teal"] {
+  --green: #16766f;
+  --mint: #d8f0ed;
+  --peach: #dbeeea;
+  --lilac: #dcebea;
+  --yellow: #dfc96e;
+  --accent-hover: #0d5d57;
+  --accent-border: #a8d6d0;
+  --accent-wash: #f2fbf9;
+  --focus-ring: #d8f0ed88;
+}
+html[data-accent="indigo"] {
+  --green: #4e61aa;
+  --mint: #e3e8fa;
+  --peach: #e8e5f5;
+  --lilac: #e6e8f7;
+  --yellow: #ddc96e;
+  --accent-hover: #3b4d91;
+  --accent-border: #bec7e9;
+  --accent-wash: #f6f7fd;
+  --focus-ring: #e3e8fa88;
 }
 html[data-accent="plum"] {
   --green: #684e7e;
@@ -1417,30 +1520,60 @@ html[data-accent="plum"] {
   --peach: #f2dfd2;
   --lilac: #e9e2f0;
   --yellow: #e9cf7a;
+  --accent-hover: #513a67;
+  --accent-border: #cbbcdc;
+  --accent-wash: #faf7fc;
+  --focus-ring: #ebe2f188;
+}
+html[data-accent="rose"] {
+  --green: #b65370;
+  --mint: #f8e0e7;
+  --peach: #f7e0dc;
+  --lilac: #f1e3ee;
+  --yellow: #e7c56d;
+  --accent-hover: #91405a;
+  --accent-border: #e1b2c0;
+  --accent-wash: #fff6f8;
+  --focus-ring: #f8e0e788;
 }
 html[data-accent="terracotta"] {
-  --green: #a45b42;
-  --mint: #f3e1d7;
-  --peach: #f5dfd0;
-  --lilac: #eee2dd;
-  --yellow: #efcb73;
+  --green: #c66a2e;
+  --mint: #f9e2d2;
+  --peach: #f8dcc8;
+  --lilac: #f0e2d9;
+  --yellow: #efc66d;
+  --accent-hover: #a95220;
+  --accent-border: #e1b895;
+  --accent-wash: #fff8f3;
+  --focus-ring: #f9e2d288;
+}
+html[data-accent="gold"] {
+  --green: #9a6a13;
+  --mint: #f6ebc7;
+  --peach: #f7e6c9;
+  --lilac: #f1ead8;
+  --yellow: #e9c95e;
+  --accent-hover: #79520b;
+  --accent-border: #dbc58b;
+  --accent-wash: #fffaf0;
+  --focus-ring: #f6ebc788;
 }
 html[data-background="dark"] {
   color-scheme: dark;
-  --ink: #eef5ef;
-  --muted: #aebcb1;
-  --paper: #17221d;
-  --line: #35483c;
+  --ink: #edf0f3;
+  --muted: #abb3bc;
+  --paper: #181a1e;
+  --line: #393e46;
 }
 html[data-background="dark"] .sidebar {
-  background: #1d2b24;
+  background: #202329;
 }
 html[data-background="dark"] .nav-item {
-  color: #b6c2b8;
+  color: #c3c9d0;
 }
 html[data-background="dark"] .nav-item.active,
 html[data-background="dark"] .nav-item:hover {
-  background: #2a3a31;
+  background: #2b3038;
   color: var(--ink);
   box-shadow: none;
 }
@@ -1466,8 +1599,8 @@ html[data-background="dark"] .progress-modal-card,
 html[data-background="dark"] .issue-item,
 html[data-background="dark"] .vocabulary-study-panel,
 html[data-background="dark"] .phrase-study-panel {
-  background: #213027;
-  border-color: #3b5144;
+  background: #252931;
+  border-color: #3c424c;
 }
 html[data-background="dark"] .category-tabs button,
 html[data-background="dark"] .phrase-category-tabs button,
@@ -1475,22 +1608,22 @@ html[data-background="dark"] .appearance-options button,
 html[data-background="dark"] .secondary-btn,
 html[data-background="dark"] .reset-btn,
 html[data-background="dark"] .dictionary-input-wrap {
-  background: #1b2921 !important;
-  border-color: #42584a;
-  color: #c5d1c7;
+  background: #1f2228 !important;
+  border-color: #454c56;
+  color: #d0d5dc;
 }
 html[data-background="dark"] .dictionary-example,
 html[data-background="dark"] .settings-note,
 html[data-background="dark"] .application-prompt {
-  background: #1a2820;
+  background: #1f2228;
 }
 html[data-background="dark"] .dictionary-close-match {
-  background: #2c2a23;
-  border-color: #5d5540;
+  background: #2d2b28;
+  border-color: #5a5246;
 }
 html[data-background="dark"] .ladder-note,
 html[data-background="dark"] .grammar-example-study {
-  background: #26352c;
+  background: #2b3038;
 }
 html[data-background="dark"] .progress-modal {
   background: #0009;

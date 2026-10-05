@@ -183,7 +183,16 @@ function normalizeProgress(progress) {
     "grammarGrid",
   ].forEach((key) => (preferences[key] = Boolean(preferences[key])));
   if (
-    !["green", "blue", "plum", "terracotta"].includes(preferences.colorAccent)
+    ![
+      "green",
+      "blue",
+      "plum",
+      "terracotta",
+      "teal",
+      "indigo",
+      "rose",
+      "gold",
+    ].includes(preferences.colorAccent)
   )
     preferences.colorAccent = "green";
   if (!["light", "dark"].includes(preferences.colorBackground))

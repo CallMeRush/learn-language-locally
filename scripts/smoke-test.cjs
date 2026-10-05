@@ -361,6 +361,14 @@ let socket;
     setView('settings');
     $('[data-accent-choice="blue"]').click(); $('[data-background-choice="dark"]').click();
     assert(document.documentElement.dataset.accent==='blue' && document.documentElement.dataset.background==='dark','settings apply accent and dark background');
+    assert(getComputedStyle(document.documentElement).getPropertyValue('--paper').trim()==='#181a1e' && getComputedStyle(document.querySelector('.sidebar')).backgroundColor==='rgb(32, 35, 41)','dark mode uses neutral charcoal surfaces');
+    $('[data-background-choice="light"]').click(); $('[data-accent-choice="terracotta"]').click();
+    assert(getComputedStyle(document.documentElement).getPropertyValue('--green').trim()==='#c66a2e' && getComputedStyle(document.querySelector('.primary-btn')).backgroundColor==='rgb(198, 106, 46)','orange accent recolors primary controls');
+    for(const [accent,colour] of Object.entries({green:'#315f4b',blue:'#315f7d',teal:'#16766f',indigo:'#4e61aa',plum:'#684e7e',rose:'#b65370',terracotta:'#c66a2e',gold:'#9a6a13'})) {
+      $('[data-accent-choice="'+accent+'"]').click();
+      assert(getComputedStyle(document.documentElement).getPropertyValue('--green').trim()===colour,'accent palette applies '+accent);
+    }
+    $('[data-accent-choice="blue"]').click(); $('[data-background-choice="dark"]').click();
     const exported=progressExportPayload(), imported=progressFromExport(JSON.stringify(exported));
     assert(exported.format==='wortwerk-progress' && exported.profile===progressKey() && imported.lessonHistory['4-1']?.completedAt,'progress export round-trip');
     assert(imported.preferences.vocabLevels.join(',')==='A1,A2' && imported.preferences.phraseCategories[0]==='daily' && imported.preferences.phraseDirection==='reverse' && imported.preferences.phraseCloze && imported.preferences.phraseMultipleChoice && imported.preferences.mixedDirections[0]==='toGerman' && imported.preferences.mixedVocabularyCategories[0]==='food' && imported.preferences.applicationGrammarId==='grammar-de-6' && imported.preferences.applicationQueue==='review' && !imported.preferences.applicationAskGender && imported.preferences.grammarGrid && !imported.preferences.randomMode && imported.preferences.colorAccent==='blue' && imported.preferences.colorBackground==='dark','progress export remembers study settings');
@@ -431,9 +439,7 @@ let socket;
       );
     }
   }
-  console.log(
-    "PASS: all ten desks fit 320, 390, 768, 1024, 1440 and 1920px",
-  );
+  console.log("PASS: all ten desks fit 320, 390, 768, 1024, 1440 and 1920px");
 })()
   .catch((e) => {
     console.error(e);
