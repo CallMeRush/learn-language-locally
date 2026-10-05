@@ -51,9 +51,9 @@ verbs, adjectives, phrases, and grammar; then narrow it by levels, topics,
 direction, and answer style. Phrase fill-in-the-blank questions can be written
 or multiple choice.
 
-**Apply grammar** turns reviewed phrase-corpus sentences into focused cloze
-work. It starts with articles and all four cases, with an optional gender-first
-step, and also includes modal-verb and separable-verb patterns.
+**Apply grammar** turns reviewed phrase-corpus sentences into numbered,
+tile-linked practice. Each exercise moves from a grammar pattern to a complete
+German sentence recall, with a direct route back to its source grammar tile.
 
 Lessons are organised as 16 thematic units with three concise, demanding rounds
 each: a word base, sentence practice, and a pattern workshop. Opening a unit

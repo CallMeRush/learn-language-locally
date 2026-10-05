@@ -4,13 +4,14 @@ function grammarLocaleFor(lesson) {
 function grammarLocalizedValue(value) {
   return typeof value === "string" ? value : "";
 }
+var grammarPracticeOpen = {};
 function renderGrammar() {
   var el = $("#grammar-list");
   el.innerHTML = grammarLessons
     .map((lesson, index) => {
       var locale = grammarLocaleFor(lesson);
       return (
-        '<article class="grammar-card"><div class="grammar-card-head"><div><span class="grammar-level">' +
+        '<article class="grammar-card" data-grammar-card="' + lesson.id + '"><div class="grammar-card-head"><div><span class="grammar-level">' +
         lesson.level +
         '</span><span class="grammar-tag">' +
         lesson.tag +
@@ -28,12 +29,11 @@ function renderGrammar() {
           : "") +
         (locale.tables ? locale.tables.map(grammarTableHtml).join("") : "") +
         grammarExamplesHtml(lesson, index) +
-        grammarTestHtmlCanonical(lesson, index) +
+        grammarPracticeHtml(lesson, index) +
         "</article>"
       );
     })
     .join("");
-  bindGrammarQuestionList();
   bindGrammarExampleInteractions();
   bindGrammarInteractions();
   updateGrammarLayout();
@@ -90,13 +90,23 @@ function bindGrammarExampleInteractions() {
 }
 function renderGrammarTest(index) {
   var lesson = grammarLessons[index],
-    card = document.querySelector(`[data-grammar-index="${index}"]`);
-  if (!card || !lesson.tests?.length) return;
+    area = document.querySelector(`[data-grammar-practice="${index}"]`);
+  if (!area || !lesson.tests?.length) return;
   grammarAnswered[index] = false;
   grammarCorrect[index] = false;
-  card.outerHTML = grammarTestHtmlCanonical(lesson, index);
+  area.outerHTML = grammarPracticeHtml(lesson, index);
   bindGrammarQuestionList();
   bindGrammarInteractions();
+}
+function grammarApplicationCount(lessonId) {
+  return grammarApplications.filter((record) => applicationGrammarIdFor(record) === lessonId).length;
+}
+function grammarPracticeHtml(lesson, index) {
+  var applicationCount = grammarApplicationCount(lesson.id);
+  if (!grammarPracticeOpen[index]) {
+    return `<section class="grammar-practice-launch" data-grammar-practice="${index}"><div><p class="grammar-test-kicker">PRACTISE WHEN READY</p><strong>Keep this tile focused on learning the pattern.</strong><span>${lesson.tests.length} quick checks${applicationCount ? ` · ${applicationCount} phrase-backed applications` : ""}</span></div><div><button type="button" class="secondary-btn" data-grammar-open="${index}">Open checks <span>→</span></button>${applicationCount ? `<button type="button" class="subtle-btn" data-grammar-apply="${lesson.id}">Apply in phrases →</button>` : ""}</div></section>`;
+  }
+  return `<section data-grammar-practice="${index}">${grammarTestHtmlCanonical(lesson, index)}${applicationCount ? `<button type="button" class="subtle-btn grammar-apply-link" data-grammar-apply="${lesson.id}">Apply tile ${String(index + 1).padStart(2, "0")} in phrases →</button>` : ""}</section>`;
 }
 function grammarTestHtmlCanonical(lesson, index) {
   var tests = lesson.tests || [];
@@ -117,6 +127,16 @@ function grammarTestHtmlCanonical(lesson, index) {
 }
 
 function bindGrammarInteractions() {
+  $$('[data-grammar-open]').forEach((button) => {
+    button.onclick = () => {
+      var index = Number(button.dataset.grammarOpen);
+      grammarPracticeOpen[index] = true;
+      renderGrammarTest(index);
+    };
+  });
+  $$('[data-grammar-apply]').forEach((button) => {
+    button.onclick = () => openApplicationForGrammar(button.dataset.grammarApply);
+  });
   $$("[data-grammar-check]").forEach((button) => {
     button.onclick = () => {
       var card = button.closest("[data-grammar-index]"),

@@ -16,6 +16,7 @@ var defaultPreferences = () => ({
   mixedAdjectiveCategories: ["adjectives"],
   mixedPhraseCategories: ["all"],
   applicationSet: "cases",
+  applicationGrammarId: "grammar-de-3",
   applicationQueue: "new",
   applicationAskGender: true,
   randomMode: true,
@@ -84,6 +85,7 @@ function normalizeProgress(progress) {
   preferences.phraseCloze = Boolean(preferences.phraseCloze);
   preferences.phraseMultipleChoice = Boolean(preferences.phraseMultipleChoice);
   if (!["cases", "modals", "separable"].includes(preferences.applicationSet)) preferences.applicationSet = "cases";
+  if (!grammarLessons.some((lesson) => lesson.id === preferences.applicationGrammarId)) preferences.applicationGrammarId = "grammar-de-3";
   if (!["all", "new", "review"].includes(preferences.applicationQueue)) preferences.applicationQueue = "new";
   preferences.applicationAskGender = Boolean(preferences.applicationAskGender);
   preferences.mixedParts = Object.fromEntries(
@@ -177,6 +179,7 @@ function savePreferences() {
     mixedAdjectiveCategories,
     mixedPhraseCategories,
     applicationSet,
+    applicationGrammarId,
     applicationQueue,
     applicationAskGender,
     randomMode,
@@ -229,6 +232,7 @@ var selectedCategory = state.preferences.selectedCategory,
   mixedAdjectiveCategories = state.preferences.mixedAdjectiveCategories,
   mixedPhraseCategories = state.preferences.mixedPhraseCategories,
   applicationSet = state.preferences.applicationSet,
+  applicationGrammarId = state.preferences.applicationGrammarId,
   applicationQueue = state.preferences.applicationQueue,
   applicationAskGender = state.preferences.applicationAskGender,
   mixedQuestion = null,
