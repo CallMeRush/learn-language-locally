@@ -31,12 +31,33 @@ let socket;
   }
   const initial=await call('Runtime.evaluate',{awaitPromise:true,returnByValue:true,expression:`(() => {
     if(vocab.length !== contentManifest.vocabulary.greetings.count || phrases.length !== 0 || !activeVocabWord) throw Error('only the initial vocabulary topic loads at startup');
-    return setView('verbs').then(() => {
+    return setView('dictionary').then(() => {
+      if(!contentAvailable('vocabulary') || !contentAvailable('verbs')) throw Error('dictionary loads the local word collection');
+      $('#dictionary-query').value='schoen'; renderDictionaryResults('schoen');
+      if(!$('#dictionary-results').textContent.toLowerCase().includes('schön')) throw Error('dictionary accepts ae/oe/ue spellings');
+      if(dictionaryKey('Straße')!==dictionaryKey('Strasse')) throw Error('dictionary normalizes sharp s and double s equally');
+      $('#dictionary-query').value='strassenseite'; renderDictionaryResults('strassenseite');
+      if(!$('#dictionary-results').textContent.toLowerCase().includes('strassenseite')) throw Error('dictionary finds double-s German entries');
+      $('#dictionary-query').value='tble'; renderDictionaryResults('tble');
+      if(!$('#dictionary-results').textContent.toLowerCase().includes('table')) throw Error('dictionary finds close English spellings');
+      if(![...document.querySelectorAll('#dictionary-results .dictionary-result-group h2')].some(heading=>heading.textContent.includes('Close matches'))) throw Error('dictionary collects fuzzy results in a final close-match section');
+      const knowMatches=dictionaryMatches('to know');
+      if(!knowMatches.length || !knowMatches.every(match=>match.record.terms.some(term=>term.includes('to know')))) throw Error('dictionary keeps multi-word queries together');
+      if(dictionaryPartOfSpeechOrder({pos:'noun'})>=dictionaryPartOfSpeechOrder({pos:'adjective'}) || dictionaryPartOfSpeechOrder({pos:'adjective'})>=dictionaryPartOfSpeechOrder({pos:'verb'})) throw Error('dictionary word-type order is nouns, adjectives, then verbs');
+      return setView('verbs');
+    }).then(() => {
       if(!contentAvailable('verbs')) throw Error('the All verbs default loads every verb family');
       return setView('phrases').then(() => {
         if(!contentAvailable('phrases')) throw Error('the All phrases default loads every phrase topic');
         const pending=Number(document.querySelector('#phrase-study-lists [data-phrase-study-status="pending"] small').textContent);
         if(pending!==phraseRecords().length || document.querySelector('#phrase-question').textContent==='Nothing here.') throw Error('phrase desk refreshes after lazy loading');
+        const linkedPhrase=phrases.find(phrase=>phrase.wordIds?.some(id=>vocab.some(word=>word.id===id)));
+        const linkedWord=vocab.find(word=>linkedPhrase.wordIds.includes(word.id));
+        renderDictionaryResults(targetText(linkedWord));
+        const linkedEntry=document.querySelector('#dictionary-results [data-dictionary-entry]');
+        if(!linkedEntry || document.querySelector('#dictionary-results .dictionary-example')) throw Error('dictionary keeps linked phrases collapsed by default');
+        linkedEntry.click();
+        if(!document.querySelector('#dictionary-results .dictionary-example')) throw Error('dictionary reveals a linked phrase on click');
         return setView('dashboard');
       });
     });
@@ -59,7 +80,7 @@ let socket;
     const oldProgress=emptyProgress();oldProgress.learned=['1'];
     localStorage.setItem('wortwerk-progress',JSON.stringify({'en-de':oldProgress}));
     assert(loadProgress().learned.length===0,'old corpus progress is not applied');
-    for(const view of ['dashboard','vocabulary','verbs','adjectives','phrases','application','grammar','mixed','lessons','issues']) setView(view);
+    for(const view of ['dashboard','dictionary','vocabulary','verbs','adjectives','phrases','application','grammar','mixed','lessons','issues','settings']) setView(view);
     document.querySelector('#vocabulary-view [data-vocabulary-kind="adjectives"]').click();
     assert(currentWords().length>0 && currentWords().every(w=>w.pos==='adjective'),'adjective desk contains only adjectives');
     const adjectiveTotal=currentWords().length;
@@ -160,7 +181,9 @@ let socket;
     const sentenceRow=document.querySelector('#phrase-study-lists [data-phrase-id]'), sentenceId=sentenceRow.dataset.phraseId;
     sentenceRow.click();
     assert(filteredPhrases()[phraseIndex].id===sentenceId,'sentence list selects exact card in random mode');
+    assert(activePhrase?.id===sentenceId && $('#phrase-question').textContent===sourceText(activePhrase),'phrase card and selected list stay aligned');
     $('#phrase-answer').value='WRONG';checkPhrase();
+    assert(!document.querySelector('#phrase-study-lists .word-row.current'),'phrase list never highlights a different phrase after an answer changes status');
     $('#phrase-study-lists [data-phrase-study-status="wrong"]').click();
     assert(document.querySelector('#phrase-study-lists [data-phrase-id="'+sentenceId+'"]'),'sentence moves into incorrect list');
     $('#phrase-answer').value=targetText(filteredPhrases()[phraseIndex]);checkPhrase();
@@ -186,6 +209,7 @@ let socket;
       if(settings.choice) {assert([...document.querySelectorAll('.phrase-choice')].some(button=>button.textContent===answer),'phrase choices include the expected answer');selectedPhraseChoice=answer;}
       else $('#phrase-answer').value=answer;
       checkPhrase();assert(phraseCorrect,'phrase '+JSON.stringify(settings));
+      assert($('#check-phrase').textContent.includes('Next phrase'),'phrase check becomes Next phrase after a correct answer');
     }
     setView('grammar');
     $('#grammar-layout-toggle').click();
@@ -207,6 +231,7 @@ let socket;
     assert(applicationStage==='answer' && document.querySelector('#application-answer'),'case practice asks gender before the article when enabled');
     $('#application-answer').value=applicationCurrent.exercise.answer;$('#check-application').click();
     assert(state.grammarApplied.includes('case-1') && $('#application-feedback').textContent.includes('Correct.'),'case article answers persist and explain the rule');
+    assert($('#check-application').textContent.includes('Next exercise'),'application check becomes Next exercise after a correct answer');
     applicationCurrent=grammarApplications.find(record=>record.id==='case-2');applicationFeedback='';renderGrammarApplication();
     $('#application-ask-gender').click();
     assert(!applicationAskGender && applicationStage==='answer' && document.querySelector('#application-answer'),'gender-first practice can be disabled for direct recall');
@@ -279,10 +304,13 @@ let socket;
     assert(JSON.parse(localStorage.getItem('wortwerk-progress'))['en-de'].learned[0]==='1','old profile retained');
     setSelectedLevels(['A1']); $('[data-global-vocab-level="A2"]').click(); assert(selectedLevels.join(',')==='A1,A2','levels can be combined');
     phraseCategory='all'; phraseCategories=['daily']; vocabMode='choice'; phraseDirection='reverse'; phraseCloze=true; phraseMultipleChoice=true; mixedParts={vocabulary:true,verbs:false,adjectives:false,phrases:true,grammar:false};mixedDirections=['toGerman'];mixedStyles=['write','cloze'];mixedVocabularyCategories=['food'];mixedVerbCategories=['verbs'];mixedAdjectiveCategories=['adjectives'];mixedPhraseCategories=['daily'];applicationSet='separable';applicationQueue='review';applicationAskGender=false;randomMode=false; phraseRandom=false; hideVocabularyAnswers=false; grammarGrid=true; savePreferences();
+    setView('settings');
+    $('[data-accent-choice="blue"]').click(); $('[data-background-choice="dark"]').click();
+    assert(document.documentElement.dataset.accent==='blue' && document.documentElement.dataset.background==='dark','settings apply accent and dark background');
     const exported=progressExportPayload(), imported=progressFromExport(JSON.stringify(exported));
     assert(exported.format==='wortwerk-progress' && exported.profile===progressKey() && imported.lessonHistory['4-1']?.completedAt,'progress export round-trip');
-    assert(imported.preferences.vocabLevels.join(',')==='A1,A2' && imported.preferences.phraseCategories[0]==='daily' && imported.preferences.phraseDirection==='reverse' && imported.preferences.phraseCloze && imported.preferences.phraseMultipleChoice && imported.preferences.mixedDirections[0]==='toGerman' && imported.preferences.mixedVocabularyCategories[0]==='food' && imported.preferences.applicationSet==='separable' && imported.preferences.applicationQueue==='review' && !imported.preferences.applicationAskGender && imported.preferences.grammarGrid && !imported.preferences.randomMode,'progress export remembers study settings');
-    setSelectedLevels(allStudyLevels); phraseCategory='all'; phraseCategories=['all']; vocabMode='translate'; phraseDirection='translate'; phraseCloze=false; phraseMultipleChoice=false; mixedParts={vocabulary:true,verbs:true,adjectives:true,phrases:true,grammar:true};mixedDirections=['toGerman','toEnglish'];mixedStyles=['write','choice','cloze'];mixedVocabularyCategories=['all'];mixedVerbCategories=['verbs'];mixedAdjectiveCategories=['adjectives'];mixedPhraseCategories=['all'];applicationSet='cases';applicationQueue='new';applicationAskGender=true;randomMode=true; phraseRandom=true; hideVocabularyAnswers=true; grammarGrid=false; savePreferences();
+    assert(imported.preferences.vocabLevels.join(',')==='A1,A2' && imported.preferences.phraseCategories[0]==='daily' && imported.preferences.phraseDirection==='reverse' && imported.preferences.phraseCloze && imported.preferences.phraseMultipleChoice && imported.preferences.mixedDirections[0]==='toGerman' && imported.preferences.mixedVocabularyCategories[0]==='food' && imported.preferences.applicationSet==='separable' && imported.preferences.applicationQueue==='review' && !imported.preferences.applicationAskGender && imported.preferences.grammarGrid && !imported.preferences.randomMode && imported.preferences.colorAccent==='blue' && imported.preferences.colorBackground==='dark','progress export remembers study settings');
+    setSelectedLevels(allStudyLevels); phraseCategory='all'; phraseCategories=['all']; vocabMode='translate'; phraseDirection='translate'; phraseCloze=false; phraseMultipleChoice=false; mixedParts={vocabulary:true,verbs:true,adjectives:true,phrases:true,grammar:true};mixedDirections=['toGerman','toEnglish'];mixedStyles=['write','choice','cloze'];mixedVocabularyCategories=['all'];mixedVerbCategories=['verbs'];mixedAdjectiveCategories=['adjectives'];mixedPhraseCategories=['all'];applicationSet='cases';applicationQueue='new';applicationAskGender=true;randomMode=true; phraseRandom=true; hideVocabularyAnswers=true; grammarGrid=false;colorAccent='green';colorBackground='light';applyAppearance();savePreferences();
     let rejected=false;try{progressFromExport(JSON.stringify({...exported,profile:'other-deck'}));}catch{rejected=true;}
     assert(rejected,'different deck progress is rejected');
     localStorage.setItem('wortwerk-progress','not valid JSON');
@@ -296,7 +324,7 @@ let socket;
     await call('Emulation.setDeviceMetricsOverride',{width,height:900,deviceScaleFactor:1,mobile:false});
     const layout=await call('Runtime.evaluate',{returnByValue:true,expression:`(() => {
       const failures=[];
-      for(const view of ['dashboard','vocabulary','verbs','adjectives','phrases','application','grammar','mixed','lessons','issues']) {
+      for(const view of ['dashboard','dictionary','vocabulary','verbs','adjectives','phrases','application','grammar','mixed','lessons','issues','settings']) {
         setView(view);
         if(document.documentElement.scrollWidth>innerWidth+1) failures.push({view,width:innerWidth,scrollWidth:document.documentElement.scrollWidth});
         for(const button of document.querySelectorAll('.active-view .practice-actions .primary-btn, .active-view .phrase-actions .primary-btn, .active-view .grammar-test > button, .active-view .lesson-start')) {
@@ -330,7 +358,7 @@ let socket;
       fs.writeFileSync(path.join(process.env.SCREENSHOT_DIR,`adjectives-${width}.png`),Buffer.from(capture.result.data,'base64'));
     }
   }
-  console.log('PASS: all ten views fit 320, 390, 768, 1024, 1440 and 1920px');
+  console.log('PASS: all twelve views fit 320, 390, 768, 1024, 1440 and 1920px');
 })().catch(e=>{console.error(e);process.exitCode=1}).finally(()=>{
   socket?.close();
   browser.once('exit',()=>fs.rmSync(profile,{recursive:true,force:true}));

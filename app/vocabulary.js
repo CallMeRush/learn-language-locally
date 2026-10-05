@@ -21,6 +21,9 @@ function setView(view) {
     if (!contentAvailable("vocabulary")) requests.push(ensureContent("vocabulary"));
     if (!contentAvailable("verbs")) requests.push(ensureContent("verbs"));
     if (!contentAvailable("phrases")) requests.push(ensureContent("phrases"));
+  } else if (view === "dictionary") {
+    if (!contentAvailable("vocabulary")) requests.push(ensureContent("vocabulary"));
+    if (!contentAvailable("verbs")) requests.push(ensureContent("verbs"));
   }
   if (requests.length) return Promise.all(requests).then(() => renderView(view));
   return renderView(view);
@@ -42,6 +45,8 @@ function renderView(view) {
     button.setAttribute("aria-pressed", String(selected));
   });
   if (view === "issues") renderIssues();
+  if (view === "settings") renderSettings();
+  if (view === "dictionary") renderDictionary();
   if (["vocabulary", "verbs", "adjectives"].includes(view)) renderVocabulary();
   if (view === "phrases") showPhrase();
   if (view === "application") renderGrammarApplication();

@@ -22,6 +22,8 @@ var defaultPreferences = () => ({
   phraseRandom: true,
   hideVocabularyAnswers: true,
   grammarGrid: false,
+  colorAccent: "green",
+  colorBackground: "light",
 });
 var emptyProgress = () => ({
   learned: [],
@@ -102,6 +104,8 @@ function normalizeProgress(progress) {
     if (!preferences[key].length) preferences[key] = [...defaultPreferences()[key]];
   });
   ["randomMode", "phraseRandom", "hideVocabularyAnswers", "grammarGrid"].forEach(key => preferences[key] = Boolean(preferences[key]));
+  if (!["green", "blue", "plum", "terracotta"].includes(preferences.colorAccent)) preferences.colorAccent = "green";
+  if (!["light", "dark"].includes(preferences.colorBackground)) preferences.colorBackground = "light";
   ["selectedCategory", "phraseCategory"].forEach(key => preferences[key] = typeof preferences[key] === "string" ? preferences[key] : defaultPreferences()[key]);
   if (!categoryRecords.some(record => record.id === preferences.selectedCategory)) preferences.selectedCategory = "all";
   if (preferences.phraseCategory !== "all" && !contentManifest.phrases[preferences.phraseCategory]) preferences.phraseCategory = "all";
@@ -179,6 +183,8 @@ function savePreferences() {
     phraseRandom,
     hideVocabularyAnswers,
     grammarGrid,
+    colorAccent,
+    colorBackground,
   } }).preferences;
   save();
 }
@@ -203,6 +209,7 @@ var selectedCategory = state.preferences.selectedCategory,
   selectedLevels = state.preferences.vocabLevels,
   vocabLevel = "all",
   phraseIndex = 0,
+  activePhrase = null,
   phraseLevel = "all",
   phraseCategory = state.preferences.phraseCategory,
   phraseCategories = state.preferences.phraseCategories,
@@ -291,8 +298,12 @@ var $ = (s) => {
 function updateVocabCheckButton() {
   var button = document.querySelector("#" + vocabularyViewPrefix() + "check-vocab");
   if (!button) return;
-  button.innerHTML = vocabCorrect ? "Next word <span>→</span>" : "Check answer <span>↵</span>";
-  button.onclick = vocabCorrect ? nextVocab : checkVocab;
+  updateCheckButton(button, vocabCorrect, "Check answer", "Next word", checkVocab, nextVocab);
+}
+function updateCheckButton(button, complete, checkLabel, nextLabel, check, next) {
+  if (!button) return;
+  button.innerHTML = complete ? nextLabel + " <span>→</span>" : checkLabel + " <span>↵</span>";
+  button.onclick = complete ? next : check;
 }
 var mainVocabularyView = document.querySelector("#vocabulary-view");
 mainVocabularyView.querySelector(".page-heading p:last-child")?.remove();
@@ -312,7 +323,14 @@ adjectivesView.querySelectorAll("[id]").forEach(element => {
 });
 verbsView.after(adjectivesView);
 var hideVocabularyAnswers = state.preferences.hideVocabularyAnswers,
-  grammarGrid = state.preferences.grammarGrid;
+  grammarGrid = state.preferences.grammarGrid,
+  colorAccent = state.preferences.colorAccent,
+  colorBackground = state.preferences.colorBackground;
+function applyAppearance() {
+  document.documentElement.dataset.accent = colorAccent;
+  document.documentElement.dataset.background = colorBackground;
+}
+applyAppearance();
 [mainVocabularyView, verbsView, adjectivesView].forEach(panel => {
   panel.querySelector(".page-heading h1").textContent = "Vocabulary";
   panel.querySelector(".page-heading").insertAdjacentHTML("afterend",

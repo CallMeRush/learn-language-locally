@@ -183,11 +183,23 @@ function phraseAnswerLanguage() {
 function phraseExpectedAnswer(p) {
   return translationText(p, phraseAnswerLanguage());
 }
+function updatePhraseCheckButton() {
+  updateCheckButton(
+    $("#check-phrase"),
+    phraseCorrect,
+    "Check translation",
+    "Next phrase",
+    () => checkPhrase(),
+    nextPhrase,
+  );
+}
 function showPhrase() {
   updatePhraseControls();
   var list = filteredPhrases();
   phraseAnswered = false;
   phraseCorrect = false;
+  activePhrase = null;
+  updatePhraseCheckButton();
   if (!list.length) {
     renderPhraseLists();
     $("#phrase-level").textContent = "NO MATCHING PHRASES";
@@ -210,6 +222,7 @@ function showPhrase() {
   var p = list[phraseIndex % list.length],
     answerLanguage = phraseAnswerLanguage(),
     cloze = phraseCloze ? clozeFor(p, answerLanguage) : null;
+  activePhrase = p;
   $("#phrase-level").textContent =
     { easy: "A1", medium: "A2", hard: "B1" }[p.level] +
     " · " +
@@ -265,7 +278,7 @@ function renderPhraseLists() {
     container.id = "phrase-study-lists";
     document.querySelector("#phrases-view .phrase-layout").append(container);
   }
-  var records = phraseRecords(), active = filteredPhrases()[phraseIndex % filteredPhrases().length];
+  var records = phraseRecords(), active = activePhrase;
   renderPhraseStudyPanel(container, records, state.phrases, active, p => {
     var text = phraseDirection === "reverse" ? targetText(p) : sourceText(p);
     var mark = state.phrases.includes(p.id) ? "✓" : state.issues.includes(p.id) ? "✕" : "○";
@@ -358,6 +371,7 @@ function checkPhrase(reveal = false) {
   }
   save();
   renderPhraseLists();
+  updatePhraseCheckButton();
 }
 function renderIssues() {
   var el = $("#issues-list");
@@ -406,7 +420,7 @@ $$('[data-action="open-vocab"]').forEach(
     }),
 );
 $("#check-vocab").onclick = checkVocab;
-$("#check-phrase").onclick = () => checkPhrase();
+updatePhraseCheckButton();
 $("#show-answer").onclick = () => checkPhrase(true);
 $("#next-phrase").onclick = nextPhrase;
 var phraseControls = $(".phrase-controls");

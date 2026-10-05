@@ -96,8 +96,8 @@ function applicationCardHtml() {
     (state.grammarApplied.includes(record.id) ? "MASTERED" : "NEW") +
     '</span></div><p class="application-kicker">' + (genderStep ? "STEP 1 · IDENTIFY THE NOUN" : "USE THE PATTERN") + "</p><h2>" + exercise.blanked + '</h2><p class="application-translation">' + record.translations.en.text + '</p><div class="application-prompt"><strong>' + prompt + '</strong>' +
     (genderStep ? "<span>Start from the dictionary form, not the sentence article.</span>" : "<span>" + (exercise.cue || "") + "</span>") +
-    "</div>" + (genderStep ? genderChoices : input) + '<div class="phrase-actions"><button class="primary-btn" id="check-application">' +
-    (genderStep ? "Check gender" : "Check answer") + ' <span>↵</span></button><button class="subtle-btn" id="application-hint">Hint</button></div>' + feedback +
+    "</div>" + (genderStep ? genderChoices : input) + '<div class="phrase-actions">' +
+    (genderStep ? "" : '<button class="primary-btn" id="check-application">Check answer <span>↵</span></button>') + '<button class="subtle-btn" id="application-hint">Hint</button></div>' + feedback +
     '<button class="next-link" id="next-application">Next exercise <span>→</span></button></article>';
 }
 function renderGrammarApplication() {
@@ -159,19 +159,23 @@ function bindGrammarApplicationCard() {
       }
     };
   });
-  document.getElementById("check-application")?.addEventListener("click", () => {
-    if (applicationStage === "gender") return;
+  var check = document.getElementById("check-application"),
+    completed = applicationStage === "answer" && applicationFeedbackKind === "good" && state.grammarApplied.includes(record.id);
+  updateCheckButton(check, completed, "Check answer", "Next exercise", () => {
     var correct = answerMatches(answer.value, exercise.answer);
     applicationRecordAttempt(correct, correct);
     if (correct)
       setApplicationFeedback("Correct. " + exercise.explanation, "good");
     else
       setApplicationFeedback("Not yet. " + exercise.explanation, "bad");
+  }, () => {
+    applicationPickNext();
+    renderGrammarApplication();
   });
   answer?.addEventListener("keydown", (event) => {
     if (event.key !== "Enter") return;
     event.preventDefault();
-    document.getElementById("check-application").click();
+    check?.click();
   });
   document.getElementById("application-hint")?.addEventListener("click", () => {
     setApplicationFeedback("Hint · " + (exercise.cue || "Look at the sentence pattern and its word order.") + ".", "hint");

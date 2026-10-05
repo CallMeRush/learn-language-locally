@@ -434,8 +434,7 @@ function updateMixedCheckButton() {
   var button = $("#check-mixed");
   if (!button || lessonComplete) return;
   if (!mixedQuestion) return;
-  button.innerHTML = mixedCorrect ? "Next question <span>→</span>" : "Check answer <span>↵</span>";
-  button.onclick = mixedCorrect ? advanceMixed : checkMixed;
+  updateCheckButton(button, mixedCorrect, "Check answer", "Next question", checkMixed, advanceMixed);
 }
 function advanceMixed() {
   if (activeLesson) nextLessonQuestion();

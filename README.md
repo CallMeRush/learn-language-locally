@@ -1,7 +1,7 @@
 # Wortwerk
 
 Wortwerk is a small, local-first language-learning app for practicing
-vocabulary, verbs, phrases, grammar, lessons, and mixed exercises.
+vocabulary, dictionary lookup, verbs, phrases, grammar, lessons, and mixed exercises.
 
 The app teaches German to English speakers. All instructions are in English.
 Vocabulary, verbs and phrases support English → German and German → English
@@ -16,6 +16,8 @@ the browser's `localStorage`.
 Use **Export progress** to download a private JSON backup, then **Import
 progress** on another browser or device to replace that device's progress for
 this exact learning deck. No account, server, or network sync is involved.
+Your selected accent colour and light/dark appearance are local preferences
+and travel with that export.
 
 Both translation directions contribute to the new deck's study profile
 (`en-de-deck-efd235e6-v1`). It starts fresh because the content IDs changed.
@@ -29,6 +31,10 @@ Vocabulary has Nouns (the general word collection), Verbs, and Adjectives tabs.
 Click a list entry to practise it. A default-on Hide answer toggle conceals the
 answer-side translation in the list; ✓ and ✕ mark correct and incorrect answers.
 Typed German answers accept `ss` for `ß` and `ae`/`oe`/`ue` for umlauts.
+The Dictionary searches the complete local word collection in either English or
+German, accepts those same German spelling variants, and offers quick close
+matches for small typing errors. Linked phrases appear as German/English
+examples when the phrase corpus provides one.
 The study-status buttons filter both the list and the practice card: an empty
 selection clearly says so instead of repeating a completed item. Vocabulary also
 distinguishes first-try answers, answers corrected after an error, and article-only

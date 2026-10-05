@@ -17,6 +17,7 @@
         <div class="side-label">YOUR DESK</div>
         <nav>
           <button class="nav-item active" data-view="dashboard"><span>⌂</span> Overview</button>
+          <button class="nav-item" data-view="dictionary"><span>⌕</span> Dictionary</button>
           <button class="nav-item" data-view="grammar"><span>§</span> Grammar</button>
           <button class="nav-item" data-view="vocabulary"><span>✦</span> Vocabulary</button>
           <button class="nav-item" data-view="phrases"><span>↗</span> Phrases</button>
@@ -24,6 +25,7 @@
           <button class="nav-item" data-view="mixed"><span>✧</span> Mixed practice</button>
           <button class="nav-item" data-view="lessons"><span>◆</span> Lessons</button>
           <button class="nav-item" data-view="issues"><span>⚑</span> Issues <b id="issue-count">0</b></button>
+          <button class="nav-item" data-view="settings"><span>⚙</span> Settings</button>
         </nav>
       </aside>
 
@@ -38,6 +40,27 @@
           <div class="section-heading"><div><p class="eyebrow">WHAT YOU CAN DO</p><h2>A calm, complete study loop</h2></div><span class="micro-label">WORKS LOCALLY IN YOUR BROWSER</span></div>
           <div class="stats-grid"><div class="stat-card"><span class="stat-icon green">✦</span><strong>Words</strong><span>Study nouns, verbs, and adjectives by topic, level, or review status.</span></div><div class="stat-card"><span class="stat-icon peach">↗</span><strong>Phrases</strong><span>Practise useful sentences in both directions, as cloze tasks, or by choice.</span></div><div class="stat-card"><span class="stat-icon lilac">§</span><strong>Grammar</strong><span>Learn a rule, then apply cases, modal verbs, and separable verbs in real sentences.</span></div></div>
           <div class="lower-grid"><div class="continue-card"><div class="card-title"><div><p class="eyebrow">HOW TO USE IT</p><h3>Choose a desk, then practise.</h3></div><span class="round-icon">A1</span></div><p>Pick one or more levels, choose a topic, hide answers when you want a real recall test, and use the review tabs to revisit mistakes.</p><div class="lesson-row"><span class="lesson-number">01</span><div><strong>Build your word base</strong><small>Nouns, verbs, and adjectives</small></div><button class="text-btn" data-action="start-vocab">Open →</button></div><div class="lesson-row"><span class="lesson-number">02</span><div><strong>Use it in context</strong><small>Phrases, grammar, and guided lessons</small></div><button class="text-btn" data-action="start-session">Open →</button></div></div><div class="tip-card"><span class="tip-star">⌂</span><p class="eyebrow">YOUR DATA STAYS WITH YOU</p><h3>Static by design.</h3><p>Open the app locally. Progress stays in this browser until you export a backup to move it elsewhere.</p><span class="tip-german">Lernen, ganz lokal.</span></div></div>
+        </section>
+
+        <section id="dictionary-view" class="view">
+          <div class="page-heading">
+            <div>
+              <p class="eyebrow">YOUR LOCAL WORD FINDER</p>
+              <h1>Dictionary</h1>
+              <p>Search English or German across the full word collection. German spelling variants work too.</p>
+            </div>
+            <span class="grammar-mark">⌕</span>
+          </div>
+          <section class="dictionary-search" aria-label="Dictionary search">
+            <label for="dictionary-query">Search English or German</label>
+            <div class="dictionary-input-wrap">
+              <span aria-hidden="true">⌕</span>
+              <input id="dictionary-query" type="search" placeholder="e.g. house, Haus, schön, schoen, Straße…" autocomplete="off" spellcheck="false" />
+              <button id="dictionary-clear" type="button" aria-label="Clear dictionary search" hidden>×</button>
+            </div>
+            <p id="dictionary-summary" aria-live="polite">Open the dictionary to load the local word collection.</p>
+          </section>
+          <div id="dictionary-results" class="dictionary-results"></div>
         </section>
 
 <section id="vocabulary-view" class="view">
@@ -74,6 +97,26 @@
 <section id="mixed-view" class="view"><div class="page-heading"><div><p class="eyebrow">THE MIXED DESK</p><h1>Mixed practice</h1><p>Build a focused session across words, verbs, adjectives, phrases, and grammar.</p></div></div><section id="mixed-builder" class="mixed-builder"></section><div class="mixed-layout"><div class="mixed-card"><div class="phrase-meta"><span id="mixed-type">MIXED PRACTICE</span><span id="mixed-level-label">A1–B1</span></div><h2 id="mixed-prompt">Ready for a varied round?</h2><p id="mixed-hint" class="phrase-hint">Choose an answer, type it, or fill the blank.</p><div id="mixed-cloze" class="cloze-sentence"></div><div id="mixed-article" class="article-choices"><span>Choose article</span><button data-mixed-article="der">der</button><button data-mixed-article="die">die</button><button data-mixed-article="das">das</button></div><div id="mixed-options" class="choice-options"></div><input id="mixed-answer" placeholder="Your answer…" autocomplete="off" /><div class="phrase-actions"><button class="primary-btn" id="check-mixed">Check answer <span>↵</span></button><button class="subtle-btn" id="mixed-hint-button">Hint</button><button class="subtle-btn" id="next-mixed">New random question ↻</button></div><div id="mixed-feedback" class="feedback"></div></div></div></section>
 
         <section id="lessons-view" class="view"><div class="page-heading"><div><p class="eyebrow">THE LEARNING PATH</p><h1>Lessons</h1><p>Choose a lesson, practise its focused mix, then repair every mistake at the end.</p></div><span class="grammar-mark">◆</span></div><div id="lesson-list" class="lesson-path"></div></section>
+
+        <section id="settings-view" class="view">
+          <div class="page-heading"><div><p class="eyebrow">MAKE THE DESK YOURS</p><h1>Settings</h1><p>Choose an accent and background that make study comfortable.</p></div><span class="grammar-mark">⚙</span></div>
+          <section class="settings-panel">
+            <div><p class="eyebrow">APPEARANCE</p><h2>Accent colour</h2><p>Used for buttons, highlights, and selected controls.</p></div>
+            <div class="appearance-options" role="group" aria-label="Accent colour">
+              <button type="button" data-accent-choice="green"><i></i><span>Green</span></button>
+              <button type="button" data-accent-choice="blue"><i></i><span>Blue</span></button>
+              <button type="button" data-accent-choice="plum"><i></i><span>Plum</span></button>
+              <button type="button" data-accent-choice="terracotta"><i></i><span>Terracotta</span></button>
+            </div>
+            <div class="settings-divider"></div>
+            <div><p class="eyebrow">BACKGROUND</p><h2>Surface</h2><p>Switch between a light desk and a darker evening-friendly surface.</p></div>
+            <div class="appearance-options background-options" role="group" aria-label="Background">
+              <button type="button" data-background-choice="light"><i></i><span>Light</span></button>
+              <button type="button" data-background-choice="dark"><i></i><span>Dark</span></button>
+            </div>
+            <p class="settings-note">Your choice is saved privately in this browser and included in exported progress.</p>
+          </section>
+        </section>
 
         <section id="issues-view" class="view"><div class="page-heading"><div><p class="eyebrow">YOUR PERSONAL REVIEW QUEUE</p><h1>Issues to revisit</h1><p>These are the words and phrases that asked for a second look.</p></div><span class="issue-big" id="issue-big">0</span></div><div id="issues-list" class="issues-list"></div></section>
       </main>
