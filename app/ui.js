@@ -11,7 +11,9 @@ function renderGrammar() {
     .map((lesson, index) => {
       var locale = grammarLocaleFor(lesson);
       return (
-        '<article class="grammar-card" data-grammar-card="' + lesson.id + '"><div class="grammar-card-head"><div><span class="grammar-level">' +
+        '<article class="grammar-card" data-grammar-card="' +
+        lesson.id +
+        '"><div class="grammar-card-head"><div><span class="grammar-level">' +
         lesson.level +
         '</span><span class="grammar-tag">' +
         lesson.tag +
@@ -43,7 +45,9 @@ function updateGrammarLayout() {
     button = document.querySelector("#grammar-layout-toggle");
   if (list) list.classList.toggle("grammar-grid", grammarGrid);
   if (button) {
-    button.textContent = grammarGrid ? "Show one column" : "Show multiple columns";
+    button.textContent = grammarGrid
+      ? "Show one column"
+      : "Show multiple columns";
     button.setAttribute("aria-pressed", String(grammarGrid));
   }
 }
@@ -53,10 +57,22 @@ document.querySelector("#grammar-layout-toggle").onclick = () => {
   savePreferences();
 };
 function grammarTableHtml(table) {
-  return '<div class="grammar-table-wrap"><h3>' + (table.caption || '') +
-    '</h3><table><thead><tr>' + table.headers.map(cell => '<th>' + cell + '</th>').join('') +
-    '</tr></thead><tbody>' + table.rows.map(row => '<tr>' + row.map(cell => '<td>' + cell + '</td>').join('') + '</tr>').join('') +
-    '</tbody></table></div>';
+  return (
+    '<div class="grammar-table-wrap"><h3>' +
+    (table.caption || "") +
+    "</h3><table><thead><tr>" +
+    table.headers.map((cell) => "<th>" + cell + "</th>").join("") +
+    "</tr></thead><tbody>" +
+    table.rows
+      .map(
+        (row) =>
+          "<tr>" +
+          row.map((cell) => "<td>" + cell + "</td>").join("") +
+          "</tr>",
+      )
+      .join("") +
+    "</tbody></table></div>"
+  );
 }
 function grammarExamplesHtml(lesson, index) {
   var examples = lesson.localized.en.examples || [];
@@ -74,18 +90,22 @@ function renderGrammarExamples(index) {
   bindGrammarExampleInteractions();
 }
 function bindGrammarExampleInteractions() {
-  $$('[data-grammar-examples]').forEach((section) => {
+  $$("[data-grammar-examples]").forEach((section) => {
     var index = Number(section.dataset.grammarExamples);
-    section.querySelectorAll('[data-grammar-example]').forEach((button) =>
-      (button.onclick = () => {
-        grammarExampleState[index] = Number(button.dataset.grammarExample);
-        renderGrammarExamples(index);
-      }),
+    section.querySelectorAll("[data-grammar-example]").forEach(
+      (button) =>
+        (button.onclick = () => {
+          grammarExampleState[index] = Number(button.dataset.grammarExample);
+          renderGrammarExamples(index);
+        }),
     );
-    section.querySelector('[data-grammar-example-translation]').onclick = () => {
-      grammarExampleEnglishVisible[index] = !(grammarExampleEnglishVisible[index] !== false);
-      renderGrammarExamples(index);
-    };
+    section.querySelector("[data-grammar-example-translation]").onclick =
+      () => {
+        grammarExampleEnglishVisible[index] = !(
+          grammarExampleEnglishVisible[index] !== false
+        );
+        renderGrammarExamples(index);
+      };
   });
 }
 function renderGrammarTest(index) {
@@ -95,11 +115,12 @@ function renderGrammarTest(index) {
   grammarAnswered[index] = false;
   grammarCorrect[index] = false;
   area.outerHTML = grammarPracticeHtml(lesson, index);
-  bindGrammarQuestionList();
   bindGrammarInteractions();
 }
 function grammarApplicationCount(lessonId) {
-  return grammarApplications.filter((record) => applicationGrammarIdFor(record) === lessonId).length;
+  return grammarApplications.filter(
+    (record) => applicationGrammarIdFor(record) === lessonId,
+  ).length;
 }
 function grammarPracticeHtml(lesson, index) {
   var applicationCount = grammarApplicationCount(lesson.id);
@@ -127,15 +148,24 @@ function grammarTestHtmlCanonical(lesson, index) {
 }
 
 function bindGrammarInteractions() {
-  $$('[data-grammar-open]').forEach((button) => {
+  $$("[data-grammar-question]").forEach((button) => {
+    button.onclick = () => {
+      var card = button.closest("[data-grammar-index]");
+      var index = Number(card.dataset.grammarIndex);
+      grammarTestState[index] = Number(button.dataset.grammarQuestion);
+      renderGrammarTest(index);
+    };
+  });
+  $$("[data-grammar-open]").forEach((button) => {
     button.onclick = () => {
       var index = Number(button.dataset.grammarOpen);
       grammarPracticeOpen[index] = true;
       renderGrammarTest(index);
     };
   });
-  $$('[data-grammar-apply]').forEach((button) => {
-    button.onclick = () => openApplicationForGrammar(button.dataset.grammarApply);
+  $$("[data-grammar-apply]").forEach((button) => {
+    button.onclick = () =>
+      openApplicationForGrammar(button.dataset.grammarApply);
   });
   $$("[data-grammar-check]").forEach((button) => {
     button.onclick = () => {
@@ -162,10 +192,17 @@ function bindGrammarInteractions() {
       var marks = grammarTestMarks[index],
         progress = card.querySelector("[data-grammar-progress]");
       if (progress)
-        progress.textContent = Object.values(marks).filter(Boolean).length +
-          " correct · " + Object.keys(marks).length + "/" + grammarLessons[index].tests.length + " tried";
+        progress.textContent =
+          Object.values(marks).filter(Boolean).length +
+          " correct · " +
+          Object.keys(marks).length +
+          "/" +
+          grammarLessons[index].tests.length +
+          " tried";
       feedback.textContent = ok
-        ? "Correct. Why: " + test.explain + " Press Enter again for the next check."
+        ? "Correct. Why: " +
+          test.explain +
+          " Press Enter again for the next check."
         : "Not yet. Why: " + test.explain;
       feedback.className = "grammar-test-feedback " + (ok ? "good" : "bad");
       if (mark) {
@@ -178,7 +215,7 @@ function bindGrammarInteractions() {
       }
     };
   });
-  $$('[data-grammar-answer]').forEach((input) => {
+  $$("[data-grammar-answer]").forEach((input) => {
     input.onkeydown = (event) => {
       if (event.key !== "Enter") return;
       event.preventDefault();
@@ -189,22 +226,27 @@ function bindGrammarInteractions() {
       else card.querySelector("[data-grammar-check]").click();
     };
   });
-  $$('[data-grammar-hint]').forEach((button) => {
+  $$("[data-grammar-hint]").forEach((button) => {
     button.onclick = () => {
       var card = button.closest("[data-grammar-index]"),
         index = Number(card.dataset.grammarIndex),
         test = grammarLessons[index].tests[grammarTestState[index]],
         feedback = card.querySelector("[data-grammar-feedback]");
-      feedback.textContent = "Hint · Answer: " + test.answers.join(" / ") + " Why: " + test.explain;
+      feedback.textContent =
+        "Hint · Answer: " + test.answers.join(" / ") + " Why: " + test.explain;
       feedback.className = "grammar-test-feedback hint";
     };
   });
-  $$('[data-grammar-next]').forEach((button) => {
-    button.onclick = () => nextGrammarTest(Number(button.closest("[data-grammar-index]").dataset.grammarIndex));
+  $$("[data-grammar-next]").forEach((button) => {
+    button.onclick = () =>
+      nextGrammarTest(
+        Number(button.closest("[data-grammar-index]").dataset.grammarIndex),
+      );
   });
 }
 function nextGrammarTest(index) {
-  grammarTestState[index] = (grammarTestState[index] + 1) % grammarLessons[index].tests.length;
+  grammarTestState[index] =
+    (grammarTestState[index] + 1) % grammarLessons[index].tests.length;
   renderGrammarTest(index);
 }
 

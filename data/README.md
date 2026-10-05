@@ -36,8 +36,9 @@ The learning content is intentionally kept separate from the interface logic.
   two worked `examples` (`de`, `en`, and `note`), and checks with accepted
   `answers` plus an `explain` string shown after checking.
 - `application.js` contains reviewed sentence-level grammar applications. Each
-  record links to an exact phrase source and stores the blank, expected answer,
-  and explanation explicitly; case records also store base gender and case metadata.
+  record names its `grammarId`, links to an exact phrase source, and stores the
+  blank, expected answer, and explanation explicitly; case records also store
+  base gender and case metadata.
 - `lessons.js` contains 16 canonical lesson units, each expanded into three eight-question lesson rounds. Unit presentation text is under `localized`; each short round declares its vocabulary, verb, phrase, grammar, or mixed practice sources.
 - `categories.js` contains one record per category with English labels under
   `localized.en`; category IDs remain stable keys used by content records.

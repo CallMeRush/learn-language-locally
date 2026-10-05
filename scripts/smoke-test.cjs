@@ -1,35 +1,67 @@
 /* Exercise the static app in Chromium with an isolated browser profile. */
-const {spawn} = require('node:child_process');
-const fs = require('node:fs');
-const os = require('node:os');
-const path = require('node:path');
-const {pathToFileURL} = require('node:url');
-const profile = fs.mkdtempSync(path.join(os.homedir(), 'wortwerk-test-'));
-const browser = spawn(process.env.CHROMIUM || 'chromium', ['--headless','--no-sandbox','--disable-gpu','--remote-debugging-port=0',`--user-data-dir=${profile}`,pathToFileURL(path.resolve(__dirname,'../index.html')).href]);
+const { spawn } = require("node:child_process");
+const fs = require("node:fs");
+const os = require("node:os");
+const path = require("node:path");
+const { pathToFileURL } = require("node:url");
+const profile = fs.mkdtempSync(path.join(os.homedir(), "wortwerk-test-"));
+const browser = spawn(process.env.CHROMIUM || "chromium", [
+  "--headless",
+  "--no-sandbox",
+  "--disable-gpu",
+  "--remote-debugging-port=0",
+  `--user-data-dir=${profile}`,
+  pathToFileURL(path.resolve(__dirname, "../index.html")).href,
+]);
 let socket;
 (async () => {
   let port;
-  for(let i=0;i<100;i++) {
-    try {port=fs.readFileSync(path.join(profile,'DevToolsActivePort'),'utf8').split('\n')[0]; break;} catch {}
-    await new Promise(r=>setTimeout(r,100));
+  for (let i = 0; i < 100; i++) {
+    try {
+      port = fs
+        .readFileSync(path.join(profile, "DevToolsActivePort"), "utf8")
+        .split("\n")[0];
+      break;
+    } catch {}
+    await new Promise((r) => setTimeout(r, 100));
   }
-  if(!port) throw Error('Chromium failed to start');
-  const pages=await (await fetch(`http://localhost:${port}/json`)).json();
-  const page=pages.find(p=>p.url.startsWith('file:'));
-  if(!page) throw Error(JSON.stringify(pages));
-  socket=new WebSocket(page.webSocketDebuggerUrl);
-  await new Promise(r=>socket.addEventListener('open',r,{once:true}));
-  let id=0; const pending=new Map(),errors=[];
-  socket.addEventListener('message',e=>{const m=JSON.parse(e.data);if(m.method==='Runtime.exceptionThrown')errors.push(m.params.exceptionDetails);if(m.id){pending.get(m.id)?.(m);pending.delete(m.id);}});
-  const call=(method,params={})=>new Promise(resolve=>{const n=++id;pending.set(n,resolve);socket.send(JSON.stringify({id:n,method,params}));});
-  await call('Runtime.enable');
-  await call('Page.enable');
-  for(let i=0;i<100;i++) {
-    const ready=await call('Runtime.evaluate',{expression:'typeof bindGrammarInteractions'});
-    if(ready.result?.result?.value==='function') break;
-    await new Promise(r=>setTimeout(r,100));
+  if (!port) throw Error("Chromium failed to start");
+  const pages = await (await fetch(`http://localhost:${port}/json`)).json();
+  const page = pages.find((p) => p.url.startsWith("file:"));
+  if (!page) throw Error(JSON.stringify(pages));
+  socket = new WebSocket(page.webSocketDebuggerUrl);
+  await new Promise((r) => socket.addEventListener("open", r, { once: true }));
+  let id = 0;
+  const pending = new Map(),
+    errors = [];
+  socket.addEventListener("message", (e) => {
+    const m = JSON.parse(e.data);
+    if (m.method === "Runtime.exceptionThrown")
+      errors.push(m.params.exceptionDetails);
+    if (m.id) {
+      pending.get(m.id)?.(m);
+      pending.delete(m.id);
+    }
+  });
+  const call = (method, params = {}) =>
+    new Promise((resolve) => {
+      const n = ++id;
+      pending.set(n, resolve);
+      socket.send(JSON.stringify({ id: n, method, params }));
+    });
+  await call("Runtime.enable");
+  await call("Page.enable");
+  for (let i = 0; i < 100; i++) {
+    const ready = await call("Runtime.evaluate", {
+      expression: "typeof bindGrammarInteractions",
+    });
+    if (ready.result?.result?.value === "function") break;
+    await new Promise((r) => setTimeout(r, 100));
   }
-  const initial=await call('Runtime.evaluate',{awaitPromise:true,returnByValue:true,expression:`(() => {
+  const initial = await call("Runtime.evaluate", {
+    awaitPromise: true,
+    returnByValue: true,
+    expression: `(() => {
     if(vocab.length !== contentManifest.vocabulary.greetings.count || phrases.length !== 0 || !activeVocabWord) throw Error('only the initial vocabulary topic loads at startup');
     return setView('dictionary').then(() => {
       if(!contentAvailable('vocabulary') || !contentAvailable('verbs')) throw Error('dictionary loads the local word collection');
@@ -49,7 +81,7 @@ let socket;
       if(!contentAvailable('verbs')) throw Error('the All verbs default loads every verb family');
       return setView('phrases').then(() => {
         if(!contentAvailable('phrases')) throw Error('the All phrases default loads every phrase topic');
-        const pending=Number(document.querySelector('#phrase-study-lists [data-phrase-study-status="pending"] small').textContent);
+        const pending=Number(document.querySelector('#phrase-study-lists [data-study-status="pending"] small').textContent);
         if(pending!==phraseRecords().length || document.querySelector('#phrase-question').textContent==='Nothing here.') throw Error('phrase desk refreshes after lazy loading');
         const linkedPhrase=phrases.find(phrase=>phrase.wordIds?.some(id=>vocab.some(word=>word.id===id)));
         const linkedWord=vocab.find(word=>linkedPhrase.wordIds.includes(word.id));
@@ -61,11 +93,21 @@ let socket;
         return setView('dashboard');
       });
     });
-  })()`});
-  if(initial.result?.exceptionDetails)throw Error(JSON.stringify(initial.result.exceptionDetails));
-  const lazy=await call('Runtime.evaluate',{awaitPromise:true,returnByValue:true,expression:"Promise.all([ensureContent('vocabulary'), ensureContent('verbs'), ensureContent('phrases')])"});
-  if(lazy.result?.exceptionDetails)throw Error(JSON.stringify(lazy.result.exceptionDetails));
-  const result=await call('Runtime.evaluate',{returnByValue:true,expression:`(() => {
+  })()`,
+  });
+  if (initial.result?.exceptionDetails)
+    throw Error(JSON.stringify(initial.result.exceptionDetails));
+  const lazy = await call("Runtime.evaluate", {
+    awaitPromise: true,
+    returnByValue: true,
+    expression:
+      "Promise.all([ensureContent('vocabulary'), ensureContent('verbs'), ensureContent('phrases')])",
+  });
+  if (lazy.result?.exceptionDetails)
+    throw Error(JSON.stringify(lazy.result.exceptionDetails));
+  const result = await call("Runtime.evaluate", {
+    returnByValue: true,
+    expression: `(() => {
     const assert=(condition,message)=>{if(!condition)throw Error(message)};
     assert(!document.querySelector('#source-language'), 'language selector removed');
     assert([...document.querySelectorAll('.sidebar .nav-item')].map(button=>button.dataset.view).join(',')==='dashboard,dictionary,vocabulary,grammar,application,phrases,mixed,lessons,issues,settings','desk navigation follows the learning flow');
@@ -81,7 +123,7 @@ let socket;
     const oldProgress=emptyProgress();oldProgress.learned=['1'];
     localStorage.setItem('wortwerk-progress',JSON.stringify({'en-de':oldProgress}));
     assert(loadProgress().learned.length===0,'old corpus progress is not applied');
-    for(const view of ['dashboard','dictionary','vocabulary','verbs','adjectives','phrases','application','grammar','mixed','lessons','issues','settings']) setView(view);
+    for(const view of ['dashboard','dictionary','vocabulary','phrases','application','grammar','mixed','lessons','issues','settings']) setView(view);
     document.querySelector('#vocabulary-view [data-vocabulary-kind="adjectives"]').click();
     assert(currentWords().length>0 && currentWords().every(w=>w.pos==='adjective'),'adjective desk contains only adjectives');
     const adjectiveTotal=currentWords().length;
@@ -89,20 +131,20 @@ let socket;
     for(const tab of [...$('#category-tabs').querySelectorAll('[data-cat]')]) {
       assert(tab.querySelector('small').textContent===String(categoryCount(tab.dataset.cat)),'every adjective tab has count');
     }
-    const group=document.querySelector('#adjectives-category-tabs [data-cat="adjective-appearance"]');group.click();
+    const group=document.querySelector('#category-tabs [data-cat="adjective-appearance"]');group.click();
     assert(!currentWords().some(w=>w.adjectiveCategory==='appearance'),'category tabs can be turned off from the all-selected default');
     group.click();
     selectedCategories=['adjective-appearance'];renderVocabulary();
     assert(currentWords().every(w=>w.adjectiveCategory==='appearance'),'adjective group filter');
     selectedCategories=['adjectives'];renderVocabulary();
     for(const mode of ['translate','meaning','choice']) {
-      document.querySelector('#adjectives-view [data-vocab-mode="'+mode+'"]').click();
+      document.querySelector('#vocabulary-view [data-vocab-mode="'+mode+'"]').click();
       const word=activeVocabWord;
       $('#vocab-answer').value=mode==='translate'?targetText(word):sourceText(word);
       if(mode==='choice') [...$('#vocab-choice-options').children].find(b=>b.textContent===sourceText(word)).click();
-      document.querySelector('#adjectives-check-vocab').click();
-      assert(vocabCorrect && state.learned.includes(word.id),'adjective answer '+mode);
-      document.querySelector('#adjectives-check-vocab').click();
+      document.querySelector('#check-vocab').click();
+      assert(vocabCorrect && state.learned.includes(word.id),'adjective answer '+mode+' · '+targetText(word)+' / '+sourceText(word)+' · '+$('#vocab-feedback').textContent);
+      document.querySelector('#check-vocab').click();
     }
     setView('vocabulary');assert(currentWords().every(w=>!['adjective','verb'].includes(w.pos)),'ordinary vocabulary excludes adjectives and verbs');
     assert(adjectiveTotal===vocab.filter(w=>w.pos==='adjective').length,'all adjectives accessible');
@@ -112,9 +154,9 @@ let socket;
     selectedCategory='all';selectedCategories=['all'];vocabStudyStatus='pending';renderVocabulary();
     assert($('#word-list').querySelectorAll('[data-word]').length<=120,'large lists render bounded pages');
     assert($('#word-list').classList.contains('vocabulary-study-panel'),'vocabulary uses one status panel');
-    $('#word-list [data-vocab-study-status="first-shot"]').click();
-    assert($('#word-list [data-vocab-study-status="first-shot"]').classList.contains('active'),'status tabs remain selectable');
-    $('#word-list [data-vocab-study-status="pending"]').click();
+    $('#word-list [data-study-status="first-shot"]').click();
+    assert($('#word-list [data-study-status="first-shot"]').classList.contains('active'),'status tabs remain selectable');
+    $('#word-list [data-study-status="pending"]').click();
     const moreWords=$('#word-list').querySelector('.study-more');
     const rowsBefore=$('#word-list').querySelectorAll('[data-word]').length;
     moreWords.click();
@@ -141,18 +183,18 @@ let socket;
       const word=activeVocabWord;
       vocabMode='translate';showVocabCard();
       $('#vocab-answer').value='WRONG';checkVocab();
-      $('#word-list [data-vocab-study-status="wrong"]').click();
+      $('#word-list [data-study-status="wrong"]').click();
       assert($('#word-list').querySelector('[data-word="'+word.id+'"] .word-check').textContent==='✕','wrong marker updates immediately');
       selectedArticle=targetArticle(word);$('#vocab-answer').value=targetText(word).replace(/^(der|die|das) /,'');checkVocab();
-      $('#word-list [data-vocab-study-status="corrected"]').click();
+      $('#word-list [data-study-status="corrected"]').click();
       assert($('#word-list').querySelector('[data-word="'+word.id+'"] .word-check').textContent==='✓','correct marker updates immediately');
       assert(!state.issues.includes(word.id),'correct word clears its issue');
     }
     state=emptyProgress(); randomMode=false; selectedCategory='all'; selectedCategories=['house']; vocabMode='translate'; setView('vocabulary');
-    $('#word-list [data-vocab-study-status="wrong"]').click();
-    assert($('#word-list [data-vocab-study-status="wrong"]').classList.contains('active') && !$('#word-list').querySelector('[data-word]'),'zero-count status tabs can show an empty list');
+    $('#word-list [data-study-status="wrong"]').click();
+    assert($('#word-list [data-study-status="wrong"]').classList.contains('active') && !$('#word-list').querySelector('[data-word]'),'zero-count status tabs can show an empty list');
     assert($('#practice-word').textContent==='Nothing here' && $('#check-vocab').disabled,'empty vocabulary status disables the practice card');
-    $('#word-list [data-vocab-study-status="pending"]').click();
+    $('#word-list [data-study-status="pending"]').click();
     const word=activeVocabWord;
     if(targetArticle(word)) { document.querySelector('#article-choices [data-article="'+targetArticle(word)+'"]').click(); assert(selectedArticle===targetArticle(word),'article button selects vocabulary article'); }
     $('[data-vocab-article-hint]').click(); assert($('#vocab-feedback').textContent.includes('Article:'),'article hint is separate');
@@ -168,7 +210,7 @@ let socket;
     $('#vocab-answer').value=targetText(articleWord).replace(/^(der|die|das) /,'');checkVocab();
     document.querySelector('#article-choices [data-article="'+targetArticle(articleWord)+'"]').click();checkVocab();
     assert(state.articleOnlyMistakes.includes(articleWord.id) && !state.mistakes.includes(articleWord.id),'article-only errors remain separate after a correct retry');
-    $('#word-list [data-vocab-study-status="article"]').click();
+    $('#word-list [data-study-status="article"]').click();
     assert($('#word-list').querySelector('[data-word="'+articleWord.id+'"]'),'article-only corrections have their own study tab');
     assert(!answerIncludes('', 'table') && !answerIncludes('tab','table'),'reject empty and partial answers');
     assert(answerMatches('  tall  ','big / tall'),'slash alternatives');
@@ -177,7 +219,7 @@ let socket;
     assert(splitAnswerAlternatives('shirt (male/female) / blouse').length===2,'parenthetical delimiters');
     assert(answerMatches('strasse','Straße') && answerMatches('straße','Strasse'),'ß and ss are interchangeable in typed answers');
     assert(answerMatches('schoen','schön') && answerMatches('fuer','für') && answerMatches('ueber','über'),'umlauts accept their letter-e spellings in typed answers');
-    assert(answerMatches('Muenchen','München',normalizeCaseSensitiveAnswer),'case-sensitive answers retain case while accepting umlaut replacements');
+    assert(answerMatches('Muenchen','München',value=>normalizeAnswer(value,{caseSensitive:true})),'case-sensitive answers retain case while accepting umlaut replacements');
     setView('phrases');setPhraseDirection('translate');setPhraseCloze(false);setPhraseMultipleChoice(false);
     const sentenceRow=document.querySelector('#phrase-study-lists [data-phrase-id]'), sentenceId=sentenceRow.dataset.phraseId;
     sentenceRow.click();
@@ -185,16 +227,16 @@ let socket;
     assert(activePhrase?.id===sentenceId && $('#phrase-question').textContent===sourceText(activePhrase),'phrase card and selected list stay aligned');
     $('#phrase-answer').value='WRONG';checkPhrase();
     assert(!document.querySelector('#phrase-study-lists .word-row.current'),'phrase list never highlights a different phrase after an answer changes status');
-    $('#phrase-study-lists [data-phrase-study-status="wrong"]').click();
+    $('#phrase-study-lists [data-study-status="wrong"]').click();
     assert(document.querySelector('#phrase-study-lists [data-phrase-id="'+sentenceId+'"]'),'sentence moves into incorrect list');
     $('#phrase-answer').value=targetText(filteredPhrases()[phraseIndex]);checkPhrase();
-    $('#phrase-study-lists [data-phrase-study-status="correct"]').click();
+    $('#phrase-study-lists [data-study-status="correct"]').click();
     assert(document.querySelector('#phrase-study-lists [data-phrase-id="'+sentenceId+'"]'),'sentence moves into correct list');
     assert(!state.issues.includes(sentenceId),'correct sentence clears its issue');
-    $('#phrase-study-lists [data-phrase-study-status="wrong"]').click();
+    $('#phrase-study-lists [data-study-status="wrong"]').click();
     assert($('#phrase-question').textContent==='Nothing here.' && $('#check-phrase').disabled,'empty phrase status disables the practice card');
-    $('#phrase-study-lists [data-phrase-study-status="correct"]').click();
-    const sentenceCounts=[...document.querySelectorAll('#phrase-study-lists [data-phrase-study-status] small')].reduce((n,x)=>n+Number(x.textContent),0);
+    $('#phrase-study-lists [data-study-status="correct"]').click();
+    const sentenceCounts=[...document.querySelectorAll('#phrase-study-lists [data-study-status] small')].reduce((n,x)=>n+Number(x.textContent),0);
     assert(sentenceCounts===phraseRecords().length,'sentence counts cover all statuses');
     for(const settings of [
       {direction:'translate',cloze:false,choice:false},
@@ -315,28 +357,37 @@ let socket;
     mixedParts=savedMixed.parts;mixedDirections=savedMixed.directions;mixedStyles=savedMixed.styles;mixedVocabularyCategories=savedMixed.vocabulary;mixedVerbCategories=savedMixed.verbs;mixedAdjectiveCategories=savedMixed.adjectives;mixedPhraseCategories=savedMixed.phrases;setSelectedLevels(savedMixed.levels);renderMixedBuilder();nextMixed();
     assert(JSON.parse(localStorage.getItem('wortwerk-progress'))['en-de'].learned[0]==='1','old profile retained');
     setSelectedLevels(['A1']); $('[data-global-vocab-level="A2"]').click(); assert(selectedLevels.join(',')==='A1,A2','levels can be combined');
-    phraseCategory='all'; phraseCategories=['daily']; vocabMode='choice'; phraseDirection='reverse'; phraseCloze=true; phraseMultipleChoice=true; mixedParts={vocabulary:true,verbs:false,adjectives:false,phrases:true,grammar:false};mixedDirections=['toGerman'];mixedStyles=['write','cloze'];mixedVocabularyCategories=['food'];mixedVerbCategories=['verbs'];mixedAdjectiveCategories=['adjectives'];mixedPhraseCategories=['daily'];applicationSet='separable';applicationGrammarId='grammar-de-6';applicationQueue='review';applicationAskGender=false;randomMode=false; phraseRandom=false; hideVocabularyAnswers=false; grammarGrid=true; savePreferences();
+    phraseCategory='all'; phraseCategories=['daily']; vocabMode='choice'; phraseDirection='reverse'; phraseCloze=true; phraseMultipleChoice=true; mixedParts={vocabulary:true,verbs:false,adjectives:false,phrases:true,grammar:false};mixedDirections=['toGerman'];mixedStyles=['write','cloze'];mixedVocabularyCategories=['food'];mixedVerbCategories=['verbs'];mixedAdjectiveCategories=['adjectives'];mixedPhraseCategories=['daily'];applicationGrammarId='grammar-de-6';applicationQueue='review';applicationAskGender=false;randomMode=false; phraseRandom=false; hideVocabularyAnswers=false; grammarGrid=true; savePreferences();
     setView('settings');
     $('[data-accent-choice="blue"]').click(); $('[data-background-choice="dark"]').click();
     assert(document.documentElement.dataset.accent==='blue' && document.documentElement.dataset.background==='dark','settings apply accent and dark background');
     const exported=progressExportPayload(), imported=progressFromExport(JSON.stringify(exported));
     assert(exported.format==='wortwerk-progress' && exported.profile===progressKey() && imported.lessonHistory['4-1']?.completedAt,'progress export round-trip');
-    assert(imported.preferences.vocabLevels.join(',')==='A1,A2' && imported.preferences.phraseCategories[0]==='daily' && imported.preferences.phraseDirection==='reverse' && imported.preferences.phraseCloze && imported.preferences.phraseMultipleChoice && imported.preferences.mixedDirections[0]==='toGerman' && imported.preferences.mixedVocabularyCategories[0]==='food' && imported.preferences.applicationSet==='separable' && imported.preferences.applicationGrammarId==='grammar-de-6' && imported.preferences.applicationQueue==='review' && !imported.preferences.applicationAskGender && imported.preferences.grammarGrid && !imported.preferences.randomMode && imported.preferences.colorAccent==='blue' && imported.preferences.colorBackground==='dark','progress export remembers study settings');
-    setSelectedLevels(allStudyLevels); phraseCategory='all'; phraseCategories=['all']; vocabMode='translate'; phraseDirection='translate'; phraseCloze=false; phraseMultipleChoice=false; mixedParts={vocabulary:true,verbs:true,adjectives:true,phrases:true,grammar:true};mixedDirections=['toGerman','toEnglish'];mixedStyles=['write','choice','cloze'];mixedVocabularyCategories=['all'];mixedVerbCategories=['verbs'];mixedAdjectiveCategories=['adjectives'];mixedPhraseCategories=['all'];applicationSet='cases';applicationGrammarId='grammar-de-3';applicationQueue='new';applicationAskGender=true;randomMode=true; phraseRandom=true; hideVocabularyAnswers=true; grammarGrid=false;colorAccent='green';colorBackground='light';applyAppearance();savePreferences();
+    assert(imported.preferences.vocabLevels.join(',')==='A1,A2' && imported.preferences.phraseCategories[0]==='daily' && imported.preferences.phraseDirection==='reverse' && imported.preferences.phraseCloze && imported.preferences.phraseMultipleChoice && imported.preferences.mixedDirections[0]==='toGerman' && imported.preferences.mixedVocabularyCategories[0]==='food' && imported.preferences.applicationGrammarId==='grammar-de-6' && imported.preferences.applicationQueue==='review' && !imported.preferences.applicationAskGender && imported.preferences.grammarGrid && !imported.preferences.randomMode && imported.preferences.colorAccent==='blue' && imported.preferences.colorBackground==='dark','progress export remembers study settings');
+    setSelectedLevels(allStudyLevels); phraseCategory='all'; phraseCategories=['all']; vocabMode='translate'; phraseDirection='translate'; phraseCloze=false; phraseMultipleChoice=false; mixedParts={vocabulary:true,verbs:true,adjectives:true,phrases:true,grammar:true};mixedDirections=['toGerman','toEnglish'];mixedStyles=['write','choice','cloze'];mixedVocabularyCategories=['all'];mixedVerbCategories=['verbs'];mixedAdjectiveCategories=['adjectives'];mixedPhraseCategories=['all'];applicationGrammarId='grammar-de-3';applicationQueue='new';applicationAskGender=true;randomMode=true; phraseRandom=true; hideVocabularyAnswers=true; grammarGrid=false;colorAccent='green';colorBackground='light';applyAppearance();savePreferences();
     let rejected=false;try{progressFromExport(JSON.stringify({...exported,profile:'other-deck'}));}catch{rejected=true;}
     assert(rejected,'different deck progress is rejected');
     localStorage.setItem('wortwerk-progress','not valid JSON');
     assert(loadProgress().learned.length===0,'corrupt progress safely resets');
     return 'PASS: views, German grammar, directions, answer retries, alternatives, lesson pools';
-  })()`});
-  if(result.result?.exceptionDetails) errors.push(result.result.exceptionDetails);
-  if(errors.length)throw Error(JSON.stringify(errors,null,2));
+  })()`,
+  });
+  if (result.result?.exceptionDetails)
+    errors.push(result.result.exceptionDetails);
+  if (errors.length) throw Error(JSON.stringify(errors, null, 2));
   console.log(result.result.result.value);
   for (const width of [320, 390, 768, 1024, 1440, 1920]) {
-    await call('Emulation.setDeviceMetricsOverride',{width,height:900,deviceScaleFactor:1,mobile:false});
-    const layout=await call('Runtime.evaluate',{returnByValue:true,expression:`(() => {
+    await call("Emulation.setDeviceMetricsOverride", {
+      width,
+      height: 900,
+      deviceScaleFactor: 1,
+      mobile: false,
+    });
+    const layout = await call("Runtime.evaluate", {
+      returnByValue: true,
+      expression: `(() => {
       const failures=[];
-      for(const view of ['dashboard','dictionary','vocabulary','verbs','adjectives','phrases','application','grammar','mixed','lessons','issues','settings']) {
+      for(const view of ['dashboard','dictionary','vocabulary','phrases','application','grammar','mixed','lessons','issues','settings']) {
         setView(view);
         if(document.documentElement.scrollWidth>innerWidth+1) failures.push({view,width:innerWidth,scrollWidth:document.documentElement.scrollWidth});
         for(const button of document.querySelectorAll('.active-view .practice-actions .primary-btn, .active-view .phrase-actions .primary-btn, .active-view .grammar-test > button, .active-view .lesson-start')) {
@@ -360,19 +411,38 @@ let socket;
       if(document.documentElement.scrollWidth>innerWidth+1 || document.getElementById('check-mixed').getBoundingClientRect().width>241) failures.push({view:'lesson session',reason:'lesson practice overflow or button width'});
       setView('mixed');
       return failures;
-    })()`});
-    if(layout.result?.exceptionDetails)throw Error(JSON.stringify(layout.result.exceptionDetails));
-    if(layout.result.result.value.length)throw Error('Layout overflow: '+JSON.stringify(layout.result.result.value));
-    if(process.env.SCREENSHOT_DIR && [390,1440].includes(width)) {
-      await call('Runtime.evaluate',{expression:"setView('adjectives');window.scrollTo(0,0)"});
-      const capture=await call('Page.captureScreenshot',{format:'png'});
-      fs.mkdirSync(process.env.SCREENSHOT_DIR,{recursive:true});
-      fs.writeFileSync(path.join(process.env.SCREENSHOT_DIR,`adjectives-${width}.png`),Buffer.from(capture.result.data,'base64'));
+    })()`,
+    });
+    if (layout.result?.exceptionDetails)
+      throw Error(JSON.stringify(layout.result.exceptionDetails));
+    if (layout.result.result.value.length)
+      throw Error(
+        "Layout overflow: " + JSON.stringify(layout.result.result.value),
+      );
+    if (process.env.SCREENSHOT_DIR && [390, 1440].includes(width)) {
+      await call("Runtime.evaluate", {
+        expression: "setView('adjectives');window.scrollTo(0,0)",
+      });
+      const capture = await call("Page.captureScreenshot", { format: "png" });
+      fs.mkdirSync(process.env.SCREENSHOT_DIR, { recursive: true });
+      fs.writeFileSync(
+        path.join(process.env.SCREENSHOT_DIR, `adjectives-${width}.png`),
+        Buffer.from(capture.result.data, "base64"),
+      );
     }
   }
-  console.log('PASS: all twelve views fit 320, 390, 768, 1024, 1440 and 1920px');
-})().catch(e=>{console.error(e);process.exitCode=1}).finally(()=>{
-  socket?.close();
-  browser.once('exit',()=>fs.rmSync(profile,{recursive:true,force:true}));
-  browser.kill();
-});
+  console.log(
+    "PASS: all ten desks fit 320, 390, 768, 1024, 1440 and 1920px",
+  );
+})()
+  .catch((e) => {
+    console.error(e);
+    process.exitCode = 1;
+  })
+  .finally(() => {
+    socket?.close();
+    browser.once("exit", () =>
+      fs.rmSync(profile, { recursive: true, force: true }),
+    );
+    browser.kill();
+  });

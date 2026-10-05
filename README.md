@@ -62,7 +62,7 @@ shows only its three rounds; progress is tracked per round.
 ## Project layout
 
 - [`index.html`](index.html) — application shell and view markup.
-- [`styles.css`](styles.css) — visual design and responsive layout.
+- [`styles/`](styles/) — formatted core and desk-specific visual design, loaded directly by the static page.
 - [`app.js`](app.js) — static loader for feature files and on-demand content.
 - [`app/`](app/) — state, practice logic, rendering, and
   lesson integration.

@@ -48,7 +48,7 @@
   window.contentTotals = contentManifest.totals;
   async function loadFeatures() {
     var files = [
-      "app/state.js", "app/settings.js", "app/vocabulary.js", "app/dictionary.js", "app/phrases.js",
+      "app/state.js", "app/practice.js", "app/settings.js", "app/vocabulary.js", "app/dictionary.js", "app/phrases.js",
       "app/application.js", "app/mixed.js", "app/lessons.js", "app/integration.js", "app/ui.js",
     ];
     for (const path of files) await loadScript(path);

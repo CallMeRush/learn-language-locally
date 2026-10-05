@@ -52,10 +52,11 @@ for(const g of grammarLessons){
   for(const t of g.tests){assert.equal(typeof t.prompt,'string');assert(t.answers.length);assert(t.explain?.trim(),'Grammar check needs an explanation');}
 }
 const applicationIds=new Set();
+const grammarIds=new Set(grammarLessons.map(record=>record.id));
 for(const record of grammarApplications){
   assert.match(record.id,/^(case|modal|separable)-[1-9]\d*$/);
   assert(!applicationIds.has(record.id),'Duplicate grammar application ID '+record.id);applicationIds.add(record.id);
-  assert(['cases','modals','separable'].includes(record.set));assert(levels.has(record.level));
+  assert(['cases','modals','separable'].includes(record.set));assert(grammarIds.has(record.grammarId),'Missing grammar application topic '+record.id);assert(levels.has(record.level));
   assert(record.translations?.en?.text&&record.translations?.de?.text);
   assert(record.exercise?.blanked?.includes('___'),'Grammar application needs one blank '+record.id);
   assert.equal(record.exercise.blanked.replace('___',record.exercise.answer),record.translations.de.text,'Grammar application blank mismatch '+record.id);

@@ -1,8 +1,12 @@
 function lessonChoiceItems(kind, fallback) {
   if (!activeLesson) return fallback;
-  return [...new Set(lessonPool(activeLesson)
-    .filter(question => question.kind.startsWith(kind))
-    .map(question => question.item))];
+  return [
+    ...new Set(
+      lessonPool(activeLesson)
+        .filter((question) => question.kind.startsWith(kind))
+        .map((question) => question.item),
+    ),
+  ];
 }
 function mixedLevelOfPhrase(phrase) {
   return phrase.level === "easy"
@@ -38,20 +42,40 @@ function mixedVocabularyRecords(levelOk, options) {
   return vocab.filter((word) => {
     if (!levelOk(word.level)) return false;
     if (word.category === "verbs")
-      return mixedCategorySelected(options.verbCategories, "verbs", "verb-" + word.verbCategory);
+      return mixedCategorySelected(
+        options.verbCategories,
+        "verbs",
+        "verb-" + word.verbCategory,
+      );
     if (word.pos === "adjective")
-      return mixedCategorySelected(options.adjectiveCategories, "adjectives", "adjective-" + word.adjectiveCategory);
-    return mixedCategorySelected(options.vocabularyCategories, "all", word.category);
+      return mixedCategorySelected(
+        options.adjectiveCategories,
+        "adjectives",
+        "adjective-" + word.adjectiveCategory,
+      );
+    return mixedCategorySelected(
+      options.vocabularyCategories,
+      "all",
+      word.category,
+    );
   });
 }
 function mixedPhraseRecords(levelOk, options) {
-  return phrases.filter((phrase) =>
-    levelOk(mixedLevelOfPhrase(phrase)) &&
-    mixedCategorySelected(options.phraseCategories, "all", phrase.category),
+  return phrases.filter(
+    (phrase) =>
+      levelOk(mixedLevelOfPhrase(phrase)) &&
+      mixedCategorySelected(options.phraseCategories, "all", phrase.category),
   );
 }
-function mixedPool(level = mixedLevel, parts = mixedParts, options = mixedOptions()) {
-  var levelOk = (value) => Array.isArray(level) ? level.includes(value) : level === "all" || value === level,
+function mixedPool(
+  level = mixedLevel,
+  parts = mixedParts,
+  options = mixedOptions(),
+) {
+  var levelOk = (value) =>
+      Array.isArray(level)
+        ? level.includes(value)
+        : level === "all" || value === level,
     pool = [],
     writes = options.styles.includes("write"),
     choices = options.styles.includes("choice"),
@@ -59,24 +83,69 @@ function mixedPool(level = mixedLevel, parts = mixedParts, options = mixedOption
     toGerman = options.directions.includes("toGerman"),
     toEnglish = options.directions.includes("toEnglish");
   mixedVocabularyRecords(levelOk, options)
-    .filter((word) => parts[word.category === "verbs" ? "verbs" : word.pos === "adjective" ? (parts.adjectives ?? parts.vocabulary) : "vocabulary"])
+    .filter(
+      (word) =>
+        parts[
+          word.category === "verbs"
+            ? "verbs"
+            : word.pos === "adjective"
+              ? (parts.adjectives ?? parts.vocabulary)
+              : "vocabulary"
+        ],
+    )
     .forEach((word) => {
-      if (writes && toEnglish) pool.push({ kind: "vocab-meaning", level: word.level, item: word });
-      if (writes && toGerman) pool.push({ kind: "vocab-translate", level: word.level, item: word });
-      if (choices && toEnglish) pool.push({ kind: "vocab-choice", level: word.level, item: word });
-      if (choices && toGerman) pool.push({ kind: "vocab-choice-translate", level: word.level, item: word });
+      if (writes && toEnglish)
+        pool.push({ kind: "vocab-meaning", level: word.level, item: word });
+      if (writes && toGerman)
+        pool.push({ kind: "vocab-translate", level: word.level, item: word });
+      if (choices && toEnglish)
+        pool.push({ kind: "vocab-choice", level: word.level, item: word });
+      if (choices && toGerman)
+        pool.push({
+          kind: "vocab-choice-translate",
+          level: word.level,
+          item: word,
+        });
     });
   if (parts.phrases)
     mixedPhraseRecords(levelOk, options).forEach((phrase) => {
       var phraseLevel = mixedLevelOfPhrase(phrase);
-      if (writes && toGerman) pool.push({ kind: "phrase-translate", level: phraseLevel, item: phrase });
-      if (writes && toEnglish) pool.push({ kind: "phrase-reverse", level: phraseLevel, item: phrase });
-      if (choices && toGerman) pool.push({ kind: "phrase-choice-translate", level: phraseLevel, item: phrase });
-      if (choices && toEnglish) pool.push({ kind: "phrase-choice-reverse", level: phraseLevel, item: phrase });
-      if (clozes && (writes || !choices) && toGerman) pool.push({ kind: "phrase-cloze", level: phraseLevel, item: phrase });
-      if (clozes && (writes || !choices) && toEnglish) pool.push({ kind: "phrase-cloze-reverse", level: phraseLevel, item: phrase });
-      if (clozes && choices && toGerman) pool.push({ kind: "phrase-choice", level: phraseLevel, item: phrase });
-      if (clozes && choices && toEnglish) pool.push({ kind: "phrase-cloze-choice-reverse", level: phraseLevel, item: phrase });
+      if (writes && toGerman)
+        pool.push({
+          kind: "phrase-translate",
+          level: phraseLevel,
+          item: phrase,
+        });
+      if (writes && toEnglish)
+        pool.push({ kind: "phrase-reverse", level: phraseLevel, item: phrase });
+      if (choices && toGerman)
+        pool.push({
+          kind: "phrase-choice-translate",
+          level: phraseLevel,
+          item: phrase,
+        });
+      if (choices && toEnglish)
+        pool.push({
+          kind: "phrase-choice-reverse",
+          level: phraseLevel,
+          item: phrase,
+        });
+      if (clozes && (writes || !choices) && toGerman)
+        pool.push({ kind: "phrase-cloze", level: phraseLevel, item: phrase });
+      if (clozes && (writes || !choices) && toEnglish)
+        pool.push({
+          kind: "phrase-cloze-reverse",
+          level: phraseLevel,
+          item: phrase,
+        });
+      if (clozes && choices && toGerman)
+        pool.push({ kind: "phrase-choice", level: phraseLevel, item: phrase });
+      if (clozes && choices && toEnglish)
+        pool.push({
+          kind: "phrase-cloze-choice-reverse",
+          level: phraseLevel,
+          item: phrase,
+        });
     });
 
   if (parts.grammar)
@@ -110,21 +179,42 @@ function mixedSetOptions(items, correct, property) {
 }
 function mixedWordForm(word) {
   var article = targetArticle(word);
-  return article ? targetText(word).replace(new RegExp("^" + article + " "), "") : targetText(word);
+  return article
+    ? targetText(word).replace(new RegExp("^" + article + " "), "")
+    : targetText(word);
 }
 function mixedPhraseAnswerLanguage(kind) {
-  return ["phrase-reverse", "phrase-choice-reverse", "phrase-cloze-reverse", "phrase-cloze-choice-reverse"].includes(kind) ? "en" : "de";
+  return [
+    "phrase-reverse",
+    "phrase-choice-reverse",
+    "phrase-cloze-reverse",
+    "phrase-cloze-choice-reverse",
+  ].includes(kind)
+    ? "en"
+    : "de";
 }
 function mixedPhraseIsCloze(kind) {
-  return ["phrase-cloze", "phrase-cloze-reverse", "phrase-choice", "phrase-cloze-choice-reverse"].includes(kind);
+  return [
+    "phrase-cloze",
+    "phrase-cloze-reverse",
+    "phrase-choice",
+    "phrase-cloze-choice-reverse",
+  ].includes(kind);
 }
 function mixedPhraseIsChoice(kind) {
-  return ["phrase-choice", "phrase-choice-translate", "phrase-choice-reverse", "phrase-cloze-choice-reverse"].includes(kind);
+  return [
+    "phrase-choice",
+    "phrase-choice-translate",
+    "phrase-choice-reverse",
+    "phrase-cloze-choice-reverse",
+  ].includes(kind);
 }
 function mixedExpectedAnswer(question) {
   var item = question.item;
   if (question.kind.startsWith("vocab"))
-    return ["vocab-translate", "vocab-choice-translate"].includes(question.kind) ? mixedWordForm(item) : sourceText(item);
+    return ["vocab-translate", "vocab-choice-translate"].includes(question.kind)
+      ? mixedWordForm(item)
+      : sourceText(item);
   if (question.kind.startsWith("phrase")) {
     var language = mixedPhraseAnswerLanguage(question.kind);
     return mixedPhraseIsCloze(question.kind)
@@ -178,19 +268,22 @@ function nextMixed(question = null) {
   if (q.kind.startsWith("vocab")) {
     var article = targetArticle(item),
       word = mixedWordForm(item),
-      germanAnswer = ["vocab-translate", "vocab-choice-translate"].includes(q.kind),
+      germanAnswer = ["vocab-translate", "vocab-choice-translate"].includes(
+        q.kind,
+      ),
       choice = q.kind.startsWith("vocab-choice"),
-      candidates = lessonChoiceItems("vocab", mixedVocabularyRecords(value => value === q.level, mixedOptions()));
-    $("#mixed-prompt").textContent =
-      germanAnswer ? sourceText(item) : word;
-    $("#mixed-hint").textContent =
-      germanAnswer
-        ? translatePrompt()
-        : choice
-          ? meaningPrompt()
-          : article
-            ? "Choose the article and type the meaning."
-            : "Type the meaning.";
+      candidates = lessonChoiceItems(
+        "vocab",
+        mixedVocabularyRecords((value) => value === q.level, mixedOptions()),
+      );
+    $("#mixed-prompt").textContent = germanAnswer ? sourceText(item) : word;
+    $("#mixed-hint").textContent = germanAnswer
+      ? translatePrompt()
+      : choice
+        ? meaningPrompt()
+        : article
+          ? "Choose the article and type the meaning."
+          : "Type the meaning.";
     if (article && germanAnswer) {
       $("#mixed-article").style.display = "flex";
       $("#mixed-article span").textContent = "Article";
@@ -225,13 +318,16 @@ function nextMixed(question = null) {
     var answerLanguage = mixedPhraseAnswerLanguage(q.kind),
       clozeMode = mixedPhraseIsCloze(q.kind),
       choiceMode = mixedPhraseIsChoice(q.kind),
-      phraseCandidates = lessonChoiceItems("phrase", mixedPhraseRecords(value => value === q.level, mixedOptions()));
-    $("#mixed-prompt").textContent = answerLanguage === "en" ? targetText(item) : sourceText(item);
-    $("#mixed-hint").textContent =
-      clozeMode
-        ? `Complete the missing ${answerLanguage === "de" ? "German" : "English"} word.`
-        : answerLanguage === "en"
-          ? "Translate this into English."
+      phraseCandidates = lessonChoiceItems(
+        "phrase",
+        mixedPhraseRecords((value) => value === q.level, mixedOptions()),
+      );
+    $("#mixed-prompt").textContent =
+      answerLanguage === "en" ? targetText(item) : sourceText(item);
+    $("#mixed-hint").textContent = clozeMode
+      ? `Complete the missing ${answerLanguage === "de" ? "German" : "English"} word.`
+      : answerLanguage === "en"
+        ? "Translate this into English."
         : translatePrompt();
     if (clozeMode) {
       var cloze = clozeFor(item, answerLanguage);
@@ -244,7 +340,11 @@ function nextMixed(question = null) {
       $("#mixed-options").style.display = "grid";
       var options = clozeMode
         ? phraseChoiceOptions(item, cloze, phraseCandidates, answerLanguage)
-        : phraseTranslationChoiceOptions(item, phraseCandidates, answerLanguage);
+        : phraseTranslationChoiceOptions(
+            item,
+            phraseCandidates,
+            answerLanguage,
+          );
       options.forEach((option) => {
         var button = document.createElement("button");
         button.className = "choice-option";
@@ -259,7 +359,11 @@ function nextMixed(question = null) {
         };
         $("#mixed-options").append(button);
       });
-    } else if (!clozeMode) $("#mixed-answer").placeholder = answerLanguage === "en" ? "Type the English translation…" : translatePrompt();
+    } else if (!clozeMode)
+      $("#mixed-answer").placeholder =
+        answerLanguage === "en"
+          ? "Type the English translation…"
+          : translatePrompt();
   } else {
     $("#mixed-prompt").textContent = item.test.prompt;
     $("#mixed-hint").textContent =
@@ -273,7 +377,8 @@ function showEmptyMixed() {
   $("#mixed-type").textContent = "MIXED PRACTICE";
   $("#mixed-level-label").textContent = "—";
   $("#mixed-prompt").textContent = "Nothing in this session.";
-  $("#mixed-hint").textContent = "Choose at least one content type, direction, and practice style with matching levels and topics.";
+  $("#mixed-hint").textContent =
+    "Choose at least one content type, direction, and practice style with matching levels and topics.";
   $("#mixed-cloze").innerHTML = "";
   $("#mixed-options").innerHTML = "";
   $("#mixed-options").style.display = "none";
@@ -292,7 +397,9 @@ function checkMixed() {
       ? mixedChoice
       : $("#mixed-answer").value.trim(),
     article = targetArticle(item),
-    articleRequired = q.kind.startsWith("vocab") && ["vocab-translate", "vocab-choice-translate"].includes(q.kind),
+    articleRequired =
+      q.kind.startsWith("vocab") &&
+      ["vocab-translate", "vocab-choice-translate"].includes(q.kind),
     word = targetText(item)
       ? article
         ? targetText(item).replace(/^(der|die|das) /, "")
@@ -302,11 +409,21 @@ function checkMixed() {
   var expected = mixedExpectedAnswer(q),
     wordCorrect = q.kind.startsWith("vocab")
       ? ["vocab-translate", "vocab-choice-translate"].includes(q.kind)
-        ? answerMatches(raw, expected, targetMeta(item).caseSensitive ? normalizeCaseSensitiveAnswer : normalizeAnswer)
+        ? answerMatches(
+            raw,
+            expected,
+            targetMeta(item).caseSensitive
+              ? (value) => normalizeAnswer(value, { caseSensitive: true })
+              : normalizeAnswer,
+          )
         : answerIncludes(raw, expected)
       : q.kind.startsWith("phrase")
-        ? answerMatches(raw, expected, (value) => normalizeAnswer(value).replace(/[.,!?;:]/g, ""))
-        : item.test.answers.some((answer) => answerMatches(raw, answer, grammarNormalize));
+        ? answerMatches(raw, expected, (value) =>
+            normalizeAnswer(value).replace(/[.,!?;:]/g, ""),
+          )
+        : item.test.answers.some((answer) =>
+            answerMatches(raw, answer, grammarNormalize),
+          );
   var ok = articleCorrect && wordCorrect;
   mixedAnswered = true;
   mixedCorrect = ok;
@@ -317,7 +434,8 @@ function checkMixed() {
       state.learned.push(item.id);
     if (q.kind.startsWith("phrase") && !state.phrases.includes(item.id))
       state.phrases.push(item.id);
-    if (q.kind.startsWith("vocab") || q.kind.startsWith("phrase")) resolveIssue(item.id);
+    if (q.kind.startsWith("vocab") || q.kind.startsWith("phrase"))
+      resolveIssue(item.id);
     $("#mixed-feedback").textContent =
       "Correct! Press Enter again for the next question.";
     $("#mixed-feedback").className = "feedback good";
@@ -326,7 +444,8 @@ function checkMixed() {
     if (q.kind.startsWith("vocab") || q.kind.startsWith("phrase")) {
       if (!state.issues.includes(item.id)) state.issues.push(item.id);
     }
-    if (q.kind.startsWith("vocab")) recordMistake(item.id, !articleCorrect && wordCorrect);
+    if (q.kind.startsWith("vocab"))
+      recordMistake(item.id, !articleCorrect && wordCorrect);
     $("#mixed-feedback").textContent =
       article && !articleCorrect && !mixedArticle
         ? "The article is missing."
@@ -344,31 +463,77 @@ function checkMixed() {
   }
   if (activeLesson && !ok) {
     var bucket = lessonPhase === "review" ? lessonReviewErrors : lessonErrors;
-    if (!bucket.some((question) => question.kind === q.kind && question.item === q.item)) bucket.push(q);
+    if (
+      !bucket.some(
+        (question) => question.kind === q.kind && question.item === q.item,
+      )
+    )
+      bucket.push(q);
   }
   if (activeLesson) saveLessonSession();
   updateMixedCheckButton();
 }
 function mixedBuilderCategoryRecords(kind) {
-  if (kind === "vocabulary") return categoryRecords.filter(record => record.id === "all" || (!record.id.startsWith("verb-") && !record.id.startsWith("adjective-") && !["verbs", "adjectives"].includes(record.id)));
-  if (kind === "verbs") return categoryRecords.filter(record => record.id === "verbs" || record.id.startsWith("verb-"));
-  if (kind === "adjectives") return categoryRecords.filter(record => record.id === "adjectives" || record.id.startsWith("adjective-"));
-  return ["all", ...Object.keys(contentManifest.phrases)].map(id => ({ id }));
+  if (kind === "vocabulary")
+    return categoryRecords.filter(
+      (record) =>
+        record.id === "all" ||
+        (!record.id.startsWith("verb-") &&
+          !record.id.startsWith("adjective-") &&
+          !["verbs", "adjectives"].includes(record.id)),
+    );
+  if (kind === "verbs")
+    return categoryRecords.filter(
+      (record) => record.id === "verbs" || record.id.startsWith("verb-"),
+    );
+  if (kind === "adjectives")
+    return categoryRecords.filter(
+      (record) =>
+        record.id === "adjectives" || record.id.startsWith("adjective-"),
+    );
+  return ["all", ...Object.keys(contentManifest.phrases)].map((id) => ({ id }));
 }
 function mixedBuilderCategoryCount(kind, key) {
-  if (kind === "phrases") return phrases.filter(phrase => levelSelected(mixedLevelOfPhrase(phrase)) && (key === "all" || phrase.category === key)).length;
+  if (kind === "phrases")
+    return phrases.filter(
+      (phrase) =>
+        levelSelected(mixedLevelOfPhrase(phrase)) &&
+        (key === "all" || phrase.category === key),
+    ).length;
   return vocab.filter((word) => {
     if (!levelSelected(word.level)) return false;
-    if (kind === "verbs") return word.category === "verbs" && (key === "verbs" || "verb-" + word.verbCategory === key);
-    if (kind === "adjectives") return word.pos === "adjective" && (key === "adjectives" || "adjective-" + word.adjectiveCategory === key);
-    return word.category !== "verbs" && word.pos !== "adjective" && (key === "all" || word.category === key);
+    if (kind === "verbs")
+      return (
+        word.category === "verbs" &&
+        (key === "verbs" || "verb-" + word.verbCategory === key)
+      );
+    if (kind === "adjectives")
+      return (
+        word.pos === "adjective" &&
+        (key === "adjectives" || "adjective-" + word.adjectiveCategory === key)
+      );
+    return (
+      word.category !== "verbs" &&
+      word.pos !== "adjective" &&
+      (key === "all" || word.category === key)
+    );
   }).length;
 }
 function mixedBuilderSelection(kind) {
-  return ({ vocabulary: mixedVocabularyCategories, verbs: mixedVerbCategories, adjectives: mixedAdjectiveCategories, phrases: mixedPhraseCategories })[kind];
+  return {
+    vocabulary: mixedVocabularyCategories,
+    verbs: mixedVerbCategories,
+    adjectives: mixedAdjectiveCategories,
+    phrases: mixedPhraseCategories,
+  }[kind];
 }
 function mixedBuilderAllKey(kind) {
-  return ({ vocabulary: "all", verbs: "verbs", adjectives: "adjectives", phrases: "all" })[kind];
+  return {
+    vocabulary: "all",
+    verbs: "verbs",
+    adjectives: "adjectives",
+    phrases: "all",
+  }[kind];
 }
 function mixedBuilderChip(group, value, label, selected, count = "") {
   return `<button type="button" class="mixed-builder-chip ${selected ? "selected" : ""}" data-mixed-${group}="${value}" aria-pressed="${selected}"><i>✓</i>${label}${count === "" ? "" : ` <small>${count}</small>`}</button>`;
@@ -376,39 +541,86 @@ function mixedBuilderChip(group, value, label, selected, count = "") {
 function renderMixedBuilder() {
   var builder = document.getElementById("mixed-builder");
   if (!builder) return;
-  var partLabels = { vocabulary: "Words", verbs: "Verbs", adjectives: "Adjectives", phrases: "Phrases", grammar: "Grammar" },
+  var partLabels = {
+      vocabulary: "Words",
+      verbs: "Verbs",
+      adjectives: "Adjectives",
+      phrases: "Phrases",
+      grammar: "Grammar",
+    },
     poolCount = mixedPool().length,
     categorySections = ["vocabulary", "verbs", "adjectives", "phrases"]
-      .filter(kind => mixedParts[kind])
-      .map(kind => {
-        var allKey = mixedBuilderAllKey(kind), selection = mixedBuilderSelection(kind);
-        return `<section class="mixed-builder-category"><p>${kind === "phrases" ? "PHRASE TOPICS" : kind.toUpperCase() + " TOPICS"}</p><div class="mixed-builder-chips">${mixedBuilderCategoryRecords(kind).map(record => mixedBuilderChip("category", kind + ":" + record.id, record.id === "all" && kind === "phrases" ? "All phrases" : categoryLabel(record.id), mixedCategorySelected(selection, allKey, record.id), mixedBuilderCategoryCount(kind, record.id))).join("")}</div></section>`;
+      .filter((kind) => mixedParts[kind])
+      .map((kind) => {
+        var allKey = mixedBuilderAllKey(kind),
+          selection = mixedBuilderSelection(kind);
+        return `<section class="mixed-builder-category"><p>${kind === "phrases" ? "PHRASE TOPICS" : kind.toUpperCase() + " TOPICS"}</p><div class="mixed-builder-chips">${mixedBuilderCategoryRecords(
+          kind,
+        )
+          .map((record) =>
+            mixedBuilderChip(
+              "category",
+              kind + ":" + record.id,
+              record.id === "all" && kind === "phrases"
+                ? "All phrases"
+                : categoryLabel(record.id),
+              mixedCategorySelected(selection, allKey, record.id),
+              mixedBuilderCategoryCount(kind, record.id),
+            ),
+          )
+          .join("")}</div></section>`;
       })
       .join("");
-  builder.innerHTML = `<header><div><p class="eyebrow">BUILD A SESSION</p><h2>Choose what you want to practise.</h2></div><span>${poolCount.toLocaleString()} question variations</span></header><section class="mixed-builder-section"><p>INCLUDE</p><div class="mixed-builder-chips">${Object.entries(partLabels).map(([key, label]) => mixedBuilderChip("part", key, label, mixedParts[key])).join("")}</div></section><section class="mixed-builder-section"><p>LEVELS</p><div class="mixed-builder-chips">${mixedBuilderChip("level", "all", "All levels", selectedLevels.length === allStudyLevels.length)}${allStudyLevels.map(level => mixedBuilderChip("level", level, level, levelSelected(level))).join("")}</div></section><section class="mixed-builder-section"><p>DIRECTION</p><div class="mixed-builder-chips">${mixedBuilderChip("direction", "toGerman", "English → German", mixedDirections.includes("toGerman"))}${mixedBuilderChip("direction", "toEnglish", "German → English", mixedDirections.includes("toEnglish"))}</div></section><section class="mixed-builder-section"><p>PRACTICE STYLE</p><div class="mixed-builder-chips">${mixedBuilderChip("style", "write", "Write the answer", mixedStyles.includes("write"))}${mixedBuilderChip("style", "choice", "Multiple choice", mixedStyles.includes("choice"))}${mixedBuilderChip("style", "cloze", "Fill the blank", mixedStyles.includes("cloze"))}</div></section>${categorySections}${mixedParts.grammar ? '<p class="mixed-builder-note">Grammar checks follow the selected levels. Direction and style shape word and phrase questions. Fill the blank uses writing unless Multiple choice is selected; grammar uses its own checks.</p>' : mixedStyles.includes("cloze") ? '<p class="mixed-builder-note">Fill the blank uses writing unless Multiple choice is selected.</p>' : ""}`;
-  builder.querySelectorAll("[data-mixed-part]").forEach(button => button.onclick = () => {
-    mixedParts = { ...mixedParts, [button.dataset.mixedPart]: !mixedParts[button.dataset.mixedPart] };
-    refreshMixedSession();
-  });
-  builder.querySelectorAll("[data-mixed-level]").forEach(button => {
-    button.onclick = () => { toggleStudyLevel(button.dataset.mixedLevel); refreshMixedSession(); };
-  });
-  builder.querySelectorAll("[data-mixed-direction], [data-mixed-style]").forEach(button => {
+  builder.innerHTML = `<header><div><p class="eyebrow">BUILD A SESSION</p><h2>Choose what you want to practise.</h2></div><span>${poolCount.toLocaleString()} question variations</span></header><section class="mixed-builder-section"><p>INCLUDE</p><div class="mixed-builder-chips">${Object.entries(
+    partLabels,
+  )
+    .map(([key, label]) =>
+      mixedBuilderChip("part", key, label, mixedParts[key]),
+    )
+    .join(
+      "",
+    )}</div></section><section class="mixed-builder-section"><p>LEVELS</p><div class="mixed-builder-chips">${mixedBuilderChip("level", "all", "All levels", selectedLevels.length === allStudyLevels.length)}${allStudyLevels.map((level) => mixedBuilderChip("level", level, level, levelSelected(level))).join("")}</div></section><section class="mixed-builder-section"><p>DIRECTION</p><div class="mixed-builder-chips">${mixedBuilderChip("direction", "toGerman", "English → German", mixedDirections.includes("toGerman"))}${mixedBuilderChip("direction", "toEnglish", "German → English", mixedDirections.includes("toEnglish"))}</div></section><section class="mixed-builder-section"><p>PRACTICE STYLE</p><div class="mixed-builder-chips">${mixedBuilderChip("style", "write", "Write the answer", mixedStyles.includes("write"))}${mixedBuilderChip("style", "choice", "Multiple choice", mixedStyles.includes("choice"))}${mixedBuilderChip("style", "cloze", "Fill the blank", mixedStyles.includes("cloze"))}</div></section>${categorySections}${mixedParts.grammar ? '<p class="mixed-builder-note">Grammar checks follow the selected levels. Direction and style shape word and phrase questions. Fill the blank uses writing unless Multiple choice is selected; grammar uses its own checks.</p>' : mixedStyles.includes("cloze") ? '<p class="mixed-builder-note">Fill the blank uses writing unless Multiple choice is selected.</p>' : ""}`;
+  builder.querySelectorAll("[data-mixed-part]").forEach(
+    (button) =>
+      (button.onclick = () => {
+        mixedParts = {
+          ...mixedParts,
+          [button.dataset.mixedPart]: !mixedParts[button.dataset.mixedPart],
+        };
+        refreshMixedSession();
+      }),
+  );
+  builder.querySelectorAll("[data-mixed-level]").forEach((button) => {
     button.onclick = () => {
-      var directions = !!button.dataset.mixedDirection,
-        value = button.dataset.mixedDirection || button.dataset.mixedStyle,
-        current = directions ? mixedDirections : mixedStyles,
-        next = current.includes(value) ? current.filter(item => item !== value) : [...current, value];
-      if (directions) mixedDirections = next;
-      else mixedStyles = next;
+      toggleStudyLevel(button.dataset.mixedLevel);
       refreshMixedSession();
     };
   });
-  builder.querySelectorAll("[data-mixed-category]").forEach(button => {
+  builder
+    .querySelectorAll("[data-mixed-direction], [data-mixed-style]")
+    .forEach((button) => {
+      button.onclick = () => {
+        var directions = !!button.dataset.mixedDirection,
+          value = button.dataset.mixedDirection || button.dataset.mixedStyle,
+          current = directions ? mixedDirections : mixedStyles,
+          next = current.includes(value)
+            ? current.filter((item) => item !== value)
+            : [...current, value];
+        if (directions) mixedDirections = next;
+        else mixedStyles = next;
+        refreshMixedSession();
+      };
+    });
+  builder.querySelectorAll("[data-mixed-category]").forEach((button) => {
     button.onclick = () => {
       var [kind, key] = button.dataset.mixedCategory.split(":"),
-        entries = mixedBuilderCategoryRecords(kind).map(record => record.id),
-        next = toggleCategorySelection(mixedBuilderSelection(kind), mixedBuilderAllKey(kind), entries, key);
+        entries = mixedBuilderCategoryRecords(kind).map((record) => record.id),
+        next = toggleCategorySelection(
+          mixedBuilderSelection(kind),
+          mixedBuilderAllKey(kind),
+          entries,
+          key,
+        );
       if (kind === "vocabulary") mixedVocabularyCategories = next;
       else if (kind === "verbs") mixedVerbCategories = next;
       else if (kind === "adjectives") mixedAdjectiveCategories = next;
@@ -434,7 +646,14 @@ function updateMixedCheckButton() {
   var button = $("#check-mixed");
   if (!button || lessonComplete) return;
   if (!mixedQuestion) return;
-  updateCheckButton(button, mixedCorrect, "Check answer", "Next question", checkMixed, advanceMixed);
+  updateCheckButton(
+    button,
+    mixedCorrect,
+    "Check answer",
+    "Next question",
+    checkMixed,
+    advanceMixed,
+  );
 }
 function advanceMixed() {
   if (activeLesson) nextLessonQuestion();
@@ -448,24 +667,6 @@ $("#mixed-answer").onkeydown = (e) => {
   if (mixedAnswered && mixedCorrect) advanceMixed();
   else checkMixed();
 };
-      advanceMixed();
-$$(".heading-actions").forEach((el) =>
-  el
-    .querySelector(".vocab-direction")
-    .insertAdjacentHTML(
-      "beforeend",
-      '<button class="vocab-mode" data-vocab-mode="choice">Multiple choice</button>',
-    ),
-);
-$$(".vocab-mode").forEach(
-  (b) =>
-    (b.onclick = () => {
-      $$(".vocab-mode").forEach((x) => x.classList.remove("active"));
-      b.classList.add("active");
-      vocabMode = b.dataset.vocabMode;
-      showVocabCard();
-    }),
-);
 function lessonLocale(lesson) {
   return lesson.localized.en;
 }
@@ -473,7 +674,17 @@ function lessonPool(lesson) {
   var activities = lesson.activities || [],
     pool = [];
   if (activities.some((a) => a.type === "mixed"))
-    return mixedPool(lesson.level || "all", { vocabulary: true, verbs: true, adjectives: true, phrases: true, grammar: true }, allMixedOptions());
+    return mixedPool(
+      lesson.level || "all",
+      {
+        vocabulary: true,
+        verbs: true,
+        adjectives: true,
+        phrases: true,
+        grammar: true,
+      },
+      allMixedOptions(),
+    );
   var vocabCategories = activities
       .filter((a) => a.type === "vocabulary")
       .flatMap((a) => a.categories || []),
@@ -487,8 +698,9 @@ function lessonPool(lesson) {
       .filter((a) => a.type === "grammar")
       .flatMap((a) => a.topics || []);
   var categoryMatch = (word) =>
-    word.level === lesson.level && (vocabCategories.includes(word.category) ||
-    verbCategories.includes(word.verbCategory));
+    word.level === lesson.level &&
+    (vocabCategories.includes(word.category) ||
+      verbCategories.includes(word.verbCategory));
   vocab.filter(categoryMatch).forEach((word) => {
     pool.push({ kind: "vocab-meaning", level: word.level, item: word });
     pool.push({ kind: "vocab-translate", level: word.level, item: word });
@@ -496,7 +708,11 @@ function lessonPool(lesson) {
   });
   phrases
 
-    .filter((phrase) => mixedLevelOfPhrase(phrase) === lesson.level && phraseCategories.includes(phrase.category))
+    .filter(
+      (phrase) =>
+        mixedLevelOfPhrase(phrase) === lesson.level &&
+        phraseCategories.includes(phrase.category),
+    )
     .forEach((phrase) => {
       var level = mixedLevelOfPhrase(phrase);
       pool.push({ kind: "phrase-translate", level, item: phrase });
