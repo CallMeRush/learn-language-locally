@@ -48,8 +48,21 @@ direction, and answer style. Phrase fill-in-the-blank questions can be written
 or multiple choice.
 
 **Apply grammar** turns reviewed phrase-corpus sentences into numbered,
-tile-linked practice. Each exercise moves from a grammar pattern to a complete
-German sentence recall, with a direct route back to its source grammar tile.
+tile-linked practice, with a direct route back to the source grammar tile. Its
+case-and-article set contains 385 exercises, including a balanced static corpus
+of 30 examples for every masculine/feminine/neuter × nominative/accusative/
+dative/genitive combination. Case exercises always show the noun's base gender.
+They can be practised either by typing the article or by choosing its four
+case-form articles with A–D; the two modes retain separate progress. A focused correct answer goes
+straight to **Next exercise**. Case and definite/indefinite article-type
+selectors can be combined freely above the practice card.
+
+Modal-verb practice contains 50 phrase-backed exercises across `können`,
+`müssen`, `möchten`, `wollen`, `dürfen`, and `sollen`. Separable-verb practice
+contains 114 phrase-backed exercises and can be narrowed by exact prefix, from
+common groups such as `an-`, `auf-`, `ein-`, `ab-`, `zu-`, and `aus-` to the
+smaller represented groups. Multiple-choice questions throughout the app accept
+A–D to select and Enter to check or advance.
 
 Lessons are organised as 16 thematic units with three concise, demanding rounds
 each: a word base, sentence practice, and a pattern workshop. Opening a unit
@@ -66,6 +79,25 @@ shows only its three rounds; progress is tracked per round.
 - [`scripts/`](scripts/) — dictionary and project utility scripts.
 
 See [`data/README.md`](data/README.md) for the content format.
+
+## Continue development
+
+The app is still static: application code is loaded directly from `app/`, and
+all learning content is checked in under `data/`. The authoritative checks are:
+
+```sh
+node scripts/validate-data.cjs
+node scripts/build-case-application-corpus.cjs --check
+node scripts/build-modal-application-corpus.cjs --check
+node scripts/build-separable-application-corpus.cjs --check
+node scripts/find-grammar-phrase-candidates.cjs --check
+node scripts/smoke-test.cjs
+```
+
+The case-corpus builder uses the ignored noun-declension reference downloaded
+under `dictionaries/sources/`, but its resulting exercises are static records in
+[`data/application.js`](data/application.js). See
+[`scripts/README.md`](scripts/README.md) for the generation and review tools.
 
 ## Future extensions
 

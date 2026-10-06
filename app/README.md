@@ -41,7 +41,16 @@ its record-level explanation and keeps an in-session correct/tried summary.
 `application.js` provides a separate Apply grammar desk. Its reviewed exercises
 link both to a grammar-tile ID and to a phrase ID, so sentence text, English
 meaning, blanks, and explanations are fixed data rather than inferred at
-runtime.
+runtime. Modal verbs have 50 exercises; separable verbs have 114 and can be
+narrowed by their exact prefix (such as `auf-` or `aus-`). Case exercises always
+show the base gender and offer two independent practice modes: typed article
+recall and A–D case-form article selection. The case is hidden in A–D mode;
+completion, errors, and hints are saved independently for each mode. A correct
+focused answer immediately enables **Next exercise**—there is no
+sentence-reconstruction follow-up. Case, article-type, and prefix selectors use
+the same independently toggleable category-control behaviour as Vocabulary,
+including an explicit empty state. Multiple-choice cards share A–D selection and
+Enter-to-check/advance handling.
 
 Lessons are organised as 16 expandable units, each with three focused rounds of
 up to eight questions: a word base, sentence practice, and a pattern workshop.

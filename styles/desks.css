@@ -603,8 +603,8 @@ button.word-row .word-check {
 .vocabulary-study-panel .study-switch {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 4px;
-  padding-bottom: 10px;
+  gap: 2px;
+  padding-bottom: 8px;
   border-bottom: 1px solid var(--line);
 }
 .vocabulary-study-panel .study-switch button {
@@ -612,8 +612,8 @@ button.word-row .word-check {
   border-radius: 6px;
   background: transparent;
   color: #77847a;
-  padding: 8px 5px;
-  font-size: 10px;
+  padding: 6px 2px;
+  font-size: 9px;
   font-weight: 700;
   cursor: pointer;
 }
@@ -624,7 +624,7 @@ button.word-row .word-check {
 .vocabulary-study-panel .study-switch small {
   display: block;
   font: 10px "DM Mono";
-  margin-top: 2px;
+  margin-top: 1px;
 }
 .vocabulary-study-panel .study-list-rows {
   max-height: none;
@@ -768,11 +768,10 @@ button.word-row .word-check {
   grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 .phrase-study-panel .study-switch {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 .vocabulary-study-panel:not(.phrase-study-panel) .study-switch button {
-  font-size: 9px;
-  padding-inline: 3px;
+  padding-inline: 1px;
 }
 .practice-meta {
   display: flex;
@@ -1088,8 +1087,44 @@ button.word-row .word-check {
 .application-layout {
   margin-top: 0;
 }
+.application-case-selector {
+  width: 100%;
+  max-width: 880px;
+  margin: 0 auto 18px;
+}
+.application-case-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px 26px;
+}
+.application-case-controls > div {
+  min-width: 0;
+}
+.application-case-selector .eyebrow {
+  margin: 0 0 8px;
+}
 .application-card {
   min-height: 0;
+}
+.application-mode-toggle {
+  align-self: flex-start;
+  margin-top: 16px;
+}
+.application-gender {
+  color: #78847b;
+  font: 600 10px "DM Mono";
+  letter-spacing: 0.6px;
+  margin: 14px 0 -12px;
+  text-transform: uppercase;
+}
+.application-gender strong {
+  color: var(--green);
+  font: italic 700 14px Georgia;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.application-choice-options {
+  display: grid;
 }
 .application-card .application-phrase {
   color: var(--ink);
@@ -1515,6 +1550,9 @@ html[data-background="dark"] .phrase-card input,
 html[data-background="dark"] .application-card input,
 html[data-background="dark"] .dictionary-input-wrap input {
   color: var(--ink);
+}
+html[data-background="dark"] .application-gender {
+  color: #c2cad3;
 }
 html[data-background="dark"] .global-vocab-level,
 html[data-background="dark"] .article-choices button,

@@ -40,7 +40,8 @@ The learning content is intentionally kept separate from the interface logic.
 - `application.js` contains reviewed sentence-level grammar applications. Each
   record names its `grammarId`, links to an exact phrase source, and stores the
   blank, expected answer, and explanation explicitly; case records also store
-  base gender and case metadata.
+  base gender and case metadata. The marked generated section contains a static
+  balanced case corpus: at least 30 exercises for each base gender × case cell.
 - `lessons.js` contains 16 canonical lesson units, each expanded into three
   rounds of up to eight questions. Unit presentation text is under `localized`;
   each short round declares its vocabulary, verb, phrase, grammar, or mixed
@@ -85,6 +86,10 @@ Rebuild and check with:
 node scripts/download-vocabulary-sources.cjs
 node scripts/import-deck.cjs
 node scripts/import-deck.cjs --check
+node scripts/build-case-application-corpus.cjs --check
+node scripts/build-modal-application-corpus.cjs --check
+node scripts/build-separable-application-corpus.cjs --check
+node scripts/find-grammar-phrase-candidates.cjs --check
 node scripts/validate-data.cjs
 node scripts/audit-phrases.cjs
 node scripts/audit-translations.cjs --check
@@ -93,6 +98,41 @@ CHROMIUM=google-chrome node scripts/smoke-test.cjs
 
 The download step only populates ignored reference material under
 `dictionaries/`; it is not needed to open or use the static app.
+
+## Grammar application corpus
+
+`application.js` is checked-in application data, not runtime-generated content.
+The generated case section is rebuilt deliberately with:
+
+```sh
+node scripts/build-case-application-corpus.cjs --write
+```
+
+The builder draws only from phrase records and the ignored
+`dictionaries/sources/nouns.csv` declension reference. It uses conservative
+article and preposition patterns, keeps every case source phrase unique, and
+writes 30 fresh exercises for each masculine/feminine/neuter × nominative/
+accusative/dative/genitive cell. `validate-data.cjs` enforces that minimum and
+verifies every blank against its exact linked phrase.
+
+`scripts/find-grammar-phrase-candidates.cjs` is a separate review-queue tool
+for possible future case, modal, and separable-verb exercises. Its report at
+`import/grammar-phrase-candidates.json` is a review aid only; it never changes
+application content by itself.
+
+The modal-verb application set follows the same static approach. Its marked
+generated section is reproduced by
+`node scripts/build-modal-application-corpus.cjs --write`; it expands the
+reviewed seed data to 50 unique phrase-backed exercises across `können`,
+`müssen`, `möchten`, `wollen`, `dürfen`, and `sollen`.
+
+The separable-verb set is also static and reproduced by
+`node scripts/build-separable-application-corpus.cjs --write`. It includes
+every phrase whose linked vocabulary record explicitly marks the terminal word
+as a separable prefix. The app groups these exercises by their exact prefix,
+such as `auf-`, `aus-`, and `zurück-`. The current corpus has 114 unique
+phrase-backed exercises; lower-confidence candidate matches remain only in the
+review report.
 
 ## Translation review
 

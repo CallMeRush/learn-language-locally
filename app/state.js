@@ -21,6 +21,10 @@ var defaultPreferences = () => ({
   mixedAdjectiveCategories: ["adjectives"],
   mixedPhraseCategories: ["all"],
   applicationGrammarId: "grammar-de-3",
+  applicationCases: ["nominative", "accusative", "dative", "genitive"],
+  applicationArticleTypes: ["definite", "indefinite"],
+  applicationSeparablePrefixes: ["all"],
+  applicationMultipleChoice: false,
   randomMode: true,
   grammarGrid: false,
   colorAccent: "green",
@@ -48,6 +52,11 @@ var emptyProgress = () => ({
   grammarApplied: [],
   grammarApplicationMistakes: [],
   grammarApplicationHints: [],
+  grammarApplicationChoiceProgress: {
+    applied: [],
+    mistakes: [],
+    hints: [],
+  },
   correct: 0,
   attempts: 0,
   lessons: [],
@@ -112,6 +121,26 @@ function normalizeProgress(progress) {
       : [];
   });
   value.choiceProgress = choiceProgress;
+  var applicationChoiceProgress =
+    value.grammarApplicationChoiceProgress &&
+    typeof value.grammarApplicationChoiceProgress === "object" &&
+    !Array.isArray(value.grammarApplicationChoiceProgress)
+      ? value.grammarApplicationChoiceProgress
+      : {};
+  ["applied", "mistakes", "hints"].forEach((key) => {
+    applicationChoiceProgress[key] = Array.isArray(
+      applicationChoiceProgress[key],
+    )
+      ? [
+          ...new Set(
+            applicationChoiceProgress[key].filter(
+              (id) => typeof id === "string",
+            ),
+          ),
+        ]
+      : [];
+  });
+  value.grammarApplicationChoiceProgress = applicationChoiceProgress;
   value.lessons = value.lessons.filter((id) =>
     lessons.some((lesson) => lesson.id === id),
   );
@@ -181,6 +210,47 @@ function normalizeProgress(progress) {
     preferences.applicationGrammarId = "grammar-de-3";
   delete preferences.applicationQueue;
   delete preferences.applicationAskGender;
+  preferences.applicationCases = Array.isArray(preferences.applicationCases)
+    ? [
+        ...new Set(
+          preferences.applicationCases.filter((value) =>
+            ["nominative", "accusative", "dative", "genitive"].includes(value),
+          ),
+        ),
+      ]
+    : [...defaultPreferences().applicationCases];
+  preferences.applicationArticleTypes = Array.isArray(
+    preferences.applicationArticleTypes,
+  )
+    ? [
+        ...new Set(
+          preferences.applicationArticleTypes.filter((value) =>
+            ["definite", "indefinite"].includes(value),
+          ),
+        ),
+      ]
+    : [...defaultPreferences().applicationArticleTypes];
+  var separablePrefixes = [
+    ...new Set(
+      grammarApplications
+        .filter((record) => record.set === "separable")
+        .map((record) => record.exercise.answer),
+    ),
+  ];
+  preferences.applicationSeparablePrefixes = Array.isArray(
+    preferences.applicationSeparablePrefixes,
+  )
+    ? [
+        ...new Set(
+          preferences.applicationSeparablePrefixes.filter(
+            (prefix) => prefix === "all" || separablePrefixes.includes(prefix),
+          ),
+        ),
+      ]
+    : [...defaultPreferences().applicationSeparablePrefixes];
+  preferences.applicationMultipleChoice = Boolean(
+    preferences.applicationMultipleChoice,
+  );
   preferences.mixedParts = Object.fromEntries(
     ["vocabulary", "verbs", "adjectives", "phrases", "grammar"].map((key) => [
       key,
@@ -372,6 +442,10 @@ function savePreferences() {
       mixedAdjectiveCategories,
       mixedPhraseCategories,
       applicationGrammarId,
+      applicationCases,
+      applicationArticleTypes,
+      applicationSeparablePrefixes,
+      applicationMultipleChoice,
       randomMode,
       grammarGrid,
       colorAccent,
@@ -421,6 +495,10 @@ var selectedCategory = state.preferences.selectedCategory,
   mixedAdjectiveCategories = state.preferences.mixedAdjectiveCategories,
   mixedPhraseCategories = state.preferences.mixedPhraseCategories,
   applicationGrammarId = state.preferences.applicationGrammarId,
+  applicationCases = state.preferences.applicationCases,
+  applicationArticleTypes = state.preferences.applicationArticleTypes,
+  applicationSeparablePrefixes = state.preferences.applicationSeparablePrefixes,
+  applicationMultipleChoice = state.preferences.applicationMultipleChoice,
   mixedQuestion = null,
   mixedArticle = "",
   mixedChoice = "",

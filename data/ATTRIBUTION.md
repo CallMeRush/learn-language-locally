@@ -20,6 +20,11 @@ selected spelling corrections, gender-conflict exclusions, answer-alternative
 formatting, duplicate handling, stable IDs, and example-sentence extraction.
 CEFR labels and translations remain source claims subject to further review.
 
+The phrase-backed grammar-application corpus reuses those imported German and
+English sentence pairs. Its case exercises additionally use the downloaded noun
+declension reference below to select and label article/gender/case patterns; the
+resulting exercise records are static app data, not a browser-time lookup.
+
 The five modal-verb entries in `import/supplements.json` are editorial additions
 for Wortwerk, distributed with the learning data under the same CC BY-SA terms.
 

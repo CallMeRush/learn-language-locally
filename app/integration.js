@@ -172,13 +172,18 @@ function bindPracticeHintKeys() {
         "#vocabulary-view.active-view",
       ),
       phrasesActive = document.querySelector("#phrases-view.active-view"),
+      applicationActive = document.querySelector(
+        "#application-view.active-view",
+      ),
       button = vocabularyActive
         ? event.key === "4"
           ? $("[data-vocab-article-hint]")
           : $("#vocab-hint")
         : phrasesActive && event.key === "5"
           ? $("#show-answer")
-          : null;
+          : applicationActive && event.key === "5"
+            ? $("#application-hint")
+            : null;
     if (!button || button.disabled || button.offsetParent === null) return;
     event.preventDefault();
     button.click();
@@ -197,6 +202,31 @@ function bindChoiceShortcuts() {
     if (!button) return;
     event.preventDefault();
     button.click();
+  });
+}
+function bindChoiceCheckShortcut() {
+  document.addEventListener("keydown", (event) => {
+    if (
+      event.key !== "Enter" ||
+      event.isComposing ||
+      event.ctrlKey ||
+      event.metaKey ||
+      event.altKey
+    )
+      return;
+    if (event.target?.matches?.("input, textarea, select")) return;
+    var activeView = document.querySelector(".active-view");
+    if (!activeView) return;
+    var selectedChoice = [
+      ...activeView.querySelectorAll(".choice-option.selected"),
+    ].find((button) => !button.disabled && button.offsetParent !== null);
+    if (!selectedChoice) return;
+    var check = activeView.querySelector(
+      "#check-vocab, #check-phrase, #check-mixed, #check-application",
+    );
+    if (!check || check.disabled || check.offsetParent === null) return;
+    event.preventDefault();
+    check.click();
   });
 }
 function bindNavigation() {
@@ -283,6 +313,7 @@ bindGlobalVocabularyControls();
 bindArticleKeys();
 bindPracticeHintKeys();
 bindChoiceShortcuts();
+bindChoiceCheckShortcut();
 bindNavigation();
 bindVocabularyDeskControls();
 $("[data-study-direction]").onclick = () =>
