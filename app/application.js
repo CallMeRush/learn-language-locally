@@ -3,14 +3,15 @@ var applicationCurrent = null,
   applicationStage = "answer",
   applicationFeedback = "",
   applicationFeedbackKind = "",
-  applicationHintRestore = null;
+  applicationHintRestore = null,
+  applicationHintUsed = false,
+  applicationStudyStatus = "pending";
 
 function applicationSetDetails(set) {
   return {
     cases: {
       label: "Cases & articles",
-      description:
-        "Identify the noun’s gender, choose the form, then recall the full phrase.",
+      description: "Choose the article form, then recall the full phrase.",
     },
     modals: {
       label: "Modal verbs",
@@ -55,6 +56,8 @@ function applicationSelectFocus(grammarId) {
   applicationFeedback = "";
   applicationFeedbackKind = "";
   applicationHintRestore = null;
+  applicationHintUsed = false;
+  applicationStudyStatus = "pending";
 }
 function openApplicationForGrammar(grammarId) {
   applicationSelectFocus(grammarId);
@@ -70,32 +73,33 @@ function returnToGrammarTile(grammarId) {
     .querySelector(`[data-grammar-card="${grammarId}"]`)
     ?.scrollIntoView({ behavior: "smooth", block: "start" });
 }
-function applicationRecords() {
-  var records = applicationFocusRecords().filter((record) =>
-    levelSelected(record.level),
-  );
-  if (applicationQueue === "new")
-    return records.filter(
-      (record) => !state.grammarApplied.includes(record.id),
-    );
-  if (applicationQueue === "review")
-    return records.filter((record) =>
-      state.grammarApplicationMistakes.includes(record.id),
-    );
-  return records;
+function applicationStudyGroups(records = applicationFocusRecords()) {
+  var completed = new Set(state.grammarApplied),
+    mistakes = new Set(state.grammarApplicationMistakes),
+    hints = new Set(state.grammarApplicationHints),
+    groups = {
+      pending: [],
+      "first-shot": [],
+      corrected: [],
+      hinted: [],
+      wrong: [],
+    };
+  records.forEach((record) => {
+    var group = !completed.has(record.id)
+      ? mistakes.has(record.id)
+        ? "wrong"
+        : "pending"
+      : mistakes.has(record.id)
+        ? "corrected"
+        : hints.has(record.id)
+          ? "hinted"
+          : "first-shot";
+    groups[group].push(record);
+  });
+  return groups;
 }
-function applicationCounts() {
-  var records = applicationFocusRecords().filter((record) =>
-    levelSelected(record.level),
-  );
-  return {
-    all: records.length,
-    new: records.filter((record) => !state.grammarApplied.includes(record.id))
-      .length,
-    review: records.filter((record) =>
-      state.grammarApplicationMistakes.includes(record.id),
-    ).length,
-  };
+function applicationRecords() {
+  return applicationStudyGroups()[applicationStudyStatus] || [];
 }
 function applicationPickNext() {
   var pool = applicationRecords();
@@ -113,12 +117,10 @@ function applicationPickNext() {
       Math.random() * (alternatives.length ? alternatives : pool).length,
     )
   ];
-  applicationStage =
-    applicationCurrent.set === "cases" && applicationAskGender
-      ? "gender"
-      : "answer";
+  applicationStage = "answer";
   applicationFeedback = "";
   applicationFeedbackKind = "";
+  applicationHintUsed = false;
 }
 function applicationRecordAttempt(correct, complete = false) {
   state.attempts++;
@@ -129,45 +131,78 @@ function applicationRecordAttempt(correct, complete = false) {
     state.grammarApplied.push(applicationCurrent.id);
   save();
 }
-function applicationChoiceHtml(value, label) {
-  return `<button type="button" class="application-choice" data-application-gender="${value}">${label}</button>`;
-}
 function applicationCardHtml() {
   if (!applicationCurrent)
-    return '<article class="application-card application-empty"><p class="eyebrow">NO EXERCISES HERE</p><h2>Nothing matches this selection.</h2><p>Choose another grammar tile, level, or queue to keep practising.</p></article>';
+    return '<article class="practice-panel application-card application-empty"><p class="eyebrow">NOTHING HERE</p><div class="practice-word">No exercises</div><p class="practice-prompt">Choose another status to practise these grammar patterns.</p></article>';
   var record = applicationCurrent,
     exercise = record.exercise,
     focus = applicationFocus(),
     number = String(grammarLessons.indexOf(focus) + 1).padStart(2, "0"),
-    genderStep = applicationStage === "gender",
     sentenceStep = applicationStage === "sentence",
+    records = applicationRecords(),
+    position = records.findIndex((item) => item.id === record.id) + 1,
     completed =
       sentenceStep &&
       applicationFeedbackKind === "good" &&
       state.grammarApplied.includes(record.id),
-    prompt = genderStep
-      ? `What is the dictionary gender of “${exercise.noun}”?`
-      : sentenceStep
-        ? "Translate the full phrase into German."
-        : record.set === "cases"
-          ? "Type only the missing article."
-          : record.set === "modals"
-            ? "Complete the modal construction."
-            : "Complete the separated prefix.",
+    instruction = sentenceStep
+      ? "Punctuation is optional."
+      : exercise.cue || "",
     input = `<input id="application-answer" autocomplete="off" placeholder="${sentenceStep ? "Type the full German phrase…" : record.set === "cases" ? "Type the article…" : "Type the missing form…"}" />`,
     feedback = applicationFeedback
       ? `<div class="feedback ${applicationFeedbackKind}" id="application-feedback">${applicationFeedback}</div>`
       : '<div class="feedback" id="application-feedback"></div>',
     heading = sentenceStep ? record.translations.en.text : exercise.blanked,
     support = sentenceStep
-      ? `Phrase source · ${record.sourcePhraseId}`
+      ? "Use the English meaning to rebuild the full sentence."
       : record.translations.en.text;
-  return `<article class="application-card"><div class="phrase-meta"><span>${record.level} · TILE ${number} · ${applicationSetDetails(record.set).label.toUpperCase()}</span><span>${state.grammarApplied.includes(record.id) ? "MASTERED" : "NEW"}</span></div><p class="application-kicker">${genderStep ? "STEP 1 · IDENTIFY THE NOUN" : sentenceStep ? "STEP 3 · RECALL THE PHRASE" : "STEP 2 · APPLY THE PATTERN"}</p><h2>${heading}</h2><p class="application-translation">${support}</p><div class="application-prompt"><strong>${prompt}</strong><span>${genderStep ? "Start from the dictionary form, not the sentence article." : sentenceStep ? "Use the English meaning above; punctuation is optional." : exercise.cue || "Use the pattern from the grammar tile."}</span></div>${genderStep ? `<div class="application-choices" role="group" aria-label="Noun gender">${applicationChoiceHtml("der", "der · masculine")}${applicationChoiceHtml("die", "die · feminine")}${applicationChoiceHtml("das", "das · neuter")}</div>` : input}<div class="phrase-actions">${genderStep ? "" : `<button class="primary-btn" id="check-application">${completed ? "Next exercise" : sentenceStep ? "Check sentence" : "Check answer"} <span>${completed ? "→" : "↵"}</span></button>`}<button class="subtle-btn" id="application-hint">Hint</button></div>${feedback}<div class="application-card-links"><button class="subtle-btn" id="next-application">Skip to another exercise →</button><button class="subtle-btn" data-application-back="${focus.id}">Open tile ${number} checks →</button></div></article>`;
+  return `<article class="practice-panel application-card"><div class="practice-meta"><span>${record.level} · TILE ${number} · ${applicationSetDetails(record.set).label.toUpperCase()}</span><span>${position > 0 ? `${String(position).padStart(2, "0")} / ${records.length}` : "SELECTED"}</span></div><div class="practice-word application-phrase">${heading}</div><p class="practice-prompt">${support}</p>${instruction ? `<p class="application-instruction">${instruction}</p>` : ""}${input}<div class="practice-actions"><button class="primary-btn" id="check-application">${completed ? "Next exercise" : sentenceStep ? "Check sentence" : "Check answer"} <span>${completed ? "→" : "↵"}</span></button><button class="subtle-btn" id="application-hint">Hint</button></div>${feedback}<div class="application-card-links"><button class="subtle-btn" id="next-application">Skip to another exercise →</button><button class="subtle-btn" data-application-back="${focus.id}">Open tile ${number} checks →</button></div></article>`;
+}
+function renderApplicationStudyPanel(container) {
+  var records = applicationFocusRecords(),
+    groups = applicationStudyGroups(records);
+  renderStudyPanel({
+    container,
+    groups,
+    status: applicationStudyStatus,
+    labels: {
+      pending: "Pending",
+      "first-shot": "First try",
+      corrected: "After error",
+      hinted: "After hint",
+      wrong: "Incorrect",
+    },
+    active: applicationCurrent,
+    className: "word-list vocabulary-study-panel application-study-panel",
+    rowHTML: (record) => {
+      var mark = state.grammarApplied.includes(record.id)
+        ? "✓"
+        : state.grammarApplicationMistakes.includes(record.id)
+          ? "✕"
+          : "○";
+      return `<button type="button" class="word-row ${record === applicationCurrent ? "current" : ""}"><div><strong>${record.translations.en.text}</strong></div><span class="word-check ${mark === "✓" ? "correct" : mark === "✕" ? "wrong" : ""}" aria-label="${mark === "✓" ? "Correct" : mark === "✕" ? "Incorrect" : "Not tested"}">${mark}</span></button>`;
+    },
+    select: (record) => {
+      applicationCurrent = record;
+      applicationStage = "answer";
+      applicationFeedback = "";
+      applicationFeedbackKind = "";
+      applicationHintRestore = null;
+      applicationHintUsed = false;
+      renderGrammarApplication();
+    },
+    onStatusChange: (status) => {
+      applicationStudyStatus = status;
+      applicationCurrent = null;
+      applicationFeedback = "";
+      applicationFeedbackKind = "";
+      renderGrammarApplication();
+    },
+  });
 }
 function renderGrammarApplication() {
   var root = document.getElementById("application-content"),
     focus = applicationFocus(),
-    counts = applicationCounts(),
     number = String(grammarLessons.indexOf(focus) + 1).padStart(2, "0"),
     details = applicationSetDetails(
       applicationFocusRecords()[0]?.set || "cases",
@@ -181,7 +216,7 @@ function renderGrammarApplication() {
       ))
   )
     applicationPickNext();
-  root.innerHTML = `<section class="application-builder"><header><div><p class="eyebrow">APPLY GRAMMAR · TILE ${number}</p><h2>${focus.localized.en.title}</h2><p>${details.description} Every exercise comes from a reviewed phrase in the sentence collection.</p></div><span>${counts.all} phrase exercises</span></header><div class="application-controls"><div><p>GRAMMAR TILE</p><div class="application-tabs application-focus-tabs">${applicationFocuses()
+  root.innerHTML = `<section class="application-builder"><header><div><p class="eyebrow">APPLY GRAMMAR · TILE ${number}</p><h2>${focus.localized.en.title}</h2><p>${details.description} Every exercise comes from a reviewed phrase in the sentence collection.</p></div></header><div class="application-controls"><div><p>GRAMMAR TILE</p><div class="application-tabs application-focus-tabs">${applicationFocuses()
     .map((lesson) => {
       var tile = String(grammarLessons.indexOf(lesson) + 1).padStart(2, "0"),
         count = grammarApplications.filter(
@@ -191,7 +226,7 @@ function renderGrammarApplication() {
     })
     .join(
       "",
-    )}</div></div><div><p>QUEUE</p><div class="application-tabs">${["new", "all", "review"].map((queue) => `<button type="button" class="${queue === applicationQueue ? "active" : ""}" data-application-queue="${queue}">${{ new: "New", all: "All", review: "Review misses" }[queue]} <small>${counts[queue]}</small></button>`).join("")}</div></div>${applicationCurrent?.set === "cases" ? `<label class="toggle-label application-gender-toggle"><input type="checkbox" id="application-ask-gender" ${applicationAskGender ? "checked" : ""} /><span class="toggle-switch"></span> Ask gender first</label>` : ""}</div></section><div class="application-layout">${applicationCardHtml()}</div>`;
+    )}</div></div></div></section><div class="vocab-layout application-layout">${applicationCardHtml()}<div id="application-study-panel"></div></div>`;
   root.querySelectorAll("[data-application-focus]").forEach(
     (button) =>
       (button.onclick = () => {
@@ -200,23 +235,7 @@ function renderGrammarApplication() {
         savePreferences();
       }),
   );
-  root.querySelectorAll("[data-application-queue]").forEach(
-    (button) =>
-      (button.onclick = () => {
-        applicationQueue = button.dataset.applicationQueue;
-        applicationCurrent = null;
-        renderGrammarApplication();
-        savePreferences();
-      }),
-  );
-  root
-    .querySelector("#application-ask-gender")
-    ?.addEventListener("change", (event) => {
-      applicationAskGender = event.target.checked;
-      applicationCurrent = null;
-      renderGrammarApplication();
-      savePreferences();
-    });
+  renderApplicationStudyPanel(root.querySelector("#application-study-panel"));
   bindGrammarApplicationCard();
 }
 function setApplicationFeedback(message, kind) {
@@ -245,6 +264,10 @@ function toggleApplicationHint() {
     };
   applicationFeedback = text;
   applicationFeedbackKind = "hint";
+  applicationHintUsed = true;
+  if (!state.grammarApplicationHints.includes(applicationCurrent.id))
+    state.grammarApplicationHints.push(applicationCurrent.id);
+  save();
   renderGrammarApplication();
 }
 function bindGrammarApplicationCard() {
@@ -257,24 +280,6 @@ function bindGrammarApplicationCard() {
       applicationStage === "sentence" &&
       applicationFeedbackKind === "good" &&
       state.grammarApplied.includes(record.id);
-  document.querySelectorAll("[data-application-gender]").forEach(
-    (button) =>
-      (button.onclick = () => {
-        var correct = button.dataset.applicationGender === exercise.gender;
-        applicationRecordAttempt(correct);
-        if (correct) {
-          applicationStage = "answer";
-          setApplicationFeedback(
-            `Correct — “${exercise.noun}” is ${exercise.gender}. Now apply the case.`,
-            "good",
-          );
-        } else
-          setApplicationFeedback(
-            `Not quite. Think of the dictionary form of “${exercise.noun}”.`,
-            "bad",
-          );
-      }),
-  );
   updateCheckButton(
     check,
     completed,
@@ -303,7 +308,9 @@ function bindGrammarApplicationCard() {
       if (applicationStage === "sentence") {
         applicationRecordAttempt(true, true);
         setApplicationFeedback(
-          "Complete. You applied the pattern and recalled the full phrase.",
+          applicationHintUsed
+            ? "Complete after hint. You applied the pattern and recalled the full phrase."
+            : "Complete. You applied the pattern and recalled the full phrase.",
           "good",
         );
         return;
@@ -311,7 +318,9 @@ function bindGrammarApplicationCard() {
       applicationRecordAttempt(true);
       applicationStage = "sentence";
       setApplicationFeedback(
-        "Correct. Now use that pattern in the complete phrase.",
+        applicationHintUsed
+          ? "Correct after hint. Now use that pattern in the complete phrase."
+          : "Correct. Now use that pattern in the complete phrase.",
         "good",
       );
     },

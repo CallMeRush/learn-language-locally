@@ -1,4 +1,8 @@
 /* Shared answer handling and the compact status panel used by practice desks. */
+var choiceShortcutKeys = ["A", "B", "C", "D"];
+function choiceShortcutKey(index) {
+  return choiceShortcutKeys[index] || "";
+}
 function normalizeAnswer(
   value,
   { punctuation = false, caseSensitive = false } = {},
@@ -85,6 +89,7 @@ function studyProgressGroups(
     completed = [],
     wrong = [],
     mistakes = [],
+    hinted = [],
     articleOnly = [],
     includeArticle = false,
   },
@@ -92,11 +97,13 @@ function studyProgressGroups(
   var completedIds = new Set(completed),
     wrongIds = new Set(wrong),
     mistakeIds = new Set(mistakes),
+    hintedIds = new Set(hinted),
     articleOnlyIds = new Set(articleOnly),
     groups = {
       pending: [],
       "first-shot": [],
       corrected: [],
+      hinted: [],
       ...(includeArticle ? { article: [] } : {}),
       wrong: [],
     };
@@ -107,9 +114,11 @@ function studyProgressGroups(
         ? "pending"
         : mistakeIds.has(record.id)
           ? "corrected"
-          : includeArticle && articleOnlyIds.has(record.id)
-            ? "article"
-            : "first-shot";
+          : hintedIds.has(record.id)
+            ? "hinted"
+            : includeArticle && articleOnlyIds.has(record.id)
+              ? "article"
+              : "first-shot";
     groups[group].push(record);
   });
   return groups;
@@ -125,10 +134,13 @@ function renderStudyPanel({
   select,
   onStatusChange,
 }) {
-  var items = groups[status] || [];
-  var ordered = items.includes(active)
-    ? [active, ...items.filter((item) => item !== active)]
-    : items;
+  var items = groups[status] || [],
+    pageSize = 50,
+    activeIndex = items.indexOf(active),
+    start =
+      activeIndex < 0 ? 0 : Math.max(0, activeIndex - Math.floor(pageSize / 2)),
+    end = Math.min(items.length, start + pageSize);
+  if (end - start < pageSize) start = Math.max(0, end - pageSize);
   container.className = className;
   container.innerHTML = `
     <div class="study-switch" role="tablist">
@@ -141,22 +153,31 @@ function renderStudyPanel({
         )
         .join("")}
     </div>
+    <button class="secondary-btn study-more study-more-above">Show more above</button>
     <div class="study-list-rows"></div>
-    <button class="secondary-btn study-more">Show more</button>`;
+    <button class="secondary-btn study-more study-more-below">Show more below</button>`;
   container.querySelectorAll("[data-study-status]").forEach((button) => {
     button.onclick = () => onStatusChange(button.dataset.studyStatus);
   });
   var rows = container.querySelector(".study-list-rows");
-  var more = container.querySelector(".study-more");
-  var shown = 0;
-  function appendPage() {
-    ordered.slice(shown, shown + 40).forEach((item) => {
-      rows.insertAdjacentHTML("beforeend", rowHTML(item));
-      rows.lastElementChild.onclick = () => select(item);
+  var moreAbove = container.querySelector(".study-more-above"),
+    moreBelow = container.querySelector(".study-more-below");
+  function renderWindow() {
+    var windowItems = items.slice(start, end);
+    rows.innerHTML = windowItems.map((item) => rowHTML(item)).join("");
+    rows.querySelectorAll(".word-row").forEach((row, index) => {
+      row.onclick = () => select(windowItems[index]);
     });
-    shown += 40;
-    more.hidden = shown >= ordered.length;
+    moreAbove.hidden = start === 0;
+    moreBelow.hidden = end >= items.length;
   }
-  more.onclick = appendPage;
-  appendPage();
+  moreAbove.onclick = () => {
+    start = Math.max(0, start - pageSize);
+    renderWindow();
+  };
+  moreBelow.onclick = () => {
+    end = Math.min(items.length, end + pageSize);
+    renderWindow();
+  };
+  renderWindow();
 }

@@ -253,6 +253,7 @@ function nextMixed(question = null) {
   $("#mixed-level-label").textContent = q.level;
   $("#mixed-feedback").textContent = "";
   $("#mixed-feedback").className = "feedback";
+  $("#mixed-hint").hidden = false;
   $("#mixed-cloze").innerHTML = "";
   $("#mixed-cloze").style.display = "none";
   $("#mixed-options").innerHTML = "";
@@ -299,10 +300,12 @@ function nextMixed(question = null) {
         candidates,
         item,
         germanAnswer ? mixedWordForm : sourceText,
-      ).forEach((option) => {
+      ).forEach((option, index) => {
         var button = document.createElement("button");
         button.className = "choice-option";
         button.type = "button";
+        button.dataset.choiceShortcut = choiceShortcutKey(index);
+        button.setAttribute("aria-keyshortcuts", choiceShortcutKey(index));
         button.textContent = option;
         button.onclick = () => {
           $$("#mixed-options .choice-option").forEach((x) =>
@@ -325,11 +328,12 @@ function nextMixed(question = null) {
     $("#mixed-prompt").textContent =
       answerLanguage === "en" ? targetText(item) : sourceText(item);
     $("#mixed-hint").textContent = clozeMode
-      ? `Complete the missing ${answerLanguage === "de" ? "German" : "English"} word.`
+      ? ""
       : answerLanguage === "en"
         ? "Translate this into English."
         : translatePrompt();
     if (clozeMode) {
+      $("#mixed-hint").hidden = true;
       var cloze = clozeFor(item, answerLanguage);
       $("#mixed-cloze").innerHTML = cloze.sentence;
       $("#mixed-cloze").style.display = "block";
@@ -345,10 +349,12 @@ function nextMixed(question = null) {
             phraseCandidates,
             answerLanguage,
           );
-      options.forEach((option) => {
+      options.forEach((option, index) => {
         var button = document.createElement("button");
         button.className = "choice-option";
         button.type = "button";
+        button.dataset.choiceShortcut = choiceShortcutKey(index);
+        button.setAttribute("aria-keyshortcuts", choiceShortcutKey(index));
         button.textContent = option;
         button.onclick = () => {
           $$("#mixed-options .choice-option").forEach((x) =>
@@ -429,6 +435,11 @@ function checkMixed() {
   mixedCorrect = ok;
   state.attempts++;
   if (ok) {
+    var assisted = q.kind.startsWith("vocab")
+      ? state.hinted.includes(item.id)
+      : q.kind.startsWith("phrase")
+        ? state.hintedPhrases.includes(item.id)
+        : false;
     state.correct++;
     if (q.kind.startsWith("vocab") && !state.learned.includes(item.id))
       state.learned.push(item.id);
@@ -437,7 +448,8 @@ function checkMixed() {
     if (q.kind.startsWith("vocab") || q.kind.startsWith("phrase"))
       resolveIssue(item.id);
     $("#mixed-feedback").textContent =
-      "Correct! Press Enter again for the next question.";
+      (assisted ? "Correct after hint." : "Correct!") +
+      " Press Enter again for the next question.";
     $("#mixed-feedback").className = "feedback good";
     save();
   } else {
@@ -475,24 +487,30 @@ function checkMixed() {
   updateMixedCheckButton();
 }
 function mixedBuilderCategoryRecords(kind) {
+  var allKey = mixedBuilderAllKey(kind),
+    records;
   if (kind === "vocabulary")
-    return categoryRecords.filter(
+    records = categoryRecords.filter(
       (record) =>
         record.id === "all" ||
         (!record.id.startsWith("verb-") &&
           !record.id.startsWith("adjective-") &&
           !["verbs", "adjectives"].includes(record.id)),
     );
-  if (kind === "verbs")
-    return categoryRecords.filter(
+  else if (kind === "verbs")
+    records = categoryRecords.filter(
       (record) => record.id === "verbs" || record.id.startsWith("verb-"),
     );
-  if (kind === "adjectives")
-    return categoryRecords.filter(
+  else if (kind === "adjectives")
+    records = categoryRecords.filter(
       (record) =>
         record.id === "adjectives" || record.id.startsWith("adjective-"),
     );
-  return ["all", ...Object.keys(contentManifest.phrases)].map((id) => ({ id }));
+  else
+    records = ["all", ...Object.keys(contentManifest.phrases)].map((id) => ({
+      id,
+    }));
+  return sortedCategoryRecords(records, allKey);
 }
 function mixedBuilderCategoryCount(kind, key) {
   if (kind === "phrases")
@@ -543,7 +561,7 @@ function renderMixedBuilder() {
   var builder = document.getElementById("mixed-builder");
   if (!builder) return;
   var partLabels = {
-      vocabulary: "Words",
+      vocabulary: "Nouns",
       verbs: "Verbs",
       adjectives: "Adjectives",
       phrases: "Phrases",
@@ -555,7 +573,13 @@ function renderMixedBuilder() {
       .map((kind) => {
         var allKey = mixedBuilderAllKey(kind),
           selection = mixedBuilderSelection(kind);
-        return `<section class="mixed-builder-category"><p>${kind === "phrases" ? "PHRASE TOPICS" : kind.toUpperCase() + " TOPICS"}</p><div class="mixed-builder-chips">${mixedBuilderCategoryRecords(
+        var categoryHeading = {
+          vocabulary: "NOUN TOPICS",
+          verbs: "VERB TOPICS",
+          adjectives: "ADJECTIVE TOPICS",
+          phrases: "PHRASE TOPICS",
+        }[kind];
+        return `<section class="mixed-builder-category"><p>${categoryHeading}</p><div class="mixed-builder-chips">${mixedBuilderCategoryRecords(
           kind,
         )
           .map((record) =>

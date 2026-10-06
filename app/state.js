@@ -21,8 +21,6 @@ var defaultPreferences = () => ({
   mixedAdjectiveCategories: ["adjectives"],
   mixedPhraseCategories: ["all"],
   applicationGrammarId: "grammar-de-3",
-  applicationQueue: "new",
-  applicationAskGender: true,
   randomMode: true,
   grammarGrid: false,
   colorAccent: "green",
@@ -32,19 +30,24 @@ var emptyProgress = () => ({
   learned: [],
   issues: [],
   mistakes: [],
+  hinted: [],
   articleOnlyMistakes: [],
   phrases: [],
   phraseMistakes: [],
+  hintedPhrases: [],
   choiceProgress: {
     learned: [],
     issues: [],
     mistakes: [],
+    hinted: [],
     articleOnlyMistakes: [],
     phrases: [],
     phraseMistakes: [],
+    hintedPhrases: [],
   },
   grammarApplied: [],
   grammarApplicationMistakes: [],
+  grammarApplicationHints: [],
   correct: 0,
   attempts: 0,
   lessons: [],
@@ -74,12 +77,15 @@ function normalizeProgress(progress) {
     "learned",
     "issues",
     "mistakes",
+    "hinted",
     "articleOnlyMistakes",
     "phrases",
     "phraseMistakes",
+    "hintedPhrases",
     "lessons",
     "grammarApplied",
     "grammarApplicationMistakes",
+    "grammarApplicationHints",
   ].forEach((key) => {
     value[key] = Array.isArray(value[key])
       ? [...new Set(value[key].filter((id) => typeof id === "string"))]
@@ -95,9 +101,11 @@ function normalizeProgress(progress) {
     "learned",
     "issues",
     "mistakes",
+    "hinted",
     "articleOnlyMistakes",
     "phrases",
     "phraseMistakes",
+    "hintedPhrases",
   ].forEach((key) => {
     choiceProgress[key] = Array.isArray(choiceProgress[key])
       ? [...new Set(choiceProgress[key].filter((id) => typeof id === "string"))]
@@ -171,9 +179,8 @@ function normalizeProgress(progress) {
     )
   )
     preferences.applicationGrammarId = "grammar-de-3";
-  if (!["all", "new", "review"].includes(preferences.applicationQueue))
-    preferences.applicationQueue = "new";
-  preferences.applicationAskGender = Boolean(preferences.applicationAskGender);
+  delete preferences.applicationQueue;
+  delete preferences.applicationAskGender;
   preferences.mixedParts = Object.fromEntries(
     ["vocabulary", "verbs", "adjectives", "phrases", "grammar"].map((key) => [
       key,
@@ -320,6 +327,12 @@ function recordMistake(id, articleOnly = false, progress = state) {
 function recordPhraseMistake(id, progress = state) {
   if (!progress.phraseMistakes.includes(id)) progress.phraseMistakes.push(id);
 }
+function recordHint(id, progress = state) {
+  if (!progress.hinted.includes(id)) progress.hinted.push(id);
+}
+function recordPhraseHint(id, progress = state) {
+  if (!progress.hintedPhrases.includes(id)) progress.hintedPhrases.push(id);
+}
 function toggleCategorySelection(selection, allKey, keys, key) {
   if (key === allKey) return [allKey];
   if (selection.includes(allKey))
@@ -359,8 +372,6 @@ function savePreferences() {
       mixedAdjectiveCategories,
       mixedPhraseCategories,
       applicationGrammarId,
-      applicationQueue,
-      applicationAskGender,
       randomMode,
       grammarGrid,
       colorAccent,
@@ -410,8 +421,6 @@ var selectedCategory = state.preferences.selectedCategory,
   mixedAdjectiveCategories = state.preferences.mixedAdjectiveCategories,
   mixedPhraseCategories = state.preferences.mixedPhraseCategories,
   applicationGrammarId = state.preferences.applicationGrammarId,
-  applicationQueue = state.preferences.applicationQueue,
-  applicationAskGender = state.preferences.applicationAskGender,
   mixedQuestion = null,
   mixedArticle = "",
   mixedChoice = "",
@@ -515,5 +524,6 @@ var grammarTestState = {},
   grammarAnswered = {},
   grammarCorrect = {},
   grammarTestMarks = {},
+  grammarTestHints = {},
   grammarExampleState = {},
   grammarExampleEnglishVisible = {};

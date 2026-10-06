@@ -146,6 +146,13 @@ function activeAllCategory() {
       ? "verbs"
       : "all";
 }
+function vocabularyKindLabel() {
+  return {
+    vocabulary: "nouns",
+    verbs: "verbs",
+    adjectives: "adjectives",
+  }[vocabularyKind];
+}
 function vocabularyCategorySelected(key) {
   return (
     selectedCategories.includes(activeAllCategory()) ||
@@ -196,6 +203,23 @@ function categoryLabel(key) {
     localized = record?.localized?.en;
   return localized?.label || key;
 }
+function compareCategoryIds(left, right, allKey) {
+  if (left === allKey) return -1;
+  if (right === allKey) return 1;
+  return categoryLabel(left).localeCompare(categoryLabel(right), "en", {
+    sensitivity: "base",
+  });
+}
+function sortedCategoryRecords(records, allKey) {
+  return [...records].sort((left, right) =>
+    compareCategoryIds(left.id, right.id, allKey),
+  );
+}
+function sortedCategoryIds(ids, allKey) {
+  return [...ids].sort((left, right) =>
+    compareCategoryIds(left, right, allKey),
+  );
+}
 function renderCategories() {
   var el = $("#category-tabs");
   var entries = categoryRecords.filter((record) =>
@@ -211,14 +235,7 @@ function renderCategories() {
           ),
   );
   var allCategory = activeAllCategory();
-  el.innerHTML = entries
-    .sort((a, b) =>
-      a.id === allCategory
-        ? -1
-        : b.id === allCategory
-          ? 1
-          : (a.studyOrder ?? 999) - (b.studyOrder ?? 999),
-    )
+  el.innerHTML = sortedCategoryRecords(entries, allCategory)
     .map((record) => {
       var key = record.id,
         displayLabel = categoryLabel(key);
@@ -261,6 +278,7 @@ var vocabStudyStatusLabels = {
   pending: "pending",
   "first-shot": "first-try",
   corrected: "corrected",
+  hinted: "correct after a hint",
   article: "article review",
   wrong: "incorrect",
 };
@@ -277,6 +295,7 @@ function vocabularyStudyGroups(records) {
     completed: progress.learned,
     wrong: progress.issues,
     mistakes: progress.mistakes,
+    hinted: progress.hinted,
     articleOnly: progress.articleOnlyMistakes,
     includeArticle: true,
   });
@@ -298,6 +317,7 @@ function renderVocabularyList() {
       pending: "Pending",
       "first-shot": "First try",
       corrected: "After error",
+      hinted: "After hint",
       article: "Article",
       wrong: "Incorrect",
     },
@@ -349,11 +369,12 @@ function showVocabCard(retainActive = false) {
   if (w && words.includes(w)) vocabIndex = words.indexOf(w);
   renderVocabularyList();
   if (!w) {
-    $("#vocab-level").textContent = "NO MATCHING WORDS";
+    var kindLabel = vocabularyKindLabel();
+    $("#vocab-level").textContent = "NO MATCHING " + kindLabel.toUpperCase();
     $("#vocab-number").textContent = "—";
     $("#practice-word").textContent = "Nothing here";
     $("#practice-prompt").textContent =
-      `No ${vocabStudyStatusLabels[vocabStudyStatus]} words match these levels and categories.`;
+      `No ${vocabStudyStatusLabels[vocabStudyStatus]} ${kindLabel} match these levels and categories.`;
     $("#practice-prompt").hidden = false;
     $("#article-choices").style.display = "none";
     $("#vocab-answer").value = "";
@@ -400,9 +421,11 @@ function showVocabCard(retainActive = false) {
       .slice(0, 3);
     [w, ...distractors]
       .sort(() => Math.random() - 0.5)
-      .forEach((item) => {
+      .forEach((item, index) => {
         var button = document.createElement("button");
         button.type = "button";
+        button.dataset.choiceShortcut = choiceShortcutKey(index);
+        button.setAttribute("aria-keyshortcuts", choiceShortcutKey(index));
         var choice =
           vocabMode === "translate"
             ? targetText(item).replace(/^(der|die|das) /, "")
@@ -513,11 +536,13 @@ function checkVocab() {
   state.attempts++;
   var progress = vocabularyProgress();
   if (ok) {
+    var assisted = progress.hinted.includes(w.id);
     state.correct++;
     if (!progress.learned.includes(w.id)) progress.learned.push(w.id);
     resolveIssue(w.id, progress);
     $("#vocab-feedback").textContent =
-      "Correct! Press Enter again for the next word.";
+      (assisted ? "Correct after hint." : "Correct!") +
+      " Press Enter again for the next word.";
     $("#vocab-feedback").className = "feedback good";
     save();
   } else {

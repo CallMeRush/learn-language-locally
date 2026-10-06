@@ -42,7 +42,7 @@ ordered using CEFR and source frequency rank. The page initially loads a small
 starter topic; wider topic selections load their records only when needed.
 Practice layouts adapt from stacked mobile lists to desktop columns.
 
-Mixed practice is a saved session builder: choose any combination of words,
+Mixed practice is a saved session builder: choose any combination of nouns,
 verbs, adjectives, phrases, and grammar; then narrow it by levels, topics,
 direction, and answer style. Phrase fill-in-the-blank questions can be written
 or multiple choice.

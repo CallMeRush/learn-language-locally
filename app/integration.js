@@ -6,7 +6,7 @@ function showVocabHint(kind = "word") {
       vocabMode === "translate"
         ? targetText(activeVocabWord)
         : sourceText(activeVocabWord);
-  toggleHintFeedback(
+  var shown = toggleHintFeedback(
     $("#vocab-feedback"),
     "vocabulary-" + kind,
     kind === "article"
@@ -15,6 +15,10 @@ function showVocabHint(kind = "word") {
         : "Hint · This word has no article."
       : "Hint · Answer: " + answer,
   );
+  if (shown) {
+    recordHint(activeVocabWord.id, vocabularyProgress());
+    save();
+  }
 }
 function showMixedHint() {
   if (!mixedQuestion) return;
@@ -23,7 +27,15 @@ function showMixedHint() {
       q.kind === "grammar"
         ? q.item.test.answers.join(" / ") + " Why: " + q.item.test.explain
         : mixedExpectedAnswer(q);
-  toggleHintFeedback($("#mixed-feedback"), "mixed", "Hint · " + answer);
+  var shown = toggleHintFeedback(
+    $("#mixed-feedback"),
+    "mixed",
+    "Hint · " + answer,
+  );
+  if (!shown) return;
+  if (q.kind.startsWith("vocab")) recordHint(q.item.id);
+  if (q.kind.startsWith("phrase")) recordPhraseHint(q.item.id);
+  save();
 }
 function closeProgressModal() {
   $("#progress-modal").hidden = true;
@@ -172,6 +184,21 @@ function bindPracticeHintKeys() {
     button.click();
   });
 }
+function bindChoiceShortcuts() {
+  document.addEventListener("keydown", (event) => {
+    if (event.ctrlKey || event.metaKey || event.altKey) return;
+    var key = event.key.toUpperCase();
+    if (!choiceShortcutKeys.includes(key)) return;
+    var button = [
+      ...document.querySelectorAll(
+        '.active-view [data-choice-shortcut="' + key + '"]',
+      ),
+    ].find((item) => !item.disabled && item.offsetParent !== null);
+    if (!button) return;
+    event.preventDefault();
+    button.click();
+  });
+}
 function bindNavigation() {
   $$(".nav-item").forEach((button) => {
     button.onclick = () => {
@@ -182,6 +209,9 @@ function bindNavigation() {
       }
       setView(button.dataset.view);
     };
+  });
+  $$("[data-open-view]").forEach((button) => {
+    button.onclick = () => setView(button.dataset.openView);
   });
   $$("[data-action='start-session']").forEach((button) => {
     button.onclick = () => {
@@ -221,7 +251,7 @@ document.querySelector('.nav-item[data-view="mixed"]').onclick = () => {
   restoreMixedDesk();
   $("#mixed-view .page-heading h1").textContent = "Mixed practice";
   $("#mixed-view .page-heading p:last-child").textContent =
-    "Build a focused session across words, verbs, adjectives, phrases, and grammar.";
+    "Build a focused session across nouns, verbs, adjectives, phrases, and grammar.";
   setView("mixed");
 };
 $("#reset-progress").onclick = showResetProgressModal;
@@ -252,6 +282,7 @@ randomModeControl.onchange = (event) => {
 bindGlobalVocabularyControls();
 bindArticleKeys();
 bindPracticeHintKeys();
+bindChoiceShortcuts();
 bindNavigation();
 bindVocabularyDeskControls();
 $("[data-study-direction]").onclick = () =>

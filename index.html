@@ -53,14 +53,14 @@
           <button class="nav-item" data-view="dictionary">
             <span>⌕</span> Dictionary
           </button>
-          <button class="nav-item" data-view="vocabulary">
-            <span>✦</span> Vocabulary
-          </button>
           <button class="nav-item" data-view="grammar">
             <span>§</span> Grammar
           </button>
           <button class="nav-item" data-view="application">
             <span>◈</span> Apply grammar
+          </button>
+          <button class="nav-item" data-view="vocabulary">
+            <span>✦</span> Vocabulary
           </button>
           <button class="nav-item" data-view="phrases">
             <span>↗</span> Phrases
@@ -113,100 +113,150 @@
         </header>
 
         <section id="dashboard-view" class="view active-view">
-          <div class="hero-grid">
-            <div class="hero-copy">
-              <p class="eyebrow">A LOCAL GERMAN LEARNING DESK</p>
-              <h1>German,<br /><em>word by word.</em></h1>
-              <p class="hero-intro">
-                Wortwerk is a focused, static study companion for English
-                speakers learning German from A1 to B1.
-              </p>
-              <button class="primary-btn" data-action="start-vocab">
-                Explore vocabulary <span>→</span>
-              </button>
-            </div>
-            <div class="hero-art">
-              <div class="sun"></div>
-              <div class="arch">
-                <span>Learn<br />German!</span>
-              </div>
-              <div class="plant">♧</div>
-            </div>
-          </div>
-          <div class="section-heading">
-            <div>
-              <p class="eyebrow">WHAT YOU CAN DO</p>
-              <h2>A calm, complete study loop</h2>
-            </div>
-            <span class="micro-label">WORKS LOCALLY IN YOUR BROWSER</span>
-          </div>
-          <div class="stats-grid">
-            <div class="stat-card">
-              <span class="stat-icon green">✦</span><strong>Words</strong
-              ><span
-                >Study nouns, verbs, and adjectives by topic, level, or review
-                status.</span
+          <header class="overview-header">
+            <p class="eyebrow">A LOCAL GERMAN LEARNING DESK</p>
+            <h1>Your German learning desk</h1>
+            <p>
+              Choose a desk to build vocabulary, understand grammar, practise in
+              context, or manage your local study setup.
+            </p>
+          </header>
+          <div class="overview-grid" aria-label="Study desks">
+            <button
+              class="overview-desk-card"
+              type="button"
+              data-open-view="dictionary"
+            >
+              <span class="overview-desk-icon" aria-hidden="true">⌕</span>
+              <span class="overview-desk-copy"
+                ><strong>Dictionary</strong
+                ><small
+                  >Search German and English words, spelling variants, and
+                  linked phrases.</small
+                ></span
               >
-            </div>
-            <div class="stat-card">
-              <span class="stat-icon peach">↗</span><strong>Phrases</strong
-              ><span
-                >Practise useful sentences in both directions, as cloze tasks,
-                or by choice.</span
+              <span class="overview-desk-arrow" aria-hidden="true">→</span>
+            </button>
+            <button
+              class="overview-desk-card"
+              type="button"
+              data-open-view="grammar"
+            >
+              <span class="overview-desk-icon" aria-hidden="true">§</span>
+              <span class="overview-desk-copy"
+                ><strong>Grammar</strong
+                ><small
+                  >Study patterns, examples, tables, and short understanding
+                  checks.</small
+                ></span
               >
-            </div>
-            <div class="stat-card">
-              <span class="stat-icon lilac">§</span><strong>Grammar</strong
-              ><span
-                >Learn a rule, then apply cases, modal verbs, and separable
-                verbs in real sentences.</span
+              <span class="overview-desk-arrow" aria-hidden="true">→</span>
+            </button>
+            <button
+              class="overview-desk-card"
+              type="button"
+              data-open-view="application"
+            >
+              <span class="overview-desk-icon" aria-hidden="true">✓</span>
+              <span class="overview-desk-copy"
+                ><strong>Apply grammar</strong
+                ><small
+                  >Use grammar in real phrases, with direct links back to each
+                  rule.</small
+                ></span
               >
-            </div>
-          </div>
-          <div class="lower-grid">
-            <div class="continue-card">
-              <div class="card-title">
-                <div>
-                  <p class="eyebrow">HOW TO USE IT</p>
-                  <h3>Choose a desk, then practise.</h3>
-                </div>
-                <span class="round-icon">A1</span>
-              </div>
-              <p>
-                Pick one or more levels, choose a topic, test your recall, and
-                use the review tabs to revisit mistakes.
-              </p>
-              <div class="lesson-row">
-                <span class="lesson-number">01</span>
-                <div>
-                  <strong>Build your word base</strong
-                  ><small>Nouns, verbs, and adjectives</small>
-                </div>
-                <button class="text-btn" data-action="start-vocab">
-                  Open →
-                </button>
-              </div>
-              <div class="lesson-row">
-                <span class="lesson-number">02</span>
-                <div>
-                  <strong>Use it in context</strong
-                  ><small>Phrases, grammar, and guided lessons</small>
-                </div>
-                <button class="text-btn" data-action="start-session">
-                  Open →
-                </button>
-              </div>
-            </div>
-            <div class="tip-card">
-              <span class="tip-star">⌂</span>
-              <p class="eyebrow">YOUR DATA STAYS WITH YOU</p>
-              <h3>Static by design.</h3>
-              <p>
-                Open the app locally. Progress stays in this browser until you
-                export a backup to move it elsewhere.
-              </p>
-              <span class="tip-german">Lernen, ganz lokal.</span>
-            </div>
+              <span class="overview-desk-arrow" aria-hidden="true">→</span>
+            </button>
+            <button
+              class="overview-desk-card"
+              type="button"
+              data-open-view="vocabulary"
+            >
+              <span class="overview-desk-icon" aria-hidden="true">Aa</span>
+              <span class="overview-desk-copy"
+                ><strong>Vocabulary</strong
+                ><small
+                  >Learn nouns, verbs, and adjectives by level, topic, or review
+                  status.</small
+                ></span
+              >
+              <span class="overview-desk-arrow" aria-hidden="true">→</span>
+            </button>
+            <button
+              class="overview-desk-card"
+              type="button"
+              data-open-view="phrases"
+            >
+              <span class="overview-desk-icon" aria-hidden="true">“</span>
+              <span class="overview-desk-copy"
+                ><strong>Phrases</strong
+                ><small
+                  >Recall useful German sentences with typed, cloze, or choice
+                  practice.</small
+                ></span
+              >
+              <span class="overview-desk-arrow" aria-hidden="true">→</span>
+            </button>
+            <button
+              class="overview-desk-card"
+              type="button"
+              data-open-view="mixed"
+            >
+              <span class="overview-desk-icon" aria-hidden="true">↗</span>
+              <span class="overview-desk-copy"
+                ><strong>Mixed practice</strong
+                ><small
+                  >Build a focused session across vocabulary, phrases, and
+                  grammar.</small
+                ></span
+              >
+              <span class="overview-desk-arrow" aria-hidden="true">→</span>
+            </button>
+            <button
+              class="overview-desk-card"
+              type="button"
+              data-open-view="lessons"
+            >
+              <span class="overview-desk-icon" aria-hidden="true">01</span>
+              <span class="overview-desk-copy"
+                ><strong>Lessons</strong
+                ><small
+                  >Follow concise, guided rounds that combine words, phrases,
+                  and grammar.</small
+                ></span
+              >
+              <span class="overview-desk-arrow" aria-hidden="true">→</span>
+            </button>
+            <button
+              class="overview-desk-card"
+              type="button"
+              data-open-view="issues"
+            >
+              <span class="overview-desk-icon" aria-hidden="true">!</span>
+              <span class="overview-desk-copy"
+                ><strong>Issues</strong
+                ><small
+                  >Return to answers that need more attention and clear them
+                  when ready.</small
+                ></span
+              >
+              <span class="overview-desk-arrow" aria-hidden="true">→</span>
+            </button>
+            <button
+              class="overview-desk-card"
+              type="button"
+              data-open-view="settings"
+            >
+              <span class="overview-desk-icon" aria-hidden="true">⚙</span>
+              <span class="overview-desk-copy"
+                ><strong>Settings</strong
+                ><small
+                  >Choose the look, export or import progress, and reset the
+                  local session.</small
+                ></span
+              >
+              <span class="overview-desk-arrow" aria-hidden="true">→</span>
+            </button>
           </div>
         </section>
 
@@ -267,9 +317,6 @@
                 <span id="vocab-level">A1 · GREETINGS</span
                 ><span id="vocab-number">01 / 01</span>
               </div>
-              <div class="practice-kicker">QUICK PRACTICE</div>
-              <div class="practice-word" id="practice-word">Haus</div>
-              <div class="practice-prompt" id="practice-prompt" hidden></div>
               <div
                 class="mode-switch study-mode-toggle"
                 role="group"
@@ -284,6 +331,8 @@
                   Multiple choice
                 </button>
               </div>
+              <div class="practice-word" id="practice-word">Haus</div>
+              <div class="practice-prompt" id="practice-prompt" hidden></div>
               <div class="article-choices" id="article-choices">
                 <span>Choose the article</span
                 ><button data-article="der">der</button
@@ -310,10 +359,6 @@
             <div>
               <p class="eyebrow">FROM HELLO TO REAL LIFE</p>
               <h1>Translation practice</h1>
-              <p>
-                Build a sentence muscle. Start with the essentials, then
-                stretch.
-              </p>
             </div>
           </div>
           <div class="phrase-layout">
@@ -322,8 +367,6 @@
                 <span id="phrase-level">A1 · ESSENTIAL</span
                 ><span id="phrase-number">01 / 175</span>
               </div>
-              <h2 id="phrase-question">How are you?</h2>
-              <p class="phrase-hint" id="phrase-hint" hidden></p>
               <div
                 class="mode-switch study-mode-toggle"
                 role="group"
@@ -346,6 +389,8 @@
                   Multiple choice
                 </button>
               </div>
+              <h2 id="phrase-question">How are you?</h2>
+              <p class="phrase-hint" id="phrase-hint" hidden></p>
               <div id="cloze-sentence" class="cloze-sentence"></div>
               <div id="phrase-choice-options" class="choice-options"></div>
               <input
@@ -429,7 +474,7 @@
               <p class="eyebrow">THE MIXED DESK</p>
               <h1>Mixed practice</h1>
               <p>
-                Build a focused session across words, verbs, adjectives,
+                Build a focused session across nouns, verbs, adjectives,
                 phrases, and grammar.
               </p>
             </div>

@@ -55,8 +55,7 @@ body {
 }
 .side-label,
 .eyebrow,
-.micro-label,
-.practice-kicker {
+.micro-label {
   font:
     500 10px "DM Mono",
     monospace;
@@ -449,6 +448,81 @@ button {
   font: italic 18px Georgia;
   color: #a76d43;
 }
+.overview-header {
+  max-width: 660px;
+  margin-bottom: 30px;
+}
+.overview-header h1 {
+  margin: 0 0 10px;
+  font-size: clamp(34px, 5vw, 50px);
+  letter-spacing: -2px;
+}
+.overview-header > p:last-child {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0;
+}
+.overview-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+.overview-desk-card {
+  align-items: start;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  color: var(--ink);
+  cursor: pointer;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  min-height: 148px;
+  padding: 18px;
+  text-align: left;
+  transition:
+    border-color 160ms ease,
+    box-shadow 160ms ease,
+    transform 160ms ease;
+}
+.overview-desk-card:hover,
+.overview-desk-card:focus-visible {
+  border-color: var(--accent-border);
+  box-shadow: 0 7px 18px #304d3912;
+  outline: none;
+  transform: translateY(-2px);
+}
+.overview-desk-icon {
+  align-items: center;
+  background: var(--mint);
+  border-radius: 7px;
+  color: var(--green);
+  display: inline-flex;
+  font: 700 12px "DM Mono";
+  height: 31px;
+  justify-content: center;
+  min-width: 31px;
+}
+.overview-desk-copy strong,
+.overview-desk-copy small {
+  display: block;
+}
+.overview-desk-copy strong {
+  font-size: 15px;
+  line-height: 1.2;
+}
+.overview-desk-copy small {
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.55;
+  margin-top: 6px;
+}
+.overview-desk-arrow {
+  color: var(--green);
+  font-size: 18px;
+  line-height: 1;
+}
 .page-heading {
   align-items: center;
   margin-top: 0;
@@ -537,9 +611,6 @@ button {
   position: sticky;
   top: 20px;
 }
-.practice-kicker {
-  color: var(--green);
-}
 .practice-word {
   font: italic 42px Georgia;
   color: var(--green);
@@ -602,7 +673,7 @@ button {
 .phrase-card h2 {
   font-size: 36px;
   letter-spacing: -1.5px;
-  margin: 71px 0 8px;
+  margin: 28px 0 8px;
 }
 .phrase-hint {
   color: var(--muted);
@@ -751,6 +822,19 @@ button {
   opacity: 1;
   transform: none;
 }
+@media (max-width: 700px) {
+  .overview-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 470px) {
+  .overview-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .overview-desk-card {
+    min-height: 0;
+  }
+}
 @media (max-width: 850px) {
   .sidebar {
     width: 180px;
@@ -821,7 +905,7 @@ button {
   }
   .phrase-card h2 {
     font-size: 29px;
-    margin-top: 55px;
+    margin-top: 28px;
   }
   .mode-switch {
     flex-wrap: wrap;
@@ -986,11 +1070,6 @@ button {
   font-size: 11px;
   cursor: pointer;
 }
-.practice-mode.active {
-  background: var(--peach);
-  border-color: #e7c8b6;
-  color: #9e5e40;
-}
 .cloze-sentence {
   display: none;
   margin: 27px 0 22px;
@@ -1005,14 +1084,8 @@ button {
   color: #c9825e;
   text-align: center;
 }
-.phrase-card.cloze-active h2 {
-  margin-top: 46px;
-}
 .phrase-card.cloze-active .cloze-sentence {
   display: block;
-}
-.phrase-card.cloze-active .phrase-hint {
-  margin-bottom: 0;
 }
 .vocab-mode {
   border: 1px solid var(--line);
@@ -1022,11 +1095,6 @@ button {
   color: #859087;
   font-size: 10px;
   cursor: pointer;
-}
-.vocab-mode.active {
-  background: var(--mint);
-  border-color: #b7cdbb;
-  color: var(--green);
 }
 .grammar-mark {
   font: italic 58px Georgia;
@@ -1070,7 +1138,8 @@ button {
 }
 .grammar-number {
   font: italic 26px Georgia;
-  color: #c8d4c9;
+  color: var(--green);
+  opacity: 0.82;
 }
 .grammar-intro {
   font-size: 12px;
@@ -1186,6 +1255,21 @@ button {
   text-align: left;
   font: 600 11px Manrope;
   cursor: pointer;
+}
+.choice-option[data-choice-shortcut] {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+}
+.choice-option[data-choice-shortcut]:before {
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  content: attr(data-choice-shortcut);
+  flex: 0 0 auto;
+  font: 700 9px "DM Mono";
+  line-height: 1;
+  opacity: 0.7;
+  padding: 3px 4px;
 }
 .choice-option:hover {
   border-color: #a9c1ad;

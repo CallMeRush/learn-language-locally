@@ -4,7 +4,7 @@ const categoryRecords = [
     "type": "category",
     "localized": {
       "en": {
-        "label": "All words"
+        "label": "All nouns"
       }
     },
     "studyOrder": 9999999
@@ -34,7 +34,7 @@ const categoryRecords = [
     "type": "category",
     "localized": {
       "en": {
-        "label": "Adjectives"
+        "label": "All adjectives"
       }
     },
     "studyOrder": 2723287

@@ -17,9 +17,11 @@ function renderGrammar() {
         (open ? "is-open" : "is-collapsed") +
         '" data-grammar-card="' +
         lesson.id +
-        '"><div class="grammar-card-head" data-grammar-toggle="' +
+        '" data-grammar-toggle="' +
         index +
-        '"><div><span class="grammar-level">' +
+        '"><div class="grammar-card-head"><div data-grammar-title-toggle="' +
+        index +
+        '"><span class="grammar-level">' +
         lesson.level +
         '</span><span class="grammar-tag">' +
         lesson.tag +
@@ -136,15 +138,23 @@ function grammarApplicationCount(lessonId) {
 }
 function grammarCardActionsHtml(lesson, index, open) {
   var number = String(index + 1).padStart(2, "0"),
-    checks = lesson.tests?.length || 0;
-  return `<div class="grammar-card-actions"><span class="grammar-number">${number}</span>${open && checks && !grammarPracticeOpen[index] ? `<button type="button" class="secondary-btn grammar-open-checks" data-grammar-open="${index}" title="Open ${checks} quick checks">Open checks <span>→</span></button>` : ""}<button type="button" class="grammar-card-disclosure" data-grammar-toggle-button="${index}" aria-expanded="${open}" aria-label="${open ? "Collapse" : "Expand"} grammar tile ${number}"><span aria-hidden="true">⌄</span></button></div>`;
+    checks = lesson.tests?.length || 0,
+    applicationCount = grammarApplicationCount(lesson.id),
+    checkButton =
+      open && checks
+        ? `<button type="button" class="secondary-btn grammar-open-checks" data-grammar-open="${index}" title="${grammarPracticeOpen[index] ? "Close" : "Open"} ${checks} quick checks">${grammarPracticeOpen[index] ? "Close checks" : "Open checks"} <span>${grammarPracticeOpen[index] ? "↑" : "→"}</span></button>`
+        : "",
+    applyButton =
+      open && applicationCount
+        ? `<button type="button" class="subtle-btn grammar-apply-checks" data-grammar-apply="${lesson.id}">Apply in phrases <span>→</span></button>`
+        : "";
+  return `<div class="grammar-card-actions"><span class="grammar-number">${number}</span>${checkButton}${applyButton}<button type="button" class="grammar-card-disclosure" data-grammar-toggle-button="${index}" aria-expanded="${open}" aria-label="${open ? "Collapse" : "Expand"} grammar tile ${number}"><span aria-hidden="true">⌄</span></button></div>`;
 }
 function grammarPracticeHtml(lesson, index) {
-  var applicationCount = grammarApplicationCount(lesson.id);
   if (!grammarPracticeOpen[index]) {
-    return `<section data-grammar-practice="${index}">${applicationCount ? `<button type="button" class="subtle-btn grammar-apply-link" data-grammar-apply="${lesson.id}">Apply in phrases →</button>` : ""}</section>`;
+    return `<section data-grammar-practice="${index}"></section>`;
   }
-  return `<section data-grammar-practice="${index}">${grammarTestHtmlCanonical(lesson, index)}${applicationCount ? `<button type="button" class="subtle-btn grammar-apply-link" data-grammar-apply="${lesson.id}">Apply tile ${String(index + 1).padStart(2, "0")} in phrases →</button>` : ""}</section>`;
+  return `<section data-grammar-practice="${index}">${grammarTestHtmlCanonical(lesson, index)}</section>`;
 }
 function grammarTestHtmlCanonical(lesson, index) {
   var tests = lesson.tests || [];
@@ -165,20 +175,20 @@ function grammarTestHtmlCanonical(lesson, index) {
 }
 
 function bindGrammarInteractions() {
-  $$("[data-grammar-toggle]").forEach((header) => {
-    header.onclick = (event) => {
-      if (event.target.closest("button")) return;
-      var index = Number(header.dataset.grammarToggle);
-      grammarCardOpen[index] = !grammarCardOpen[index];
-      renderGrammar();
+  $$("[data-grammar-toggle]").forEach((card) => {
+    card.onclick = (event) => {
+      if (event.target.closest("button, input, select, textarea, label, a"))
+        return;
+      if (
+        event.target === card ||
+        event.target.closest("[data-grammar-title-toggle]")
+      )
+        toggleGrammarCard(Number(card.dataset.grammarToggle));
     };
   });
   $$("[data-grammar-toggle-button]").forEach((button) => {
-    button.onclick = () => {
-      var index = Number(button.dataset.grammarToggleButton);
-      grammarCardOpen[index] = !grammarCardOpen[index];
-      renderGrammar();
-    };
+    button.onclick = () =>
+      toggleGrammarCard(Number(button.dataset.grammarToggleButton));
   });
   $$("[data-grammar-question]").forEach((button) => {
     button.onclick = () => {
@@ -191,7 +201,7 @@ function bindGrammarInteractions() {
   $$("[data-grammar-open]").forEach((button) => {
     button.onclick = () => {
       var index = Number(button.dataset.grammarOpen);
-      grammarPracticeOpen[index] = true;
+      grammarPracticeOpen[index] = !grammarPracticeOpen[index];
       renderGrammar();
     };
   });
@@ -231,8 +241,11 @@ function bindGrammarInteractions() {
           "/" +
           grammarLessons[index].tests.length +
           " tried";
+      var assisted = Boolean(
+        grammarTestHints[index]?.[grammarTestState[index]],
+      );
       feedback.textContent = ok
-        ? "Correct. Why: " +
+        ? (assisted ? "Correct after hint. Why: " : "Correct. Why: ") +
           test.explain +
           " Press Enter again for the next check."
         : "Not yet. Why: " + test.explain;
@@ -264,12 +277,16 @@ function bindGrammarInteractions() {
         index = Number(card.dataset.grammarIndex),
         test = grammarLessons[index].tests[grammarTestState[index]],
         feedback = card.querySelector("[data-grammar-feedback]");
-      toggleHintFeedback(
+      var shown = toggleHintFeedback(
         feedback,
         "grammar-" + index,
         "Hint · Answer: " + test.answers.join(" / ") + " Why: " + test.explain,
         "grammar-test-feedback hint",
       );
+      if (shown) {
+        grammarTestHints[index] ||= {};
+        grammarTestHints[index][grammarTestState[index]] = true;
+      }
     };
   });
   $$("[data-grammar-next]").forEach((button) => {
@@ -278,6 +295,10 @@ function bindGrammarInteractions() {
         Number(button.closest("[data-grammar-index]").dataset.grammarIndex),
       );
   });
+}
+function toggleGrammarCard(index) {
+  grammarCardOpen[index] = !grammarCardOpen[index];
+  renderGrammar();
 }
 function nextGrammarTest(index) {
   grammarTestState[index] =
