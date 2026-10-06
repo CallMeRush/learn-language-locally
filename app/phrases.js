@@ -9,16 +9,16 @@ function phraseRecords() {
   return phrases.filter(
     (p) =>
       levelSelected({ easy: "A1", medium: "A2", hard: "B1" }[p.level]) &&
-      (!phraseCategories.length ||
-        phraseCategories.includes("all") ||
+      (phraseCategories.includes("all") ||
         phraseCategories.includes(p.category)),
   );
 }
 function phraseStudyGroups(records) {
+  var progress = phraseProgress();
   return studyProgressGroups(records, {
-    completed: state.phrases,
-    wrong: state.issues,
-    mistakes: state.phraseMistakes,
+    completed: progress.phrases,
+    wrong: progress.issues,
+    mistakes: progress.phraseMistakes,
   });
 }
 function filteredPhrases() {
@@ -26,10 +26,7 @@ function filteredPhrases() {
 }
 function renderPhrases() {
   renderPhraseCategories();
-  var records = phraseRecords();
-  if (randomMode && records.length)
-    phraseIndex = Math.floor(Math.random() * records.length);
-  showPhrase();
+  showPhrase(true);
 }
 function clozeFor(p, language = "de") {
   p._activeCloze ||= {};
@@ -172,7 +169,6 @@ function renderPhraseCategories() {
           category,
         );
         phraseCategory = "all";
-        phraseIndex = 0;
         await ensureContent("phrases");
         renderPhrases();
         savePreferences();
@@ -190,18 +186,26 @@ function updatePhraseControls() {
     if (!button) return;
     button.classList.toggle("active", active);
     button.setAttribute("aria-pressed", String(active));
+    button.textContent =
+      name === "phraseCloze"
+        ? active
+          ? "Full sentence"
+          : "Fill the blank"
+        : active
+          ? "Use typed answer"
+          : "Multiple choice";
   });
 }
 function setPhraseCloze(enabled = !phraseCloze) {
   phraseCloze = Boolean(enabled);
   updatePhraseControls();
-  showPhrase();
+  showPhrase(true);
   savePreferences();
 }
 function setPhraseMultipleChoice(enabled = !phraseMultipleChoice) {
   phraseMultipleChoice = Boolean(enabled);
   updatePhraseControls();
-  showPhrase();
+  showPhrase(true);
   savePreferences();
 }
 function phraseAnswerLanguage() {
@@ -220,14 +224,20 @@ function updatePhraseCheckButton() {
     nextPhrase,
   );
 }
-function showPhrase() {
+function showPhrase(retainActive = false) {
   updatePhraseControls();
-  var list = filteredPhrases();
+  var list = filteredPhrases(),
+    eligible = phraseRecords(),
+    retained =
+      retainActive &&
+      activePhrase &&
+      eligible.some((phrase) => phrase.id === activePhrase.id),
+    p = retained ? activePhrase : list[phraseIndex % list.length] || null;
   phraseAnswered = false;
   phraseCorrect = false;
-  activePhrase = null;
+  activePhrase = p;
   updatePhraseCheckButton();
-  if (!list.length) {
+  if (!p) {
     renderPhraseLists();
     $("#phrase-level").textContent = "NO MATCHING PHRASES";
     $("#phrase-number").textContent = "—";
@@ -247,18 +257,19 @@ function showPhrase() {
   $("#phrase-answer").disabled = false;
   $("#check-phrase").disabled = false;
   $("#show-answer").disabled = false;
-  var p = list[phraseIndex % list.length],
-    answerLanguage = phraseAnswerLanguage(),
+  if (list.includes(p)) phraseIndex = list.indexOf(p);
+  var answerLanguage = phraseAnswerLanguage(),
     cloze = phraseCloze ? clozeFor(p, answerLanguage) : null;
   activePhrase = p;
   $("#phrase-level").textContent =
     { easy: "A1", medium: "A2", hard: "B1" }[p.level] +
     " · " +
     categoryLabel(p.category);
-  $("#phrase-number").textContent =
-    String((phraseIndex % list.length) + 1).padStart(2, "0") +
-    " / " +
-    list.length;
+  $("#phrase-number").textContent = list.includes(p)
+    ? String((phraseIndex % list.length) + 1).padStart(2, "0") +
+      " / " +
+      list.length
+    : "Selected · " + list.length;
   $("#phrase-question").textContent =
     phraseDirection === "reverse" ? targetText(p) : sourceText(p);
   $("#phrase-hint").textContent = phraseCloze
@@ -281,8 +292,8 @@ function showPhrase() {
     selectedPhraseChoice = "";
     $("#cloze-sentence").style.display = phraseCloze ? "block" : "none";
     var phraseOptions = phraseCloze
-      ? phraseChoiceOptions(p, cloze, filteredPhrases(), answerLanguage)
-      : phraseTranslationChoiceOptions(p, filteredPhrases(), answerLanguage);
+      ? phraseChoiceOptions(p, cloze, phraseRecords(), answerLanguage)
+      : phraseTranslationChoiceOptions(p, phraseRecords(), answerLanguage);
     phraseOptions.forEach((option) => {
       var button = document.createElement("button");
       button.type = "button";
@@ -326,11 +337,12 @@ function renderPhraseLists() {
     className: "word-list vocabulary-study-panel phrase-study-panel",
     rowHTML: (p) => {
       var text = phraseDirection === "reverse" ? targetText(p) : sourceText(p);
-      var mark = state.phrases.includes(p.id)
-        ? "✓"
-        : state.issues.includes(p.id)
-          ? "✕"
-          : "○";
+      var progress = phraseProgress(),
+        mark = progress.phrases.includes(p.id)
+          ? "✓"
+          : progress.issues.includes(p.id)
+            ? "✕"
+            : "○";
       return `<button type="button" class="word-row ${p === activePhrase ? "current" : ""}" data-phrase-id="${p.id}"><span>${text}</span><span class="word-check ${mark === "✓" ? "correct" : mark === "✕" ? "wrong" : ""}">${mark}</span></button>`;
     },
     select: (p) => {
@@ -361,9 +373,13 @@ function nextPhrase() {
 }
 function checkPhrase(reveal = false) {
   var list = filteredPhrases();
-  if (!list.length) return;
-  var p = list[phraseIndex % list.length],
-    ans = normalizeAnswer(
+  var p =
+    activePhrase &&
+    phraseRecords().some((phrase) => phrase.id === activePhrase.id)
+      ? activePhrase
+      : list[phraseIndex % list.length];
+  if (!p) return;
+  var ans = normalizeAnswer(
       (phraseMultipleChoice
         ? selectedPhraseChoice
         : $("#phrase-answer").value
@@ -372,12 +388,13 @@ function checkPhrase(reveal = false) {
     cloze = phraseCloze ? clozeFor(p, phraseAnswerLanguage()) : null,
     expected = phraseCloze ? cloze.word : phraseExpectedAnswer(p);
   if (reveal) {
-    phraseAnswered = true;
-    phraseCorrect = false;
-    $("#phrase-feedback").textContent = phraseCloze
-      ? "Hint · Missing word: " + cloze.word
-      : "Hint · Answer: " + expected;
-    $("#phrase-feedback").className = "feedback hint";
+    toggleHintFeedback(
+      $("#phrase-feedback"),
+      "phrase",
+      phraseCloze
+        ? "Hint · Missing word: " + cloze.word
+        : "Hint · Answer: " + expected,
+    );
     return;
   }
   var clean = (s) => normalizeAnswer(s).replace(/[.,!?;:]/g, ""),
@@ -385,17 +402,18 @@ function checkPhrase(reveal = false) {
   phraseAnswered = true;
   phraseCorrect = !!ok;
   state.attempts++;
+  var progress = phraseProgress();
   if (ok) {
     state.correct++;
-    if (!state.phrases.includes(p.id)) state.phrases.push(p.id);
-    resolveIssue(p.id);
+    if (!progress.phrases.includes(p.id)) progress.phrases.push(p.id);
+    resolveIssue(p.id, progress);
     $("#phrase-feedback").textContent =
       "Very good! Press Enter again for the next phrase.";
     $("#phrase-feedback").className = "feedback good";
   } else {
-    state.phrases = state.phrases.filter((id) => id !== p.id);
-    if (!state.issues.includes(p.id)) state.issues.push(p.id);
-    recordPhraseMistake(p.id);
+    progress.phrases = progress.phrases.filter((id) => id !== p.id);
+    if (!progress.issues.includes(p.id)) progress.issues.push(p.id);
+    recordPhraseMistake(p.id, progress);
     $("#phrase-feedback").textContent = phraseCloze
       ? "The missing word is wrong. Use Hint if needed."
       : "The translation is wrong. Use Hint if needed.";
@@ -406,13 +424,14 @@ function checkPhrase(reveal = false) {
   updatePhraseCheckButton();
 }
 function renderIssues() {
-  var el = $("#issues-list");
-  if (!state.issues.length) {
+  var el = $("#issues-list"),
+    issueIds = allIssueIds();
+  if (!issueIds.length) {
     el.innerHTML =
       '<div class="empty-state">No issues yet. That is a good sign — go practice a few words or phrases.</div>';
     return;
   }
-  el.innerHTML = state.issues
+  el.innerHTML = issueIds
     .map((id) => {
       var item =
         vocab.find((x) => x.id === id) || phrases.find((x) => x.id === id);
@@ -423,21 +442,16 @@ function renderIssues() {
   $$("[data-clear]").forEach(
     (b) =>
       (b.onclick = () => {
-        state.issues = state.issues.filter((x) => x !== b.dataset.clear);
+        clearIssue(b.dataset.clear);
         save();
         renderIssues();
       }),
   );
 }
 updatePhraseCheckButton();
+$("#show-answer").textContent = "Hint · 5";
+$("#show-answer").setAttribute("aria-keyshortcuts", "5");
 $("#show-answer").onclick = () => checkPhrase(true);
-$("#next-phrase").onclick = nextPhrase;
-var phraseControls = $(".phrase-controls");
-phraseControls.innerHTML = `
-  <div class="mode-switch phrase-options" role="group" aria-label="Phrase practice options">
-    <button class="practice-mode" type="button" data-phrase-cloze aria-pressed="false">Fill the blank</button>
-    <button class="practice-mode" type="button" data-phrase-choice aria-pressed="false">Multiple choice</button>
-  </div>`;
 document.querySelector("[data-phrase-cloze]").onclick = () => setPhraseCloze();
 document.querySelector("[data-phrase-choice]").onclick = () =>
   setPhraseMultipleChoice();

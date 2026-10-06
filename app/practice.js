@@ -60,6 +60,25 @@ function updateCheckButton(
     : `${checkLabel} <span>↵</span>`;
   button.onclick = complete ? next : check;
 }
+function toggleHintFeedback(element, key, text, className = "feedback hint") {
+  if (!element) return false;
+  if (element.classList.contains("hint") && element.dataset.hintKey === key) {
+    element.textContent = element.dataset.hintPreviousText || "";
+    element.className = element.dataset.hintPreviousClass || "feedback";
+    delete element.dataset.hintKey;
+    delete element.dataset.hintPreviousText;
+    delete element.dataset.hintPreviousClass;
+    return false;
+  }
+  if (!element.classList.contains("hint")) {
+    element.dataset.hintPreviousText = element.textContent;
+    element.dataset.hintPreviousClass = element.className;
+  }
+  element.textContent = text;
+  element.className = className;
+  element.dataset.hintKey = key;
+  return true;
+}
 function studyProgressGroups(
   records,
   {

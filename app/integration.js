@@ -6,13 +6,15 @@ function showVocabHint(kind = "word") {
       vocabMode === "translate"
         ? targetText(activeVocabWord)
         : sourceText(activeVocabWord);
-  $("#vocab-feedback").textContent =
+  toggleHintFeedback(
+    $("#vocab-feedback"),
+    "vocabulary-" + kind,
     kind === "article"
       ? article
         ? "Hint · Article: " + article
-        : "This word has no article."
-      : "Hint · Answer: " + answer;
-  $("#vocab-feedback").className = "feedback hint";
+        : "Hint · This word has no article."
+      : "Hint · Answer: " + answer,
+  );
 }
 function showMixedHint() {
   if (!mixedQuestion) return;
@@ -21,8 +23,7 @@ function showMixedHint() {
       q.kind === "grammar"
         ? q.item.test.answers.join(" / ") + " Why: " + q.item.test.explain
         : mixedExpectedAnswer(q);
-  $("#mixed-feedback").textContent = "Hint · " + answer;
-  $("#mixed-feedback").className = "feedback hint";
+  toggleHintFeedback($("#mixed-feedback"), "mixed", "Hint · " + answer);
 }
 function closeProgressModal() {
   $("#progress-modal").hidden = true;
@@ -115,7 +116,8 @@ function importCurrentProgress(imported) {
 }
 function bindGlobalVocabularyControls() {
   $$("#vocab-hint").forEach((button) => {
-    button.textContent = "Word hint";
+    button.textContent = "Word hint · 5";
+    button.setAttribute("aria-keyshortcuts", "5");
     button.onclick = () => showVocabHint("word");
   });
   $$("[data-vocab-article-hint]").forEach(
@@ -147,6 +149,25 @@ function bindArticleKeys() {
       root + " [data-" + attribute + '=\"' + article + '\"]',
     );
     if (!button || button.offsetParent === null) return;
+    event.preventDefault();
+    button.click();
+  });
+}
+function bindPracticeHintKeys() {
+  document.addEventListener("keydown", (event) => {
+    if (!["4", "5"].includes(event.key)) return;
+    var vocabularyActive = document.querySelector(
+        "#vocabulary-view.active-view",
+      ),
+      phrasesActive = document.querySelector("#phrases-view.active-view"),
+      button = vocabularyActive
+        ? event.key === "4"
+          ? $("[data-vocab-article-hint]")
+          : $("#vocab-hint")
+        : phrasesActive && event.key === "5"
+          ? $("#show-answer")
+          : null;
+    if (!button || button.disabled || button.offsetParent === null) return;
     event.preventDefault();
     button.click();
   });
@@ -187,17 +208,11 @@ function bindNavigation() {
   });
 }
 function bindVocabularyDeskControls() {
-  $$(".heading-actions").forEach((element) =>
-    element.insertAdjacentHTML(
-      "afterbegin",
-      '<div class="mode-switch vocab-direction" role="group" aria-label="Vocabulary practice controls"><button class="vocab-mode" type="button" data-vocab-choice aria-pressed="false">Multiple choice</button></div>',
-    ),
-  );
   $$("[data-vocab-choice]").forEach(
     (button) =>
       (button.onclick = () => {
         vocabMultipleChoice = !vocabMultipleChoice;
-        showVocabCard();
+        showVocabCard(true);
         savePreferences();
       }),
   );
@@ -236,6 +251,7 @@ randomModeControl.onchange = (event) => {
 };
 bindGlobalVocabularyControls();
 bindArticleKeys();
+bindPracticeHintKeys();
 bindNavigation();
 bindVocabularyDeskControls();
 $("[data-study-direction]").onclick = () =>

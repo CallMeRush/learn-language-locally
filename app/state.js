@@ -35,6 +35,14 @@ var emptyProgress = () => ({
   articleOnlyMistakes: [],
   phrases: [],
   phraseMistakes: [],
+  choiceProgress: {
+    learned: [],
+    issues: [],
+    mistakes: [],
+    articleOnlyMistakes: [],
+    phrases: [],
+    phraseMistakes: [],
+  },
   grammarApplied: [],
   grammarApplicationMistakes: [],
   correct: 0,
@@ -77,6 +85,25 @@ function normalizeProgress(progress) {
       ? [...new Set(value[key].filter((id) => typeof id === "string"))]
       : [];
   });
+  var choiceProgress =
+    value.choiceProgress &&
+    typeof value.choiceProgress === "object" &&
+    !Array.isArray(value.choiceProgress)
+      ? value.choiceProgress
+      : {};
+  [
+    "learned",
+    "issues",
+    "mistakes",
+    "articleOnlyMistakes",
+    "phrases",
+    "phraseMistakes",
+  ].forEach((key) => {
+    choiceProgress[key] = Array.isArray(choiceProgress[key])
+      ? [...new Set(choiceProgress[key].filter((id) => typeof id === "string"))]
+      : [];
+  });
+  value.choiceProgress = choiceProgress;
   value.lessons = value.lessons.filter((id) =>
     lessons.some((lesson) => lesson.id === id),
   );
@@ -263,22 +290,35 @@ function progressFromExport(text) {
     throw Error("This export belongs to a different learning deck.");
   return normalizeProgress(payload.progress);
 }
-function resolveIssue(id) {
-  state.issues = state.issues.filter((issue) => issue !== id);
+function vocabularyProgress() {
+  return vocabMultipleChoice ? state.choiceProgress : state;
 }
-function recordMistake(id, articleOnly = false) {
-  if (articleOnly && !state.mistakes.includes(id)) {
-    if (!state.articleOnlyMistakes.includes(id))
-      state.articleOnlyMistakes.push(id);
+function phraseProgress() {
+  return phraseMultipleChoice ? state.choiceProgress : state;
+}
+function allIssueIds() {
+  return [...new Set([...state.issues, ...state.choiceProgress.issues])];
+}
+function resolveIssue(id, progress = state) {
+  progress.issues = progress.issues.filter((issue) => issue !== id);
+}
+function clearIssue(id) {
+  resolveIssue(id, state);
+  resolveIssue(id, state.choiceProgress);
+}
+function recordMistake(id, articleOnly = false, progress = state) {
+  if (articleOnly && !progress.mistakes.includes(id)) {
+    if (!progress.articleOnlyMistakes.includes(id))
+      progress.articleOnlyMistakes.push(id);
     return;
   }
-  if (!state.mistakes.includes(id)) state.mistakes.push(id);
-  state.articleOnlyMistakes = state.articleOnlyMistakes.filter(
+  if (!progress.mistakes.includes(id)) progress.mistakes.push(id);
+  progress.articleOnlyMistakes = progress.articleOnlyMistakes.filter(
     (item) => item !== id,
   );
 }
-function recordPhraseMistake(id) {
-  if (!state.phraseMistakes.includes(id)) state.phraseMistakes.push(id);
+function recordPhraseMistake(id, progress = state) {
+  if (!progress.phraseMistakes.includes(id)) progress.phraseMistakes.push(id);
 }
 function toggleCategorySelection(selection, allKey, keys, key) {
   if (key === allKey) return [allKey];
@@ -415,8 +455,10 @@ function setStudyDirection(direction) {
   phraseDirection = studyDirection === "toEnglish" ? "reverse" : "translate";
   mixedDirections = [studyDirection];
   updateDirectionLabels();
-  if (document.querySelector("#vocabulary-view.active-view")) showVocabCard();
-  else if (document.querySelector("#phrases-view.active-view")) showPhrase();
+  if (document.querySelector("#vocabulary-view.active-view"))
+    showVocabCard(true);
+  else if (document.querySelector("#phrases-view.active-view"))
+    showPhrase(true);
   else if (document.querySelector("#mixed-view.active-view"))
     refreshMixedSession();
   savePreferences();
@@ -459,7 +501,7 @@ applyAppearance();
     .querySelector(".article-choices")
     .insertAdjacentHTML(
       "beforeend",
-      '<button type="button" class="subtle-btn article-hint-btn" data-vocab-article-hint>Article hint</button>',
+      '<button type="button" class="subtle-btn article-hint-btn" data-vocab-article-hint aria-keyshortcuts="4">Article hint · 4</button>',
     );
 });
 $$(".practice-panel").forEach((panel) => {

@@ -83,6 +83,9 @@
 .practice-mode {
   color: var(--green);
 }
+.study-mode-toggle {
+  margin: 14px 0 4px;
+}
 .study-lists {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -451,10 +454,6 @@ button.word-row .word-check {
   }
   .page-heading {
     align-items: stretch;
-  }
-  .heading-actions,
-  .phrase-controls {
-    align-items: flex-start;
   }
   .lesson-path-card {
     grid-template-columns: 30px minmax(0, 1fr);
@@ -1240,6 +1239,10 @@ button.word-row .word-check {
   display: grid;
   gap: 12px;
 }
+.lesson-unit-entry {
+  display: grid;
+  gap: 12px;
+}
 .lesson-unit-card,
 .lesson-step-card {
   display: grid;
@@ -1266,6 +1269,9 @@ button.word-row .word-check {
 .lesson-step-card.current {
   border-color: #9db9a2;
   box-shadow: 0 4px 16px #315f4b12;
+}
+.lesson-unit-card.expanded {
+  border-color: var(--accent-border);
 }
 .lesson-unit-card.completed .lesson-path-number,
 .lesson-step-card.completed .lesson-step-number {
@@ -1294,11 +1300,7 @@ button.word-row .word-check {
   margin: 0;
 }
 .lesson-unit-detail {
-  max-width: 880px;
-  margin: 0 auto;
-}
-.lesson-unit-detail > .secondary-btn {
-  margin: 0 0 17px;
+  margin: 0;
 }
 .lesson-unit-detail > header {
   display: flex;
@@ -1648,7 +1650,6 @@ html[data-background="dark"] .application-choice,
 html[data-background="dark"] .lesson-unit-detail header > span,
 html[data-background="dark"] .lesson-path-details small,
 html[data-background="dark"] .import-drop-zone,
-html[data-background="dark"] .grammar-practice-launch,
 html[data-background="dark"] .empty-state {
   background: #1f2228;
   border-color: #454c56;
@@ -1708,7 +1709,6 @@ html[data-background="dark"] .application-prompt,
 html[data-background="dark"] .application-prompt span,
 html[data-background="dark"] .lesson-unit-detail header p:not(.eyebrow),
 html[data-background="dark"] .lesson-path-details small,
-html[data-background="dark"] .grammar-practice-launch span,
 html[data-background="dark"] .import-drop-zone,
 html[data-background="dark"] .dictionary-empty {
   color: var(--muted);
@@ -1940,41 +1940,79 @@ html[data-background="dark"] .hero-art .plant {
     margin-left: 0;
   }
 }
-.grammar-practice-launch {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 18px;
-  margin-top: 23px;
-  padding: 15px 17px;
-  background: #f4f7f3;
-  border: 1px dashed #bfd0c2;
-  border-radius: 8px;
-}
-.grammar-practice-launch strong,
-.grammar-practice-launch span {
-  display: block;
-}
-.grammar-practice-launch strong {
-  font-size: 12px;
-}
-.grammar-practice-launch span {
-  margin-top: 4px;
-  color: #7d8980;
-  font-size: 10px;
-}
-.grammar-practice-launch > div:last-child {
+.grammar-card-actions {
   display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: flex-end;
+  gap: 8px;
   white-space: nowrap;
 }
-.grammar-practice-launch .secondary-btn {
-  padding: 9px 11px;
+.grammar-card-head {
+  cursor: pointer;
+  gap: 14px;
+}
+.grammar-card.is-collapsed {
+  padding-block: 18px;
+}
+.grammar-card-disclosure {
+  align-items: center;
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--green);
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 17px;
+  height: 27px;
+  justify-content: center;
+  line-height: 1;
+  padding: 0;
+  transition:
+    background 160ms ease,
+    transform 160ms ease;
+  width: 27px;
+}
+.grammar-card-disclosure:hover {
+  background: var(--mint);
+}
+.grammar-card.is-open .grammar-card-disclosure {
+  transform: rotate(180deg);
+}
+.grammar-open-checks {
+  gap: 7px;
+  margin: 0;
+  padding: 7px 9px;
+  white-space: nowrap;
 }
 .grammar-apply-link {
   display: block;
   margin: 14px 0 0;
+}
+html[data-background="dark"] .grammar-rules,
+html[data-background="dark"] .grammar-rules li {
+  color: #d9e0e5;
+}
+html[data-background="dark"] .grammar-table-wrap th {
+  background: #2b3038;
+  color: #e2e8ee;
+}
+html[data-background="dark"] .grammar-table-wrap th,
+html[data-background="dark"] .grammar-table-wrap td {
+  border-color: #454c56;
+}
+@supports (background: color-mix(in srgb, black, white)) {
+  html[data-background="dark"] .grammar-table-wrap th {
+    background: color-mix(in srgb, var(--green) 24%, #252931);
+    border-color: color-mix(in srgb, var(--green) 36%, #454c56);
+  }
+}
+html[data-background="dark"] .grammar-card-disclosure {
+  background: #1f2228;
+  border-color: #454c56;
+  color: #b7dfbd;
+}
+html[data-background="dark"] .grammar-card-disclosure:hover {
+  background: #2b3038;
 }
 .application-focus-tabs {
   max-width: 650px;
@@ -2002,18 +2040,26 @@ html[data-background="dark"] .hero-art .plant {
   margin: 0;
 }
 @media (max-width: 650px) {
-  .grammar-practice-launch {
-    align-items: flex-start;
+  .grammar-card-actions {
+    align-items: flex-end;
     flex-direction: column;
-  }
-  .grammar-practice-launch > div:last-child {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 7px;
+    gap: 4px;
   }
   .application-focus-tabs {
     max-height: 160px;
     overflow: auto;
     padding-right: 3px;
+  }
+}
+@media (max-width: 360px) {
+  .grammar-card-head {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .grammar-card-actions {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
   }
 }

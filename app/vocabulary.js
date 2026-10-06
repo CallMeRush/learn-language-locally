@@ -5,8 +5,8 @@ function save() {
   updateStats();
 }
 function updateStats() {
-  $("#issue-count").textContent = state.issues.length;
-  $("#issue-big").textContent = state.issues.length;
+  $("#issue-count").textContent = allIssueIds().length;
+  $("#issue-big").textContent = allIssueIds().length;
 }
 function setView(view) {
   if (["vocabulary", "verbs", "adjectives"].includes(view)) {
@@ -153,10 +153,7 @@ function vocabularyCategorySelected(key) {
   );
 }
 function selectedVocabularyCategoryMatches(word) {
-  return (
-    !selectedCategories.length ||
-    selectedCategories.some((key) => categoryMatches(word, key))
-  );
+  return selectedCategories.some((key) => categoryMatches(word, key));
 }
 function toggleVocabularyCategory(key, entries) {
   var allKey = activeAllCategory();
@@ -232,7 +229,6 @@ function renderCategories() {
     (b) =>
       (b.onclick = async () => {
         toggleVocabularyCategory(b.dataset.cat, entries);
-        vocabIndex = 0;
         await ensureVocabularyFor(vocabularyKind, activeAllCategory());
         renderVocabulary();
         savePreferences();
@@ -248,10 +244,8 @@ function renderVocabularyLevels() {
     button.setAttribute("aria-pressed", String(active));
     button.onclick = () => {
       toggleStudyLevel(level);
-      vocabIndex = 0;
-      phraseIndex = 0;
       renderVocabularyLevels();
-      if (document.querySelector("#phrases-view.active-view")) showPhrase();
+      if (document.querySelector("#phrases-view.active-view")) showPhrase(true);
       else if (document.querySelector("#application-view.active-view"))
         renderGrammarApplication();
       else if (document.querySelector("#mixed-view.active-view")) {
@@ -278,11 +272,12 @@ function vocabularyRecords() {
   });
 }
 function vocabularyStudyGroups(records) {
+  var progress = vocabularyProgress();
   return studyProgressGroups(records, {
-    completed: state.learned,
-    wrong: state.issues,
-    mistakes: state.mistakes,
-    articleOnly: state.articleOnlyMistakes,
+    completed: progress.learned,
+    wrong: progress.issues,
+    mistakes: progress.mistakes,
+    articleOnly: progress.articleOnlyMistakes,
     includeArticle: true,
   });
 }
@@ -291,10 +286,7 @@ function currentWords() {
 }
 function renderVocabulary() {
   renderCategories();
-  var words = vocabularyRecords();
-  if (randomMode && words.length)
-    vocabIndex = Math.floor(Math.random() * words.length);
-  showVocabCard();
+  showVocabCard(true);
 }
 function renderVocabularyList() {
   var words = vocabularyRecords();
@@ -312,13 +304,14 @@ function renderVocabularyList() {
     active: activeVocabWord,
     className: "word-list vocabulary-study-panel",
     rowHTML: (w) => {
-      var article = targetArticle(w),
+      var progress = vocabularyProgress(),
+        article = targetArticle(w),
         word = article
           ? targetText(w).replace(/^(der|die|das) /, "")
           : targetText(w),
-        mark = state.learned.includes(w.id)
+        mark = progress.learned.includes(w.id)
           ? "✓"
-          : state.issues.includes(w.id)
+          : progress.issues.includes(w.id)
             ? "✕"
             : "○";
       var prompt = vocabMode === "translate" ? sourceText(w) : word;
@@ -335,17 +328,27 @@ function renderVocabularyList() {
     },
   });
 }
-function showVocabCard() {
+function showVocabCard(retainActive = false) {
   updateDirectionLabels();
   $$("[data-vocab-choice]").forEach((button) => {
     button.classList.toggle("active", vocabMultipleChoice);
     button.setAttribute("aria-pressed", String(vocabMultipleChoice));
+    button.textContent = vocabMultipleChoice
+      ? "Use typed answer"
+      : "Multiple choice";
   });
   refreshArticleChoices();
-  var words = currentWords();
-  activeVocabWord = words[vocabIndex % words.length] || null;
+  var words = currentWords(),
+    eligible = vocabularyRecords(),
+    retained =
+      retainActive &&
+      activeVocabWord &&
+      eligible.some((word) => word.id === activeVocabWord.id),
+    w = retained ? activeVocabWord : words[vocabIndex % words.length] || null;
+  activeVocabWord = w;
+  if (w && words.includes(w)) vocabIndex = words.indexOf(w);
   renderVocabularyList();
-  if (!words.length) {
+  if (!w) {
     $("#vocab-level").textContent = "NO MATCHING WORDS";
     $("#vocab-number").textContent = "—";
     $("#practice-word").textContent = "Nothing here";
@@ -361,8 +364,7 @@ function showVocabCard() {
   }
   $("#vocab-answer").disabled = false;
   $("#check-vocab").disabled = false;
-  var w = words[vocabIndex % words.length],
-    article = targetArticle(w),
+  var article = targetArticle(w),
     word = article
       ? targetText(w).replace(/^(der|die|das) /, "")
       : targetText(w);
@@ -373,8 +375,9 @@ function showVocabCard() {
         ? categoryLabel("adjective-" + w.adjectiveCategory)
         : categoryLabel(w.category);
   $("#vocab-level").textContent = w.level + " · " + category;
-  $("#vocab-number").textContent =
-    String(words.indexOf(w) + 1).padStart(2, "0") + " / " + words.length;
+  $("#vocab-number").textContent = words.includes(w)
+    ? String(words.indexOf(w) + 1).padStart(2, "0") + " / " + words.length
+    : "Selected · " + words.length;
   vocabAnswered = false;
   vocabCorrect = false;
   selectedVocabChoice = "";
@@ -391,7 +394,7 @@ function showVocabCard() {
   choices.innerHTML = "";
   choices.style.display = vocabMultipleChoice ? "grid" : "none";
   if (vocabMultipleChoice) {
-    var distractors = words
+    var distractors = eligible
       .filter((item) => item.id !== w.id)
       .sort(() => Math.random() - 0.5)
       .slice(0, 3);
@@ -508,18 +511,19 @@ function checkVocab() {
   vocabAnswered = !!ok;
   vocabCorrect = !!ok;
   state.attempts++;
+  var progress = vocabularyProgress();
   if (ok) {
     state.correct++;
-    if (!state.learned.includes(w.id)) state.learned.push(w.id);
-    resolveIssue(w.id);
+    if (!progress.learned.includes(w.id)) progress.learned.push(w.id);
+    resolveIssue(w.id, progress);
     $("#vocab-feedback").textContent =
       "Correct! Press Enter again for the next word.";
     $("#vocab-feedback").className = "feedback good";
     save();
   } else {
-    state.learned = state.learned.filter((id) => id !== w.id);
-    if (!state.issues.includes(w.id)) state.issues.push(w.id);
-    recordMistake(w.id, !articleCorrect && wordCorrect);
+    progress.learned = progress.learned.filter((id) => id !== w.id);
+    if (!progress.issues.includes(w.id)) progress.issues.push(w.id);
+    recordMistake(w.id, !articleCorrect && wordCorrect, progress);
     var message;
     if (article && !articleCorrect && !selectedArticle)
       message = "The article is missing.";

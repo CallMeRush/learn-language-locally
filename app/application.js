@@ -2,7 +2,8 @@
 var applicationCurrent = null,
   applicationStage = "answer",
   applicationFeedback = "",
-  applicationFeedbackKind = "";
+  applicationFeedbackKind = "",
+  applicationHintRestore = null;
 
 function applicationSetDetails(set) {
   return {
@@ -53,6 +54,7 @@ function applicationSelectFocus(grammarId) {
   applicationCurrent = null;
   applicationFeedback = "";
   applicationFeedbackKind = "";
+  applicationHintRestore = null;
 }
 function openApplicationForGrammar(grammarId) {
   applicationSelectFocus(grammarId);
@@ -61,7 +63,8 @@ function openApplicationForGrammar(grammarId) {
 function returnToGrammarTile(grammarId) {
   var index = grammarLessons.findIndex((lesson) => lesson.id === grammarId);
   if (index < 0) return;
-  grammarPracticeOpen[index] = false;
+  grammarCardOpen[index] = true;
+  grammarPracticeOpen[index] = true;
   setView("grammar");
   document
     .querySelector(`[data-grammar-card="${grammarId}"]`)
@@ -159,7 +162,7 @@ function applicationCardHtml() {
     support = sentenceStep
       ? `Phrase source · ${record.sourcePhraseId}`
       : record.translations.en.text;
-  return `<article class="application-card"><div class="phrase-meta"><span>${record.level} · TILE ${number} · ${applicationSetDetails(record.set).label.toUpperCase()}</span><span>${state.grammarApplied.includes(record.id) ? "MASTERED" : "NEW"}</span></div><p class="application-kicker">${genderStep ? "STEP 1 · IDENTIFY THE NOUN" : sentenceStep ? "STEP 3 · RECALL THE PHRASE" : "STEP 2 · APPLY THE PATTERN"}</p><h2>${heading}</h2><p class="application-translation">${support}</p><div class="application-prompt"><strong>${prompt}</strong><span>${genderStep ? "Start from the dictionary form, not the sentence article." : sentenceStep ? "Use the English meaning above; punctuation is optional." : exercise.cue || "Use the pattern from the grammar tile."}</span></div>${genderStep ? `<div class="application-choices" role="group" aria-label="Noun gender">${applicationChoiceHtml("der", "der · masculine")}${applicationChoiceHtml("die", "die · feminine")}${applicationChoiceHtml("das", "das · neuter")}</div>` : input}<div class="phrase-actions">${genderStep ? "" : `<button class="primary-btn" id="check-application">${completed ? "Next exercise" : sentenceStep ? "Check sentence" : "Check answer"} <span>${completed ? "→" : "↵"}</span></button>`}<button class="subtle-btn" id="application-hint">Hint</button></div>${feedback}<div class="application-card-links"><button class="subtle-btn" id="next-application">Skip to another exercise →</button><button class="subtle-btn" data-application-back="${focus.id}">Back to tile ${number} →</button></div></article>`;
+  return `<article class="application-card"><div class="phrase-meta"><span>${record.level} · TILE ${number} · ${applicationSetDetails(record.set).label.toUpperCase()}</span><span>${state.grammarApplied.includes(record.id) ? "MASTERED" : "NEW"}</span></div><p class="application-kicker">${genderStep ? "STEP 1 · IDENTIFY THE NOUN" : sentenceStep ? "STEP 3 · RECALL THE PHRASE" : "STEP 2 · APPLY THE PATTERN"}</p><h2>${heading}</h2><p class="application-translation">${support}</p><div class="application-prompt"><strong>${prompt}</strong><span>${genderStep ? "Start from the dictionary form, not the sentence article." : sentenceStep ? "Use the English meaning above; punctuation is optional." : exercise.cue || "Use the pattern from the grammar tile."}</span></div>${genderStep ? `<div class="application-choices" role="group" aria-label="Noun gender">${applicationChoiceHtml("der", "der · masculine")}${applicationChoiceHtml("die", "die · feminine")}${applicationChoiceHtml("das", "das · neuter")}</div>` : input}<div class="phrase-actions">${genderStep ? "" : `<button class="primary-btn" id="check-application">${completed ? "Next exercise" : sentenceStep ? "Check sentence" : "Check answer"} <span>${completed ? "→" : "↵"}</span></button>`}<button class="subtle-btn" id="application-hint">Hint</button></div>${feedback}<div class="application-card-links"><button class="subtle-btn" id="next-application">Skip to another exercise →</button><button class="subtle-btn" data-application-back="${focus.id}">Open tile ${number} checks →</button></div></article>`;
 }
 function renderGrammarApplication() {
   var root = document.getElementById("application-content"),
@@ -219,6 +222,29 @@ function renderGrammarApplication() {
 function setApplicationFeedback(message, kind) {
   applicationFeedback = message;
   applicationFeedbackKind = kind;
+  if (kind !== "hint") applicationHintRestore = null;
+  renderGrammarApplication();
+}
+function toggleApplicationHint() {
+  if (applicationFeedbackKind === "hint") {
+    applicationFeedback = applicationHintRestore?.message || "";
+    applicationFeedbackKind = applicationHintRestore?.kind || "";
+    applicationHintRestore = null;
+    renderGrammarApplication();
+    return;
+  }
+  var text =
+      applicationStage === "sentence"
+        ? "Hint · Start from the English meaning and reconstruct the whole German sentence."
+        : "Hint · " +
+          (applicationCurrent.exercise.cue ||
+            applicationCurrent.exercise.explanation),
+    applicationHintRestore = {
+      message: applicationFeedback,
+      kind: applicationFeedbackKind,
+    };
+  applicationFeedback = text;
+  applicationFeedbackKind = "hint";
   renderGrammarApplication();
 }
 function bindGrammarApplicationCard() {
@@ -302,14 +328,7 @@ function bindGrammarApplicationCard() {
   });
   document
     .getElementById("application-hint")
-    ?.addEventListener("click", () =>
-      setApplicationFeedback(
-        applicationStage === "sentence"
-          ? "Hint · Start from the English meaning and reconstruct the whole German sentence."
-          : "Hint · " + (exercise.cue || exercise.explanation),
-        "hint",
-      ),
-    );
+    ?.addEventListener("click", toggleApplicationHint);
   document.getElementById("next-application")?.addEventListener("click", () => {
     applicationPickNext();
     renderGrammarApplication();

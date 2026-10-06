@@ -109,10 +109,12 @@ let socket;
     returnByValue: true,
     expression: `(() => {
     const assert=(condition,message)=>{if(!condition)throw Error(message)};
+    assert(document.querySelector('link[rel="icon"][href="assets/favicon.ico"]') && document.querySelector('link[rel="icon"][sizes="32x32"]') && document.querySelector('link[rel="apple-touch-icon"][sizes="180x180"]'),'favicon markup provides Safari and standard browser variants');
     assert(!document.querySelector('#source-language'), 'language selector removed');
     assert([...document.querySelectorAll('.sidebar .nav-item')].map(button=>button.dataset.view).join(',')==='dashboard,dictionary,vocabulary,grammar,application,phrases,mixed,lessons,issues,settings','desk navigation follows the learning flow');
     assert([...document.querySelectorAll('.topbar [data-global-vocab-level]')].map(button=>button.textContent.trim()).join(',')==='A1,A2,B1' && !document.querySelector('.topbar [data-global-vocab-level="all"]'),'the centered top bar has only A1, A2, and B1 level controls');
     assert(document.querySelector('[data-study-direction]') && !document.querySelector('.global-vocab-level').textContent.includes('✓'),'the top bar uses one direction control and uncluttered level buttons');
+    assert(getComputedStyle(document.querySelector('.topbar')).position==='sticky' && getComputedStyle(document.querySelector('.topbar')).top==='0px','study controls remain in a fixed title bar while a desk scrolls');
     assert(document.querySelector('#settings-view #export-progress') && document.querySelector('#settings-view #import-progress') && document.querySelector('#settings-random-mode'),'Settings contains progress transfer and random-order controls');
     $('#reset-progress').click();
     assert(!$('#progress-modal').hidden && $('#progress-modal-content').textContent.includes('Reset this session?'),'reset uses an in-page confirmation');
@@ -145,7 +147,7 @@ let socket;
       $('#vocab-answer').value=mode==='translate'?targetText(word):sourceText(word);
       if(choice) [...$('#vocab-choice-options').children].find(b=>b.textContent===(mode==='translate'?targetText(word).replace(/^(der|die|das) /,''):sourceText(word))).click();
       document.querySelector('#check-vocab').click();
-      assert(vocabCorrect && state.learned.includes(word.id),'adjective answer '+mode+(choice?' choice':'')+' · '+targetText(word)+' / '+sourceText(word)+' · '+$('#vocab-feedback').textContent);
+      assert(vocabCorrect && vocabularyProgress().learned.includes(word.id),'adjective answer '+mode+(choice?' choice':'')+' · '+targetText(word)+' / '+sourceText(word)+' · '+$('#vocab-feedback').textContent);
       document.querySelector('#check-vocab').click();
     }
     setStudyDirection('toGerman');vocabMultipleChoice=false;showVocabCard();
@@ -164,12 +166,12 @@ let socket;
     document.querySelector('[data-phrase-choice]').click();setStudyDirection('toGerman');
     setView('vocabulary');assert(currentWords().every(w=>!['adjective','verb'].includes(w.pos)),'ordinary vocabulary excludes adjectives and verbs');
     selectedCategories=['all'];selectedCategories=toggleDeskCategorySelection(selectedCategories,'all',['all','house'],'all');renderVocabulary();
-    assert(!selectedCategories.length && currentWords().length && activeVocabWord && !$('#category-tabs [data-cat="all"]').classList.contains('selected'),'deselecting All words leaves an unrestricted working vocabulary card');
+    assert(!selectedCategories.length && !currentWords().length && !activeVocabWord && $('#practice-word').textContent==='Nothing here' && !$('#category-tabs [data-cat="all"]').classList.contains('selected'),'deselecting All words leaves an empty, clearly updated study card');
     selectedCategories=['all'];selectedCategories=toggleDeskCategorySelection(selectedCategories,'all',['all','house','food'],'house');selectedCategories=toggleDeskCategorySelection(selectedCategories,'all',['all','house','food'],'house');
     assert(selectedCategories.join(',')==='all','restoring the last excluded vocabulary category reselects All words');
     selectedCategories=['all'];renderVocabulary();
     setView('phrases');phraseCategories=['all'];phraseCategories=toggleDeskCategorySelection(phraseCategories,'all',['all','daily'],'all');renderPhrases();
-    assert(!phraseCategories.length && phraseRecords().length && activePhrase && !$('#phrase-categories [data-phrase-category="all"]').classList.contains('selected'),'deselecting All phrases leaves an unrestricted working phrase card');
+    assert(!phraseCategories.length && !phraseRecords().length && !activePhrase && $('#phrase-question').textContent==='Nothing here.' && !$('#phrase-categories [data-phrase-category="all"]').classList.contains('selected'),'deselecting All phrases leaves an empty, clearly updated study card');
     phraseCategories=['all'];phraseCategories=toggleDeskCategorySelection(phraseCategories,'all',['all','daily','travel'],'daily');phraseCategories=toggleDeskCategorySelection(phraseCategories,'all',['all','daily','travel'],'daily');
     assert(phraseCategories.join(',')==='all','restoring the last excluded phrase category reselects All phrases');
     phraseCategories=['all'];renderPhrases();setView('vocabulary');
@@ -219,13 +221,17 @@ let socket;
     $('#word-list [data-study-status="pending"]').click();
     const word=activeVocabWord;
     if(targetArticle(word)) { document.querySelector('#article-choices [data-article="'+targetArticle(word)+'"]').click(); assert(selectedArticle===targetArticle(word),'article button selects vocabulary article'); }
-    $('[data-vocab-article-hint]').click(); assert($('#vocab-feedback').textContent.includes('Article:'),'article hint is separate');
-    $('#vocab-hint').click(); assert($('#vocab-feedback').textContent.includes('Answer:'),'word hint is separate');
+    document.dispatchEvent(new KeyboardEvent('keydown',{key:'4',bubbles:true})); assert($('#vocab-feedback').textContent.includes(targetArticle(word)?'Article:':'no article'),'4 opens the vocabulary article hint');
+    document.dispatchEvent(new KeyboardEvent('keydown',{key:'5',bubbles:true})); assert($('#vocab-feedback').textContent.includes('Answer:'),'5 opens the vocabulary word hint');
+    document.dispatchEvent(new KeyboardEvent('keydown',{key:'5',bubbles:true})); assert(!$('#vocab-feedback').textContent.includes('Answer:'),'repeating a vocabulary hint hides it');
     $('#vocab-answer').value='WRONG'; checkVocab();
     assert(!vocabCorrect && activeVocabWord===word,'wrong answer keeps card');
     $('#vocab-answer').value=targetText(word).replace(/^(der|die|das) /,''); checkVocab();
     assert(vocabCorrect && state.learned.includes(word.id),'retry checks displayed word');
     assert(state.mistakes.includes(word.id) && !state.articleOnlyMistakes.includes(word.id),'translation errors remain in history after a correct retry');
+    document.querySelector('[data-vocab-choice]').click();
+    assert(activeVocabWord===word && !vocabularyProgress().learned.includes(word.id) && document.querySelector('[data-vocab-choice]').textContent==='Use typed answer','vocabulary choice mode keeps the card but starts an independent record');
+    document.querySelector('[data-vocab-choice]').click();
     const articleWord=currentWords(true).find(item=>item.id!==word.id&&targetArticle(item));
     activeVocabWord=articleWord;vocabIndex=currentWords().indexOf(articleWord);showVocabCard();
     const wrongArticle=[...document.querySelectorAll('#article-choices [data-article]')].find(button=>button.dataset.article!==targetArticle(articleWord));wrongArticle.click();
@@ -247,6 +253,10 @@ let socket;
     sentenceRow.click();
     assert(filteredPhrases()[phraseIndex].id===sentenceId,'sentence list selects exact card in random mode');
     assert(activePhrase?.id===sentenceId && $('#phrase-question').textContent===sourceText(activePhrase),'phrase card and selected list stay aligned');
+    document.dispatchEvent(new KeyboardEvent('keydown',{key:'5',bubbles:true}));
+    assert($('#phrase-feedback').textContent.includes('Hint · Answer:'),'5 opens the phrase hint');
+    document.dispatchEvent(new KeyboardEvent('keydown',{key:'5',bubbles:true}));
+    assert(!$('#phrase-feedback').textContent.includes('Hint · Answer:'),'repeating a phrase hint hides it');
     $('#phrase-answer').value='WRONG';checkPhrase();
     assert(!document.querySelector('#phrase-study-lists .word-row.current'),'phrase list never highlights a different phrase after an answer changes status');
     $('#phrase-study-lists [data-study-status="wrong"]').click();
@@ -256,6 +266,10 @@ let socket;
     assert(document.querySelector('#phrase-study-lists [data-phrase-id="'+sentenceId+'"]'),'sentence moves into the corrected-after-error list');
     assert(!state.issues.includes(sentenceId),'correct sentence clears its issue');
     assert(state.phraseMistakes.includes(sentenceId),'phrase errors remain in history after a correct retry');
+    const phraseBeforeChoice=activePhrase;
+    document.querySelector('[data-phrase-choice]').click();
+    assert(activePhrase===phraseBeforeChoice && !phraseProgress().phrases.includes(sentenceId) && document.querySelector('[data-phrase-choice]').textContent==='Use typed answer','phrase choice mode keeps the card but starts an independent record');
+    document.querySelector('[data-phrase-choice]').click();
     $('#phrase-study-lists [data-study-status="wrong"]').click();
     assert($('#phrase-question').textContent==='Nothing here.' && $('#check-phrase').disabled,'empty phrase status disables the practice card');
     $('#phrase-study-lists [data-study-status="corrected"]').click();
@@ -270,7 +284,7 @@ let socket;
       {direction:'reverse',cloze:true,choice:true},
     ]) {
       setStudyDirection(settings.direction==='reverse'?'toEnglish':'toGerman');setPhraseCloze(settings.cloze);setPhraseMultipleChoice(settings.choice);
-      const p=filteredPhrases()[phraseIndex],language=settings.direction==='reverse'?'en':'de',answer=settings.cloze?clozeFor(p,language).word:translationText(p,language);
+      const p=activePhrase,language=settings.direction==='reverse'?'en':'de',answer=settings.cloze?clozeFor(p,language).word:translationText(p,language);
       if(settings.cloze) assert(answer===p.cloze[language],'phrase cloze uses its linked vocabulary focus');
       if(settings.choice) {assert([...document.querySelectorAll('.phrase-choice')].some(button=>button.textContent===answer),'phrase choices include the expected answer');selectedPhraseChoice=answer;}
       else $('#phrase-answer').value=answer;
@@ -282,26 +296,40 @@ let socket;
     assert(grammarGrid && $('#grammar-list').classList.contains('grammar-grid'),'grammar can opt into a multi-tile layout');
     $('#grammar-layout-toggle').click();
     assert(!grammarGrid && !$('#grammar-list').classList.contains('grammar-grid'),'grammar defaults back to one tile');
-    const card=document.querySelector('[data-grammar-card="grammar-de-1"]');
+    let card=document.querySelector('[data-grammar-card="grammar-de-1"]');
+    assert(card.classList.contains('is-collapsed') && !card.querySelector('[data-grammar-examples]'),'grammar tiles start collapsed');
+    card.querySelector('[data-grammar-toggle-button]').click();
+    card=document.querySelector('[data-grammar-card="grammar-de-1"]');
+    assert(card.classList.contains('is-open') && card.querySelector('[data-grammar-examples]'),'grammar tiles expand on request');
     document.querySelector('[data-grammar-examples="0"] [data-grammar-example="1"]').click();
     assert(document.querySelector('[data-grammar-examples="0"] .grammar-example-de').textContent===grammarLessons[0].localized.en.examples[1].de,'grammar examples can be stepped through');
     document.querySelector('[data-grammar-examples="0"] [data-grammar-example-translation]').click();
     assert(document.querySelector('[data-grammar-examples="0"] .grammar-example-translation').textContent.includes('Translation covered'),'grammar examples can cover English');
     assert(!card.querySelector('[data-grammar-check]'),'grammar checks remain hidden until requested');
+    assert(card.querySelector('.grammar-card-actions [data-grammar-open]') && !card.querySelector('.grammar-practice-launch'),'grammar opens checks from a compact card-header control');
     card.querySelector('[data-grammar-open]').click();
     const practiceCard=document.querySelector('[data-grammar-card="grammar-de-1"]');
+    practiceCard.querySelector('[data-grammar-hint]').click();
+    assert(practiceCard.querySelector('[data-grammar-feedback]').textContent.includes('Hint · Answer:'),'grammar hint opens');
+    practiceCard.querySelector('[data-grammar-hint]').click();
+    assert(!practiceCard.querySelector('[data-grammar-feedback]').textContent.includes('Hint · Answer:'),'repeating a grammar hint hides it');
     practiceCard.querySelector('[data-grammar-answer]').value=grammarLessons[0].tests[0].answers[0];practiceCard.querySelector('[data-grammar-check]').click();
     assert(grammarCorrect[0] && practiceCard.querySelector('[data-grammar-feedback]').textContent.includes(grammarLessons[0].tests[0].explain),'grammar check explains its result');
     practiceCard.querySelector('[data-grammar-next]').click();assert(grammarTestState[0]===1 && grammarTestMarks[0][0]===true,'grammar next preserves check progress');
+    document.querySelector('[data-grammar-card="grammar-de-3"] [data-grammar-toggle-button]').click();
     document.querySelector('[data-grammar-card="grammar-de-3"] [data-grammar-apply]').click();
     assert(document.querySelector('#application-view.active-view') && applicationGrammarId==='grammar-de-3','grammar tile opens its matching application set');
     document.querySelector('[data-application-back="grammar-de-3"]').click();
-    assert(document.querySelector('#grammar-view.active-view'),'application can return to its source grammar tile');
+    assert(document.querySelector('#grammar-view.active-view') && document.querySelector('[data-grammar-card="grammar-de-3"] [data-grammar-check]'),'application can open its source grammar tile checks');
     setView('application');
     applicationSelectFocus('grammar-de-3');applicationQueue='all';applicationAskGender=true;applicationCurrent=grammarApplications.find(record=>record.id==='case-1');applicationStage='gender';applicationFeedback='';renderGrammarApplication();
     assert(document.querySelector('#application-content [data-application-focus="grammar-de-3"].active') && applicationCurrent.sourcePhraseId==='100151','Apply grammar renders reviewed phrase-backed case exercises');
     document.querySelector('[data-application-gender="der"]').click();
     assert(applicationStage==='answer' && document.querySelector('#application-answer'),'case practice asks gender before the article when enabled');
+    $('#application-hint').click();
+    assert($('#application-feedback').textContent.includes('Hint ·'),'Apply grammar hint opens');
+    $('#application-hint').click();
+    assert(!$('#application-feedback').textContent.includes('Hint ·'),'repeating an Apply grammar hint hides it');
     $('#application-answer').value=applicationCurrent.exercise.answer;$('#check-application').click();
     assert(applicationStage==='sentence' && $('#application-feedback').textContent.includes('Now use'),'application advances from pattern to sentence recall');
     $('#application-answer').value=applicationCurrent.translations.de.text;$('#check-application').click();
@@ -321,6 +349,10 @@ let socket;
     assert(mixedPool().some(q=>q.kind===(studyDirection==='toGerman'?'phrase-translate':'phrase-reverse')),'mixed starts in the selected direction');
     activeLesson=null;lessonComplete=false;
     const pool=mixedPool(),originalPool=mixedPool;
+    mixedPool=()=>[pool[0]];nextMixed();showMixedHint();
+    assert($('#mixed-feedback').textContent.includes('Hint ·'),'mixed practice hint opens');
+    showMixedHint();assert(!$('#mixed-feedback').textContent.includes('Hint ·'),'repeating a mixed practice hint hides it');
+    mixedPool=originalPool;
     for(const kind of new Set(pool.map(q=>q.kind))) {
       const q=pool.find(q=>q.kind===kind);mixedPool=()=>[q];nextMixed();
       const item=q.item;
@@ -332,7 +364,7 @@ let socket;
     for(const lesson of lessons) assert(lessonPool(lesson).length>0,'lesson pool '+lesson.id);
     setView('lessons');
     document.querySelector('[data-lesson-unit="4"] .lesson-unit-open').click();
-    assert(document.querySelectorAll('.lesson-unit-card').length===0 && document.querySelectorAll('[data-lesson-id]').length===3,'opening a lesson unit shows only its three sub-lessons');
+    assert(document.querySelectorAll('.lesson-unit-card').length===lessonUnits.length && document.querySelector('[data-lesson-unit-detail="4"]') && document.querySelectorAll('[data-lesson-unit-detail="4"] [data-lesson-id]').length===3,'opening a lesson unit expands its three sub-lessons inline');
     startLesson(lessons.find(l=>l.id==='4-1'));
     assert(document.querySelector('#lessons-view.active-view .mixed-layout'),'lesson exercises stay in Lessons');
     assert(document.querySelector('.nav-item[data-view="lessons"]').classList.contains('active'),'Lessons navigation remains selected');
@@ -364,9 +396,8 @@ let socket;
     document.getElementById('next-mixed').click();
     assert(!activeLesson && !document.getElementById('lesson-list').hidden && document.querySelector('#lessons-view.active-view'),'completion returns to lesson list');
     assert(document.querySelector('.lesson-progress-summary strong').textContent.includes('of 48 short rounds completed') && document.querySelector('[data-lesson-id="4-1"]').classList.contains('completed'),'sub-lesson progression renders completion ticks');
-    document.getElementById('lesson-units-back').click();
     document.querySelector('[data-lesson-unit="3"] .lesson-unit-open').click();
-    assert([...document.querySelectorAll('.lesson-path-details')].some(detail=>detail.textContent.includes('Grammar ·')),'grammar-focused sub-lessons show their pattern focus');
+    assert(document.querySelector('[data-lesson-unit-detail="3"]') && [...document.querySelectorAll('[data-lesson-unit-detail="3"] .lesson-path-details')].some(detail=>detail.textContent.includes('Grammar ·')),'grammar-focused sub-lessons show their pattern focus');
     setView('mixed');
     assert(document.querySelector('#mixed-view .mixed-layout') && !lessonComplete && document.getElementById('check-mixed').style.display!=='none','free practice restored after lesson');
     const savedMixed={parts:mixedParts,directions:mixedDirections,styles:mixedStyles,vocabulary:mixedVocabularyCategories,verbs:mixedVerbCategories,adjectives:mixedAdjectiveCategories,phrases:mixedPhraseCategories,levels:[...selectedLevels]};
@@ -450,7 +481,22 @@ let socket;
         }
         closeProgressModal();
       }
-      return {levelBackground,leaks,lowContrast};
+      setView('grammar');
+      let grammarCard=document.querySelector('[data-grammar-card="grammar-de-1"]');
+      if(grammarCard.classList.contains('is-collapsed')) grammarCard.querySelector('[data-grammar-toggle-button]').click();
+      grammarCard=document.querySelector('[data-grammar-card="grammar-de-1"]');
+      const rule=getComputedStyle(grammarCard.querySelector('.grammar-rules li'));
+      const cardStyle=getComputedStyle(grammarCard);
+      const ruleContrast=(Math.max(luminance(rgb(rule.color)),luminance(rgb(cardStyle.backgroundColor)))+.05)/(Math.min(luminance(rgb(rule.color)),luminance(rgb(cardStyle.backgroundColor)))+.05);
+      const tableLesson=grammarLessons.find(lesson=>lesson.localized.en.tables?.length);
+      let tableCard=document.querySelector('[data-grammar-card="'+tableLesson.id+'"]');
+      if(tableCard.classList.contains('is-collapsed')) tableCard.querySelector('[data-grammar-toggle-button]').click();
+      tableCard=document.querySelector('[data-grammar-card="'+tableLesson.id+'"]');
+      const tableHeader=getComputedStyle(tableCard.querySelector('.grammar-table-wrap th'));
+      const tableHeaderBackground=tableHeader.backgroundColor;
+      const tableHeaderBackgroundRgb=rgb(tableHeaderBackground);
+      const tableHeaderContrast=tableHeaderBackgroundRgb.length===3?(Math.max(luminance(rgb(tableHeader.color)),luminance(tableHeaderBackgroundRgb))+.05)/(Math.min(luminance(rgb(tableHeader.color)),luminance(tableHeaderBackgroundRgb))+.05):null;
+      return {levelBackground,leaks,lowContrast,ruleContrast,tableHeaderBackground,tableHeaderContrast};
     })()`,
   });
   const darkReport = darkAudit.result?.result?.value || { leaks: [] };
@@ -462,6 +508,18 @@ let socket;
     throw Error(
       "Low-contrast dark-mode controls: " + JSON.stringify(darkReport),
     );
+  if (darkReport.ruleContrast < 4.5)
+    throw Error("Dark-mode grammar rules have insufficient contrast");
+  if (
+    (darkReport.tableHeaderBackground.startsWith("rgb") &&
+      darkReport.tableHeaderBackground
+        .match(/\d+/g)
+        .slice(0, 3)
+        .every((channel) => Number(channel) > 120)) ||
+    (darkReport.tableHeaderContrast !== null &&
+      darkReport.tableHeaderContrast < 4.5)
+  )
+    throw Error("Dark-mode grammar tables have an unsuitable header surface");
   for (const width of [320, 390, 768, 1024, 1440, 1920]) {
     await call("Emulation.setDeviceMetricsOverride", {
       width,

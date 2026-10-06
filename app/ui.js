@@ -5,33 +5,45 @@ function grammarLocalizedValue(value) {
   return typeof value === "string" ? value : "";
 }
 var grammarPracticeOpen = {};
+var grammarCardOpen = {};
 function renderGrammar() {
   var el = $("#grammar-list");
   el.innerHTML = grammarLessons
     .map((lesson, index) => {
-      var locale = grammarLocaleFor(lesson);
+      var locale = grammarLocaleFor(lesson),
+        open = Boolean(grammarCardOpen[index]);
       return (
-        '<article class="grammar-card" data-grammar-card="' +
+        '<article class="grammar-card ' +
+        (open ? "is-open" : "is-collapsed") +
+        '" data-grammar-card="' +
         lesson.id +
-        '"><div class="grammar-card-head"><div><span class="grammar-level">' +
+        '"><div class="grammar-card-head" data-grammar-toggle="' +
+        index +
+        '"><div><span class="grammar-level">' +
         lesson.level +
         '</span><span class="grammar-tag">' +
         lesson.tag +
         "</span><h2>" +
         locale.title +
-        '</h2></div><span class="grammar-number">' +
-        String(index + 1).padStart(2, "0") +
-        '</span></div><p class="grammar-intro">' +
-        locale.intro +
-        "</p>" +
-        (locale.rules
-          ? '<ul class="grammar-rules">' +
-            locale.rules.map((rule) => "<li>" + rule + "</li>").join("") +
-            "</ul>"
+        "</h2></div>" +
+        grammarCardActionsHtml(lesson, index, open) +
+        "</div>" +
+        (open
+          ? '<div class="grammar-card-content"><p class="grammar-intro">' +
+            locale.intro +
+            "</p>" +
+            (locale.rules
+              ? '<ul class="grammar-rules">' +
+                locale.rules.map((rule) => "<li>" + rule + "</li>").join("") +
+                "</ul>"
+              : "") +
+            (locale.tables
+              ? locale.tables.map(grammarTableHtml).join("")
+              : "") +
+            grammarExamplesHtml(lesson, index) +
+            grammarPracticeHtml(lesson, index) +
+            "</div>"
           : "") +
-        (locale.tables ? locale.tables.map(grammarTableHtml).join("") : "") +
-        grammarExamplesHtml(lesson, index) +
-        grammarPracticeHtml(lesson, index) +
         "</article>"
       );
     })
@@ -122,10 +134,15 @@ function grammarApplicationCount(lessonId) {
     (record) => applicationGrammarIdFor(record) === lessonId,
   ).length;
 }
+function grammarCardActionsHtml(lesson, index, open) {
+  var number = String(index + 1).padStart(2, "0"),
+    checks = lesson.tests?.length || 0;
+  return `<div class="grammar-card-actions"><span class="grammar-number">${number}</span>${open && checks && !grammarPracticeOpen[index] ? `<button type="button" class="secondary-btn grammar-open-checks" data-grammar-open="${index}" title="Open ${checks} quick checks">Open checks <span>→</span></button>` : ""}<button type="button" class="grammar-card-disclosure" data-grammar-toggle-button="${index}" aria-expanded="${open}" aria-label="${open ? "Collapse" : "Expand"} grammar tile ${number}"><span aria-hidden="true">⌄</span></button></div>`;
+}
 function grammarPracticeHtml(lesson, index) {
   var applicationCount = grammarApplicationCount(lesson.id);
   if (!grammarPracticeOpen[index]) {
-    return `<section class="grammar-practice-launch" data-grammar-practice="${index}"><div><p class="grammar-test-kicker">PRACTISE WHEN READY</p><strong>Keep this tile focused on learning the pattern.</strong><span>${lesson.tests.length} quick checks${applicationCount ? ` · ${applicationCount} phrase-backed applications` : ""}</span></div><div><button type="button" class="secondary-btn" data-grammar-open="${index}">Open checks <span>→</span></button>${applicationCount ? `<button type="button" class="subtle-btn" data-grammar-apply="${lesson.id}">Apply in phrases →</button>` : ""}</div></section>`;
+    return `<section data-grammar-practice="${index}">${applicationCount ? `<button type="button" class="subtle-btn grammar-apply-link" data-grammar-apply="${lesson.id}">Apply in phrases →</button>` : ""}</section>`;
   }
   return `<section data-grammar-practice="${index}">${grammarTestHtmlCanonical(lesson, index)}${applicationCount ? `<button type="button" class="subtle-btn grammar-apply-link" data-grammar-apply="${lesson.id}">Apply tile ${String(index + 1).padStart(2, "0")} in phrases →</button>` : ""}</section>`;
 }
@@ -148,6 +165,21 @@ function grammarTestHtmlCanonical(lesson, index) {
 }
 
 function bindGrammarInteractions() {
+  $$("[data-grammar-toggle]").forEach((header) => {
+    header.onclick = (event) => {
+      if (event.target.closest("button")) return;
+      var index = Number(header.dataset.grammarToggle);
+      grammarCardOpen[index] = !grammarCardOpen[index];
+      renderGrammar();
+    };
+  });
+  $$("[data-grammar-toggle-button]").forEach((button) => {
+    button.onclick = () => {
+      var index = Number(button.dataset.grammarToggleButton);
+      grammarCardOpen[index] = !grammarCardOpen[index];
+      renderGrammar();
+    };
+  });
   $$("[data-grammar-question]").forEach((button) => {
     button.onclick = () => {
       var card = button.closest("[data-grammar-index]");
@@ -160,7 +192,7 @@ function bindGrammarInteractions() {
     button.onclick = () => {
       var index = Number(button.dataset.grammarOpen);
       grammarPracticeOpen[index] = true;
-      renderGrammarTest(index);
+      renderGrammar();
     };
   });
   $$("[data-grammar-apply]").forEach((button) => {
@@ -232,9 +264,12 @@ function bindGrammarInteractions() {
         index = Number(card.dataset.grammarIndex),
         test = grammarLessons[index].tests[grammarTestState[index]],
         feedback = card.querySelector("[data-grammar-feedback]");
-      feedback.textContent =
-        "Hint · Answer: " + test.answers.join(" / ") + " Why: " + test.explain;
-      feedback.className = "grammar-test-feedback hint";
+      toggleHintFeedback(
+        feedback,
+        "grammar-" + index,
+        "Hint · Answer: " + test.answers.join(" / ") + " Why: " + test.explain,
+        "grammar-test-feedback hint",
+      );
     };
   });
   $$("[data-grammar-next]").forEach((button) => {

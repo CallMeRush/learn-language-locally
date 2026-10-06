@@ -162,6 +162,28 @@ function lessonStepCardHtml(lesson) {
     " <span>→</span></button></article>"
   );
 }
+function lessonUnitDetailHtml(unit, index, progress) {
+  var locale = unit.localized.en;
+  return (
+    '<section class="lesson-unit-detail" data-lesson-unit-detail="' +
+    unit.id +
+    '"><header><div><p class="eyebrow">' +
+    unit.level +
+    " · UNIT " +
+    String(index + 1).padStart(2, "0") +
+    "</p><h2>" +
+    locale.title +
+    "</h2><p>" +
+    locale.description +
+    "</p></div><span>" +
+    progress.completed +
+    " / " +
+    progress.steps.length +
+    ' complete</span></header><div class="lesson-step-list">' +
+    progress.steps.map(lessonStepCardHtml).join("") +
+    "</div></section>"
+  );
+}
 function renderLessons() {
   var el = $("#lesson-list");
   if (!el) return;
@@ -182,78 +204,64 @@ function renderLessons() {
           : "Choose a unit, then complete its focused rounds and repair every mistake.") +
       "</small></div><span>" +
       Math.round((completed / lessons.length) * 100) +
-      "%</span></div>",
-    unit = lessonUnits.find((item) => item.id === expandedLessonUnit);
-  if (expandedLessonUnit && !unit) expandedLessonUnit = null;
-  if (unit) {
-    var progress = lessonUnitProgress(unit),
-      locale = unit.localized.en;
-    el.innerHTML =
-      summary +
-      '<section class="lesson-unit-detail"><button class="secondary-btn" id="lesson-units-back">← All lesson units</button><header><div><p class="eyebrow">' +
-      unit.level +
-      " · UNIT " +
-      String(lessonUnits.indexOf(unit) + 1).padStart(2, "0") +
-      "</p><h2>" +
-      locale.title +
-      "</h2><p>" +
-      locale.description +
-      "</p></div><span>" +
-      progress.completed +
-      " / " +
-      progress.steps.length +
-      ' complete</span></header><div class="lesson-step-list">' +
-      progress.steps.map(lessonStepCardHtml).join("") +
-      "</div></section>";
-    document.getElementById("lesson-units-back").onclick = () => {
-      expandedLessonUnit = null;
+      "%</span></div>";
+  if (
+    expandedLessonUnit &&
+    !lessonUnits.some((unit) => unit.id === expandedLessonUnit)
+  )
+    expandedLessonUnit = null;
+  el.innerHTML =
+    summary +
+    '<div class="lesson-unit-list">' +
+    lessonUnits
+      .map((item, index) => {
+        var progress = lessonUnitProgress(item),
+          locale = item.localized.en,
+          done = progress.completed === progress.steps.length,
+          expanded = item.id === expandedLessonUnit;
+        return (
+          '<div class="lesson-unit-entry"><article class="lesson-unit-card ' +
+          (done ? "completed " : "") +
+          (progress.resumed ? "current" : "") +
+          (expanded ? "expanded" : "") +
+          '" data-lesson-unit="' +
+          item.id +
+          '"><div class="lesson-path-number">' +
+          String(index + 1).padStart(2, "0") +
+          '</div><div class="lesson-path-copy"><span class="grammar-level">' +
+          item.level +
+          '</span><span class="lesson-path-focus">' +
+          locale.focus +
+          "</span><h2>" +
+          locale.title +
+          "</h2><p>" +
+          locale.description +
+          '</p><div class="lesson-path-details"><small>' +
+          progress.completed +
+          " of " +
+          progress.steps.length +
+          " rounds complete</small>" +
+          (progress.resumed ? "<small>In progress</small>" : "") +
+          '</div></div><button class="primary-btn lesson-unit-open">' +
+          (expanded ? "Hide rounds" : done ? "Review unit" : "Open unit") +
+          " <span>" +
+          (expanded ? "↑" : "→") +
+          "</span></button></article>" +
+          (expanded ? lessonUnitDetailHtml(item, index, progress) : "") +
+          "</div>"
+        );
+      })
+      .join("") +
+    "</div>";
+  el.querySelectorAll("[data-lesson-unit]").forEach((card) => {
+    card.querySelector(".lesson-unit-open").onclick = () => {
+      expandedLessonUnit =
+        expandedLessonUnit === card.dataset.lessonUnit
+          ? null
+          : card.dataset.lessonUnit;
       renderLessons();
     };
-  } else {
-    el.innerHTML =
-      summary +
-      '<div class="lesson-unit-list">' +
-      lessonUnits
-        .map((item, index) => {
-          var progress = lessonUnitProgress(item),
-            locale = item.localized.en,
-            done = progress.completed === progress.steps.length;
-          return (
-            '<article class="lesson-unit-card ' +
-            (done ? "completed " : "") +
-            (progress.resumed ? "current" : "") +
-            '" data-lesson-unit="' +
-            item.id +
-            '"><div class="lesson-path-number">' +
-            String(index + 1).padStart(2, "0") +
-            '</div><div class="lesson-path-copy"><span class="grammar-level">' +
-            item.level +
-            '</span><span class="lesson-path-focus">' +
-            locale.focus +
-            "</span><h2>" +
-            locale.title +
-            "</h2><p>" +
-            locale.description +
-            '</p><div class="lesson-path-details"><small>' +
-            progress.completed +
-            " of " +
-            progress.steps.length +
-            " rounds complete</small>" +
-            (progress.resumed ? "<small>In progress</small>" : "") +
-            '</div></div><button class="primary-btn lesson-unit-open">' +
-            (done ? "Review unit" : "Open unit") +
-            " <span>→</span></button></article>"
-          );
-        })
-        .join("") +
-      "</div>";
-    el.querySelectorAll("[data-lesson-unit]").forEach((card) => {
-      card.querySelector(".lesson-unit-open").onclick = () => {
-        expandedLessonUnit = card.dataset.lessonUnit;
-        renderLessons();
-      };
-    });
-  }
+  });
   el.querySelectorAll("[data-lesson-id]").forEach((card) => {
     card.querySelector(".lesson-start").onclick = () =>
       startLesson(

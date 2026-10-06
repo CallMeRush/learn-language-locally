@@ -142,7 +142,11 @@ body {
   padding: 0 55px 60px;
 }
 .topbar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
   height: 82px;
+  background: var(--paper);
   border-bottom: 1px solid var(--line);
   display: flex;
   align-items: center;
@@ -866,11 +870,6 @@ button {
   color: #a45b39;
   background: #fff8f4;
 }
-.heading-actions {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
 .secondary-btn {
   border: 1px solid #bfd0c2;
   background: #fff;
@@ -978,12 +977,6 @@ button {
     overflow: visible;
   }
 }
-.phrase-controls {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 8px;
-}
 .practice-mode {
   border: 1px solid var(--line);
   background: transparent;
@@ -1020,9 +1013,6 @@ button {
 }
 .phrase-card.cloze-active .phrase-hint {
   margin-bottom: 0;
-}
-.vocab-direction {
-  margin-right: 4px;
 }
 .vocab-mode {
   border: 1px solid var(--line);
@@ -1109,14 +1099,14 @@ button {
   min-width: 430px;
 }
 .grammar-table-wrap th {
-  background: #edf3ed;
-  color: #607166;
+  background: var(--mint);
+  color: var(--green);
   text-align: left;
   font-weight: 700;
 }
 .grammar-table-wrap th,
 .grammar-table-wrap td {
-  border: 1px solid #e1e8e1;
+  border: 1px solid var(--line);
   padding: 8px;
 }
 .grammar-table-wrap td:first-child {
@@ -1530,9 +1520,6 @@ button {
 .feedback.hint,
 .grammar-test-feedback.hint {
   color: #a56d43;
-}
-.phrase-controls > .mode-switch:nth-child(2) {
-  display: none;
 }
 .mixed-layout {
   display: block;
