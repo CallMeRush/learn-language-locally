@@ -286,6 +286,9 @@ button.word-row .word-check {
   .grammar-list.grammar-grid {
     grid-template-columns: 1fr;
   }
+  #grammar-layout-toggle {
+    display: none;
+  }
   .grammar-heading-actions {
     width: 100%;
     justify-content: space-between;
@@ -681,6 +684,14 @@ button.word-row .word-check {
   }
   .vocab-layout .vocabulary-study-panel {
     max-height: none;
+  }
+  .vocab-layout .practice-panel {
+    grid-row: 1;
+    order: 1;
+  }
+  .vocab-layout .vocabulary-study-panel {
+    grid-row: 2;
+    order: 2;
   }
 }
 .category-tabs button {
@@ -1152,6 +1163,12 @@ button.word-row .word-check {
   display: grid;
   gap: 12px;
 }
+.lesson-step-list {
+  gap: 8px;
+  margin-left: 22px;
+  padding-left: 16px;
+  border-left: 2px solid var(--accent-border);
+}
 .lesson-unit-entry {
   display: grid;
   gap: 12px;
@@ -1166,6 +1183,14 @@ button.word-row .word-check {
   border: 1px solid var(--line);
   border-radius: 10px;
   padding: 20px 22px;
+}
+.lesson-step-card {
+  grid-template-columns: 36px minmax(0, 1fr) auto;
+  gap: 14px;
+  background: var(--accent-wash);
+  border-color: var(--accent-border);
+  border-radius: 8px;
+  padding: 14px 16px;
 }
 .lesson-unit-card {
   cursor: default;
@@ -1196,19 +1221,19 @@ button.word-row .word-check {
   font: 14px Manrope;
 }
 .lesson-step-number {
-  font: italic 24px Georgia;
-  color: #c8d4c9;
+  font: italic 20px Georgia;
+  color: var(--accent-border);
   text-align: center;
 }
 .lesson-step-card h3 {
-  font-size: 17px;
+  font-size: 15px;
   letter-spacing: -0.5px;
-  margin: 9px 0 4px;
+  margin: 5px 0 3px;
 }
 .lesson-step-card p {
   max-width: 570px;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 10px;
   line-height: 1.55;
   margin: 0;
 }
@@ -1252,7 +1277,16 @@ button.word-row .word-check {
   justify-content: space-between;
   white-space: nowrap;
 }
+.lesson-step-card .lesson-start {
+  min-height: 34px;
+  padding: 8px 10px;
+  font-size: 10px;
+}
 @media (max-width: 650px) {
+  .lesson-step-list {
+    margin-left: 8px;
+    padding-left: 10px;
+  }
   .lesson-unit-card,
   .lesson-step-card {
     grid-template-columns: 32px minmax(0, 1fr);
@@ -1507,7 +1541,6 @@ html[data-background="dark"] .mixed-card,
 html[data-background="dark"] .application-builder,
 html[data-background="dark"] .application-card,
 html[data-background="dark"] .lesson-unit-card,
-html[data-background="dark"] .lesson-step-card,
 html[data-background="dark"] .lesson-unit-detail > header,
 html[data-background="dark"] .settings-panel,
 html[data-background="dark"] .progress-modal-card,
@@ -1516,6 +1549,10 @@ html[data-background="dark"] .vocabulary-study-panel,
 html[data-background="dark"] .phrase-study-panel {
   background: #252931;
   border-color: #3c424c;
+}
+html[data-background="dark"] .lesson-step-card {
+  background: #1f2228;
+  border-color: #454c56;
 }
 html[data-background="dark"] .category-tabs button,
 html[data-background="dark"] .phrase-category-tabs button,
@@ -1997,5 +2034,103 @@ html[data-background="dark"] .grammar-card-disclosure:hover {
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+  }
+}
+
+/* Phone-first refinements: iPhone 16 Pro is 402 CSS pixels wide. */
+@media (max-width: 570px) {
+  html {
+    overflow-x: clip;
+  }
+  body {
+    min-width: 320px;
+    overflow-x: clip;
+  }
+  .sidebar {
+    padding: max(14px, env(safe-area-inset-top)) max(14px, env(safe-area-inset-right)) 12px max(14px, env(safe-area-inset-left));
+  }
+  .sidebar nav {
+    margin-inline: -4px;
+    padding-inline: 4px;
+    scrollbar-width: none;
+    scroll-padding-inline: 4px;
+    scroll-snap-type: x proximity;
+    -webkit-overflow-scrolling: touch;
+  }
+  .sidebar nav::-webkit-scrollbar {
+    display: none;
+  }
+  .nav-item {
+    min-height: 44px;
+    padding: 10px 11px;
+    scroll-snap-align: start;
+  }
+  .main-content {
+    padding-inline: max(16px, env(safe-area-inset-left)) max(16px, env(safe-area-inset-right));
+    padding-bottom: max(36px, env(safe-area-inset-bottom));
+  }
+  .topbar {
+    min-height: 56px;
+    padding-block: 8px;
+  }
+  .global-vocab-level,
+  .global-study-direction {
+    min-height: 38px;
+  }
+  .view {
+    padding-top: 30px;
+  }
+  .page-heading,
+  .overview-header {
+    margin-bottom: 24px;
+  }
+  .page-heading h1,
+  .overview-header h1 {
+    font-size: clamp(28px, 8vw, 34px);
+    line-height: 1.1;
+  }
+  .overview-desk-card,
+  .practice-panel,
+  .phrase-card,
+  .mixed-card,
+  .grammar-card,
+  .application-builder,
+  .mixed-builder {
+    border-radius: 14px;
+  }
+  .category-tabs,
+  .application-tabs {
+    gap: 7px;
+  }
+  .category-tabs button,
+  .application-tabs button,
+  .mixed-builder-chip {
+    min-height: 38px;
+  }
+  .practice-actions .primary-btn,
+  .phrase-actions .primary-btn {
+    min-height: 46px;
+  }
+  .choice-options {
+    grid-template-columns: 1fr;
+  }
+  .choice-option {
+    min-height: 46px;
+    text-align: left;
+  }
+  .application-case-controls,
+  .application-preposition-groups {
+    gap: 16px;
+  }
+  .application-card .application-phrase {
+    font-size: clamp(23px, 7vw, 30px);
+    letter-spacing: -1px;
+  }
+  .study-switch {
+    gap: 4px;
+  }
+  .study-switch button {
+    min-height: 38px;
+    padding-inline: 7px;
   }
 }

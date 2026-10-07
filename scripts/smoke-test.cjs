@@ -671,7 +671,7 @@ let socket;
       darkReport.tableHeaderContrast < 4.5)
   )
     throw Error("Dark-mode grammar tables have an unsuitable header surface");
-  for (const width of [320, 390, 768, 1024, 1440, 1920]) {
+  for (const width of [320, 390, 402, 768, 1024, 1440, 1920]) {
     await call("Emulation.setDeviceMetricsOverride", {
       width,
       height: 900,
@@ -693,7 +693,18 @@ let socket;
         for(const box of document.querySelectorAll('.active-view .phrase-layout, .active-view .mixed-layout, .active-view .lesson-path, .active-view .grammar-list')) {
           if(box.getBoundingClientRect().width>881) failures.push({view,reason:'practice exceeds cap'});
         }
+        if(innerWidth<=1020 && ['vocabulary','phrases','application'].includes(view)) {
+          const selectors={
+            vocabulary:['.practice-panel','.vocabulary-study-panel'],
+            phrases:['.phrase-card','.phrase-study-panel'],
+            application:['.application-card','.application-study-panel']
+          }[view];
+          const card=document.querySelector('.active-view '+selectors[0]), panel=document.querySelector('.active-view '+selectors[1]);
+          if(card && panel && card.getBoundingClientRect().top>panel.getBoundingClientRect().top+1) failures.push({view,reason:'answer card appears below its study list on a compact screen'});
+          if(panel && panel.querySelectorAll('.study-list-rows .word-row').length>8) failures.push({view,reason:'compact study list shows more than 2 items above and 5 below'});
+        }
         if(view==='grammar') {
+          if(innerWidth<=900 && getComputedStyle($('#grammar-layout-toggle')).display!=='none') failures.push({view,reason:'multiple-column control is visible on a compact screen'});
           const cards=[...document.querySelectorAll('.grammar-card')].filter(c=>c.offsetWidth);
           if(cards.some(c=>Math.abs(c.getBoundingClientRect().left-cards[0].getBoundingClientRect().left)>1)) failures.push({view,reason:'grammar is not single column'});
           if(innerWidth>=1920) {
@@ -728,7 +739,7 @@ let socket;
       );
     }
   }
-  console.log("PASS: all ten desks fit 320, 390, 768, 1024, 1440 and 1920px");
+  console.log("PASS: all ten desks fit 320, 390, 402, 768, 1024, 1440 and 1920px");
 })()
   .catch((e) => {
     console.error(e);

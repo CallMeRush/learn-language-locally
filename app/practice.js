@@ -135,12 +135,16 @@ function renderStudyPanel({
   onStatusChange,
 }) {
   var items = groups[status] || [],
-    pageSize = 50,
+    compactWindow = window.matchMedia("(max-width: 1020px)").matches,
+    pageSize = compactWindow ? 8 : 50,
     activeIndex = items.indexOf(active),
     start =
-      activeIndex < 0 ? 0 : Math.max(0, activeIndex - Math.floor(pageSize / 2)),
+      activeIndex < 0
+        ? 0
+        : Math.max(0, activeIndex - (compactWindow ? 2 : Math.floor(pageSize / 2))),
     end = Math.min(items.length, start + pageSize);
-  if (end - start < pageSize) start = Math.max(0, end - pageSize);
+  if (!compactWindow && end - start < pageSize)
+    start = Math.max(0, end - pageSize);
   container.className = className;
   container.innerHTML = `
     <div class="study-switch" role="tablist">
