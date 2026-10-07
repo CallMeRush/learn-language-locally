@@ -159,18 +159,20 @@ for (const g of grammarLessons) {
 }
 const applicationIds = new Set(),
   modalSources = new Set(),
-  separableSources = new Set();
+  separableSources = new Set(),
+  prepositionSources = new Set(),
+  prepositionCoverage = new Map();
 const grammarIds = new Set(grammarLessons.map((record) => record.id));
 const caseSources = new Set(),
   caseCoverage = new Map();
 for (const record of grammarApplications) {
-  assert.match(record.id, /^(case|modal|separable)-[1-9]\d*$/);
+  assert.match(record.id, /^(case|modal|separable|preposition)-[1-9]\d*$/);
   assert(
     !applicationIds.has(record.id),
     "Duplicate grammar application ID " + record.id,
   );
   applicationIds.add(record.id);
-  assert(["cases", "modals", "separable"].includes(record.set));
+  assert(["cases", "modals", "separable", "prepositions"].includes(record.set));
   assert(
     grammarIds.has(record.grammarId),
     "Missing grammar application topic " + record.id,
@@ -246,7 +248,7 @@ for (const record of grammarApplications) {
     );
     separableSources.add(record.sourcePhraseId);
     assert.match(
-      record.exercise.answer,
+      record.exercise.answer.toLocaleLowerCase("de"),
       /^\p{L}+$/u,
       "Separable exercise needs a word prefix " + record.id,
     );
@@ -273,6 +275,31 @@ for (const record of grammarApplications) {
       );
     }
   }
+  if (record.set === "prepositions") {
+    assert(
+      !prepositionSources.has(record.sourcePhraseId),
+      "Duplicate preposition exercise source " + record.sourcePhraseId,
+    );
+    prepositionSources.add(record.sourcePhraseId);
+    assert(
+      ["accusative", "dative"].includes(record.exercise.case),
+      "Invalid preposition case " + record.id,
+    );
+    assert.match(
+      record.exercise.preposition,
+      /^\p{L}+$/u,
+      "Invalid preposition " + record.id,
+    );
+    assert.equal(
+      record.exercise.answer.toLocaleLowerCase("de"),
+      record.exercise.preposition,
+      "Preposition answer drift " + record.id,
+    );
+    prepositionCoverage.set(
+      record.exercise.preposition,
+      (prepositionCoverage.get(record.exercise.preposition) || 0) + 1,
+    );
+  }
 }
 for (const gender of ["masculine", "feminine", "neuter"])
   for (const grammaticalCase of [
@@ -298,6 +325,28 @@ assert(
   separableSources.size >= 100,
   "Expected at least one hundred unique separable-verb exercises",
 );
+assert(
+  prepositionSources.size >= 400,
+  "Expected at least four hundred fixed-case preposition exercises",
+);
+for (const preposition of [
+  "durch",
+  "für",
+  "gegen",
+  "ohne",
+  "um",
+  "aus",
+  "bei",
+  "mit",
+  "nach",
+  "seit",
+  "von",
+  "zu",
+])
+  assert(
+    (prepositionCoverage.get(preposition) || 0) > 0,
+    "Missing preposition coverage " + preposition,
+  );
 assert.equal(lessonUnits.length, 16, "Expected sixteen lesson units");
 assert.equal(lessons.length, 48, "Expected three short rounds per lesson unit");
 for (const unit of lessonUnits) {

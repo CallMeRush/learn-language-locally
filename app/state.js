@@ -24,6 +24,8 @@ var defaultPreferences = () => ({
   applicationCases: ["nominative", "accusative", "dative", "genitive"],
   applicationArticleTypes: ["definite", "indefinite"],
   applicationSeparablePrefixes: ["all"],
+  applicationPrepositionCases: ["accusative", "dative"],
+  applicationPrepositions: ["all"],
   applicationMultipleChoice: false,
   randomMode: true,
   grammarGrid: false,
@@ -248,6 +250,32 @@ function normalizeProgress(progress) {
         ),
       ]
     : [...defaultPreferences().applicationSeparablePrefixes];
+  var applicationPrepositions = [
+    ...new Set(
+      grammarApplications
+        .filter((record) => record.set === "prepositions")
+        .map((record) => record.exercise.preposition),
+    ),
+  ];
+  preferences.applicationPrepositionCases = Array.isArray(
+    preferences.applicationPrepositionCases,
+  )
+    ? preferences.applicationPrepositionCases.filter((value) =>
+        ["accusative", "dative"].includes(value),
+      )
+    : [...defaultPreferences().applicationPrepositionCases];
+  preferences.applicationPrepositions = Array.isArray(
+    preferences.applicationPrepositions,
+  )
+    ? [
+        ...new Set(
+          preferences.applicationPrepositions.filter(
+            (value) =>
+              value === "all" || applicationPrepositions.includes(value),
+          ),
+        ),
+      ]
+    : [...defaultPreferences().applicationPrepositions];
   preferences.applicationMultipleChoice = Boolean(
     preferences.applicationMultipleChoice,
   );
@@ -445,6 +473,8 @@ function savePreferences() {
       applicationCases,
       applicationArticleTypes,
       applicationSeparablePrefixes,
+      applicationPrepositionCases,
+      applicationPrepositions,
       applicationMultipleChoice,
       randomMode,
       grammarGrid,
@@ -498,6 +528,8 @@ var selectedCategory = state.preferences.selectedCategory,
   applicationCases = state.preferences.applicationCases,
   applicationArticleTypes = state.preferences.applicationArticleTypes,
   applicationSeparablePrefixes = state.preferences.applicationSeparablePrefixes,
+  applicationPrepositionCases = state.preferences.applicationPrepositionCases,
+  applicationPrepositions = state.preferences.applicationPrepositions,
   applicationMultipleChoice = state.preferences.applicationMultipleChoice,
   mixedQuestion = null,
   mixedArticle = "",

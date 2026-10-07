@@ -22,6 +22,11 @@ function applicationSetDetails(set) {
       label: "Separable verbs",
       description: "Place the moving prefix correctly in a phrase.",
     },
+    prepositions: {
+      label: "Prepositions and cases",
+      description:
+        "Choose the fixed-case preposition that completes the phrase.",
+    },
   }[set];
 }
 function applicationUsesMultipleChoice(record = applicationCurrent) {
@@ -109,7 +114,14 @@ function applicationFocusRecords() {
             applicationSeparablePrefixes.includes("all") ||
             applicationSeparablePrefixes.includes(record.exercise.answer),
         )
-      : records;
+      : records[0]?.set === "prepositions"
+        ? records.filter(
+            (record) =>
+              applicationPrepositionCases.includes(record.exercise.case) &&
+              (applicationPrepositions.includes("all") ||
+                applicationPrepositions.includes(record.exercise.preposition)),
+          )
+        : records;
 }
 function applicationFocuses() {
   return grammarLessons.filter((lesson) =>
@@ -136,21 +148,13 @@ function toggleApplicationCase(caseName) {
   applicationCases = applicationCases.includes(caseName)
     ? applicationCases.filter((value) => value !== caseName)
     : [...applicationCases, caseName];
-  applicationCurrent = null;
-  applicationFeedback = "";
-  applicationFeedbackKind = "";
-  selectedApplicationChoice = "";
-  applicationStudyStatus = "pending";
+  retainApplicationAfterFilterChange();
 }
 function toggleApplicationArticleType(articleType) {
   applicationArticleTypes = applicationArticleTypes.includes(articleType)
     ? applicationArticleTypes.filter((value) => value !== articleType)
     : [...applicationArticleTypes, articleType];
-  applicationCurrent = null;
-  applicationFeedback = "";
-  applicationFeedbackKind = "";
-  selectedApplicationChoice = "";
-  applicationStudyStatus = "pending";
+  retainApplicationAfterFilterChange();
 }
 function applicationSeparablePrefixList() {
   return [
@@ -166,11 +170,41 @@ function toggleApplicationSeparablePrefix(prefix) {
     ["all", ...applicationSeparablePrefixList()],
     prefix,
   );
+  retainApplicationAfterFilterChange();
+}
+function applicationPrepositionList() {
+  return [
+    ...new Set(
+      applicationAllFocusRecords().map((record) => record.exercise.preposition),
+    ),
+  ].sort((left, right) => left.localeCompare(right, "de"));
+}
+function retainApplicationAfterFilterChange() {
+  if (
+    applicationRecords().some((record) => record.id === applicationCurrent?.id)
+  )
+    return;
   applicationCurrent = null;
   applicationFeedback = "";
   applicationFeedbackKind = "";
+  applicationHintRestore = null;
+  applicationHintUsed = false;
   selectedApplicationChoice = "";
-  applicationStudyStatus = "pending";
+}
+function toggleApplicationPrepositionCase(caseName) {
+  applicationPrepositionCases = applicationPrepositionCases.includes(caseName)
+    ? applicationPrepositionCases.filter((value) => value !== caseName)
+    : [...applicationPrepositionCases, caseName];
+  retainApplicationAfterFilterChange();
+}
+function toggleApplicationPreposition(preposition) {
+  applicationPrepositions = toggleDeskCategorySelection(
+    applicationPrepositions,
+    "all",
+    ["all", ...applicationPrepositionList()],
+    preposition,
+  );
+  retainApplicationAfterFilterChange();
 }
 function toggleApplicationMultipleChoice() {
   applicationMultipleChoice = !applicationMultipleChoice;
@@ -266,7 +300,10 @@ function applicationCardHtml() {
     var noPrefixesSelected =
       applicationAllFocusRecords()[0]?.set === "separable" &&
       !applicationSeparablePrefixes.length;
-    return `<article class="practice-panel application-card application-empty"><p class="eyebrow">NOTHING HERE</p><div class="practice-word">No exercises</div><p class="practice-prompt">${noCasesSelected ? "Turn on at least one case to practise these grammar patterns." : noArticleTypesSelected ? "Turn on at least one article type to practise these grammar patterns." : noPrefixesSelected ? "Turn on at least one separable-verb prefix to practise these grammar patterns." : "Choose another status to practise these grammar patterns."}</p></article>`;
+    var noPrepositionFilters =
+      applicationAllFocusRecords()[0]?.set === "prepositions" &&
+      (!applicationPrepositionCases.length || !applicationPrepositions.length);
+    return `<article class="practice-panel application-card application-empty"><p class="eyebrow">NOTHING HERE</p><div class="practice-word">No exercises</div><p class="practice-prompt">${noCasesSelected ? "Turn on at least one case to practise these grammar patterns." : noArticleTypesSelected ? "Turn on at least one article type to practise these grammar patterns." : noPrefixesSelected ? "Turn on at least one separable-verb prefix to practise these grammar patterns." : noPrepositionFilters ? "Turn on at least one fixed-case preposition or case group to practise these patterns." : "Choose another status to practise these grammar patterns."}</p></article>`;
   }
   var record = applicationCurrent,
     exercise = record.exercise,
@@ -360,6 +397,39 @@ function applicationSeparableSelectorHtml() {
     })
     .join("")}</div></div></div></section>`;
 }
+function applicationPrepositionSelectorHtml() {
+  if (applicationAllFocusRecords()[0]?.set !== "prepositions") return "";
+  var records = applicationAllFocusRecords(),
+    prepositions = applicationPrepositionList();
+  var chips = (caseName) =>
+    prepositions
+      .filter((preposition) =>
+        records.some(
+          (record) =>
+            record.exercise.preposition === preposition &&
+            record.exercise.case === caseName,
+        ),
+      )
+      .map((preposition) => {
+        var selected =
+            applicationPrepositionCases.includes(caseName) &&
+            (applicationPrepositions.includes("all") ||
+              applicationPrepositions.includes(preposition)),
+          count = records.filter(
+            (record) => record.exercise.preposition === preposition,
+          ).length;
+        return `<button type="button" class="${selected ? "selected" : ""}" data-application-preposition="${preposition}" aria-pressed="${selected}"><i aria-hidden="true">✓</i>${preposition} <small>${count}</small></button>`;
+      })
+      .join("");
+  var caseControls = ["accusative", "dative"]
+    .map(
+      (caseName) =>
+        `<button type="button" class="${applicationPrepositionCases.includes(caseName) ? "selected" : ""}" data-application-preposition-case="${caseName}" aria-pressed="${applicationPrepositionCases.includes(caseName)}"><i aria-hidden="true">✓</i>${caseName[0].toUpperCase() + caseName.slice(1)} <small>${records.filter((record) => record.exercise.case === caseName).length}</small></button>`,
+    )
+    .join("");
+  var allControl = `<button type="button" class="${applicationPrepositions.includes("all") ? "selected" : ""}" data-application-preposition="all" aria-pressed="${applicationPrepositions.includes("all")}"><i aria-hidden="true">✓</i>All prepositions <small>${records.length}</small></button>`;
+  return `<section class="application-case-selector" aria-label="Choose fixed-case prepositions"><div class="application-case-controls"><div><p class="eyebrow">CASE GROUPS</p><div class="category-tabs application-case-tabs">${caseControls}</div></div><div><p class="eyebrow">PREPOSITIONS</p><div class="category-tabs application-prefix-tabs">${allControl}</div></div></div><div class="application-preposition-groups"><div><p class="eyebrow">ALWAYS ACCUSATIVE</p><div class="category-tabs application-prefix-tabs">${chips("accusative")}</div></div><div><p class="eyebrow">ALWAYS DATIVE</p><div class="category-tabs application-prefix-tabs">${chips("dative")}</div></div></div></section>`;
+}
 function renderApplicationStudyPanel(container) {
   var records = applicationFocusRecords(),
     groups = applicationStudyGroups(records);
@@ -429,7 +499,7 @@ function renderGrammarApplication() {
     })
     .join(
       "",
-    )}</div></div></div></section>${applicationCaseSelectorHtml()}${applicationSeparableSelectorHtml()}<div class="vocab-layout application-layout">${applicationCardHtml()}<div id="application-study-panel"></div></div>`;
+    )}</div></div></div></section>${applicationCaseSelectorHtml()}${applicationSeparableSelectorHtml()}${applicationPrepositionSelectorHtml()}<div class="vocab-layout application-layout">${applicationCardHtml()}<div id="application-study-panel"></div></div>`;
   root.querySelectorAll("[data-application-focus]").forEach(
     (button) =>
       (button.onclick = () => {
@@ -458,6 +528,24 @@ function renderGrammarApplication() {
     (button) =>
       (button.onclick = () => {
         toggleApplicationSeparablePrefix(button.dataset.applicationPrefix);
+        renderGrammarApplication();
+        savePreferences();
+      }),
+  );
+  root.querySelectorAll("[data-application-preposition-case]").forEach(
+    (button) =>
+      (button.onclick = () => {
+        toggleApplicationPrepositionCase(
+          button.dataset.applicationPrepositionCase,
+        );
+        renderGrammarApplication();
+        savePreferences();
+      }),
+  );
+  root.querySelectorAll("[data-application-preposition]").forEach(
+    (button) =>
+      (button.onclick = () => {
+        toggleApplicationPreposition(button.dataset.applicationPreposition);
         renderGrammarApplication();
         savePreferences();
       }),

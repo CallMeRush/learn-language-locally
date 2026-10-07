@@ -180,8 +180,8 @@ function bindGrammarInteractions() {
       if (event.target.closest("button, input, select, textarea, label, a"))
         return;
       if (
-        event.target === card ||
-        event.target.closest("[data-grammar-title-toggle]")
+        !grammarCardOpen[Number(card.dataset.grammarToggle)] ||
+        event.target.closest(".grammar-card-head")
       )
         toggleGrammarCard(Number(card.dataset.grammarToggle));
     };

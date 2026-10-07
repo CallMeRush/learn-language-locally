@@ -3487,6 +3487,11600 @@ const grammarApplications = [
     }
   },
   /* END GENERATED SEPARABLE APPLICATIONS */
+  /* BEGIN GENERATED PREPOSITION APPLICATIONS */
+  {
+    "id": "preposition-1",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "101744",
+    "translations": {
+      "en": {
+        "text": "I drink my coffee without sugar."
+      },
+      "de": {
+        "text": "Ich trinke meinen Kaffee ohne Zucker."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich trinke meinen Kaffee ___ Zucker.",
+      "answer": "ohne",
+      "preposition": "ohne",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "ohne always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-2",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "113454",
+    "translations": {
+      "en": {
+        "text": "A camel can go a long time without water."
+      },
+      "de": {
+        "text": "Ein Kamel kann lange ohne Wasser auskommen."
+      }
+    },
+    "exercise": {
+      "blanked": "Ein Kamel kann lange ___ Wasser auskommen.",
+      "answer": "ohne",
+      "preposition": "ohne",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "ohne always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-3",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "108049",
+    "translations": {
+      "en": {
+        "text": "Nothing works here without electricity."
+      },
+      "de": {
+        "text": "Ohne Elektrizität funktioniert hier nichts."
+      }
+    },
+    "exercise": {
+      "blanked": "___ Elektrizität funktioniert hier nichts.",
+      "answer": "Ohne",
+      "preposition": "ohne",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "ohne always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-4",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "110175",
+    "translations": {
+      "en": {
+        "text": "Tourists are allowed to enter without a visa."
+      },
+      "de": {
+        "text": "Touristen dürfen ohne Visum einreisen."
+      }
+    },
+    "exercise": {
+      "blanked": "Touristen dürfen ___ Visum einreisen.",
+      "answer": "ohne",
+      "preposition": "ohne",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "ohne always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-5",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "116323",
+    "translations": {
+      "en": {
+        "text": "He yelled at me for no reason."
+      },
+      "de": {
+        "text": "Er hat mich ohne Grund angeschrien."
+      }
+    },
+    "exercise": {
+      "blanked": "Er hat mich ___ Grund angeschrien.",
+      "answer": "ohne",
+      "preposition": "ohne",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "ohne always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-6",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "109108",
+    "translations": {
+      "en": {
+        "text": "I have an allergy to nuts."
+      },
+      "de": {
+        "text": "Ich habe eine Allergie gegen Nüsse."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich habe eine Allergie ___ Nüsse.",
+      "answer": "gegen",
+      "preposition": "gegen",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "gegen always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-7",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "100668",
+    "translations": {
+      "en": {
+        "text": "There is no remedy for this disease."
+      },
+      "de": {
+        "text": "Es gibt kein Mittel gegen diese Krankheit."
+      }
+    },
+    "exercise": {
+      "blanked": "Es gibt kein Mittel ___ diese Krankheit.",
+      "answer": "gegen",
+      "preposition": "gegen",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "gegen always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-8",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "102255",
+    "translations": {
+      "en": {
+        "text": "The students organized a protest against the new rules."
+      },
+      "de": {
+        "text": "Die Studenten organisierten einen Protest gegen die neuen Regeln."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Studenten organisierten einen Protest ___ die neuen Regeln.",
+      "answer": "gegen",
+      "preposition": "gegen",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "gegen always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-9",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "102962",
+    "translations": {
+      "en": {
+        "text": "One should not push against the wall."
+      },
+      "de": {
+        "text": "Man sollte nicht gegen die Wand stossen."
+      }
+    },
+    "exercise": {
+      "blanked": "Man sollte nicht ___ die Wand stossen.",
+      "answer": "gegen",
+      "preposition": "gegen",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "gegen always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-10",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "105484",
+    "translations": {
+      "en": {
+        "text": "The people are protesting against the government."
+      },
+      "de": {
+        "text": "Die Leute protestieren gegen die Regierung."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Leute protestieren ___ die Regierung.",
+      "answer": "gegen",
+      "preposition": "gegen",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "gegen always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-11",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "108317",
+    "translations": {
+      "en": {
+        "text": "One should get vaccinated against the flu."
+      },
+      "de": {
+        "text": "Man sollte sich gegen Grippe impfen lassen."
+      }
+    },
+    "exercise": {
+      "blanked": "Man sollte sich ___ Grippe impfen lassen.",
+      "answer": "gegen",
+      "preposition": "gegen",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "gegen always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-12",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "109289",
+    "translations": {
+      "en": {
+        "text": "The cyclist struggled against the strong headwind."
+      },
+      "de": {
+        "text": "Der Radfahrer kämpfte gegen den starken Gegenwind."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Radfahrer kämpfte ___ den starken Gegenwind.",
+      "answer": "gegen",
+      "preposition": "gegen",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "gegen always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-13",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "109351",
+    "translations": {
+      "en": {
+        "text": "I need a painkiller for the headache."
+      },
+      "de": {
+        "text": "Ich brauche ein Schmerzmittel gegen die Kopfschmerzen."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche ein Schmerzmittel ___ die Kopfschmerzen.",
+      "answer": "gegen",
+      "preposition": "gegen",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "gegen always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-14",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "109846",
+    "translations": {
+      "en": {
+        "text": "I am allergic to nuts."
+      },
+      "de": {
+        "text": "Ich bin allergisch gegen Nüsse."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich bin allergisch ___ Nüsse.",
+      "answer": "gegen",
+      "preposition": "gegen",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "gegen always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-15",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "115022",
+    "translations": {
+      "en": {
+        "text": "I would like to trade in my old phone for a new one."
+      },
+      "de": {
+        "text": "Ich möchte mein altes Handy gegen ein neues eintauschen."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich möchte mein altes Handy ___ ein neues eintauschen.",
+      "answer": "gegen",
+      "preposition": "gegen",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "gegen always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-16",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "115207",
+    "translations": {
+      "en": {
+        "text": "This medicine helps against headaches."
+      },
+      "de": {
+        "text": "Diese Arznei hilft gegen Kopfschmerzen."
+      }
+    },
+    "exercise": {
+      "blanked": "Diese Arznei hilft ___ Kopfschmerzen.",
+      "answer": "gegen",
+      "preposition": "gegen",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "gegen always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-17",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "116142",
+    "translations": {
+      "en": {
+        "text": "She insured all her household goods against theft."
+      },
+      "de": {
+        "text": "Sie versicherte ihren gesamten Hausrat gegen Diebstahl."
+      }
+    },
+    "exercise": {
+      "blanked": "Sie versicherte ihren gesamten Hausrat ___ Diebstahl.",
+      "answer": "gegen",
+      "preposition": "gegen",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "gegen always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-18",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "116778",
+    "translations": {
+      "en": {
+        "text": "The environmentalists protested against the deforestation."
+      },
+      "de": {
+        "text": "Die Umweltschützer protestierten gegen die Abholzung."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Umweltschützer protestierten ___ die Abholzung.",
+      "answer": "gegen",
+      "preposition": "gegen",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "gegen always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-19",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "118480",
+    "translations": {
+      "en": {
+        "text": "The car crashed into the guardrail."
+      },
+      "de": {
+        "text": "Das Auto prallte gegen die Leitplanke."
+      }
+    },
+    "exercise": {
+      "blanked": "Das Auto prallte ___ die Leitplanke.",
+      "answer": "gegen",
+      "preposition": "gegen",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "gegen always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-20",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "109907",
+    "translations": {
+      "en": {
+        "text": "He has been training judo for years."
+      },
+      "de": {
+        "text": "Er trainiert seit Jahren Judo."
+      }
+    },
+    "exercise": {
+      "blanked": "Er trainiert ___ Jahren Judo.",
+      "answer": "seit",
+      "preposition": "seit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "seit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-21",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "103345",
+    "translations": {
+      "en": {
+        "text": "The native population has lived here for centuries."
+      },
+      "de": {
+        "text": "Die einheimische Bevölkerung lebt hier seit Jahrhunderten."
+      }
+    },
+    "exercise": {
+      "blanked": "Die einheimische Bevölkerung lebt hier ___ Jahrhunderten.",
+      "answer": "seit",
+      "preposition": "seit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "seit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-22",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "104819",
+    "translations": {
+      "en": {
+        "text": "He has been unemployed for a year."
+      },
+      "de": {
+        "text": "Er ist seit einem Jahr arbeitslos."
+      }
+    },
+    "exercise": {
+      "blanked": "Er ist ___ einem Jahr arbeitslos.",
+      "answer": "seit",
+      "preposition": "seit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "seit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-23",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "105624",
+    "translations": {
+      "en": {
+        "text": "The old oak tree has stood in the forest for centuries."
+      },
+      "de": {
+        "text": "Die alte Eiche steht seit Jahrhunderten im Wald."
+      }
+    },
+    "exercise": {
+      "blanked": "Die alte Eiche steht ___ Jahrhunderten im Wald.",
+      "answer": "seit",
+      "preposition": "seit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "seit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-24",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "106031",
+    "translations": {
+      "en": {
+        "text": "They have been living separately for a year."
+      },
+      "de": {
+        "text": "Sie leben seit einem Jahr getrennt."
+      }
+    },
+    "exercise": {
+      "blanked": "Sie leben ___ einem Jahr getrennt.",
+      "answer": "seit",
+      "preposition": "seit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "seit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-25",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "106995",
+    "translations": {
+      "en": {
+        "text": "The old house has not been inhabited for years."
+      },
+      "de": {
+        "text": "Das alte Haus wird seit Jahren nicht mehr bewohnt."
+      }
+    },
+    "exercise": {
+      "blanked": "Das alte Haus wird ___ Jahren nicht mehr bewohnt.",
+      "answer": "seit",
+      "preposition": "seit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "seit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-26",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "107134",
+    "translations": {
+      "en": {
+        "text": "He has been training karate for years."
+      },
+      "de": {
+        "text": "Er trainiert seit Jahren Karate."
+      }
+    },
+    "exercise": {
+      "blanked": "Er trainiert ___ Jahren Karate.",
+      "answer": "seit",
+      "preposition": "seit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "seit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-27",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "108955",
+    "translations": {
+      "en": {
+        "text": "He has suffered from asthma since his childhood."
+      },
+      "de": {
+        "text": "Er leidet seit seiner Kindheit an Asthma."
+      }
+    },
+    "exercise": {
+      "blanked": "Er leidet ___ seiner Kindheit an Asthma.",
+      "answer": "seit",
+      "preposition": "seit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "seit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-28",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "108964",
+    "translations": {
+      "en": {
+        "text": "They have been befriended for many years."
+      },
+      "de": {
+        "text": "Sie sind seit vielen Jahren befreundet."
+      }
+    },
+    "exercise": {
+      "blanked": "Sie sind ___ vielen Jahren befreundet.",
+      "answer": "seit",
+      "preposition": "seit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "seit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-29",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "113251",
+    "translations": {
+      "en": {
+        "text": "He has been training martial arts for years."
+      },
+      "de": {
+        "text": "Er trainiert seit Jahren Kampfsport."
+      }
+    },
+    "exercise": {
+      "blanked": "Er trainiert ___ Jahren Kampfsport.",
+      "answer": "seit",
+      "preposition": "seit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "seit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-30",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "113847",
+    "translations": {
+      "en": {
+        "text": "The volcano has been inactive for years."
+      },
+      "de": {
+        "text": "Der Vulkan ist seit Jahren inaktiv."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Vulkan ist ___ Jahren inaktiv.",
+      "answer": "seit",
+      "preposition": "seit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "seit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-31",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "113934",
+    "translations": {
+      "en": {
+        "text": "He has been an active club member for many years."
+      },
+      "de": {
+        "text": "Er ist seit vielen Jahren ein aktives Vereinsmitglied."
+      }
+    },
+    "exercise": {
+      "blanked": "Er ist ___ vielen Jahren ein aktives Vereinsmitglied.",
+      "answer": "seit",
+      "preposition": "seit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "seit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-32",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "117018",
+    "translations": {
+      "en": {
+        "text": "The position has been vacant for months."
+      },
+      "de": {
+        "text": "Die Stelle ist seit Monaten unbesetzt."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Stelle ist ___ Monaten unbesetzt.",
+      "answer": "seit",
+      "preposition": "seit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "seit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-33",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "118603",
+    "translations": {
+      "en": {
+        "text": "He has been wearing a full beard for years."
+      },
+      "de": {
+        "text": "Er trägt seit Jahren einen Vollbart."
+      }
+    },
+    "exercise": {
+      "blanked": "Er trägt ___ Jahren einen Vollbart.",
+      "answer": "seit",
+      "preposition": "seit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "seit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-34",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "108786",
+    "translations": {
+      "en": {
+        "text": "The saleswoman helped me with the selection."
+      },
+      "de": {
+        "text": "Die Verkäuferin half mir bei der Auswahl."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Verkäuferin half mir ___ der Auswahl.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-35",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "100680",
+    "translations": {
+      "en": {
+        "text": "My colleague helps me with the work."
+      },
+      "de": {
+        "text": "Mein Kollege hilft mir bei der Arbeit."
+      }
+    },
+    "exercise": {
+      "blanked": "Mein Kollege hilft mir ___ der Arbeit.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-36",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "101507",
+    "translations": {
+      "en": {
+        "text": "He has a lot of stress at work."
+      },
+      "de": {
+        "text": "Er hat viel Stress bei der Arbeit."
+      }
+    },
+    "exercise": {
+      "blanked": "Er hat viel Stress ___ der Arbeit.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-37",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "101960",
+    "translations": {
+      "en": {
+        "text": "She is very popular with her colleagues."
+      },
+      "de": {
+        "text": "Sie ist bei ihren Kollegen sehr beliebt."
+      }
+    },
+    "exercise": {
+      "blanked": "Sie ist ___ ihren Kollegen sehr beliebt.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-38",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "102368",
+    "translations": {
+      "en": {
+        "text": "Do you want to join in the game?"
+      },
+      "de": {
+        "text": "Möchtest du bei dem Spiel mitmachen?"
+      }
+    },
+    "exercise": {
+      "blanked": "Möchtest du ___ dem Spiel mitmachen?",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-39",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "104328",
+    "translations": {
+      "en": {
+        "text": "Enjoy your meal!"
+      },
+      "de": {
+        "text": "Guten Appetit bei Ihrer Mahlzeit!"
+      }
+    },
+    "exercise": {
+      "blanked": "Guten Appetit ___ Ihrer Mahlzeit!",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-40",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "105887",
+    "translations": {
+      "en": {
+        "text": "We can stay overnight at friends'."
+      },
+      "de": {
+        "text": "Wir können bei Freunden übernachten."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir können ___ Freunden übernachten.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-41",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "107842",
+    "translations": {
+      "en": {
+        "text": "I need to make an appointment with my family doctor."
+      },
+      "de": {
+        "text": "Ich muss einen Termin bei meinem Hausarzt vereinbaren."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich muss einen Termin ___ meinem Hausarzt vereinbaren.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-42",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "117941",
+    "translations": {
+      "en": {
+        "text": "The female helper assisted us with the work."
+      },
+      "de": {
+        "text": "Die Helferin unterstützte uns bei der Arbeit."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Helferin unterstützte uns ___ der Arbeit.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-43",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "100107",
+    "translations": {
+      "en": {
+        "text": "It was a good plan, however there were problems with the implementation."
+      },
+      "de": {
+        "text": "Es war ein guter Plan, allerdings gab es Probleme bei der Umsetzung."
+      }
+    },
+    "exercise": {
+      "blanked": "Es war ein guter Plan, allerdings gab es Probleme ___ der Umsetzung.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-44",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "100285",
+    "translations": {
+      "en": {
+        "text": "We wish you much success with your project."
+      },
+      "de": {
+        "text": "Wir wünschen Ihnen viel Erfolg bei Ihrem Projekt."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir wünschen Ihnen viel Erfolg ___ Ihrem Projekt.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-45",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "100841",
+    "translations": {
+      "en": {
+        "text": "She works at a well-known publishing house."
+      },
+      "de": {
+        "text": "Sie arbeitet bei einem bekannten Verlag."
+      }
+    },
+    "exercise": {
+      "blanked": "Sie arbeitet ___ einem bekannten Verlag.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-46",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "101784",
+    "translations": {
+      "en": {
+        "text": "The official helped me with my request."
+      },
+      "de": {
+        "text": "Der Beamte half mir bei meinem Anliegen."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Beamte half mir ___ meinem Anliegen.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-47",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "102345",
+    "translations": {
+      "en": {
+        "text": "He works at an advertising agency."
+      },
+      "de": {
+        "text": "Er arbeitet bei einer Werbeagentur."
+      }
+    },
+    "exercise": {
+      "blanked": "Er arbeitet ___ einer Werbeagentur.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-48",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "102595",
+    "translations": {
+      "en": {
+        "text": "He took out a loan from the bank."
+      },
+      "de": {
+        "text": "Er hat einen Kredit bei der Bank aufgenommen."
+      }
+    },
+    "exercise": {
+      "blanked": "Er hat einen Kredit ___ der Bank aufgenommen.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-49",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "103237",
+    "translations": {
+      "en": {
+        "text": "Gaming is a popular hobby among young people."
+      },
+      "de": {
+        "text": "Gaming ist ein beliebtes Hobby bei Jugendlichen."
+      }
+    },
+    "exercise": {
+      "blanked": "Gaming ist ein beliebtes Hobby ___ Jugendlichen.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-50",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "103261",
+    "translations": {
+      "en": {
+        "text": "I have an account at the savings bank."
+      },
+      "de": {
+        "text": "Ich habe ein Konto bei der Sparkasse."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich habe ein Konto ___ der Sparkasse.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-51",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "103606",
+    "translations": {
+      "en": {
+        "text": "She is doing an internship at a large company."
+      },
+      "de": {
+        "text": "Sie macht ein Praktikum bei einer großen Firma."
+      }
+    },
+    "exercise": {
+      "blanked": "Sie macht ein Praktikum ___ einer großen Firma.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-52",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "103667",
+    "translations": {
+      "en": {
+        "text": "She won a gold medal at the Olympic Games."
+      },
+      "de": {
+        "text": "Sie gewann eine Goldmedaille bei den Olympischen Spielen."
+      }
+    },
+    "exercise": {
+      "blanked": "Sie gewann eine Goldmedaille ___ den Olympischen Spielen.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-53",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "104582",
+    "translations": {
+      "en": {
+        "text": "He cut off a piece of bread. How did you perform on the exam?"
+      },
+      "de": {
+        "text": "Er schnitt sich ein Stück Brot ab. Wie hast du bei der Prüfung abgeschnitten?"
+      }
+    },
+    "exercise": {
+      "blanked": "Er schnitt sich ein Stück Brot ab. Wie hast du ___ der Prüfung abgeschnitten?",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-54",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "105618",
+    "translations": {
+      "en": {
+        "text": "My supervisor helped me with the work."
+      },
+      "de": {
+        "text": "Mein Betreuer hat mir bei der Arbeit geholfen."
+      }
+    },
+    "exercise": {
+      "blanked": "Mein Betreuer hat mir ___ der Arbeit geholfen.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-55",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "105736",
+    "translations": {
+      "en": {
+        "text": "Please contact me if you have questions."
+      },
+      "de": {
+        "text": "Bitte kontaktieren Sie mich bei Fragen."
+      }
+    },
+    "exercise": {
+      "blanked": "Bitte kontaktieren Sie mich ___ Fragen.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-56",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "106314",
+    "translations": {
+      "en": {
+        "text": "We had a mixed audience at the event."
+      },
+      "de": {
+        "text": "Wir hatten ein gemischtes Publikum bei der Veranstaltung."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir hatten ein gemischtes Publikum ___ der Veranstaltung.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-57",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "106639",
+    "translations": {
+      "en": {
+        "text": "This guideline helps you with the installation."
+      },
+      "de": {
+        "text": "Dieser Leitfaden hilft Ihnen bei der Installation."
+      }
+    },
+    "exercise": {
+      "blanked": "Dieser Leitfaden hilft Ihnen ___ der Installation.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-58",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "107799",
+    "translations": {
+      "en": {
+        "text": "We need a cool-down in this weather."
+      },
+      "de": {
+        "text": "Wir brauchen eine Abkühlung bei diesem Wetter."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir brauchen eine Abkühlung ___ diesem Wetter.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-59",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "108465",
+    "translations": {
+      "en": {
+        "text": "The clerk helped me with my application."
+      },
+      "de": {
+        "text": "Der Sachbearbeiter half mir bei meinem Antrag."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Sachbearbeiter half mir ___ meinem Antrag.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-60",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "109783",
+    "translations": {
+      "en": {
+        "text": "He didn't want to give in and stuck to his opinion."
+      },
+      "de": {
+        "text": "Er wollte nicht nachgeben und blieb bei seiner Meinung."
+      }
+    },
+    "exercise": {
+      "blanked": "Er wollte nicht nachgeben und blieb ___ seiner Meinung.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-61",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "109935",
+    "translations": {
+      "en": {
+        "text": "The police officer helped us with the accident."
+      },
+      "de": {
+        "text": "Der Polizeibeamte half uns bei dem Unfall."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Polizeibeamte half uns ___ dem Unfall.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-62",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "110255",
+    "translations": {
+      "en": {
+        "text": "The social worker helped the family with their problems."
+      },
+      "de": {
+        "text": "Der Sozialarbeiter half der Familie bei ihren Problemen."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Sozialarbeiter half der Familie ___ ihren Problemen.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-63",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "110918",
+    "translations": {
+      "en": {
+        "text": "He was unpopular with his classmates."
+      },
+      "de": {
+        "text": "Er war bei seinen Mitschülern unbeliebt."
+      }
+    },
+    "exercise": {
+      "blanked": "Er war ___ seinen Mitschülern unbeliebt.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-64",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "111123",
+    "translations": {
+      "en": {
+        "text": "She works at an advertising agency."
+      },
+      "de": {
+        "text": "Sie arbeitet bei einer Werbeagentur."
+      }
+    },
+    "exercise": {
+      "blanked": "Sie arbeitet ___ einer Werbeagentur.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-65",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "111276",
+    "translations": {
+      "en": {
+        "text": "She has an appointment with her female therapist."
+      },
+      "de": {
+        "text": "Sie hat einen Termin bei ihrer Therapeutin."
+      }
+    },
+    "exercise": {
+      "blanked": "Sie hat einen Termin ___ ihrer Therapeutin.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-66",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "111335",
+    "translations": {
+      "en": {
+        "text": "She sought help at a counseling center."
+      },
+      "de": {
+        "text": "Sie suchte Hilfe bei einer Beratungsstelle."
+      }
+    },
+    "exercise": {
+      "blanked": "Sie suchte Hilfe ___ einer Beratungsstelle.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-67",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "111678",
+    "translations": {
+      "en": {
+        "text": "She provides good assistance with the project."
+      },
+      "de": {
+        "text": "Sie leistet gute Assistenz bei dem Projekt."
+      }
+    },
+    "exercise": {
+      "blanked": "Sie leistet gute Assistenz ___ dem Projekt.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-68",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "112062",
+    "translations": {
+      "en": {
+        "text": "She won the bronze medal at the Olympic Games."
+      },
+      "de": {
+        "text": "Sie gewann die Bronzemedaille bei den Olympischen Spielen."
+      }
+    },
+    "exercise": {
+      "blanked": "Sie gewann die Bronzemedaille ___ den Olympischen Spielen.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-69",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "112469",
+    "translations": {
+      "en": {
+        "text": "I have a giro account with this bank."
+      },
+      "de": {
+        "text": "Ich habe ein Giro bei dieser Bank."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich habe ein Giro ___ dieser Bank.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-70",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "113201",
+    "translations": {
+      "en": {
+        "text": "At ebb tide, you can walk on the beach."
+      },
+      "de": {
+        "text": "Bei Ebbe kann man am Strand spazieren gehen."
+      }
+    },
+    "exercise": {
+      "blanked": "___ Ebbe kann man am Strand spazieren gehen.",
+      "answer": "Bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-71",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "113724",
+    "translations": {
+      "en": {
+        "text": "She won the silver medal at the Olympic Games."
+      },
+      "de": {
+        "text": "Sie gewann die Silbermedaille bei den Olympischen Spielen."
+      }
+    },
+    "exercise": {
+      "blanked": "Sie gewann die Silbermedaille ___ den Olympischen Spielen.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-72",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "113824",
+    "translations": {
+      "en": {
+        "text": "He unfortunately failed the exam."
+      },
+      "de": {
+        "text": "Er ist leider bei der Prüfung durchgefallen."
+      }
+    },
+    "exercise": {
+      "blanked": "Er ist leider ___ der Prüfung durchgefallen.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-73",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "113976",
+    "translations": {
+      "en": {
+        "text": "He sought help from the employment agency to find a job."
+      },
+      "de": {
+        "text": "Er suchte Hilfe bei der Arbeitsagentur, um einen Job zu finden."
+      }
+    },
+    "exercise": {
+      "blanked": "Er suchte Hilfe ___ der Arbeitsagentur, um einen Job zu finden.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-74",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "114234",
+    "translations": {
+      "en": {
+        "text": "At border control, we had to show our passports."
+      },
+      "de": {
+        "text": "Bei der Grenzkontrolle mussten wir unsere Pässe zeigen."
+      }
+    },
+    "exercise": {
+      "blanked": "___ der Grenzkontrolle mussten wir unsere Pässe zeigen.",
+      "answer": "Bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-75",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "114686",
+    "translations": {
+      "en": {
+        "text": "Call the emergency service in a medical emergency."
+      },
+      "de": {
+        "text": "Rufen Sie den Notdienst bei einem medizinischen Notfall."
+      }
+    },
+    "exercise": {
+      "blanked": "Rufen Sie den Notdienst ___ einem medizinischen Notfall.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-76",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "115701",
+    "translations": {
+      "en": {
+        "text": "In rainy weather, I always wear rubber boots."
+      },
+      "de": {
+        "text": "Bei Regenwetter trage ich immer Gummistiefel."
+      }
+    },
+    "exercise": {
+      "blanked": "___ Regenwetter trage ich immer Gummistiefel.",
+      "answer": "Bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-77",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "115916",
+    "translations": {
+      "en": {
+        "text": "He was caught trying to cheat on the exam."
+      },
+      "de": {
+        "text": "Er wurde erwischt, als er versuchte, bei der Prüfung zu spicken."
+      }
+    },
+    "exercise": {
+      "blanked": "Er wurde erwischt, als er versuchte, ___ der Prüfung zu spicken.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-78",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "116443",
+    "translations": {
+      "en": {
+        "text": "Please count me in for the order."
+      },
+      "de": {
+        "text": "Bitte zähle mich bei der Bestellung mit."
+      }
+    },
+    "exercise": {
+      "blanked": "Bitte zähle mich ___ der Bestellung mit.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-79",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "117064",
+    "translations": {
+      "en": {
+        "text": "The airbag protects the driver in an accident."
+      },
+      "de": {
+        "text": "Der Airbag schützt den Fahrer bei einem Unfall."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Airbag schützt den Fahrer ___ einem Unfall.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-80",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "117528",
+    "translations": {
+      "en": {
+        "text": "The windshield wipers don't work well in this rain."
+      },
+      "de": {
+        "text": "Die Scheibenwischer funktionieren bei diesem Regen nicht gut."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Scheibenwischer funktionieren ___ diesem Regen nicht gut.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-81",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "118007",
+    "translations": {
+      "en": {
+        "text": "There was a price increase in groceries."
+      },
+      "de": {
+        "text": "Es gab eine Preiserhöhung bei den Lebensmitteln."
+      }
+    },
+    "exercise": {
+      "blanked": "Es gab eine Preiserhöhung ___ den Lebensmitteln.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-82",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "118110",
+    "translations": {
+      "en": {
+        "text": "He works as a bank clerk at a large bank."
+      },
+      "de": {
+        "text": "Er arbeitet als Bankkaufmann bei einer großen Bank."
+      }
+    },
+    "exercise": {
+      "blanked": "Er arbeitet als Bankkaufmann ___ einer großen Bank.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-83",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "118394",
+    "translations": {
+      "en": {
+        "text": "The mayor was the guest of honor at the celebration."
+      },
+      "de": {
+        "text": "Der Bürgermeister war der Ehrengast bei der Feier."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Bürgermeister war der Ehrengast ___ der Feier.",
+      "answer": "bei",
+      "preposition": "bei",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "bei always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-84",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "100872",
+    "translations": {
+      "en": {
+        "text": "We are taking a tour through the city."
+      },
+      "de": {
+        "text": "Wir machen eine Tour durch die Stadt."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir machen eine Tour ___ die Stadt.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-85",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "102074",
+    "translations": {
+      "en": {
+        "text": "The small stream flows through the forest."
+      },
+      "de": {
+        "text": "Der kleine Bach fließt durch den Wald."
+      }
+    },
+    "exercise": {
+      "blanked": "Der kleine Bach fließt ___ den Wald.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-86",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "102517",
+    "translations": {
+      "en": {
+        "text": "We are driving through a long tunnel."
+      },
+      "de": {
+        "text": "Wir fahren durch einen langen Tunnel."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir fahren ___ einen langen Tunnel.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-87",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "106553",
+    "translations": {
+      "en": {
+        "text": "A colorful butterfly flew through the garden."
+      },
+      "de": {
+        "text": "Ein bunter Schmetterling flog durch den Garten."
+      }
+    },
+    "exercise": {
+      "blanked": "Ein bunter Schmetterling flog ___ den Garten.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-88",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "110756",
+    "translations": {
+      "en": {
+        "text": "The hiking trail leads through a beautiful forest."
+      },
+      "de": {
+        "text": "Der Wanderweg führt durch einen schönen Wald."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Wanderweg führt ___ einen schönen Wald.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-89",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "113294",
+    "translations": {
+      "en": {
+        "text": "We walked through the rose garden."
+      },
+      "de": {
+        "text": "Wir spazierten durch den Rosengarten."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir spazierten ___ den Rosengarten.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-90",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "100883",
+    "translations": {
+      "en": {
+        "text": "The tour through the museum was very interesting."
+      },
+      "de": {
+        "text": "Die Führung durch das Museum war sehr interessant."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Führung ___ das Museum war sehr interessant.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-91",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "101961",
+    "translations": {
+      "en": {
+        "text": "The consultation by the expert was very helpful."
+      },
+      "de": {
+        "text": "Die Beratung durch den Experten war sehr hilfreich."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Beratung ___ den Experten war sehr hilfreich.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-92",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "102476",
+    "translations": {
+      "en": {
+        "text": "The alarm was triggered by smoke."
+      },
+      "de": {
+        "text": "Der Alarm wurde durch Rauch ausgelöst."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Alarm wurde ___ Rauch ausgelöst.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-93",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "102791",
+    "translations": {
+      "en": {
+        "text": "The moderator led through the show."
+      },
+      "de": {
+        "text": "Der Moderator führte durch die Sendung."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Moderator führte ___ die Sendung.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-94",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "103204",
+    "translations": {
+      "en": {
+        "text": "We are connected by a long friendship."
+      },
+      "de": {
+        "text": "Wir sind durch eine lange Freundschaft verbunden."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir sind ___ eine lange Freundschaft verbunden.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-95",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "103859",
+    "translations": {
+      "en": {
+        "text": "The water flows through the pipe."
+      },
+      "de": {
+        "text": "Das Wasser fließt durch das Rohr."
+      }
+    },
+    "exercise": {
+      "blanked": "Das Wasser fließt ___ das Rohr.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-96",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "104679",
+    "translations": {
+      "en": {
+        "text": "The wind howls through the trees."
+      },
+      "de": {
+        "text": "Der Wind heult durch die Bäume."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Wind heult ___ die Bäume.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-97",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "104850",
+    "translations": {
+      "en": {
+        "text": "A deer ran through the forest."
+      },
+      "de": {
+        "text": "Ein Hirsch lief durch den Wald."
+      }
+    },
+    "exercise": {
+      "blanked": "Ein Hirsch lief ___ den Wald.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-98",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "105033",
+    "translations": {
+      "en": {
+        "text": "The path leads through the forest."
+      },
+      "de": {
+        "text": "Der Pfad führt durch den Wald."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Pfad führt ___ den Wald.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-99",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "105185",
+    "translations": {
+      "en": {
+        "text": "He has to steer the ship through the storm."
+      },
+      "de": {
+        "text": "Er muss das Schiff durch den Sturm steuern."
+      }
+    },
+    "exercise": {
+      "blanked": "Er muss das Schiff ___ den Sturm steuern.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-100",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "105956",
+    "translations": {
+      "en": {
+        "text": "The parade moved through the streets."
+      },
+      "de": {
+        "text": "Die Parade zog durch die Straßen."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Parade zog ___ die Straßen.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-101",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "106108",
+    "translations": {
+      "en": {
+        "text": "They walked through a narrow alley."
+      },
+      "de": {
+        "text": "Sie gingen durch eine enge Gasse."
+      }
+    },
+    "exercise": {
+      "blanked": "Sie gingen ___ eine enge Gasse.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-102",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "106132",
+    "translations": {
+      "en": {
+        "text": "The rally led through the mountains."
+      },
+      "de": {
+        "text": "Die Rallye führte durch die Berge."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Rallye führte ___ die Berge.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-103",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "106753",
+    "translations": {
+      "en": {
+        "text": "The female presenter skillfully guided through the show."
+      },
+      "de": {
+        "text": "Die Moderatorin führte gekonnt durch die Sendung."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Moderatorin führte gekonnt ___ die Sendung.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-104",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "106959",
+    "translations": {
+      "en": {
+        "text": "The water flows through the tube."
+      },
+      "de": {
+        "text": "Das Wasser fließt durch die Röhre."
+      }
+    },
+    "exercise": {
+      "blanked": "Das Wasser fließt ___ die Röhre.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-105",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "107638",
+    "translations": {
+      "en": {
+        "text": "We took a tour through the old town."
+      },
+      "de": {
+        "text": "Wir machten einen Rundgang durch die Altstadt."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir machten einen Rundgang ___ die Altstadt.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-106",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "107982",
+    "translations": {
+      "en": {
+        "text": "He had to squeeze through the crowd."
+      },
+      "de": {
+        "text": "Er musste sich durch die Menge pressen."
+      }
+    },
+    "exercise": {
+      "blanked": "Er musste sich ___ die Menge pressen.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-107",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "108338",
+    "translations": {
+      "en": {
+        "text": "The ninja crept silently through the night."
+      },
+      "de": {
+        "text": "Der Ninja schlich sich leise durch die Nacht."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Ninja schlich sich leise ___ die Nacht.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-108",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "109053",
+    "translations": {
+      "en": {
+        "text": "The sound of the bells echoed through the valley."
+      },
+      "de": {
+        "text": "Der Schall der Glocken hallte durch das Tal."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Schall der Glocken hallte ___ das Tal.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-109",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "109142",
+    "translations": {
+      "en": {
+        "text": "He carried a torch through the darkness."
+      },
+      "de": {
+        "text": "Er trug eine Fackel durch die Dunkelheit."
+      }
+    },
+    "exercise": {
+      "blanked": "Er trug eine Fackel ___ die Dunkelheit.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-110",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "109301",
+    "translations": {
+      "en": {
+        "text": "They sneaked out through the back door."
+      },
+      "de": {
+        "text": "Sie schlichen sich durch die Hintertür hinaus."
+      }
+    },
+    "exercise": {
+      "blanked": "Sie schlichen sich ___ die Hintertür hinaus.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-111",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "109464",
+    "translations": {
+      "en": {
+        "text": "The carriage drove slowly through the alley."
+      },
+      "de": {
+        "text": "Die Kutsche fuhr langsam durch die Gasse."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Kutsche fuhr langsam ___ die Gasse.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-112",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "109605",
+    "translations": {
+      "en": {
+        "text": "He drove his jeep through the terrain."
+      },
+      "de": {
+        "text": "Er fuhr mit seinem Jeep durch das Gelände."
+      }
+    },
+    "exercise": {
+      "blanked": "Er fuhr mit seinem Jeep ___ das Gelände.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-113",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "109751",
+    "translations": {
+      "en": {
+        "text": "The bird glides through the air."
+      },
+      "de": {
+        "text": "Der Vogel gleitet durch die Luft."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Vogel gleitet ___ die Luft.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-114",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "109800",
+    "translations": {
+      "en": {
+        "text": "We took a tour through the city."
+      },
+      "de": {
+        "text": "Wir machten eine Rundfahrt durch die Stadt."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir machten eine Rundfahrt ___ die Stadt.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-115",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "110100",
+    "translations": {
+      "en": {
+        "text": "A sunbeam fell through the window."
+      },
+      "de": {
+        "text": "Ein Sonnenstrahl fiel durch das Fenster."
+      }
+    },
+    "exercise": {
+      "blanked": "Ein Sonnenstrahl fiel ___ das Fenster.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-116",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "110211",
+    "translations": {
+      "en": {
+        "text": "Drive carefully through the roundabout."
+      },
+      "de": {
+        "text": "Fahren Sie vorsichtig durch den Kreisverkehr."
+      }
+    },
+    "exercise": {
+      "blanked": "Fahren Sie vorsichtig ___ den Kreisverkehr.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-117",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "110251",
+    "translations": {
+      "en": {
+        "text": "The sailor skillfully steered his boat through the waves."
+      },
+      "de": {
+        "text": "Der Segler steuerte sein Boot geschickt durch die Wellen."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Segler steuerte sein Boot geschickt ___ die Wellen.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-118",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "110681",
+    "translations": {
+      "en": {
+        "text": "The cat crept silently through the garden."
+      },
+      "de": {
+        "text": "Die Katze schlich lautlos durch den Garten."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Katze schlich lautlos ___ den Garten.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-119",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "111263",
+    "translations": {
+      "en": {
+        "text": "We took a walk through the castle park."
+      },
+      "de": {
+        "text": "Wir machten einen Spaziergang durch den Schlosspark."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir machten einen Spaziergang ___ den Schlosspark.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-120",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "111426",
+    "translations": {
+      "en": {
+        "text": "The old locomotive steamed through the landscape."
+      },
+      "de": {
+        "text": "Die alte Lokomotive dampfte durch die Landschaft."
+      }
+    },
+    "exercise": {
+      "blanked": "Die alte Lokomotive dampfte ___ die Landschaft.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-121",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "111614",
+    "translations": {
+      "en": {
+        "text": "The bike tour through the mountains was strenuous."
+      },
+      "de": {
+        "text": "Die Radtour durch die Berge war anstrengend."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Radtour ___ die Berge war anstrengend.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-122",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "111959",
+    "translations": {
+      "en": {
+        "text": "He rode his quad bike through the terrain."
+      },
+      "de": {
+        "text": "Er fuhr mit seinem Quad durch das Gelände."
+      }
+    },
+    "exercise": {
+      "blanked": "Er fuhr mit seinem Quad ___ das Gelände.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-123",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "112034",
+    "translations": {
+      "en": {
+        "text": "You can shorten the way if you go through the park."
+      },
+      "de": {
+        "text": "Du kannst den Weg abkürzen, wenn du durch den Park gehst."
+      }
+    },
+    "exercise": {
+      "blanked": "Du kannst den Weg abkürzen, wenn du ___ den Park gehst.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-124",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "112913",
+    "translations": {
+      "en": {
+        "text": "The skipper steered the boat safely through the storm."
+      },
+      "de": {
+        "text": "Der Schiffer steuerte das Boot sicher durch den Sturm."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Schiffer steuerte das Boot sicher ___ den Sturm.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-125",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "113352",
+    "translations": {
+      "en": {
+        "text": "A wild boar ran through the forest."
+      },
+      "de": {
+        "text": "Ein Wildschwein lief durch den Wald."
+      }
+    },
+    "exercise": {
+      "blanked": "Ein Wildschwein lief ___ den Wald.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-126",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "114127",
+    "translations": {
+      "en": {
+        "text": "They often ride through the city on their tandem."
+      },
+      "de": {
+        "text": "Sie fahren oft mit ihrem Tandem durch die Stadt."
+      }
+    },
+    "exercise": {
+      "blanked": "Sie fahren oft mit ihrem Tandem ___ die Stadt.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-127",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "114780",
+    "translations": {
+      "en": {
+        "text": "The infection can occur through droplets."
+      },
+      "de": {
+        "text": "Die Ansteckung kann durch Tröpfchen erfolgen."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Ansteckung kann ___ Tröpfchen erfolgen.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-128",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "114891",
+    "translations": {
+      "en": {
+        "text": "The bus drives through the city."
+      },
+      "de": {
+        "text": "Der Omnibus fährt durch die Stadt."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Omnibus fährt ___ die Stadt.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-129",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "115139",
+    "translations": {
+      "en": {
+        "text": "During the semester break, she traveled through Europe."
+      },
+      "de": {
+        "text": "Während der Semesterferien reiste sie durch Europa."
+      }
+    },
+    "exercise": {
+      "blanked": "Während der Semesterferien reiste sie ___ Europa.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-130",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "115167",
+    "translations": {
+      "en": {
+        "text": "We went through the underpass to cross the street."
+      },
+      "de": {
+        "text": "Wir gingen durch die Unterführung, um die Straße zu überqueren."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir gingen ___ die Unterführung, um die Straße zu überqueren.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-131",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "116484",
+    "translations": {
+      "en": {
+        "text": "We are planning a round trip through Europe."
+      },
+      "de": {
+        "text": "Wir planen eine Rundreise durch Europa."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir planen eine Rundreise ___ Europa.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-132",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "116672",
+    "translations": {
+      "en": {
+        "text": "A caravan moved through the desert."
+      },
+      "de": {
+        "text": "Eine Karawane zog durch die Wüste."
+      }
+    },
+    "exercise": {
+      "blanked": "Eine Karawane zog ___ die Wüste.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-133",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "116745",
+    "translations": {
+      "en": {
+        "text": "We took a walk through the castle garden."
+      },
+      "de": {
+        "text": "Wir machten einen Spaziergang durch den Schlossgarten."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir machten einen Spaziergang ___ den Schlossgarten.",
+      "answer": "durch",
+      "preposition": "durch",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "durch always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-134",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "100140",
+    "translations": {
+      "en": {
+        "text": "I want to stay at home today."
+      },
+      "de": {
+        "text": "Ich möchte heute zu Hause bleiben."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich möchte heute ___ Hause bleiben.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-135",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "102249",
+    "translations": {
+      "en": {
+        "text": "We eat lunch at twelve o'clock."
+      },
+      "de": {
+        "text": "Wir essen zu Mittag um zwölf Uhr."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir essen ___ Mittag um zwölf Uhr.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-136",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "108709",
+    "translations": {
+      "en": {
+        "text": "Do you want ketchup with your fries?"
+      },
+      "de": {
+        "text": "Möchtest du Ketchup zu deinen Pommes?"
+      }
+    },
+    "exercise": {
+      "blanked": "Möchtest du Ketchup ___ deinen Pommes?",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-137",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "100144",
+    "translations": {
+      "en": {
+        "text": "It's raining, therefore I'm staying home."
+      },
+      "de": {
+        "text": "Es regnet, deshalb bleibe ich zu Hause."
+      }
+    },
+    "exercise": {
+      "blanked": "Es regnet, deshalb bleibe ich ___ Hause.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-138",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "100339",
+    "translations": {
+      "en": {
+        "text": "I will try to be on time."
+      },
+      "de": {
+        "text": "Ich werde versuchen, pünktlich zu sein."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich werde versuchen, pünktlich ___ sein.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-139",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "100456",
+    "translations": {
+      "en": {
+        "text": "It's raining, that's why we are staying at home."
+      },
+      "de": {
+        "text": "Es regnet, deswegen bleiben wir zu Hause."
+      }
+    },
+    "exercise": {
+      "blanked": "Es regnet, deswegen bleiben wir ___ Hause.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-140",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "100952",
+    "translations": {
+      "en": {
+        "text": "It's about ten minutes on foot."
+      },
+      "de": {
+        "text": "Es sind ungefähr zehn Minuten zu Fuß."
+      }
+    },
+    "exercise": {
+      "blanked": "Es sind ungefähr zehn Minuten ___ Fuß.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-141",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "105142",
+    "translations": {
+      "en": {
+        "text": "Close the curtain, it's too bright."
+      },
+      "de": {
+        "text": "Zieh den Vorhang zu, es ist zu hell."
+      }
+    },
+    "exercise": {
+      "blanked": "Zieh den Vorhang ___, es ist zu hell.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-142",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "106583",
+    "translations": {
+      "en": {
+        "text": "Santa Claus brings presents at Christmas."
+      },
+      "de": {
+        "text": "Der Weihnachtsmann bringt Geschenke zu Weihnachten."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Weihnachtsmann bringt Geschenke ___ Weihnachten.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-143",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "107155",
+    "translations": {
+      "en": {
+        "text": "We bake cookies for Christmas."
+      },
+      "de": {
+        "text": "Wir backen Plätzchen zu Weihnachten."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir backen Plätzchen ___ Weihnachten.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-144",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "107485",
+    "translations": {
+      "en": {
+        "text": "We often eat lunch in the university cafeteria."
+      },
+      "de": {
+        "text": "Wir essen oft in der Mensa zu Mittag."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir essen oft in der Mensa ___ Mittag.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-145",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "107742",
+    "translations": {
+      "en": {
+        "text": "He wore a red tie with his suit."
+      },
+      "de": {
+        "text": "Er trug eine rote Krawatte zu seinem Anzug."
+      }
+    },
+    "exercise": {
+      "blanked": "Er trug eine rote Krawatte ___ seinem Anzug.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-146",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "109825",
+    "translations": {
+      "en": {
+        "text": "He was very unfriendly to me."
+      },
+      "de": {
+        "text": "Er war sehr unfreundlich zu mir."
+      }
+    },
+    "exercise": {
+      "blanked": "Er war sehr unfreundlich ___ mir.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-147",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "110984",
+    "translations": {
+      "en": {
+        "text": "We often eat lunch in the cafeteria."
+      },
+      "de": {
+        "text": "Wir essen oft in der Cafeteria zu Mittag."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir essen oft in der Cafeteria ___ Mittag.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-148",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "111895",
+    "translations": {
+      "en": {
+        "text": "We are going to a birthday party tonight."
+      },
+      "de": {
+        "text": "Wir gehen heute Abend zu einer Geburtstagsfeier."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir gehen heute Abend ___ einer Geburtstagsfeier.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-149",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "113019",
+    "translations": {
+      "en": {
+        "text": "We eat dinner at the dining table."
+      },
+      "de": {
+        "text": "Wir essen am Esstisch zu Abend."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir essen am Esstisch ___ Abend.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-150",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "113315",
+    "translations": {
+      "en": {
+        "text": "There's a lot going on here at any time of day."
+      },
+      "de": {
+        "text": "Zu jeder Tageszeit ist hier viel los."
+      }
+    },
+    "exercise": {
+      "blanked": "___ jeder Tageszeit ist hier viel los.",
+      "answer": "Zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-151",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "113419",
+    "translations": {
+      "en": {
+        "text": "I have a cold and have to stay home."
+      },
+      "de": {
+        "text": "Ich bin erkältet und muss zu Hause bleiben."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich bin erkältet und muss ___ Hause bleiben.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-152",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "114608",
+    "translations": {
+      "en": {
+        "text": "We have dinner in the dining room."
+      },
+      "de": {
+        "text": "Wir essen im Esszimmer zu Abend."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir essen im Esszimmer ___ Abend.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-153",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "114851",
+    "translations": {
+      "en": {
+        "text": "I prefer to wear comfortable sweatpants at home."
+      },
+      "de": {
+        "text": "Ich trage am liebsten eine bequeme Jogginghose zu Hause."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich trage am liebsten eine bequeme Jogginghose ___ Hause.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-154",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "116015",
+    "translations": {
+      "en": {
+        "text": "We decorate the fir tree for Christmas."
+      },
+      "de": {
+        "text": "Wir schmücken den Tannenbaum zu Weihnachten."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir schmücken den Tannenbaum ___ Weihnachten.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-155",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "100154",
+    "translations": {
+      "en": {
+        "text": "It's raining, therefore we are staying at home."
+      },
+      "de": {
+        "text": "Es regnet, daher bleiben wir zu Hause."
+      }
+    },
+    "exercise": {
+      "blanked": "Es regnet, daher bleiben wir ___ Hause.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-156",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "100179",
+    "translations": {
+      "en": {
+        "text": "I would rather stay at home."
+      },
+      "de": {
+        "text": "Ich würde eher zu Hause bleiben."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich würde eher ___ Hause bleiben.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-157",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "100260",
+    "translations": {
+      "en": {
+        "text": "It's raining, therefore we are staying at home."
+      },
+      "de": {
+        "text": "Es regnet, darum bleiben wir zu Hause."
+      }
+    },
+    "exercise": {
+      "blanked": "Es regnet, darum bleiben wir ___ Hause.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-158",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "100548",
+    "translations": {
+      "en": {
+        "text": "He is probably at home."
+      },
+      "de": {
+        "text": "Er ist vermutlich zu Hause."
+      }
+    },
+    "exercise": {
+      "blanked": "Er ist vermutlich ___ Hause.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-159",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "100634",
+    "translations": {
+      "en": {
+        "text": "Please provide precise personal information."
+      },
+      "de": {
+        "text": "Bitte machen Sie genaue Angaben zu Ihrer Person."
+      }
+    },
+    "exercise": {
+      "blanked": "Bitte machen Sie genaue Angaben ___ Ihrer Person.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-160",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "100642",
+    "translations": {
+      "en": {
+        "text": "At this point in time, he wasn't there."
+      },
+      "de": {
+        "text": "Zu diesem Zeitpunkt war er nicht da."
+      }
+    },
+    "exercise": {
+      "blanked": "___ diesem Zeitpunkt war er nicht da.",
+      "answer": "Zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-161",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "100787",
+    "translations": {
+      "en": {
+        "text": "In contrast to you, I like coffee."
+      },
+      "de": {
+        "text": "Im Gegensatz zu dir mag ich Kaffee."
+      }
+    },
+    "exercise": {
+      "blanked": "Im Gegensatz ___ dir mag ich Kaffee.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-162",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "100962",
+    "translations": {
+      "en": {
+        "text": "He mainly works from home."
+      },
+      "de": {
+        "text": "Er arbeitet hauptsächlich von zu Hause aus."
+      }
+    },
+    "exercise": {
+      "blanked": "Er arbeitet hauptsächlich von ___ Hause aus.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-163",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "101223",
+    "translations": {
+      "en": {
+        "text": "We have different opinions on this topic."
+      },
+      "de": {
+        "text": "Wir haben unterschiedliche Meinungen zu diesem Thema."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir haben unterschiedliche Meinungen ___ diesem Thema.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-164",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "101249",
+    "translations": {
+      "en": {
+        "text": "For what occasion are you celebrating?"
+      },
+      "de": {
+        "text": "Zu welchem Anlass feiert ihr?"
+      }
+    },
+    "exercise": {
+      "blanked": "___ welchem Anlass feiert ihr?",
+      "answer": "Zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-165",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "101314",
+    "translations": {
+      "en": {
+        "text": "I have to be home by 6 PM at the latest."
+      },
+      "de": {
+        "text": "Ich muss spätestens um 18 Uhr zu Hause sein."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich muss spätestens um 18 Uhr ___ Hause sein.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-166",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "101357",
+    "translations": {
+      "en": {
+        "text": "It is an honor for me to be here."
+      },
+      "de": {
+        "text": "Es ist mir eine Ehre, hier zu sein."
+      }
+    },
+    "exercise": {
+      "blanked": "Es ist mir eine Ehre, hier ___ sein.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-167",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "101540",
+    "translations": {
+      "en": {
+        "text": "She took a stand on the accusations."
+      },
+      "de": {
+        "text": "Sie nahm Stellung zu den Vorwürfen."
+      }
+    },
+    "exercise": {
+      "blanked": "Sie nahm Stellung ___ den Vorwürfen.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-168",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "102466",
+    "translations": {
+      "en": {
+        "text": "The web offers access to a lot of information."
+      },
+      "de": {
+        "text": "Das Web bietet Zugang zu vielen Informationen."
+      }
+    },
+    "exercise": {
+      "blanked": "Das Web bietet Zugang ___ vielen Informationen.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-169",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "102616",
+    "translations": {
+      "en": {
+        "text": "I need to lose weight to be healthier."
+      },
+      "de": {
+        "text": "Ich muss abnehmen, um gesünder zu sein."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich muss abnehmen, um gesünder ___ sein.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-170",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "102964",
+    "translations": {
+      "en": {
+        "text": "Her loyalty to her team was admirable."
+      },
+      "de": {
+        "text": "Ihre Treue zu ihrem Team war bewundernswert."
+      }
+    },
+    "exercise": {
+      "blanked": "Ihre Treue ___ ihrem Team war bewundernswert.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-171",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "103165",
+    "translations": {
+      "en": {
+        "text": "I need your feedback on this project."
+      },
+      "de": {
+        "text": "Ich brauche Ihr Feedback zu diesem Projekt."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche Ihr Feedback ___ diesem Projekt.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-172",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "104110",
+    "translations": {
+      "en": {
+        "text": "He urged me to be faster."
+      },
+      "de": {
+        "text": "Er drängte mich, schneller zu sein."
+      }
+    },
+    "exercise": {
+      "blanked": "Er drängte mich, schneller ___ sein.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-173",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "104114",
+    "translations": {
+      "en": {
+        "text": "My family is visiting this weekend."
+      },
+      "de": {
+        "text": "Meine Family kommt am Wochenende zu Besuch."
+      }
+    },
+    "exercise": {
+      "blanked": "Meine Family kommt am Wochenende ___ Besuch.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-174",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "105889",
+    "translations": {
+      "en": {
+        "text": "Stop being so silly!"
+      },
+      "de": {
+        "text": "Hör auf, so albern zu sein!"
+      }
+    },
+    "exercise": {
+      "blanked": "Hör auf, so albern ___ sein!",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-175",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "106074",
+    "translations": {
+      "en": {
+        "text": "All my relatives are coming for Christmas."
+      },
+      "de": {
+        "text": "Meine ganze Verwandtschaft kommt zu Weihnachten."
+      }
+    },
+    "exercise": {
+      "blanked": "Meine ganze Verwandtschaft kommt ___ Weihnachten.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-176",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "106274",
+    "translations": {
+      "en": {
+        "text": "Overweight can lead to health problems."
+      },
+      "de": {
+        "text": "Übergewicht kann zu Gesundheitsproblemen führen."
+      }
+    },
+    "exercise": {
+      "blanked": "Übergewicht kann ___ Gesundheitsproblemen führen.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-177",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "106306",
+    "translations": {
+      "en": {
+        "text": "His ambition drove him to great achievements."
+      },
+      "de": {
+        "text": "Sein Ehrgeiz trieb ihn zu großen Leistungen an."
+      }
+    },
+    "exercise": {
+      "blanked": "Sein Ehrgeiz trieb ihn ___ großen Leistungen an.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-178",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "106718",
+    "translations": {
+      "en": {
+        "text": "Please provide an explanation for this point."
+      },
+      "de": {
+        "text": "Bitte geben Sie eine Erläuterung zu diesem Punkt."
+      }
+    },
+    "exercise": {
+      "blanked": "Bitte geben Sie eine Erläuterung ___ diesem Punkt.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-179",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "106910",
+    "translations": {
+      "en": {
+        "text": "A colorful butterfly flew from flower to flower."
+      },
+      "de": {
+        "text": "Ein bunter Falter flog von Blume zu Blume."
+      }
+    },
+    "exercise": {
+      "blanked": "Ein bunter Falter flog von Blume ___ Blume.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-180",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "107588",
+    "translations": {
+      "en": {
+        "text": "I feel honored to be here."
+      },
+      "de": {
+        "text": "Ich fühle mich geehrt, hier zu sein."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich fühle mich geehrt, hier ___ sein.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-181",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "108479",
+    "translations": {
+      "en": {
+        "text": "At Christmas, we like to eat stollen."
+      },
+      "de": {
+        "text": "Zu Weihnachten essen wir gerne Stollen."
+      }
+    },
+    "exercise": {
+      "blanked": "___ Weihnachten essen wir gerne Stollen.",
+      "answer": "Zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-182",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "109220",
+    "translations": {
+      "en": {
+        "text": "The long drought led to crop failures."
+      },
+      "de": {
+        "text": "Die lange Trockenheit führte zu Ernteausfällen."
+      }
+    },
+    "exercise": {
+      "blanked": "Die lange Trockenheit führte ___ Ernteausfällen.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-183",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "109547",
+    "translations": {
+      "en": {
+        "text": "She wore a beautiful accessory with her dress."
+      },
+      "de": {
+        "text": "Sie trug ein schönes Accessoire zu ihrem Kleid."
+      }
+    },
+    "exercise": {
+      "blanked": "Sie trug ein schönes Accessoire ___ ihrem Kleid.",
+      "answer": "zu",
+      "preposition": "zu",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "zu always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-184",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "100920",
+    "translations": {
+      "en": {
+        "text": "I received a letter from my family."
+      },
+      "de": {
+        "text": "Ich habe einen Brief von meiner Familie bekommen."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich habe einen Brief ___ meiner Familie bekommen.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-185",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "102316",
+    "translations": {
+      "en": {
+        "text": "I received a call from my mother."
+      },
+      "de": {
+        "text": "Ich habe einen Anruf von meiner Mutter bekommen."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich habe einen Anruf ___ meiner Mutter bekommen.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-186",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "100108",
+    "translations": {
+      "en": {
+        "text": "What kind of music do you like?"
+      },
+      "de": {
+        "text": "Welche Art von Musik magst du?"
+      }
+    },
+    "exercise": {
+      "blanked": "Welche Art ___ Musik magst du?",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-187",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "100185",
+    "translations": {
+      "en": {
+        "text": "That is very kind of you."
+      },
+      "de": {
+        "text": "Das ist sehr lieb von dir."
+      }
+    },
+    "exercise": {
+      "blanked": "Das ist sehr lieb ___ dir.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-188",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "100857",
+    "translations": {
+      "en": {
+        "text": "In autumn, the leaves fall from the trees."
+      },
+      "de": {
+        "text": "Im Herbst fallen die Blätter von den Bäumen."
+      }
+    },
+    "exercise": {
+      "blanked": "Im Herbst fallen die Blätter ___ den Bäumen.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-189",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "101285",
+    "translations": {
+      "en": {
+        "text": "Berlin is the capital city of Germany."
+      },
+      "de": {
+        "text": "Berlin ist die Hauptstadt von Deutschland."
+      }
+    },
+    "exercise": {
+      "blanked": "Berlin ist die Hauptstadt ___ Deutschland.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-190",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "102228",
+    "translations": {
+      "en": {
+        "text": "We said goodbye to our friends."
+      },
+      "de": {
+        "text": "Wir nahmen Abschied von unseren Freunden."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir nahmen Abschied ___ unseren Freunden.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-191",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "102341",
+    "translations": {
+      "en": {
+        "text": "I often dream of traveling."
+      },
+      "de": {
+        "text": "Ich träume oft von Reisen."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich träume oft ___ Reisen.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-192",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "103146",
+    "translations": {
+      "en": {
+        "text": "I have to pick up my children from school."
+      },
+      "de": {
+        "text": "Ich muss meine Kinder von der Schule abholen."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich muss meine Kinder ___ der Schule abholen.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-193",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "103440",
+    "translations": {
+      "en": {
+        "text": "She wiped the sweat from her forehead."
+      },
+      "de": {
+        "text": "Sie wischte sich den Schweiß von der Stirn."
+      }
+    },
+    "exercise": {
+      "blanked": "Sie wischte sich den Schweiß ___ der Stirn.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-194",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "104848",
+    "translations": {
+      "en": {
+        "text": "The train departs from track 3."
+      },
+      "de": {
+        "text": "Der Zug fährt von Gleis 3 ab."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Zug fährt ___ Gleis 3 ab.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-195",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "105646",
+    "translations": {
+      "en": {
+        "text": "I like the smell of garlic."
+      },
+      "de": {
+        "text": "Ich mag den Geruch von Knoblauch."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich mag den Geruch ___ Knoblauch.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-196",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "106801",
+    "translations": {
+      "en": {
+        "text": "The train departs from platform 3."
+      },
+      "de": {
+        "text": "Der Zug fährt von Bahnsteig 3 ab."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Zug fährt ___ Bahnsteig 3 ab.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-197",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "106862",
+    "translations": {
+      "en": {
+        "text": "Children often get pocket money from their parents."
+      },
+      "de": {
+        "text": "Kinder bekommen oft Taschengeld von ihren Eltern."
+      }
+    },
+    "exercise": {
+      "blanked": "Kinder bekommen oft Taschengeld ___ ihren Eltern.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-198",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "109460",
+    "translations": {
+      "en": {
+        "text": "I like the taste of chewing gum."
+      },
+      "de": {
+        "text": "Ich mag den Geschmack von Kaugummi."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich mag den Geschmack ___ Kaugummi.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-199",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "113521",
+    "translations": {
+      "en": {
+        "text": "Do you have a city map of Berlin?"
+      },
+      "de": {
+        "text": "Haben Sie einen Stadtplan von Berlin?"
+      }
+    },
+    "exercise": {
+      "blanked": "Haben Sie einen Stadtplan ___ Berlin?",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-200",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "114433",
+    "translations": {
+      "en": {
+        "text": "In autumn, the chestnuts fall from the trees."
+      },
+      "de": {
+        "text": "Im Herbst fallen die Kastanien von den Bäumen."
+      }
+    },
+    "exercise": {
+      "blanked": "Im Herbst fallen die Kastanien ___ den Bäumen.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-201",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "101411",
+    "translations": {
+      "en": {
+        "text": "He is financially dependent on his parents."
+      },
+      "de": {
+        "text": "Er ist finanziell von seinen Eltern abhängig."
+      }
+    },
+    "exercise": {
+      "blanked": "Er ist finanziell ___ seinen Eltern abhängig.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-202",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "101555",
+    "translations": {
+      "en": {
+        "text": "That is an interesting combination of colors."
+      },
+      "de": {
+        "text": "Das ist eine interessante Kombination von Farben."
+      }
+    },
+    "exercise": {
+      "blanked": "Das ist eine interessante Kombination ___ Farben.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-203",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "101767",
+    "translations": {
+      "en": {
+        "text": "We have a large network of friends."
+      },
+      "de": {
+        "text": "Wir haben ein großes Netzwerk von Freunden."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir haben ein großes Netzwerk ___ Freunden.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-204",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "101889",
+    "translations": {
+      "en": {
+        "text": "The thief was caught by the police."
+      },
+      "de": {
+        "text": "Der Dieb wurde von der Polizei erwischt."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Dieb wurde ___ der Polizei erwischt.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-205",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "102184",
+    "translations": {
+      "en": {
+        "text": "The exchange of ideas is important."
+      },
+      "de": {
+        "text": "Der Austausch von Ideen ist wichtig."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Austausch ___ Ideen ist wichtig.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-206",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "102277",
+    "translations": {
+      "en": {
+        "text": "Get the dirt off your shoes!"
+      },
+      "de": {
+        "text": "Mach den Dreck von deinen Schuhen ab!"
+      }
+    },
+    "exercise": {
+      "blanked": "Mach den Dreck ___ deinen Schuhen ab!",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-207",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "102718",
+    "translations": {
+      "en": {
+        "text": "He is a distant relative of mine."
+      },
+      "de": {
+        "text": "Er ist ein entfernter Verwandter von mir."
+      }
+    },
+    "exercise": {
+      "blanked": "Er ist ein entfernter Verwandter ___ mir.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-208",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "102766",
+    "translations": {
+      "en": {
+        "text": "The transition from school to university is a big change."
+      },
+      "de": {
+        "text": "Der Übergang von der Schule zur Universität ist eine große Veränderung."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Übergang ___ der Schule zur Universität ist eine große Veränderung.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-209",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "102880",
+    "translations": {
+      "en": {
+        "text": "That was very mean of you."
+      },
+      "de": {
+        "text": "Das war sehr gemein von dir."
+      }
+    },
+    "exercise": {
+      "blanked": "Das war sehr gemein ___ dir.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-210",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "103514",
+    "translations": {
+      "en": {
+        "text": "The cultivation of wheat is important in this region."
+      },
+      "de": {
+        "text": "Der Anbau von Weizen ist in dieser Region wichtig."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Anbau ___ Weizen ist in dieser Region wichtig.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-211",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "103722",
+    "translations": {
+      "en": {
+        "text": "The consumption of alcohol is forbidden here."
+      },
+      "de": {
+        "text": "Der Konsum von Alkohol ist hier verboten."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Konsum ___ Alkohol ist hier verboten.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-212",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "103737",
+    "translations": {
+      "en": {
+        "text": "From my viewpoint, that's not right."
+      },
+      "de": {
+        "text": "Von meinem Standpunkt aus ist das nicht richtig."
+      }
+    },
+    "exercise": {
+      "blanked": "___ meinem Standpunkt aus ist das nicht richtig.",
+      "answer": "Von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-213",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "104313",
+    "translations": {
+      "en": {
+        "text": "The export of cars is important for the economy."
+      },
+      "de": {
+        "text": "Der Export von Autos ist wichtig für die Wirtschaft."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Export ___ Autos ist wichtig für die Wirtschaft.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-214",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "104471",
+    "translations": {
+      "en": {
+        "text": "The village is far away from the city."
+      },
+      "de": {
+        "text": "Das Dorf ist weit entfernt von der Stadt."
+      }
+    },
+    "exercise": {
+      "blanked": "Das Dorf ist weit entfernt ___ der Stadt.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-215",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "104627",
+    "translations": {
+      "en": {
+        "text": "The robber was caught by the police."
+      },
+      "de": {
+        "text": "Der Räuber wurde von der Polizei gefasst."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Räuber wurde ___ der Polizei gefasst.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-216",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "104995",
+    "translations": {
+      "en": {
+        "text": "The thief was caught by the police."
+      },
+      "de": {
+        "text": "Der Dieb wurde von der Polizei gefasst."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Dieb wurde ___ der Polizei gefasst.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-217",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "105167",
+    "translations": {
+      "en": {
+        "text": "The swindler was caught by the police."
+      },
+      "de": {
+        "text": "Der Betrüger wurde von der Polizei gefasst."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Betrüger wurde ___ der Polizei gefasst.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-218",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "105356",
+    "translations": {
+      "en": {
+        "text": "I need to recover from work."
+      },
+      "de": {
+        "text": "Ich muss mich von der Arbeit erholen."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich muss mich ___ der Arbeit erholen.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-219",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "105406",
+    "translations": {
+      "en": {
+        "text": "Sweat is running down my forehead."
+      },
+      "de": {
+        "text": "Mir läuft der Schweiß von der Stirn."
+      }
+    },
+    "exercise": {
+      "blanked": "Mir läuft der Schweiß ___ der Stirn.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-220",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "105426",
+    "translations": {
+      "en": {
+        "text": "The listeners were thrilled by the music."
+      },
+      "de": {
+        "text": "Die Zuhörer waren begeistert von der Musik."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Zuhörer waren begeistert ___ der Musik.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-221",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "105986",
+    "translations": {
+      "en": {
+        "text": "I need a distraction from work."
+      },
+      "de": {
+        "text": "Ich brauche eine Ablenkung von der Arbeit."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche eine Ablenkung ___ der Arbeit.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-222",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "106220",
+    "translations": {
+      "en": {
+        "text": "The import of goods has increased."
+      },
+      "de": {
+        "text": "Der Import von Waren ist gestiegen."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Import ___ Waren ist gestiegen.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-223",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "106294",
+    "translations": {
+      "en": {
+        "text": "The avenue was lined with trees."
+      },
+      "de": {
+        "text": "Die Avenue war gesäumt von Bäumen."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Avenue war gesäumt ___ Bäumen.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-224",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "106767",
+    "translations": {
+      "en": {
+        "text": "The house is surrounded by trees all around."
+      },
+      "de": {
+        "text": "Das Haus ist rundum von Bäumen umgeben."
+      }
+    },
+    "exercise": {
+      "blanked": "Das Haus ist rundum ___ Bäumen umgeben.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-225",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "106845",
+    "translations": {
+      "en": {
+        "text": "He is a big fan of motorsport."
+      },
+      "de": {
+        "text": "Er ist ein großer Fan von Motorsport."
+      }
+    },
+    "exercise": {
+      "blanked": "Er ist ein großer Fan ___ Motorsport.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-226",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "106938",
+    "translations": {
+      "en": {
+        "text": "In autumn, the leaves fall from the trees."
+      },
+      "de": {
+        "text": "Im Herbst fällt das Laub von den Bäumen."
+      }
+    },
+    "exercise": {
+      "blanked": "Im Herbst fällt das Laub ___ den Bäumen.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-227",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "107088",
+    "translations": {
+      "en": {
+        "text": "He can read the time off the sundial."
+      },
+      "de": {
+        "text": "Er kann die Uhrzeit von der Sonnenuhr ablesen."
+      }
+    },
+    "exercise": {
+      "blanked": "Er kann die Uhrzeit ___ der Sonnenuhr ablesen.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-228",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "107169",
+    "translations": {
+      "en": {
+        "text": "He dreams of a red sports car."
+      },
+      "de": {
+        "text": "Er träumt von einem roten Sportwagen."
+      }
+    },
+    "exercise": {
+      "blanked": "Er träumt ___ einem roten Sportwagen.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-229",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "107371",
+    "translations": {
+      "en": {
+        "text": "She painted a beautiful portrait of her mother."
+      },
+      "de": {
+        "text": "Sie malte ein schönes Portrait von ihrer Mutter."
+      }
+    },
+    "exercise": {
+      "blanked": "Sie malte ein schönes Portrait ___ ihrer Mutter.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-230",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "107770",
+    "translations": {
+      "en": {
+        "text": "The return of the goods is possible within 14 days."
+      },
+      "de": {
+        "text": "Die Rückgabe der Ware ist innerhalb von 14 Tagen möglich."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Rückgabe der Ware ist innerhalb ___ 14 Tagen möglich.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-231",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "107951",
+    "translations": {
+      "en": {
+        "text": "My brother is a computer scientist by profession."
+      },
+      "de": {
+        "text": "Mein Bruder ist Informatiker von Beruf."
+      }
+    },
+    "exercise": {
+      "blanked": "Mein Bruder ist Informatiker ___ Beruf.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-232",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "108350",
+    "translations": {
+      "en": {
+        "text": "The pyramids of Giza are impressive."
+      },
+      "de": {
+        "text": "Die Pyramiden von Gizeh sind beeindruckend."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Pyramiden ___ Gizeh sind beeindruckend.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-233",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "109215",
+    "translations": {
+      "en": {
+        "text": "They live on the outskirts of Berlin."
+      },
+      "de": {
+        "text": "Sie wohnen am Stadtrand von Berlin."
+      }
+    },
+    "exercise": {
+      "blanked": "Sie wohnen am Stadtrand ___ Berlin.",
+      "answer": "von",
+      "preposition": "von",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "von always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-234",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "100035",
+    "translations": {
+      "en": {
+        "text": "I come from Germany."
+      },
+      "de": {
+        "text": "Ich komme aus Deutschland."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich komme ___ Deutschland.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-235",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "100686",
+    "translations": {
+      "en": {
+        "text": "The table is made of wood."
+      },
+      "de": {
+        "text": "Der Tisch ist aus Holz."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Tisch ist ___ Holz.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-236",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "103443",
+    "translations": {
+      "en": {
+        "text": "I drink coffee from a cup."
+      },
+      "de": {
+        "text": "Ich trinke Kaffee aus einer Tasse."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich trinke Kaffee ___ einer Tasse.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-237",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "104229",
+    "translations": {
+      "en": {
+        "text": "I drink my coffee from a large mug."
+      },
+      "de": {
+        "text": "Ich trinke meinen Kaffee aus einem großen Becher."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich trinke meinen Kaffee ___ einem großen Becher.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-238",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "109046",
+    "translations": {
+      "en": {
+        "text": "I'll send you a postcard from vacation."
+      },
+      "de": {
+        "text": "Ich schicke dir eine Postkarte aus dem Urlaub."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich schicke dir eine Postkarte ___ dem Urlaub.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-239",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "117953",
+    "translations": {
+      "en": {
+        "text": "She is an Italian woman from Rome."
+      },
+      "de": {
+        "text": "Sie ist eine Italienerin aus Rom."
+      }
+    },
+    "exercise": {
+      "blanked": "Sie ist eine Italienerin ___ Rom.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-240",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "101309",
+    "translations": {
+      "en": {
+        "text": "The wind comes from the North."
+      },
+      "de": {
+        "text": "Der Wind kommt aus Nord."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Wind kommt ___ Nord.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-241",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "101737",
+    "translations": {
+      "en": {
+        "text": "The wind comes from the South."
+      },
+      "de": {
+        "text": "Der Wind kommt aus Süd."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Wind kommt ___ Süd.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-242",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "102119",
+    "translations": {
+      "en": {
+        "text": "My wife comes from Spain."
+      },
+      "de": {
+        "text": "Meine Ehefrau kommt aus Spanien."
+      }
+    },
+    "exercise": {
+      "blanked": "Meine Ehefrau kommt ___ Spanien.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-243",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "102794",
+    "translations": {
+      "en": {
+        "text": "Smoke came out of the chimney."
+      },
+      "de": {
+        "text": "Aus dem Schornstein kam Rauch."
+      }
+    },
+    "exercise": {
+      "blanked": "___ dem Schornstein kam Rauch.",
+      "answer": "Aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-244",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "103736",
+    "translations": {
+      "en": {
+        "text": "He is a Spaniard from Madrid."
+      },
+      "de": {
+        "text": "Er ist ein Spanier aus Madrid."
+      }
+    },
+    "exercise": {
+      "blanked": "Er ist ein Spanier ___ Madrid.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-245",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "105389",
+    "translations": {
+      "en": {
+        "text": "He is a Dutchman from Amsterdam."
+      },
+      "de": {
+        "text": "Er ist ein Niederländer aus Amsterdam."
+      }
+    },
+    "exercise": {
+      "blanked": "Er ist ein Niederländer ___ Amsterdam.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-246",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "108728",
+    "translations": {
+      "en": {
+        "text": "He is a Norwegian from Oslo."
+      },
+      "de": {
+        "text": "Er ist ein Norweger aus Oslo."
+      }
+    },
+    "exercise": {
+      "blanked": "Er ist ein Norweger ___ Oslo.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-247",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "110302",
+    "translations": {
+      "en": {
+        "text": "The author reads from her new book."
+      },
+      "de": {
+        "text": "Die Autorin liest aus ihrem neuen Buch vor."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Autorin liest ___ ihrem neuen Buch vor.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-248",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "110677",
+    "translations": {
+      "en": {
+        "text": "He is a Croat from Zagreb."
+      },
+      "de": {
+        "text": "Er ist ein Kroate aus Zagreb."
+      }
+    },
+    "exercise": {
+      "blanked": "Er ist ein Kroate ___ Zagreb.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-249",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "111142",
+    "translations": {
+      "en": {
+        "text": "She comes from Argentina, she is Argentinian."
+      },
+      "de": {
+        "text": "Sie kommt aus Argentinien, sie ist argentinisch."
+      }
+    },
+    "exercise": {
+      "blanked": "Sie kommt ___ Argentinien, sie ist argentinisch.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-250",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "111515",
+    "translations": {
+      "en": {
+        "text": "We have fresh zucchini from the garden."
+      },
+      "de": {
+        "text": "Wir haben frische Zucchini aus dem Garten."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir haben frische Zucchini ___ dem Garten.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-251",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "112140",
+    "translations": {
+      "en": {
+        "text": "The wind comes from the northeast."
+      },
+      "de": {
+        "text": "Der Wind kommt aus Nordost."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Wind kommt ___ Nordost.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-252",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "115580",
+    "translations": {
+      "en": {
+        "text": "I brought a nice souvenir from Paris."
+      },
+      "de": {
+        "text": "Ich habe ein schönes Souvenir aus Paris mitgebracht."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich habe ein schönes Souvenir ___ Paris mitgebracht.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-253",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "100641",
+    "translations": {
+      "en": {
+        "text": "From my perspective, that's a good idea."
+      },
+      "de": {
+        "text": "Aus meiner Sicht ist das eine gute Idee."
+      }
+    },
+    "exercise": {
+      "blanked": "___ meiner Sicht ist das eine gute Idee.",
+      "answer": "Aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-254",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "101245",
+    "translations": {
+      "en": {
+        "text": "This song originates from the 80s."
+      },
+      "de": {
+        "text": "Dieses Lied stammt aus den 80er Jahren."
+      }
+    },
+    "exercise": {
+      "blanked": "Dieses Lied stammt ___ den 80er Jahren.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-255",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "101402",
+    "translations": {
+      "en": {
+        "text": "The ring is made of silver."
+      },
+      "de": {
+        "text": "Der Ring ist aus Silber."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Ring ist ___ Silber.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-256",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "101476",
+    "translations": {
+      "en": {
+        "text": "The sweater is made of wool."
+      },
+      "de": {
+        "text": "Der Pullover ist aus Wolle."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Pullover ist ___ Wolle.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-257",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "101795",
+    "translations": {
+      "en": {
+        "text": "This mixture of spices is very aromatic."
+      },
+      "de": {
+        "text": "Diese Mischung aus Gewürzen ist sehr aromatisch."
+      }
+    },
+    "exercise": {
+      "blanked": "Diese Mischung ___ Gewürzen ist sehr aromatisch.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-258",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "101921",
+    "translations": {
+      "en": {
+        "text": "He was released from the hospital."
+      },
+      "de": {
+        "text": "Er wurde aus dem Krankenhaus entlassen."
+      }
+    },
+    "exercise": {
+      "blanked": "Er wurde ___ dem Krankenhaus entlassen.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-259",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "102186",
+    "translations": {
+      "en": {
+        "text": "The fire department could rescue the cat from the tree."
+      },
+      "de": {
+        "text": "Die Feuerwehr konnte die Katze aus dem Baum bergen."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Feuerwehr konnte die Katze ___ dem Baum bergen.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-260",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "102667",
+    "translations": {
+      "en": {
+        "text": "Every plant consists of many small cells."
+      },
+      "de": {
+        "text": "Jede Pflanze besteht aus vielen kleinen Zellen."
+      }
+    },
+    "exercise": {
+      "blanked": "Jede Pflanze besteht ___ vielen kleinen Zellen.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-261",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "102776",
+    "translations": {
+      "en": {
+        "text": "He looked out of the window."
+      },
+      "de": {
+        "text": "Er blickte aus dem Fenster."
+      }
+    },
+    "exercise": {
+      "blanked": "Er blickte ___ dem Fenster.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-262",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "102924",
+    "translations": {
+      "en": {
+        "text": "He is a Briton from London."
+      },
+      "de": {
+        "text": "Er ist ein Brite aus London."
+      }
+    },
+    "exercise": {
+      "blanked": "Er ist ein Brite ___ London.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-263",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "103093",
+    "translations": {
+      "en": {
+        "text": "The statue is made of bronze."
+      },
+      "de": {
+        "text": "Die Statue ist aus Bronze gefertigt."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Statue ist ___ Bronze gefertigt.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-264",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "103286",
+    "translations": {
+      "en": {
+        "text": "The prisoners tried to escape from the prison."
+      },
+      "de": {
+        "text": "Die Gefangenen versuchten, aus dem Gefängnis zu fliehen."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Gefangenen versuchten, ___ dem Gefängnis zu fliehen.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-265",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "103490",
+    "translations": {
+      "en": {
+        "text": "Many products are made of plastic."
+      },
+      "de": {
+        "text": "Viele Produkte sind aus Plastik."
+      }
+    },
+    "exercise": {
+      "blanked": "Viele Produkte sind ___ Plastik.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-266",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "103596",
+    "translations": {
+      "en": {
+        "text": "Switzerland consists of many cantons."
+      },
+      "de": {
+        "text": "Die Schweiz besteht aus vielen Kantonen."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Schweiz besteht ___ vielen Kantonen.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-267",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "103720",
+    "translations": {
+      "en": {
+        "text": "He is my old comrade from school."
+      },
+      "de": {
+        "text": "Er ist mein alter Kamerad aus der Schule."
+      }
+    },
+    "exercise": {
+      "blanked": "Er ist mein alter Kamerad ___ der Schule.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-268",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "104165",
+    "translations": {
+      "en": {
+        "text": "The house is built of concrete."
+      },
+      "de": {
+        "text": "Das Haus ist aus Beton gebaut."
+      }
+    },
+    "exercise": {
+      "blanked": "Das Haus ist ___ Beton gebaut.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-269",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "104547",
+    "translations": {
+      "en": {
+        "text": "The author gave a reading from her new book."
+      },
+      "de": {
+        "text": "Die Autorin hielt eine Lesung aus ihrem neuen Buch."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Autorin hielt eine Lesung ___ ihrem neuen Buch.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-270",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "104855",
+    "translations": {
+      "en": {
+        "text": "Bread is baked from grain."
+      },
+      "de": {
+        "text": "Brot wird aus Korn gebacken."
+      }
+    },
+    "exercise": {
+      "blanked": "Brot wird ___ Korn gebacken.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-271",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "105170",
+    "translations": {
+      "en": {
+        "text": "Steam rises from the pot."
+      },
+      "de": {
+        "text": "Aus dem Topf steigt Dampf auf."
+      }
+    },
+    "exercise": {
+      "blanked": "___ dem Topf steigt Dampf auf.",
+      "answer": "Aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-272",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "105257",
+    "translations": {
+      "en": {
+        "text": "There was no way out of the situation."
+      },
+      "de": {
+        "text": "Es gab keinen Ausweg aus der Situation."
+      }
+    },
+    "exercise": {
+      "blanked": "Es gab keinen Ausweg ___ der Situation.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-273",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "105359",
+    "translations": {
+      "en": {
+        "text": "The passenger got off the train."
+      },
+      "de": {
+        "text": "Der Fahrgast stieg aus dem Zug."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Fahrgast stieg ___ dem Zug.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-274",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "105381",
+    "translations": {
+      "en": {
+        "text": "Many products today are made of plastic."
+      },
+      "de": {
+        "text": "Viele Produkte werden heute aus Kunststoff hergestellt."
+      }
+    },
+    "exercise": {
+      "blanked": "Viele Produkte werden heute ___ Kunststoff hergestellt.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-275",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "105496",
+    "translations": {
+      "en": {
+        "text": "He comes from a Southern German city."
+      },
+      "de": {
+        "text": "Er kommt aus einer süddeutschen Stadt."
+      }
+    },
+    "exercise": {
+      "blanked": "Er kommt ___ einer süddeutschen Stadt.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-276",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "105648",
+    "translations": {
+      "en": {
+        "text": "We learn from this textbook."
+      },
+      "de": {
+        "text": "Wir lernen aus diesem Lehrbuch."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir lernen ___ diesem Lehrbuch.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-277",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "105681",
+    "translations": {
+      "en": {
+        "text": "Bread is often made from wheat."
+      },
+      "de": {
+        "text": "Brot wird oft aus Weizen hergestellt."
+      }
+    },
+    "exercise": {
+      "blanked": "Brot wird oft ___ Weizen hergestellt.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-278",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "105760",
+    "translations": {
+      "en": {
+        "text": "From my viewpoint, that is correct."
+      },
+      "de": {
+        "text": "Aus meiner Sichtweise ist das richtig."
+      }
+    },
+    "exercise": {
+      "blanked": "___ meiner Sichtweise ist das richtig.",
+      "answer": "Aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-279",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "105857",
+    "translations": {
+      "en": {
+        "text": "The horse slept on a bed of straw."
+      },
+      "de": {
+        "text": "Das Pferd schlief auf einem Bett aus Stroh."
+      }
+    },
+    "exercise": {
+      "blanked": "Das Pferd schlief auf einem Bett ___ Stroh.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-280",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "106056",
+    "translations": {
+      "en": {
+        "text": "The rescuer pulled the person out of the water."
+      },
+      "de": {
+        "text": "Der Retter zog die Person aus dem Wasser."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Retter zog die Person ___ dem Wasser.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-281",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "106105",
+    "translations": {
+      "en": {
+        "text": "Wake up gently from sleep."
+      },
+      "de": {
+        "text": "Erwachen Sie sanft aus dem Schlaf."
+      }
+    },
+    "exercise": {
+      "blanked": "Erwachen Sie sanft ___ dem Schlaf.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-282",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "106161",
+    "translations": {
+      "en": {
+        "text": "The magician pulled a rabbit out of the hat."
+      },
+      "de": {
+        "text": "Der Zauberer zog ein Kaninchen aus dem Hut."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Zauberer zog ein Kaninchen ___ dem Hut.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-283",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "106260",
+    "translations": {
+      "en": {
+        "text": "We adopted our dog from the animal shelter."
+      },
+      "de": {
+        "text": "Wir haben unseren Hund aus dem Tierheim adoptiert."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir haben unseren Hund ___ dem Tierheim adoptiert.",
+      "answer": "aus",
+      "preposition": "aus",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "aus always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-284",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "100024",
+    "translations": {
+      "en": {
+        "text": "I am going home."
+      },
+      "de": {
+        "text": "Ich gehe nach Hause."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich gehe ___ Hause.",
+      "answer": "nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-285",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "100183",
+    "translations": {
+      "en": {
+        "text": "I'm coming home soon."
+      },
+      "de": {
+        "text": "Ich komme bald nach Hause."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich komme bald ___ Hause.",
+      "answer": "nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-286",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "100291",
+    "translations": {
+      "en": {
+        "text": "When are you coming home?"
+      },
+      "de": {
+        "text": "Wann kommst du nach Hause?"
+      }
+    },
+    "exercise": {
+      "blanked": "Wann kommst du ___ Hause?",
+      "answer": "nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-287",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "100995",
+    "translations": {
+      "en": {
+        "text": "We would like to travel to Italy next year."
+      },
+      "de": {
+        "text": "Wir möchten nächstes Jahr nach Italien reisen."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir möchten nächstes Jahr ___ Italien reisen.",
+      "answer": "nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-288",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "113434",
+    "translations": {
+      "en": {
+        "text": "He has just come home."
+      },
+      "de": {
+        "text": "Er ist gerade nach Hause gekommen."
+      }
+    },
+    "exercise": {
+      "blanked": "Er ist gerade ___ Hause gekommen.",
+      "answer": "nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-289",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "119438",
+    "translations": {
+      "en": {
+        "text": "My daddy is coming home tonight."
+      },
+      "de": {
+        "text": "Mein Vati kommt heute Abend nach Hause."
+      }
+    },
+    "exercise": {
+      "blanked": "Mein Vati kommt heute Abend ___ Hause.",
+      "answer": "nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-290",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "100989",
+    "translations": {
+      "en": {
+        "text": "My Mom is coming home soon."
+      },
+      "de": {
+        "text": "Meine Ma kommt bald nach Hause."
+      }
+    },
+    "exercise": {
+      "blanked": "Meine Ma kommt bald ___ Hause.",
+      "answer": "nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-291",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "101490",
+    "translations": {
+      "en": {
+        "text": "The flight to Berlin takes two hours."
+      },
+      "de": {
+        "text": "Der Flug nach Berlin dauert zwei Stunden."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Flug ___ Berlin dauert zwei Stunden.",
+      "answer": "nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-292",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "101734",
+    "translations": {
+      "en": {
+        "text": "After the illness, he felt very weak."
+      },
+      "de": {
+        "text": "Nach der Krankheit fühlte er sich sehr schwach."
+      }
+    },
+    "exercise": {
+      "blanked": "___ der Krankheit fühlte er sich sehr schwach.",
+      "answer": "Nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-293",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "102355",
+    "translations": {
+      "en": {
+        "text": "My husband is coming home tonight."
+      },
+      "de": {
+        "text": "Mein Ehemann kommt heute Abend nach Hause."
+      }
+    },
+    "exercise": {
+      "blanked": "Mein Ehemann kommt heute Abend ___ Hause.",
+      "answer": "nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-294",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "102606",
+    "translations": {
+      "en": {
+        "text": "The tourist asked for directions."
+      },
+      "de": {
+        "text": "Der Tourist fragte nach dem Weg."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Tourist fragte ___ dem Weg.",
+      "answer": "nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-295",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "103466",
+    "translations": {
+      "en": {
+        "text": "I want to relax after work."
+      },
+      "de": {
+        "text": "Ich möchte mich nach der Arbeit entspannen."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich möchte mich ___ der Arbeit entspannen.",
+      "answer": "nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-296",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "104135",
+    "translations": {
+      "en": {
+        "text": "After sports, we go to the sauna."
+      },
+      "de": {
+        "text": "Nach dem Sport gehen wir in die Sauna."
+      }
+    },
+    "exercise": {
+      "blanked": "___ dem Sport gehen wir in die Sauna.",
+      "answer": "Nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-297",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "104381",
+    "translations": {
+      "en": {
+        "text": "After work, I go home."
+      },
+      "de": {
+        "text": "Nach dem Feierabend gehe ich nach Hause."
+      }
+    },
+    "exercise": {
+      "blanked": "___ dem Feierabend gehe ich nach Hause.",
+      "answer": "Nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-298",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "107159",
+    "translations": {
+      "en": {
+        "text": "After the rain, we saw a beautiful rainbow."
+      },
+      "de": {
+        "text": "Nach dem Regen sahen wir einen schönen Regenbogen."
+      }
+    },
+    "exercise": {
+      "blanked": "___ dem Regen sahen wir einen schönen Regenbogen.",
+      "answer": "Nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-299",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "107574",
+    "translations": {
+      "en": {
+        "text": "After the lightning came the thunder."
+      },
+      "de": {
+        "text": "Nach dem Blitz kam der Donner."
+      }
+    },
+    "exercise": {
+      "blanked": "___ dem Blitz kam der Donner.",
+      "answer": "Nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-300",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "108298",
+    "translations": {
+      "en": {
+        "text": "I like to drink an espresso after the meal."
+      },
+      "de": {
+        "text": "Ich trinke gerne einen Espresso nach dem Essen."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich trinke gerne einen Espresso ___ dem Essen.",
+      "answer": "nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-301",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "110183",
+    "translations": {
+      "en": {
+        "text": "I need a ticket to Berlin."
+      },
+      "de": {
+        "text": "Ich brauche eine Fahrkarte nach Berlin."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche eine Fahrkarte ___ Berlin.",
+      "answer": "nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-302",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "112614",
+    "translations": {
+      "en": {
+        "text": "After showering, he put on his bathrobe."
+      },
+      "de": {
+        "text": "Nach dem Duschen zog er seinen Bademantel an."
+      }
+    },
+    "exercise": {
+      "blanked": "___ dem Duschen zog er seinen Bademantel an.",
+      "answer": "Nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-303",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "114057",
+    "translations": {
+      "en": {
+        "text": "The school trip to Berlin was very exciting."
+      },
+      "de": {
+        "text": "Die Klassenfahrt nach Berlin war sehr aufregend."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Klassenfahrt ___ Berlin war sehr aufregend.",
+      "answer": "nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-304",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "114303",
+    "translations": {
+      "en": {
+        "text": "After the beach day, he had a bad sunburn."
+      },
+      "de": {
+        "text": "Nach dem Strandtag hatte er einen schlimmen Sonnenbrand."
+      }
+    },
+    "exercise": {
+      "blanked": "___ dem Strandtag hatte er einen schlimmen Sonnenbrand.",
+      "answer": "Nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-305",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "114985",
+    "translations": {
+      "en": {
+        "text": "Don't forget to log out after the session."
+      },
+      "de": {
+        "text": "Vergessen Sie nicht, sich nach der Sitzung abzumelden."
+      }
+    },
+    "exercise": {
+      "blanked": "Vergessen Sie nicht, sich ___ der Sitzung abzumelden.",
+      "answer": "nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-306",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "116261",
+    "translations": {
+      "en": {
+        "text": "The changing room was very full after the game."
+      },
+      "de": {
+        "text": "Die Umkleide war nach dem Spiel sehr voll."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Umkleide war ___ dem Spiel sehr voll.",
+      "answer": "nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-307",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "116716",
+    "translations": {
+      "en": {
+        "text": "After the rain, there were many puddles on the street."
+      },
+      "de": {
+        "text": "Nach dem Regen gab es viele Pfützen auf der Straße."
+      }
+    },
+    "exercise": {
+      "blanked": "___ dem Regen gab es viele Pfützen auf der Straße.",
+      "answer": "Nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-308",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "120250",
+    "translations": {
+      "en": {
+        "text": "We are driving on the expressway to Berlin."
+      },
+      "de": {
+        "text": "Wir fahren auf der Schnellstrasse nach Berlin."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir fahren auf der Schnellstrasse ___ Berlin.",
+      "answer": "nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-309",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "100338",
+    "translations": {
+      "en": {
+        "text": "The search for the key was long."
+      },
+      "de": {
+        "text": "Die Suche nach dem Schlüssel war lang."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Suche ___ dem Schlüssel war lang.",
+      "answer": "nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-310",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "100741",
+    "translations": {
+      "en": {
+        "text": "There was great damage after the storm."
+      },
+      "de": {
+        "text": "Es gab großen Schaden nach dem Sturm."
+      }
+    },
+    "exercise": {
+      "blanked": "Es gab großen Schaden ___ dem Sturm.",
+      "answer": "nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-311",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "100761",
+    "translations": {
+      "en": {
+        "text": "The soldier returned home."
+      },
+      "de": {
+        "text": "Der Soldat kehrte nach Hause zurück."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Soldat kehrte ___ Hause zurück.",
+      "answer": "nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-312",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "101367",
+    "translations": {
+      "en": {
+        "text": "We deliver the pizza home."
+      },
+      "de": {
+        "text": "Wir liefern die Pizza nach Hause."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir liefern die Pizza ___ Hause.",
+      "answer": "nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-313",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "101629",
+    "translations": {
+      "en": {
+        "text": "He reaches for the book."
+      },
+      "de": {
+        "text": "Er greift nach dem Buch."
+      }
+    },
+    "exercise": {
+      "blanked": "Er greift ___ dem Buch.",
+      "answer": "nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-314",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "101668",
+    "translations": {
+      "en": {
+        "text": "He went home to find his abode."
+      },
+      "de": {
+        "text": "Er ist nach Hause gegangen, um sein Heim zu finden."
+      }
+    },
+    "exercise": {
+      "blanked": "Er ist ___ Hause gegangen, um sein Heim zu finden.",
+      "answer": "nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-315",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "101992",
+    "translations": {
+      "en": {
+        "text": "After the party, there was total chaos."
+      },
+      "de": {
+        "text": "Nach der Party herrschte totales Chaos."
+      }
+    },
+    "exercise": {
+      "blanked": "___ der Party herrschte totales Chaos.",
+      "answer": "Nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-316",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "102161",
+    "translations": {
+      "en": {
+        "text": "The hunt for the treasure was exciting."
+      },
+      "de": {
+        "text": "Die Jagd nach dem Schatz war aufregend."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Jagd ___ dem Schatz war aufregend.",
+      "answer": "nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-317",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "102323",
+    "translations": {
+      "en": {
+        "text": "After the vacation, she was very relaxed."
+      },
+      "de": {
+        "text": "Nach dem Urlaub war sie sehr entspannt."
+      }
+    },
+    "exercise": {
+      "blanked": "___ dem Urlaub war sie sehr entspannt.",
+      "answer": "Nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-318",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "102503",
+    "translations": {
+      "en": {
+        "text": "The pirate was looking for treasure."
+      },
+      "de": {
+        "text": "Der Pirat suchte nach einem Schatz."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Pirat suchte ___ einem Schatz.",
+      "answer": "nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-319",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "102890",
+    "translations": {
+      "en": {
+        "text": "After the long day, he felt tired."
+      },
+      "de": {
+        "text": "Nach dem langen Tag fühlte er sich matt."
+      }
+    },
+    "exercise": {
+      "blanked": "___ dem langen Tag fühlte er sich matt.",
+      "answer": "Nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-320",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "103021",
+    "translations": {
+      "en": {
+        "text": "She felt deep sorrow after the loss."
+      },
+      "de": {
+        "text": "Sie empfand tiefe Trauer nach dem Verlust."
+      }
+    },
+    "exercise": {
+      "blanked": "Sie empfand tiefe Trauer ___ dem Verlust.",
+      "answer": "nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-321",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "103130",
+    "translations": {
+      "en": {
+        "text": "After the move, there was dust everywhere."
+      },
+      "de": {
+        "text": "Nach dem Umzug war überall Staub."
+      }
+    },
+    "exercise": {
+      "blanked": "___ dem Umzug war überall Staub.",
+      "answer": "Nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-322",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "103140",
+    "translations": {
+      "en": {
+        "text": "She was desperately looking for help."
+      },
+      "de": {
+        "text": "Sie war verzweifelt auf der Suche nach Hilfe."
+      }
+    },
+    "exercise": {
+      "blanked": "Sie war verzweifelt auf der Suche ___ Hilfe.",
+      "answer": "nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-323",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "103153",
+    "translations": {
+      "en": {
+        "text": "He was drunk after the party."
+      },
+      "de": {
+        "text": "Er war nach der Party betrunken."
+      }
+    },
+    "exercise": {
+      "blanked": "Er war ___ der Party betrunken.",
+      "answer": "nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-324",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "103739",
+    "translations": {
+      "en": {
+        "text": "After the fall, he couldn't get up anymore."
+      },
+      "de": {
+        "text": "Nach dem Sturz konnte er nicht mehr aufstehen."
+      }
+    },
+    "exercise": {
+      "blanked": "___ dem Sturz konnte er nicht mehr aufstehen.",
+      "answer": "Nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-325",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "103817",
+    "translations": {
+      "en": {
+        "text": "After the performance, there was loud applause."
+      },
+      "de": {
+        "text": "Nach der Vorstellung gab es lauten Applaus."
+      }
+    },
+    "exercise": {
+      "blanked": "___ der Vorstellung gab es lauten Applaus.",
+      "answer": "Nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-326",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "104212",
+    "translations": {
+      "en": {
+        "text": "After the hike, we needed some refreshment."
+      },
+      "de": {
+        "text": "Nach der Wanderung brauchten wir eine Stärkung."
+      }
+    },
+    "exercise": {
+      "blanked": "___ der Wanderung brauchten wir eine Stärkung.",
+      "answer": "Nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-327",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "104378",
+    "translations": {
+      "en": {
+        "text": "I need some relaxation after work."
+      },
+      "de": {
+        "text": "Ich brauche etwas Entspannung nach der Arbeit."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche etwas Entspannung ___ der Arbeit.",
+      "answer": "nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-328",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "104640",
+    "translations": {
+      "en": {
+        "text": "We took a short trip to Berlin."
+      },
+      "de": {
+        "text": "Wir machten einen kurzen Trip nach Berlin."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir machten einen kurzen Trip ___ Berlin.",
+      "answer": "nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-329",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "104651",
+    "translations": {
+      "en": {
+        "text": "I just need to switch off after work."
+      },
+      "de": {
+        "text": "Ich muss nach der Arbeit einfach abschalten."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich muss ___ der Arbeit einfach abschalten.",
+      "answer": "nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-330",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "104815",
+    "translations": {
+      "en": {
+        "text": "After my high school diploma, I want to travel."
+      },
+      "de": {
+        "text": "Nach dem Abi möchte ich reisen."
+      }
+    },
+    "exercise": {
+      "blanked": "___ dem Abi möchte ich reisen.",
+      "answer": "Nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-331",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "104875",
+    "translations": {
+      "en": {
+        "text": "After primary school, he went to the Realschule."
+      },
+      "de": {
+        "text": "Nach der Grundschule ging er auf die Realschule."
+      }
+    },
+    "exercise": {
+      "blanked": "___ der Grundschule ging er auf die Realschule.",
+      "answer": "Nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-332",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "105295",
+    "translations": {
+      "en": {
+        "text": "After the coffee, he was awake again."
+      },
+      "de": {
+        "text": "Nach dem Kaffee war er wieder munter."
+      }
+    },
+    "exercise": {
+      "blanked": "___ dem Kaffee war er wieder munter.",
+      "answer": "Nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-333",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "B1",
+    "sourcePhraseId": "105309",
+    "translations": {
+      "en": {
+        "text": "He drank a small schnapps after the meal."
+      },
+      "de": {
+        "text": "Er trank einen kleinen Schnaps nach dem Essen."
+      }
+    },
+    "exercise": {
+      "blanked": "Er trank einen kleinen Schnaps ___ dem Essen.",
+      "answer": "nach",
+      "preposition": "nach",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "nach always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-334",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "100961",
+    "translations": {
+      "en": {
+        "text": "I'm going to the shop to buy bread."
+      },
+      "de": {
+        "text": "Ich gehe ins Geschäft, um Brot zu kaufen."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich gehe ins Geschäft, ___ Brot zu kaufen.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-335",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "101029",
+    "translations": {
+      "en": {
+        "text": "The movie starts at 8 PM."
+      },
+      "de": {
+        "text": "Der Film fängt um 20 Uhr an."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Film fängt ___ 20 Uhr an.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-336",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "101269",
+    "translations": {
+      "en": {
+        "text": "The lesson starts at 8 o'clock."
+      },
+      "de": {
+        "text": "Der Unterricht beginnt um 8 Uhr."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Unterricht beginnt ___ 8 Uhr.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-337",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "103306",
+    "translations": {
+      "en": {
+        "text": "I need a pen to write that."
+      },
+      "de": {
+        "text": "Ich brauche einen Stift, um das zu schreiben."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche einen Stift, ___ das zu schreiben.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-338",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "107228",
+    "translations": {
+      "en": {
+        "text": "The bus stop is just around the corner."
+      },
+      "de": {
+        "text": "Die Bushaltestelle ist gleich um die Ecke."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Bushaltestelle ist gleich ___ die Ecke.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-339",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "109768",
+    "translations": {
+      "en": {
+        "text": "I need a ballpoint pen to sign that."
+      },
+      "de": {
+        "text": "Ich brauche einen Kugelschreiber, um das zu unterschreiben."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche einen Kugelschreiber, ___ das zu unterschreiben.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-340",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "114307",
+    "translations": {
+      "en": {
+        "text": "I am attending a language course to learn German."
+      },
+      "de": {
+        "text": "Ich besuche einen Sprachkurs, um Deutsch zu lernen."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich besuche einen Sprachkurs, ___ Deutsch zu lernen.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-341",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "115781",
+    "translations": {
+      "en": {
+        "text": "The school bus departs at 7 AM."
+      },
+      "de": {
+        "text": "Der Schulbus fährt um 7 Uhr ab."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Schulbus fährt ___ 7 Uhr ab.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-342",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "100454",
+    "translations": {
+      "en": {
+        "text": "The beginning of the concert is at 8 PM."
+      },
+      "de": {
+        "text": "Der Beginn des Konzerts ist um 20 Uhr."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Beginn des Konzerts ist ___ 20 Uhr.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-343",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "100579",
+    "translations": {
+      "en": {
+        "text": "The Earth revolves around the sun."
+      },
+      "de": {
+        "text": "Die Erde dreht sich um die Sonne."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Erde dreht sich ___ die Sonne.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-344",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "101114",
+    "translations": {
+      "en": {
+        "text": "The training starts at 6 PM."
+      },
+      "de": {
+        "text": "Das Training beginnt um 18 Uhr."
+      }
+    },
+    "exercise": {
+      "blanked": "Das Training beginnt ___ 18 Uhr.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-345",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "101418",
+    "translations": {
+      "en": {
+        "text": "I would like to ask you for help."
+      },
+      "de": {
+        "text": "Ich möchte Sie um Hilfe bitten."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich möchte Sie ___ Hilfe bitten.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-346",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "102363",
+    "translations": {
+      "en": {
+        "text": "She wore a golden chain around her neck."
+      },
+      "de": {
+        "text": "Sie trug eine goldene Kette um ihren Hals."
+      }
+    },
+    "exercise": {
+      "blanked": "Sie trug eine goldene Kette ___ ihren Hals.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-347",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "103254",
+    "translations": {
+      "en": {
+        "text": "At midnight a new day begins."
+      },
+      "de": {
+        "text": "Um Mitternacht beginnt ein neuer Tag."
+      }
+    },
+    "exercise": {
+      "blanked": "___ Mitternacht beginnt ein neuer Tag.",
+      "answer": "Um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-348",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "103320",
+    "translations": {
+      "en": {
+        "text": "The train's departure is at 10 AM."
+      },
+      "de": {
+        "text": "Die Abfahrt des Zuges ist um 10 Uhr."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Abfahrt des Zuges ist ___ 10 Uhr.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-349",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "103454",
+    "translations": {
+      "en": {
+        "text": "I have to go to the pharmacy to buy medicine."
+      },
+      "de": {
+        "text": "Ich muss zur Apotheke gehen, um Medikamente zu kaufen."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich muss zur Apotheke gehen, ___ Medikamente zu kaufen.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-350",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "103764",
+    "translations": {
+      "en": {
+        "text": "A bee buzzed around the flowers."
+      },
+      "de": {
+        "text": "Eine Biene summte um die Blumen."
+      }
+    },
+    "exercise": {
+      "blanked": "Eine Biene summte ___ die Blumen.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-351",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "104955",
+    "translations": {
+      "en": {
+        "text": "Press the switch to turn on the light."
+      },
+      "de": {
+        "text": "Drücken Sie den Schalter, um das Licht einzuschalten."
+      }
+    },
+    "exercise": {
+      "blanked": "Drücken Sie den Schalter, ___ das Licht einzuschalten.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-352",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "105110",
+    "translations": {
+      "en": {
+        "text": "Please give me the rag to wipe the table."
+      },
+      "de": {
+        "text": "Bitte gib mir den Lappen, um den Tisch abzuwischen."
+      }
+    },
+    "exercise": {
+      "blanked": "Bitte gib mir den Lappen, ___ den Tisch abzuwischen.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-353",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "105195",
+    "translations": {
+      "en": {
+        "text": "The nurse took care of the patient."
+      },
+      "de": {
+        "text": "Die Krankenschwester kümmerte sich um den Patienten."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Krankenschwester kümmerte sich ___ den Patienten.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-354",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "105491",
+    "translations": {
+      "en": {
+        "text": "I need scissors to cut the paper."
+      },
+      "de": {
+        "text": "Ich brauche eine Schere, um das Papier zu schneiden."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche eine Schere, ___ das Papier zu schneiden.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-355",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "106544",
+    "translations": {
+      "en": {
+        "text": "The male nurse took good care of the patient."
+      },
+      "de": {
+        "text": "Der Pfleger kümmerte sich gut um den Patienten."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Pfleger kümmerte sich gut ___ den Patienten.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-356",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "106556",
+    "translations": {
+      "en": {
+        "text": "I need soap to wash my hands."
+      },
+      "de": {
+        "text": "Ich brauche Seife, um meine Hände zu waschen."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche Seife, ___ meine Hände zu waschen.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-357",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "106802",
+    "translations": {
+      "en": {
+        "text": "We need to go to the DIY store to buy paint."
+      },
+      "de": {
+        "text": "Wir müssen zum Baumarkt, um Farbe zu kaufen."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir müssen zum Baumarkt, ___ Farbe zu kaufen.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-358",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "107383",
+    "translations": {
+      "en": {
+        "text": "Please give me the sponge to wipe the table."
+      },
+      "de": {
+        "text": "Bitte gib mir den Schwamm, um den Tisch abzuwischen."
+      }
+    },
+    "exercise": {
+      "blanked": "Bitte gib mir den Schwamm, ___ den Tisch abzuwischen.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-359",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "107860",
+    "translations": {
+      "en": {
+        "text": "I need my satnav to find the way."
+      },
+      "de": {
+        "text": "Ich brauche mein Navi, um den Weg zu finden."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche mein Navi, ___ den Weg zu finden.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-360",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "108395",
+    "translations": {
+      "en": {
+        "text": "The departure is at 10 AM."
+      },
+      "de": {
+        "text": "Der Abflug ist um 10 Uhr morgens."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Abflug ist ___ 10 Uhr morgens.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-361",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "108437",
+    "translations": {
+      "en": {
+        "text": "We are going to the department store to buy clothes."
+      },
+      "de": {
+        "text": "Wir gehen ins Kaufhaus, um Kleidung zu kaufen."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir gehen ins Kaufhaus, ___ Kleidung zu kaufen.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-362",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "108496",
+    "translations": {
+      "en": {
+        "text": "I ask for forgiveness."
+      },
+      "de": {
+        "text": "Ich bitte um Verzeihung."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich bitte ___ Verzeihung.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-363",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "108877",
+    "translations": {
+      "en": {
+        "text": "We need a map to find the way."
+      },
+      "de": {
+        "text": "Wir brauchen eine Landkarte, um den Weg zu finden."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir brauchen eine Landkarte, ___ den Weg zu finden.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-364",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "109431",
+    "translations": {
+      "en": {
+        "text": "We need an electrician to fix the lamp."
+      },
+      "de": {
+        "text": "Wir brauchen einen Elektriker, um die Lampe zu reparieren."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir brauchen einen Elektriker, ___ die Lampe zu reparieren.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-365",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "110416",
+    "translations": {
+      "en": {
+        "text": "He used a saw to cut the wood."
+      },
+      "de": {
+        "text": "Er benutzte eine Säge, um das Holz zu schneiden."
+      }
+    },
+    "exercise": {
+      "blanked": "Er benutzte eine Säge, ___ das Holz zu schneiden.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-366",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "111219",
+    "translations": {
+      "en": {
+        "text": "The male nurse took good care of the patients."
+      },
+      "de": {
+        "text": "Der Krankenpfleger kümmerte sich gut um die Patienten."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Krankenpfleger kümmerte sich gut ___ die Patienten.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-367",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "111921",
+    "translations": {
+      "en": {
+        "text": "I need adhesive tape to fix that."
+      },
+      "de": {
+        "text": "Ich brauche Klebeband, um das zu reparieren."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche Klebeband, ___ das zu reparieren.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-368",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "112247",
+    "translations": {
+      "en": {
+        "text": "The bus station is just around the corner."
+      },
+      "de": {
+        "text": "Der Busbahnhof ist gleich um die Ecke."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Busbahnhof ist gleich ___ die Ecke.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-369",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "112724",
+    "translations": {
+      "en": {
+        "text": "I need to scroll down to see the whole text."
+      },
+      "de": {
+        "text": "Ich muss nach unten scrollen, um den ganzen Text zu sehen."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich muss nach unten scrollen, ___ den ganzen Text zu sehen.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-370",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "112922",
+    "translations": {
+      "en": {
+        "text": "I often go to the public library to borrow books."
+      },
+      "de": {
+        "text": "Ich gehe oft in die Stadtbücherei, um Bücher auszuleihen."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich gehe oft in die Stadtbücherei, ___ Bücher auszuleihen.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-371",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "114000",
+    "translations": {
+      "en": {
+        "text": "I always buy my books at the bookstore around the corner."
+      },
+      "de": {
+        "text": "Ich kaufe meine Bücher immer im Buchladen um die Ecke."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich kaufe meine Bücher immer im Buchladen ___ die Ecke.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-372",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "115115",
+    "translations": {
+      "en": {
+        "text": "The police station is around the corner."
+      },
+      "de": {
+        "text": "Die Polizeistation ist um die Ecke."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Polizeistation ist ___ die Ecke.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-373",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "115232",
+    "translations": {
+      "en": {
+        "text": "He had to bend down to pick up the pen."
+      },
+      "de": {
+        "text": "Er musste sich bücken, um den Stift aufzuheben."
+      }
+    },
+    "exercise": {
+      "blanked": "Er musste sich bücken, ___ den Stift aufzuheben.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-374",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "115555",
+    "translations": {
+      "en": {
+        "text": "I am going to the post office to send a letter."
+      },
+      "de": {
+        "text": "Ich gehe zum Postamt, um einen Brief zu verschicken."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich gehe zum Postamt, ___ einen Brief zu verschicken.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-375",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "116115",
+    "translations": {
+      "en": {
+        "text": "The fire station is just around the corner."
+      },
+      "de": {
+        "text": "Die Feuerwache ist gleich um die Ecke."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Feuerwache ist gleich ___ die Ecke.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-376",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "116550",
+    "translations": {
+      "en": {
+        "text": "I need a washcloth to wash my face."
+      },
+      "de": {
+        "text": "Ich brauche einen Waschlappen, um mein Gesicht zu waschen."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche einen Waschlappen, ___ mein Gesicht zu waschen.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-377",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "117738",
+    "translations": {
+      "en": {
+        "text": "I need a ruler to draw a straight line."
+      },
+      "de": {
+        "text": "Ich brauche ein Lineal, um eine gerade Linie zu ziehen."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche ein Lineal, ___ eine gerade Linie zu ziehen.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-378",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "117768",
+    "translations": {
+      "en": {
+        "text": "I need a rake to collect the leaves."
+      },
+      "de": {
+        "text": "Ich brauche einen Rechen, um die Blätter zu sammeln."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche einen Rechen, ___ die Blätter zu sammeln.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-379",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "117966",
+    "translations": {
+      "en": {
+        "text": "I need glue to attach the paper."
+      },
+      "de": {
+        "text": "Ich brauche Klebstoff, um das Papier zu befestigen."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche Klebstoff, ___ das Papier zu befestigen.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-380",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "119391",
+    "translations": {
+      "en": {
+        "text": "I need a screwdriver to fix that."
+      },
+      "de": {
+        "text": "Ich brauche einen Schraubenzieher, um das zu reparieren."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche einen Schraubenzieher, ___ das zu reparieren.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-381",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "119795",
+    "translations": {
+      "en": {
+        "text": "I need an iron to iron my shirts."
+      },
+      "de": {
+        "text": "Ich brauche ein Bügeleisen, um meine Hemden zu bügeln."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche ein Bügeleisen, ___ meine Hemden zu bügeln.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-382",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "120106",
+    "translations": {
+      "en": {
+        "text": "We have to check in at the hotel at 3 PM."
+      },
+      "de": {
+        "text": "Wir müssen um 15 Uhr im Hotel einchecken."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir müssen ___ 15 Uhr im Hotel einchecken.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-383",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "120196",
+    "translations": {
+      "en": {
+        "text": "I need a hole punch to file the sheets."
+      },
+      "de": {
+        "text": "Ich brauche einen Locher, um die Blätter abzuheften."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche einen Locher, ___ die Blätter abzuheften.",
+      "answer": "um",
+      "preposition": "um",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "um always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-384",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "100189",
+    "translations": {
+      "en": {
+        "text": "I drive to work by car."
+      },
+      "de": {
+        "text": "Ich fahre mit dem Auto zur Arbeit."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich fahre ___ dem Auto zur Arbeit.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-385",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "100342",
+    "translations": {
+      "en": {
+        "text": "The word starts with an F."
+      },
+      "de": {
+        "text": "Das Wort beginnt mit einem F."
+      }
+    },
+    "exercise": {
+      "blanked": "Das Wort beginnt ___ einem F.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-386",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "100411",
+    "translations": {
+      "en": {
+        "text": "Are you finished with your work?"
+      },
+      "de": {
+        "text": "Bist du fertig mit deiner Arbeit?"
+      }
+    },
+    "exercise": {
+      "blanked": "Bist du fertig ___ deiner Arbeit?",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-387",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "101071",
+    "translations": {
+      "en": {
+        "text": "The dog is playing with the ball."
+      },
+      "de": {
+        "text": "Der Hund spielt mit dem Ball."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Hund spielt ___ dem Ball.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-388",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "101188",
+    "translations": {
+      "en": {
+        "text": "I would like a hamburger with fries."
+      },
+      "de": {
+        "text": "Ich möchte einen Hamburger mit Pommes."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich möchte einen Hamburger ___ Pommes.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-389",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "101522",
+    "translations": {
+      "en": {
+        "text": "I ride my bicycle to work."
+      },
+      "de": {
+        "text": "Ich fahre mit dem Fahrrad zur Arbeit."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich fahre ___ dem Fahrrad zur Arbeit.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-390",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "102957",
+    "translations": {
+      "en": {
+        "text": "I like to eat rice with vegetables."
+      },
+      "de": {
+        "text": "Ich esse gerne Reis mit Gemüse."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich esse gerne Reis ___ Gemüse.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-391",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "102960",
+    "translations": {
+      "en": {
+        "text": "The wardrobe is full of clothes."
+      },
+      "de": {
+        "text": "Der Schrank ist voll mit Kleidung."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Schrank ist voll ___ Kleidung.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-392",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "103017",
+    "translations": {
+      "en": {
+        "text": "The child is playing with their new toy."
+      },
+      "de": {
+        "text": "Das Kind spielt mit seinem neuen Spielzeug."
+      }
+    },
+    "exercise": {
+      "blanked": "Das Kind spielt ___ seinem neuen Spielzeug.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-393",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "103943",
+    "translations": {
+      "en": {
+        "text": "I still need to call my mother."
+      },
+      "de": {
+        "text": "Ich muss noch mit meiner Mutter telefonieren."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich muss noch ___ meiner Mutter telefonieren.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-394",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "104204",
+    "translations": {
+      "en": {
+        "text": "I like to eat noodles with tomato sauce."
+      },
+      "de": {
+        "text": "Ich esse gerne Nudeln mit Tomatensoße."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich esse gerne Nudeln ___ Tomatensoße.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-395",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "105486",
+    "translations": {
+      "en": {
+        "text": "The little girl is playing with her doll."
+      },
+      "de": {
+        "text": "Das kleine Mädchen spielt mit ihrer Puppe."
+      }
+    },
+    "exercise": {
+      "blanked": "Das kleine Mädchen spielt ___ ihrer Puppe.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-396",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "108041",
+    "translations": {
+      "en": {
+        "text": "I like to eat a bratwurst with mustard."
+      },
+      "de": {
+        "text": "Ich esse gerne eine Bratwurst mit Senf."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich esse gerne eine Bratwurst ___ Senf.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-397",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "108342",
+    "translations": {
+      "en": {
+        "text": "I'm cooking pasta with tomato sauce tonight."
+      },
+      "de": {
+        "text": "Ich koche heute Abend Pasta mit Tomatensoße."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich koche heute Abend Pasta ___ Tomatensoße.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-398",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "117620",
+    "translations": {
+      "en": {
+        "text": "I love apple pie with cream."
+      },
+      "de": {
+        "text": "Ich liebe Apfelkuchen mit Sahne."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich liebe Apfelkuchen ___ Sahne.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-399",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "100783",
+    "translations": {
+      "en": {
+        "text": "Are you satisfied with the result?"
+      },
+      "de": {
+        "text": "Bist du mit dem Ergebnis zufrieden?"
+      }
+    },
+    "exercise": {
+      "blanked": "Bist du ___ dem Ergebnis zufrieden?",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-400",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "100977",
+    "translations": {
+      "en": {
+        "text": "Please look at me when I speak to you."
+      },
+      "de": {
+        "text": "Sieh mich bitte an, wenn ich mit dir spreche."
+      }
+    },
+    "exercise": {
+      "blanked": "Sieh mich bitte an, wenn ich ___ dir spreche.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-401",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "101120",
+    "translations": {
+      "en": {
+        "text": "We celebrate Christmas with the family."
+      },
+      "de": {
+        "text": "Wir feiern Weihnachten mit der Familie."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir feiern Weihnachten ___ der Familie.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-402",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "101361",
+    "translations": {
+      "en": {
+        "text": "The car runs on gas."
+      },
+      "de": {
+        "text": "Das Auto fährt mit Gas."
+      }
+    },
+    "exercise": {
+      "blanked": "Das Auto fährt ___ Gas.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-403",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "101956",
+    "translations": {
+      "en": {
+        "text": "He had a lot of trouble with his boss."
+      },
+      "de": {
+        "text": "Er hatte viel Ärger mit seinem Chef."
+      }
+    },
+    "exercise": {
+      "blanked": "Er hatte viel Ärger ___ seinem Chef.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-404",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "102531",
+    "translations": {
+      "en": {
+        "text": "My car runs on diesel."
+      },
+      "de": {
+        "text": "Mein Auto fährt mit Diesel."
+      }
+    },
+    "exercise": {
+      "blanked": "Mein Auto fährt ___ Diesel.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-405",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "102675",
+    "translations": {
+      "en": {
+        "text": "We have a beautiful balcony with a view of the garden."
+      },
+      "de": {
+        "text": "Wir haben einen schönen Balkon mit Blick auf den Garten."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir haben einen schönen Balkon ___ Blick auf den Garten.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-406",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "102965",
+    "translations": {
+      "en": {
+        "text": "He showed us a new trick with cards."
+      },
+      "de": {
+        "text": "Er zeigte uns einen neuen Trick mit Karten."
+      }
+    },
+    "exercise": {
+      "blanked": "Er zeigte uns einen neuen Trick ___ Karten.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-407",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "103451",
+    "translations": {
+      "en": {
+        "text": "I have a note with observations."
+      },
+      "de": {
+        "text": "Ich habe einen Zettel mit Notizen."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich habe einen Zettel ___ Notizen.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-408",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "103481",
+    "translations": {
+      "en": {
+        "text": "The box is full of books."
+      },
+      "de": {
+        "text": "Der Kasten ist voll mit Büchern."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Kasten ist voll ___ Büchern.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-409",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "104484",
+    "translations": {
+      "en": {
+        "text": "Can I pay with a credit card?"
+      },
+      "de": {
+        "text": "Kann ich mit Kreditkarte bezahlen?"
+      }
+    },
+    "exercise": {
+      "blanked": "Kann ich ___ Kreditkarte bezahlen?",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-410",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "104559",
+    "translations": {
+      "en": {
+        "text": "He rides his scooter to work every day."
+      },
+      "de": {
+        "text": "Er fährt jeden Tag mit seinem Roller zur Arbeit."
+      }
+    },
+    "exercise": {
+      "blanked": "Er fährt jeden Tag ___ seinem Roller zur Arbeit.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-411",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "104612",
+    "translations": {
+      "en": {
+        "text": "I listen to music with my headphones."
+      },
+      "de": {
+        "text": "Ich höre Musik mit meinen Kopfhörern."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich höre Musik ___ meinen Kopfhörern.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-412",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "104620",
+    "translations": {
+      "en": {
+        "text": "I would like fries with ketchup."
+      },
+      "de": {
+        "text": "Ich hätte gerne Pommes mit Ketchup."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich hätte gerne Pommes ___ Ketchup.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-413",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "104838",
+    "translations": {
+      "en": {
+        "text": "He filled the bucket with water."
+      },
+      "de": {
+        "text": "Er füllte den Eimer mit Wasser."
+      }
+    },
+    "exercise": {
+      "blanked": "Er füllte den Eimer ___ Wasser.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-414",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "105473",
+    "translations": {
+      "en": {
+        "text": "We are going by subway."
+      },
+      "de": {
+        "text": "Wir fahren mit der Metro."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir fahren ___ der Metro.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-415",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "105765",
+    "translations": {
+      "en": {
+        "text": "The child is playing with its teddy bear."
+      },
+      "de": {
+        "text": "Das Kind spielt mit seinem Teddy."
+      }
+    },
+    "exercise": {
+      "blanked": "Das Kind spielt ___ seinem Teddy.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-416",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "105853",
+    "translations": {
+      "en": {
+        "text": "The pasta with tomato sauce tastes good."
+      },
+      "de": {
+        "text": "Die Nudeln mit Tomatensoße schmecken gut."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Nudeln ___ Tomatensoße schmecken gut.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-417",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "105995",
+    "translations": {
+      "en": {
+        "text": "He chopped wood with an axe."
+      },
+      "de": {
+        "text": "Er hackte Holz mit einer Axt."
+      }
+    },
+    "exercise": {
+      "blanked": "Er hackte Holz ___ einer Axt.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-418",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "106009",
+    "translations": {
+      "en": {
+        "text": "Can I pay by card?"
+      },
+      "de": {
+        "text": "Kann ich mit Card bezahlen?"
+      }
+    },
+    "exercise": {
+      "blanked": "Kann ich ___ Card bezahlen?",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-419",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "106057",
+    "translations": {
+      "en": {
+        "text": "I like pasta with tomato sauce."
+      },
+      "de": {
+        "text": "Ich mag Nudeln mit Tomaten-Sauce."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich mag Nudeln ___ Tomaten-Sauce.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-420",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "106061",
+    "translations": {
+      "en": {
+        "text": "I like to eat sausages with mustard."
+      },
+      "de": {
+        "text": "Ich esse gerne Würstchen mit Senf."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich esse gerne Würstchen ___ Senf.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-421",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "106079",
+    "translations": {
+      "en": {
+        "text": "We played with a die."
+      },
+      "de": {
+        "text": "Wir spielten mit einem Würfel."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir spielten ___ einem Würfel.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-422",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "106140",
+    "translations": {
+      "en": {
+        "text": "We toasted the new year with sparkling wine."
+      },
+      "de": {
+        "text": "Wir haben mit Sekt auf das neue Jahr angestoßen."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir haben ___ Sekt auf das neue Jahr angestoßen.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-423",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "106372",
+    "translations": {
+      "en": {
+        "text": "The bathtub is full of water."
+      },
+      "de": {
+        "text": "Die Badewanne ist voll mit Wasser."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Badewanne ist voll ___ Wasser.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-424",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "106660",
+    "translations": {
+      "en": {
+        "text": "We have to take our dog to the veterinarian."
+      },
+      "de": {
+        "text": "Wir müssen mit unserem Hund zum Tierarzt."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir müssen ___ unserem Hund zum Tierarzt.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-425",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "107445",
+    "translations": {
+      "en": {
+        "text": "I like spicy curry with rice."
+      },
+      "de": {
+        "text": "Ich mag scharfes Curry mit Reis."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich mag scharfes Curry ___ Reis.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-426",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "107512",
+    "translations": {
+      "en": {
+        "text": "Today I'm cooking spaghetti with tomato sauce."
+      },
+      "de": {
+        "text": "Ich koche heute Spaghetti mit Tomatensoße."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich koche heute Spaghetti ___ Tomatensoße.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-427",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "107619",
+    "translations": {
+      "en": {
+        "text": "I like to eat bread with jam for breakfast."
+      },
+      "de": {
+        "text": "Ich esse gerne Brot mit Marmelade zum Frühstück."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich esse gerne Brot ___ Marmelade zum Frühstück.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-428",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "107636",
+    "translations": {
+      "en": {
+        "text": "I like to eat quark with fruit."
+      },
+      "de": {
+        "text": "Ich esse gerne Quark mit Früchten."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich esse gerne Quark ___ Früchten.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-429",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "107739",
+    "translations": {
+      "en": {
+        "text": "The toddler is playing with building blocks."
+      },
+      "de": {
+        "text": "Das Kleinkind spielt mit Bauklötzen."
+      }
+    },
+    "exercise": {
+      "blanked": "Das Kleinkind spielt ___ Bauklötzen.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-430",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "107782",
+    "translations": {
+      "en": {
+        "text": "The farmer drives his tractor to the field."
+      },
+      "de": {
+        "text": "Der Bauer fährt mit seinem Traktor aufs Feld."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Bauer fährt ___ seinem Traktor aufs Feld.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-431",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "107834",
+    "translations": {
+      "en": {
+        "text": "The basket is filled with apples."
+      },
+      "de": {
+        "text": "Der Korb ist mit Äpfeln gefüllt."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Korb ist ___ Äpfeln gefüllt.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-432",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "108226",
+    "translations": {
+      "en": {
+        "text": "The children are riding the sled down the hill."
+      },
+      "de": {
+        "text": "Die Kinder fahren mit dem Schlitten den Hügel hinunter."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Kinder fahren ___ dem Schlitten den Hügel hinunter.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-433",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "108242",
+    "translations": {
+      "en": {
+        "text": "I had a long phone call with my mother."
+      },
+      "de": {
+        "text": "Ich hatte ein langes Telefonat mit meiner Mutter."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich hatte ein langes Telefonat ___ meiner Mutter.",
+      "answer": "mit",
+      "preposition": "mit",
+      "case": "dative",
+      "cue": "Dative preposition",
+      "explanation": "mit always takes the dative."
+    }
+  },
+  {
+    "id": "preposition-434",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "100136",
+    "translations": {
+      "en": {
+        "text": "My family is very important to me."
+      },
+      "de": {
+        "text": "Meine Familie ist sehr wichtig für mich."
+      }
+    },
+    "exercise": {
+      "blanked": "Meine Familie ist sehr wichtig ___ mich.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-435",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "100295",
+    "translations": {
+      "en": {
+        "text": "The price for the book is high."
+      },
+      "de": {
+        "text": "Der Preis für das Buch ist hoch."
+      }
+    },
+    "exercise": {
+      "blanked": "Der Preis ___ das Buch ist hoch.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-436",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "100652",
+    "translations": {
+      "en": {
+        "text": "I need a map for the city."
+      },
+      "de": {
+        "text": "Ich brauche eine Karte für die Stadt."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche eine Karte ___ die Stadt.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-437",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "102524",
+    "translations": {
+      "en": {
+        "text": "The exercise is important for progress."
+      },
+      "de": {
+        "text": "Die Übung ist wichtig für den Fortschritt."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Übung ist wichtig ___ den Fortschritt.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-438",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "102629",
+    "translations": {
+      "en": {
+        "text": "I would like to thank you for your help."
+      },
+      "de": {
+        "text": "Ich möchte dir für deine Hilfe danken."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich möchte dir ___ deine Hilfe danken.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-439",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "102729",
+    "translations": {
+      "en": {
+        "text": "I need butter for the bread."
+      },
+      "de": {
+        "text": "Ich brauche Butter für das Brot."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche Butter ___ das Brot.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-440",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "104142",
+    "translations": {
+      "en": {
+        "text": "I need a tomato for the salad."
+      },
+      "de": {
+        "text": "Ich brauche eine Tomate für den Salat."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche eine Tomate ___ den Salat.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-441",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "105293",
+    "translations": {
+      "en": {
+        "text": "Please give me a spoon for the soup."
+      },
+      "de": {
+        "text": "Bitte gib mir einen Löffel für die Suppe."
+      }
+    },
+    "exercise": {
+      "blanked": "Bitte gib mir einen Löffel ___ die Suppe.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-442",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "107797",
+    "translations": {
+      "en": {
+        "text": "I need a lemon for the tea."
+      },
+      "de": {
+        "text": "Ich brauche eine Zitrone für den Tee."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche eine Zitrone ___ den Tee.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-443",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A1",
+    "sourcePhraseId": "113395",
+    "translations": {
+      "en": {
+        "text": "I need a brush for my hair."
+      },
+      "de": {
+        "text": "Ich brauche eine Bürste für meine Haare."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche eine Bürste ___ meine Haare.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-444",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "100177",
+    "translations": {
+      "en": {
+        "text": "Many thanks for your help."
+      },
+      "de": {
+        "text": "Vielen Dank für Ihre Hilfe."
+      }
+    },
+    "exercise": {
+      "blanked": "Vielen Dank ___ Ihre Hilfe.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-445",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "100408",
+    "translations": {
+      "en": {
+        "text": "Are you ready for the exam?"
+      },
+      "de": {
+        "text": "Bist du bereit für die Prüfung?"
+      }
+    },
+    "exercise": {
+      "blanked": "Bist du bereit ___ die Prüfung?",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-446",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "100447",
+    "translations": {
+      "en": {
+        "text": "I have an important message for you."
+      },
+      "de": {
+        "text": "Ich habe eine wichtige Nachricht für dich."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich habe eine wichtige Nachricht ___ dich.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-447",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "100629",
+    "translations": {
+      "en": {
+        "text": "We need a good plan for the project."
+      },
+      "de": {
+        "text": "Wir brauchen einen guten Plan für das Projekt."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir brauchen einen guten Plan ___ das Projekt.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-448",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "100861",
+    "translations": {
+      "en": {
+        "text": "They fight for their rights."
+      },
+      "de": {
+        "text": "Sie kämpfen für ihre Rechte."
+      }
+    },
+    "exercise": {
+      "blanked": "Sie kämpfen ___ ihre Rechte.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-449",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "100944",
+    "translations": {
+      "en": {
+        "text": "We need more material for the project."
+      },
+      "de": {
+        "text": "Wir brauchen mehr Material für das Projekt."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir brauchen mehr Material ___ das Projekt.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-450",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "100956",
+    "translations": {
+      "en": {
+        "text": "I need an explanation for this situation."
+      },
+      "de": {
+        "text": "Ich brauche eine Erklärung für diese Situation."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche eine Erklärung ___ diese Situation.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-451",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "101195",
+    "translations": {
+      "en": {
+        "text": "Do you have a good tip for me?"
+      },
+      "de": {
+        "text": "Hast du einen guten Tipp für mich?"
+      }
+    },
+    "exercise": {
+      "blanked": "Hast du einen guten Tipp ___ mich?",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-452",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "101271",
+    "translations": {
+      "en": {
+        "text": "I have a suggestion for you."
+      },
+      "de": {
+        "text": "Ich habe einen Vorschlag für dich."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich habe einen Vorschlag ___ dich.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-453",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "101617",
+    "translations": {
+      "en": {
+        "text": "We are planning many activities for the weekend."
+      },
+      "de": {
+        "text": "Wir planen viele Aktivitäten für das Wochenende."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir planen viele Aktivitäten ___ das Wochenende.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-454",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "101698",
+    "translations": {
+      "en": {
+        "text": "That was a big surprise for me."
+      },
+      "de": {
+        "text": "Das war eine große Überraschung für mich."
+      }
+    },
+    "exercise": {
+      "blanked": "Das war eine große Überraschung ___ mich.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-455",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "101864",
+    "translations": {
+      "en": {
+        "text": "She is very interested in fashion."
+      },
+      "de": {
+        "text": "Sie interessiert sich sehr für Mode."
+      }
+    },
+    "exercise": {
+      "blanked": "Sie interessiert sich sehr ___ Mode.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-456",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "101976",
+    "translations": {
+      "en": {
+        "text": "I found a new recipe for cake."
+      },
+      "de": {
+        "text": "Ich habe ein neues Rezept für Kuchen gefunden."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich habe ein neues Rezept ___ Kuchen gefunden.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-457",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "101980",
+    "translations": {
+      "en": {
+        "text": "That is typical for him."
+      },
+      "de": {
+        "text": "Das ist typisch für ihn."
+      }
+    },
+    "exercise": {
+      "blanked": "Das ist typisch ___ ihn.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-458",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "102015",
+    "translations": {
+      "en": {
+        "text": "The rent for the apartment is high."
+      },
+      "de": {
+        "text": "Die Miete für die Wohnung ist hoch."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Miete ___ die Wohnung ist hoch.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-459",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "102041",
+    "translations": {
+      "en": {
+        "text": "He is very fit for his age."
+      },
+      "de": {
+        "text": "Er ist sehr fit für sein Alter."
+      }
+    },
+    "exercise": {
+      "blanked": "Er ist sehr fit ___ sein Alter.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-460",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "102306",
+    "translations": {
+      "en": {
+        "text": "I need a ticket for the train."
+      },
+      "de": {
+        "text": "Ich brauche ein Ticket für den Zug."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche ein Ticket ___ den Zug.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-461",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "102473",
+    "translations": {
+      "en": {
+        "text": "I have to sign up for the course."
+      },
+      "de": {
+        "text": "Ich muss mich für den Kurs anmelden."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich muss mich ___ den Kurs anmelden.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-462",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "102671",
+    "translations": {
+      "en": {
+        "text": "The registration for the course is now open."
+      },
+      "de": {
+        "text": "Die Anmeldung für den Kurs ist jetzt geöffnet."
+      }
+    },
+    "exercise": {
+      "blanked": "Die Anmeldung ___ den Kurs ist jetzt geöffnet.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-463",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "103060",
+    "translations": {
+      "en": {
+        "text": "There were several reasons for his decision."
+      },
+      "de": {
+        "text": "Es gab mehrere Gründe für seine Entscheidung."
+      }
+    },
+    "exercise": {
+      "blanked": "Es gab mehrere Gründe ___ seine Entscheidung.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-464",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "103368",
+    "translations": {
+      "en": {
+        "text": "We bought new furniture for the living room."
+      },
+      "de": {
+        "text": "Wir haben neue Möbel für das Wohnzimmer gekauft."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir haben neue Möbel ___ das Wohnzimmer gekauft.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-465",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "103396",
+    "translations": {
+      "en": {
+        "text": "I would like to thank you for your help."
+      },
+      "de": {
+        "text": "Ich möchte mich für Ihre Hilfe bedanken."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich möchte mich ___ Ihre Hilfe bedanken.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-466",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "103542",
+    "translations": {
+      "en": {
+        "text": "I need a warm coat for the winter."
+      },
+      "de": {
+        "text": "Ich brauche einen warmen Mantel für den Winter."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche einen warmen Mantel ___ den Winter.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-467",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "103614",
+    "translations": {
+      "en": {
+        "text": "I'm packing my backpack for the hike."
+      },
+      "de": {
+        "text": "Ich packe meinen Rucksack für die Wanderung."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich packe meinen Rucksack ___ die Wanderung.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-468",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "105026",
+    "translations": {
+      "en": {
+        "text": "We need flour for the cake."
+      },
+      "de": {
+        "text": "Für den Kuchen brauchen wir Mehl."
+      }
+    },
+    "exercise": {
+      "blanked": "___ den Kuchen brauchen wir Mehl.",
+      "answer": "Für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-469",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "105146",
+    "translations": {
+      "en": {
+        "text": "I need an onion for the soup."
+      },
+      "de": {
+        "text": "Ich brauche eine Zwiebel für die Suppe."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche eine Zwiebel ___ die Suppe.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-470",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "105436",
+    "translations": {
+      "en": {
+        "text": "I have a small bag for my groceries with me."
+      },
+      "de": {
+        "text": "Ich habe einen kleinen Beutel für meine Einkäufe dabei."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich habe einen kleinen Beutel ___ meine Einkäufe dabei.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-471",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "105558",
+    "translations": {
+      "en": {
+        "text": "Can you copy this document for me?"
+      },
+      "de": {
+        "text": "Kannst du dieses Dokument für mich kopieren?"
+      }
+    },
+    "exercise": {
+      "blanked": "Kannst du dieses Dokument ___ mich kopieren?",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-472",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "106095",
+    "translations": {
+      "en": {
+        "text": "I need a moisturizing cream for my face."
+      },
+      "de": {
+        "text": "Ich brauche eine feuchtigkeitsspendende Creme für mein Gesicht."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche eine feuchtigkeitsspendende Creme ___ mein Gesicht.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-473",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "106455",
+    "translations": {
+      "en": {
+        "text": "I need an envelope for the letter."
+      },
+      "de": {
+        "text": "Ich brauche einen Umschlag für den Brief."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche einen Umschlag ___ den Brief.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-474",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "106733",
+    "translations": {
+      "en": {
+        "text": "I still have to write my term paper for the university."
+      },
+      "de": {
+        "text": "Ich muss noch meine Hausarbeit für die Universität schreiben."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich muss noch meine Hausarbeit ___ die Universität schreiben.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-475",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "106751",
+    "translations": {
+      "en": {
+        "text": "I need a new mattress for my bed."
+      },
+      "de": {
+        "text": "Ich brauche eine neue Matratze für mein Bett."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche eine neue Matratze ___ mein Bett.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-476",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "106935",
+    "translations": {
+      "en": {
+        "text": "I need a comb for my hair."
+      },
+      "de": {
+        "text": "Ich brauche einen Kamm für meine Haare."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche einen Kamm ___ meine Haare.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-477",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "107116",
+    "translations": {
+      "en": {
+        "text": "Please check the timetable for the next train."
+      },
+      "de": {
+        "text": "Bitte überprüfen Sie den Fahrplan für die nächste Bahn."
+      }
+    },
+    "exercise": {
+      "blanked": "Bitte überprüfen Sie den Fahrplan ___ die nächste Bahn.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-478",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "107152",
+    "translations": {
+      "en": {
+        "text": "I need a red bell pepper for the dish."
+      },
+      "de": {
+        "text": "Ich brauche eine rote Paprika für das Gericht."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche eine rote Paprika ___ das Gericht.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-479",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "107575",
+    "translations": {
+      "en": {
+        "text": "The squirrel collects nuts for the winter."
+      },
+      "de": {
+        "text": "Das Eichhörnchen sammelt Nüsse für den Winter."
+      }
+    },
+    "exercise": {
+      "blanked": "Das Eichhörnchen sammelt Nüsse ___ den Winter.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-480",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "107830",
+    "translations": {
+      "en": {
+        "text": "Where is the remote control for the TV?"
+      },
+      "de": {
+        "text": "Wo ist die Fernbedienung für den Fernseher?"
+      }
+    },
+    "exercise": {
+      "blanked": "Wo ist die Fernbedienung ___ den Fernseher?",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-481",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "108281",
+    "translations": {
+      "en": {
+        "text": "I need a stamp for this letter."
+      },
+      "de": {
+        "text": "Ich brauche eine Briefmarke für diesen Brief."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche eine Briefmarke ___ diesen Brief.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-482",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "108730",
+    "translations": {
+      "en": {
+        "text": "I need olive oil for the salad."
+      },
+      "de": {
+        "text": "Ich brauche Olivenöl für den Salat."
+      }
+    },
+    "exercise": {
+      "blanked": "Ich brauche Olivenöl ___ den Salat.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  {
+    "id": "preposition-483",
+    "type": "grammar-application",
+    "set": "prepositions",
+    "grammarId": "grammar-de-9",
+    "level": "A2",
+    "sourcePhraseId": "108875",
+    "translations": {
+      "en": {
+        "text": "We bought a big pumpkin for Halloween."
+      },
+      "de": {
+        "text": "Wir haben einen großen Kürbis für Halloween gekauft."
+      }
+    },
+    "exercise": {
+      "blanked": "Wir haben einen großen Kürbis ___ Halloween gekauft.",
+      "answer": "für",
+      "preposition": "für",
+      "case": "accusative",
+      "cue": "Accusative preposition",
+      "explanation": "für always takes the accusative."
+    }
+  },
+  /* END GENERATED PREPOSITION APPLICATIONS */
   /* BEGIN GENERATED MODAL APPLICATIONS */
   {
     "id": "modal-16",
