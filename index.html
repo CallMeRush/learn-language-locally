@@ -481,12 +481,14 @@
           </div>
           <section id="mixed-builder" class="mixed-builder"></section>
           <div class="mixed-layout">
-            <div class="mixed-card">
+            <div class="mixed-card phrase-card">
               <div class="phrase-meta">
                 <span id="mixed-type">MIXED PRACTICE</span
                 ><span id="mixed-level-label">A1–B1</span>
               </div>
-              <h2 id="mixed-prompt">Ready for a varied round?</h2>
+              <div id="mixed-prompt" class="mixed-prompt">
+                Ready for a varied round?
+              </div>
               <p id="mixed-hint" class="phrase-hint">
                 Choose an answer, type it, or fill the blank.
               </p>
@@ -506,13 +508,30 @@
               <div class="phrase-actions">
                 <button class="primary-btn" id="check-mixed">
                   Check answer <span>↵</span></button
-                ><button class="subtle-btn" id="mixed-hint-button">Hint</button
-                ><button class="subtle-btn" id="next-mixed">
+                ><button
+                  class="subtle-btn"
+                  id="mixed-article-hint"
+                  aria-keyshortcuts="4"
+                  hidden
+                >
+                  Article hint · 4</button
+                ><button
+                  class="subtle-btn"
+                  id="mixed-hint-button"
+                  aria-keyshortcuts="5"
+                >
+                  Hint · 5</button
+                ><button class="subtle-btn" id="next-mixed" hidden>
                   New random question ↻
                 </button>
               </div>
               <div id="mixed-feedback" class="feedback"></div>
             </div>
+            <aside
+              id="mixed-session-panel"
+              class="word-list vocabulary-study-panel mixed-session-panel"
+              aria-label="Current mixed-practice session"
+            ></aside>
           </div>
         </section>
 
@@ -651,12 +670,16 @@
               <p class="eyebrow">YOUR PERSONAL REVIEW QUEUE</p>
               <h1>Issues to revisit</h1>
               <p>
-                These are the words and phrases that asked for a second look.
+                Repair active mistakes, then keep successful repairs in a separate review queue.
               </p>
             </div>
             <span class="issue-big" id="issue-big">0</span>
           </div>
-          <div id="issues-list" class="issues-list"></div>
+          <section id="issues-builder" class="mixed-builder"></section>
+          <div class="vocab-layout issue-layout">
+            <div id="issue-practice"></div>
+            <div id="issues-list" class="word-list vocabulary-study-panel issue-study-panel"></div>
+          </div>
         </section>
       </main>
     </div>

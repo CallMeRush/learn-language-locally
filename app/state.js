@@ -29,6 +29,7 @@ var defaultPreferences = () => ({
   applicationMultipleChoice: false,
   randomMode: true,
   grammarGrid: false,
+  issueReviewModes: ["write", "choice", "cloze"],
   colorAccent: "green",
   colorBackground: "light",
 });
@@ -59,6 +60,7 @@ var emptyProgress = () => ({
     mistakes: [],
     hints: [],
   },
+  issueQuarantine: [],
   correct: 0,
   attempts: 0,
   lessons: [],
@@ -102,6 +104,16 @@ function normalizeProgress(progress) {
       ? [...new Set(value[key].filter((id) => typeof id === "string"))]
       : [];
   });
+  value.issueQuarantine = Array.isArray(value.issueQuarantine)
+    ? value.issueQuarantine.filter(
+        (entry) =>
+          entry &&
+          typeof entry === "object" &&
+          typeof entry.key === "string" &&
+          typeof entry.type === "string" &&
+          typeof entry.id === "string",
+      )
+    : [];
   var choiceProgress =
     value.choiceProgress &&
     typeof value.choiceProgress === "object" &&
@@ -204,6 +216,15 @@ function normalizeProgress(progress) {
   preferences.vocabMultipleChoice = Boolean(preferences.vocabMultipleChoice);
   preferences.phraseCloze = Boolean(preferences.phraseCloze);
   preferences.phraseMultipleChoice = Boolean(preferences.phraseMultipleChoice);
+  preferences.issueReviewModes = Array.isArray(preferences.issueReviewModes)
+    ? [
+        ...new Set(
+          preferences.issueReviewModes.filter((mode) =>
+            ["write", "choice", "cloze"].includes(mode),
+          ),
+        ),
+      ]
+    : [...defaultPreferences().issueReviewModes];
   if (
     !grammarLessons.some(
       (lesson) => lesson.id === preferences.applicationGrammarId,
@@ -402,7 +423,12 @@ function phraseProgress() {
   return phraseMultipleChoice ? state.choiceProgress : state;
 }
 function allIssueIds() {
-  return [...new Set([...state.issues, ...state.choiceProgress.issues])];
+  return [...new Set([...state.issues, ...state.choiceProgress.issues, ...state.grammarApplicationMistakes.filter((id) => !state.grammarApplied.includes(id)), ...state.grammarApplicationChoiceProgress.mistakes.filter((id) => !state.grammarApplicationChoiceProgress.applied.includes(id))])];
+}
+function removeIssueQuarantine(type, id) {
+  state.issueQuarantine = (state.issueQuarantine || []).filter(
+    (entry) => entry.type !== type || entry.id !== id,
+  );
 }
 function resolveIssue(id, progress = state) {
   progress.issues = progress.issues.filter((issue) => issue !== id);
@@ -478,6 +504,7 @@ function savePreferences() {
       applicationMultipleChoice,
       randomMode,
       grammarGrid,
+      issueReviewModes,
       colorAccent,
       colorBackground,
     },
@@ -543,6 +570,7 @@ var selectedCategory = state.preferences.selectedCategory,
   lessonReviewErrors = [],
   lessonComplete = false,
   randomMode = state.preferences.randomMode,
+  issueReviewModes = state.preferences.issueReviewModes,
   vocabAnswered = false,
   vocabCorrect = false,
   phraseAnswered = false,

@@ -166,13 +166,17 @@ const grammarIds = new Set(grammarLessons.map((record) => record.id));
 const caseSources = new Set(),
   caseCoverage = new Map();
 for (const record of grammarApplications) {
-  assert.match(record.id, /^(case|modal|separable|preposition)-[1-9]\d*$/);
+  assert.match(record.id, /^(case|modal|separable|preposition|number)-[1-9]\d*$/);
   assert(
     !applicationIds.has(record.id),
     "Duplicate grammar application ID " + record.id,
   );
   applicationIds.add(record.id);
-  assert(["cases", "modals", "separable", "prepositions"].includes(record.set));
+  assert(
+    ["cases", "modals", "separable", "prepositions", "numbers"].includes(
+      record.set,
+    ),
+  );
   assert(
     grammarIds.has(record.grammarId),
     "Missing grammar application topic " + record.id,

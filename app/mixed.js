@@ -223,6 +223,33 @@ function mixedExpectedAnswer(question) {
   }
   return item.test.answers[0];
 }
+function mixedQuestionSource(question) {
+  if (question.kind === "grammar") return "grammar";
+  if (question.kind.startsWith("phrase")) return "phrases";
+  if (question.item.category === "verbs") return "verbs";
+  return question.item.pos === "adjective" ? "adjectives" : "vocabulary";
+}
+function renderMixedSessionPanel(pool = mixedPool()) {
+  var panel = document.getElementById("mixed-session-panel");
+  if (!panel) return;
+  var labels = {
+      vocabulary: "Nouns",
+      verbs: "Verbs",
+      adjectives: "Adjectives",
+      phrases: "Phrases",
+      grammar: "Grammar",
+    },
+    activeSource = mixedQuestion && mixedQuestionSource(mixedQuestion),
+    sources = Object.keys(labels).filter((source) => mixedParts[source]);
+  panel.innerHTML = `<div class="mixed-session-heading"><div><p class="eyebrow">CURRENT SESSION</p><strong>${pool.length.toLocaleString()} questions</strong></div><span>${sources.length} source${sources.length === 1 ? "" : "s"}</span></div><div class="mixed-session-rows">${sources
+    .map((source) => {
+      var count = pool.filter(
+        (question) => mixedQuestionSource(question) === source,
+      ).length;
+      return `<div class="mixed-session-row ${source === activeSource ? "current" : ""}"><span>${labels[source]}</span><small>${count.toLocaleString()}</small></div>`;
+    })
+    .join("")}</div><p class="mixed-session-note">Levels and direction follow the fixed study bar above.</p>`;
+}
 function nextMixed(question = null) {
   refreshArticleChoices();
   var pool = mixedPool();
@@ -232,6 +259,7 @@ function nextMixed(question = null) {
   mixedCorrect = false;
   mixedArticle = "";
   mixedChoice = "";
+  $("#next-mixed").hidden = !activeLesson;
   var q = mixedQuestion,
     item = q.item,
     typeLabels = {
@@ -263,6 +291,7 @@ function nextMixed(question = null) {
   $("#check-mixed").disabled = false;
   $("#mixed-answer").value = "";
   $("#mixed-article").style.display = "none";
+  $("#mixed-article-hint").hidden = true;
   $$("[data-mixed-article]").forEach((button) =>
     button.classList.remove("selected"),
   );
@@ -288,6 +317,7 @@ function nextMixed(question = null) {
     if (article && germanAnswer) {
       $("#mixed-article").style.display = "flex";
       $("#mixed-article span").textContent = "Article";
+      $("#mixed-article-hint").hidden = false;
     }
     if (!choice && !germanAnswer)
       $("#mixed-answer").placeholder = "Type the meaning…";
@@ -377,6 +407,7 @@ function nextMixed(question = null) {
     $("#mixed-answer").placeholder = "Type your answer…";
   }
   updateMixedCheckButton();
+  renderMixedSessionPanel(pool);
 }
 function showEmptyMixed() {
   mixedQuestion = null;
@@ -392,8 +423,11 @@ function showEmptyMixed() {
   $("#mixed-answer").style.display = "";
   $("#mixed-answer").disabled = true;
   $("#mixed-article").style.display = "none";
+  $("#mixed-article-hint").hidden = true;
   $("#mixed-feedback").textContent = "";
   $("#check-mixed").disabled = true;
+  $("#next-mixed").hidden = true;
+  renderMixedSessionPanel([]);
 }
 function checkMixed() {
   if (!mixedQuestion) return;
@@ -454,6 +488,10 @@ function checkMixed() {
     save();
   } else {
     if (q.kind.startsWith("vocab") || q.kind.startsWith("phrase")) {
+      removeIssueQuarantine(
+        q.kind.startsWith("vocab") ? "vocabulary" : "phrase",
+        item.id,
+      );
       if (!state.issues.includes(item.id)) state.issues.push(item.id);
     }
     if (q.kind.startsWith("vocab"))
@@ -579,7 +617,7 @@ function renderMixedBuilder() {
           adjectives: "ADJECTIVE TOPICS",
           phrases: "PHRASE TOPICS",
         }[kind];
-        return `<section class="mixed-builder-category"><p>${categoryHeading}</p><div class="mixed-builder-chips">${mixedBuilderCategoryRecords(
+        return `<section class="mixed-builder-category"><p>${categoryHeading}</p><div class="mixed-builder-chips category-tabs">${mixedBuilderCategoryRecords(
           kind,
         )
           .map((record) =>
@@ -628,7 +666,7 @@ function renderMixedBuilder() {
     button.onclick = () => {
       var [kind, key] = button.dataset.mixedCategory.split(":"),
         entries = mixedBuilderCategoryRecords(kind).map((record) => record.id),
-        next = toggleCategorySelection(
+        next = toggleDeskCategorySelection(
           mixedBuilderSelection(kind),
           mixedBuilderAllKey(kind),
           entries,
@@ -641,10 +679,22 @@ function renderMixedBuilder() {
       refreshMixedSession();
     };
   });
+  renderMixedSessionPanel(mixedPool());
 }
 function refreshMixedSession() {
+  var previousQuestion = mixedQuestion;
   renderMixedBuilder();
-  nextMixed();
+  var pool = mixedPool();
+  var previousStillAvailable = previousQuestion && pool.some(
+    (question) =>
+      question.kind === previousQuestion.kind &&
+      (question.item === previousQuestion.item ||
+        (question.kind === "grammar" &&
+          question.item.lesson === previousQuestion.item.lesson &&
+          question.item.test === previousQuestion.item.test)),
+  );
+  if (!previousStillAvailable) nextMixed();
+  else renderMixedSessionPanel(pool);
   savePreferences();
 }
 $$("[data-mixed-article]").forEach(
@@ -667,6 +717,7 @@ function updateMixedCheckButton() {
     checkMixed,
     advanceMixed,
   );
+  button.setAttribute("aria-keyshortcuts", "Enter");
 }
 function advanceMixed() {
   if (activeLesson) nextLessonQuestion();

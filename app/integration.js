@@ -37,6 +37,20 @@ function showMixedHint() {
   if (q.kind.startsWith("phrase")) recordPhraseHint(q.item.id);
   save();
 }
+function showMixedArticleHint() {
+  if (!mixedQuestion?.kind.startsWith("vocab")) return;
+  var article = targetArticle(mixedQuestion.item);
+  if (!article) return;
+  var shown = toggleHintFeedback(
+    $("#mixed-feedback"),
+    "mixed-article",
+    "Hint · Article: " + article,
+  );
+  if (shown) {
+    recordHint(mixedQuestion.item.id);
+    save();
+  }
+}
 function closeProgressModal() {
   $("#progress-modal").hidden = true;
 }
@@ -153,10 +167,12 @@ function bindArticleKeys() {
   document.addEventListener("keydown", (event) => {
     var article = { 1: "der", 2: "die", 3: "das" }[event.key];
     if (!article) return;
-    var root = document.querySelector(".active-view .mixed-layout")
+    var root = document.querySelector("#issues-view.active-view")
+      ? "#issue-practice"
+      : document.querySelector(".active-view .mixed-layout")
       ? "#mixed-article"
       : "#article-choices";
-    var attribute = root === "#mixed-article" ? "mixed-article" : "article";
+    var attribute = root === "#mixed-article" ? "mixed-article" : root === "#issue-practice" ? "issue-article" : "article";
     var button = document.querySelector(
       root + " [data-" + attribute + '=\"' + article + '\"]',
     );
@@ -175,13 +191,25 @@ function bindPracticeHintKeys() {
       applicationActive = document.querySelector(
         "#application-view.active-view",
       ),
+      issuesActive = document.querySelector("#issues-view.active-view"),
+      mixedActive = document.querySelector("#mixed-view.active-view"),
       button = vocabularyActive
         ? event.key === "4"
           ? $("[data-vocab-article-hint]")
           : $("#vocab-hint")
         : phrasesActive && event.key === "5"
           ? $("#show-answer")
-          : applicationActive && event.key === "5"
+          : mixedActive
+            ? event.key === "4"
+              ? $("#mixed-article-hint")
+              : $("#mixed-hint-button")
+            : issuesActive
+              ? event.key === "4"
+                ? $("#issue-article-hint")
+                : event.key === "5"
+                  ? $("#issue-hint")
+                  : null
+            : applicationActive && event.key === "5"
             ? $("#application-hint")
             : null;
     if (!button || button.disabled || button.offsetParent === null) return;
@@ -222,7 +250,7 @@ function bindChoiceCheckShortcut() {
     ].find((button) => !button.disabled && button.offsetParent !== null);
     if (!selectedChoice) return;
     var check = activeView.querySelector(
-      "#check-vocab, #check-phrase, #check-mixed, #check-application",
+      "#check-vocab, #check-phrase, #check-mixed, #check-application, #check-issue",
     );
     if (!check || check.disabled || check.offsetParent === null) return;
     event.preventDefault();
@@ -300,6 +328,7 @@ document.addEventListener("keydown", (event) => {
     closeProgressModal();
 });
 $("#mixed-hint-button").onclick = showMixedHint;
+$("#mixed-article-hint").onclick = showMixedArticleHint;
 var randomModeControl = document.querySelector("#settings-random-mode");
 randomModeControl.checked = randomMode;
 randomModeControl.onchange = (event) => {

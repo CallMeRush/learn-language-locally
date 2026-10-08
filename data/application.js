@@ -24855,4 +24855,105 @@ const grammarApplications = [
     }
   },
   /* END GENERATED CASE APPLICATIONS */
+  /* Numbers, ordinals and dates: curated, sentence-backed exercises. */
+  {
+    id: "number-1", type: "grammar-application", set: "numbers", grammarId: "grammar-de-30", level: "A1", sourcePhraseId: "100004",
+    translations: { en: { text: "I only have five euros." }, de: { text: "Ich habe nur fünf Euro." } },
+    exercise: { blanked: "Ich habe nur ___ Euro.", answer: "fünf", explanation: "fünf is a cardinal number: it tells how many euros." },
+  },
+  {
+    id: "number-2", type: "grammar-application", set: "numbers", grammarId: "grammar-de-30", level: "A1", sourcePhraseId: "112776",
+    translations: { en: { text: "We eat supper at seven o'clock." }, de: { text: "Wir essen um sieben Uhr Abendbrot." } },
+    exercise: { blanked: "Wir essen um ___ Uhr Abendbrot.", answer: "sieben", explanation: "Use the cardinal number sieben with Uhr." },
+  },
+  {
+    id: "number-3", type: "grammar-application", set: "numbers", grammarId: "grammar-de-30", level: "A2", sourcePhraseId: "111090",
+    translations: { en: { text: "The school day starts at eight o'clock." }, de: { text: "Der Schultag beginnt um acht Uhr." } },
+    exercise: { blanked: "Der Schultag beginnt um ___ Uhr.", answer: "acht", explanation: "Use the cardinal number acht with Uhr." },
+  },
+  {
+    id: "number-4", type: "grammar-application", set: "numbers", grammarId: "grammar-de-30", level: "A2", sourcePhraseId: "112072",
+    translations: { en: { text: "The German class starts at nine o'clock." }, de: { text: "Der Deutschunterricht beginnt um neun Uhr." } },
+    exercise: { blanked: "Der Deutschunterricht beginnt um ___ Uhr.", answer: "neun", explanation: "neun is the cardinal number used for nine o'clock." },
+  },
+  {
+    id: "number-5", type: "grammar-application", set: "numbers", grammarId: "grammar-de-30", level: "B1", sourcePhraseId: "112501",
+    translations: { en: { text: "We're meeting for lunch at twelve o'clock." }, de: { text: "Wir treffen uns zum Lunch um zwölf Uhr." } },
+    exercise: { blanked: "Wir treffen uns zum Lunch um ___ Uhr.", answer: "zwölf", explanation: "zwölf is the cardinal number used for twelve o'clock." },
+  },
+  {
+    id: "number-6", type: "grammar-application", set: "numbers", grammarId: "grammar-de-30", level: "A1", sourcePhraseId: "113562",
+    translations: { en: { text: "The book costs two hundred euros." }, de: { text: "Das Buch kostet zweihundert Euro." } },
+    exercise: { blanked: "Das Buch kostet ___ Euro.", answer: "zweihundert", explanation: "German writes this compound cardinal number as one word." },
+  },
+  {
+    id: "number-7", type: "grammar-application", set: "numbers", grammarId: "grammar-de-30", level: "A1", sourcePhraseId: "119058",
+    translations: { en: { text: "I have ninety books." }, de: { text: "Ich habe neunzig Bücher." } },
+    exercise: { blanked: "Ich habe ___ Bücher.", answer: "neunzig", explanation: "neunzig is the cardinal number ninety." },
+  },
+  {
+    id: "number-8", type: "grammar-application", set: "numbers", grammarId: "grammar-de-30", level: "A1", sourcePhraseId: "119224",
+    translations: { en: { text: "The book has three hundred pages." }, de: { text: "Das Buch hat dreihundert Seiten." } },
+    exercise: { blanked: "Das Buch hat ___ Seiten.", answer: "dreihundert", explanation: "dreihundert is written as one cardinal-number word." },
+  },
+  {
+    id: "number-9", type: "grammar-application", set: "numbers", grammarId: "grammar-de-30", level: "A2", sourcePhraseId: "112593",
+    translations: { en: { text: "The addition of two and three is five." }, de: { text: "Die Addition von zwei und drei ist fünf." } },
+    exercise: { blanked: "Die Addition von zwei und drei ist ___.", answer: "fünf", explanation: "fünf is a cardinal number; it gives the result." },
+  },
+  {
+    id: "number-10", type: "grammar-application", set: "numbers", grammarId: "grammar-de-30", level: "A1", sourcePhraseId: "114765",
+    translations: { en: { text: "Monday is the first weekday." }, de: { text: "Montag ist der erste Wochentag." } },
+    exercise: { blanked: "Montag ist der ___ Wochentag.", answer: "erste", explanation: "erste is an ordinal. Before masculine nominative Wochentag, it has the -e ending." },
+  },
+  {
+    id: "number-11", type: "grammar-application", set: "numbers", grammarId: "grammar-de-30", level: "B1", sourcePhraseId: "114853",
+    translations: { en: { text: "The calendar year begins on the first of January." }, de: { text: "Das Kalenderjahr beginnt am ersten Januar." } },
+    exercise: { blanked: "Das Kalenderjahr beginnt am ___ Januar.", answer: "ersten", explanation: "Dates after am use the ordinal form with -en: am ersten Januar." },
+  },
+  {
+    id: "number-12", type: "grammar-application", set: "numbers", grammarId: "grammar-de-30", level: "A2", sourcePhraseId: "116054",
+    translations: { en: { text: "Today is the twelfth of December." }, de: { text: "Heute ist der zwölfte Dezember." } },
+    exercise: { blanked: "Heute ist der ___ Dezember.", answer: "zwölfte", explanation: "zwölfte is the ordinal twelfth in this date expression." },
+  },
+  {
+    id: "number-13", type: "grammar-application", set: "numbers", grammarId: "grammar-de-30", level: "A2", sourcePhraseId: "100514",
+    translations: { en: { text: "This is the third attempt." }, de: { text: "Das ist der dritte Versuch." } },
+    exercise: { blanked: "Das ist der ___ Versuch.", answer: "dritte", explanation: "dritte is the ordinal third before masculine nominative Versuch." },
+  },
+  {
+    id: "number-14", type: "grammar-application", set: "numbers", grammarId: "grammar-de-30", level: "B1", sourcePhraseId: "100631",
+    translations: { en: { text: "His first attempt was successful." }, de: { text: "Sein erster Versuch war erfolgreich." } },
+    exercise: { blanked: "Sein ___ Versuch war erfolgreich.", answer: "erster", explanation: "erster is the masculine nominative ordinal form after sein." },
+  },
+  {
+    id: "number-15", type: "grammar-application", set: "numbers", grammarId: "grammar-de-30", level: "A2", sourcePhraseId: "104808",
+    translations: { en: { text: "This is the tenth attempt." }, de: { text: "Das ist der zehnte Versuch." } },
+    exercise: { blanked: "Das ist der ___ Versuch.", answer: "zehnte", explanation: "zehnte is the ordinal tenth before masculine nominative Versuch." },
+  },
+  {
+    id: "number-16", type: "grammar-application", set: "numbers", grammarId: "grammar-de-30", level: "B1", sourcePhraseId: "107706",
+    translations: { en: { text: "The marketing department is on the third floor." }, de: { text: "Das Department für Marketing ist im dritten Stock." } },
+    exercise: { blanked: "Das Department für Marketing ist im ___ Stock.", answer: "dritten", explanation: "im contracts in dem, so the ordinal takes the dative -en ending: im dritten Stock." },
+  },
+  {
+    id: "number-17", type: "grammar-application", set: "numbers", grammarId: "grammar-de-30", level: "A1", sourcePhraseId: "110894",
+    translations: { en: { text: "He is the sixth player in the team." }, de: { text: "Er ist der sechste Spieler im Team." } },
+    exercise: { blanked: "Er ist der ___ Spieler im Team.", answer: "sechste", explanation: "sechste is the ordinal sixth before masculine nominative Spieler." },
+  },
+  {
+    id: "number-18", type: "grammar-application", set: "numbers", grammarId: "grammar-de-30", level: "A2", sourcePhraseId: "105835",
+    translations: { en: { text: "He took ninth place in the race." }, de: { text: "Er belegte den neunten Platz im Rennen." } },
+    exercise: { blanked: "Er belegte den ___ Platz im Rennen.", answer: "neunten", explanation: "Platz is masculine accusative after belegen, so neunte takes the -en ending." },
+  },
+  {
+    id: "number-19", type: "grammar-application", set: "numbers", grammarId: "grammar-de-30", level: "B1", sourcePhraseId: "118965",
+    translations: { en: { text: "International Women's Day is on March 8th." }, de: { text: "Der Internationale Frauentag ist am 8. März." } },
+    exercise: { blanked: "Der Internationale Frauentag ist am ___ März.", answer: "8.", explanation: "German numeric dates use a period after the ordinal number: am 8. März." },
+  },
+  {
+    id: "number-20", type: "grammar-application", set: "numbers", grammarId: "grammar-de-30", level: "B1", sourcePhraseId: "119318",
+    translations: { en: { text: "In the first apprenticeship year, one learns the basics." }, de: { text: "Im ersten Lehrjahr lernt man die Grundlagen." } },
+    exercise: { blanked: "Im ___ Lehrjahr lernt man die Grundlagen.", answer: "ersten", explanation: "im means in dem, so the ordinal uses the dative -en ending: im ersten Lehrjahr." },
+  },
 ];

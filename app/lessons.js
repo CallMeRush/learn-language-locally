@@ -105,6 +105,7 @@ function restoreMixedDesk() {
   document.getElementById("lesson-list").hidden = false;
   $("#check-mixed").style.display = "";
   $("#next-mixed").textContent = "New random question ↻";
+  $("#next-mixed").hidden = true;
   if (hadSession) save();
 }
 function lessonUnitSteps(unit) {
@@ -162,27 +163,18 @@ function lessonStepCardHtml(lesson) {
     " <span>→</span></button></article>"
   );
 }
-function lessonUnitDetailHtml(unit, index, progress) {
-  var locale = unit.localized.en;
+function lessonUnitDetailHtml(unit, progress) {
   return (
     '<section class="lesson-unit-detail" data-lesson-unit-detail="' +
     unit.id +
-    '"><header><div><p class="eyebrow">' +
-    unit.level +
-    " · UNIT " +
-    String(index + 1).padStart(2, "0") +
-    "</p><h2>" +
-    locale.title +
-    "</h2><p>" +
-    locale.description +
-    "</p></div><span>" +
-    progress.completed +
-    " / " +
-    progress.steps.length +
-    ' complete</span></header><div class="lesson-step-list">' +
+    '"><div class="lesson-step-list">' +
     progress.steps.map(lessonStepCardHtml).join("") +
     "</div></section>"
   );
+}
+function toggleLessonUnit(unitId) {
+  expandedLessonUnit = expandedLessonUnit === unitId ? null : unitId;
+  renderLessons();
 }
 function renderLessons() {
   var el = $("#lesson-list");
@@ -226,6 +218,8 @@ function renderLessons() {
           (expanded ? "expanded" : "") +
           '" data-lesson-unit="' +
           item.id +
+          '" tabindex="0" role="button" aria-expanded="' +
+          expanded +
           '"><div class="lesson-path-number">' +
           String(index + 1).padStart(2, "0") +
           '</div><div class="lesson-path-copy"><span class="grammar-level">' +
@@ -238,28 +232,35 @@ function renderLessons() {
           locale.description +
           '</p><div class="lesson-path-details"><small>' +
           progress.completed +
-          " of " +
+          " / " +
           progress.steps.length +
-          " rounds complete</small>" +
+          " complete</small>" +
           (progress.resumed ? "<small>In progress</small>" : "") +
           '</div></div><button class="primary-btn lesson-unit-open">' +
           (expanded ? "Hide rounds" : done ? "Review unit" : "Open unit") +
           " <span>" +
           (expanded ? "↑" : "→") +
           "</span></button></article>" +
-          (expanded ? lessonUnitDetailHtml(item, index, progress) : "") +
+          (expanded ? lessonUnitDetailHtml(item, progress) : "") +
           "</div>"
         );
       })
       .join("") +
     "</div>";
   el.querySelectorAll("[data-lesson-unit]").forEach((card) => {
-    card.querySelector(".lesson-unit-open").onclick = () => {
-      expandedLessonUnit =
-        expandedLessonUnit === card.dataset.lessonUnit
-          ? null
-          : card.dataset.lessonUnit;
-      renderLessons();
+    var toggle = () => toggleLessonUnit(card.dataset.lessonUnit);
+    card.onclick = (event) => {
+      if (!event.target.closest(".lesson-unit-open")) toggle();
+    };
+    card.onkeydown = (event) => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        toggle();
+      }
+    };
+    card.querySelector(".lesson-unit-open").onclick = (event) => {
+      event.stopPropagation();
+      toggle();
     };
   });
   el.querySelectorAll("[data-lesson-id]").forEach((card) => {
@@ -414,4 +415,5 @@ function finishLesson() {
   $("#mixed-feedback").className = "feedback good";
   $("#check-mixed").style.display = "none";
   $("#next-mixed").textContent = "Back to lessons →";
+  $("#next-mixed").hidden = false;
 }

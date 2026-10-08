@@ -79,6 +79,9 @@ shows only its three rounds; progress is tracked per round.
 - [`scripts/`](scripts/) — dictionary and project utility scripts.
 
 See [`data/README.md`](data/README.md) for the content format.
+See [`docs/interaction-model.md`](docs/interaction-model.md) for the shared
+study-desk interaction contract: selection behavior, keyboard controls, card
+stability, and grammar-application variations.
 
 ## Continue development
 

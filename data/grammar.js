@@ -2228,5 +2228,91 @@ const grammarRecords = [
       },
     ],
   },
+  {
+    id: "grammar-de-30",
+    type: "grammar",
+    targetLanguage: "de",
+    level: "A1",
+    tag: "NUMBERS & DATES",
+    localized: {
+      en: {
+        title: "Numbers, ordinals and dates",
+        intro:
+          "German cardinal numbers tell us how many; ordinal numbers tell us the order. Ordinals are also used for dates, where they normally take an ending after am or im.",
+        rules: [
+          "Cardinal numbers are words such as fünf, zwölf and zweihundert: Ich habe fünf Euro.",
+          "For 21 and above, German says the units before the tens: einundzwanzig (one-and-twenty).",
+          "Ordinals usually end in -te up to 19 and -ste from 20: der erste, der dritte, der zwanzigste.",
+          "In a date, use am + ordinal: am ersten Januar or am 8. März. Months are capitalized.",
+        ],
+        tables: [
+          {
+            caption: "Useful forms",
+            headers: ["Cardinal", "Ordinal", "Date example"],
+            rows: [
+              ["eins", "erste / ersten", "am ersten Januar"],
+              ["drei", "dritte / dritten", "am dritten Mai"],
+              ["zwölf", "zwölfte / zwölften", "am zwölften Dezember"],
+              ["zwanzig", "zwanzigste / zwanzigsten", "am zwanzigsten Juni"],
+            ],
+          },
+        ],
+        examples: [
+          {
+            de: "Wir essen um sieben Uhr Abendbrot.",
+            en: "We eat supper at seven o'clock.",
+            note: "cardinal number + Uhr",
+          },
+          {
+            de: "Montag ist der erste Wochentag.",
+            en: "Monday is the first weekday.",
+            note: "ordinal before a masculine noun",
+          },
+          {
+            de: "Das Kalenderjahr beginnt am ersten Januar.",
+            en: "The calendar year begins on the first of January.",
+            note: "am + ordinal date form",
+          },
+          {
+            de: "Heute ist der zwölfte Dezember.",
+            en: "Today is the twelfth of December.",
+            note: "date as a predicate",
+          },
+        ],
+      },
+    },
+    tests: [
+      {
+        prompt: "Complete: Der Kurs beginnt um ___ Uhr. (eight)",
+        answers: ["acht"],
+        explain: "Use a cardinal number with Uhr.",
+      },
+      {
+        prompt: "Complete: Das ist der ___ Versuch. (third)",
+        answers: ["dritte"],
+        explain: "Before the masculine nominative noun Versuch, dritte has the -e ending.",
+      },
+      {
+        prompt: "Complete: Das Jahr beginnt am ___ Januar. (first)",
+        answers: ["ersten"],
+        explain: "Dates after am use the ordinal form with -en: am ersten Januar.",
+      },
+      {
+        prompt: "Write in German: 21",
+        answers: ["einundzwanzig"],
+        explain: "For numbers above twenty, German puts the unit before und and the tens.",
+      },
+      {
+        prompt: "Translate into German: Today is the twelfth of December.",
+        answers: ["Heute ist der zwölfte Dezember."],
+        explain: "Use the ordinal zwölfte and capitalize the month.",
+      },
+      {
+        prompt: "Translate into English: Montag ist der erste Wochentag.",
+        answers: ["Monday is the first weekday."],
+        explain: "erste is an ordinal number: first.",
+      },
+    ],
+  },
 ];
 const grammarLessons = grammarRecords;

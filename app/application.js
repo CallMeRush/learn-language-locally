@@ -27,6 +27,11 @@ function applicationSetDetails(set) {
       description:
         "Choose the fixed-case preposition that completes the phrase.",
     },
+    numbers: {
+      label: "Numbers, ordinals and dates",
+      description:
+        "Recall the number or ordinal form that completes the phrase.",
+    },
   }[set];
 }
 function applicationUsesMultipleChoice(record = applicationCurrent) {
@@ -283,8 +288,11 @@ function applicationRecordAttempt(correct, complete = false) {
   var progress = applicationProgress();
   state.attempts++;
   if (correct) state.correct++;
-  else if (!progress.mistakes.includes(applicationCurrent.id))
-    progress.mistakes.push(applicationCurrent.id);
+  else {
+    removeIssueQuarantine("application", applicationCurrent.id);
+    if (!progress.mistakes.includes(applicationCurrent.id))
+      progress.mistakes.push(applicationCurrent.id);
+  }
   if (complete && !progress.applied.includes(applicationCurrent.id))
     progress.applied.push(applicationCurrent.id);
   save();

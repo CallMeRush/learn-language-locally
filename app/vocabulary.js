@@ -503,6 +503,7 @@ function refreshArticleChoices() {
       if (article) {
         if (selector === "[data-article]") button.dataset.article = article;
         else button.dataset.mixedArticle = article;
+        button.setAttribute("aria-keyshortcuts", String(index + 1));
         button.innerHTML = `<small>${index + 1}</small>${article}`;
       }
     });
@@ -546,6 +547,7 @@ function checkVocab() {
     $("#vocab-feedback").className = "feedback good";
     save();
   } else {
+    removeIssueQuarantine("vocabulary", w.id);
     progress.learned = progress.learned.filter((id) => id !== w.id);
     if (!progress.issues.includes(w.id)) progress.issues.push(w.id);
     recordMistake(w.id, !articleCorrect && wordCorrect, progress);

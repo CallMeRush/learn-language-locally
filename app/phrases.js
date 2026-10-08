@@ -416,6 +416,7 @@ function checkPhrase(reveal = false) {
       " Press Enter again for the next phrase.";
     $("#phrase-feedback").className = "feedback good";
   } else {
+    removeIssueQuarantine("phrase", p.id);
     progress.phrases = progress.phrases.filter((id) => id !== p.id);
     if (!progress.issues.includes(p.id)) progress.issues.push(p.id);
     recordPhraseMistake(p.id, progress);

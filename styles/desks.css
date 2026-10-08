@@ -164,13 +164,9 @@
   background: var(--accent-wash);
   border-left-color: var(--accent-border);
 }
-.lesson-unit-detail > header,
 .mixed-builder-note,
 .settings-note {
   background: var(--accent-wash);
-}
-.lesson-unit-detail > header {
-  border-color: var(--accent-border);
 }
 .application-tabs button.active,
 .mixed-builder-chip.selected {
@@ -192,8 +188,7 @@ html[data-background="dark"] .settings-note {
   color: var(--muted) !important;
 }
 html[data-background="dark"] .dictionary-example,
-html[data-background="dark"] .mixed-builder-note,
-html[data-background="dark"] .lesson-unit-detail > header {
+html[data-background="dark"] .mixed-builder-note {
   background: #20242a;
   border-color: #414752;
 }
@@ -775,14 +770,20 @@ button.word-row .word-check {
   color: #9da7a0;
   opacity: 0.58;
 }
-.vocabulary-study-panel:not(.phrase-study-panel) .study-switch {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+#word-list .study-switch {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 .phrase-study-panel .study-switch {
   grid-template-columns: repeat(5, minmax(0, 1fr));
 }
-.vocabulary-study-panel:not(.phrase-study-panel) .study-switch button {
+#word-list .study-switch button {
   padding-inline: 1px;
+  font-size: 8px;
+  letter-spacing: -0.15px;
+  white-space: nowrap;
+}
+#word-list .study-switch small {
+  font-size: 9px;
 }
 .practice-meta {
   display: flex;
@@ -928,6 +929,123 @@ button.word-row .word-check {
   }
   .grammar-test-head > span {
     padding-top: 0;
+  }
+}
+
+/* Mixed practice uses the same focused-card and companion-panel pattern as
+   vocabulary and phrases; its sources remain configurable above the desk. */
+#mixed-view .mixed-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 480px) minmax(280px, 1fr);
+  max-width: 880px;
+  margin: 0 auto;
+  gap: 18px;
+  align-items: start;
+}
+#mixed-view .mixed-card {
+  grid-column: 1;
+  width: 100%;
+  min-height: 0;
+  margin: 0;
+  padding: clamp(24px, 3vw, 36px);
+}
+#mixed-view .mixed-prompt {
+  color: var(--green);
+  font: italic clamp(30px, 4vw, 44px) Georgia;
+  letter-spacing: -1px;
+  line-height: 1.15;
+  margin: 28px 0 8px;
+  overflow-wrap: anywhere;
+}
+#mixed-view .mixed-card .phrase-hint {
+  min-height: 18px;
+  margin: 0;
+}
+#mixed-view .mixed-card .choice-options {
+  margin: 18px 0 10px;
+}
+#mixed-view .mixed-card .phrase-actions {
+  margin-top: 17px;
+}
+.mixed-session-panel {
+  grid-column: 2;
+  display: block;
+  max-height: min(70vh, 560px);
+  overflow: auto;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 16px;
+}
+.mixed-session-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 12px;
+}
+.mixed-session-heading .eyebrow {
+  margin: 0 0 5px;
+}
+.mixed-session-heading strong {
+  font-size: 16px;
+}
+.mixed-session-heading > span {
+  color: var(--green);
+  font: 10px "DM Mono";
+  white-space: nowrap;
+}
+.mixed-session-rows {
+  display: grid;
+  gap: 5px;
+  margin-top: 12px;
+}
+.mixed-session-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 9px 10px;
+  border-radius: 7px;
+  color: var(--muted);
+  font-size: 12px;
+}
+.mixed-session-row.current {
+  background: var(--mint);
+  color: var(--green);
+  font-weight: 700;
+}
+.mixed-session-row small {
+  color: inherit;
+  font: 10px "DM Mono";
+}
+.mixed-session-note {
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.5;
+  margin: 12px 0 0;
+  padding-top: 12px;
+}
+.lesson-session .mixed-session-panel {
+  display: none;
+}
+html[data-background="dark"] .mixed-session-panel {
+  background: #252931;
+  border-color: #3c424c;
+}
+@media (max-width: 1020px) {
+  #mixed-view .mixed-layout {
+    grid-template-columns: minmax(0, 1fr);
+    max-width: 560px;
+  }
+  #mixed-view .mixed-card,
+  .mixed-session-panel {
+    grid-column: 1;
+    max-width: none;
+  }
+  .mixed-session-panel {
+    max-height: none;
   }
 }
 .mixed-builder {
@@ -1193,10 +1311,14 @@ button.word-row .word-check {
   padding: 14px 16px;
 }
 .lesson-unit-card {
-  cursor: default;
+  cursor: pointer;
 }
 .lesson-unit-card:hover {
   border-color: #aec4b1;
+}
+.lesson-unit-card:focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: 3px;
 }
 .lesson-unit-card.completed,
 .lesson-step-card.completed {
@@ -1240,37 +1362,6 @@ button.word-row .word-check {
 .lesson-unit-detail {
   margin: 0;
 }
-.lesson-unit-detail > header {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  align-items: flex-start;
-  background: #eef4ee;
-  border: 1px solid #d7e3d7;
-  border-radius: 10px;
-  padding: 21px 23px;
-  margin-bottom: 14px;
-}
-.lesson-unit-detail h2 {
-  font-size: 27px;
-  letter-spacing: -1px;
-  margin: 4px 0 6px;
-}
-.lesson-unit-detail header p:not(.eyebrow) {
-  max-width: 620px;
-  color: #627168;
-  font-size: 12px;
-  line-height: 1.6;
-  margin: 0;
-}
-.lesson-unit-detail header > span {
-  font: 10px "DM Mono";
-  white-space: nowrap;
-  color: var(--green);
-  background: #fff;
-  border-radius: 5px;
-  padding: 7px 8px;
-}
 .lesson-step-card .lesson-start,
 .lesson-unit-card .lesson-unit-open {
   max-width: 150px;
@@ -1297,14 +1388,6 @@ button.word-row .word-check {
   .lesson-step-card .lesson-start {
     grid-column: 2;
     justify-self: start;
-  }
-  .lesson-unit-detail > header {
-    flex-direction: column;
-    gap: 10px;
-    padding: 19px;
-  }
-  .lesson-unit-detail h2 {
-    font-size: 24px;
   }
 }
 .settings-panel {
@@ -1541,7 +1624,6 @@ html[data-background="dark"] .mixed-card,
 html[data-background="dark"] .application-builder,
 html[data-background="dark"] .application-card,
 html[data-background="dark"] .lesson-unit-card,
-html[data-background="dark"] .lesson-unit-detail > header,
 html[data-background="dark"] .settings-panel,
 html[data-background="dark"] .progress-modal-card,
 html[data-background="dark"] .issue-item,
@@ -1553,6 +1635,16 @@ html[data-background="dark"] .phrase-study-panel {
 html[data-background="dark"] .lesson-step-card {
   background: #1f2228;
   border-color: #454c56;
+}
+html[data-background="dark"] .lesson-progress-summary {
+  background: #252931;
+  border-color: #3c424c;
+}
+html[data-background="dark"] .lesson-progress-summary strong {
+  color: #f0f3f6;
+}
+html[data-background="dark"] .lesson-progress-summary small {
+  color: #b7bec8;
 }
 html[data-background="dark"] .category-tabs button,
 html[data-background="dark"] .phrase-category-tabs button,
@@ -1599,7 +1691,6 @@ html[data-background="dark"] .choice-option,
 html[data-background="dark"] .grammar-example-tabs button,
 html[data-background="dark"] .mixed-builder-chip,
 html[data-background="dark"] .application-tabs button,
-html[data-background="dark"] .lesson-unit-detail header > span,
 html[data-background="dark"] .lesson-path-details small,
 html[data-background="dark"] .import-drop-zone,
 html[data-background="dark"] .empty-state {
@@ -1649,7 +1740,6 @@ html[data-background="dark"] .dictionary-result span,
 html[data-background="dark"] .dictionary-result-head > small,
 html[data-background="dark"] .dictionary-example b,
 html[data-background="dark"] .dictionary-example small,
-html[data-background="dark"] .lesson-unit-detail header p:not(.eyebrow),
 html[data-background="dark"] .lesson-path-details small,
 html[data-background="dark"] .import-drop-zone,
 html[data-background="dark"] .dictionary-empty {
@@ -2133,4 +2223,68 @@ html[data-background="dark"] .grammar-card-disclosure:hover {
     min-height: 38px;
     padding-inline: 7px;
   }
+  #word-list .study-switch {
+    gap: 1px;
+  }
+  #word-list .study-switch button {
+    padding-inline: 0;
+  }
+}
+
+/* Keep mixed topic filters visually identical to the Vocabulary category chips. */
+.mixed-builder-category .mixed-builder-chip {
+  background: #fff;
+  color: #9da7a0;
+}
+.mixed-builder-category .mixed-builder-chip.selected {
+  background: #fff;
+  border-color: #b7cdbb;
+  color: var(--green);
+  opacity: 1;
+}
+.mixed-builder-category .mixed-builder-chip.selected i {
+  color: var(--green);
+}
+html[data-background="dark"] .mixed-builder-category .mixed-builder-chip,
+html[data-background="dark"] .mixed-builder-category .mixed-builder-chip.selected {
+  background: #1f2228;
+  border-color: #454c56;
+}
+html[data-background="dark"] .mixed-builder-category .mixed-builder-chip.selected {
+  background: var(--green);
+  border-color: var(--green);
+  color: #fff;
+}
+html[data-background="dark"] .mixed-builder-category .mixed-builder-chip.selected i {
+  color: #fff;
+}
+
+.issue-layout .issue-card {
+  grid-column: 1;
+  grid-row: 1;
+  width: 100%;
+  max-width: 480px;
+  margin: 0;
+  min-height: 0;
+  padding: clamp(24px, 3vw, 36px);
+}
+.issue-layout .issue-study-panel {
+  grid-column: 2;
+  grid-row: 1;
+}
+.issue-study-panel .study-switch {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.issue-prompt {
+  overflow-wrap: anywhere;
+}
+@media (max-width: 1020px) {
+  .issue-layout .issue-card,
+  .issue-layout .issue-study-panel {
+    grid-column: 1;
+    grid-row: auto;
+    max-width: none;
+  }
+  .issue-layout .issue-card { order: 1; }
+  .issue-layout .issue-study-panel { order: 2; }
 }
